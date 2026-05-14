@@ -31,16 +31,12 @@ cd "$HOME/projects/AutoGenAI" || exit 1
 
 echo "--- Claude finished at $(date) ---" >> "$LOG_FILE"
 
-# Commit and push to GitHub (updates both main and gh-pages)
+# Commit and push to GitHub
 git add -A
 git commit -m "auto: daily report $(date +%Y-%m-%d)" >> "$LOG_FILE" 2>&1
-
 git push origin main >> "$LOG_FILE" 2>&1
 
-# Sync gh-pages branch so GitHub Pages updates too
-git checkout gh-pages >> "$LOG_FILE" 2>&1
-git merge main --no-edit >> "$LOG_FILE" 2>&1
-git push origin gh-pages >> "$LOG_FILE" 2>&1
-git checkout main >> "$LOG_FILE" 2>&1
+# Sync gh-pages without branch checkout (avoids open-file conflicts)
+git push origin main:gh-pages >> "$LOG_FILE" 2>&1
 
 echo "=== $(date) | All done ===" >> "$LOG_FILE"
