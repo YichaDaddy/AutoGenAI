@@ -1,0 +1,4 @@
+.DS_Store
+__pycache__/
+*.pyc
+skills/solopreneur-topic-miner/latest_raw_data.json

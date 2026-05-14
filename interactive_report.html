@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>互動式專案週報</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+  }
+  h1 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+  }
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    border-left: 5px solid #3498db;
+  }
+  .interactive-section {
+    background-color: #e8f4f8;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px dashed #3498db;
+  }
+
+  /* 滑桿樣式 */
+  .slider-container {
+    margin: 20px 0;
+  }
+  input[type=range] {
+    width: 100%;
+    cursor: pointer;
+  }
+  .value-display {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #e74c3c;
+  }
+
+  /* 按鈕樣式 */
+  .btn-copy {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .btn-copy:hover {
+    background-color: #27ae60;
+  }
+  #copyStatus {
+    color: #27ae60;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    display: none;
+  }
+
+  details {
+    background-color: #fafafa;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #eee;
+    margin-top: 10px;
+  }
+  summary { font-weight: bold; color: #2980b9; cursor: pointer; }
+</style>
+</head>
+<body>
+
+  <h1>🚀 本週專案互動週報</h1>
+  <p>這是一份展示「雙向互動」的 HTML 報告。主管可以直接在網頁上操作資源調配，並一鍵匯出決策結果。</p>
+
+  <div class="card">
+    <h2>1. 專案現況總覽</h2>
+    <details open>
+      <summary>點擊展開本週進度細節</summary>
+      <ul>
+        <li>核心模組開發已完成 80%，符合預期。</li>
+        <li>前端介面設計遇到瓶頸，進度稍有落後。</li>
+      </ul>
+    </details>
+  </div>
+
+  <div class="interactive-section">
+    <h2>2. 資源分配模擬器 (互動滑桿)</h2>
+    <p>💡 <strong>請主管直接拖曳下方滑桿</strong>，決定下週「前端設計」與「後端開發」的人力資源投入佔比：</p>
+
+    <div class="slider-container">
+      <label>前端人力投入比例: <span class="value-display" id="frontEndValue">50</span>%</label>
+      <input type="range" id="resourceSlider" min="0" max="100" value="50" oninput="updateValues()">
+      <label style="display:block; margin-top:10px;">後端人力投入比例: <span class="value-display" id="backEndValue" style="color:#2980b9;">50</span>%</label>
+    </div>
+
+    <hr style="border:1px solid #cce7f0; margin:20px 0;">
+
+    <h2>3. 匯出會議決策 (雙向協作)</h2>
+    <p>調整完上述參數後，請點擊下方按鈕。系統會將您的決策自動打包成精確的「指示詞 (Prompt)」，您可以直接貼給工程師交辦，或貼回給 AI 讓它重新生成甘特圖。</p>
+
+    <button class="btn-copy" onclick="copyPrompt()">📋 複製決策為 Prompt (指示詞)</button>
+    <p id="copyStatus">✅ 已成功複製到剪貼簿！請在文字編輯器或通訊軟體中貼上 (Ctrl+V)。</p>
+  </div>
+
+  <script>
+    function updateValues() {
+      const frontEnd = document.getElementById('resourceSlider').value;
+      const backEnd = 100 - frontEnd;
+      document.getElementById('frontEndValue').innerText = frontEnd;
+      document.getElementById('backEndValue').innerText = backEnd;
+    }
+
+    function copyPrompt() {
+      const frontEnd = document.getElementById('resourceSlider').value;
+      const backEnd = 100 - frontEnd;
+
+      const promptText = `【主管決策確認】\n請根據最新會議指示調整下週專案排程：\n- 前端資源投入比例調整為：${frontEnd}%\n- 後端資源投入比例調整為：${backEnd}%\n\n請以這個最新比例，為我重新規劃下週的甘特圖與里程碑。`;
+
+      navigator.clipboard.writeText(promptText).then(() => {
+        const statusText = document.getElementById('copyStatus');
+        statusText.style.display = 'block';
+        setTimeout(() => {
+          statusText.style.display = 'none';
+        }, 3000);
+      }).catch(err => {
+        alert("複製失敗，請手動框選文字複製。");
+      });
+    }
+  </script>
+
+</body>
+</html>

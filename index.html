@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI 日報</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --red:          #E53E3E;
+      --red-bg:       #FFF5F5;
+      --red-border:   #FED7D7;
+      --blue:         #2B6CB0;
+      --blue-bg:      #EBF8FF;
+      --blue-border:  #BEE3F8;
+      --green:        #276749;
+      --green-bg:     #F0FFF4;
+      --green-border: #C6F6D5;
+      --ink:          #1A202C;
+      --ink-2:        #2D3748;
+      --muted:        #718096;
+      --faint:        #A0AEC0;
+      --surface:      #FFFFFF;
+      --page:         #F7F8FA;
+      --border:       #E8ECF0;
+      --shadow-sm:    0 1px 3px rgba(0,0,0,0.07), 0 1px 2px rgba(0,0,0,0.04);
+      --shadow-md:    0 4px 16px rgba(0,0,0,0.08), 0 2px 6px rgba(0,0,0,0.04);
+      --radius:       14px;
+      --header-h:     64px;
+      --tabs-h:       52px;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--page);
+      color: var(--ink);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ─── Progress bar ─── */
+    #progress {
+      position: fixed; top: 0; left: 0; height: 3px;
+      background: linear-gradient(90deg, #6366F1, #10B981);
+      width: 0%; z-index: 300;
+      transition: width 0.1s linear;
+    }
+
+    /* ─── Header ─── */
+    .site-header {
+      background: #0D1117;
+      color: #fff;
+      padding: 0 2rem;
+      height: var(--header-h);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 200;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .header-left { display: flex; align-items: center; gap: 12px; }
+    .header-logo {
+      width: 36px; height: 36px;
+      background: linear-gradient(135deg, #6366F1 0%, #10B981 100%);
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px; flex-shrink: 0;
+      box-shadow: 0 0 0 1px rgba(255,255,255,0.1);
+    }
+    .header-brand { font-size: 16px; font-weight: 800; letter-spacing: -0.3px; }
+    .header-sub   { font-size: 11px; color: #6B7280; margin-top: 1px; font-weight: 500; }
+    .header-right { text-align: right; }
+    .header-date  { font-size: 13px; font-weight: 700; color: #E5E7EB; letter-spacing: 0.2px; }
+    .header-count {
+      display: inline-block; margin-top: 2px;
+      font-size: 10px; font-weight: 600; color: #374151;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 99px; padding: 1px 8px;
+      letter-spacing: 0.3px;
+    }
+
+    /* ─── Date Tab Bar ─── */
+    .date-nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      height: var(--tabs-h);
+      display: flex;
+      align-items: center;
+      padding: 0 2rem;
+      gap: 6px;
+      position: sticky;
+      top: var(--header-h);
+      z-index: 100;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+    .date-nav::-webkit-scrollbar { display: none; }
+
+    .date-nav-label {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--faint);
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      white-space: nowrap;
+      margin-right: 4px;
+    }
+
+    .date-tab {
+      flex-shrink: 0;
+      padding: 5px 14px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--muted);
+      font-family: inherit;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-tab:hover {
+      background: var(--page);
+      color: var(--ink);
+      border-color: #CBD5E0;
+    }
+    .date-tab.active {
+      background: var(--ink);
+      color: #fff;
+      border-color: var(--ink);
+    }
+
+    /* ─── Layout ─── */
+    .container { max-width: 1020px; margin: 0 auto; padding: 2.5rem 1.5rem 5rem; }
+
+    /* ─── Day Panels ─── */
+    .day-panel { display: none; }
+    .day-panel.active { display: block; }
+
+    /* ─── Section ─── */
+    .report-section { margin-bottom: 3rem; }
+    .report-section {
+      opacity: 0;
+      transform: translateY(10px);
+      animation: fadeUp 0.35s ease forwards;
+    }
+    .report-section:nth-child(1) { animation-delay: 0.04s; }
+    .report-section:nth-child(2) { animation-delay: 0.12s; }
+    .report-section:nth-child(3) { animation-delay: 0.20s; }
+    @keyframes fadeUp {
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .section-header {
+      display: flex; align-items: center; gap: 12px; margin-bottom: 1.5rem;
+    }
+    .section-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+    .dot-red   { background: var(--red);   box-shadow: 0 0 0 3px #FED7D7; }
+    .dot-blue  { background: var(--blue);  box-shadow: 0 0 0 3px #BEE3F8; }
+    .dot-green { background: var(--green); box-shadow: 0 0 0 3px #C6F6D5; }
+
+    .section-label {
+      font-size: 13px; font-weight: 800;
+      letter-spacing: 0.8px; text-transform: uppercase;
+    }
+    .label-red   { color: var(--red); }
+    .label-blue  { color: var(--blue); }
+    .label-green { color: var(--green); }
+
+    .section-count {
+      font-size: 11px; font-weight: 600;
+      padding: 2px 10px; border-radius: 99px; margin-left: 2px;
+    }
+    .count-red   { background: var(--red-bg);   color: var(--red);   border: 1px solid var(--red-border); }
+    .count-blue  { background: var(--blue-bg);  color: var(--blue);  border: 1px solid var(--blue-border); }
+    .count-green { background: var(--green-bg); color: var(--green); border: 1px solid var(--green-border); }
+
+    .section-line { flex: 1; height: 1px; background: var(--border); }
+
+    /* ─── Cards Grid ─── */
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(460px, 1fr));
+      gap: 1.25rem;
+    }
+    @media (max-width: 680px) { .cards-grid { grid-template-columns: 1fr; } }
+
+    /* ─── News Card ─── */
+    .news-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      transition: box-shadow 0.2s, transform 0.2s;
+      display: flex; flex-direction: column;
+    }
+    .news-card:hover { box-shadow: var(--shadow-md); transform: translateY(-3px); }
+
+    .card-accent { height: 4px; width: 100%; }
+    .accent-red   { background: linear-gradient(90deg, #E53E3E, #FC8181); }
+    .accent-blue  { background: linear-gradient(90deg, #2B6CB0, #63B3ED); }
+    .accent-green { background: linear-gradient(90deg, #276749, #68D391); }
+
+    .card-body { padding: 1.25rem 1.25rem 1rem; flex: 1; display: flex; flex-direction: column; }
+
+    .card-title {
+      font-size: 15.5px; font-weight: 700; color: var(--ink);
+      line-height: 1.5; margin-bottom: 12px; letter-spacing: -0.1px;
+    }
+
+    /* ─── Source Tags ─── */
+    .sources-row { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 14px; }
+    .source-tag {
+      display: inline-flex; align-items: center; gap: 4px;
+      padding: 3px 10px;
+      background: #F1F5F9; color: #334155; border: 1px solid #E2E8F0;
+      border-radius: 6px; font-size: 11px; font-weight: 600;
+      text-decoration: none; transition: background 0.15s, border-color 0.15s;
+    }
+    .source-tag::before { content: '↗'; font-size: 9px; color: var(--faint); }
+    .source-tag:hover { background: #E2E8F0; border-color: #CBD5E0; }
+
+    /* ─── Summary ─── */
+    .summary {
+      font-size: 13.5px; color: #4A5568; line-height: 1.7;
+      margin-bottom: 16px; padding: 12px 14px;
+      background: #F8FAFC; border-radius: 8px; border: 1px solid #EDF2F7;
+    }
+
+    /* ─── Insight Panel ─── */
+    .insight-panel {
+      border: 1px solid var(--border); border-radius: 10px;
+      overflow: hidden; margin-top: auto;
+    }
+    .insight-row {
+      display: grid; grid-template-columns: 80px 1fr;
+      border-bottom: 1px solid var(--border);
+    }
+    .insight-row:last-child { border-bottom: none; }
+
+    .insight-label {
+      font-size: 10px; font-weight: 700;
+      letter-spacing: 0.5px; text-transform: uppercase;
+      color: var(--faint); padding: 10px 12px;
+      background: #FAFBFC;
+      display: flex; align-items: flex-start;
+      border-right: 1px solid var(--border); line-height: 1.4;
+    }
+    .insight-value {
+      font-size: 12.5px; color: var(--ink-2); line-height: 1.6; padding: 10px 12px;
+    }
+
+    .title-row .insight-label { background: #FFFBEB; color: #92400E; border-right-color: #FDE68A; }
+    .title-row .insight-value { background: #FFFBEB; font-weight: 700; color: #78350F; }
+
+    .local-row .insight-label { background: #F0FFF4; color: #276749; border-right-color: #C6F6D5; }
+    .local-row .insight-value { background: #F0FFF4; color: #22543D; font-size: 12px; }
+
+    /* ─── Footer ─── */
+    .site-footer {
+      background: var(--surface); border-top: 1px solid var(--border);
+      padding: 14px 2rem; display: flex;
+      justify-content: space-between; align-items: center;
+      font-size: 11px; color: var(--faint); font-weight: 500;
+    }
+    .footer-dot {
+      width: 4px; height: 4px; border-radius: 50%;
+      background: var(--faint); display: inline-block;
+      margin: 0 8px; vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="progress"></div>
+
+  <header class="site-header">
+    <div class="header-left">
+      <div class="header-logo">🤖</div>
+      <div>
+        <div class="header-brand">AI 日報</div>
+        <div class="header-sub">AI 效率工具 · 為中文自媒體選題整理</div>
+      </div>
+    </div>
+    <div class="header-right">
+      <div class="header-date" id="hdr-date">2026-05-13</div>
+      <div class="header-count" id="hdr-count">共 11 則情報</div>
+    </div>
+  </header>
+
+  <nav class="date-nav">
+    <span class="date-nav-label">日期</span>
+    <button class="date-tab active" data-target="day-2026-05-13" data-date="2026-05-13">05-13</button>
+<button class="date-tab " data-target="day-2026-05-06" data-date="2026-05-06">05-06</button>
+
+  </nav>
+
+  <main class="container">
+    <div id="day-2026-05-13" class="day-panel active" data-date="2026-05-13" data-total="11">
+  <section class="report-section">
+  <div class="section-header">
+    <span class="section-dot dot-red"></span>
+    <span class="section-label label-red">大事件</span>
+    <span class="section-count count-red">4 則</span>
+    <span class="section-line"></span>
+  </div>
+  <div class="cards-grid">
+    <div class="news-card">
+      <div class="card-accent accent-red"></div>
+      <div class="card-body">
+        <h3 class="card-title">Notion 把工作區變成 AI Agent 控制中心，一站式執行自動化任務</h3>
+        <div class="sources-row"><a href="https://techcrunch.com/2026/05/13/notion-just-turned-its-workspace-into-a-hub-for-ai-agents/" target="_blank" class="source-tag">TechCrunch</a></div>
+        <p class="summary">Notion 將工作區升級為 AI Agent 核心樞紐，用戶可在 Notion 內直接串接並觸發自動化工作流，無需跳出到其他平台。</p>
+        <div class="insight-panel">
+          <div class="insight-row">
+            <span class="insight-label">目標受眾</span>
+            <span class="insight-value">每天使用 Notion 做筆記、管理專案的職場上班族、知識工作者</span>
+          </div>
+          <div class="insight-row">
+            <span class="insight-label">痛點</span>
+            <span class="insight-value">工具太多、到處切換，不知道 Notion 現在已能當 AI 自動化的中央控制台</span>
+          </div>
+          <div class="insight-row title-row">
+            <span class="insight-label">標題雛形</span>
+            <span class="insight-value">Notion 悄悄進化了！現在可以直接在裡面跑 AI Agent，上班族的效率工具大升級</span>
+          </div>
+          <div class="insight-row local-row">
+            <span class="insight-label">本地化切角</span>
+            <span class="insight-value">Notion 在台灣知識工作者中使用率極高，「Notion AI Agent 實際操作教學」幾乎是中文空白，搶先做示範影片，教學紅利窗口約 1–2 週。</span>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="news-card">
+      <div class="card-accent accent-red"></div>
+      <div class="card-body">
+        <h3 class="card-title">Anthropic 推出小企業版 Claude：15 個 AI 工作流 + QuickBooks／HubSpot 直接串接</h3>
+        <div class="sources-row"><a href="https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners/" target="_blank" class="source-tag">TechCrunch</a><a href="https://www.anthropic.com/news" target="_blank" class="source-tag">Anthropic 官方</a></div>
+        <p class="summary">Anthropic 正式鎖定中小企業主，推出 Claude for Small Business，內建 15 個 agentic 工作流，可直接串接 QuickBooks、PayPal、HubSpot，自動處理帳務與客戶管理。</p>
+        <div class="insight-panel">
+          <div class="insight-row">
+            <span class="insight-label">目標受眾</span>
+            <span class="insight-value">台灣中小企業主、自僱者、想用 AI 節省人力成本的老闆</span>
+          </div>
+          <div class="insight-row">
+            <span class="insight-label">痛點</span>
+            <span class="insight-value">想導入 AI 幫忙處理行政雜事，但不知從哪裡開始，也不清楚 Claude 和 ChatGPT 企業版的差異</span>
+          </div>
+          <div class="insight-row title-row">
+            <span class="insight-label">標題雛形</span>
+            <span class="insight-value">Claude 專攻小老闆了！15 個 AI 工作流直接串 QuickBooks，這是中小企業最划算的 AI 方案嗎？</span>
+          </div>
+          <div class="insight-row local-row">
+            <span class="insight-label">本地化切角</span>
+            <span class="insight-value">台灣中小企業主正在評估 AI 導入，「Claude vs ChatGPT 企業版」實測比較幾乎沒有繁體中文內容，現在入場做評測，搶占這波搜尋需求。</span>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="news-card">
+      <div class="card-accent accent-red"></div>
+      <div class="card-body">
+        <h3 class="card-title">TikTok 推出 MCP Server，AI Agent 可自主投廣告——Google、Meta、Amazon 也跟進</h3>
+        <div class="sources-row"><a href="https://digiday.com/marketing/tiktok-launches-mcp-server-to-let-ai-agents-run-campaigns/" target="_blank" class="source-tag">Digiday</a><a href="https://www.pymnts.com/news/social-commerce/2026/tiktok-unleashes-ai-agents-on-its-ad-platform/" target="_blank" class="source-tag">PYMNTS</a></div>
+        <p class="summary">TikTok 在 TikTok World 廣告峰會宣布開放 Ads MCP Server，讓 AI Agent 自主規劃、上架、優化廣告活動，Google、Meta、Amazon 均已推出類似工具，廣告投放全自動化時代來臨。</p>
+        <div class="insight-panel">
+          <div class="insight-row">
+            <span class="insight-label">目標受眾</span>
+            <span class="insight-value">台灣電商業主、品牌行銷人員、數位廣告操盤手</span>
+          </div>
+          <div class="insight-row">
+            <span class="insight-label">痛點</span>
+            <span class="insight-value">每天盯著廣告後台調預算、改素材很耗時，不知道 AI 現在可以幫你全自動跑廣告</span>
+          </div>
+          <div class="insight-row title-row">
+            <span class="insight-label">標題雛形</span>
+            <span class="insight-value">TikTok 讓 AI 自己投廣告了！MCP Server 上線，行銷人以後只需要設目標就好？</span>
+          </div>
+          <div class="insight-row local-row">
+            <span class="insight-label">本地化切角</span>
+            <span class="insight-value">TikTok 廣告在台灣電商圈使用率高，「AI 自動投廣告怎麼設定」這個實操教學幾乎空白，做第一個繁中教學的人將吃到所有搜尋流量。</span>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="news-card">
+      <div class="card-accent accent-red"></div>
+      <div class="card-body">
+        <h3 class="card-title">Recursive Superintelligence 闖出隱身，獲 Nvidia＋GV 領投 6.5 億美元，目標打造「永遠自我進化的 AI」</h3>
+        <div class="sources-row"><a href="https://the-decoder.com/ai-startup-recursive-emerges-from-stealth-with-650-million-to-build-self-improving-ai/" target="_blank" class="source-tag">The Decoder</a><a href="https://tech.eu/2026/05/13/recursive-superintelligence-emerges-from-stealth-with-650m-raise/" target="_blank" class="source-tag">Tech.eu</a></div>
+        <p class="summary">由前 OpenAI、Google DeepMind、Meta AI 核心成員創立的 Recursive Superintelligence 走出隱身，宣布完成 6.5 億美元 A 輪融資，估值 46.5 億美元，目標是打造能自動評估、訓練、改進自身的 AI 系統。</p>
+        <div class="insight-panel">
+          <div class="insight-row">
+            <span class="insight-label">目標受眾</span>
+            <span class="insight-value">關注 AI 未來走向的科技愛好者、創業者、投資人</span>
+          </div>
+          <div class="insight-row">
+            <span class="insight-label">痛點</span>
+            <span class="insight-value">AI 進化速度太快，不知道下一個會改變一切的 AI 公司是誰，也不懂「自我進化 AI」代表什麼</span>
+          </div>
+          <div class="insight-row title-row">
+            <span class="insight-label">標題雛形</span>
+            <span class="insight-value">又一個隱形獨角獸！Nvidia 押注的 Recursive AI 要讓 AI 自己訓練自己，這代表什麼？</span>
+          </div>
+          <div class="insight-row local-row">
+            <span class="insight-label">本地化切角</span>
+            <span class="insight-value">Recursive 在華語圈幾乎零報導，「自我進化 AI」這個概念科普需求很高；搶先做創辦團隊背景 + 技術白話解析，可以同時吸到科技圈和一般受眾。</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <section class="report-section">
+  <div class="section-header">
+    <span class="section-dot dot-blue"></span>
+    <span class="section-label label-blue">工具更新</span>
+    <span class="section-count count-blue">4 則</span>
+    <span class="section-line"></span>
+  </div>
+  <div class="cards-grid">
+    <div class="news-card">
+      <div class="card-accent accent-blue"></div>
+      <div class="card-body">
+        <h3 class="card-title">Claude Code 使用上限再漲 50%，Pro／Max 用戶優惠延長至 7 月 13 日</h3>
+        <div class="sources-row"><a href="https://futuretools.io/news" target="_blank" class="source-tag">FutureTools</a><a href="https://releasebot.io/updates/anthropic/claude-code" target="_blank" class="source-tag">Releasebot</a></div>
+        <p class="summary">Anthropic 宣布 Claude Code 每週使用上限額外提升 50%，適用 Pro、Max、Team、Enterprise 所有訂閱方案，優惠有效期延長至 2026 年 7 月 13 日。</p>
+        <div class="insight-panel">
+          <div class="insight-row">
+            <span class="insight-label">目標受眾</span>
+            <span class="insight-value">每天用 Claude Code 跑任務的開發者、AI 自動化工作者</span>
+          </div>
+          <div class="insight-row">
+            <span class="insight-label">痛點</span>
+            <span class="insight-value">Claude Code 配額不夠用、常撞上使用上限，不確定 Anthropic 是否有長期擴容計畫</span>
+          </div>
+          <div class="insight-row title-row">
+            <span class="insight-label">標題雛形</span>
+            <span class="insight-value">Claude Code 配額又漲了！這次多 50% 還延長到 7 月，現在訂閱最划算嗎？</span>
+          </div>
+          <div class="insight-row local-row">
+            <span class="insight-label">本地化切角</span>
+            <span class="insight-value">台灣工程師社群對 Claude Code 的接受度高，「配額優惠怎麼最大化利用」這種實用攻略幾乎沒有繁中版，做教學搭配升級建議，轉換率高。</span>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="news-card">
+      <div class="card-accent accent-blue"></div>
+      <div class="card-body">
+        <h3 class="card-title">Claude Code Agent View 上線：一個介面管理所有 AI 編碼 Session，告別多視窗混亂</h3>
+        <div class="sources-row"><a href="https://www.testingcatalog.com/anthropic-adds-agent-view-for-claude-code-for-parralel-work/" target="_blank" class="source-tag">Testing Catalog</a><a href="https://explainx.ai/blog/anthropic-claude-code-agent-view-goal-command" target="_blank" class="source-tag">ExplainX.ai</a></div>
+        <p class="summary">Anthropic 推出 Claude Code Agent View Research Preview，讓開發者在單一 CLI 介面管理所有平行 coding session，可背景執行任務、查看進度、一鍵跳回對話，不再需要開多個終端機分頁。</p>
+        <div class="insight-panel">
+          <div class="insight-row">
+            <span class="insight-label">目標受眾</span>
+            <span class="insight-value">用 Claude Code 跑多個平行任務的開發者、Vibe Coding 實踐者</span>
+          </div>
+          <div class="insight-row">
+            <span class="insight-label">痛點</span>
+            <span class="insight-value">同時跑多個 Claude Code 任務時，切換視窗很混亂，不知道哪個任務在等待輸入、哪個已完成</span>
+          </div>
+          <div class="insight-row title-row">
+            <span class="insight-label">標題雛形</span>
+            <span class="insight-value">Claude Code 新功能：Agent View 讓你像老闆一樣管多個 AI，一次看清所有進度</span>
+          </div>
+          <div class="insight-row local-row">
+            <span class="insight-label">本地化切角</span>
+            <span class="insight-value">台灣開發者圈正快速採用 Claude Code，「Agent View 實際操作演示」這種教學需求正在上升，現在做是搜尋紅利窗口期。</span>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="news-card">
+      <div class="card-accent accent-blue"></div>
+      <div class="card-body">
+        <h3 class="card-title">Microsoft Edge 大更新：Copilot 獲得多分頁推理、瀏覽歷史記憶、語音與視覺功能</h3>
+        <div class="sources-row"><a href="https://blogs.windows.com" target="_blank" class="source-tag">Microsoft 官方 Blog</a></div>
+        <p class="summary">Microsoft 更新 Edge 瀏覽器的 Copilot，新增跨分頁同時推理、長期記憶瀏覽歷史、語音對話、視覺辨識，以及「Journeys」功能，自動將瀏覽紀錄整理成主題卡片。</p>
+        <div class="insight-panel">
+          <div class="insight-row">
+            <span class="insight-label">目標受眾</span>
+            <span class="insight-value">每天用 Edge 瀏覽器工作的職場上班族、Microsoft 365 用戶</span>
+          </div>
+          <div class="insight-row">
+            <span class="insight-label">痛點</span>
+            <span class="insight-value">Edge 的 Copilot 以前感覺沒什麼用，不知道現在已升級到可以跨分頁幫你做事</span>
+          </div>
+          <div class="insight-row title-row">
+            <span class="insight-label">標題雛形</span>
+            <span class="insight-value">Edge 的 AI 終於強了！Copilot 新功能可以記住你的瀏覽習慣，上班族必更新</span>
+          </div>
+          <div class="insight-row local-row">
+            <span class="insight-label">本地化切角</span>
+            <span class="insight-value">台灣企業環境大量使用 Microsoft 生態系，「Edge Copilot 實際辦公場景示範」這類教學對上班族吸引力極高，中文版幾乎空白。</span>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="news-card">
+      <div class="card-accent accent-blue"></div>
+      <div class="card-body">
+        <h3 class="card-title">Amazon 合併 Rufus＋Alexa+，打造單一購物 AI 助理，支援比價、歷史最低價追蹤</h3>
+        <div class="sources-row"><a href="https://techcrunch.com/2026/05/13/amazon-launches-an-ai-shopping-assistant-for-the-search-bar-powered-by-alexa/" target="_blank" class="source-tag">TechCrunch</a><a href="https://www.aboutamazon.com" target="_blank" class="source-tag">About Amazon</a></div>
+        <p class="summary">Amazon 將旗下購物 AI Rufus 與 Alexa+ 合併為單一助理，整合進 Amazon 購物 App、網站及 Echo Show，具備 AI 搜尋、歷史最低價追蹤、第三方零售商比較購物等功能。</p>
+        <div class="insight-panel">
+          <div class="insight-row">
+            <span class="insight-label">目標受眾</span>
+            <span class="insight-value">常在 Amazon 購物或關注消費 AI 趨勢的用戶、電商從業者</span>
+          </div>
+          <div class="insight-row">
+            <span class="insight-label">痛點</span>
+            <span class="insight-value">不知道 Amazon 的多個 AI 助理有什麼差異，也不清楚合併後哪些功能最實用</span>
+          </div>
+          <div class="insight-row title-row">
+            <span class="insight-label">標題雛形</span>
+            <span class="insight-value">Amazon 把兩個 AI 合成一個！新購物助理可以自動幫你比價找最低，這功能值得試嗎？</span>
+          </div>
+          <div class="insight-row local-row">
+            <span class="insight-label">本地化切角</span>
+            <span class="insight-value">跨境電商在台灣很熱門，「用 AI 在 Amazon 找最低價」這個實用教學對台灣網購族有直接吸引力，可結合台灣電商平台對比做差異化內容。</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <section class="report-section">
+  <div class="section-header">
+    <span class="section-dot dot-green"></span>
+    <span class="section-label label-green">值得追蹤的趨勢</span>
+    <span class="section-count count-green">3 則</span>
+    <span class="section-line"></span>
+  </div>
+  <div class="cards-grid">
+    <div class="news-card">
+      <div class="card-accent accent-green"></div>
+      <div class="card-body">
+        <h3 class="card-title">Anthropic 企業客戶數首度超越 OpenAI（Ramp 企業消費數據）</h3>
+        <div class="sources-row"><a href="https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data/" target="_blank" class="source-tag">TechCrunch</a></div>
+        <p class="summary">根據企業支出數據平台 Ramp 的統計，Anthropic 使用 Claude 的企業客戶數量已首度超過使用 ChatGPT 的企業，顯示 B2B AI 市場格局正在轉移。</p>
+        <div class="insight-panel">
+          <div class="insight-row">
+            <span class="insight-label">目標受眾</span>
+            <span class="insight-value">關注 AI 商業競爭格局的創業者、行銷人、自媒體創作者</span>
+          </div>
+          <div class="insight-row">
+            <span class="insight-label">痛點</span>
+            <span class="insight-value">一直以為 ChatGPT 是企業 AI 的絕對霸主，不清楚 Claude 的企業市場正在悄悄超車</span>
+          </div>
+          <div class="insight-row title-row">
+            <span class="insight-label">標題雛形</span>
+            <span class="insight-value">ChatGPT 被超車了？數據顯示企業用戶現在更愛 Claude，這個趨勢代表什麼？</span>
+          </div>
+          <div class="insight-row local-row">
+            <span class="insight-label">本地化切角</span>
+            <span class="insight-value">這是難得的有數據支撐的「AI 競爭格局」報導，做「台灣企業該選 Claude 還是 ChatGPT」的比較分析，可以同時吸到企業主和一般用戶。</span>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="news-card">
+      <div class="card-accent accent-green"></div>
+      <div class="card-body">
+        <h3 class="card-title">Meta 在 WhatsApp 推出「隱匿對話」：連 Meta 自己也無法讀取的 AI 對話模式</h3>
+        <div class="sources-row"><a href="https://about.fb.com" target="_blank" class="source-tag">Meta 官方</a></div>
+        <p class="summary">Meta 為 WhatsApp 的 Meta AI 推出 Incognito Chat 功能，對話完全端對端加密且不留存，即使是 Meta 員工也無法查看，主打隱私敏感的使用場景。</p>
+        <div class="insight-panel">
+          <div class="insight-row">
+            <span class="insight-label">目標受眾</span>
+            <span class="insight-value">重視隱私的 WhatsApp 用戶、對 AI 對話隱私有疑慮的一般大眾</span>
+          </div>
+          <div class="insight-row">
+            <span class="insight-label">痛點</span>
+            <span class="insight-value">和 AI 說的話到底有沒有被公司看到？不確定敏感對話是否安全</span>
+          </div>
+          <div class="insight-row title-row">
+            <span class="insight-label">標題雛形</span>
+            <span class="insight-value">Meta 說連他們自己都看不到你和 AI 的對話——WhatsApp 新隱匿功能，真的可以信任嗎？</span>
+          </div>
+          <div class="insight-row local-row">
+            <span class="insight-label">本地化切角</span>
+            <span class="insight-value">WhatsApp 和 LINE 在台灣都是主流通訊工具，「AI 對話隱私到底有多安全」這個話題對一般大眾吸引力很高，可以做「各大 AI 平台隱私設定完整比較」。</span>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="news-card">
+      <div class="card-accent accent-green"></div>
+      <div class="card-body">
+        <h3 class="card-title">Perplexity Computer Agent 公開安全架構：Firecracker 沙盒＋四層防提示注入，正式角逐企業市場</h3>
+        <div class="sources-row"><a href="https://www.perplexity.ai" target="_blank" class="source-tag">Perplexity 官方</a></div>
+        <p class="summary">Perplexity 詳細公開其 Computer Agent 的安全機制，採用 Firecracker microVM 隔離沙盒與四層提示注入防護，並提供企業版 SAML SSO 與細粒度權限控制，顯示 AI Agent 安全性正成為企業採購的核心考量。</p>
+        <div class="insight-panel">
+          <div class="insight-row">
+            <span class="insight-label">目標受眾</span>
+            <span class="insight-value">企業 IT 主管、評估 AI Agent 導入的決策者、關注 AI 安全的開發者</span>
+          </div>
+          <div class="insight-row">
+            <span class="insight-label">痛點</span>
+            <span class="insight-value">想導入 AI Agent 幫公司做事，但擔心資安風險、不知道主流 AI Agent 平台的安全機制是否可靠</span>
+          </div>
+          <div class="insight-row title-row">
+            <span class="insight-label">標題雛形</span>
+            <span class="insight-value">Perplexity 的 AI Agent 為什麼敢讓它幫你管 Gmail 和 Salesforce？四層防護架構大解密</span>
+          </div>
+          <div class="insight-row local-row">
+            <span class="insight-label">本地化切角</span>
+            <span class="insight-value">企業 AI Agent 導入在台灣仍處於早期，「AI Agent 資安怎麼評估」這類內容幾乎空白，做一篇「企業導入 AI Agent 資安核查清單」，同時觸及 IT 和高管受眾。</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+<div id="day-2026-05-06" class="day-panel " data-date="2026-05-06" data-total="9">
+  <section class="report-section">
+  <div class="section-header">
+    <span class="section-dot dot-red"></span>
+    <span class="section-label label-red">大事件</span>
+    <span class="section-count count-red">4 則</span>
+    <span class="section-line"></span>
+  </div>
+  <div class="cards-grid">
+    <div class="news-card">
+      <div class="card-accent accent-red"></div>
+      <div class="card-body">
+        <h3 class="card-title">OpenAI GPT-5.5 Instant 悄悄成為 ChatGPT 新預設模型，幻覺率下降 52.5%</h3>
+        <div class="sources-row"><a href="https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/" target="_blank" class="source-tag">TechCrunch</a><a href="https://www.roborhythms.com/gpt-5-5-instant-rollout-may-2026/" target="_blank" class="source-tag">RoboRhythms</a></div>
+        <p class="summary">OpenAI 無預警將 GPT-5.5 Instant 設為 ChatGPT 預設模型，具備搜尋功能、可引用過往對話，幻覺率較前代大幅降低 52.5%。</p>
+        <div class="insight-panel">
+          <div class="insight-row">
+            <span class="insight-label">目標受眾</span>
+            <span class="insight-value">每天用 ChatGPT 工作的上班族、內容創作者</span>
+          </div>
+          <div class="insight-row">
+            <span class="insight-label">痛點</span>
+            <span class="insight-value">不知道 ChatGPT 已悄悄換底層模型，沿用舊使用習慣可能錯過新功能</span>
+          </div>
+          <div class="insight-row title-row">
+            <span class="insight-label">標題雛形</span>
+            <span class="insight-value">ChatGPT 偷偷換大腦了！GPT-5.5 Instant 上線，你現在用的已經不是原本那個 AI</span>
+          </div>
+          <div class="insight-row local-row">
+            <span class="insight-label">本地化切角</span>
+            <span class="insight-value">台灣繁體中文使用者幾乎沒有「換模型後實測差異」的比較內容，搶做幻覺率測試教學，教學紅利窗口約 1–2 週。</span>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="news-card">
+      <div class="card-accent accent-red"></div>
+      <div class="card-body">
+        <h3 class="card-title">Anthropic 舉辦 Code w/ Claude 2026 開發者大會，同日宣布 SpaceX 算力大單</h3>
+        <div class="sources-row"><a href="https://simonwillison.net/2026/May/6/code-w-claude-2026/" target="_blank" class="source-tag">Simon Willison</a><a href="https://www.bloomberg.com/news/articles/2026-05-06/anthropic-inks-computing-deal-with-spacex-to-meet-ai-demand" target="_blank" class="source-tag">Bloomberg</a></div>
+        <p class="summary">Anthropic 在舊金山舉辦首屆 Code w/ Claude 開發者大會，同日宣布取得 SpaceX Colossus 1 超級電腦 300MW 算力，Claude Code 配額翻倍，尖峰限流取消。</p>
+        <div class="insight-panel">
+          <div class="insight-row">
+            <span class="insight-label">目標受眾</span>
+            <span class="insight-value">使用 Claude Code、關注 AI 開發生態的工程師與創業者</span>
+          </div>
+          <div class="insight-row">
+            <span class="insight-label">痛點</span>
+            <span class="insight-value">Claude Code 限制多、配額常不夠用，不確定 Anthropic 是否有長期擴容計畫</span>
+          </div>
+          <div class="insight-row title-row">
+            <span class="insight-label">標題雛形</span>
+            <span class="insight-value">Anthropic 這場大會發布了什麼？SpaceX 算力入局＋Claude Code 翻倍，開發者的春天來了</span>
+          </div>
+          <div class="insight-row local-row">
+            <span class="insight-label">本地化切角</span>
+            <span class="insight-value">大會現場資訊多，但繁體中文整理幾乎為零；可做「Code w/ Claude 重點整理」，搜尋需求明確。</span>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="news-card">
+      <div class="card-accent accent-red"></div>
+      <div class="card-body">
+        <h3 class="card-title">Google DeepMind 入股《EVE Online》開發商，以離線版遊戲訓練 AI 長期規劃能力</h3>
+        <div class="sources-row"><a href="https://www.bloomberg.com/news/articles/2026-05-06/google-deepmind-takes-minority-stake-in-maker-of-eve-online" target="_blank" class="source-tag">Bloomberg</a></div>
+        <p class="summary">EVE Online 開發商更名 Fenris Creations 後宣布與 Google DeepMind 達成研究合作，DeepMind 取得少數股權，將以離線版遊戲作為 AI 訓練記憶、規劃與持續學習能力的環境。</p>
+        <div class="insight-panel">
+          <div class="insight-row">
+            <span class="insight-label">目標受眾</span>
+            <span class="insight-value">對 AI 底層研究與遊戲 AI 感興趣的科技愛好者、遊戲玩家</span>
+          </div>
+          <div class="insight-row">
+            <span class="insight-label">痛點</span>
+            <span class="insight-value">不清楚為什麼 AI 大廠要跑去買遊戲公司股份</span>
+          </div>
+          <div class="insight-row title-row">
+            <span class="insight-label">標題雛形</span>
+            <span class="insight-value">Google DeepMind 為什麼要買《EVE Online》股份？這不是遊戲新聞，而是 AI 最重要的一步棋</span>
+          </div>
+          <div class="insight-row local-row">
+            <span class="insight-label">本地化切角</span>
+            <span class="insight-value">「用遊戲訓練 AI 規劃能力」這個角度在華語科普圈完全空白，遊戲媒體與 AI 頻道都可切入。</span>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="news-card">
+      <div class="card-accent accent-red"></div>
+      <div class="card-body">
+        <h3 class="card-title">Snap $400M Perplexity 合作「友好終止」，AI 搜尋版圖重整</h3>
+        <div class="sources-row"><a href="https://techcrunch.com/2026/05/06/snap-says-its-400m-deal-with-perplexity-amicably-ended/" target="_blank" class="source-tag">TechCrunch</a></div>
+        <p class="summary">Snap 宣布與 AI 搜尋公司 Perplexity 的 4 億美元合作協議「友好終止」，市場解讀為 Perplexity 轉向自建流量入口策略。</p>
+        <div class="insight-panel">
+          <div class="insight-row">
+            <span class="insight-label">目標受眾</span>
+            <span class="insight-value">關注 AI 搜尋生態、內容創作者 SEO 策略的自媒體人</span>
+          </div>
+          <div class="insight-row">
+            <span class="insight-label">痛點</span>
+            <span class="insight-value">搞不清楚 Perplexity 到底要走什麼路線</span>
+          </div>
+          <div class="insight-row title-row">
+            <span class="insight-label">標題雛形</span>
+            <span class="insight-value">Snap 和 Perplexity 分手了！AI 搜尋戰爭格局大變，創作者該怎麼選邊站？</span>
+          </div>
+          <div class="insight-row local-row">
+            <span class="insight-label">本地化切角</span>
+            <span class="insight-value">台灣創作者幾乎沒有人在分析 Perplexity 的商業模式走向；現在做「AI 搜尋生態分析」，SEO 焦慮族群的需求很高。</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <section class="report-section">
+  <div class="section-header">
+    <span class="section-dot dot-blue"></span>
+    <span class="section-label label-blue">工具更新</span>
+    <span class="section-count count-blue">3 則</span>
+    <span class="section-line"></span>
+  </div>
+  <div class="cards-grid">
+    <div class="news-card">
+      <div class="card-accent accent-blue"></div>
+      <div class="card-body">
+        <h3 class="card-title">Claude Code 使用上限翻倍，尖峰時段限流全面取消</h3>
+        <div class="sources-row"><a href="https://9to5google.com/2026/05/06/claude-code-is-getting-higher-usage-limits-doubled-for-most-users/" target="_blank" class="source-tag">9to5Google</a><a href="https://www.anthropic.com/news/higher-limits-spacex" target="_blank" class="source-tag">Anthropic 官方</a></div>
+        <p class="summary">Pro / Max / Team / Enterprise 用戶的 Claude Code 五小時上限即日翻倍，尖峰限流取消；同步修復 Windows/PowerShell 問題，優化 OAuth 登入與 Plugin URL 載入。</p>
+        <div class="insight-panel">
+          <div class="insight-row">
+            <span class="insight-label">目標受眾</span>
+            <span class="insight-value">已訂閱或考慮訂閱 Claude Code 的開發者、AI 自動化工作者</span>
+          </div>
+          <div class="insight-row">
+            <span class="insight-label">痛點</span>
+            <span class="insight-value">用 Claude Code 跑複雜任務常撞上配額牆，尖峰時段速度慢又容易中斷</span>
+          </div>
+          <div class="insight-row title-row">
+            <span class="insight-label">標題雛形</span>
+            <span class="insight-value">Claude Code 配額突然翻倍！現在訂不訂得值？升級後第一手實測報告</span>
+          </div>
+          <div class="insight-row local-row">
+            <span class="insight-label">本地化切角</span>
+            <span class="insight-value">台灣工程師社群對 Claude Code 的接受度高，搶先做升級前後對比教學，紅利窗口約 2 週。</span>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="news-card">
+      <div class="card-accent accent-blue"></div>
+      <div class="card-body">
+        <h3 class="card-title">Google Chrome 無聲安裝 4GB Gemini Nano，本地 AI 功能即將全面普及</h3>
+        <div class="sources-row"><a href="https://9to5google.com/2026/05/06/google-chrome-4gb-storage-ai-details/" target="_blank" class="source-tag">9to5Google</a></div>
+        <p class="summary">Chrome 更新後在用戶電腦本地下載約 4GB 的 Gemini Nano 模型，未主動通知，目的是讓 AI 功能在離線或低延遲場景下直接在本地運行。</p>
+        <div class="insight-panel">
+          <div class="insight-row">
+            <span class="insight-label">目標受眾</span>
+            <span class="insight-value">每天用 Chrome 工作的上班族、對裝置隱私和儲存空間在意的用戶</span>
+          </div>
+          <div class="insight-row">
+            <span class="insight-label">痛點</span>
+            <span class="insight-value">電腦硬碟突然少了 4GB 不知道為什麼</span>
+          </div>
+          <div class="insight-row title-row">
+            <span class="insight-label">標題雛形</span>
+            <span class="insight-value">Google Chrome 偷偷吃掉你 4GB 硬碟！原來是在裝 AI 模型，這對你的電腦意味著什麼？</span>
+          </div>
+          <div class="insight-row local-row">
+            <span class="insight-label">本地化切角</span>
+            <span class="insight-value">Chrome 是台灣使用率最高的瀏覽器，「硬碟被吃掉」的話題有極高的搜尋和討論潛力；可做「怎麼關掉、怎麼管理」實用教學。</span>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="news-card">
+      <div class="card-accent accent-blue"></div>
+      <div class="card-body">
+        <h3 class="card-title">Google AI 搜尋雙更新：AI Mode 連結更直接＋正式引入 Reddit 社群意見</h3>
+        <div class="sources-row"><a href="https://techcrunch.com/2026/05/06/google-updates-ai-search-to-include-expert-advice-from-reddit-and-other-web-forums/" target="_blank" class="source-tag">TechCrunch</a></div>
+        <p class="summary">Google AI 搜尋同日推兩項更新：AI Mode 摘要中的連結變得更直接顯眼；AI Overviews 開始引用 Reddit 等社群論壇的真實用戶意見作為結果來源。</p>
+        <div class="insight-panel">
+          <div class="insight-row">
+            <span class="insight-label">目標受眾</span>
+            <span class="insight-value">內容創作者、SEO 從業者、靠 Google 流量的自媒體人</span>
+          </div>
+          <div class="insight-row">
+            <span class="insight-label">痛點</span>
+            <span class="insight-value">AI 搜尋普及後流量愈來愈難預測，不知道社群意見被納入搜尋結果後 SEO 策略要怎麼調整</span>
+          </div>
+          <div class="insight-row title-row">
+            <span class="insight-label">標題雛形</span>
+            <span class="insight-value">Google 搜尋悄悄改版了！Reddit 意見現在會出現在 AI 搜尋結果——創作者必看的流量新規則</span>
+          </div>
+          <div class="insight-row local-row">
+            <span class="insight-label">本地化切角</span>
+            <span class="insight-value">台灣創作者普遍依賴 Google 流量，可結合 Dcard、PTT 的在地化討論，讓內容更貼近台灣受眾。</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <section class="report-section">
+  <div class="section-header">
+    <span class="section-dot dot-green"></span>
+    <span class="section-label label-green">值得追蹤的趨勢</span>
+    <span class="section-count count-green">2 則</span>
+    <span class="section-line"></span>
+  </div>
+  <div class="cards-grid">
+    <div class="news-card">
+      <div class="card-accent accent-green"></div>
+      <div class="card-body">
+        <h3 class="card-title">Karpathy 正式提議：「Vibe Coding」改名「Agentic Engineering」</h3>
+        <div class="sources-row"><a href="https://sdtimes.com/ai/andrej-karpathy-has-renamed-vibe-coding-heres-what-engineering-leaders-need-to-do-about-it/" target="_blank" class="source-tag">SD Times</a></div>
+        <p class="summary">Karpathy 主張工程師應從「憑感覺提示 AI」進化到「設計明確約束與驗證標準的代理工程」，Vibe Coding 只是入門，Agentic Engineering 才是能保持品質的正確路徑。</p>
+        <div class="insight-panel">
+          <div class="insight-row">
+            <span class="insight-label">目標受眾</span>
+            <span class="insight-value">用 AI 做產品的設計師、PM、非技術創業者</span>
+          </div>
+          <div class="insight-row">
+            <span class="insight-label">痛點</span>
+            <span class="insight-value">用 AI 生成的程式碼品質不穩定，不知道哪裡出了問題、怎麼提升穩定性</span>
+          </div>
+          <div class="insight-row title-row">
+            <span class="insight-label">標題雛形</span>
+            <span class="insight-value">Karpathy 說你用 AI 寫程式的方式是錯的！什麼是「Agentic Engineering」，你現在在哪個階段？</span>
+          </div>
+          <div class="insight-row local-row">
+            <span class="insight-label">本地化切角</span>
+            <span class="insight-value">Karpathy 在華語 AI 圈有極高影響力，Sequoia AI Ascent 的完整內容幾乎無繁體中文整理；搶先做摘要解析，搜尋與轉發需求非常高。</span>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="news-card">
+      <div class="card-accent accent-green"></div>
+      <div class="card-body">
+        <h3 class="card-title">Anthropic MCP 突破 9700 萬次安裝，成為 AI 工具互通的隱形基礎設施</h3>
+        <div class="sources-row"><a href="https://allinoneaicenter.com/blog/new-ai-tools-may-2026/" target="_blank" class="source-tag">All-in-One AI Center</a></div>
+        <p class="summary">Anthropic 推出的 Model Context Protocol（MCP）已達 9700 萬次安裝，所有主流 AI 廠商均宣布支援，正在成為 AI 工具之間串接的業界標準。</p>
+        <div class="insight-panel">
+          <div class="insight-row">
+            <span class="insight-label">目標受眾</span>
+            <span class="insight-value">想讓多個 AI 工具互相串接的開發者、企業自動化負責人</span>
+          </div>
+          <div class="insight-row">
+            <span class="insight-label">痛點</span>
+            <span class="insight-value">每個 AI 工具都是孤島，要讓它們互通費時費力，不知道有沒有統一的解法</span>
+          </div>
+          <div class="insight-row title-row">
+            <span class="insight-label">標題雛形</span>
+            <span class="insight-value">9700 萬次安裝！這個你可能沒聽過的協議，正在悄悄成為所有 AI 工具的共同語言</span>
+          </div>
+          <div class="insight-row local-row">
+            <span class="insight-label">本地化切角</span>
+            <span class="insight-value">MCP 在台灣的知名度遠低於其實際重要性；做「MCP 是什麼、如何用它串接你的 AI 工具」的入門教學，搜尋量正在快速上升。</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+  </main>
+
+  <footer class="site-footer">
+    <span>由 solopreneur-topic-miner 自動生成<span class="footer-dot"></span><span id="gen-time"></span></span>
+    <span>AI 效率工具</span>
+  </footer>
+
+  <script>
+    // ── init ──
+    document.getElementById('gen-time').textContent =
+      '生成於 ' + new Date().toLocaleString('zh-TW', {hour:'2-digit', minute:'2-digit'});
+
+    // ── scroll progress ──
+    window.addEventListener('scroll', () => {
+      const el  = document.getElementById('progress');
+      const pct = window.scrollY / (document.body.scrollHeight - window.innerHeight) * 100;
+      el.style.width = Math.min(pct, 100) + '%';
+    });
+
+    // ── date tab switching ──
+    const tabs   = document.querySelectorAll('.date-tab');
+    const panels = document.querySelectorAll('.day-panel');
+    const hdrDate  = document.getElementById('hdr-date');
+    const hdrCount = document.getElementById('hdr-count');
+
+    function switchTo(tab) {
+      tabs.forEach(t => t.classList.remove('active'));
+      panels.forEach(p => p.classList.remove('active'));
+      tab.classList.add('active');
+      const target = document.getElementById(tab.dataset.target);
+      if (target) {
+        target.classList.add('active');
+        // retrigger section animations
+        target.querySelectorAll('.report-section').forEach(s => {
+          s.style.animation = 'none';
+          s.offsetHeight;   // reflow
+          s.style.animation = '';
+        });
+        hdrDate.textContent  = target.dataset.date;
+        hdrCount.textContent = '共 ' + target.dataset.total + ' 則情報';
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    }
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => switchTo(tab));
+    });
+  </script>
+</body>
+</html>

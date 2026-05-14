@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IC工程師週報</title>
+<style>
+  /* 採用深色主題，降低工程師閱讀疲勞 */
+  body {
+    font-family: 'Consolas', 'Courier New', monospace;
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+  }
+  h1 {
+    color: #569cd6;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+  }
+  h2, h3 { color: #4ec9b0; }
+
+  .summary-box {
+    background-color: #252526;
+    border-left: 5px solid #007acc;
+    padding: 15px;
+    margin-bottom: 25px;
+  }
+  .project-card {
+    background-color: #2d2d30;
+    border: 1px solid #444;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .project-title {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2em;
+    color: #ce9178;
+  }
+
+  /* 顏色編碼的嚴重等級標示 */
+  .status {
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #fff;
+  }
+  .green { background-color: #2ea043; } /* 進度正常 */
+  .yellow { background-color: #d29922; color: #1e1e1e; } /* 需要關注 */
+  .red { background-color: #f85149; } /* 嚴重/Blocker */
+
+  /* 警告區塊設計 */
+  .alert-box {
+    background-color: #4b1818;
+    border-left: 4px solid #f85149;
+    padding: 10px;
+    margin: 10px 0;
+    color: #ffa198;
+  }
+
+  /* 可摺疊區塊設計 */
+  details {
+    background-color: #1e1e1e;
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid #444;
+    margin-top: 15px;
+  }
+  summary {
+    font-weight: bold;
+    color: #569cd6;
+    cursor: pointer;
+  }
+  summary:hover { color: #9cdcfe; }
+
+  /* 數據對照表 */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  th, td {
+    border: 1px solid #444;
+    padding: 8px;
+    text-align: left;
+  }
+  th { background-color: #333; color: #fff; }
+</style>
+</head>
+<body>
+
+  <h1>🛠 本週工程週報 (Week 20)</h1>
+
+  <div class="summary-box">
+    <h2>📝 執行摘要 (Executive Summary)</h2>
+    <p>本週重點在於完成 AI 加速器 (NPU) IP 的 RTL Freeze，以及解決 PCIe Gen5 模組在靜態時序分析 (STA) 上的違例問題。目前整體 Tape-out 時程進度在控，但 PCIe 模組需要 APR 團隊協助調整 Floorplan。</p>
+  </div>
+
+  <div class="project-card">
+    <div class="project-title">
+      專案：NPU IP RTL 設計與整合
+      <span class="status green">RTL Freeze 達標</span>
+    </div>
+    <p>已完成 MAC Array 核心運算邏輯的 Coding，並通過了初步的 Linting 與 CDC (跨時鐘域) 檢查。</p>
+    <details>
+      <summary>▶ 點擊展開技術細節與下週計畫</summary>
+      <ul>
+        <li><strong>完成項目：</strong> 修正了上週 FIFO Full flag 判斷延遲一個 Cycle 的 Bug。</li>
+        <li><strong>驗證狀態：</strong> 已將最新 RTL 交付給 DV (Design Verification) 團隊進行回歸測試 (Regression)。</li>
+        <li><strong>下週目標：</strong> 準備進行第一次的合成 (Synthesis) 評估面積與 Gate Count。</li>
+      </ul>
+    </details>
+  </div>
+
+  <div class="project-card">
+    <div class="project-title">
+      專案：PCIe Gen5 PHY 系統整合
+      <span class="status red">時序違例 (Timing Violation)</span>
+    </div>
+    <p>在 SSG corner (慢速條件) 下，發現 Controller 與 PHY 之間的 Wrapper layer 有嚴重的 Setup time violation。</p>
+
+    <div class="alert-box">
+      <strong>⚠️ Blocker 警告：</strong> 最差時序路徑 (Worst Negative Slack) 達到 -0.15ns，主要發生在 Data Formatting 的組合邏輯層，可能會影響下個月的 Tape-out 時程。
+    </div>
+
+    <details>
+      <summary>▶ 點擊展開分析與解決方案 (Action Items)</summary>
+      <ul>
+        <li><strong>根本原因：</strong> Mux 選擇邏輯過於複雜，導致 Logic Depth 太深。</li>
+        <li><strong>Action Item 1 (我方)：</strong> 下週二前完成 RTL Pipeline 拆分，插入一個 Register stage 來打斷 Critical path。</li>
+        <li><strong>Action Item 2 (跨部門)：</strong> 已發信請 APR 團隊評估是否能將該 Block 的 Macro 擺放位置拉近，減少 Wire delay。</li>
+      </ul>
+    </details>
+  </div>
+
+  <div class="project-card">
+    <div class="project-title">
+      專案：SoC Top-level 驗證進度
+      <span class="status yellow">Coverage 需提升</span>
+    </div>
+    <p>本週跑完週末大回歸測試 (Weekend Regression) 後，覆蓋率數據如下：</p>
+    <details open>
+      <summary>▶ 點擊展開覆蓋率對照表</summary>
+      <table>
+        <tr>
+          <th>Metric (指標)</th>
+          <th>上週進度</th>
+          <th>本週進度</th>
+          <th>目標 (Target)</th>
+          <th>狀態</th>
+        </tr>
+        <tr>
+          <td>Line Coverage</td>
+          <td>88%</td>
+          <td>94%</td>
+          <td>95%</td>
+          <td style="color:#f1c40f;">接近達標</td>
+        </tr>
+        <tr>
+          <td>Toggle Coverage</td>
+          <td>82%</td>
+          <td>89%</td>
+          <td>90%</td>
+          <td style="color:#f1c40f;">接近達標</td>
+        </tr>
+        <tr>
+          <td>Functional Coverage</td>
+          <td>70%</td>
+          <td>78%</td>
+          <td>100%</td>
+          <td style="color:#e74c3c;">落後進度</td>
+        </tr>
+      </table>
+      <p style="font-size: 0.9em; margin-top: 10px;">*註：Functional Coverage 進度落後主因是 DMA 異常中斷的 Test pattern 尚未撰寫完成，預計下週集中火力補齊。</p>
+    </details>
+  </div>
+
+</body>
+</html>
