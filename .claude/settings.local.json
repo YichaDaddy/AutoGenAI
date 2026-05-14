@@ -20,7 +20,12 @@
       "Bash(git commit *)",
       "Bash(git branch *)",
       "Bash(git remote *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(git checkout *)",
+      "Bash(chmod +x /Users/mac/projects/AutoGenAI/run_daily.sh)",
+      "Bash(launchctl load *)",
+      "Bash(launchctl list *)",
+      "Bash(git merge *)"
     ]
   }
 }
