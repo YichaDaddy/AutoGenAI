@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI 日報</title>
+  <title>AI 日報 & 財經新聞</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
@@ -19,6 +19,15 @@
       --green:        #276749;
       --green-bg:     #F0FFF4;
       --green-border: #C6F6D5;
+      --amber:        #B7791F;
+      --amber-bg:     #FEFCE8;
+      --amber-border: #FEF08A;
+      --purple:       #6B46C1;
+      --purple-bg:    #FAF5FF;
+      --purple-border:#D6BCFA;
+      --teal:         #2C7A7B;
+      --teal-bg:      #E6FFFA;
+      --teal-border:  #B2F5EA;
       --ink:          #1A202C;
       --ink-2:        #2D3748;
       --muted:        #718096;
@@ -30,6 +39,7 @@
       --shadow-md:    0 4px 16px rgba(0,0,0,0.08), 0 2px 6px rgba(0,0,0,0.04);
       --radius:       14px;
       --header-h:     64px;
+      --channel-h:    44px;
       --tabs-h:       52px;
     }
 
@@ -51,16 +61,10 @@
 
     /* ─── Header ─── */
     .site-header {
-      background: #0D1117;
-      color: #fff;
-      padding: 0 2rem;
-      height: var(--header-h);
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      position: sticky;
-      top: 0;
-      z-index: 200;
+      background: #0D1117; color: #fff;
+      padding: 0 2rem; height: var(--header-h);
+      display: flex; align-items: center; justify-content: space-between;
+      position: sticky; top: 0; z-index: 200;
       border-bottom: 1px solid rgba(255,255,255,0.06);
     }
     .header-left { display: flex; align-items: center; gap: 12px; }
@@ -71,71 +75,64 @@
       display: flex; align-items: center; justify-content: center;
       font-size: 18px; flex-shrink: 0;
       box-shadow: 0 0 0 1px rgba(255,255,255,0.1);
+      transition: background 0.3s;
     }
-    .header-brand { font-size: 16px; font-weight: 800; letter-spacing: -0.3px; }
+    .header-brand { font-size: 16px; font-weight: 800; letter-spacing: -0.3px; transition: all 0.2s; }
     .header-sub   { font-size: 11px; color: #6B7280; margin-top: 1px; font-weight: 500; }
     .header-right { text-align: right; }
     .header-date  { font-size: 13px; font-weight: 700; color: #E5E7EB; letter-spacing: 0.2px; }
     .header-count {
       display: inline-block; margin-top: 2px;
       font-size: 10px; font-weight: 600; color: #374151;
-      background: rgba(255,255,255,0.08);
-      border: 1px solid rgba(255,255,255,0.1);
-      border-radius: 99px; padding: 1px 8px;
-      letter-spacing: 0.3px;
+      background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 99px; padding: 1px 8px; letter-spacing: 0.3px;
     }
+
+    /* ─── Channel Nav ─── */
+    .channel-nav {
+      background: #161B22;
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+      height: var(--channel-h);
+      display: flex; align-items: center;
+      padding: 0 2rem; gap: 4px;
+      position: sticky; top: var(--header-h); z-index: 150;
+    }
+    .channel-tab {
+      display: flex; align-items: center; gap: 6px;
+      padding: 5px 14px; border-radius: 8px;
+      border: 1px solid transparent; background: transparent;
+      color: rgba(255,255,255,0.45);
+      font-family: inherit; font-size: 13px; font-weight: 600;
+      cursor: pointer; transition: all 0.15s;
+    }
+    .channel-tab:hover { background: rgba(255,255,255,0.07); color: rgba(255,255,255,0.75); }
+    .channel-tab.active { background: rgba(255,255,255,0.1); color: #fff; border-color: rgba(255,255,255,0.15); }
 
     /* ─── Date Tab Bar ─── */
     .date-nav {
-      background: var(--surface);
-      border-bottom: 1px solid var(--border);
+      background: var(--surface); border-bottom: 1px solid var(--border);
       height: var(--tabs-h);
-      display: flex;
-      align-items: center;
-      padding: 0 2rem;
-      gap: 6px;
-      position: sticky;
-      top: var(--header-h);
-      z-index: 100;
-      overflow-x: auto;
-      scrollbar-width: none;
+      display: flex; align-items: center;
+      padding: 0 2rem; gap: 6px;
+      position: sticky; top: calc(var(--header-h) + var(--channel-h)); z-index: 100;
+      overflow-x: auto; scrollbar-width: none;
     }
     .date-nav::-webkit-scrollbar { display: none; }
-
     .date-nav-label {
-      font-size: 11px;
-      font-weight: 700;
-      color: var(--faint);
-      letter-spacing: 0.5px;
-      text-transform: uppercase;
-      white-space: nowrap;
-      margin-right: 4px;
+      font-size: 11px; font-weight: 700; color: var(--faint);
+      letter-spacing: 0.5px; text-transform: uppercase;
+      white-space: nowrap; margin-right: 4px; flex-shrink: 0;
     }
-
+    .date-tabs-group { display: flex; gap: 6px; }
     .date-tab {
-      flex-shrink: 0;
-      padding: 5px 14px;
-      border-radius: 8px;
-      border: 1px solid var(--border);
-      background: transparent;
-      color: var(--muted);
-      font-family: inherit;
-      font-size: 12px;
-      font-weight: 600;
-      cursor: pointer;
-      transition: all 0.15s;
-      white-space: nowrap;
+      flex-shrink: 0; padding: 5px 14px;
+      border-radius: 8px; border: 1px solid var(--border);
+      background: transparent; color: var(--muted);
+      font-family: inherit; font-size: 12px; font-weight: 600;
+      cursor: pointer; transition: all 0.15s; white-space: nowrap;
     }
-    .date-tab:hover {
-      background: var(--page);
-      color: var(--ink);
-      border-color: #CBD5E0;
-    }
-    .date-tab.active {
-      background: var(--ink);
-      color: #fff;
-      border-color: var(--ink);
-    }
+    .date-tab:hover { background: var(--page); color: var(--ink); border-color: #CBD5E0; }
+    .date-tab.active { background: var(--ink); color: #fff; border-color: var(--ink); }
 
     /* ─── Layout ─── */
     .container { max-width: 1020px; margin: 0 auto; padding: 2.5rem 1.5rem 5rem; }
@@ -145,59 +142,50 @@
     .day-panel.active { display: block; }
 
     /* ─── Section ─── */
-    .report-section { margin-bottom: 3rem; }
     .report-section {
-      opacity: 0;
-      transform: translateY(10px);
+      margin-bottom: 3rem; opacity: 0; transform: translateY(10px);
       animation: fadeUp 0.35s ease forwards;
     }
     .report-section:nth-child(1) { animation-delay: 0.04s; }
     .report-section:nth-child(2) { animation-delay: 0.12s; }
     .report-section:nth-child(3) { animation-delay: 0.20s; }
-    @keyframes fadeUp {
-      to { opacity: 1; transform: translateY(0); }
-    }
+    @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
 
-    .section-header {
-      display: flex; align-items: center; gap: 12px; margin-bottom: 1.5rem;
-    }
+    .section-header { display: flex; align-items: center; gap: 12px; margin-bottom: 1.5rem; }
     .section-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
-    .dot-red   { background: var(--red);   box-shadow: 0 0 0 3px #FED7D7; }
-    .dot-blue  { background: var(--blue);  box-shadow: 0 0 0 3px #BEE3F8; }
-    .dot-green { background: var(--green); box-shadow: 0 0 0 3px #C6F6D5; }
+    .dot-red    { background: var(--red);    box-shadow: 0 0 0 3px #FED7D7; }
+    .dot-blue   { background: var(--blue);   box-shadow: 0 0 0 3px #BEE3F8; }
+    .dot-green  { background: var(--green);  box-shadow: 0 0 0 3px #C6F6D5; }
+    .dot-amber  { background: #D69E2E;       box-shadow: 0 0 0 3px #FEF08A; }
+    .dot-purple { background: var(--purple); box-shadow: 0 0 0 3px #D6BCFA; }
+    .dot-teal   { background: var(--teal);   box-shadow: 0 0 0 3px #B2F5EA; }
 
-    .section-label {
-      font-size: 13px; font-weight: 800;
-      letter-spacing: 0.8px; text-transform: uppercase;
-    }
-    .label-red   { color: var(--red); }
-    .label-blue  { color: var(--blue); }
-    .label-green { color: var(--green); }
+    .section-label { font-size: 13px; font-weight: 800; letter-spacing: 0.8px; text-transform: uppercase; }
+    .label-red    { color: var(--red); }
+    .label-blue   { color: var(--blue); }
+    .label-green  { color: var(--green); }
+    .label-amber  { color: var(--amber); }
+    .label-purple { color: var(--purple); }
+    .label-teal   { color: var(--teal); }
 
-    .section-count {
-      font-size: 11px; font-weight: 600;
-      padding: 2px 10px; border-radius: 99px; margin-left: 2px;
-    }
-    .count-red   { background: var(--red-bg);   color: var(--red);   border: 1px solid var(--red-border); }
-    .count-blue  { background: var(--blue-bg);  color: var(--blue);  border: 1px solid var(--blue-border); }
-    .count-green { background: var(--green-bg); color: var(--green); border: 1px solid var(--green-border); }
+    .section-count { font-size: 11px; font-weight: 600; padding: 2px 10px; border-radius: 99px; margin-left: 2px; }
+    .count-red    { background: var(--red-bg);    color: var(--red);    border: 1px solid var(--red-border); }
+    .count-blue   { background: var(--blue-bg);   color: var(--blue);   border: 1px solid var(--blue-border); }
+    .count-green  { background: var(--green-bg);  color: var(--green);  border: 1px solid var(--green-border); }
+    .count-amber  { background: var(--amber-bg);  color: var(--amber);  border: 1px solid var(--amber-border); }
+    .count-purple { background: var(--purple-bg); color: var(--purple); border: 1px solid var(--purple-border); }
+    .count-teal   { background: var(--teal-bg);   color: var(--teal);   border: 1px solid var(--teal-border); }
 
     .section-line { flex: 1; height: 1px; background: var(--border); }
 
     /* ─── Cards Grid ─── */
-    .cards-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(460px, 1fr));
-      gap: 1.25rem;
-    }
+    .cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(460px, 1fr)); gap: 1.25rem; }
     @media (max-width: 680px) { .cards-grid { grid-template-columns: 1fr; } }
 
     /* ─── News Card ─── */
     .news-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      overflow: hidden;
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--radius); overflow: hidden;
       box-shadow: var(--shadow-sm);
       transition: box-shadow 0.2s, transform 0.2s;
       display: flex; flex-direction: column;
@@ -205,30 +193,27 @@
     .news-card:hover { box-shadow: var(--shadow-md); transform: translateY(-3px); }
 
     .card-accent { height: 4px; width: 100%; }
-    .accent-red   { background: linear-gradient(90deg, #E53E3E, #FC8181); }
-    .accent-blue  { background: linear-gradient(90deg, #2B6CB0, #63B3ED); }
-    .accent-green { background: linear-gradient(90deg, #276749, #68D391); }
+    .accent-red    { background: linear-gradient(90deg, #E53E3E, #FC8181); }
+    .accent-blue   { background: linear-gradient(90deg, #2B6CB0, #63B3ED); }
+    .accent-green  { background: linear-gradient(90deg, #276749, #68D391); }
+    .accent-amber  { background: linear-gradient(90deg, #D69E2E, #F6AD55); }
+    .accent-purple { background: linear-gradient(90deg, #6B46C1, #9F7AEA); }
+    .accent-teal   { background: linear-gradient(90deg, #2C7A7B, #4FD1C5); }
 
     .card-body { padding: 1.25rem 1.25rem 1rem; flex: 1; display: flex; flex-direction: column; }
+    .card-title { font-size: 15.5px; font-weight: 700; color: var(--ink); line-height: 1.5; margin-bottom: 12px; letter-spacing: -0.1px; }
 
-    .card-title {
-      font-size: 15.5px; font-weight: 700; color: var(--ink);
-      line-height: 1.5; margin-bottom: 12px; letter-spacing: -0.1px;
-    }
-
-    /* ─── Source Tags ─── */
     .sources-row { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 14px; }
     .source-tag {
       display: inline-flex; align-items: center; gap: 4px;
-      padding: 3px 10px;
-      background: #F1F5F9; color: #334155; border: 1px solid #E2E8F0;
-      border-radius: 6px; font-size: 11px; font-weight: 600;
-      text-decoration: none; transition: background 0.15s, border-color 0.15s;
+      padding: 3px 10px; background: #F1F5F9; color: #334155;
+      border: 1px solid #E2E8F0; border-radius: 6px;
+      font-size: 11px; font-weight: 600; text-decoration: none;
+      transition: background 0.15s, border-color 0.15s;
     }
     .source-tag::before { content: '↗'; font-size: 9px; color: var(--faint); }
     .source-tag:hover { background: #E2E8F0; border-color: #CBD5E0; }
 
-    /* ─── Summary ─── */
     .summary {
       font-size: 13.5px; color: #4A5568; line-height: 1.7;
       margin-bottom: 16px; padding: 12px 14px;
@@ -236,33 +221,31 @@
     }
 
     /* ─── Insight Panel ─── */
-    .insight-panel {
-      border: 1px solid var(--border); border-radius: 10px;
-      overflow: hidden; margin-top: auto;
-    }
-    .insight-row {
-      display: grid; grid-template-columns: 80px 1fr;
-      border-bottom: 1px solid var(--border);
-    }
+    .insight-panel { border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin-top: auto; }
+    .insight-row { display: grid; grid-template-columns: 80px 1fr; border-bottom: 1px solid var(--border); }
     .insight-row:last-child { border-bottom: none; }
-
     .insight-label {
-      font-size: 10px; font-weight: 700;
-      letter-spacing: 0.5px; text-transform: uppercase;
-      color: var(--faint); padding: 10px 12px;
-      background: #FAFBFC;
+      font-size: 10px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase;
+      color: var(--faint); padding: 10px 12px; background: #FAFBFC;
       display: flex; align-items: flex-start;
       border-right: 1px solid var(--border); line-height: 1.4;
     }
-    .insight-value {
-      font-size: 12.5px; color: var(--ink-2); line-height: 1.6; padding: 10px 12px;
-    }
+    .insight-value { font-size: 12.5px; color: var(--ink-2); line-height: 1.6; padding: 10px 12px; }
 
     .title-row .insight-label { background: #FFFBEB; color: #92400E; border-right-color: #FDE68A; }
     .title-row .insight-value { background: #FFFBEB; font-weight: 700; color: #78350F; }
-
     .local-row .insight-label { background: #F0FFF4; color: #276749; border-right-color: #C6F6D5; }
     .local-row .insight-value { background: #F0FFF4; color: #22543D; font-size: 12px; }
+    .stock-row .insight-label { background: #EBF8FF; color: #2B6CB0; border-right-color: #BEE3F8; }
+    .stock-row .insight-value { background: #EBF8FF; color: #1A365D; }
+    .invest-row .insight-label { background: #FAF5FF; color: #6B46C1; border-right-color: #D6BCFA; }
+    .invest-row .insight-value { background: #FAF5FF; color: #44337A; }
+
+    /* ─── Empty State ─── */
+    .empty-state { text-align: center; padding: 5rem 2rem; color: var(--muted); }
+    .empty-icon  { font-size: 3rem; margin-bottom: 1rem; }
+    .empty-title { font-size: 1.1rem; font-weight: 700; color: var(--ink-2); margin-bottom: 0.5rem; }
+    .empty-desc  { font-size: 0.875rem; }
 
     /* ─── Footer ─── */
     .site-footer {
@@ -271,11 +254,7 @@
       justify-content: space-between; align-items: center;
       font-size: 11px; color: var(--faint); font-weight: 500;
     }
-    .footer-dot {
-      width: 4px; height: 4px; border-radius: 50%;
-      background: var(--faint); display: inline-block;
-      margin: 0 8px; vertical-align: middle;
-    }
+    .footer-dot { width: 4px; height: 4px; border-radius: 50%; background: var(--faint); display: inline-block; margin: 0 8px; vertical-align: middle; }
   </style>
 </head>
 <body>
@@ -284,10 +263,10 @@
 
   <header class="site-header">
     <div class="header-left">
-      <div class="header-logo">🤖</div>
+      <div class="header-logo" id="hdr-logo">🤖</div>
       <div>
-        <div class="header-brand">AI 日報</div>
-        <div class="header-sub">AI 效率工具 · 為中文自媒體選題整理</div>
+        <div class="header-brand" id="hdr-brand">AI 日報</div>
+        <div class="header-sub" id="hdr-sub">AI 效率工具 · 為中文自媒體選題整理</div>
       </div>
     </div>
     <div class="header-right">
@@ -296,49 +275,52 @@
     </div>
   </header>
 
+  <nav class="channel-nav">
+    <button class="channel-tab active" data-channel="ai"
+            data-logo="🤖" data-brand="AI 日報"
+            data-sub="AI 效率工具 · 為中文自媒體選題整理">🤖 AI 日報</button>
+    <button class="channel-tab" data-channel="finance"
+            data-logo="💹" data-brand="財經新聞"
+            data-sub="市場動態 · 台灣投資人視角">💹 財經新聞</button>
+  </nav>
+
   <nav class="date-nav">
     <span class="date-nav-label">日期</span>
-    <button class="date-tab active" data-target="day-2026-05-16" data-date="2026-05-16">05-16</button>
-<button class="date-tab " data-target="day-2026-05-15" data-date="2026-05-15">05-15</button>
-<button class="date-tab " data-target="day-2026-05-14" data-date="2026-05-14">05-14</button>
-<button class="date-tab " data-target="day-2026-05-13" data-date="2026-05-13">05-13</button>
-<button class="date-tab " data-target="day-2026-05-06" data-date="2026-05-06">05-06</button>
+    <div class="date-tabs-group" id="ai-date-tabs">
+      <button class="date-tab active" data-target="ai-day-2026-05-16" data-date="2026-05-16" data-channel="ai">05-16</button>
+<button class="date-tab " data-target="ai-day-2026-05-15" data-date="2026-05-15" data-channel="ai">05-15</button>
+<button class="date-tab " data-target="ai-day-2026-05-14" data-date="2026-05-14" data-channel="ai">05-14</button>
+<button class="date-tab " data-target="ai-day-2026-05-13" data-date="2026-05-13" data-channel="ai">05-13</button>
+<button class="date-tab " data-target="ai-day-2026-05-06" data-date="2026-05-06" data-channel="ai">05-06</button>
 
+    </div>
+    <div class="date-tabs-group" id="finance-date-tabs" style="display:none">
+      <button class="date-tab active" data-target="finance-day-2026-05-16" data-date="2026-05-16" data-channel="finance">05-16</button>
+
+    </div>
   </nav>
 
   <main class="container">
-    <div id="day-2026-05-16" class="day-panel active" data-date="2026-05-16" data-total="9">
-  <section class="report-section">
+    <div id="ai-content">
+      <div id="ai-day-2026-05-16" class="day-panel active" data-date="2026-05-16" data-total="9" data-channel="ai">
+<section class="report-section">
   <div class="section-header">
     <span class="section-dot dot-red"></span>
     <span class="section-label label-red">大事件</span>
     <span class="section-count count-red">3 則</span>
     <span class="section-line"></span>
   </div>
-  <div class="cards-grid">
-    <div class="news-card">
+  <div class="cards-grid"><div class="news-card">
       <div class="card-accent accent-red"></div>
       <div class="card-body">
         <h3 class="card-title">OpenAI 整合 ChatGPT、Codex 與 API，Greg Brockman 正式執掌產品戰略</h3>
         <div class="sources-row"><a href="https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/" target="_blank" class="source-tag">TechCrunch</a><a href="https://www.techtimes.com/articles/316730/20260516/openai-unifies-chatgpt-codex-developer-api-under-co-founder-brockman-four-days-before-google-i-o.htm" target="_blank" class="source-tag">TechTimes</a><a href="https://www.benzinga.com/markets/tech/26/05/52622210/openai-merges-chatgpt-and-codex-taps-greg-brockman-to-lead-product-strategy-ahead-of-potential-ipo-report" target="_blank" class="source-tag">Benzinga</a></div>
         <p class="summary">OpenAI 宣布將 ChatGPT、Codex 與開發者 API 整合為單一 Agentic 平台，由共同創辦人 Greg Brockman 正式接任產品長，劍指 IPO 與 Google I/O 大戰。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">職場上班族、企業 IT 決策者</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">不確定該用哪個 OpenAI 工具、AI 代理助手還不夠整合、工作流程碎片化</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">OpenAI 大整合！ChatGPT + Codex 合體，你的 AI 工作流要大改變了</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">歐美已在討論 Agentic AI 的產品化，華語圈還停留在單點工具教學；搶做「OpenAI 統一平台完整解析」可搶占先機</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">職場上班族、企業 IT 決策者</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">不確定該用哪個 OpenAI 工具、AI 代理助手還不夠整合、工作流程碎片化</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">OpenAI 大整合！ChatGPT + Codex 合體，你的 AI 工作流要大改變了</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">歐美已在討論 Agentic AI 的產品化，華語圈還停留在單點工具教學；搶做「OpenAI 統一平台完整解析」可搶占先機</span></div>
         </div>
       </div>
     </div>
@@ -349,22 +331,10 @@
         <div class="sources-row"><a href="https://www.androidauthority.com/what-to-expect-from-google-io-2026-3664979/" target="_blank" class="source-tag">Android Authority</a><a href="https://www.androidheadlines.com/2026/05/google-io-new-gemini-model-launch-gpt-5-5-rival.html" target="_blank" class="source-tag">Android Headlines</a><a href="https://imini.com/blogs/gemini-omni-google-io-2026" target="_blank" class="source-tag">iMini AI</a></div>
         <p class="summary">Google I/O 將於 5 月 19 日登場，洩露的 UI 字串顯示 Gemini Omni 可在同一介面生成文字、圖像與影片，效能預計對標 GPT-5.5。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">職場上班族、內容創作者、行銷人員</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">現有 AI 工具分散，需在多個平台間切換，搜索、生成、整理分屬不同應用</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">Gemini Omni 來了！Google 一站式 AI 將如何改變你的日常工作流？</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">I/O 發布前夕是最佳搶跑時機，可做「Gemini Omni 搶先看」預告型內容，發布當天補完整教學，形成二波流量</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">職場上班族、內容創作者、行銷人員</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">現有 AI 工具分散，需在多個平台間切換，搜索、生成、整理分屬不同應用</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">Gemini Omni 來了！Google 一站式 AI 將如何改變你的日常工作流？</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">I/O 發布前夕是最佳搶跑時機，可做「Gemini Omni 搶先看」預告型內容，發布當天補完整教學，形成二波流量</span></div>
         </div>
       </div>
     </div>
@@ -375,58 +345,31 @@
         <div class="sources-row"><a href="https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/" target="_blank" class="source-tag">TechCrunch</a></div>
         <p class="summary">全球最大學術預印本平台 ArXiv 宣布，若作者讓 AI 全面代寫論文將面臨一年停權，引發學術與職場知識工作者對 AI 工具合規邊界的廣泛討論。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">學術研究者、研究生、職場知識工作者</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">不清楚 AI 輔助寫作的合規邊界，擔心使用 AI 工具會觸碰紅線或踩到職業倫理問題</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">用 AI 寫論文竟然會被停權？2026 年 AI 寫作的紅線到底在哪裡</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">台灣學術圈與職場對 AI 寫作規範討論度不足，此議題在華語圈有高度教育與流量價值，可從「如何正確使用 AI 輔助」角度切入</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">學術研究者、研究生、職場知識工作者</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">不清楚 AI 輔助寫作的合規邊界，擔心使用 AI 工具會觸碰紅線或踩到職業倫理問題</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">用 AI 寫論文竟然會被停權？2026 年 AI 寫作的紅線到底在哪裡</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">台灣學術圈與職場對 AI 寫作規範討論度不足，此議題在華語圈有高度教育與流量價值，可從「如何正確使用 AI 輔助」角度切入</span></div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-  <section class="report-section">
+    </div></div>
+</section><section class="report-section">
   <div class="section-header">
     <span class="section-dot dot-blue"></span>
     <span class="section-label label-blue">工具更新</span>
     <span class="section-count count-blue">3 則</span>
     <span class="section-line"></span>
   </div>
-  <div class="cards-grid">
-    <div class="news-card">
+  <div class="cards-grid"><div class="news-card">
       <div class="card-accent accent-blue"></div>
       <div class="card-body">
         <h3 class="card-title">Microsoft Copilot Cowork 整合 Claude 技術，職場 AI 代理正式進駐 Office 365</h3>
         <div class="sources-row"><a href="https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/" target="_blank" class="source-tag">Microsoft 365 Blog</a><a href="https://www.eweek.com/news/microsoft-agentic-copilot-cowork-claude/" target="_blank" class="source-tag">eWeek</a><a href="https://datasciencedojo.com/blog/claude-cowork-vs-copilot-cowork/" target="_blank" class="source-tag">DataScienceDojo</a></div>
         <p class="summary">Microsoft Copilot Cowork 整合 Anthropic Claude 技術，支援多步驟長期任務自動執行，包含行事曆管理、月報整理，現已推廣至 Frontier 訂閱方案。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">使用 Microsoft 365 的職場上班族、企業管理者</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">AI 只能回答問題，無法自動跑完整套工作流，仍需人工大量介入才能完成任務</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">你的 Office 365 升級了！Copilot Cowork 實測：AI 幫你自動完成整個月報</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">台灣企業普遍使用 M365，但 Copilot Cowork 功能在華語圈教學嚴重稀缺，搶做完整操作教學的流量紅利極大</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">使用 Microsoft 365 的職場上班族、企業管理者</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">AI 只能回答問題，無法自動跑完整套工作流，仍需人工大量介入才能完成任務</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">你的 Office 365 升級了！Copilot Cowork 實測：AI 幫你自動完成整個月報</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">台灣企業普遍使用 M365，但 Copilot Cowork 功能在華語圈教學嚴重稀缺，搶做完整操作教學的流量紅利極大</span></div>
         </div>
       </div>
     </div>
@@ -437,22 +380,10 @@
         <div class="sources-row"><a href="https://imfounder.com/science-tech/ai/ai-updates-may-2026/" target="_blank" class="source-tag">imfounder</a><a href="https://aitoolsrecap.com/Blog/MayNews2026.aspx" target="_blank" class="source-tag">AIToolsRecap</a></div>
         <p class="summary">Microsoft Agent 365 正式上線，提供企業統一管理所有 AI 代理的控制台，含安全治理與第三方代理整合，月費 $15 美元每人。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">企業 IT 主管、數位轉型決策者、採購人員</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">企業部署多個 AI 工具後缺乏統一管理，安全、合規與效能評估無法集中掌控</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">企業 AI 管理新時代！微軟 Agent 365 是什麼？每人 15 美元值不值得？</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">台灣中大型企業正評估 AI 部署策略，此工具在華語圈幾乎無完整介紹，是優質 B2B 觀點選題</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">企業 IT 主管、數位轉型決策者、採購人員</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">企業部署多個 AI 工具後缺乏統一管理，安全、合規與效能評估無法集中掌控</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">企業 AI 管理新時代！微軟 Agent 365 是什麼？每人 15 美元值不值得？</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">台灣中大型企業正評估 AI 部署策略，此工具在華語圈幾乎無完整介紹，是優質 B2B 觀點選題</span></div>
         </div>
       </div>
     </div>
@@ -463,58 +394,31 @@
         <div class="sources-row"><a href="https://allinoneaicenter.com/blog/new-ai-tools-may-2026" target="_blank" class="source-tag">AllInOneAICenter</a><a href="https://aitoolsrecap.com/Blog/MayNews2026.aspx" target="_blank" class="source-tag">AIToolsRecap</a></div>
         <p class="summary">xAI 的 Grok Imagine 以 Elo 1329 分奪下 DesignArena 圖生影片排行榜第一，勝過 Runway Gen-4.5、Sora 2 Pro 與 Google Veo 3.1。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">內容創作者、行銷人員、社群媒體操作者</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">AI 影片工具太多，不知哪個效果最好、CP 值最高，評測標準不透明</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">2026 AI 影片工具最強排名揭曉！Grok Imagine 憑什麼打敗 Sora 和 Runway？</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">海外已有客觀評測平台排名，但華語圈鮮少分析 DesignArena 排行，搶做詳細比較測試內容可建立公信力</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">內容創作者、行銷人員、社群媒體操作者</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">AI 影片工具太多，不知哪個效果最好、CP 值最高，評測標準不透明</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">2026 AI 影片工具最強排名揭曉！Grok Imagine 憑什麼打敗 Sora 和 Runway？</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">海外已有客觀評測平台排名，但華語圈鮮少分析 DesignArena 排行，搶做詳細比較測試內容可建立公信力</span></div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-  <section class="report-section">
+    </div></div>
+</section><section class="report-section">
   <div class="section-header">
     <span class="section-dot dot-green"></span>
     <span class="section-label label-green">值得追蹤的趨勢</span>
     <span class="section-count count-green">3 則</span>
     <span class="section-line"></span>
   </div>
-  <div class="cards-grid">
-    <div class="news-card">
+  <div class="cards-grid"><div class="news-card">
       <div class="card-accent accent-green"></div>
       <div class="card-body">
         <h3 class="card-title">AI Solopreneur 技術棧月費 $75–150 美元，替代 5–10 人團隊，獨立創業者收入倍增</h3>
         <div class="sources-row"><a href="https://workborn.com/best-ai-tools-solopreneurs/" target="_blank" class="source-tag">Workborn</a><a href="https://entrepreneurloop.com/solopreneur-guide-to-scaling-2026/" target="_blank" class="source-tag">EntrepreneurLoop</a></div>
         <p class="summary">2026 年 AI 工具組合讓個人以 $75–150 月費取代過去需要 5–10 人的業務能量，使用 AI 的獨立創業者收入是同行的 2–3 倍。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">想副業或創業的職場上班族</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">一個人資源有限，不知道如何用 AI 工具做到更多，對創業初期成本有疑慮</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">2026 年一人公司完整 AI 工具清單：月花台幣 5000 元，做到 10 人團隊的事</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">歐美已大量驗證 Solopreneur AI Stack 模式，台灣華語圈仍停留在零散工具推薦，缺乏系統性整合教學，資訊差極大</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">想副業或創業的職場上班族</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">一個人資源有限，不知道如何用 AI 工具做到更多，對創業初期成本有疑慮</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">2026 年一人公司完整 AI 工具清單：月花台幣 5000 元，做到 10 人團隊的事</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">歐美已大量驗證 Solopreneur AI Stack 模式，台灣華語圈仍停留在零散工具推薦，缺乏系統性整合教學，資訊差極大</span></div>
         </div>
       </div>
     </div>
@@ -525,22 +429,10 @@
         <div class="sources-row"><a href="https://www.superhuman.ai/p/openai-google-and-anthropic-release-new-models" target="_blank" class="source-tag">Superhuman AI</a><a href="https://imfounder.com/science-tech/ai/ai-updates-may-2026/" target="_blank" class="source-tag">imfounder</a></div>
         <p class="summary">OpenAI、Microsoft、Anthropic 均已將 Agentic AI 作為獨立產品線推出，AI 從回答問題演進為自主執行多步驟工作流，職場自動化正式加速。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">職場上班族、企業主管、數位轉型從業者</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">AI 只能對話，無法真正接手重複性行政工作，效率提升仍有天花板</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">AI 代理正式上班！2026 年的 AI 不只回答問題，還能幫你把整件事做完</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">Agentic AI 概念在歐美已是主流話題，但華語圈對其實際工作場景解說嚴重不足，入門科普型內容需求旺盛</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">職場上班族、企業主管、數位轉型從業者</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">AI 只能對話，無法真正接手重複性行政工作，效率提升仍有天花板</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">AI 代理正式上班！2026 年的 AI 不只回答問題，還能幫你把整件事做完</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">Agentic AI 概念在歐美已是主流話題，但華語圈對其實際工作場景解說嚴重不足，入門科普型內容需求旺盛</span></div>
         </div>
       </div>
     </div>
@@ -551,60 +443,34 @@
         <div class="sources-row"><a href="https://openai.com/index/malta-chatgpt-plus-partnership/" target="_blank" class="source-tag">OpenAI</a><a href="https://futuretools.io/news" target="_blank" class="source-tag">FutureTools</a></div>
         <p class="summary">OpenAI 宣布與馬耳他政府合作，完成 AI 素養課程的公民可免費使用 ChatGPT Plus，是 OpenAI for Countries 計畫繼愛沙尼亞、希臘後的最新案例。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">關注 AI 政策與教育的職場工作者、教育工作者</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">AI 工具授權費用高，不確定未來是否會有公共補助，AI 教育資源分配不均</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">政府幫你付 ChatGPT 訂閱費！OpenAI 的國家合作計畫對台灣有什麼啟示？</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">歐洲政府已率先推動 AI 全民教育，台灣是否跟進值得討論；此角度可帶動政策觀點類內容，也適合與 AI 素養教育議題結合</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">關注 AI 政策與教育的職場工作者、教育工作者</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">AI 工具授權費用高，不確定未來是否會有公共補助，AI 教育資源分配不均</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">政府幫你付 ChatGPT 訂閱費！OpenAI 的國家合作計畫對台灣有什麼啟示？</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">歐洲政府已率先推動 AI 全民教育，台灣是否跟進值得討論；此角度可帶動政策觀點類內容，也適合與 AI 素養教育議題結合</span></div>
         </div>
       </div>
-    </div>
-  </div>
+    </div></div>
 </section>
 </div>
-<div id="day-2026-05-15" class="day-panel " data-date="2026-05-15" data-total="10">
-  <section class="report-section">
+<div id="ai-day-2026-05-15" class="day-panel " data-date="2026-05-15" data-total="10" data-channel="ai">
+<section class="report-section">
   <div class="section-header">
     <span class="section-dot dot-red"></span>
     <span class="section-label label-red">大事件</span>
     <span class="section-count count-red">3 則</span>
     <span class="section-line"></span>
   </div>
-  <div class="cards-grid">
-    <div class="news-card">
+  <div class="cards-grid"><div class="news-card">
       <div class="card-accent accent-red"></div>
       <div class="card-body">
         <h3 class="card-title">ChatGPT 推出個人財務功能，可連結 12,000+ 家銀行，由 GPT-5.5 驅動</h3>
         <div class="sources-row"><a href="https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/" target="_blank" class="source-tag">TechCrunch</a><a href="https://www.macrumors.com/2026/05/15/chatgpt-personal-finance/" target="_blank" class="source-tag">MacRumors</a><a href="https://www.engadget.com/2173768/chatgpt-will-offer-personalized-financial-advice-if-you-connect-your-bank-account/" target="_blank" class="source-tag">Engadget</a></div>
         <p class="summary">OpenAI 向美國 Pro 訂閱用戶推出個人財務功能，透過 Plaid 連結超過 12,000 家金融機構，提供支出儀表板、訂閱管理與理財建議，由 GPT-5.5 推理模型驅動。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">職場上班族、理財小白、月光族</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">不知道錢花去哪、沒時間整理帳務、想規劃財務卻不知從何開始</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">ChatGPT 現在可以幫你看帳戶！連結銀行後 AI 幫你省錢的 5 個方法</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">功能目前僅限美國 Pro 用戶，台灣尚未開放——搶做「功能預告 + 替代理財 AI 工具教學」，享受資訊差紅利</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">職場上班族、理財小白、月光族</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">不知道錢花去哪、沒時間整理帳務、想規劃財務卻不知從何開始</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">ChatGPT 現在可以幫你看帳戶！連結銀行後 AI 幫你省錢的 5 個方法</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">功能目前僅限美國 Pro 用戶，台灣尚未開放——搶做「功能預告 + 替代理財 AI 工具教學」，享受資訊差紅利</span></div>
         </div>
       </div>
     </div>
@@ -615,22 +481,10 @@
         <div class="sources-row"><a href="https://www.techtimes.com/articles/316692/20260515/claude-overtakes-chatgpt-us-business-ai-payments-first-time.htm" target="_blank" class="source-tag">TechTimes</a><a href="https://venturebeat.com/technology/anthropic-finally-beat-openai-in-business-ai-adoption-but-3-big-threats-could-erase-its-lead" target="_blank" class="source-tag">VentureBeat</a><a href="https://ramp.com/leading-indicators/ai-index-may-2026" target="_blank" class="source-tag">Ramp AI Index</a></div>
         <p class="summary">Ramp AI 指數顯示，Anthropic Claude 企業採用率首度超越 OpenAI ChatGPT，一年內成長 4 倍，Claude Code 成最大功臣，佔全球 GitHub 公開 commit 的 4%，一個月內翻倍。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">職場上班族、企業決策者、AI 工具選購者</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">不知道該用 ChatGPT 還是 Claude，想選最物超所值的 AI 訂閱</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">2026 最強 AI 工具排名大洗牌！為什麼企業都在棄 ChatGPT 換 Claude？</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">歐美企業已大規模遷移到 Claude，台灣職場人大多還在用 ChatGPT——是搶做「Claude vs ChatGPT 企業實測」比較內容的最佳時機</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">職場上班族、企業決策者、AI 工具選購者</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">不知道該用 ChatGPT 還是 Claude，想選最物超所值的 AI 訂閱</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">2026 最強 AI 工具排名大洗牌！為什麼企業都在棄 ChatGPT 換 Claude？</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">歐美企業已大規模遷移到 Claude，台灣職場人大多還在用 ChatGPT——是搶做「Claude vs ChatGPT 企業實測」比較內容的最佳時機</span></div>
         </div>
       </div>
     </div>
@@ -641,58 +495,31 @@
         <div class="sources-row"><a href="https://www.lawnext.com/2026/05/anthropic-goes-all-in-on-legal-releasing-more-than-20-connectors-and-12-practice-area-plugins-for-claude.html" target="_blank" class="source-tag">LawSites</a><a href="https://www.artificiallawyer.com/2026/05/12/claude-for-legal-launches-may-reshape-the-legal-tech-world/" target="_blank" class="source-tag">Artificial Lawyer</a><a href="https://claude.com/blog/deploying-claude-across-the-legal-industry" target="_blank" class="source-tag">Anthropic Blog</a></div>
         <p class="summary">Anthropic 正式推出 Claude for Legal，發布超過 20 個 MCP 連接器與 12 個針對商業、訴訟、隱私及 AI 治理等領域的插件，同步宣布 PwC 合作將認證 3 萬名專業人員。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">法律從業人員、企業合規人員、希望了解 AI 衝擊職場的人</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">法律工作耗時繁瑣，想用 AI 提升效率卻不知如何導入，擔心被 AI 取代</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">AI 正在取代律師？Claude 進攻法律市場，這些職場工作你要小心了</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">Claude for Legal 目前主打英語法律圈，台灣法律 AI 工具幾乎空白——搶做「AI 如何改變台灣法律職場」深度分析，搶先建立權威</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">法律從業人員、企業合規人員、希望了解 AI 衝擊職場的人</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">法律工作耗時繁瑣，想用 AI 提升效率卻不知如何導入，擔心被 AI 取代</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">AI 正在取代律師？Claude 進攻法律市場，這些職場工作你要小心了</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">Claude for Legal 目前主打英語法律圈，台灣法律 AI 工具幾乎空白——搶做「AI 如何改變台灣法律職場」深度分析，搶先建立權威</span></div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-  <section class="report-section">
+    </div></div>
+</section><section class="report-section">
   <div class="section-header">
     <span class="section-dot dot-blue"></span>
     <span class="section-label label-blue">工具更新</span>
     <span class="section-count count-blue">4 則</span>
     <span class="section-line"></span>
   </div>
-  <div class="cards-grid">
-    <div class="news-card">
+  <div class="cards-grid"><div class="news-card">
       <div class="card-accent accent-blue"></div>
       <div class="card-body">
         <h3 class="card-title">Osaurus 登陸 Mac：一個介面同時跑本地 + 雲端 AI 模型，完全保護隱私，開源免費</h3>
         <div class="sources-row"><a href="https://techcrunch.com/2026/05/15/osaurus-brings-both-local-and-cloud-ai-models-to-your-mac/" target="_blank" class="source-tag">TechCrunch</a><a href="https://osaurus.ai/" target="_blank" class="source-tag">Osaurus 官網</a><a href="https://github.com/osaurus-ai/osaurus" target="_blank" class="source-tag">GitHub</a></div>
         <p class="summary">Osaurus 是一款開源 Mac App，可在同一介面中切換本地 MLX 模型與 OpenAI/Anthropic 雲端 API，支援 MCP 工具共享，記憶體與檔案留在自己硬體上不外傳，前 Tesla/Netflix 工程師開發。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">Mac 用戶、注重隱私的職場人、進階 AI 效率工具玩家</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">使用雲端 AI 擔心資料外洩，本地模型又不夠強，想兼顧隱私與效能</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">Mac 用戶必看！Osaurus 讓你同時用 ChatGPT + 本地 AI，資料完全不外洩，還是免費開源的</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">開源免費但需 64GB RAM 跑本地模型——可做「有沒有更輕量替代方案」教學，吸引 Mac 效率工具愛好者</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">Mac 用戶、注重隱私的職場人、進階 AI 效率工具玩家</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">使用雲端 AI 擔心資料外洩，本地模型又不夠強，想兼顧隱私與效能</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">Mac 用戶必看！Osaurus 讓你同時用 ChatGPT + 本地 AI，資料完全不外洩，還是免費開源的</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">開源免費但需 64GB RAM 跑本地模型——可做「有沒有更輕量替代方案」教學，吸引 Mac 效率工具愛好者</span></div>
         </div>
       </div>
     </div>
@@ -703,22 +530,10 @@
         <div class="sources-row"><a href="https://www.neowin.net/news/microsoft-365-copilot-wave-3-announced-new-agentic-features-for-word-excel-and-outlook/" target="_blank" class="source-tag">Neowin</a><a href="https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilots-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/" target="_blank" class="source-tag">Microsoft 365 Blog</a><a href="https://www.proserveit.com/blog/microsoft-copilot-wave-3-updates-cowork-agent-mode-agent-365-unpacked" target="_blank" class="source-tag">ProServeIT</a></div>
         <p class="summary">Microsoft Agent 365 以 $15/用戶/月 正式上線，Copilot Wave 3 讓 Word、Excel、PowerPoint 具備代理模式，可自動執行多步驟任務、跨文件分析資料並生成報表，無需人工介入。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">職場上班族、Office 365 用戶、企業 IT 管理者</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">每天在 Excel 手動整理數據和報表浪費大量時間，會議後待辦事項散落各處</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">Office 升級了！Copilot Wave 3 讓 Excel 自動幫你做報表，上班族這 5 件事可以不用親自做了</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">台灣職場 Office 365 使用率極高但大多數人不知道這些新功能——實際操作教學影片搜尋量大、競爭少</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">職場上班族、Office 365 用戶、企業 IT 管理者</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">每天在 Excel 手動整理數據和報表浪費大量時間，會議後待辦事項散落各處</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">Office 升級了！Copilot Wave 3 讓 Excel 自動幫你做報表，上班族這 5 件事可以不用親自做了</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">台灣職場 Office 365 使用率極高但大多數人不知道這些新功能——實際操作教學影片搜尋量大、競爭少</span></div>
         </div>
       </div>
     </div>
@@ -729,22 +544,10 @@
         <div class="sources-row"><a href="https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/" target="_blank" class="source-tag">TechCrunch</a><a href="https://aitoolly.com/ai-news/article/2026-04-30-runway-ceo-cristbal-valenzuela-predicts-shift-from-ai-video-to-world-models-amid-53-billion-valuatio" target="_blank" class="source-tag">AIToolly</a></div>
         <p class="summary">估值 53 億美元的 Runway 宣布轉型策略：從 AI 影片生成工具進化為「世界模型」基礎設施，Q2 ARR 新增 4000 萬美元，正面挑戰 Google Veo 3.1 與 Lionsgate、AMC 等大型影視合作。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">影片創作者、自媒體人、設計師、視覺創意工作者</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">AI 影片工具更新太快，不知道該投資哪個平台學習技能</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">AI 影片工具大戰 2026：Runway vs Google Veo 誰才是創作者的最佳選擇？</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">Runway Gen-4 依然是最強創意控制工具，但中文教學資源遠少於 Google Veo——率先做中文深度評測可快速建立權威</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">影片創作者、自媒體人、設計師、視覺創意工作者</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">AI 影片工具更新太快，不知道該投資哪個平台學習技能</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">AI 影片工具大戰 2026：Runway vs Google Veo 誰才是創作者的最佳選擇？</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">Runway Gen-4 依然是最強創意控制工具，但中文教學資源遠少於 Google Veo——率先做中文深度評測可快速建立權威</span></div>
         </div>
       </div>
     </div>
@@ -755,58 +558,31 @@
         <div class="sources-row"><a href="https://medium.com/@dhirendrachoudhary_96193/gemini-3-1-ultra-2-million-tokens-just-made-rag-optional-7b74d634b434" target="_blank" class="source-tag">Medium</a><a href="https://docs.cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/3-1-pro" target="_blank" class="source-tag">Google Cloud Docs</a><a href="https://ai2.work/blog/gemini-3-1-ultra-google-s-native-multimodal-reasoning-giant" target="_blank" class="source-tag">AI2Work</a></div>
         <p class="summary">Google Gemini 3.1 Ultra 擁有 200 萬 Token 上下文窗口，是 GPT-5 的 15 倍，可原生處理文字、圖片、音訊、影片，並在沙盒中自主執行並修正 Python 程式碼。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">開發者、效率工具愛好者、職場知識工作者</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">上下文視窗太小，處理長文件或大型專案時 AI 總是「忘記」前面的內容</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">Google Gemini 200 萬 Token 有多誇張？整本書丟進去它都記得，這 3 個工作場景徹底改變</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">Gemini 3.1 Ultra API 已開放，中文用戶試用心得幾乎為零——搶先實測中文長文處理能力有高流量潛力</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">開發者、效率工具愛好者、職場知識工作者</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">上下文視窗太小，處理長文件或大型專案時 AI 總是「忘記」前面的內容</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">Google Gemini 200 萬 Token 有多誇張？整本書丟進去它都記得，這 3 個工作場景徹底改變</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">Gemini 3.1 Ultra API 已開放，中文用戶試用心得幾乎為零——搶先實測中文長文處理能力有高流量潛力</span></div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-  <section class="report-section">
+    </div></div>
+</section><section class="report-section">
   <div class="section-header">
     <span class="section-dot dot-green"></span>
     <span class="section-label label-green">值得追蹤的趨勢</span>
     <span class="section-count count-green">3 則</span>
     <span class="section-line"></span>
   </div>
-  <div class="cards-grid">
-    <div class="news-card">
+  <div class="cards-grid"><div class="news-card">
       <div class="card-accent accent-green"></div>
       <div class="card-body">
         <h3 class="card-title">Claude Code 成長炸裂：一個月佔全球 4% GitHub 公開 commits，翻倍速成長</h3>
         <div class="sources-row"><a href="https://venturebeat.com/technology/anthropic-finally-beat-openai-in-business-ai-adoption-but-3-big-threats-could-erase-its-lead" target="_blank" class="source-tag">VentureBeat</a><a href="https://www.therundown.ai/p/the-enterprise-shift-openai-saw-coming" target="_blank" class="source-tag">The Rundown AI</a></div>
         <p class="summary">Anthropic 的 Claude Code 成為史上成長最快的 AI 產品，全球 4% 的 GitHub 公開提交由它撰寫，一個月內翻倍，正在重塑工程師的日常工作方式。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">開發者、技術型職場人、想學 AI 寫程式的上班族</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">想用 AI 加速工作，但不知道 AI Coding 工具哪個最值得投入時間學習</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">AI 現在寫了 4% 的 GitHub 程式碼！你的工作被取代了嗎？Claude Code 真實使用心得</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">台灣工程師圈對 Claude Code vs Cursor vs GitHub Copilot 的深度中文評測幾乎空白——填補空白機會極大</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">開發者、技術型職場人、想學 AI 寫程式的上班族</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">想用 AI 加速工作，但不知道 AI Coding 工具哪個最值得投入時間學習</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">AI 現在寫了 4% 的 GitHub 程式碼！你的工作被取代了嗎？Claude Code 真實使用心得</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">台灣工程師圈對 Claude Code vs Cursor vs GitHub Copilot 的深度中文評測幾乎空白——填補空白機會極大</span></div>
         </div>
       </div>
     </div>
@@ -817,22 +593,10 @@
         <div class="sources-row"><a href="https://prometai.app/blog/solopreneur-tech-stack-2026" target="_blank" class="source-tag">PrometAI</a><a href="https://www.taskade.com/blog/one-person-companies" target="_blank" class="source-tag">Taskade</a><a href="https://dev.to/neo_one_944288aac0bb5e89b/the-2026-solopreneur-ai-stack-every-tool-you-need-39e2" target="_blank" class="source-tag">DEV Community</a></div>
         <p class="summary">2026 年獨立創業者透過 AI 代理工具棧每月花費 300-500 美元，可取代原本需 8-12 萬美元月薪的整個團隊，AI 高效用戶業績成長是同儕的 2.3 倍（McKinsey 研究）。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">想副業創業的上班族、自媒體創作者、獨立開發者</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">想創業但沒有資金組團隊，不知道 AI 工具組合能做到什麼程度</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">2026 年一個人用 AI 當 10 人團隊！月花一萬塊工具費換百萬薪資團隊，這套 AI 工具棧我幫你整理好了</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">歐美獨立創業者 AI 工具棧已成熟，台灣職場人對此幾乎毫不知情——本土化版「AI 副業工具棧」教學有極高市場缺口</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">想副業創業的上班族、自媒體創作者、獨立開發者</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">想創業但沒有資金組團隊，不知道 AI 工具組合能做到什麼程度</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">2026 年一個人用 AI 當 10 人團隊！月花一萬塊工具費換百萬薪資團隊，這套 AI 工具棧我幫你整理好了</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">歐美獨立創業者 AI 工具棧已成熟，台灣職場人對此幾乎毫不知情——本土化版「AI 副業工具棧」教學有極高市場缺口</span></div>
         </div>
       </div>
     </div>
@@ -843,60 +607,34 @@
         <div class="sources-row"><a href="https://sherwood.news/tech/anthropic-in-talks-for-funding-at-a-valuation-as-high-as-950-billion-which-would-make-it-bigger-than-openai/" target="_blank" class="source-tag">Sherwood News</a><a href="https://www.anthropic.com/news/pwc-expanded-partnership" target="_blank" class="source-tag">Anthropic x PwC</a><a href="https://fortune.com/2026/05/13/behold-the-googlebook/" target="_blank" class="source-tag">Fortune</a></div>
         <p class="summary">Anthropic 洽談以 9500 億美元估值融資；OpenAI 同步與私募基金完成 40 億美元企業部署協議；PwC 宣布認證 3 萬名專業人員使用 Claude，AI 大廠全面搶攻職場基礎設施。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">職場上班族、科技投資人、AI 趨勢觀察者</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">AI 工具變化太快，不知道現在該投資哪個平台學習技能才不會被淘汰</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">AI 大戰 2026 最新格局：ChatGPT vs Claude vs Gemini 誰會贏？職場人現在該押哪個寶？</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">資本流向預示未來 2-3 年的產品走向，先了解格局的創作者能持續佔據話語權——深度分析文章適合知識型自媒體建立品牌</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">職場上班族、科技投資人、AI 趨勢觀察者</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">AI 工具變化太快，不知道現在該投資哪個平台學習技能才不會被淘汰</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">AI 大戰 2026 最新格局：ChatGPT vs Claude vs Gemini 誰會贏？職場人現在該押哪個寶？</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">資本流向預示未來 2-3 年的產品走向，先了解格局的創作者能持續佔據話語權——深度分析文章適合知識型自媒體建立品牌</span></div>
         </div>
       </div>
-    </div>
-  </div>
+    </div></div>
 </section>
 </div>
-<div id="day-2026-05-14" class="day-panel " data-date="2026-05-14" data-total="9">
-  <section class="report-section">
+<div id="ai-day-2026-05-14" class="day-panel " data-date="2026-05-14" data-total="9" data-channel="ai">
+<section class="report-section">
   <div class="section-header">
     <span class="section-dot dot-red"></span>
     <span class="section-label label-red">大事件</span>
     <span class="section-count count-red">3 則</span>
     <span class="section-line"></span>
   </div>
-  <div class="cards-grid">
-    <div class="news-card">
+  <div class="cards-grid"><div class="news-card">
       <div class="card-accent accent-red"></div>
       <div class="card-body">
         <h3 class="card-title">Google Gemini Spark 洩露：24/7 全天候 AI 代理即將取代你的個人助理</h3>
         <div class="sources-row"><a href="https://9to5google.com/2026/05/14/gemini-spark-insight/" target="_blank" class="source-tag">9to5Google</a><a href="https://www.androidauthority.com/gemini-spark-onboarding-screen-leaked-3667118/" target="_blank" class="source-tag">Android Authority</a><a href="https://www.testingcatalog.com/google-prepares-gemini-spark-ai-agent-ahead-of-i-o-launch/" target="_blank" class="source-tag">TestingCatalog</a></div>
         <p class="summary">Google 即將在 I/O 發布 Gemini Spark，這個 24/7 全天候 AI 代理可自動管理收件箱、預訂行程、跨 App 完成任務，無需手動提示。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">想用 AI 代理幫自己處理瑣事的職場上班族、生產力工具愛好者</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">每天在 email、行事曆、各種 App 間切換耗費大量時間，卻苦無一個能真正「懂我」並主動幫忙的工具</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">Google 要幫你「徹底解放雙手」！Gemini Spark 全天候 AI 代理即將到來，它能幫你做這些事</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">Gemini Spark 尚未正式發布，搶先用洩露資訊製作介紹教學，台灣/華語圈幾乎零競爭，搶佔 Google I/O 前流量</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">想用 AI 代理幫自己處理瑣事的職場上班族、生產力工具愛好者</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">每天在 email、行事曆、各種 App 間切換耗費大量時間，卻苦無一個能真正「懂我」並主動幫忙的工具</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">Google 要幫你「徹底解放雙手」！Gemini Spark 全天候 AI 代理即將到來，它能幫你做這些事</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">Gemini Spark 尚未正式發布，搶先用洩露資訊製作介紹教學，台灣/華語圈幾乎零競爭，搶佔 Google I/O 前流量</span></div>
         </div>
       </div>
     </div>
@@ -907,22 +645,10 @@
         <div class="sources-row"><a href="https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/" target="_blank" class="source-tag">TechCrunch</a><a href="https://9to5mac.com/2026/05/14/openai-brings-codex-control-to-chatgpt-for-iphone-and-android/" target="_blank" class="source-tag">9to5Mac</a><a href="https://openai.com/index/work-with-codex-from-anywhere/" target="_blank" class="source-tag">FutureTools</a></div>
         <p class="summary">OpenAI 將 Codex 整合進 ChatGPT 手機 App（iOS/Android 預覽版），可在手機上遠端監控、審核、啟動 AI 寫程式任務，即時收到差異比對與測試結果。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">開發者、想學 AI 輔助寫程式的職場工程師、科技創業者</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">Codex 只能在電腦操作，外出時無法監控 AI 跑任務的進度，缺乏行動端整合</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">AI 寫程式不用守著電腦了！OpenAI Codex 手機版來了，出門在外也能遠端掌控你的 AI 工程師</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">Codex 手機版教學在華語圈幾乎空白，搶做上手教學或工作流示範，資訊差紅利大</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">開發者、想學 AI 輔助寫程式的職場工程師、科技創業者</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">Codex 只能在電腦操作，外出時無法監控 AI 跑任務的進度，缺乏行動端整合</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">AI 寫程式不用守著電腦了！OpenAI Codex 手機版來了，出門在外也能遠端掌控你的 AI 工程師</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">Codex 手機版教學在華語圈幾乎空白，搶做上手教學或工作流示範，資訊差紅利大</span></div>
         </div>
       </div>
     </div>
@@ -933,58 +659,31 @@
         <div class="sources-row"><a href="https://venturebeat.com/technology/anthropic-finally-beat-openai-in-business-ai-adoption-but-3-big-threats-could-erase-its-lead" target="_blank" class="source-tag">VentureBeat</a></div>
         <p class="summary">Anthropic 在企業 AI 採用率上首度超越 OpenAI（34.4%），年化營收突破 300 億美元，百萬美元以上客戶兩個月內從 500 家倍增至 1,000 家。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">企業決策者、科技自媒體創作者、想了解 AI 商業格局的職場人士</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">不清楚 Claude 和 ChatGPT 在企業端的真實差距，不知道該押哪匹馬學習或導入</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">ChatGPT 王者地位被撼動！Anthropic 首度在企業市場打敗 OpenAI，背後原因讓人意外</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">此議題在歐美已引發熱議，但華語圈深度分析內容仍少，可做「Claude vs ChatGPT 企業比較」切入</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">企業決策者、科技自媒體創作者、想了解 AI 商業格局的職場人士</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">不清楚 Claude 和 ChatGPT 在企業端的真實差距，不知道該押哪匹馬學習或導入</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">ChatGPT 王者地位被撼動！Anthropic 首度在企業市場打敗 OpenAI，背後原因讓人意外</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">此議題在歐美已引發熱議，但華語圈深度分析內容仍少，可做「Claude vs ChatGPT 企業比較」切入</span></div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-  <section class="report-section">
+    </div></div>
+</section><section class="report-section">
   <div class="section-header">
     <span class="section-dot dot-blue"></span>
     <span class="section-label label-blue">工具更新</span>
     <span class="section-count count-blue">4 則</span>
     <span class="section-line"></span>
   </div>
-  <div class="cards-grid">
-    <div class="news-card">
+  <div class="cards-grid"><div class="news-card">
       <div class="card-accent accent-blue"></div>
       <div class="card-body">
         <h3 class="card-title">Perplexity Computer 新增 Snowflake 連接器：不懂 SQL 也能用自然語言查公司資料庫</h3>
         <div class="sources-row"><a href="https://www.perplexity.ai/hub/blog/computer-brings-data-science-to-every-team" target="_blank" class="source-tag">FutureTools</a><a href="https://venturebeat.com/technology/perplexity-takes-its-computer-ai-agent-into-the-enterprise-taking-aim-at" target="_blank" class="source-tag">VentureBeat</a></div>
         <p class="summary">Perplexity Computer 新增 Snowflake 與 Databricks 資料連接器，讓非技術員工可用自然語言直接查詢企業資料倉儲，無需 SQL，結果自動生成引用報告。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">需要查數據但不懂 SQL 的職場上班族、產品經理、業務分析師</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">想查公司數據得依賴工程師或 BI 部門，效率低、等待時間長</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">終於不用求工程師了！Perplexity Computer 讓你用說話查公司資料庫，這招職場人必學</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">企業數據查詢 AI 工具教學在華語圈幾乎空白，可做 Perplexity Computer 完整使用教學，搶先卡位</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">需要查數據但不懂 SQL 的職場上班族、產品經理、業務分析師</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">想查公司數據得依賴工程師或 BI 部門，效率低、等待時間長</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">終於不用求工程師了！Perplexity Computer 讓你用說話查公司資料庫，這招職場人必學</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">企業數據查詢 AI 工具教學在華語圈幾乎空白，可做 Perplexity Computer 完整使用教學，搶先卡位</span></div>
         </div>
       </div>
     </div>
@@ -995,22 +694,10 @@
         <div class="sources-row"><a href="https://www.windowslatest.com/2026/05/10/new-outlook-and-outlook-classic-features-in-may-2026-include-copilot-insights-teammates-calendars-automapped-calendars/" target="_blank" class="source-tag">WindowsLatest</a><a href="https://www.pcworld.com/article/3126671/whew-microsofts-smarter-outlook-taps-ai-agents-to-save-you-time.html" target="_blank" class="source-tag">PCWorld</a></div>
         <p class="summary">Outlook 新版 Copilot 可自動生成每日行事曆摘要、偵測衝突並建議重排、會議後自動輸出重點與待辦事項，並新增「我的團隊」行事曆聚合檢視。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">每天使用 Outlook 的職場上班族、團隊主管、微軟 365 用戶</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">行事曆混亂、會議結束後待辦事項散落各處、團隊行程難以整合一覽</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">Outlook 這次更新太實用了！Copilot 幫你整理每日行程、抓時間衝突，上班族必看</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">微軟 365 在台灣企業普及率高，實際操作教學需求大，可做「五月 Outlook 新功能完整示範」</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">每天使用 Outlook 的職場上班族、團隊主管、微軟 365 用戶</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">行事曆混亂、會議結束後待辦事項散落各處、團隊行程難以整合一覽</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">Outlook 這次更新太實用了！Copilot 幫你整理每日行程、抓時間衝突，上班族必看</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">微軟 365 在台灣企業普及率高，實際操作教學需求大，可做「五月 Outlook 新功能完整示範」</span></div>
         </div>
       </div>
     </div>
@@ -1021,22 +708,10 @@
         <div class="sources-row"><a href="https://techcrunch.com/2026/05/14/clawdmeter-turns-your-claude-code-usage-stats-into-a-tiny-desktop-dashboard/" target="_blank" class="source-tag">TechCrunch</a></div>
         <p class="summary">Clawdmeter 是一個輕量桌面看板工具，讓 Claude Code 用戶即時監控 token 使用量與費用，以迷你視窗懸浮呈現，避免不知不覺用超量。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">重度使用 Claude Code 的開發者、用 Claude API 建置產品的獨立開發者</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">Claude Code 用量不透明，擔心月底帳單暴增，缺乏即時監控工具</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">Claude Code 用量不失控！這個免費小工具讓你即時監控 AI 花費，開發者必裝</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">Claude Code 在台灣開發者圈快速普及，但配套管理工具介紹幾乎空白，教學機會大</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">重度使用 Claude Code 的開發者、用 Claude API 建置產品的獨立開發者</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">Claude Code 用量不透明，擔心月底帳單暴增，缺乏即時監控工具</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">Claude Code 用量不失控！這個免費小工具讓你即時監控 AI 花費，開發者必裝</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">Claude Code 在台灣開發者圈快速普及，但配套管理工具介紹幾乎空白，教學機會大</span></div>
         </div>
       </div>
     </div>
@@ -1047,58 +722,31 @@
         <div class="sources-row"><a href="https://www.anthropic.com/news/claude-design-anthropic-labs" target="_blank" class="source-tag">Anthropic</a><a href="https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/" target="_blank" class="source-tag">TechCrunch</a></div>
         <p class="summary">Anthropic 推出 Claude Design（研究預覽版），由 Claude Opus 4.7 驅動，讓創辦人、PM 等非設計師可用對話方式快速製作視覺作品，支援直接編輯與即時調整。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">沒有設計背景的職場人士、獨立創業者、自媒體創作者</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">想做出漂亮的簡報或產品原型，但不會用 Figma 或 PowerPoint 做出專業視覺效果</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">不會設計也沒關係！Claude Design 讓你用說話做出專業簡報和產品原型，職場人必試</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">Claude Design 在華語圈教學稀少，可搶做入門教學示範影片，Anthropic 工具系列流量正在上升</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">沒有設計背景的職場人士、獨立創業者、自媒體創作者</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">想做出漂亮的簡報或產品原型，但不會用 Figma 或 PowerPoint 做出專業視覺效果</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">不會設計也沒關係！Claude Design 讓你用說話做出專業簡報和產品原型，職場人必試</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">Claude Design 在華語圈教學稀少，可搶做入門教學示範影片，Anthropic 工具系列流量正在上升</span></div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-  <section class="report-section">
+    </div></div>
+</section><section class="report-section">
   <div class="section-header">
     <span class="section-dot dot-green"></span>
     <span class="section-label label-green">值得追蹤的趨勢</span>
     <span class="section-count count-green">2 則</span>
     <span class="section-line"></span>
   </div>
-  <div class="cards-grid">
-    <div class="news-card">
+  <div class="cards-grid"><div class="news-card">
       <div class="card-accent accent-green"></div>
       <div class="card-body">
         <h3 class="card-title">AI Agent 企業滲透加速：Microsoft、Perplexity、Google 爭相卡位，職場自動化元年已至</h3>
         <div class="sources-row"><a href="https://undercodenews.com/microsoft-outlook-may-2026-update-brings-ai-insights-smarter-calendars-and-powerful-productivity-features/" target="_blank" class="source-tag">UnderCodeNews</a><a href="https://venturebeat.com/technology/perplexity-takes-its-computer-ai-agent-into-the-enterprise-taking-aim-at" target="_blank" class="source-tag">VentureBeat</a></div>
         <p class="summary">多家 AI 公司同步推出企業級 AI 代理工具（Microsoft Agent 365、Perplexity Computer、Gemini Spark），AI 從個人助手轉向跨系統自動化執行，職場自動化進入真實落地階段。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">對職場自動化趨勢有興趣的上班族、科技自媒體創作者、企業 IT 管理者</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">感受到 AI 浪潮卻不確定該從哪裡切入學習，不知道公司會先導入哪些 AI 工具</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">2026 職場 AI 代理大爆發！這 3 個工具正在取代你的重複性工作，你準備好了嗎？</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">AI Agent 落地趨勢在歐美已成主流討論，華語圈「企業 AI 代理入門」內容供給嚴重不足，可做系列內容</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">對職場自動化趨勢有興趣的上班族、科技自媒體創作者、企業 IT 管理者</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">感受到 AI 浪潮卻不確定該從哪裡切入學習，不知道公司會先導入哪些 AI 工具</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">2026 職場 AI 代理大爆發！這 3 個工具正在取代你的重複性工作，你準備好了嗎？</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">AI Agent 落地趨勢在歐美已成主流討論，華語圈「企業 AI 代理入門」內容供給嚴重不足，可做系列內容</span></div>
         </div>
       </div>
     </div>
@@ -1109,60 +757,34 @@
         <div class="sources-row"><a href="https://techcrunch.com/2026/05/14/wirestock-raises-23m-to-supply-multi-modal-data-to-ai-labs/" target="_blank" class="source-tag">TechCrunch</a></div>
         <p class="summary">圖片/影片創作平台 Wirestock 獲 2300 萬美元融資，專門向 AI 公司供應多模態訓練資料，開創「內容創作者直接授權資料給 AI Lab 賺錢」的新商業模式。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">攝影師、設計師、影片創作者、關注 AI 變現方式的自媒體人</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">擔心 AI 衝擊自己的創作收入，想知道有沒有辦法反而從 AI 發展中獲益</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">AI 不是你的敵人！創作者靠「賣資料」給 AI 公司賺錢，這個新商業模式值得你了解</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">「AI 資料經濟」在歐美剛起步，華語圈幾乎沒有相關報導，搶先介紹有極大資訊差紅利</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">攝影師、設計師、影片創作者、關注 AI 變現方式的自媒體人</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">擔心 AI 衝擊自己的創作收入，想知道有沒有辦法反而從 AI 發展中獲益</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">AI 不是你的敵人！創作者靠「賣資料」給 AI 公司賺錢，這個新商業模式值得你了解</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">「AI 資料經濟」在歐美剛起步，華語圈幾乎沒有相關報導，搶先介紹有極大資訊差紅利</span></div>
         </div>
       </div>
-    </div>
-  </div>
+    </div></div>
 </section>
 </div>
-<div id="day-2026-05-13" class="day-panel " data-date="2026-05-13" data-total="11">
-  <section class="report-section">
+<div id="ai-day-2026-05-13" class="day-panel " data-date="2026-05-13" data-total="11" data-channel="ai">
+<section class="report-section">
   <div class="section-header">
     <span class="section-dot dot-red"></span>
     <span class="section-label label-red">大事件</span>
     <span class="section-count count-red">4 則</span>
     <span class="section-line"></span>
   </div>
-  <div class="cards-grid">
-    <div class="news-card">
+  <div class="cards-grid"><div class="news-card">
       <div class="card-accent accent-red"></div>
       <div class="card-body">
         <h3 class="card-title">Notion 把工作區變成 AI Agent 控制中心，一站式執行自動化任務</h3>
         <div class="sources-row"><a href="https://techcrunch.com/2026/05/13/notion-just-turned-its-workspace-into-a-hub-for-ai-agents/" target="_blank" class="source-tag">TechCrunch</a></div>
         <p class="summary">Notion 將工作區升級為 AI Agent 核心樞紐，用戶可在 Notion 內直接串接並觸發自動化工作流，無需跳出到其他平台。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">每天使用 Notion 做筆記、管理專案的職場上班族、知識工作者</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">工具太多、到處切換，不知道 Notion 現在已能當 AI 自動化的中央控制台</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">Notion 悄悄進化了！現在可以直接在裡面跑 AI Agent，上班族的效率工具大升級</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">Notion 在台灣知識工作者中使用率極高，「Notion AI Agent 實際操作教學」幾乎是中文空白，搶先做示範影片，教學紅利窗口約 1–2 週。</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">每天使用 Notion 做筆記、管理專案的職場上班族、知識工作者</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">工具太多、到處切換，不知道 Notion 現在已能當 AI 自動化的中央控制台</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">Notion 悄悄進化了！現在可以直接在裡面跑 AI Agent，上班族的效率工具大升級</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">Notion 在台灣知識工作者中使用率極高，「Notion AI Agent 實際操作教學」幾乎是中文空白，搶先做示範影片，教學紅利窗口約 1–2 週。</span></div>
         </div>
       </div>
     </div>
@@ -1173,22 +795,10 @@
         <div class="sources-row"><a href="https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners/" target="_blank" class="source-tag">TechCrunch</a><a href="https://www.anthropic.com/news" target="_blank" class="source-tag">Anthropic 官方</a></div>
         <p class="summary">Anthropic 正式鎖定中小企業主，推出 Claude for Small Business，內建 15 個 agentic 工作流，可直接串接 QuickBooks、PayPal、HubSpot，自動處理帳務與客戶管理。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">台灣中小企業主、自僱者、想用 AI 節省人力成本的老闆</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">想導入 AI 幫忙處理行政雜事，但不知從哪裡開始，也不清楚 Claude 和 ChatGPT 企業版的差異</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">Claude 專攻小老闆了！15 個 AI 工作流直接串 QuickBooks，這是中小企業最划算的 AI 方案嗎？</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">台灣中小企業主正在評估 AI 導入，「Claude vs ChatGPT 企業版」實測比較幾乎沒有繁體中文內容，現在入場做評測，搶占這波搜尋需求。</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">台灣中小企業主、自僱者、想用 AI 節省人力成本的老闆</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">想導入 AI 幫忙處理行政雜事，但不知從哪裡開始，也不清楚 Claude 和 ChatGPT 企業版的差異</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">Claude 專攻小老闆了！15 個 AI 工作流直接串 QuickBooks，這是中小企業最划算的 AI 方案嗎？</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">台灣中小企業主正在評估 AI 導入，「Claude vs ChatGPT 企業版」實測比較幾乎沒有繁體中文內容，現在入場做評測，搶占這波搜尋需求。</span></div>
         </div>
       </div>
     </div>
@@ -1199,22 +809,10 @@
         <div class="sources-row"><a href="https://digiday.com/marketing/tiktok-launches-mcp-server-to-let-ai-agents-run-campaigns/" target="_blank" class="source-tag">Digiday</a><a href="https://www.pymnts.com/news/social-commerce/2026/tiktok-unleashes-ai-agents-on-its-ad-platform/" target="_blank" class="source-tag">PYMNTS</a></div>
         <p class="summary">TikTok 在 TikTok World 廣告峰會宣布開放 Ads MCP Server，讓 AI Agent 自主規劃、上架、優化廣告活動，Google、Meta、Amazon 均已推出類似工具，廣告投放全自動化時代來臨。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">台灣電商業主、品牌行銷人員、數位廣告操盤手</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">每天盯著廣告後台調預算、改素材很耗時，不知道 AI 現在可以幫你全自動跑廣告</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">TikTok 讓 AI 自己投廣告了！MCP Server 上線，行銷人以後只需要設目標就好？</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">TikTok 廣告在台灣電商圈使用率高，「AI 自動投廣告怎麼設定」這個實操教學幾乎空白，做第一個繁中教學的人將吃到所有搜尋流量。</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">台灣電商業主、品牌行銷人員、數位廣告操盤手</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">每天盯著廣告後台調預算、改素材很耗時，不知道 AI 現在可以幫你全自動跑廣告</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">TikTok 讓 AI 自己投廣告了！MCP Server 上線，行銷人以後只需要設目標就好？</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">TikTok 廣告在台灣電商圈使用率高，「AI 自動投廣告怎麼設定」這個實操教學幾乎空白，做第一個繁中教學的人將吃到所有搜尋流量。</span></div>
         </div>
       </div>
     </div>
@@ -1225,58 +823,31 @@
         <div class="sources-row"><a href="https://the-decoder.com/ai-startup-recursive-emerges-from-stealth-with-650-million-to-build-self-improving-ai/" target="_blank" class="source-tag">The Decoder</a><a href="https://tech.eu/2026/05/13/recursive-superintelligence-emerges-from-stealth-with-650m-raise/" target="_blank" class="source-tag">Tech.eu</a></div>
         <p class="summary">由前 OpenAI、Google DeepMind、Meta AI 核心成員創立的 Recursive Superintelligence 走出隱身，宣布完成 6.5 億美元 A 輪融資，估值 46.5 億美元，目標是打造能自動評估、訓練、改進自身的 AI 系統。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">關注 AI 未來走向的科技愛好者、創業者、投資人</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">AI 進化速度太快，不知道下一個會改變一切的 AI 公司是誰，也不懂「自我進化 AI」代表什麼</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">又一個隱形獨角獸！Nvidia 押注的 Recursive AI 要讓 AI 自己訓練自己，這代表什麼？</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">Recursive 在華語圈幾乎零報導，「自我進化 AI」這個概念科普需求很高；搶先做創辦團隊背景 + 技術白話解析，可以同時吸到科技圈和一般受眾。</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">關注 AI 未來走向的科技愛好者、創業者、投資人</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">AI 進化速度太快，不知道下一個會改變一切的 AI 公司是誰，也不懂「自我進化 AI」代表什麼</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">又一個隱形獨角獸！Nvidia 押注的 Recursive AI 要讓 AI 自己訓練自己，這代表什麼？</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">Recursive 在華語圈幾乎零報導，「自我進化 AI」這個概念科普需求很高；搶先做創辦團隊背景 + 技術白話解析，可以同時吸到科技圈和一般受眾。</span></div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-  <section class="report-section">
+    </div></div>
+</section><section class="report-section">
   <div class="section-header">
     <span class="section-dot dot-blue"></span>
     <span class="section-label label-blue">工具更新</span>
     <span class="section-count count-blue">4 則</span>
     <span class="section-line"></span>
   </div>
-  <div class="cards-grid">
-    <div class="news-card">
+  <div class="cards-grid"><div class="news-card">
       <div class="card-accent accent-blue"></div>
       <div class="card-body">
         <h3 class="card-title">Claude Code 使用上限再漲 50%，Pro／Max 用戶優惠延長至 7 月 13 日</h3>
         <div class="sources-row"><a href="https://futuretools.io/news" target="_blank" class="source-tag">FutureTools</a><a href="https://releasebot.io/updates/anthropic/claude-code" target="_blank" class="source-tag">Releasebot</a></div>
         <p class="summary">Anthropic 宣布 Claude Code 每週使用上限額外提升 50%，適用 Pro、Max、Team、Enterprise 所有訂閱方案，優惠有效期延長至 2026 年 7 月 13 日。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">每天用 Claude Code 跑任務的開發者、AI 自動化工作者</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">Claude Code 配額不夠用、常撞上使用上限，不確定 Anthropic 是否有長期擴容計畫</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">Claude Code 配額又漲了！這次多 50% 還延長到 7 月，現在訂閱最划算嗎？</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">台灣工程師社群對 Claude Code 的接受度高，「配額優惠怎麼最大化利用」這種實用攻略幾乎沒有繁中版，做教學搭配升級建議，轉換率高。</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">每天用 Claude Code 跑任務的開發者、AI 自動化工作者</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">Claude Code 配額不夠用、常撞上使用上限，不確定 Anthropic 是否有長期擴容計畫</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">Claude Code 配額又漲了！這次多 50% 還延長到 7 月，現在訂閱最划算嗎？</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">台灣工程師社群對 Claude Code 的接受度高，「配額優惠怎麼最大化利用」這種實用攻略幾乎沒有繁中版，做教學搭配升級建議，轉換率高。</span></div>
         </div>
       </div>
     </div>
@@ -1287,22 +858,10 @@
         <div class="sources-row"><a href="https://www.testingcatalog.com/anthropic-adds-agent-view-for-claude-code-for-parralel-work/" target="_blank" class="source-tag">Testing Catalog</a><a href="https://explainx.ai/blog/anthropic-claude-code-agent-view-goal-command" target="_blank" class="source-tag">ExplainX.ai</a></div>
         <p class="summary">Anthropic 推出 Claude Code Agent View Research Preview，讓開發者在單一 CLI 介面管理所有平行 coding session，可背景執行任務、查看進度、一鍵跳回對話，不再需要開多個終端機分頁。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">用 Claude Code 跑多個平行任務的開發者、Vibe Coding 實踐者</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">同時跑多個 Claude Code 任務時，切換視窗很混亂，不知道哪個任務在等待輸入、哪個已完成</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">Claude Code 新功能：Agent View 讓你像老闆一樣管多個 AI，一次看清所有進度</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">台灣開發者圈正快速採用 Claude Code，「Agent View 實際操作演示」這種教學需求正在上升，現在做是搜尋紅利窗口期。</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">用 Claude Code 跑多個平行任務的開發者、Vibe Coding 實踐者</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">同時跑多個 Claude Code 任務時，切換視窗很混亂，不知道哪個任務在等待輸入、哪個已完成</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">Claude Code 新功能：Agent View 讓你像老闆一樣管多個 AI，一次看清所有進度</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">台灣開發者圈正快速採用 Claude Code，「Agent View 實際操作演示」這種教學需求正在上升，現在做是搜尋紅利窗口期。</span></div>
         </div>
       </div>
     </div>
@@ -1313,22 +872,10 @@
         <div class="sources-row"><a href="https://blogs.windows.com" target="_blank" class="source-tag">Microsoft 官方 Blog</a></div>
         <p class="summary">Microsoft 更新 Edge 瀏覽器的 Copilot，新增跨分頁同時推理、長期記憶瀏覽歷史、語音對話、視覺辨識，以及「Journeys」功能，自動將瀏覽紀錄整理成主題卡片。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">每天用 Edge 瀏覽器工作的職場上班族、Microsoft 365 用戶</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">Edge 的 Copilot 以前感覺沒什麼用，不知道現在已升級到可以跨分頁幫你做事</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">Edge 的 AI 終於強了！Copilot 新功能可以記住你的瀏覽習慣，上班族必更新</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">台灣企業環境大量使用 Microsoft 生態系，「Edge Copilot 實際辦公場景示範」這類教學對上班族吸引力極高，中文版幾乎空白。</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">每天用 Edge 瀏覽器工作的職場上班族、Microsoft 365 用戶</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">Edge 的 Copilot 以前感覺沒什麼用，不知道現在已升級到可以跨分頁幫你做事</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">Edge 的 AI 終於強了！Copilot 新功能可以記住你的瀏覽習慣，上班族必更新</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">台灣企業環境大量使用 Microsoft 生態系，「Edge Copilot 實際辦公場景示範」這類教學對上班族吸引力極高，中文版幾乎空白。</span></div>
         </div>
       </div>
     </div>
@@ -1339,58 +886,31 @@
         <div class="sources-row"><a href="https://techcrunch.com/2026/05/13/amazon-launches-an-ai-shopping-assistant-for-the-search-bar-powered-by-alexa/" target="_blank" class="source-tag">TechCrunch</a><a href="https://www.aboutamazon.com" target="_blank" class="source-tag">About Amazon</a></div>
         <p class="summary">Amazon 將旗下購物 AI Rufus 與 Alexa+ 合併為單一助理，整合進 Amazon 購物 App、網站及 Echo Show，具備 AI 搜尋、歷史最低價追蹤、第三方零售商比較購物等功能。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">常在 Amazon 購物或關注消費 AI 趨勢的用戶、電商從業者</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">不知道 Amazon 的多個 AI 助理有什麼差異，也不清楚合併後哪些功能最實用</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">Amazon 把兩個 AI 合成一個！新購物助理可以自動幫你比價找最低，這功能值得試嗎？</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">跨境電商在台灣很熱門，「用 AI 在 Amazon 找最低價」這個實用教學對台灣網購族有直接吸引力，可結合台灣電商平台對比做差異化內容。</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">常在 Amazon 購物或關注消費 AI 趨勢的用戶、電商從業者</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">不知道 Amazon 的多個 AI 助理有什麼差異，也不清楚合併後哪些功能最實用</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">Amazon 把兩個 AI 合成一個！新購物助理可以自動幫你比價找最低，這功能值得試嗎？</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">跨境電商在台灣很熱門，「用 AI 在 Amazon 找最低價」這個實用教學對台灣網購族有直接吸引力，可結合台灣電商平台對比做差異化內容。</span></div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-  <section class="report-section">
+    </div></div>
+</section><section class="report-section">
   <div class="section-header">
     <span class="section-dot dot-green"></span>
     <span class="section-label label-green">值得追蹤的趨勢</span>
     <span class="section-count count-green">3 則</span>
     <span class="section-line"></span>
   </div>
-  <div class="cards-grid">
-    <div class="news-card">
+  <div class="cards-grid"><div class="news-card">
       <div class="card-accent accent-green"></div>
       <div class="card-body">
         <h3 class="card-title">Anthropic 企業客戶數首度超越 OpenAI（Ramp 企業消費數據）</h3>
         <div class="sources-row"><a href="https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data/" target="_blank" class="source-tag">TechCrunch</a></div>
         <p class="summary">根據企業支出數據平台 Ramp 的統計，Anthropic 使用 Claude 的企業客戶數量已首度超過使用 ChatGPT 的企業，顯示 B2B AI 市場格局正在轉移。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">關注 AI 商業競爭格局的創業者、行銷人、自媒體創作者</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">一直以為 ChatGPT 是企業 AI 的絕對霸主，不清楚 Claude 的企業市場正在悄悄超車</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">ChatGPT 被超車了？數據顯示企業用戶現在更愛 Claude，這個趨勢代表什麼？</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">這是難得的有數據支撐的「AI 競爭格局」報導，做「台灣企業該選 Claude 還是 ChatGPT」的比較分析，可以同時吸到企業主和一般用戶。</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">關注 AI 商業競爭格局的創業者、行銷人、自媒體創作者</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">一直以為 ChatGPT 是企業 AI 的絕對霸主，不清楚 Claude 的企業市場正在悄悄超車</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">ChatGPT 被超車了？數據顯示企業用戶現在更愛 Claude，這個趨勢代表什麼？</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">這是難得的有數據支撐的「AI 競爭格局」報導，做「台灣企業該選 Claude 還是 ChatGPT」的比較分析，可以同時吸到企業主和一般用戶。</span></div>
         </div>
       </div>
     </div>
@@ -1401,22 +921,10 @@
         <div class="sources-row"><a href="https://about.fb.com" target="_blank" class="source-tag">Meta 官方</a></div>
         <p class="summary">Meta 為 WhatsApp 的 Meta AI 推出 Incognito Chat 功能，對話完全端對端加密且不留存，即使是 Meta 員工也無法查看，主打隱私敏感的使用場景。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">重視隱私的 WhatsApp 用戶、對 AI 對話隱私有疑慮的一般大眾</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">和 AI 說的話到底有沒有被公司看到？不確定敏感對話是否安全</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">Meta 說連他們自己都看不到你和 AI 的對話——WhatsApp 新隱匿功能，真的可以信任嗎？</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">WhatsApp 和 LINE 在台灣都是主流通訊工具，「AI 對話隱私到底有多安全」這個話題對一般大眾吸引力很高，可以做「各大 AI 平台隱私設定完整比較」。</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">重視隱私的 WhatsApp 用戶、對 AI 對話隱私有疑慮的一般大眾</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">和 AI 說的話到底有沒有被公司看到？不確定敏感對話是否安全</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">Meta 說連他們自己都看不到你和 AI 的對話——WhatsApp 新隱匿功能，真的可以信任嗎？</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">WhatsApp 和 LINE 在台灣都是主流通訊工具，「AI 對話隱私到底有多安全」這個話題對一般大眾吸引力很高，可以做「各大 AI 平台隱私設定完整比較」。</span></div>
         </div>
       </div>
     </div>
@@ -1427,60 +935,34 @@
         <div class="sources-row"><a href="https://www.perplexity.ai" target="_blank" class="source-tag">Perplexity 官方</a></div>
         <p class="summary">Perplexity 詳細公開其 Computer Agent 的安全機制，採用 Firecracker microVM 隔離沙盒與四層提示注入防護，並提供企業版 SAML SSO 與細粒度權限控制，顯示 AI Agent 安全性正成為企業採購的核心考量。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">企業 IT 主管、評估 AI Agent 導入的決策者、關注 AI 安全的開發者</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">想導入 AI Agent 幫公司做事，但擔心資安風險、不知道主流 AI Agent 平台的安全機制是否可靠</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">Perplexity 的 AI Agent 為什麼敢讓它幫你管 Gmail 和 Salesforce？四層防護架構大解密</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">企業 AI Agent 導入在台灣仍處於早期，「AI Agent 資安怎麼評估」這類內容幾乎空白，做一篇「企業導入 AI Agent 資安核查清單」，同時觸及 IT 和高管受眾。</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">企業 IT 主管、評估 AI Agent 導入的決策者、關注 AI 安全的開發者</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">想導入 AI Agent 幫公司做事，但擔心資安風險、不知道主流 AI Agent 平台的安全機制是否可靠</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">Perplexity 的 AI Agent 為什麼敢讓它幫你管 Gmail 和 Salesforce？四層防護架構大解密</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">企業 AI Agent 導入在台灣仍處於早期，「AI Agent 資安怎麼評估」這類內容幾乎空白，做一篇「企業導入 AI Agent 資安核查清單」，同時觸及 IT 和高管受眾。</span></div>
         </div>
       </div>
-    </div>
-  </div>
+    </div></div>
 </section>
 </div>
-<div id="day-2026-05-06" class="day-panel " data-date="2026-05-06" data-total="9">
-  <section class="report-section">
+<div id="ai-day-2026-05-06" class="day-panel " data-date="2026-05-06" data-total="9" data-channel="ai">
+<section class="report-section">
   <div class="section-header">
     <span class="section-dot dot-red"></span>
     <span class="section-label label-red">大事件</span>
     <span class="section-count count-red">4 則</span>
     <span class="section-line"></span>
   </div>
-  <div class="cards-grid">
-    <div class="news-card">
+  <div class="cards-grid"><div class="news-card">
       <div class="card-accent accent-red"></div>
       <div class="card-body">
         <h3 class="card-title">OpenAI GPT-5.5 Instant 悄悄成為 ChatGPT 新預設模型，幻覺率下降 52.5%</h3>
         <div class="sources-row"><a href="https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/" target="_blank" class="source-tag">TechCrunch</a><a href="https://www.roborhythms.com/gpt-5-5-instant-rollout-may-2026/" target="_blank" class="source-tag">RoboRhythms</a></div>
         <p class="summary">OpenAI 無預警將 GPT-5.5 Instant 設為 ChatGPT 預設模型，具備搜尋功能、可引用過往對話，幻覺率較前代大幅降低 52.5%。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">每天用 ChatGPT 工作的上班族、內容創作者</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">不知道 ChatGPT 已悄悄換底層模型，沿用舊使用習慣可能錯過新功能</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">ChatGPT 偷偷換大腦了！GPT-5.5 Instant 上線，你現在用的已經不是原本那個 AI</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">台灣繁體中文使用者幾乎沒有「換模型後實測差異」的比較內容，搶做幻覺率測試教學，教學紅利窗口約 1–2 週。</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">每天用 ChatGPT 工作的上班族、內容創作者</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">不知道 ChatGPT 已悄悄換底層模型，沿用舊使用習慣可能錯過新功能</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">ChatGPT 偷偷換大腦了！GPT-5.5 Instant 上線，你現在用的已經不是原本那個 AI</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">台灣繁體中文使用者幾乎沒有「換模型後實測差異」的比較內容，搶做幻覺率測試教學，教學紅利窗口約 1–2 週。</span></div>
         </div>
       </div>
     </div>
@@ -1491,22 +973,10 @@
         <div class="sources-row"><a href="https://simonwillison.net/2026/May/6/code-w-claude-2026/" target="_blank" class="source-tag">Simon Willison</a><a href="https://www.bloomberg.com/news/articles/2026-05-06/anthropic-inks-computing-deal-with-spacex-to-meet-ai-demand" target="_blank" class="source-tag">Bloomberg</a></div>
         <p class="summary">Anthropic 在舊金山舉辦首屆 Code w/ Claude 開發者大會，同日宣布取得 SpaceX Colossus 1 超級電腦 300MW 算力，Claude Code 配額翻倍，尖峰限流取消。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">使用 Claude Code、關注 AI 開發生態的工程師與創業者</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">Claude Code 限制多、配額常不夠用，不確定 Anthropic 是否有長期擴容計畫</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">Anthropic 這場大會發布了什麼？SpaceX 算力入局＋Claude Code 翻倍，開發者的春天來了</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">大會現場資訊多，但繁體中文整理幾乎為零；可做「Code w/ Claude 重點整理」，搜尋需求明確。</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">使用 Claude Code、關注 AI 開發生態的工程師與創業者</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">Claude Code 限制多、配額常不夠用，不確定 Anthropic 是否有長期擴容計畫</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">Anthropic 這場大會發布了什麼？SpaceX 算力入局＋Claude Code 翻倍，開發者的春天來了</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">大會現場資訊多，但繁體中文整理幾乎為零；可做「Code w/ Claude 重點整理」，搜尋需求明確。</span></div>
         </div>
       </div>
     </div>
@@ -1517,22 +987,10 @@
         <div class="sources-row"><a href="https://www.bloomberg.com/news/articles/2026-05-06/google-deepmind-takes-minority-stake-in-maker-of-eve-online" target="_blank" class="source-tag">Bloomberg</a></div>
         <p class="summary">EVE Online 開發商更名 Fenris Creations 後宣布與 Google DeepMind 達成研究合作，DeepMind 取得少數股權，將以離線版遊戲作為 AI 訓練記憶、規劃與持續學習能力的環境。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">對 AI 底層研究與遊戲 AI 感興趣的科技愛好者、遊戲玩家</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">不清楚為什麼 AI 大廠要跑去買遊戲公司股份</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">Google DeepMind 為什麼要買《EVE Online》股份？這不是遊戲新聞，而是 AI 最重要的一步棋</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">「用遊戲訓練 AI 規劃能力」這個角度在華語科普圈完全空白，遊戲媒體與 AI 頻道都可切入。</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">對 AI 底層研究與遊戲 AI 感興趣的科技愛好者、遊戲玩家</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">不清楚為什麼 AI 大廠要跑去買遊戲公司股份</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">Google DeepMind 為什麼要買《EVE Online》股份？這不是遊戲新聞，而是 AI 最重要的一步棋</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">「用遊戲訓練 AI 規劃能力」這個角度在華語科普圈完全空白，遊戲媒體與 AI 頻道都可切入。</span></div>
         </div>
       </div>
     </div>
@@ -1543,58 +1001,31 @@
         <div class="sources-row"><a href="https://techcrunch.com/2026/05/06/snap-says-its-400m-deal-with-perplexity-amicably-ended/" target="_blank" class="source-tag">TechCrunch</a></div>
         <p class="summary">Snap 宣布與 AI 搜尋公司 Perplexity 的 4 億美元合作協議「友好終止」，市場解讀為 Perplexity 轉向自建流量入口策略。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">關注 AI 搜尋生態、內容創作者 SEO 策略的自媒體人</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">搞不清楚 Perplexity 到底要走什麼路線</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">Snap 和 Perplexity 分手了！AI 搜尋戰爭格局大變，創作者該怎麼選邊站？</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">台灣創作者幾乎沒有人在分析 Perplexity 的商業模式走向；現在做「AI 搜尋生態分析」，SEO 焦慮族群的需求很高。</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">關注 AI 搜尋生態、內容創作者 SEO 策略的自媒體人</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">搞不清楚 Perplexity 到底要走什麼路線</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">Snap 和 Perplexity 分手了！AI 搜尋戰爭格局大變，創作者該怎麼選邊站？</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">台灣創作者幾乎沒有人在分析 Perplexity 的商業模式走向；現在做「AI 搜尋生態分析」，SEO 焦慮族群的需求很高。</span></div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-  <section class="report-section">
+    </div></div>
+</section><section class="report-section">
   <div class="section-header">
     <span class="section-dot dot-blue"></span>
     <span class="section-label label-blue">工具更新</span>
     <span class="section-count count-blue">3 則</span>
     <span class="section-line"></span>
   </div>
-  <div class="cards-grid">
-    <div class="news-card">
+  <div class="cards-grid"><div class="news-card">
       <div class="card-accent accent-blue"></div>
       <div class="card-body">
         <h3 class="card-title">Claude Code 使用上限翻倍，尖峰時段限流全面取消</h3>
         <div class="sources-row"><a href="https://9to5google.com/2026/05/06/claude-code-is-getting-higher-usage-limits-doubled-for-most-users/" target="_blank" class="source-tag">9to5Google</a><a href="https://www.anthropic.com/news/higher-limits-spacex" target="_blank" class="source-tag">Anthropic 官方</a></div>
         <p class="summary">Pro / Max / Team / Enterprise 用戶的 Claude Code 五小時上限即日翻倍，尖峰限流取消；同步修復 Windows/PowerShell 問題，優化 OAuth 登入與 Plugin URL 載入。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">已訂閱或考慮訂閱 Claude Code 的開發者、AI 自動化工作者</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">用 Claude Code 跑複雜任務常撞上配額牆，尖峰時段速度慢又容易中斷</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">Claude Code 配額突然翻倍！現在訂不訂得值？升級後第一手實測報告</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">台灣工程師社群對 Claude Code 的接受度高，搶先做升級前後對比教學，紅利窗口約 2 週。</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">已訂閱或考慮訂閱 Claude Code 的開發者、AI 自動化工作者</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">用 Claude Code 跑複雜任務常撞上配額牆，尖峰時段速度慢又容易中斷</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">Claude Code 配額突然翻倍！現在訂不訂得值？升級後第一手實測報告</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">台灣工程師社群對 Claude Code 的接受度高，搶先做升級前後對比教學，紅利窗口約 2 週。</span></div>
         </div>
       </div>
     </div>
@@ -1605,22 +1036,10 @@
         <div class="sources-row"><a href="https://9to5google.com/2026/05/06/google-chrome-4gb-storage-ai-details/" target="_blank" class="source-tag">9to5Google</a></div>
         <p class="summary">Chrome 更新後在用戶電腦本地下載約 4GB 的 Gemini Nano 模型，未主動通知，目的是讓 AI 功能在離線或低延遲場景下直接在本地運行。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">每天用 Chrome 工作的上班族、對裝置隱私和儲存空間在意的用戶</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">電腦硬碟突然少了 4GB 不知道為什麼</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">Google Chrome 偷偷吃掉你 4GB 硬碟！原來是在裝 AI 模型，這對你的電腦意味著什麼？</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">Chrome 是台灣使用率最高的瀏覽器，「硬碟被吃掉」的話題有極高的搜尋和討論潛力；可做「怎麼關掉、怎麼管理」實用教學。</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">每天用 Chrome 工作的上班族、對裝置隱私和儲存空間在意的用戶</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">電腦硬碟突然少了 4GB 不知道為什麼</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">Google Chrome 偷偷吃掉你 4GB 硬碟！原來是在裝 AI 模型，這對你的電腦意味著什麼？</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">Chrome 是台灣使用率最高的瀏覽器，「硬碟被吃掉」的話題有極高的搜尋和討論潛力；可做「怎麼關掉、怎麼管理」實用教學。</span></div>
         </div>
       </div>
     </div>
@@ -1631,58 +1050,31 @@
         <div class="sources-row"><a href="https://techcrunch.com/2026/05/06/google-updates-ai-search-to-include-expert-advice-from-reddit-and-other-web-forums/" target="_blank" class="source-tag">TechCrunch</a></div>
         <p class="summary">Google AI 搜尋同日推兩項更新：AI Mode 摘要中的連結變得更直接顯眼；AI Overviews 開始引用 Reddit 等社群論壇的真實用戶意見作為結果來源。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">內容創作者、SEO 從業者、靠 Google 流量的自媒體人</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">AI 搜尋普及後流量愈來愈難預測，不知道社群意見被納入搜尋結果後 SEO 策略要怎麼調整</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">Google 搜尋悄悄改版了！Reddit 意見現在會出現在 AI 搜尋結果——創作者必看的流量新規則</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">台灣創作者普遍依賴 Google 流量，可結合 Dcard、PTT 的在地化討論，讓內容更貼近台灣受眾。</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">內容創作者、SEO 從業者、靠 Google 流量的自媒體人</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">AI 搜尋普及後流量愈來愈難預測，不知道社群意見被納入搜尋結果後 SEO 策略要怎麼調整</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">Google 搜尋悄悄改版了！Reddit 意見現在會出現在 AI 搜尋結果——創作者必看的流量新規則</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">台灣創作者普遍依賴 Google 流量，可結合 Dcard、PTT 的在地化討論，讓內容更貼近台灣受眾。</span></div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-  <section class="report-section">
+    </div></div>
+</section><section class="report-section">
   <div class="section-header">
     <span class="section-dot dot-green"></span>
     <span class="section-label label-green">值得追蹤的趨勢</span>
     <span class="section-count count-green">2 則</span>
     <span class="section-line"></span>
   </div>
-  <div class="cards-grid">
-    <div class="news-card">
+  <div class="cards-grid"><div class="news-card">
       <div class="card-accent accent-green"></div>
       <div class="card-body">
         <h3 class="card-title">Karpathy 正式提議：「Vibe Coding」改名「Agentic Engineering」</h3>
         <div class="sources-row"><a href="https://sdtimes.com/ai/andrej-karpathy-has-renamed-vibe-coding-heres-what-engineering-leaders-need-to-do-about-it/" target="_blank" class="source-tag">SD Times</a></div>
         <p class="summary">Karpathy 主張工程師應從「憑感覺提示 AI」進化到「設計明確約束與驗證標準的代理工程」，Vibe Coding 只是入門，Agentic Engineering 才是能保持品質的正確路徑。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">用 AI 做產品的設計師、PM、非技術創業者</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">用 AI 生成的程式碼品質不穩定，不知道哪裡出了問題、怎麼提升穩定性</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">Karpathy 說你用 AI 寫程式的方式是錯的！什麼是「Agentic Engineering」，你現在在哪個階段？</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">Karpathy 在華語 AI 圈有極高影響力，Sequoia AI Ascent 的完整內容幾乎無繁體中文整理；搶先做摘要解析，搜尋與轉發需求非常高。</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">用 AI 做產品的設計師、PM、非技術創業者</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">用 AI 生成的程式碼品質不穩定，不知道哪裡出了問題、怎麼提升穩定性</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">Karpathy 說你用 AI 寫程式的方式是錯的！什麼是「Agentic Engineering」，你現在在哪個階段？</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">Karpathy 在華語 AI 圈有極高影響力，Sequoia AI Ascent 的完整內容幾乎無繁體中文整理；搶先做摘要解析，搜尋與轉發需求非常高。</span></div>
         </div>
       </div>
     </div>
@@ -1693,74 +1085,258 @@
         <div class="sources-row"><a href="https://allinoneaicenter.com/blog/new-ai-tools-may-2026/" target="_blank" class="source-tag">All-in-One AI Center</a></div>
         <p class="summary">Anthropic 推出的 Model Context Protocol（MCP）已達 9700 萬次安裝，所有主流 AI 廠商均宣布支援，正在成為 AI 工具之間串接的業界標準。</p>
         <div class="insight-panel">
-          <div class="insight-row">
-            <span class="insight-label">目標受眾</span>
-            <span class="insight-value">想讓多個 AI 工具互相串接的開發者、企業自動化負責人</span>
-          </div>
-          <div class="insight-row">
-            <span class="insight-label">痛點</span>
-            <span class="insight-value">每個 AI 工具都是孤島，要讓它們互通費時費力，不知道有沒有統一的解法</span>
-          </div>
-          <div class="insight-row title-row">
-            <span class="insight-label">標題雛形</span>
-            <span class="insight-value">9700 萬次安裝！這個你可能沒聽過的協議，正在悄悄成為所有 AI 工具的共同語言</span>
-          </div>
-          <div class="insight-row local-row">
-            <span class="insight-label">本地化切角</span>
-            <span class="insight-value">MCP 在台灣的知名度遠低於其實際重要性；做「MCP 是什麼、如何用它串接你的 AI 工具」的入門教學，搜尋量正在快速上升。</span>
-          </div>
+          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">想讓多個 AI 工具互相串接的開發者、企業自動化負責人</span></div>
+          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">每個 AI 工具都是孤島，要讓它們互通費時費力，不知道有沒有統一的解法</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">9700 萬次安裝！這個你可能沒聽過的協議，正在悄悄成為所有 AI 工具的共同語言</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">MCP 在台灣的知名度遠低於其實際重要性；做「MCP 是什麼、如何用它串接你的 AI 工具」的入門教學，搜尋量正在快速上升。</span></div>
+        </div>
+      </div>
+    </div></div>
+</section>
+</div>
+    </div>
+    <div id="finance-content" style="display:none">
+      <div id="finance-day-2026-05-16" class="day-panel active" data-date="2026-05-16" data-total="10" data-channel="finance">
+<section class="report-section">
+  <div class="section-header">
+    <span class="section-dot dot-amber"></span>
+    <span class="section-label label-amber">市場震撼彈</span>
+    <span class="section-count count-amber">4 則</span>
+    <span class="section-line"></span>
+  </div>
+  <div class="cards-grid"><div class="news-card">
+      <div class="card-accent accent-amber"></div>
+      <div class="card-body">
+        <h3 class="card-title">債市崩跌拖累AI股狂歡，美四大指數單日全線收跌</h3>
+        <div class="sources-row"><a href="https://www.bloomberg.com/news/articles/2026-05-16/bond-selloff-threatens-to-knock-ai-stock-frenzy-off-course" target="_blank" class="source-tag">Bloomberg</a><a href="https://finance.yahoo.com/news/" target="_blank" class="source-tag">Yahoo Finance</a></div>
+        <p class="summary">5月16日美股全線下跌，S&P 500跌1.24%、Nasdaq跌1.54%、Russell 2000重挫2.44%。Bloomberg指出，公債殖利率飆升正威脅近期AI股票的多頭行情，投資人對風險資產的興趣面臨嚴峻考驗。</p>
+        <div class="insight-panel">
+          <div class="insight-row stock-row"><span class="insight-label">對台股影響</span><span class="insight-value">美股科技股下壓，台股科技類股（如聯發科、台積電）短期恐承壓；外資回流美債可能造成台幣貶值壓力。</span></div>
+          <div class="insight-row invest-row"><span class="insight-label">投資啟示</span><span class="insight-value">密切觀察10年期美債殖利率是否突破關鍵阻力，若持續上行則科技股估值壓縮不可避免，建議減持高本益比成長股、轉向防禦型配置。</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">AI股盛宴突然散場？債市正在悄悄逼死這波大多頭</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">台灣投資人近期重押AI概念股，債市崩跌直接示警：這波漲勢的底層支撐正在瓦解</span></div>
         </div>
       </div>
     </div>
+<div class="news-card">
+      <div class="card-accent accent-amber"></div>
+      <div class="card-body">
+        <h3 class="card-title">末日之門已開！BofA策略師Hartnett：現在像極1999年和2009年前夕</h3>
+        <div class="sources-row"><a href="https://www.zerohedge.com/markets/door-doom-has-opened-hartnett-spots-obvious-echo-2009-and-2099" target="_blank" class="source-tag">ZeroHedge</a><a href="https://www.zerohedge.com/news/2026-05-16/bonds-are-screaming-somethings-horribly-wrong" target="_blank" class="source-tag">ZeroHedge</a></div>
+        <p class="summary">美銀全球策略師Michael Hartnett警告：CPI超過4%後風險資產歷史上幾乎必然大跌，目前市場走勢已出現明顯與1999年科技泡沫及2009年危機前夕相似的回聲。ZeroHedge標題直指「債市正在嘶吼某件大事將會出錯」。</p>
+        <div class="insight-panel">
+          <div class="insight-row stock-row"><span class="insight-label">對台股影響</span><span class="insight-value">若歷史重演，台股可能面臨外資大規模撤退，加權指數高點不保；科技股首當其衝。</span></div>
+          <div class="insight-row invest-row"><span class="insight-label">投資啟示</span><span class="insight-value">Hartnett建議逢高減碼動量股，增加黃金與原物料對沖通膨風險。歷史上CPI破4%後平均股市調整幅度達20-30%。</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">全球最準策略師喊危險了：這張圖讓他想起股災前夕</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">台灣散戶剛追高AI題材，現在美銀最厲害的人說這和2000年網路泡沫太像了</span></div>
+        </div>
+      </div>
+    </div>
+<div class="news-card">
+      <div class="card-accent accent-amber"></div>
+      <div class="card-body">
+        <h3 class="card-title">Trump私人信貸震撼彈＆住房法案衝擊：出租物業恐遭全面管制</h3>
+        <div class="sources-row"><a href="https://www.youtube.com/watch?v=w7TDYgHlRzI" target="_blank" class="source-tag">Meet Kevin (YouTube)</a><a href="https://www.youtube.com/watch?v=UYEnhY14PW4" target="_blank" class="source-tag">Meet Kevin (YouTube)</a></div>
+        <p class="summary">財經YouTuber Meet Kevin緊急發布兩支高熱度影片，分別探討Trump政府推動21世紀住房法案（可能限制出租物業）與私人信貸市場的重大政策炸彈，合計觀看次數超過7萬次，市場恐慌情緒升溫。</p>
+        <div class="insight-panel">
+          <div class="insight-row stock-row"><span class="insight-label">對台股影響</span><span class="insight-value">美國房地產政策若重大轉向，將衝擊全球REITs市場；台灣投資人持有的美國不動產基金與REITs需緊急評估風險。</span></div>
+          <div class="insight-row invest-row"><span class="insight-label">投資啟示</span><span class="insight-value">密切追蹤立法進度；若法案通過，建築材料股、物業管理軟體公司或受益，傳統出租房東資產縮水。私人信貸板塊（BDCs）已跌至疫情以來最大折價，逆向買進機會浮現。</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">Trump一口氣丟兩顆炸彈：禁出租房子＋砸爛私人信貸市場</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">有錢人移民美國買房收租的夢，可能被這條法律打碎——台灣投資人的美國房產部位要檢查了</span></div>
+        </div>
+      </div>
+    </div>
+<div class="news-card">
+      <div class="card-accent accent-amber"></div>
+      <div class="card-body">
+        <h3 class="card-title">Kevin Warsh接掌聯準會首日債市即崩，利率政策全面改寫</h3>
+        <div class="sources-row"><a href="https://www.youtube.com/watch?v=qXPOagVLF24" target="_blank" class="source-tag">Heresy Financial (YouTube)</a></div>
+        <p class="summary">前Fed理事Kevin Warsh正式就任首日，Heresy Financial主持人Joe Brown進行即時分析直播，強調Warsh被視為鷹派人士，上任可能標誌聯準會政策轉向；債券市場當日已大幅波動，市場稱之為「歷史性轉折點」。</p>
+        <div class="insight-panel">
+          <div class="insight-row stock-row"><span class="insight-label">對台股影響</span><span class="insight-value">新Fed主席若採鷹派立場，將加速升息預期，壓縮股票估值；台幣可能因美元走強承壓，進口成本上升，台灣央行面臨跟進壓力。</span></div>
+          <div class="insight-row invest-row"><span class="insight-label">投資啟示</span><span class="insight-value">關注Warsh首次正式公開講話，若措辭偏鷹應提早減持長存續期資產（長債ETF、高本益比成長股）；金融股和能源股相對受益於高利率環境。</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">Fed換人了！新主席上任第一天債市就崩，這不是巧合</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">美國央行換人掌舵，台灣央行會跟嗎？你的房貸與台股都可能被這個人影響</span></div>
+        </div>
+      </div>
+    </div></div>
+</section><section class="report-section">
+  <div class="section-header">
+    <span class="section-dot dot-purple"></span>
+    <span class="section-label label-purple">投資機會</span>
+    <span class="section-count count-purple">3 則</span>
+    <span class="section-line"></span>
   </div>
+  <div class="cards-grid"><div class="news-card">
+      <div class="card-accent accent-purple"></div>
+      <div class="card-body">
+        <h3 class="card-title">Michael Burry趁MELI財報暴跌13%全倉建倉，同時悄悄押注半導體崩跌30%</h3>
+        <div class="sources-row"><a href="https://www.cnbc.com/2026/05/11/michael-burry-is-not-a-believer-for-any-stocks-going-parabolic-reduce-positions-almost-entirely.html" target="_blank" class="source-tag">CNBC</a><a href="https://www.thestreet.com/investing/stocks/michael-burry-buys-beaten-down-fintech-stock-after-earnings" target="_blank" class="source-tag">TheStreet</a></div>
+        <p class="summary">《大空頭》原型Michael Burry在MercadoLibre（MELI）財報後單日跌13%時建立完整倉位，認為長期年化報酬可達15%以上；同時他買進iShares半導體ETF的2027年1月看跌期權，押注板塊下跌約30%。他警告投資人應「拒絕貪婪」，對飆漲股票幾乎全數出清。</p>
+        <div class="insight-panel">
+          <div class="insight-row stock-row"><span class="insight-label">對台股影響</span><span class="insight-value">Burry押空半導體ETF直接涵蓋台積電ADR、聯發科等；若判斷正確，台股核心族群面臨嚴重衝擊。</span></div>
+          <div class="insight-row invest-row"><span class="insight-label">投資啟示</span><span class="insight-value">Burry的雙向策略值得學習：逢低買進被恐慌錯殺的優質成長股，同時對泡沫化板塊做空對沖。台灣投資人可考慮在半導體股回調後分批介入，但需設嚴格停損。</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">大空頭又出手了！他一邊撿這檔暴跌股，一邊押晶片股再跌30%</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">Burry放空的半導體ETF裡有台積電ADR——他是在放空你的台積電，你要怎麼辦？</span></div>
+        </div>
+      </div>
+    </div>
+<div class="news-card">
+      <div class="card-accent accent-purple"></div>
+      <div class="card-body">
+        <h3 class="card-title">散戶狂熱6週打造史上最熱AI ETF，歷史告訴你這個訊號意味著什麼</h3>
+        <div class="sources-row"><a href="https://www.bloomberg.com/news/articles/2026-05-16/retail-euphoria-turns-six-week-fund-into-record-busting-ai-trade" target="_blank" class="source-tag">Bloomberg</a></div>
+        <p class="summary">4月初剛成立的AI主題ETF在短短6週內創下歷史性交易量紀錄，散戶熱情推動資金快速湧入。Bloomberg分析指出，這種「零售狂熱」現象與歷史上泡沫頂點前的行為模式高度吻合，值得投資人審慎評估。</p>
+        <div class="insight-panel">
+          <div class="insight-row stock-row"><span class="insight-label">對台股影響</span><span class="insight-value">台灣投資人大量持有美國AI相關ETF；若散戶狂熱是頂部訊號，追高者面臨回調風險。台灣元大、國泰等投信的AI ETF申購熱度是否同步過熱，需密切觀察。</span></div>
+          <div class="insight-row invest-row"><span class="insight-label">投資啟示</span><span class="insight-value">當ETF在短時間內創下交易量紀錄時往往意味著FOMO情緒達頂峰。建議AI主題配置控制在總倉位20%以內，並設置10-15%停損；考慮部分獲利了結後靜待下一個進場點。</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">6週就創紀錄！這檔AI ETF爆量的背後藏著一個讓人不安的歷史訊號</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">你最近有沒有也跟著買AI ETF？Bloomberg說這個現象歷史上出現幾次，每次後來都...</span></div>
+        </div>
+      </div>
+    </div>
+<div class="news-card">
+      <div class="card-accent accent-purple"></div>
+      <div class="card-body">
+        <h3 class="card-title">高盛頂級交易員：市場「可感知的緊張」正在製造千載難逢的錯誤定價機會</h3>
+        <div class="sources-row"><a href="https://www.zerohedge.com/markets/palpable-nervousness-top-goldman-trader-sees-opportunity-markets-dislocation-fundamentals" target="_blank" class="source-tag">ZeroHedge</a></div>
+        <p class="summary">Goldman Sachs頂尖交易員指出，市場當前存在「可感受到的緊張氣氛」，但基本面與市場定價之間的背離正製造吸引人的逢低做多入場點。他認為這是典型的情緒性錯誤定價，聰明資金正在悄悄佈局。</p>
+        <div class="insight-panel">
+          <div class="insight-row stock-row"><span class="insight-label">對台股影響</span><span class="insight-value">外資若採取Goldman策略性逢低買進，反而可能帶動台股回穩；若確認市場底部，優質個股將在恐慌中被錯殺，反而提供難得的買進機會。</span></div>
+          <div class="insight-row invest-row"><span class="insight-label">投資啟示</span><span class="insight-value">VIX超過25時歷史上往往是未來6個月最佳買進時機。建議追蹤Smart Money資金流向，分批低接優質台股ETF（如0050），避免單筆All-in。</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">高盛最強操盤手說了：現在這種恐慌，正是他夢寐以求的進場時機</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">外資在台股大賣的時候，Goldman的人說這是千載難逢的機會——你敢跟嗎？</span></div>
+        </div>
+      </div>
+    </div></div>
+</section><section class="report-section">
+  <div class="section-header">
+    <span class="section-dot dot-teal"></span>
+    <span class="section-label label-teal">總經觀察</span>
+    <span class="section-count count-teal">3 則</span>
+    <span class="section-line"></span>
+  </div>
+  <div class="cards-grid"><div class="news-card">
+      <div class="card-accent accent-teal"></div>
+      <div class="card-body">
+        <h3 class="card-title">伊朗戰爭第三個月：全球製造商瘋狂囤貨，新供應鏈危機陰影再現</h3>
+        <div class="sources-row"><a href="https://www.bloomberg.com/news/articles/2026-05-16/global-inventory-race-intensifies-in-shadow-of-the-iran-war" target="_blank" class="source-tag">Bloomberg</a></div>
+        <p class="summary">中東衝突持續第三個月，各國製造商正加速囤積原物料與製成品，形成類似2020-2021年疫情供應鏈危機的「搶庫存」現象。Bloomberg指出業界調查將評估能源供應中斷對企業實際衝擊，第三月已進入關鍵觀察期。</p>
+        <div class="insight-panel">
+          <div class="insight-row stock-row"><span class="insight-label">對台股影響</span><span class="insight-value">台灣高度依賴中東能源，若衝突擴大導致油價飆升，進口能源成本上升；台灣製造業若面臨補貨潮，相關電子零組件廠商可能受益。</span></div>
+          <div class="insight-row invest-row"><span class="insight-label">投資啟示</span><span class="insight-value">能源股、軍工相關、以及供應鏈管理軟體公司在地緣政治緊張時期往往表現出色。可關注台灣鋼鐵、能源相關概念股作為短期避險配置。</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">伊朗戰爭打了三個月，全球工廠突然開始瘋狂囤貨——上次這樣，是2020年</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">台積電的製造需要能源，台灣的能源來自中東——一旦封鎖，生產成本將失控</span></div>
+        </div>
+      </div>
+    </div>
+<div class="news-card">
+      <div class="card-accent accent-teal"></div>
+      <div class="card-body">
+        <h3 class="card-title">Elon Musk：AI機器人時代將至，建議政府發「全民高收入支票」，貼文6800萬人看</h3>
+        <div class="sources-row"><a href="https://finance.yahoo.com/economy/policy/articles/americans-universal-high-income-via-160900822.html" target="_blank" class="source-tag">Yahoo Finance</a><a href="https://www.thestreet.com/crypto/markets/elon-musk-predicts-double-digit-us-growth-by-2026" target="_blank" class="source-tag">TheStreet</a></div>
+        <p class="summary">Elon Musk在X平台發帖稱AI與機器人將大規模取代工作，政府應以「全民高收入（Universal High Income）」取代現有社會福利，此帖獲6800萬次觀看和19.5萬個讚。他同時預言美國GDP將在12-18個月內實現雙位數增長，AI/機器人將使人均生產力提升數個數量級。</p>
+        <div class="insight-panel">
+          <div class="insight-row stock-row"><span class="insight-label">對台股影響</span><span class="insight-value">若AI確實大規模取代就業，台灣自動化、機器人相關產業（上銀、台達電）將直接受益；但製造業就業減少也是長期社會隱憂。</span></div>
+          <div class="insight-row invest-row"><span class="insight-label">投資啟示</span><span class="insight-value">Musk的方向清晰：自動化、AI算力基礎設施是未來十年最確定的長期主題。台灣在這趨勢中是供應商而非消費者，具結構性優勢。可長期持有台積電、鴻海、廣達等AI供應鏈核心。</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">馬斯克一篇貼文6800萬人看：以後可能有人發你薪水，但你不用工作</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">台灣人最怕被AI取代工作，但馬斯克說取代後政府會發錢——而台灣剛好是做AI硬體的那方</span></div>
+        </div>
+      </div>
+    </div>
+<div class="news-card">
+      <div class="card-accent accent-teal"></div>
+      <div class="card-body">
+        <h3 class="card-title">輝達H200中國夢碎，台積電搶先卡位AI眼鏡：下一個百億美元市場誰先吃到</h3>
+        <div class="sources-row"><a href="https://news.cnyes.com/news/cat/tw_stock" target="_blank" class="source-tag">鉅亨網</a></div>
+        <p class="summary">川普政府證實中國已拒絕購買輝達H200晶片，轉向自主研發路線，衝擊輝達中國市場布局。同時台積電內部點名AI眼鏡為下一世代關鍵載具，宏達電和錼創科技正搶先卡位。此外高盛警告：動量股狂飆25%歷史僅11次，隨後均轉為下行。</p>
+        <div class="insight-panel">
+          <div class="insight-row stock-row"><span class="insight-label">對台股影響</span><span class="insight-value">輝達在中國市占流失長期利好台灣本土AI晶片設計；AI眼鏡供應鏈概念股——宏達電、錼創、光學鏡頭廠——值得短線關注。</span></div>
+          <div class="insight-row invest-row"><span class="insight-label">投資啟示</span><span class="insight-value">AI眼鏡是繼AI手機後下一個硬體換機浪潮，Meta Ray-Ban已驗證市場需求。台積電背書意味大量晶片訂單將湧現，台灣光學、顯示器、音訊相關供應鏈是最大受益者。</span></div>
+          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">中國不買了！輝達損失慘重，但台積電已悄悄找到下一個大金礦</span></div>
+          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">輝達被中國拒於門外的同時，台積電正把賭注押在AI眼鏡上——台灣廠商可能成為隱形贏家</span></div>
+        </div>
+      </div>
+    </div></div>
 </section>
 </div>
+    </div>
   </main>
 
   <footer class="site-footer">
-    <span>由 solopreneur-topic-miner 自動生成<span class="footer-dot"></span><span id="gen-time"></span></span>
-    <span>AI 效率工具</span>
+    <span>由 AutoGenAI 自動生成<span class="footer-dot"></span><span id="gen-time"></span></span>
+    <span id="footer-label">AI 效率工具</span>
   </footer>
 
   <script>
-    // ── init ──
     document.getElementById('gen-time').textContent =
       '生成於 ' + new Date().toLocaleString('zh-TW', {hour:'2-digit', minute:'2-digit'});
 
-    // ── scroll progress ──
     window.addEventListener('scroll', () => {
-      const el  = document.getElementById('progress');
       const pct = window.scrollY / (document.body.scrollHeight - window.innerHeight) * 100;
-      el.style.width = Math.min(pct, 100) + '%';
+      document.getElementById('progress').style.width = Math.min(pct, 100) + '%';
+    });
+
+    const hdrLogo  = document.getElementById('hdr-logo');
+    const hdrBrand = document.getElementById('hdr-brand');
+    const hdrSub   = document.getElementById('hdr-sub');
+    const hdrDate  = document.getElementById('hdr-date');
+    const hdrCount = document.getElementById('hdr-count');
+    const footerLabel = document.getElementById('footer-label');
+
+    function retriggerAnim(container) {
+      container.querySelectorAll('.report-section').forEach(s => {
+        s.style.animation = 'none'; s.offsetHeight; s.style.animation = '';
+      });
+    }
+
+    function updateHeaderFromPanel(panel) {
+      if (!panel) return;
+      hdrDate.textContent  = panel.dataset.date;
+      hdrCount.textContent = '共 ' + panel.dataset.total + ' 則情報';
+    }
+
+    // ── channel switching ──
+    document.querySelectorAll('.channel-tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        const ch = tab.dataset.channel;
+        document.querySelectorAll('.channel-tab').forEach(t => t.classList.toggle('active', t.dataset.channel === ch));
+
+        document.getElementById('ai-date-tabs').style.display      = ch === 'ai'      ? '' : 'none';
+        document.getElementById('finance-date-tabs').style.display = ch === 'finance' ? '' : 'none';
+        document.getElementById('ai-content').style.display        = ch === 'ai'      ? '' : 'none';
+        document.getElementById('finance-content').style.display   = ch === 'finance' ? '' : 'none';
+
+        hdrLogo.textContent  = tab.dataset.logo;
+        hdrBrand.textContent = tab.dataset.brand;
+        hdrSub.textContent   = tab.dataset.sub;
+        footerLabel.textContent = tab.dataset.sub.split(' · ')[0];
+
+        const activePanel = document.querySelector(`#${ch}-content .day-panel.active`);
+        if (activePanel) retriggerAnim(activePanel);
+        updateHeaderFromPanel(activePanel);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
     });
 
     // ── date tab switching ──
-    const tabs   = document.querySelectorAll('.date-tab');
-    const panels = document.querySelectorAll('.day-panel');
-    const hdrDate  = document.getElementById('hdr-date');
-    const hdrCount = document.getElementById('hdr-count');
+    document.querySelectorAll('.date-tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        const ch       = tab.dataset.channel;
+        const targetId = tab.dataset.target;
 
-    function switchTo(tab) {
-      tabs.forEach(t => t.classList.remove('active'));
-      panels.forEach(p => p.classList.remove('active'));
-      tab.classList.add('active');
-      const target = document.getElementById(tab.dataset.target);
-      if (target) {
-        target.classList.add('active');
-        // retrigger section animations
-        target.querySelectorAll('.report-section').forEach(s => {
-          s.style.animation = 'none';
-          s.offsetHeight;   // reflow
-          s.style.animation = '';
-        });
-        hdrDate.textContent  = target.dataset.date;
-        hdrCount.textContent = '共 ' + target.dataset.total + ' 則情報';
+        document.querySelectorAll(`#${ch}-date-tabs .date-tab`).forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+
+        document.querySelectorAll(`#${ch}-content .day-panel`).forEach(p => p.classList.remove('active'));
+        const target = document.getElementById(targetId);
+        if (target) {
+          target.classList.add('active');
+          retriggerAnim(target);
+          updateHeaderFromPanel(target);
+        }
         window.scrollTo({ top: 0, behavior: 'smooth' });
-      }
-    }
-
-    tabs.forEach(tab => {
-      tab.addEventListener('click', () => switchTo(tab));
+      });
     });
   </script>
 </body>
