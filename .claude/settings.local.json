@@ -25,7 +25,9 @@
       "Bash(chmod +x /Users/mac/projects/AutoGenAI/run_daily.sh)",
       "Bash(launchctl load *)",
       "Bash(launchctl list *)",
-      "Bash(git merge *)"
+      "Bash(git merge *)",
+      "Bash(date -v-1d +%Y-%m-%d)",
+      "Bash(/Applications/cmux.app/Contents/Resources/bin/claude --dangerously-skip-permissions -p ' *)"
     ]
   }
 }

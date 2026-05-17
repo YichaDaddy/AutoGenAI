@@ -1,5 +1,194 @@
 [
   {
+    "date": "2026-05-17",
+    "big_events": [
+      {
+        "title": "OpenAI 三合一超級 App：ChatGPT、Codex、API 整合同一產品團隊，打造 Agentic 超級應用",
+        "sources": [
+          {
+            "name": "The Decoder",
+            "url": "https://the-decoder.com/openai-is-merging-chatgpt-codex-and-its-developer-api-into-a-single-product-team/"
+          },
+          {
+            "name": "LLM Stats AI News",
+            "url": "https://llm-stats.com/ai-news"
+          }
+        ],
+        "summary": "OpenAI 將 ChatGPT、編程助理 Codex 與開發者 API 整合進同一產品團隊，目標打造含 Atlas 瀏覽器的 Agentic 超級 App。",
+        "audience": "職場上班族、企業 IT 決策者、開發者",
+        "pain_point": "三套 OpenAI 工具各自為政，切換成本高，不知如何整合進工作流程",
+        "title_idea": "OpenAI 要把 ChatGPT、Codex、API 合三為一！你的工作流程即將被這樣改變",
+        "local_angle": "歐美已搶先部署 OpenAI Agentic 超級 App，華語圈職場教學幾乎空白，搶做整合使用教學紅利"
+      },
+      {
+        "title": "Google I/O 2026 前夕：Gemini 4.0、AI 眼鏡、主動代理 Remy 全面曝光，48 小時後正式發布",
+        "sources": [
+          {
+            "name": "AI Tools Recap",
+            "url": "https://aitoolsrecap.com/Blog/ai-news-may-17-2026"
+          },
+          {
+            "name": "Android Authority",
+            "url": "https://www.androidauthority.com/what-to-expect-from-google-io-2026-3664979/"
+          },
+          {
+            "name": "PCWorld",
+            "url": "https://www.pcworld.com/article/3134059/gemini-may-finally-leap-out-of-the-chatbox-at-google-i-o.html"
+          }
+        ],
+        "summary": "Google I/O（5/19 開幕）前夕，Gemini 4.0 多模態整合、Android XR 智慧眼鏡、主動 AI 代理 Remy 等重磅功能全面流出，硬件夥伴含三星、Warby Parker。",
+        "audience": "職場上班族、Android 手機用戶、AI 工具重度用戶",
+        "pain_point": "Google 工具太多、太分散，不知 Gemini 新版如何在工作中真正派上用場",
+        "title_idea": "Google I/O 明天登場！Gemini 4.0、AI 眼鏡、主動幫你工作的 Remy，一次看清楚",
+        "local_angle": "Google I/O 正式發布 48 小時前整理資訊差，發布後搶做繁體中文第一波功能解析與工作流教學，可形成雙波流量"
+      },
+      {
+        "title": "Anthropic 估值衝破 $900B，34 家 AI 新創年化收入達 $800 億，Claude 企業採用率首超 OpenAI",
+        "sources": [
+          {
+            "name": "The Information (via LLM Stats)",
+            "url": "https://llm-stats.com/ai-news"
+          },
+          {
+            "name": "Econlab Substack",
+            "url": "https://econlab.substack.com/p/anthropic-beats-openai"
+          }
+        ],
+        "summary": "Anthropic 以逾 $900B 估值籌資 $300 億；34 家 AI 新創年化收入突破 $800 億（Anthropic + OpenAI 佔 89%）；Anthropic 企業採用率 34.4% 首次超越 OpenAI 的 32.3%。",
+        "audience": "職場上班族、AI 工具決策者、關注 AI 產業的創作者",
+        "pain_point": "不確定 Claude 還是 ChatGPT 更值得在公司推廣，缺乏客觀比較依據",
+        "title_idea": "Claude 剛超越 ChatGPT！34 家 AI 公司年賺 $800 億，這波 AI 浪潮誰才是真正贏家",
+        "local_angle": "海外已有商業採用數據佐證，華語圈職場「選哪個 AI」的比較型內容需求正旺，搶先做數據驅動的比較選題"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "Anthropic Orbit 主動助理曝光：不需下指令，自動接管 Gmail、Slack、GitHub、Google 日曆",
+        "sources": [
+          {
+            "name": "PCWorld",
+            "url": "https://www.pcworld.com/article/3131926/personal-ai-assistants-were-big-proactive-ai-could-be-bigger.html"
+          }
+        ],
+        "summary": "Claude 應用程式中發現「Orbit」功能線索，定位為主動代理，可自動連接 Gmail、Slack、GitHub、Figma、Google Calendar，在背景執行任務無需提示。",
+        "audience": "職場效率控、重度 SaaS 工具用戶、想自動化例行公事的上班族",
+        "pain_point": "每天在十幾個 App 間切換、重複執行例行任務，嚴重消耗注意力與時間",
+        "title_idea": "你不用說話，AI 就幫你回 Email、排行程！Anthropic Orbit 主動助理即將改寫職場模式",
+        "local_angle": "Orbit 目前幾乎無中文報導，搶做功能預測與應用場景解析，在正式發布前建立華語圈話語權"
+      },
+      {
+        "title": "Claude Code 用量上限加倍！Anthropic × SpaceX Colossus 1 算力合作：22 萬顆 GPU 撐腰",
+        "sources": [
+          {
+            "name": "Engadget",
+            "url": "https://www.engadget.com/2166315/anthropic-is-doubling-claude-code-rate-limits-after-deal-with-spacex/"
+          },
+          {
+            "name": "PCWorld",
+            "url": "https://www.pcworld.com/article/3132997/anthropic-doubles-claude-code-limits-thanks-to-a-deal-with-spacex.html"
+          },
+          {
+            "name": "Android Headlines",
+            "url": "https://www.androidheadlines.com/2026/05/anthropic-claude-code-limits-spacex-ai-partnership.html"
+          }
+        ],
+        "summary": "Anthropic 與 SpaceX 簽署算力合作，使用 Colossus 1 資料中心超過 22 萬顆 NVIDIA GPU，Claude Code Pro/Max 五小時用量上限加倍，峰時限速全面取消。",
+        "audience": "職場工程師、自學程式設計的上班族、用 AI 寫代碼的創作者",
+        "pain_point": "之前 Claude Code 常被限速打斷工作流，不知道值不值得付費升級",
+        "title_idea": "Claude Code 終於不卡速了！用量加倍、SpaceX 算力撐腰，2026 最值得升級的 AI 編程工具",
+        "local_angle": "台灣工程師與程式學習者已有 Claude Code 使用基礎，加倍限速後的實測教學機會大，且 SpaceX 角度吸引科技愛好者"
+      },
+      {
+        "title": "GPT-5.5 API 持續向企業全面開放，OpenAI 推進 Agentic 工作流整合新階段",
+        "sources": [
+          {
+            "name": "OpenAI",
+            "url": "https://openai.com/index/introducing-gpt-5-5/"
+          },
+          {
+            "name": "LLM Stats",
+            "url": "https://llm-stats.com/llm-updates"
+          }
+        ],
+        "summary": "GPT-5.5 API 持續向 Enterprise、Business、Plus 方案開放，支援 Agentic 工作流；配合 ChatGPT+Codex+API 三合一整合方向，企業自動化部署進入新階段。",
+        "audience": "企業 IT、開發者、想用 AI API 自動化工作的職場人士",
+        "pain_point": "不知道 GPT-5.5 相比舊版有何實際差異、企業部署成本是否划算",
+        "title_idea": "GPT-5.5 企業版全面開放！實測比較 GPT-4o vs 5.5，哪個才是職場自動化的正確選擇",
+        "local_angle": "API 部署教學在華語圈嚴重不足，可做「從零部署 GPT-5.5 自動化工作流」繁中教學搶先佔位"
+      },
+      {
+        "title": "Apple Siri 大改版規劃曝光：對話記錄自動刪除，AI 助理隱私保護全面升級",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/05/17/apples-siri-revamp-could-include-auto-deleting-chats/"
+          }
+        ],
+        "summary": "蘋果規劃 Siri 重大更新，新增對話記錄自動刪除功能，主打 AI 助理使用者隱私保護，預計隨未來 iOS 版本推出。",
+        "audience": "iPhone 用戶、注重隱私的職場人士、蘋果生態系用戶",
+        "pain_point": "擔心用 AI 助理時私人對話被存取或洩露工作機密",
+        "title_idea": "Siri 終於懂保護你的隱私！蘋果新功能：聊完自動刪除，AI 助理再也不偷存你的秘密",
+        "local_angle": "台灣 iPhone 用戶比例極高，隱私教學類內容一直有穩定需求，搶做 Siri 新功能早鳥解析"
+      }
+    ],
+    "trends": [
+      {
+        "title": "中國 AI 影片生成反超美國：ByteDance Seedance 2.0 + 快手 Kling 3.0 靠短影音數據稱霸",
+        "sources": [
+          {
+            "name": "Financial Times (via Techmeme)",
+            "url": "https://www.techmeme.com/260517/p6"
+          },
+          {
+            "name": "Digitimes",
+            "url": "https://www.digitimes.com/news/a20260512VL213/spin-off-revenue-bytedance-ipo-2025.html"
+          }
+        ],
+        "summary": "FT 報導：中國 ByteDance 與快手在 AI 影片生成已超越美國競爭者，靠 TikTok、抖音、快手等海量短影音訓練數據取得結構性優勢；快手 Kling 已有 6000 萬用戶、年化營收衝 $5 億美元。",
+        "audience": "影片創作者、自媒體經營者、想用 AI 製作短影音的職場人",
+        "pain_point": "AI 影片工具太多太快，不知道現在最強的到底是哪個，不想押錯寶浪費學習成本",
+        "title_idea": "AI 影片生成，中國贏了？快手 Kling 6000 萬用戶、ByteDance 新模型橫掃 Sora，你現在該換工具嗎",
+        "local_angle": "中國 AI 影片工具報導在華語圈多為簡體且立場模糊，繁中創作者視角的中立比較教學幾乎空白，資訊差顯著"
+      },
+      {
+        "title": "AI 獨立開發者效率革命：月費 $300-500 工具棧取代原本 $10 萬/月人力，單人公司模式成熟",
+        "sources": [
+          {
+            "name": "DEV Community",
+            "url": "https://dev.to/neo_one_944288aac0bb5e89b/the-2026-solopreneur-ai-stack-every-tool-you-need-39e2"
+          },
+          {
+            "name": "Entrepreneur",
+            "url": "https://www.entrepreneur.com/science-technology/7-ai-tools-solopreneurs-need-for-2026-to-hit-7-figures/499925"
+          }
+        ],
+        "summary": "2026 年 Solopreneur AI 工具棧（Cursor、Claude Code、Canva AI、n8n 等）月費僅 $300-500，能取代原本 $8-12 萬/月的完整團隊，使用 AI 的獨立創業者收入是同行 2-3 倍。",
+        "audience": "想兼職創業的職場上班族、獨立接案者、自媒體創作者",
+        "pain_point": "覺得靠 AI 創業遙不可及，不知從哪個工具入手、月費能不能回本",
+        "title_idea": "月花 $300 美元 AI 工具，取代一整個 10 人團隊！2026 最強單人公司工具清單大公開",
+        "local_angle": "Pieter Levels 等歐美獨立開發者已驗證模式，台灣/華語圈副業族群需求旺盛，可做本地化成本換算與工具清單選題"
+      },
+      {
+        "title": "「主動式 AI」成 2026 最大 UX 範式轉移：Google Remy、Anthropic Orbit、OpenAI Atlas 三巨頭同時出擊",
+        "sources": [
+          {
+            "name": "PCWorld",
+            "url": "https://www.pcworld.com/article/3131926/personal-ai-assistants-were-big-proactive-ai-could-be-bigger.html"
+          },
+          {
+            "name": "AI Tools Recap",
+            "url": "https://aitoolsrecap.com/Blog/ai-news-may-17-2026"
+          }
+        ],
+        "summary": "三大 AI 巨頭同時搶攻「主動代理」市場：Google Remy、Anthropic Orbit、OpenAI Atlas 整合瀏覽器，AI 從被動回答轉為主動執行，職場使用模式即將巨變。",
+        "audience": "職場上班族、效率控、早期採用 AI 工具的創作者",
+        "pain_point": "現在用的 AI 工具都要自己主動問，費時費力，希望 AI 能主動處理例行事務",
+        "title_idea": "AI 不再等你問！Google、Claude、ChatGPT 同時推主動助理，2026 年工作方式要被這樣顛覆",
+        "local_angle": "主動式 AI 在歐美已成熱門討論話題，繁中概念解析幾乎空白，搶在三大產品正式發布前做科普型內容可搶先佔位"
+      }
+    ]
+  },
+  {
     "date": "2026-05-16",
     "big_events": [
       {
