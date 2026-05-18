@@ -1,124 +1,136 @@
 {
-  "date": "2026-05-17",
+  "date": "2026-05-18",
   "market_shocks": [
     {
-      "title": "NextEra擬660億美元吞下Dominion，史上最大能源併購震撼市場",
+      "title": "陪審團對馬斯克作出裁決，SpaceX IPO同步壓縮特斯拉投資價值",
       "sources": [
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-17/nextera-said-to-discuss-paying-about-76-per-share-for-dominion"}
+        {"name": "Meet Kevin (YouTube)", "url": "https://www.youtube.com/watch?v=gM7ZQaxQLls"},
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-18/spacex-ipo-will-add-another-musk-stock-it-s-a-problem-for-tesla"}
       ],
-      "summary": "NextEra Energy正在洽談以每股約76美元、總計660億美元的股票交易收購Dominion Energy，若成功將成「迄今最大電力交易紀錄」。消息一出，Dominion股價飆升，能源板塊全面沸騰。這筆交易的核心驅動力是AI資料中心爆炸性的電力需求。",
-      "tw_stock_impact": "AI資料中心電力需求故事進一步確認，台灣電力設備、電纜廠（台達電、士電、中興電）與AI散熱供應鏈將直接受惠於全球電力基礎設施升級潮。",
-      "investment_insight": "能源基礎設施是AI行情最被低估的受益者。可關注台灣電力設備類股，以及美股能源公用事業ETF（XLU）；Dominion投資者此時獲利了結或轉進NextEra視估值而定。",
-      "title_idea": "660億美元！美國史上最大電力併購來了，背後藏著一個AI的恐怖需求",
-      "local_angle": "全球AI算力耗電量爆炸，台灣電力設備廠正悄悄成為這波AI行情最隱藏的贏家"
+      "summary": "陪審團就馬斯克與OpenAI/Sam Altman法律糾紛作出裁決，結果震動科技界；與此同時，Bloomberg分析SpaceX上市後將讓投資人有另一條直接下注馬斯克帝國的管道，分析師警告這將分流原本流入特斯拉的資金，TSLA可能面臨估值重估壓力。兩則消息疊加，令馬斯克概念股劇烈震盪。",
+      "tw_stock_impact": "台股特斯拉供應鏈（和大、貿聯、正新）短線承壓。若SpaceX IPO分散市場資金，Musk概念股換手率上升，台灣相關ETF（如00757）波動加大。",
+      "investment_insight": "SpaceX若成功上市，投資人可直接持有其火箭與衛星業務，特斯拉的「馬斯克溢價」將被稀釋。現持有TSLA的投資人應重新評估持股比例，考慮待SpaceX IPO後再做配置決策。",
+      "title_idea": "陪審團判了！馬斯克輸了還是贏了？SpaceX上市更讓特斯拉股東開始慌",
+      "local_angle": "台灣人持有的特斯拉ETF，可能即將迎來「馬斯克資金大搬家」——SpaceX上市後你要怎麼辦？"
     },
     {
-      "title": "台股首破4萬點！聯發科跳空漲停，ASIC業績目標翻倍至20億美元",
+      "title": "Citadel Securities警告：驅動美股創高的龐大資金流恐即將反轉",
       "sources": [
-        {"name": "Yahoo股市", "url": "https://tw.stock.yahoo.com/news/%E8%81%AF%E7%99%BC%E7%A7%91%E5%8F%8A%E5%8F%B0%E7%A9%8D%E9%9B%BB%E9%A0%98%E8%BB%8D-%E5%8F%B0%E8%82%A1%E5%A4%A7%E9%95%B7%E7%B4%85%E7%A9%BF%E8%B6%8A4%E8%90%AC%E9%BB%9E-231007813.html"},
-        {"name": "經濟日報", "url": "https://money.udn.com/money/story/5607/9479860"}
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-18/citadel-securities-rubner-sees-risk-of-flow-unwind-in-us-stocks"}
       ],
-      "summary": "台股收盤首度站上40,000點，單日上漲1,778點創歷史紀錄，外資單日買超669億元。聯發科跳空鎖漲停報3,470元，創歷史天價；法說會大幅調高AI ASIC業務從10億美元提升至20億美元，並預估2027年出貨量將大幅成長。台積電盤中上漲150元至2,285元，創單日最大漲幅紀錄。",
-      "tw_stock_impact": "台股進入「4萬點時代」，聯發科、台積電為核心主軸；ASIC概念股、AI算力供應鏈（廣達、鴻海、緯穎）全面走強，ETF（0050、00892）持有人財富大增。",
-      "investment_insight": "聯發科ASIC業務翻倍確認其從晶片設計廠升格為AI算力核心供應商的轉型故事。建議持有台積電、聯發科的投資人以「持股不動+設定移動停利」策略應對高點震盪。",
-      "title_idea": "台股破4萬！這不是運氣，聯發科用一個數字讓外資徹底瘋掉",
-      "local_angle": "你的0050在這一天可能漲了超過你半個月薪水——台股4萬點是起點還是終點？"
+      "summary": "Citadel Securities首席策略師Rubner發出罕見警告，指推動美股衝上歷史高點的強勁資金流入可能即將出現逆轉。他點出系統性再平倉已接近極限，一旦動能逆轉將觸發機械性拋售潮，且規模遠超市場預期。S&P 500當日在波動中收盤幾乎持平，印證了他的「市場已在臨界點」說法。",
+      "tw_stock_impact": "外資若大規模撤出美股，台股40,891點的高位極易遭受連帶拋壓。5月18日台股已從前日41,172點下跌280點（-0.68%），技術面出現警示訊號。",
+      "investment_insight": "當Citadel這類做市商開始公開示警時，通常是散戶最後的提醒。建議將高風險倉位的停損線上移，對台股AI族群保持高度警覺，避免在高點加碼追買。",
+      "title_idea": "Citadel示警了！他說讓美股衝高的那股力量，正準備反向爆炸",
+      "local_angle": "台股剛破4萬，但美國最大做市商說資金即將反轉——你的持股設好停損了嗎？"
     },
     {
-      "title": "30年期美債殖利率逼近5%，債券交易員宣告：高利率新時代已正式來臨",
+      "title": "日本官員拒絕拋售美國國債，30年期美債殖利率衝上2023年以來最高點",
       "sources": [
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-17/bond-traders-see-tipping-point-toward-new-era-of-higher-yields"}
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-18/japan-official-sows-doubt-over-potential-sales-of-us-treasuries"},
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-18/us-long-bond-yield-hits-highest-since-2023-on-inflation-concern"}
       ],
-      "summary": "30年期美國公債殖利率已逼近20年高點5%大關，Bloomberg指出戰爭通膨疊加財政赤字，「高利率時代」的臨界點恐已到來。債券交易員警告這不是短暫現象，而是長期結構性轉變的開始，將重塑全球資本市場的估值基準。",
-      "tw_stock_impact": "長端利率上升將壓縮高本益比科技股（包括台積電ADR與聯發科美國存託憑證）估值；台灣央行面臨是否跟進升息的壓力，房市貸款利率將持續上行。",
-      "investment_insight": "30年期殖利率突破5%是歷史性分水嶺。建議增加短存續期債券配置、減持長債ETF（TLT）；黃金與實物資產在高通膨高利率環境中具相對優勢。",
-      "title_idea": "美債殖利率快破5%！債券交易員說這次不一樣——高利率可能是未來20年的日常",
-      "local_angle": "美國長期高利率意味台灣房貸族和持有美國債券的退休族都要重新算一次帳"
+      "summary": "日本財務省高階官員明確表態，對以拋售美國國債來撐升日圓的作法「持懷疑態度」，打破市場對日本可能動用國債作為外交籌碼的揣測。同日，30年期美債殖利率因通膨擔憂飆升至2023年以來最高位，外國持有的美國國債在3月已出現下降，美元資產信心動搖跡象逐漸擴散。",
+      "tw_stock_impact": "美債殖利率上升壓縮台股高本益比科技股估值；台幣若因美元升值而走弱，持有美元資產的台灣投資人帳面獲益，但出口商換匯壓力增加。",
+      "investment_insight": "美債殖利率長期走高+外資縮減持倉，是美元霸權鬆動的結構性訊號。建議分散至黃金、實物資產及短天期美債，避免長天期債券ETF（TLT）的久期風險。",
+      "title_idea": "日本說不幫美元撐場了！美債殖利率當天就飆上近3年新高",
+      "local_angle": "美日同盟出現裂縫，美債市場震動——台灣人存了多少美元資產，你現在需要重新算一次"
     },
     {
-      "title": "SpaceX IPO倒數，估值衝2兆美元將成史上最大IPO，Musk帝國重塑市場格局",
+      "title": "ZeroHedge：1000億美元槓桿半導體部位正在崩裂，動能泡沫出現裂縫",
       "sources": [
-        {"name": "Axios", "url": "https://www.axios.com/2026/05/14/spacex-musk-sp-stocks"},
-        {"name": "Slate", "url": "https://slate.com/business/2026/05/ai-trump-musk-stock-bubble-ipo.html"}
+        {"name": "ZeroHedge", "url": "https://www.zerohedge.com/"},
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-18/us-futures-slip-as-inflation-worries-feed-risk-off-sentiment"}
       ],
-      "summary": "Elon Musk旗下SpaceX預計下月公開上市，最高估值達2兆美元，將超越沙烏地阿美成為史上規模最大IPO之一。同期OpenAI、Anthropic也在準備上市，分析師警告這波AI IPO潮正在製造1999年網路泡沫式的市場狂熱，但Musk的Tesla同期卻已從高點下跌32%。",
-      "tw_stock_impact": "SpaceX IPO可能大量吸收市場流動性，短期壓抑其他科技股（包括台股AI概念股）；長期而言台積電供應SpaceX相關晶片，具間接受益機會。",
-      "investment_insight": "超大型IPO通常在前三個月吸引市場注意力後回歸基本面。SpaceX上市後若估值過高（超過2兆美元），過早進場風險極大；建議等上市後3-6個月觀察實際財務數據再評估。",
-      "title_idea": "史上最大IPO來了！SpaceX估值2兆美元——這是世紀機會還是泡沫炸彈？",
-      "local_angle": "SpaceX上市將吸走全球幾千億美元資金，台灣投資人手上的現金部位要留著搶嗎？"
+      "summary": "ZeroHedge引述高盛分析指出，市場中約1,000億美元的槓桿半導體部位正面臨機械性拋售風險——一旦動能指標轉壞，系統性去槓桿將觸發連鎖效應。同期高盛也警告「系統性再平倉已接近極限」，技術分析師指出「忽視的訊號太多了」，歷史上類似格局出現在1998年中、1999年末和2021年末，之後均有顯著跌幅。",
+      "tw_stock_impact": "台積電、聯發科、瑞昱等半導體龍頭為外資重倉，若1000億美元去槓桿啟動，這些個股將首當其衝，台股可能出現單日大跌行情。",
+      "investment_insight": "槓桿型半導體ETF（如SOXL）持有人應立即評估部位風險。對長期投資者，這是辨別「核心持股」與「追價倉位」的時機，後者應先行減碼，靜待去槓桿完成後的更好買點。",
+      "title_idea": "有人在半導體市場下了1000億美元的槓桿賭注，現在那個賭注快要爆了",
+      "local_angle": "台積電ADR和聯發科是外資槓桿部位的核心——外資去槓桿那天，台股可能比你想像中跌得更猛"
     }
   ],
   "investment_opportunities": [
     {
-      "title": "Michael Burry自比1999年泡沫末期：建倉MELI同時押空半導體ETF30%跌幅",
+      "title": "NextEra 670億美元吞下Dominion：AI電力時代催生史上最大公用事業併購",
       "sources": [
-        {"name": "TheStreet", "url": "https://www.thestreet.com/investing/stocks/michael-burry-buys-beaten-down-fintech-stock-after-earnings"},
-        {"name": "HedgeFollow", "url": "https://hedgefollow.com/funds/Scion+Asset+Management"}
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-18/nextera-to-buy-dominion-for-67-billion-to-form-utility-colossus"},
+        {"name": "Fortune", "url": "https://fortune.com/2026/05/18/nextera-dominion-67-billion-acquisition-ai-data-centers-largest-utility/"},
+        {"name": "CBS News", "url": "https://www.cbsnews.com/news/nextera-dominion-67-billion-deal-ai-data-centers/"}
       ],
-      "summary": "Michael Burry在Substack發文稱「感覺像1999-2000年泡沫的最後幾個月」，同時進行雙向操作：一是在MercadoLibre（MELI）財報後跌至$1,600s時建立完整倉位，預期長期年化報酬15%以上；二是購入2027年1月iShares半導體ETF（SOXX）看跌期權，押注下跌約30%。他另建倉微軟（MSFT）作為AI多頭。",
-      "tw_stock_impact": "Burry押空SOXX直接涵蓋台積電ADR和聯發科相關持倉；若其判斷成真，台股核心AI族群面臨系統性風險。但他同時看多微軟MSFT，意味選擇性做多仍是主流。",
-      "investment_insight": "Burry策略精髓：逢市場恐慌時撿拾被錯殺的優質成長股，同時對泡沫化板塊用期權對沖尾端風險。台灣投資人可學習這種「多空並行、不全押單方向」的思維框架。",
-      "title_idea": "大空頭Burry說現在像極1999年！他一邊撿這檔暴跌股，一邊放空晶片再跌30%",
-      "local_angle": "Burry放空的ETF裡有台積電ADR——他是在賭台積電要跌，而你還在追高嗎？"
+      "summary": "NextEra Energy宣布以全股票交易方式、每股0.8138比1的換股比例收購Dominion Energy，總值670億美元，創下電力業史上最大併購紀錄。合併後新公司將服務超過1,000萬電力用戶，涵蓋佛羅里達至維吉尼亞。核心驅動力：AI資料中心爆發性電力需求使電力業者擁有前所未有的定價權。交易預計2027年中至下半年完成。",
+      "tw_stock_impact": "AI資料中心電力需求敘事進一步確認。台灣電源供應商（台達電、光寶科）、散熱廠（雙鴻、健策）及電纜廠（士電、中興電）均直接受益於全球電力基礎設施投資潮加速。",
+      "investment_insight": "Dominion股價當日漲9%、NextEra跌5%（市場認為NextEra溢價過高），投資機會在Dominion換股溢價套利或長期持有能源基礎設施ETF（如XLU）。台灣電力設備族群仍是AI行情最被低估的受益群。",
+      "title_idea": "670億美元！電力公司突然成了AI時代最性感的投資——這筆史上最大合併說明了什麼",
+      "local_angle": "全球AI算力狂燒電，台灣電源設備廠正悄悄受惠——你的投資組合裡有跟上這條供應鏈嗎？"
     },
     {
-      "title": "半導體主導S&P 500漲勢，但「科技泡沫恐懼」驅動奇異選權對沖潮爆發",
+      "title": "AI晶片新星Tenstorrent遭Intel與Qualcomm同步相中，AI晶片收購戰正式開打",
       "sources": [
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-17/volatile-chipmaker-stocks-emerge-as-key-driver-of-s-p-500-rally"},
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-17/tech-bubble-fear-lures-investors-to-hedge-with-exotic-options"}
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-18/ai-chip-startup-tenstorrent-draws-takeover-interest-from-intel-qualcomm"}
       ],
-      "summary": "晶片股已成為S&P 500反彈的主要驅動力，輝達、博通等創歷史新高；但Bloomberg同日披露，部分機構投資者正大量買入「奇異選權」（exotic options）對沖科技泡沫風險，保護成本遠高於普通保護性賣權，顯示聰明錢正在悄悄備戰崩跌。",
-      "tw_stock_impact": "台股半導體股（台積電、聯發科、瑞昱）在此輪行情中漲幅最大，但機構對沖動作意味外資可能在高點悄悄鎖利，散戶接盤風險上升。",
-      "investment_insight": "當機構花大錢買奇異選權時，意味他們相信市場可能有非線性的大跌風險。建議個人投資者在台股AI高點做好倉位管控，持有比例超過40%者應考慮分批減碼或購入台指期保護。",
-      "title_idea": "晶片股創新高的同時，有人正在砸大錢買奇異期權——他們在防什麼？",
-      "local_angle": "台積電、聯發科漲到天際，但有錢的外資正在偷偷買保險——散戶你準備好了嗎？"
+      "summary": "Bloomberg獨家披露，Jim Keller主導的AI晶片初創公司Tenstorrent正受到Intel和Qualcomm的早期收購接觸。Tenstorrent採用RISC-V開放架構開發AI加速器，是Nvidia最具威脅性的挑戰者之一，也是台積電、三星等先進製程的重要客戶。Intel和Qualcomm同步追求，意味AI晶片的大洗牌即將到來。",
+      "tw_stock_impact": "若Intel或Qualcomm收購Tenstorrent，將大幅改變AI晶片市場格局：台積電因同時服務多家客戶而穩定受益；但聯發科的ASIC業務可能面臨更強競爭壓力。",
+      "investment_insight": "AI晶片收購潮代表大廠意識到自建AI半導體已成必需。這對台積電是長期利多（訂單更分散、更多客戶）；投資人可特別關注採用RISC-V架構的台灣IC設計公司潛在爆發機會。",
+      "title_idea": "Intel跟Qualcomm都在搶這家AI晶片公司——可能是因為他們都知道輝達快要被超越了",
+      "local_angle": "AI晶片戰爭延伸到台積電的大客戶圈，台灣晶片設計廠該緊張還是該興奮？"
     },
     {
-      "title": "高盛預測黃金衝上5400美元，Morgan Stanley警告能源衝擊引爆全球衰退",
+      "title": "輝達財報5月20日盤後放榜：台積電廣達鴻海供應鏈全面進入決戰前夜",
       "sources": [
-        {"name": "ZeroHedge", "url": "https://www.zerohedge.com/economics/morgan-stanley-mid-year-outlook-ai-strength-continued-energy-shock-will-result-global"},
-        {"name": "鉅亨網", "url": "https://news.cnyes.com/news/cat/tw_stock"}
+        {"name": "Yahoo股市", "url": "https://tw.stock.yahoo.com/news/msci%E8%AA%BF%E6%95%B45%E6%9C%8829%E6%97%A5%E7%94%9F%E6%95%88-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%AC%8A%E9%87%8D%E4%B8%8A%E5%8D%87-%E5%8F%B0%E8%82%A1etf%E6%9C%AC%E5%91%A8%E5%AF%86%E9%9B%86%E9%99%A4%E6%81%AF-%E8%BC%9D%E9%81%94%E8%B2%A1%E5%A0%B15%E6%9C%8820%E6%97%A5%E7%9B%A4%E5%BE%8C%E6%94%BE%E6%A6%9C-%E4%B8%AD%E6%B2%B9%E5%AE%A3%E5%B8%83%E9%80%A37%E5%91%A8%E5%87%8D%E6%BC%B2%EF%BD%9C%E6%8A%95%E8%B3%87%E6%97%A9%E7%9F%A5%E9%81%93-135537232.html"},
+        {"name": "Meet Kevin (YouTube)", "url": "https://www.youtube.com/watch?v=2OG74U1mhQY"}
       ],
-      "summary": "Morgan Stanley中期展望警告：即便AI產業持續強勁，全球能源庫存枯竭可能推動油價突破每桶150美元，進而觸發全球供應中斷與經濟衰退。同期高盛預測2026年金價可能挑戰5,400美元歷史新高。兩者均指向：AI多頭同時需要對能源衰退風險進行對沖。",
-      "tw_stock_impact": "台灣作為能源進口國，若油價突破150美元，製造業成本大幅上升；但台積電、聯發科的AI訂單可能使企業盈利韌性超出市場預期。黃金ETF（00635U）持有人直接受惠。",
-      "investment_insight": "黃金+能源的對沖組合在當前環境中具備明確邏輯。建議以5-10%倉位配置黃金ETF，並關注台灣石化股（台塑集團）在能源衝擊下的投資機會。",
-      "title_idea": "高盛說黃金要衝5400！但Morgan Stanley警告：油價破150恐引爆全球衰退",
-      "local_angle": "台灣人如果現在沒有配置黃金，等衰退來了可能後悔——高盛給你最後一次上車機會"
+      "summary": "輝達（NVDA）將於台灣時間5月21日凌晨公布最新季度財報，法人預期營收年增近80%。Meet Kevin 5月18日發出「Prepare for WEDNESDAY」緊急警告，強調市場對NVDA期待值已極高，任何低於預期的指引都可能觸發暴力修正。同期MSCI也公告5月29日調整生效，台積電權重將進一步上調。",
+      "tw_stock_impact": "台積電、廣達、鴻海、緯穎為輝達Blackwell系統關鍵供應商，法說前後通常帶動台股整體波動。MSCI台積電權重上調將帶來被動資金流入，為台股提供結構性支撐。",
+      "investment_insight": "輝達法說是本週最重要的市場催化劑。策略分為兩派：①法說前減碼規避下修風險；②持有核心台積電部位等待MSCI換倉被動買盤。短線投機者可考慮法說當日做選擇性選權操作，降低方向性賭注。",
+      "title_idea": "輝達財報來了！Meet Kevin說這次結果可能讓你嚇一跳——台積電供應鏈現在怎麼辦？",
+      "local_angle": "輝達法說前，台積電、廣達股價都在高位——你是要先跑還是撐著等MSCI換倉的救援資金？"
+    },
+    {
+      "title": "美國天然氣期貨首破3美元，能源板塊悄悄成為通膨時代最佳避難所",
+      "sources": [
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-18/us-natural-gas-futures-top-3-for-first-time-since-march"}
+      ],
+      "summary": "美國天然氣期貨5月18日盤中突破每百萬英熱單位3美元，為3月以來首次，主因氣象預報顯示未來數週氣溫將高於季節均值，空調用電需求提前拉升。能源分析師指出天然氣同時作為AI資料中心備用發電來源，需求結構已從純季節性轉向長期剛性，此輪漲價可持續性高於市場預期。",
+      "tw_stock_impact": "台灣為天然氣大量進口國，LNG漲價直接衝擊中油與台電的進口成本，電費上調壓力增加；但台灣LNG接收站概念股（中鋼、台塑）可能因此獲得評價修復機會。",
+      "investment_insight": "天然氣+AI電力需求的雙重邏輯正在強化。能源ETF（XLE、UNG）是當前環境下的通膨對沖工具；台灣投資人可透過美國掛牌天然氣相關ETF參與這波行情，同時搭配黃金對沖美元走勢風險。",
+      "title_idea": "AI燒電、夏天又熱——天然氣悄悄破了這個關鍵價位，現在進場還來得及？",
+      "local_angle": "台灣電費可能要漲了！天然氣價格升高直接影響你的電費帳單，但這也是一個投資機會"
     }
   ],
   "macro_observations": [
     {
-      "title": "Gundlach宣判：下次Fed會議降息「根本不可能」，高利率時代無退路",
+      "title": "馬斯克發出破產警告：美國如果繼續揮霍，船要沉了",
       "sources": [
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-17/gundlach-says-it-s-just-not-possible-for-the-fed-to-cut-rates"}
+        {"name": "Yahoo Finance / TheStreet", "url": "https://finance.yahoo.com/economy/policy/articles/elon-musk-has-a-stark-message-on-americans-and-the-economy-231109645.html"}
       ],
-      "summary": "債券之王DoubleLine Capital CEO Jeffrey Gundlach明確表示：在當前通膨持續壓力下，聯準會在下次政策會議降息「根本不可能」。他指出通膨數據顯示物價壓力遠未消退，而市場對降息的過度期待將遭受修正，利率可能在高點停留比多數人預期更久。",
-      "tw_stock_impact": "美國高利率延長意味美元維持強勢，台幣承壓；持有美元計價債券的台灣投資人帳面收益提升，但持有浮動利率負債（房貸、企業借款）者成本上升。",
-      "investment_insight": "在Fed不降息的環境中，短期美國國庫券（T-Bill）的4-5%殖利率提供無風險替代方案。台灣投資人可透過美元帳戶或美元貨幣型基金鎖定此報酬，減少風險性資產比重。",
-      "title_idea": "債券之王直接說了：別傻了，Fed這次根本不會降息",
-      "local_angle": "美國不降息，台灣房貸利率就下不來——你是在等一個可能永遠不來的救援？"
+      "summary": "馬斯克在福斯商業頻道訪問中以罕見直接的語氣警告：「一個國家跟一個人沒有不同，如果持續超支且不明智地花錢，就會破產。」他指出2025財年赤字達1.8兆美元，2026財年上半年已借款1.2兆，全年赤字估計達1.9至2兆美元。他強調：「我在這裡是因為我非常擔心美國破產——如果我們不採取行動，美國這艘船將會下沉。」",
+      "tw_stock_impact": "美國財政赤字長期化加劇美元信用風險，對台灣的影響是：持有大量美國公債的台灣壽險業（國泰、富邦）面臨資產品質疑慮；台幣若因此升值，出口導向企業獲利受壓。",
+      "investment_insight": "馬斯克的破產警告雖然極端，但背後數字是真實的。長期來看，美元信用侵蝕是黃金的最強多頭論據；建議個人資產配置中保持5-10%黃金作為美元對沖，並分散至非美貨幣資產。",
+      "title_idea": "馬斯克直說了：美國這艘船快沉了！他說的數字讓人看完當場說不出話",
+      "local_angle": "台灣壽險公司買了大量美國公債，如果馬斯克說的成真，你買的保單背後的資產還安全嗎？"
     },
     {
-      "title": "Hartnett「末日之門開啟」：CPI破4%後股市歷史上必然大跌，現在是1999與2009的混合體",
+      "title": "外國持有美國國債3月下降，海外投資人悄悄減持短債、轉進長券",
       "sources": [
-        {"name": "ZeroHedge", "url": "https://www.zerohedge.com/markets/door-doom-has-opened-hartnett-spots-obvious-echo-2009-and-2099"}
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-18/foreign-holdings-of-us-treasuries-fell-in-march-amid-bill-sales"}
       ],
-      "summary": "美銀全球策略師Michael Hartnett發出強烈警告：當CPI超過4%時，歷史數據顯示股市在隨後3個月平均下跌4%、6個月內下跌7%；他稱當前市場「明顯呼應」1999年科技泡沫和2009年危機前夕，稱這個組合為「最壞的兩種歷史情境的混合」。銀行股表現（XLF）甚至比2008年金融危機和COVID低點更差。",
-      "tw_stock_impact": "若Hartnett的歷史模型成立，台股在未來3-6個月面臨系統性調整壓力，科技類股首當其衝；建議台灣投資人審視持倉中的高本益比族群比重。",
-      "investment_insight": "CPI超4%的歷史警示是跨周期的強力訊號，不應輕易忽視。策略上：降低投資組合的貝塔值（選擇防禦型股票）、增加現金比重至20-30%、避免追高動能股。",
-      "title_idea": "最準策略師Hartnett拉響警報：這張通膨圖讓他想起股災前最後的瘋狂",
-      "local_angle": "台灣散戶剛追完AI股，美銀最頂尖的人說現在跟2000年網路泡沫太像——你上次聽過這個警告是什麼時候？"
+      "summary": "美國財政部數據顯示，3月外國投資者持有的美國國債總量下降，主要原因是大量拋售短期票據（Bills）；但同期反而增持長期聯邦證券，顯示海外投資人正在調整存續期配置，而非全面撤出美元資產。結合日本官員拒絕拋售美債的表態，市場對「美元武器化」的焦慮反而演變成更複雜的結構性轉移。",
+      "tw_stock_impact": "外資對美元資產的選擇性持有（棄短買長）意味資金流動更趨謹慎，美元走勢更加難以預測；台灣企業的美元存款與外匯避險策略需要重新審視。",
+      "investment_insight": "外國央行的國債持倉變化是觀察全球美元信心最直接的指標。當前「棄短買長」的操作表明，外資仍相信美國長期信用，但對短期政策不確定性保持戒備——這對美元短期走勢偏空，長期則需持續追蹤。",
+      "title_idea": "外國人3月開始偷偷賣美國短債了——這個數字透露出他們對美國真正的看法",
+      "local_angle": "台灣央行持有大量美國短期國債，如果外資都在拋售短債，台灣的外匯儲備策略需要跟著變嗎？"
     },
     {
-      "title": "Andrei Jikh示警：AI問題與數位控制網格——科技革命背後的自由代價",
+      "title": "Andrei Jikh：你的錢正在被重新編程——數位貨幣時代個人財務主權的終結",
       "sources": [
-        {"name": "Andrei Jikh (YouTube)", "url": "https://www.youtube.com/shorts/BXU1TPC6MHs"}
+        {"name": "Andrei Jikh (YouTube)", "url": "https://www.youtube.com/shorts/1idLNnnolqw"}
       ],
-      "summary": "財經教育YouTuber Andrei Jikh於5月17日發布新影片《The AI Problem and The Digital Control Grid》，探討AI高速發展下數位監控與個人隱私被系統化侵蝕的問題。他指出AI正在建構一個前所未有的「數位控制基礎設施」，對個人自由與金融主權帶來深遠影響，引發廣大討論。",
-      "tw_stock_impact": "隱私科技、去中心化金融（DeFi）、端對端加密工具的需求將因此議題升溫；台灣資安公司與相關軟體廠商（如趨勢科技）具有長期結構性機會。",
-      "investment_insight": "AI監控議題是長期結構性主題，而非短期熱點。資安投資（個股或資安ETF如CIBR）可作為AI多頭部位的對沖，同時享有獨立的成長邏輯。",
-      "title_idea": "AI幫你賺錢，同時也在監視你的一切——這個財經大V的新影片讓人細思極恐",
-      "local_angle": "台灣人用AI工具工作，但你知道這些工具正在建一個針對你的數位檔案嗎？"
+      "summary": "財經教育YouTuber Andrei Jikh於5月18日發布短片《Your Money Is Being Reprogrammed》（獲7,700次觀看），揭示數位貨幣技術如何系統性地重塑個人財務控制權。他指出政府與金融機構正透過可程式化貨幣（Programmable Money）建立前所未有的資金流動監控與限制能力，這不只是科技問題，更是財務自由的根本性危機。",
+      "tw_stock_impact": "CBDC（央行數位貨幣）與可程式化金融監控的擴張，將促進台灣資安業（趨勢科技、精誠資訊）與去中心化金融相關基礎設施的長期需求，同時對比特幣等去中心化資產形成長期利多敘事。",
+      "investment_insight": "可程式化貨幣趨勢是不可逆的宏觀主題。對個人投資者而言：①部分資產配置去中心化資產（BTC/ETH）作為抗審查工具；②台灣資安股是純粹受益於此趨勢的本土標的，具結構性長期機會。",
+      "title_idea": "你以為你在控制你的錢，但這個財經大V說：你的錢早就被重新編程了",
+      "local_angle": "台灣即將推出數位新台幣試點，Andrei Jikh的警告對台灣投資人尤其值得深思——你準備好了嗎？"
     }
   ]
 }

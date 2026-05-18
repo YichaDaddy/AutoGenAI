@@ -1,0 +1,136 @@
+=== Tue May 19 06:00:03 CST 2026 | Starting daily AI report ===
+看板更新成功。以下是完整日報：
+
+---
+
+## 🗓️ AI 爆款選題日報｜2026-05-18（昨日歐美情報）
+
+**賽道：AI 效率工具｜目標受眾：職場上班族**
+
+---
+
+### 板塊一：大事件
+
+**1. OpenAI 推出 ChatGPT 個人理財助手，連接 12,000+ 家銀行帳戶**
+- **來源**：[Dataconomy](https://dataconomy.com/2026/05/18/chatgpt-personal-finance-service-pro-users/) · [gHacks](https://www.ghacks.net/2026/05/18/openai-launches-personal-finance-experience-in-chatgpt-for-pro-users-in-the-us/)
+- **一句摘要**：ChatGPT Pro 用戶可連結真實銀行帳戶，用自然語言詢問財務狀況。
+- **目標受眾**：職場上班族、25–40 歲想做理財規劃者
+- **痛點**：不知道錢花哪、理財門檻高不敢找顧問
+- **標題雛形**：「ChatGPT 現在可以幫你管帳了！連結銀行帳戶、一句話問出你的財務健康」
+- **本地化切角**：功能目前限美國，台灣搶做中文操作示範吃第一波流量紅利
+
+**2. Anthropic 以逾 3 億美元收購 Stainless，從 OpenAI/Google 手中搶走關鍵 SDK 工具**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/)
+- **一句摘要**：Stainless 自動生成 SDK 的工具原本 OpenAI、Google、Cloudflare 都在用，Anthropic 收購後直接關閉外部服務。
+- **目標受眾**：AI 開發者、科技從業者
+- **痛點**：不了解 AI 巨頭底層競爭，擔心工具隨時被掐斷
+- **標題雛形**：「Anthropic 出手了！花 3 億美元買走 OpenAI 和 Google 都在用的神祕工具」
+- **本地化切角**：台灣媒體幾乎無報，從「什麼是 SDK / 為何重要」切入讓非技術讀者也看懂
+
+**3. Musk 告 OpenAI 敗訴，陪審團 90 分鐘駁回全部訴求**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/) · [NBC News](https://www.nbcnews.com/tech/tech-news/openai-elon-musk-case-verdict-rcna345655) · [CNN](https://www.cnn.com/2026/05/18/tech/openai-musk-lawsuit-verdict)（3 家媒體報導）
+- **一句摘要**：Musk 求償 1300 億美元、要求解除 Altman 職務的訴訟遭駁回，OpenAI 公司結構合法性確立。
+- **目標受眾**：關心 AI 產業局勢的職場白領
+- **痛點**：搞不清楚 OpenAI 公司結構爭議對普通用戶的影響
+- **標題雛形**：「馬斯克告 OpenAI 大敗！90 分鐘陪審團打臉，AI 霸主地位更穩了？」
+- **本地化切角**：從「這對台灣 ChatGPT 用戶有何影響」提供普通人視角差異化
+
+---
+
+### 板塊二：工具更新
+
+**4. Amazon Alexa+ 新功能：用 AI 自動生成個人化播客節目**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/05/18/amazons-new-alexa-powered-feature-can-generate-podcast-episodes/)
+- **一句摘要**：說出主題，Alexa+ 自動研究、撰寫並配音，生成可自訂長度的播客集數。
+- **標題雛形**：「你說主題，AI 幫你生播客！Alexa+ 新功能實測，內容創作者要失業了？」
+- **本地化切角**：限美國用戶，可對比 NotebookLM 等台灣可用替代方案做教學
+
+**5. GPT-5.5 Instant 正式成為 ChatGPT 預設模型**
+- **來源**：[llm-stats.com](https://llm-stats.com/llm-updates)
+- **一句摘要**：OpenAI 將更快速、更簡潔的 GPT-5.5 Instant 設為全用戶預設，取代前代模型。
+- **標題雛形**：「你的 ChatGPT 悄悄換了新大腦！GPT-5.5 Instant 已是預設，速度差在哪？」
+- **本地化切角**：許多台灣用戶不知模型已換，做前後對比測試可吸引大眾
+
+**6. Cursor 3.4 上線：AI 代理終於有自己的雲端開發環境**
+- **來源**：[Cursor Changelog](https://cursor.com/changelog)
+- **一句摘要**：雲端代理可擁有多倉庫完整開發環境，快取命中時建置速度提升 70%。
+- **標題雛形**：「Cursor 3.4 大更新：AI 代理終於有自己的開發電腦，多倉庫協作超強」
+- **本地化切角**：台灣開發者社群討論度高但深度教學稀缺，差異化機會大
+
+**7. SandboxAQ 藥物發現 AI 模型整合 Claude，降低計算門檻**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/05/18/sandboxaq-brings-its-drug-discovery-models-to-claude-no-phd-in-computing-required/)
+- **一句摘要**：頂尖計算化學工具透過 Claude 介面開放，非工程師背景研究人員也能使用。
+- **標題雛形**：「不需要博士也能用 AI 做藥物研究！SandboxAQ 與 Claude 聯手打破門檻」
+- **本地化切角**：AI 落地生醫場景中文報導幾乎空白，教育意義高且差異化極強
+
+---
+
+### 板塊三：值得追蹤的趨勢
+
+**8. Google I/O 2026 今日登場：Gemini 4.0/Omni/Spark 大爆發，AI 代理元年宣告**
+- **來源**：[AIxploria](https://www.aixploria.com/en/ai-radar/google-io-2026-gemini-announcements-preview/) · [Nokia Power User](https://nokiapoweruser.com/google-io-2026-gemini-spark-omni-gemini-3-5-rumors/)
+- **一句摘要**：I/O 2026 預計今晚（5/19 台灣時間）發布 Gemini Omni、XR 眼鏡等多項產品，可能是年度最大 AI 發布週期。
+- **標題雛形**：「今晚 Google 要發布什麼？I/O 2026 懶人包：Gemini 4.0、AI 眼鏡一次看懂」
+- **本地化切角**：I/O 結束後立刻出快速整理稿是高流量選題，需搶在其他媒體之前
+
+**9. AI 理財助手浪潮：ChatGPT 入場，傳統理財 App 受威脅**
+- **來源**：[Inc.](https://www.inc.com/lucia-auerbach/chatgpts-personal-finance-test-is-rolling-out-in-the-u-s-with-a-major-warning-label/91346331)
+- **一句摘要**：AI 正式侵入個人理財領域，Mint、YNAB 的護城河面臨挑戰。
+- **標題雛形**：「AI 理財師來了！ChatGPT vs 傳統記帳 App，哪個更適合上班族？」
+- **本地化切角**：台灣無對話式 AI 理財工具，可做假設性深度分析
+
+**10. SDK 工具鏈控制權之戰：AI 巨頭爭奪底層基礎設施**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/)
+- **一句摘要**：Stainless 收購揭示 AI 競賽從模型能力延伸到開發者生態的底層鎖定。
+- **標題雛形**：「Anthropic 悄悄下了一步棋：AI 競賽的下一個戰場，是你看不見的基礎設施」
+- **本地化切角**：高知識密度受眾，台灣科技媒體幾乎無此角度分析
+
+---
+
+### 📊 來源覆蓋狀況
+
+| 來源 | 狀態 | 昨日內容數量 | 備註 |
+|------|------|------------|------|
+| TechCrunch AI | ✅ | 4 篇 | 正常抓取 |
+| The Verge AI | ❌ | 0 篇 | 網站無法存取 |
+| FutureTools.io/news | ⚠️ | 0 篇 | 5/18 無更新（Matt 外出旅行） |
+| Matt Wolfe (YouTube) | ❌ | 0 篇 | 直接抓取失敗，改搜尋無昨日影片 |
+| Matthew Berman (YouTube) | ❌ | 0 篇 | 無昨日影片資料 |
+| Wes Roth (YouTube) | ❌ | 0 篇 | 無昨日影片資料 |
+| @OpenAI (X) | ✅（間接）| 2 則 | 透過 WebSearch 抓取媒體報導 |
+| @AnthropicAI (X) | ✅（間接）| 1 則 | 透過 WebSearch 抓取媒體報導 |
+| @GoogleDeepMind (X) | ✅（間接）| 1 則 | Google I/O 前夕預告 |
+| WebSearch 補充 | ✅ | 多筆 | ChatGPT 理財、Cursor、Musk 判決等 |
+
+---
+
+💡 您的專屬網頁版看板已同步更新，可隨時打開 `daily_topic_dashboard.html` 查看。
+
+DONE
+--- AI report finished at Tue May 19 06:04:20 CST 2026 ---
+=== Tue May 19 06:04:20 CST 2026 | Starting daily finance report ===
+看板已更新。以下是今日財經日報摘要：
+
+---
+
+## 財經日報 2026-05-18 完成
+
+### market_shocks（市場震撼彈）4 則
+1. **馬斯克法庭裁決 + SpaceX IPO壓縮Tesla** — 陪審團就 Musk vs OpenAI 作出裁決，SpaceX 上市分流資金衝擊 TSLA 估值
+2. **Citadel Securities 示警資金逆轉** — 首席策略師 Rubner 罕見警告：驅動美股創高的龐大資金流恐即將反轉
+3. **日本拒售美債 + 30年美債殖利率衝 2023 高點** — 美元信心出現裂縫，長債風險升溫
+4. **1000億美元槓桿半導體部位崩裂警告** — ZeroHedge/Goldman：動能泡沫出現系統性去槓桿風險
+
+### investment_opportunities（投資機會）4 則
+1. **NextEra 670億美元吞下Dominion** — AI 電力需求催生史上最大公用事業併購，台灣電力設備族群受惠
+2. **Tenstorrent 遭 Intel/Qualcomm 相中** — AI 晶片 M&A 大戰正式開打，台積電結構性受益
+3. **輝達財報 5/20 盤後放榜** — 台積電、廣達、鴻海供應鏈進入決戰前夜，MSCI 換倉加持
+4. **天然氣期貨首破 3 美元** — AI + 夏季電力需求雙重拉動，能源板塊成通膨對沖工具
+
+### macro_observations（總經觀察）3 則
+1. **馬斯克發出美國破產警告** — 2026 財年赤字估 1.9–2 兆美元，黃金長期多頭論據更強
+2. **外國持有美國國債 3 月下降** — 海外投資人棄短買長，美元信心結構性轉移
+3. **Andrei Jikh：你的錢正在被重新編程** — 可程式化貨幣趨勢，資安股與 BTC 長期受益
+
+**FINANCE DONE**
+--- Finance report finished at Tue May 19 06:09:14 CST 2026 ---
