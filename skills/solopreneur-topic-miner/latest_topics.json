@@ -1,127 +1,142 @@
 {
-  "date": "2026-05-18",
+  "date": "2026-05-19",
   "big_events": [
     {
-      "title": "OpenAI 推出 ChatGPT 個人理財助手，連接 12,000+ 家銀行帳戶",
+      "title": "Google Gemini Spark 上線：24/7 AI 代理人幫你管 Gmail、行事曆、Docs",
       "sources": [
-        {"name": "Dataconomy", "url": "https://dataconomy.com/2026/05/18/chatgpt-personal-finance-service-pro-users/"},
-        {"name": "gHacks Tech News", "url": "https://www.ghacks.net/2026/05/18/openai-launches-personal-finance-experience-in-chatgpt-for-pro-users-in-the-us/"},
-        {"name": "TechBriefly", "url": "https://techbriefly.com/2026/05/18/chatgpt-personal-finance-assistant-openai-pro-users/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/19/google-introduces-gemini-spark-a-24-7-agentic-assistant-with-gmail-integration/"},
+        {"name": "Android Authority", "url": "https://www.androidauthority.com/google-gemini-neural-expressive-gemini-spark-daily-brief-omni-updates-3668384/"},
+        {"name": "Decrypt", "url": "https://decrypt.co/368389/google-gemini-spark-ai-agent-challenge-hermes-openclaw"}
       ],
-      "summary": "OpenAI 為 ChatGPT Pro 用戶推出個人理財功能，可連結銀行帳戶、查看支出並直接用自然語言問帳務問題。",
-      "audience": "職場上班族、想省錢或做理財規劃的社會新鮮人",
-      "pain_point": "看不懂複雜財務報表，不知道每月錢花到哪，理財門檻高不敢諮詢顧問",
-      "title_idea": "ChatGPT 現在可以幫你管帳了！連結銀行帳戶、一句話問出你的財務健康",
-      "local_angle": "此功能目前僅開放美國 Pro 用戶，台灣還沒人實測教學，搶做中文操作示範可吃到第一波流量紅利"
+      "summary": "Google IO 2026 發布 Gemini Spark，24/7 在雲端自動處理郵件、行程排定、Docs 摘要，手機關機也持續運作。",
+      "audience": "職場上班族、使用 Google Workspace 的工作者",
+      "pain_point": "每天花大量時間處理 Email 和行程，下班後仍被訊息追著跑",
+      "title_idea": "Google 幫你雇了一個 AI 助理：Gemini Spark 實測，我的 Gmail 終於不再爆炸",
+      "local_angle": "Gemini Spark 目前僅開放 Google AI Pro/Ultra 訂閱用戶搶先體驗，華語教學內容幾乎空白，搶做使用教學紅利窗口大開"
     },
     {
-      "title": "Anthropic 以逾 3 億美元收購 Stainless，從 OpenAI 與 Google 手中搶走關鍵 SDK 工具",
+      "title": "Google 宣告：你認識的 Google 搜尋已正式終結，AI Mode 成為新預設",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/19/google-search-as-you-know-it-is-over/"},
+        {"name": "9to5Google", "url": "https://9to5google.com/2026/05/19/google-io-2026-news/"}
       ],
-      "summary": "Anthropic 收購自動生成 SDK 的新創 Stainless，該工具原本由 OpenAI、Google、Cloudflare 共用，收購後將對外關閉服務。",
-      "audience": "AI 開發者、工程師、對 AI 產業動態感興趣的科技從業者",
-      "pain_point": "不了解 AI 巨頭間的底層競爭，擔心自己用的開發工具隨時被掐斷",
-      "title_idea": "Anthropic 出手了！花 3 億美元買走 OpenAI 和 Google 都在用的神祕工具",
-      "local_angle": "AI 基礎設施戰爭台灣媒體幾乎未報，從「什麼是 SDK / 為何重要」切入可讓非技術讀者也看懂"
+      "summary": "Google IO 2026 將 AI Mode 設為 Search 預設，支援文字、圖片、影片、檔案多模態輸入，Gemini 3.5 Flash 驅動全新搜尋體驗。",
+      "audience": "職場上班族、內容創作者、學生",
+      "pain_point": "搜尋到的資訊越來越零碎，需要整合多頁才能得到答案",
+      "title_idea": "Google 搜尋大改版！AI Mode 成預設，上班族必學的 5 個新搜尋技巧",
+      "local_angle": "台灣用戶尚未全面開放，現在製作「如何搶先使用 Google AI 搜尋」教學，流量紅利期正好"
     },
     {
-      "title": "Musk 告 OpenAI 敗訴，陪審團 90 分鐘駁回全部訴求",
+      "title": "Andrej Karpathy 離開 OpenAI 加入 Anthropic，擔任預訓練研究核心",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/"},
-        {"name": "NBC News", "url": "https://www.nbcnews.com/tech/tech-news/openai-elon-musk-case-verdict-rcna345655"},
-        {"name": "CNN Business", "url": "https://www.cnn.com/2026/05/18/tech/openai-musk-lawsuit-verdict"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/"},
+        {"name": "CNBC", "url": "https://www.cnbc.com/2026/05/19/anthropic-hires-openai-cofounder-karpathy-former-tesla-ai-lead.html"},
+        {"name": "Axios", "url": "https://www.axios.com/2026/05/19/anthropic-openai-karpathy-andrej-claude"}
       ],
-      "summary": "Elon Musk 針對 OpenAI 與 Sam Altman 的訴訟在奧克蘭聯邦法院以敗訴收場，陪審團裁定訴訟逾期，法官同意採納裁決。",
-      "audience": "關心科技圈大事的職場白領、對 AI 公司治理感興趣的讀者",
-      "pain_point": "搞不清楚 OpenAI 公司結構為何引發爭議，以及對未來 AI 發展有何影響",
-      "title_idea": "馬斯克告 OpenAI 大敗！90 分鐘陪審團打臉，AI 霸主地位更穩了？",
-      "local_angle": "此事件台灣媒體有零星報導但缺乏深度分析，可從「這對 AI 普通用戶有什麼影響」角度切入差異化"
+      "summary": "AI 界重量級人物 Andrej Karpathy 加入 Anthropic，專責 Claude 的大規模預訓練研究，多家媒體稱此為 AI 人才戰重大信號。",
+      "audience": "AI 工具重度用戶、關注科技產業動態的上班族",
+      "pain_point": "不清楚 Claude vs ChatGPT 的差異，不知道該用哪個 AI 工具",
+      "title_idea": "OpenAI 最強研究員出走加入 Anthropic！這對你日常用的 AI 工具意味著什麼？",
+      "local_angle": "此新聞在歐美科技圈引爆，台灣中文解析極少，搶做「Karpathy 是誰、為何重要」科普選題正當時"
+    },
+    {
+      "title": "Gemini 3.5 Flash 發布：Google 全面押注 AI Agent 而非聊天機器人",
+      "sources": [
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/19/with-gemini-3-5-flash-google-bets-its-next-ai-wave-on-agents-not-chatbots/"},
+        {"name": "CNBC", "url": "https://www.cnbc.com/2026/05/19/google-ai-ultra-gemini-spark-omni.html"}
+      ],
+      "summary": "Gemini 3.5 Flash 定價約競品三分之一，在 coding 基準測試中超越前代，專為 Agentic 任務設計而非對話。",
+      "audience": "開發者、AI 工具進階用戶、評估採購 AI 工具的管理者",
+      "pain_point": "AI 模型費用高，不確定性價比最高的選擇",
+      "title_idea": "Gemini 3.5 Flash 實測：比 GPT-4o 便宜 70%，性能真的追得上嗎？",
+      "local_angle": "效能對比測試類內容在台灣 YouTube 和 FB 社群持續高點擊，此型號中文評測幾乎空白"
     }
   ],
   "tool_updates": [
     {
-      "title": "Amazon Alexa+ 新功能：用 AI 幫你自動生成個人化播客節目",
+      "title": "Gmail Live：現在可以用說話的方式搜尋你的 Gmail 收件匣",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/18/amazons-new-alexa-powered-feature-can-generate-podcast-episodes/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/19/you-can-now-talk-to-your-gmail-inbox-as-seen-at-google-io-2026/"},
+        {"name": "Google Blog", "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/"}
       ],
-      "summary": "Alexa+ 新增「Alexa Podcasts」功能，用戶只需說出主題，AI 自動研究、撰寫並配音生成完整播客集數，可自訂長度與語氣。",
-      "audience": "知識型職場工作者、通勤族、對 AI 內容生成感興趣的自媒體創作者",
-      "pain_point": "通勤時沒有自己想聽的節目主題，或想了解某議題卻找不到對應的中文播客",
-      "title_idea": "你說主題，AI 幫你生播客！Amazon Alexa+ 新功能實測，內容創作者要失業了？",
-      "local_angle": "此功能目前限美國 Alexa+ 用戶，台灣創作者可搶先分析「AI 播客生成」趨勢，對比 NotebookLM 等工具探討實用性"
+      "summary": "Gmail Live 讓用戶用語音對話方式查詢郵件，找「三個月前那封報價單」不再需要記關鍵字，今夏開放 AI Pro/Ultra 用戶。",
+      "audience": "每天泡在 Gmail 的職場上班族",
+      "pain_point": "Email 太多、搜尋功能找不到想要的郵件，浪費大量時間",
+      "title_idea": "Gmail 超進化！現在可以直接問 AI「幫我找上週老闆寄的那封信」",
+      "local_angle": "功能尚未在台灣正式推出，現在搶做「如何搶先啟用 Gmail Live + 實測示範」，教學需求極高"
     },
     {
-      "title": "GPT-5.5 Instant 正式成為 ChatGPT 網頁與 App 預設模型",
+      "title": "Google AI Studio 新功能：不用寫程式，幾分鐘內做出 Android App",
       "sources": [
-        {"name": "llm-stats.com", "url": "https://llm-stats.com/llm-updates"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/19/googles-ai-studio-now-lets-anyone-build-android-apps-in-minutes/"},
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/19/agentic-app-coding-gets-an-upgrade-with-googles-release-of-android-cli/"}
       ],
-      "summary": "OpenAI 將速度更快、更簡潔的 GPT-5.5 Instant 設為 ChatGPT 默認模型，取代前代，所有用戶均可使用。",
-      "audience": "每天使用 ChatGPT 的職場上班族",
-      "pain_point": "不知道自己用的 AI 模型是否是最新版，也不確定新模型對日常工作任務有什麼實際差異",
-      "title_idea": "你的 ChatGPT 悄悄換了新大腦！GPT-5.5 Instant 已是預設，速度體驗差在哪？",
-      "local_angle": "許多台灣用戶不知道 ChatGPT 後端模型已更換，可做「前後對比測試」教學內容，吸引大眾讀者"
+      "summary": "Google AI Studio 結合 Android CLI 讓非工程師也能用 AI 快速生成 Android App 原型，大幅降低開發門檻。",
+      "audience": "想做副業 App 的上班族、獨立開發者、有 App 點子的非工程師",
+      "pain_point": "有 App 點子但不會寫程式，找外包費用又太高",
+      "title_idea": "0 程式基礎也能做 App！Google AI Studio 實測：30 分鐘打造你的第一個 Android App",
+      "local_angle": "「不會寫程式做 App」是台灣 YouTuber 長青話題，結合 Google IO 新工具可拿到雙重流量加成"
     },
     {
-      "title": "Cursor 3.4 上線：AI 代理現在有了自己的雲端開發環境",
+      "title": "Gemini Omni 發布：一個提示詞，把圖片、音訊、文字全部轉成影片",
       "sources": [
-        {"name": "Cursor 更新日誌", "url": "https://cursor.com/changelog"},
-        {"name": "Releasebot", "url": "https://releasebot.io/updates/cursor"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/19/googles-gemini-omni-turns-images-audio-and-text-into-video-and-thats-just-the-start/"},
+        {"name": "Google Blog", "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/"}
       ],
-      "summary": "Cursor 3.4 讓雲端 AI 代理可擁有完整開發環境（含多倉庫、依賴項、建置系統），版本回滾更方便，快取命中時建置速度提升 70%。",
-      "audience": "AI 輔助開發者、工程師、想用 AI 代理自動化程式工作的職場人士",
-      "pain_point": "AI 代理跑任務常遇到環境不一致、依賴項衝突問題，難以在雲端穩定部署",
-      "title_idea": "Cursor 3.4 大更新：AI 代理終於有自己的「開發電腦」，多倉庫協作超強",
-      "local_angle": "Cursor 在台灣開發者社群討論度高，但深度教學稀缺，3.4 雲端代理環境是高差異化選題"
+      "summary": "Gemini Omni 是 Google 最新多模態影片生成模型，接受圖片、影片、文字、音訊輸入，並支援多輪對話式編輯。",
+      "audience": "內容創作者、行銷人員、社群小編",
+      "pain_point": "影片製作耗時且費用高，沒有預算請後製人員",
+      "title_idea": "Google 發布最強影片 AI！Gemini Omni 實測：用照片 + 文字直接生成短影音",
+      "local_angle": "短影音創作工具在台灣 IG/TikTok 創作者社群極受關注，Gemini Omni 中文教學幾乎為零"
     },
     {
-      "title": "SandboxAQ 藥物發現 AI 模型整合 Claude，降低計算門檻",
+      "title": "Google Antigravity 2.0：AI 代理人開發平台全面升級，支援非同步任務與子代理人",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/18/sandboxaq-brings-its-drug-discovery-models-to-claude-no-phd-in-computing-required/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/19/google-launches-antigravity-2-0-with-an-updated-desktop-app-and-cli-tool-at-io-2026/"},
+        {"name": "Google Blog", "url": "https://antigravity.google/blog/introducing-google-antigravity-2-0"}
       ],
-      "summary": "SandboxAQ 將先進的藥物發現 AI 模型整合至 Anthropic Claude，讓非計算機背景的研究人員也能使用。",
-      "audience": "生物醫療從業者、科技自媒體創作者、AI 應用領域觀察者",
-      "pain_point": "AI 在高度專業領域的應用門檻過高，非工程師難以使用",
-      "title_idea": "不需要博士也能用 AI 做藥物研究！SandboxAQ 與 Claude 聯手打破門檻",
-      "local_angle": "AI 落地生醫場景在台灣幾乎無中文報導，此角度有教育意義且差異化極高"
+      "summary": "Antigravity 2.0 桌面 App 與 CLI 全面更新，支援動態子代理人、非同步任務管理，專為 Agent 開發者打造。",
+      "audience": "開發者、想打造 AI 自動化工具的進階用戶",
+      "pain_point": "想建立 AI 自動化工作流但缺乏工具支援",
+      "title_idea": "Google Antigravity 2.0 完整教學：5 步驟打造你的專屬 AI 代理人",
+      "local_angle": "Agent 開發框架教學在台灣技術社群需求急速增長，Antigravity 中文資源幾乎為零"
     }
   ],
   "trends": [
     {
-      "title": "Google I/O 2026 今日登場：Gemini 4.0 / Omni / Spark 重磅預告，AI 代理大爆發在即",
+      "title": "AI Agent 正在取代傳統工作流：從聊天工具到自主執行任務的典範轉移",
       "sources": [
-        {"name": "AIxploria", "url": "https://www.aixploria.com/en/ai-radar/google-io-2026-gemini-announcements-preview/"},
-        {"name": "Nokia Power User", "url": "https://nokiapoweruser.com/google-io-2026-gemini-spark-omni-gemini-3-5-rumors/"},
-        {"name": "Google I/O 官網", "url": "https://io.google/2026/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/19/how-to-use-googles-new-ai-agents-to-go-beyond-your-standard-searches/"},
+        {"name": "CryptoBriefing", "url": "https://cryptobriefing.com/google-gemini-spark-ai-agent-productivity/"}
       ],
-      "summary": "Google I/O 2026（5/19 台灣時間凌晨 1 點）預計發布 Gemini 4.0、Gemini Omni（文字/圖像/影片一體生成）、Android XR 智慧眼鏡等多項重大產品。",
-      "audience": "關心 AI 動態的職場工作者、對 Google 產品有興趣的科技愛好者",
-      "pain_point": "AI 更新太快跟不上，不知道哪些新功能真的對自己有用",
-      "title_idea": "今晚 Google 要發布什麼？I/O 2026 懶人包：Gemini 4.0、AI 眼鏡一次看懂",
-      "local_angle": "Google I/O 結束後立刻出「快速整理＋哪些功能台灣用得到」是高流量選題，需搶在其他媒體之前發出"
+      "summary": "Google IO 2026 全面押注 AI Agent，從搜尋到 Gmail 到 App 開發，AI 不再只是助理而是自主執行者，職場將迎來根本性變革。",
+      "audience": "對 AI 趨勢敏感的職場中高階、自媒體創作者",
+      "pain_point": "不確定 AI 浪潮如何影響自己的工作，擔心被取代卻不知道如何應對",
+      "title_idea": "2026 年 AI 不再是工具，是你的虛擬員工：上班族必看的 Agent 時代生存指南",
+      "local_angle": "「AI 取代工作」焦慮在台灣持續發酵，此選題結合 Google IO 具體案例可驗證，比泛泛討論更有說服力"
     },
     {
-      "title": "AI 理財助手正式入場：ChatGPT 衝進個人金融，傳統理財 App 受威脅",
+      "title": "Google 殺入 AI 設計市場，與 Adobe、Canva 正面競爭",
       "sources": [
-        {"name": "Inc.", "url": "https://www.inc.com/lucia-auerbach/chatgpts-personal-finance-test-is-rolling-out-in-the-u-s-with-a-major-warning-label/91346331"},
-        {"name": "Android Headlines", "url": "https://www.androidheadlines.com/2026/05/chatgpt-personal-finance-bank-account-integration.html"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/19/ai-design-tools-are-the-next-big-battleground-and-google-is-going-all-in-at-io-2026/"}
       ],
-      "summary": "ChatGPT 連接真實銀行帳戶提供理財建議，標誌 AI 正式進入過去由 Mint、YNAB 主導的個人財務管理領域。",
-      "audience": "對財務管理有需求的職場上班族，特別是 25–40 歲族群",
-      "pain_point": "理財 App 數據雖多但缺乏個人化建議，想問理財師又覺得費用太高",
-      "title_idea": "AI 理財師來了！ChatGPT 新功能 vs 傳統記帳 App，哪個更適合你？",
-      "local_angle": "台灣 Richart、街口等 App 尚無對話式 AI 理財功能，可做假設性深度分析吸引本地讀者"
+      "summary": "Google IO 2026 發布 AI 設計工具，與 Adobe、Canva、Figma AI 正面競爭，AI 設計賽道格局將重塑。",
+      "audience": "設計師、行銷人員、使用 Canva 的內容創作者",
+      "pain_point": "設計工具學習成本高，沒有美感基礎難以做出好看的視覺",
+      "title_idea": "Google 要搶 Canva 的生意了！比較 Google 新 AI 設計工具 vs Canva vs Adobe：上班族該選哪個？",
+      "local_angle": "Canva 在台灣中小企業行銷人員中滲透率極高，此比較型選題符合受眾痛點且競爭少"
     },
     {
-      "title": "AI 巨頭開始搶奪底層基礎設施：SDK 工具鏈控制權之戰才剛開始",
+      "title": "OpenAI 推 AI 圖片真偽驗證 + Google SynthID 擴大，AI 內容可信度成新顯學",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/19/openai-is-making-it-easier-to-check-if-an-image-was-made-by-their-models/"},
+        {"name": "Google Blog", "url": "https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online/"}
       ],
-      "summary": "Anthropic 收購 Stainless 顯示 AI 競賽已從模型能力延伸到開發者生態基礎設施，誰掌控 SDK 工具鏈，誰就掌握開發者黏著度。",
-      "audience": "對 AI 產業策略感興趣的科技觀察者、開發者、自媒體創作者",
-      "pain_point": "看不懂 AI 公司的戰略意圖，不清楚工具鏈整合對自己使用 AI 工具有什麼長期影響",
-      "title_idea": "Anthropic 悄悄下了一步棋：AI 競賽的下一個戰場，是你看不見的基礎設施",
-      "local_angle": "這個角度在台灣科技媒體極少人分析，做「AI 基礎設施戰爭入門解析」可吸引高知識密度讀者"
+      "summary": "OpenAI 強化 AI 圖片偵測工具，Google 同步擴大 SynthID 水印至 Search、Chrome、Pixel，AI 生成內容識別機制全面升級。",
+      "audience": "媒體從業者、法務相關職場、一般網路使用者",
+      "pain_point": "無法辨別網路圖片是否為 AI 生成，擔心被假資訊誤導",
+      "title_idea": "圖片是 AI 做的嗎？2026 年最新辨識工具大測試：OpenAI + Google SynthID 誰更準？",
+      "local_angle": "AI 假圖問題在台灣開始受到關注（選舉、新聞），但具體工具測試中文內容幾乎空白"
     }
   ]
 }

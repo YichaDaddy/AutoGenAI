@@ -1,0 +1,150 @@
+=== Wed May 20 06:00:04 CST 2026 | Starting daily AI report ===
+看板已成功更新。以下是今日（2026-05-19）完整選題日報：
+
+---
+
+## 📰 AI 爆款選題日報｜2026-05-19
+
+**賽道：AI 效率工具｜受眾：職場上班族**
+
+---
+
+### 🔥 板塊一：大事件
+
+**1. Google Gemini Spark 上線：24/7 AI 代理人幫你管 Gmail、行事曆、Docs**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/05/19/google-introduces-gemini-spark-a-24-7-agentic-assistant-with-gmail-integration/) · [Android Authority](https://www.androidauthority.com/google-gemini-neural-expressive-gemini-spark-daily-brief-omni-updates-3668384/)（3 家媒體報導）
+- **一句摘要**：Google IO 2026 發布個人 AI 代理人 Gemini Spark，雲端持續運行，手機關機也能自動處理郵件與行程
+- **選題角度**：
+  - 目標受眾：使用 Google Workspace 的職場上班族
+  - 痛點：每天花大量時間處理 Email 和行程，下班後仍被訊息追著跑
+  - 標題雛形：**「Google 幫你雇了一個 AI 助理：Gemini Spark 實測，我的 Gmail 終於不再爆炸」**
+  - 本地化切角：Gemini Spark 目前僅限 AI Pro/Ultra 訂閱者，華語教學幾乎空白，搶做使用教學紅利窗口大開
+
+**2. Google 宣告：你認識的 Google 搜尋已正式終結，AI Mode 成新預設**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/05/19/google-search-as-you-know-it-is-over/) · [9to5Google](https://9to5google.com/2026/05/19/google-io-2026-news/)
+- **一句摘要**：Gemini 3.5 Flash 驅動 Google AI 搜尋模式成為預設，支援多模態輸入，傳統搜尋體驗正式退場
+- **標題雛形**：**「Google 搜尋大改版！AI Mode 成預設，上班族必學的 5 個新搜尋技巧」**
+- **本地化切角**：台灣用戶尚未全面開放，現在製作「如何搶先使用 Google AI 搜尋」教學，流量紅利期正好
+
+**3. Andrej Karpathy 離開 OpenAI 加入 Anthropic，擔任預訓練研究核心**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/) · [CNBC](https://www.cnbc.com/2026/05/19/anthropic-hires-openai-cofounder-karpathy-former-tesla-ai-lead.html) · [Axios](https://www.axios.com/2026/05/19/anthropic-openai-karpathy-andrej-claude)（3+ 媒體報導）
+- **一句摘要**：AI 界最知名研究員之一本週正式加入 Anthropic，負責 Claude 大規模預訓練，AI 人才戰白熱化
+- **標題雛形**：**「OpenAI 最強研究員出走加入 Anthropic！這對你日常用的 AI 工具意味著什麼？」**
+- **本地化切角**：台灣中文解析極少，搶做「Karpathy 是誰、為何重要」科普選題正當時
+
+**4. Gemini 3.5 Flash 發布：比競品便宜 70%，Google 全面押注 AI Agent 戰略**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/05/19/with-gemini-3-5-flash-google-bets-its-next-ai-wave-on-agents-not-chatbots/) · [CNBC](https://www.cnbc.com/2026/05/19/google-ai-ultra-gemini-spark-omni.html)
+- **一句摘要**：Gemini 3.5 Flash 定價約 GPT-4o 三分之一，coding 基準超越前代，標誌 Google AI 戰略從聊天轉向代理執行
+- **標題雛形**：**「Gemini 3.5 Flash 實測：比 GPT-4o 便宜 70%，性能真的追得上嗎？」**
+- **本地化切角**：效能對比測試內容在台灣社群持續高點擊，此型號中文評測幾乎空白
+
+---
+
+### 🛠️ 板塊二：工具更新
+
+**5. Gmail Live：現在可以用說話的方式搜尋你的收件匣**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/05/19/you-can-now-talk-to-your-gmail-inbox-as-seen-at-google-io-2026/) · [Google Blog](https://blog.google/products-and-platforms/products/search/search-io-2026/)
+- **一句摘要**：Gmail Live 讓用戶用對話語音查詢郵件，今夏開放 Google AI Pro/Ultra 用戶，再也不怕找不到三個月前的報價單
+- **標題雛形**：**「Gmail 超進化！現在可以直接問 AI『幫我找上週老闆寄的那封信』」**
+- **本地化切角**：台灣尚未全面開放，搶做「如何搶先啟用 Gmail Live + 實測示範」教學，需求極高
+
+**6. Google AI Studio：0 程式基礎也能幾分鐘做出 Android App**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/05/19/googles-ai-studio-now-lets-anyone-build-android-apps-in-minutes/)
+- **一句摘要**：Google AI Studio 結合 Android CLI，非工程師也能用 AI 快速生成 App 原型，開發門檻大幅降低
+- **標題雛形**：**「0 程式基礎也能做 App！Google AI Studio 實測：30 分鐘打造你的第一個 Android App」**
+- **本地化切角**：「不會寫程式做 App」是台灣 YouTuber 長青話題，結合 IO 新工具可拿到雙重流量加成
+
+**7. Gemini Omni：圖片 + 文字 + 音訊，一個模型全部轉成影片**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/05/19/googles-gemini-omni-turns-images-audio-and-text-into-video-and-thats-just-the-start/) · [Google Blog](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/)
+- **一句摘要**：Gemini Omni 接受多模態輸入並輸出影片，支援多輪對話式編輯，是 Google 最強的創作生產力工具
+- **標題雛形**：**「Google 發布最強影片 AI！Gemini Omni 實測：用照片 + 文字直接生成短影音」**
+- **本地化切角**：短影音創作工具在台灣 IG/TikTok 創作者社群極受關注，Gemini Omni 中文教學幾乎為零
+
+**8. Google Antigravity 2.0：AI 代理人開發平台升級，支援動態子代理人與非同步任務**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/05/19/google-launches-antigravity-2-0-with-an-updated-desktop-app-and-cli-tool-at-io-2026/)
+- **一句摘要**：Antigravity 2.0 桌面 App 與 CLI 全面更新，專為 Agent 開發者打造，可協調多個子代理人並行工作
+- **標題雛形**：**「Google Antigravity 2.0 完整教學：5 步驟打造你的專屬 AI 代理人」**
+- **本地化切角**：Agent 開發框架教學在台灣技術社群需求急速增長，Antigravity 中文資源幾乎為零
+
+---
+
+### 📡 板塊三：值得追蹤的趨勢
+
+**9. AI Agent 典範轉移：從「幫你查資料」到「幫你做事」**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/05/19/how-to-use-googles-new-ai-agents-to-go-beyond-your-standard-searches/) · [CryptoBriefing](https://cryptobriefing.com/google-gemini-spark-ai-agent-productivity/)
+- **一句摘要**：Google IO 2026 全面押注 AI Agent，從搜尋到 Gmail 到 App 開發，AI 已從助理演變為自主行動者
+- **標題雛形**：**「2026 年 AI 不再是工具，是你的虛擬員工：上班族必看的 Agent 時代生存指南」**
+- **本地化切角**：「AI 取代工作」焦慮在台灣持續發酵，結合 Google IO 具體案例可驗證，比泛泛討論更有說服力
+
+**10. Google 殺入 AI 設計市場，Canva、Adobe 面臨新強敵**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/05/19/ai-design-tools-are-the-next-big-battleground-and-google-is-going-all-in-at-io-2026/)
+- **一句摘要**：Google IO 宣布 AI 設計工具，與 Adobe、Canva、Figma AI 正面競爭，AI 設計賽道格局將重塑
+- **標題雛形**：**「Google 要搶 Canva 的生意了！比較 Google 新 AI 設計工具 vs Canva vs Adobe」**
+- **本地化切角**：Canva 在台灣行銷人員滲透率極高，比較型選題符合受眾痛點且競爭少
+
+**11. OpenAI + Google 雙發 AI 圖片真偽驗證工具，內容可信度成新顯學**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/05/19/openai-is-making-it-easier-to-check-if-an-image-was-made-by-their-models/) · [Google Blog](https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online/)
+- **一句摘要**：OpenAI 強化 AI 圖片偵測，Google SynthID 水印擴大至 Search/Chrome/Pixel，AI 內容識別成基礎設施
+- **標題雛形**：**「圖片是 AI 做的嗎？2026 年最新辨識工具大測試：OpenAI + Google SynthID 誰更準？」**
+- **本地化切角**：AI 假圖問題在台灣開始受到關注（選舉、新聞），具體工具測試中文內容幾乎空白
+
+---
+
+### 📋 來源覆蓋狀況
+
+| 來源 | 狀態 | 昨日內容數量 | 備註 |
+|------|------|------------|------|
+| Matt Wolfe (@mreflow) | ❌ | 0 條 | 搜尋無昨日上傳影片 |
+| The AI Advantage | ❌ | 0 條 | 無法確認昨日上傳 |
+| Matthew Berman | ❌ | 0 條 | 無法確認昨日上傳 |
+| Wes Roth | ❌ | 0 條 | 無法確認昨日上傳 |
+| MattVidPro AI | ❌ | 0 條 | 無法確認昨日上傳 |
+| Skill Leap AI | ❌ | 0 條 | 無法確認昨日上傳 |
+| TechCrunch AI | ✅ | 19 條 | 成功抓取，主要為 Google IO 2026 報導 |
+| The Verge AI | ❌ | 0 條 | 網站無法存取 |
+| FutureTools | ✅ | 11 條 | 成功抓取工具更新列表 |
+| @OpenAI | ✅ | 2 條 | 圖片驗證工具、Guaranteed Capacity（WebSearch 間接取得） |
+| @AnthropicAI | ✅ | 1 條 | Karpathy 加入（多家媒體佐證） |
+| @GoogleDeepMind | ✅ | 多條 | Google IO 2026 全面報導 |
+| @sama / @karpathy | ✅ | 1 條 | Karpathy x.com 貼文確認（futuretools.io 取得） |
+
+---
+
+💡 您的專屬網頁版看板已同步更新，可隨時打開 `daily_topic_dashboard.html` 查看。
+
+DONE
+--- AI report finished at Wed May 20 06:05:13 CST 2026 ---
+=== Wed May 20 06:05:13 CST 2026 | Starting daily finance report ===
+看板更新成功（Finance: 4 筆日期）。
+
+---
+
+**FINANCE DONE**
+
+---
+
+**執行摘要 — 2026-05-19 財經日報**
+
+共選出 **10 則**，分三類：
+
+**市場震撼彈（4則）**
+1. 美30年公債殖利率飆至2007年最高，債市「投降式」崩賣
+2. 美股三連跌，半導體股午後反彈全數吐回
+3. 鉅額選擇權大單押注原油暴跌，伊朗衝突加劇油市震盪
+4. BofA基金調查觸發「賣出訊號」，機構持股創歷史峰值
+
+**投資機會（3則）**
+1. SpaceX 6/12 IPO估值1.75兆美元，台灣衛星供應鏈（普天、楠梓電、啟碁）率先漲停
+2. Michael Burry加碼跌深股同時押注半導體ETF崩跌30%
+3. 印尼限制鎳礦出口，EV電池原料供應緊張
+
+**總經觀察（3則）**
+1. 日本護匯徒勞，日圓持續貶值，台人日本資產面臨匯損
+2. SoftBank孫正義對OpenAI豪賭600億美元，內部憂集中風險
+3. 美國消費者債務違約速度媲美2008年前夕，台灣出口警訊
+
+Sources:
+- [Michael Burry adds to beaten-down stocks while warning of echoes of dot-com bubble](https://www.cnbc.com/2026/05/19/michael-burry-adds-to-beaten-down-stocks-while-warning-of-echoes-of-dot-com-bubble.html)
+- [SpaceX's IPO impact on Europe's market](https://www.cnbc.com/2026/05/19/spacex-ipo-elon-musk-europe-launch-offering-debut-openai-cerebras.html)
+- [SpaceX listing buzz sends Taiwan's satellite suppliers into expansion mode](https://www.digitimes.com/news/a20260519PD220/leo-satellite-communications-supply-chain-expansion-taiwan-spacex.html)
+--- Finance report finished at Wed May 20 06:10:39 CST 2026 ---
