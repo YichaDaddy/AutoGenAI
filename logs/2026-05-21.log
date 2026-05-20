@@ -1,0 +1,115 @@
+=== Thu May 21 06:00:01 CST 2026 | Starting daily AI report ===
+看板更新成功。
+
+---
+
+## 2026-05-20 AI 效率工具日報（賽道：AI 效率工具 × 目標受眾：職場上班族）
+
+---
+
+### 板塊一：大事件
+
+**OpenAI 聲稱解開懸宕 80 年的數學難題，頂尖數學家背書驗證**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/05/20/openai-claims-it-solved-an-80-year-old-math-problem-for-real-this-time/)
+- **一句摘要**：OpenAI 推理模型宣稱推翻 1946 年幾何猜想，且曾揭露其過去失誤的數學家也公開背書
+- **標題雛形**：AI 真的比人類更聰明了？OpenAI 解開 80 年數學謎題，這對你意味著什麼
+- **本地化切角**：台灣繁體中文深度解析幾乎為零，搶做「AI 推理突破對工作的實際影響」科普
+
+**Anthropic 與 xAI 簽下世紀算力合約：每月付 12.5 億美元，三年總計逾 400 億**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/05/20/anthropic-will-pay-xai-1-25-billion-per-month-for-compute/) · [xAI Official](https://x.ai/news/anthropic-compute-partnership)
+- **一句摘要**：Anthropic 租用 xAI Colossus 1 超算至 2029 年，直接提升 Claude Pro/Max 用戶服務容量
+- **標題雛形**：Anthropic 砸 400 億美元買算力：為什麼你的 Claude 即將變得更快、更穩定？
+- **本地化切角**：以「Claude 用戶直接受益」角度切入，比財經分析更貼近台灣讀者
+
+**OpenAI 加速衝刺 IPO：最快今年 9 月正式上市**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/05/20/openai-barrels-toward-ipo-that-may-happen-in-september/)
+- **一句摘要**：OpenAI 確立 9 月為 IPO 目標，將成近年最受矚目科技公司上市事件
+- **標題雛形**：OpenAI 9 月要上市了！ChatGPT 會變貴嗎？上班族必知的 3 個關鍵影響
+- **本地化切角**：「對 ChatGPT 用戶有什麼影響」本地化視角，台灣深度分析競爭少
+
+---
+
+### 板塊二：工具更新
+
+**IrisGo 登場：Andrew Ng 投資的 AI 桌面助理，自動學習你的工作流程並代勞**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/05/20/irisgo-a-startup-backed-by-andrew-ng-looks-to-become-the-ai-desktop-buddy-you-never-knew-you-needed/)
+- **標題雛形**：你的電腦終於有了真正懂你的 AI！IrisGo 實測：它如何在 3 天內學會你的工作習慣
+- **本地化切角**：工具剛發布中文教學為零，搶先做示範測評紅利窗口極大
+
+**Figma 正式推出 AI 助理：自然語言指令直接生成、修改設計稿**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/05/20/figma-adds-an-ai-assistant-to-its-collaborative-canvas/)
+- **標題雛形**：Figma AI 助理實測：我用說的就改好設計稿了，非設計師也能直接上手
+- **本地化切角**：Figma 台灣職場滲透率高，AI 助理功能剛上線中文教學稀缺
+
+**Stability Audio 3.0 發布：可在手機上跑的 AI 作曲模型，生成 6 分鐘完整歌曲**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/05/20/stability-ai-release-a-new-audio-model-that-can-create-six-minute-songs/)
+- **標題雛形**：AI 作曲神器！Stability Audio 3.0 實測：5 分鐘生成完整歌曲，免版稅還能在手機跑
+- **本地化切角**：台灣 YouTube 創作者對免版稅音樂需求極大，新模型教學空白
+
+**AI 搜尋新創大爆發：Perplexity 月活破 1 億，Genspark 獲 8,500 萬美元融資**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/05/20/ai-search-startups-are-blowing-up/)
+- **標題雛形**：不只有 Perplexity！2026 年 5 個 AI 搜尋引擎完整比較：哪個最適合職場使用？
+- **本地化切角**：AI 搜尋工具比較是台灣長青選題，結合最新融資數據增加可信度
+
+---
+
+### 板塊三：值得追蹤的趨勢
+
+**Perplexity Comet 瀏覽器全面免費化：從月費 200 美元降為零元**
+- 標題雛形：AI 瀏覽器免費了！Perplexity Comet 完整教學：邊瀏覽邊問 AI，再也不用開一堆分頁
+
+**AI 推理已成默認模式：GPT、Claude、Gemini 三大平台同步將 Reasoning 內建**
+- 標題雛形：AI 悄悄升級了！2026 年你每天用的 ChatGPT/Claude 已自動開啟推理模式，這樣提問更有效
+
+**企業 AI Agent 進入產品化：Microsoft Agent 365 上線，MCP 安裝量破 9,700 萬**
+- 標題雛形：AI Agent 不再是玩具！Microsoft 正式推出企業版，這 5 個工作場景今年就能自動化
+
+---
+
+### 來源覆蓋狀況
+
+| 來源 | 狀態 | 昨日內容數量 | 備註 |
+|------|------|------------|------|
+| TechCrunch AI | ✅ | 10 篇 | 成功抓取，數篇確認為 05/20 發布 |
+| The Verge AI | ❌ | 0 篇 | 網站拒絕抓取，改由 WebSearch 補充 |
+| FutureTools.io | ❌ | 0 篇 | 最新條目為 05/19，05/20 無更新 |
+| @OpenAI / @AnthropicAI | ✅ | 2 則 | WebSearch 間接取得相關報導 |
+| @sama / @karpathy | ✅ | 1 則 | Karpathy 加入 Anthropic 已於前日報導 |
+| Matt Wolfe / Matthew Berman | ❌ | 0 則 | 無法確認 05/20 新影片，標記無昨日影片 |
+| WebSearch 補充 | ✅ | 多則 | 補充 IrisGo、Stability、Figma、Perplexity 詳情 |
+
+---
+
+💡 您的專屬網頁版看板已同步更新，可隨時打開 `daily_topic_dashboard.html` 查看。
+
+DONE
+--- AI report finished at Thu May 21 06:03:27 CST 2026 ---
+=== Thu May 21 06:03:27 CST 2026 | Starting daily finance report ===
+看板更新完成（Finance: 5 dates）。
+
+---
+
+**FINANCE DONE**
+
+---
+
+**執行摘要 — 2026-05-20 財經日報**
+
+共選出 **10 則** 高話題性財經情報，分三類寫入 `latest_finance_topics.json` 並更新看板：
+
+**market_shocks（市場震撼彈）4 則**
+1. **SpaceX IPO (SPCX)** — Nasdaq 掛牌申請曝光，估值衝 2 兆美元，台灣 Starlink 衛星供應鏈（競泰、緯創網通）直接受惠
+2. **Fed FOMC 鷹派紀要** — 多數官員傾向升息，降息夢碎，台股高估值股承壓
+3. **Michael Burry AI 泡沫警告** — 稱現況像 1999 年末，87% 創投資金流向 AI，高度警戒
+4. **墨西哥降評至近垃圾級** — 穆迪出手，新興市場骨牌效應風險上升
+
+**investment_opportunities（投資機會）3 則**
+1. **OpenAI 即將申請 IPO** — S-1 點名 TSMC 為核心供應商，台積電成最大隱形受益股
+2. **NextEra 以 670 億美元購 Dominion Energy** — 史上最大電力合併，AI 資料中心電力爭奪戰開打，台達電、奇鋐受惠
+3. **Burry 大買 MELI、LULU、ADBE、PYPL** — 被 AI 錯殺的優質股觸底信號
+
+**macro_observations（總經觀察）3 則**
+1. **美最大電網批准限制 AI 資料中心用電** — 電力瓶頸正式成為 AI 成長天花板
+2. **高盛警告殖利率威脅股市 + Lowe's 房市最慘** — 雙重消費衰退訊號
+3. **馬斯克：美國年利息破兆，1000% 會破產** — 財政赤字結構性惡化，黃金長多論據
+--- Finance report finished at Thu May 21 06:09:45 CST 2026 ---

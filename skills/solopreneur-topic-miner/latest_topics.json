@@ -1,142 +1,126 @@
 {
-  "date": "2026-05-19",
+  "date": "2026-05-20",
   "big_events": [
     {
-      "title": "Google Gemini Spark 上線：24/7 AI 代理人幫你管 Gmail、行事曆、Docs",
+      "title": "OpenAI 聲稱解開懸宕 80 年的數學難題，頂尖數學家背書驗證",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/19/google-introduces-gemini-spark-a-24-7-agentic-assistant-with-gmail-integration/"},
-        {"name": "Android Authority", "url": "https://www.androidauthority.com/google-gemini-neural-expressive-gemini-spark-daily-brief-omni-updates-3668384/"},
-        {"name": "Decrypt", "url": "https://decrypt.co/368389/google-gemini-spark-ai-agent-challenge-hermes-openclaw"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/20/openai-claims-it-solved-an-80-year-old-math-problem-for-real-this-time/"}
       ],
-      "summary": "Google IO 2026 發布 Gemini Spark，24/7 在雲端自動處理郵件、行程排定、Docs 摘要，手機關機也持續運作。",
-      "audience": "職場上班族、使用 Google Workspace 的工作者",
-      "pain_point": "每天花大量時間處理 Email 和行程，下班後仍被訊息追著跑",
-      "title_idea": "Google 幫你雇了一個 AI 助理：Gemini Spark 實測，我的 Gmail 終於不再爆炸",
-      "local_angle": "Gemini Spark 目前僅開放 Google AI Pro/Ultra 訂閱用戶搶先體驗，華語教學內容幾乎空白，搶做使用教學紅利窗口大開"
+      "summary": "OpenAI 推理模型宣稱推翻 1946 年起懸而未決的幾何猜想，且曾揭露其過去失誤的數學家團隊也公開背書。",
+      "audience": "對 AI 能力進展好奇的職場上班族、AI 重度使用者",
+      "pain_point": "不清楚 AI 推理能力真正達到了什麼水準，擔心跟不上 AI 發展腳步",
+      "title_idea": "AI 真的比人類更聰明了？OpenAI 解開 80 年數學謎題，這對你意味著什麼",
+      "local_angle": "此成就在歐美引爆廣泛討論，台灣繁體中文深度解析幾乎為零，搶做「AI 推理能力突破對工作的實際影響」科普選題正當時"
     },
     {
-      "title": "Google 宣告：你認識的 Google 搜尋已正式終結，AI Mode 成為新預設",
+      "title": "Anthropic 與 xAI 簽下世紀算力合約：每月付 12.5 億美元，三年總計逾 400 億",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/19/google-search-as-you-know-it-is-over/"},
-        {"name": "9to5Google", "url": "https://9to5google.com/2026/05/19/google-io-2026-news/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/20/anthropic-will-pay-xai-1-25-billion-per-month-for-compute/"},
+        {"name": "xAI Official", "url": "https://x.ai/news/anthropic-compute-partnership"}
       ],
-      "summary": "Google IO 2026 將 AI Mode 設為 Search 預設，支援文字、圖片、影片、檔案多模態輸入，Gemini 3.5 Flash 驅動全新搜尋體驗。",
-      "audience": "職場上班族、內容創作者、學生",
-      "pain_point": "搜尋到的資訊越來越零碎，需要整合多頁才能得到答案",
-      "title_idea": "Google 搜尋大改版！AI Mode 成預設，上班族必學的 5 個新搜尋技巧",
-      "local_angle": "台灣用戶尚未全面開放，現在製作「如何搶先使用 Google AI 搜尋」教學，流量紅利期正好"
+      "summary": "Anthropic 將向 xAI 租用 Colossus 1 超級電腦算力至 2029 年 5 月，直接提升 Claude Pro/Max 用戶的服務容量。",
+      "audience": "Claude 付費用戶、關心 AI 產業格局的職場人",
+      "pain_point": "Claude 常遇到流量限制，擔心 AI 工具不穩定影響工作效率",
+      "title_idea": "Anthropic 砸 400 億美元買算力：為什麼你的 Claude 即將變得更快、更穩定？",
+      "local_angle": "「AI 算力爭奪戰」商業邏輯複雜，台灣中文解析稀少，以「Claude 用戶直接受益」角度切入，比財經分析更貼近普通讀者"
     },
     {
-      "title": "Andrej Karpathy 離開 OpenAI 加入 Anthropic，擔任預訓練研究核心",
+      "title": "OpenAI 加速衝刺 IPO：最快今年 9 月正式上市",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/"},
-        {"name": "CNBC", "url": "https://www.cnbc.com/2026/05/19/anthropic-hires-openai-cofounder-karpathy-former-tesla-ai-lead.html"},
-        {"name": "Axios", "url": "https://www.axios.com/2026/05/19/anthropic-openai-karpathy-andrej-claude"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/20/openai-barrels-toward-ipo-that-may-happen-in-september/"}
       ],
-      "summary": "AI 界重量級人物 Andrej Karpathy 加入 Anthropic，專責 Claude 的大規模預訓練研究，多家媒體稱此為 AI 人才戰重大信號。",
-      "audience": "AI 工具重度用戶、關注科技產業動態的上班族",
-      "pain_point": "不清楚 Claude vs ChatGPT 的差異，不知道該用哪個 AI 工具",
-      "title_idea": "OpenAI 最強研究員出走加入 Anthropic！這對你日常用的 AI 工具意味著什麼？",
-      "local_angle": "此新聞在歐美科技圈引爆，台灣中文解析極少，搶做「Karpathy 是誰、為何重要」科普選題正當時"
-    },
-    {
-      "title": "Gemini 3.5 Flash 發布：Google 全面押注 AI Agent 而非聊天機器人",
-      "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/19/with-gemini-3-5-flash-google-bets-its-next-ai-wave-on-agents-not-chatbots/"},
-        {"name": "CNBC", "url": "https://www.cnbc.com/2026/05/19/google-ai-ultra-gemini-spark-omni.html"}
-      ],
-      "summary": "Gemini 3.5 Flash 定價約競品三分之一，在 coding 基準測試中超越前代，專為 Agentic 任務設計而非對話。",
-      "audience": "開發者、AI 工具進階用戶、評估採購 AI 工具的管理者",
-      "pain_point": "AI 模型費用高，不確定性價比最高的選擇",
-      "title_idea": "Gemini 3.5 Flash 實測：比 GPT-4o 便宜 70%，性能真的追得上嗎？",
-      "local_angle": "效能對比測試類內容在台灣 YouTube 和 FB 社群持續高點擊，此型號中文評測幾乎空白"
+      "summary": "OpenAI 已確立 9 月為 IPO 目標時間點，若成功將是近年最受矚目的科技公司上市事件之一。",
+      "audience": "對科技投資或產業動態感興趣的職場人、AI 工具使用者",
+      "pain_point": "不確定 OpenAI 上市對 ChatGPT 服務定價、功能開放有何影響",
+      "title_idea": "OpenAI 9 月要上市了！ChatGPT 會變貴嗎？上班族必知的 3 個關鍵影響",
+      "local_angle": "IPO 新聞適合「對 ChatGPT 用戶有什麼影響」本地化切入，台灣科技媒體多只轉述英文財報，深度分析視角競爭少"
     }
   ],
   "tool_updates": [
     {
-      "title": "Gmail Live：現在可以用說話的方式搜尋你的 Gmail 收件匣",
+      "title": "IrisGo 登場：Andrew Ng 投資的 AI 桌面助理，自動學習你的工作流程並代勞",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/19/you-can-now-talk-to-your-gmail-inbox-as-seen-at-google-io-2026/"},
-        {"name": "Google Blog", "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/20/irisgo-a-startup-backed-by-andrew-ng-looks-to-become-the-ai-desktop-buddy-you-never-knew-you-needed/"},
+        {"name": "IrisGo 官網", "url": "https://irisgo.ai/"}
       ],
-      "summary": "Gmail Live 讓用戶用語音對話方式查詢郵件，找「三個月前那封報價單」不再需要記關鍵字，今夏開放 AI Pro/Ultra 用戶。",
-      "audience": "每天泡在 Gmail 的職場上班族",
-      "pain_point": "Email 太多、搜尋功能找不到想要的郵件，浪費大量時間",
-      "title_idea": "Gmail 超進化！現在可以直接問 AI「幫我找上週老闆寄的那封信」",
-      "local_angle": "功能尚未在台灣正式推出，現在搶做「如何搶先啟用 Gmail Live + 實測示範」，教學需求極高"
+      "summary": "IrisGo 是前 Apple Siri 工程師創辦的 AI 桌面代理人，能觀察並記憶用戶的每日工作流，之後自動代執行重複任務。",
+      "audience": "希望提升工作效率的職場上班族、有重複性日常任務的工作者",
+      "pain_point": "每天都在做相同的複製貼上、整理檔案、切換 App 等重複工作，浪費大量腦力",
+      "title_idea": "你的電腦終於有了真正懂你的 AI！IrisGo 實測：它如何在 3 天內學會你的工作習慣",
+      "local_angle": "「AI 自動化辦公流程」是台灣職場人高搜尋需求，此工具剛發布中文教學為零，搶先做示範測評紅利窗口極大"
     },
     {
-      "title": "Google AI Studio 新功能：不用寫程式，幾分鐘內做出 Android App",
+      "title": "Figma 正式推出 AI 助理：自然語言指令直接生成、修改設計稿",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/19/googles-ai-studio-now-lets-anyone-build-android-apps-in-minutes/"},
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/19/agentic-app-coding-gets-an-upgrade-with-googles-release-of-android-cli/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/20/figma-adds-an-ai-assistant-to-its-collaborative-canvas/"},
+        {"name": "Figma 更新說明", "url": "https://www.figma.com/release-notes/"}
       ],
-      "summary": "Google AI Studio 結合 Android CLI 讓非工程師也能用 AI 快速生成 Android App 原型，大幅降低開發門檻。",
-      "audience": "想做副業 App 的上班族、獨立開發者、有 App 點子的非工程師",
-      "pain_point": "有 App 點子但不會寫程式，找外包費用又太高",
-      "title_idea": "0 程式基礎也能做 App！Google AI Studio 實測：30 分鐘打造你的第一個 Android App",
-      "local_angle": "「不會寫程式做 App」是台灣 YouTuber 長青話題，結合 Google IO 新工具可拿到雙重流量加成"
+      "summary": "Figma 新 AI 助理支援自然語言對話式操作，可生成全新設計、修改現有稿件、或批次生成多版本，大幅降低設計門檻。",
+      "audience": "UI/UX 設計師、行銷人員、需要快速出圖的職場工作者",
+      "pain_point": "不熟悉 Figma 操作介面，設計修改流程耗時，等外包又太慢",
+      "title_idea": "Figma AI 助理實測：我用說的就改好設計稿了，非設計師也能直接上手",
+      "local_angle": "Figma 在台灣職場滲透率高，AI 助理功能剛上線中文教學稀缺，「不懂設計也能用 Figma」選題在 PTT/Dcard 熱度持續高"
     },
     {
-      "title": "Gemini Omni 發布：一個提示詞，把圖片、音訊、文字全部轉成影片",
+      "title": "Stability Audio 3.0 發布：可在手機上跑的 AI 作曲模型，生成 6 分鐘完整歌曲",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/19/googles-gemini-omni-turns-images-audio-and-text-into-video-and-thats-just-the-start/"},
-        {"name": "Google Blog", "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/20/stability-ai-release-a-new-audio-model-that-can-create-six-minute-songs/"}
       ],
-      "summary": "Gemini Omni 是 Google 最新多模態影片生成模型，接受圖片、影片、文字、音訊輸入，並支援多輪對話式編輯。",
-      "audience": "內容創作者、行銷人員、社群小編",
-      "pain_point": "影片製作耗時且費用高，沒有預算請後製人員",
-      "title_idea": "Google 發布最強影片 AI！Gemini Omni 實測：用照片 + 文字直接生成短影音",
-      "local_angle": "短影音創作工具在台灣 IG/TikTok 創作者社群極受關注，Gemini Omni 中文教學幾乎為零"
+      "summary": "Stability AI 新音訊模型支援裝置端（on-device）推論，可免費生成長達 6 分鐘的 AI 歌曲，輕量版可在手機直接運行。",
+      "audience": "內容創作者、Podcast 製作者、需要背景音樂的影片創作者",
+      "pain_point": "影片背景音樂授權費高，自製音樂沒有音樂基礎，版權免費素材質感差",
+      "title_idea": "AI 作曲神器！Stability Audio 3.0 實測：5 分鐘生成完整歌曲，免版稅還能在手機跑",
+      "local_angle": "台灣 YouTube 創作者對免版稅音樂需求極大，Suno/Udio 已有教學但 Stability 新模型教學空白，做工具比較評測搶先機"
     },
     {
-      "title": "Google Antigravity 2.0：AI 代理人開發平台全面升級，支援非同步任務與子代理人",
+      "title": "AI 搜尋新創大爆發：多家 AI 搜尋引擎同步獲得投資，Perplexity 月活破 1 億",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/19/google-launches-antigravity-2-0-with-an-updated-desktop-app-and-cli-tool-at-io-2026/"},
-        {"name": "Google Blog", "url": "https://antigravity.google/blog/introducing-google-antigravity-2-0"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/20/ai-search-startups-are-blowing-up/"},
+        {"name": "Perplexity 數據", "url": "https://www.getpanto.ai/blog/perplexity-ai-statistics"}
       ],
-      "summary": "Antigravity 2.0 桌面 App 與 CLI 全面更新，支援動態子代理人、非同步任務管理，專為 Agent 開發者打造。",
-      "audience": "開發者、想打造 AI 自動化工具的進階用戶",
-      "pain_point": "想建立 AI 自動化工作流但缺乏工具支援",
-      "title_idea": "Google Antigravity 2.0 完整教學：5 步驟打造你的專屬 AI 代理人",
-      "local_angle": "Agent 開發框架教學在台灣技術社群需求急速增長，Antigravity 中文資源幾乎為零"
+      "summary": "Perplexity 月活用戶突破 1 億，Genspark 獲 8,500 萬美元融資，AI 搜尋賽道正式進入規模化競爭階段。",
+      "audience": "正在尋找 Google 替代工具的職場上班族、效率工具愛好者",
+      "pain_point": "Google 搜尋廣告越來越多、AI 摘要有時不準確，不知道有沒有更好的選擇",
+      "title_idea": "不只有 Perplexity！2026 年 5 個 AI 搜尋引擎完整比較：哪個最適合職場使用？",
+      "local_angle": "AI 搜尋工具比較是台灣 YouTube/部落格長青選題，結合 2026 最新融資數據增加可信度，資訊差明顯"
     }
   ],
   "trends": [
     {
-      "title": "AI Agent 正在取代傳統工作流：從聊天工具到自主執行任務的典範轉移",
+      "title": "Perplexity Comet 瀏覽器全面免費：AI 原生瀏覽器從高端訂閱變大眾工具",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/19/how-to-use-googles-new-ai-agents-to-go-beyond-your-standard-searches/"},
-        {"name": "CryptoBriefing", "url": "https://cryptobriefing.com/google-gemini-spark-ai-agent-productivity/"}
+        {"name": "Crescendo AI News", "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates"},
+        {"name": "Perplexity 官方", "url": "https://tracxn.com/d/companies/perplexity/__V2BE-5ihMWJ1hNb2_u1W7Gry25JzPFCBg-iNWi94XI8"}
       ],
-      "summary": "Google IO 2026 全面押注 AI Agent，從搜尋到 Gmail 到 App 開發，AI 不再只是助理而是自主執行者，職場將迎來根本性變革。",
-      "audience": "對 AI 趨勢敏感的職場中高階、自媒體創作者",
-      "pain_point": "不確定 AI 浪潮如何影響自己的工作，擔心被取代卻不知道如何應對",
-      "title_idea": "2026 年 AI 不再是工具，是你的虛擬員工：上班族必看的 Agent 時代生存指南",
-      "local_angle": "「AI 取代工作」焦慮在台灣持續發酵，此選題結合 Google IO 具體案例可驗證，比泛泛討論更有說服力"
+      "summary": "Perplexity Comet AI 瀏覽器從月費 200 美元降為免費，支援 iOS/Android/Windows/Mac，直接在瀏覽網頁時整合 AI 問答。",
+      "audience": "重度網路使用者、希望簡化資訊搜集流程的職場人",
+      "pain_point": "每天開 10 幾個分頁找資料，資訊過載卻沒有好方法彙整",
+      "title_idea": "AI 瀏覽器免費了！Perplexity Comet 完整教學：邊瀏覽邊問 AI，再也不用開一堆分頁",
+      "local_angle": "Comet 免費化是大新聞但台灣報導極少，「AI 瀏覽器使用教學」在 YouTube 搜尋量快速增長，先卡位者有明顯優勢"
     },
     {
-      "title": "Google 殺入 AI 設計市場，與 Adobe、Canva 正面競爭",
+      "title": "AI 推理已成默認模式：GPT、Claude、Gemini 三大平台同步將 Reasoning 內建主流程",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/19/ai-design-tools-are-the-next-big-battleground-and-google-is-going-all-in-at-io-2026/"}
+        {"name": "Crescendo AI News", "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates"},
+        {"name": "llm-stats 更新追蹤", "url": "https://llm-stats.com/llm-updates"}
       ],
-      "summary": "Google IO 2026 發布 AI 設計工具，與 Adobe、Canva、Figma AI 正面競爭，AI 設計賽道格局將重塑。",
-      "audience": "設計師、行銷人員、使用 Canva 的內容創作者",
-      "pain_point": "設計工具學習成本高，沒有美感基礎難以做出好看的視覺",
-      "title_idea": "Google 要搶 Canva 的生意了！比較 Google 新 AI 設計工具 vs Canva vs Adobe：上班族該選哪個？",
-      "local_angle": "Canva 在台灣中小企業行銷人員中滲透率極高，此比較型選題符合受眾痛點且競爭少"
+      "summary": "OpenAI GPT-5.4 Thinking、Claude Opus 4.7 Adaptive Thinking、Gemini 3.1 Pro 已全面將推理模式內建到日常對話，不再是獨立功能。",
+      "audience": "每天使用 AI 工具的職場人、想最大化 AI 輸出品質的進階用戶",
+      "pain_point": "不知道什麼時候該切換到「推理模式」，不確定自己是否用到了 AI 最強版本",
+      "title_idea": "AI 悄悄升級了！2026 年你每天用的 ChatGPT/Claude 已自動開啟推理模式，這樣提問更有效",
+      "local_angle": "「推理模式到底是什麼」的科普需求在台灣社群持續增長，用「你不知道 AI 已默默升級」的角度切入，比技術介紹更有傳播力"
     },
     {
-      "title": "OpenAI 推 AI 圖片真偽驗證 + Google SynthID 擴大，AI 內容可信度成新顯學",
+      "title": "企業 AI Agent 進入產品化：Microsoft Agent 365 上線，Agent 從功能變成獨立產品線",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/19/openai-is-making-it-easier-to-check-if-an-image-was-made-by-their-models/"},
-        {"name": "Google Blog", "url": "https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online/"}
+        {"name": "DataNorth AI", "url": "https://datanorth.ai/blog/top-10-ai-tools-for-2026"},
+        {"name": "Anthropic MCP 數據", "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates"}
       ],
-      "summary": "OpenAI 強化 AI 圖片偵測工具，Google 同步擴大 SynthID 水印至 Search、Chrome、Pixel，AI 生成內容識別機制全面升級。",
-      "audience": "媒體從業者、法務相關職場、一般網路使用者",
-      "pain_point": "無法辨別網路圖片是否為 AI 生成，擔心被假資訊誤導",
-      "title_idea": "圖片是 AI 做的嗎？2026 年最新辨識工具大測試：OpenAI + Google SynthID 誰更準？",
-      "local_angle": "AI 假圖問題在台灣開始受到關注（選舉、新聞），但具體工具測試中文內容幾乎空白"
+      "summary": "Microsoft Agent 365 正式上線，MCP 協議累計 9,700 萬安裝量，AI Agent 已從「聊天機器人加強版」進化為企業級自動化基礎設施。",
+      "audience": "中大型企業的管理者、IT 部門、希望導入 AI 自動化的職場決策者",
+      "pain_point": "聽過 AI Agent 但不知道企業怎麼實際用，擔心投資後沒有回報",
+      "title_idea": "AI Agent 不再是玩具！Microsoft 正式推出企業版，這 5 個工作場景今年就能自動化",
+      "local_angle": "「企業 AI 導入」是台灣中高階職場人的高焦慮議題，具體工具案例比抽象概念更有說服力，此選題適合 LinkedIn 和商業媒體"
     }
   ]
 }

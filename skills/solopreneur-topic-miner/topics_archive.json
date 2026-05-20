@@ -1,5 +1,182 @@
 [
   {
+    "date": "2026-05-20",
+    "big_events": [
+      {
+        "title": "OpenAI 聲稱解開懸宕 80 年的數學難題，頂尖數學家背書驗證",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/05/20/openai-claims-it-solved-an-80-year-old-math-problem-for-real-this-time/"
+          }
+        ],
+        "summary": "OpenAI 推理模型宣稱推翻 1946 年起懸而未決的幾何猜想，且曾揭露其過去失誤的數學家團隊也公開背書。",
+        "audience": "對 AI 能力進展好奇的職場上班族、AI 重度使用者",
+        "pain_point": "不清楚 AI 推理能力真正達到了什麼水準，擔心跟不上 AI 發展腳步",
+        "title_idea": "AI 真的比人類更聰明了？OpenAI 解開 80 年數學謎題，這對你意味著什麼",
+        "local_angle": "此成就在歐美引爆廣泛討論，台灣繁體中文深度解析幾乎為零，搶做「AI 推理能力突破對工作的實際影響」科普選題正當時"
+      },
+      {
+        "title": "Anthropic 與 xAI 簽下世紀算力合約：每月付 12.5 億美元，三年總計逾 400 億",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/05/20/anthropic-will-pay-xai-1-25-billion-per-month-for-compute/"
+          },
+          {
+            "name": "xAI Official",
+            "url": "https://x.ai/news/anthropic-compute-partnership"
+          }
+        ],
+        "summary": "Anthropic 將向 xAI 租用 Colossus 1 超級電腦算力至 2029 年 5 月，直接提升 Claude Pro/Max 用戶的服務容量。",
+        "audience": "Claude 付費用戶、關心 AI 產業格局的職場人",
+        "pain_point": "Claude 常遇到流量限制，擔心 AI 工具不穩定影響工作效率",
+        "title_idea": "Anthropic 砸 400 億美元買算力：為什麼你的 Claude 即將變得更快、更穩定？",
+        "local_angle": "「AI 算力爭奪戰」商業邏輯複雜，台灣中文解析稀少，以「Claude 用戶直接受益」角度切入，比財經分析更貼近普通讀者"
+      },
+      {
+        "title": "OpenAI 加速衝刺 IPO：最快今年 9 月正式上市",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/05/20/openai-barrels-toward-ipo-that-may-happen-in-september/"
+          }
+        ],
+        "summary": "OpenAI 已確立 9 月為 IPO 目標時間點，若成功將是近年最受矚目的科技公司上市事件之一。",
+        "audience": "對科技投資或產業動態感興趣的職場人、AI 工具使用者",
+        "pain_point": "不確定 OpenAI 上市對 ChatGPT 服務定價、功能開放有何影響",
+        "title_idea": "OpenAI 9 月要上市了！ChatGPT 會變貴嗎？上班族必知的 3 個關鍵影響",
+        "local_angle": "IPO 新聞適合「對 ChatGPT 用戶有什麼影響」本地化切入，台灣科技媒體多只轉述英文財報，深度分析視角競爭少"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "IrisGo 登場：Andrew Ng 投資的 AI 桌面助理，自動學習你的工作流程並代勞",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/05/20/irisgo-a-startup-backed-by-andrew-ng-looks-to-become-the-ai-desktop-buddy-you-never-knew-you-needed/"
+          },
+          {
+            "name": "IrisGo 官網",
+            "url": "https://irisgo.ai/"
+          }
+        ],
+        "summary": "IrisGo 是前 Apple Siri 工程師創辦的 AI 桌面代理人，能觀察並記憶用戶的每日工作流，之後自動代執行重複任務。",
+        "audience": "希望提升工作效率的職場上班族、有重複性日常任務的工作者",
+        "pain_point": "每天都在做相同的複製貼上、整理檔案、切換 App 等重複工作，浪費大量腦力",
+        "title_idea": "你的電腦終於有了真正懂你的 AI！IrisGo 實測：它如何在 3 天內學會你的工作習慣",
+        "local_angle": "「AI 自動化辦公流程」是台灣職場人高搜尋需求，此工具剛發布中文教學為零，搶先做示範測評紅利窗口極大"
+      },
+      {
+        "title": "Figma 正式推出 AI 助理：自然語言指令直接生成、修改設計稿",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/05/20/figma-adds-an-ai-assistant-to-its-collaborative-canvas/"
+          },
+          {
+            "name": "Figma 更新說明",
+            "url": "https://www.figma.com/release-notes/"
+          }
+        ],
+        "summary": "Figma 新 AI 助理支援自然語言對話式操作，可生成全新設計、修改現有稿件、或批次生成多版本，大幅降低設計門檻。",
+        "audience": "UI/UX 設計師、行銷人員、需要快速出圖的職場工作者",
+        "pain_point": "不熟悉 Figma 操作介面，設計修改流程耗時，等外包又太慢",
+        "title_idea": "Figma AI 助理實測：我用說的就改好設計稿了，非設計師也能直接上手",
+        "local_angle": "Figma 在台灣職場滲透率高，AI 助理功能剛上線中文教學稀缺，「不懂設計也能用 Figma」選題在 PTT/Dcard 熱度持續高"
+      },
+      {
+        "title": "Stability Audio 3.0 發布：可在手機上跑的 AI 作曲模型，生成 6 分鐘完整歌曲",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/05/20/stability-ai-release-a-new-audio-model-that-can-create-six-minute-songs/"
+          }
+        ],
+        "summary": "Stability AI 新音訊模型支援裝置端（on-device）推論，可免費生成長達 6 分鐘的 AI 歌曲，輕量版可在手機直接運行。",
+        "audience": "內容創作者、Podcast 製作者、需要背景音樂的影片創作者",
+        "pain_point": "影片背景音樂授權費高，自製音樂沒有音樂基礎，版權免費素材質感差",
+        "title_idea": "AI 作曲神器！Stability Audio 3.0 實測：5 分鐘生成完整歌曲，免版稅還能在手機跑",
+        "local_angle": "台灣 YouTube 創作者對免版稅音樂需求極大，Suno/Udio 已有教學但 Stability 新模型教學空白，做工具比較評測搶先機"
+      },
+      {
+        "title": "AI 搜尋新創大爆發：多家 AI 搜尋引擎同步獲得投資，Perplexity 月活破 1 億",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/05/20/ai-search-startups-are-blowing-up/"
+          },
+          {
+            "name": "Perplexity 數據",
+            "url": "https://www.getpanto.ai/blog/perplexity-ai-statistics"
+          }
+        ],
+        "summary": "Perplexity 月活用戶突破 1 億，Genspark 獲 8,500 萬美元融資，AI 搜尋賽道正式進入規模化競爭階段。",
+        "audience": "正在尋找 Google 替代工具的職場上班族、效率工具愛好者",
+        "pain_point": "Google 搜尋廣告越來越多、AI 摘要有時不準確，不知道有沒有更好的選擇",
+        "title_idea": "不只有 Perplexity！2026 年 5 個 AI 搜尋引擎完整比較：哪個最適合職場使用？",
+        "local_angle": "AI 搜尋工具比較是台灣 YouTube/部落格長青選題，結合 2026 最新融資數據增加可信度，資訊差明顯"
+      }
+    ],
+    "trends": [
+      {
+        "title": "Perplexity Comet 瀏覽器全面免費：AI 原生瀏覽器從高端訂閱變大眾工具",
+        "sources": [
+          {
+            "name": "Crescendo AI News",
+            "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates"
+          },
+          {
+            "name": "Perplexity 官方",
+            "url": "https://tracxn.com/d/companies/perplexity/__V2BE-5ihMWJ1hNb2_u1W7Gry25JzPFCBg-iNWi94XI8"
+          }
+        ],
+        "summary": "Perplexity Comet AI 瀏覽器從月費 200 美元降為免費，支援 iOS/Android/Windows/Mac，直接在瀏覽網頁時整合 AI 問答。",
+        "audience": "重度網路使用者、希望簡化資訊搜集流程的職場人",
+        "pain_point": "每天開 10 幾個分頁找資料，資訊過載卻沒有好方法彙整",
+        "title_idea": "AI 瀏覽器免費了！Perplexity Comet 完整教學：邊瀏覽邊問 AI，再也不用開一堆分頁",
+        "local_angle": "Comet 免費化是大新聞但台灣報導極少，「AI 瀏覽器使用教學」在 YouTube 搜尋量快速增長，先卡位者有明顯優勢"
+      },
+      {
+        "title": "AI 推理已成默認模式：GPT、Claude、Gemini 三大平台同步將 Reasoning 內建主流程",
+        "sources": [
+          {
+            "name": "Crescendo AI News",
+            "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates"
+          },
+          {
+            "name": "llm-stats 更新追蹤",
+            "url": "https://llm-stats.com/llm-updates"
+          }
+        ],
+        "summary": "OpenAI GPT-5.4 Thinking、Claude Opus 4.7 Adaptive Thinking、Gemini 3.1 Pro 已全面將推理模式內建到日常對話，不再是獨立功能。",
+        "audience": "每天使用 AI 工具的職場人、想最大化 AI 輸出品質的進階用戶",
+        "pain_point": "不知道什麼時候該切換到「推理模式」，不確定自己是否用到了 AI 最強版本",
+        "title_idea": "AI 悄悄升級了！2026 年你每天用的 ChatGPT/Claude 已自動開啟推理模式，這樣提問更有效",
+        "local_angle": "「推理模式到底是什麼」的科普需求在台灣社群持續增長，用「你不知道 AI 已默默升級」的角度切入，比技術介紹更有傳播力"
+      },
+      {
+        "title": "企業 AI Agent 進入產品化：Microsoft Agent 365 上線，Agent 從功能變成獨立產品線",
+        "sources": [
+          {
+            "name": "DataNorth AI",
+            "url": "https://datanorth.ai/blog/top-10-ai-tools-for-2026"
+          },
+          {
+            "name": "Anthropic MCP 數據",
+            "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates"
+          }
+        ],
+        "summary": "Microsoft Agent 365 正式上線，MCP 協議累計 9,700 萬安裝量，AI Agent 已從「聊天機器人加強版」進化為企業級自動化基礎設施。",
+        "audience": "中大型企業的管理者、IT 部門、希望導入 AI 自動化的職場決策者",
+        "pain_point": "聽過 AI Agent 但不知道企業怎麼實際用，擔心投資後沒有回報",
+        "title_idea": "AI Agent 不再是玩具！Microsoft 正式推出企業版，這 5 個工作場景今年就能自動化",
+        "local_angle": "「企業 AI 導入」是台灣中高階職場人的高焦慮議題，具體工具案例比抽象概念更有說服力，此選題適合 LinkedIn 和商業媒體"
+      }
+    ]
+  },
+  {
     "date": "2026-05-19",
     "big_events": [
       {
@@ -1144,193 +1321,6 @@
         "pain_point": "擔心 AI 衝擊自己的創作收入，想知道有沒有辦法反而從 AI 發展中獲益",
         "title_idea": "AI 不是你的敵人！創作者靠「賣資料」給 AI 公司賺錢，這個新商業模式值得你了解",
         "local_angle": "「AI 資料經濟」在歐美剛起步，華語圈幾乎沒有相關報導，搶先介紹有極大資訊差紅利"
-      }
-    ]
-  },
-  {
-    "date": "2026-05-13",
-    "big_events": [
-      {
-        "title": "Notion 把工作區變成 AI Agent 控制中心，一站式執行自動化任務",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/05/13/notion-just-turned-its-workspace-into-a-hub-for-ai-agents/"
-          }
-        ],
-        "summary": "Notion 將工作區升級為 AI Agent 核心樞紐，用戶可在 Notion 內直接串接並觸發自動化工作流，無需跳出到其他平台。",
-        "audience": "每天使用 Notion 做筆記、管理專案的職場上班族、知識工作者",
-        "pain_point": "工具太多、到處切換，不知道 Notion 現在已能當 AI 自動化的中央控制台",
-        "title_idea": "Notion 悄悄進化了！現在可以直接在裡面跑 AI Agent，上班族的效率工具大升級",
-        "local_angle": "Notion 在台灣知識工作者中使用率極高，「Notion AI Agent 實際操作教學」幾乎是中文空白，搶先做示範影片，教學紅利窗口約 1–2 週。"
-      },
-      {
-        "title": "Anthropic 推出小企業版 Claude：15 個 AI 工作流 + QuickBooks／HubSpot 直接串接",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners/"
-          },
-          {
-            "name": "Anthropic 官方",
-            "url": "https://www.anthropic.com/news"
-          }
-        ],
-        "summary": "Anthropic 正式鎖定中小企業主，推出 Claude for Small Business，內建 15 個 agentic 工作流，可直接串接 QuickBooks、PayPal、HubSpot，自動處理帳務與客戶管理。",
-        "audience": "台灣中小企業主、自僱者、想用 AI 節省人力成本的老闆",
-        "pain_point": "想導入 AI 幫忙處理行政雜事，但不知從哪裡開始，也不清楚 Claude 和 ChatGPT 企業版的差異",
-        "title_idea": "Claude 專攻小老闆了！15 個 AI 工作流直接串 QuickBooks，這是中小企業最划算的 AI 方案嗎？",
-        "local_angle": "台灣中小企業主正在評估 AI 導入，「Claude vs ChatGPT 企業版」實測比較幾乎沒有繁體中文內容，現在入場做評測，搶占這波搜尋需求。"
-      },
-      {
-        "title": "TikTok 推出 MCP Server，AI Agent 可自主投廣告——Google、Meta、Amazon 也跟進",
-        "sources": [
-          {
-            "name": "Digiday",
-            "url": "https://digiday.com/marketing/tiktok-launches-mcp-server-to-let-ai-agents-run-campaigns/"
-          },
-          {
-            "name": "PYMNTS",
-            "url": "https://www.pymnts.com/news/social-commerce/2026/tiktok-unleashes-ai-agents-on-its-ad-platform/"
-          }
-        ],
-        "summary": "TikTok 在 TikTok World 廣告峰會宣布開放 Ads MCP Server，讓 AI Agent 自主規劃、上架、優化廣告活動，Google、Meta、Amazon 均已推出類似工具，廣告投放全自動化時代來臨。",
-        "audience": "台灣電商業主、品牌行銷人員、數位廣告操盤手",
-        "pain_point": "每天盯著廣告後台調預算、改素材很耗時，不知道 AI 現在可以幫你全自動跑廣告",
-        "title_idea": "TikTok 讓 AI 自己投廣告了！MCP Server 上線，行銷人以後只需要設目標就好？",
-        "local_angle": "TikTok 廣告在台灣電商圈使用率高，「AI 自動投廣告怎麼設定」這個實操教學幾乎空白，做第一個繁中教學的人將吃到所有搜尋流量。"
-      },
-      {
-        "title": "Recursive Superintelligence 闖出隱身，獲 Nvidia＋GV 領投 6.5 億美元，目標打造「永遠自我進化的 AI」",
-        "sources": [
-          {
-            "name": "The Decoder",
-            "url": "https://the-decoder.com/ai-startup-recursive-emerges-from-stealth-with-650-million-to-build-self-improving-ai/"
-          },
-          {
-            "name": "Tech.eu",
-            "url": "https://tech.eu/2026/05/13/recursive-superintelligence-emerges-from-stealth-with-650m-raise/"
-          }
-        ],
-        "summary": "由前 OpenAI、Google DeepMind、Meta AI 核心成員創立的 Recursive Superintelligence 走出隱身，宣布完成 6.5 億美元 A 輪融資，估值 46.5 億美元，目標是打造能自動評估、訓練、改進自身的 AI 系統。",
-        "audience": "關注 AI 未來走向的科技愛好者、創業者、投資人",
-        "pain_point": "AI 進化速度太快，不知道下一個會改變一切的 AI 公司是誰，也不懂「自我進化 AI」代表什麼",
-        "title_idea": "又一個隱形獨角獸！Nvidia 押注的 Recursive AI 要讓 AI 自己訓練自己，這代表什麼？",
-        "local_angle": "Recursive 在華語圈幾乎零報導，「自我進化 AI」這個概念科普需求很高；搶先做創辦團隊背景 + 技術白話解析，可以同時吸到科技圈和一般受眾。"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "Claude Code 使用上限再漲 50%，Pro／Max 用戶優惠延長至 7 月 13 日",
-        "sources": [
-          {
-            "name": "FutureTools",
-            "url": "https://futuretools.io/news"
-          },
-          {
-            "name": "Releasebot",
-            "url": "https://releasebot.io/updates/anthropic/claude-code"
-          }
-        ],
-        "summary": "Anthropic 宣布 Claude Code 每週使用上限額外提升 50%，適用 Pro、Max、Team、Enterprise 所有訂閱方案，優惠有效期延長至 2026 年 7 月 13 日。",
-        "audience": "每天用 Claude Code 跑任務的開發者、AI 自動化工作者",
-        "pain_point": "Claude Code 配額不夠用、常撞上使用上限，不確定 Anthropic 是否有長期擴容計畫",
-        "title_idea": "Claude Code 配額又漲了！這次多 50% 還延長到 7 月，現在訂閱最划算嗎？",
-        "local_angle": "台灣工程師社群對 Claude Code 的接受度高，「配額優惠怎麼最大化利用」這種實用攻略幾乎沒有繁中版，做教學搭配升級建議，轉換率高。"
-      },
-      {
-        "title": "Claude Code Agent View 上線：一個介面管理所有 AI 編碼 Session，告別多視窗混亂",
-        "sources": [
-          {
-            "name": "Testing Catalog",
-            "url": "https://www.testingcatalog.com/anthropic-adds-agent-view-for-claude-code-for-parralel-work/"
-          },
-          {
-            "name": "ExplainX.ai",
-            "url": "https://explainx.ai/blog/anthropic-claude-code-agent-view-goal-command"
-          }
-        ],
-        "summary": "Anthropic 推出 Claude Code Agent View Research Preview，讓開發者在單一 CLI 介面管理所有平行 coding session，可背景執行任務、查看進度、一鍵跳回對話，不再需要開多個終端機分頁。",
-        "audience": "用 Claude Code 跑多個平行任務的開發者、Vibe Coding 實踐者",
-        "pain_point": "同時跑多個 Claude Code 任務時，切換視窗很混亂，不知道哪個任務在等待輸入、哪個已完成",
-        "title_idea": "Claude Code 新功能：Agent View 讓你像老闆一樣管多個 AI，一次看清所有進度",
-        "local_angle": "台灣開發者圈正快速採用 Claude Code，「Agent View 實際操作演示」這種教學需求正在上升，現在做是搜尋紅利窗口期。"
-      },
-      {
-        "title": "Microsoft Edge 大更新：Copilot 獲得多分頁推理、瀏覽歷史記憶、語音與視覺功能",
-        "sources": [
-          {
-            "name": "Microsoft 官方 Blog",
-            "url": "https://blogs.windows.com"
-          }
-        ],
-        "summary": "Microsoft 更新 Edge 瀏覽器的 Copilot，新增跨分頁同時推理、長期記憶瀏覽歷史、語音對話、視覺辨識，以及「Journeys」功能，自動將瀏覽紀錄整理成主題卡片。",
-        "audience": "每天用 Edge 瀏覽器工作的職場上班族、Microsoft 365 用戶",
-        "pain_point": "Edge 的 Copilot 以前感覺沒什麼用，不知道現在已升級到可以跨分頁幫你做事",
-        "title_idea": "Edge 的 AI 終於強了！Copilot 新功能可以記住你的瀏覽習慣，上班族必更新",
-        "local_angle": "台灣企業環境大量使用 Microsoft 生態系，「Edge Copilot 實際辦公場景示範」這類教學對上班族吸引力極高，中文版幾乎空白。"
-      },
-      {
-        "title": "Amazon 合併 Rufus＋Alexa+，打造單一購物 AI 助理，支援比價、歷史最低價追蹤",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/05/13/amazon-launches-an-ai-shopping-assistant-for-the-search-bar-powered-by-alexa/"
-          },
-          {
-            "name": "About Amazon",
-            "url": "https://www.aboutamazon.com"
-          }
-        ],
-        "summary": "Amazon 將旗下購物 AI Rufus 與 Alexa+ 合併為單一助理，整合進 Amazon 購物 App、網站及 Echo Show，具備 AI 搜尋、歷史最低價追蹤、第三方零售商比較購物等功能。",
-        "audience": "常在 Amazon 購物或關注消費 AI 趨勢的用戶、電商從業者",
-        "pain_point": "不知道 Amazon 的多個 AI 助理有什麼差異，也不清楚合併後哪些功能最實用",
-        "title_idea": "Amazon 把兩個 AI 合成一個！新購物助理可以自動幫你比價找最低，這功能值得試嗎？",
-        "local_angle": "跨境電商在台灣很熱門，「用 AI 在 Amazon 找最低價」這個實用教學對台灣網購族有直接吸引力，可結合台灣電商平台對比做差異化內容。"
-      }
-    ],
-    "trends": [
-      {
-        "title": "Anthropic 企業客戶數首度超越 OpenAI（Ramp 企業消費數據）",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data/"
-          }
-        ],
-        "summary": "根據企業支出數據平台 Ramp 的統計，Anthropic 使用 Claude 的企業客戶數量已首度超過使用 ChatGPT 的企業，顯示 B2B AI 市場格局正在轉移。",
-        "audience": "關注 AI 商業競爭格局的創業者、行銷人、自媒體創作者",
-        "pain_point": "一直以為 ChatGPT 是企業 AI 的絕對霸主，不清楚 Claude 的企業市場正在悄悄超車",
-        "title_idea": "ChatGPT 被超車了？數據顯示企業用戶現在更愛 Claude，這個趨勢代表什麼？",
-        "local_angle": "這是難得的有數據支撐的「AI 競爭格局」報導，做「台灣企業該選 Claude 還是 ChatGPT」的比較分析，可以同時吸到企業主和一般用戶。"
-      },
-      {
-        "title": "Meta 在 WhatsApp 推出「隱匿對話」：連 Meta 自己也無法讀取的 AI 對話模式",
-        "sources": [
-          {
-            "name": "Meta 官方",
-            "url": "https://about.fb.com"
-          }
-        ],
-        "summary": "Meta 為 WhatsApp 的 Meta AI 推出 Incognito Chat 功能，對話完全端對端加密且不留存，即使是 Meta 員工也無法查看，主打隱私敏感的使用場景。",
-        "audience": "重視隱私的 WhatsApp 用戶、對 AI 對話隱私有疑慮的一般大眾",
-        "pain_point": "和 AI 說的話到底有沒有被公司看到？不確定敏感對話是否安全",
-        "title_idea": "Meta 說連他們自己都看不到你和 AI 的對話——WhatsApp 新隱匿功能，真的可以信任嗎？",
-        "local_angle": "WhatsApp 和 LINE 在台灣都是主流通訊工具，「AI 對話隱私到底有多安全」這個話題對一般大眾吸引力很高，可以做「各大 AI 平台隱私設定完整比較」。"
-      },
-      {
-        "title": "Perplexity Computer Agent 公開安全架構：Firecracker 沙盒＋四層防提示注入，正式角逐企業市場",
-        "sources": [
-          {
-            "name": "Perplexity 官方",
-            "url": "https://www.perplexity.ai"
-          }
-        ],
-        "summary": "Perplexity 詳細公開其 Computer Agent 的安全機制，採用 Firecracker microVM 隔離沙盒與四層提示注入防護，並提供企業版 SAML SSO 與細粒度權限控制，顯示 AI Agent 安全性正成為企業採購的核心考量。",
-        "audience": "企業 IT 主管、評估 AI Agent 導入的決策者、關注 AI 安全的開發者",
-        "pain_point": "想導入 AI Agent 幫公司做事，但擔心資安風險、不知道主流 AI Agent 平台的安全機制是否可靠",
-        "title_idea": "Perplexity 的 AI Agent 為什麼敢讓它幫你管 Gmail 和 Salesforce？四層防護架構大解密",
-        "local_angle": "企業 AI Agent 導入在台灣仍處於早期，「AI Agent 資安怎麼評估」這類內容幾乎空白，做一篇「企業導入 AI Agent 資安核查清單」，同時觸及 IT 和高管受眾。"
       }
     ]
   }
