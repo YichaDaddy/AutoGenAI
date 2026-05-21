@@ -1,5 +1,190 @@
 [
   {
+    "date": "2026-05-21",
+    "big_events": [
+      {
+        "title": "OpenAI AI 模型自主解開困擾數學界 80 年的幾何難題，原創科學發現時代來臨",
+        "sources": [
+          {
+            "name": "Axios",
+            "url": "https://www.axios.com/2026/05/21/ai-news-cycle-openai-anthropic-spacex"
+          },
+          {
+            "name": "imfounder.com",
+            "url": "https://imfounder.com/science-tech/ai/ai-updates-may-2026/"
+          }
+        ],
+        "summary": "OpenAI 通用推理模型宣布自主解開 80 年幾何懸案，被視為 AI 從「輔助人類」邁向「原創發現」的重大里程碑。",
+        "audience": "對 AI 未來充滿好奇的職場上班族、AI 重度使用者",
+        "pain_point": "不確定 AI 的邊界在哪裡、何時會對自己的工作造成真正衝擊",
+        "title_idea": "「AI 剛解開了數學界 80 年的難題」——這意味著什麼？你的工作還安全嗎？",
+        "local_angle": "歐美媒體連環報導，華語圈從「職場影響」角度解析幾乎空白；搶做「AI 原創能力突破對上班族意味著什麼」深度選題正當時"
+      },
+      {
+        "title": "Spotify 單日發布 4 大 AI 功能：個人 Podcast、Q&A 問答、有聲書工具、AI Cover 授權",
+        "sources": [
+          {
+            "name": "TechCrunch（個人 Podcast）",
+            "url": "https://techcrunch.com/2026/05/21/spotify-debuts-a-new-desktop-app-for-creating-personal-podcasts/"
+          },
+          {
+            "name": "TechCrunch（Q&A）",
+            "url": "https://techcrunch.com/2026/05/21/spotify-adds-ai-powered-qa-and-briefing-generation-features-to-podcasts/"
+          },
+          {
+            "name": "TechCrunch（有聲書）",
+            "url": "https://techcrunch.com/2026/05/21/spotify-launches-an-elevenlabs-powered-audiobook-creation-tool/"
+          },
+          {
+            "name": "TechCrunch（AI Cover）",
+            "url": "https://techcrunch.com/2026/05/21/spotify-and-universal-music-strike-deal-allowing-fan-made-ai-covers-and-remixes/"
+          }
+        ],
+        "summary": "Spotify 投資者日一口氣宣布四項 AI 功能：Premium 用戶可生成個人 AI Podcast 日報、即時 Q&A 問答、ElevenLabs 有聲書製作，以及 UMG 授權的 AI 翻唱。",
+        "audience": "Podcast 聽眾、自媒體創作者、每天通勤的職場上班族",
+        "pain_point": "每天資訊爆炸不知從何消化，想要個人化整理但工具太複雜",
+        "title_idea": "「Spotify 把 NotebookLM 的功能搬進來了！」——以後通勤就能讓 AI 幫你生成專屬每日報告",
+        "local_angle": "四則 TechCrunch 文章同日爆發，華語圈整合報導近乎空白；Studio by Spotify 功能直接對標 Google NotebookLM，台灣 Podcast 用戶族群極具教學紅利"
+      },
+      {
+        "title": "Google Gemini Spark 個人 AI Agent 登場，可跨 App 推理行動，AI 大戰進入超高速時代",
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/05/19/google-ai-ultra-gemini-spark-omni.html"
+          },
+          {
+            "name": "Axios",
+            "url": "https://www.axios.com/2026/05/21/google-ai-anthropic-openai-war"
+          }
+        ],
+        "summary": "Google I/O 發布 Gemini Spark 個人 AI Agent，可跨 Gmail、日曆等連接 App 推理並行動；Axios 分析 OpenAI、Anthropic、Google 的競爭周期已壓縮至以小時計。",
+        "audience": "重度 Google Workspace 用戶、職場上班族、AI 產業觀察者",
+        "pain_point": "在多個 App 之間切換耗費大量時間，希望有真正能「跨 App 幫你做事」的智能助手",
+        "title_idea": "「Google AI 終於可以跨 App 幫你做事了」——Gemini Spark 實測：上班族效率翻倍的關鍵",
+        "local_angle": "Google I/O 年度盛事，Gemini Spark 具體工作流教學華語圈幾乎零競爭；搶先做跨 App 自動化示範可快速累積 Google 用戶粉絲群"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "Microsoft 365 Copilot 升級 GPT-5.5，新增 Agent Mode 可直接操作 Word/Excel/PowerPoint",
+        "sources": [
+          {
+            "name": "WinCentral",
+            "url": "https://thewincentral.com/microsoft-365-copilot-may-2026-update-gpt-5-5/"
+          },
+          {
+            "name": "Microsoft Community Hub",
+            "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/available-today-gpt-5-5-instant-in-microsoft-365-copilot/4517084"
+          }
+        ],
+        "summary": "M365 Copilot 同步上線 GPT-5.5 Instant（更快更準）與 Thinking（多步推理），Agent Mode 可直接在 Word/Excel/PowerPoint 中代為執行操作，不只是建議。",
+        "audience": "使用 Microsoft 365 的職場上班族、企業員工",
+        "pain_point": "舊版 Copilot 只能「給建議」，每次還要自己動手改，效率提升有限",
+        "title_idea": "「Microsoft Copilot 進化了！現在會自動幫你改 Excel 和 Word」——GPT-5.5 Agent Mode 完整實測",
+        "local_angle": "台灣企業大量使用 M365，但 Copilot Agent Mode 教學內容嚴重匱乏；實測「讓 AI 直接操作 Office 文件」的示範影片紅利期正開始"
+      },
+      {
+        "title": "Anthropic Claude Compliance API 連日擴增：Netskope、Proofpoint、Cyera 同步宣布整合",
+        "sources": [
+          {
+            "name": "The Manila Times（Netskope）",
+            "url": "https://www.manilatimes.net/2026/05/22/tmt-newswire/globenewswire/netskope-announces-integration-with-claudes-compliance-api-to-strengthen-data-security-and-governance/2349524"
+          },
+          {
+            "name": "Yahoo Finance（Cyera）",
+            "url": "https://finance.yahoo.com/sectors/technology/articles/cyera-extends-ai-security-anthropics-170000906.html"
+          }
+        ],
+        "summary": "Anthropic 合規 API 單日新增 Netskope、Proofpoint、Cyera 三家安全夥伴，企業可即時將 Claude 使用稽核事件串流至 SIEM 系統，解決資料外洩顧慮。",
+        "audience": "IT 主管、企業數位轉型負責人、對 AI 資安有疑慮的決策者",
+        "pain_point": "想在公司導入 Claude，但擔心資料安全問題無法對主管交代",
+        "title_idea": "「公司終於可以放心用 Claude 了？」——Anthropic 合規 API 如何讓 IT 主管不再頭痛",
+        "local_angle": "台灣企業導入 Claude 的最大障礙就是資安，此議題在華語圈幾乎無專題報導；做「企業 AI 導入資安指南」可精準觸及 IT 決策族群"
+      },
+      {
+        "title": "OpenAI Codex 推出 Appshots：可截取 Mac App 畫面供 AI 分析，實現全桌面視覺整合",
+        "sources": [
+          {
+            "name": "FutureTools / X.com (@AriX)",
+            "url": "https://x.com/AriX/status/2057531186688528766"
+          }
+        ],
+        "summary": "OpenAI Codex 新功能 Appshots 讓 AI 能捕捉 Mac 應用程式的畫面脈絡，打通跨 App 視覺理解，實現更流暢的多任務執行。",
+        "audience": "Mac 重度用戶、想用 AI 自動化辦公的上班族、開發者",
+        "pain_point": "AI 工具只能處理文字，無法理解螢幕上正在發生的視覺任務",
+        "title_idea": "「Codex 現在可以『看』你的 Mac 螢幕了」——AI 幫你操電腦的時代正式到來",
+        "local_angle": "歐美開發者社群熱議，但華語圈示範影片幾乎為零；Mac 用戶受眾廣，示範「AI 看螢幕幫你做事」的教學型內容轉換率極高"
+      },
+      {
+        "title": "Krea 推出 LoRAs Fine-tuning Beta：用自訂風格訓練 AI 圖像模型，品牌視覺一致性大升級",
+        "sources": [
+          {
+            "name": "FutureTools / X.com (@krea_ai)",
+            "url": "https://x.com/krea_ai/status/2057468861583347774"
+          }
+        ],
+        "summary": "Krea 推出最強圖像 fine-tuning 系統，用戶可用自選風格、物件或角色訓練 Krea 2 模型，對生成結果擁有更深度的控制力。",
+        "audience": "視覺內容創作者、品牌設計師、想保持個人風格的自媒體人",
+        "pain_point": "AI 生成圖像風格雷同，難以維持品牌或個人創作的一致視覺識別",
+        "title_idea": "「AI 圖像終於可以照你的風格生成了！」——Krea LoRAs 讓你的品牌視覺不再撞臉",
+        "local_angle": "LoRAs 技術在開源社群已成熟，但 Krea 的 SaaS 化版本大幅降低技術門檻；台灣品牌設計師族群對此需求強烈且教學內容稀少"
+      }
+    ],
+    "trends": [
+      {
+        "title": "AI 工具堆疊取代單一 AI：2026 年高效職場人改用「5 工具組合」策略",
+        "sources": [
+          {
+            "name": "Monday.com Blog",
+            "url": "https://monday.com/blog/project-management/ai-productivity-tools/"
+          },
+          {
+            "name": "Efficient App",
+            "url": "https://efficient.app/best/ai-productivity"
+          }
+        ],
+        "summary": "歐美研究顯示，效率最高的職場人不再依賴單一 AI，而是搭建「文件＋會議＋筆記＋研究＋寫作精修」五工具組合，降低跨工具摩擦。",
+        "audience": "花很多錢訂 AI 工具但效率提升有限的職場上班族",
+        "pain_point": "訂了一堆 AI 工具不知道怎麼組合最有效，每月費用越來越高",
+        "title_idea": "「別再只用 ChatGPT 了！」——2026 年高效上班族都在用這套 AI 工具組合（附完整配置清單）",
+        "local_angle": "歐美已有多篇研究驗證此策略，但華語圈幾乎沒有「實際工作流整合示範」；實測型內容搭配本土工具推薦可快速獲得高互動率"
+      },
+      {
+        "title": "Spotify Studio = 職場版 NotebookLM for Audio，個人化 AI 音頻摘要需求浮現",
+        "sources": [
+          {
+            "name": "HowToGeek",
+            "url": "https://www.howtogeek.com/spotify-studio-ai-app-music-audiobooks-podcasts/"
+          },
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/05/07/spotify-wants-to-become-the-home-for-ai-generated-personal-audio/"
+          }
+        ],
+        "summary": "Spotify Studio 整合日曆、Email、文件，可生成個人化 AI 音頻摘要；分析師稱此為繼 Google NotebookLM 後，AI 個人學習工具進入音頻紀元的訊號。",
+        "audience": "學習型上班族、Podcast 重度聽眾、想充分利用通勤時間的職場人",
+        "pain_point": "閱讀文章時間不夠，希望通勤時能用耳朵高效消化工作相關知識",
+        "title_idea": "「比 NotebookLM 更好用？」——Spotify Studio 實測：讓 AI 把你的 PDF 和 Email 變成通勤 Podcast",
+        "local_angle": "Google NotebookLM 在台灣已有熱度，Spotify Studio 以「音頻」升級同概念；做兩者比較教學可同時吃到兩個熱搜流量"
+      },
+      {
+        "title": "另類搜尋引擎崛起：「Google 已不是以前的 Google」，TechCrunch 推薦 6 個替代選項",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/05/21/six-search-engines-worth-trying-now-that-google-isnt-really-google-anymore/"
+          }
+        ],
+        "summary": "TechCrunch 發文指出 Google 因 AI 整合過度已失去原有優勢，整理 6 款值得試用的替代搜尋引擎，AI 搜尋工具競爭格局加速分化。",
+        "audience": "對 Google 搜尋品質不滿的職場上班族、效率工具愛好者",
+        "pain_point": "Google 搜尋廣告越來越多、AI Overview 常常不準確，想找更好用的替代品",
+        "title_idea": "「Google 用不下去了？」——2026 年 6 個職場人必知的搜尋引擎替代方案（含實際測試）",
+        "local_angle": "台灣用戶對 Google 替代工具好奇度高但中文介紹少；實測對比教學 + 本土使用情境分析可創造高分享率"
+      }
+    ]
+  },
+  {
     "date": "2026-05-20",
     "big_events": [
       {
@@ -1154,173 +1339,6 @@
         "pain_point": "AI 工具變化太快，不知道現在該投資哪個平台學習技能才不會被淘汰",
         "title_idea": "AI 大戰 2026 最新格局：ChatGPT vs Claude vs Gemini 誰會贏？職場人現在該押哪個寶？",
         "local_angle": "資本流向預示未來 2-3 年的產品走向，先了解格局的創作者能持續佔據話語權——深度分析文章適合知識型自媒體建立品牌"
-      }
-    ]
-  },
-  {
-    "date": "2026-05-14",
-    "big_events": [
-      {
-        "title": "Google Gemini Spark 洩露：24/7 全天候 AI 代理即將取代你的個人助理",
-        "sources": [
-          {
-            "name": "9to5Google",
-            "url": "https://9to5google.com/2026/05/14/gemini-spark-insight/"
-          },
-          {
-            "name": "Android Authority",
-            "url": "https://www.androidauthority.com/gemini-spark-onboarding-screen-leaked-3667118/"
-          },
-          {
-            "name": "TestingCatalog",
-            "url": "https://www.testingcatalog.com/google-prepares-gemini-spark-ai-agent-ahead-of-i-o-launch/"
-          }
-        ],
-        "summary": "Google 即將在 I/O 發布 Gemini Spark，這個 24/7 全天候 AI 代理可自動管理收件箱、預訂行程、跨 App 完成任務，無需手動提示。",
-        "audience": "想用 AI 代理幫自己處理瑣事的職場上班族、生產力工具愛好者",
-        "pain_point": "每天在 email、行事曆、各種 App 間切換耗費大量時間，卻苦無一個能真正「懂我」並主動幫忙的工具",
-        "title_idea": "Google 要幫你「徹底解放雙手」！Gemini Spark 全天候 AI 代理即將到來，它能幫你做這些事",
-        "local_angle": "Gemini Spark 尚未正式發布，搶先用洩露資訊製作介紹教學，台灣/華語圈幾乎零競爭，搶佔 Google I/O 前流量"
-      },
-      {
-        "title": "OpenAI Codex 正式登陸手機！在手機上遠端掌控 AI 寫程式任務",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/"
-          },
-          {
-            "name": "9to5Mac",
-            "url": "https://9to5mac.com/2026/05/14/openai-brings-codex-control-to-chatgpt-for-iphone-and-android/"
-          },
-          {
-            "name": "FutureTools",
-            "url": "https://openai.com/index/work-with-codex-from-anywhere/"
-          }
-        ],
-        "summary": "OpenAI 將 Codex 整合進 ChatGPT 手機 App（iOS/Android 預覽版），可在手機上遠端監控、審核、啟動 AI 寫程式任務，即時收到差異比對與測試結果。",
-        "audience": "開發者、想學 AI 輔助寫程式的職場工程師、科技創業者",
-        "pain_point": "Codex 只能在電腦操作，外出時無法監控 AI 跑任務的進度，缺乏行動端整合",
-        "title_idea": "AI 寫程式不用守著電腦了！OpenAI Codex 手機版來了，出門在外也能遠端掌控你的 AI 工程師",
-        "local_angle": "Codex 手機版教學在華語圈幾乎空白，搶做上手教學或工作流示範，資訊差紅利大"
-      },
-      {
-        "title": "Anthropic 正式超越 OpenAI！美國企業 AI 採用率首度易主，年化營收破 300 億美元",
-        "sources": [
-          {
-            "name": "VentureBeat",
-            "url": "https://venturebeat.com/technology/anthropic-finally-beat-openai-in-business-ai-adoption-but-3-big-threats-could-erase-its-lead"
-          }
-        ],
-        "summary": "Anthropic 在企業 AI 採用率上首度超越 OpenAI（34.4%），年化營收突破 300 億美元，百萬美元以上客戶兩個月內從 500 家倍增至 1,000 家。",
-        "audience": "企業決策者、科技自媒體創作者、想了解 AI 商業格局的職場人士",
-        "pain_point": "不清楚 Claude 和 ChatGPT 在企業端的真實差距，不知道該押哪匹馬學習或導入",
-        "title_idea": "ChatGPT 王者地位被撼動！Anthropic 首度在企業市場打敗 OpenAI，背後原因讓人意外",
-        "local_angle": "此議題在歐美已引發熱議，但華語圈深度分析內容仍少，可做「Claude vs ChatGPT 企業比較」切入"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "Perplexity Computer 新增 Snowflake 連接器：不懂 SQL 也能用自然語言查公司資料庫",
-        "sources": [
-          {
-            "name": "FutureTools",
-            "url": "https://www.perplexity.ai/hub/blog/computer-brings-data-science-to-every-team"
-          },
-          {
-            "name": "VentureBeat",
-            "url": "https://venturebeat.com/technology/perplexity-takes-its-computer-ai-agent-into-the-enterprise-taking-aim-at"
-          }
-        ],
-        "summary": "Perplexity Computer 新增 Snowflake 與 Databricks 資料連接器，讓非技術員工可用自然語言直接查詢企業資料倉儲，無需 SQL，結果自動生成引用報告。",
-        "audience": "需要查數據但不懂 SQL 的職場上班族、產品經理、業務分析師",
-        "pain_point": "想查公司數據得依賴工程師或 BI 部門，效率低、等待時間長",
-        "title_idea": "終於不用求工程師了！Perplexity Computer 讓你用說話查公司資料庫，這招職場人必學",
-        "local_angle": "企業數據查詢 AI 工具教學在華語圈幾乎空白，可做 Perplexity Computer 完整使用教學，搶先卡位"
-      },
-      {
-        "title": "Microsoft Outlook 五月大更新：Copilot 自動生成每日行事曆簡報、標記時間衝突",
-        "sources": [
-          {
-            "name": "WindowsLatest",
-            "url": "https://www.windowslatest.com/2026/05/10/new-outlook-and-outlook-classic-features-in-may-2026-include-copilot-insights-teammates-calendars-automapped-calendars/"
-          },
-          {
-            "name": "PCWorld",
-            "url": "https://www.pcworld.com/article/3126671/whew-microsofts-smarter-outlook-taps-ai-agents-to-save-you-time.html"
-          }
-        ],
-        "summary": "Outlook 新版 Copilot 可自動生成每日行事曆摘要、偵測衝突並建議重排、會議後自動輸出重點與待辦事項，並新增「我的團隊」行事曆聚合檢視。",
-        "audience": "每天使用 Outlook 的職場上班族、團隊主管、微軟 365 用戶",
-        "pain_point": "行事曆混亂、會議結束後待辦事項散落各處、團隊行程難以整合一覽",
-        "title_idea": "Outlook 這次更新太實用了！Copilot 幫你整理每日行程、抓時間衝突，上班族必看",
-        "local_angle": "微軟 365 在台灣企業普及率高，實際操作教學需求大，可做「五月 Outlook 新功能完整示範」"
-      },
-      {
-        "title": "Clawdmeter：免費桌面小工具讓你即時追蹤 Claude Code 用量，防止超額爆單",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/05/14/clawdmeter-turns-your-claude-code-usage-stats-into-a-tiny-desktop-dashboard/"
-          }
-        ],
-        "summary": "Clawdmeter 是一個輕量桌面看板工具，讓 Claude Code 用戶即時監控 token 使用量與費用，以迷你視窗懸浮呈現，避免不知不覺用超量。",
-        "audience": "重度使用 Claude Code 的開發者、用 Claude API 建置產品的獨立開發者",
-        "pain_point": "Claude Code 用量不透明，擔心月底帳單暴增，缺乏即時監控工具",
-        "title_idea": "Claude Code 用量不失控！這個免費小工具讓你即時監控 AI 花費，開發者必裝",
-        "local_angle": "Claude Code 在台灣開發者圈快速普及，但配套管理工具介紹幾乎空白，教學機會大"
-      },
-      {
-        "title": "Claude Design 正式公開預覽：沒有設計背景也能用 AI 生出簡報、原型、一頁式頁面",
-        "sources": [
-          {
-            "name": "Anthropic",
-            "url": "https://www.anthropic.com/news/claude-design-anthropic-labs"
-          },
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/"
-          }
-        ],
-        "summary": "Anthropic 推出 Claude Design（研究預覽版），由 Claude Opus 4.7 驅動，讓創辦人、PM 等非設計師可用對話方式快速製作視覺作品，支援直接編輯與即時調整。",
-        "audience": "沒有設計背景的職場人士、獨立創業者、自媒體創作者",
-        "pain_point": "想做出漂亮的簡報或產品原型，但不會用 Figma 或 PowerPoint 做出專業視覺效果",
-        "title_idea": "不會設計也沒關係！Claude Design 讓你用說話做出專業簡報和產品原型，職場人必試",
-        "local_angle": "Claude Design 在華語圈教學稀少，可搶做入門教學示範影片，Anthropic 工具系列流量正在上升"
-      }
-    ],
-    "trends": [
-      {
-        "title": "AI Agent 企業滲透加速：Microsoft、Perplexity、Google 爭相卡位，職場自動化元年已至",
-        "sources": [
-          {
-            "name": "UnderCodeNews",
-            "url": "https://undercodenews.com/microsoft-outlook-may-2026-update-brings-ai-insights-smarter-calendars-and-powerful-productivity-features/"
-          },
-          {
-            "name": "VentureBeat",
-            "url": "https://venturebeat.com/technology/perplexity-takes-its-computer-ai-agent-into-the-enterprise-taking-aim-at"
-          }
-        ],
-        "summary": "多家 AI 公司同步推出企業級 AI 代理工具（Microsoft Agent 365、Perplexity Computer、Gemini Spark），AI 從個人助手轉向跨系統自動化執行，職場自動化進入真實落地階段。",
-        "audience": "對職場自動化趨勢有興趣的上班族、科技自媒體創作者、企業 IT 管理者",
-        "pain_point": "感受到 AI 浪潮卻不確定該從哪裡切入學習，不知道公司會先導入哪些 AI 工具",
-        "title_idea": "2026 職場 AI 代理大爆發！這 3 個工具正在取代你的重複性工作，你準備好了嗎？",
-        "local_angle": "AI Agent 落地趨勢在歐美已成主流討論，華語圈「企業 AI 代理入門」內容供給嚴重不足，可做系列內容"
-      },
-      {
-        "title": "創作者開始「賣資料」給 AI！Wirestock 融資 2300 萬美元，開闢全新 AI 時代變現路線",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/05/14/wirestock-raises-23m-to-supply-multi-modal-data-to-ai-labs/"
-          }
-        ],
-        "summary": "圖片/影片創作平台 Wirestock 獲 2300 萬美元融資，專門向 AI 公司供應多模態訓練資料，開創「內容創作者直接授權資料給 AI Lab 賺錢」的新商業模式。",
-        "audience": "攝影師、設計師、影片創作者、關注 AI 變現方式的自媒體人",
-        "pain_point": "擔心 AI 衝擊自己的創作收入，想知道有沒有辦法反而從 AI 發展中獲益",
-        "title_idea": "AI 不是你的敵人！創作者靠「賣資料」給 AI 公司賺錢，這個新商業模式值得你了解",
-        "local_angle": "「AI 資料經濟」在歐美剛起步，華語圈幾乎沒有相關報導，搶先介紹有極大資訊差紅利"
       }
     ]
   }

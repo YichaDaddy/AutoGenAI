@@ -1,0 +1,125 @@
+=== Fri May 22 06:00:01 CST 2026 | Starting daily AI report ===
+看板更新成功。以下是今日完整日報：
+
+---
+
+## 爆款選題日報｜2026-05-21｜賽道：AI 效率工具 × 職場上班族
+
+---
+
+### 板塊一：大事件
+
+**1. OpenAI AI 模型自主解開困擾數學界 80 年的幾何難題**
+- **來源**：[Axios](https://www.axios.com/2026/05/21/ai-news-cycle-openai-anthropic-spacex)
+- **一句摘要**：OpenAI 通用推理模型宣布自主解開 80 年幾何懸案，被視為 AI 進入「原創科學發現」的重大里程碑。
+- **目標受眾**：對 AI 能力感到好奇又有點焦慮的職場上班族
+- **痛點**：不確定 AI 的邊界在哪，何時會真正衝擊自己的工作
+- **標題雛形**：「AI 剛解開了數學界 80 年的難題」——這意味著什麼？你的工作還安全嗎？
+- **本地化切角**：歐美媒體連環報導，華語圈從「職場影響」角度解析幾乎空白，搶先切入紅利大
+
+**2. Spotify 單日發布 4 大 AI 功能：個人 Podcast、Q&A、有聲書、AI Cover 授權**
+- **來源**：TechCrunch（[個人Podcast](https://techcrunch.com/2026/05/21/spotify-debuts-a-new-desktop-app-for-creating-personal-podcasts/) · [Q&A](https://techcrunch.com/2026/05/21/spotify-adds-ai-powered-qa-and-briefing-generation-features-to-podcasts/) · [有聲書](https://techcrunch.com/2026/05/21/spotify-launches-an-elevenlabs-powered-audiobook-creation-tool/) · [AI Cover](https://techcrunch.com/2026/05/21/spotify-and-universal-music-strike-deal-allowing-fan-made-ai-covers-and-remixes/)）—— **4 家媒體報導**
+- **一句摘要**：Spotify 投資者日一口氣宣布四項 AI 功能，Studio 應用對標 Google NotebookLM，讓通勤族可生成每日 AI 音頻日報。
+- **標題雛形**：「Spotify 把 NotebookLM 的功能搬進來了！」——以後通勤就能讓 AI 幫你生成專屬每日報告
+- **本地化切角**：四篇 TechCrunch 同日爆發，華語圈整合報導近乎空白
+
+**3. Google Gemini Spark 個人 AI Agent 登場，可跨 App 推理行動**
+- **來源**：[CNBC](https://www.cnbc.com/2026/05/19/google-ai-ultra-gemini-spark-omni.html) · [Axios](https://www.axios.com/2026/05/21/google-ai-anthropic-openai-war) —— **2 家媒體報導**
+- **一句摘要**：Google I/O 發布可跨 Gmail、日曆等連接 App 推理行動的個人 AI Agent，AI 大戰競爭周期壓縮至以小時計。
+- **標題雛形**：「Google AI 終於可以跨 App 幫你做事了」——Gemini Spark 實測：上班族效率翻倍關鍵
+- **本地化切角**：Gemini Spark 具體工作流教學華語圈幾乎零競爭
+
+---
+
+### 板塊二：工具更新
+
+**4. Microsoft 365 Copilot 升級 GPT-5.5，新增 Agent Mode 直接操作 Word/Excel**
+- **來源**：[WinCentral](https://thewincentral.com/microsoft-365-copilot-may-2026-update-gpt-5-5/) · [Microsoft Community Hub](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/available-today-gpt-5-5-instant-in-microsoft-365-copilot/4517084)
+- **一句摘要**：Copilot 從「給建議」升級為「直接動手做」，Agent Mode 可在 Office 文件中自主執行多步驟操作。
+- **標題雛形**：「Microsoft Copilot 進化了！現在會自動幫你改 Excel 和 Word」——GPT-5.5 Agent Mode 完整實測
+- **本地化切角**：台灣企業大量使用 M365，Copilot Agent Mode 教學嚴重匱乏，教學紅利期正開始
+
+**5. Anthropic Claude Compliance API：Netskope、Proofpoint、Cyera 同步宣布整合**
+- **來源**：[The Manila Times（Netskope）](https://www.manilatimes.net/2026/05/22/tmt-newswire/globenewswire/netskope-announces-integration-with-claudes-compliance-api-to-strengthen-data-security-and-governance/2349524) · [Yahoo Finance（Cyera）](https://finance.yahoo.com/sectors/technology/articles/cyera-extends-ai-security-anthropics-170000906.html)
+- **一句摘要**：企業可即時將 Claude 使用稽核事件串流至 SIEM 系統，正式解決 IT 主管的資料安全顧慮。
+- **標題雛形**：「公司終於可以放心用 Claude 了？」——Anthropic 合規 API 如何讓 IT 主管不再頭痛
+- **本地化切角**：台灣企業導入 Claude 最大障礙就是資安，此議題華語圈幾乎無專題報導
+
+**6. OpenAI Codex 推出 Appshots：可截取 Mac App 畫面供 AI 分析**
+- **來源**：[X.com @AriX](https://x.com/AriX/status/2057531186688528766)
+- **一句摘要**：Appshots 讓 AI 能捕捉 Mac App 畫面脈絡，打通跨 App 視覺理解，實現全桌面智能整合。
+- **標題雛形**：「Codex 現在可以『看』你的 Mac 螢幕了」——AI 幫你操電腦的時代正式到來
+- **本地化切角**：歐美開發者熱議，華語圈示範影片幾乎為零
+
+**7. Krea 推出 LoRAs Fine-tuning Beta：用自訂風格訓練 Krea 2 圖像模型**
+- **來源**：[X.com @krea_ai](https://x.com/krea_ai/status/2057468861583347774)
+- **一句摘要**：Krea 推出最強 fine-tuning 系統，用戶可用自選風格訓練模型，品牌視覺一致性大幅提升。
+- **標題雛形**：「AI 圖像終於可以照你的風格生成了！」——Krea LoRAs 讓你的品牌視覺不再撞臉
+- **本地化切角**：台灣品牌設計師需求強，SaaS 化降低技術門檻，教學空白
+
+---
+
+### 板塊三：值得追蹤的趨勢
+
+**8. AI 工具堆疊策略：2026 年高效職場人改用「5 工具組合」取代單一 AI**
+- **來源**：[Monday.com Blog](https://monday.com/blog/project-management/ai-productivity-tools/) · [Efficient App](https://efficient.app/best/ai-productivity)
+- **標題雛形**：「別再只用 ChatGPT 了！」——2026 年高效上班族都在用這套 AI 工具組合（附完整配置清單）
+
+**9. Spotify Studio = 職場版 NotebookLM for Audio，AI 個人音頻學習需求浮現**
+- **來源**：[HowToGeek](https://www.howtogeek.com/spotify-studio-ai-app-music-audiobooks-podcasts/)
+- **標題雛形**：「比 NotebookLM 更好用？」——Spotify Studio 實測：把 PDF 和 Email 變成通勤 Podcast
+
+**10. TechCrunch 推薦 6 個 Google 替代搜尋引擎：「Google 已不是以前的 Google」**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/05/21/six-search-engines-worth-trying-now-that-google-isnt-really-google-anymore/)
+- **標題雛形**：「Google 用不下去了？」——2026 年 6 個職場人必知的搜尋引擎替代方案（含實際測試）
+
+---
+
+### 來源覆蓋狀況
+
+| 來源 | 狀態 | 昨日內容數量 | 備註 |
+|------|------|------------|------|
+| TechCrunch AI | ✅ | 6 條 | WebFetch 直讀成功 |
+| FutureTools News | ✅ | 6 條 | WebFetch 直讀成功 |
+| The Verge AI | ❌ | 0 條 | WebFetch 被網站封鎖，已改用 WebSearch 補充 |
+| @OpenAI / OpenAI | ✅ | 2 條 | 透過 WebSearch 間接取得（Appshots、數學難題） |
+| @AnthropicAI | ✅ | 1 條 | 透過 WebSearch 取得（Compliance API） |
+| @GoogleDeepMind | ✅ | 1 條 | 透過 CNBC/Axios 報導取得（Gemini Spark） |
+| Matt Wolfe / YouTube 頻道 | ❌ | 0 條 | 未直接抓取，以媒體報導補全重大事件 |
+| Axios（AI 產業分析） | ✅ | 2 條 | WebSearch 取得 |
+
+---
+
+💡 您的專屬網頁版看板已同步更新，可隨時打開 `daily_topic_dashboard.html` 查看。
+
+DONE
+--- AI report finished at Fri May 22 06:05:52 CST 2026 ---
+=== Fri May 22 06:05:52 CST 2026 | Starting daily finance report ===
+看板更新成功。
+
+---
+
+## 財經日報完成摘要 — 2026-05-21
+
+已從 Bloomberg RSS、ZeroHedge、Yahoo Finance、UnusualWhales、WebSearch 抓取昨日財經新聞並篩選 10 則，寫入 `latest_finance_topics.json`：
+
+**market_shocks（市場震撼彈）4則**
+1. SpaceX IPO 史上最大上市，估值 $1.7 兆，6/12 Nasdaq 掛牌
+2. 美政府 $20 億補貼量子電腦，QBTS +33%、IBM +12%
+3. 荷姆茲海峽危機威脅 2008 等級衰退，油價恐飆 $200
+4. Bitcoin ETF 反常：幣價漲反引爆鯨魚賣潮
+
+**investment_opportunities（投資機會）3則**
+1. Workday 財報打臉 AI 顛覆論，企業軟體股迎估值修復
+2. 美國急建本土稀土供應鏈，台灣磁性材料廠潛在受益
+3. Michael Burry 重押槓桿空頭，切入防禦型低估值股邏輯
+
+**macro_observations（總經觀察）3則**
+1. 聯準會 Barkin 警告通膨錨被侵蝕，降息時間表再推遲
+2. 道瓊創歷史新高但 CPPIB 執行長警告 AI 估值「不安」
+3. Musk 警告美國財政破產同時力推 AI 全民高收入
+
+HTML 看板已更新：Finance 現有 **6 個日期**資料。
+
+**FINANCE DONE**
+--- Finance report finished at Fri May 22 06:11:40 CST 2026 ---
