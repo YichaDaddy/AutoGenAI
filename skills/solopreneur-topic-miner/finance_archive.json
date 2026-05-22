@@ -1,5 +1,190 @@
 [
   {
+    "date": "2026-05-22",
+    "market_shocks": [
+      {
+        "title": "全球長債殖利率創近20年新高，市場押注Fed新主席Warsh今年升息",
+        "sources": [
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/videos/2026-05-22/global-long-bond-yields-hit-highest-in-two-decades-video"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/05/22/treasury-yields-bonds-investing-fed-rate-hikes.html"
+          }
+        ],
+        "summary": "美國30年期公債殖利率突破5.1%，創下近20年高點。市場定價顯示61%機率Fed新主席Warsh今年將升息，徹底打破降息預期。通膨CPI年增3.8%、PPI年增6.0%，雙雙超出市場預期。",
+        "tw_stock_impact": "美債殖利率飆升將壓縮台股本益比空間，外資可能調整資產配置，高本益比科技股（如AI族群）面臨評價重估壓力。",
+        "investment_insight": "考慮縮減高本益比科技股部位，增持現金流穩定的防禦型股票（金融、能源）；若手中有美股長期公債ETF（TLT）應評估停損。",
+        "title_idea": "利率衝天！Fed新主席要升息，30年美債突破5%台股AI股要變盤？",
+        "local_angle": "台積電等科技巨頭本益比若遭重估，台股加權指數短期恐面臨修正，尤其外資持股比重高的台灣50成分股影響最大。"
+      },
+      {
+        "title": "美銀牛熊指標觸發「8級」極端樂觀訊號，歷史上每次出現後市場大跌",
+        "sources": [
+          {
+            "name": "ZeroHedge",
+            "url": "https://www.zerohedge.com/the-market-ear/nobody-fears-downside-anymore"
+          }
+        ],
+        "summary": "美銀美林（BofA）Bull & Bear Indicator衝至8，達到歷史性「逆向賣出訊號」閾值，顯示市場情緒極度樂觀、下行保護幾乎消失。歷史上每次觸發此訊號後數週內，市場往往出現10%以上回檔。下行保護成本創近期新低，投資人普遍不再恐懼。",
+        "tw_stock_impact": "美股若迎來技術性修正，台股通常有放大效應，預計跌幅可能為美股的1.2至1.5倍，科技類股首當其衝。",
+        "investment_insight": "適當提高現金部位至20-30%，考慮購買台指期保護性空單或台股反向ETF（如00632R）做為避險工具；避免此時用融資加碼。",
+        "title_idea": "美銀恐慌計量表亮紅燈！歷史上每次到這個數字，股市都大跌10%以上",
+        "local_angle": "台灣散戶在大盤創高時往往追高買進，此訊號提醒現在才進場的投資人需格外謹慎，建議先觀望再說。"
+      },
+      {
+        "title": "中國煉油率跌破67%創史上最低，中國經濟硬著陸警報全面拉響",
+        "sources": [
+          {
+            "name": "ZeroHedge",
+            "url": "https://www.zerohedge.com/markets/chinese-refining-rates-unexpectedly-plunge-all-time-lows-economy-falls-cliff"
+          }
+        ],
+        "summary": "中國國有煉油廠產能利用率跌破67%，創歷史最低水位，反映中國內需急遽萎縮。此數字通常為製造業與消費活動的領先指標，預示中國經濟景氣將進一步惡化，市場震驚於惡化速度之快。",
+        "tw_stock_impact": "中國需求崩跌直接衝擊台灣對中出口企業，石化、鋼鐵、塑料等原材料類股面臨供需惡化壓力，台化、南亞、中鋼等需特別留意。",
+        "investment_insight": "減持對中國景氣循環高度敏感的台灣出口概念股；轉向內需導向或北美市場布局較強的企業，如美系客戶比重高的IC設計廠。",
+        "title_idea": "中國煉油廠停擺創史上最慘！這個數字說明中國經濟可能真的出大事了",
+        "local_angle": "台灣石化、鋼鐵族群與中國需求高度相關，若此數據為趨勢性惡化，相關類股ETF中的傳產成分股將持續承壓。"
+      },
+      {
+        "title": "日本引爆40兆美元美債危機，公債殖利率衝破2007年金融危機高點",
+        "sources": [
+          {
+            "name": "ZeroHedge",
+            "url": "https://www.zerohedge.com/news/2026-05-21/japan-just-triggered-40t-us-debt-crisis-yields-hit-2007-highs"
+          },
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/videos/2026-05-22/global-long-bond-yields-hit-highest-in-two-decades-video"
+          }
+        ],
+        "summary": "日本央行政策調整引發全球連鎖反應，美國公債殖利率攀升至2007年金融危機前水準。日本作為全球最大美債持有國之一，其拋售動作直接衝擊40兆美元的美國公債市場，市場擔憂「債務惡性循環」就此開啟。",
+        "tw_stock_impact": "日本大規模減持美債可能引發外資從新興市場撤離潮，台灣作為外資重要投資地，資金外流風險顯著上升，新台幣匯率承壓。",
+        "investment_insight": "密切追蹤美元兌台幣匯率走勢，若台幣出現明顯貶值，外資撤退訊號確認；此時應減少融資槓桿，保留充足流動性以備危機入場。",
+        "title_idea": "日本一個動作引爆40兆美元定時炸彈！這是2008金融危機前奏嗎？",
+        "local_angle": "若外資大舉撤台，台股可能出現「外資提款機」效應，歷史上類似情境（如2022年）台股最大跌幅逾30%，需提高警戒。"
+      }
+    ],
+    "investment_opportunities": [
+      {
+        "title": "SEC批准Nasdaq比特幣指數選擇權，加密貨幣正式融入華爾街主流金融",
+        "sources": [
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-05-22/nasdaq-bitcoin-index-options-granted-approval-by-sec"
+          },
+          {
+            "name": "SEC Filing",
+            "url": "https://www.sec.gov/files/rules/sro/phlx/2026/34-105549.pdf"
+          }
+        ],
+        "summary": "美國SEC於5月22日正式批准Nasdaq推出比特幣指數選擇權（XBTX），允許傳統股票市場交易者透過選擇權對沖或押注比特幣價格。繼比特幣現貨ETF後，這是加密市場進入主流金融體系的又一重大里程碑，機構投資者工具箱再度擴充。",
+        "tw_stock_impact": "台灣加密貨幣友善政策下，此消息利好相關概念股；台灣投資人也可透過海外券商複委託間接布局比特幣相關ETF（如IBIT）。",
+        "investment_insight": "可分批布局比特幣相關資產（IBIT ETF、MicroStrategy等），選擇權批准代表機構進場工具更齊備，有助比特幣長期走強；短線不追高，等回測支撐再布局。",
+        "title_idea": "比特幣正式登陸華爾街選擇權市場！機構資金這次真的要大舉進場了？",
+        "local_angle": "台灣投資人長期關注加密市場，此消息代表比特幣「機構化」進程加速，可考慮透過複委託購買IBIT等美國上市比特幣ETF分批布局。"
+      },
+      {
+        "title": "Burry警告AI泡沫同時逆向布局：大舉買進MercadoLibre、Adobe、PayPal",
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/05/19/michael-burry-adds-to-beaten-down-stocks-while-warning-of-echoes-of-dot-com-bubble.html"
+          },
+          {
+            "name": "Stocktwits/Burry Substack",
+            "url": "https://stocktwits.com/news-articles/markets/equity/will-mega-ipos-break-the-bull-market-burry-doesnt-think-so/cZgRb3DRe86"
+          }
+        ],
+        "summary": "「大空頭」Michael Burry一邊發出市場見頂警告，一邊在1,500美元區間大幅加碼拉丁美洲電商龍頭MercadoLibre，同時建立Adobe、PayPal、Zoetis、Lululemon滿倉部位。Burry認為這些被市場拋棄的優質企業在泡沫破滅後將成最強反彈標的。",
+        "tw_stock_impact": "Burry的選股邏輯（被錯殺的科技基本面股）對台灣投資人有參考意義，台股中同樣存在被AI熱潮掩蓋的優質傳產與軟體股值得發掘。",
+        "investment_insight": "參考Burry選股框架，尋找台股中本益比相對低、被市場忽略的金融科技、電商、醫療子板塊標的；對飆漲AI概念股逐步獲利了結。",
+        "title_idea": "Burry說市場要崩，但他偷偷狂買這幾檔！大空頭的真實佈局首度曝光",
+        "local_angle": "台灣投資人慣於追逐熱門股，Burry的反向操作策略提供了在高估值市場中尋找安全邊際的具體框架與可操作名單。"
+      },
+      {
+        "title": "美-伊和談推進銅價、油價走強，原物料多頭行情有望延續",
+        "sources": [
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-05-22/metals-advance-as-traders-track-progress-in-us-iran-peace-talks"
+          },
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-05-22/us-oil-rig-count-up-by-most-in-four-years-amid-drilling-recovery"
+          }
+        ],
+        "summary": "美國-伊朗和平談判取得進展，推動銅、石油等原物料走強，風險情緒明顯好轉。同時美國頁岩油鑽探活動創四年最快增速，反映業者對高油價積極回應。和談若成功，地緣政治風險溢價將顯著下降。",
+        "tw_stock_impact": "若和談達成油價回落，將降低台灣能源進口成本，利好航運、塑化等高能源成本產業；銅價走強則利好電線電纜、銅箔基板廠。",
+        "investment_insight": "短線布局受益地緣政治改善的原物料ETF；若和談確認達成，轉向受惠油價回落的航空（中華航空）、塑化（台塑四寶）族群。",
+        "title_idea": "美伊停戰談判神速推進！銅價油價同步飆漲，這些台股族群要大漲？",
+        "local_angle": "台灣高度依賴能源進口，和談若達成將直接減輕企業能源負擔；電動車供應鏈（銅材需求）廠商亦可能受益於銅價走強訊號。"
+      }
+    ],
+    "macro_observations": [
+      {
+        "title": "Warsh接掌Fed陷入「升息vs.降息」政治角力，美債市場進入未知水域",
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/05/14/bond-market-fed-inflation-warsh-powell.html"
+          },
+          {
+            "name": "Euronews",
+            "url": "https://www.euronews.com/business/2026/05/14/us-30-year-bond-yield-tops-5-as-kevin-warsh-takes-fed-helm-and-inflation-rises"
+          },
+          {
+            "name": "Motley Fool",
+            "url": "https://www.fool.com/investing/2026/05/21/why-kevin-warsh-will-have-to-defy-trump-on-interes/"
+          }
+        ],
+        "summary": "新任Fed主席Kevin Warsh面臨棘手困境：通膨CPI達3.8%、PPI達6%，理應升息；但特朗普政府強烈希望降息刺激經濟。市場定價61%機率年內升息，與政治期望形成正面衝突，央行獨立性風險上升至2018年以來最高點。",
+        "tw_stock_impact": "若Fed真的升息，全球風險資產將面臨大規模重新定價，台灣科技出口股本益比壓縮不可避免；台幣也可能在美元走強下出現貶值。",
+        "investment_insight": "增持美元現金部位或美元定存，對沖台幣貶值風險；若Fed升息確認，可考慮做多美元計價資產，分散台幣資產比重。",
+        "title_idea": "Fed新主席被夾在通膨和川普之間！他的一個決定將決定全球股市命運",
+        "local_angle": "台灣央行通常跟隨Fed政策方向，若美升息台灣也可能跟進，影響房市貸款利率及企業融資成本，房地產投資需重新評估。"
+      },
+      {
+        "title": "Burry：AI股漲幅已超越1999年科網泡沫，放空半導體ETF訊號正式啟動",
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/05/11/michael-burry-is-not-a-believer-for-any-stocks-going-parabolic-reduce-positions-almost-entirely.html"
+          },
+          {
+            "name": "247WallSt",
+            "url": "https://247wallst.com/investing/2026/05/18/michael-burry-says-todays-top-10-stocks-surged-784-in-a-year-the-pre-dot-com-number-was-622/"
+          }
+        ],
+        "summary": "Burry指出當前美股前10大股票過去一年漲幅達784%，遠超1999年科網泡沫前夕的622%。他在Substack警告「市場已跳過鯊魚」，建立半導體ETF SOXX的大規模空倉（2027年1月Put選擇權）。他說「對任何拋物線上升的股票，幾乎全部減持。」",
+        "tw_stock_impact": "台積電、聯發科等AI供應鏈龍頭是Burry眼中泡沫的直接受益者，也可能是泡沫破裂的最大受害者；台股AI族群的集中風險不容忽視。",
+        "investment_insight": "採用「核心-衛星」策略：核心持有台積電長期部位不動，衛星部位逐步獲利了結AI概念股，以部分資金布局非AI題材的被低估標的。",
+        "title_idea": "大空頭Burry：這次AI泡沫比1999年更瘋狂！他放空半導體的理由讓人不寒而慄",
+        "local_angle": "台積電在全球AI供應鏈的核心地位使其既是最大受益者也是最大風險承擔者，台灣投資人應評估自身對AI題材的集中度是否過高。"
+      },
+      {
+        "title": "Musk警告美國財政崩潰：年息突破一兆美元，2026財年赤字衝向2兆",
+        "sources": [
+          {
+            "name": "TheStreet",
+            "url": "https://www.thestreet.com/economy/elon-musk-has-a-stark-message-on-americans-and-the-economy"
+          },
+          {
+            "name": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/economy/policy/articles/elon-musk-has-a-stark-message-on-americans-and-the-economy-231109645.html"
+          }
+        ],
+        "summary": "馬斯克公開表示「美國若不解決腐敗與浪費問題，將走向破產」。2026財年上半年美國已借款1.2兆美元，全年赤字預估達2兆美元，且年度利息支出首次突破1兆美元大關，幾乎等於整個國防預算。",
+        "tw_stock_impact": "美國財政惡化將維持長端利率高位，壓制全球成長股估值；美元中期走弱風險也可能導致台幣升值，影響台灣出口廠商獲利換算。",
+        "investment_insight": "布局黃金作為美元信用風險的避險工具，考慮黃金ETF（00635U）或台灣黃金存摺，建立資產組合中5-10%的保險倉位應對長期財政不確定性。",
+        "title_idea": "馬斯克說美國快破產了！利息一年超過一兆美元，這數字嚇壞全球投資人",
+        "local_angle": "台灣外匯存底高達5000億美元，大量美債部位面臨潛在貶值風險；黃金作為避險資產在此背景下對台灣個人投資者尤其有配置意義。"
+      }
+    ]
+  },
+  {
     "date": "2026-05-21",
     "market_shocks": [
       {

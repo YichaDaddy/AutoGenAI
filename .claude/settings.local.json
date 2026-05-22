@@ -27,7 +27,11 @@
       "Bash(launchctl list *)",
       "Bash(git merge *)",
       "Bash(date -v-1d +%Y-%m-%d)",
-      "Bash(/Applications/cmux.app/Contents/Resources/bin/claude --dangerously-skip-permissions -p ' *)"
+      "Bash(/Applications/cmux.app/Contents/Resources/bin/claude --dangerously-skip-permissions -p ' *)",
+      "Bash(shasum -a 256)",
+      "Bash(awk '{print $1}')",
+      "Bash(git -C /Users/mac/projects/AutoGenAI status)",
+      "Bash(git -C /Users/mac/projects/AutoGenAI diff --stat)"
     ]
   }
 }

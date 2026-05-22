@@ -1,0 +1,126 @@
+=== Sat May 23 06:00:01 CST 2026 | Starting daily AI report ===
+DONE
+
+---
+
+## 2026-05-22 歐美 AI 情報日報
+
+**賽道：AI 效率工具 ｜ 受眾：職場上班族**
+
+---
+
+### 板塊一：大事件（3 則）
+
+**1. Google I/O 2026：Gemini 3.5 Flash 超越旗艦、AI 搜尋可長對話、Ask YouTube 問影片**
+- 來源：[Google Developers Blog](https://developers.googleblog.com/all-the-news-from-the-google-io-2026-developer-keynote/) · [Google Blog 100 項公告](https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/)
+- 一句摘要：I/O 2026 發布 Gemini 3.5 Flash（速度媲美旗艦）、AI 搜尋重構為對話式、YouTube Ask 讓觀眾直接問影片內容。
+- 標題雛形：「Google I/O 最重要的 5 個更新，職場上班族怎麼用？」
+- 本地化切角：華語圈多停留在宣告式摘要，搶做 Gemini 工作流實操教學，資訊差紅利最大
+
+**2. Anthropic Claude Mythos：AI 自主找出 1 萬個軟體漏洞，效率是人工測試的 10 倍**
+- 來源：[Anthropic Project Glasswing](https://www.anthropic.com/glasswing) · [Investing.com](https://ca.investing.com/news/stock-market-news/anthropic-finds-over-10000-software-flaws-in-first-month-of-project-glasswing-93CH-4657011)
+- 一句摘要：Claude Mythos Preview 聯合 50 家合作夥伴掃描出逾 1 萬個高危漏洞，Mozilla Firefox 發現 271 個是人工工具 10 倍。
+- 標題雛形：「Anthropic 的新 AI 比人類安全測試員強 10 倍——這意味著什麼？」
+- 本地化切角：企業 AI 資安議題在華語圈幾乎零深度報導，切「企業導入 AI 的資安建議」角度精準觸及 IT 決策者
+
+**3. Anthropic Code w/ Claude 大會：Managed Agents 正式 GA、Claude Opus 4.7 編程排名登頂**
+- 來源：[MindStudio](https://www.mindstudio.ai/blog/code-with-claude-2026-new-agent-features) · [Anthropic](https://www.anthropic.com/news)
+- 一句摘要：發布 Managed Agents GA（支援多 Agent 協作與 webhooks）；Opus 4.7 在 SWE-bench 達 87.6%，超越 GPT-5.4 的 74.9%。
+- 標題雛形：「Claude 編程能力正式超越 GPT！Managed Agents 讓 AI 自動幫你跑任務」
+- 本地化切角：用白話文示範「Managed Agents 能幫職場人做什麼」，非技術受眾幾乎空白
+
+---
+
+### 板塊二：工具更新（4 則）
+
+**4. Ideogram MCP 整合：在 Claude 和 ChatGPT 對話框直接生成設計圖**
+- 來源：[FutureTools](https://futuretools.io/news)
+- 標題雛形：「以後在 Claude 裡就能直接畫圖了！Ideogram MCP 完整設定教學」
+- 切角：MCP 整合教學在華語圈幾乎空白，示範型教學轉換率極高
+
+**5. Leonardo AI 3D 物件生成：2D 圖像一鍵轉可用於遊戲引擎和 3D 列印的模型**
+- 來源：[FutureTools](https://futuretools.io/news)
+- 標題雛形：「一張圖就能生成 3D 模型了！Leonardo AI 幫獨立開發者省下 80% 製作時間」
+
+**6. Microsoft Bing AI 圖像搜尋：分類區段取代網格、智能摘要加速決策**
+- 來源：[FutureTools](https://futuretools.io/news)
+- 標題雛形：「Bing 圖片搜尋變智能了！AI 分類整理讓找圖效率翻倍」
+
+**7. Perplexity Bumblebee：防止開發者被 AI 工具包攻擊的開源安全掃描器**
+- 來源：[FutureTools](https://futuretools.io/news)
+- 標題雛形：「用 AI 工具越多越要小心——Bumblebee 開源掃描器保護你的開發環境」
+
+---
+
+### 板塊三：值得追蹤的趨勢（3 則）
+
+**8. Agentic AI 成獨立產品類別：Microsoft Agent 365、Cursor 3 Fleet、Claude Managed Agents 同期發布**
+- 標題雛形：「AI Agent 不只是功能，它已成為全新產品類別——企業必懂的 Agentic AI 全景圖」
+
+**9. Google AI 眼鏡實測：「幾乎可以上市了」——穿戴式 AI 助手距離普及只差一步**
+- 來源：[TechCrunch](https://techcrunch.com/2026/05/22/we-tried-googles-ai-glasses-and-theyre-almost-there/)
+- 標題雛形：「Google AI 眼鏡真的快來了！TechCrunch 第一手實測報告」
+
+**10. VC 用膨脹 ARR 製造 AI 獨角獸神話，TechCrunch 揭露估值泡沫**
+- 來源：[TechCrunch](https://techcrunch.com/2026/05/22/how-vcs-and-founders-use-inflated-arr-to-kingmake-ai-startups/)
+- 標題雛形：「那些 AI 獨角獸可能沒你想的那麼值錢——VC 的數字遊戲揭秘」
+
+---
+
+### 來源覆蓋狀況
+
+| 來源 | 狀態 | 昨日內容 | 備註 |
+|------|------|---------|------|
+| TechCrunch AI | ✅ | 4 篇 | 直接抓取成功 |
+| FutureTools News | ✅ | 8 則 | 工具更新豐富 |
+| Google I/O Blog | ✅ | 大量 | WebSearch 成功取得 |
+| Anthropic News | ✅ | 3 則 | WebSearch 成功 |
+| Matt Wolfe YouTube | ❌ | 0 | YouTube 頁面無法直接抓取 |
+| The Verge AI | ❌ | 0 | 需直接存取，改由 FutureTools 補充 |
+| @OpenAI / @AnthropicAI / @GoogleDeepMind | ❌ | 0 | X/Twitter 直接存取失敗，以 WebSearch 間接補充 |
+
+💡 您的專屬網頁版看板已同步更新，可隨時打開 `daily_topic_dashboard.html` 查看。
+
+Sources:
+- [Google I/O 2026 Developer Keynote](https://developers.googleblog.com/all-the-news-from-the-google-io-2026-developer-keynote/)
+- [100 things announced at Google I/O 2026](https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/)
+- [Anthropic Project Glasswing](https://www.anthropic.com/glasswing)
+- [TechCrunch: Google AI Glasses](https://techcrunch.com/2026/05/22/we-tried-googles-ai-glasses-and-theyre-almost-there/)
+- [TechCrunch: Inflated AI Startup ARR](https://techcrunch.com/2026/05/22/how-vcs-and-founders-use-inflated-arr-to-kingmake-ai-startups/)
+- [FutureTools News](https://futuretools.io/news)
+--- AI report finished at Sat May 23 06:03:43 CST 2026 ---
+=== Sat May 23 06:03:43 CST 2026 | Starting daily finance report ===
+完成。
+
+---
+
+**FINANCE DONE**
+
+今日財經日報（2026-05-22）已寫入 `skills/solopreneur-topic-miner/latest_finance_topics.json`，看板已更新。
+
+**本次選出 10 則情報，分類摘要：**
+
+**市場震撼彈（4則）**
+1. 全球長債殖利率創20年新高，61%機率Fed今年升息
+2. 美銀牛熊指標觸8級極端樂觀，歷史紅燈亮起
+3. 中國煉油率創史上最低（<67%），硬著陸警報響起
+4. 日本引爆40兆美債危機，殖利率衝破2007年高點
+
+**投資機會（3則）**
+1. SEC批准Nasdaq比特幣指數選擇權，加密機構化里程碑
+2. 大空頭Burry逆向布局：MELI、Adobe、PayPal、Lululemon
+3. 美-伊和談推動銅油走強，原物料多頭延續
+
+**總經觀察（3則）**
+1. Warsh陷通膨vs.川普降息政治角力
+2. Burry：AI漲幅784%已超越1999科網泡沫，空SOXX啟動
+3. Musk：美國年息破兆，2026赤字衝2兆警告財政崩潰
+
+Sources:
+- [Bloomberg: Global Bond Yields](https://www.bloomberg.com/news/videos/2026-05-22/global-long-bond-yields-hit-highest-in-two-decades-video)
+- [CNBC: Treasury Yields](https://www.cnbc.com/2026/05/22/treasury-yields-bonds-investing-fed-rate-hikes.html)
+- [Bloomberg: Nasdaq Bitcoin Options](https://www.bloomberg.com/news/articles/2026-05-22/nasdaq-bitcoin-index-options-granted-approval-by-sec)
+- [CNBC: Michael Burry](https://www.cnbc.com/2026/05/19/michael-burry-adds-to-beaten-down-stocks-while-warning-of-echoes-of-dot-com-bubble.html)
+- [TheStreet: Elon Musk](https://www.thestreet.com/economy/elon-musk-has-a-stark-message-on-americans-and-the-economy)
+- [Motley Fool: Kevin Warsh](https://www.fool.com/investing/2026/05/21/why-kevin-warsh-will-have-to-defy-trump-on-interes/)
+--- Finance report finished at Sat May 23 06:10:22 CST 2026 ---
