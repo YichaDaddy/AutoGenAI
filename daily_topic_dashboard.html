@@ -255,9 +255,58 @@
       font-size: 11px; color: var(--faint); font-weight: 500;
     }
     .footer-dot { width: 4px; height: 4px; border-radius: 50%; background: var(--faint); display: inline-block; margin: 0 8px; vertical-align: middle; }
+
+    /* ─── Password Gate ─── */
+    #pw-gate {
+      position: fixed; inset: 0; z-index: 9999;
+      background: #0D1117;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .pw-box {
+      background: #161B22; border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 16px; padding: 2.5rem 2rem;
+      width: 100%; max-width: 360px;
+      display: flex; flex-direction: column; align-items: center; gap: 1.25rem;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+    }
+    .pw-icon { font-size: 2rem; }
+    .pw-title { color: #fff; font-size: 1.1rem; font-weight: 700; }
+    .pw-input {
+      width: 100%; padding: 12px 16px;
+      background: #0D1117; border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 10px; color: #fff;
+      font-family: inherit; font-size: 15px; text-align: center; letter-spacing: 4px;
+      outline: none; transition: border-color 0.2s;
+    }
+    .pw-input:focus { border-color: #6366F1; }
+    .pw-btn {
+      width: 100%; padding: 12px;
+      background: linear-gradient(135deg, #6366F1, #10B981);
+      border: none; border-radius: 10px;
+      color: #fff; font-family: inherit; font-size: 14px; font-weight: 700;
+      cursor: pointer; transition: opacity 0.2s;
+    }
+    .pw-btn:hover { opacity: 0.9; }
+    .pw-error { color: #FC8181; font-size: 12px; min-height: 16px; }
+    @keyframes shake {
+      0%,100% { transform: translateX(0); }
+      25% { transform: translateX(-8px); }
+      75% { transform: translateX(8px); }
+    }
+    .shake { animation: shake 0.3s ease; }
   </style>
 </head>
 <body>
+
+  <div id="pw-gate">
+    <div class="pw-box">
+      <div class="pw-icon">🔒</div>
+      <div class="pw-title">請輸入密碼以繼續</div>
+      <input type="password" class="pw-input" id="pw-input" placeholder="••••••" autofocus>
+      <button class="pw-btn" id="pw-btn">進入</button>
+      <div class="pw-error" id="pw-error"></div>
+    </div>
+  </div>
 
   <div id="progress"></div>
 
@@ -2466,6 +2515,36 @@
   </footer>
 
   <script>
+    (function() {
+      var HASH = 'a0db69aab4591fa39088f4182bbdae4463ce2271488de071ada5fbb3e77db7fe';
+      var gate  = document.getElementById('pw-gate');
+      var input = document.getElementById('pw-input');
+      var btn   = document.getElementById('pw-btn');
+      var err   = document.getElementById('pw-error');
+      if (localStorage.getItem('auth') === HASH) {
+        gate.style.display = 'none';
+        return;
+      }
+      document.body.style.overflow = 'hidden';
+      async function check() {
+        var val = input.value;
+        var buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(val));
+        var hex = Array.from(new Uint8Array(buf)).map(function(b) { return b.toString(16).padStart(2,'0'); }).join('');
+        if (hex === HASH) {
+          localStorage.setItem('auth', HASH);
+          gate.style.display = 'none';
+          document.body.style.overflow = '';
+        } else {
+          err.textContent = '密碼錯誤，請再試一次';
+          input.classList.add('shake');
+          input.value = '';
+          setTimeout(function() { input.classList.remove('shake'); }, 400);
+        }
+      }
+      btn.addEventListener('click', check);
+      input.addEventListener('keydown', function(e) { if (e.key === 'Enter') check(); });
+    })();
+
     document.getElementById('gen-time').textContent =
       '生成於 ' + new Date().toLocaleString('zh-TW', {hour:'2-digit', minute:'2-digit'});
 
