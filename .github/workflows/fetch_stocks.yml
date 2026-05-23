@@ -1,0 +1,44 @@
+name: Fetch Stock Data
+
+on:
+  schedule:
+    # Taiwan market hours: Mon-Fri 09:00-13:30 CST = 01:00-05:30 UTC
+    # Run every 15 min during TW market hours
+    - cron: '*/15 1-5 * * 1-5'
+    # US market: Mon-Fri 09:30-16:00 EST = 14:30-21:00 UTC
+    - cron: '*/15 14-21 * * 1-5'
+  workflow_dispatch:   # allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout gh-pages
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+
+      - name: Checkout scripts from main
+        run: |
+          git fetch origin main
+          git checkout origin/main -- scripts/fetch_stocks.py
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Fetch stock data
+        run: python scripts/fetch_stocks.py
+
+      - name: Commit & push stocks.json
+        run: |
+          git config user.name  "AutoGenAI Bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add v2/stocks.json
+          git diff --staged --quiet && echo "No changes" || \
+            git commit -m "auto: update stock data $(date -u '+%Y-%m-%d %H:%M UTC')" && \
+            git push origin gh-pages

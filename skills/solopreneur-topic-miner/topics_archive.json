@@ -1,5 +1,176 @@
 [
   {
+    "date": "2026-05-23",
+    "big_events": [
+      {
+        "title": "Google Daily Brief：AI 替你整理收件匣、行事曆與待辦，晨間摘要正式推送",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/05/19/google-updates-its-gemini-app-to-take-on-chatgpt-and-claude-at-io-2026/"
+          },
+          {
+            "name": "Google Blog I/O 2026",
+            "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/"
+          }
+        ],
+        "summary": "Google AI 訂閱用戶可用全新 Daily Brief，AI 自動彙整郵件、行事曆與任務，生成每日個人化晨間摘要，目前向美國用戶推送。",
+        "audience": "職場上班族、知識工作者",
+        "pain_point": "每天早上花 30 分鐘確認 Email 和行事曆，資訊過載、難抓重點",
+        "title_idea": "「Google AI 幫我整理工作清單，一早就知道今天重點做什麼」實測體驗",
+        "local_angle": "Daily Brief 目前限美國且無中文版，台灣用戶尚未受惠；搶先做「如何在台灣用替代方案複製此功能」教學，資訊差極大"
+      },
+      {
+        "title": "OpenAI Codex 更新：Mac 鎖屏狀態下仍可持續自主操控電腦執行任務",
+        "sources": [
+          {
+            "name": "OpenTools",
+            "url": "https://opentools.ai/news/openai-codex-locked-mac-control"
+          }
+        ],
+        "summary": "OpenAI Codex 新版本可在 Mac 鎖屏時繼續自主執行任務，大幅提升 AI Agent 的後台自動化能力，適合夜間或離桌時的無監督作業。",
+        "audience": "開發者、重度 Mac 使用者、職場效率控",
+        "pain_point": "AI Agent 在電腦鎖定後任務中斷，夜間掛機自動化無法實現",
+        "title_idea": "「你睡覺 AI 幫你工作！Codex 鎖屏也能跑的完整設定教學」",
+        "local_angle": "歐美開發者圈熱議，台灣中文教學幾乎為零；搶先做使用場景示範，高流量潛力"
+      },
+      {
+        "title": "DeepSeek V4-Pro 宣布永久維持 75% 折扣，API 費用比 GPT-5.5 低 34 倍",
+        "sources": [
+          {
+            "name": "LLM Stats",
+            "url": "https://llm-stats.com/ai-news"
+          }
+        ],
+        "summary": "DeepSeek 將 V4-Pro 的 75% 折扣永久化，輸出 Token 費用至少比 GPT-5.5 低 34 倍，成為目前最具成本優勢的頂級 AI 模型。",
+        "audience": "獨立開發者、AI 創業者、想控制 AI 使用成本的職場人",
+        "pain_point": "使用 GPT-5.5 或 Claude Opus 的 API 費用高昂，大量呼叫 AI 成本難以控制",
+        "title_idea": "「DeepSeek 永久砍 75%！月費從幾千變幾百，你的 AI 工作流可以這樣重構」",
+        "local_angle": "台灣企業對 DeepSeek API 定價策略認識不深，中文圈替換方案分析報導極少，搶先做成本對比教學"
+      },
+      {
+        "title": "Anthropic 完成 300 億美元融資，估值突破 9000 億，ARR 已達 440 億超越 OpenAI",
+        "sources": [
+          {
+            "name": "OpenTools",
+            "url": "https://opentools.ai/news/anthropic-closing-30-billion-funding-900-billion-valuation"
+          },
+          {
+            "name": "X / Aakash Gupta",
+            "url": "https://x.com/aakashgupta/status/2050659110472040694"
+          }
+        ],
+        "summary": "Anthropic 正式完成 300 億美元融資，估值超 9000 億美元，ARR 已達 440 億（超越 OpenAI 的 240 億），成為 AI 業界最高速成長企業。",
+        "audience": "對 AI 產業趨勢有興趣的職場人、投資人、創作者",
+        "pain_point": "想了解 AI 產業格局變化、判斷哪家公司值得長期跟進學習",
+        "title_idea": "「Anthropic 估值破 9000 億、收入超 OpenAI！Claude 背後的商業邏輯完整解析」",
+        "local_angle": "Anthropic 在中文圈認知度遠低於 OpenAI，此時機切入「Anthropic 深度剖析」，搶佔認知空白"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "Microsoft Copilot Vision：在 Office 內直接掃描網站，不用再切換瀏覽器",
+        "sources": [
+          {
+            "name": "LLM Stats",
+            "url": "https://llm-stats.com/llm-updates"
+          }
+        ],
+        "summary": "Microsoft Copilot 推出 Vision 功能，用戶可在 Microsoft 365 環境直接讓 AI 掃描分析網頁，無需切換視窗，適合報告撰寫與競品研究。",
+        "audience": "每天使用 Office 辦公的職場上班族、文字工作者",
+        "pain_point": "做報告或競品研究時需不斷切換 Word/Excel 與瀏覽器，流程中斷效率低",
+        "title_idea": "「Office 不用再開瀏覽器！Copilot Vision 讓 AI 掃網站自動整理進報告」操作示範",
+        "local_angle": "台灣企業 Office 365 普及率高但 Copilot 進階功能使用率極低，中文 How-To 教學幾乎空白"
+      },
+      {
+        "title": "Ideogram MCP 整合上線：從 Claude、ChatGPT 對話中直接生成圖片，無需切換工具",
+        "sources": [
+          {
+            "name": "FutureTools",
+            "url": "https://futuretools.io/news"
+          }
+        ],
+        "summary": "Ideogram 推出 MCP（Model Context Protocol）整合，用戶在 Claude 或 ChatGPT 對話中可直接呼叫 Ideogram 生成圖片，無需離開 AI 助理介面。",
+        "audience": "內容創作者、社群媒體經營者、需要快速產圖的職場人",
+        "pain_point": "做圖文內容時需在 ChatGPT 與 Ideogram 之間反覆切換，打斷創作流程",
+        "title_idea": "「跟 Claude 說話就能直接出圖！Ideogram MCP 整合讓 AI 創作流程一條龍」設置教學",
+        "local_angle": "MCP 協定在台灣幾乎無人介紹，搶先做「MCP 是什麼、怎麼用」系列，可奠定教學權威地位"
+      },
+      {
+        "title": "Salesforce Agentforce Coworker Beta：在 CRM 搜尋欄直接下指令讓 AI 執行業務動作",
+        "sources": [
+          {
+            "name": "AI Agent Store",
+            "url": "https://aiagentstore.ai/ai-agent-news/this-week"
+          }
+        ],
+        "summary": "Salesforce 推出 Agentforce Coworker 公開 Beta，AI Agent 嵌入搜尋介面，用戶可直接在搜尋欄輸入自然語言指令，讓 AI 執行 CRM 操作。",
+        "audience": "B2B 業務人員、CRM 管理者、企業數位轉型推動者",
+        "pain_point": "在 Salesforce 執行重複性 CRM 任務耗時，需手動填寫多個欄位",
+        "title_idea": "「Salesforce 變成 AI 助理！在搜尋欄直接下指令就能跑業務流程」深度解析",
+        "local_angle": "台灣中大型企業 Salesforce 用量高，但 Agentforce 幾乎無中文介紹，企業 AI 導入教學具藍海潛力"
+      },
+      {
+        "title": "Kore.ai 發布 Artemis 企業 AI Agent 平台，含獨立 AI 架構師與雙核心執行引擎",
+        "sources": [
+          {
+            "name": "AI Agent Store",
+            "url": "https://aiagentstore.ai/ai-agent-news/this-week"
+          }
+        ],
+        "summary": "Kore.ai 推出 Agent Platform Artemis 版，包含可生成 Agent 藍圖的 AI 架構師 Arch、分離確定性控制與模型行為的雙核心執行引擎，整合 Azure 與 Microsoft 365。",
+        "audience": "企業 IT 決策者、CIO、想評估 AI 自動化投資的管理者",
+        "pain_point": "企業部署 AI Agent 面臨治理與稽核挑戰，不知道如何在保持可控性的前提下導入自動化",
+        "title_idea": "「企業 AI Agent 的下一步：Kore.ai Artemis 如何解決治理難題」深度解析",
+        "local_angle": "企業級 AI Agent 平台在台灣討論度極低，提早布局「企業 AI 導入評估」類內容可建立 B2B 受眾基礎"
+      }
+    ],
+    "trends": [
+      {
+        "title": "Solo Founder 用 AI 工具組年賺百萬美元，一人公司成歐美創業主流",
+        "sources": [
+          {
+            "name": "Grey Journal",
+            "url": "https://greyjournal.net/hustle/grow/solo-founders-million-dollar-ai-businesses-2026/"
+          }
+        ],
+        "summary": "2026 年歐美多位 Solo Founder 憑借 Claude、Cursor、Notion AI 等工具組，獨自打造年收超 100 萬美元事業，一人公司成主流創業模式。",
+        "audience": "職場上班族中有副業夢或創業念頭的族群、自由工作者",
+        "pain_point": "想創業但無資金請員工、無時間兼顧，不知道 AI 能幫忙做到哪一步",
+        "title_idea": "「歐美 7 個人年賺百萬美元，全靠 AI 工具一個人扛！他們的工具清單完整公開」",
+        "local_angle": "歐美 Solopreneur 文化成熟，台灣中文圈相關案例報導稀少，轉譯＋本土化切入效果極佳"
+      },
+      {
+        "title": "Claude Cowork 正式整合進 Microsoft 365，企業 AI 協作進入標配時代",
+        "sources": [
+          {
+            "name": "LLM Stats",
+            "url": "https://llm-stats.com/llm-updates"
+          }
+        ],
+        "summary": "Anthropic 的 Claude Cowork 在 macOS 與 Windows 正式可用，並以 Copilot Cowork 形式整合進 Microsoft 365，辦公室工作者可在 Office 全環境使用 Claude 協作。",
+        "audience": "職場上班族、企業主管、辦公室知識工作者",
+        "pain_point": "AI 工具分散在不同平台，切換成本高；企業 IT 政策限制安裝第三方應用",
+        "title_idea": "「Office 裡現在有 Claude！Copilot Cowork 讓 AI 協作成為職場新常態」上手指南",
+        "local_angle": "台灣企業 M365 授權普及，但多數員工不知道 Copilot Cowork 功能存在，職場 AI 升級教學正當時機"
+      },
+      {
+        "title": "AI Agent 夜間自主作業成真：Alibaba Qwen 無監督自跑 35 小時完成程式碼優化",
+        "sources": [
+          {
+            "name": "LLM Stats",
+            "url": "https://llm-stats.com/ai-news"
+          }
+        ],
+        "summary": "阿里巴巴 Qwen3.7-Max 在無人監督下自主運行 35 小時，完成自訂晶片的程式碼優化任務，效能媲美 Claude Opus 4.6，代表 AI Agent 長時間自主作業進入實用階段。",
+        "audience": "對 AI 未來發展感興趣的職場人、開發者、創作者",
+        "pain_point": "擔心 AI Agent 是否能真正自主完成複雜任務，不確定何時應該開始跟進學習",
+        "title_idea": "「AI 不睡覺！Qwen 自主跑 35 小時幫工程師優化程式，這代表了什麼？」趨勢深度解析",
+        "local_angle": "AI Agent 長時間自主作業是歐美熱議話題，台灣中文圈討論稀少，做深度解析可吸引科技圈高質量受眾"
+      }
+    ]
+  },
+  {
     "date": "2026-05-22",
     "big_events": [
       {
@@ -1136,185 +1307,6 @@
         "pain_point": "現在用的 AI 工具都要自己主動問，費時費力，希望 AI 能主動處理例行事務",
         "title_idea": "AI 不再等你問！Google、Claude、ChatGPT 同時推主動助理，2026 年工作方式要被這樣顛覆",
         "local_angle": "主動式 AI 在歐美已成熱門討論話題，繁中概念解析幾乎空白，搶在三大產品正式發布前做科普型內容可搶先佔位"
-      }
-    ]
-  },
-  {
-    "date": "2026-05-16",
-    "big_events": [
-      {
-        "title": "OpenAI 整合 ChatGPT、Codex 與 API，Greg Brockman 正式執掌產品戰略",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/"
-          },
-          {
-            "name": "TechTimes",
-            "url": "https://www.techtimes.com/articles/316730/20260516/openai-unifies-chatgpt-codex-developer-api-under-co-founder-brockman-four-days-before-google-i-o.htm"
-          },
-          {
-            "name": "Benzinga",
-            "url": "https://www.benzinga.com/markets/tech/26/05/52622210/openai-merges-chatgpt-and-codex-taps-greg-brockman-to-lead-product-strategy-ahead-of-potential-ipo-report"
-          }
-        ],
-        "summary": "OpenAI 宣布將 ChatGPT、Codex 與開發者 API 整合為單一 Agentic 平台，由共同創辦人 Greg Brockman 正式接任產品長，劍指 IPO 與 Google I/O 大戰。",
-        "audience": "職場上班族、企業 IT 決策者",
-        "pain_point": "不確定該用哪個 OpenAI 工具、AI 代理助手還不夠整合、工作流程碎片化",
-        "title_idea": "OpenAI 大整合！ChatGPT + Codex 合體，你的 AI 工作流要大改變了",
-        "local_angle": "歐美已在討論 Agentic AI 的產品化，華語圈還停留在單點工具教學；搶做「OpenAI 統一平台完整解析」可搶占先機"
-      },
-      {
-        "title": "Google I/O 2026 倒數 3 天，Gemini Omni 洩露：文字、圖片、影片三合一生成即將登場",
-        "sources": [
-          {
-            "name": "Android Authority",
-            "url": "https://www.androidauthority.com/what-to-expect-from-google-io-2026-3664979/"
-          },
-          {
-            "name": "Android Headlines",
-            "url": "https://www.androidheadlines.com/2026/05/google-io-new-gemini-model-launch-gpt-5-5-rival.html"
-          },
-          {
-            "name": "iMini AI",
-            "url": "https://imini.com/blogs/gemini-omni-google-io-2026"
-          }
-        ],
-        "summary": "Google I/O 將於 5 月 19 日登場，洩露的 UI 字串顯示 Gemini Omni 可在同一介面生成文字、圖像與影片，效能預計對標 GPT-5.5。",
-        "audience": "職場上班族、內容創作者、行銷人員",
-        "pain_point": "現有 AI 工具分散，需在多個平台間切換，搜索、生成、整理分屬不同應用",
-        "title_idea": "Gemini Omni 來了！Google 一站式 AI 將如何改變你的日常工作流？",
-        "local_angle": "I/O 發布前夕是最佳搶跑時機，可做「Gemini Omni 搶先看」預告型內容，發布當天補完整教學，形成二波流量"
-      },
-      {
-        "title": "ArXiv 宣布 AI 代寫論文違規者停權一年，學術 AI 使用邊界引爆全球討論",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/"
-          }
-        ],
-        "summary": "全球最大學術預印本平台 ArXiv 宣布，若作者讓 AI 全面代寫論文將面臨一年停權，引發學術與職場知識工作者對 AI 工具合規邊界的廣泛討論。",
-        "audience": "學術研究者、研究生、職場知識工作者",
-        "pain_point": "不清楚 AI 輔助寫作的合規邊界，擔心使用 AI 工具會觸碰紅線或踩到職業倫理問題",
-        "title_idea": "用 AI 寫論文竟然會被停權？2026 年 AI 寫作的紅線到底在哪裡",
-        "local_angle": "台灣學術圈與職場對 AI 寫作規範討論度不足，此議題在華語圈有高度教育與流量價值，可從「如何正確使用 AI 輔助」角度切入"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "Microsoft Copilot Cowork 整合 Claude 技術，職場 AI 代理正式進駐 Office 365",
-        "sources": [
-          {
-            "name": "Microsoft 365 Blog",
-            "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/"
-          },
-          {
-            "name": "eWeek",
-            "url": "https://www.eweek.com/news/microsoft-agentic-copilot-cowork-claude/"
-          },
-          {
-            "name": "DataScienceDojo",
-            "url": "https://datasciencedojo.com/blog/claude-cowork-vs-copilot-cowork/"
-          }
-        ],
-        "summary": "Microsoft Copilot Cowork 整合 Anthropic Claude 技術，支援多步驟長期任務自動執行，包含行事曆管理、月報整理，現已推廣至 Frontier 訂閱方案。",
-        "audience": "使用 Microsoft 365 的職場上班族、企業管理者",
-        "pain_point": "AI 只能回答問題，無法自動跑完整套工作流，仍需人工大量介入才能完成任務",
-        "title_idea": "你的 Office 365 升級了！Copilot Cowork 實測：AI 幫你自動完成整個月報",
-        "local_angle": "台灣企業普遍使用 M365，但 Copilot Cowork 功能在華語圈教學嚴重稀缺，搶做完整操作教學的流量紅利極大"
-      },
-      {
-        "title": "Microsoft Agent 365 正式上線，企業 AI 代理集中治理平台每人每月 $15 美元",
-        "sources": [
-          {
-            "name": "imfounder",
-            "url": "https://imfounder.com/science-tech/ai/ai-updates-may-2026/"
-          },
-          {
-            "name": "AIToolsRecap",
-            "url": "https://aitoolsrecap.com/Blog/MayNews2026.aspx"
-          }
-        ],
-        "summary": "Microsoft Agent 365 正式上線，提供企業統一管理所有 AI 代理的控制台，含安全治理與第三方代理整合，月費 $15 美元每人。",
-        "audience": "企業 IT 主管、數位轉型決策者、採購人員",
-        "pain_point": "企業部署多個 AI 工具後缺乏統一管理，安全、合規與效能評估無法集中掌控",
-        "title_idea": "企業 AI 管理新時代！微軟 Agent 365 是什麼？每人 15 美元值不值得？",
-        "local_angle": "台灣中大型企業正評估 AI 部署策略，此工具在華語圈幾乎無完整介紹，是優質 B2B 觀點選題"
-      },
-      {
-        "title": "Grok Imagine 圖生影片登頂 DesignArena，擊敗 Runway Gen-4.5、Sora 2 Pro 與 Veo 3.1",
-        "sources": [
-          {
-            "name": "AllInOneAICenter",
-            "url": "https://allinoneaicenter.com/blog/new-ai-tools-may-2026"
-          },
-          {
-            "name": "AIToolsRecap",
-            "url": "https://aitoolsrecap.com/Blog/MayNews2026.aspx"
-          }
-        ],
-        "summary": "xAI 的 Grok Imagine 以 Elo 1329 分奪下 DesignArena 圖生影片排行榜第一，勝過 Runway Gen-4.5、Sora 2 Pro 與 Google Veo 3.1。",
-        "audience": "內容創作者、行銷人員、社群媒體操作者",
-        "pain_point": "AI 影片工具太多，不知哪個效果最好、CP 值最高，評測標準不透明",
-        "title_idea": "2026 AI 影片工具最強排名揭曉！Grok Imagine 憑什麼打敗 Sora 和 Runway？",
-        "local_angle": "海外已有客觀評測平台排名，但華語圈鮮少分析 DesignArena 排行，搶做詳細比較測試內容可建立公信力"
-      }
-    ],
-    "trends": [
-      {
-        "title": "AI Solopreneur 技術棧月費 $75–150 美元，替代 5–10 人團隊，獨立創業者收入倍增",
-        "sources": [
-          {
-            "name": "Workborn",
-            "url": "https://workborn.com/best-ai-tools-solopreneurs/"
-          },
-          {
-            "name": "EntrepreneurLoop",
-            "url": "https://entrepreneurloop.com/solopreneur-guide-to-scaling-2026/"
-          }
-        ],
-        "summary": "2026 年 AI 工具組合讓個人以 $75–150 月費取代過去需要 5–10 人的業務能量，使用 AI 的獨立創業者收入是同行的 2–3 倍。",
-        "audience": "想副業或創業的職場上班族",
-        "pain_point": "一個人資源有限，不知道如何用 AI 工具做到更多，對創業初期成本有疑慮",
-        "title_idea": "2026 年一人公司完整 AI 工具清單：月花台幣 5000 元，做到 10 人團隊的事",
-        "local_angle": "歐美已大量驗證 Solopreneur AI Stack 模式，台灣華語圈仍停留在零散工具推薦，缺乏系統性整合教學，資訊差極大"
-      },
-      {
-        "title": "Agentic AI 正式從「功能」升格為「產品類別」，職場自動化進入全面提速期",
-        "sources": [
-          {
-            "name": "Superhuman AI",
-            "url": "https://www.superhuman.ai/p/openai-google-and-anthropic-release-new-models"
-          },
-          {
-            "name": "imfounder",
-            "url": "https://imfounder.com/science-tech/ai/ai-updates-may-2026/"
-          }
-        ],
-        "summary": "OpenAI、Microsoft、Anthropic 均已將 Agentic AI 作為獨立產品線推出，AI 從回答問題演進為自主執行多步驟工作流，職場自動化正式加速。",
-        "audience": "職場上班族、企業主管、數位轉型從業者",
-        "pain_point": "AI 只能對話，無法真正接手重複性行政工作，效率提升仍有天花板",
-        "title_idea": "AI 代理正式上班！2026 年的 AI 不只回答問題，還能幫你把整件事做完",
-        "local_angle": "Agentic AI 概念在歐美已是主流話題，但華語圈對其實際工作場景解說嚴重不足，入門科普型內容需求旺盛"
-      },
-      {
-        "title": "OpenAI for Countries：馬耳他全民免費獲 ChatGPT Plus，政府 AI 普及計畫浪潮興起",
-        "sources": [
-          {
-            "name": "OpenAI",
-            "url": "https://openai.com/index/malta-chatgpt-plus-partnership/"
-          },
-          {
-            "name": "FutureTools",
-            "url": "https://futuretools.io/news"
-          }
-        ],
-        "summary": "OpenAI 宣布與馬耳他政府合作，完成 AI 素養課程的公民可免費使用 ChatGPT Plus，是 OpenAI for Countries 計畫繼愛沙尼亞、希臘後的最新案例。",
-        "audience": "關注 AI 政策與教育的職場工作者、教育工作者",
-        "pain_point": "AI 工具授權費用高，不確定未來是否會有公共補助，AI 教育資源分配不均",
-        "title_idea": "政府幫你付 ChatGPT 訂閱費！OpenAI 的國家合作計畫對台灣有什麼啟示？",
-        "local_angle": "歐洲政府已率先推動 AI 全民教育，台灣是否跟進值得討論；此角度可帶動政策觀點類內容，也適合與 AI 素養教育議題結合"
       }
     ]
   }

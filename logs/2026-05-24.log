@@ -1,0 +1,145 @@
+=== Sun May 24 06:00:01 CST 2026 | Starting daily AI report ===
+看板更新成功。以下是今日（2026-05-23）完整選題日報：
+
+---
+
+## 🗞️ 歐美 AI 情報日報 — 2026-05-23
+**賽道：AI 效率工具 ｜ 目標受眾：職場上班族**
+
+---
+
+### 📌 板塊一：大事件（4 則）
+
+**1. Google Daily Brief：AI 替你整理收件匣、行事曆與待辦，晨間摘要正式推送**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/05/19/google-updates-its-gemini-app-to-take-on-chatgpt-and-claude-at-io-2026/) · [Google Blog](https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/)
+- **一句摘要**：Google AI 訂閱用戶可用全新 Daily Brief，AI 自動彙整郵件、行事曆與任務，生成每日個人化晨間摘要。
+- **選題角度**：
+  - 目標受眾：職場上班族、知識工作者
+  - 痛點：每天早上花 30 分鐘確認 Email 和行事曆，資訊過載難抓重點
+  - 標題雛形：「Google AI 幫我整理工作清單，一早就知道今天重點做什麼」實測體驗
+  - 本地化切角：Daily Brief 目前限美國且無中文版，搶先做「台灣用戶替代方案」教學，資訊差極大
+
+**2. OpenAI Codex 更新：Mac 鎖屏狀態下仍可持續自主操控電腦**
+- **來源**：[OpenTools](https://opentools.ai/news/openai-codex-locked-mac-control)
+- **一句摘要**：Codex 新版本可在 Mac 鎖屏時繼續自主執行任務，AI Agent 後台自動化能力大幅提升。
+- **選題角度**：
+  - 目標受眾：開發者、重度 Mac 使用者、職場效率控
+  - 痛點：AI Agent 鎖屏後任務中斷，夜間掛機自動化無法實現
+  - 標題雛形：「你睡覺 AI 幫你工作！Codex 鎖屏也能跑的完整設定教學」
+  - 本地化切角：歐美開發者圈熱議，台灣中文教學幾乎為零，流量潛力高
+
+**3. DeepSeek V4-Pro 宣布永久 75% 折扣，API 費用比 GPT-5.5 低 34 倍**
+- **來源**：[LLM Stats](https://llm-stats.com/ai-news)
+- **一句摘要**：DeepSeek 將 V4-Pro 折扣永久化，輸出 Token 費用至少比 GPT-5.5 低 34 倍，成最具成本優勢頂級模型。
+- **選題角度**：
+  - 目標受眾：獨立開發者、AI 創業者、想控制成本的職場人
+  - 痛點：GPT-5.5 / Claude Opus API 費用高昂，大量呼叫難以負擔
+  - 標題雛形：「DeepSeek 永久砍 75%！月費從幾千變幾百，你的 AI 工作流可以這樣重構」
+  - 本地化切角：台灣企業對 DeepSeek API 定價認識不深，替換方案教學中文圈幾乎空白
+
+**4. Anthropic 完成 300 億美元融資，估值破 9000 億，ARR 達 440 億超越 OpenAI**
+- **來源**：[OpenTools](https://opentools.ai/news/anthropic-closing-30-billion-funding-900-billion-valuation)
+- **一句摘要**：Anthropic 估值超 9000 億美元，ARR 440 億已超越 OpenAI（240 億），成 AI 業界最高速成長企業。
+- **選題角度**：
+  - 目標受眾：對 AI 產業趨勢有興趣的職場人
+  - 標題雛形：「Anthropic 估值破 9000 億、收入超 OpenAI！Claude 背後的商業邏輯完整解析」
+  - 本地化切角：Anthropic 在中文圈認知度遠低於 OpenAI，搶佔認知空白
+
+---
+
+### 🛠️ 板塊二：工具更新（4 則）
+
+**5. Microsoft Copilot Vision：在 Office 內直接掃描網站，無需切換瀏覽器**
+- **來源**：[LLM Stats](https://llm-stats.com/llm-updates)
+- **一句摘要**：Copilot Vision 讓用戶在 Microsoft 365 中直接讓 AI 掃描分析網頁，適合報告撰寫與競品研究。
+- **標題雛形**：「Office 不用再開瀏覽器！Copilot Vision 讓 AI 掃網站自動整理進報告」
+- **本地化切角**：台灣企業 M365 普及率高但 Copilot 進階功能使用率極低，中文 How-To 幾乎空白
+
+**6. Ideogram MCP 整合：從 Claude、ChatGPT 對話直接生成圖片**
+- **來源**：[FutureTools](https://futuretools.io/news)
+- **一句摘要**：Ideogram 上線 MCP 整合，用戶在 Claude / ChatGPT 對話中可直接呼叫生成圖片，無需切換工具。
+- **標題雛形**：「跟 Claude 說話就能直接出圖！Ideogram MCP 整合讓 AI 創作流程一條龍」
+- **本地化切角**：MCP 協定在台灣幾乎無人介紹，搶先做系列教學可奠定教學權威地位
+
+**7. Salesforce Agentforce Coworker Beta：在 CRM 搜尋欄下指令讓 AI 執行業務動作**
+- **來源**：[AI Agent Store](https://aiagentstore.ai/ai-agent-news/this-week)
+- **一句摘要**：AI Agent 嵌入 Salesforce 搜尋介面，可直接輸入自然語言指令讓 AI 執行 CRM 操作。
+- **標題雛形**：「Salesforce 變 AI 助理！在搜尋欄直接下指令就能跑業務流程」
+
+**8. Kore.ai Artemis 企業 AI Agent 平台：含 AI 架構師與雙核心執行引擎**
+- **來源**：[AI Agent Store](https://aiagentstore.ai/ai-agent-news/this-week)
+- **一句摘要**：Kore.ai 推出含 AI 架構師 Arch 與雙核心執行引擎的企業 Agent 平台，整合 Azure 和 Microsoft 365。
+
+---
+
+### 📡 板塊三：值得追蹤的趨勢（3 則）
+
+**9. Solo Founder 用 AI 工具組年賺百萬美元，一人公司成歐美主流**
+- **來源**：[Grey Journal](https://greyjournal.net/hustle/grow/solo-founders-million-dollar-ai-businesses-2026/)
+- **一句摘要**：歐美多位 Solo Founder 用 Claude + Cursor + Notion AI 等工具獨自打造年收百萬美元事業。
+- **標題雛形**：「歐美 7 個人年賺百萬美元，全靠 AI 工具一個人扛！工具清單完整公開」
+
+**10. Claude Cowork 整合進 Microsoft 365，企業 AI 協作進入標配時代**
+- **來源**：[LLM Stats](https://llm-stats.com/llm-updates)
+- **一句摘要**：Anthropic Claude Cowork 在 macOS/Windows GA，並以 Copilot Cowork 形式進入 M365，職場工作者可全環境使用 Claude。
+
+**11. Alibaba Qwen 無監督自跑 35 小時完成程式碼優化，AI Agent 長時作業成真**
+- **來源**：[LLM Stats](https://llm-stats.com/ai-news)
+- **一句摘要**：Qwen3.7-Max 在無人監督下自主運行 35 小時完成晶片程式優化，效能媲美 Claude Opus 4.6，長時 Agent 作業進入實用。
+- **標題雛形**：「AI 不睡覺！Qwen 自主跑 35 小時幫工程師優化程式，這代表了什麼？」
+
+---
+
+### 📋 來源覆蓋狀況
+
+| 來源 | 狀態 | 昨日內容數量 | 備註 |
+|------|------|------------|------|
+| TechCrunch AI | ✅ | 1 條 | 週六更新較少，抓到 Ferrari × IBM 文 |
+| The Verge AI | ❌ | 0 條 | 網站無法存取 |
+| FutureTools.io | ✅ | 3 條 | 最新為 5/22，Ideogram/Leonardo 等 |
+| LLM Stats | ✅ | 5 條 | DeepSeek 折扣、Copilot、Claude Cowork 等 |
+| OpenTools | ✅ | 2 條 | Codex Mac 控制、Anthropic 融資 |
+| AI Agent Store | ✅ | 4 條 | Kore.ai、Veeam、Salesforce、DeepMind |
+| Matt Wolfe (@mreflow) | ❌ | 0 條 | 無昨日影片，週六較少更新 |
+| The AI Advantage | ❌ | 0 條 | 未抓取到昨日內容 |
+| @OpenAI / @Anthropic | ✅（間接）| 多條 | 透過 X 搜尋與新聞轉載取得資訊 |
+| @sama / @karpathy | ❌ | 0 條 | X 直接存取失敗 |
+| @levelsio / @GregIsenberg | ❌ | 0 條 | X 直接存取失敗 |
+
+---
+
+> 老闆，今天的歐美 AI 情報已彙整完畢。我看您的賽道偏好已存在記憶庫中了。**如果您已連接自動化流工具（如 n8n、Make 或 Open Claw），是否需要我為您生成定時任務配置？** 這樣我每天早上自動執行這套監控邏輯，並直接把選題推送給您，實現真正的「歐美情報全自動日報」！
+
+💡 您的專屬網頁版看板已同步更新，可隨時打開 `daily_topic_dashboard.html` 查看。
+
+DONE
+--- AI report finished at Sun May 24 06:06:22 CST 2026 ---
+=== Sun May 24 06:06:22 CST 2026 | Starting daily finance report ===
+看板更新成功。以下是本次執行摘要：
+
+---
+
+## 財經日報 2026-05-23 執行完成
+
+**收集來源：** Bloomberg RSS、ZeroHedge、AMD 官方、CNN/Axios（SpaceX）、Gurufocus/Insider Monkey（Burry）、WebSearch 補充
+
+**入選 10 則情報：**
+
+### market_shocks（3則）
+1. **霍姆茲海峽封鎖** — IEA 史上最大供應衝擊，油價 $110/桶，Fed PCE 通膨指標惡化
+2. **ECB升息不可避免** — Stournaras 公開警示，全球債券殖利率集體飆升至 3.3%+
+3. **Trump 3,711筆交易曝光** — Bloomberg 深度報導引爆政策透明度爭議
+
+### investment_opportunities（4則）
+4. **SpaceX IPO** — $1.75 兆估值，6/12 預計掛牌，全球最大 IPO 將吸走 400-800 億美元
+5. **AMD百億投資台灣** — 點名台積電、ASE 為核心夥伴，AI 封測族群直接受惠
+6. **Uber收購Delivery Hero** — €100 億收購，全球外賣整合潮，DLHY ADR 大漲 10%
+7. **Burry押注半導體跌 30%** — 買 SOXX 看跌期權，Shiller CAPE 達 40.1 接近泡沫水準
+
+### macro_observations（3則）
+8. **戰爭通膨+製造業萎縮** — 降息夢碎，高利率長期化已成共識
+9. **HSBC央行太慢警告** — 供應衝擊持久化，BofA 稱「鐵路時代以來最大泡沫」
+10. **可程式貨幣趨勢** — Andrei Jikh 最新影片，CBDC 與 DeFi 數位金融革命加速
+
+**FINANCE DONE**
+--- Finance report finished at Sun May 24 06:12:58 CST 2026 ---
