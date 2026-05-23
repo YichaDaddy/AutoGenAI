@@ -512,6 +512,73 @@
     .stock-add-btn:hover { background: rgba(56,189,248,0.22); }
     .stock-add-hint { font-size: 10px; color: var(--text-faint); margin-top: 5px; }
 
+    /* Fugle key settings */
+    .stock-key-section {
+      margin-top: 10px; border-top: 1px solid var(--border);
+      padding-top: 10px;
+    }
+    .stock-key-toggle {
+      background: none; border: none; cursor: pointer;
+      color: var(--text-faint); font-size: 11px; padding: 0;
+      display: flex; align-items: center; gap: 4px;
+    }
+    .stock-key-toggle:hover { color: var(--text-muted); }
+    .stock-key-row {
+      display: flex; gap: 7px; margin-top: 7px;
+    }
+    .stock-key-input {
+      flex: 1; padding: 7px 10px; background: var(--surface);
+      border: 1px solid var(--border); border-radius: var(--radius-sm);
+      color: var(--text); font-size: 11px; font-family: monospace;
+    }
+    .stock-key-input:focus { border-color: rgba(56,189,248,0.5); outline: none; }
+    .stock-key-save {
+      padding: 7px 13px; background: rgba(56,189,248,0.13);
+      border: 1px solid rgba(56,189,248,0.3); border-radius: var(--radius-sm);
+      color: #38bdf8; font-size: 12px; font-weight: 700;
+      cursor: pointer; white-space: nowrap;
+    }
+    .stock-key-status { font-size: 10px; margin-top: 4px; }
+    .stock-key-status.ok  { color: #22c55e; }
+    .stock-key-status.na  { color: var(--text-faint); }
+
+    /* Live market badge on updated line */
+    .stock-live-badge {
+      display: inline-flex; align-items: center; gap: 4px;
+      font-size: 10px; font-weight: 600; padding: 1px 6px;
+      border-radius: 999px; margin-left: 6px;
+    }
+    .stock-live-badge.open  { background: rgba(34,197,94,.15); color: #22c55e; }
+    .stock-live-badge.pre   { background: rgba(250,204,21,.12); color: #facc15; }
+    .stock-live-badge.post  { background: rgba(250,204,21,.12); color: #facc15; }
+    .stock-live-badge.closed{ background: rgba(100,100,100,.12); color: var(--text-faint); }
+    .stock-live-dot {
+      width: 6px; height: 6px; border-radius: 50%; background: currentColor;
+    }
+    .stock-live-badge.open .stock-live-dot {
+      animation: livepulse 1.5s ease-in-out infinite;
+    }
+    @keyframes livepulse { 0%,100%{opacity:1} 50%{opacity:.35} }
+
+    /* market state per-item */
+    .stock-mktstate.open  { color: #22c55e; }
+    .stock-mktstate.pre   { color: #facc15; }
+    .stock-mktstate.post  { color: #facc15; }
+
+    /* drag-and-drop */
+    .stock-drag-handle {
+      display: flex; align-items: center; padding: 0 8px 0 2px;
+      color: var(--text-faint); cursor: grab; font-size: 14px;
+      flex-shrink: 0; user-select: none;
+    }
+    .stock-drag-handle:active { cursor: grabbing; }
+    .stock-item[draggable="true"] { cursor: default; }
+    .stock-item.dragging { opacity: 0.4; }
+    .stock-item.drag-over {
+      border-color: rgba(56,189,248,0.5);
+      background: rgba(56,189,248,0.06);
+    }
+
     .stock-skeleton {
       height: 50px; background: var(--surface);
       border: 1px solid var(--border); border-radius: var(--radius-sm);
@@ -522,6 +589,38 @@
       text-align: center; padding: 28px; color: var(--text-muted);
       font-size: 13px;
     }
+
+    /* === VERSION BADGE === */
+    .version-badge {
+      position: fixed; bottom: 14px; right: 16px; z-index: 50;
+      font-size: 10px; font-weight: 600; color: var(--text-faint);
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 6px; padding: 3px 8px;
+      letter-spacing: 0.4px;
+    }
+
+    /* === DEBUG PANEL === */
+    .debug-toggle {
+      font-size: 10px; font-weight: 600; color: var(--text-faint);
+      background: transparent; border: 1px solid var(--border);
+      border-radius: 5px; padding: 3px 8px; cursor: pointer;
+      transition: all 0.15s; font-family: inherit;
+    }
+    .debug-toggle:hover { color: #38bdf8; border-color: rgba(56,189,248,0.4); }
+    .debug-panel {
+      display: none; margin-top: 10px;
+      background: #0a0a08; border: 1px solid rgba(56,189,248,0.2);
+      border-radius: var(--radius-sm); padding: 12px;
+      font-family: 'Menlo','Monaco','Courier New',monospace;
+      font-size: 11px; max-height: 280px; overflow-y: auto;
+    }
+    .debug-panel.open { display: block; }
+    .dbg-line { padding: 3px 0; border-bottom: 1px solid rgba(255,255,255,0.04); line-height: 1.5; }
+    .dbg-line:last-child { border-bottom: none; }
+    .dbg-ok   { color: #22c55e; }
+    .dbg-err  { color: #ef4444; }
+    .dbg-info { color: #38bdf8; }
+    .dbg-warn { color: var(--gold); }
 
     /* Responsive */
     @media (max-width: 860px) {
@@ -1856,9 +1955,17 @@
         <!-- Stocks content -->
         <div id="content-stocks" class="panel-content">
           <div class="stock-tracker">
-            <div class="stock-tabs">
-              <button class="stock-tab active" data-stab="tw">🇹🇼 台股</button>
-              <button class="stock-tab" data-stab="us">🇺🇸 美股</button>
+            <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px">
+              <div class="stock-tabs" style="border-bottom:none;margin-bottom:0">
+                <button class="stock-tab active" data-stab="tw">🇹🇼 台股</button>
+                <button class="stock-tab" data-stab="us">🇺🇸 美股</button>
+              </div>
+              <button class="debug-toggle" onclick="toggleDebug()">🔍 Debug</button>
+            </div>
+            <div style="border-bottom:1px solid var(--border);margin-bottom:0"></div>
+            <div class="debug-panel" id="debug-panel">
+              <div class="dbg-line dbg-info">── Debug Log ──</div>
+              <div id="debug-log"><div class="dbg-line" style="color:var(--text-faint)">尚未執行更新</div></div>
             </div>
             <!-- 台股 tab -->
             <div class="stock-tab-content active" id="stock-tab-tw">
@@ -1885,6 +1992,17 @@
                 <button class="stock-add-btn" onclick="addStockFromInput('us')">＋ 新增</button>
               </div>
               <div class="stock-add-hint">美股代碼直接輸入英文（AAPL、MSFT…）；ETF 亦同（VOO、QQQ…）</div>
+            </div>
+            <!-- Fugle API Key 設定 -->
+            <div class="stock-key-section">
+              <button class="stock-key-toggle" onclick="toggleKeySection()">⚙ Fugle API Key 設定</button>
+              <div id="stock-key-body" style="display:none">
+                <div class="stock-key-row">
+                  <input class="stock-key-input" id="fugle-key-input" type="password" placeholder="貼上 Fugle API Key（Bearer token）" />
+                  <button class="stock-key-save" onclick="saveFugleKeyFromInput()">儲存</button>
+                </div>
+                <div class="stock-key-status na" id="fugle-key-status">— 尚未設定，台股即時行情將使用 TWSE 備援</div>
+              </div>
             </div>
           </div>
         </div>
@@ -3063,6 +3181,9 @@
     AutoGenAI &nbsp;·&nbsp; <span id="gen-time">生成中…</span>
   </footer>
 
+  <!-- Version badge (always visible) -->
+  <div class="version-badge" id="version-badge">v2.4 · 載入中</div>
+
   <script>
     // Password gate (SHA-256 hash)
     (function() {
@@ -3095,9 +3216,13 @@
       input.addEventListener('keydown', function(e) { if (e.key === 'Enter') check(); });
     })();
 
-    // Gen time
+    // Version + build time
+    var BUILD_VERSION = 'v2.4';
+    var BUILD_TIME = '2026-05-23T12:45';
     document.getElementById('gen-time').textContent =
       '生成於 ' + new Date().toLocaleString('zh-TW', {hour:'2-digit', minute:'2-digit'});
+    document.getElementById('version-badge').textContent =
+      BUILD_VERSION + ' · built ' + BUILD_TIME.replace('T',' ');
 
     // Module configs
     var moduleConfig = {
@@ -3176,84 +3301,314 @@
     }
     function saveStockCache(c) { localStorage.setItem('ag_stock_cache', JSON.stringify(c)); }
 
-    // Parse Yahoo Finance v7 quoteResponse into a {symbol: data} map
-    function parseQuoteMap(json) {
-      var results = json.quoteResponse && json.quoteResponse.result;
-      if (!results || !results.length) throw new Error('empty');
-      var map = {};
-      results.forEach(function(q) {
-        var price  = q.regularMarketPrice;
-        var change = q.regularMarketChange;
-        var pct    = q.regularMarketChangePercent;
-        var prev   = q.chartPreviousClose || q.regularMarketPreviousClose || (price - change);
-        map[q.symbol] = {
-          price: price, prev: prev, change: change, pct: pct,
-          currency: q.currency || '',
-          state: q.marketState || 'CLOSED',
-          ts: Date.now()
-        };
-      });
-      return map;
+    // === FUGLE KEY ===
+    function getFugleKey() { return localStorage.getItem('ag_fugle_key') || ''; }
+    function saveFugleKey(k) {
+      if (k) localStorage.setItem('ag_fugle_key', k.trim());
+      else localStorage.removeItem('ag_fugle_key');
     }
-
-    // Batch-fetch multiple symbols in ONE request — much more proxy-friendly
-    async function fetchStocksBatch(symbols) {
-      if (!symbols.length) return {};
-      var fields = 'regularMarketPrice,regularMarketChange,regularMarketChangePercent,chartPreviousClose,regularMarketPreviousClose,marketState,currency';
-      var url = 'https://query2.finance.yahoo.com/v7/finance/quote?symbols=' +
-                symbols.map(encodeURIComponent).join('%2C') +
-                '&fields=' + fields;
-
-      // Helper: timeout-aware fetch (compatible with older browsers)
-      function tFetch(u, ms) {
-        return Promise.race([
-          fetch(u),
-          new Promise(function(_, rej){ setTimeout(function(){ rej(new Error('timeout')); }, ms); })
-        ]);
+    function saveFugleKeyFromInput() {
+      var inp = document.getElementById('fugle-key-input');
+      var k = inp ? inp.value.trim() : '';
+      saveFugleKey(k);
+      updateKeyStatus();
+      if (inp) inp.value = '';
+      dbgLog('Fugle API Key ' + (k ? '已儲存' : '已清除'), k ? 'ok' : 'warn');
+    }
+    function toggleKeySection() {
+      var body = document.getElementById('stock-key-body');
+      if (body) body.style.display = body.style.display === 'none' ? '' : 'none';
+      updateKeyStatus();
+    }
+    function updateKeyStatus() {
+      var el = document.getElementById('fugle-key-status');
+      if (!el) return;
+      var k = getFugleKey();
+      if (k) {
+        el.className = 'stock-key-status ok';
+        el.textContent = '✓ API Key 已設定，台股即時報價啟用中';
+      } else {
+        el.className = 'stock-key-status na';
+        el.textContent = '— 尚未設定，台股即時行情將使用 TWSE 備援（僅收盤價）';
       }
-
-      // 1) Direct
-      try {
-        var r = await tFetch(url, 7000);
-        if (!r.ok) throw new Error(r.status);
-        return parseQuoteMap(await r.json());
-      } catch(e) {}
-
-      // 2) allorigins.win proxy
-      try {
-        var p1 = 'https://api.allorigins.win/get?url=' + encodeURIComponent(url);
-        var r2 = await tFetch(p1, 12000);
-        if (!r2.ok) throw new Error(r2.status);
-        var w = await r2.json();
-        return parseQuoteMap(JSON.parse(w.contents));
-      } catch(e) {}
-
-      // 3) corsproxy.io proxy
-      try {
-        var p2 = 'https://corsproxy.io/?' + encodeURIComponent(url);
-        var r3 = await tFetch(p2, 12000);
-        if (!r3.ok) throw new Error(r3.status);
-        return parseQuoteMap(await r3.json());
-      } catch(e) {}
-
-      return null; // all failed
     }
 
-    // Single-stock fetch (used when adding a new stock)
+    // === MARKET HOURS ===
+    function isTWMarketOpen() {
+      var now = new Date();
+      var tw = new Date(now.toLocaleString('en-US', {timeZone: 'Asia/Taipei'}));
+      var day = tw.getDay();
+      if (day === 0 || day === 6) return false;
+      var mins = tw.getHours() * 60 + tw.getMinutes();
+      return mins >= 540 && mins < 810; // 09:00 ~ 13:30
+    }
+    function isUSMarketOpen() {
+      var now = new Date();
+      var us = new Date(now.toLocaleString('en-US', {timeZone: 'America/New_York'}));
+      var day = us.getDay();
+      if (day === 0 || day === 6) return false;
+      var mins = us.getHours() * 60 + us.getMinutes();
+      return mins >= 570 && mins < 960; // 09:30 ~ 16:00
+    }
+
+    // === DEBUG ===
+    var debugLogs = [];
+    function dbgLog(msg, type) {
+      type = type || 'info';
+      var t = new Date().toLocaleTimeString('zh-TW',{hour:'2-digit',minute:'2-digit',second:'2-digit'});
+      var entry = '[' + t + '] ' + msg;
+      debugLogs.push({msg: entry, type: type});
+      if (debugLogs.length > 60) debugLogs.shift();
+      var el = document.getElementById('debug-log');
+      if (el) {
+        el.innerHTML = debugLogs.map(function(l){
+          return '<div class="dbg-line dbg-' + l.type + '">' + l.msg.replace(/</g,'&lt;') + '</div>';
+        }).join('');
+        el.scrollTop = el.scrollHeight;
+      }
+      console[type === 'err' ? 'error' : 'log']('[DBG]', msg);
+    }
+    function toggleDebug() {
+      var p = document.getElementById('debug-panel');
+      p.classList.toggle('open');
+    }
+
+    function tFetch(url, ms, opts) {
+      return Promise.race([
+        fetch(url, opts || {}),
+        new Promise(function(_, rej){ setTimeout(function(){ rej(new Error('timeout')); }, ms); })
+      ]);
+    }
+
+    // ── 台股：Fugle Intraday（開盤中即時報價）──
+    async function fetchFugleIntraday(symbols) {
+      var key = getFugleKey();
+      if (!key) return null;
+      var map = {};
+      var opts = { headers: { 'X-API-KEY': key } };
+      for (var i = 0; i < symbols.length; i++) {
+        var code = symbols[i].replace('.TW','');
+        dbgLog('Fugle intraday → ' + code, 'info');
+        try {
+          var r = await tFetch(
+            'https://api.fugle.tw/marketdata/v1.0/stock/intraday/quote/' + code,
+            8000, opts
+          );
+          if (!r.ok) { dbgLog('Fugle ' + code + ' HTTP ' + r.status, 'err'); continue; }
+          var d = await r.json();
+          var price  = d.closePrice || d.lastPrice || 0;
+          var prev   = d.previousClose || d.referencePrice || price;
+          var change = typeof d.change === 'number' ? d.change : (price - prev);
+          var pct    = typeof d.changePercent === 'number' ? d.changePercent : (prev ? change / prev * 100 : 0);
+          map[symbols[i]] = {
+            price: Math.round(price * 100) / 100,
+            change: Math.round(change * 100) / 100,
+            pct: Math.round(pct * 10000) / 10000,
+            prev: Math.round(prev * 100) / 100,
+            name: d.name || null,
+            currency: 'TWD', state: 'REGULAR', ts: Date.now()
+          };
+          dbgLog('  ' + code + ' → ' + price + ' (' + (change>=0?'+':'') + change.toFixed(2) + ')', 'ok');
+        } catch(e) { dbgLog('Fugle ' + code + ' 失敗: ' + e.message, 'err'); }
+        if (i < symbols.length - 1) await new Promise(function(r){ setTimeout(r, 120); });
+      }
+      return Object.keys(map).length ? map : null;
+    }
+
+    // ── 台股：Fugle Historical（收盤後取最後收盤價）──
+    async function fetchFugleHistorical(symbols) {
+      var key = getFugleKey();
+      if (!key) return null;
+      var map = {};
+      var opts = { headers: { 'X-API-KEY': key } };
+      var today = new Date();
+      var toStr = today.toISOString().slice(0,10);
+      var from = new Date(today); from.setDate(from.getDate() - 7);
+      var fromStr = from.toISOString().slice(0,10);
+      for (var i = 0; i < symbols.length; i++) {
+        var code = symbols[i].replace('.TW','');
+        dbgLog('Fugle historical → ' + code, 'info');
+        try {
+          var url = 'https://api.fugle.tw/marketdata/v1.0/stock/historical/candles/' + code +
+                    '?timeframe=D&from=' + fromStr + '&to=' + toStr;
+          var r = await tFetch(url, 8000, opts);
+          if (!r.ok) { dbgLog('Fugle hist ' + code + ' HTTP ' + r.status, 'err'); continue; }
+          var d = await r.json();
+          dbgLog('  ' + code + ' hist keys: ' + Object.keys(d).join(','), 'info');
+          var candles = d.data || d.candles;
+          if (!candles || !candles.length) { dbgLog('Fugle hist ' + code + ' 無資料', 'warn'); continue; }
+          // Sort ascending by date (API may return descending)
+          candles.sort(function(a, b) {
+            return (a.date || a.datetime || '') < (b.date || b.datetime || '') ? -1 : 1;
+          });
+          var last = candles[candles.length - 1];
+          var price = parseFloat(last.close) || 0;
+          var prev  = candles.length >= 2 ? (parseFloat(candles[candles.length - 2].close) || price) : price;
+          var change = Math.round((price - prev) * 100) / 100;
+          var pct    = prev ? Math.round(change / prev * 10000) / 100 : 0;
+          var dateStr = last.date || last.datetime || '';
+          map[symbols[i]] = {
+            price: price, change: change, pct: pct, prev: prev,
+            name: d.name || d.Name || null,
+            currency: 'TWD', state: 'CLOSED', ts: Date.now()
+          };
+          dbgLog('  ' + code + ' hist → ' + price + ' (' + dateStr + ') name=' + (d.name||d.Name||'null'), 'ok');
+        } catch(e) { dbgLog('Fugle hist ' + code + ' 失敗: ' + e.message, 'err'); }
+        if (i < symbols.length - 1) await new Promise(function(r){ setTimeout(r, 120); });
+      }
+      return Object.keys(map).length ? map : null;
+    }
+
+    // ── 台股：TWSE Open Data 備援（收盤價，無需 key）──
+    async function fetchTWSEFallback(symbols) {
+      var codes = symbols.map(function(s){ return s.replace('.TW',''); });
+      dbgLog('台股備援 → TWSE Open Data', 'info');
+      try {
+        var r = await tFetch('https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL', 10000);
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        var data = await r.json();
+        if (!Array.isArray(data) || !data.length) throw new Error('空回應');
+        var map = {};
+        data.forEach(function(item) {
+          var idx = codes.indexOf(item.Code);
+          if (idx === -1) return;
+          var close = parseFloat((item.ClosingPrice || '0').replace(/,/g,''));
+          if (!close) return;
+          var change = parseFloat(String(item.Change||'0').replace(/,/g,'').trim());
+          if (isNaN(change)) change = 0;
+          var prev = close - change;
+          var pct  = prev ? change / prev * 100 : 0;
+          map[symbols[idx]] = { price: close, change: change, pct: pct, prev: prev,
+            currency: 'TWD', state: 'CLOSED', ts: Date.now() };
+          dbgLog('  TWSE ' + symbols[idx] + ' → ' + close, 'ok');
+        });
+        return Object.keys(map).length ? map : null;
+      } catch(e) { dbgLog('TWSE 備援失敗: ' + e.message, 'err'); return null; }
+    }
+
+    // ── 從 Fugle intraday/quote 補股名（不分開盤與否）──
+    async function fetchFugleNames(symbols) {
+      var key = getFugleKey();
+      if (!key) return {};
+      var opts = { headers: { 'X-API-KEY': key } };
+      var names = {};
+      for (var i = 0; i < symbols.length; i++) {
+        var code = symbols[i].replace('.TW','');
+        try {
+          var r = await tFetch(
+            'https://api.fugle.tw/marketdata/v1.0/stock/intraday/quote/' + code,
+            6000, opts
+          );
+          if (!r.ok) continue;
+          var d = await r.json();
+          if (d.name) { names[symbols[i]] = d.name; dbgLog('  name ' + code + ' → ' + d.name, 'ok'); }
+        } catch(e) {}
+        if (i < symbols.length - 1) await new Promise(function(r){ setTimeout(r, 100); });
+      }
+      return names;
+    }
+
+    // ── 台股主入口 ──
+    async function fetchTWBatch(symbols) {
+      var key = getFugleKey();
+      if (key) {
+        if (isTWMarketOpen()) {
+          dbgLog('台股 → 開盤中，Fugle 即時報價', 'info');
+          var live = await fetchFugleIntraday(symbols);
+          if (live) return live;
+          dbgLog('台股即時失敗，改走歷史 API', 'warn');
+        } else {
+          dbgLog('台股 → 非開盤，Fugle 歷史收盤', 'info');
+        }
+        var hist = await fetchFugleHistorical(symbols);
+        if (hist) return hist;
+        dbgLog('台股 Fugle 失敗，改走 TWSE 備援', 'warn');
+      } else {
+        dbgLog('台股 → 無 API Key，TWSE 備援', 'info');
+      }
+      return fetchTWSEFallback(symbols);
+    }
+
+    // ── 美股：Yahoo Finance v8（primary）+ Stooq（fallback）──
+    async function fetchUSBatch(symbols) {
+      dbgLog('美股 → Yahoo Finance 請求中…', 'info');
+      var yhMap = {};
+      for (var i = 0; i < symbols.length; i++) {
+        var sym = symbols[i];
+        var yhUrl = 'https://query2.finance.yahoo.com/v8/finance/chart/' + sym + '?interval=1d&range=1d';
+        try {
+          var r = await tFetch(yhUrl, 8000);
+          if (!r.ok) throw new Error('HTTP ' + r.status);
+          var d = await r.json();
+          var res = d.chart && d.chart.result && d.chart.result[0];
+          if (!res) throw new Error('empty');
+          var m = res.meta;
+          var price  = m.regularMarketPrice || m.previousClose || 0;
+          var prev   = m.chartPreviousClose || m.previousClose || price;
+          var change = price - prev;
+          var pct    = prev ? change / prev * 100 : 0;
+          yhMap[sym] = {
+            price: Math.round(price * 100) / 100,
+            change: Math.round(change * 100) / 100,
+            pct: Math.round(pct * 10000) / 10000,
+            prev: Math.round(prev * 100) / 100,
+            currency: m.currency || 'USD',
+            state: m.marketState || 'CLOSED', ts: Date.now()
+          };
+          dbgLog('  YH ' + sym + ' → ' + price + ' [' + (m.marketState||'-') + ']', 'ok');
+        } catch(e) { dbgLog('  YH ' + sym + ' 失敗: ' + e.message, 'err'); }
+        if (i < symbols.length - 1) await new Promise(function(r){ setTimeout(r, 100); });
+      }
+      if (Object.keys(yhMap).length === symbols.length) return yhMap;
+
+      // Stooq fallback for missing symbols
+      var missing = symbols.filter(function(s){ return !yhMap[s]; });
+      if (missing.length) {
+        dbgLog('美股 → Stooq 補足 ' + missing.join(','), 'warn');
+        var stooqSyms = missing.map(function(s){ return s.toLowerCase() + '.us'; });
+        var stooqUrl = 'https://stooq.com/q/l/?s=' + stooqSyms.join('%2C') + '&f=sd2ohlcp&h&e=json';
+        var tryParse = function(json) {
+          var items = json.symbols; if (!items) return {};
+          var m2 = {};
+          items.forEach(function(item, i) {
+            var close = parseFloat(item.close); if (!close || close < 0) return;
+            var prev = parseFloat(item.prevclose || item.open || close);
+            var change = close - prev; var pct = prev ? change / prev * 100 : 0;
+            m2[missing[i]] = { price: close, change: change, pct: pct, prev: prev,
+              currency: 'USD', state: 'CLOSED', ts: Date.now() };
+          });
+          return m2;
+        };
+        try {
+          var sr = await tFetch(stooqUrl, 8000);
+          if (sr.ok) { Object.assign(yhMap, tryParse(await sr.json())); }
+        } catch(e) {
+          try {
+            var px = 'https://api.allorigins.win/get?url=' + encodeURIComponent(stooqUrl);
+            var pr = await tFetch(px, 14000);
+            if (pr.ok) { var pw = await pr.json(); Object.assign(yhMap, tryParse(JSON.parse(pw.contents))); }
+          } catch(e2) { dbgLog('Stooq 備援失敗: ' + e2.message, 'err'); }
+        }
+      }
+      return Object.keys(yhMap).length ? yhMap : null;
+    }
+
+    // Single-stock fetch for addStockFromInput
     async function fetchStock(symbol) {
-      var result = await fetchStocksBatch([symbol]);
+      var isTW = symbol.endsWith('.TW');
+      var result = isTW ? await fetchTWBatch([symbol]) : await fetchUSBatch([symbol]);
       return (result && result[symbol]) ? result[symbol] : null;
     }
 
-    function stateLabel(state) {
-      if (state === 'REGULAR') return '交易中';
-      if (state === 'PRE')     return '盤前';
-      if (state === 'POST')    return '盤後';
-      return '已收盤';
+    function stateInfo(state) {
+      if (state === 'REGULAR') return {label: '交易中', cls: 'open'};
+      if (state === 'PRE')     return {label: '盤前',   cls: 'pre'};
+      if (state === 'POST')    return {label: '盤後',   cls: 'post'};
+      return {label: '已收盤', cls: 'closed'};
     }
 
     function renderList(market) {
-      var list  = getStockList();
+      var list   = getStockList();
       var stocks = list[market] || [];
       var cache  = getStockCache();
       var el = document.getElementById('stock-list-' + market);
@@ -3264,20 +3619,21 @@
       }
       el.innerHTML = stocks.map(function(stock) {
         var c = cache[stock.s];
-        var priceStr, changeStr, cls, stateStr;
+        var priceStr, changeStr, cls, si;
         if (c && !c.failed) {
           var sign = c.change >= 0 ? '+' : '';
           cls = c.change > 0 ? 'up' : (c.change < 0 ? 'dn' : 'flat');
           priceStr  = c.price.toFixed(2);
           changeStr = sign + c.change.toFixed(2) + ' (' + sign + c.pct.toFixed(2) + '%)';
-          stateStr  = stateLabel(c.state);
+          si = stateInfo(c.state);
         } else if (c && c.failed) {
-          priceStr = '—'; changeStr = '無法取得'; cls = 'flat'; stateStr = '網路或代理異常';
+          priceStr = '—'; changeStr = '無法取得'; cls = 'flat'; si = {label:'網路異常', cls:'closed'};
         } else {
-          priceStr = '—'; changeStr = '載入中…'; cls = 'flat'; stateStr = '';
+          priceStr = '—'; changeStr = '載入中…'; cls = 'flat'; si = {label:'', cls:'closed'};
         }
         var disp = stock.s.replace('.TW','');
-        return '<div class="stock-item">' +
+        return '<div class="stock-item" draggable="true" data-sym="' + stock.s + '" data-mkt="' + market + '">' +
+          '<span class="stock-drag-handle" title="拖曳排序">⠿</span>' +
           '<div class="stock-item-info">' +
             '<div class="stock-item-symbol">' + disp + '</div>' +
             '<div class="stock-item-name">' + (stock.n || disp) + '</div>' +
@@ -3285,64 +3641,162 @@
           '<div class="stock-item-price">' +
             '<span class="stock-price-value">' + priceStr + '</span>' +
             '<span class="stock-price-change ' + cls + '">' + changeStr + '</span>' +
-            '<span class="stock-mktstate">' + stateStr + '</span>' +
+            '<span class="stock-mktstate ' + si.cls + '">' + si.label + '</span>' +
           '</div>' +
           '<button class="stock-item-remove" onclick="removeStock(\'' + market + '\',\'' + stock.s + '\')">×</button>' +
         '</div>';
       }).join('');
+      initDragDrop(market);
     }
 
-    function sleep(ms) { return new Promise(function(r){ setTimeout(r, ms); }); }
+    // === DRAG-AND-DROP REORDER ===
+    var _dragSrc = null;
 
-    async function refreshStocks(market) {
+    function initDragDrop(market) {
+      var container = document.getElementById('stock-list-' + market);
+      if (!container) return;
+      container.querySelectorAll('.stock-item[draggable]').forEach(function(item) {
+        item.addEventListener('dragstart', function(e) {
+          _dragSrc = item.dataset.sym;
+          item.classList.add('dragging');
+          e.dataTransfer.effectAllowed = 'move';
+        });
+        item.addEventListener('dragend', function() {
+          item.classList.remove('dragging');
+          container.querySelectorAll('.stock-item').forEach(function(i){ i.classList.remove('drag-over'); });
+        });
+        item.addEventListener('dragover', function(e) {
+          e.preventDefault();
+          e.dataTransfer.dropEffect = 'move';
+          if (item.dataset.sym !== _dragSrc) item.classList.add('drag-over');
+        });
+        item.addEventListener('dragleave', function() {
+          item.classList.remove('drag-over');
+        });
+        item.addEventListener('drop', function(e) {
+          e.preventDefault();
+          item.classList.remove('drag-over');
+          var tgt = item.dataset.sym;
+          if (!_dragSrc || _dragSrc === tgt) return;
+          var list = getStockList();
+          var stocks = list[market] || [];
+          var si = stocks.findIndex(function(s){ return s.s === _dragSrc; });
+          var ti = stocks.findIndex(function(s){ return s.s === tgt; });
+          if (si === -1 || ti === -1) return;
+          var moved = stocks.splice(si, 1)[0];
+          stocks.splice(ti, 0, moved);
+          saveStockList(list);
+          renderList(market);
+        });
+      });
+    }
+
+    // === POLLING ===
+    var stockPollers = {tw: null, us: null};
+    var POLL_INTERVAL = 30000;
+
+    function marketOpen(market) {
+      return market === 'tw' ? isTWMarketOpen() : isUSMarketOpen();
+    }
+
+    function startPolling(market) {
+      if (stockPollers[market]) return;
+      dbgLog(market.toUpperCase() + ' 市場開盤，啟動 30 秒輪詢', 'ok');
+      stockPollers[market] = setInterval(function() {
+        if (!marketOpen(market)) {
+          stopPolling(market);
+          updateMarketBadge(market, false);
+          dbgLog(market.toUpperCase() + ' 市場收盤，停止輪詢', 'info');
+        } else {
+          refreshStocks(market, true);
+        }
+      }, POLL_INTERVAL);
+    }
+
+    function stopPolling(market) {
+      if (stockPollers[market]) { clearInterval(stockPollers[market]); stockPollers[market] = null; }
+    }
+
+    function updateMarketBadge(market, isOpen) {
+      var updEl = document.getElementById(market + '-updated');
+      if (!updEl) return;
+      var badge = updEl.querySelector('.stock-live-badge');
+      if (!badge) {
+        badge = document.createElement('span');
+        updEl.appendChild(badge);
+      }
+      badge.className = 'stock-live-badge ' + (isOpen ? 'open' : 'closed');
+      badge.innerHTML = isOpen
+        ? '<span class="stock-live-dot"></span>即時'
+        : '已收盤';
+    }
+
+    async function refreshStocks(market, silent) {
       var list   = getStockList();
       var stocks = list[market] || [];
       var cache  = getStockCache();
       var updEl  = document.getElementById(market + '-updated');
-      if (updEl) updEl.textContent = '更新中…';
 
-      // Show skeletons
-      var el = document.getElementById('stock-list-' + market);
-      if (el && stocks.length) {
-        el.innerHTML = stocks.map(function(){ return '<div class="stock-skeleton"></div>'; }).join('');
+      if (!silent) {
+        if (updEl) updEl.innerHTML = '更新中…';
+        var el = document.getElementById('stock-list-' + market);
+        if (el && stocks.length) {
+          el.innerHTML = stocks.map(function(){ return '<div class="stock-skeleton"></div>'; }).join('');
+        }
       }
 
       if (!stocks.length) { renderList(market); return; }
 
       var symbols = stocks.map(function(s){ return s.s; });
+      var batchResult = market === 'tw' ? await fetchTWBatch(symbols) : await fetchUSBatch(symbols);
 
-      // ONE batch request for all symbols — far fewer proxy hits
-      var batchResult = await fetchStocksBatch(symbols);
-
-      if (batchResult) {
-        symbols.forEach(function(sym) {
-          cache[sym] = batchResult[sym] ? batchResult[sym] : {failed: true};
-        });
-      } else {
-        // Batch totally failed — keep existing cache, mark unknowns as failed
-        symbols.forEach(function(sym) {
-          if (!cache[sym] || !cache[sym].price) cache[sym] = {failed: true};
-        });
-      }
+      var nameUpdated = false;
+      symbols.forEach(function(sym) {
+        var r = batchResult && batchResult[sym];
+        cache[sym] = r || {failed: true};
+        if (r && r.name) {
+          var entry = (list[market] || []).find(function(s){ return s.s === sym; });
+          if (entry && entry.n === sym.replace('.TW','')) { entry.n = r.name; nameUpdated = true; }
+        }
+      });
+      if (nameUpdated) saveStockList(list);
       saveStockCache(cache);
       renderList(market);
 
-      // If any still failed, retry once after 3s with another batch call
-      var failedSyms = symbols.filter(function(sym){ return cache[sym] && cache[sym].failed; });
-      if (failedSyms.length > 0 && batchResult) {
-        if (updEl) updEl.textContent = '重試 ' + failedSyms.length + ' 項…';
-        await sleep(3000);
-        var retry = await fetchStocksBatch(failedSyms);
-        if (retry) {
-          failedSyms.forEach(function(sym){ if (retry[sym]) cache[sym] = retry[sym]; });
-          saveStockCache(cache);
-          renderList(market);
+      // Fill missing names via intraday/quote for TW stocks still using code as name
+      if (market === 'tw') {
+        var needName = symbols.filter(function(sym) {
+          var entry = (list[market] || []).find(function(s){ return s.s === sym; });
+          return entry && entry.n === sym.replace('.TW','');
+        });
+        if (needName.length) {
+          fetchFugleNames(needName).then(function(names) {
+            if (!Object.keys(names).length) return;
+            var l = getStockList();
+            var updated = false;
+            Object.keys(names).forEach(function(sym) {
+              var entry = (l[market] || []).find(function(s){ return s.s === sym; });
+              if (entry) { entry.n = names[sym]; updated = true; }
+            });
+            if (updated) { saveStockList(l); renderList(market); }
+          });
         }
       }
 
+      var anyOpen = symbols.some(function(sym) {
+        var c = cache[sym]; return c && !c.failed && c.state === 'REGULAR';
+      });
+      updateMarketBadge(market, anyOpen);
+
       if (updEl) {
-        updEl.textContent = '更新於 ' + new Date().toLocaleTimeString('zh-TW',{hour:'2-digit',minute:'2-digit'});
+        var timeStr = '更新於 ' + new Date().toLocaleTimeString('zh-TW',{hour:'2-digit',minute:'2-digit'}) + ' ';
+        var badge = updEl.querySelector('.stock-live-badge');
+        updEl.innerHTML = '';
+        updEl.appendChild(document.createTextNode(timeStr));
+        if (badge) updEl.appendChild(badge);
       }
+
+      if (marketOpen(market) && !stockPollers[market]) startPolling(market);
     }
 
     function addStockFromInput(market) {
@@ -3350,7 +3804,6 @@
       var raw = input.value.trim();
       if (!raw) return;
       var sym = raw.toUpperCase();
-      // Taiwan: auto-append .TW for pure numeric codes
       if (market === 'tw' && /^\d+$/.test(sym)) sym = sym + '.TW';
 
       var list = getStockList();
@@ -3364,14 +3817,11 @@
       saveStockList(list);
       input.value = '';
       renderList(market);
-      // Fetch with one auto-retry for newly added stocks
       fetchStock(sym).then(function(data) {
         var c = getStockCache();
-        if (data) {
-          c[sym] = data; saveStockCache(c); renderList(market);
-        } else {
-          c[sym] = {failed: true}; saveStockCache(c); renderList(market);
-          // Retry once after 2.5s
+        c[sym] = data || {failed: true};
+        saveStockCache(c); renderList(market);
+        if (!data) {
           setTimeout(function() {
             fetchStock(sym).then(function(d2) {
               if (d2) { var c2 = getStockCache(); c2[sym] = d2; saveStockCache(c2); renderList(market); }
@@ -3411,6 +3861,7 @@
     function maybeInitStocks() {
       if (stocksReady) return;
       stocksReady = true;
+      updateKeyStatus();
       renderList('tw'); renderList('us');
       refreshStocks('tw');
       refreshStocks('us');
