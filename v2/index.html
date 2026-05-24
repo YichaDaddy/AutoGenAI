@@ -541,6 +541,17 @@
     .stock-key-status { font-size: 10px; margin-top: 4px; }
     .stock-key-status.ok  { color: #22c55e; }
     .stock-key-status.na  { color: var(--text-faint); }
+    .stock-sync-btn {
+      margin-top: 10px; width: 100%; padding: 7px;
+      background: rgba(201,168,76,.1); border: 1px solid rgba(201,168,76,.3);
+      border-radius: var(--radius-sm); color: var(--gold);
+      font-size: 11px; font-weight: 600; cursor: pointer; letter-spacing: .02em;
+    }
+    .stock-sync-btn:hover { background: rgba(201,168,76,.18); }
+    .stock-sync-toast {
+      font-size: 10px; color: #22c55e; text-align: center;
+      margin-top: 5px; min-height: 14px;
+    }
 
     /* Live market badge on updated line */
     .stock-live-badge {
@@ -838,6 +849,9 @@
                 </div>
                 <div class="stock-key-status na" id="fugle-key-status">— 尚未設定，台股即時行情將使用 TWSE 備援</div>
               </div>
+              <!-- Sync to other devices -->
+              <button class="stock-sync-btn" onclick="copySyncLink()">📲 複製同步連結（同步自選股到其他裝置）</button>
+              <div class="stock-sync-toast" id="sync-toast"></div>
             </div>
           </div>
         </div>
@@ -1528,6 +1542,45 @@
       var inp = document.getElementById(m + '-add-input');
       if (inp) inp.addEventListener('keydown', function(e){ if (e.key==='Enter') addStockFromInput(m); });
     });
+
+    // ── Sync link (cross-device watchlist sharing) ──
+    function copySyncLink() {
+      var list = getStockList();
+      var encoded = btoa(unescape(encodeURIComponent(JSON.stringify(list))));
+      var url = window.location.origin + window.location.pathname + '#stocks=' + encoded;
+      var toast = document.getElementById('sync-toast');
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(url).then(function() {
+          toast.textContent = '✓ 連結已複製！在其他裝置開啟即可同步自選股';
+          setTimeout(function(){ toast.textContent = ''; }, 4000);
+        });
+      } else {
+        // Fallback: prompt
+        window.prompt('複製此連結並在其他裝置開啟：', url);
+      }
+    }
+
+    function applySyncFromURL() {
+      var hash = window.location.hash;
+      if (!hash.startsWith('#stocks=')) return;
+      try {
+        var encoded = hash.slice(8);
+        var list = JSON.parse(decodeURIComponent(escape(atob(encoded))));
+        if (list && (list.tw || list.us)) {
+          saveStockList(list);
+          history.replaceState(null, '', window.location.pathname);
+          // Show banner
+          var banner = document.createElement('div');
+          banner.style.cssText = 'position:fixed;top:16px;left:50%;transform:translateX(-50%);background:#22c55e;color:#000;font-size:13px;font-weight:700;padding:8px 20px;border-radius:999px;z-index:9999';
+          banner.textContent = '✓ 自選股已同步完成';
+          document.body.appendChild(banner);
+          setTimeout(function(){ banner.remove(); }, 3000);
+        }
+      } catch(e) {}
+    }
+
+    // Check for sync URL on load
+    applySyncFromURL();
 
     // Initialize when stocks panel opened (lazy)
     var stocksReady = false;
