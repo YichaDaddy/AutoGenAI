@@ -240,7 +240,7 @@
     }
     .bento-grid {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: repeat(10, 1fr);
       gap: 16px;
     }
 
@@ -276,15 +276,99 @@
       box-shadow: 0 0 0 1px var(--gold-dim), 0 16px 48px rgba(229,179,68,0.12);
     }
     .card-ai {
-      grid-column: span 2;
-      grid-row: span 2;
-      min-height: 408px;
-      padding: 32px;
+      grid-column: span 5;
+      min-height: 280px;
+    }
+    .card-finance-bento {
+      grid-column: span 5;
+      min-height: 280px;
+    }
+    .card-stocks {
+      grid-column: span 6;
+      grid-row: span 3;
+      min-height: 280px;
+    }
+    .card-reserved {
+      grid-column: span 4;
+      min-height: 90px;
     }
     .card-reserved { cursor: default; opacity: 0.6; }
     .card-reserved:hover {
       transform: none; border-color: var(--border-faint); box-shadow: var(--shadow-card);
     }
+
+    /* ── Bento news preview ── */
+    .bento-news-list { flex: 1; display: flex; flex-direction: column; gap: 11px; margin-bottom: 14px; }
+    .bento-news-item { display: flex; gap: 10px; align-items: flex-start; }
+    .bni-num {
+      font-family: var(--font-mono); font-size: 10px; font-weight: 700;
+      color: var(--gold);
+      background: rgba(229,179,68,0.08); border: 1px solid var(--border-faint);
+      border-radius: 4px; padding: 1px 5px; line-height: 1.5;
+      flex-shrink: 0; margin-top: 2px;
+    }
+    .bni-body { flex: 1; min-width: 0; }
+    .bni-title { font-size: 13px; font-weight: 500; color: var(--text); line-height: 1.45; margin-bottom: 5px;
+      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .bni-tags { display: flex; flex-wrap: wrap; gap: 4px; }
+    .bni-tag { font-size: 10px; padding: 2px 7px; border-radius: 4px;
+      background: rgba(229,179,68,.06); border: 1px solid var(--border-faint);
+      color: var(--text-3); white-space: nowrap; }
+    .card-footer { display: flex; align-items: center; justify-content: space-between; margin-top: auto; padding-top: 10px; }
+    .card-expand-btn { font-size: 12px; color: var(--gold); background: none; border: none;
+      cursor: pointer; padding: 0; font-family: inherit; opacity: .8; }
+    .card-expand-btn:hover { opacity: 1; }
+
+    /* ── Bento stock mini-cards ── */
+    .bento-stock-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 10px; flex: 1; margin-bottom: 12px; align-items: start; }
+    .bento-stock-item {
+      background: rgba(0,0,0,.25);
+      border: 1px solid var(--border-faint);
+      border-left: 2px solid rgba(239,90,61,0.30);
+      border-radius: 10px; padding: 14px 12px 10px;
+      display: flex; flex-direction: column; gap: 4px;
+      transition: transform 0.18s ease, box-shadow 0.18s ease;
+    }
+    .bento-stock-item:hover { transform: translateY(-2px); box-shadow: 0 6px 20px -8px rgba(0,0,0,0.5); }
+    .bento-stock-item.dn   { border-left-color: rgba(78,192,122,0.34); }
+    .bento-stock-item.flat { border-left-color: var(--border-faint); }
+    .bsi-header { display: flex; align-items: baseline; gap: 5px; margin-bottom: 2px; }
+    .bsi-sym { font-family: var(--font-mono); font-size: 11px; color: var(--gold); font-weight: 700; }
+    .bsi-name { font-size: 10px; color: var(--text-3); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .bsi-price { font-family: var(--font-mono); font-size: 18px; font-weight: 700; color: var(--up); line-height: 1.2; }
+    .bento-stock-item.dn   .bsi-price { color: var(--down); }
+    .bento-stock-item.flat .bsi-price { color: var(--text-2); }
+    .bsi-chg {
+      display: inline-flex; align-items: center; align-self: flex-start;
+      font-size: 10.5px; font-weight: 600;
+      padding: 2px 7px; border-radius: 999px;
+      color: var(--up); background: var(--up-soft);
+    }
+    .bsi-chg.dn   { color: var(--down); background: var(--down-soft); }
+    .bsi-chg.flat { color: var(--text-faint); background: transparent; }
+    .bento-stock-footer { display: flex; align-items: center; justify-content: space-between; }
+    .bsf-remain { font-size: 11px; color: var(--text-faint); }
+
+    /* ── Bottom ticker ── */
+    .ticker-bar { position: fixed; bottom: 0; left: 0; right: 0; height: 30px;
+      background: rgba(13,11,7,.97); border-top: 1px solid var(--border-faint);
+      display: flex; align-items: center; z-index: 200; overflow: hidden; }
+    .ticker-label { flex-shrink: 0; padding: 0 10px 0 12px; font-size: 9px; letter-spacing: .08em;
+      color: var(--text-faint); border-right: 1px solid var(--border-faint);
+      font-family: var(--font-mono); white-space: nowrap; }
+    .ticker-scroller { flex: 1; overflow: hidden; }
+    .ticker-track { display: inline-flex; gap: 0; white-space: nowrap; }
+    .ticker-item { display: inline-flex; align-items: center; gap: 5px; padding: 0 20px 0 0; font-size: 11px; }
+    .ticker-sym { font-family: var(--font-mono); color: var(--text-2); font-weight: 600; font-size: 10px; }
+    .ticker-price { font-family: var(--font-mono); color: var(--text); }
+    .ticker-chg { font-family: var(--font-mono); font-size: 10px; }
+    .ticker-chg.up { color: var(--up); }
+    .ticker-chg.dn { color: var(--down); }
+    .ticker-chg.flat { color: var(--text-faint); }
+    @keyframes tickerScroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+    /* push body content above ticker */
+    .dash-footer { margin-bottom: 36px; }
 
     /* Card header row */
     .card-head {
@@ -1031,35 +1115,21 @@
           <span class="pill"><span class="dot"></span>即時更新</span>
         </div>
 
-        <div class="ai-preview">
-          <div class="eyebrow">今日精選</div>
-          <div class="ai-preview-title">每日精選 AI 領域重大事件、工具更新與趨勢分析</div>
-          <div class="ai-preview-tags">
-            <span class="ag-chip">大事件</span>
-            <span class="ag-chip">工具更新</span>
-            <span class="ag-chip">趨勢觀察</span>
-          </div>
+        <div class="bento-news-list" id="bento-ai-list">
+          <div class="bni-loading">載入中…</div>
         </div>
-
-        <div class="card-stats">
-          <div class="stat-box">
-            <span class="stat-val">10</span>
-            <span class="stat-label">則情報</span>
+        <div class="card-footer">
+          <div class="card-stats">
+            <div class="stat-box"><span class="stat-val" id="ai-stat-count">10</span><span class="stat-label">則情報</span></div>
+            <div class="stat-box"><span class="stat-val">7</span><span class="stat-label">天紀錄</span></div>
+            <div class="stat-box"><span class="stat-val text">每日</span><span class="stat-label">更新</span></div>
           </div>
-          <div class="stat-box">
-            <span class="stat-val">7</span>
-            <span class="stat-label">天紀錄</span>
-          </div>
-          <div class="stat-box">
-            <span class="stat-val text">每日</span>
-            <span class="stat-label">更新</span>
-          </div>
-          <span class="tap-hint">點擊展開 →</span>
+          <button class="card-expand-btn" onclick="openPanel('ai');event.stopPropagation()">展開全部 →</button>
         </div>
       </div>
 
       <!-- 財經日報 -->
-      <div class="bento-card card-finance" data-module="finance">
+      <div class="bento-card card-finance card-finance-bento" data-module="finance">
         <div class="card-head">
           <div class="card-title-row">
             <div class="icon-tile tone-green">
@@ -1078,12 +1148,15 @@
           <span class="pill tone-green"><span class="dot"></span>即時更新</span>
         </div>
 
-        <div class="card-stats">
-          <div class="stat-box">
-            <span class="stat-val">10</span>
-            <span class="stat-label">則情報</span>
+        <div class="bento-news-list" id="bento-finance-list">
+          <div class="bni-loading">載入中…</div>
+        </div>
+        <div class="card-footer">
+          <div class="card-stats">
+            <div class="stat-box"><span class="stat-val" id="fin-stat-count">10</span><span class="stat-label">則情報</span></div>
+            <div class="stat-box"><span class="stat-val" id="fin-stat-shocks">3</span><span class="stat-label">震撼彈</span></div>
           </div>
-          <span class="tap-hint">點擊展開 →</span>
+          <button class="card-expand-btn" onclick="openPanel('finance');event.stopPropagation()">展開全部 →</button>
         </div>
       </div>
 
@@ -1107,15 +1180,12 @@
           <span class="pill tone-info"><span class="dot"></span>即時行情</span>
         </div>
 
-        <div class="stocks-symbols">
-          <div class="stock-sym">2330<span>台積電</span></div>
-          <div class="stock-sym">2454<span>聯發科</span></div>
-          <div class="stock-sym">0050<span>元大台灣50</span></div>
-          <div class="stock-sym">VOO<span>S&amp;P500</span></div>
+        <div class="bento-stock-grid" id="bento-stock-grid">
+          <div class="bni-loading">載入股價…</div>
         </div>
-
-        <div class="card-stats" style="margin-top: 14px;">
-          <span class="tap-hint">點擊展開 →</span>
+        <div class="bento-stock-footer">
+          <span class="bsf-remain" id="bsf-remain"></span>
+          <button class="card-expand-btn" onclick="openPanel('stocks');event.stopPropagation()">展開全部 →</button>
         </div>
       </div>
 
@@ -1898,6 +1968,8 @@
       if (nameUpdated) saveStockList(list);
       saveStockCache(cache);
       renderList(market);
+      renderBentoStocks();
+      updateTicker();
 
       if (market === 'tw') {
         var needName = symbols.filter(function(sym) {
@@ -2243,6 +2315,176 @@
     }
 
     loadNewsChannel('ai');
+
+    // ── Bento news preview ────────────────────────────────────
+    function initBentoNews(ch) {
+      var cfg = NEWS_CFG[ch];
+      var elId = ch === 'ai' ? 'bento-ai-list' : 'bento-finance-list';
+      var el = document.getElementById(elId);
+      if (!el) return;
+      fetch(cfg.url)
+        .then(function(r){ return r.ok ? r.json() : null; })
+        .then(function(archive) {
+          if (!archive || !archive.length) { el.innerHTML = '<div class="bni-loading">暫無資料</div>'; return; }
+          var day = archive[0];
+          // Pick first section's items
+          var sec = cfg.sections[0];
+          var items = day[sec.key] || [];
+          if (!items.length) {
+            // Try second section
+            items = day[cfg.sections[1] ? cfg.sections[1].key : sec.key] || [];
+          }
+          var html = items.slice(0,2).map(function(item, i) {
+            var srcs = (item.sources||[]).slice(0,2).map(function(s){
+              return '<span class="bni-tag">' + esc(s.name||s) + '</span>';
+            }).join('');
+            return '<div class="bento-news-item">' +
+              '<span class="bni-num">0'+(i+1)+'</span>' +
+              '<div class="bni-body">' +
+                '<div class="bni-title">' + esc(item.title||'') + '</div>' +
+                '<div class="bni-tags">' + srcs + '</div>' +
+              '</div></div>';
+          }).join('');
+          el.innerHTML = html || '<div class="bni-loading">暫無資料</div>';
+          // Update stats
+          if (ch === 'ai') {
+            var total = (day.big_events||[]).length + (day.tool_updates||[]).length + (day.trends||[]).length;
+            var cnt = document.getElementById('ai-stat-count');
+            if (cnt) cnt.textContent = total || 10;
+          } else {
+            var total2 = (day.market_shocks||[]).length + (day.investment_opportunities||[]).length + (day.macro_observations||[]).length;
+            var cnt2 = document.getElementById('fin-stat-count');
+            var shk = document.getElementById('fin-stat-shocks');
+            if (cnt2) cnt2.textContent = total2 || 10;
+            if (shk) shk.textContent = (day.market_shocks||[]).length || 3;
+          }
+        })
+        .catch(function(){ el.innerHTML = '<div class="bni-loading">暫無資料</div>'; });
+    }
+
+    // ── Sparkline helpers ─────────────────────────────────────
+
+
+    // ── Bento stocks render ───────────────────────────────────
+    function renderBentoStocks() {
+      var grid = document.getElementById('bento-stock-grid');
+      var remain = document.getElementById('bsf-remain');
+      if (!grid) return;
+      var list = getStockList();
+      var all = (list.tw||[]).concat(list.us||[]);
+      if (!all.length) {
+        grid.innerHTML = '<div class="bni-loading" style="grid-column:1/-1">尚未新增自選股</div>';
+        if (remain) remain.textContent = '';
+        return;
+      }
+      var cache = getStockCache();
+      var shown = all.slice(0,3);
+      var rest  = all.length - 3;
+
+      grid.innerHTML = shown.map(function(stock) {
+        var d = cache[stock.s] || {};
+        var price = d.price, chg = d.pct;
+        var sym = stock.s.replace('.TW','');
+        var name = stock.n || sym;
+        var hasData = price != null;
+        var priceStr = hasData ? (+price).toLocaleString('zh-TW', {minimumFractionDigits:2, maximumFractionDigits:2}) : '—';
+        var chgStr   = chg != null ? (chg >= 0 ? '+' : '') + (+chg).toFixed(2) + '%' : '—';
+        var arrow    = chg > 0 ? '▲' : chg < 0 ? '▼' : '';
+        var dir = chg > 0 ? '' : chg < 0 ? ' dn' : ' flat';
+        return '<div class="bento-stock-item' + dir + '">' +
+          '<div class="bsi-header"><span class="bsi-sym">'+sym+'</span><span class="bsi-name">'+esc(name)+'</span></div>' +
+          '<div class="bsi-price">'+priceStr+'</div>' +
+          '<div class="bsi-chg'+dir+'">'+(arrow?arrow+' ':'')+chgStr+'</div>' +
+          '</div>';
+      }).join('');
+
+      if (remain) remain.textContent = rest > 0 ? '還有 '+rest+' 檔追蹤中' : '';
+    }
+
+    // ── Ticker bar ────────────────────────────────────────────
+    function buildTickerHTML() {
+      var list = getStockList();
+      var all = (list.tw||[]).concat(list.us||[]);
+      var cache = getStockCache();
+      if (!all.length) return '';
+      return all.map(function(stock) {
+        var d = cache[stock.s] || {};
+        var sym = stock.s.replace('.TW','');
+        var price = d.price != null ? (+d.price).toLocaleString('zh-TW', {minimumFractionDigits:2, maximumFractionDigits:2}) : '—';
+        var chg   = d.pct != null ? (d.pct >= 0 ? '+' : '') + (+d.pct).toFixed(2) + '%' : '';
+        var dir   = d.pct > 0 ? 'up' : d.pct < 0 ? 'dn' : 'flat';
+        return '<span class="ticker-item">' +
+          '<span class="ticker-sym">'+sym+'</span>' +
+          '<span class="ticker-price">'+price+'</span>' +
+          (chg ? '<span class="ticker-chg '+dir+'">'+chg+'</span>' : '') +
+          '</span>';
+      }).join('');
+    }
+
+    function updateTicker() {
+      var track = document.getElementById('ticker-track');
+      if (!track) return;
+      var inner = buildTickerHTML();
+      if (!inner) return;
+      // Duplicate for seamless loop
+      track.innerHTML = inner + inner;
+      var totalW = track.scrollWidth / 2;
+      track.style.animation = 'none';
+      track.offsetWidth; // reflow
+      track.style.animation = 'tickerScroll ' + Math.max(10, totalW / 50) + 's linear infinite';
+    }
+
+    function initTicker() {
+      var bar = document.getElementById('ticker-bar');
+      if (!bar) return;
+      var d = new Date();
+      var label = document.getElementById('ticker-label-date');
+      if (label) label.textContent = d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0');
+      updateTicker();
+    }
+
+    // ── Load stocks.json as cache fallback ───────────────────
+    function loadStocksJsonFallback() {
+      fetch('stocks.json?' + Date.now())
+        .then(function(r) { return r.ok ? r.json() : null; })
+        .then(function(json) {
+          if (!json || !json.data) return;
+          var cache = getStockCache();
+          var updated = false;
+          Object.keys(json.data).forEach(function(sym) {
+            if (!cache[sym] || cache[sym].failed) {
+              cache[sym] = json.data[sym];
+              updated = true;
+            }
+          });
+          if (updated) {
+            saveStockCache(cache);
+            renderBentoStocks();
+            updateTicker();
+          }
+        })
+        .catch(function() {});
+    }
+
+    // ── Init bento on page load ───────────────────────────────
+    initBentoNews('ai');
+    initBentoNews('finance');
+    setTimeout(function() {
+      renderBentoStocks();
+      initTicker();
+      loadStocksJsonFallback();
+    }, 600);
+
   </script>
+
+  <!-- Bottom ticker bar -->
+  <div class="ticker-bar" id="ticker-bar">
+    <span class="ticker-label">WATCHLIST&nbsp;<span id="ticker-label-date"></span></span>
+    <div class="ticker-scroller">
+      <div class="ticker-track" id="ticker-track">
+        <span style="color:var(--text-faint);font-size:11px;padding-left:12px">載入中…</span>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
