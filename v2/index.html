@@ -936,6 +936,7 @@
       overlay.classList.add('open');
       document.body.style.overflow = 'hidden';
       if (mod === 'stocks') maybeInitStocks();
+      if (mod === 'ai' || mod === 'finance') loadNewsChannel(mod);
     }
 
     function closePanel() {
@@ -1671,21 +1672,8 @@
         });
     }
 
-    // Load news for whichever channel is active when panel opens
-    // and lazy-load the other on tab switch
-    (function() {
-      var panelTabs = document.querySelectorAll('.panel-tab');
-      panelTabs.forEach(function(tab) {
-        tab.addEventListener('click', function() {
-          var mod = tab.dataset.mod;
-          if (mod === 'ai') loadNewsChannel('ai');
-          if (mod === 'finance') loadNewsChannel('finance');
-        });
-      });
-      // Panel open button already calls maybeInitStocks for stocks;
-      // pre-load AI on page load (it's the default active panel)
-      loadNewsChannel('ai');
-    })();
+    // Pre-load AI channel on page load so it's ready when the panel opens
+    loadNewsChannel('ai');
   </script>
 </body>
 </html>
