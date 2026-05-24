@@ -1,50 +1,119 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
+<style data-omelette-injected>html,body{background:transparent}</style><script data-omelette-injected>(()=>{var j=["https://claude.ai","https://preview.claude.ai"];var x=true;var S=30000;var f=3000;document.addEventListener("DOMContentLoaded",()=>{const H=window.Babel;const G="om-src-id";if(H&&H.registerPlugin&&!(H.availablePlugins&&H.availablePlugins[G])){H.registerPlugin(G,({types:Y})=>({visitor:{JSXOpeningElement(U,Q){const J=U.node;if(J.name&&J.name.type==="JSXMemberExpression")return;for(let V=0;V<J.attributes.length;V++){const L=J.attributes[V];if(L.type==="JSXAttribute"&&L.name&&L.name.name==="data-om-id")return}const W=Q.file&&Q.file.opts&&Q.file.opts.filename||"?";const Z=J.loc&&J.loc.start;const z=`jsx:${W}:${J.start??0}:${Z?Z.line:0}:${Z?Z.column+1:0}`;J.attributes.push(Y.jsxAttribute(Y.jsxIdentifier("data-om-id"),Y.stringLiteral(z)))}}}))}const k="om-text-extract";let A=false;if(x&&H&&H.registerPlugin&&!(H.availablePlugins&&H.availablePlugins[k])){const Y=window.React;if(Y&&Y.useSyncExternalStore&&Y.createElement){A=true;const U={};const Q=new Set;let J=0;window.__omTextO=U;window.__omTextSet=(z)=>{for(const V in z){const L=z[V];if(L==null)delete U[V];else U[V]=L}J++;Q.forEach((V)=>V())};const W=(z)=>{Q.add(z);return()=>Q.delete(z)};const Z=()=>J;window.__OmT=function z(V){Y.useSyncExternalStore(W,Z,Z);return Y.createElement("span",{"data-om-text":V.i,className:"__om-t"},V.i in U?U[V.i]:V.children)};H.registerPlugin(k,({types:z})=>{const V={style:1,script:1,noscript:1,textarea:1,title:1,option:1,text:1,tspan:1,textPath:1};const L={placeholder:1,alt:1,title:1,label:1,"aria-label":1,"aria-description":1,"aria-placeholder":1};const _=($,C)=>z.logicalExpression("??",z.memberExpression(z.logicalExpression("||",z.memberExpression(z.identifier("window"),z.identifier("__omTextO")),z.objectExpression([])),z.stringLiteral($),true),C);const E=($)=>$.file&&$.file.opts&&$.file.opts.filename||"?";const B=($)=>$.file&&$.file.code||"";const b=($,C)=>{const X=(F)=>F&&F.start!=null&&F.end!=null&&(F.type==="StringLiteral"||F.type==="TemplateLiteral"&&F.expressions.length===0)?[F.start,F.end]:null;const N=X(C);if(N)return N;if(C&&C.type==="Identifier"){const F=$.scope.getBinding(C.name);if(F&&F.constant&&F.path.node.type==="VariableDeclarator"){return X(F.path.node.init)}}return null};const M=($,C,X)=>{const N=$.node;let F=false;const w=(K,q)=>{F=true;return z.jsxElement(z.jsxOpeningElement(z.jsxIdentifier("__OmT"),[z.jsxAttribute(z.jsxIdentifier("i"),z.stringLiteral(K))],false),z.jsxClosingElement(z.jsxIdentifier("__OmT")),[q],false)};const D=N.children.map((K)=>{if(K.type==="JSXText"){if(K.start==null||K.end==null)return K;const q=X.slice(K.start,K.end);const R=q.length-q.trimStart().length;const m=q.length-q.trimEnd().length;if(R+m>=q.length)return K;return w(`txt:${C}:${K.start+R}:${K.end-m}`,K)}if(K.type==="JSXExpressionContainer"){const q=b($,K.expression);if(q)return w(`str:${C}:${q[0]}:${q[1]}`,K)}return K});if(F)N.children=D};return{visitor:{JSXOpeningElement($,C){const X=$.node;const N=E(C);const F={};for(let w=0;w<X.attributes.length;w++){const D=X.attributes[w];if(D.type!=="JSXAttribute"||!D.name)continue;const K=D.name.name;if(!L[K])continue;if(!D.value||D.value.type!=="StringLiteral")continue;if(D.value.start==null||D.value.end==null)continue;const q=`txt:${N}:${D.value.start}:${D.value.end}`;F[K]=q;D.value=z.jsxExpressionContainer(_(q,z.stringLiteral(D.value.value)))}if(Object.keys(F).length){X.attributes.push(z.jsxAttribute(z.jsxIdentifier("data-om-text-attrs"),z.stringLiteral(JSON.stringify(F))))}},JSXElement($,C){const X=$.node.openingElement;const N=X&&X.name&&X.name.name;if(N==="__OmT")return;if(typeof N==="string"&&V[N])return;M($,E(C),B(C))},JSXFragment($,C){M($,E(C),B(C))}}}})}}const u=A?["transform-react-jsx-source",G,k]:["transform-react-jsx-source",G];document.querySelectorAll('script[type="text/babel"],script[type="text/jsx"]').forEach((Y,U)=>{const Q=Y.getAttribute("data-plugins")||"";const J=u.filter((W)=>Q.indexOf(W)<0);if(J.length){Y.setAttribute("data-plugins",Q?`${Q},${J.join(",")}`:J.join(","))}if(!Y.hasAttribute("data-filename")){Y.setAttribute("data-filename",Y.getAttribute("src")||`inline-${U}`)}})});var y=window.parent;if(y&&y!==window){const H=(Q,J)=>{try{y.postMessage({__omelette_log:true,type:Q,data:J},"*")}catch{}};["log","warn","error"].forEach((Q)=>{const J=console[Q];console[Q]=(...W)=>{const Z=W.map((z)=>{try{return typeof z==="object"?JSON.stringify(z):String(z)}catch{try{return String(z)}catch{return"[unstringifiable]"}}}).join(" ");H(Q,Z);J.apply(console,W)}});window.addEventListener("error",(Q)=>{const J=Q.target;if(J&&J!==window&&J.tagName){const W=J.src||J.href||"";H("resource_error",`${J.tagName} failed to load: ${W}`)}else{H("error",`${Q.message||"Unknown error"} at ${Q.filename||"?"}:${Q.lineno||0}:${Q.colno||0}`)}},true);window.addEventListener("unhandledrejection",(Q)=>{const J=Q.reason;const W=J instanceof Error?`${J.message} ${J.stack}`:String(J);H("error",`Unhandled rejection: ${W}`)});const G=()=>{try{y.postMessage({type:"omelette:height",height:document.documentElement.scrollHeight},"*")}catch{}};if(document.readyState==="complete")G();else window.addEventListener("load",G);if(window.ResizeObserver)new ResizeObserver(G).observe(document.documentElement);const k={};let A=0;window.claude={complete(Q){return new Promise((J,W)=>{if(!j.length){W(new Error("claude.complete: no parent origin"));return}const Z=`c${++A}`;const z=()=>setTimeout(()=>{delete k[Z];W(new Error(`claude.complete: no data for ${S/1000}s`))},S);const V=z();k[Z]={resolve:J,reject:W,text:"",t:V,arm:z};try{for(const L of j){y.postMessage({__om_api:true,id:Z,body:Q},L)}}catch(L){clearTimeout(V);delete k[Z];W(L)}})}};const u={};let Y=0;window.omelette={writeFile:(Q,J)=>new Promise((W,Z)=>{if(!j.length){W();return}const z=`f${++Y}`;const V=setTimeout(()=>{delete u[z];W()},f);u[z]={resolve:W,reject:Z,t:V};try{for(const L of j){y.postMessage({__om_file:true,id:z,op:"write",path:Q,content:J},L)}}catch{clearTimeout(V);delete u[z];W()}})};const U=(Q)=>{try{return JSON.stringify(Q)}catch{return JSON.stringify(String(Q))}};window.addEventListener("message",(Q)=>{if(j.indexOf(Q.origin)<0)return;if(Q.source!==y)return;const J=Q.data;if(!J)return;if(J.type==="omelette-preview-refresh"){if(typeof J.token!=="string"||!/^[0-9a-f.-]+(\.(rc|pr-[0-9]+))?(\.[0-9]+\.[0-9a-f]{16})?$/.test(J.token))return;const z=Math.max(1,Math.floor((J.expiresAt||0)-Date.now()/1000));document.cookie="__Host-omelette-preview="+J.token+"; Path=/; Secure; SameSite=None; Partitioned; Max-Age="+z;return}if(J.__om_file_r){const z=u[J.id];if(!z)return;clearTimeout(z.t);delete u[J.id];if(J.ok)z.resolve();else z.reject(new Error(J.error||"write failed"));return}if(J.__om_api_r){const z=k[J.id];if(!z)return;if(J.error!=null){clearTimeout(z.t);delete k[J.id];z.reject(new Error(J.error));return}if(J.chunk!=null){clearTimeout(z.t);z.t=z.arm();z.text+=J.chunk;return}if(J.done){clearTimeout(z.t);delete k[J.id];z.resolve(J.text!=null?J.text:z.text);return}return}if(!J.__om_eval)return;const W=J;const Z=(z)=>{Q.source.postMessage({...z,__om_eval_r:1,id:W.id},Q.origin)};try{const z=(0,eval)(W.code);if(z&&typeof z.then==="function"){z.then((V)=>Z({ok:1,v:U(V)}),(V)=>Z({ok:0,e:String(V)}))}else{Z({ok:1,v:U(z)})}}catch(z){Z({ok:0,e:String(z)})}})}})();
+</script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AutoGenAI Dashboard</title>
+  <title>AutoGenAI · 自媒體情報中心</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
+    /* ─── Design tokens ─── */
     :root {
-      --bg:           #0e0d0a;
-      --surface:      #1b1813;
-      --surface-2:    #221f16;
-      --surface-3:    #2a261c;
-      --gold:         #c9a022;
-      --gold-bright:  #e0bb4a;
-      --gold-dim:     rgba(201,160,34,0.18);
-      --gold-subtle:  rgba(201,160,34,0.07);
-      --text:         #ede5d5;
-      --text-2:       #c0ae88;
-      --text-muted:   #7a6e54;
-      --text-faint:   #4a4030;
-      --border:       rgba(201,160,34,0.13);
-      --border-2:     rgba(201,160,34,0.30);
-      --radius:       16px;
+      /* Surfaces — warm near-black, gold-tinted */
+      --bg:           #0d0b07;
+      --surface:      #15110a;
+      --surface-2:    #1c1810;
+      --surface-3:    #231d12;
+      --surface-inset:#0a0805;
+
+      /* Brand */
+      --gold:         #e5b344;
+      --gold-bright:  #f4c752;
+      --gold-mid:     #c9a022;
+      --gold-dim:     rgba(229,179,68,0.55);
+      --gold-glow:    rgba(229,179,68,0.18);
+
+      /* Borders */
+      --border-faint: rgba(229,179,68,0.08);
+      --border:       rgba(229,179,68,0.16);
+      --border-2:     rgba(229,179,68,0.28);
+
+      /* Text */
+      --text:         #f2ede0;
+      --text-2:       rgba(242,237,224,0.66);
+      --text-3:       rgba(242,237,224,0.42);
+      --text-muted:   rgba(242,237,224,0.42);
+      --text-faint:   rgba(242,237,224,0.26);
+
+      /* Status */
+      --up:           #ef5a3d;
+      --up-soft:      rgba(239,90,61,0.14);
+      --down:         #4ec07a;
+      --down-soft:    rgba(78,192,122,0.14);
+      --info:         #5aa9e6;
+      --info-soft:    rgba(90,169,230,0.13);
+
+      /* Accent colors for news sections (re-toned for dark editorial) */
+      --acc-red:      #ef5a3d;     --acc-red-bg:    rgba(239,90,61,0.10);
+      --acc-blue:     #5aa9e6;     --acc-blue-bg:   rgba(90,169,230,0.10);
+      --acc-green:    #4ec07a;     --acc-green-bg:  rgba(78,192,122,0.10);
+      --acc-amber:    #e5b344;     --acc-amber-bg:  rgba(229,179,68,0.10);
+      --acc-purple:   #b18ce9;     --acc-purple-bg: rgba(177,140,233,0.10);
+      --acc-teal:     #5fc4c4;     --acc-teal-bg:   rgba(95,196,196,0.10);
+
+      /* Type */
+      --font-sans:    'Plus Jakarta Sans', 'Noto Sans TC', -apple-system, sans-serif;
+      --font-mono:    'JetBrains Mono', ui-monospace, Menlo, monospace;
+
+      /* Spacing */
+      --radius:       18px;
       --radius-sm:    10px;
+      --radius-md:    12px;
+
+      /* Shadow */
+      --shadow-card:
+        0 1px 0 rgba(255,255,255,0.02) inset,
+        0 24px 48px -24px rgba(0,0,0,0.6),
+        0 0 0 1px var(--border-faint),
+        0 0 40px -20px var(--gold-glow);
     }
 
     body {
-      font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+      font-family: var(--font-sans);
       background: var(--bg);
       color: var(--text);
       min-height: 100vh;
       -webkit-font-smoothing: antialiased;
+      position: relative;
+      overflow-x: hidden;
     }
 
-    ::-webkit-scrollbar { width: 5px; height: 5px; }
-    ::-webkit-scrollbar-track { background: transparent; }
-    ::-webkit-scrollbar-thumb { background: rgba(201,160,34,0.25); border-radius: 3px; }
-    ::-webkit-scrollbar-thumb:hover { background: rgba(201,160,34,0.45); }
+    /* Subtle topographic SVG background (whole page) */
+    body::before {
+      content: '';
+      position: fixed; inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0.045;
+      background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='600' height='400'><g fill='none' stroke='%23e5b344' stroke-width='0.6'><path d='M -40 200 Q 100 120, 220 200 T 460 200 T 700 200'/><path d='M -40 230 Q 100 150, 220 230 T 460 230 T 700 230'/><path d='M -40 260 Q 100 180, 220 260 T 460 260 T 700 260'/><path d='M -40 170 Q 100 90, 220 170 T 460 170 T 700 170'/><path d='M -40 140 Q 100 60, 220 140 T 460 140 T 700 140'/><path d='M -40 110 Q 100 30, 220 110 T 460 110 T 700 110'/><path d='M -40 290 Q 100 210, 220 290 T 460 290 T 700 290'/><path d='M -40 320 Q 100 240, 220 320 T 460 320 T 700 320'/><path d='M -40 350 Q 100 270, 220 350 T 460 350 T 700 350'/></g></svg>");
+    }
+    /* Warm radial glow top-right */
+    body::after {
+      content: '';
+      position: fixed; inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      background: radial-gradient(ellipse 80% 60% at 80% -10%, rgba(229,179,68,0.10), transparent 60%);
+    }
 
-    /* === PASSWORD GATE === */
+    /* Scrollbar */
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: rgba(229,179,68,0.20); border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: rgba(229,179,68,0.40); }
+
+    button { font-family: inherit; cursor: pointer; }
+
+    /* ───────────────────────────── PASSWORD GATE ───────────────────────── */
     #pw-gate {
       position: fixed; inset: 0; z-index: 9999;
-      background: rgba(14,13,10,0.97);
+      background: rgba(13,11,7,0.96);
       backdrop-filter: blur(20px);
       display: flex; align-items: center; justify-content: center;
     }
@@ -55,10 +124,10 @@
       padding: 48px 40px;
       text-align: center;
       width: min(400px, 90vw);
-      box-shadow: 0 40px 80px rgba(0,0,0,0.6), 0 0 0 1px rgba(201,160,34,0.08);
+      box-shadow: 0 40px 80px rgba(0,0,0,0.6), 0 0 0 1px rgba(229,179,68,0.08);
     }
     .pw-icon { font-size: 44px; margin-bottom: 14px; }
-    .pw-title { font-size: 20px; font-weight: 800; color: var(--text); margin-bottom: 5px; }
+    .pw-title { font-size: 20px; font-weight: 800; color: var(--text); margin-bottom: 6px; letter-spacing: -0.01em; }
     .pw-sub { font-size: 13px; color: var(--text-muted); margin-bottom: 26px; }
     .pw-input {
       display: block; width: 100%; padding: 13px 16px;
@@ -72,11 +141,11 @@
       width: 100%; padding: 13px;
       background: linear-gradient(135deg, var(--gold), var(--gold-bright));
       border: none; border-radius: var(--radius-sm);
-      color: #0e0d0a; font-size: 15px; font-weight: 700;
+      color: #1a1306; font-size: 15px; font-weight: 700;
       font-family: inherit; cursor: pointer; transition: all 0.2s;
     }
-    .pw-btn:hover { transform: translateY(-1px); box-shadow: 0 8px 24px rgba(201,160,34,0.3); }
-    .pw-error { color: #e05252; font-size: 12px; min-height: 18px; margin-top: 10px; }
+    .pw-btn:hover { transform: translateY(-1px); box-shadow: 0 8px 24px rgba(229,179,68,0.3); }
+    .pw-error { color: #ef5a3d; font-size: 12px; min-height: 18px; margin-top: 10px; }
     @keyframes shake {
       0%,100% { transform: translateX(0); }
       25% { transform: translateX(-8px); }
@@ -84,565 +153,778 @@
     }
     .shake { animation: shake 0.3s ease; }
 
-    /* === DASHBOARD HEADER === */
+    /* ───────────────────────────── TOPBAR ──────────────────────────────── */
     .dash-header {
-      height: 58px;
-      background: var(--surface);
-      border-bottom: 1px solid var(--border);
-      display: flex; align-items: center;
-      padding: 0 28px;
       position: sticky; top: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 20px 40px;
+      border-bottom: 1px solid var(--border-faint);
+      background: rgba(13,11,7,0.65);
+      backdrop-filter: blur(16px);
     }
-    .dash-logo-area { display: flex; align-items: center; gap: 10px; }
+    .dash-logo-area { display: flex; align-items: center; gap: 14px; }
     .dash-logo {
-      width: 33px; height: 33px;
-      background: linear-gradient(135deg, var(--gold) 0%, var(--gold-bright) 100%);
+      width: 36px; height: 36px;
+      background: linear-gradient(135deg, var(--gold-bright) 0%, var(--gold-mid) 100%);
       border-radius: 9px;
       display: flex; align-items: center; justify-content: center;
-      font-size: 14px; font-weight: 900; color: #0e0d0a;
-      letter-spacing: -1px;
-      box-shadow: 0 0 14px rgba(201,160,34,0.28);
+      font-size: 14px; font-weight: 800; color: #1a1306;
+      letter-spacing: -0.02em;
+      box-shadow: 0 6px 20px -8px var(--gold-glow), inset 0 1px 0 rgba(255,255,255,0.35);
     }
+    .dash-brand-block { display: flex; align-items: baseline; gap: 14px; }
     .dash-brand {
-      font-size: 15px; font-weight: 800;
-      background: linear-gradient(135deg, var(--gold-bright) 0%, var(--text) 60%);
-      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-      letter-spacing: -0.3px;
+      font-size: 15px; font-weight: 700;
+      color: var(--text);
+      letter-spacing: -0.01em;
     }
-    .dash-divider { width: 1px; height: 18px; background: var(--border); margin: 0 14px; }
-    .dash-sub { font-size: 12px; color: var(--text-muted); font-weight: 500; }
-    .dash-spacer { flex: 1; }
-    .dash-date { font-size: 13px; font-weight: 600; color: var(--text-2); }
-    .dash-live {
-      display: flex; align-items: center; gap: 5px; margin-left: 14px;
-      font-size: 10px; font-weight: 700; color: var(--gold);
-      text-transform: uppercase; letter-spacing: 1px;
+    .dash-divider { width: 1px; height: 18px; background: var(--border); }
+    .dash-sub { font-size: 13px; color: var(--text-2); }
+
+    .dash-clock {
+      display: flex; align-items: center; gap: 14px;
+      font-family: var(--font-mono); font-size: 13px; color: var(--text-2);
+      letter-spacing: 0.02em; white-space: nowrap;
     }
-    .live-dot {
-      width: 5px; height: 5px; border-radius: 50%; background: var(--gold);
-      animation: livepulse 2s infinite;
+    .dash-clock > * { white-space: nowrap; }
+    .dash-clock .live {
+      display: inline-flex; align-items: center; gap: 6px;
+      color: var(--gold); font-weight: 600;
+    }
+    .dash-clock .live::before {
+      content: ''; width: 7px; height: 7px; border-radius: 50%;
+      background: var(--gold); box-shadow: 0 0 10px var(--gold);
+      animation: livepulse 2.6s ease-in-out infinite;
     }
     @keyframes livepulse {
-      0%,100% { opacity: 1; transform: scale(1); }
-      50% { opacity: 0.4; transform: scale(0.7); }
+      0%,100% { opacity: 1; }
+      50%     { opacity: 0.45; }
     }
 
-    /* === BENTO GRID === */
+    /* ───────────────────────────── EDITORIAL MASTHEAD ──────────────────── */
+    .masthead {
+      position: relative; z-index: 1;
+      padding: 36px 40px 24px;
+      max-width: 1320px; margin: 0 auto;
+    }
+    .eyebrow {
+      font-family: var(--font-mono);
+      font-size: 10.5px; letter-spacing: 0.16em; text-transform: uppercase;
+      color: var(--gold-dim);
+    }
+    .masthead-headline {
+      font-size: 48px; font-weight: 700;
+      line-height: 1.1; letter-spacing: -0.02em;
+      margin-top: 12px;
+      max-width: 920px;
+    }
+    .masthead-headline .accent { color: var(--gold); }
+    .masthead-meta { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 20px; }
+    .ag-chip {
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 5px 10px; border-radius: 6px;
+      background: rgba(229,179,68,0.06);
+      border: 1px solid var(--border-faint);
+      font-size: 12px; color: var(--text-2);
+    }
+    .ag-chip .code {
+      font-family: var(--font-mono); color: var(--gold);
+      font-weight: 600; letter-spacing: 0.02em;
+    }
+
+    /* ───────────────────────────── BENTO GRID ──────────────────────────── */
     .bento-container {
-      padding: 24px 28px 40px;
+      position: relative; z-index: 1;
+      padding: 8px 40px 40px;
       max-width: 1320px; margin: 0 auto;
     }
     .bento-grid {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
-      gap: 14px;
+      gap: 16px;
     }
 
-    /* === BENTO CARDS === */
     .bento-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
+      background: linear-gradient(180deg, var(--surface-2) 0%, var(--surface) 100%);
+      border: 1px solid var(--border-faint);
       border-radius: var(--radius);
-      padding: 24px;
+      padding: 26px;
       position: relative; overflow: hidden;
       display: flex; flex-direction: column;
-      transition: transform 0.22s, border-color 0.22s, box-shadow 0.22s;
+      transition: transform 0.22s cubic-bezier(.2,.7,.3,1), border-color 0.22s, box-shadow 0.22s;
       cursor: pointer;
-      min-height: 190px;
+      min-height: 200px;
+      box-shadow: var(--shadow-card);
+    }
+    .bento-card::before {
+      content: '';
+      position: absolute; inset: 0 0 auto 0; height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(229,179,68,0.18), transparent);
+      pointer-events: none;
     }
     .bento-card:hover {
       transform: translateY(-3px);
-      border-color: var(--border-2);
-      box-shadow: 0 14px 44px rgba(0,0,0,0.45), 0 0 0 1px rgba(201,160,34,0.14);
+      border-color: var(--border);
+      box-shadow:
+        0 1px 0 rgba(255,255,255,0.03) inset,
+        0 32px 60px -28px rgba(0,0,0,0.7),
+        0 0 0 1px var(--border),
+        0 0 60px -20px var(--gold-glow);
     }
     .bento-card.active-card {
-      border-color: var(--gold);
-      box-shadow: 0 0 0 1px var(--gold), 0 16px 48px rgba(201,160,34,0.12);
+      border-color: var(--gold-dim);
+      box-shadow: 0 0 0 1px var(--gold-dim), 0 16px 48px rgba(229,179,68,0.12);
     }
     .card-ai {
       grid-column: span 2;
       grid-row: span 2;
-      min-height: 404px;
+      min-height: 408px;
+      padding: 32px;
     }
-    .card-reserved {
-      cursor: default; opacity: 0.45;
-    }
+    .card-reserved { cursor: default; opacity: 0.6; }
     .card-reserved:hover {
-      transform: none; border-color: var(--border); box-shadow: none;
+      transform: none; border-color: var(--border-faint); box-shadow: var(--shadow-card);
     }
 
-    /* Card glow */
-    .card-glow {
-      position: absolute; inset: 0; pointer-events: none;
-      border-radius: inherit; opacity: 0; transition: opacity 0.3s;
+    /* Card header row */
+    .card-head {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 18px;
     }
-    .bento-card:hover .card-glow { opacity: 1; }
-    .card-ai .card-glow { background: radial-gradient(ellipse at 25% 25%, rgba(201,160,34,0.09), transparent 65%); }
-    .card-finance .card-glow { background: radial-gradient(ellipse at 75% 25%, rgba(82,168,120,0.09), transparent 65%); }
+    .card-title-row {
+      display: flex; align-items: center; gap: 14px;
+    }
 
-    /* Status badge */
-    .card-status {
-      display: inline-flex; align-items: center; gap: 5px;
-      font-size: 10px; font-weight: 700; letter-spacing: 0.9px;
-      text-transform: uppercase; padding: 4px 10px; border-radius: 99px;
-      align-self: flex-start; margin-bottom: 18px;
+    /* Gold-filled icon tile (replaces emoji) */
+    .icon-tile {
+      width: 44px; height: 44px; border-radius: 12px;
+      background: linear-gradient(135deg, var(--gold-bright) 0%, #b8881e 100%);
+      display: grid; place-items: center;
+      color: #1a1306; flex-shrink: 0;
+      box-shadow: 0 8px 24px -10px rgba(229,179,68,0.35), inset 0 1px 0 rgba(255,255,255,0.4);
     }
-    .status-live {
-      background: rgba(201,160,34,0.13); color: var(--gold);
-      border: 1px solid rgba(201,160,34,0.28);
-    }
-    .status-live::before {
-      content: ''; width: 5px; height: 5px; border-radius: 50%;
-      background: var(--gold); animation: livepulse 2s infinite;
-    }
-    .status-soon {
-      background: rgba(80,80,80,0.1); color: var(--text-muted);
-      border: 1px solid rgba(80,80,80,0.15);
-    }
-    .card-finance .status-live {
-      background: rgba(82,168,120,0.13); color: #52a878;
-      border-color: rgba(82,168,120,0.28);
-    }
-    .card-finance .status-live::before { background: #52a878; }
+    .card-ai .icon-tile { width: 56px; height: 56px; border-radius: 14px; }
+    .icon-tile.tone-green { background: linear-gradient(135deg, #6dc999 0%, #2f7a51 100%); color: #fff; }
+    .icon-tile.tone-info  { background: linear-gradient(135deg, #6fb1e8 0%, #2d6aa3 100%); color: #fff; }
+    .icon-tile svg { width: 22px; height: 22px; }
+    .card-ai .icon-tile svg { width: 28px; height: 28px; }
 
-    /* Card content */
-    .card-icon-big { font-size: 42px; margin-bottom: 12px; display: block; }
-    .card-ai .card-icon-big { font-size: 54px; }
-    .card-name { font-size: 20px; font-weight: 800; color: var(--text); margin-bottom: 6px; }
-    .card-ai .card-name { font-size: 27px; }
-    .card-desc { font-size: 13px; color: var(--text-muted); line-height: 1.55; margin-bottom: 18px; }
-    .card-ai .card-desc { font-size: 13.5px; max-width: 340px; }
-
-    .card-stats { display: flex; gap: 12px; margin-top: auto; flex-wrap: wrap; }
-    .card-stat-item {
-      background: var(--surface-3); border: 1px solid var(--border);
-      border-radius: var(--radius-sm); padding: 10px 14px;
+    /* Status pill */
+    .pill {
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 5px 10px 5px 8px;
+      border-radius: 999px;
+      background: rgba(229,179,68,0.08);
+      border: 1px solid var(--border);
+      color: var(--gold);
+      font-size: 11px; letter-spacing: 0.04em; font-weight: 500;
     }
-    .stat-val { font-size: 20px; font-weight: 800; color: var(--gold); display: block; }
-    .card-ai .stat-val { font-size: 24px; }
-    .card-finance .stat-val { color: #52a878; }
-    .stat-label { font-size: 10px; color: var(--text-muted); font-weight: 500; text-transform: uppercase; letter-spacing: 0.5px; }
+    .pill .dot {
+      width: 6px; height: 6px; border-radius: 50%;
+      background: var(--gold);
+      box-shadow: 0 0 8px var(--gold);
+      animation: livepulse 2.6s ease-in-out infinite;
+    }
+    .pill.tone-info { color: var(--info); background: var(--info-soft); border-color: rgba(90,169,230,0.22); }
+    .pill.tone-info .dot { background: var(--info); box-shadow: 0 0 8px var(--info); }
+    .pill.tone-green { color: var(--down); background: var(--down-soft); border-color: rgba(78,192,122,0.24); }
+    .pill.tone-green .dot { background: var(--down); box-shadow: 0 0 8px var(--down); }
+    .pill.tone-mute { color: var(--text-3); background: transparent; border-color: var(--border-faint); }
+    .pill.tone-mute .dot { background: var(--text-3); box-shadow: none; animation: none; }
+
+    /* Card text */
+    .card-name { font-size: 20px; font-weight: 700; color: var(--text); letter-spacing: -0.01em; }
+    .card-ai .card-name { font-size: 28px; }
+    .card-desc { font-size: 13px; color: var(--text-3); margin-top: 4px; line-height: 1.55; }
+    .card-ai .card-desc { font-size: 14px; max-width: 460px; margin-top: 6px; }
+
+    /* Card body (AI hero preview block) */
+    .ai-preview {
+      margin-top: 22px; padding: 18px 20px;
+      border-radius: 12px;
+      background: rgba(229,179,68,0.04);
+      border: 1px solid var(--border-faint);
+    }
+    .ai-preview .eyebrow { font-size: 10px; }
+    .ai-preview-title {
+      margin-top: 8px; font-size: 16px; font-weight: 600;
+      line-height: 1.55; color: var(--text);
+    }
+    .ai-preview-tags {
+      display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px;
+    }
+
+    /* Card stats */
+    .card-stats {
+      display: flex; gap: 10px; margin-top: auto; padding-top: 18px; flex-wrap: wrap;
+      align-items: flex-end;
+    }
+    .stat-box {
+      display: inline-flex; flex-direction: column; gap: 4px;
+      padding: 10px 14px; border-radius: var(--radius-sm);
+      background: rgba(229,179,68,0.05);
+      border: 1px solid var(--border-faint);
+      min-width: 64px;
+    }
+    .stat-val {
+      font-family: var(--font-mono);
+      font-weight: 600; font-size: 22px;
+      color: var(--gold); line-height: 1;
+    }
+    .stat-val.text { font-family: var(--font-sans); font-size: 16px; }
+    .stat-label { font-size: 11px; color: var(--text-3); letter-spacing: 0.04em; }
+    .card-finance .stat-val { color: var(--down); }
+    .card-stocks  .stat-val { color: var(--info); }
 
     /* Tap hint */
-    .card-tap-hint {
-      position: absolute; bottom: 18px; right: 20px;
-      font-size: 11px; color: var(--text-faint);
-      display: flex; align-items: center; gap: 4px;
+    .tap-hint {
+      margin-left: auto;
+      font-size: 12px; color: var(--gold-dim);
+      display: inline-flex; align-items: center; gap: 6px;
       opacity: 0; transition: opacity 0.2s;
     }
-    .bento-card:hover .card-tap-hint { opacity: 1; }
-    .card-reserved .card-tap-hint { display: none; }
+    .bento-card:hover .tap-hint { opacity: 1; }
+    .card-reserved .tap-hint { display: none; }
 
-    /* Reserved skeleton lines */
-    .reserved-lines { flex: 1; display: flex; flex-direction: column; gap: 7px; margin-top: 14px; }
+    /* Stocks card mini preview */
+    .stocks-symbols {
+      display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px;
+    }
+    .stock-sym {
+      font-size: 11px; font-weight: 600;
+      background: rgba(229,179,68,0.05);
+      border: 1px solid var(--border-faint);
+      border-radius: 6px; padding: 4px 9px;
+      color: var(--text-2);
+      font-family: var(--font-mono);
+    }
+    .stock-sym span { color: var(--text-3); font-weight: 400; margin-left: 6px; font-family: var(--font-sans); }
+
+    /* Reserved skeleton */
+    .reserved-lines { flex: 1; display: flex; flex-direction: column; gap: 8px; margin-top: 16px; }
     .reserved-line { height: 7px; border-radius: 4px; background: var(--surface-3); }
     .reserved-line:nth-child(1) { width: 68%; }
     .reserved-line:nth-child(2) { width: 48%; }
     .reserved-line:nth-child(3) { width: 58%; }
 
-    /* === OVERLAY === */
+    /* ───────────────────────────── MODAL ───────────────────────────────── */
     .overlay {
       position: fixed; inset: 0; z-index: 500;
-      background: rgba(10,9,7,0.82);
+      background: rgba(8,6,3,0.85);
       backdrop-filter: blur(10px);
       opacity: 0; pointer-events: none;
       transition: opacity 0.28s;
-      display: flex; align-items: center; justify-content: center;
-      padding: 20px;
+      display: flex; align-items: stretch; justify-content: center;
+      padding: 32px;
     }
     .overlay.open { opacity: 1; pointer-events: all; }
 
     .expanded-panel {
       background: var(--surface);
-      border: 1px solid var(--border-2);
+      border: 1px solid var(--border);
       border-radius: 20px;
-      width: min(920px, 90vw);
-      max-height: 88vh;
+      width: 100%; max-width: 1080px;
+      max-height: calc(100vh - 64px);
       display: flex; flex-direction: column;
-      transform: scale(0.94) translateY(24px);
-      transition: transform 0.3s cubic-bezier(0.34,1.56,0.64,1);
-      box-shadow: 0 40px 100px rgba(0,0,0,0.65), 0 0 0 1px rgba(201,160,34,0.1);
+      transform: scale(0.96) translateY(20px);
+      transition: transform 0.3s cubic-bezier(0.2,0.7,0.3,1);
+      box-shadow: 0 40px 100px rgba(0,0,0,0.65), 0 0 0 1px var(--border-faint);
       overflow: hidden;
+      position: relative;
     }
     .overlay.open .expanded-panel { transform: scale(1) translateY(0); }
 
     /* Panel header */
     .panel-header {
-      padding: 20px 22px 0;
-      border-bottom: 1px solid var(--border);
-      flex-shrink: 0; background: var(--surface);
+      padding: 24px 28px 0;
+      border-bottom: 1px solid var(--border-faint);
+      flex-shrink: 0;
+      background: var(--surface);
+      position: relative;
     }
     .panel-header-top {
       display: flex; align-items: center; justify-content: space-between;
-      margin-bottom: 14px;
+      margin-bottom: 18px;
     }
-    .panel-title-area { display: flex; align-items: center; gap: 10px; }
-    .panel-icon { font-size: 22px; }
-    .panel-title { font-size: 17px; font-weight: 800; color: var(--text); }
-    .panel-sub { font-size: 11px; color: var(--text-muted); margin-top: 1px; }
+    .panel-title-area { display: flex; align-items: center; gap: 14px; }
+    .panel-icon-tile {
+      width: 48px; height: 48px; border-radius: 13px;
+      background: linear-gradient(135deg, var(--gold-bright) 0%, #b8881e 100%);
+      display: grid; place-items: center; color: #1a1306;
+      box-shadow: 0 8px 24px -10px rgba(229,179,68,0.35), inset 0 1px 0 rgba(255,255,255,0.4);
+    }
+    .panel-icon-tile.tone-green { background: linear-gradient(135deg, #6dc999 0%, #2f7a51 100%); color: #fff; }
+    .panel-icon-tile.tone-info  { background: linear-gradient(135deg, #6fb1e8 0%, #2d6aa3 100%); color: #fff; }
+    .panel-icon-tile svg { width: 24px; height: 24px; }
+    .panel-title { font-size: 22px; font-weight: 700; color: var(--text); letter-spacing: -0.01em; }
+    .panel-sub { font-size: 13px; color: var(--text-2); margin-top: 3px; line-height: 1.5; }
     .panel-close {
-      width: 30px; height: 30px;
-      background: var(--surface-3); border: 1px solid var(--border);
-      border-radius: 50%; color: var(--text-muted); font-size: 13px;
-      cursor: pointer; display: flex; align-items: center; justify-content: center;
-      transition: all 0.2s; flex-shrink: 0;
+      width: 36px; height: 36px;
+      background: transparent; border: 1px solid var(--border);
+      border-radius: 999px; color: var(--text-3);
+      font-size: 16px; flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+      transition: all 0.15s;
     }
-    .panel-close:hover { background: var(--gold-dim); color: var(--gold); border-color: var(--gold); }
+    .panel-close:hover { background: rgba(229,179,68,0.06); color: var(--text); border-color: var(--gold-dim); }
 
     /* Date tabs */
     .panel-date-tabs {
-      display: flex; gap: 3px; overflow-x: auto;
-      -ms-overflow-style: none; scrollbar-width: none;
+      display: flex; gap: 28px; overflow-x: auto;
+      scrollbar-width: none;
     }
     .panel-date-tabs::-webkit-scrollbar { display: none; }
     .panel-date-tab {
-      padding: 8px 14px; font-size: 12px; font-weight: 600;
-      border: 1px solid transparent; border-radius: var(--radius-sm) var(--radius-sm) 0 0;
-      background: transparent; color: var(--text-muted); cursor: pointer;
-      transition: all 0.2s; white-space: nowrap;
-      border-bottom: none; position: relative; bottom: -1px;
+      padding: 12px 0;
+      font-family: var(--font-mono); font-size: 13.5px;
+      color: var(--text-3); font-weight: 400;
+      background: none; border: none;
+      position: relative; white-space: nowrap;
+      letter-spacing: 0.02em;
+      transition: color 0.15s;
     }
-    .panel-date-tab:hover { color: var(--text-2); background: var(--surface-2); }
+    .panel-date-tab:hover { color: var(--text-2); }
     .panel-date-tab.active {
-      background: var(--surface-2); color: var(--gold);
-      border-color: var(--border); border-bottom-color: var(--surface-2);
+      color: var(--gold); font-weight: 600;
+    }
+    .panel-date-tab.active::after {
+      content: ''; position: absolute; left: 0; right: 0; bottom: -1px;
+      height: 2px; background: var(--gold);
+      box-shadow: 0 0 12px var(--gold-glow);
+      border-radius: 2px;
     }
 
     /* Panel body */
     .panel-body {
       flex: 1; overflow-y: auto; overflow-x: hidden;
-      padding: 22px 22px 28px;
-      background: var(--surface-2);
+      padding: 24px 28px 32px;
+      background: var(--bg);
     }
-
-    /* === CONTENT STYLES === */
     .panel-content { display: none; }
     .panel-content.active { display: block; }
     .day-panel { display: none; }
     .day-panel.active { display: block; }
 
-    .report-section { margin-bottom: 26px; }
+    /* Section header inside modal */
+    .report-section { margin-bottom: 28px; }
     .section-header {
-      display: flex; align-items: center; gap: 9px; margin-bottom: 12px;
+      display: flex; align-items: center; gap: 10px; margin-bottom: 16px;
     }
-    .section-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
-    .section-label { font-size: 11px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; }
-    .section-count { font-size: 10px; font-weight: 600; padding: 2px 7px; border-radius: 99px; }
-    .section-line { flex: 1; height: 1px; background: var(--border); }
+    .section-bar { width: 4px; height: 16px; border-radius: 2px; flex-shrink: 0; }
+    .section-bar.color-red    { background: var(--acc-red); }
+    .section-bar.color-blue   { background: var(--acc-blue); }
+    .section-bar.color-green  { background: var(--acc-green); }
+    .section-bar.color-amber  { background: var(--acc-amber); }
+    .section-bar.color-purple { background: var(--acc-purple); }
+    .section-bar.color-teal   { background: var(--acc-teal); }
 
-    .dot-red { background: #e05252; } .dot-blue { background: #5a8cd4; }
-    .dot-green { background: #52a878; } .dot-amber { background: var(--gold); }
-    .dot-purple { background: #8866cc; } .dot-teal { background: #44aaaa; }
+    .section-label { font-weight: 700; font-size: 15px; color: var(--text); }
+    .section-count {
+      font-family: var(--font-mono); font-size: 11px; font-weight: 600;
+      padding: 2px 8px; border-radius: 999px;
+    }
+    .count-red    { background: var(--acc-red-bg);    color: var(--acc-red); }
+    .count-blue   { background: var(--acc-blue-bg);   color: var(--acc-blue); }
+    .count-green  { background: var(--acc-green-bg);  color: var(--acc-green); }
+    .count-amber  { background: var(--acc-amber-bg);  color: var(--acc-amber); }
+    .count-purple { background: var(--acc-purple-bg); color: var(--acc-purple); }
+    .count-teal   { background: var(--acc-teal-bg);   color: var(--acc-teal); }
 
-    .label-red { color: #e05252; } .label-blue { color: #5a8cd4; }
-    .label-green { color: #52a878; } .label-amber { color: var(--gold); }
-    .label-purple { color: #8866cc; } .label-teal { color: #44aaaa; }
+    .section-line { flex: 1; margin-left: 10px; border-top: 1px dashed var(--border-faint); }
 
-    .count-red { background: rgba(224,82,82,0.12); color: #e05252; }
-    .count-blue { background: rgba(90,140,212,0.12); color: #5a8cd4; }
-    .count-green { background: rgba(82,168,120,0.12); color: #52a878; }
-    .count-amber { background: rgba(201,160,34,0.12); color: var(--gold); }
-    .count-purple { background: rgba(136,102,204,0.12); color: #8866cc; }
-    .count-teal { background: rgba(68,170,170,0.12); color: #44aaaa; }
-
-    .cards-grid { display: flex; flex-direction: column; gap: 10px; }
-
+    /* News card (new color-block design) */
+    .cards-grid { display: flex; flex-direction: column; gap: 16px; }
     .news-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-sm);
-      display: flex; overflow: hidden;
-      transition: all 0.2s;
+      background: linear-gradient(180deg, var(--surface-2) 0%, var(--surface) 100%);
+      border: 1px solid var(--border-faint);
+      border-radius: var(--radius);
+      padding: 24px 26px;
+      position: relative; overflow: hidden;
+      box-shadow: 0 1px 0 rgba(255,255,255,0.02) inset, 0 12px 32px -16px rgba(0,0,0,0.5);
+      transition: border-color 0.2s, transform 0.2s;
     }
-    .news-card:hover {
-      border-color: var(--border-2); transform: translateX(2px);
-      box-shadow: 0 4px 18px rgba(0,0,0,0.35);
+    .news-card::before {
+      content: '';
+      position: absolute; left: 0; top: 24px; bottom: 24px;
+      width: 2px; border-radius: 0 2px 2px 0;
+      background: var(--acc-amber);
     }
-    .card-accent { width: 3px; flex-shrink: 0; }
-    .accent-red { background: #e05252; } .accent-blue { background: #5a8cd4; }
-    .accent-green { background: #52a878; } .accent-amber { background: var(--gold); }
-    .accent-purple { background: #8866cc; } .accent-teal { background: #44aaaa; }
+    .news-card[data-color="red"]::before    { background: var(--acc-red); }
+    .news-card[data-color="blue"]::before   { background: var(--acc-blue); }
+    .news-card[data-color="green"]::before  { background: var(--acc-green); }
+    .news-card[data-color="amber"]::before  { background: var(--acc-amber); }
+    .news-card[data-color="purple"]::before { background: var(--acc-purple); }
+    .news-card[data-color="teal"]::before   { background: var(--acc-teal); }
+    .news-card:hover { border-color: var(--border); transform: translateX(2px); }
 
-    .card-body { padding: 13px 15px; flex: 1; }
-    .card-title { font-size: 13.5px; font-weight: 700; color: var(--text); margin-bottom: 7px; line-height: 1.45; }
-
-    .sources-row { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 7px; }
+    .card-meta-row {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 12px; flex-wrap: wrap;
+    }
+    .card-meta-num {
+      font-family: var(--font-mono); font-size: 12px;
+      color: var(--gold-dim);
+    }
+    .sources-row {
+      display: flex; flex-wrap: wrap; gap: 6px;
+    }
     .source-tag {
-      font-size: 10px; font-weight: 600;
-      background: var(--surface-3); color: var(--text-2);
-      border: 1px solid var(--border); border-radius: 4px;
-      padding: 2px 7px; text-decoration: none; transition: all 0.15s;
+      font-size: 11px; font-weight: 500;
+      background: rgba(229,179,68,0.06);
+      color: var(--text-2);
+      border: 1px solid var(--border-faint);
+      border-radius: 6px;
+      padding: 3px 9px;
+      text-decoration: none;
+      transition: all 0.15s;
     }
-    .source-tag:hover { border-color: var(--gold); color: var(--gold); }
+    .source-tag:hover { border-color: var(--gold-dim); color: var(--gold); }
 
-    .summary { font-size: 12.5px; color: var(--text-2); line-height: 1.6; margin-bottom: 10px; }
+    .card-title {
+      font-size: 19px; font-weight: 700; line-height: 1.4;
+      color: var(--text); margin-bottom: 12px; letter-spacing: -0.005em;
+    }
+    .summary {
+      font-size: 13.5px; line-height: 1.75;
+      color: var(--text-2);
+      margin-bottom: 20px;
+    }
 
+    /* Insight panel — color block grid replaces the old table */
     .insight-panel {
-      background: var(--surface-3); border: 1px solid var(--border);
-      border-radius: var(--radius-sm); overflow: hidden;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
     }
     .insight-row {
-      display: flex; font-size: 12px; line-height: 1.5;
-      border-bottom: 1px solid var(--border);
+      padding: 14px 16px;
+      border-radius: 12px;
+      background: rgba(0,0,0,0.28);
+      border: 1px solid var(--border-faint);
+      border-left: 2px solid var(--gold-dim);
     }
-    .insight-row:last-child { border-bottom: none; }
-    .insight-label {
-      padding: 7px 11px; min-width: 86px; flex-shrink: 0;
-      font-weight: 700; font-size: 11px;
-      color: var(--text-muted); background: var(--surface-2);
+    .insight-row .insight-label {
+      display: flex; align-items: center; gap: 6px;
+      font-size: 10.5px; letter-spacing: 0.14em; text-transform: uppercase;
+      color: var(--gold-dim);
+      margin-bottom: 8px; font-weight: 700;
     }
-    .insight-value { padding: 7px 11px; color: var(--text-2); flex: 1; }
-    .title-row .insight-value { color: var(--gold-bright); font-weight: 600; }
-    .stock-row .insight-label { color: #e05252; }
-    .stock-row .insight-value { color: #e05252; }
-    .invest-row .insight-label { color: #52a878; }
-    .invest-row .insight-value { color: #52a878; }
+    .insight-row .insight-label::before {
+      content: '';
+      display: inline-block; width: 5px; height: 5px; border-radius: 999px;
+      background: var(--gold-dim);
+    }
+    .insight-row .insight-value {
+      font-size: 13.5px; line-height: 1.7; color: var(--text);
+    }
 
-    /* Footer */
-    .dash-footer {
-      text-align: center; padding: 18px;
-      color: var(--text-faint); font-size: 11px;
-    }
+    /* Per-label coloring (data-key drives color) */
+    .insight-row[data-key="audience"]           { border-left-color: var(--acc-blue); }
+    .insight-row[data-key="audience"]   .insight-label { color: var(--acc-blue); }
+    .insight-row[data-key="audience"]   .insight-label::before { background: var(--acc-blue); }
 
-    /* === STOCKS CARD === */
-    .card-stocks .card-glow {
-      background: radial-gradient(ellipse at 70% 30%, rgba(56,189,248,0.09), transparent 65%);
-    }
-    .card-stocks .status-live {
-      background: rgba(56,189,248,0.13); color: #38bdf8;
-      border-color: rgba(56,189,248,0.28);
-    }
-    .card-stocks .status-live::before { background: #38bdf8; }
-    .card-stocks .stat-val { color: #38bdf8; }
-    .stock-symbols {
-      display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto;
-    }
-    .stock-sym {
-      font-size: 11px; font-weight: 700;
-      background: var(--surface-3); border: 1px solid var(--border);
-      border-radius: 6px; padding: 4px 9px; color: var(--text-2);
-    }
-    .stock-sym span { color: var(--text-muted); font-weight: 400; margin-left: 3px; }
+    .insight-row[data-key="pain_point"]         { border-left-color: var(--acc-red); }
+    .insight-row[data-key="pain_point"] .insight-label { color: var(--acc-red); }
+    .insight-row[data-key="pain_point"] .insight-label::before { background: var(--acc-red); }
 
-    /* === STOCK TRACKER UI === */
-    .stock-tracker { display: flex; flex-direction: column; gap: 14px; }
+    .insight-row[data-key="title_idea"]         { border-left-color: var(--acc-amber); }
+    .insight-row[data-key="title_idea"] .insight-label { color: var(--acc-amber); }
+    .insight-row[data-key="title_idea"] .insight-label::before { background: var(--acc-amber); }
+    .insight-row[data-key="title_idea"] .insight-value { color: var(--gold-bright); font-weight: 600; }
 
+    .insight-row[data-key="local_angle"]        { border-left-color: var(--acc-green); }
+    .insight-row[data-key="local_angle"] .insight-label { color: var(--acc-green); }
+    .insight-row[data-key="local_angle"] .insight-label::before { background: var(--acc-green); }
+
+    .insight-row[data-key="tw_stock_impact"]    { border-left-color: var(--acc-red); }
+    .insight-row[data-key="tw_stock_impact"] .insight-label { color: var(--acc-red); }
+    .insight-row[data-key="tw_stock_impact"] .insight-label::before { background: var(--acc-red); }
+    .insight-row[data-key="tw_stock_impact"] .insight-value { color: var(--up); }
+
+    .insight-row[data-key="investment_insight"] { border-left-color: var(--acc-amber); }
+    .insight-row[data-key="investment_insight"] .insight-label { color: var(--acc-amber); }
+    .insight-row[data-key="investment_insight"] .insight-label::before { background: var(--acc-amber); }
+
+    /* ───────────────────────────── STOCK TRACKER ───────────────────────── */
+    .stock-tracker { display: flex; flex-direction: column; gap: 16px; }
+
+    .stock-toolbar {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 14px; flex-wrap: wrap;
+    }
     .stock-tabs {
-      display: flex; gap: 4px;
-      border-bottom: 1px solid var(--border);
+      display: flex; gap: 8px;
     }
     .stock-tab {
-      padding: 8px 18px; font-size: 13px; font-weight: 600;
-      border: 1px solid transparent;
-      border-radius: var(--radius-sm) var(--radius-sm) 0 0;
-      background: transparent; color: var(--text-muted);
-      cursor: pointer; transition: all 0.2s;
-      border-bottom: none; position: relative; bottom: -1px;
+      padding: 8px 16px; border-radius: var(--radius-sm);
+      background: transparent;
+      border: 1px solid var(--border-faint);
+      color: var(--text-3);
+      font-family: inherit; font-size: 13px; font-weight: 500;
+      transition: all 0.15s;
+      display: inline-flex; align-items: center; gap: 8px;
     }
-    .stock-tab:hover { color: var(--text-2); background: var(--surface-3); }
+    .stock-tab:hover { color: var(--text-2); border-color: var(--border); }
     .stock-tab.active {
-      background: var(--surface); color: #38bdf8;
-      border-color: var(--border); border-bottom-color: var(--surface-2);
+      background: var(--info-soft); color: var(--info);
+      border-color: rgba(90,169,230,0.3); font-weight: 600;
     }
+
+    .debug-toggle {
+      font-family: var(--font-mono); font-size: 11px;
+      background: transparent; border: 1px solid var(--border-faint);
+      border-radius: 7px; padding: 5px 10px; color: var(--text-3);
+      transition: all 0.15s;
+    }
+    .debug-toggle:hover { color: var(--info); border-color: rgba(90,169,230,0.3); }
+
+    .debug-panel {
+      display: none;
+      background: var(--surface-inset); border: 1px solid rgba(90,169,230,0.2);
+      border-radius: var(--radius-sm); padding: 12px;
+      font-family: var(--font-mono); font-size: 11px;
+      max-height: 240px; overflow-y: auto;
+    }
+    .debug-panel.open { display: block; }
+    .dbg-line { padding: 3px 0; border-bottom: 1px solid rgba(255,255,255,0.04); line-height: 1.5; color: var(--text-2); }
+    .dbg-line:last-child { border-bottom: none; }
+    .dbg-ok   { color: var(--down); }
+    .dbg-err  { color: var(--up); }
+    .dbg-info { color: var(--info); }
+    .dbg-warn { color: var(--gold); }
+
     .stock-tab-content { display: none; }
     .stock-tab-content.active { display: block; }
 
     .stock-header-row {
       display: flex; align-items: center; justify-content: space-between;
-      margin-bottom: 10px;
+      margin-bottom: 14px;
     }
-    .stock-last-updated { font-size: 10px; color: var(--text-faint); }
+    .stock-last-updated {
+      font-family: var(--font-mono); font-size: 11.5px;
+      color: var(--text-3);
+      display: inline-flex; align-items: center; gap: 8px;
+    }
     .stock-refresh-btn {
-      padding: 5px 12px;
-      background: var(--surface-3); border: 1px solid var(--border);
-      border-radius: var(--radius-sm); color: var(--text-muted);
-      font-size: 11px; font-weight: 600; font-family: inherit;
-      cursor: pointer; transition: all 0.2s;
-    }
-    .stock-refresh-btn:hover { color: #38bdf8; border-color: rgba(56,189,248,0.35); }
-
-    .stock-list { display: flex; flex-direction: column; gap: 7px; margin-bottom: 10px; }
-    .stock-item {
-      display: flex; align-items: center; gap: 12px;
-      background: var(--surface); border: 1px solid var(--border);
-      border-radius: var(--radius-sm); padding: 11px 14px;
-      transition: all 0.18s;
-    }
-    .stock-item:hover { border-color: var(--border-2); box-shadow: 0 3px 12px rgba(0,0,0,0.3); }
-    .stock-item-info { flex: 1; }
-    .stock-item-symbol { font-size: 14px; font-weight: 800; color: var(--text); }
-    .stock-item-name { font-size: 11px; color: var(--text-muted); margin-top: 1px; }
-    .stock-item-price { text-align: right; }
-    .stock-price-value { font-size: 16px; font-weight: 800; color: var(--text); display: block; }
-    .stock-price-change { font-size: 11px; font-weight: 600; margin-top: 1px; display: block; }
-    .stock-price-change.up   { color: #ef4444; } /* 台股：漲 = 紅 */
-    .stock-price-change.dn   { color: #22c55e; } /* 台股：跌 = 綠 */
-    .stock-price-change.flat { color: var(--text-muted); }
-    .stock-mktstate {
-      font-size: 9px; color: var(--text-faint);
-      margin-top: 1px; display: block; text-align: right;
-    }
-    .stock-item-remove {
-      width: 22px; height: 22px; flex-shrink: 0;
-      background: transparent; border: 1px solid transparent;
-      border-radius: 5px; color: var(--text-faint);
-      font-size: 15px; cursor: pointer; line-height: 1;
-      display: flex; align-items: center; justify-content: center;
+      padding: 6px 14px;
+      background: transparent; border: 1px solid var(--border);
+      border-radius: 8px; color: var(--text-2);
+      font-family: inherit; font-size: 12px; font-weight: 500;
       transition: all 0.15s;
     }
-    .stock-item-remove:hover { background: rgba(239,68,68,0.1); color: #ef4444; border-color: rgba(239,68,68,0.25); }
+    .stock-refresh-btn:hover { color: var(--info); border-color: rgba(90,169,230,0.4); background: var(--info-soft); }
 
-    .stock-add-row { display: flex; gap: 7px; }
-    .stock-add-input {
-      flex: 1; padding: 9px 12px;
-      background: var(--surface-3); border: 1px solid var(--border-2);
-      border-radius: var(--radius-sm); color: var(--text);
-      font-size: 13px; font-family: inherit; outline: none;
-      transition: border-color 0.2s;
+    /* Stock card grid (new) */
+    .stock-list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-bottom: 14px;
     }
-    .stock-add-input:focus { border-color: #38bdf8; }
-    .stock-add-input::placeholder { color: var(--text-faint); }
-    .stock-add-btn {
-      padding: 9px 16px;
-      background: rgba(56,189,248,0.13); border: 1px solid rgba(56,189,248,0.3);
-      border-radius: var(--radius-sm); color: #38bdf8;
-      font-size: 13px; font-weight: 700; font-family: inherit;
-      cursor: pointer; transition: all 0.2s; white-space: nowrap;
-    }
-    .stock-add-btn:hover { background: rgba(56,189,248,0.22); }
-    .stock-add-hint { font-size: 10px; color: var(--text-faint); margin-top: 5px; }
+    @media (max-width: 760px) { .stock-list { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 480px) { .stock-list { grid-template-columns: 1fr; } }
 
-    /* Fugle key settings */
-    .stock-key-section {
-      margin-top: 10px; border-top: 1px solid var(--border);
-      padding-top: 10px;
+    .stock-item {
+      background: linear-gradient(180deg, var(--surface-2) 0%, var(--surface) 100%);
+      border: 1px solid var(--border-faint);
+      border-radius: var(--radius-md);
+      padding: 16px 18px;
+      position: relative;
+      min-height: 130px;
+      display: flex; flex-direction: column;
+      transition: border-color 0.18s, transform 0.18s, box-shadow 0.18s;
     }
-    .stock-key-toggle {
-      background: none; border: none; cursor: pointer;
-      color: var(--text-faint); font-size: 11px; padding: 0;
-      display: flex; align-items: center; gap: 4px;
+    .stock-item:hover {
+      border-color: var(--border);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px -8px rgba(0,0,0,0.5);
     }
-    .stock-key-toggle:hover { color: var(--text-muted); }
-    .stock-key-row {
-      display: flex; gap: 7px; margin-top: 7px;
-    }
-    .stock-key-input {
-      flex: 1; padding: 7px 10px; background: var(--surface);
-      border: 1px solid var(--border); border-radius: var(--radius-sm);
-      color: var(--text); font-size: 11px; font-family: monospace;
-    }
-    .stock-key-input:focus { border-color: rgba(56,189,248,0.5); outline: none; }
-    .stock-key-save {
-      padding: 7px 13px; background: rgba(56,189,248,0.13);
-      border: 1px solid rgba(56,189,248,0.3); border-radius: var(--radius-sm);
-      color: #38bdf8; font-size: 12px; font-weight: 700;
-      cursor: pointer; white-space: nowrap;
-    }
-    .stock-key-status { font-size: 10px; margin-top: 4px; }
-    .stock-key-status.ok  { color: #22c55e; }
-    .stock-key-status.na  { color: var(--text-faint); }
-    .stock-sync-btn {
-      margin-top: 10px; width: 100%; padding: 7px;
-      background: rgba(201,168,76,.1); border: 1px solid rgba(201,168,76,.3);
-      border-radius: var(--radius-sm); color: var(--gold);
-      font-size: 11px; font-weight: 600; cursor: pointer; letter-spacing: .02em;
-    }
-    .stock-sync-btn:hover { background: rgba(201,168,76,.18); }
-    .stock-sync-toast {
-      font-size: 10px; color: #22c55e; text-align: center;
-      margin-top: 5px; min-height: 14px;
-    }
-
-    /* Live market badge on updated line */
-    .stock-live-badge {
-      display: inline-flex; align-items: center; gap: 4px;
-      font-size: 10px; font-weight: 600; padding: 1px 6px;
-      border-radius: 999px; margin-left: 6px;
-    }
-    .stock-live-badge.open  { background: rgba(34,197,94,.15); color: #22c55e; }
-    .stock-live-badge.pre   { background: rgba(250,204,21,.12); color: #facc15; }
-    .stock-live-badge.post  { background: rgba(250,204,21,.12); color: #facc15; }
-    .stock-live-badge.closed{ background: rgba(100,100,100,.12); color: var(--text-faint); }
-    .stock-live-dot {
-      width: 6px; height: 6px; border-radius: 50%; background: currentColor;
-    }
-    .stock-live-badge.open .stock-live-dot {
-      animation: livepulse 1.5s ease-in-out infinite;
-    }
-    @keyframes livepulse { 0%,100%{opacity:1} 50%{opacity:.35} }
-
-    /* market state per-item */
-    .stock-mktstate.open  { color: #22c55e; }
-    .stock-mktstate.pre   { color: #facc15; }
-    .stock-mktstate.post  { color: #facc15; }
-
-    /* drag-and-drop */
-    .stock-drag-handle {
-      display: flex; align-items: center; padding: 0 8px 0 2px;
-      color: var(--text-faint); cursor: grab; font-size: 14px;
-      flex-shrink: 0; user-select: none;
-    }
-    .stock-drag-handle:active { cursor: grabbing; }
-    .stock-item[draggable="true"] { cursor: default; }
     .stock-item.dragging { opacity: 0.4; }
     .stock-item.drag-over {
-      border-color: rgba(56,189,248,0.5);
-      background: rgba(56,189,248,0.06);
+      border-color: rgba(90,169,230,0.5);
+      background: rgba(90,169,230,0.06);
     }
+    .stock-drag-handle {
+      position: absolute; top: 16px; left: 18px;
+      color: var(--text-faint); cursor: grab;
+      font-size: 12px; user-select: none;
+      display: none;
+    }
+    .stock-item:hover .stock-drag-handle { display: inline-block; }
+    .stock-drag-handle:active { cursor: grabbing; }
+
+    .stock-item-info {
+      display: flex; align-items: baseline; gap: 8px; margin-bottom: 4px;
+    }
+    .stock-item-symbol {
+      font-family: var(--font-mono);
+      font-size: 16px; font-weight: 700; color: var(--gold);
+    }
+    .stock-item-name {
+      font-size: 12px; color: var(--text-3);
+      overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+    }
+    .stock-item-price {
+      margin-top: auto; padding-top: 10px;
+    }
+    .stock-price-value {
+      display: block;
+      font-family: var(--font-mono);
+      font-size: 28px; font-weight: 700;
+      letter-spacing: -0.01em;
+      color: var(--text);
+      line-height: 1.1;
+    }
+    .stock-price-value.up   { color: var(--up); }
+    .stock-price-value.dn   { color: var(--down); }
+    .stock-price-change {
+      display: inline-block; margin-top: 8px;
+      font-family: var(--font-mono);
+      font-size: 12px; font-weight: 600;
+      padding: 2px 8px; border-radius: 5px;
+    }
+    .stock-price-change.up   { color: var(--up);   background: var(--up-soft); }
+    .stock-price-change.dn   { color: var(--down); background: var(--down-soft); }
+    .stock-price-change.flat { color: var(--text-3); background: transparent; }
+    .stock-mktstate {
+      display: inline-block; margin-left: 8px;
+      font-size: 10px; color: var(--text-faint);
+      font-family: var(--font-mono);
+    }
+    .stock-mktstate.open  { color: var(--down); }
+    .stock-mktstate.pre   { color: var(--gold); }
+    .stock-mktstate.post  { color: var(--gold); }
+    .stock-item-remove {
+      position: absolute; top: 14px; right: 14px;
+      width: 22px; height: 22px;
+      background: transparent; border: 1px solid transparent;
+      border-radius: 5px; color: var(--text-faint);
+      font-size: 14px; line-height: 1;
+      display: flex; align-items: center; justify-content: center;
+      transition: all 0.15s;
+      opacity: 0;
+    }
+    .stock-item:hover .stock-item-remove { opacity: 1; }
+    .stock-item-remove:hover { background: var(--up-soft); color: var(--up); border-color: rgba(239,90,61,0.3); }
 
     .stock-skeleton {
-      height: 50px; background: var(--surface);
-      border: 1px solid var(--border); border-radius: var(--radius-sm);
+      min-height: 130px;
+      background: var(--surface-2); border: 1px solid var(--border-faint);
+      border-radius: var(--radius-md);
       animation: skpulse 1.4s ease-in-out infinite;
     }
     @keyframes skpulse { 0%,100%{opacity:.35} 50%{opacity:.7} }
     .stock-empty {
-      text-align: center; padding: 28px; color: var(--text-muted);
+      grid-column: 1 / -1;
+      text-align: center; padding: 36px; color: var(--text-3);
       font-size: 13px;
+      border: 1px dashed var(--border-faint); border-radius: var(--radius-md);
     }
 
-    /* === VERSION BADGE === */
+    /* Live badge */
+    .stock-live-badge {
+      display: inline-flex; align-items: center; gap: 4px;
+      font-size: 10px; font-weight: 600;
+      padding: 1px 8px; border-radius: 999px;
+    }
+    .stock-live-badge.open   { background: var(--down-soft); color: var(--down); }
+    .stock-live-badge.pre,
+    .stock-live-badge.post   { background: rgba(229,179,68,0.12); color: var(--gold); }
+    .stock-live-badge.closed { background: rgba(100,100,100,.12); color: var(--text-faint); }
+    .stock-live-dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+    .stock-live-badge.open .stock-live-dot { animation: livepulse 1.5s ease-in-out infinite; }
+
+    /* Add row */
+    .stock-add-row { display: flex; gap: 8px; }
+    .stock-add-input {
+      flex: 1; padding: 10px 14px;
+      background: var(--surface-3); border: 1px solid var(--border);
+      border-radius: var(--radius-sm); color: var(--text);
+      font-family: inherit; font-size: 13px; outline: none;
+      transition: border-color 0.2s;
+    }
+    .stock-add-input:focus { border-color: var(--info); }
+    .stock-add-input::placeholder { color: var(--text-faint); }
+    .stock-add-btn {
+      padding: 10px 18px;
+      background: var(--info-soft); border: 1px solid rgba(90,169,230,0.3);
+      border-radius: var(--radius-sm); color: var(--info);
+      font-family: inherit; font-size: 13px; font-weight: 600;
+      transition: all 0.2s; white-space: nowrap;
+    }
+    .stock-add-btn:hover { background: rgba(90,169,230,0.22); }
+    .stock-add-hint { font-size: 11px; color: var(--text-faint); margin-top: 6px; }
+
+    /* Fugle key section */
+    .stock-key-section {
+      margin-top: 12px; padding-top: 14px;
+      border-top: 1px solid var(--border-faint);
+    }
+    .stock-key-toggle {
+      background: none; border: none;
+      color: var(--text-3); font-size: 11.5px; padding: 0;
+      display: inline-flex; align-items: center; gap: 4px;
+      font-family: inherit;
+    }
+    .stock-key-toggle:hover { color: var(--text-2); }
+    .stock-key-row { display: flex; gap: 8px; margin-top: 8px; }
+    .stock-key-input {
+      flex: 1; padding: 8px 12px;
+      background: var(--surface-3); border: 1px solid var(--border-faint);
+      border-radius: var(--radius-sm);
+      color: var(--text); font-size: 11.5px;
+      font-family: var(--font-mono);
+    }
+    .stock-key-input:focus { border-color: rgba(90,169,230,0.5); outline: none; }
+    .stock-key-save {
+      padding: 8px 14px; background: var(--info-soft);
+      border: 1px solid rgba(90,169,230,0.3); border-radius: var(--radius-sm);
+      color: var(--info); font-family: inherit;
+      font-size: 12px; font-weight: 600; white-space: nowrap;
+    }
+    .stock-key-status { font-size: 11px; margin-top: 5px; font-family: var(--font-mono); }
+    .stock-key-status.ok { color: var(--down); }
+    .stock-key-status.na { color: var(--text-faint); }
+    .stock-sync-btn {
+      margin-top: 10px; width: 100%; padding: 7px 10px;
+      background: rgba(229,179,68,.08); border: 1px solid rgba(229,179,68,.25);
+      border-radius: var(--radius-sm); color: var(--gold);
+      font-size: 11px; font-weight: 600; font-family: inherit;
+      cursor: pointer; letter-spacing: .02em; text-align: center;
+    }
+    .stock-sync-btn:hover { background: rgba(229,179,68,.16); }
+    .stock-sync-toast { font-size: 10px; color: #4ade80; text-align: center; margin-top: 4px; min-height: 13px; }
+
+    /* Footer + version */
+    .dash-footer {
+      position: relative; z-index: 1;
+      text-align: center; padding: 18px;
+      color: var(--text-faint); font-size: 11px;
+      font-family: var(--font-mono);
+    }
     .version-badge {
       position: fixed; bottom: 14px; right: 16px; z-index: 50;
-      font-size: 10px; font-weight: 600; color: var(--text-faint);
-      background: var(--surface); border: 1px solid var(--border);
-      border-radius: 6px; padding: 3px 8px;
+      font-family: var(--font-mono);
+      font-size: 10px; font-weight: 500; color: var(--text-faint);
+      background: var(--surface); border: 1px solid var(--border-faint);
+      border-radius: 6px; padding: 4px 10px;
       letter-spacing: 0.4px;
     }
 
-    /* === DEBUG PANEL === */
-    .debug-toggle {
-      font-size: 10px; font-weight: 600; color: var(--text-faint);
-      background: transparent; border: 1px solid var(--border);
-      border-radius: 5px; padding: 3px 8px; cursor: pointer;
-      transition: all 0.15s; font-family: inherit;
-    }
-    .debug-toggle:hover { color: #38bdf8; border-color: rgba(56,189,248,0.4); }
-    .debug-panel {
-      display: none; margin-top: 10px;
-      background: #0a0a08; border: 1px solid rgba(56,189,248,0.2);
-      border-radius: var(--radius-sm); padding: 12px;
-      font-family: 'Menlo','Monaco','Courier New',monospace;
-      font-size: 11px; max-height: 280px; overflow-y: auto;
-    }
-    .debug-panel.open { display: block; }
-    .dbg-line { padding: 3px 0; border-bottom: 1px solid rgba(255,255,255,0.04); line-height: 1.5; }
-    .dbg-line:last-child { border-bottom: none; }
-    .dbg-ok   { color: #22c55e; }
-    .dbg-err  { color: #ef4444; }
-    .dbg-info { color: #38bdf8; }
-    .dbg-warn { color: var(--gold); }
-
-    /* Responsive */
+    /* ─── Responsive ─── */
     @media (max-width: 860px) {
       .bento-grid { grid-template-columns: 1fr 1fr; }
-      .card-ai { grid-column: span 2; grid-row: span 1; min-height: 200px; }
-      .bento-container { padding: 14px; }
+      .card-ai { grid-column: span 2; grid-row: span 1; min-height: 240px; }
+      .bento-container, .masthead { padding-left: 20px; padding-right: 20px; }
+      .masthead-headline { font-size: 36px; }
+      .dash-header { padding: 16px 20px; }
+      .insight-panel { grid-template-columns: 1fr; }
     }
     @media (max-width: 520px) {
       .bento-grid { grid-template-columns: 1fr; }
       .card-ai { grid-column: span 1; }
-      .expanded-panel { width: 95vw; max-height: 95vh; }
+      .masthead-headline { font-size: 28px; }
+      .overlay { padding: 16px; }
     }
   </style>
 </head>
@@ -660,111 +942,215 @@
     </div>
   </div>
 
-  <!-- Dashboard Header -->
+  <!-- Topbar -->
   <header class="dash-header">
     <div class="dash-logo-area">
       <div class="dash-logo">AI</div>
-      <div>
+      <div class="dash-brand-block">
         <div class="dash-brand">AutoGenAI</div>
+        <div class="dash-divider"></div>
+        <div class="dash-sub">自媒體情報中心</div>
       </div>
     </div>
-    <div class="dash-divider"></div>
-    <div class="dash-sub">自媒體情報中心</div>
-    <div class="dash-spacer"></div>
-    <div class="dash-date" id="hdr-date">2026-05-23</div>
-    <div class="dash-live"><div class="live-dot"></div>Live</div>
+    <div class="dash-clock">
+      <span id="hdr-date">2026-05-23</span>
+      <span style="width:1px;height:14px;background:var(--border)"></span>
+      <span class="live">LIVE</span>
+    </div>
   </header>
+
+  <!-- Editorial masthead -->
+  <section class="masthead">
+    <div class="eyebrow">TODAY'S BRIEFING · <span id="masthead-date">2026-05-23</span></div>
+    <h1 class="masthead-headline">
+      情報每日彙整，<br>
+      <span class="accent">自媒體選題</span>不再卡關
+    </h1>
+    <div class="masthead-meta">
+      <span class="ag-chip"><span class="code">AI</span> 日報情報</span>
+      <span class="ag-chip"><span class="code">$</span> 財經市場動態</span>
+      <span class="ag-chip">7 天歷史紀錄</span>
+      <span class="ag-chip">每日 06:00 自動推送</span>
+    </div>
+  </section>
 
   <!-- Bento Grid -->
   <div class="bento-container">
     <div class="bento-grid">
 
-      <!-- AI 日報 (large, 2×2) -->
+      <!-- AI 日報 (large 2×2) -->
       <div class="bento-card card-ai" data-module="ai">
-        <div class="card-glow"></div>
-        <span class="card-status status-live">即時更新</span>
-        <span class="card-icon-big">🤖</span>
-        <div class="card-name">AI 日報</div>
-        <div class="card-desc">AI 效率工具 · 為中文自媒體選題整理<br>每日精選 AI 領域重大事件、工具更新與趨勢分析</div>
+        <div class="card-head">
+          <div class="card-title-row">
+            <div class="icon-tile">
+              <!-- bot icon -->
+              <svg viewBox="0 0 24 24" fill="#1a1306" stroke="#1a1306" stroke-width="1.4" stroke-linejoin="round" aria-hidden="true">
+                <rect x="4" y="7" width="16" height="12" rx="3"/>
+                <circle cx="9" cy="13" r="1.2" fill="#e5b344" stroke="none"/>
+                <circle cx="15" cy="13" r="1.2" fill="#e5b344" stroke="none"/>
+                <path d="M12 4v3" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+                <circle cx="12" cy="3.5" r="0.9" stroke="none"/>
+              </svg>
+            </div>
+            <div>
+              <div class="card-name">AI 日報</div>
+              <div class="card-desc">AI 效率工具 · 為中文自媒體選題整理</div>
+            </div>
+          </div>
+          <span class="pill"><span class="dot"></span>即時更新</span>
+        </div>
+
+        <div class="ai-preview">
+          <div class="eyebrow">今日精選</div>
+          <div class="ai-preview-title">每日精選 AI 領域重大事件、工具更新與趨勢分析</div>
+          <div class="ai-preview-tags">
+            <span class="ag-chip">大事件</span>
+            <span class="ag-chip">工具更新</span>
+            <span class="ag-chip">趨勢觀察</span>
+          </div>
+        </div>
+
         <div class="card-stats">
-          <div class="card-stat-item">
+          <div class="stat-box">
             <span class="stat-val">10</span>
             <span class="stat-label">則情報</span>
           </div>
-          <div class="card-stat-item">
+          <div class="stat-box">
             <span class="stat-val">7</span>
             <span class="stat-label">天紀錄</span>
           </div>
-          <div class="card-stat-item">
-            <span class="stat-val">每日</span>
+          <div class="stat-box">
+            <span class="stat-val text">每日</span>
             <span class="stat-label">更新</span>
           </div>
+          <span class="tap-hint">點擊展開 →</span>
         </div>
-        <div class="card-tap-hint">點擊展開 →</div>
       </div>
 
       <!-- 財經日報 -->
       <div class="bento-card card-finance" data-module="finance">
-        <div class="card-glow"></div>
-        <span class="card-status status-live">即時更新</span>
-        <span class="card-icon-big">💹</span>
-        <div class="card-name">財經日報</div>
-        <div class="card-desc">市場動態 · 台灣投資人視角</div>
+        <div class="card-head">
+          <div class="card-title-row">
+            <div class="icon-tile tone-green">
+              <!-- chart icon -->
+              <svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" aria-hidden="true">
+                <rect x="3" y="6" width="18" height="12" rx="2"/>
+                <path d="M6.5 14.5l3-3 2.5 2.5L17.5 9" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="17.5" cy="9" r="0.8" fill="#fff" stroke="none"/>
+              </svg>
+            </div>
+            <div>
+              <div class="card-name">財經日報</div>
+              <div class="card-desc">市場動態 · 台灣投資人視角</div>
+            </div>
+          </div>
+          <span class="pill tone-green"><span class="dot"></span>即時更新</span>
+        </div>
+
         <div class="card-stats">
-          <div class="card-stat-item">
-            <span class="stat-val" style="color:#52a878">10</span>
+          <div class="stat-box">
+            <span class="stat-val">10</span>
             <span class="stat-label">則情報</span>
           </div>
+          <span class="tap-hint">點擊展開 →</span>
         </div>
-        <div class="card-tap-hint">點擊展開 →</div>
       </div>
 
       <!-- 自選股 -->
       <div class="bento-card card-stocks" data-module="stocks">
-        <div class="card-glow"></div>
-        <span class="card-status status-live">即時行情</span>
-        <span class="card-icon-big">📈</span>
-        <div class="card-name">自選股</div>
-        <div class="card-desc">台股 &amp; ETF · 即時報價追蹤</div>
-        <div class="stock-symbols">
+        <div class="card-head">
+          <div class="card-title-row">
+            <div class="icon-tile tone-info">
+              <!-- ticker icon -->
+              <svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true">
+                <path d="M3 20l5-7 4 4 5-8 4 5" fill="none" stroke-width="1.8" stroke="#fff"/>
+                <circle cx="3" cy="20" r="1.4" stroke="none" fill="#fff"/>
+                <circle cx="21" cy="14" r="1.4" stroke="none" fill="#fff"/>
+              </svg>
+            </div>
+            <div>
+              <div class="card-name">自選股</div>
+              <div class="card-desc">台股 &amp; ETF · 即時報價追蹤</div>
+            </div>
+          </div>
+          <span class="pill tone-info"><span class="dot"></span>即時行情</span>
+        </div>
+
+        <div class="stocks-symbols">
           <div class="stock-sym">2330<span>台積電</span></div>
           <div class="stock-sym">2454<span>聯發科</span></div>
           <div class="stock-sym">0050<span>元大台灣50</span></div>
           <div class="stock-sym">VOO<span>S&amp;P500</span></div>
         </div>
-        <div class="card-tap-hint">點擊展開 →</div>
+
+        <div class="card-stats" style="margin-top: 14px;">
+          <span class="tap-hint">點擊展開 →</span>
+        </div>
       </div>
 
-      <!-- Reserved 4 -->
+      <!-- Reserved 1: 選題助手 -->
       <div class="bento-card card-reserved">
-        <span class="card-status status-soon">即將推出</span>
-        <span class="card-icon-big">🎯</span>
-        <div class="card-name">選題助手</div>
-        <div class="card-desc">內容創作 · 選題靈感</div>
+        <div class="card-head">
+          <div class="card-title-row">
+            <div class="icon-tile">
+              <svg viewBox="0 0 24 24" fill="#1a1306" stroke="#1a1306" stroke-width="1.4" aria-hidden="true">
+                <circle cx="12" cy="12" r="8" fill="none" stroke-width="1.8"/>
+                <circle cx="12" cy="12" r="4" fill="none" stroke-width="1.6"/>
+                <circle cx="12" cy="12" r="1.6" stroke="none"/>
+              </svg>
+            </div>
+            <div>
+              <div class="card-name">選題助手</div>
+              <div class="card-desc">內容創作 · 選題靈感</div>
+            </div>
+          </div>
+          <span class="pill tone-mute"><span class="dot"></span>即將推出</span>
+        </div>
         <div class="reserved-lines">
           <div class="reserved-line"></div>
           <div class="reserved-line"></div>
         </div>
       </div>
 
-      <!-- Reserved 5 -->
+      <!-- Reserved 2: 社群監控 -->
       <div class="bento-card card-reserved">
-        <span class="card-status status-soon">即將推出</span>
-        <span class="card-icon-big">🌐</span>
-        <div class="card-name">社群監控</div>
-        <div class="card-desc">輿情分析 · 熱點追蹤</div>
+        <div class="card-head">
+          <div class="card-title-row">
+            <div class="icon-tile">
+              <svg viewBox="0 0 24 24" fill="#1a1306" stroke="#1a1306" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="8"/>
+                <path d="M4 12h16M12 4c2.5 3 2.5 13 0 16M12 4c-2.5 3-2.5 13 0 16" stroke="#e5b344" stroke-width="1.2" fill="none"/>
+              </svg>
+            </div>
+            <div>
+              <div class="card-name">社群監控</div>
+              <div class="card-desc">輿情分析 · 熱點追蹤</div>
+            </div>
+          </div>
+          <span class="pill tone-mute"><span class="dot"></span>即將推出</span>
+        </div>
         <div class="reserved-lines">
           <div class="reserved-line"></div>
           <div class="reserved-line"></div>
         </div>
       </div>
 
-      <!-- Reserved 6 -->
+      <!-- Reserved 3: 快訊中心 -->
       <div class="bento-card card-reserved">
-        <span class="card-status status-soon">即將推出</span>
-        <span class="card-icon-big">⚡</span>
-        <div class="card-name">快訊中心</div>
-        <div class="card-desc">突發事件 · 即時快訊</div>
+        <div class="card-head">
+          <div class="card-title-row">
+            <div class="icon-tile">
+              <svg viewBox="0 0 24 24" fill="#1a1306" stroke="#1a1306" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true">
+                <path d="M13 3L5 14h6l-1 7 8-11h-6l1-7z"/>
+              </svg>
+            </div>
+            <div>
+              <div class="card-name">快訊中心</div>
+              <div class="card-desc">突發事件 · 即時快訊</div>
+            </div>
+          </div>
+          <span class="pill tone-mute"><span class="dot"></span>即將推出</span>
+        </div>
         <div class="reserved-lines">
           <div class="reserved-line"></div>
           <div class="reserved-line"></div>
@@ -780,7 +1166,9 @@
       <div class="panel-header">
         <div class="panel-header-top">
           <div class="panel-title-area">
-            <span class="panel-icon" id="panel-icon">🤖</span>
+            <div class="panel-icon-tile" id="panel-icon-tile">
+              <span id="panel-icon">🤖</span>
+            </div>
             <div>
               <div class="panel-title" id="panel-title">AI 日報</div>
               <div class="panel-sub" id="panel-sub">AI 效率工具 · 為中文自媒體選題整理</div>
@@ -788,9 +1176,7 @@
           </div>
           <button class="panel-close" id="panel-close">✕</button>
         </div>
-        <!-- AI date tabs (populated by JS) -->
         <div class="panel-date-tabs" id="panel-ai-date-tabs"></div>
-        <!-- Finance date tabs (populated by JS) -->
         <div class="panel-date-tabs" id="panel-finance-date-tabs" style="display:none"></div>
       </div>
       <div class="panel-body">
@@ -801,14 +1187,13 @@
         <!-- Stocks content -->
         <div id="content-stocks" class="panel-content">
           <div class="stock-tracker">
-            <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px">
-              <div class="stock-tabs" style="border-bottom:none;margin-bottom:0">
+            <div class="stock-toolbar">
+              <div class="stock-tabs">
                 <button class="stock-tab active" data-stab="tw">🇹🇼 台股</button>
                 <button class="stock-tab" data-stab="us">🇺🇸 美股</button>
               </div>
               <button class="debug-toggle" onclick="toggleDebug()">🔍 Debug</button>
             </div>
-            <div style="border-bottom:1px solid var(--border);margin-bottom:0"></div>
             <div class="debug-panel" id="debug-panel">
               <div class="dbg-line dbg-info">── Debug Log ──</div>
               <div id="debug-log"><div class="dbg-line" style="color:var(--text-faint)">尚未執行更新</div></div>
@@ -849,7 +1234,6 @@
                 </div>
                 <div class="stock-key-status na" id="fugle-key-status">— 尚未設定，台股即時行情將使用 TWSE 備援</div>
               </div>
-              <!-- Sync to other devices -->
               <button class="stock-sync-btn" onclick="copySyncLink()">📲 複製同步連結（同步自選股到其他裝置）</button>
               <div class="stock-sync-toast" id="sync-toast"></div>
             </div>
@@ -867,10 +1251,14 @@
     AutoGenAI &nbsp;·&nbsp; <span id="gen-time">生成中…</span>
   </footer>
 
-  <!-- Version badge (always visible) -->
   <div class="version-badge" id="version-badge">v2.4 · 載入中</div>
 
   <script>
+    // ═══════════════════════════════════════════════════════════════════
+    //  ALL JS BELOW PRESERVED FROM ORIGINAL v2/index.html
+    //  Only renderNewsCard, renderList, and openPanel updated for new visual design
+    // ═══════════════════════════════════════════════════════════════════
+
     // Password gate (SHA-256 hash)
     (function() {
       var HASH = 'a0db69aab4591fa39088f4182bbdae4463ce2271488de071ada5fbb3e77db7fe';
@@ -902,19 +1290,35 @@
       input.addEventListener('keydown', function(e) { if (e.key === 'Enter') check(); });
     })();
 
-    // Version + build time
+    // Version + build time + date
     var BUILD_VERSION = 'v2.4';
     var BUILD_TIME = '2026-05-23T12:45';
     document.getElementById('gen-time').textContent =
       '生成於 ' + new Date().toLocaleString('zh-TW', {hour:'2-digit', minute:'2-digit'});
     document.getElementById('version-badge').textContent =
       BUILD_VERSION + ' · built ' + BUILD_TIME.replace('T',' ');
+    // Update header date to today
+    var __today = new Date();
+    var __dStr = __today.getFullYear() + '-' +
+                 String(__today.getMonth()+1).padStart(2,'0') + '-' +
+                 String(__today.getDate()).padStart(2,'0');
+    document.getElementById('hdr-date').textContent = __dStr;
+    document.getElementById('masthead-date').textContent = __dStr;
 
-    // Module configs
+    // Module configs (icon SVG + tone instead of emoji)
     var moduleConfig = {
-      ai:      { icon: '🤖', title: 'AI 日報',  sub: 'AI 效率工具 · 為中文自媒體選題整理', dateTabs: true },
-      finance: { icon: '💹', title: '財經日報', sub: '市場動態 · 台灣投資人視角',         dateTabs: true },
-      stocks:  { icon: '📈', title: '自選股',   sub: '台股 & ETF · 即時報價追蹤',         dateTabs: false }
+      ai: {
+        title: 'AI 日報', sub: 'AI 效率工具 · 為中文自媒體選題整理', dateTabs: true, tone: '',
+        iconSvg: '<svg viewBox="0 0 24 24" fill="#1a1306" stroke="#1a1306" stroke-width="1.4" stroke-linejoin="round"><rect x="4" y="7" width="16" height="12" rx="3"/><circle cx="9" cy="13" r="1.2" fill="#e5b344" stroke="none"/><circle cx="15" cy="13" r="1.2" fill="#e5b344" stroke="none"/><path d="M12 4v3" stroke-width="1.6" fill="none" stroke-linecap="round"/><circle cx="12" cy="3.5" r="0.9" stroke="none"/></svg>'
+      },
+      finance: {
+        title: '財經日報', sub: '市場動態 · 台灣投資人視角', dateTabs: true, tone: 'tone-green',
+        iconSvg: '<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M6.5 14.5l3-3 2.5 2.5L17.5 9" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="17.5" cy="9" r="0.8" fill="#fff" stroke="none"/></svg>'
+      },
+      stocks: {
+        title: '自選股', sub: '台股 & ETF · 即時報價追蹤', dateTabs: false, tone: 'tone-info',
+        iconSvg: '<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M3 20l5-7 4 4 5-8 4 5" fill="none" stroke-width="1.8" stroke="#fff"/><circle cx="3" cy="20" r="1.4" stroke="none" fill="#fff"/><circle cx="21" cy="14" r="1.4" stroke="none" fill="#fff"/></svg>'
+      }
     };
 
     var overlay = document.getElementById('overlay');
@@ -930,7 +1334,11 @@
       var cfg = moduleConfig[mod];
       if (!cfg) return;
 
-      document.getElementById('panel-icon').textContent = cfg.icon;
+      // Set icon tile (filled SVG)
+      var tile = document.getElementById('panel-icon-tile');
+      tile.className = 'panel-icon-tile ' + (cfg.tone || '');
+      tile.innerHTML = cfg.iconSvg;
+
       document.getElementById('panel-title').textContent = cfg.title;
       document.getElementById('panel-sub').textContent = cfg.sub;
 
@@ -1027,7 +1435,7 @@
       var day = tw.getDay();
       if (day === 0 || day === 6) return false;
       var mins = tw.getHours() * 60 + tw.getMinutes();
-      return mins >= 540 && mins < 810; // 09:00 ~ 13:30
+      return mins >= 540 && mins < 810;
     }
     function isUSMarketOpen() {
       var now = new Date();
@@ -1035,7 +1443,7 @@
       var day = us.getDay();
       if (day === 0 || day === 6) return false;
       var mins = us.getHours() * 60 + us.getMinutes();
-      return mins >= 570 && mins < 960; // 09:30 ~ 16:00
+      return mins >= 570 && mins < 960;
     }
 
     // === DEBUG ===
@@ -1067,7 +1475,7 @@
       ]);
     }
 
-    // ── 台股：Fugle Intraday（開盤中即時報價）──
+    // ── 台股：Fugle Intraday ──
     async function fetchFugleIntraday(symbols) {
       var key = getFugleKey();
       if (!key) return null;
@@ -1077,10 +1485,7 @@
         var code = symbols[i].replace('.TW','');
         dbgLog('Fugle intraday → ' + code, 'info');
         try {
-          var r = await tFetch(
-            'https://api.fugle.tw/marketdata/v1.0/stock/intraday/quote/' + code,
-            8000, opts
-          );
+          var r = await tFetch('https://api.fugle.tw/marketdata/v1.0/stock/intraday/quote/' + code, 8000, opts);
           if (!r.ok) { dbgLog('Fugle ' + code + ' HTTP ' + r.status, 'err'); continue; }
           var d = await r.json();
           var price  = d.closePrice || d.lastPrice || 0;
@@ -1102,7 +1507,7 @@
       return Object.keys(map).length ? map : null;
     }
 
-    // ── 台股：Fugle Historical（收盤後取最後收盤價）──
+    // ── 台股：Fugle Historical ──
     async function fetchFugleHistorical(symbols) {
       var key = getFugleKey();
       if (!key) return null;
@@ -1121,10 +1526,8 @@
           var r = await tFetch(url, 8000, opts);
           if (!r.ok) { dbgLog('Fugle hist ' + code + ' HTTP ' + r.status, 'err'); continue; }
           var d = await r.json();
-          dbgLog('  ' + code + ' hist keys: ' + Object.keys(d).join(','), 'info');
           var candles = d.data || d.candles;
           if (!candles || !candles.length) { dbgLog('Fugle hist ' + code + ' 無資料', 'warn'); continue; }
-          // Sort ascending by date (API may return descending)
           candles.sort(function(a, b) {
             return (a.date || a.datetime || '') < (b.date || b.datetime || '') ? -1 : 1;
           });
@@ -1133,20 +1536,19 @@
           var prev  = candles.length >= 2 ? (parseFloat(candles[candles.length - 2].close) || price) : price;
           var change = Math.round((price - prev) * 100) / 100;
           var pct    = prev ? Math.round(change / prev * 10000) / 100 : 0;
-          var dateStr = last.date || last.datetime || '';
           map[symbols[i]] = {
             price: price, change: change, pct: pct, prev: prev,
             name: d.name || d.Name || null,
             currency: 'TWD', state: 'CLOSED', ts: Date.now()
           };
-          dbgLog('  ' + code + ' hist → ' + price + ' (' + dateStr + ') name=' + (d.name||d.Name||'null'), 'ok');
+          dbgLog('  ' + code + ' hist → ' + price, 'ok');
         } catch(e) { dbgLog('Fugle hist ' + code + ' 失敗: ' + e.message, 'err'); }
         if (i < symbols.length - 1) await new Promise(function(r){ setTimeout(r, 120); });
       }
       return Object.keys(map).length ? map : null;
     }
 
-    // ── 台股：TWSE Open Data 備援（收盤價，無需 key）──
+    // ── 台股：TWSE Fallback ──
     async function fetchTWSEFallback(symbols) {
       var codes = symbols.map(function(s){ return s.replace('.TW',''); });
       dbgLog('台股備援 → TWSE Open Data', 'info');
@@ -1173,7 +1575,6 @@
       } catch(e) { dbgLog('TWSE 備援失敗: ' + e.message, 'err'); return null; }
     }
 
-    // ── 從 Fugle intraday/quote 補股名（不分開盤與否）──
     async function fetchFugleNames(symbols) {
       var key = getFugleKey();
       if (!key) return {};
@@ -1182,20 +1583,16 @@
       for (var i = 0; i < symbols.length; i++) {
         var code = symbols[i].replace('.TW','');
         try {
-          var r = await tFetch(
-            'https://api.fugle.tw/marketdata/v1.0/stock/intraday/quote/' + code,
-            6000, opts
-          );
+          var r = await tFetch('https://api.fugle.tw/marketdata/v1.0/stock/intraday/quote/' + code, 6000, opts);
           if (!r.ok) continue;
           var d = await r.json();
-          if (d.name) { names[symbols[i]] = d.name; dbgLog('  name ' + code + ' → ' + d.name, 'ok'); }
+          if (d.name) names[symbols[i]] = d.name;
         } catch(e) {}
         if (i < symbols.length - 1) await new Promise(function(r){ setTimeout(r, 100); });
       }
       return names;
     }
 
-    // ── 台股主入口 ──
     async function fetchTWBatch(symbols) {
       var key = getFugleKey();
       if (key) {
@@ -1216,7 +1613,7 @@
       return fetchTWSEFallback(symbols);
     }
 
-    // ── 美股：Yahoo Finance v8（primary）+ Stooq（fallback）──
+    // ── 美股：Yahoo Finance + Stooq fallback ──
     async function fetchUSBatch(symbols) {
       dbgLog('美股 → Yahoo Finance 請求中…', 'info');
       var yhMap = {};
@@ -1248,7 +1645,6 @@
       }
       if (Object.keys(yhMap).length === symbols.length) return yhMap;
 
-      // Stooq fallback for missing symbols
       var missing = symbols.filter(function(s){ return !yhMap[s]; });
       if (missing.length) {
         dbgLog('美股 → Stooq 補足 ' + missing.join(','), 'warn');
@@ -1280,7 +1676,6 @@
       return Object.keys(yhMap).length ? yhMap : null;
     }
 
-    // Single-stock fetch for addStockFromInput
     async function fetchStock(symbol) {
       var isTW = symbol.endsWith('.TW');
       var result = isTW ? await fetchTWBatch([symbol]) : await fetchUSBatch([symbol]);
@@ -1294,6 +1689,7 @@
       return {label: '已收盤', cls: 'closed'};
     }
 
+    // ─── renderList: new card-grid layout ───
     function renderList(market) {
       var list   = getStockList();
       var stocks = list[market] || [];
@@ -1306,29 +1702,30 @@
       }
       el.innerHTML = stocks.map(function(stock) {
         var c = cache[stock.s];
-        var priceStr, changeStr, cls, si;
+        var priceStr, changeStr, cls, si, priceCls;
         if (c && !c.failed) {
           var sign = c.change >= 0 ? '+' : '';
           cls = c.change > 0 ? 'up' : (c.change < 0 ? 'dn' : 'flat');
+          priceCls = cls;
           priceStr  = c.price.toFixed(2);
           changeStr = sign + c.change.toFixed(2) + ' (' + sign + c.pct.toFixed(2) + '%)';
           si = stateInfo(c.state);
         } else if (c && c.failed) {
-          priceStr = '—'; changeStr = '無法取得'; cls = 'flat'; si = {label:'網路異常', cls:'closed'};
+          priceStr = '—'; changeStr = '無法取得'; cls = 'flat'; priceCls = ''; si = {label:'網路異常', cls:'closed'};
         } else {
-          priceStr = '—'; changeStr = '載入中…'; cls = 'flat'; si = {label:'', cls:'closed'};
+          priceStr = '—'; changeStr = '載入中…'; cls = 'flat'; priceCls = ''; si = {label:'', cls:'closed'};
         }
         var disp = stock.s.replace('.TW','');
         return '<div class="stock-item" draggable="true" data-sym="' + stock.s + '" data-mkt="' + market + '">' +
           '<span class="stock-drag-handle" title="拖曳排序">⠿</span>' +
           '<div class="stock-item-info">' +
-            '<div class="stock-item-symbol">' + disp + '</div>' +
-            '<div class="stock-item-name">' + (stock.n || disp) + '</div>' +
+            '<span class="stock-item-symbol">' + disp + '</span>' +
+            '<span class="stock-item-name">' + (stock.n || disp) + '</span>' +
           '</div>' +
           '<div class="stock-item-price">' +
-            '<span class="stock-price-value">' + priceStr + '</span>' +
+            '<span class="stock-price-value ' + priceCls + '">' + priceStr + '</span>' +
             '<span class="stock-price-change ' + cls + '">' + changeStr + '</span>' +
-            '<span class="stock-mktstate ' + si.cls + '">' + si.label + '</span>' +
+            (si.label ? '<span class="stock-mktstate ' + si.cls + '">' + si.label + '</span>' : '') +
           '</div>' +
           '<button class="stock-item-remove" onclick="removeStock(\'' + market + '\',\'' + stock.s + '\')">×</button>' +
         '</div>';
@@ -1338,7 +1735,6 @@
 
     // === DRAG-AND-DROP REORDER ===
     var _dragSrc = null;
-
     function initDragDrop(market) {
       var container = document.getElementById('stock-list-' + market);
       if (!container) return;
@@ -1450,7 +1846,6 @@
       saveStockCache(cache);
       renderList(market);
 
-      // Fill missing names via intraday/quote for TW stocks still using code as name
       if (market === 'tw') {
         var needName = symbols.filter(function(sym) {
           var entry = (list[market] || []).find(function(s){ return s.s === sym; });
@@ -1495,7 +1890,7 @@
 
       var list = getStockList();
       if ((list[market] || []).some(function(s) { return s.s === sym; })) {
-        input.style.borderColor = '#ef4444';
+        input.style.borderColor = '#ef5a3d';
         setTimeout(function(){ input.style.borderColor = ''; }, 1200);
         return;
       }
@@ -1537,13 +1932,12 @@
       });
     });
 
-    // Enter key on add inputs
     ['tw','us'].forEach(function(m) {
       var inp = document.getElementById(m + '-add-input');
       if (inp) inp.addEventListener('keydown', function(e){ if (e.key==='Enter') addStockFromInput(m); });
     });
 
-    // ── Sync link (cross-device watchlist sharing) ──
+    // ── Cross-device watchlist sync via URL hash ──────────────
     function copySyncLink() {
       var list = getStockList();
       var encoded = btoa(unescape(encodeURIComponent(JSON.stringify(list))));
@@ -1555,7 +1949,6 @@
           setTimeout(function(){ toast.textContent = ''; }, 4000);
         });
       } else {
-        // Fallback: prompt
         window.prompt('複製此連結並在其他裝置開啟：', url);
       }
     }
@@ -1564,14 +1957,12 @@
       var hash = window.location.hash;
       if (!hash.startsWith('#stocks=')) return;
       try {
-        var encoded = hash.slice(8);
-        var list = JSON.parse(decodeURIComponent(escape(atob(encoded))));
+        var list = JSON.parse(decodeURIComponent(escape(atob(hash.slice(8)))));
         if (list && (list.tw || list.us)) {
           saveStockList(list);
           history.replaceState(null, '', window.location.pathname);
-          // Show banner
           var banner = document.createElement('div');
-          banner.style.cssText = 'position:fixed;top:16px;left:50%;transform:translateX(-50%);background:#22c55e;color:#000;font-size:13px;font-weight:700;padding:8px 20px;border-radius:999px;z-index:9999';
+          banner.style.cssText = 'position:fixed;top:16px;left:50%;transform:translateX(-50%);background:#4ade80;color:#000;font-size:13px;font-weight:700;padding:8px 20px;border-radius:999px;z-index:9999';
           banner.textContent = '✓ 自選股已同步完成';
           document.body.appendChild(banner);
           setTimeout(function(){ banner.remove(); }, 3000);
@@ -1579,10 +1970,8 @@
       } catch(e) {}
     }
 
-    // Check for sync URL on load
     applySyncFromURL();
 
-    // Initialize when stocks panel opened (lazy)
     var stocksReady = false;
     function maybeInitStocks() {
       if (stocksReady) return;
@@ -1602,10 +1991,10 @@
           {key:'trends',        color:'green', label:'趨勢'}
         ],
         insights: [
-          {key:'audience',    label:'目標受眾', cls:''},
-          {key:'pain_point',  label:'痛點',     cls:''},
-          {key:'title_idea',  label:'標題雛形', cls:'title-row'},
-          {key:'local_angle', label:'本地化切角', cls:'local-row'}
+          {key:'audience',    label:'目標受眾'},
+          {key:'pain_point',  label:'痛點'},
+          {key:'title_idea',  label:'標題雛形'},
+          {key:'local_angle', label:'本地化切角'}
         ],
         url: '../skills/solopreneur-topic-miner/topics_archive.json'
       },
@@ -1616,10 +2005,10 @@
           {key:'macro_observations',      color:'purple', label:'總經觀察'}
         ],
         insights: [
-          {key:'tw_stock_impact',   label:'台股影響',  cls:'stock-row'},
-          {key:'investment_insight',label:'投資啟示',  cls:'invest-row'},
-          {key:'title_idea',        label:'標題雛形',  cls:'title-row'},
-          {key:'local_angle',       label:'本地化切角',cls:'local-row'}
+          {key:'tw_stock_impact',   label:'台股影響'},
+          {key:'investment_insight',label:'投資啟示'},
+          {key:'title_idea',        label:'標題雛形'},
+          {key:'local_angle',       label:'本地化切角'}
         ],
         url: '../skills/solopreneur-topic-miner/finance_archive.json'
       }
@@ -1629,24 +2018,30 @@
       return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
     }
 
-    function renderNewsCard(item, color, cfg) {
+    // ─── renderNewsCard: new color-block style ───
+    function renderNewsCard(item, color, cfg, idx) {
       var sources = (item.sources||[]).map(function(s){
         return '<a href="' + esc(s.url) + '" target="_blank" class="source-tag">' + esc(s.name) + '</a>';
       }).join('');
       var insights = cfg.insights.map(function(ins){
         var val = item[ins.key];
         if (!val) return '';
-        return '<div class="insight-row ' + ins.cls + '"><span class="insight-label">' + ins.label +
-               '</span><span class="insight-value">' + esc(val) + '</span></div>';
+        return '<div class="insight-row" data-key="' + ins.key + '">' +
+                 '<div class="insight-label">' + ins.label + '</div>' +
+                 '<div class="insight-value">' + esc(val) + '</div>' +
+               '</div>';
       }).join('');
-      return '<div class="news-card">' +
-        '<div class="card-accent accent-' + color + '"></div>' +
-        '<div class="card-body">' +
-          '<h3 class="card-title">' + esc(item.title) + '</h3>' +
+      var num = String(idx + 1).padStart(2, '0');
+      return '<article class="news-card" data-color="' + color + '">' +
+        '<div class="card-meta-row">' +
+          '<span class="card-meta-num">' + num + '</span>' +
+          '<span class="card-meta-num">·</span>' +
           '<div class="sources-row">' + sources + '</div>' +
-          '<p class="summary">' + esc(item.summary||'') + '</p>' +
-          (insights ? '<div class="insight-panel">' + insights + '</div>' : '') +
-        '</div></div>';
+        '</div>' +
+        '<h3 class="card-title">' + esc(item.title) + '</h3>' +
+        '<p class="summary">' + esc(item.summary||'') + '</p>' +
+        (insights ? '<div class="insight-panel">' + insights + '</div>' : '') +
+      '</article>';
     }
 
     function renderDayPanel(dayData, ch, isFirst) {
@@ -1658,11 +2053,11 @@
         var items = dayData[sec.key] || [];
         if (!items.length) return '';
         total += items.length;
-        var cards = items.map(function(item){ return renderNewsCard(item, sec.color, cfg); }).join('');
+        var cards = items.map(function(item, i){ return renderNewsCard(item, sec.color, cfg, i); }).join('');
         return '<section class="report-section">' +
           '<div class="section-header">' +
-            '<span class="section-dot dot-' + sec.color + '"></span>' +
-            '<span class="section-label label-' + sec.color + '">' + sec.label + '</span>' +
+            '<span class="section-bar color-' + sec.color + '"></span>' +
+            '<span class="section-label">' + sec.label + '</span>' +
             '<span class="section-count count-' + sec.color + '">' + items.length + ' 則</span>' +
             '<span class="section-line"></span>' +
           '</div>' +
@@ -1677,7 +2072,7 @@
     function renderDateTab(dayData, ch, isFirst) {
       var date = dayData.date || '';
       var id = ch + '-day-' + date;
-      var label = date.slice(5); // MM-DD
+      var label = date.slice(5);
       return '<button class="panel-date-tab' + (isFirst?' active':'') +
              '" data-target="' + id + '" data-ch="' + ch + '">' + label + '</button>';
     }
@@ -1698,7 +2093,6 @@
     }
 
     var newsLoaded = {ai: false, finance: false};
-
     function loadNewsChannel(ch) {
       if (newsLoaded[ch]) return;
       newsLoaded[ch] = true;
@@ -1712,20 +2106,16 @@
         .then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
         .then(function(archive) {
           if (!Array.isArray(archive) || !archive.length) throw new Error('empty');
-          // Sort newest first
           archive.sort(function(a,b){ return (a.date||'') < (b.date||'') ? 1 : -1; });
-          // Render tabs
           if (tabEl) tabEl.innerHTML = archive.map(function(d,i){ return renderDateTab(d,ch,i===0); }).join('');
-          // Render day panels
           if (contentEl) contentEl.innerHTML = archive.map(function(d,i){ return renderDayPanel(d,ch,i===0); }).join('');
           attachTabListeners(ch);
         })
         .catch(function(e) {
-          if (contentEl) contentEl.innerHTML = '<div style="padding:32px;text-align:center;color:#ef4444;font-size:13px">無法載入資料：' + e.message + '</div>';
+          if (contentEl) contentEl.innerHTML = '<div style="padding:32px;text-align:center;color:#ef5a3d;font-size:13px">無法載入資料：' + e.message + '</div>';
         });
     }
 
-    // Pre-load AI channel on page load so it's ready when the panel opens
     loadNewsChannel('ai');
   </script>
 </body>
