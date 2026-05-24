@@ -885,15 +885,46 @@
     .stock-key-status { font-size: 11px; margin-top: 5px; font-family: var(--font-mono); }
     .stock-key-status.ok { color: var(--down); }
     .stock-key-status.na { color: var(--text-faint); }
-    .stock-sync-btn {
-      margin-top: 10px; width: 100%; padding: 7px 10px;
-      background: rgba(229,179,68,.08); border: 1px solid rgba(229,179,68,.25);
-      border-radius: var(--radius-sm); color: var(--gold);
-      font-size: 11px; font-weight: 600; font-family: inherit;
-      cursor: pointer; letter-spacing: .02em; text-align: center;
+    /* Sync section */
+    .sync-section { margin-top: 12px; padding-top: 14px; border-top: 1px solid var(--border-faint); }
+    .sync-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+    .sync-label { font-size: 11.5px; color: var(--text-2); font-weight: 600; }
+    .sync-badge {
+      font-size: 10px; padding: 2px 7px; border-radius: 999px;
+      background: rgba(100,100,120,.2); color: var(--text-faint);
+      font-family: var(--font-mono);
     }
-    .stock-sync-btn:hover { background: rgba(229,179,68,.16); }
-    .stock-sync-toast { font-size: 10px; color: #4ade80; text-align: center; margin-top: 4px; min-height: 13px; }
+    .sync-badge.ok { background: rgba(74,222,128,.12); color: #4ade80; }
+    .sync-badge.err { background: rgba(239,68,68,.12); color: #f87171; }
+    .sync-input-row { display: flex; gap: 7px; }
+    .sync-input {
+      flex: 1; padding: 8px 11px;
+      background: var(--surface-3); border: 1px solid var(--border-faint);
+      border-radius: var(--radius-sm); color: var(--text);
+      font-size: 13px; font-family: var(--font-mono); letter-spacing: .05em;
+      outline: none;
+    }
+    .sync-input:focus { border-color: rgba(229,179,68,.5); }
+    .sync-connect-btn {
+      padding: 8px 14px; background: rgba(229,179,68,.12);
+      border: 1px solid rgba(229,179,68,.3); border-radius: var(--radius-sm);
+      color: var(--gold); font-size: 12px; font-weight: 700;
+      font-family: inherit; cursor: pointer; white-space: nowrap;
+    }
+    .sync-connect-btn:hover { background: rgba(229,179,68,.22); }
+    .sync-hint { font-size: 10px; color: var(--text-faint); margin-top: 5px; line-height: 1.5; }
+    .sync-connected-info {
+      display: flex; align-items: center; gap: 8px;
+      font-size: 11px; color: var(--text-2);
+    }
+    .sync-code-val { font-family: var(--font-mono); color: var(--gold); letter-spacing: .06em; }
+    .sync-change-btn {
+      background: none; border: none; color: var(--text-faint);
+      font-size: 10px; cursor: pointer; padding: 0; font-family: inherit;
+      text-decoration: underline;
+    }
+    .sync-change-btn:hover { color: var(--text-2); }
+    .fugle-subsection { margin-top: 10px; }
 
     /* Footer + version */
     .dash-footer {
@@ -1225,17 +1256,37 @@
               <div class="stock-add-hint">美股代碼直接輸入英文（AAPL、MSFT…）；ETF 亦同（VOO、QQQ…）</div>
             </div>
             <!-- Fugle API Key 設定 -->
-            <div class="stock-key-section">
-              <button class="stock-key-toggle" onclick="toggleKeySection()">⚙ Fugle API Key 設定</button>
-              <div id="stock-key-body" style="display:none">
-                <div class="stock-key-row">
-                  <input class="stock-key-input" id="fugle-key-input" type="password" placeholder="貼上 Fugle API Key（Bearer token）" />
-                  <button class="stock-key-save" onclick="saveFugleKeyFromInput()">儲存</button>
-                </div>
-                <div class="stock-key-status na" id="fugle-key-status">— 尚未設定，台股即時行情將使用 TWSE 備援</div>
+            <!-- Sync + Fugle settings -->
+            <div class="sync-section">
+              <div class="sync-header">
+                <span class="sync-label">☁ 雲端同步</span>
+                <span class="sync-badge" id="sync-badge">未設定</span>
               </div>
-              <button class="stock-sync-btn" onclick="copySyncLink()">📲 複製同步連結（同步自選股到其他裝置）</button>
-              <div class="stock-sync-toast" id="sync-toast"></div>
+              <div id="sync-setup-row">
+                <div class="sync-input-row">
+                  <input class="sync-input" id="sync-code-input" type="text"
+                    placeholder="輸入同步碼（英數字自取）" autocomplete="off" spellcheck="false"
+                    onkeydown="if(event.key==='Enter') handleConnectSync()" />
+                  <button class="sync-connect-btn" onclick="handleConnectSync()">連線</button>
+                </div>
+                <div class="sync-hint">自取英數同步碼，四台裝置輸入相同碼 → 自動同步自選股 + Fugle Key</div>
+              </div>
+              <div id="sync-connected-row" style="display:none">
+                <div class="sync-connected-info">
+                  同步碼：<span class="sync-code-val" id="sync-code-val">—</span>
+                  <button class="sync-change-btn" onclick="disconnectSync()">變更</button>
+                </div>
+              </div>
+              <div class="fugle-subsection">
+                <button class="stock-key-toggle" onclick="toggleKeySection()">⚙ Fugle API Key</button>
+                <div id="stock-key-body" style="display:none">
+                  <div class="stock-key-row">
+                    <input class="stock-key-input" id="fugle-key-input" type="password" placeholder="貼上 Fugle API Key" />
+                    <button class="stock-key-save" onclick="saveFugleKeyFromInput()">儲存並同步</button>
+                  </div>
+                  <div class="stock-key-status na" id="fugle-key-status">— 尚未設定，台股即時行情將使用 TWSE 備援</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -1409,6 +1460,7 @@
       updateKeyStatus();
       if (inp) inp.value = '';
       dbgLog('Fugle API Key ' + (k ? '已儲存' : '已清除'), k ? 'ok' : 'warn');
+      fbPush();
     }
     function toggleKeySection() {
       var body = document.getElementById('stock-key-body');
@@ -1770,6 +1822,7 @@
           stocks.splice(ti, 0, moved);
           saveStockList(list);
           renderList(market);
+          fbPush();
         });
       });
     }
@@ -1897,6 +1950,7 @@
       list[market] = list[market] || [];
       list[market].push({s: sym, n: sym.replace('.TW','')});
       saveStockList(list);
+      fbPush();
       input.value = '';
       renderList(market);
       fetchStock(sym).then(function(data) {
@@ -1917,6 +1971,7 @@
       var list = getStockList();
       list[market] = (list[market] || []).filter(function(s){ return s.s !== symbol; });
       saveStockList(list);
+      fbPush();
       renderList(market);
     }
 
@@ -1937,47 +1992,118 @@
       if (inp) inp.addEventListener('keydown', function(e){ if (e.key==='Enter') addStockFromInput(m); });
     });
 
-    // ── Cross-device watchlist sync via URL hash ──────────────
-    function copySyncLink() {
+    // ── Firebase Realtime Database Sync ──────────────────────
+    var FB_DB = 'https://autogenai-stocks-default-rtdb.firebaseio.com';
+    var SYNC_CODE_LS = 'ag_sync_code';
+
+    function getSyncCode() { return localStorage.getItem(SYNC_CODE_LS) || ''; }
+    function _saveSyncCode(c) {
+      if (c) localStorage.setItem(SYNC_CODE_LS, c); else localStorage.removeItem(SYNC_CODE_LS);
+    }
+    function fbUrl(code) {
+      return FB_DB + '/watchlists/' + encodeURIComponent(code) + '.json';
+    }
+
+    function fbPull(code) {
+      return fetch(fbUrl(code))
+        .then(function(r){ return r.ok ? r.json() : null; })
+        .catch(function(){ return null; });
+    }
+
+    function fbPush() {
+      var code = getSyncCode();
+      if (!code) return Promise.resolve();
       var list = getStockList();
-      var encoded = btoa(unescape(encodeURIComponent(JSON.stringify(list))));
-      var url = window.location.origin + window.location.pathname + '#stocks=' + encoded;
-      var toast = document.getElementById('sync-toast');
-      if (navigator.clipboard) {
-        navigator.clipboard.writeText(url).then(function() {
-          toast.textContent = '✓ 連結已複製！在其他裝置開啟即可同步自選股';
-          setTimeout(function(){ toast.textContent = ''; }, 4000);
-        });
-      } else {
-        window.prompt('複製此連結並在其他裝置開啟：', url);
+      var data = {
+        tw: list.tw || [], us: list.us || [],
+        fugle_key: getFugleKey() || '',
+        updated: new Date().toISOString()
+      };
+      return fetch(fbUrl(code), {
+        method: 'PUT',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify(data)
+      }).catch(function(){});
+    }
+
+    function fbApply(data) {
+      if (!data) return false;
+      if (Array.isArray(data.tw) || Array.isArray(data.us)) {
+        saveStockList({tw: data.tw || [], us: data.us || []});
       }
+      if (data.fugle_key) saveFugleKey(data.fugle_key);
+      return true;
     }
 
-    function applySyncFromURL() {
-      var hash = window.location.hash;
-      if (!hash.startsWith('#stocks=')) return;
-      try {
-        var list = JSON.parse(decodeURIComponent(escape(atob(hash.slice(8)))));
-        if (list && (list.tw || list.us)) {
-          saveStockList(list);
-          history.replaceState(null, '', window.location.pathname);
-          var banner = document.createElement('div');
-          banner.style.cssText = 'position:fixed;top:16px;left:50%;transform:translateX(-50%);background:#4ade80;color:#000;font-size:13px;font-weight:700;padding:8px 20px;border-radius:999px;z-index:9999';
-          banner.textContent = '✓ 自選股已同步完成';
-          document.body.appendChild(banner);
-          setTimeout(function(){ banner.remove(); }, 3000);
+    function setSyncBadge(text, cls) {
+      var el = document.getElementById('sync-badge');
+      if (el) { el.textContent = text; el.className = 'sync-badge ' + (cls || ''); }
+    }
+
+    function showSyncConnected(code) {
+      var s = document.getElementById('sync-setup-row');
+      var c = document.getElementById('sync-connected-row');
+      var v = document.getElementById('sync-code-val');
+      if (s) s.style.display = 'none';
+      if (c) c.style.display = '';
+      if (v) v.textContent = code;
+    }
+
+    function disconnectSync() {
+      _saveSyncCode('');
+      var s = document.getElementById('sync-setup-row');
+      var c = document.getElementById('sync-connected-row');
+      if (s) s.style.display = '';
+      if (c) c.style.display = 'none';
+      setSyncBadge('未設定', '');
+    }
+
+    function handleConnectSync() {
+      var inp = document.getElementById('sync-code-input');
+      if (!inp) return;
+      var code = inp.value.trim().toLowerCase().replace(/[^a-z0-9_-]/g, '');
+      if (!code) return;
+      setSyncBadge('連線中…', '');
+      fbPull(code).then(function(data) {
+        _saveSyncCode(code);
+        if (data) {
+          fbApply(data);
+          setSyncBadge('已同步 ✓', 'ok');
+        } else {
+          fbPush().then(function(){ setSyncBadge('已建立 ✓', 'ok'); });
         }
-      } catch(e) {}
+        showSyncConnected(code);
+        updateKeyStatus();
+        renderList('tw'); renderList('us');
+        refreshStocks('tw'); refreshStocks('us');
+      });
     }
 
-    applySyncFromURL();
+    function autoSyncOnLoad() {
+      var code = getSyncCode();
+      if (!code) return;
+      showSyncConnected(code);
+      setSyncBadge('同步中…', '');
+      fbPull(code).then(function(data) {
+        if (data && fbApply(data)) {
+          setSyncBadge('已同步 ✓', 'ok');
+          updateKeyStatus();
+          renderList('tw'); renderList('us');
+        } else {
+          setSyncBadge('已連線 ✓', 'ok');
+        }
+      });
+    }
 
     var stocksReady = false;
     function maybeInitStocks() {
       if (stocksReady) return;
       stocksReady = true;
+      // Show local data immediately
       updateKeyStatus();
       renderList('tw'); renderList('us');
+      // Sync from Firebase in background, then refresh
+      autoSyncOnLoad();
       refreshStocks('tw');
       refreshStocks('us');
     }
