@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>加班費計算器</title>
+  <style>
+    :root {
+      --bg:          #0f0f13;
+      --surface:     #1a1a22;
+      --surface2:    #222230;
+      --border:      #2e2e3e;
+      --gold:        #c9a84c;
+      --gold-dim:    #9a7a35;
+      --text:        #e8e8f0;
+      --text-dim:    #9090a8;
+      --text-faint:  #55556a;
+      --sat-accent:  #f59e0b;
+      --red:         #ef4444;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, 'PingFang TC', 'Noto Sans TC', sans-serif;
+      min-height: 100vh;
+      padding: 28px 20px 60px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    /* ── Header ── */
+    .page-header { margin-bottom: 24px; }
+    .page-header h1 { font-size: 22px; font-weight: 700; color: var(--gold); }
+    .page-header p  { font-size: 12px; color: var(--text-faint); margin-top: 3px; }
+
+    /* ── Settings ── */
+    .settings {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: flex-end;
+      margin-bottom: 24px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px;
+    }
+    .field { display: flex; flex-direction: column; gap: 5px; }
+    .field label { font-size: 11px; color: var(--text-faint); text-transform: uppercase; letter-spacing: .06em; }
+    .field input {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--text);
+      padding: 8px 12px;
+      font-size: 15px;
+      outline: none;
+      width: 180px;
+    }
+    .field input:focus { border-color: var(--gold-dim); }
+    .hourly-display {
+      font-size: 12px;
+      color: var(--text-faint);
+      padding: 8px 0 0;
+      border-top: 1px solid var(--border);
+      width: 100%;
+    }
+    .hourly-display span { color: var(--gold); font-weight: 600; }
+
+    /* ── Legend ── */
+    .legend {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-bottom: 14px;
+    }
+    .legend-item { display: flex; align-items: center; gap: 6px; font-size: 11px; color: var(--text-dim); }
+    .legend-dot  { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
+
+    /* ── Month nav ── */
+    .month-nav {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 12px;
+    }
+    .month-nav h2 { font-size: 17px; font-weight: 600; min-width: 120px; }
+    .nav-btn {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--text);
+      padding: 5px 14px;
+      cursor: pointer;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+    .nav-btn:hover { border-color: var(--gold-dim); }
+
+    /* ── Calendar ── */
+    .calendar {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 4px;
+      margin-bottom: 24px;
+    }
+    .day-header {
+      text-align: center;
+      font-size: 11px;
+      color: var(--text-faint);
+      padding: 4px 0 8px;
+      font-weight: 500;
+    }
+    .day-header.sat { color: var(--sat-accent); }
+    .day-header.sun { color: var(--red); }
+
+    .day-cell {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 7px 6px 6px;
+      min-height: 86px;
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+    .day-cell.empty  { background: transparent; border-color: transparent; pointer-events: none; }
+    .day-cell.is-sat     { background: #1e1c10; border-color: #3a3010; }
+    .day-cell.is-sun     { background: #1e1010; border-color: #3a1212; }
+    .day-cell.is-holiday { background: #200d0d; border-color: #4a1515; }
+    .day-cell.is-today   { box-shadow: 0 0 0 2px var(--gold); }
+
+    .day-num { font-size: 13px; font-weight: 700; color: var(--text-dim); line-height: 1; }
+    .day-cell.is-sat .day-num     { color: var(--sat-accent); }
+    .day-cell.is-sun .day-num     { color: var(--red); }
+    .day-cell.is-holiday .day-num { color: #f87171; }
+    .day-cell.is-today .day-num   { color: var(--gold); }
+
+    .holiday-label {
+      font-size: 9px;
+      color: #f87171;
+      line-height: 1.3;
+      word-break: keep-all;
+    }
+    .type-badge {
+      font-size: 9px;
+      padding: 1px 4px;
+      border-radius: 3px;
+      align-self: flex-start;
+      line-height: 1.5;
+    }
+    .badge-weekday { background: #232333; color: var(--text-faint); }
+    .badge-sat     { background: #3a2800; color: var(--sat-accent); }
+    .badge-sun     { background: #3a1010; color: #f87171; }
+    .badge-holiday { background: #4a0a0a; color: #f87171; }
+
+    .ot-wrap { margin-top: auto; display: flex; align-items: center; gap: 3px; }
+    .ot-input {
+      flex: 1;
+      background: #0f0f18;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      color: var(--text);
+      padding: 3px 4px;
+      font-size: 12px;
+      text-align: center;
+      outline: none;
+      min-width: 0;
+    }
+    .ot-input:focus { border-color: var(--gold-dim); }
+    .ot-input.has-val { color: var(--gold); border-color: var(--gold-dim); background: #191300; }
+    .ot-unit { font-size: 9px; color: var(--text-faint); white-space: nowrap; }
+
+    /* ── Summary ── */
+    .summary {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+    }
+    .summary h3 { font-size: 14px; color: var(--gold); margin-bottom: 16px; }
+    .summary-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    .s-card {
+      background: var(--surface2);
+      border-radius: 8px;
+      padding: 12px 14px;
+    }
+    .s-card .s-label { font-size: 11px; color: var(--text-faint); margin-bottom: 3px; }
+    .s-card .s-hrs   { font-size: 12px; color: var(--text-dim); margin-bottom: 2px; }
+    .s-card .s-pay   { font-size: 18px; font-weight: 700; color: var(--text); }
+    .s-card.total    { border: 1px solid var(--gold-dim); }
+    .s-card.total .s-pay { color: var(--gold); font-size: 22px; }
+    .s-hint {
+      font-size: 11px;
+      color: var(--text-faint);
+      margin-top: 14px;
+      padding-top: 12px;
+      border-top: 1px solid var(--border);
+      line-height: 1.7;
+    }
+  </style>
+</head>
+<body>
+
+<div class="page-header">
+  <h1>⏱ 加班費計算器</h1>
+  <p>依據勞動基準法第 24 條計算 · 台灣法定加班費試算</p>
+</div>
+
+<div class="settings">
+  <div class="field">
+    <label>月薪（元）</label>
+    <input type="number" id="salary" placeholder="例：45000" min="0" step="100">
+  </div>
+  <div class="hourly-display" id="hourly-display">請輸入月薪以計算時薪基準</div>
+</div>
+
+<div class="legend">
+  <div class="legend-item"><div class="legend-dot" style="background:#232333"></div>平日（週一～五）</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#3a2800"></div>休息日（週六）</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#3a1010"></div>例假日（週日）</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#4a0a0a"></div>國定假日</div>
+</div>
+
+<div class="month-nav">
+  <button class="nav-btn" id="prev-btn">&#8592;</button>
+  <h2 id="month-title"></h2>
+  <button class="nav-btn" id="next-btn">&#8594;</button>
+</div>
+
+<div class="calendar" id="cal"></div>
+
+<div class="summary">
+  <h3>📊 本月加班費試算</h3>
+  <div id="sum-grid"></div>
+  <div class="s-hint" id="sum-hint"></div>
+</div>
+
+<script>
+  // ── Taiwan National Holidays ────────────────────────────────
+  const TW_HOLIDAYS = {
+    // 2025
+    '2025-01-01': '元旦',
+    '2025-01-27': '農曆除夕',
+    '2025-01-28': '春節初一',
+    '2025-01-29': '春節初二',
+    '2025-01-30': '春節初三',
+    '2025-01-31': '春節初四',
+    '2025-02-28': '和平紀念日',
+    '2025-04-03': '兒童節補假',
+    '2025-04-04': '兒童節/清明',
+    '2025-05-01': '勞動節',
+    '2025-05-31': '端午節',
+    '2025-10-06': '中秋補假',
+    '2025-10-07': '中秋節',
+    '2025-10-10': '國慶日',
+    // 2026
+    '2026-01-01': '元旦',
+    '2026-02-16': '農曆除夕',
+    '2026-02-17': '春節初一',
+    '2026-02-18': '春節初二',
+    '2026-02-19': '春節初三',
+    '2026-02-20': '春節初四',
+    '2026-02-28': '和平紀念日',
+    '2026-04-04': '兒童節',
+    '2026-04-05': '清明節',
+    '2026-05-01': '勞動節',
+    '2026-06-19': '端午節',
+    '2026-09-25': '中秋節',
+    '2026-10-10': '國慶日',
+  };
+
+  // ── State ───────────────────────────────────────────────────
+  const TODAY = new Date();
+  let year  = TODAY.getFullYear();
+  let month = TODAY.getMonth(); // 0-indexed
+  let otData = {};              // { 'YYYY-MM-DD': hours }
+
+  function pad(n) { return String(n).padStart(2, '0'); }
+
+  // ── Day classification ──────────────────────────────────────
+  function getDayType(dateStr) {
+    if (TW_HOLIDAYS[dateStr]) return 'holiday';
+    const dow = new Date(dateStr + 'T00:00:00').getDay(); // 0=Sun
+    if (dow === 0) return 'sun';
+    if (dow === 6) return 'sat';
+    return 'weekday';
+  }
+
+  // ── Overtime pay per day (勞基法第24條) ───────────────────
+  // hourlyRate = monthly_salary / 30 / 8
+  function calcOTPay(hours, dayType, rate) {
+    if (!hours || !rate) return 0;
+    let pay = 0;
+    if (dayType === 'weekday') {
+      // 前2h × 4/3，第3-4h × 5/3，超過4h同5/3（勞基法上限4h，此處寬鬆計算）
+      const h1 = Math.min(hours, 2);
+      const h2 = Math.max(0, hours - 2);
+      pay = h1 * rate * (4/3) + h2 * rate * (5/3);
+    } else if (dayType === 'sat') {
+      // 休息日：前2h × 4/3，第3-8h × 5/3，第9-12h × 8/3
+      const h1 = Math.min(hours, 2);
+      const h2 = Math.max(0, Math.min(hours - 2, 6));
+      const h3 = Math.max(0, hours - 8);
+      pay = h1 * rate * (4/3) + h2 * rate * (5/3) + h3 * rate * (8/3);
+    } else {
+      // 例假日 / 國定假日：全程 × 2
+      pay = hours * rate * 2;
+    }
+    return pay;
+  }
+
+  // ── Render Calendar ─────────────────────────────────────────
+  function renderCalendar() {
+    const cal = document.getElementById('cal');
+    cal.innerHTML = '';
+
+    // Week headers: Mon-first
+    ['一','二','三','四','五','六','日'].forEach((h, i) => {
+      const el = document.createElement('div');
+      el.className = 'day-header' + (i === 5 ? ' sat' : i === 6 ? ' sun' : '');
+      el.textContent = h;
+      cal.appendChild(el);
+    });
+
+    // Leading empty cells (Mon-first offset)
+    const firstDow = new Date(year, month, 1).getDay(); // 0=Sun
+    const offset = firstDow === 0 ? 6 : firstDow - 1;
+    for (let i = 0; i < offset; i++) {
+      const el = document.createElement('div');
+      el.className = 'day-cell empty';
+      cal.appendChild(el);
+    }
+
+    // Day cells
+    const daysInMonth = new Date(year, month + 1, 0).getDate();
+    const todayStr = `${TODAY.getFullYear()}-${pad(TODAY.getMonth()+1)}-${pad(TODAY.getDate())}`;
+
+    const typeLabel = { weekday: '平日', sat: '休息日', sun: '例假日', holiday: '國定假日' };
+    const badgeCls  = { weekday: 'badge-weekday', sat: 'badge-sat', sun: 'badge-sun', holiday: 'badge-holiday' };
+    const cellCls   = { sat: 'is-sat', sun: 'is-sun', holiday: 'is-holiday' };
+
+    for (let d = 1; d <= daysInMonth; d++) {
+      const dateStr = `${year}-${pad(month+1)}-${pad(d)}`;
+      const type    = getDayType(dateStr);
+      const holiday = TW_HOLIDAYS[dateStr];
+      const saved   = otData[dateStr] != null ? otData[dateStr] : '';
+
+      const cell = document.createElement('div');
+      cell.className = 'day-cell' +
+        (cellCls[type] ? ' ' + cellCls[type] : '') +
+        (dateStr === todayStr ? ' is-today' : '');
+
+      cell.innerHTML =
+        `<div class="day-num">${d}</div>` +
+        (holiday
+          ? `<div class="holiday-label">${holiday}</div>`
+          : `<div class="type-badge ${badgeCls[type]}">${typeLabel[type]}</div>`) +
+        `<div class="ot-wrap">
+           <input class="ot-input${saved !== '' ? ' has-val' : ''}"
+                  type="number" min="0" max="12" step="0.5"
+                  placeholder="hr" value="${saved}"
+                  data-date="${dateStr}">
+           <span class="ot-unit">h</span>
+         </div>`;
+
+      cal.appendChild(cell);
+    }
+
+    // Bind inputs
+    cal.querySelectorAll('.ot-input').forEach(inp => {
+      inp.addEventListener('input', function() {
+        const val = parseFloat(this.value);
+        if (!isNaN(val) && val > 0) {
+          otData[this.dataset.date] = val;
+          this.classList.add('has-val');
+        } else {
+          delete otData[this.dataset.date];
+          this.classList.remove('has-val');
+        }
+        renderSummary();
+      });
+    });
+
+    document.getElementById('month-title').textContent =
+      `${year} 年 ${month + 1} 月`;
+
+    renderSummary();
+  }
+
+  // ── Render Summary ──────────────────────────────────────────
+  function renderSummary() {
+    const salary = parseFloat(document.getElementById('salary').value) || 0;
+    const rate   = salary / 30 / 8;
+
+    // Update hourly display
+    const hd = document.getElementById('hourly-display');
+    hd.innerHTML = rate > 0
+      ? `時薪基準：<span>$${rate.toFixed(2)}/hr</span>（月薪 ÷ 30 ÷ 8）`
+      : '請輸入月薪以計算時薪基準';
+
+    // Accumulate
+    let data = { weekday: {h:0, p:0}, sat: {h:0, p:0}, sun: {h:0, p:0}, holiday: {h:0, p:0} };
+    Object.entries(otData).forEach(([ds, hours]) => {
+      // Only count days in current view month
+      const [y, m] = ds.split('-').map(Number);
+      if (y !== year || m !== month + 1) return;
+      const type = getDayType(ds);
+      data[type].h += hours;
+      data[type].p += calcOTPay(hours, type, rate);
+    });
+
+    const totalH = data.weekday.h + data.sat.h + data.sun.h + data.holiday.h;
+    const totalP = data.weekday.p + data.sat.p + data.sun.p + data.holiday.p;
+    const fmt = n => rate > 0 ? '$' + Math.round(n).toLocaleString('zh-TW') : '—';
+
+    const grid = document.getElementById('sum-grid');
+    grid.innerHTML = `
+      <div class="summary-row">
+        <div class="s-card">
+          <div class="s-label">平日加班</div>
+          <div class="s-hrs">${data.weekday.h} 小時</div>
+          <div class="s-pay">${fmt(data.weekday.p)}</div>
+        </div>
+        <div class="s-card">
+          <div class="s-label">休息日（週六）</div>
+          <div class="s-hrs">${data.sat.h} 小時</div>
+          <div class="s-pay">${fmt(data.sat.p)}</div>
+        </div>
+        <div class="s-card">
+          <div class="s-label">例假日（週日）</div>
+          <div class="s-hrs">${data.sun.h} 小時</div>
+          <div class="s-pay">${fmt(data.sun.p)}</div>
+        </div>
+        <div class="s-card">
+          <div class="s-label">國定假日</div>
+          <div class="s-hrs">${data.holiday.h} 小時</div>
+          <div class="s-pay">${fmt(data.holiday.p)}</div>
+        </div>
+      </div>
+      <div class="summary-row">
+        <div class="s-card total">
+          <div class="s-label">本月加班費合計</div>
+          <div class="s-hrs">${totalH} 小時</div>
+          <div class="s-pay">${fmt(totalP)}</div>
+        </div>
+      </div>`;
+
+    document.getElementById('sum-hint').innerHTML =
+      `計算基準（勞基法第24條）：平日前2h × 1.33、後續 × 1.67 ｜ 休息日前2h × 1.33、3-8h × 1.67、9h以上 × 2.67 ｜ 例假日/國定假日 × 2.0<br>
+       * 假日資料已內建 2025–2026 年，農曆假日以行政院人事行政總處公告為準`;
+  }
+
+  // ── Nav ─────────────────────────────────────────────────────
+  document.getElementById('prev-btn').addEventListener('click', () => {
+    month--; if (month < 0) { month = 11; year--; }
+    renderCalendar();
+  });
+  document.getElementById('next-btn').addEventListener('click', () => {
+    month++; if (month > 11) { month = 0; year++; }
+    renderCalendar();
+  });
+  document.getElementById('salary').addEventListener('input', renderSummary);
+
+  // Init
+  renderCalendar();
+</script>
+</body>
+</html>
