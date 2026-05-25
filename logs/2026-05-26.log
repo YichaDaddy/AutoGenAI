@@ -1,0 +1,138 @@
+=== Tue May 26 06:00:02 CST 2026 | Starting daily AI report ===
+Dashboard updated successfully.
+
+---
+
+## 📋 2026-05-25 歐美 AI 情報日報（賽道：AI 效率工具 × 目標受眾：職場上班族）
+
+---
+
+### 板塊一：大事件（3 則）
+
+**ClickUp 裁 22% 員工換 AI Agent：3000 個機器人上班，人類員工剩 1300 人**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/05/25/what-clickups-mass-layoff-tells-us-about-the-future-of-work/) · [The Next Web](https://thenextweb.com/news/clickup-layoffs-22-percent-ai-100x-org-million-salary)
+- **一句摘要**：職場工具平台 ClickUp 裁員 290 人（22%），以 3000 個 AI Agent 替代，CEO 稱「會用 AI 的人永遠有工作」，並推出百萬年薪留住 AI 高效人才。
+- **中文觀眾選題角度**：
+  - 目標受眾：職場上班族、知識工作者
+  - 痛點：擔心自己的職位被 AI 取代，不知道該如何保持不可取代性
+  - 標題雛形：「ClickUp 用 3000 個 AI 取代 290 個人！未來哪些職場工作會最先消失？」
+  - 本地化切角：多家歐美媒體同日報導，台灣職場焦慮受眾高度共鳴，搭配「職場 AI 生存術」角度切入，資訊差紅利極大
+
+**GPT-5.5 Instant 成 ChatGPT 新預設模型：幻覺減 52.5%、自動讀取 Gmail 給個人化回答**
+- **來源**：[OpenAI](https://openai.com/index/gpt-5-5-instant/) · [TechCrunch](https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/)
+- **一句摘要**：免費用戶同步升級，高風險場景幻覺減少 52.5%，Plus/Pro 用戶可授權 ChatGPT 讀取過去對話與 Gmail 提供更個人化回答。
+- **中文觀眾選題角度**：
+  - 目標受眾：每天用 ChatGPT 的職場人
+  - 痛點：ChatGPT 常給錯誤資訊，每次對話都要重新解釋背景
+  - 標題雛形：「ChatGPT 突然變聰明了！GPT-5.5 Instant 5 大升級，免費用戶也能用的功能全解析」
+  - 本地化切角：台灣 ChatGPT 用戶眾多，做「升級前後差異實測＋Gmail 個人化功能示範」搜尋流量爆發力強
+
+**Anthropic 年收入破 $300 億、客戶數 2 個月翻倍，聯手 Google/Broadcom 算力大擴張**
+- **來源**：[Anthropic](https://www.anthropic.com/news/google-broadcom-partnership-compute)
+- **一句摘要**：Anthropic 年收超 $300 億美元，月花費超 $100 萬的企業客戶突破 1000 家且不到兩個月翻倍，同步宣布與 Google、Broadcom 建立 GW 級算力基礎設施。
+- **中文觀眾選題角度**：
+  - 目標受眾：AI 創業者、Claude 開發者、對 AI 行業格局感興趣的從業者
+  - 痛點：想了解 Claude 背後公司的競爭力，決定押注哪個 AI 平台
+  - 標題雛形：「Anthropic 年收超 300 億！Claude 母公司為何能和 OpenAI 正面硬幹？完整商業拆解」
+  - 本地化切角：財務數據首度大規模曝光，台灣 AI 創業者高度關注，「Claude vs OpenAI 商業比較」競爭低
+
+---
+
+### 板塊二：工具更新（4 則）
+
+**Gemini Spark 開放測試：24/7 代替你管 Gmail、行事曆、Drive，還能設定定時任務**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/05/19/google-introduces-gemini-spark-a-24-7-agentic-assistant-with-gmail-integration/) · [CBS News](https://www.cbsnews.com/news/google-gemini-spark-ai-agent/) · 3 家媒體報導
+- **一句摘要**：Google Gemini Spark 正式開放 AI Ultra 用戶搶先測試，可跨 Gmail/Drive/行事曆 24 小時代理執行任務，高風險動作需人工確認。
+- **本地化切角**：目前無任何繁體中文教學，台灣 Google Workspace 企業用戶眾多，搶先做「開通步驟＋職場自動化場景」教學，資訊差最大
+
+**Claude Routines 定時任務功能上線：Pro 每天 5 次自動執行 AI 工作流**
+- **來源**：[Anthropic Platform](https://platform.claude.com/docs/en/release-notes/overview)
+- **一句摘要**：Claude Routines 讓用戶在 claude.ai 或 CLI 輸入 /schedule 建立定時 AI 工作流，Pro 每日 5 次、Max 每日 15 次，支援多 Agent 編排與 Webhook 整合。
+- **本地化切角**：台灣幾乎無人介紹，搶先做「不用寫程式的 Claude 自動化任務設定」教學，差異化極強
+
+**Claude 新增 20+ 法律 MCP 連接器：AI 直接串接法律資料庫與合約工具**
+- **來源**：[Anthropic](https://www.anthropic.com/news)
+- **一句摘要**：Anthropic 為 Claude 新增 20+ 法律 MCP 連接器和 12 個實務插件，Claude MCP 生態系最大單次擴展，法務工作流 AI 整合全面升級。
+- **本地化切角**：法律 AI 工具在台灣中文圈教學極少，「企業法務如何用 Claude MCP 節省時間」B2B 高價值受眾
+
+**ChatGPT Codex 新功能 Goal Mode 預設啟用：設定目標讓 AI 自主完成多步驟任務**
+- **來源**：[Releasebot OpenAI](https://releasebot.io/updates/openai)
+- **一句摘要**：Codex 0.133.0 預設啟用 Goal Mode，AI 可自主規劃並完成多步驟任務；Appshots 功能可截圖追蹤進度，更強的權限設定讓 AI Coding Agent 更安全可控。
+- **本地化切角**：台灣開發者社群無人解析，搶先做「如何讓 AI 安全自主完成任務」教學，工程師受眾黏著度高
+
+---
+
+### 板塊三：值得追蹤的趨勢（3 則）
+
+**Workday ＋ Anthropic 推 $150K Solopreneur 加速計畫：企業巨頭開始押注 AI 一人公司**
+- **來源**：[Self Employed](https://www.selfemployed.com/news/workday-anthropic-lisc-ai-solopreneur-accelerator-2026/)
+- **一句摘要**：Workday、Anthropic、LISC 聯手提供 15 位創辦人 $150K 資金＋免費 Claude 點數＋AI 技能訓練，同期 Zoom Solopreneur 50 也正式認可 AI 一人公司進入主流。
+- **本地化切角**：歐美企業巨頭正式驗證 AI 一人公司模式，台灣幾乎無人報導，轉譯加「台灣人如何加入」切角，副業族群高度共鳴
+
+**ActivTrak 研究：91% 企業用 AI，但員工信心反降 18%，職場 AI 技能焦慮正在全球蔓延**
+- **來源**：[ActivTrak](https://www.activtrak.com/blog/2026-state-of-the-workplace/)
+- **一句摘要**：2026 年全球 91% 企業已採用 AI，但只有 9% 員工感到熟練，25% 企業有明確 AI 規範，技能焦慮成為職場最新流行病。
+- **本地化切角**：反直覺數據具高傳播力，台灣職場族群同樣焦慮，搭配「AI 工具入門路徑圖」解法內容，能同時引發共鳴與提供價值
+
+**UC Berkeley：用了 AI 反而更忙？Email 量增加 104%，生產力悖論需要正確使用方法才能解**
+- **來源**：[Fortune](https://fortune.com/2026/02/10/ai-future-of-work-white-collar-employees-technology-productivity-burnout-research-uc-berkeley/)
+- **一句摘要**：UC Berkeley 研究發現採用 AI 後，Email 量增 104%、訊息量增 145%，效率提升反帶來更多工作量，AI 使用方式決定誰真正受益。
+- **本地化切角**：反直覺研究結論在歐美熱議，台灣幾乎無中文深度解析，以「AI 正確用法 vs 錯誤用法」切入可吸引焦慮型與進階型兩種受眾
+
+---
+
+### 📊 來源覆蓋狀況
+
+| 來源 | 狀態 | 昨日內容數量 | 備註 |
+|------|------|------------|------|
+| TechCrunch AI | ✅ | 4 篇 | 成功抓取，含 ClickUp 裁員頭版 |
+| The Verge AI | ❌ | — | 網站無法存取（WebFetch 被拒） |
+| FutureTools.io | ✅ | 0 篇 | 週末更新較慢，最新內容為 5/22 |
+| @OpenAI | ✅ | 3 條 | 透過 WebSearch + Releasebot 間接抓取 |
+| @AnthropicAI | ✅ | 2 條 | 透過 anthropic.com/news 直接抓取 |
+| @GoogleDeepMind | ✅ | 2 條 | 透過 WebSearch 間接抓取 |
+| Matt Wolfe (@mreflow) | ❌ | 0 條 | 未找到 5/25 當日新影片 |
+| The AI Advantage | ❌ | — | 未找到 5/25 當日新影片 |
+| Matthew Berman | ❌ | — | 未找到 5/25 當日新影片 |
+| Wes Roth | ❌ | — | 未找到 5/25 當日新影片 |
+| @sama / @karpathy | ❌ | — | X/Twitter 直接存取失敗，間接搜尋無 5/25 特定貼文 |
+| @levelsio / @GregIsenberg | ❌ | — | X/Twitter 直接存取失敗 |
+
+---
+
+💡 您的專屬網頁版看板已同步更新，可隨時打開 `daily_topic_dashboard.html` 查看。
+
+---
+
+老闆，今天的歐美 AI 情報已彙整完畢，共篩選出 **10 則高分選題**（大事件 3 + 工具更新 4 + 趨勢 3）。**如果您已連接自動化流工具（如 n8n、Make 或 Claude Routines），是否需要我為您生成定時任務配置？** 這樣我每天早上自動執行這套監控邏輯，並直接把選題推送給您，實現真正的「歐美情報全自動日報」！
+
+DONE
+--- AI report finished at Tue May 26 06:05:11 CST 2026 ---
+=== Tue May 26 06:05:11 CST 2026 | Starting daily finance report ===
+看板更新成功。
+
+---
+
+**FINANCE DONE**
+
+---
+
+以下為昨日（2026-05-25）財經日報摘要：
+
+### 市場震撼彈（4則）
+1. **台股暴衝1376點** — 收43644創史上第5大單日漲幅，成交量13013億元天量
+2. **國巨飆117%被關禁閉** — 691元歷史天價後遭列處置股
+3. **Michael Burry警告1999泡沫重演** — 重押iShares半導體ETF下跌30%的賣出選擇權
+4. **美伊和談+油價暴跌** — 全球股市齊創高，S&P 500連8週收紅
+
+### 投資機會（4則）
+1. **Dell創新高、HP漲15%** — Lenovo強報告引爆AI PC換機潮，台灣ODM廠直接受惠
+2. **BlackRock vs Waller降息角力** — 市場分歧，降息預期提前佈局時機浮現
+3. **迦納央行6月搶購30%黃金產量** — 供應結構重大轉變，中長期金價走多
+4. **SoftBank 1600億日元零售債** — 顯示AI科技生態系持續擴張資金需求
+
+### 總經觀察（3則）
+1. **Goldman Sachs警告夏季更棘手** — 科技Call Skew極端，類似1997/2003泡沫前環境
+2. **伊朗戰爭壓垮印度天然氣發電** — 能源安全從地緣政治演變為結構性風險
+3. **Fed Waller鷹派+美消費者信心惡化** — 滯脹陰影再現，短天期殖利率走高
+--- Finance report finished at Tue May 26 06:11:06 CST 2026 ---

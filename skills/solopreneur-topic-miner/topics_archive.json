@@ -1,5 +1,202 @@
 [
   {
+    "date": "2026-05-25",
+    "big_events": [
+      {
+        "title": "ClickUp 裁 22% 員工換 AI Agent：3000 個機器人上班，人類員工剩 1300 人",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/05/25/what-clickups-mass-layoff-tells-us-about-the-future-of-work/"
+          },
+          {
+            "name": "The Next Web",
+            "url": "https://thenextweb.com/news/clickup-layoffs-22-percent-ai-100x-org-million-salary"
+          },
+          {
+            "name": "BusinessToday",
+            "url": "https://www.businesstoday.in/technology/news/story/people-who-automate-jobs-with-ai-will-always-have-a-job-productivity-startup-clickup-cuts-22-of-workforce-532801-2026-05-22"
+          }
+        ],
+        "summary": "職場工具平台 ClickUp 裁員 290 人（22%），以 3000 個 AI Agent 替代，CEO 宣稱「會用 AI 自動化的人永遠有工作」，並祭出百萬年薪留住 AI 高效人才。",
+        "audience": "職場上班族、知識工作者、人力資源從業者",
+        "pain_point": "擔心自己的職位被 AI 取代，不知道該如何讓自己在 AI 時代保持不可取代性",
+        "title_idea": "「ClickUp 用 3000 個 AI 取代 290 個人！未來哪些職場工作會最先消失？」",
+        "local_angle": "多家歐美媒體同日報導，是 2026 年最具代表性的 AI 替代白領案例；台灣職場焦慮受眾高度共鳴，搭配「職場 AI 生存術」角度切入，流量紅利極大"
+      },
+      {
+        "title": "GPT-5.5 Instant 成 ChatGPT 新預設模型：幻覺減 52.5%、自動讀取 Gmail 給個人化回答",
+        "sources": [
+          {
+            "name": "OpenAI",
+            "url": "https://openai.com/index/gpt-5-5-instant/"
+          },
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/"
+          }
+        ],
+        "summary": "OpenAI 將 GPT-5.5 Instant 設為所有 ChatGPT 用戶（包含免費版）的預設模型，高風險場景幻覺減少 52.5%，Plus/Pro 用戶可授權 ChatGPT 讀取過去對話與 Gmail 提供更個人化回答。",
+        "audience": "每天用 ChatGPT 的職場人、需要高準確度 AI 輸出的知識工作者",
+        "pain_point": "ChatGPT 常給錯誤資訊卻不自知，且每次對話都要重新解釋背景，浪費大量時間",
+        "title_idea": "「ChatGPT 突然變聰明了！GPT-5.5 Instant 5 大升級，免費用戶也能用的功能全解析」",
+        "local_angle": "ChatGPT 預設模型更換是全球用戶都直接受益的重大更新，台灣用戶眾多；做「升級前後差異實測＋Gmail 個人化功能示範」教學，搜尋流量爆發力強"
+      },
+      {
+        "title": "Anthropic 年收入破 $300 億、客戶數量 2 個月翻倍：與 Google、Broadcom 簽算力大擴張協議",
+        "sources": [
+          {
+            "name": "Anthropic",
+            "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute"
+          },
+          {
+            "name": "The Next Web",
+            "url": "https://thenextweb.com/news/google-cloud-next-ai-agents-agentic-era"
+          }
+        ],
+        "summary": "Anthropic 宣布與 Google 及 Broadcom 合作建立數 GW 級次世代算力，同時揭露年收入已超過 $300 億美元，每年花費超 $100 萬的企業客戶超過 1000 家，不到兩個月就翻倍。",
+        "audience": "AI 創業者、使用 Claude API 的開發者、對 AI 商業模式感興趣的從業者",
+        "pain_point": "想了解 Claude 背後的公司有多強、API 服務是否穩定，以及該押注哪個 AI 平台做產品",
+        "title_idea": "「Anthropic 年收超 300 億！Claude 母公司為何能和 OpenAI 正面硬幹？完整商業拆解」",
+        "local_angle": "Anthropic 財務數據首次大規模曝光，是評估 AI 行業格局的重要訊號；台灣 AI 創業者與開發者高度關注，做「Claude vs OpenAI 商業比較」選題競爭低"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "Gemini Spark 開放測試：24/7 代替你管 Gmail、行事曆、Drive，還能設定定時任務",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/05/19/google-introduces-gemini-spark-a-24-7-agentic-assistant-with-gmail-integration/"
+          },
+          {
+            "name": "Tom's Guide",
+            "url": "https://www.tomsguide.com/ai/google-gemini/google-unveils-gemini-spark-a-24-7-personal-ai-agent-that-could-be-a-game-changer-for-agentic-ai"
+          },
+          {
+            "name": "CBS News",
+            "url": "https://www.cbsnews.com/news/google-gemini-spark-ai-agent/"
+          }
+        ],
+        "summary": "Google Gemini Spark 正式開放 AI Ultra 訂閱用戶搶先測試，可跨 Gmail/Drive/行事曆 24 小時代理執行任務、教 Agent 新技能、設定定時工作流，高風險動作（如寄信）需人工確認。",
+        "audience": "重度 Google Workspace 用戶、想建立 AI 自動化工作流的職場人",
+        "pain_point": "每天大量時間被 Email 整理、行事曆安排和文件歸類吃掉，卻沒有工具真正自動幫我跨平台處理",
+        "title_idea": "「Google 最強 AI 助理 Gemini Spark 怎麼開通？5 個職場自動化工作流實際示範」",
+        "local_angle": "Gemini Spark 目前無任何繁體中文教學，台灣 Google Workspace 企業用戶眾多；搶先做「開通步驟＋實際職場使用場景」教學，資訊差大、流量紅利高"
+      },
+      {
+        "title": "Claude Routines 定時任務功能上線：Pro 每天 5 次、Max 每天 15 次自動執行 AI 工作流",
+        "sources": [
+          {
+            "name": "Anthropic",
+            "url": "https://platform.claude.com/docs/en/release-notes/overview"
+          },
+          {
+            "name": "Claude Code Changelog",
+            "url": "https://claudefa.st/blog/guide/changelog"
+          }
+        ],
+        "summary": "Anthropic 推出 Claude Routines 功能，Pro/Max/Team/Enterprise 用戶可在 claude.ai 或 CLI 輸入 /schedule 建立定時 AI 工作流，Pro 每日 5 次、Max 每日 15 次，涵蓋多 Agent 編排、Webhook 整合。",
+        "audience": "需要自動化日常重複任務的職場人、使用 Claude API 的開發者",
+        "pain_point": "每天需要重複執行同樣的 AI 工作流（如日報、摘要、分類），希望 Claude 能自動在設定時間執行而不需手動觸發",
+        "title_idea": "「Claude 可以定時自動幫你工作了！Routines 功能完整設定教學，打造你的 AI 工作流排程」",
+        "local_angle": "Claude Routines 在台灣幾乎無人介紹，與 n8n/Make 等自動化工具的比較也是空白領域；搶先做「不用寫程式的 Claude 自動化任務設定」教學，差異化極強"
+      },
+      {
+        "title": "Claude 新增 20+ 法律 MCP 連接器：AI 直接串接法律資料庫與合約工具",
+        "sources": [
+          {
+            "name": "Anthropic",
+            "url": "https://www.anthropic.com/news"
+          },
+          {
+            "name": "Releasebot Anthropic",
+            "url": "https://releasebot.io/updates/anthropic/claude"
+          }
+        ],
+        "summary": "Anthropic 為 Claude 新增超過 20 個法律領域 MCP 連接器和 12 個實務面插件，讓律師和企業法務可直接串接法律資料庫、合約工具執行複雜工作流，是 Claude MCP 生態系的最大單次擴展。",
+        "audience": "法律從業者、企業法務人員、想用 AI 協助處理合約文件的職場人",
+        "pain_point": "法律工作高度依賴資料庫查詢與文件審閱，但 AI 工具很難真正接入現有法律工作流",
+        "title_idea": "「律師用 Claude 直接查法條、審合約！20+ 法律 AI 工具整合，這些功能你的公司法務用了嗎？」",
+        "local_angle": "法律 AI 工具在台灣中文圈教學極少，此次 MCP 連接器擴展代表 AI 真正進入專業法律工作流；做「企業法務如何用 Claude MCP 節省時間」切入，B2B 受眾高價值"
+      },
+      {
+        "title": "ChatGPT Codex 新功能：Goal Mode、Appshots 上線，AI 自主達成目標不用盯著看",
+        "sources": [
+          {
+            "name": "Releasebot OpenAI",
+            "url": "https://releasebot.io/updates/openai"
+          },
+          {
+            "name": "OpenAI Help Center",
+            "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+          }
+        ],
+        "summary": "OpenAI Codex 0.133.0 預設啟用 Goal Mode（設定目標讓 AI 自主執行多步驟任務），同步推出 Appshots 功能可截圖追蹤 AI 工作進度，更強的權限設定讓 Coding Agent 更安全可控。",
+        "audience": "需要 AI 協助寫程式或自動化工作的職場人、獨立開發者",
+        "pain_point": "用 AI 寫程式時要一直盯著看，怕 AI 做錯或超出權限範圍，沒辦法真正放手讓 AI 自主執行",
+        "title_idea": "「不用盯著 AI 寫程式了！ChatGPT Codex Goal Mode 設定教學，讓 AI 自己想辦法完成任務」",
+        "local_angle": "Codex Goal Mode 在台灣開發者社群幾乎無人解析；搶先做「如何設定安全邊界讓 AI 自主完成任務」教學，工程師受眾技術黏著度高"
+      }
+    ],
+    "trends": [
+      {
+        "title": "Workday ＋ Anthropic 推 $150K Solopreneur 加速計畫：企業巨頭開始押注 AI 一人公司",
+        "sources": [
+          {
+            "name": "Self Employed",
+            "url": "https://www.selfemployed.com/news/workday-anthropic-lisc-ai-solopreneur-accelerator-2026/"
+          },
+          {
+            "name": "Self Employed (Zoom)",
+            "url": "https://www.selfemployed.com/news/zoom-solopreneur-50-launch-2026/"
+          }
+        ],
+        "summary": "Workday、Anthropic 與 LISC 聯手在 2026 年 5 月啟動 Solopreneur 加速計畫，提供 15 位創辦人共 $150K 資金＋免費 Claude 點數＋AI 技能訓練，同期 Zoom Solopreneur 50 也認可 AI 一人公司模式進入主流視野。",
+        "audience": "有創業念頭的職場上班族、希望用 AI 建立副業的知識工作者",
+        "pain_point": "想用 AI 工具創業或建立副業，但不確定一個人能不能撐起整個商業運作，缺乏資源和驗證案例",
+        "title_idea": "「Workday ＋ Anthropic 砸錢支持一人 AI 公司！這代表什麼？2026 Solopreneur 趨勢完整解讀」",
+        "local_angle": "歐美大企業開始正式投資 AI 一人公司模式，代表這條路已被主流驗證；台灣幾乎無人報導此加速計畫，轉譯並結合「台灣人如何加入」切角，副業族群高度共鳴"
+      },
+      {
+        "title": "ActivTrak 2026 研究：91% 企業用 AI，但員工使用信心反降 18%，職場 AI 技能焦慮加劇",
+        "sources": [
+          {
+            "name": "ActivTrak",
+            "url": "https://www.activtrak.com/blog/2026-state-of-the-workplace/"
+          },
+          {
+            "name": "ManpowerGroup / MSN",
+            "url": "https://www.msn.com/en-us/news/other/ai-productivity-tools-in-2026-shift-from-novelty-to-utility/gm-GME71A2DAA"
+          }
+        ],
+        "summary": "2026 職場狀態報告指出：AI 在企業普及率達 91%，但員工實際使用信心下降 18%；只有 9% 員工感到非常熟練，僅 25% 的雇主有清楚溝通 AI 使用規範，技能焦慮正在全球職場蔓延。",
+        "audience": "職場上班族、有職涯危機感的知識工作者",
+        "pain_point": "周圍都在說要學 AI，但不知道從哪裡開始、學哪些工具才對，害怕自己跟不上卻不知道求救對象",
+        "title_idea": "「91% 公司用 AI 但 9 成員工學不來？2026 職場 AI 恐慌調查結果，你是哪一種人？」",
+        "local_angle": "數據調查具高可信度引用價值，台灣職場 AI 焦慮情緒同樣強烈；搭配「上班族 AI 工具入門路徑圖」切入，能同時滿足焦慮型受眾的共鳴與解法需求，留存率高"
+      },
+      {
+        "title": "UC Berkeley 研究：AI 讓員工更忙、郵件增加 104%，生產力提升反帶來更多工作量",
+        "sources": [
+          {
+            "name": "Fortune",
+            "url": "https://fortune.com/2026/02/10/ai-future-of-work-white-collar-employees-technology-productivity-burnout-research-uc-berkeley/"
+          },
+          {
+            "name": "AI Productivity Statistics 2026",
+            "url": "https://autofaceless.ai/blog/ai-productivity-statistics-2026"
+          }
+        ],
+        "summary": "UC Berkeley 研究揭露 AI 採用後的「效率悖論」：AI 讓員工可完成更多任務，但 Email 量增加 104%、訊息量增加 145%，工作量反增、倦怠風險升高，AI 工具的使用方式正在決定誰受益誰受害。",
+        "audience": "正在使用或評估 AI 工具的職場上班族、管理者",
+        "pain_point": "導入 AI 工具後不但沒減輕工作量，反而更忙了，不確定是自己用法有問題還是 AI 工具根本是假議題",
+        "title_idea": "「用了 AI 反而更累？UC Berkeley 研究揭露職場 AI 陷阱，哪些人真正省到時間？」",
+        "local_angle": "這個反直覺的研究結論在歐美已掀起討論，台灣職場族群對此高度共鳴卻少有中文深度解析；以「AI 正確用法 vs 錯誤用法」角度切入，可同時吸引焦慮型與進階型受眾"
+      }
+    ]
+  },
+  {
     "date": "2026-05-24",
     "big_events": [
       {
@@ -1114,187 +1311,6 @@
         "pain_point": "無法辨別網路圖片是否為 AI 生成，擔心被假資訊誤導",
         "title_idea": "圖片是 AI 做的嗎？2026 年最新辨識工具大測試：OpenAI + Google SynthID 誰更準？",
         "local_angle": "AI 假圖問題在台灣開始受到關注（選舉、新聞），但具體工具測試中文內容幾乎空白"
-      }
-    ]
-  },
-  {
-    "date": "2026-05-18",
-    "big_events": [
-      {
-        "title": "OpenAI 推出 ChatGPT 個人理財助手，連接 12,000+ 家銀行帳戶",
-        "sources": [
-          {
-            "name": "Dataconomy",
-            "url": "https://dataconomy.com/2026/05/18/chatgpt-personal-finance-service-pro-users/"
-          },
-          {
-            "name": "gHacks Tech News",
-            "url": "https://www.ghacks.net/2026/05/18/openai-launches-personal-finance-experience-in-chatgpt-for-pro-users-in-the-us/"
-          },
-          {
-            "name": "TechBriefly",
-            "url": "https://techbriefly.com/2026/05/18/chatgpt-personal-finance-assistant-openai-pro-users/"
-          }
-        ],
-        "summary": "OpenAI 為 ChatGPT Pro 用戶推出個人理財功能，可連結銀行帳戶、查看支出並直接用自然語言問帳務問題。",
-        "audience": "職場上班族、想省錢或做理財規劃的社會新鮮人",
-        "pain_point": "看不懂複雜財務報表，不知道每月錢花到哪，理財門檻高不敢諮詢顧問",
-        "title_idea": "ChatGPT 現在可以幫你管帳了！連結銀行帳戶、一句話問出你的財務健康",
-        "local_angle": "此功能目前僅開放美國 Pro 用戶，台灣還沒人實測教學，搶做中文操作示範可吃到第一波流量紅利"
-      },
-      {
-        "title": "Anthropic 以逾 3 億美元收購 Stainless，從 OpenAI 與 Google 手中搶走關鍵 SDK 工具",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/"
-          }
-        ],
-        "summary": "Anthropic 收購自動生成 SDK 的新創 Stainless，該工具原本由 OpenAI、Google、Cloudflare 共用，收購後將對外關閉服務。",
-        "audience": "AI 開發者、工程師、對 AI 產業動態感興趣的科技從業者",
-        "pain_point": "不了解 AI 巨頭間的底層競爭，擔心自己用的開發工具隨時被掐斷",
-        "title_idea": "Anthropic 出手了！花 3 億美元買走 OpenAI 和 Google 都在用的神祕工具",
-        "local_angle": "AI 基礎設施戰爭台灣媒體幾乎未報，從「什麼是 SDK / 為何重要」切入可讓非技術讀者也看懂"
-      },
-      {
-        "title": "Musk 告 OpenAI 敗訴，陪審團 90 分鐘駁回全部訴求",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/"
-          },
-          {
-            "name": "NBC News",
-            "url": "https://www.nbcnews.com/tech/tech-news/openai-elon-musk-case-verdict-rcna345655"
-          },
-          {
-            "name": "CNN Business",
-            "url": "https://www.cnn.com/2026/05/18/tech/openai-musk-lawsuit-verdict"
-          }
-        ],
-        "summary": "Elon Musk 針對 OpenAI 與 Sam Altman 的訴訟在奧克蘭聯邦法院以敗訴收場，陪審團裁定訴訟逾期，法官同意採納裁決。",
-        "audience": "關心科技圈大事的職場白領、對 AI 公司治理感興趣的讀者",
-        "pain_point": "搞不清楚 OpenAI 公司結構為何引發爭議，以及對未來 AI 發展有何影響",
-        "title_idea": "馬斯克告 OpenAI 大敗！90 分鐘陪審團打臉，AI 霸主地位更穩了？",
-        "local_angle": "此事件台灣媒體有零星報導但缺乏深度分析，可從「這對 AI 普通用戶有什麼影響」角度切入差異化"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "Amazon Alexa+ 新功能：用 AI 幫你自動生成個人化播客節目",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/05/18/amazons-new-alexa-powered-feature-can-generate-podcast-episodes/"
-          }
-        ],
-        "summary": "Alexa+ 新增「Alexa Podcasts」功能，用戶只需說出主題，AI 自動研究、撰寫並配音生成完整播客集數，可自訂長度與語氣。",
-        "audience": "知識型職場工作者、通勤族、對 AI 內容生成感興趣的自媒體創作者",
-        "pain_point": "通勤時沒有自己想聽的節目主題，或想了解某議題卻找不到對應的中文播客",
-        "title_idea": "你說主題，AI 幫你生播客！Amazon Alexa+ 新功能實測，內容創作者要失業了？",
-        "local_angle": "此功能目前限美國 Alexa+ 用戶，台灣創作者可搶先分析「AI 播客生成」趨勢，對比 NotebookLM 等工具探討實用性"
-      },
-      {
-        "title": "GPT-5.5 Instant 正式成為 ChatGPT 網頁與 App 預設模型",
-        "sources": [
-          {
-            "name": "llm-stats.com",
-            "url": "https://llm-stats.com/llm-updates"
-          }
-        ],
-        "summary": "OpenAI 將速度更快、更簡潔的 GPT-5.5 Instant 設為 ChatGPT 默認模型，取代前代，所有用戶均可使用。",
-        "audience": "每天使用 ChatGPT 的職場上班族",
-        "pain_point": "不知道自己用的 AI 模型是否是最新版，也不確定新模型對日常工作任務有什麼實際差異",
-        "title_idea": "你的 ChatGPT 悄悄換了新大腦！GPT-5.5 Instant 已是預設，速度體驗差在哪？",
-        "local_angle": "許多台灣用戶不知道 ChatGPT 後端模型已更換，可做「前後對比測試」教學內容，吸引大眾讀者"
-      },
-      {
-        "title": "Cursor 3.4 上線：AI 代理現在有了自己的雲端開發環境",
-        "sources": [
-          {
-            "name": "Cursor 更新日誌",
-            "url": "https://cursor.com/changelog"
-          },
-          {
-            "name": "Releasebot",
-            "url": "https://releasebot.io/updates/cursor"
-          }
-        ],
-        "summary": "Cursor 3.4 讓雲端 AI 代理可擁有完整開發環境（含多倉庫、依賴項、建置系統），版本回滾更方便，快取命中時建置速度提升 70%。",
-        "audience": "AI 輔助開發者、工程師、想用 AI 代理自動化程式工作的職場人士",
-        "pain_point": "AI 代理跑任務常遇到環境不一致、依賴項衝突問題，難以在雲端穩定部署",
-        "title_idea": "Cursor 3.4 大更新：AI 代理終於有自己的「開發電腦」，多倉庫協作超強",
-        "local_angle": "Cursor 在台灣開發者社群討論度高，但深度教學稀缺，3.4 雲端代理環境是高差異化選題"
-      },
-      {
-        "title": "SandboxAQ 藥物發現 AI 模型整合 Claude，降低計算門檻",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/05/18/sandboxaq-brings-its-drug-discovery-models-to-claude-no-phd-in-computing-required/"
-          }
-        ],
-        "summary": "SandboxAQ 將先進的藥物發現 AI 模型整合至 Anthropic Claude，讓非計算機背景的研究人員也能使用。",
-        "audience": "生物醫療從業者、科技自媒體創作者、AI 應用領域觀察者",
-        "pain_point": "AI 在高度專業領域的應用門檻過高，非工程師難以使用",
-        "title_idea": "不需要博士也能用 AI 做藥物研究！SandboxAQ 與 Claude 聯手打破門檻",
-        "local_angle": "AI 落地生醫場景在台灣幾乎無中文報導，此角度有教育意義且差異化極高"
-      }
-    ],
-    "trends": [
-      {
-        "title": "Google I/O 2026 今日登場：Gemini 4.0 / Omni / Spark 重磅預告，AI 代理大爆發在即",
-        "sources": [
-          {
-            "name": "AIxploria",
-            "url": "https://www.aixploria.com/en/ai-radar/google-io-2026-gemini-announcements-preview/"
-          },
-          {
-            "name": "Nokia Power User",
-            "url": "https://nokiapoweruser.com/google-io-2026-gemini-spark-omni-gemini-3-5-rumors/"
-          },
-          {
-            "name": "Google I/O 官網",
-            "url": "https://io.google/2026/"
-          }
-        ],
-        "summary": "Google I/O 2026（5/19 台灣時間凌晨 1 點）預計發布 Gemini 4.0、Gemini Omni（文字/圖像/影片一體生成）、Android XR 智慧眼鏡等多項重大產品。",
-        "audience": "關心 AI 動態的職場工作者、對 Google 產品有興趣的科技愛好者",
-        "pain_point": "AI 更新太快跟不上，不知道哪些新功能真的對自己有用",
-        "title_idea": "今晚 Google 要發布什麼？I/O 2026 懶人包：Gemini 4.0、AI 眼鏡一次看懂",
-        "local_angle": "Google I/O 結束後立刻出「快速整理＋哪些功能台灣用得到」是高流量選題，需搶在其他媒體之前發出"
-      },
-      {
-        "title": "AI 理財助手正式入場：ChatGPT 衝進個人金融，傳統理財 App 受威脅",
-        "sources": [
-          {
-            "name": "Inc.",
-            "url": "https://www.inc.com/lucia-auerbach/chatgpts-personal-finance-test-is-rolling-out-in-the-u-s-with-a-major-warning-label/91346331"
-          },
-          {
-            "name": "Android Headlines",
-            "url": "https://www.androidheadlines.com/2026/05/chatgpt-personal-finance-bank-account-integration.html"
-          }
-        ],
-        "summary": "ChatGPT 連接真實銀行帳戶提供理財建議，標誌 AI 正式進入過去由 Mint、YNAB 主導的個人財務管理領域。",
-        "audience": "對財務管理有需求的職場上班族，特別是 25–40 歲族群",
-        "pain_point": "理財 App 數據雖多但缺乏個人化建議，想問理財師又覺得費用太高",
-        "title_idea": "AI 理財師來了！ChatGPT 新功能 vs 傳統記帳 App，哪個更適合你？",
-        "local_angle": "台灣 Richart、街口等 App 尚無對話式 AI 理財功能，可做假設性深度分析吸引本地讀者"
-      },
-      {
-        "title": "AI 巨頭開始搶奪底層基礎設施：SDK 工具鏈控制權之戰才剛開始",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/"
-          }
-        ],
-        "summary": "Anthropic 收購 Stainless 顯示 AI 競賽已從模型能力延伸到開發者生態基礎設施，誰掌控 SDK 工具鏈，誰就掌握開發者黏著度。",
-        "audience": "對 AI 產業策略感興趣的科技觀察者、開發者、自媒體創作者",
-        "pain_point": "看不懂 AI 公司的戰略意圖，不清楚工具鏈整合對自己使用 AI 工具有什麼長期影響",
-        "title_idea": "Anthropic 悄悄下了一步棋：AI 競賽的下一個戰場，是你看不見的基礎設施",
-        "local_angle": "這個角度在台灣科技媒體極少人分析，做「AI 基礎設施戰爭入門解析」可吸引高知識密度讀者"
       }
     ]
   }
