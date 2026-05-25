@@ -16,15 +16,22 @@ cd "$HOME/projects/AutoGenAI" || exit 1
 /Applications/cmux.app/Contents/Resources/bin/claude --dangerously-skip-permissions -p "
 你是 solopreneur-topic-miner Agent。請立刻執行以下工作：
 
+今天日期：$(date +%Y-%m-%d)
+昨日日期：$(date -v-1d +%Y-%m-%d)
+
+【嚴格日期規則】所有納入日報的文章，發布日期必須是「昨日（$(date -v-1d +%Y-%m-%d)）」。
+- TechCrunch 文章 URL 格式為 /YYYY/MM/DD/，請逐一核對 URL 中的日期，非昨日的一律剔除。
+- WebSearch 結果請確認發布時間標記（如「1 day ago」「May XX」），非昨日發布的不得納入。
+- 若某來源昨日無新文章，如實記錄於「來源覆蓋狀況」，不得以舊文充數。
+
 1. 讀取 skills/solopreneur-topic-miner/user_profile.json 取得賽道設定
-2. 確認今天日期，計算昨日日期（YYYY-MM-DD）
-3. 依照 skills/solopreneur-topic-miner/SKILL.md 的完整工作流，抓取歐美昨日 AI 新聞：
-   - 用 WebFetch 抓取 https://techcrunch.com/category/artificial-intelligence/ 昨日文章
+2. 依照 skills/solopreneur-topic-miner/SKILL.md 的完整工作流，抓取「昨日（$(date -v-1d +%Y-%m-%d)）」發布的歐美 AI 新聞：
+   - 用 WebFetch 抓取 https://techcrunch.com/category/artificial-intelligence/，只保留 URL 含 $(date -v-1d +%Y/%m/%d) 的文章
    - 用 WebFetch 抓取 https://futuretools.io/news 昨日工具更新
-   - 用 WebSearch 搜尋昨日重要 AI 發布（OpenAI、Anthropic、Google 等）
-4. 篩選、評分，挑出最符合賽道的 8–11 則情報（大事件 3–4 則、工具更新 3–4 則、趨勢 2–3 則）
-5. 將結果以 SKILL.md 規定的 JSON 格式寫入 skills/solopreneur-topic-miner/latest_topics.json
-6. 執行 python3 skills/solopreneur-topic-miner/render_dashboard.py 更新看板
+   - 用 WebSearch 搜尋「AI news $(date -v-1d +%Y-%m-%d)」取得昨日重要 AI 發布（OpenAI、Anthropic、Google 等）
+3. 篩選、評分，挑出最符合賽道的 8–11 則情報（大事件 3–4 則、工具更新 3–4 則、趨勢 2–3 則）
+4. 將結果以 SKILL.md 規定的 JSON 格式寫入 skills/solopreneur-topic-miner/latest_topics.json
+5. 執行 python3 skills/solopreneur-topic-miner/render_dashboard.py 更新看板
 
 完成後輸出「DONE」。
 " >> "$LOG_FILE" 2>&1
