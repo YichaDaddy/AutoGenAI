@@ -108,7 +108,7 @@ git add -A
 git commit -m "auto: daily report $(date +%Y-%m-%d)" >> "$LOG_FILE" 2>&1
 git push origin main >> "$LOG_FILE" 2>&1
 
-# Sync gh-pages without branch checkout (avoids open-file conflicts)
-git push origin main:gh-pages >> "$LOG_FILE" 2>&1
+# Sync gh-pages without branch checkout (force because GH Actions may have committed stocks.json there)
+git push origin main:gh-pages --force >> "$LOG_FILE" 2>&1
 
 echo "=== $(date) | All done ===" >> "$LOG_FILE"

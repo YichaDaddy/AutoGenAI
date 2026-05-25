@@ -16,15 +16,10 @@ jobs:
   fetch:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout gh-pages
+      - name: Checkout main
         uses: actions/checkout@v4
         with:
-          ref: gh-pages
-
-      - name: Checkout scripts from main
-        run: |
-          git fetch origin main
-          git checkout origin/main -- scripts/fetch_stocks.py
+          ref: main
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -34,11 +29,13 @@ jobs:
       - name: Fetch stock data
         run: python scripts/fetch_stocks.py
 
-      - name: Commit & push stocks.json
+      - name: Commit & push stocks.json to main
         run: |
           git config user.name  "AutoGenAI Bot"
           git config user.email "bot@users.noreply.github.com"
           git add v2/stocks.json
-          git diff --staged --quiet && echo "No changes" || \
-            git commit -m "auto: update stock data $(date -u '+%Y-%m-%d %H:%M UTC')" && \
-            git push origin gh-pages
+          git diff --staged --quiet && echo "No changes" || (
+            git commit -m "auto: update stock data $(date -u '+%Y-%m-%d %H:%M UTC')" &&
+            git pull --rebase origin main &&
+            git push origin main
+          )
