@@ -31,7 +31,18 @@
       "Bash(shasum -a 256)",
       "Bash(awk '{print $1}')",
       "Bash(git -C /Users/mac/projects/AutoGenAI status)",
-      "Bash(git -C /Users/mac/projects/AutoGenAI diff --stat)"
+      "Bash(git -C /Users/mac/projects/AutoGenAI diff --stat)",
+      "Bash(git -C /Users/mac/projects/AutoGenAI log --oneline -8)",
+      "Skill(update-config)",
+      "Skill(update-config:*)",
+      "Read(//Users/mac/projects/**)",
+      "Read(//Users/mac/projects/.claude/**)",
+      "Bash(mkdir -p /Users/mac/projects/.claude)",
+      "Bash(cat /Users/mac/.claude/settings.json 2>/dev/null || echo \"not found\")",
+      "Read(//Users/mac/.claude/**)"
+    ],
+    "additionalDirectories": [
+      "/Users/mac/projects"
     ]
   }
 }

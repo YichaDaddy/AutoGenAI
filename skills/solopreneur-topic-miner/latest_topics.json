@@ -1,131 +1,104 @@
 {
-  "date": "2026-05-25",
+  "date": "2026-05-26",
   "big_events": [
     {
-      "title": "ClickUp 裁 22% 員工換 AI Agent：3000 個機器人上班，人類員工剩 1300 人",
+      "title": "OpenRouter 估值翻倍至 13 億美元，完成 1.13 億 B 輪融資",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/25/what-clickups-mass-layoff-tells-us-about-the-future-of-work/"},
-        {"name": "The Next Web", "url": "https://thenextweb.com/news/clickup-layoffs-22-percent-ai-100x-org-million-salary"},
-        {"name": "BusinessToday", "url": "https://www.businesstoday.in/technology/news/story/people-who-automate-jobs-with-ai-will-always-have-a-job-productivity-startup-clickup-cuts-22-of-workforce-532801-2026-05-22"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/26/openrouter-more-than-doubles-valuation-to-1-3b-in-a-year/"},
+        {"name": "PYMNTS", "url": "https://www.pymnts.com/news/investment-tracker/2026/openrouter-raises-113-million-to-expand-ai-model-marketplace/"},
+        {"name": "Ventureburn", "url": "https://ventureburn.com/openrouter-raises-113m-as-weekly-tokens-hit-25t/"}
       ],
-      "summary": "職場工具平台 ClickUp 裁員 290 人（22%），以 3000 個 AI Agent 替代，CEO 宣稱「會用 AI 自動化的人永遠有工作」，並祭出百萬年薪留住 AI 高效人才。",
-      "audience": "職場上班族、知識工作者、人力資源從業者",
-      "pain_point": "擔心自己的職位被 AI 取代，不知道該如何讓自己在 AI 時代保持不可取代性",
-      "title_idea": "「ClickUp 用 3000 個 AI 取代 290 個人！未來哪些職場工作會最先消失？」",
-      "local_angle": "多家歐美媒體同日報導，是 2026 年最具代表性的 AI 替代白領案例；台灣職場焦慮受眾高度共鳴，搭配「職場 AI 生存術」角度切入，流量紅利極大"
+      "summary": "AI 路由平台 OpenRouter 獲 CapitalG 領投完成 B 輪，估值達 13 億美元，每週處理 25 兆 tokens，支援 400+ 模型、800 萬用戶",
+      "audience": "重度使用 AI 工具的職場上班族、獨立開發者",
+      "pain_point": "要同時使用 GPT、Claude、Gemini 等多款模型，需分別付費與管理帳號，成本高又麻煩",
+      "title_idea": "一個 API 用遍所有 AI！OpenRouter 憑什麼值 13 億美元？",
+      "local_angle": "OpenRouter 在台灣知名度極低，但海外開發者大量依賴，搶先做繁體中文入門教學可收割精準流量"
     },
     {
-      "title": "GPT-5.5 Instant 成 ChatGPT 新預設模型：幻覺減 52.5%、自動讀取 Gmail 給個人化回答",
+      "title": "Figure AI 人形機器人正式進駐 JCPenney 倉庫，零售業物理 AI 商業落地",
       "sources": [
-        {"name": "OpenAI", "url": "https://openai.com/index/gpt-5-5-instant/"},
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/"}
+        {"name": "JCPenney Newsroom", "url": "https://corporate.jcpenney.com/2026/05/26/catalyst-brands-taps-figure-ai-for-humanoid-automation/"},
+        {"name": "FutureTools", "url": "https://futuretools.io/news"}
       ],
-      "summary": "OpenAI 將 GPT-5.5 Instant 設為所有 ChatGPT 用戶（包含免費版）的預設模型，高風險場景幻覺減少 52.5%，Plus/Pro 用戶可授權 ChatGPT 讀取過去對話與 Gmail 提供更個人化回答。",
-      "audience": "每天用 ChatGPT 的職場人、需要高準確度 AI 輸出的知識工作者",
-      "pain_point": "ChatGPT 常給錯誤資訊卻不自知，且每次對話都要重新解釋背景，浪費大量時間",
-      "title_idea": "「ChatGPT 突然變聰明了！GPT-5.5 Instant 5 大升級，免費用戶也能用的功能全解析」",
-      "local_angle": "ChatGPT 預設模型更換是全球用戶都直接受益的重大更新，台灣用戶眾多；做「升級前後差異實測＋Gmail 個人化功能示範」教學，搜尋流量爆發力強"
+      "summary": "Figure AI 與 Catalyst Brands（JCPenney 母公司）簽署商業部署協議，人形機器人即日起在內華達州倉庫分揀包裝作業",
+      "audience": "對 AI 就業趨勢關注的職場上班族、製造/零售業從業者",
+      "pain_point": "擔心 AI 與機器人搶走工作，不確定哪些職位最危險、未來如何自保",
+      "title_idea": "人形機器人進倉庫了！JCPenney 部署 Figure AI，哪些工作首當其衝？",
+      "local_angle": "全球首個大型零售品牌商業部署人形機器人案例，台灣媒體幾乎未報導，資訊差極大"
     },
     {
-      "title": "Anthropic 年收入破 $300 億、客戶數量 2 個月翻倍：與 Google、Broadcom 簽算力大擴張協議",
+      "title": "環球音樂與 TikTok 續約，聯手打擊未授權 AI 生成音樂",
       "sources": [
-        {"name": "Anthropic", "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute"},
-        {"name": "The Next Web", "url": "https://thenextweb.com/news/google-cloud-next-ai-agents-agentic-era"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/26/universal-music-group-and-tiktok-renew-agreement-to-combat-unauthorized-ai-music/"}
       ],
-      "summary": "Anthropic 宣布與 Google 及 Broadcom 合作建立數 GW 級次世代算力，同時揭露年收入已超過 $300 億美元，每年花費超 $100 萬的企業客戶超過 1000 家，不到兩個月就翻倍。",
-      "audience": "AI 創業者、使用 Claude API 的開發者、對 AI 商業模式感興趣的從業者",
-      "pain_point": "想了解 Claude 背後的公司有多強、API 服務是否穩定，以及該押注哪個 AI 平台做產品",
-      "title_idea": "「Anthropic 年收超 300 億！Claude 母公司為何能和 OpenAI 正面硬幹？完整商業拆解」",
-      "local_angle": "Anthropic 財務數據首次大規模曝光，是評估 AI 行業格局的重要訊號；台灣 AI 創業者與開發者高度關注，做「Claude vs OpenAI 商業比較」選題競爭低"
+      "summary": "環球音樂集團與 TikTok 延續合作協議，共同對抗未授權 AI 生成音樂在平台上的擴散",
+      "audience": "使用 AI 音樂工具的內容創作者、YouTuber、短影音創作者",
+      "pain_point": "用 AI 工具生成背景音樂怕被版權申訴，不清楚哪些 AI 音樂工具合法可商用",
+      "title_idea": "用 AI 做音樂要小心！環球音樂 x TikTok 聯手，這些 AI 歌曲可能下架",
+      "local_angle": "台灣創作者大量使用 Suno、ElevenLabs 製作配樂，版權風險話題切身相關且少有人深入解析"
     }
   ],
   "tool_updates": [
     {
-      "title": "Gemini Spark 開放測試：24/7 代替你管 Gmail、行事曆、Drive，還能設定定時任務",
+      "title": "ElevenLabs Music v2 上線：多語言、逐段編輯、API 嵌入全面升級",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/19/google-introduces-gemini-spark-a-24-7-agentic-assistant-with-gmail-integration/"},
-        {"name": "Tom's Guide", "url": "https://www.tomsguide.com/ai/google-gemini/google-unveils-gemini-spark-a-24-7-personal-ai-agent-that-could-be-a-game-changer-for-agentic-ai"},
-        {"name": "CBS News", "url": "https://www.cbsnews.com/news/google-gemini-spark-ai-agent/"}
+        {"name": "ElevenLabs", "url": "https://elevenlabs.io/music"},
+        {"name": "FutureTools", "url": "https://futuretools.io/news"}
       ],
-      "summary": "Google Gemini Spark 正式開放 AI Ultra 訂閱用戶搶先測試，可跨 Gmail/Drive/行事曆 24 小時代理執行任務、教 Agent 新技能、設定定時工作流，高風險動作（如寄信）需人工確認。",
-      "audience": "重度 Google Workspace 用戶、想建立 AI 自動化工作流的職場人",
-      "pain_point": "每天大量時間被 Email 整理、行事曆安排和文件歸類吃掉，卻沒有工具真正自動幫我跨平台處理",
-      "title_idea": "「Google 最強 AI 助理 Gemini Spark 怎麼開通？5 個職場自動化工作流實際示範」",
-      "local_angle": "Gemini Spark 目前無任何繁體中文教學，台灣 Google Workspace 企業用戶眾多；搶先做「開通步驟＋實際職場使用場景」教學，資訊差大、流量紅利高"
+      "summary": "ElevenLabs Music v2 大幅升級人聲、編曲與多語言支援，可逐段精細編輯，API 即將開放供開發者嵌入產品",
+      "audience": "YouTuber、Podcast 創作者、影音剪輯工作者、獨立音樂人",
+      "pain_point": "AI 音樂生成品質不穩定、中文人聲效果差、缺乏細部風格控制",
+      "title_idea": "AI 音樂再進化！ElevenLabs Music v2 實測：一個提示詞生成完整歌曲",
+      "local_angle": "Music v2 支援多語言含中文，工具還沒有繁體中文教學，搶先做評測能吃到早期流量紅利"
     },
     {
-      "title": "Claude Routines 定時任務功能上線：Pro 每天 5 次、Max 每天 15 次自動執行 AI 工作流",
+      "title": "OpenAI Codex 重大更新：支援插件、App-Server 工作流與擴充套件",
       "sources": [
-        {"name": "Anthropic", "url": "https://platform.claude.com/docs/en/release-notes/overview"},
-        {"name": "Claude Code Changelog", "url": "https://claudefa.st/blog/guide/changelog"}
+        {"name": "OpenAI Release Notes", "url": "https://releasebot.io/updates/openai"},
+        {"name": "OpenAI News", "url": "https://openai.com/news/"}
       ],
-      "summary": "Anthropic 推出 Claude Routines 功能，Pro/Max/Team/Enterprise 用戶可在 claude.ai 或 CLI 輸入 /schedule 建立定時 AI 工作流，Pro 每日 5 次、Max 每日 15 次，涵蓋多 Agent 編排、Webhook 整合。",
-      "audience": "需要自動化日常重複任務的職場人、使用 Claude API 的開發者",
-      "pain_point": "每天需要重複執行同樣的 AI 工作流（如日報、摘要、分類），希望 Claude 能自動在設定時間執行而不需手動觸發",
-      "title_idea": "「Claude 可以定時自動幫你工作了！Routines 功能完整設定教學，打造你的 AI 工作流排程」",
-      "local_angle": "Claude Routines 在台灣幾乎無人介紹，與 n8n/Make 等自動化工具的比較也是空白領域；搶先做「不用寫程式的 Claude 自動化任務設定」教學，差異化極強"
+      "summary": "OpenAI Codex 更新目標設定、插件整合、TUI 穩定性及跨平台封裝支援（npm、安裝程式），強化複雜工作流能力",
+      "audience": "工程師、開發者、用 AI 自動化日常工作的上班族",
+      "pain_point": "Codex 之前難以整合進複雜開發流程，需頻繁手動切換工具，效率打折",
+      "title_idea": "Codex 終於支援插件了！OpenAI AI 工程師工具大更新完整解析",
+      "local_angle": "台灣工程師族群龐大，Codex 繁體中文深度使用教學幾乎空白，切入點清晰"
     },
     {
-      "title": "Claude 新增 20+ 法律 MCP 連接器：AI 直接串接法律資料庫與合約工具",
+      "title": "OpenAI 推出 AI 內容來源驗證工具，打擊深偽與虛假資訊",
       "sources": [
-        {"name": "Anthropic", "url": "https://www.anthropic.com/news"},
-        {"name": "Releasebot Anthropic", "url": "https://releasebot.io/updates/anthropic/claude"}
+        {"name": "OpenAI News", "url": "https://openai.com/news/"},
+        {"name": "OpenAI Release Notes", "url": "https://releasebot.io/updates/openai"}
       ],
-      "summary": "Anthropic 為 Claude 新增超過 20 個法律領域 MCP 連接器和 12 個實務面插件，讓律師和企業法務可直接串接法律資料庫、合約工具執行複雜工作流，是 Claude MCP 生態系的最大單次擴展。",
-      "audience": "法律從業者、企業法務人員、想用 AI 協助處理合約文件的職場人",
-      "pain_point": "法律工作高度依賴資料庫查詢與文件審閱，但 AI 工具很難真正接入現有法律工作流",
-      "title_idea": "「律師用 Claude 直接查法條、審合約！20+ 法律 AI 工具整合，這些功能你的公司法務用了嗎？」",
-      "local_angle": "法律 AI 工具在台灣中文圈教學極少，此次 MCP 連接器擴展代表 AI 真正進入專業法律工作流；做「企業法務如何用 Claude MCP 節省時間」切入，B2B 受眾高價值"
-    },
-    {
-      "title": "ChatGPT Codex 新功能：Goal Mode、Appshots 上線，AI 自主達成目標不用盯著看",
-      "sources": [
-        {"name": "Releasebot OpenAI", "url": "https://releasebot.io/updates/openai"},
-        {"name": "OpenAI Help Center", "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"}
-      ],
-      "summary": "OpenAI Codex 0.133.0 預設啟用 Goal Mode（設定目標讓 AI 自主執行多步驟任務），同步推出 Appshots 功能可截圖追蹤 AI 工作進度，更強的權限設定讓 Coding Agent 更安全可控。",
-      "audience": "需要 AI 協助寫程式或自動化工作的職場人、獨立開發者",
-      "pain_point": "用 AI 寫程式時要一直盯著看，怕 AI 做錯或超出權限範圍，沒辦法真正放手讓 AI 自主執行",
-      "title_idea": "「不用盯著 AI 寫程式了！ChatGPT Codex Goal Mode 設定教學，讓 AI 自己想辦法完成任務」",
-      "local_angle": "Codex Goal Mode 在台灣開發者社群幾乎無人解析；搶先做「如何設定安全邊界讓 AI 自主完成任務」教學，工程師受眾技術黏著度高"
+      "summary": "OpenAI 上線內容真偽驗證工具，初期限於 OpenAI 自家生成內容，未來將擴展至跨平台驗證機制",
+      "audience": "媒體從業者、內容創作者、重視資訊安全的職場人士",
+      "pain_point": "AI 生成假圖假影片氾濫，普通人根本無法辨別真偽，深偽詐騙風險上升",
+      "title_idea": "OpenAI 新工具辨識 AI 假圖！深偽時代如何保護自己？",
+      "local_angle": "台灣社群假資訊問題嚴重，AI 驗偽工具話題本地化切入角度明確，受眾廣泛"
     }
   ],
   "trends": [
     {
-      "title": "Workday ＋ Anthropic 推 $150K Solopreneur 加速計畫：企業巨頭開始押注 AI 一人公司",
+      "title": "印度零工經濟成為 Physical AI 數據引擎，機器人訓練催生新興職業",
       "sources": [
-        {"name": "Self Employed", "url": "https://www.selfemployed.com/news/workday-anthropic-lisc-ai-solopreneur-accelerator-2026/"},
-        {"name": "Self Employed (Zoom)", "url": "https://www.selfemployed.com/news/zoom-solopreneur-50-launch-2026/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/26/human-archive-taps-into-indias-services-startups-to-collect-data-for-physical-ai/"}
       ],
-      "summary": "Workday、Anthropic 與 LISC 聯手在 2026 年 5 月啟動 Solopreneur 加速計畫，提供 15 位創辦人共 $150K 資金＋免費 Claude 點數＋AI 技能訓練，同期 Zoom Solopreneur 50 也認可 AI 一人公司模式進入主流視野。",
-      "audience": "有創業念頭的職場上班族、希望用 AI 建立副業的知識工作者",
-      "pain_point": "想用 AI 工具創業或建立副業，但不確定一個人能不能撐起整個商業運作，缺乏資源和驗證案例",
-      "title_idea": "「Workday ＋ Anthropic 砸錢支持一人 AI 公司！這代表什麼？2026 Solopreneur 趨勢完整解讀」",
-      "local_angle": "歐美大企業開始正式投資 AI 一人公司模式，代表這條路已被主流驗證；台灣幾乎無人報導此加速計畫，轉譯並結合「台灣人如何加入」切角，副業族群高度共鳴"
+      "summary": "新創 Human Archive 透過印度零工平台大規模採集機器人訓練數據，Physical AI 數據採集成新興就業市場",
+      "audience": "對 AI 就業趨勢好奇的職場上班族、人力資源從業者",
+      "pain_point": "不確定 AI 浪潮下什麼樣的工作還有機會，想找到 AI 時代可切入的新方向",
+      "title_idea": "AI 最需要的其實是人！靠採集機器人數據月入幾萬的新工種誕生",
+      "local_angle": "Physical AI 數據採集這個新工種在台灣幾乎無人報導，海外已驗證的新職業切角，資訊差大"
     },
     {
-      "title": "ActivTrak 2026 研究：91% 企業用 AI，但員工使用信心反降 18%，職場 AI 技能焦慮加劇",
+      "title": "AI 路由平台模式獲資本驗證，「單一 API 串接百款模型」成效率工具新趨勢",
       "sources": [
-        {"name": "ActivTrak", "url": "https://www.activtrak.com/blog/2026-state-of-the-workplace/"},
-        {"name": "ManpowerGroup / MSN", "url": "https://www.msn.com/en-us/news/other/ai-productivity-tools-in-2026-shift-from-novelty-to-utility/gm-GME71A2DAA"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/26/openrouter-more-than-doubles-valuation-to-1-3b-in-a-year/"},
+        {"name": "Sacra", "url": "https://sacra.com/c/openrouter/"}
       ],
-      "summary": "2026 職場狀態報告指出：AI 在企業普及率達 91%，但員工實際使用信心下降 18%；只有 9% 員工感到非常熟練，僅 25% 的雇主有清楚溝通 AI 使用規範，技能焦慮正在全球職場蔓延。",
-      "audience": "職場上班族、有職涯危機感的知識工作者",
-      "pain_point": "周圍都在說要學 AI，但不知道從哪裡開始、學哪些工具才對，害怕自己跟不上卻不知道求救對象",
-      "title_idea": "「91% 公司用 AI 但 9 成員工學不來？2026 職場 AI 恐慌調查結果，你是哪一種人？」",
-      "local_angle": "數據調查具高可信度引用價值，台灣職場 AI 焦慮情緒同樣強烈；搭配「上班族 AI 工具入門路徑圖」切入，能同時滿足焦慮型受眾的共鳴與解法需求，留存率高"
-    },
-    {
-      "title": "UC Berkeley 研究：AI 讓員工更忙、郵件增加 104%，生產力提升反帶來更多工作量",
-      "sources": [
-        {"name": "Fortune", "url": "https://fortune.com/2026/02/10/ai-future-of-work-white-collar-employees-technology-productivity-burnout-research-uc-berkeley/"},
-        {"name": "AI Productivity Statistics 2026", "url": "https://autofaceless.ai/blog/ai-productivity-statistics-2026"}
-      ],
-      "summary": "UC Berkeley 研究揭露 AI 採用後的「效率悖論」：AI 讓員工可完成更多任務，但 Email 量增加 104%、訊息量增加 145%，工作量反增、倦怠風險升高，AI 工具的使用方式正在決定誰受益誰受害。",
-      "audience": "正在使用或評估 AI 工具的職場上班族、管理者",
-      "pain_point": "導入 AI 工具後不但沒減輕工作量，反而更忙了，不確定是自己用法有問題還是 AI 工具根本是假議題",
-      "title_idea": "「用了 AI 反而更累？UC Berkeley 研究揭露職場 AI 陷阱，哪些人真正省到時間？」",
-      "local_angle": "這個反直覺的研究結論在歐美已掀起討論，台灣職場族群對此高度共鳴卻少有中文深度解析；以「AI 正確用法 vs 錯誤用法」角度切入，可同時吸引焦慮型與進階型受眾"
+      "summary": "OpenRouter 一年估值翻倍印證 AI 路由平台商業模式成立，用戶可透過單一 API 以最低成本選用最適合的模型",
+      "audience": "想最佳化 AI 工具成本的職場上班族、小型團隊創業者",
+      "pain_point": "AI 工具月費疊加後費用驚人，不知道如何在預算內用到最好的模型",
+      "title_idea": "省 AI 工具費用的秘密武器！什麼是 AI 路由？一次看懂 OpenRouter",
+      "local_angle": "「用最少的錢用最好的 AI」這個痛點對台灣中小企業與個人用戶極具吸引力，鮮有人講清楚"
     }
   ]
 }

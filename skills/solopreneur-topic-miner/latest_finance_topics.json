@@ -1,136 +1,141 @@
 {
-  "date": "2026-05-25",
+  "date": "2026-05-26",
   "market_shocks": [
     {
-      "title": "台股單日暴衝1376點！收43644創史上第5大漲幅，成交量爆13013億天量",
+      "title": "台股市值超越印度！台積電AI熱潮推動台股躍居全球第五大股市",
       "sources": [
-        {"name": "鉅亨網", "url": "https://news.cnyes.com/news/cat/tw_stock"},
-        {"name": "Yahoo股市台灣", "url": "https://tw.stock.yahoo.com/news/%E5%9C%8B%E5%B7%A8%E4%BA%AE%E7%87%88%E5%A5%94691%E5%85%83%E5%A4%A9%E5%83%B95%E6%9C%88%E4%BE%86%E9%A3%86117%E6%81%90%E8%A2%AB%E9%97%9C%EF%BC%9F%E5%B0%88%E5%AE%B6%E8%A7%A3%E7%AD%94%E4%BA%86-041625258.html"}
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-26/tsmc-s-relentless-rise-powers-taiwan-s-market-value-above-india"},
+        {"name": "Seeking Alpha", "url": "https://seekingalpha.com/news/4596681-taiwan-overtakes-india-as-worlds-fifth-largest-stock-market-as-tsmc-surges"}
       ],
-      "summary": "台股加權指數5月25日終場大漲1376.43點，收43644.4點，創史上第5大單日收盤漲幅，成交量同步爆出13013億元天量。台指期夜盤率先突破44000點大關，展現空前強勁多頭動能，全面帶動散戶與法人信心。",
-      "tw_stock_impact": "台灣股市創歷史性單日大漲，全面帶動外資積極回補、法人買超，多檔個股同步創新高；但極度放量後短線需留意獲利了結壓力。",
-      "investment_insight": "追蹤台指ETF（0050、00631L）的趨勢動能投資人可設移動止損保護獲利；建議觀察隔日量能是否縮減，若縮量保持高位代表買盤真實，量縮拉回可逢低補進。",
-      "title_idea": "台股一天暴衝1376點！成交量13013億創天量，你上車了嗎？接下來怎麼走？",
-      "local_angle": "台灣本地投資人親歷史上難得一見的單日大漲，此波行情核心驅動力為AI題材+美伊和談，後續是否有回測整理機會，是布局台股的最重要觀察點。"
+      "summary": "台灣股市市值突破4.95兆美元，超越印度成為全球第五大股市，主因台積電年漲幅達49%且佔指數權重逾42%。台股指數挑戰44,000點大關，但分析師警告台積電過度集中帶來系統性風險。",
+      "tw_stock_impact": "直接利多台積電（2330）及相關半導體供應鏈；外資持續加碼，台股指數進逼44,000點，但一旦台積電出現重大賣壓，指數將面臨結構性重擊。",
+      "investment_insight": "可關注台積電及寬基ETF（0050、00631L），但台積電佔比過高形成集中風險，建議分批獲利了結並設定嚴格停利點，避免過度追高。",
+      "title_idea": "台灣超越印度！台積電AI熱潮讓台股市值衝破5兆美元，全球第五名能撐多久？",
+      "local_angle": "台股投資人直接受益於市值排名躍升，但台積電佔比42%的集中風險意味著外資一旦撤退，台股跌幅將遠超其他市場，需密切追蹤外資動向。"
     },
     {
-      "title": "國巨5月飆漲117%至691元歷史天價，暴衝後遭列處置股「被關禁閉」",
+      "title": "SpaceX上市申請引爆太空概念股狂潮，Musk身價衝破8150億美元、Tesla合併傳聞燃爆",
       "sources": [
-        {"name": "Yahoo股市台灣", "url": "https://tw.stock.yahoo.com/news/%E5%9C%8B%E5%B7%A8%E4%BA%AE%E7%87%88%E5%A5%94691%E5%85%83%E5%A4%A9%E5%83%B95%E6%9C%88%E4%BE%86%E9%A3%86117%E6%81%90%E8%A2%AB%E9%97%9C%EF%BC%9F%E5%B0%88%E5%AE%B6%E8%A7%A3%E7%AD%94%E4%BA%86-041625258.html"}
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-26/rocket-satellite-stocks-surge-anew-as-spacex-ipo-fuels-euphoria"},
+        {"name": "CNBC", "url": "https://www.cnbc.com/2026/05/26/spacex-ipo-filing-sparks-a-bull-market-in-space-stocks-how-to-buy-in.html"},
+        {"name": "YouTube - Meet Kevin", "url": "https://www.youtube.com/watch?v=5VXbBLaZTD4"}
       ],
-      "summary": "被動元件龍頭國巨（2327）5月以來股價狂漲117%，單日亮燈漲停攀至691元歷史天價，市值晉升台股第9大。因漲幅過大，證交所宣布列入處置股，明起交易委託受限制。投信持續買超被視為支撐力道。",
-      "tw_stock_impact": "處置股制度將限制國巨隔日委託下單方式，短期可能引發強制停利賣壓；中期因投信持續買超仍有支撐，但散戶追高風險極高。",
-      "investment_insight": "被列處置股通常是短線過熱警訊，建議投資人觀察處置期間的量價變化；若想參與被動元件題材，可轉向同族群尚未大漲的華新科、太陽誘電等相對低檔標的。",
-      "title_idea": "國巨一個月狂漲117%被關禁閉！解禁後還能買嗎？處置股完全攻略",
-      "local_angle": "國巨為台灣最具代表性的被動元件股，此波飆漲背後是AI伺服器需求爆發帶動MLCC需求，值得深入追蹤基本面能否持續支撐股價創高。"
+      "summary": "SpaceX計畫以1.25兆美元估值在Nasdaq掛牌（代號SPCX），最快6月12日上市。火箭衛星相關股全線爆漲，Rocket Lab年漲78%、Intuitive Machines超過110%。馬斯克財富逼近8150億美元，市場熱傳SpaceX可能與Tesla合併，引爆史上最大企業合併猜測潮。",
+      "tw_stock_impact": "SpaceX供應鏈中的台廠（鴻海生態系相關廠商、衛星零組件廠）受到市場關注，商周報導鴻家軍某機構件廠已提前漲停。台灣Tesla持有者需密切追蹤合併傳聞發展。",
+      "investment_insight": "鎖定台灣SpaceX供應鏈概念股；若Tesla/SpaceX合併成真，持有Tesla可同時取得SpaceX上市曝險，但目前仍屬高度投機，建議小倉位參與並設嚴格停損。",
+      "title_idea": "SpaceX上市倒數！這家台廠被點名是供應商，股價已先漲停板",
+      "local_angle": "台灣製造業與SpaceX的供應鏈連結，加上大量散戶持有Tesla，讓這個IPO消息成為台灣投資人最具直接感的切入點。"
     },
     {
-      "title": "Michael Burry警告市場「感覺像1999泡沫末期」，重押半導體ETF下跌30%",
+      "title": "「大空頭」Burry大幅加碼做空半導體ETF，發文警告AI泡沫比網路泡沫更危險",
       "sources": [
-        {"name": "TheStreet", "url": "https://www.thestreet.com/investing/stocks/michael-burry-doubles-down-on-stock-market-ai-message-for-2026"},
-        {"name": "GuruFocus", "url": "https://www.gurufocus.com/news/8848585/michael-burry-raises-concerns-over-market-rally"}
+        {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-goes-nvidia-again-051409750.html"},
+        {"name": "CoinEdition", "url": "https://coinedition.com/michael-burry-expands-ai-short-as-2026-ipo-wave-tests-bubble-warning/"},
+        {"name": "CNBC", "url": "https://www.cnbc.com/2026/05/11/michael-burry-is-not-a-believer-for-any-stocks-going-parabolic-reduce-positions-almost-entirely.html"}
       ],
-      "summary": "《大空頭》原型Michael Burry在Substack發文警告「感覺像1999-2000泡沫最後幾個月」，引用Shiller本益比達40.1倍（接近網路泡沫水準）。他已買入2027年1月iShares半導體ETF賣出選擇權，押注未來下跌逾30%，同時加碼PayPal與Adobe等「被AI遺忘股」。",
-      "tw_stock_impact": "半導體為台股核心，若Burry押注成真，台積電、聯發科等主力股將面臨系統性估值修正風險。台股在歷史新高區間，此訊號需格外重視。",
-      "investment_insight": "市場高點時可考慮部分獲利了結，或配置防禦型資產（黃金、短天期債券）對沖半導體修正風險；Burry加碼的PayPal（PYPL）逆向邏輯也值得研究，代表軟體股可能已過度折價。",
-      "title_idea": "大空頭Burry狂押半導體崩跌30%！說現在跟2000年網路泡沫一模一樣",
-      "local_angle": "台灣科技股比重佔大盤逾七成，Burry的半導體空頭警告直接衝擊台股核心持股，在台股創歷史新高之際，此警訊更不能輕忽。"
+      "summary": "Michael Burry向20萬Substack訂閱者發文「市場已跳過鯊魚」，大幅加碼做空SOXX半導體ETF至2027年1月Put選擇權。標普席勒本益比超過40倍為2000年以來最高；Nvidia對Microsoft等超大規模客戶依賴達50%，若任一客戶削減資本支出20%，Nvidia營收即遭受4.2%重創。",
+      "tw_stock_impact": "台積電持有Nvidia高達1190億美元不可取消採購承諾，若AI資本支出循環逆轉，台積電訂單首當其衝；外資可能提前撤離半導體族群，台股承壓。",
+      "investment_insight": "台積電持有者可考慮購買保護性Put選擇權或設定嚴格停利點；關注SOX月動能是否出現反轉信號，若技術面惡化應立即減碼半導體持倉。",
+      "title_idea": "「大空頭」梭哈做空半導體！Burry：這次AI泡沫比2000年網路泡沫還恐怖",
+      "local_angle": "台積電佔台股42%，Burry的警告若成真，台灣投資人承受的衝擊將比任何市場都更直接，此訊號在台股歷史新高位置更不能輕忽。"
     },
     {
-      "title": "美伊和談突破！油價暴跌，全球股市飆創高，S&P 500締造連8週收紅",
+      "title": "S&P 500連漲四日、Nasdaq突破30,000點，但Goldman警告股債相關性失靈、持倉過度集中",
       "sources": [
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-25/emerging-market-assets-rise-as-oil-drops-on-us-iran-deal-hopes"},
-        {"name": "CaixaBank Research", "url": "https://www.caixabankresearch.com/en/publications/financial-markets-daily-report/25-may-2026"}
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-26/stocks-gain-on-optimism-over-us-iran-deal-to-open-hormuz"},
+        {"name": "ZeroHedge", "url": "https://www.zerohedge.com/"},
+        {"name": "YouTube - Meet Kevin", "url": "https://www.youtube.com/watch?v=ImdwYfLRU6A"}
       ],
-      "summary": "美伊接近達成重開霍爾木茲海峽協議，引發全球油價大幅下滑，新興市場全面走強。義大利股市突破26年新高，S&P 500連續第8週收紅（創2023年底以來最長連漲）。道瓊亦衝上盤中歷史新高。",
-      "tw_stock_impact": "油價下跌將降低台灣進口能源成本，有助控制通膨與電費；整體風險偏好提升也利多外資回補台股。但航運、石化類股短期可能承壓。",
-      "investment_insight": "若和談正式達成，油價可能進一步下行，可關注受惠低油價的航空股（如中華航空）及下游消費品類股；同時警惕「消息兌現即賣」的反轉風險。",
-      "title_idea": "美伊快談成了！油價崩跌全球股市狂歡，這波上漲站得住腳嗎？",
-      "local_angle": "霍爾木茲海峽是台灣能源進口的命脈航道，和談消息不僅牽動油價，更直接影響台灣電費帳單與整體物價走勢，是每個台灣人都要懂的大事。"
+      "summary": "美股連漲四日，Nasdaq 100突破30,000點歷史大關，由AI交易與美伊和平期望共同驅動。但Goldman Sachs同步警告：傳統股債負相關性已失靈，恐懼指標雖消退但持倉高度集中，一旦風吹草動將引發連鎖下跌。Meet Kevin直問：「這是市場頂點嗎？」",
+      "tw_stock_impact": "台股隨美股創高，但外資昨日大幅賣超面板股（友達、群創），顯示部分資金已開始轉移，需持續觀察外資整體淨進出是否出現結構性轉向。",
+      "investment_insight": "短線追漲風險加劇，建議採「追漲不超買、持倉設停利」策略；考慮增持防禦型資產（黃金ETF、公用事業股）對沖高位系統性風險。",
+      "title_idea": "S&P 500連漲四天、Nasdaq衝破三萬！但Goldman偷偷警告：這種行情最容易爆",
+      "local_angle": "台灣出口以科技為主，若全球股市在AI頂點崩落，台廠下半年訂單能否維持是最關鍵的下一個觀察點。"
     }
   ],
   "investment_opportunities": [
     {
-      "title": "Dell創歷史新高、HP單日暴漲15%！Lenovo強報告引爆AI PC換機潮正式爆發",
+      "title": "核電概念股暴漲：Trump政府宣布將軍用鈽分配商業核電廠，AI用電危機解方浮現",
       "sources": [
-        {"name": "Bloomberg Markets", "url": "https://www.bloomberg.com/news/articles/2026-05-25/european-stocks-advance-on-iran-deal-hopes-delivery-hero-jumps"},
-        {"name": "CaixaBank Research", "url": "https://www.caixabankresearch.com/en/publications/financial-markets-daily-report/25-may-2026"}
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-26/altman-backed-nuclear-firm-oklo-rises-on-us-reactor-fuel-program"}
       ],
-      "summary": "中國聯想（Lenovo）公布強勁財報後，全球電腦製造商股價全面爆發：Dell Technologies創歷史新高，HP Inc.單日漲逾15%。市場解讀為AI驅動企業PC換機潮正式啟動，需求強勁超越預期。",
-      "tw_stock_impact": "台灣ODM廠廣達（2382）、仁寶（2324）、緯創（3231）、英業達（2356）直接受惠；面板廠AUO、群創及PC周邊零組件廠也值得關注。",
-      "investment_insight": "AI PC換機潮是未來兩年確定性主題，台灣ODM廠（廣達、緯創）是成本低且受惠明確的優質標的；可趁跌逢低分批佈局，優先選本益比較低的代工廠而非品牌廠。",
-      "title_idea": "Dell飆新高、HP漲15%！AI換機潮正式爆發，台灣PC供應鏈哪些股要跟著衝？",
-      "local_angle": "台灣是全球PC代工絕對核心，Lenovo帶頭的AI PC換機潮直接受惠廣達、緯創等台廠，這是台灣投資人最直接、最本土的投資切入點。"
+      "summary": "川普政府宣布將冷戰時代武器級鈽分配給商業核能公司以加速新反應爐部署，Altman投資的Oklo應聲大漲，核能板塊全線走強。AI數據中心電力需求激增，核能成為目前最被看好的長期電力解方。",
+      "tw_stock_impact": "台灣核能政策轉向討論升溫，核能元件供應商可能引發題材炒作；AI資料中心電力需求爆炸性成長亦利好台灣電網升級相關廠商（中興電、士電）。",
+      "investment_insight": "全球核能板塊進入多頭循環，可關注Cameco（CCJ）、NuScale、Oklo等美國核電股；台灣可布局電網升級相關廠商，作為AI浪潮下的基礎設施受惠股。",
+      "title_idea": "AI數據中心電力告急！美國要用核武鈽發電，核電股大爆發",
+      "local_angle": "台灣能源轉型與AI用電需求矛盾激化，核電議題重回政策核心，相關概念股值得提前布局。"
     },
     {
-      "title": "BlackRock稱聯準會降息條件充分，但Fed Waller反嗆要取消「寬鬆偏向」",
+      "title": "中日聯手拋售美債！Andrei Jikh警告美元霸權鬆動，黃金與抗通膨資產逆勢受惠",
       "sources": [
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-25/blackrock-says-there-are-sufficient-factors-to-justify-fed-cut-mpkxuynr"}
+        {"name": "YouTube - Andrei Jikh", "url": "https://www.youtube.com/watch?v=w8yTmTdF1Kw"}
       ],
-      "summary": "BlackRock旗下Saigal指出聯準會在新任主席領導下已有足夠條件降息。然而Fed理事Waller同日反向表態，呼籲取消政策聲明中的「寬鬆偏向」，兩大機構出現罕見分歧。實際利率上升正形成「實質利率緊縮機制」，高盛警告夏季市場動盪加劇。",
-      "tw_stock_impact": "若聯準會啟動降息，台灣出口型電子股及房地產類股將因資金成本降低而受惠；美元走弱也有利台幣升值，吸引外資回流台股。",
-      "investment_insight": "降息預期升溫時，可提早布局受惠低利率的長天期債券ETF（如00679B）或高股息股票，以及金融股；但Waller的鷹派立場暗示降息並非板上釘釘，需控制部位。",
-      "title_idea": "BlackRock說聯準會該降息了！另一派卻說太早——你的存款現在該怎麼放？",
-      "local_angle": "聯準會利率走向直接影響台幣匯率、外資動向及台灣房市，台灣投資人必須緊盯這場「降息vs鷹派」的辯論，早一步判斷市場轉向時機。"
+      "summary": "中國與日本持續減持美國公債，外界擔憂美元主導的全球金融體系正面臨結構性挑戰。美債殖利率走高壓力若持續，將推升折現率並不利高本益比成長股，黃金與抗通膨資產逐漸成為避風港首選。",
+      "tw_stock_impact": "台灣央行為全球主要美債持有者之一，美債跌價直接衝擊外匯儲備資產品質；新台幣匯率亦可能承受連動壓力，對台灣進出口業者造成不確定性。",
+      "investment_insight": "配置部分黃金（GLD ETF、00635U）或通膨保護債券（TIPS）以對沖美元風險；若美債殖利率持續走高，應減碼高本益比成長股，轉向價值股及高股息資產。",
+      "title_idea": "中國日本聯手賣美債！美元霸權搖搖欲墜，台灣外匯存底要怎麼辦？",
+      "local_angle": "台灣央行持有大量美債，這個趨勢若持續，對台灣貨幣政策空間和匯率穩定的影響不容小覷，是本地投資人必須追蹤的宏觀訊號。"
     },
     {
-      "title": "迦納央行6月起強制收購大型金礦30%產量，全球黃金供應結構迎重大轉變",
+      "title": "美伊停火談判拉低油價至90美元，台廠製造成本大減、航空石化股直接受惠",
       "sources": [
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-25/ghana-to-start-buying-30-of-large-gold-mines-ouput-from-june"}
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-24/latest-oil-market-news-and-analysis-for-may-25"},
+        {"name": "Al Jazeera", "url": "https://www.aljazeera.com/economy/2026/5/25/oil-prices-fall-amid-mixed-signals-on-us-iran-peace-deal"}
       ],
-      "summary": "全球重要黃金生產國迦納宣布，央行將從6月1日起強制收購大型礦商產量的30%，此舉將顯著收緊全球黃金流通供給，配合各國央行持續增儲黃金趨勢，預期對金價形成中長期支撐。",
-      "tw_stock_impact": "黃金需求結構性增加將支撐金價上行，台灣投資人可透過黃金ETF（如00635U）或美元計價黃金資產受惠，同時作為高點股市的對沖工具。",
-      "investment_insight": "各國央行搶購黃金趨勢強化黃金長多邏輯，建議配置資產的5-10%在黃金相關工具；6月迦納新政正式實施前可視為建倉時機，黃金礦業ETF（GDX）也值得關注。",
-      "title_idea": "迦納央行搶收30%黃金！全球金礦供應要變天，金價下一站要噴到哪？",
-      "local_angle": "黃金是台灣投資人傳統避險工具，央行搶金的政策性趨勢正從多個方向強化黃金長多邏輯，是當前台股高點時最值得增加配置的資產。"
+      "summary": "美伊停火談判取得進展，WTI原油短暫跌破90美元創近三週低點。霍爾木茲海峽若重開，每日1400萬桶封鎖解除，油價可能進一步下探。川普表示談判「有序且建設性」，但不急於達成最終協議，市場在「買和平」與「避險」間持續震盪。",
+      "tw_stock_impact": "油價下跌直接利好台灣石化下游（塑化、紡織）、航運及航空業；台灣製造業整體能源成本降低，有助改善毛利率，尤其對高耗能廠商效果最為顯著。",
+      "investment_insight": "分批布局航空股（長榮航、華航）及石化下游廠商；同時可用選擇權策略對沖油價反彈風險，避免在談判破裂時遭受單邊損失。",
+      "title_idea": "美伊和談讓油價跌破90美元！這些台廠成本直接少掉一大塊",
+      "local_angle": "台灣高度依賴進口能源，油價每下跌10美元，製造業整體成本可省下數十億美元，毛利率改善效果立竿見影，是台灣投資人最直接的受惠切入點。"
     },
     {
-      "title": "SoftBank發行1600億日元零售債，散戶資金成本優先搶進機會曝光",
+      "title": "Burry重壓PayPal、Adobe等「被AI遺忘股」，逆向操作押注市場風格將大切換",
       "sources": [
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-25/softbank-taps-retail-investors-with-1-6-billion-yen-bond-deal"}
+        {"name": "TheStreet", "url": "https://www.thestreet.com/investing/stocks/michael-burry-buys-beaten-down-forgotten-fintech-stock"},
+        {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/paypal-holdings-pypl-burry-stake-232128840.html"}
       ],
-      "summary": "SoftBank宣布再次向零售投資人發行260億日元（約1600億台幣）公司債，提供固定利息。此舉是SoftBank慣用的散戶資金籌措模式，在日圓持續貶值背景下仍受日本散戶追捧，顯示市場對其信用風險的接受度。",
-      "tw_stock_impact": "SoftBank頻繁發債顯示其AI/科技投資組合持續需要資金支持；其重大被投資標的動向（如Arm、OpenAI）將影響全球科技股估值走勢。",
-      "investment_insight": "台灣投資人可間接透過Arm Holdings（ARM）股票參與SoftBank生態系；SoftBank債券本身需注意日圓匯率風險與公司財務槓桿問題，非保守型投資人首選。",
-      "title_idea": "SoftBank又向散戶借錢了！這筆1600億債背後，藏著什麼AI投資大計？",
-      "local_angle": "SoftBank是全球最大AI科技投資平台之一，其資金動向牽動Arm、OpenAI等核心科技股估值，台灣AI供應鏈的下游需求也受其投資組合間接影響。"
+      "summary": "Burry的Scion Asset Management建立高度集中的9個持倉，全為被主流機構拋棄的逆向標的：PayPal年跌23.9%、Adobe年跌26.9%、Lululemon年跌42.1%。Burry認為這些是被AI熱潮掩蓋的深度價值機會，並預言風格切換即將發生。",
+      "tw_stock_impact": "若Burry做空AI、做多傳統科技/消費的策略奏效，市場風格轉換將衝擊台灣AI相關族群，但可能同時帶動消費性電子廠商的估值復甦。",
+      "investment_insight": "可留意同樣被低估的台灣消費電子廠商（PC相關、手機零組件），在AI題材降溫後可能迎來估值重估；小比例配置深度價值股以對沖AI集中風險。",
+      "title_idea": "大空頭Burry全部梭哈被市場遺棄的股票！PayPal跌40%他反而全買，勝算幾成？",
+      "local_angle": "台灣有類似被AI熱潮忽視的傳統科技廠，若Burry邏輯成立，這類台廠可能是下一波被重新發現的機會，值得提前研究布局。"
     }
   ],
   "macro_observations": [
     {
-      "title": "S&P 500連8週收紅創近3年最長漲勢，Goldman Sachs警告「夏季才是真考驗」",
+      "title": "半導體SOX月動能創網路泡沫25年新高，「恐慌性追漲」模式引爆系統性風險警報",
       "sources": [
-        {"name": "CaixaBank Research", "url": "https://www.caixabankresearch.com/en/publications/financial-markets-daily-report/25-may-2026"},
+        {"name": "ZeroHedge", "url": "https://www.zerohedge.com/"},
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-26/stocks-gain-on-optimism-over-us-iran-deal-to-open-hormuz"}
+      ],
+      "summary": "費城半導體指數（SOX）月動能達到2000年網路泡沫以來最高水平，市場進入「恐慌性追漲」模式，年漲幅約69%達Nasdaq 100的兩倍。Goldman Sachs指出股債傳統負相關性已失靈，高度集中持倉隱藏連鎖崩跌風險，警告「Something's Got To Give」。",
+      "tw_stock_impact": "台積電作為SOX重要成分，若半導體修正啟動，台股將首當其衝；外資在台半導體持倉若同步撤出，將觸發指數快速回落，需密切觀察費城半導體指數走向。",
+      "investment_insight": "考慮降低半導體持倉比重，或以反向ETF（SOXS）進行部分避險；現有持倉設定嚴格停損點，建議以20日均線破位作為技術面觸發條件。",
+      "title_idea": "半導體狂潮動能創25年新高！Goldman警告：這就是崩盤前的最後訊號",
+      "local_angle": "台股漲跌九成跟著半導體走，SOX這個警訊對台灣投資人的意義比任何市場都更直接，在台積電創新高之際務必重視。"
+    },
+    {
+      "title": "美俄伊三方地緣風險同步升溫，全球市場陷入「信號矛盾」困局、傳統定價模型失靈",
+      "sources": [
+        {"name": "YouTube - Meet Kevin", "url": "https://www.youtube.com/watch?v=YpSDA9OaAl0"},
         {"name": "ZeroHedge", "url": "https://www.zerohedge.com/"}
       ],
-      "summary": "美股S&P 500締造連續8週上漲，為2023年12月以來最長連漲紀錄，道瓊衝上盤中歷史新高。然而Goldman Sachs警告「夏季將更加棘手」，大型科技股Call Skew（上漲偏態）已達極端水準，類似1997年與2003年泡沫前環境，機構開始謹慎。",
-      "tw_stock_impact": "美股強勢為台股提供正向動能，但若美股夏季出現回調，外資可能同步撤出台灣。台股於同日創歷史新高，外資持續匯入但需留意泡沫化跡象。",
-      "investment_insight": "在市場高度樂觀時，應適度提高現金或防禦型部位（醫療、消費必需品）；可考慮買入台指或美股保護性賣權（Put）作為對沖工具，控制投資組合最大回撤。",
-      "title_idea": "美股連漲8週超爽！Goldman Sachs卻說「夏天才是真考驗」——你準備好了嗎？",
-      "local_angle": "台股跟隨美股同步創歷史新高，但機構的夏季震盪警告值得台灣投資人謹慎看待，避免在最高點追高成為接盤俠。"
+      "summary": "美國空襲伊朗港口後，伊朗警告「迅速決定性報復」，但美國國務卿Rubio聲稱和平談判「數日內」可能達成協議；拉夫羅夫警告俄羅斯將對烏克蘭指揮中心發動系統性打擊。多重地緣衝突同時升溫，市場在「買和平預期」與「實際風險升高」之間反覆震盪，傳統定價模型失靈。",
+      "tw_stock_impact": "台海安全再度被與中東情勢類比，外資可能提高台灣地緣風險溢價；若中東衝突升溫影響科技供應鏈，台廠出貨能見度將再受不確定性壓制。",
+      "investment_insight": "配置10-15%資金於黃金或防禦型資產（公用事業、消費必需品ETF）作為地緣風險對沖；避免在地緣不確定性高峰期過度集中科技持倉，保持足夠現金比例應對突發事件。",
+      "title_idea": "美國打完伊朗說要談判，俄羅斯又威脅打烏克蘭，市場根本不知道該信哪個訊號",
+      "local_angle": "台灣夾在美中衝突與中東緊張之間，雙重地緣風險讓台股安全邊際必須重新評估，投資人需提高現金比例以應對潛在黑天鵝事件。"
     },
     {
-      "title": "伊朗戰爭壓垮印度天然氣發電，能源安全成全球系統性風險新焦點",
+      "title": "美國AI資料中心強占民宅土地引爆財產權之戰，基礎設施建設成AI最大瓶頸",
       "sources": [
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-25/iran-war-squeezes-india-s-gas-power-supply-as-demand-hits-record"}
+        {"name": "ZeroHedge", "url": "https://www.zerohedge.com/"}
       ],
-      "summary": "伊朗衝突嚴重壓縮印度天然氣進口管道，導致發電量大幅下降，恰逢印度電力需求創歷史新高，供電危機浮現。霍爾木茲海峽封鎖持續衝擊LNG運輸，全球能源安全問題已從短期地緣政治演變為結構性風險。",
-      "tw_stock_impact": "台灣高度依賴天然氣發電與進口LNG，霍爾木茲海峽情勢持續緊張直接壓力台灣電力供應成本，半導體製造業為高耗電產業，後續電費上調風險不可輕忽。",
-      "investment_insight": "能源安全議題長期化，可關注台灣離岸風電（能源基礎設施建設商）以及核能重啟相關討論；LNG接收站擴建受惠廠商也值得追蹤，長期具政策紅利。",
-      "title_idea": "伊朗打仗讓印度停電！台灣天然氣靠這條航道，我們的電費要漲了嗎？",
-      "local_angle": "台灣自身能源高度依賴進口LNG，霍爾木茲海峽任何風吹草動都直接關係到台灣的電費帳單與供電穩定，是每位台灣投資人都應了解的能源安全地圖。"
-    },
-    {
-      "title": "Fed Waller鷹派發聲要取消寬鬆偏向，美國消費者信心與通膨預期雙雙惡化",
-      "sources": [
-        {"name": "CaixaBank Research", "url": "https://www.caixabankresearch.com/en/publications/financial-markets-daily-report/25-may-2026"},
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-25/vigilant-ecb-hasn-t-yet-seen-second-round-effects-villeroy-says"}
-      ],
-      "summary": "聯準會理事Waller主張從政策聲明中移除「寬鬆偏向」措辭，短天期美債殖利率因此走高。密西根大學調查同步顯示美國消費者信心疲弱、通膨預期上升，令市場對「滯脹」（低成長+高通膨）的憂慮再度升溫。",
-      "tw_stock_impact": "美國消費者信心惡化將壓制終端需求，台灣出口導向電子廠（NB、手機供應鏈）的訂單前景需保守看待；高殖利率持續也壓制高本益比科技股估值。",
-      "investment_insight": "滯脹環境下，通膨連結資產（TIPS、黃金、原物料）以及低本益比高殖利率股具防禦優勢；應降低對美國消費類股的曝險，增加防禦性資產配置。",
-      "title_idea": "美國人越來越窮又越來越貴！Fed又要升息了？滯脹陰影下你的投資該怎麼調整",
-      "local_angle": "美國消費者信心是台灣出口訂單的領先指標，此訊號惡化對台灣電子業Q3旺季的預期是一個警示，投資人應開始追蹤各大廠商的法說會展望調整動態。"
+      "summary": "美國AI基礎設施擴張引發土地徵收爭議，資料中心業者以國家安全為由強制取得住宅土地，引發財產權保護的法律大戰。能源需求激增與住宅用地競爭，成為AI基礎設施建設的新結構性瓶頸，可能延緩AI硬體投資的落地進程。",
+      "tw_stock_impact": "台灣科技園區土地供應趨緊，AI資料中心需求帶動工業地產升值；但電力基礎建設不足可能限制AI供應鏈的本地擴張速度，需追蹤台灣電力公司的資本支出計畫。",
+      "investment_insight": "工業地產REITs與電力基礎設施股（電纜廠華新、中興電、士電）成為AI時代的隱形受益者，可作為科技股以外的AI布局替代方案，具較低估值與穩定股息。",
+      "title_idea": "AI資料中心要強占你家土地！房地產vs科技的世紀大戰，誰會贏？",
+      "local_angle": "台灣竹科、南科等園區土地稀缺，AI資料中心需求若蔓延至台灣，將進一步推升工業用地價格，形成新一輪不動產投資機會，值得提前關注。"
     }
   ]
 }

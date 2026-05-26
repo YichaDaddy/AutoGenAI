@@ -1,0 +1,70 @@
+=== Wed May 27 06:00:03 CST 2026 | Starting daily AI report ===
+Dashboard updated successfully. Here's a summary of what was gathered and written:
+
+---
+
+## 2026-05-26 AI 日報摘要
+
+**來源覆蓋狀況：**
+
+| 來源 | 狀態 | 昨日內容數量 | 備註 |
+|------|------|------------|------|
+| TechCrunch AI | ✅ | 3 篇 | /2026/05/26/ URL 確認 |
+| FutureTools | ✅ | 2 條 | Figure AI、ElevenLabs Music v2 |
+| WebSearch 補充 | ✅ | 3 條 | OpenAI Codex、驗偽工具、AI 路由趨勢 |
+| YouTube 頻道 | ❌ | 0 | 無法抓取昨日影片，跳過 |
+| X/Twitter 帳號 | ❌ | 0 | 存取限制，以新聞搜尋替代 |
+
+**板塊一 大事件（3 則）：**
+1. OpenRouter 估值翻倍至 13 億美元（TechCrunch 確認 /2026/05/26/）
+2. Figure AI 人形機器人進駐 JCPenney 倉庫（官方新聞稿確認 May 26）
+3. 環球音樂 x TikTok 續約打擊 AI 音樂（TechCrunch 確認 /2026/05/26/）
+
+**板塊二 工具更新（3 則）：**
+4. ElevenLabs Music v2 正式上線（FutureTools 確認 May 26）
+5. OpenAI Codex 重大更新（OpenAI 5/26 發布）
+6. OpenAI AI 內容來源驗證工具上線（OpenAI 5/26 發布）
+
+**板塊三 趨勢（2 則）：**
+7. 印度零工經濟成 Physical AI 數據引擎（TechCrunch /2026/05/26/）
+8. AI 路由平台模式獲資本驗證趨勢
+
+看板已同步更新，可打開 `daily_topic_dashboard.html` 查看。
+
+DONE
+--- AI report finished at Wed May 27 06:04:44 CST 2026 ---
+=== Wed May 27 06:04:44 CST 2026 | Starting daily finance report ===
+看板更新完成。
+
+**FINANCE DONE**
+
+---
+
+**2026-05-26 財經日報執行摘要：**
+
+共蒐集 10 則，分類如下：
+
+**市場震撼彈（4則）**
+- 台股市值超越印度，躍居全球第五（Bloomberg）
+- SpaceX 以 1.25 兆美元估值申請 IPO，Tesla 合併傳聞引爆太空概念股
+- 大空頭 Burry 加碼做空半導體 ETF，警告 AI 泡沫超越 2000 年
+- Nasdaq 突破 30,000 點但 Goldman 警告股債相關性失靈
+
+**投資機會（4則）**
+- 核電概念股暴漲：川普政府分配武器級鈽給商業核電廠
+- 中日拋售美債，黃金抗通膨資產受惠
+- 美伊停火談判油價跌破 90 美元，台廠成本受益
+- Burry 逆向重押 PayPal/Adobe 等「被AI遺忘股」
+
+**總經觀察（3則）**
+- SOX 月動能創 25 年新高，恐慌性追漲引爆系統性警報
+- 美俄伊三方地緣風險同步升溫，定價模型失靈
+- AI 資料中心強占土地引爆財產權之戰，基礎設施成最大瓶頸
+
+Sources:
+- [Bloomberg - Taiwan overtakes India](https://www.bloomberg.com/news/articles/2026-05-26/tsmc-s-relentless-rise-powers-taiwan-s-market-value-above-india)
+- [CNBC - SpaceX IPO space stocks](https://www.cnbc.com/2026/05/26/spacex-ipo-filing-sparks-a-bull-market-in-space-stocks-how-to-buy-in.html)
+- [Yahoo Finance - Michael Burry vs Nvidia](https://finance.yahoo.com/markets/stocks/articles/michael-burry-goes-nvidia-again-051409750.html)
+- [YouTube - Meet Kevin](https://www.youtube.com/watch?v=5VXbBLaZTD4)
+- [YouTube - Andrei Jikh](https://www.youtube.com/watch?v=w8yTmTdF1Kw)
+--- Finance report finished at Wed May 27 06:12:17 CST 2026 ---
