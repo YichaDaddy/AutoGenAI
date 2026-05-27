@@ -2413,6 +2413,37 @@
       });
     }
 
+    // ── Overtime Firebase Sync ────────────────────────────────
+    var OT_FB_KEY = 'a0db69aab4591fa390';
+    var otFbTimer = null;
+
+    function otFbPush() {
+      clearTimeout(otFbTimer);
+      otFbTimer = setTimeout(function() {
+        var salary = parseFloat((document.getElementById('ot-salary') || {}).value) || 0;
+        fetch(FB_DB + '/overtime/' + OT_FB_KEY + '.json', {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ salary: salary, records: otData, updated: new Date().toISOString() })
+        }).catch(function() {});
+      }, 800);
+    }
+
+    function otFbPull() {
+      fetch(FB_DB + '/overtime/' + OT_FB_KEY + '.json')
+        .then(function(r) { return r.ok ? r.json() : null; })
+        .then(function(data) {
+          if (!data) return;
+          if (data.salary != null) {
+            var el = document.getElementById('ot-salary');
+            if (el) el.value = data.salary;
+          }
+          if (data.records) otData = data.records;
+          if (otReady) { otRenderCalendar(); otRenderSummary(); }
+        })
+        .catch(function() {});
+    }
+
     var stocksReady = false;
     function maybeInitStocks() {
       if (stocksReady) return;
@@ -2773,6 +2804,7 @@
           if (!isNaN(val) && val > 0) { otData[this.dataset.date] = val; this.classList.add('has-val'); }
           else { delete otData[this.dataset.date]; this.classList.remove('has-val'); }
           otRenderSummary();
+          otFbPush();
         });
       });
       document.getElementById('ot-month-title').textContent = otYear + ' 年 ' + (otMonth + 1) + ' 月';
@@ -2829,8 +2861,12 @@
         otMonth++; if (otMonth > 11) { otMonth = 0; otYear++; }
         otRenderCalendar();
       });
-      document.getElementById('ot-salary').addEventListener('input', otRenderSummary);
+      document.getElementById('ot-salary').addEventListener('input', function() {
+        otRenderSummary();
+        otFbPush();
+      });
       otRenderCalendar();
+      otFbPull();
     }
 
     // ── Init bento on page load ───────────────────────────────
