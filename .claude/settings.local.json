@@ -39,7 +39,10 @@
       "Read(//Users/mac/projects/.claude/**)",
       "Bash(mkdir -p /Users/mac/projects/.claude)",
       "Bash(cat /Users/mac/.claude/settings.json 2>/dev/null || echo \"not found\")",
-      "Read(//Users/mac/.claude/**)"
+      "Read(//Users/mac/.claude/**)",
+      "Bash(claude auth *)",
+      "Bash(bash ~/Desktop/mac-mini-setup/setup.sh)",
+      "Bash(crontab -l)"
     ],
     "additionalDirectories": [
       "/Users/mac/projects"
