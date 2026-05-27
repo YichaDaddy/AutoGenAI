@@ -1,104 +1,123 @@
 {
-  "date": "2026-05-26",
+  "date": "2026-05-27",
   "big_events": [
     {
-      "title": "OpenRouter 估值翻倍至 13 億美元，完成 1.13 億 B 輪融資",
+      "title": "AI 程式代理人新創 Cognition 完成 10 億美元融資，估值衝上 250 億美元",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/26/openrouter-more-than-doubles-valuation-to-1-3b-in-a-year/"},
-        {"name": "PYMNTS", "url": "https://www.pymnts.com/news/investment-tracker/2026/openrouter-raises-113-million-to-expand-ai-model-marketplace/"},
-        {"name": "Ventureburn", "url": "https://ventureburn.com/openrouter-raises-113m-as-weekly-tokens-hit-25t/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/27/ai-coding-startup-cognition-raises-1b-at-25b-pre-money-valuation/"}
       ],
-      "summary": "AI 路由平台 OpenRouter 獲 CapitalG 領投完成 B 輪，估值達 13 億美元，每週處理 25 兆 tokens，支援 400+ 模型、800 萬用戶",
-      "audience": "重度使用 AI 工具的職場上班族、獨立開發者",
-      "pain_point": "要同時使用 GPT、Claude、Gemini 等多款模型，需分別付費與管理帳號，成本高又麻煩",
-      "title_idea": "一個 API 用遍所有 AI！OpenRouter 憑什麼值 13 億美元？",
-      "local_angle": "OpenRouter 在台灣知名度極低，但海外開發者大量依賴，搶先做繁體中文入門教學可收割精準流量"
+      "summary": "Devin 母公司 Cognition 八個月估值翻倍，年化營收達 4.92 億美元，企業客戶涵蓋 Mercedes-Benz、NASA、Goldman Sachs。",
+      "audience": "職場上班族、工程師、科技愛好者",
+      "pain_point": "上班族擔心 AI 會取代自己的工作，又不知道 AI 寫程式的真實能力到底有多強",
+      "title_idea": "「AI 工程師 Devin 背後的公司估值破 250 億！你的工作真的要被 AI 搶走了？」",
+      "local_angle": "台灣科技業還沒大量導入 AI 代碼 Agent，華語圈幾乎無人深入分析 Devin 實際使用體驗，搶先做「AI 代碼 Agent 實測」教學紅利極大"
     },
     {
-      "title": "Figure AI 人形機器人正式進駐 JCPenney 倉庫，零售業物理 AI 商業落地",
+      "title": "OpenAI × Thrive 打造自我進化稅務 AI，準確率 97%、節省 85% 作業時間",
       "sources": [
-        {"name": "JCPenney Newsroom", "url": "https://corporate.jcpenney.com/2026/05/26/catalyst-brands-taps-figure-ai-for-humanoid-automation/"},
-        {"name": "FutureTools", "url": "https://futuretools.io/news"}
+        {"name": "OpenAI", "url": "https://openai.com/index/building-self-improving-tax-agents-with-codex/"},
+        {"name": "Crypto Briefing", "url": "https://cryptobriefing.com/openai-thrive-self-improving-tax-ai/"}
       ],
-      "summary": "Figure AI 與 Catalyst Brands（JCPenney 母公司）簽署商業部署協議，人形機器人即日起在內華達州倉庫分揀包裝作業",
-      "audience": "對 AI 就業趨勢關注的職場上班族、製造/零售業從業者",
-      "pain_point": "擔心 AI 與機器人搶走工作，不確定哪些職位最危險、未來如何自保",
-      "title_idea": "人形機器人進倉庫了！JCPenney 部署 Figure AI，哪些工作首當其衝？",
-      "local_angle": "全球首個大型零售品牌商業部署人形機器人案例，台灣媒體幾乎未報導，資訊差極大"
+      "summary": "OpenAI 用 Codex 為 Thrive Holdings 建立可自我改進的稅務 AI，處理 7000 筆報稅單，一位會計師作業時間從 180 小時降至 15 小時。",
+      "audience": "職場上班族（會計、財務、行政族群）",
+      "pain_point": "重複性事務工作耗時耗力，不知道 AI 工具能否實際幫助日常職場作業",
+      "title_idea": "「ChatGPT 幫你報稅！AI 稅務代理人 97% 正確率，你的會計工作還安全嗎？」",
+      "local_angle": "台灣報稅季剛結束，職場財務話題高度共鳴；以「AI 如何真正取代重複性職場工作」切角，歐美已有實際成果可引用"
     },
     {
-      "title": "環球音樂與 TikTok 續約，聯手打擊未授權 AI 生成音樂",
+      "title": "Meta 正式推出 Instagram / Facebook / WhatsApp 付費訂閱，AI 進階方案最高 $19.99/月",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/26/universal-music-group-and-tiktok-renew-agreement-to-combat-unauthorized-ai-music/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/"}
       ],
-      "summary": "環球音樂集團與 TikTok 延續合作協議，共同對抗未授權 AI 生成音樂在平台上的擴散",
-      "audience": "使用 AI 音樂工具的內容創作者、YouTuber、短影音創作者",
-      "pain_point": "用 AI 工具生成背景音樂怕被版權申訴，不清楚哪些 AI 音樂工具合法可商用",
-      "title_idea": "用 AI 做音樂要小心！環球音樂 x TikTok 聯手，這些 AI 歌曲可能下架",
-      "local_angle": "台灣創作者大量使用 Suno、ElevenLabs 製作配樂，版權風險話題切身相關且少有人深入解析"
+      "summary": "Meta One 生態系推出月費 $2.99–$19.99 各層級訂閱，AI 方案含深度推理與影像生成，創作者/商業方案含驗證標章與進階分析。",
+      "audience": "自媒體創作者、職場行銷人、社群媒體重度使用者",
+      "pain_point": "創作者不確定 Meta 付費功能值不值得訂閱，AI 功能有哪些實際用途",
+      "title_idea": "「IG/FB/WhatsApp 要收費了！Meta 訂閱制全解析，AI 功能到底值不值得付？」",
+      "local_angle": "台灣 IG 用戶眾多，此話題本地關注度高；可做「Meta AI 訂閱 vs 競品」比較，目前華語圈深入分析幾乎為零"
     }
   ],
   "tool_updates": [
     {
-      "title": "ElevenLabs Music v2 上線：多語言、逐段編輯、API 嵌入全面升級",
+      "title": "Runway 推出 MCP，Claude / ChatGPT 對話中可直接生成 AI 影片",
       "sources": [
-        {"name": "ElevenLabs", "url": "https://elevenlabs.io/music"},
-        {"name": "FutureTools", "url": "https://futuretools.io/news"}
+        {"name": "Runway", "url": "https://runwayml.com/news/mcp"},
+        {"name": "KuCoin News", "url": "https://www.kucoin.com/news/flash/runway-launches-model-context-protocol-server-for-ai-generated-media"}
       ],
-      "summary": "ElevenLabs Music v2 大幅升級人聲、編曲與多語言支援，可逐段精細編輯，API 即將開放供開發者嵌入產品",
-      "audience": "YouTuber、Podcast 創作者、影音剪輯工作者、獨立音樂人",
-      "pain_point": "AI 音樂生成品質不穩定、中文人聲效果差、缺乏細部風格控制",
-      "title_idea": "AI 音樂再進化！ElevenLabs Music v2 實測：一個提示詞生成完整歌曲",
-      "local_angle": "Music v2 支援多語言含中文，工具還沒有繁體中文教學，搶先做評測能吃到早期流量紅利"
+      "summary": "Runway 發布 MCP 伺服器，讓 Claude、ChatGPT、Cursor 等 AI 助理無需切換平台，直接在對話中呼叫 Runway 生成影片與圖片。",
+      "audience": "內容創作者、自媒體人、影片剪輯師",
+      "pain_point": "AI 影片生成工具繁多、操作繁瑣，需要在多個平台間切換，效率低",
+      "title_idea": "「Claude 現在可以直接幫你生 AI 影片！Runway MCP 完整教學，一鍵生成不用切平台」",
+      "local_angle": "MCP 生態在台灣幾乎無人做繁中教學，Runway 本身已有知名度；此教學搶佔「Claude × Runway」搜尋紅利"
     },
     {
-      "title": "OpenAI Codex 重大更新：支援插件、App-Server 工作流與擴充套件",
+      "title": "ElevenLabs Music v2 發布：中途切換曲風、逐段生成，AI 音樂製作大升級",
       "sources": [
-        {"name": "OpenAI Release Notes", "url": "https://releasebot.io/updates/openai"},
-        {"name": "OpenAI News", "url": "https://openai.com/news/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/27/elevenlabss-new-music-generation-model-can-switch-genres-mid-track/"}
       ],
-      "summary": "OpenAI Codex 更新目標設定、插件整合、TUI 穩定性及跨平台封裝支援（npm、安裝程式），強化複雜工作流能力",
-      "audience": "工程師、開發者、用 AI 自動化日常工作的上班族",
-      "pain_point": "Codex 之前難以整合進複雜開發流程，需頻繁手動切換工具，效率打折",
-      "title_idea": "Codex 終於支援插件了！OpenAI AI 工程師工具大更新完整解析",
-      "local_angle": "台灣工程師族群龐大，Codex 繁體中文深度使用教學幾乎空白，切入點清晰"
+      "summary": "Music v2 支援分段（前奏/主歌/副歌）獨立生成後合併，可中途切換曲風，並支援多語言人聲與非音樂音效。",
+      "audience": "Vlog 創作者、Podcast 製作人、內容行銷人",
+      "pain_point": "找免版權配樂困難，AI 生成音樂不夠靈活、無法符合影片節奏變化",
+      "title_idea": "「Vlog 配樂不再頭痛！ElevenLabs 音樂 AI 大升級，現在可以分段生成還能換曲風」",
+      "local_angle": "台灣 Vlogger 社群大，版權音樂問題普遍；ElevenLabs 中文教學稀缺，搶先做差異化內容"
     },
     {
-      "title": "OpenAI 推出 AI 內容來源驗證工具，打擊深偽與虛假資訊",
+      "title": "Robinhood 開放 AI 代理人自動交易股票，專設隔離錢包管控風險",
       "sources": [
-        {"name": "OpenAI News", "url": "https://openai.com/news/"},
-        {"name": "OpenAI Release Notes", "url": "https://releasebot.io/updates/openai"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/27/robinhood-now-lets-your-ai-agents-trade-stocks/"}
       ],
-      "summary": "OpenAI 上線內容真偽驗證工具，初期限於 OpenAI 自家生成內容，未來將擴展至跨平台驗證機制",
-      "audience": "媒體從業者、內容創作者、重視資訊安全的職場人士",
-      "pain_point": "AI 生成假圖假影片氾濫，普通人根本無法辨別真偽，深偽詐騙風險上升",
-      "title_idea": "OpenAI 新工具辨識 AI 假圖！深偽時代如何保護自己？",
-      "local_angle": "台灣社群假資訊問題嚴重，AI 驗偽工具話題本地化切入角度明確，受眾廣泛"
+      "summary": "Robinhood 推出 AI Agent 交易帳戶，AI 可分析投資組合並自動下單，預載金額隔離風險，目前支援股票（Beta），未來擴展至期權、加密貨幣、期貨。",
+      "audience": "投資理財族、對 AI 自動化感興趣的職場上班族",
+      "pain_point": "想嘗試 AI 理財但不知道安全性如何、AI 代理人交易的邊界在哪",
+      "title_idea": "「AI 幫你炒股來真的！Robinhood 開放 AI 自動交易，風險控管機制大公開」",
+      "local_angle": "台灣投資熱潮加上 AI 趨勢，此話題跨圈傳播力強；可做「AI 投資代理人」系列，海外已驗證、華語圈幾乎空白"
+    },
+    {
+      "title": "Anthropic Claude Managed Agents 更新：自託管安全沙箱 + MCP 私有網路隧道",
+      "sources": [
+        {"name": "InfoQ", "url": "https://www.infoq.com/news/2026/05/code-with-claude/"},
+        {"name": "Testing Catalog", "url": "https://www.testingcatalog.com/anthropic-launches-new-secure-tools-for-claude-managed-agents/"}
+      ],
+      "summary": "Anthropic 在 Code w/ Claude London 發布自託管沙箱（可部署於 Cloudflare/Vercel 等平台）及 MCP 私有網路隧道，讓企業 Agent 不暴露於公開網路。",
+      "audience": "開發者、企業 IT、對 Claude Agent 有興趣的職場工作者",
+      "pain_point": "企業擔心資料安全，不敢把敏感資料交給雲端 AI；不知道如何在自己的環境部署 AI Agent",
+      "title_idea": "「Claude Agent 企業版大升級！自架安全沙箱教學，公司機密資料不外洩」",
+      "local_angle": "台灣企業對 AI 資安顧慮普遍，此話題填補「企業安全部署 Claude Agent」的知識缺口，受眾精準"
     }
   ],
   "trends": [
     {
-      "title": "印度零工經濟成為 Physical AI 數據引擎，機器人訓練催生新興職業",
+      "title": "YouTube 開始自動偵測並標記 AI 生成影片，創作者須留意新規則",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/26/human-archive-taps-into-indias-services-startups-to-collect-data-for-physical-ai/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/27/youtube-will-now-automatically-label-ai-videos/"},
+        {"name": "YouTube Blog", "url": "https://blog.youtube"}
       ],
-      "summary": "新創 Human Archive 透過印度零工平台大規模採集機器人訓練數據，Physical AI 數據採集成新興就業市場",
-      "audience": "對 AI 就業趨勢好奇的職場上班族、人力資源從業者",
-      "pain_point": "不確定 AI 浪潮下什麼樣的工作還有機會，想找到 AI 時代可切入的新方向",
-      "title_idea": "AI 最需要的其實是人！靠採集機器人數據月入幾萬的新工種誕生",
-      "local_angle": "Physical AI 數據採集這個新工種在台灣幾乎無人報導，海外已驗證的新職業切角，資訊差大"
+      "summary": "YouTube 推出自動 AI 標記功能，不再只靠創作者自行申報，AI 生成內容將被平台主動識別並標示。",
+      "audience": "YouTube 創作者、AI 影片製作者",
+      "pain_point": "不確定自己用 AI 工具製作的影片是否會被標記、對頻道有何影響",
+      "title_idea": "「YouTube 自動偵測 AI 影片了！你的頻道會被標記嗎？創作者必看新規完整解析」",
+      "local_angle": "台灣 YouTube 創作者普遍開始使用 AI 工具，此規則影響所有人；可搶先做「如何合規使用 AI 製作 YouTube 內容」教學"
     },
     {
-      "title": "AI 路由平台模式獲資本驗證，「單一 API 串接百款模型」成效率工具新趨勢",
+      "title": "OpenAI vs Anthropic 公開論戰：AI 究竟會不會造成大規模失業？",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/26/openrouter-more-than-doubles-valuation-to-1-3b-in-a-year/"},
-        {"name": "Sacra", "url": "https://sacra.com/c/openrouter/"}
+        {"name": "Axios", "url": "https://www.axios.com/2026/05/27/ai-hype-doom-openai-anthropic"}
       ],
-      "summary": "OpenRouter 一年估值翻倍印證 AI 路由平台商業模式成立，用戶可透過單一 API 以最低成本選用最適合的模型",
-      "audience": "想最佳化 AI 工具成本的職場上班族、小型團隊創業者",
-      "pain_point": "AI 工具月費疊加後費用驚人，不知道如何在預算內用到最好的模型",
-      "title_idea": "省 AI 工具費用的秘密武器！什麼是 AI 路由？一次看懂 OpenRouter",
-      "local_angle": "「用最少的錢用最好的 AI」這個痛點對台灣中小企業與個人用戶極具吸引力，鮮有人講清楚"
+      "summary": "Sam Altman 表示 AI 不會造成就業末日並承認早期預測過於悲觀；Anthropic Chris Olah 則在梵蒂岡 AI 倫理峰會警告大規模勞動力替代是真實風險。",
+      "audience": "職場上班族、對 AI 未來發展感焦慮的工作者",
+      "pain_point": "不確定 AI 對自己工作的真實威脅程度，各方說法混亂令人無所適從",
+      "title_idea": "「AI 到底會不會讓你失業？OpenAI CEO 和 Anthropic 兩套說法大對決，哪個更可信？」",
+      "local_angle": "台灣職場 AI 焦慮話題高度共鳴，可結合「如何用 AI 提升不可取代性」切角，把恐懼轉化為行動力"
+    },
+    {
+      "title": "Snowflake × AWS 簽署 60 億美元 AI 晶片協議，企業 AI 基礎建設軍備競賽升溫",
+      "sources": [
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/27/in-more-good-news-for-amazon-snowflake-signs-6b-deal-with-aws-for-ai-cpu-chips/"}
+      ],
+      "summary": "Snowflake 與 AWS 簽 60 億美元 AI CPU 晶片長期合約，顯示企業級 AI 基礎建設投資仍在急速擴張階段。",
+      "audience": "科技投資者、企業 IT 決策者、對 AI 產業趨勢有興趣的職場人",
+      "pain_point": "想掌握 AI 產業的真實發展走向，但財經新聞太枯燥難懂",
+      "title_idea": "「AI 軍備競賽沒有要停的跡象！Snowflake 砸 60 億買 AWS 晶片，背後代表什麼？」",
+      "local_angle": "可以「企業 AI 基礎建設爆炸成長 → 對職場工作者意味著什麼」切角，將財經新聞轉化為職場人關心的視角"
     }
   ]
 }
