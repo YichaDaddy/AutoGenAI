@@ -42,7 +42,8 @@
       "Read(//Users/mac/.claude/**)",
       "Bash(claude auth *)",
       "Bash(bash ~/Desktop/mac-mini-setup/setup.sh)",
-      "Bash(crontab -l)"
+      "Bash(crontab -l)",
+      "Bash(bash ~/projects/verify-sync.sh check)"
     ],
     "additionalDirectories": [
       "/Users/mac/projects"
