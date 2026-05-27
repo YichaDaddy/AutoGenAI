@@ -46,7 +46,8 @@
       "Bash(bash ~/projects/verify-sync.sh check)",
       "Bash(launchctl list | grep -i autogenai 2>/dev/null || echo \"NOT_FOUND\" *)",
       "Read(//Users/mac/Library/LaunchAgents/**)",
-      "WebFetch(domain:yichadaddy.github.io)"
+      "WebFetch(domain:yichadaddy.github.io)",
+      "Bash(npx skills *)"
     ],
     "additionalDirectories": [
       "/Users/mac/projects"
