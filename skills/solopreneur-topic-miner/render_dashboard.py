@@ -79,16 +79,18 @@ def render_ai_card(item, accent_class):
     title_idea  = item.get('title_idea', '')
     local_angle = item.get('local_angle', '')
     return f"""<div class="news-card">
-      <div class="card-accent {accent_class}"></div>
-      <div class="card-body">
-        <h3 class="card-title">{title}</h3>
-        <div class="sources-row">{sources_html}</div>
-        <p class="summary">{summary}</p>
-        <div class="insight-panel">
-          <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">{audience}</span></div>
-          <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">{pain_point}</span></div>
-          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">{title_idea}</span></div>
-          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">{local_angle}</span></div>
+      <div class="card-inner">
+        <div class="card-accent {accent_class}"></div>
+        <div class="card-body">
+          <h3 class="card-title">{title}</h3>
+          <div class="sources-row">{sources_html}</div>
+          <p class="summary">{summary}</p>
+          <div class="insight-panel">
+            <div class="insight-row"><span class="insight-label">目標受眾</span><span class="insight-value">{audience}</span></div>
+            <div class="insight-row"><span class="insight-label">痛點</span><span class="insight-value">{pain_point}</span></div>
+            <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">{title_idea}</span></div>
+            <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">{local_angle}</span></div>
+          </div>
         </div>
       </div>
     </div>"""
@@ -119,16 +121,18 @@ def render_finance_card(item, accent_class):
     title_idea         = item.get('title_idea', '')
     local_angle        = item.get('local_angle', '')
     return f"""<div class="news-card">
-      <div class="card-accent {accent_class}"></div>
-      <div class="card-body">
-        <h3 class="card-title">{title}</h3>
-        <div class="sources-row">{sources_html}</div>
-        <p class="summary">{summary}</p>
-        <div class="insight-panel">
-          <div class="insight-row stock-row"><span class="insight-label">對台股影響</span><span class="insight-value">{tw_stock_impact}</span></div>
-          <div class="insight-row invest-row"><span class="insight-label">投資啟示</span><span class="insight-value">{investment_insight}</span></div>
-          <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">{title_idea}</span></div>
-          <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">{local_angle}</span></div>
+      <div class="card-inner">
+        <div class="card-accent {accent_class}"></div>
+        <div class="card-body">
+          <h3 class="card-title">{title}</h3>
+          <div class="sources-row">{sources_html}</div>
+          <p class="summary">{summary}</p>
+          <div class="insight-panel">
+            <div class="insight-row stock-row"><span class="insight-label">對台股影響</span><span class="insight-value">{tw_stock_impact}</span></div>
+            <div class="insight-row invest-row"><span class="insight-label">投資啟示</span><span class="insight-value">{investment_insight}</span></div>
+            <div class="insight-row title-row"><span class="insight-label">標題雛形</span><span class="insight-value">{title_idea}</span></div>
+            <div class="insight-row local-row"><span class="insight-label">本地化切角</span><span class="insight-value">{local_angle}</span></div>
+          </div>
         </div>
       </div>
     </div>"""
@@ -192,7 +196,7 @@ def render_html():
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI 日報 & 財經新聞</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Geist+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after {{ box-sizing: border-box; margin: 0; padding: 0; }}
 
@@ -225,6 +229,9 @@ def render_html():
       --shadow-sm:    0 1px 3px rgba(0,0,0,0.07), 0 1px 2px rgba(0,0,0,0.04);
       --shadow-md:    0 4px 16px rgba(0,0,0,0.08), 0 2px 6px rgba(0,0,0,0.04);
       --radius:       14px;
+      --radius-outer: 20px;
+      --radius-inner: 15px;
+      --ease-spring:  cubic-bezier(0.32,0.72,0,1);
       --header-h:     64px;
       --channel-h:    44px;
       --tabs-h:       52px;
@@ -270,7 +277,8 @@ def render_html():
     .header-date  {{ font-size: 13px; font-weight: 700; color: #E5E7EB; letter-spacing: 0.2px; }}
     .header-count {{
       display: inline-block; margin-top: 2px;
-      font-size: 10px; font-weight: 600; color: #374151;
+      font-family: 'Geist Mono', 'JetBrains Mono', monospace;
+      font-size: 10px; font-weight: 500; color: #374151;
       background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.1);
       border-radius: 99px; padding: 1px 8px; letter-spacing: 0.3px;
     }}
@@ -315,8 +323,9 @@ def render_html():
       flex-shrink: 0; padding: 5px 14px;
       border-radius: 8px; border: 1px solid var(--border);
       background: transparent; color: var(--muted);
-      font-family: inherit; font-size: 12px; font-weight: 600;
-      cursor: pointer; transition: all 0.15s; white-space: nowrap;
+      font-family: 'Geist Mono', 'JetBrains Mono', monospace;
+      font-size: 12px; font-weight: 500;
+      cursor: pointer; transition: all 200ms var(--ease-spring); white-space: nowrap;
     }}
     .date-tab:hover {{ background: var(--page); color: var(--ink); border-color: #CBD5E0; }}
     .date-tab.active {{ background: var(--ink); color: #fff; border-color: var(--ink); }}
@@ -330,13 +339,16 @@ def render_html():
 
     /* ─── Section ─── */
     .report-section {{
-      margin-bottom: 3rem; opacity: 0; transform: translateY(10px);
-      animation: fadeUp 0.35s ease forwards;
+      margin-bottom: 3rem; opacity: 0; transform: translateY(16px);
+      animation: fadeUp 0.6s var(--ease-spring) forwards;
     }}
     .report-section:nth-child(1) {{ animation-delay: 0.04s; }}
-    .report-section:nth-child(2) {{ animation-delay: 0.12s; }}
-    .report-section:nth-child(3) {{ animation-delay: 0.20s; }}
-    @keyframes fadeUp {{ to {{ opacity: 1; transform: translateY(0); }} }}
+    .report-section:nth-child(2) {{ animation-delay: 0.14s; }}
+    .report-section:nth-child(3) {{ animation-delay: 0.24s; }}
+    @keyframes fadeUp {{
+      from {{ opacity: 0; transform: translateY(16px); filter: blur(4px); }}
+      to   {{ opacity: 1; transform: translateY(0);    filter: blur(0);   }}
+    }}
 
     .section-header {{ display: flex; align-items: center; gap: 12px; margin-bottom: 1.5rem; }}
     .section-dot {{ width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }}
@@ -355,7 +367,7 @@ def render_html():
     .label-purple {{ color: var(--purple); }}
     .label-teal   {{ color: var(--teal); }}
 
-    .section-count {{ font-size: 11px; font-weight: 600; padding: 2px 10px; border-radius: 99px; margin-left: 2px; }}
+    .section-count {{ font-family: 'Geist Mono', 'JetBrains Mono', monospace; font-size: 11px; font-weight: 500; padding: 2px 10px; border-radius: 99px; margin-left: 2px; }}
     .count-red    {{ background: var(--red-bg);    color: var(--red);    border: 1px solid var(--red-border); }}
     .count-blue   {{ background: var(--blue-bg);   color: var(--blue);   border: 1px solid var(--blue-border); }}
     .count-green  {{ background: var(--green-bg);  color: var(--green);  border: 1px solid var(--green-border); }}
@@ -366,18 +378,33 @@ def render_html():
     .section-line {{ flex: 1; height: 1px; background: var(--border); }}
 
     /* ─── Cards Grid ─── */
-    .cards-grid {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(460px, 1fr)); gap: 1.25rem; }}
+    .cards-grid {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(460px, 1fr)); gap: 1.5rem; }}
     @media (max-width: 680px) {{ .cards-grid {{ grid-template-columns: 1fr; }} }}
 
-    /* ─── News Card ─── */
+    /* ─── News Card (Double-Bezel) ─── */
     .news-card {{
-      background: var(--surface); border: 1px solid var(--border);
-      border-radius: var(--radius); overflow: hidden;
-      box-shadow: var(--shadow-sm);
-      transition: box-shadow 0.2s, transform 0.2s;
+      background: rgba(0,0,0,0.025);
+      border: 1px solid rgba(0,0,0,0.055);
+      border-radius: var(--radius-outer);
+      padding: 5px;
+      box-shadow: 0 0 0 1px rgba(0,0,0,0.03), 0 2px 12px rgba(0,0,0,0.07);
+      transition: box-shadow 700ms var(--ease-spring), transform 700ms var(--ease-spring);
       display: flex; flex-direction: column;
     }}
-    .news-card:hover {{ box-shadow: var(--shadow-md); transform: translateY(-3px); }}
+    .news-card:hover {{
+      box-shadow: 0 0 0 1px rgba(0,0,0,0.05), 0 10px 36px rgba(0,0,0,0.13);
+      transform: translateY(-4px);
+    }}
+    .news-card:active {{ transform: translateY(-1px); }}
+
+    .card-inner {{
+      background: var(--surface);
+      border-radius: var(--radius-inner);
+      overflow: hidden;
+      box-shadow: inset 0 1px 1px rgba(255,255,255,0.8);
+      display: flex; flex-direction: column;
+      flex: 1;
+    }}
 
     .card-accent {{ height: 4px; width: 100%; }}
     .accent-red    {{ background: linear-gradient(90deg, #E53E3E, #FC8181); }}
@@ -395,8 +422,9 @@ def render_html():
       display: inline-flex; align-items: center; gap: 4px;
       padding: 3px 10px; background: #F1F5F9; color: #334155;
       border: 1px solid #E2E8F0; border-radius: 6px;
-      font-size: 11px; font-weight: 600; text-decoration: none;
-      transition: background 0.15s, border-color 0.15s;
+      font-family: 'Geist Mono', 'JetBrains Mono', monospace;
+      font-size: 11px; font-weight: 500; text-decoration: none;
+      transition: all 250ms var(--ease-spring);
     }}
     .source-tag::before {{ content: '↗'; font-size: 9px; color: var(--faint); }}
     .source-tag:hover {{ background: #E2E8F0; border-color: #CBD5E0; }}
@@ -412,7 +440,8 @@ def render_html():
     .insight-row {{ display: grid; grid-template-columns: 80px 1fr; border-bottom: 1px solid var(--border); }}
     .insight-row:last-child {{ border-bottom: none; }}
     .insight-label {{
-      font-size: 10px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase;
+      font-family: 'Geist Mono', 'JetBrains Mono', monospace;
+      font-size: 10px; font-weight: 500; letter-spacing: 0.5px; text-transform: uppercase;
       color: var(--faint); padding: 10px 12px; background: #FAFBFC;
       display: flex; align-items: flex-start;
       border-right: 1px solid var(--border); line-height: 1.4;

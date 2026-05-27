@@ -47,10 +47,12 @@
       "Bash(launchctl list | grep -i autogenai 2>/dev/null || echo \"NOT_FOUND\" *)",
       "Read(//Users/mac/Library/LaunchAgents/**)",
       "WebFetch(domain:yichadaddy.github.io)",
-      "Bash(npx skills *)"
+      "Bash(npx skills *)",
+      "Bash(cp /Users/mac/projects/AutoGenAI/daily_topic_dashboard.html /Users/mac/projects/AutoGenAI/daily_topic_dashboard_before.html)"
     ],
     "additionalDirectories": [
-      "/Users/mac/projects"
+      "/Users/mac/projects",
+      "/Users/mac/projects/AutoGenAI"
     ]
   }
 }
