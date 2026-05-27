@@ -391,26 +391,7 @@
     .bento-stock-footer { display: flex; align-items: center; justify-content: space-between; }
     .bsf-remain { font-size: 11px; color: var(--text-faint); }
 
-    /* ── Bottom ticker ── */
-    .ticker-bar { position: fixed; bottom: 0; left: 0; right: 0; height: 30px;
-      background: rgba(13,11,7,.97); border-top: 1px solid var(--border-faint);
-      display: flex; align-items: center; z-index: 200; overflow: hidden; }
-    .ticker-label { flex-shrink: 0; padding: 0 10px 0 12px; font-size: 9px; letter-spacing: .08em;
-      color: var(--text-faint); border-right: 1px solid var(--border-faint);
-      font-family: var(--font-mono); white-space: nowrap; }
-    .ticker-scroller { flex: 1; overflow: hidden; }
-    .ticker-track { display: inline-flex; gap: 0; white-space: nowrap; }
-    .ticker-item { display: inline-flex; align-items: center; gap: 5px; padding: 0 20px 0 0; font-size: 11px; }
-    .ticker-sym { font-family: var(--font-mono); color: var(--text-2); font-weight: 600; font-size: 10px; }
-    .ticker-price { font-family: var(--font-mono); color: var(--text); }
-    .ticker-chg { font-family: var(--font-mono); font-size: 10px; }
-    .ticker-chg.up { color: var(--up); }
-    .ticker-chg.dn { color: var(--down); }
-    .ticker-chg.flat { color: var(--text-faint); }
-    @keyframes tickerScroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
-
-    /* push body content above ticker */
-    .dash-footer { margin-bottom: 36px; }
+    .dash-footer { margin-bottom: 0; }
 
     /* Card header row */
     .card-head {
@@ -2237,7 +2218,6 @@
       saveStockCache(cache);
       renderList(market);
       renderBentoStocks();
-      updateTicker();
 
       if (market === 'tw') {
         var needName = symbols.filter(function(sym) {
@@ -2678,49 +2658,7 @@
       if (remain) remain.textContent = rest > 0 ? '還有 '+rest+' 檔追蹤中' : '';
     }
 
-    // ── Ticker bar ────────────────────────────────────────────
-    function buildTickerHTML() {
-      var list = getStockList();
-      var all = (list.tw||[]).concat(list.us||[]);
-      var cache = getStockCache();
-      if (!all.length) return '';
-      return all.map(function(stock) {
-        var d = cache[stock.s] || {};
-        var sym = stock.s.replace('.TW','');
-        var price = d.price != null ? (+d.price).toLocaleString('zh-TW', {minimumFractionDigits:2, maximumFractionDigits:2}) : '—';
-        var chg   = d.pct != null ? (d.pct >= 0 ? '+' : '') + (+d.pct).toFixed(2) + '%' : '';
-        var dir   = d.pct > 0 ? 'up' : d.pct < 0 ? 'dn' : 'flat';
-        return '<span class="ticker-item">' +
-          '<span class="ticker-sym">'+sym+'</span>' +
-          '<span class="ticker-price">'+price+'</span>' +
-          (chg ? '<span class="ticker-chg '+dir+'">'+chg+'</span>' : '') +
-          '</span>';
-      }).join('');
-    }
-
-    function updateTicker() {
-      var track = document.getElementById('ticker-track');
-      if (!track) return;
-      var inner = buildTickerHTML();
-      if (!inner) return;
-      // Duplicate for seamless loop
-      track.innerHTML = inner + inner;
-      var totalW = track.scrollWidth / 2;
-      track.style.animation = 'none';
-      track.offsetWidth; // reflow
-      track.style.animation = 'tickerScroll ' + Math.max(10, totalW / 50) + 's linear infinite';
-    }
-
-    function initTicker() {
-      var bar = document.getElementById('ticker-bar');
-      if (!bar) return;
-      var d = new Date();
-      var label = document.getElementById('ticker-label-date');
-      if (label) label.textContent = d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0');
-      updateTicker();
-    }
-
-    // ── Load stocks.json as cache fallback ───────────────────
+// ── Load stocks.json as cache fallback ───────────────────
     function loadStocksJsonFallback() {
       fetch('stocks.json?' + Date.now())
         .then(function(r) { return r.ok ? r.json() : null; })
@@ -2737,7 +2675,6 @@
           if (updated) {
             saveStockCache(cache);
             renderBentoStocks();
-            updateTicker();
           }
         })
         .catch(function() {});
@@ -2903,20 +2840,10 @@
     initBentoNews('finance');
     setTimeout(function() {
       renderBentoStocks();
-      initTicker();
       loadStocksJsonFallback();
     }, 600);
 
   </script>
 
-  <!-- Bottom ticker bar -->
-  <div class="ticker-bar" id="ticker-bar">
-    <span class="ticker-label">WATCHLIST&nbsp;<span id="ticker-label-date"></span></span>
-    <div class="ticker-scroller">
-      <div class="ticker-track" id="ticker-track">
-        <span style="color:var(--text-faint);font-size:11px;padding-left:12px">載入中…</span>
-      </div>
-    </div>
-  </div>
 </body>
 </html>
