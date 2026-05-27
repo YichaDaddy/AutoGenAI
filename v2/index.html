@@ -116,18 +116,36 @@
     /* ───────────────────────────── PASSWORD GATE ───────────────────────── */
     #pw-gate {
       position: fixed; inset: 0; z-index: 9999;
-      background: rgba(13,11,7,0.96);
-      backdrop-filter: blur(20px);
+      background: rgba(8,6,3,0.90);
+      backdrop-filter: blur(24px) saturate(1.5);
       display: flex; align-items: center; justify-content: center;
     }
     .pw-box {
-      background: var(--surface);
+      background: rgba(229,179,68,0.04);
+      backdrop-filter: blur(40px);
       border: 1px solid var(--border-2);
-      border-radius: 24px;
+      border-radius: 28px;
       padding: 48px 40px;
       text-align: center;
       width: min(400px, 90vw);
-      box-shadow: 0 40px 80px rgba(0,0,0,0.6), 0 0 0 1px rgba(229,179,68,0.08);
+      box-shadow:
+        inset 0 1px 0 rgba(255,255,255,0.08),
+        0 40px 80px rgba(0,0,0,0.65),
+        0 0 0 1px rgba(229,179,68,0.05),
+        0 0 100px -20px rgba(229,179,68,0.18);
+      position: relative; overflow: hidden;
+    }
+    .pw-box::before {
+      content: '';
+      position: absolute; inset: 0; border-radius: 28px;
+      background: linear-gradient(135deg, rgba(229,179,68,0.07) 0%, transparent 55%);
+      pointer-events: none;
+    }
+    .pw-box::after {
+      content: '';
+      position: absolute; top: 0; left: 10%; right: 10%; height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(229,179,68,0.35), transparent);
+      pointer-events: none;
     }
     .pw-icon { font-size: 44px; margin-bottom: 14px; }
     .pw-title { font-size: 20px; font-weight: 800; color: var(--text); margin-bottom: 6px; letter-spacing: -0.01em; }
@@ -159,11 +177,24 @@
     /* ───────────────────────────── TOPBAR ──────────────────────────────── */
     .dash-header {
       position: sticky; top: 0; z-index: 100;
+      padding: 12px 32px;
+      background: transparent;
+      border-bottom: none;
+      pointer-events: none;
+    }
+    .dash-header-inner {
       display: flex; align-items: center; justify-content: space-between;
-      padding: 20px 40px;
-      border-bottom: 1px solid var(--border-faint);
-      background: rgba(13,11,7,0.65);
-      backdrop-filter: blur(16px);
+      max-width: 1260px; margin: 0 auto;
+      padding: 10px 22px;
+      background: rgba(13,11,7,0.72);
+      backdrop-filter: blur(20px) saturate(1.8);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      box-shadow:
+        inset 0 1px 0 rgba(255,255,255,0.05),
+        0 8px 32px -8px rgba(0,0,0,0.45),
+        0 0 0 1px rgba(229,179,68,0.04);
+      pointer-events: all;
     }
     .dash-logo-area { display: flex; align-items: center; gap: 14px; }
     .dash-logo {
@@ -628,8 +659,58 @@
 
     .section-line { flex: 1; margin-left: 10px; border-top: 1px dashed var(--border-faint); }
 
-    /* News card (Double-Bezel) */
+    /* D: Section layout differentiation */
     .cards-grid { display: flex; flex-direction: column; gap: 16px; }
+
+    /* Section 0 — Featured: first card full-width hero, rest 2-col */
+    .cards-grid--featured {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    .cards-grid--featured > .news-card:first-child {
+      grid-column: 1 / -1;
+    }
+    .cards-grid--featured > .news-card:first-child .card-title {
+      font-size: 22px;
+    }
+    .cards-grid--featured > .news-card:first-child .summary {
+      font-size: 14px;
+    }
+
+    /* Section 1 — Compact 2-col grid */
+    .cards-grid--compact {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    .cards-grid--compact .card-title { font-size: 16px; }
+    .cards-grid--compact .summary    { font-size: 13px; }
+
+    /* Section 2 — Trends: horizontal scroll strip */
+    .cards-grid--trends {
+      display: flex; flex-direction: row;
+      gap: 14px; overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scrollbar-width: none;
+      padding-bottom: 4px;
+      cursor: grab;
+    }
+    .cards-grid--trends::-webkit-scrollbar { display: none; }
+    .cards-grid--trends:active { cursor: grabbing; }
+    .cards-grid--trends > .news-card {
+      flex-shrink: 0;
+      width: min(370px, 82vw);
+      scroll-snap-align: start;
+    }
+    .cards-grid--trends .insight-panel { grid-template-columns: 1fr; }
+
+    @media (max-width: 760px) {
+      .cards-grid--featured, .cards-grid--compact { grid-template-columns: 1fr; }
+      .cards-grid--featured > .news-card:first-child { grid-column: 1; }
+    }
+
+    /* News card (Double-Bezel) */
     .news-card {
       background: rgba(229,179,68,0.015);
       border: 1px solid rgba(229,179,68,0.055);
@@ -729,29 +810,29 @@
     }
 
     /* Per-label coloring (data-key drives color) */
-    .insight-row[data-key="audience"]           { border-left-color: var(--acc-blue); }
+    .insight-row[data-key="audience"]           { background: rgba(90,169,230,0.07); border-color: rgba(90,169,230,0.14); border-left-color: var(--acc-blue); }
     .insight-row[data-key="audience"]   .insight-label { color: var(--acc-blue); }
     .insight-row[data-key="audience"]   .insight-label::before { background: var(--acc-blue); }
 
-    .insight-row[data-key="pain_point"]         { border-left-color: var(--acc-red); }
+    .insight-row[data-key="pain_point"]         { background: rgba(239,90,61,0.07); border-color: rgba(239,90,61,0.14); border-left-color: var(--acc-red); }
     .insight-row[data-key="pain_point"] .insight-label { color: var(--acc-red); }
     .insight-row[data-key="pain_point"] .insight-label::before { background: var(--acc-red); }
 
-    .insight-row[data-key="title_idea"]         { border-left-color: var(--acc-amber); }
+    .insight-row[data-key="title_idea"]         { background: rgba(229,179,68,0.10); border-color: rgba(229,179,68,0.20); border-left-color: var(--acc-amber); grid-column: 1 / -1; }
     .insight-row[data-key="title_idea"] .insight-label { color: var(--acc-amber); }
     .insight-row[data-key="title_idea"] .insight-label::before { background: var(--acc-amber); }
     .insight-row[data-key="title_idea"] .insight-value { color: var(--gold-bright); font-weight: 600; }
 
-    .insight-row[data-key="local_angle"]        { border-left-color: var(--acc-green); }
+    .insight-row[data-key="local_angle"]        { background: rgba(78,192,122,0.07); border-color: rgba(78,192,122,0.14); border-left-color: var(--acc-green); grid-column: 1 / -1; }
     .insight-row[data-key="local_angle"] .insight-label { color: var(--acc-green); }
     .insight-row[data-key="local_angle"] .insight-label::before { background: var(--acc-green); }
 
-    .insight-row[data-key="tw_stock_impact"]    { border-left-color: var(--acc-red); }
+    .insight-row[data-key="tw_stock_impact"]    { background: rgba(239,90,61,0.07); border-color: rgba(239,90,61,0.14); border-left-color: var(--acc-red); grid-column: 1 / -1; }
     .insight-row[data-key="tw_stock_impact"] .insight-label { color: var(--acc-red); }
     .insight-row[data-key="tw_stock_impact"] .insight-label::before { background: var(--acc-red); }
     .insight-row[data-key="tw_stock_impact"] .insight-value { color: var(--up); }
 
-    .insight-row[data-key="investment_insight"] { border-left-color: var(--acc-amber); }
+    .insight-row[data-key="investment_insight"] { background: rgba(229,179,68,0.10); border-color: rgba(229,179,68,0.20); border-left-color: var(--acc-amber); grid-column: 1 / -1; }
     .insight-row[data-key="investment_insight"] .insight-label { color: var(--acc-amber); }
     .insight-row[data-key="investment_insight"] .insight-label::before { background: var(--acc-amber); }
 
@@ -1205,18 +1286,20 @@
 
   <!-- Topbar -->
   <header class="dash-header">
-    <div class="dash-logo-area">
-      <div class="dash-logo">AI</div>
-      <div class="dash-brand-block">
-        <div class="dash-brand">AutoGenAI</div>
-        <div class="dash-divider"></div>
-        <div class="dash-sub">自媒體情報中心</div>
+    <div class="dash-header-inner">
+      <div class="dash-logo-area">
+        <div class="dash-logo">AI</div>
+        <div class="dash-brand-block">
+          <div class="dash-brand">AutoGenAI</div>
+          <div class="dash-divider"></div>
+          <div class="dash-sub">自媒體情報中心</div>
+        </div>
       </div>
-    </div>
-    <div class="dash-clock">
-      <span id="hdr-date">2026-05-23</span>
-      <span style="width:1px;height:14px;background:var(--border)"></span>
-      <span class="live">LIVE</span>
+      <div class="dash-clock">
+        <span id="hdr-date">2026-05-23</span>
+        <span style="width:1px;height:14px;background:var(--border)"></span>
+        <span class="live">LIVE</span>
+      </div>
     </div>
   </header>
 
@@ -2429,16 +2512,23 @@
       '</article>';
     }
 
+    var GRID_CLASSES = [
+      'cards-grid cards-grid--featured',
+      'cards-grid cards-grid--compact',
+      'cards-grid cards-grid--trends'
+    ];
+
     function renderDayPanel(dayData, ch, isFirst) {
       var cfg = NEWS_CFG[ch];
       var date = dayData.date || '';
       var id = ch + '-day-' + date;
       var total = 0;
-      var sections = cfg.sections.map(function(sec){
+      var sections = cfg.sections.map(function(sec, secIdx){
         var items = dayData[sec.key] || [];
         if (!items.length) return '';
         total += items.length;
         var cards = items.map(function(item, i){ return renderNewsCard(item, sec.color, cfg, i); }).join('');
+        var gridClass = GRID_CLASSES[secIdx] || 'cards-grid';
         return '<section class="report-section">' +
           '<div class="section-header">' +
             '<span class="section-bar color-' + sec.color + '"></span>' +
@@ -2446,7 +2536,7 @@
             '<span class="section-count count-' + sec.color + '">' + items.length + ' 則</span>' +
             '<span class="section-line"></span>' +
           '</div>' +
-          '<div class="cards-grid">' + cards + '</div>' +
+          '<div class="' + gridClass + '">' + cards + '</div>' +
         '</section>';
       }).join('');
       return '<div id="' + id + '" class="day-panel' + (isFirst?' active':'') +
