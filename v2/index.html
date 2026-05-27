@@ -1026,6 +1026,113 @@
       letter-spacing: 0.4px;
     }
 
+    /* ── Overtime card ── */
+    .card-overtime { grid-column: span 4; min-height: 90px; }
+
+    /* ── Overtime panel (scoped to .ot-panel) ── */
+    .ot-panel {
+      --op-surface:     #1a1a22;
+      --op-surface2:    #222230;
+      --op-border:      #2e2e3e;
+      --op-gold:        #c9a84c;
+      --op-gold-dim:    #9a7a35;
+      --op-text:        #e8e8f0;
+      --op-text-dim:    #9090a8;
+      --op-text-faint:  #55556a;
+      --op-sat:         #f59e0b;
+      --op-red:         #ef4444;
+      color: var(--op-text);
+      font-family: -apple-system, 'PingFang TC', 'Noto Sans TC', sans-serif;
+    }
+    .ot-settings {
+      display: flex; flex-wrap: wrap; gap: 12px; align-items: flex-end;
+      margin-bottom: 24px; background: var(--op-surface);
+      border: 1px solid var(--op-border); border-radius: 10px; padding: 16px;
+    }
+    .ot-field { display: flex; flex-direction: column; gap: 5px; }
+    .ot-field label { font-size: 11px; color: var(--op-text-faint); text-transform: uppercase; letter-spacing: .06em; }
+    .ot-field input {
+      background: var(--op-surface2); border: 1px solid var(--op-border);
+      border-radius: 6px; color: var(--op-text); padding: 8px 12px;
+      font-size: 15px; outline: none; width: 200px;
+    }
+    .ot-field input:focus { border-color: var(--op-gold-dim); }
+    .ot-hourly {
+      font-size: 12px; color: var(--op-text-faint);
+      padding: 8px 0 0; border-top: 1px solid var(--op-border); width: 100%;
+    }
+    .ot-hourly span { color: var(--op-gold); font-weight: 600; }
+    .ot-legend { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 14px; }
+    .ot-legend-item { display: flex; align-items: center; gap: 6px; font-size: 11px; color: var(--op-text-dim); }
+    .ot-legend-dot { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
+    .ot-month-nav { display: flex; align-items: center; gap: 14px; margin-bottom: 12px; }
+    .ot-month-nav h2 { font-size: 17px; font-weight: 600; min-width: 120px; color: var(--op-text); }
+    .ot-nav-btn {
+      background: var(--op-surface); border: 1px solid var(--op-border);
+      border-radius: 6px; color: var(--op-text); padding: 5px 14px;
+      cursor: pointer; font-size: 15px; line-height: 1.6;
+    }
+    .ot-nav-btn:hover { border-color: var(--op-gold-dim); }
+    .ot-calendar {
+      display: grid; grid-template-columns: repeat(7, 1fr);
+      gap: 4px; margin-bottom: 24px;
+    }
+    .ot-day-header {
+      text-align: center; font-size: 11px; color: var(--op-text-faint);
+      padding: 4px 0 8px; font-weight: 500;
+    }
+    .ot-day-header.ot-sat { color: var(--op-sat); }
+    .ot-day-header.ot-sun { color: var(--op-red); }
+    .ot-day-cell {
+      background: var(--op-surface); border: 1px solid var(--op-border);
+      border-radius: 8px; padding: 7px 6px 6px; min-height: 86px;
+      display: flex; flex-direction: column; gap: 3px;
+    }
+    .ot-day-cell.ot-empty { background: transparent; border-color: transparent; pointer-events: none; }
+    .ot-day-cell.ot-is-sat     { background: #1e1c10; border-color: #3a3010; }
+    .ot-day-cell.ot-is-sun     { background: #1e1010; border-color: #3a1212; }
+    .ot-day-cell.ot-is-holiday { background: #200d0d; border-color: #4a1515; }
+    .ot-day-cell.ot-is-today   { box-shadow: 0 0 0 2px var(--op-gold); }
+    .ot-day-num { font-size: 13px; font-weight: 700; color: var(--op-text-dim); line-height: 1; }
+    .ot-day-cell.ot-is-sat .ot-day-num     { color: var(--op-sat); }
+    .ot-day-cell.ot-is-sun .ot-day-num     { color: var(--op-red); }
+    .ot-day-cell.ot-is-holiday .ot-day-num { color: #f87171; }
+    .ot-day-cell.ot-is-today .ot-day-num   { color: var(--op-gold); }
+    .ot-holiday-label { font-size: 9px; color: #f87171; line-height: 1.3; word-break: keep-all; }
+    .ot-type-badge { font-size: 9px; padding: 1px 4px; border-radius: 3px; align-self: flex-start; line-height: 1.5; }
+    .ot-badge-weekday { background: #232333; color: var(--op-text-faint); }
+    .ot-badge-sat     { background: #3a2800; color: var(--op-sat); }
+    .ot-badge-sun     { background: #3a1010; color: #f87171; }
+    .ot-badge-holiday { background: #4a0a0a; color: #f87171; }
+    .ot-input-wrap { margin-top: auto; display: flex; align-items: center; gap: 3px; }
+    .ot-hours-input {
+      flex: 1; background: #0f0f18; border: 1px solid var(--op-border);
+      border-radius: 4px; color: var(--op-text); padding: 3px 4px;
+      font-size: 12px; text-align: center; outline: none; min-width: 0;
+    }
+    .ot-hours-input:focus { border-color: var(--op-gold-dim); }
+    .ot-hours-input.has-val { color: var(--op-gold); border-color: var(--op-gold-dim); background: #191300; }
+    .ot-unit { font-size: 9px; color: var(--op-text-faint); white-space: nowrap; }
+    .ot-summary {
+      background: var(--op-surface); border: 1px solid var(--op-border);
+      border-radius: 12px; padding: 20px;
+    }
+    .ot-summary h3 { font-size: 14px; color: var(--op-gold); margin-bottom: 16px; }
+    .ot-sum-row {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 10px; margin-bottom: 10px;
+    }
+    .ot-s-card { background: var(--op-surface2); border-radius: 8px; padding: 12px 14px; }
+    .ot-s-card .ot-s-label { font-size: 11px; color: var(--op-text-faint); margin-bottom: 3px; }
+    .ot-s-card .ot-s-hrs   { font-size: 12px; color: var(--op-text-dim); margin-bottom: 2px; }
+    .ot-s-card .ot-s-pay   { font-size: 18px; font-weight: 700; color: var(--op-text); }
+    .ot-s-card.ot-total    { border: 1px solid var(--op-gold-dim); }
+    .ot-s-card.ot-total .ot-s-pay { color: var(--op-gold); font-size: 22px; }
+    .ot-hint {
+      font-size: 11px; color: var(--op-text-faint); margin-top: 14px;
+      padding-top: 12px; border-top: 1px solid var(--op-border); line-height: 1.7;
+    }
+
     /* ─── Responsive ─── */
     @media (max-width: 860px) {
       .bento-grid { grid-template-columns: 1fr 1fr; }
@@ -1189,8 +1296,8 @@
         </div>
       </div>
 
-      <!-- Reserved 1: 加班費統計 -->
-      <div class="bento-card card-reserved">
+      <!-- 加班費統計 -->
+      <div class="bento-card card-overtime" data-module="overtime">
         <div class="card-head">
           <div class="card-title-row">
             <div class="icon-tile">
@@ -1206,11 +1313,15 @@
               <div class="card-desc">工時記錄 · 加班試算</div>
             </div>
           </div>
-          <span class="pill tone-mute"><span class="dot"></span>即將推出</span>
+          <span class="pill"><span class="dot"></span>勞基法第24條</span>
         </div>
-        <div class="reserved-lines">
-          <div class="reserved-line"></div>
-          <div class="reserved-line"></div>
+        <div class="card-stats">
+          <div class="stat-box"><span class="stat-val text">月曆</span><span class="stat-label">記錄模式</span></div>
+          <div class="stat-box"><span class="stat-val text">自動</span><span class="stat-label">試算加班費</span></div>
+        </div>
+        <div class="card-footer">
+          <span style="font-size:11px;color:var(--text-faint)">平日 · 休息日 · 例假日 分開計算</span>
+          <span class="tap-hint">展開 →</span>
         </div>
       </div>
 
@@ -1365,6 +1476,35 @@
         <div id="content-finance" class="panel-content">
           <div id="finance-content"></div>
         </div>
+        <!-- Overtime content -->
+        <div id="content-overtime" class="panel-content">
+          <div class="ot-panel">
+            <div class="ot-settings">
+              <div class="ot-field">
+                <label>月薪（元）</label>
+                <input type="number" id="ot-salary" placeholder="例：45000" min="0" step="100">
+              </div>
+              <div class="ot-hourly" id="ot-hourly-display">請輸入月薪以計算時薪基準</div>
+            </div>
+            <div class="ot-legend">
+              <div class="ot-legend-item"><div class="ot-legend-dot" style="background:#232333"></div>平日（週一～五）</div>
+              <div class="ot-legend-item"><div class="ot-legend-dot" style="background:#3a2800"></div>休息日（週六）</div>
+              <div class="ot-legend-item"><div class="ot-legend-dot" style="background:#3a1010"></div>例假日（週日）</div>
+              <div class="ot-legend-item"><div class="ot-legend-dot" style="background:#4a0a0a"></div>國定假日</div>
+            </div>
+            <div class="ot-month-nav">
+              <button class="ot-nav-btn" id="ot-prev-btn">&#8592;</button>
+              <h2 id="ot-month-title"></h2>
+              <button class="ot-nav-btn" id="ot-next-btn">&#8594;</button>
+            </div>
+            <div class="ot-calendar" id="ot-cal"></div>
+            <div class="ot-summary">
+              <h3>📊 本月加班費試算</h3>
+              <div id="ot-sum-grid"></div>
+              <div class="ot-hint" id="ot-hint"></div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -1440,6 +1580,10 @@
       stocks: {
         title: '自選股', sub: '台股 & ETF · 即時報價追蹤', dateTabs: false, tone: 'tone-info',
         iconSvg: '<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M3 20l5-7 4 4 5-8 4 5" fill="none" stroke-width="1.8" stroke="#fff"/><circle cx="3" cy="20" r="1.4" stroke="none" fill="#fff"/><circle cx="21" cy="14" r="1.4" stroke="none" fill="#fff"/></svg>'
+      },
+      overtime: {
+        title: '加班費統計', sub: '依勞基法第24條計算 · 台灣法定加班費試算', dateTabs: false, tone: '',
+        iconSvg: '<svg viewBox="0 0 24 24" fill="none" stroke="#1a1306" stroke-width="1.6"><circle cx="12" cy="12" r="9" stroke-width="1.8"/><polyline points="12 7 12 12 15.5 14.5"/><line x1="6" y1="3" x2="4" y2="5"/><line x1="18" y1="3" x2="20" y2="5"/></svg>'
       }
     };
 
@@ -1480,6 +1624,7 @@
       overlay.classList.add('open');
       document.body.style.overflow = 'hidden';
       if (mod === 'stocks') maybeInitStocks();
+      if (mod === 'overtime') maybeInitOvertime();
       if (mod === 'ai' || mod === 'finance') loadNewsChannel(mod);
     }
 
@@ -2465,6 +2610,161 @@
           }
         })
         .catch(function() {});
+    }
+
+    // ═══════════════════════════════════════════════════════════
+    //  OVERTIME CALCULATOR
+    // ═══════════════════════════════════════════════════════════
+    var TW_HOLIDAYS = {
+      '2025-01-01':'元旦','2025-01-27':'農曆除夕','2025-01-28':'春節初一',
+      '2025-01-29':'春節初二','2025-01-30':'春節初三','2025-01-31':'春節初四',
+      '2025-02-28':'和平紀念日','2025-04-03':'兒童節補假','2025-04-04':'兒童節/清明',
+      '2025-05-01':'勞動節','2025-05-31':'端午節','2025-10-06':'中秋補假',
+      '2025-10-07':'中秋節','2025-10-10':'國慶日',
+      '2026-01-01':'元旦','2026-02-16':'農曆除夕','2026-02-17':'春節初一',
+      '2026-02-18':'春節初二','2026-02-19':'春節初三','2026-02-20':'春節初四',
+      '2026-02-28':'和平紀念日','2026-04-04':'兒童節','2026-04-05':'清明節',
+      '2026-05-01':'勞動節','2026-06-19':'端午節','2026-09-25':'中秋節','2026-10-10':'國慶日'
+    };
+
+    var otYear, otMonth, otData = {};
+    var otReady = false;
+
+    function otPad(n) { return String(n).padStart(2,'0'); }
+
+    function otGetDayType(ds) {
+      if (TW_HOLIDAYS[ds]) return 'holiday';
+      var dow = new Date(ds + 'T00:00:00').getDay();
+      if (dow === 0) return 'sun';
+      if (dow === 6) return 'sat';
+      return 'weekday';
+    }
+
+    function otCalcPay(hours, dayType, rate) {
+      if (!hours || !rate) return 0;
+      if (dayType === 'weekday') {
+        var h1 = Math.min(hours, 2);
+        var h2 = Math.max(0, hours - 2);
+        return h1 * rate * (4/3) + h2 * rate * (5/3);
+      }
+      if (dayType === 'sat') {
+        var h1s = Math.min(hours, 2);
+        var h2s = Math.max(0, Math.min(hours - 2, 6));
+        var h3s = Math.max(0, hours - 8);
+        return h1s * rate * (4/3) + h2s * rate * (5/3) + h3s * rate * (8/3);
+      }
+      return hours * rate * 2;
+    }
+
+    function otRenderCalendar() {
+      var cal = document.getElementById('ot-cal');
+      if (!cal) return;
+      cal.innerHTML = '';
+      ['一','二','三','四','五','六','日'].forEach(function(h, i) {
+        var el = document.createElement('div');
+        el.className = 'ot-day-header' + (i === 5 ? ' ot-sat' : i === 6 ? ' ot-sun' : '');
+        el.textContent = h;
+        cal.appendChild(el);
+      });
+      var firstDow = new Date(otYear, otMonth, 1).getDay();
+      var offset = firstDow === 0 ? 6 : firstDow - 1;
+      for (var i = 0; i < offset; i++) {
+        var emp = document.createElement('div');
+        emp.className = 'ot-day-cell ot-empty';
+        cal.appendChild(emp);
+      }
+      var daysInMonth = new Date(otYear, otMonth + 1, 0).getDate();
+      var td = new Date();
+      var todayStr = td.getFullYear() + '-' + otPad(td.getMonth()+1) + '-' + otPad(td.getDate());
+      var typeLabel = {weekday:'平日', sat:'休息日', sun:'例假日', holiday:'國定假日'};
+      var badgeCls  = {weekday:'ot-badge-weekday', sat:'ot-badge-sat', sun:'ot-badge-sun', holiday:'ot-badge-holiday'};
+      var cellCls   = {sat:'ot-is-sat', sun:'ot-is-sun', holiday:'ot-is-holiday'};
+      for (var d = 1; d <= daysInMonth; d++) {
+        var ds = otYear + '-' + otPad(otMonth+1) + '-' + otPad(d);
+        var type = otGetDayType(ds);
+        var holiday = TW_HOLIDAYS[ds];
+        var saved = otData[ds] != null ? otData[ds] : '';
+        var cell = document.createElement('div');
+        cell.className = 'ot-day-cell' +
+          (cellCls[type] ? ' ' + cellCls[type] : '') +
+          (ds === todayStr ? ' ot-is-today' : '');
+        cell.innerHTML =
+          '<div class="ot-day-num">' + d + '</div>' +
+          (holiday
+            ? '<div class="ot-holiday-label">' + holiday + '</div>'
+            : '<div class="ot-type-badge ' + badgeCls[type] + '">' + typeLabel[type] + '</div>') +
+          '<div class="ot-input-wrap">' +
+            '<input class="ot-hours-input' + (saved !== '' ? ' has-val' : '') + '"' +
+            ' type="number" min="0" max="12" step="0.5" placeholder="hr"' +
+            ' value="' + saved + '" data-date="' + ds + '">' +
+            '<span class="ot-unit">h</span>' +
+          '</div>';
+        cal.appendChild(cell);
+      }
+      cal.querySelectorAll('.ot-hours-input').forEach(function(inp) {
+        inp.addEventListener('input', function() {
+          var val = parseFloat(this.value);
+          if (!isNaN(val) && val > 0) { otData[this.dataset.date] = val; this.classList.add('has-val'); }
+          else { delete otData[this.dataset.date]; this.classList.remove('has-val'); }
+          otRenderSummary();
+        });
+      });
+      document.getElementById('ot-month-title').textContent = otYear + ' 年 ' + (otMonth + 1) + ' 月';
+      otRenderSummary();
+    }
+
+    function otRenderSummary() {
+      var salary = parseFloat(document.getElementById('ot-salary') ? document.getElementById('ot-salary').value : 0) || 0;
+      var rate = salary / 30 / 8;
+      var hd = document.getElementById('ot-hourly-display');
+      if (hd) hd.innerHTML = rate > 0
+        ? '時薪基準：<span>$' + rate.toFixed(2) + '/hr</span>（月薪 ÷ 30 ÷ 8）'
+        : '請輸入月薪以計算時薪基準';
+      var data = {weekday:{h:0,p:0}, sat:{h:0,p:0}, sun:{h:0,p:0}, holiday:{h:0,p:0}};
+      Object.keys(otData).forEach(function(ds) {
+        var parts = ds.split('-').map(Number);
+        if (parts[0] !== otYear || parts[1] !== otMonth + 1) return;
+        var type = otGetDayType(ds);
+        data[type].h += otData[ds];
+        data[type].p += otCalcPay(otData[ds], type, rate);
+      });
+      var totalH = data.weekday.h + data.sat.h + data.sun.h + data.holiday.h;
+      var totalP = data.weekday.p + data.sat.p + data.sun.p + data.holiday.p;
+      var fmt = function(n) { return rate > 0 ? '$' + Math.round(n).toLocaleString('zh-TW') : '—'; };
+      var grid = document.getElementById('ot-sum-grid');
+      if (!grid) return;
+      grid.innerHTML =
+        '<div class="ot-sum-row">' +
+          '<div class="ot-s-card"><div class="ot-s-label">平日加班</div><div class="ot-s-hrs">' + data.weekday.h + ' 小時</div><div class="ot-s-pay">' + fmt(data.weekday.p) + '</div></div>' +
+          '<div class="ot-s-card"><div class="ot-s-label">休息日（週六）</div><div class="ot-s-hrs">' + data.sat.h + ' 小時</div><div class="ot-s-pay">' + fmt(data.sat.p) + '</div></div>' +
+          '<div class="ot-s-card"><div class="ot-s-label">例假日（週日）</div><div class="ot-s-hrs">' + data.sun.h + ' 小時</div><div class="ot-s-pay">' + fmt(data.sun.p) + '</div></div>' +
+          '<div class="ot-s-card"><div class="ot-s-label">國定假日</div><div class="ot-s-hrs">' + data.holiday.h + ' 小時</div><div class="ot-s-pay">' + fmt(data.holiday.p) + '</div></div>' +
+        '</div>' +
+        '<div class="ot-sum-row">' +
+          '<div class="ot-s-card ot-total"><div class="ot-s-label">本月加班費合計</div><div class="ot-s-hrs">' + totalH + ' 小時</div><div class="ot-s-pay">' + fmt(totalP) + '</div></div>' +
+        '</div>';
+      var hint = document.getElementById('ot-hint');
+      if (hint) hint.innerHTML =
+        '計算基準（勞基法第24條）：平日前2h × 1.33、後續 × 1.67 ｜ 休息日前2h × 1.33、3-8h × 1.67、9h以上 × 2.67 ｜ 例假日/國定假日 × 2.0<br>' +
+        '* 假日資料已內建 2025–2026 年，農曆假日以行政院人事行政總處公告為準';
+    }
+
+    function maybeInitOvertime() {
+      if (otReady) { otRenderSummary(); return; }
+      otReady = true;
+      var now = new Date();
+      otYear = now.getFullYear();
+      otMonth = now.getMonth();
+      document.getElementById('ot-prev-btn').addEventListener('click', function() {
+        otMonth--; if (otMonth < 0) { otMonth = 11; otYear--; }
+        otRenderCalendar();
+      });
+      document.getElementById('ot-next-btn').addEventListener('click', function() {
+        otMonth++; if (otMonth > 11) { otMonth = 0; otYear++; }
+        otRenderCalendar();
+      });
+      document.getElementById('ot-salary').addEventListener('input', otRenderSummary);
+      otRenderCalendar();
     }
 
     // ── Init bento on page load ───────────────────────────────
