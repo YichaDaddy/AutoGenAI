@@ -48,7 +48,9 @@
       "Read(//Users/mac/Library/LaunchAgents/**)",
       "WebFetch(domain:yichadaddy.github.io)",
       "Bash(npx skills *)",
-      "Bash(cp /Users/mac/projects/AutoGenAI/daily_topic_dashboard.html /Users/mac/projects/AutoGenAI/daily_topic_dashboard_before.html)"
+      "Bash(cp /Users/mac/projects/AutoGenAI/daily_topic_dashboard.html /Users/mac/projects/AutoGenAI/daily_topic_dashboard_before.html)",
+      "Bash(git pull *)",
+      "Bash(git stash *)"
     ],
     "additionalDirectories": [
       "/Users/mac/projects",
