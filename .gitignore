@@ -2,3 +2,4 @@
 __pycache__/
 *.pyc
 skills/solopreneur-topic-miner/latest_raw_data.json
+.claude/settings.local.json
