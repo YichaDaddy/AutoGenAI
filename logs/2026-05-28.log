@@ -1,1 +1,113 @@
 === Thu May 28 06:00:04 CST 2026 | Starting daily AI report ===
+Dashboard updated successfully. Here is the full daily report:
+
+---
+
+## 📰 2026-05-27 歐美 AI 選題日報
+**賽道：AI 效率工具 ｜ 受眾：職場上班族**
+
+---
+
+### 🔥 板塊一：大事件
+
+**1. AI 程式代理人新創 Cognition 完成 10 億美元融資，估值衝上 250 億美元**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/05/27/ai-coding-startup-cognition-raises-1b-at-25b-pre-money-valuation/)
+- **一句摘要**：Devin 母公司八個月估值翻倍，年化營收 4.92 億美元，企業客戶含 Mercedes-Benz、NASA、Goldman Sachs
+- **目標受眾**：職場上班族、工程師、科技愛好者
+- **痛點**：擔心 AI 取代工作，又不知道 AI 寫程式的真實能力有多強
+- **標題雛形**：「AI 工程師 Devin 背後的公司估值破 250 億！你的工作真的要被 AI 搶走了？」
+- **本地化切角**：台灣科技業還沒大量導入 AI 代碼 Agent，華語圈幾乎無人深入分析 Devin 實際體驗，教學紅利極大
+
+**2. OpenAI × Thrive 打造自我進化稅務 AI，準確率 97%、節省 85% 作業時間**
+- **來源**：[OpenAI](https://openai.com/index/building-self-improving-tax-agents-with-codex/) · [Crypto Briefing](https://cryptobriefing.com/openai-thrive-self-improving-tax-ai/)
+- **一句摘要**：Codex 驅動的稅務 AI 處理 7000 筆報稅單，一位會計師作業時間從 180 小時降至 15 小時
+- **目標受眾**：職場上班族（會計、財務、行政族群）
+- **痛點**：重複性事務工作耗時耗力，不確定 AI 工具能否真正幫助職場作業
+- **標題雛形**：「ChatGPT 幫你報稅！AI 稅務代理人 97% 正確率，你的會計工作還安全嗎？」
+- **本地化切角**：台灣報稅季剛結束、財務話題高度共鳴，歐美已有實際成果可引用
+
+**3. Meta 正式推出 IG/FB/WhatsApp 付費訂閱，AI 進階方案最高 $19.99/月**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/)
+- **一句摘要**：Meta One 生態系推出月費 $2.99–$19.99 訂閱，AI 方案含深度推理與影像生成，創作者方案含驗證標章與進階分析
+- **目標受眾**：自媒體創作者、職場行銷人
+- **痛點**：不確定 Meta 付費功能值不值得訂，AI 功能有哪些實際用途
+- **標題雛形**：「IG/FB/WhatsApp 要收費了！Meta 訂閱制全解析，AI 功能到底值不值得付？」
+- **本地化切角**：台灣 IG 用戶眾多，華語圈深入分析幾乎為零，可做「Meta AI 訂閱 vs 競品」比較
+
+---
+
+### 🛠️ 板塊二：工具更新
+
+**4. Runway 推出 MCP，Claude / ChatGPT 對話中可直接生成 AI 影片**
+- **來源**：[Runway](https://runwayml.com/news/mcp) · [KuCoin News](https://www.kucoin.com/news/flash/runway-launches-model-context-protocol-server-for-ai-generated-media)
+- **一句摘要**：透過 MCP 協議，Claude 和 ChatGPT 可在對話中呼叫 Runway 直接生成影片，支援 Gen-4.5、Seedance 2.0 等頂尖模型
+- **標題雛形**：「Claude 現在可以直接幫你生 AI 影片！Runway MCP 完整教學，一鍵生成不用切平台」
+- **本地化切角**：MCP 生態在台灣幾乎無繁中教學，搶佔「Claude × Runway」搜尋紅利
+
+**5. ElevenLabs Music v2 發布：中途切換曲風、逐段生成，AI 音樂製作大升級**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/05/27/elevenlabss-new-music-generation-model-can-switch-genres-mid-track/)
+- **一句摘要**：Music v2 支援分段（前奏/主歌/副歌）獨立生成後合併，可中途切換曲風，支援多語言人聲
+- **標題雛形**：「Vlog 配樂不再頭痛！ElevenLabs 音樂 AI 大升級，現在可以分段生成還能換曲風」
+- **本地化切角**：台灣 Vlogger 社群大，版權音樂問題普遍，ElevenLabs 繁中教學稀缺
+
+**6. Robinhood 開放 AI 代理人自動交易股票，專設隔離錢包管控風險**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/05/27/robinhood-now-lets-your-ai-agents-trade-stocks/)
+- **一句摘要**：用戶可設 AI Agent 帳戶自動分析並下單，預載金額隔離風險，目前 Beta 支援股票
+- **標題雛形**：「AI 幫你炒股來真的！Robinhood 開放 AI 自動交易，風險控管機制大公開」
+- **本地化切角**：台灣投資熱潮加 AI 趨勢，跨圈傳播力強，華語圈「AI 投資代理人」話題幾乎空白
+
+**7. Anthropic Claude Managed Agents 更新：自託管安全沙箱 + MCP 私有網路隧道**
+- **來源**：[InfoQ](https://www.infoq.com/news/2026/05/code-with-claude/) · [Testing Catalog](https://www.testingcatalog.com/anthropic-launches-new-secure-tools-for-claude-managed-agents/)
+- **一句摘要**：Anthropic 在 Code w/ Claude London 發布自託管沙箱與 MCP 私有網路隧道，企業 Agent 可完全部署於自家基礎設施
+- **標題雛形**：「Claude Agent 企業版大升級！自架安全沙箱教學，公司機密資料不外洩」
+- **本地化切角**：台灣企業 AI 資安顧慮普遍，此話題填補「企業安全部署 Claude」知識缺口
+
+---
+
+### 📡 板塊三：值得追蹤的趨勢
+
+**8. YouTube 開始自動偵測並標記 AI 生成影片**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/05/27/youtube-will-now-automatically-label-ai-videos/)
+- **一句摘要**：YouTube 推出自動 AI 標記功能，不再只靠創作者自行申報，AI 生成內容將被平台主動識別
+- **標題雛形**：「YouTube 自動偵測 AI 影片了！你的頻道會被標記嗎？創作者必看新規完整解析」
+- **本地化切角**：台灣 YouTube 創作者普遍用 AI 工具，此規則影響所有人，可搶做合規教學
+
+**9. OpenAI vs Anthropic 公開論戰：AI 究竟會不會造成大規模失業？**
+- **來源**：[Axios](https://www.axios.com/2026/05/27/ai-hype-doom-openai-anthropic)
+- **一句摘要**：Sam Altman 承認早期預測過於悲觀，AI 不會造成就業末日；Anthropic Chris Olah 在梵蒂岡峰會力挺大規模勞動力替代警告
+- **標題雛形**：「AI 到底會不會讓你失業？OpenAI CEO 和 Anthropic 兩套說法大對決，哪個更可信？」
+- **本地化切角**：職場 AI 焦慮話題高度共鳴，可結合「如何用 AI 提升不可取代性」轉化為行動力
+
+**10. Snowflake × AWS 簽署 60 億美元 AI 晶片協議，企業 AI 基礎建設軍備競賽升溫**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/05/27/in-more-good-news-for-amazon-snowflake-signs-6b-deal-with-aws-for-ai-cpu-chips/)
+- **一句摘要**：Snowflake 與 AWS 簽 60 億美元 AI CPU 晶片長期合約，顯示企業 AI 基礎建設投資持續急速擴張
+- **標題雛形**：「AI 軍備競賽沒有要停的跡象！Snowflake 砸 60 億買 AWS 晶片，背後代表什麼？」
+- **本地化切角**：將財經新聞轉化為「企業 AI 佈局 → 對職場工作者的影響」視角
+
+---
+
+### 📋 來源覆蓋狀況
+
+| 來源 | 狀態 | 昨日內容數量 | 備註 |
+|------|------|------------|------|
+| TechCrunch AI | ✅ | 9 篇 | URL 含 /2026/05/27/，全部核實 |
+| FutureTools.io/news | ✅ | 7 則 | 含 Anthropic、Runway、YouTube 更新 |
+| WebSearch（AI news 2026-05-27） | ✅ | 多則 | OpenAI/Anthropic 論戰、稅務 AI 等 |
+| Matt Wolfe (@mreflow) | ❌ | 0 | 未能直接存取 YouTube 頻道 |
+| The AI Advantage | ❌ | 0 | 未能直接存取 YouTube 頻道 |
+| Matthew Berman | ❌ | 0 | 未能直接存取 YouTube 頻道 |
+| Wes Roth | ❌ | 0 | 未能直接存取 YouTube 頻道 |
+| MattVidPro AI | ❌ | 0 | 未能直接存取 YouTube 頻道 |
+| Skill Leap AI | ❌ | 0 | 未能直接存取 YouTube 頻道 |
+| @OpenAI | ✅ | 間接 | 透過 WebSearch 與 OpenAI 官網取得公告 |
+| @AnthropicAI | ✅ | 間接 | 透過 InfoQ、9to5Mac 等報導取得 |
+| @GoogleDeepMind | ❌ | 0 | 昨日無重大公告 |
+| @sama / @karpathy | ❌ | 0 | X 直接存取失敗，間接報導無昨日貼文 |
+
+---
+
+💡 您的專屬網頁版看板已同步更新，可隨時打開 `daily_topic_dashboard.html` 查看。
+
+DONE
+--- AI report finished at Thu May 28 06:05:34 CST 2026 ---
+=== Thu May 28 06:05:34 CST 2026 | Starting daily finance report ===
