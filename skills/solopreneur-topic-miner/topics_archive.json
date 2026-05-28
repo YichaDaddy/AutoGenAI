@@ -1,5 +1,184 @@
 [
   {
+    "date": "2026-05-28",
+    "big_events": [
+      {
+        "title": "Anthropic 發布 Claude Opus 4.8，推出 Dynamic Workflow 多智能體平行任務功能",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/05/28/anthropic-releases-opus-4-8-with-new-dynamic-workflow-tool/"
+          },
+          {
+            "name": "Anthropic 官網",
+            "url": "https://www.anthropic.com/news/claude-opus-4-8"
+          },
+          {
+            "name": "VentureBeat",
+            "url": "https://venturebeat.com/technology/anthropics-claude-opus-4-8-is-here-with-3x-cheaper-fast-mode-and-near-mythos-level-alignment"
+          }
+        ],
+        "summary": "Anthropic 推出 Opus 4.8，搭載 Dynamic Workflow 可平行啟動數百個子代理，Fast Mode 速度提升 2.5 倍且降價 3 倍，誠實度大幅改善。",
+        "audience": "職場上班族、工程師、AI 工具重度使用者",
+        "pain_point": "用 Claude 做複雜任務時一次只能做一件事，跑大型任務或程式碼遷移耗時極長",
+        "title_idea": "Claude Opus 4.8 降臨！一次啟動數百個 AI 助手同時幫你工作，職場效率直接翻倍",
+        "local_angle": "Dynamic Workflow 是全新功能，台灣/華語圈幾乎還沒人做深度教學，搶先示範「如何用多智能體完成複雜工作任務」紅利極大"
+      },
+      {
+        "title": "Asana 收購無程式碼 AI 代理建構平台 StackAI，職場自動化大躍進",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/05/28/asana-acquires-no-code-agent-builder-stack-ai/"
+          }
+        ],
+        "summary": "專案管理工具 Asana 收購 StackAI，讓非技術人員也能在 Asana 內直接用無程式碼方式搭建 AI 自動化流程。",
+        "audience": "職場上班族、專案經理、企業行政人員",
+        "pain_point": "想在工作中導入 AI 自動化，但不懂程式、現有工具門檻太高，不知道從何下手",
+        "title_idea": "不用寫程式也能建自己的 AI 員工！Asana 收購 StackAI 後，職場自動化平民化了",
+        "local_angle": "台灣企業普遍探索 AI 導入但技術門檻是最大障礙，此收購案說明「無程式碼 AI 工作流」大趨勢，華語圈尚無相關深度報導"
+      },
+      {
+        "title": "蘋果全新 Siri App 設計曝光，正面挑戰 ChatGPT 搶攻 AI 助理市場",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/05/28/sneak-peek-at-new-siri-app-reveals-apples-plans-to-take-on-chatgpt-and-more/"
+          }
+        ],
+        "summary": "蘋果全新獨立 Siri App 設計流出，功能大幅強化，顯示蘋果正式宣戰 ChatGPT 等 AI 助理，iPhone 用戶將直接受惠。",
+        "audience": "iPhone 用戶、職場上班族、蘋果生態系使用者",
+        "pain_point": "現在 Siri 功能太弱，職場 AI 需求只能靠第三方 App，希望有原生整合的強大 AI 助理",
+        "title_idea": "蘋果終於認真了！新版 Siri 直接挑戰 ChatGPT，iPhone 用戶的 AI 助理時代要來了",
+        "local_angle": "台灣 iPhone 普及率極高，蘋果 Siri 升級是最直接相關的 AI 消息，卻鮮少有繁體中文深度分析，搶佔「蘋果 AI 策略解析」紅利"
+      },
+      {
+        "title": "Anthropic 完成 650 億美元融資，估值逼近 1 兆美元，IPO 前夕",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/"
+          }
+        ],
+        "summary": "Anthropic 完成史詩級 650 億美元融資，估值接近 1 兆美元並為 IPO 鋪路，顯示 AI 產業資本市場信心極強。",
+        "audience": "職場上班族、科技愛好者、關注 AI 產業動態的創作者",
+        "pain_point": "對 AI 產業走向感困惑，不確定 Claude 等工具的未來走向，擔心工具是否持續可靠",
+        "title_idea": "Anthropic 融資 650 億！Claude 的公司要上市了，這對你使用 AI 工具有什麼影響？",
+        "local_angle": "台灣職場 Claude 使用者快速增加，融資消息搭配 Opus 4.8 發布一起報導，可做「Claude 未來走向」深度分析，繁體中文稀少"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "ElevenLabs Dubbing v2 上線，90+ 語言配音完整保留原聲情緒與語調",
+        "sources": [
+          {
+            "name": "ElevenLabs 官網",
+            "url": "https://elevenlabs.io/dubbing-studio"
+          },
+          {
+            "name": "FutureTools",
+            "url": "https://futuretools.io/news"
+          }
+        ],
+        "summary": "ElevenLabs 發布 Dubbing v2，首次實現跨語言配音時保留原說話者的情緒與表演風格，支援 90+ 語言，大幅提升本地化內容品質。",
+        "audience": "自媒體創作者、內容行銷人員、影片製作者",
+        "pain_point": "想把中文影片配音成多語言打海外市場，但現有工具配出來的聲音沒感情、很機械，觀眾接受度低",
+        "title_idea": "AI 配音終於有感情了！ElevenLabs Dubbing v2 讓你一鍵把影片翻成 90 種語言還保留原聲情緒",
+        "local_angle": "台灣創作者打海外市場或做多語言內容時配音是高門檻，v2 情緒保留功能是突破點，華語圈教學幾乎空白"
+      },
+      {
+        "title": "Sesame AI iOS App 正式上線，Oculus 創辦人打造的自然對話 AI 登陸 iPhone",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app/"
+          }
+        ],
+        "summary": "Oculus VR 創辦人創立的對話式 AI 新創 Sesame 正式推出 iOS App，主打比現有 AI 助理更自然、有溫度的語音對話體驗。",
+        "audience": "職場上班族、AI 工具嘗鮮者",
+        "pain_point": "現有 AI 語音助理（Siri、ChatGPT 語音）感覺太冷、太機械，想要更自然的對話互動體驗",
+        "title_idea": "比 ChatGPT 更像真人！Oculus 創辦人的新 AI App「Sesame」上線，語音對話終於有感情了",
+        "local_angle": "Oculus 創辦人背書在歐美引發大量討論，台灣幾乎沒有繁體中文評測，搶先體驗評測可拿到流量紅利"
+      },
+      {
+        "title": "YouTube 新增 AI 播客推薦引擎與 Auto Speed 功能，內容發現邏輯大改變",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/05/28/youtube-adds-new-podcast-features-including-an-ai-recommendation-tool-and-auto-speed/"
+          }
+        ],
+        "summary": "YouTube 推出 AI 驅動的播客推薦引擎與自動語速功能，強化播客生態系，對創作者流量分配和聽眾體驗帶來直接改變。",
+        "audience": "內容創作者、職場上班族（通勤學習族）",
+        "pain_point": "YouTube 播客推薦不夠精準，聽完一集後下一集總是不相關，創作者也不知道 AI 推薦機制如何影響自己的曝光",
+        "title_idea": "YouTube 推出 AI 播客助理！以後找節目全靠 AI 推薦，創作者的流量邏輯要大改了",
+        "local_angle": "台灣 YouTube 播客市場快速成長，AI 推薦機制改變對創作者曝光影響重大，但繁體中文分析幾乎沒有"
+      },
+      {
+        "title": "Visa 投資 Replit，推動 AI 代理自主完成金融支付交易",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/05/28/visa-invests-in-replit-to-power-agentic-payments-for-developers/"
+          }
+        ],
+        "summary": "Visa 投資 AI 程式開發平台 Replit，目標讓 AI 代理能自主執行金融支付行為，打通 AI 工作流自動化的最後一哩路。",
+        "audience": "開發者、AI 創業者、對 AI Agent 未來有興趣的職場族",
+        "pain_point": "想讓 AI 代理自動完成工作，但支付、訂購等「要錢」的動作仍需人工介入，自動化流程卡在最後一步",
+        "title_idea": "AI 以後可以自己刷卡了！Visa 投資 Replit，AI 代理自主支付時代正式開啟",
+        "local_angle": "AI Agentic 支付概念在歐美剛起步，台灣幾乎無人報導，搶先解析「AI 代理 × 金融自動化」趨勢資訊差極大"
+      }
+    ],
+    "trends": [
+      {
+        "title": "網際網路正在被「為機器重建」，AI 代理正成為網路最主要的使用者",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/05/28/the-internet-is-being-rebuilt-for-machines/"
+          }
+        ],
+        "summary": "TechCrunch 深度報導指出，網路基礎設施正在為 AI 代理優化，機器對機器的互動量正在超越人類使用行為。",
+        "audience": "科技工作者、自媒體創作者、對未來趨勢有興趣的職場族",
+        "pain_point": "不確定 AI 如何改變自己工作與生活環境，想提早理解趨勢以免被淘汰",
+        "title_idea": "網路不再是為人設計的！AI 代理正在接管網路，你的工作方式未來 3 年會大變",
+        "local_angle": "「機器中心的網路」是歐美科技圈熱議趨勢，台灣科技媒體幾乎未有深度繁體中文分析，可做思想領袖型內容"
+      },
+      {
+        "title": "AI 算力期貨即將誕生，像黃金原油一樣交易 AI Token 的時代要來了",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/05/28/just-like-gold-and-oil-well-soon-be-able-to-trade-ai-token-futures/"
+          }
+        ],
+        "summary": "金融市場計畫推出 AI Token 期貨合約，讓投資人像交易大宗商品一樣買賣 AI 算力資源，開創全新資產類別。",
+        "audience": "科技創業者、對 AI 投資感興趣的職場族",
+        "pain_point": "想投資 AI 相關資產，但直接投 Nvidia 股票風險高，缺乏直接接觸 AI 算力市場的金融工具",
+        "title_idea": "AI 算力要變成像石油一樣的商品了！AI Token 期貨即將上市，這對你意味著什麼？",
+        "local_angle": "AI 算力金融化是歐美最新趨勢，台灣財經 × AI 題材幾乎無人切入，跨界選題傳播潛力大"
+      },
+      {
+        "title": "OpenAI Codex Goal Mode 全面開放，AI 生成內容 C2PA 浮水印成標配",
+        "sources": [
+          {
+            "name": "OpenAI 官網",
+            "url": "https://openai.com/news/"
+          },
+          {
+            "name": "Releasebot",
+            "url": "https://releasebot.io/updates/openai"
+          }
+        ],
+        "summary": "OpenAI Codex Goal Mode 全面開放供所有用戶使用，同時導入 C2PA 標準為 AI 生成內容加上可追蹤數位浮水印，為內容真偽鑑別奠基。",
+        "audience": "內容創作者、設計師、對 AI 生成內容版權有顧慮的職場族",
+        "pain_point": "用 AI 生成的圖片或內容，不知道未來是否有版權風險，或是否會被認定為假新聞",
+        "title_idea": "AI 生成的圖片和文字以後都有「出生證明」！OpenAI 加入 C2PA，創作者影響有多大？",
+        "local_angle": "AI 內容浮水印與溯源議題在台灣幾乎沒有繁體中文深度討論，但創作者都很在意版權與真偽問題，選題切入點精準"
+      }
+    ]
+  },
+  {
     "date": "2026-05-27",
     "big_events": [
       {
@@ -1052,191 +1231,6 @@
         "pain_point": "AI 創業熱潮下不知道哪些公司是真有實力、哪些只是資本泡沫、投資或求職時怕踩雷",
         "title_idea": "「那些 AI 獨角獸可能沒你想的那麼值錢」——TechCrunch 揭秘 VC 如何用數字遊戲打造 AI 泡沫",
         "local_angle": "台灣職場人對 AI 新創投資評估能力普遍不足，此議題在華語圈幾乎無深度解說；做「如何識別真假 AI 新創」的財經科普，可吸引高知識水平受眾"
-      }
-    ]
-  },
-  {
-    "date": "2026-05-21",
-    "big_events": [
-      {
-        "title": "OpenAI AI 模型自主解開困擾數學界 80 年的幾何難題，原創科學發現時代來臨",
-        "sources": [
-          {
-            "name": "Axios",
-            "url": "https://www.axios.com/2026/05/21/ai-news-cycle-openai-anthropic-spacex"
-          },
-          {
-            "name": "imfounder.com",
-            "url": "https://imfounder.com/science-tech/ai/ai-updates-may-2026/"
-          }
-        ],
-        "summary": "OpenAI 通用推理模型宣布自主解開 80 年幾何懸案，被視為 AI 從「輔助人類」邁向「原創發現」的重大里程碑。",
-        "audience": "對 AI 未來充滿好奇的職場上班族、AI 重度使用者",
-        "pain_point": "不確定 AI 的邊界在哪裡、何時會對自己的工作造成真正衝擊",
-        "title_idea": "「AI 剛解開了數學界 80 年的難題」——這意味著什麼？你的工作還安全嗎？",
-        "local_angle": "歐美媒體連環報導，華語圈從「職場影響」角度解析幾乎空白；搶做「AI 原創能力突破對上班族意味著什麼」深度選題正當時"
-      },
-      {
-        "title": "Spotify 單日發布 4 大 AI 功能：個人 Podcast、Q&A 問答、有聲書工具、AI Cover 授權",
-        "sources": [
-          {
-            "name": "TechCrunch（個人 Podcast）",
-            "url": "https://techcrunch.com/2026/05/21/spotify-debuts-a-new-desktop-app-for-creating-personal-podcasts/"
-          },
-          {
-            "name": "TechCrunch（Q&A）",
-            "url": "https://techcrunch.com/2026/05/21/spotify-adds-ai-powered-qa-and-briefing-generation-features-to-podcasts/"
-          },
-          {
-            "name": "TechCrunch（有聲書）",
-            "url": "https://techcrunch.com/2026/05/21/spotify-launches-an-elevenlabs-powered-audiobook-creation-tool/"
-          },
-          {
-            "name": "TechCrunch（AI Cover）",
-            "url": "https://techcrunch.com/2026/05/21/spotify-and-universal-music-strike-deal-allowing-fan-made-ai-covers-and-remixes/"
-          }
-        ],
-        "summary": "Spotify 投資者日一口氣宣布四項 AI 功能：Premium 用戶可生成個人 AI Podcast 日報、即時 Q&A 問答、ElevenLabs 有聲書製作，以及 UMG 授權的 AI 翻唱。",
-        "audience": "Podcast 聽眾、自媒體創作者、每天通勤的職場上班族",
-        "pain_point": "每天資訊爆炸不知從何消化，想要個人化整理但工具太複雜",
-        "title_idea": "「Spotify 把 NotebookLM 的功能搬進來了！」——以後通勤就能讓 AI 幫你生成專屬每日報告",
-        "local_angle": "四則 TechCrunch 文章同日爆發，華語圈整合報導近乎空白；Studio by Spotify 功能直接對標 Google NotebookLM，台灣 Podcast 用戶族群極具教學紅利"
-      },
-      {
-        "title": "Google Gemini Spark 個人 AI Agent 登場，可跨 App 推理行動，AI 大戰進入超高速時代",
-        "sources": [
-          {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/05/19/google-ai-ultra-gemini-spark-omni.html"
-          },
-          {
-            "name": "Axios",
-            "url": "https://www.axios.com/2026/05/21/google-ai-anthropic-openai-war"
-          }
-        ],
-        "summary": "Google I/O 發布 Gemini Spark 個人 AI Agent，可跨 Gmail、日曆等連接 App 推理並行動；Axios 分析 OpenAI、Anthropic、Google 的競爭周期已壓縮至以小時計。",
-        "audience": "重度 Google Workspace 用戶、職場上班族、AI 產業觀察者",
-        "pain_point": "在多個 App 之間切換耗費大量時間，希望有真正能「跨 App 幫你做事」的智能助手",
-        "title_idea": "「Google AI 終於可以跨 App 幫你做事了」——Gemini Spark 實測：上班族效率翻倍的關鍵",
-        "local_angle": "Google I/O 年度盛事，Gemini Spark 具體工作流教學華語圈幾乎零競爭；搶先做跨 App 自動化示範可快速累積 Google 用戶粉絲群"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "Microsoft 365 Copilot 升級 GPT-5.5，新增 Agent Mode 可直接操作 Word/Excel/PowerPoint",
-        "sources": [
-          {
-            "name": "WinCentral",
-            "url": "https://thewincentral.com/microsoft-365-copilot-may-2026-update-gpt-5-5/"
-          },
-          {
-            "name": "Microsoft Community Hub",
-            "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/available-today-gpt-5-5-instant-in-microsoft-365-copilot/4517084"
-          }
-        ],
-        "summary": "M365 Copilot 同步上線 GPT-5.5 Instant（更快更準）與 Thinking（多步推理），Agent Mode 可直接在 Word/Excel/PowerPoint 中代為執行操作，不只是建議。",
-        "audience": "使用 Microsoft 365 的職場上班族、企業員工",
-        "pain_point": "舊版 Copilot 只能「給建議」，每次還要自己動手改，效率提升有限",
-        "title_idea": "「Microsoft Copilot 進化了！現在會自動幫你改 Excel 和 Word」——GPT-5.5 Agent Mode 完整實測",
-        "local_angle": "台灣企業大量使用 M365，但 Copilot Agent Mode 教學內容嚴重匱乏；實測「讓 AI 直接操作 Office 文件」的示範影片紅利期正開始"
-      },
-      {
-        "title": "Anthropic Claude Compliance API 連日擴增：Netskope、Proofpoint、Cyera 同步宣布整合",
-        "sources": [
-          {
-            "name": "The Manila Times（Netskope）",
-            "url": "https://www.manilatimes.net/2026/05/22/tmt-newswire/globenewswire/netskope-announces-integration-with-claudes-compliance-api-to-strengthen-data-security-and-governance/2349524"
-          },
-          {
-            "name": "Yahoo Finance（Cyera）",
-            "url": "https://finance.yahoo.com/sectors/technology/articles/cyera-extends-ai-security-anthropics-170000906.html"
-          }
-        ],
-        "summary": "Anthropic 合規 API 單日新增 Netskope、Proofpoint、Cyera 三家安全夥伴，企業可即時將 Claude 使用稽核事件串流至 SIEM 系統，解決資料外洩顧慮。",
-        "audience": "IT 主管、企業數位轉型負責人、對 AI 資安有疑慮的決策者",
-        "pain_point": "想在公司導入 Claude，但擔心資料安全問題無法對主管交代",
-        "title_idea": "「公司終於可以放心用 Claude 了？」——Anthropic 合規 API 如何讓 IT 主管不再頭痛",
-        "local_angle": "台灣企業導入 Claude 的最大障礙就是資安，此議題在華語圈幾乎無專題報導；做「企業 AI 導入資安指南」可精準觸及 IT 決策族群"
-      },
-      {
-        "title": "OpenAI Codex 推出 Appshots：可截取 Mac App 畫面供 AI 分析，實現全桌面視覺整合",
-        "sources": [
-          {
-            "name": "FutureTools / X.com (@AriX)",
-            "url": "https://x.com/AriX/status/2057531186688528766"
-          }
-        ],
-        "summary": "OpenAI Codex 新功能 Appshots 讓 AI 能捕捉 Mac 應用程式的畫面脈絡，打通跨 App 視覺理解，實現更流暢的多任務執行。",
-        "audience": "Mac 重度用戶、想用 AI 自動化辦公的上班族、開發者",
-        "pain_point": "AI 工具只能處理文字，無法理解螢幕上正在發生的視覺任務",
-        "title_idea": "「Codex 現在可以『看』你的 Mac 螢幕了」——AI 幫你操電腦的時代正式到來",
-        "local_angle": "歐美開發者社群熱議，但華語圈示範影片幾乎為零；Mac 用戶受眾廣，示範「AI 看螢幕幫你做事」的教學型內容轉換率極高"
-      },
-      {
-        "title": "Krea 推出 LoRAs Fine-tuning Beta：用自訂風格訓練 AI 圖像模型，品牌視覺一致性大升級",
-        "sources": [
-          {
-            "name": "FutureTools / X.com (@krea_ai)",
-            "url": "https://x.com/krea_ai/status/2057468861583347774"
-          }
-        ],
-        "summary": "Krea 推出最強圖像 fine-tuning 系統，用戶可用自選風格、物件或角色訓練 Krea 2 模型，對生成結果擁有更深度的控制力。",
-        "audience": "視覺內容創作者、品牌設計師、想保持個人風格的自媒體人",
-        "pain_point": "AI 生成圖像風格雷同，難以維持品牌或個人創作的一致視覺識別",
-        "title_idea": "「AI 圖像終於可以照你的風格生成了！」——Krea LoRAs 讓你的品牌視覺不再撞臉",
-        "local_angle": "LoRAs 技術在開源社群已成熟，但 Krea 的 SaaS 化版本大幅降低技術門檻；台灣品牌設計師族群對此需求強烈且教學內容稀少"
-      }
-    ],
-    "trends": [
-      {
-        "title": "AI 工具堆疊取代單一 AI：2026 年高效職場人改用「5 工具組合」策略",
-        "sources": [
-          {
-            "name": "Monday.com Blog",
-            "url": "https://monday.com/blog/project-management/ai-productivity-tools/"
-          },
-          {
-            "name": "Efficient App",
-            "url": "https://efficient.app/best/ai-productivity"
-          }
-        ],
-        "summary": "歐美研究顯示，效率最高的職場人不再依賴單一 AI，而是搭建「文件＋會議＋筆記＋研究＋寫作精修」五工具組合，降低跨工具摩擦。",
-        "audience": "花很多錢訂 AI 工具但效率提升有限的職場上班族",
-        "pain_point": "訂了一堆 AI 工具不知道怎麼組合最有效，每月費用越來越高",
-        "title_idea": "「別再只用 ChatGPT 了！」——2026 年高效上班族都在用這套 AI 工具組合（附完整配置清單）",
-        "local_angle": "歐美已有多篇研究驗證此策略，但華語圈幾乎沒有「實際工作流整合示範」；實測型內容搭配本土工具推薦可快速獲得高互動率"
-      },
-      {
-        "title": "Spotify Studio = 職場版 NotebookLM for Audio，個人化 AI 音頻摘要需求浮現",
-        "sources": [
-          {
-            "name": "HowToGeek",
-            "url": "https://www.howtogeek.com/spotify-studio-ai-app-music-audiobooks-podcasts/"
-          },
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/05/07/spotify-wants-to-become-the-home-for-ai-generated-personal-audio/"
-          }
-        ],
-        "summary": "Spotify Studio 整合日曆、Email、文件，可生成個人化 AI 音頻摘要；分析師稱此為繼 Google NotebookLM 後，AI 個人學習工具進入音頻紀元的訊號。",
-        "audience": "學習型上班族、Podcast 重度聽眾、想充分利用通勤時間的職場人",
-        "pain_point": "閱讀文章時間不夠，希望通勤時能用耳朵高效消化工作相關知識",
-        "title_idea": "「比 NotebookLM 更好用？」——Spotify Studio 實測：讓 AI 把你的 PDF 和 Email 變成通勤 Podcast",
-        "local_angle": "Google NotebookLM 在台灣已有熱度，Spotify Studio 以「音頻」升級同概念；做兩者比較教學可同時吃到兩個熱搜流量"
-      },
-      {
-        "title": "另類搜尋引擎崛起：「Google 已不是以前的 Google」，TechCrunch 推薦 6 個替代選項",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/05/21/six-search-engines-worth-trying-now-that-google-isnt-really-google-anymore/"
-          }
-        ],
-        "summary": "TechCrunch 發文指出 Google 因 AI 整合過度已失去原有優勢，整理 6 款值得試用的替代搜尋引擎，AI 搜尋工具競爭格局加速分化。",
-        "audience": "對 Google 搜尋品質不滿的職場上班族、效率工具愛好者",
-        "pain_point": "Google 搜尋廣告越來越多、AI Overview 常常不準確，想找更好用的替代品",
-        "title_idea": "「Google 用不下去了？」——2026 年 6 個職場人必知的搜尋引擎替代方案（含實際測試）",
-        "local_angle": "台灣用戶對 Google 替代工具好奇度高但中文介紹少；實測對比教學 + 本土使用情境分析可創造高分享率"
       }
     ]
   }
