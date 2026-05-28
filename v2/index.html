@@ -1235,7 +1235,11 @@
     /* ─── Responsive ─── */
     @media (max-width: 860px) {
       .bento-grid { grid-template-columns: 1fr 1fr; }
-      .card-ai { grid-column: span 2; grid-row: span 1; min-height: 240px; }
+      .card-ai            { grid-column: span 2; grid-row: span 1; min-height: 240px; }
+      .card-finance-bento { grid-column: span 2; }
+      .card-stocks        { grid-column: span 2; grid-row: span 1; }
+      .card-reserved      { grid-column: span 1; }
+      .card-overtime      { grid-column: span 2; }
       .bento-container, .masthead { padding-left: 20px; padding-right: 20px; }
       .masthead-headline { font-size: 36px; }
       .dash-header { padding: 16px 20px; }
@@ -1243,9 +1247,12 @@
     }
     @media (max-width: 520px) {
       .bento-grid { grid-template-columns: 1fr; }
-      .card-ai { grid-column: span 1; }
+      .card-ai, .card-finance-bento, .card-stocks,
+      .card-reserved, .card-overtime { grid-column: span 1; grid-row: span 1; }
       .masthead-headline { font-size: 28px; }
       .overlay { padding: 16px; }
+      .dash-nav { display: none; }
+      .bento-stock-grid { grid-template-columns: repeat(2, 1fr); }
     }
   </style>
 </head>
