@@ -43,3 +43,29 @@ Dashboard updated successfully. Here's a summary of today's run:
 DONE
 --- AI report finished at Fri May 29 06:04:13 CST 2026 ---
 === Fri May 29 06:04:13 CST 2026 | Starting daily finance report ===
+---
+
+**2026-05-28 財經日報完成**
+
+共選出 **10 則**昨日財經情報，分類如下：
+
+**市場震撼彈（4則）**
+1. 美股創歷史新高 — 美伊60天停火協議傳成，霍爾木茲重開
+2. 無人機股單日暴漲57% — 五角大廈考慮入股，Trump Jr.持股公司受惠
+3. 比特幣跌破73,000美元 — 立法利多擋不住BlackRock ETF史上次大出逃
+4. 聯合太平洋850億美元鐵路合併遭監管暫停
+
+**投資機會（3則）**
+1. UBS預測銅價衝$15,500 — AI+電動車帶出52萬噸結構性缺口
+2. 台股衝破44,800點 — 老AI伺服器族群補漲行情啟動（緯創外資加碼）
+3. 加拿大最大仿製藥廠Apotex申請IPO — 製藥資本市場回暖訊號
+
+**總經觀察（3則）**
+1. 貝萊德Fink倡議把退休金押注AI基礎設施
+2. 全球各地債市同步崩盤警告 — Andrei Jikh最新影片與ZeroHedge呼應
+3. 野村警告三大催化劑將引爆擁擠交易「凌亂解倉」
+
+資料已寫入 `latest_finance_topics.json`，看板更新至 7 日資料（Finance archive）。
+
+**FINANCE DONE**
+--- Finance report finished at Fri May 29 06:08:39 CST 2026 ---
