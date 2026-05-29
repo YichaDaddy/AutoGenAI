@@ -124,3 +124,30 @@ Dashboard rendered successfully. Here's the full report:
 DONE
 --- AI report finished at Sat May 30 06:06:11 CST 2026 ---
 === Sat May 30 06:06:11 CST 2026 | Starting daily finance report ===
+FINANCE DONE
+
+---
+
+**2026-05-29 財經日報完成摘要：**
+
+共選出 **10 則**高話題性財經情報，分類如下：
+
+**market_shocks（市場震撼彈）4 則**
+1. 華爾街甩掉崩盤對沖、放空股暴漲 30%（Bloomberg）
+2. 比特幣 ETF 創史上最長 9 天出血、28 億美元提款（Bloomberg/CoinDesk）
+3. Michael Burry 警告 AI 泡沫像 2000 年、維持鉅額槓桿放空（CNBC）
+4. 藍色起源火箭爆炸、SpaceX 反拿 40 億黃金穹頂合約（Bloomberg）
+
+**investment_opportunities（投資機會）4 則**
+1. Dell AI 伺服器業績炸裂、單日飆 32%、全年展望 1670 億（CNBC/Bloomberg）
+2. Quantinuum 量子 IPO 擴大 + OpenAI 拉花旗摩根入場（Bloomberg）
+3. CFTC 開放加密永續合約在岸、兆元市場合法化（Bloomberg）
+4. 台積電 CoWoS 缺口擴大 20-30%、市值超越印度（鉅亨網）
+
+**macro_observations（總經觀察）3 則**
+1. 日本 BOJ 準備暫停 QT、20 年債殖利率創 30 年新高（ZeroHedge）
+2. 美股創 2023 年最長連勝、伊朗停火＋AI 雙燃料（Bloomberg）
+3. 市場開始定價兩次 Fed 升息、美元五月強勢反彈（Bloomberg）
+
+看板已更新（Finance: 7 date(s)），已推送至 GitHub。
+--- Finance report finished at Sat May 30 06:13:02 CST 2026 ---
