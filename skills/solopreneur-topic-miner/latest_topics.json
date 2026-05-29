@@ -1,134 +1,112 @@
 {
-  "date": "2026-05-28",
+  "date": "2026-05-29",
   "big_events": [
     {
-      "title": "Anthropic 發布 Claude Opus 4.8，推出 Dynamic Workflow 多智能體平行任務功能",
+      "title": "Anthropic 估值 $9,650 億美元正式超越 OpenAI，成全球最高估值 AI 公司",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/28/anthropic-releases-opus-4-8-with-new-dynamic-workflow-tool/"},
-        {"name": "Anthropic 官網", "url": "https://www.anthropic.com/news/claude-opus-4-8"},
-        {"name": "VentureBeat", "url": "https://venturebeat.com/technology/anthropics-claude-opus-4-8-is-here-with-3x-cheaper-fast-mode-and-near-mythos-level-alignment"}
+        {"name": "Al Jazeera", "url": "https://www.aljazeera.com/economy/2026/5/29/anthropic-soars-to-965bn-valuation-leapfrogging-openai"},
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/"}
       ],
-      "summary": "Anthropic 推出 Opus 4.8，搭載 Dynamic Workflow 可平行啟動數百個子代理，Fast Mode 速度提升 2.5 倍且降價 3 倍，誠實度大幅改善。",
-      "audience": "職場上班族、工程師、AI 工具重度使用者",
-      "pain_point": "用 Claude 做複雜任務時一次只能做一件事，跑大型任務或程式碼遷移耗時極長",
-      "title_idea": "Claude Opus 4.8 降臨！一次啟動數百個 AI 助手同時幫你工作，職場效率直接翻倍",
-      "local_angle": "Dynamic Workflow 是全新功能，台灣/華語圈幾乎還沒人做深度教學，搶先示範「如何用多智能體完成複雜工作任務」紅利極大"
+      "summary": "Anthropic 完成 650 億美元融資後估值達 9,650 億美元，首度超越 OpenAI（$8,520 億），由 Altimeter、Sequoia 等領投。",
+      "audience": "職場 Claude 用戶、AI 工具選擇困難者、科技趨勢關注者",
+      "pain_point": "不確定該押注哪個 AI 工具，擔心選錯平台、未來被迫換工具",
+      "title_idea": "Claude 的公司估值超越 ChatGPT！這代表什麼？你現在該怎麼選 AI 工具？",
+      "local_angle": "台灣職場 Claude 用戶快速增加但對 Anthropic 公司背景不熟，估值超越 OpenAI 是具話題性切入點，搭配工具選擇建議可創高互動"
     },
     {
-      "title": "Asana 收購無程式碼 AI 代理建構平台 StackAI，職場自動化大躍進",
+      "title": "Claude Opus 4.8 Dynamic Workflows：AI 指揮 AI，一次協調數百個子代理平行工作",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/28/asana-acquires-no-code-agent-builder-stack-ai/"}
+        {"name": "Anthropic 官方", "url": "https://www.anthropic.com/news"},
+        {"name": "WaveSpeed Blog", "url": "https://wavespeed.ai/blog/posts/opus-4-8/"},
+        {"name": "NeuralBuddies（May 29 日報）", "url": "https://www.neuralbuddies.com/p/ai-news-recap-may-29-2026"}
       ],
-      "summary": "專案管理工具 Asana 收購 StackAI，讓非技術人員也能在 Asana 內直接用無程式碼方式搭建 AI 自動化流程。",
-      "audience": "職場上班族、專案經理、企業行政人員",
-      "pain_point": "想在工作中導入 AI 自動化，但不懂程式、現有工具門檻太高，不知道從何下手",
-      "title_idea": "不用寫程式也能建自己的 AI 員工！Asana 收購 StackAI 後，職場自動化平民化了",
-      "local_angle": "台灣企業普遍探索 AI 導入但技術門檻是最大障礙，此收購案說明「無程式碼 AI 工作流」大趨勢，華語圈尚無相關深度報導"
+      "summary": "Opus 4.8 推出 Dynamic Workflows，可協調數百個平行子代理；Fast Mode 降至 3 折；誠實度讓漏掉 bug 的機率降 4 倍。",
+      "audience": "重度 AI 使用者、職場效率達人、Claude Code 開發者",
+      "pain_point": "複雜多步驟任務用 AI 一次只能做一件事，跑大型自動化流程耗時極長",
+      "title_idea": "Claude Opus 4.8 的 Dynamic Workflows 到底有多強？我讓 AI 幫我同時跑 50 個任務的實測",
+      "local_angle": "Dynamic Workflows 是全新功能，繁體中文實測教學幾乎是零，搶先做「多代理協作工作流」示範，流量紅利極大"
     },
     {
-      "title": "蘋果全新 Siri App 設計曝光，正面挑戰 ChatGPT 搶攻 AI 助理市場",
+      "title": "OpenAI 內部測試 GPT-5.6 曝光：推理更強、Agent 升級，六月發布在望",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/28/sneak-peek-at-new-siri-app-reveals-apples-plans-to-take-on-chatgpt-and-more/"}
+        {"name": "NeuralBuddies（May 29 日報）", "url": "https://www.neuralbuddies.com/p/ai-news-recap-may-29-2026"}
       ],
-      "summary": "蘋果全新獨立 Siri App 設計流出，功能大幅強化，顯示蘋果正式宣戰 ChatGPT 等 AI 助理，iPhone 用戶將直接受惠。",
-      "audience": "iPhone 用戶、職場上班族、蘋果生態系使用者",
-      "pain_point": "現在 Siri 功能太弱，職場 AI 需求只能靠第三方 App，希望有原生整合的強大 AI 助理",
-      "title_idea": "蘋果終於認真了！新版 Siri 直接挑戰 ChatGPT，iPhone 用戶的 AI 助理時代要來了",
-      "local_angle": "台灣 iPhone 普及率極高，蘋果 Siri 升級是最直接相關的 AI 消息，卻鮮少有繁體中文深度分析，搶佔「蘋果 AI 策略解析」紅利"
-    },
-    {
-      "title": "Anthropic 完成 650 億美元融資，估值逼近 1 兆美元，IPO 前夕",
-      "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/"}
-      ],
-      "summary": "Anthropic 完成史詩級 650 億美元融資，估值接近 1 兆美元並為 IPO 鋪路，顯示 AI 產業資本市場信心極強。",
-      "audience": "職場上班族、科技愛好者、關注 AI 產業動態的創作者",
-      "pain_point": "對 AI 產業走向感困惑，不確定 Claude 等工具的未來走向，擔心工具是否持續可靠",
-      "title_idea": "Anthropic 融資 650 億！Claude 的公司要上市了，這對你使用 AI 工具有什麼影響？",
-      "local_angle": "台灣職場 Claude 使用者快速增加，融資消息搭配 Opus 4.8 發布一起報導，可做「Claude 未來走向」深度分析，繁體中文稀少"
+      "summary": "OpenAI 內部 GPT-5.6 測試資訊外洩，顯示強化推理能力與多步驟 Agent 功能，預計六月正式亮相。",
+      "audience": "ChatGPT 重度用戶、AI 工具早期採用者",
+      "pain_point": "跟不上 AI 迭代速度，不知道什麼時候換版本、換版本後要重新學習",
+      "title_idea": "GPT-5.6 下個月來了！洩露的 4 大升級重點，現在就能準備的使用策略",
+      "local_angle": "每次 GPT 版本升級在台灣都能帶動大量搜尋，搶先分析洩露資訊並提供「如何利用新版本」實用建議，資訊差明顯"
     }
   ],
   "tool_updates": [
     {
-      "title": "ElevenLabs Dubbing v2 上線，90+ 語言配音完整保留原聲情緒與語調",
+      "title": "Google Pics 登場：免費 AI 圖像創作工具，從派對傳單到資訊圖表一鍵生成",
       "sources": [
-        {"name": "ElevenLabs 官網", "url": "https://elevenlabs.io/dubbing-studio"},
-        {"name": "FutureTools", "url": "https://futuretools.io/news"}
+        {"name": "Google 官方部落格", "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/"}
       ],
-      "summary": "ElevenLabs 發布 Dubbing v2，首次實現跨語言配音時保留原說話者的情緒與表演風格，支援 90+ 語言，大幅提升本地化內容品質。",
-      "audience": "自媒體創作者、內容行銷人員、影片製作者",
-      "pain_point": "想把中文影片配音成多語言打海外市場，但現有工具配出來的聲音沒感情、很機械，觀眾接受度低",
-      "title_idea": "AI 配音終於有感情了！ElevenLabs Dubbing v2 讓你一鍵把影片翻成 90 種語言還保留原聲情緒",
-      "local_angle": "台灣創作者打海外市場或做多語言內容時配音是高門檻，v2 情緒保留功能是突破點，華語圈教學幾乎空白"
+      "summary": "Google 正式推出 Google Pics，基於 Nano Banana 模型，可製作各類圖像內容，對信任測試者開放，整合 Google 生態系。",
+      "audience": "職場文書族、社群管理者、沒有設計背景的內容創作者",
+      "pain_point": "做簡報、社群圖片設計不好看，不會用 Canva 進階功能，付不起 Midjourney",
+      "title_idea": "Google 免費 AI 圖像工具來了！Google Pics 實測：比 Canva AI 好用嗎？",
+      "local_angle": "Google 品牌在台灣信任度高，推出免費設計工具對職場族吸引力強，繁體中文評測幾乎空白，搶先測評流量紅利大"
     },
     {
-      "title": "Sesame AI iOS App 正式上線，Oculus 創辦人打造的自然對話 AI 登陸 iPhone",
+      "title": "Gemini 3.5 Flash 全面開放：旗艦模型智能水準、僅 1/3 費用",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app/"}
+        {"name": "Google 官方部落格", "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/"}
       ],
-      "summary": "Oculus VR 創辦人創立的對話式 AI 新創 Sesame 正式推出 iOS App，主打比現有 AI 助理更自然、有溫度的語音對話體驗。",
-      "audience": "職場上班族、AI 工具嘗鮮者",
-      "pain_point": "現有 AI 語音助理（Siri、ChatGPT 語音）感覺太冷、太機械，想要更自然的對話互動體驗",
-      "title_idea": "比 ChatGPT 更像真人！Oculus 創辦人的新 AI App「Sesame」上線，語音對話終於有感情了",
-      "local_angle": "Oculus 創辦人背書在歐美引發大量討論，台灣幾乎沒有繁體中文評測，搶先體驗評測可拿到流量紅利"
+      "summary": "Gemini 3.5 Flash 正式上線，性能媲美 Gemini 3.1 Pro，但定價僅 1/3，透過 Google Antigravity 及 Gemini API 可立即使用。",
+      "audience": "開發者、SaaS 創業者、AI 工具重度用戶",
+      "pain_point": "AI API 費用高昂，難以大規模部署自動化工作流，性能 vs 成本難以兼顧",
+      "title_idea": "Gemini 3.5 Flash vs ChatGPT vs Claude：同樣的任務，誰最便宜又最好用？",
+      "local_angle": "API 性價比比較是開發者社群最熱門話題，但繁體中文版實測評比稀少，可做「三大平台 API 成本計算機」吸引技術族群"
     },
     {
-      "title": "YouTube 新增 AI 播客推薦引擎與 Auto Speed 功能，內容發現邏輯大改變",
+      "title": "DeepSWE 程式碼基準出爐：GPT-5.5 以 70% 奪冠，Claude Opus 4.7 落後",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/28/youtube-adds-new-podcast-features-including-an-ai-recommendation-tool-and-auto-speed/"}
+        {"name": "NeuralBuddies（May 29 日報）", "url": "https://www.neuralbuddies.com/p/ai-news-recap-may-29-2026"}
       ],
-      "summary": "YouTube 推出 AI 驅動的播客推薦引擎與自動語速功能，強化播客生態系，對創作者流量分配和聽眾體驗帶來直接改變。",
-      "audience": "內容創作者、職場上班族（通勤學習族）",
-      "pain_point": "YouTube 播客推薦不夠精準，聽完一集後下一集總是不相關，創作者也不知道 AI 推薦機制如何影響自己的曝光",
-      "title_idea": "YouTube 推出 AI 播客助理！以後找節目全靠 AI 推薦，創作者的流量邏輯要大改了",
-      "local_angle": "台灣 YouTube 播客市場快速成長，AI 推薦機制改變對創作者曝光影響重大，但繁體中文分析幾乎沒有"
-    },
-    {
-      "title": "Visa 投資 Replit，推動 AI 代理自主完成金融支付交易",
-      "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/28/visa-invests-in-replit-to-power-agentic-payments-for-developers/"}
-      ],
-      "summary": "Visa 投資 AI 程式開發平台 Replit，目標讓 AI 代理能自主執行金融支付行為，打通 AI 工作流自動化的最後一哩路。",
-      "audience": "開發者、AI 創業者、對 AI Agent 未來有興趣的職場族",
-      "pain_point": "想讓 AI 代理自動完成工作，但支付、訂購等「要錢」的動作仍需人工介入，自動化流程卡在最後一步",
-      "title_idea": "AI 以後可以自己刷卡了！Visa 投資 Replit，AI 代理自主支付時代正式開啟",
-      "local_angle": "AI Agentic 支付概念在歐美剛起步，台灣幾乎無人報導，搶先解析「AI 代理 × 金融自動化」趨勢資訊差極大"
+      "summary": "Datacurve 發布 DeepSWE 基準（113 項跨 91 個代碼庫），GPT-5.5 以 70% 奪冠，GPT-5.4 56%，Claude Opus 4.7 僅 54%。",
+      "audience": "軟體工程師、使用 AI 輔助寫程式的開發者",
+      "pain_point": "不知道 Claude、GPT、Gemini 哪個最適合寫程式，每次都靠感覺選工具",
+      "title_idea": "2026 最新 AI 寫程式大賽結果出爐！GPT-5.5 打爆 Claude，工程師該怎麼選工具？",
+      "local_angle": "台灣開發者社群對 AI coding 工具選擇討論熱絡，但基於具體基準的繁體中文分析幾乎沒有，數據+實用建議組合選題傳播力強"
     }
   ],
   "trends": [
     {
-      "title": "網際網路正在被「為機器重建」，AI 代理正成為網路最主要的使用者",
+      "title": "Groq 放棄晶片轉型 AI 推論雲：Groq2 融資 6.5 億搶攻 AI 基礎設施",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/28/the-internet-is-being-rebuilt-for-machines/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/"},
+        {"name": "Axios", "url": "https://www.axios.com/2026/05/28/groq-650-million-nvidia"}
       ],
-      "summary": "TechCrunch 深度報導指出，網路基礎設施正在為 AI 代理優化，機器對機器的互動量正在超越人類使用行為。",
-      "audience": "科技工作者、自媒體創作者、對未來趨勢有興趣的職場族",
-      "pain_point": "不確定 AI 如何改變自己工作與生活環境，想提早理解趨勢以免被淘汰",
-      "title_idea": "網路不再是為人設計的！AI 代理正在接管網路，你的工作方式未來 3 年會大變",
-      "local_angle": "「機器中心的網路」是歐美科技圈熱議趨勢，台灣科技媒體幾乎未有深度繁體中文分析，可做思想領袖型內容"
+      "summary": "Groq 在 Nvidia 以 200 億美元授權其晶片技術後，轉型為 AI 推論雲（Groq2）並融資 6.5 億美元，主攻 inference-as-a-service。",
+      "audience": "創業者、關注 AI 基礎設施的開發者",
+      "pain_point": "不清楚 AI 產業基礎設施格局如何演變，不確定哪些平台或公司值得關注",
+      "title_idea": "Nvidia 買走 Groq 技術後，Groq 搖身一變成 AI 雲服務！AI 算力戰爭的下一個戰場",
+      "local_angle": "AI 基礎設施商業模式轉變在台灣科技媒體幾乎無人分析，「晶片公司轉型雲服務」是商業趨勢好選題"
     },
     {
-      "title": "AI 算力期貨即將誕生，像黃金原油一樣交易 AI Token 的時代要來了",
+      "title": "Altman 與 Amodei 同步轉口：AI 不是搶你的工作，而是讓你做 10 個人的事",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/28/just-like-gold-and-oil-well-soon-be-able-to-trade-ai-token-futures/"}
+        {"name": "NeuralBuddies（May 29 日報）", "url": "https://www.neuralbuddies.com/p/ai-news-recap-may-29-2026"}
       ],
-      "summary": "金融市場計畫推出 AI Token 期貨合約，讓投資人像交易大宗商品一樣買賣 AI 算力資源，開創全新資產類別。",
-      "audience": "科技創業者、對 AI 投資感興趣的職場族",
-      "pain_point": "想投資 AI 相關資產，但直接投 Nvidia 股票風險高，缺乏直接接觸 AI 算力市場的金融工具",
-      "title_idea": "AI 算力要變成像石油一樣的商品了！AI Token 期貨即將上市，這對你意味著什麼？",
-      "local_angle": "AI 算力金融化是歐美最新趨勢，台灣財經 × AI 題材幾乎無人切入，跨界選題傳播潛力大"
+      "summary": "OpenAI 和 Anthropic 執行長同步撤回「AI 取代白領」說法，改口強調 AI 是生產力倍增器，人類仍是不可或缺的一環。",
+      "audience": "職場上班族、對 AI 取代工作感到焦慮的族群",
+      "pain_point": "擔心自己的工作被 AI 取代，不知道要學什麼技能才能不被淘汰",
+      "title_idea": "OpenAI 和 Anthropic 老闆同時改口：AI 不搶你的工作——但你不學 AI，人會搶你的工作",
+      "local_angle": "職場焦慮是台灣上班族最共鳴的話題，兩大 AI 公司 CEO 同步轉口的訊號值得深挖，結合「如何用 AI 提升職場競爭力」實用建議"
     },
     {
-      "title": "OpenAI Codex Goal Mode 全面開放，AI 生成內容 C2PA 浮水印成標配",
+      "title": "Figure 03 機器人 200 小時連續工作零故障：AI 體力勞動商用化里程碑",
       "sources": [
-        {"name": "OpenAI 官網", "url": "https://openai.com/news/"},
-        {"name": "Releasebot", "url": "https://releasebot.io/updates/openai"}
+        {"name": "NeuralBuddies（May 29 日報）", "url": "https://www.neuralbuddies.com/p/ai-news-recap-may-29-2026"}
       ],
-      "summary": "OpenAI Codex Goal Mode 全面開放供所有用戶使用，同時導入 C2PA 標準為 AI 生成內容加上可追蹤數位浮水印，為內容真偽鑑別奠基。",
-      "audience": "內容創作者、設計師、對 AI 生成內容版權有顧慮的職場族",
-      "pain_point": "用 AI 生成的圖片或內容，不知道未來是否有版權風險，或是否會被認定為假新聞",
-      "title_idea": "AI 生成的圖片和文字以後都有「出生證明」！OpenAI 加入 C2PA，創作者影響有多大？",
-      "local_angle": "AI 內容浮水印與溯源議題在台灣幾乎沒有繁體中文深度討論，但創作者都很在意版權與真偽問題，選題切入點精準"
+      "summary": "Figure AI 的三台 Figure 03 人形機器人搭載 Helix-02 AI，連續 200 小時處理超過 24 萬件包裹，全程零故障。",
+      "audience": "製造業從業者、對 AI 未來趨勢感興趣的職場族",
+      "pain_point": "不確定 AI 機器人是否真的能勝任實際工廠工作，對「AI 取代體力勞動」仍有懷疑",
+      "title_idea": "AI 機器人工廠工作 200 小時不休息！這段影像讓我開始認真思考 10 年後的就業市場",
+      "local_angle": "台灣製造業從業人口多、對自動化敏感度高，但繁體中文 AI 機器人實測報導極稀少，可做「實體 AI 商用化」深度分析搶先佈局"
     }
   ]
 }

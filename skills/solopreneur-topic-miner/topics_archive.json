@@ -1,5 +1,156 @@
 [
   {
+    "date": "2026-05-29",
+    "big_events": [
+      {
+        "title": "Anthropic 估值 $9,650 億美元正式超越 OpenAI，成全球最高估值 AI 公司",
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/economy/2026/5/29/anthropic-soars-to-965bn-valuation-leapfrogging-openai"
+          },
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/"
+          }
+        ],
+        "summary": "Anthropic 完成 650 億美元融資後估值達 9,650 億美元，首度超越 OpenAI（$8,520 億），由 Altimeter、Sequoia 等領投。",
+        "audience": "職場 Claude 用戶、AI 工具選擇困難者、科技趨勢關注者",
+        "pain_point": "不確定該押注哪個 AI 工具，擔心選錯平台、未來被迫換工具",
+        "title_idea": "Claude 的公司估值超越 ChatGPT！這代表什麼？你現在該怎麼選 AI 工具？",
+        "local_angle": "台灣職場 Claude 用戶快速增加但對 Anthropic 公司背景不熟，估值超越 OpenAI 是具話題性切入點，搭配工具選擇建議可創高互動"
+      },
+      {
+        "title": "Claude Opus 4.8 Dynamic Workflows：AI 指揮 AI，一次協調數百個子代理平行工作",
+        "sources": [
+          {
+            "name": "Anthropic 官方",
+            "url": "https://www.anthropic.com/news"
+          },
+          {
+            "name": "WaveSpeed Blog",
+            "url": "https://wavespeed.ai/blog/posts/opus-4-8/"
+          },
+          {
+            "name": "NeuralBuddies（May 29 日報）",
+            "url": "https://www.neuralbuddies.com/p/ai-news-recap-may-29-2026"
+          }
+        ],
+        "summary": "Opus 4.8 推出 Dynamic Workflows，可協調數百個平行子代理；Fast Mode 降至 3 折；誠實度讓漏掉 bug 的機率降 4 倍。",
+        "audience": "重度 AI 使用者、職場效率達人、Claude Code 開發者",
+        "pain_point": "複雜多步驟任務用 AI 一次只能做一件事，跑大型自動化流程耗時極長",
+        "title_idea": "Claude Opus 4.8 的 Dynamic Workflows 到底有多強？我讓 AI 幫我同時跑 50 個任務的實測",
+        "local_angle": "Dynamic Workflows 是全新功能，繁體中文實測教學幾乎是零，搶先做「多代理協作工作流」示範，流量紅利極大"
+      },
+      {
+        "title": "OpenAI 內部測試 GPT-5.6 曝光：推理更強、Agent 升級，六月發布在望",
+        "sources": [
+          {
+            "name": "NeuralBuddies（May 29 日報）",
+            "url": "https://www.neuralbuddies.com/p/ai-news-recap-may-29-2026"
+          }
+        ],
+        "summary": "OpenAI 內部 GPT-5.6 測試資訊外洩，顯示強化推理能力與多步驟 Agent 功能，預計六月正式亮相。",
+        "audience": "ChatGPT 重度用戶、AI 工具早期採用者",
+        "pain_point": "跟不上 AI 迭代速度，不知道什麼時候換版本、換版本後要重新學習",
+        "title_idea": "GPT-5.6 下個月來了！洩露的 4 大升級重點，現在就能準備的使用策略",
+        "local_angle": "每次 GPT 版本升級在台灣都能帶動大量搜尋，搶先分析洩露資訊並提供「如何利用新版本」實用建議，資訊差明顯"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "Google Pics 登場：免費 AI 圖像創作工具，從派對傳單到資訊圖表一鍵生成",
+        "sources": [
+          {
+            "name": "Google 官方部落格",
+            "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/"
+          }
+        ],
+        "summary": "Google 正式推出 Google Pics，基於 Nano Banana 模型，可製作各類圖像內容，對信任測試者開放，整合 Google 生態系。",
+        "audience": "職場文書族、社群管理者、沒有設計背景的內容創作者",
+        "pain_point": "做簡報、社群圖片設計不好看，不會用 Canva 進階功能，付不起 Midjourney",
+        "title_idea": "Google 免費 AI 圖像工具來了！Google Pics 實測：比 Canva AI 好用嗎？",
+        "local_angle": "Google 品牌在台灣信任度高，推出免費設計工具對職場族吸引力強，繁體中文評測幾乎空白，搶先測評流量紅利大"
+      },
+      {
+        "title": "Gemini 3.5 Flash 全面開放：旗艦模型智能水準、僅 1/3 費用",
+        "sources": [
+          {
+            "name": "Google 官方部落格",
+            "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/"
+          }
+        ],
+        "summary": "Gemini 3.5 Flash 正式上線，性能媲美 Gemini 3.1 Pro，但定價僅 1/3，透過 Google Antigravity 及 Gemini API 可立即使用。",
+        "audience": "開發者、SaaS 創業者、AI 工具重度用戶",
+        "pain_point": "AI API 費用高昂，難以大規模部署自動化工作流，性能 vs 成本難以兼顧",
+        "title_idea": "Gemini 3.5 Flash vs ChatGPT vs Claude：同樣的任務，誰最便宜又最好用？",
+        "local_angle": "API 性價比比較是開發者社群最熱門話題，但繁體中文版實測評比稀少，可做「三大平台 API 成本計算機」吸引技術族群"
+      },
+      {
+        "title": "DeepSWE 程式碼基準出爐：GPT-5.5 以 70% 奪冠，Claude Opus 4.7 落後",
+        "sources": [
+          {
+            "name": "NeuralBuddies（May 29 日報）",
+            "url": "https://www.neuralbuddies.com/p/ai-news-recap-may-29-2026"
+          }
+        ],
+        "summary": "Datacurve 發布 DeepSWE 基準（113 項跨 91 個代碼庫），GPT-5.5 以 70% 奪冠，GPT-5.4 56%，Claude Opus 4.7 僅 54%。",
+        "audience": "軟體工程師、使用 AI 輔助寫程式的開發者",
+        "pain_point": "不知道 Claude、GPT、Gemini 哪個最適合寫程式，每次都靠感覺選工具",
+        "title_idea": "2026 最新 AI 寫程式大賽結果出爐！GPT-5.5 打爆 Claude，工程師該怎麼選工具？",
+        "local_angle": "台灣開發者社群對 AI coding 工具選擇討論熱絡，但基於具體基準的繁體中文分析幾乎沒有，數據+實用建議組合選題傳播力強"
+      }
+    ],
+    "trends": [
+      {
+        "title": "Groq 放棄晶片轉型 AI 推論雲：Groq2 融資 6.5 億搶攻 AI 基礎設施",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/"
+          },
+          {
+            "name": "Axios",
+            "url": "https://www.axios.com/2026/05/28/groq-650-million-nvidia"
+          }
+        ],
+        "summary": "Groq 在 Nvidia 以 200 億美元授權其晶片技術後，轉型為 AI 推論雲（Groq2）並融資 6.5 億美元，主攻 inference-as-a-service。",
+        "audience": "創業者、關注 AI 基礎設施的開發者",
+        "pain_point": "不清楚 AI 產業基礎設施格局如何演變，不確定哪些平台或公司值得關注",
+        "title_idea": "Nvidia 買走 Groq 技術後，Groq 搖身一變成 AI 雲服務！AI 算力戰爭的下一個戰場",
+        "local_angle": "AI 基礎設施商業模式轉變在台灣科技媒體幾乎無人分析，「晶片公司轉型雲服務」是商業趨勢好選題"
+      },
+      {
+        "title": "Altman 與 Amodei 同步轉口：AI 不是搶你的工作，而是讓你做 10 個人的事",
+        "sources": [
+          {
+            "name": "NeuralBuddies（May 29 日報）",
+            "url": "https://www.neuralbuddies.com/p/ai-news-recap-may-29-2026"
+          }
+        ],
+        "summary": "OpenAI 和 Anthropic 執行長同步撤回「AI 取代白領」說法，改口強調 AI 是生產力倍增器，人類仍是不可或缺的一環。",
+        "audience": "職場上班族、對 AI 取代工作感到焦慮的族群",
+        "pain_point": "擔心自己的工作被 AI 取代，不知道要學什麼技能才能不被淘汰",
+        "title_idea": "OpenAI 和 Anthropic 老闆同時改口：AI 不搶你的工作——但你不學 AI，人會搶你的工作",
+        "local_angle": "職場焦慮是台灣上班族最共鳴的話題，兩大 AI 公司 CEO 同步轉口的訊號值得深挖，結合「如何用 AI 提升職場競爭力」實用建議"
+      },
+      {
+        "title": "Figure 03 機器人 200 小時連續工作零故障：AI 體力勞動商用化里程碑",
+        "sources": [
+          {
+            "name": "NeuralBuddies（May 29 日報）",
+            "url": "https://www.neuralbuddies.com/p/ai-news-recap-may-29-2026"
+          }
+        ],
+        "summary": "Figure AI 的三台 Figure 03 人形機器人搭載 Helix-02 AI，連續 200 小時處理超過 24 萬件包裹，全程零故障。",
+        "audience": "製造業從業者、對 AI 未來趨勢感興趣的職場族",
+        "pain_point": "不確定 AI 機器人是否真的能勝任實際工廠工作，對「AI 取代體力勞動」仍有懷疑",
+        "title_idea": "AI 機器人工廠工作 200 小時不休息！這段影像讓我開始認真思考 10 年後的就業市場",
+        "local_angle": "台灣製造業從業人口多、對自動化敏感度高，但繁體中文 AI 機器人實測報導極稀少，可做「實體 AI 商用化」深度分析搶先佈局"
+      }
+    ]
+  },
+  {
     "date": "2026-05-28",
     "big_events": [
       {
@@ -1034,203 +1185,6 @@
         "pain_point": "擔心 AI Agent 是否能真正自主完成複雜任務，不確定何時應該開始跟進學習",
         "title_idea": "「AI 不睡覺！Qwen 自主跑 35 小時幫工程師優化程式，這代表了什麼？」趨勢深度解析",
         "local_angle": "AI Agent 長時間自主作業是歐美熱議話題，台灣中文圈討論稀少，做深度解析可吸引科技圈高質量受眾"
-      }
-    ]
-  },
-  {
-    "date": "2026-05-22",
-    "big_events": [
-      {
-        "title": "Google I/O 2026 重磅登場：Gemini 3.5 Flash 超越旗艦、AI 搜尋重構、Ask YouTube 問影片問題",
-        "sources": [
-          {
-            "name": "Google Developers Blog",
-            "url": "https://developers.googleblog.com/all-the-news-from-the-google-io-2026-developer-keynote/"
-          },
-          {
-            "name": "Google Blog（100 項公告）",
-            "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/"
-          },
-          {
-            "name": "The Next Web",
-            "url": "https://thenextweb.com/news/google-cloud-next-ai-agents-agentic-era"
-          }
-        ],
-        "summary": "Google I/O 2026 發布 Gemini 3.5 Flash（速度媲美旗艦）、AI 搜尋可長對話、YouTube Ask 功能讓觀眾直接問影片問題，全面進入 Agentic AI 時代。",
-        "audience": "職場上班族、重度 Google Workspace 使用者、YouTube 學習型創作者",
-        "pain_point": "不確定 Google AI 工具到底升級了什麼、不知道哪些功能可以馬上拿來提升工作效率",
-        "title_idea": "「Google I/O 最重要的 5 個更新」——Gemini 3.5 Flash、AI 搜尋、Ask YouTube，上班族該怎麼用？",
-        "local_angle": "Google I/O 是年度最大 AI 事件，但華語圈多數解說停留在「宣告式摘要」；搶做「如何把 Gemini 3.5 Flash 整合進你的工作流」實操教學，資訊差紅利最大"
-      },
-      {
-        "title": "Anthropic 發布 Claude Mythos：自主找出 1 萬個軟體漏洞，AI 安全研究能力超越人類測試員",
-        "sources": [
-          {
-            "name": "Anthropic（Project Glasswing）",
-            "url": "https://www.anthropic.com/glasswing"
-          },
-          {
-            "name": "Investing.com",
-            "url": "https://ca.investing.com/news/stock-market-news/anthropic-finds-over-10000-software-flaws-in-first-month-of-project-glasswing-93CH-4657011"
-          },
-          {
-            "name": "VulnCheck Blog",
-            "url": "https://www.vulncheck.com/blog/anthropic-glasswing-cves"
-          }
-        ],
-        "summary": "Anthropic 推出 Claude Mythos Preview，聯合 50 家合作夥伴掃描出超過 1 萬個高危漏洞，Mozilla 發現 271 個 Firefox 漏洞、是人工測試工具的 10 倍效率。",
-        "audience": "IT 安全人員、企業技術主管、對 AI 能力邊界好奇的職場人",
-        "pain_point": "不知道 AI 在「需要高度技術判斷」的安全領域究竟能做到多強、企業導入 AI 後資安是否更脆弱",
-        "title_idea": "「Anthropic 的新 AI 比人類安全測試員強 10 倍」——Claude Mythos 如何在一個月內找到 1 萬個漏洞？",
-        "local_angle": "華語圈對此重大安全事件幾乎無深度報導；從「AI 能力里程碑」切角，搭配「企業導入 AI 的資安建議」，對技術主管族群吸引力極高"
-      },
-      {
-        "title": "Anthropic Code w/ Claude 開發者大會：Managed Agents GA、Claude Opus 4.7 編程排名登頂",
-        "sources": [
-          {
-            "name": "MindStudio Blog",
-            "url": "https://www.mindstudio.ai/blog/code-with-claude-2026-new-agent-features"
-          },
-          {
-            "name": "Anthropic 更新頁",
-            "url": "https://releasebot.io/updates/anthropic/claude-code"
-          },
-          {
-            "name": "Anthropic Blog",
-            "url": "https://www.anthropic.com/news"
-          }
-        ],
-        "summary": "Anthropic 在舊金山舉辦 Code w/ Claude 大會，發布 Managed Agents GA 版（含 dreaming、多 Agent 協作、webhooks）；Claude Opus 4.7 在 SWE-bench 達 87.6%，超越 GPT-5.4 的 74.9%。",
-        "audience": "開發者、使用 Claude 工具的程式設計師、想用 AI 自動化工作流的職場人",
-        "pain_point": "Claude API 太複雜不知道怎麼組出可以自動跑任務的 Agent、不確定 Claude 和 GPT 在實際任務上誰更強",
-        "title_idea": "「Claude 編程能力正式超越 GPT！」——Anthropic 大會 5 大更新，Managed Agents 讓 AI 自動幫你跑任務",
-        "local_angle": "開發者大會發布內容技術性高，華語圈「非技術但想用 AI 自動化」的職場族群解說幾乎空白；用「白話文示範 Managed Agents 可以幫你做什麼」切入，受眾廣且競爭少"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "Ideogram 推出 MCP 整合：在 Claude 和 ChatGPT 內直接生成 AI 設計圖，不用切換工具",
-        "sources": [
-          {
-            "name": "FutureTools",
-            "url": "https://futuretools.io/news"
-          },
-          {
-            "name": "Ideogram（X.com）",
-            "url": "https://x.com/ideogram_ai"
-          }
-        ],
-        "summary": "Ideogram 發布 MCP 整合，讓用戶可在 Claude Desktop 或 ChatGPT 對話框中直接觸發 Ideogram 圖像生成，設計工作流無縫整合進 AI 助手。",
-        "audience": "使用 Claude 或 ChatGPT 的創作者、設計師、需要頻繁製作圖像的自媒體人",
-        "pain_point": "每次要生成圖片都要切出去開另一個工具，中斷創作流程造成效率損耗",
-        "title_idea": "「以後在 Claude 裡就能直接畫圖了！」——Ideogram MCP 完整設定教學，設計師必看",
-        "local_angle": "MCP 整合在歐美開發者社群引發高討論，但華語圈「如何設定並實際用 Claude 生圖」的實操教學幾乎空白；圖文型示範教學轉換率極高"
-      },
-      {
-        "title": "Leonardo AI 上線 3D 物件生成：2D 圖像一鍵轉生產用 3D 模型，支援遊戲引擎與 3D 列印",
-        "sources": [
-          {
-            "name": "FutureTools",
-            "url": "https://futuretools.io/news"
-          },
-          {
-            "name": "Leonardo AI 官網",
-            "url": "https://leonardo.ai"
-          }
-        ],
-        "summary": "Leonardo AI 推出 3D 物件生成功能，可將 2D 圖像轉換為可直接匯入 Unity、Unreal 等遊戲引擎或 3D 列印的模型，創作者無需在工具間反覆切換。",
-        "audience": "獨立遊戲開發者、3D 創作者、想擴充內容形式的自媒體人",
-        "pain_point": "2D 圖像轉 3D 過去需要昂貴的 3D 軟體和技術門檻，無法快速出稿",
-        "title_idea": "「Leonardo AI 一張圖就能生成 3D 模型了！」——獨立開發者用這招省下 80% 製作時間",
-        "local_angle": "3D 內容創作在歐美 IndieGame 圈已火熱，華語圈教學幾乎空白；搭配「如何免費試用」的示範，對 Roblox、Unity 學習族群吸引力極強"
-      },
-      {
-        "title": "Microsoft Bing 推出 AI 圖像搜尋：分類區段取代網格、智能摘要加速決策",
-        "sources": [
-          {
-            "name": "Bing Blog",
-            "url": "https://blogs.bing.com"
-          },
-          {
-            "name": "FutureTools",
-            "url": "https://futuretools.io/news"
-          }
-        ],
-        "summary": "Bing 全新 AI 圖像搜尋將結果重組為主題分類區段並附摘要說明，幫助用戶從「瀏覽」直接進入「決策」，已向美國桌機與手機用戶開放。",
-        "audience": "常用圖片搜尋的職場上班族、設計師、採購人員",
-        "pain_point": "傳統圖片搜尋結果雜亂，需要花大量時間篩選合適圖像",
-        "title_idea": "「Bing 圖片搜尋變智能了！」——AI 分類整理讓你找圖效率直接翻倍（附實際比較）",
-        "local_angle": "Bing AI 功能更新在華語圈關注度低；但配合「Copilot + Bing 全套工作流整合」的主題，可吸引 Microsoft 生態系用戶群"
-      },
-      {
-        "title": "Perplexity 開源 Bumblebee：防止開發者被 AI 工具包攻擊的本地安全掃描器",
-        "sources": [
-          {
-            "name": "FutureTools",
-            "url": "https://futuretools.io/news"
-          },
-          {
-            "name": "Perplexity AI 官網",
-            "url": "https://perplexity.ai"
-          }
-        ],
-        "summary": "Perplexity 開源 Go 語言安全掃描工具 Bumblebee，可掃描 npm 套件、IDE 擴充功能和 AI 配置文件是否含供應鏈攻擊，且不觸發任何安裝腳本。",
-        "audience": "開發者、IT 安全人員、使用 AI coding 工具的工程師",
-        "pain_point": "使用越來越多 AI 工具和套件時，不確定是否引入惡意代碼或供應鏈風險",
-        "title_idea": "「用 AI 工具越多，越要小心這件事」——Perplexity 開源安全掃描器 Bumblebee 使用教學",
-        "local_angle": "AI 供應鏈安全議題在歐美技術圈熱度上升，但華語圈開發者社群幾乎無相關工具教學；做「如何保護你的 AI 開發環境」可在工程師族群建立專業信任感"
-      }
-    ],
-    "trends": [
-      {
-        "title": "Agentic AI 成為獨立產品類別：Microsoft Agent 365、Cursor 3 Fleet、Claude Managed Agents 同期登場",
-        "sources": [
-          {
-            "name": "AllInOneAICenter",
-            "url": "https://allinoneaicenter.com/blog/new-ai-tools-may-2026"
-          },
-          {
-            "name": "MindStudio Blog",
-            "url": "https://www.mindstudio.ai/blog/code-with-claude-2026-new-agent-features"
-          },
-          {
-            "name": "DataNorth AI",
-            "url": "https://datanorth.ai/blog/top-10-ai-tools-for-2026"
-          }
-        ],
-        "summary": "2026 年 5 月多個主要平台同步推出 Agentic AI 控制層產品，AI Agent 已從「聊天功能」進化為可自主執行任務的獨立產品類別，徹底改寫企業軟體市場格局。",
-        "audience": "企業主管、想評估 AI 自動化投資的決策者、關注科技趨勢的職場人",
-        "pain_point": "不知道 AI Agent 熱潮是否真的值得投入、跟不上市場變化心生焦慮",
-        "title_idea": "「AI Agent 不只是功能，它已成為一個全新產品類別」——2026 年企業必懂的 Agentic AI 全景圖",
-        "local_angle": "歐美 SaaS 市場已全面轉向 Agentic AI，台灣企業主對此認知嚴重落後；做「什麼是 AI Agent？為何它比 ChatGPT 更重要」的普及教育內容，可吃到大量搜索流量"
-      },
-      {
-        "title": "Google AI 眼鏡實測出爐：「幾乎可以上市了」——穿戴式 AI 助手距離普及只差一步",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/05/22/we-tried-googles-ai-glasses-and-theyre-almost-there/"
-          }
-        ],
-        "summary": "TechCrunch 記者實測 Google AI 眼鏡，評為「幾乎就緒」，核心 AI 功能表現穩定，唯硬體設計仍有調整空間；預示消費級穿戴 AI 即將成真。",
-        "audience": "科技愛好者、想瞭解 AI 下個風口的職場人、早期採用者",
-        "pain_point": "對穿戴 AI 有期待但不確定是否真的實用、擔心又是一個噱頭大於實際的產品",
-        "title_idea": "「Google AI 眼鏡真的快來了！」——TechCrunch 記者第一手實測：哪些功能驚艷、哪些還在打磨",
-        "local_angle": "穿戴式 AI 賽道在歐美已有多家廠商布局，台灣消費者市場幾乎零認知；搶先做「AI 眼鏡時代來臨，你需要知道什麼」的前瞻性科普可積累早期粉絲"
-      },
-      {
-        "title": "VC 用膨脹 ARR 製造 AI 獨角獸神話：TechCrunch 揭露估值泡沫背後的數字遊戲",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/05/22/how-vcs-and-founders-use-inflated-arr-to-kingmake-ai-startups/"
-          }
-        ],
-        "summary": "TechCrunch 深度報導指出，VC 和創辦人慣用膨脹 ARR（年度經常性收入）指標推高 AI 新創估值，讓「獨角獸神話」在財務數字上成立但實際業務存疑。",
-        "audience": "對 AI 新創投資感興趣的職場人、想創業的自媒體人、財經科技觀察者",
-        "pain_point": "AI 創業熱潮下不知道哪些公司是真有實力、哪些只是資本泡沫、投資或求職時怕踩雷",
-        "title_idea": "「那些 AI 獨角獸可能沒你想的那麼值錢」——TechCrunch 揭秘 VC 如何用數字遊戲打造 AI 泡沫",
-        "local_angle": "台灣職場人對 AI 新創投資評估能力普遍不足，此議題在華語圈幾乎無深度解說；做「如何識別真假 AI 新創」的財經科普，可吸引高知識水平受眾"
       }
     ]
   }
