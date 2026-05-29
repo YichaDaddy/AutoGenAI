@@ -1,181 +1,207 @@
 {
-  "date": "2026-05-28",
+  "date": "2026-05-29",
   "market_shocks": [
     {
-      "title": "美股衝上歷史新高：美伊60天停火協議傳成，霍爾木茲重開",
-      "sources": [
-        {
-          "name": "Bloomberg Markets",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/us-stocks-reverse-losses-on-iran-deal-report-as-oil-pares-gains"
-        },
-        {
-          "name": "Bloomberg Newsletter",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-05-28/markets-rally-on-report-of-us-iran-ceasefire-extension"
-        }
-      ],
-      "summary": "美伊談判人員達成備忘錄，同意延長60天停火並重開霍爾木茲海峽，油價應聲回落，美元走弱，美股從盤中低點大幅反彈創下新高。協議尚待川普最終拍板，但市場已率先定價樂觀預期。",
-      "tw_stock_impact": "油價下跌直接降低台灣進口成本，航運、石化類股承壓；美元走弱有利新台幣升值，外資持續流入台股科技板塊，台積電短期受惠。",
-      "investment_insight": "地緣緊張降溫後，能源股短期獲利了結壓力加大，可考慮減碼台塑等能源概念股；外資回流科技板塊的趨勢強化，可趁拉回布局台積電、聯發科等核心持倉。",
-      "title_idea": "美伊停火了！美股創歷史新高，但油價急跌背後還有一個你沒注意的風險",
-      "local_angle": "台灣是能源進口大國，霍爾木茲重開直接降低油電成本，同時美元走弱也讓台幣升值，對持有美元資產的台灣人而言是關鍵轉折訊號。"
-    },
-    {
-      "title": "無人機股單日暴漲57%：五角大廈考慮入股，Trump兒子持股公司吃香",
+      "title": "華爾街甩掉崩盤對沖，放空股暴漲 30%，多空攤牌時刻來臨",
       "sources": [
         {
           "name": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/drone-stocks-soar-on-news-of-trump-team-eyeing-funding-deals"
+          "url": "https://www.bloomberg.com/news/articles/2026-05-29/wall-street-dumps-crash-hedges-as-most-shorted-stocks-jump-30"
+        }
+      ],
+      "summary": "市場保護性部位遭大規模清倉，被高度放空的股票單月飆漲逾 30%，令空頭損失慘重。散戶多頭部位在兩週內從 61% 崩落至 30%，空頭卻反被軋空。「謹慎」已成華爾街最貴的代價。",
+      "tw_stock_impact": "全球放空策略失效訊號對台股空頭壓力減輕；AI 概念股放空比例高者面臨同樣軋空風險，短期偏多格局維持。",
+      "investment_insight": "當市場崩盤對沖被拋棄時，通常代表短期底部已過。可關注台股中放空比例高但基本面佳的 AI 族群，軋空行情可能延伸至六月。",
+      "title_idea": "華爾街全面拋掉「末日保險」！被空最慘的股票反漲 30%，空頭血流成河",
+      "local_angle": "台股 AI 概念股中，法人放空比例高的個股如今面臨同樣軋空壓力，這波反彈還有多久？"
+    },
+    {
+      "title": "比特幣 ETF 連跌 9 天、提款 28 億美元，創史上最長出血紀錄",
+      "sources": [
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-29/us-bitcoin-btc-etfs-bleed-2-8-billion-in-longest-outflow-streak"
         },
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/05/29/bitcoin-etf-outflows-reach-record-nine-day-streak-as-investors-pull-usd2-8-billion"
+        }
+      ],
+      "summary": "美國比特幣 ETF 自 5 月 15 日起連續 9 個交易日淨流出，累計資金出走高達 28 億美元，超越 2024 年 1 月上市以來任何一次流出紀錄。貝萊德旗艦 IBIT 單日最大流出達 7.33 億美元。通膨升至 3.8%、利率維持高檔是主因，機構法人率先出逃。",
+      "tw_stock_impact": "加密市場機構信心受損，連帶壓制台灣虛擬資產相關股短期情緒；台幣計價的比特幣連結基金淨值同步承壓。",
+      "investment_insight": "比特幣 ETF 流出與通膨預期高度相關；若下週非農就業數據偏弱（預估 9.5 萬），市場可能重新定價降息預期，ETF 資金回流窗口屆時出現。",
+      "title_idea": "比特幣 ETF 9 天連提款 28 億美元！連貝萊德都被賣光，加密牛市真的結束了？",
+      "local_angle": "台灣散戶持有大量比特幣 ETF 連結基金，這波出血潮對手中部位該停損還是加碼？"
+    },
+    {
+      "title": "Michael Burry 警告 AI 狂潮像極 2000 年科技泡沫，維持鉅額槓桿放空",
+      "sources": [
         {
           "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/05/28/drone-stocks-unusual-machines-donald-trump-equity-stake.html"
+          "url": "https://www.cnbc.com/2026/05/11/michael-burry-is-not-a-believer-for-any-stocks-going-parabolic-reduce-positions-almost-entirely.html"
+        },
+        {
+          "name": "247 Wall St.",
+          "url": "https://247wallst.com/investing/2026/05/15/michael-burrys-latest-buys-include-a-6-66-yielding-pharma-giant-and-an-oil-stock-up-46-this-year-here-is-why/"
         }
       ],
-      "summary": "五角大廈正與多家無人機製造商洽談投資入股，核心目標是在2027年底部署30萬架低成本攻擊無人機。Trump Junior持股的Unusual Machines單日暴漲57%創歷史新高，Red Cat漲33%、AeroVironment漲18%，引爆無人機板塊全面噴出，並引發國會利益衝突質疑。",
-      "tw_stock_impact": "台灣無人機相關供應商（如漢翔、雷虎科技）可能受到帶動；更重要的是，此一政策顯示美國加速軍事科技投資，台灣國防電子供應鏈長期受惠方向確立。",
-      "investment_insight": "美國「無人機霸主」計畫打開防衛科技新投資主題，可關注台灣無人機零組件廠（雷虎3022、經緯航太）；短期爆漲後追高風險高，等回檔至合理估值再進場。",
-      "title_idea": "五角大廈要親自入股無人機公司！Trump兒子的持股單日爆漲57%，這合法嗎？",
-      "local_angle": "台灣被視為全球無人機供應鏈重要節點，美國大規模軍事無人機採購計畫可能帶動台廠訂單，是值得台灣國防投資人密切追蹤的主題。"
+      "summary": "「大空頭」Michael Burry 在 Substack 撰文示警：「任何拋物線上漲的股票，幾乎要全部減持。」他將當前費城半導體指數走勢直接比對 2000 年 3 月崩盤前的軌跡，並維持大規模槓桿放空。同時他轉進高股息醫療（HCA Healthcare）、能源等低本益比標的，意味資金已悄悄轉移陣地。",
+      "tw_stock_impact": "台積電與 AI 供應鏈已飆升至歷史新高，Burry 的放空邏輯若正確，台積電 ADR 空單增加可能引發回調壓力；台股高本益比 AI 股首當其衝。",
+      "investment_insight": "Burry 的操作慣例是提前 6-12 個月佈局。可參考他轉進低本益比、高股息的價值型標的（醫療、能源）作為防禦性配置，搭配持有核心 AI 部位的同時縮減槓桿。",
+      "title_idea": "大空頭 Burry 親口說了：AI 股像 2000 年科技泡沫，他正在大規模放空",
+      "local_angle": "台積電創歷史新高、AI 供應鏈飆漲，Burry 的警告對台灣 AI 股持有者有多大參考價值？"
     },
     {
-      "title": "比特幣跌破7.3萬美元：立法利多擋不住ETF史上次大出逃",
+      "title": "藍色起源火箭爆炸，太空股熱潮踩煞車，SpaceX 獨贏 40 億黃金穹頂合約",
       "sources": [
         {
           "name": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/bitcoin-falls-below-73-000-despite-trump-s-crypto-capital-push"
+          "url": "https://www.bloomberg.com/news/articles/2026-05-29/space-stocks-hype-gets-reality-check-with-blue-origin-blowup"
         },
-        {
-          "name": "Crypto Briefing",
-          "url": "https://cryptobriefing.com/bitcoin-falls-below-73000-clarity-act/"
-        }
-      ],
-      "summary": "比特幣當日最低跌至72,474美元創六週低點，跌幅達3.6%，正值CLARITY Act剛過參議院銀行委員會15:9投票。BlackRock IBIT出現史上第二大日度資金流出，市場對「親加密政策」的正面反應已明顯疲乏。分析師警告散戶與機構的信念分歧正在加深。",
-      "tw_stock_impact": "台灣加密市場與全球同步，比特幣6週低點打擊台灣散戶持有者信心；台灣上市加密相關公司（如部分金控的虛擬資產布局）短期面臨重估壓力。",
-      "investment_insight": "政策利多對比特幣的邊際效益正快速遞減，短期市場進入技術性修正，可等待72,000美元支撐確認再分批進場；長期CLARITY Act若通過仍是結構性利多。",
-      "title_idea": "法律都通過了比特幣還在跌！ETF史上次大出逃代表什麼大戶在偷偷做的事？",
-      "local_angle": "台灣加密投資人眾多，比特幣在法規利多下逆勢大跌是罕見訊號，揭示機構資金行為與散戶邏輯的深層背離，是台灣加密投資人必讀的反向指標。"
-    },
-    {
-      "title": "鐵路世紀合併850億美元遭監管暫停，Union Pacific急跌",
-      "sources": [
         {
           "name": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/union-pacific-norfolk-tumble-as-regulator-pauses-merger-review"
-        },
-        {
-          "name": "Seeking Alpha",
-          "url": "https://seekingalpha.com/news/4597993-norfolk-southernunion-pacific-deal-spread-widens-as-regulator-wants-more-info"
+          "url": "https://www.bloomberg.com/news/videos/2026-05-29/spacex-wins-4b-contract-for-us-golden-dome-satellites-video"
         }
       ],
-      "summary": "美國地面運輸委員會（STB）暫停審查Union Pacific收購Norfolk Southern共850億美元的合併案，要求雙方在7月27日前補充說明多項不清楚的申請內容。這將成為美國第一條橫貫大陸的鐵路，監管的暫停至少延後核准時間表60天。",
-      "tw_stock_impact": "對台灣直接影響有限，但此案顯示美國反壟斷監管持續強化，對台灣企業赴美收購活動有參考意義；貨運成本長期走向仍受影響。",
-      "investment_insight": "合併審查延誤為套利交易者帶來機會：套利價差擴大，可關注Union Pacific/Norfolk Southern的股價差距；但監管不確定性仍高，建議小部位試探。",
-      "title_idea": "850億美元鐵路超級合併被一紙暫停！監管機構到底看到了什麼讓他們急踩煞車？",
-      "local_angle": "美國反壟斷監管收緊是全球趨勢，台灣企業在美的收購計畫需提前評估監管風險，這是最新的活教材。"
+      "summary": "貝佐斯旗下藍色起源火箭發生爆炸事故，令本週太空股泡沫出現明顯裂縫；反觀 SpaceX 同日宣布拿下 40 億美元「黃金穹頂」衛星合約，為川普政府防禦系統追蹤外國飛彈，馬斯克軍工商機全力打開。",
+      "tw_stock_impact": "SpaceX IPO 預期升溫，台灣衛星通訊與低軌道衛星相關供應鏈（昇達科、中磊）可能受到關注。藍色起源概念股短期承壓。",
+      "investment_insight": "太空產業執行風險極高，藍色起源事故提醒不能只看題材。SpaceX 具有政府合約護城河，未來 IPO 是機構必爭標的，可提前關注相關供應鏈佈局。",
+      "title_idea": "藍色起源火箭炸了！太空股泡沫破裂倒數，但馬斯克 SpaceX 反拿 40 億政府大單",
+      "local_angle": "台灣低軌道衛星供應鏈趁機卡位 SpaceX 生態圈，誰是潛在受惠者？"
     }
   ],
   "investment_opportunities": [
     {
-      "title": "UBS喊銅價衝15,500美元：AI+電動車催出52萬噸供應大缺口",
+      "title": "Dell AI 伺服器業績炸裂，單日飆 32% 創史上最佳，全年展望上修至 1670 億美元",
       "sources": [
         {
-          "name": "ZeroHedge",
-          "url": "https://www.zerohedge.com/news/2026-05-28/higher-steps-ubs-sees-copper-marching-toward-15500"
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/05/29/dell-stock-earnings-ai-servers.html"
         },
         {
-          "name": "The Bull",
-          "url": "https://thebull.com.au/news/copper-price-target-for-2027-raised-as-supply-crisis-deepens/"
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-28/dell-boosts-outlook-to-60-billion-in-ai-server-sales-this-year"
+        },
+        {
+          "name": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/05/29/dell-just-blew-out-earnings-as-it-joins-the-ai-party-should-investors-buy-the-stock-after-its-221-run-this-year/"
         }
       ],
-      "summary": "UBS在5月22日報告「Higher in Steps」中預測銅價將按季穩步攀升，2027年6月達到15,500美元/噸。2026年全球銅市場缺口預計達52萬公噸（較2025年的20.3萬噸翻倍），中國5月起限制硫酸出口更進一步壓縮冶煉廠利潤，結構性短缺確立。",
-      "tw_stock_impact": "台灣電線電纜廠（台灣電力、大亞電線、華新麗華）原料成本上漲，但銅價持續走高也帶動礦業及材料類股；電動車供應鏈中的銅用量龐大，台廠需提前鎖單。",
-      "investment_insight": "銅是AI資料中心、電動車、電網升級的核心材料，結構性缺口確立後建議逢拉回買進銅相關ETF（如CPER）或台灣電纜廠；避開直接依賴銅原料成本的製造商。",
-      "title_idea": "AI讓銅價要漲到15,500美元！UBS說這個「紅色金屬」是這十年最確定的投資機會",
-      "local_angle": "台灣是全球電子製造重鎮，銅價持續走高將直接影響電路板、電纜、電動車零組件的成本結構，相關台廠的採購策略與避險操作值得投資人深入研究。"
+      "summary": "Dell Q1 AI 伺服器營收年增 757% 至 161 億美元，積壓訂單超過 510 億美元，全年 AI 伺服器展望上調至 600 億美元，總營收指引上修至 1670 億美元（分析師原估 1421 億美元）。EPS 4.86 美元大幅超越預期 2.94 美元。股票年漲幅達 234%，並創下史上最佳單日表現。",
+      "tw_stock_impact": "Dell AI 伺服器需求暴增直接帶動台灣伺服器供應鏈大量訂單：廣達、緯創、英業達等代工廠是首要受惠者，PCB 廠欣興、電源廠台達電、散熱廠奇鋐同步受益。",
+      "investment_insight": "Dell 積壓訂單 510 億美元代表未來 2-3 季能見度極高，可順勢布局台灣一線伺服器代工廠（廣達 2382、緯創 3231）以及散熱受惠的奇鋐（3017）等，等回調後分批進場。",
+      "title_idea": "Dell 單季 AI 伺服器暴賺 161 億美元、股票飆 32%！背後的台灣供應鏈誰最受惠？",
+      "local_angle": "Dell 的 510 億美元積壓訂單，台灣廣達、緯創等代工廠幾乎全拿，今年業績能見度超高，是當前最確定的台股 AI 操作主軸。"
     },
     {
-      "title": "台股衝破44,800點！老AI伺服器族群補漲行情全面啟動",
+      "title": "Quantinuum 量子計算 IPO 擴大規模，OpenAI 拉花旗摩根入場承銷",
+      "sources": [
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-29/quantinuum-is-said-to-weigh-boosting-ipo-size-and-price-range"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-29/openai-has-discussed-adding-citigroup-jpmorgan-to-bank-lineup-for-ipo"
+        }
+      ],
+      "summary": "霍尼韋爾旗下量子計算公司 Quantinuum 正評估擴大 IPO 規模並上調發行價格區間，顯示市場需求熱絡。同日 OpenAI 確認邀請花旗、摩根大通加入 IPO 承銷陣容，2026 年科技 IPO 熱潮持續延燒。",
+      "tw_stock_impact": "量子計算與 AI IPO 熱潮間接帶動全球科技股估值重新定價，對台灣高科技股本益比支撐有正面效果；台積電已是多家量子晶片供應商的製造夥伴。",
+      "investment_insight": "量子計算目前仍是主題投資，IPO 前可觀察，建議等上市後鎖定期解禁、估值回歸合理後再考慮。OpenAI IPO 一旦落地，對台灣 AI 晶片需求的正面催化效果將更直接。",
+      "title_idea": "量子電腦要上市了！同一天 OpenAI 也找花旗摩根入場，2026 科技 IPO 超級旺季來了",
+      "local_angle": "量子計算產業鏈中台積電已卡位代工，OpenAI IPO 確定則是台積電 AI 晶片需求的最強背書。"
+    },
+    {
+      "title": "CFTC 開放加密永續合約在岸交易，兆元離岸市場正式合法登陸美國",
+      "sources": [
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-29/us-paves-way-for-onshore-crypto-linked-perpetual-futures"
+        }
+      ],
+      "summary": "美國 CFTC 核准加密貨幣永續合約（Perpetual Futures）在岸合規交易，這類此前只能在幣安等離岸交易所操作的衍生品正式取得美國監管庇護。此類合約目前是全球加密市場最大交易量來源，年交易規模超兆美元。",
+      "tw_stock_impact": "加密衍生品合法化為台灣虛擬資產業者進軍美國市場提供機遇；同時對 Coinbase（美股）及其生態系供應鏈、鏈上基礎設施廠商是重大利多。",
+      "investment_insight": "CFTC 開放在岸永續合約意味著更多流動性從離岸回流受監管市場，Coinbase 是首要受益者。台灣投資人可透過美股（COIN）參與，但比特幣 ETF 持續出血提醒需控制部位規模。",
+      "title_idea": "全球最大加密交易品種「永續合約」正式合法！美國開門，兆元市場洗牌開始",
+      "local_angle": "台灣虛擬資產交易所 ACE、MAX 是否跟進推出合規永續合約，將是下一個觀察重點。"
+    },
+    {
+      "title": "台積電 CoWoS 缺口持續擴大、市值衝破全球第五，AI 供應鏈牢牢卡位算力命脈",
       "sources": [
         {
           "name": "鉅亨網",
           "url": "https://news.cnyes.com/news/cat/tw_stock"
         },
         {
-          "name": "豐雲學堂",
-          "url": "https://www.sinotrade.com.tw/richclub/hotstock/%E8%80%81AI%E4%BC%BA%E6%9C%8D%E5%99%A8%E6%97%8F%E7%BE%A4%E4%BB%8A%E6%97%A5%E5%9B%9E%E7%A5%9E-%E8%A3%9C%E6%BC%B2%E8%A1%8C%E6%83%85%E8%83%BD%E5%90%A6%E6%8E%A5%E6%A3%92-%E9%B4%BB%E6%B5%B7%E9%A0%98%E9%A0%AD-%E7%B7%AF%E5%89%B5%E5%A4%96%E8%B3%87%E5%8A%A0%E6%8C%81-%E7%B1%8C%E7%A2%BC%E8%88%87%E7%87%9F%E6%94%B6%E5%90%8C%E6%AD%A5%E9%A9%97%E8%AD%89-%E8%82%A1%E5%B8%82%E8%A9%B1%E9%A1%8C-69fae4ff028e5400c7fde23a"
+          "name": "Yahoo Finance 台灣",
+          "url": "https://tw.stock.yahoo.com/news/2026%E5%B9%B4%E5%88%A5%E5%8F%AA%E7%9B%AF%E8%91%97%E8%BC%9D%E9%81%94-%E5%8F%B0%E7%A9%8D%E9%9B%BB-%E5%B0%88%E5%AE%B6%E6%8E%A8%E8%96%A6ai%E7%8B%82%E6%BD%AE%E4%B8%8B-%E9%9A%B1%E8%97%8F%E7%89%88%E9%95%B7%E7%B7%9A%E9%BB%91%E9%A6%AC-%E6%B2%92%E8%B2%B710%E5%B9%B4%E5%BE%8C%E6%9C%83%E5%BE%8C%E6%82%94-000500678.html"
         }
       ],
-      "summary": "台灣加權指數觸及44,818點創波段新高，漲幅1.68%，期貨逼近45,000關口。鴻海帶頭，外資明顯回補緯創（3231）籌碼，老AI伺服器ODM族群出現補漲訊號，緯創外資加持且部分個股營收創波段新高，市場預期接棒行情將接續新AI概念股。",
-      "tw_stock_impact": "台股指數逼近45,000心理關口，多頭氣勢強勁；緯創、廣達、英業達、緯穎等AI伺服器代工廠是最直接受惠標的，外資籌碼回流加持。",
-      "investment_insight": "老AI伺服器族群相較新AI概念股估值偏低（緯創本益比僅11倍），補漲空間相對明確；可布局緯創（3231）、英業達（2356），止損設在近期低點下方。",
-      "title_idea": "台股快要4.5萬了！這幾檔「老AI股」還沒漲，外資正在偷偷買進",
-      "local_angle": "台灣投資人對AI概念股已有深度布局，老AI伺服器族群的補漲行情是最接地氣的操作機會，相較熱門個股競爭更小、套牢壓力輕。"
-    },
-    {
-      "title": "加拿大最大仿製藥廠Apotex申請多倫多IPO，製藥資本市場回暖",
-      "sources": [
-        {
-          "name": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-28/canadian-drugmaker-apotex-files-for-toronto-ipo"
-        }
-      ],
-      "summary": "加拿大最大仿製藥廠Apotex Health Corp.向多倫多交易所遞交IPO申請，展示強勁的營收成長。此舉標誌全球製藥產業IPO市場正在回暖，在禮來等品牌藥廠積極擴張的背景下，仿製藥廠也迎來新估值窗口。",
-      "tw_stock_impact": "台灣CDMO與仿製藥廠（如台康生技、保瑞藥業）可能因此受到市場重新關注；全球製藥IPO熱度回升也有助台灣生技板塊的估值提振。",
-      "investment_insight": "Apotex IPO是觀察全球仿製藥市場重新估值的指標事件；台灣生技投資人可關注具備仿製藥管線或CDMO能力的個股逢低布局機會，保瑞藥業值得追蹤。",
-      "title_idea": "全球最大仿製藥廠之一要上市了！製藥IPO回春背後，台廠怎麼搭這班車？",
-      "local_angle": "台灣生技股長期被忽視，全球製藥資本市場回暖是提振台灣生技股估值的外部催化劑，對持有台灣生技個股的投資人是久旱逢甘霖。"
+      "summary": "台積電 CoWoS 先進封裝產能 2026-2027 年缺口持續擴大（外資估 20-30% 以上），Google TPU 設計已找聯發科合作，輝達、博通同步卡位；台股市值 5 月 28 日突破 45,000 點超越印度躍居全球第五，台積電單股創歷史新高至 2360 元。",
+      "tw_stock_impact": "CoWoS 供不應求直接利多台積電（2330）；封裝材料廠（欣興、臻鼎）、散熱廠（奇鋐、雙鴻）、矽晶圓廠（環球晶）皆為直接受惠。",
+      "investment_insight": "CoWoS 缺口 20-30% 的外資預估意味著台積電 2026-2027 年先進封裝訂單幾乎鎖定。除台積電正股外，CoWoS 上游材料廠欣興（3037）、南電（8046）是本益比相對低的補漲標的。",
+      "title_idea": "台積電創歷史新高還沒完！CoWoS 缺口只增不減，這些台廠明年訂單已全滿",
+      "local_angle": "台灣 AI 供應鏈已成全球算力命脈，但台積電市值超越印度後，估值溢價還能支撐多久？"
     }
   ],
   "macro_observations": [
     {
-      "title": "貝萊德Fink要把退休金押注AI基礎設施：不投者將錯過財富革命",
-      "sources": [
-        {
-          "name": "BlackRock Chairman's Letter",
-          "url": "https://www.blackrock.com/corporate/investor-relations/larry-fink-annual-chairmans-letter"
-        },
-        {
-          "name": "CNN Business",
-          "url": "https://www.cnn.com/2026/03/23/business/ai-blackrock-larry-fink-shareholder-letter"
-        }
-      ],
-      "summary": "貝萊德執行長Larry Fink提倡將美國人的401(k)退休儲蓄轉投AI數據中心與基礎設施，認為私人資本（含退休基金）若不參與AI建設浪潮將落後於時代。ZeroHedge批評此舉是讓普通退休族承擔科技基礎設施的系統性風險，為大型科技公司融資。貝萊德管理資產高達14兆美元，其一舉一動牽動全球資本流向。",
-      "tw_stock_impact": "若美國退休資金大規模轉向AI基礎設施，台積電、AI伺服器供應鏈將獲得長線資金支撐；但同時也意味美國科技股估值持續高漲，壓縮其他類股的相對吸引力。",
-      "investment_insight": "Fink的倡議若成功落地，將形成退休基金→AI基礎設施→台灣供應鏈的確定性資金路徑；長期看好台積電先進製程、台達電電源供應等AI基建核心供應商。",
-      "title_idea": "Fink要動用14兆美元幫AI蓋數據中心！你的退休金會被拿去冒這個風險嗎？",
-      "local_angle": "台灣投資人普遍持有大量台積電，若全球最大資管公司的資金正式流向AI供應鏈，台積電的外資持股比例將進一步強化，是台灣投資人最需要理解的長線資金邏輯。"
-    },
-    {
-      "title": "全球各地債市同步崩盤！財經YouTuber警告系統性危機才剛開始",
-      "sources": [
-        {
-          "name": "Andrei Jikh YouTube",
-          "url": "https://www.youtube.com/@AndreiJikh"
-        },
-        {
-          "name": "ZeroHedge",
-          "url": "https://www.zerohedge.com/"
-        }
-      ],
-      "summary": "財經YouTuber Andrei Jikh在最新影片《Every Bond Market In The World Is Breaking》中指出，從美國、日本到英國，各主要經濟體的國債市場正在同步承壓，這不是個別現象而是全球財政信任危機的結構性訊號。ZeroHedge同日報導分析師看好黃金衝向10,000美元，視其為債市崩潰的最終避險工具。",
-      "tw_stock_impact": "台灣壽險業者持有龐大美債部位，若全球債市持續崩跌，國泰金、富邦金、中壽等公司的債券評價損失將大幅擴大，金融股面臨重壓。",
-      "investment_insight": "全球債市崩盤情境下，黃金、原物料是最直接受惠資產；台灣投資人可配置黃金ETF（如元大黃金）作為對沖，並考慮降低金融股比重。",
-      "title_idea": "全球債市全部在崩！這個YouTuber說這才是你從沒見過的金融危機的真正開始",
-      "local_angle": "台灣壽險業是全球最大美債買家之一，當全球債市同步崩跌，台灣金融體系所受的衝擊可能遠超一般投資人的想像，這是台灣特有的系統性風險警示。"
-    },
-    {
-      "title": "Nomura警告三大催化劑將引爆擁擠交易崩潰，動能股面臨「凌亂解倉」",
+      "title": "日本央行準備喊停量化緊縮，20 年債殖利率創 30 年新高，全球套利交易岌岌可危",
       "sources": [
         {
           "name": "ZeroHedge",
-          "url": "https://www.zerohedge.com/"
+          "url": "https://www.zerohedge.com/markets/japan-prepares-end-quantitative-tightening-amid-bond-market-turmoil"
+        },
+        {
+          "name": "KuCoin Insights",
+          "url": "https://www.kucoin.com/blog/Japan20-Year-Bond-Yield-Hits3555-High-in-Ma-2026"
+        },
+        {
+          "name": "StoneX",
+          "url": "https://www.stonex.com/en-us/insights/japan-yield-curve-pressure-threatens-global-carry-trades/"
         }
       ],
-      "summary": "野村證券識別出三個可能觸發「擁擠交易逆轉」的市場催化劑，警告當前動能策略的集中度已達危險水位，一旦觸發將引發「凌亂且痛苦」的多空動能反轉。這種警告在2022年初動能策略崩潰前也曾出現，當時指數型基金重倉股遭遇重創。",
-      "tw_stock_impact": "台灣市場的外資持倉高度集中在台積電、聯發科等動能龍頭，若全球動能策略逆轉，外資將迅速減碼這些最擁擠的持倉，台股可能出現急速拉回。",
-      "investment_insight": "在動能交易崩潰風險升溫的環境下，建議將持倉分散至估值相對低、外資持倉集中度低的個股（如傳統製造、原物料）；同時保留部分現金作為動能崩潰後的「抄底彈藥」。",
-      "title_idea": "野村說三個訊號一出現市場就要崩！大戶的擁擠交易正在走向最危險的時刻",
-      "local_angle": "台股外資高度集中的持倉結構，讓台灣投資人比其他市場更容易受到全球動能交易逆轉的衝擊，這個警告對台積電重倉的散戶是最直接的風險提示。"
+      "summary": "日本 20 年期公債殖利率 5 月創下 3.555% 多年新高，10 年期也升至 2.55%，市場已定價 77% 機率 BOJ 六月升息。日本央行被迫重新評估量化緊縮節奏，通膨連續 4 年超標 2%。一旦日圓套利交易（Carry Trade）大規模平倉，全球金融市場將面臨流動性衝擊。",
+      "tw_stock_impact": "日圓若快速升值（套利交易平倉），將觸發全球股市去槓桿，台股外資流出壓力加大；台灣壽險業持有龐大日本公債部位，評價損失也同步擴大。",
+      "investment_insight": "日本利率正常化是 2026 年最大的全球宏觀風險。投資人應降低對日圓借款融資的高風險部位，並關注 BOJ 六月決策；若出現套利交易大規模平倉，是加碼優質資產的機會。",
+      "title_idea": "日本央行要踩煞車了！20 年債殖利率創 30 年新高，全球最大套利交易面臨崩解",
+      "local_angle": "台灣許多投資人透過日圓借款投資高息資產，日本升息若加速，這些部位面臨雙重壓力（匯損＋利率成本上升）。"
+    },
+    {
+      "title": "美股創 2023 年來最長連勝，伊朗停火＋AI 狂歡雙點火，油價單月最大跌幅",
+      "sources": [
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-29/stocks-rally-continues-on-peace-deal-hopes-ai-spending-optimism"
+        },
+        {
+          "name": "ZeroHedge",
+          "url": "https://www.zerohedge.com/markets/rampant-retail-hormuz-hopes-spark-stocks-best-win-streak-2023-oils-biggest-monthly-drop"
+        }
+      ],
+      "summary": "美股延續最長連勝紀錄，驅動力來自兩方面：其一為伊朗停火談判進展，霍爾木茲海峽船運恢復正常，石油單月跌幅創一年最大；其二為 AI 投資熱情持續，JPMorgan 策略師表示「AI 還有更多值得期待的」。五月就業申請 21.5 萬人符合預期。",
+      "tw_stock_impact": "美股多頭環境直接支撐台股外資買超意願；油價下跌降低台灣能源進口成本，對生產製造類台廠毛利有正面效果；航運股因霍爾木茲通行改善短線受壓。",
+      "investment_insight": "地緣政治風險邊際改善+AI資本支出加速是當前市場最大多頭燃料。建議維持台股 AI 核心持倉，但需關注下週非農（預估 9.5 萬）是否掀起 Fed 升息定價潮打斷連勝。",
+      "title_idea": "美股創 2023 年最長連勝！伊朗停火＋AI 狂歡，這波牛市到底還有多長？",
+      "local_angle": "油價大跌＋美股連漲，台股五月表現全球數一數二，但高點布局需注意下週 Fed 最新信號。"
+    },
+    {
+      "title": "市場開始定價兩次 Fed 升息，美元五月強勢反彈，策略師憂心後市",
+      "sources": [
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/videos/2026-05-29/market-could-price-in-two-fed-hikes-tannuzzo-video"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-29/dollar-s-monthly-rise-leaves-strategists-wary-of-further-gains"
+        }
+      ],
+      "summary": "固定收益專家示警：市場可能開始定價 2026-2027 年兩次 Fed 升息路徑。美元五月強勢反彈，但多位策略師警告升值動能已接近透支。通膨 3.8%（三年新高）、申請失業金 21.5 萬，雙重數據讓 Fed 維持鷹派立場有充分依據。",
+      "tw_stock_impact": "美元強勢加上 Fed 升息預期，不利新興市場資金流入，台幣可能貶值壓力升溫；但台灣出口商（以美元計價）受惠於匯率，台積電、鴻海等出口導向企業毛利受惠。",
+      "investment_insight": "若市場真的定價兩次升息，美股科技股高估值將面臨重新定價壓力，這也是 Burry 放空論據的關鍵。建議分批獲利了結高槓桿部位，增加短期美國公債比重作為緩衝。",
+      "title_idea": "Fed 要再升息兩次？市場開始定價，美元飆升背後藏著你還沒看到的大風險",
+      "local_angle": "台幣若隨美元強勢走貶，台股外資匯兌收益下降，外資是否持續買超是關鍵觀察指標。"
     }
   ]
 }
