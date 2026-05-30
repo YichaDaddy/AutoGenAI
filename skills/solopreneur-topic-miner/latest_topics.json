@@ -1,112 +1,108 @@
 {
-  "date": "2026-05-29",
+  "date": "2026-05-30",
   "big_events": [
     {
-      "title": "Anthropic 估值 $9,650 億美元正式超越 OpenAI，成全球最高估值 AI 公司",
+      "title": "GitHub Copilot 6/1 起強制按 Token 計費，開發者怒：「根本是個笑話」",
       "sources": [
-        {"name": "Al Jazeera", "url": "https://www.aljazeera.com/economy/2026/5/29/anthropic-soars-to-965bn-valuation-leapfrogging-openai"},
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/"},
+        {"name": "BLK Alerts", "url": "https://blkalerts.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/"},
+        {"name": "byteiota", "url": "https://byteiota.com/github-copilot-ai-credits-june-2026/"}
       ],
-      "summary": "Anthropic 完成 650 億美元融資後估值達 9,650 億美元，首度超越 OpenAI（$8,520 億），由 Altimeter、Sequoia 等領投。",
-      "audience": "職場 Claude 用戶、AI 工具選擇困難者、科技趨勢關注者",
-      "pain_point": "不確定該押注哪個 AI 工具，擔心選錯平台、未來被迫換工具",
-      "title_idea": "Claude 的公司估值超越 ChatGPT！這代表什麼？你現在該怎麼選 AI 工具？",
-      "local_angle": "台灣職場 Claude 用戶快速增加但對 Anthropic 公司背景不熟，估值超越 OpenAI 是具話題性切入點，搭配工具選擇建議可創高互動"
+      "summary": "GitHub Copilot 6/1 起改按 Token 計費（1 Credit=$0.01），Chat、Agent 模式、Code Review 全部計費，訂閱費不變但用多付多，開發者集體反彈。",
+      "audience": "使用 AI 工具提升效率的職場工程師、上班族",
+      "pain_point": "擔心 AI 助手費用難以預測、月費爆表、被迫減少使用 AI 的頻率",
+      "title_idea": "GitHub Copilot 計費大改制！6 月 1 日起按量收錢，工程師全炸鍋——你該怎麼應對？",
+      "local_angle": "台灣工程師廣泛使用 GitHub Copilot，計費模式大變革幾乎無繁體中文深度解析；可做「新計費制下如何控制成本」實用教學，搶攻 SEO 與職場族流量"
     },
     {
-      "title": "Claude Opus 4.8 Dynamic Workflows：AI 指揮 AI，一次協調數百個子代理平行工作",
+      "title": "Meta 傳正研發 AI 吊墜穿戴裝置，計劃推出企業版訂閱，年底目標售出千萬台穿戴裝置",
       "sources": [
-        {"name": "Anthropic 官方", "url": "https://www.anthropic.com/news"},
-        {"name": "WaveSpeed Blog", "url": "https://wavespeed.ai/blog/posts/opus-4-8/"},
-        {"name": "NeuralBuddies（May 29 日報）", "url": "https://www.neuralbuddies.com/p/ai-news-recap-may-29-2026"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/"},
+        {"name": "Digital Trends", "url": "https://www.digitaltrends.com/wearables/after-smart-glasses-meta-apparently-wants-you-to-wear-its-all-listening-ai-pendant/"},
+        {"name": "Times Live", "url": "https://www.timeslive.co.za/news/sci-tech/2026-05-30-meta-plans-wearables-ai-pendant-235914841.html"}
       ],
-      "summary": "Opus 4.8 推出 Dynamic Workflows，可協調數百個平行子代理；Fast Mode 降至 3 折；誠實度讓漏掉 bug 的機率降 4 倍。",
-      "audience": "重度 AI 使用者、職場效率達人、Claude Code 開發者",
-      "pain_point": "複雜多步驟任務用 AI 一次只能做一件事，跑大型自動化流程耗時極長",
-      "title_idea": "Claude Opus 4.8 的 Dynamic Workflows 到底有多強？我讓 AI 幫我同時跑 50 個任務的實測",
-      "local_angle": "Dynamic Workflows 是全新功能，繁體中文實測教學幾乎是零，搶先做「多代理協作工作流」示範，流量紅利極大"
+      "summary": "Meta 傳出正開發 AI 吊墜穿戴裝置（可貼身錄音、生成摘要和提醒），並計劃推出企業穿戴訂閱方案，目標年底售出 1000 萬台穿戴設備。",
+      "audience": "對 AI 穿戴科技感興趣的職場上班族、科技早期採用者",
+      "pain_point": "不知道 AI 穿戴裝置有哪些選擇、是否真的能提升工作效率，以及是否值得花錢購入",
+      "title_idea": "繼 AI 眼鏡後，Meta 要讓你脖子也戴上 AI！這款吊墜能幫你記錄所有對話",
+      "local_angle": "AI 穿戴裝置在台灣市場幾乎無繁體中文深度報導；歐美熱烈討論中，可搶做「Meta AI 穿戴全系列介紹」教學選題，資訊差紅利明顯"
     },
     {
-      "title": "OpenAI 內部測試 GPT-5.6 曝光：推理更強、Agent 升級，六月發布在望",
+      "title": "SoftBank 宣布最高 €750 億歐元投資法國，建造 5GW AI 超大規模資料中心",
       "sources": [
-        {"name": "NeuralBuddies（May 29 日報）", "url": "https://www.neuralbuddies.com/p/ai-news-recap-may-29-2026"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/"},
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-30/softbank-to-invest-some-75-billion-in-ai-in-france-reports-say"},
+        {"name": "Fortune", "url": "https://fortune.com/2026/05/30/softbank-75-billion-investment-french-ai-data-centers-masayoshi-son-emmanuel-macron/"}
       ],
-      "summary": "OpenAI 內部 GPT-5.6 測試資訊外洩，顯示強化推理能力與多步驟 Agent 功能，預計六月正式亮相。",
-      "audience": "ChatGPT 重度用戶、AI 工具早期採用者",
-      "pain_point": "跟不上 AI 迭代速度，不知道什麼時候換版本、換版本後要重新學習",
-      "title_idea": "GPT-5.6 下個月來了！洩露的 4 大升級重點，現在就能準備的使用策略",
-      "local_angle": "每次 GPT 版本升級在台灣都能帶動大量搜尋，搶先分析洩露資訊並提供「如何利用新版本」實用建議，資訊差明顯"
+      "summary": "SoftBank 宣布投資最高 €750 億歐元在法國 Hauts-de-France 建造 5GW AI 資料中心，為其歐洲最大 AI 基礎設施投資，配合馬克宏「選擇法國」招商計劃。",
+      "audience": "關注 AI 產業動向的職場上班族、科技創業者",
+      "pain_point": "想理解全球 AI 算力競賽背後的含義，以及這對自己工作和所在產業有何影響",
+      "title_idea": "€750 億歐元的超狂豪賭！SoftBank 為什麼砸錢建 AI 資料中心？這對你意味著什麼？",
+      "local_angle": "AI 基礎設施投資趨勢在台灣報導偏少，可做「AI 算力爭奪戰科普」選題，解析為何各國和大企業搶建資料中心，切角易懂且話題性強"
     }
   ],
   "tool_updates": [
     {
-      "title": "Google Pics 登場：免費 AI 圖像創作工具，從派對傳單到資訊圖表一鍵生成",
+      "title": "Google Gemini Spark 24/7 AI 代理首批實測：關掉電腦仍持續幫你打理 Gmail、行事曆和 Drive",
       "sources": [
-        {"name": "Google 官方部落格", "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/"},
+        {"name": "Davarion Group", "url": "https://davarion.com/en/blog/gemini-spark-247-ai-agent-google-smb-may-2026/"}
       ],
-      "summary": "Google 正式推出 Google Pics，基於 Nano Banana 模型，可製作各類圖像內容，對信任測試者開放，整合 Google 生態系。",
-      "audience": "職場文書族、社群管理者、沒有設計背景的內容創作者",
-      "pain_point": "做簡報、社群圖片設計不好看，不會用 Canva 進階功能，付不起 Midjourney",
-      "title_idea": "Google 免費 AI 圖像工具來了！Google Pics 實測：比 Canva AI 好用嗎？",
-      "local_angle": "Google 品牌在台灣信任度高，推出免費設計工具對職場族吸引力強，繁體中文評測幾乎空白，搶先測評流量紅利大"
+      "summary": "TechCrunch 首測 Google Gemini Spark：即便關掉電腦也在雲端持續運行，能主動回覆 Gmail、整理行事曆、操作 Drive，月費 $99.99 美元，限 Google AI Ultra 訂閱者。",
+      "audience": "想用 AI 提升工作效率、減少雜事的職場上班族",
+      "pain_point": "傳統 AI 助手需要手動輸入指令、關掉分頁就停止，無法真正「幫你主動做事」",
+      "title_idea": "Google 這個 AI 幫手關掉電腦還在幫你工作！Gemini Spark 首測：24 小時不停的 AI 員工真的有用嗎？",
+      "local_angle": "Gemini Spark 在台灣幾乎無中文深度評測；可搶做「真實 30 天使用體驗」教學，主打節省時間的職場上班族，流量紅利大"
     },
     {
-      "title": "Gemini 3.5 Flash 全面開放：旗艦模型智能水準、僅 1/3 費用",
+      "title": "OpenAI Codex 最新更新：新增 Windows 桌面完整操控功能與手機遠端存取能力",
       "sources": [
-        {"name": "Google 官方部落格", "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/"}
+        {"name": "FutureTools / X @CodexReleases", "url": "https://x.com/CodexReleases/status/2060416347847196778"}
       ],
-      "summary": "Gemini 3.5 Flash 正式上線，性能媲美 Gemini 3.1 Pro，但定價僅 1/3，透過 Google Antigravity 及 Gemini API 可立即使用。",
-      "audience": "開發者、SaaS 創業者、AI 工具重度用戶",
-      "pain_point": "AI API 費用高昂，難以大規模部署自動化工作流，性能 vs 成本難以兼顧",
-      "title_idea": "Gemini 3.5 Flash vs ChatGPT vs Claude：同樣的任務，誰最便宜又最好用？",
-      "local_angle": "API 性價比比較是開發者社群最熱門話題，但繁體中文版實測評比稀少，可做「三大平台 API 成本計算機」吸引技術族群"
+      "summary": "OpenAI Codex v26.527 新增 Windows 系統桌面自動化（Computer Use）功能，支援透過手機 App 遠端操控電腦完成工作流程，進一步擴大 AI 代理能力邊界。",
+      "audience": "想自動化辦公流程的職場工作者、效率控、工程師",
+      "pain_point": "電腦自動化工具門檻高，需要寫腳本才能運作，普通上班族難以使用",
+      "title_idea": "AI 現在能幫你操控整台電腦！OpenAI Codex 新功能：用手機就能遠端指揮 Windows 自動完成任務",
+      "local_angle": "Computer Use 自動化功能在台灣討論度極低；可做「零程式基礎也能用 AI 自動化 Windows 日常工作流程」實用教學，切入職場效率受眾"
     },
     {
-      "title": "DeepSWE 程式碼基準出爐：GPT-5.5 以 70% 奪冠，Claude Opus 4.7 落後",
+      "title": "GitHub Copilot 模型陣容大調整：移除 Gemini 全系列、只保留 Opus 4.7，並強化企業過渡補貼",
       "sources": [
-        {"name": "NeuralBuddies（May 29 日報）", "url": "https://www.neuralbuddies.com/p/ai-news-recap-may-29-2026"}
+        {"name": "GitHub Community Discussions", "url": "https://github.com/orgs/community/discussions/192948"},
+        {"name": "Judy AI Lab", "url": "https://judyailab.com/en/posts/github-copilot-token-billing-2026/"},
+        {"name": "GitHub Docs", "url": "https://docs.github.com/en/copilot/reference/copilot-billing/models-and-pricing"}
       ],
-      "summary": "Datacurve 發布 DeepSWE 基準（113 項跨 91 個代碼庫），GPT-5.5 以 70% 奪冠，GPT-5.4 56%，Claude Opus 4.7 僅 54%。",
-      "audience": "軟體工程師、使用 AI 輔助寫程式的開發者",
-      "pain_point": "不知道 Claude、GPT、Gemini 哪個最適合寫程式，每次都靠感覺選工具",
-      "title_idea": "2026 最新 AI 寫程式大賽結果出爐！GPT-5.5 打爆 Claude，工程師該怎麼選工具？",
-      "local_angle": "台灣開發者社群對 AI coding 工具選擇討論熱絡，但基於具體基準的繁體中文分析幾乎沒有，數據+實用建議組合選題傳播力強"
+      "summary": "GitHub Copilot 同步移除所有 Gemini 模型及 Opus 4.5/4.6，Pro+ 現只剩 Opus 4.7；企業版提供 3 個月過渡期補貼（Business+$30/人，Enterprise+$70/人）。",
+      "audience": "使用 GitHub Copilot 的工程師、技術主管、IT 採購人員",
+      "pain_point": "依賴特定 AI 模型（如 Gemini）的工作流程突然被移除，需要重新選擇和適應新模型",
+      "title_idea": "GitHub Copilot 悄悄移除 Gemini！只剩這一個模型可選——工程師的 AI 工具組合要怎麼重新規劃？",
+      "local_angle": "台灣工程師廣泛使用 GitHub Copilot，但對模型更換決策通常後知後覺；可做「Copilot 模型變更完整解析 + 替代方案推薦」選題"
     }
   ],
   "trends": [
     {
-      "title": "Groq 放棄晶片轉型 AI 推論雲：Groq2 融資 6.5 億搶攻 AI 基礎設施",
+      "title": "AI 穿戴裝置大浪正在來臨：從眼鏡到吊墜，全身 AI 配件時代即將成真",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/"},
-        {"name": "Axios", "url": "https://www.axios.com/2026/05/28/groq-650-million-nvidia"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/"},
+        {"name": "WION News", "url": "https://www.wionews.com/technology/after-ai-glasses-meta-is-reportedly-developing-an-ai-pendant-what-it-is-and-how-it-could-work-1780159884516"}
       ],
-      "summary": "Groq 在 Nvidia 以 200 億美元授權其晶片技術後，轉型為 AI 推論雲（Groq2）並融資 6.5 億美元，主攻 inference-as-a-service。",
-      "audience": "創業者、關注 AI 基礎設施的開發者",
-      "pain_point": "不清楚 AI 產業基礎設施格局如何演變，不確定哪些平台或公司值得關注",
-      "title_idea": "Nvidia 買走 Groq 技術後，Groq 搖身一變成 AI 雲服務！AI 算力戰爭的下一個戰場",
-      "local_angle": "AI 基礎設施商業模式轉變在台灣科技媒體幾乎無人分析，「晶片公司轉型雲服務」是商業趨勢好選題"
+      "summary": "繼 Ray-Ban AI 眼鏡後，Meta 布局 AI 吊墜穿戴裝置，AI 穿戴產品正從單一品項擴展到「全身配件生態系」，情境感知 AI 助理將成主流趨勢。",
+      "audience": "對 AI 科技趨勢感興趣的職場上班族、科技早期採用者",
+      "pain_point": "不確定 AI 穿戴裝置是否真的實用，或只是噱頭，不知道未來要不要跟進購買",
+      "title_idea": "2026 年最熱趨勢：AI 穿戴裝置從眼鏡到吊墜——下一個被 AI 改造的身體部位是哪裡？",
+      "local_angle": "AI 穿戴裝置在台灣幾乎無中文深度趨勢分析；歐美已熱烈討論，台灣幾乎空白，可做「AI 穿戴裝置全趨勢解析」長篇選題建立內容護城河"
     },
     {
-      "title": "Altman 與 Amodei 同步轉口：AI 不是搶你的工作，而是讓你做 10 個人的事",
+      "title": "OpenAI 謀求 9 月 IPO 上市，估值超 850 億美元，AI 公司股票化浪潮即將引爆",
       "sources": [
-        {"name": "NeuralBuddies（May 29 日報）", "url": "https://www.neuralbuddies.com/p/ai-news-recap-may-29-2026"}
+        {"name": "Build Fast with AI", "url": "https://www.buildfastwithai.com/blogs/ai-news-today-may-30-2026"},
+        {"name": "OpenAI", "url": "https://openai.com/news/"}
       ],
-      "summary": "OpenAI 和 Anthropic 執行長同步撤回「AI 取代白領」說法，改口強調 AI 是生產力倍增器，人類仍是不可或缺的一環。",
-      "audience": "職場上班族、對 AI 取代工作感到焦慮的族群",
-      "pain_point": "擔心自己的工作被 AI 取代，不知道要學什麼技能才能不被淘汰",
-      "title_idea": "OpenAI 和 Anthropic 老闆同時改口：AI 不搶你的工作——但你不學 AI，人會搶你的工作",
-      "local_angle": "職場焦慮是台灣上班族最共鳴的話題，兩大 AI 公司 CEO 同步轉口的訊號值得深挖，結合「如何用 AI 提升職場競爭力」實用建議"
-    },
-    {
-      "title": "Figure 03 機器人 200 小時連續工作零故障：AI 體力勞動商用化里程碑",
-      "sources": [
-        {"name": "NeuralBuddies（May 29 日報）", "url": "https://www.neuralbuddies.com/p/ai-news-recap-may-29-2026"}
-      ],
-      "summary": "Figure AI 的三台 Figure 03 人形機器人搭載 Helix-02 AI，連續 200 小時處理超過 24 萬件包裹，全程零故障。",
-      "audience": "製造業從業者、對 AI 未來趨勢感興趣的職場族",
-      "pain_point": "不確定 AI 機器人是否真的能勝任實際工廠工作，對「AI 取代體力勞動」仍有懷疑",
-      "title_idea": "AI 機器人工廠工作 200 小時不休息！這段影像讓我開始認真思考 10 年後的就業市場",
-      "local_angle": "台灣製造業從業人口多、對自動化敏感度高，但繁體中文 AI 機器人實測報導極稀少，可做「實體 AI 商用化」深度分析搶先佈局"
+      "summary": "OpenAI 據報正謀求 9 月 IPO 上市，估值逾 850 億美元；隨著 Anthropic 估值近 1 兆美元，AI 獨角獸走向公開資本市場將是 2026 年重要產業里程碑。",
+      "audience": "關注 AI 產業與投資機會的職場上班族、創業者",
+      "pain_point": "想了解 OpenAI IPO 對自己使用 ChatGPT 的影響，以及是否有投資 AI 公司的機會",
+      "title_idea": "OpenAI 要上市了！9 月 IPO 完整解析：ChatGPT 會漲價嗎？對 AI 工具用戶意味著什麼？",
+      "local_angle": "台灣投資人對 OpenAI IPO 高度關注，但深度中文分析幾乎空白；可做「OpenAI IPO 完整懶人包」，結合投資分析與 AI 工具使用者觀點，雙重受眾覆蓋"
     }
   ]
 }
