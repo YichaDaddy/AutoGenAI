@@ -1,1 +1,85 @@
 === Mon Jun  1 06:00:01 CST 2026 | Starting daily AI report ===
+Dashboard updated successfully. Here's the full report:
+
+---
+
+## 📰 AI 效率工具日報｜2026-05-31
+
+> 今日為週六，新聞量較平日少，各主流源確認昨日有效文章共 4 則。
+
+---
+
+### 板塊一：大事件
+
+**「AI 心理過載」論戰升溫：CEO 沉迷 AI、用戶反彈，DuckDuckGo 單周裝機量暴增 30%**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/05/31/making-sense-of-the-debate-over-ai-psychosis/)
+- **一句摘要**：Box 創辦人批 CEO「AI 心理過載」，Google 強推 AI 搜尋引發大規模用戶逃離，DuckDuckGo 裝機量單周暴增 30%。
+- **選題角度**
+  - 目標受眾：職場上班族、使用 AI 工具的效率控
+  - 痛點：公司強推 AI 但實際效果差，工作負擔反增，不知如何應對「被要求用 AI」的壓力
+  - 標題雛形：老闆瘋 AI、員工卻在逃離？「AI 心理過載」現象背後：這 3 個真相你必須知道
+  - 本地化切角：台灣職場「被迫用 AI」現象與歐美完全相同，卻幾乎無深度分析；精準切入職場上班族痛點
+
+---
+
+**「This is Fine」梗圖作者控訴 AI 新創 Artisan 盜用圖像，雙方達成和解**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/05/31/this-is-fine-artist-kc-green-reaches-agreement-with-ai-startup-artisan/)
+- **一句摘要**：藝術家 KC Green 發現 AI 新創 Artisan 未授權使用其梗圖打廣告，發文怒斥後迅速達成和解、廣告撤除。
+- **選題角度**
+  - 目標受眾：使用 AI 做內容創作的自媒體人、設計師、職場工作者
+  - 痛點：AI 公司侵權事件頻傳，創作者作品易被商業盜用，維權門檻高
+  - 標題雛形：AI 公司偷用梗圖打廣告被抓包！「This is Fine」作者的維權方式，給所有創作者的一堂課
+  - 本地化切角：AI 版權爭議在台灣幾乎空白，可做「AI 工具使用的版權紅線」教學，吸引創作者社群流量
+
+---
+
+### 板塊二：工具更新
+
+**OpenAI Codex Pro 雙倍用量促銷今日正式截止，$100/月 用戶額度即時減半**
+- **來源**：[OpenAI Help Center](https://help.openai.com/en/articles/20001106-codex-rate-card)・[eesel AI 解析](https://www.eesel.ai/blog/codex-pricing)
+- **一句摘要**：Codex Pro 推出時的 2 倍促銷今日（5/31）到期，$100/月 方案用戶 Codex 用量從 10x 降回 5x，需升級至 $200 才能維持高額度。
+- **選題角度**
+  - 目標受眾：使用 OpenAI Codex 的開發者、職場工程師、AI 效率工具愛好者
+  - 痛點：月費不變但用量腰斬，需快速決策是否升級或轉換工具
+  - 標題雛形：今天起 OpenAI Codex 用量直接減半！你該升級還是換工具？3 分鐘搞懂最佳選擇
+  - 本地化切角：台灣開發者社群幾乎無繁中即時提醒；搶做「Codex 降額後替代方案比較」，精準切入工程師焦慮
+
+---
+
+### 板塊三：值得追蹤的趨勢
+
+**Erin Brockovich 推出 AI 資料中心追蹤地圖，47 州居民湧入舉報，最大民怨是「透明度為零」**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/05/31/erin-brockovich-takes-aim-at-data-center-secrecy/)・[Brockovich Data Center Map](https://www.brockovichdatacenter.com/)
+- **一句摘要**：Erin Brockovich 建立眾包 AI 資料中心追蹤地圖，短期收到近 4,000 份回報，最常見投訴是電費飆升與完全無透明度。
+- **選題角度**
+  - 目標受眾：關注 AI 產業社會影響的職場上班族、科技觀察者
+  - 痛點：感覺 AI 好處全讓企業拿走，普通人卻要承擔電費上漲等代價卻無發聲管道
+  - 標題雛形：AI 資料中心讓我家電費翻倍！Erin Brockovich 的反擊行動，揭露 AI 繁榮背後沒人說的代價
+  - 本地化切角：台灣同樣面臨 AI 資料中心用電爭議，可做「AI 讓台灣電費變貴了嗎？」本地化深度選題
+
+---
+
+### 📋 來源覆蓋狀況
+
+| 來源 | 狀態 | 昨日內容數量 | 備註 |
+|------|------|------------|------|
+| TechCrunch AI | ✅ | 3 條 | 確認 URL 含 2026/05/31 |
+| FutureTools.io | ❌ | 0 條 | 最後更新為 5/29，週末無更新 |
+| Matt Wolfe (@mreflow) | ❌ | 0 條 | 週六無新影片 |
+| The AI Advantage | ❌ | 0 條 | 無法確認昨日影片 |
+| Matthew Berman | ❌ | 0 條 | 無法確認昨日影片 |
+| Wes Roth | ❌ | 0 條 | 無法確認昨日影片 |
+| @OpenAI / @AnthropicAI / @GoogleDeepMind | ❌ | 0 條 | X/Twitter 直接存取受限 |
+| The Verge AI | ❌ | 0 條 | 網站存取被封鎖 |
+| llm-stats.com | ✅ | 0 條 | 確認 5/31 無模型發布 |
+| OpenAI Codex Pro pricing | ✅ | 1 條 | 5/31 促銷截止為確認事件 |
+
+> 說明：5/31 為週六，新聞量普遍偏少，AllInOneAICenter 等工具追蹤器最後更新亦僅至 5/22，屬正常現象。以上 4 則情報均為昨日確認發布，不以舊文充數。
+
+---
+
+💡 您的專屬網頁版看板已同步更新，可隨時打開 `daily_topic_dashboard.html` 查看。
+
+DONE
+--- AI report finished at Mon Jun  1 06:05:08 CST 2026 ---
+=== Mon Jun  1 06:05:08 CST 2026 | Starting daily finance report ===
