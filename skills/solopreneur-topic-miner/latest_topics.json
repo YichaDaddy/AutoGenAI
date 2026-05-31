@@ -1,108 +1,55 @@
 {
-  "date": "2026-05-30",
+  "date": "2026-05-31",
   "big_events": [
     {
-      "title": "GitHub Copilot 6/1 起強制按 Token 計費，開發者怒：「根本是個笑話」",
+      "title": "「AI 心理過載」論戰升溫：CEO 沉迷 AI、用戶反彈，DuckDuckGo 單周裝機量暴增 30%",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/"},
-        {"name": "BLK Alerts", "url": "https://blkalerts.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/"},
-        {"name": "byteiota", "url": "https://byteiota.com/github-copilot-ai-credits-june-2026/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/31/making-sense-of-the-debate-over-ai-psychosis/"}
       ],
-      "summary": "GitHub Copilot 6/1 起改按 Token 計費（1 Credit=$0.01），Chat、Agent 模式、Code Review 全部計費，訂閱費不變但用多付多，開發者集體反彈。",
-      "audience": "使用 AI 工具提升效率的職場工程師、上班族",
-      "pain_point": "擔心 AI 助手費用難以預測、月費爆表、被迫減少使用 AI 的頻率",
-      "title_idea": "GitHub Copilot 計費大改制！6 月 1 日起按量收錢，工程師全炸鍋——你該怎麼應對？",
-      "local_angle": "台灣工程師廣泛使用 GitHub Copilot，計費模式大變革幾乎無繁體中文深度解析；可做「新計費制下如何控制成本」實用教學，搶攻 SEO 與職場族流量"
+      "summary": "Box 創辦人批 CEO 「AI 心理過載」，與此同時 Google 強推 AI 搜尋引發用戶反彈，DuckDuckGo 裝機量單周暴增 30%，AI 工具過度整合的反噬效應正在發酵。",
+      "audience": "職場上班族、使用 AI 工具的效率控",
+      "pain_point": "公司強推 AI 工具但實際效果差強人意，工作負擔反而增加，不知如何應對「被要求用 AI」的職場壓力",
+      "title_idea": "老闆瘋 AI、員工卻在逃離？「AI 心理過載」現象背後：這 3 個真相你必須知道",
+      "local_angle": "台灣職場「被迫用 AI」的現象與歐美完全相同，卻幾乎無人深度剖析；可做「如何在 AI 大潮中保護自己的工作效率與心理健康」選題，精準打中職場上班族痛點"
     },
     {
-      "title": "Meta 傳正研發 AI 吊墜穿戴裝置，計劃推出企業版訂閱，年底目標售出千萬台穿戴裝置",
+      "title": "「This is Fine」梗圖作者控訴 AI 新創 Artisan 盜用圖像打廣告，雙方達成和解",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/"},
-        {"name": "Digital Trends", "url": "https://www.digitaltrends.com/wearables/after-smart-glasses-meta-apparently-wants-you-to-wear-its-all-listening-ai-pendant/"},
-        {"name": "Times Live", "url": "https://www.timeslive.co.za/news/sci-tech/2026-05-30-meta-plans-wearables-ai-pendant-235914841.html"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/31/this-is-fine-artist-kc-green-reaches-agreement-with-ai-startup-artisan/"}
       ],
-      "summary": "Meta 傳出正開發 AI 吊墜穿戴裝置（可貼身錄音、生成摘要和提醒），並計劃推出企業穿戴訂閱方案，目標年底售出 1000 萬台穿戴設備。",
-      "audience": "對 AI 穿戴科技感興趣的職場上班族、科技早期採用者",
-      "pain_point": "不知道 AI 穿戴裝置有哪些選擇、是否真的能提升工作效率，以及是否值得花錢購入",
-      "title_idea": "繼 AI 眼鏡後，Meta 要讓你脖子也戴上 AI！這款吊墜能幫你記錄所有對話",
-      "local_angle": "AI 穿戴裝置在台灣市場幾乎無繁體中文深度報導；歐美熱烈討論中，可搶做「Meta AI 穿戴全系列介紹」教學選題，資訊差紅利明顯"
-    },
-    {
-      "title": "SoftBank 宣布最高 €750 億歐元投資法國，建造 5GW AI 超大規模資料中心",
-      "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/"},
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-05-30/softbank-to-invest-some-75-billion-in-ai-in-france-reports-say"},
-        {"name": "Fortune", "url": "https://fortune.com/2026/05/30/softbank-75-billion-investment-french-ai-data-centers-masayoshi-son-emmanuel-macron/"}
-      ],
-      "summary": "SoftBank 宣布投資最高 €750 億歐元在法國 Hauts-de-France 建造 5GW AI 資料中心，為其歐洲最大 AI 基礎設施投資，配合馬克宏「選擇法國」招商計劃。",
-      "audience": "關注 AI 產業動向的職場上班族、科技創業者",
-      "pain_point": "想理解全球 AI 算力競賽背後的含義，以及這對自己工作和所在產業有何影響",
-      "title_idea": "€750 億歐元的超狂豪賭！SoftBank 為什麼砸錢建 AI 資料中心？這對你意味著什麼？",
-      "local_angle": "AI 基礎設施投資趨勢在台灣報導偏少，可做「AI 算力爭奪戰科普」選題，解析為何各國和大企業搶建資料中心，切角易懂且話題性強"
+      "summary": "藝術家 KC Green 在紐約及舊金山地鐵廣告中發現 AI 新創 Artisan 未授權使用其「This is Fine」梗圖宣傳 AI 助理 Ava，發文怒斥後迅速達成和解，Artisan 撤下廣告。",
+      "audience": "使用 AI 做內容創作的自媒體人、圖像設計師、職場工作者",
+      "pain_point": "AI 新創公司侵權事件頻傳，創作者的作品一不小心就被商業盜用，但維權門檻高",
+      "title_idea": "AI 公司偷用梗圖打廣告被抓包！「This is Fine」作者的維權方式，給所有創作者的一堂課",
+      "local_angle": "AI 版權爭議在台灣仍屬新議題，繁中深度分析幾乎空白；可做「AI 工具使用的版權紅線」教學選題，結合真實案例，吸引創作者社群流量"
     }
   ],
   "tool_updates": [
     {
-      "title": "Google Gemini Spark 24/7 AI 代理首批實測：關掉電腦仍持續幫你打理 Gmail、行事曆和 Drive",
+      "title": "OpenAI Codex Pro 雙倍用量促銷今日正式截止，$100/月 用戶 Codex 額度即時減半",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/"},
-        {"name": "Davarion Group", "url": "https://davarion.com/en/blog/gemini-spark-247-ai-agent-google-smb-may-2026/"}
+        {"name": "OpenAI Help Center", "url": "https://help.openai.com/en/articles/20001106-codex-rate-card"},
+        {"name": "eesel AI 解析", "url": "https://www.eesel.ai/blog/codex-pricing"}
       ],
-      "summary": "TechCrunch 首測 Google Gemini Spark：即便關掉電腦也在雲端持續運行，能主動回覆 Gmail、整理行事曆、操作 Drive，月費 $99.99 美元，限 Google AI Ultra 訂閱者。",
-      "audience": "想用 AI 提升工作效率、減少雜事的職場上班族",
-      "pain_point": "傳統 AI 助手需要手動輸入指令、關掉分頁就停止，無法真正「幫你主動做事」",
-      "title_idea": "Google 這個 AI 幫手關掉電腦還在幫你工作！Gemini Spark 首測：24 小時不停的 AI 員工真的有用嗎？",
-      "local_angle": "Gemini Spark 在台灣幾乎無中文深度評測；可搶做「真實 30 天使用體驗」教學，主打節省時間的職場上班族，流量紅利大"
-    },
-    {
-      "title": "OpenAI Codex 最新更新：新增 Windows 桌面完整操控功能與手機遠端存取能力",
-      "sources": [
-        {"name": "FutureTools / X @CodexReleases", "url": "https://x.com/CodexReleases/status/2060416347847196778"}
-      ],
-      "summary": "OpenAI Codex v26.527 新增 Windows 系統桌面自動化（Computer Use）功能，支援透過手機 App 遠端操控電腦完成工作流程，進一步擴大 AI 代理能力邊界。",
-      "audience": "想自動化辦公流程的職場工作者、效率控、工程師",
-      "pain_point": "電腦自動化工具門檻高，需要寫腳本才能運作，普通上班族難以使用",
-      "title_idea": "AI 現在能幫你操控整台電腦！OpenAI Codex 新功能：用手機就能遠端指揮 Windows 自動完成任務",
-      "local_angle": "Computer Use 自動化功能在台灣討論度極低；可做「零程式基礎也能用 AI 自動化 Windows 日常工作流程」實用教學，切入職場效率受眾"
-    },
-    {
-      "title": "GitHub Copilot 模型陣容大調整：移除 Gemini 全系列、只保留 Opus 4.7，並強化企業過渡補貼",
-      "sources": [
-        {"name": "GitHub Community Discussions", "url": "https://github.com/orgs/community/discussions/192948"},
-        {"name": "Judy AI Lab", "url": "https://judyailab.com/en/posts/github-copilot-token-billing-2026/"},
-        {"name": "GitHub Docs", "url": "https://docs.github.com/en/copilot/reference/copilot-billing/models-and-pricing"}
-      ],
-      "summary": "GitHub Copilot 同步移除所有 Gemini 模型及 Opus 4.5/4.6，Pro+ 現只剩 Opus 4.7；企業版提供 3 個月過渡期補貼（Business+$30/人，Enterprise+$70/人）。",
-      "audience": "使用 GitHub Copilot 的工程師、技術主管、IT 採購人員",
-      "pain_point": "依賴特定 AI 模型（如 Gemini）的工作流程突然被移除，需要重新選擇和適應新模型",
-      "title_idea": "GitHub Copilot 悄悄移除 Gemini！只剩這一個模型可選——工程師的 AI 工具組合要怎麼重新規劃？",
-      "local_angle": "台灣工程師廣泛使用 GitHub Copilot，但對模型更換決策通常後知後覺；可做「Copilot 模型變更完整解析 + 替代方案推薦」選題"
+      "summary": "OpenAI Codex Pro 推出時的 2 倍用量促銷活動今日（5/31）正式到期，$100/月 Pro 方案用戶從即日起 Codex 可用量減半（從 10x 降回 5x Plus），需升級至 $200 方案才能維持高用量。",
+      "audience": "使用 OpenAI Codex 的開發者、職場工程師、AI 效率工具愛好者",
+      "pain_point": "訂閱費用不變但實際可用量突然腰斬，需要快速決策是否升級方案或轉換工具",
+      "title_idea": "今天起 OpenAI Codex 用量直接減半！你該升級還是換工具？3 分鐘搞懂你的最佳選擇",
+      "local_angle": "台灣開發者社群使用 Codex 比例高，但對促銷到期的即時影響幾乎無繁中提醒；搶做「Codex 降額後的替代方案比較」，精準切入工程師焦慮"
     }
   ],
   "trends": [
     {
-      "title": "AI 穿戴裝置大浪正在來臨：從眼鏡到吊墜，全身 AI 配件時代即將成真",
+      "title": "Erin Brockovich 推出 AI 資料中心追蹤地圖，47 州居民湧入舉報，最大民怨是「透明度為零」",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/"},
-        {"name": "WION News", "url": "https://www.wionews.com/technology/after-ai-glasses-meta-is-reportedly-developing-an-ai-pendant-what-it-is-and-how-it-could-work-1780159884516"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/31/erin-brockovich-takes-aim-at-data-center-secrecy/"},
+        {"name": "Brockovich Data Center Map", "url": "https://www.brockovichdatacenter.com/"}
       ],
-      "summary": "繼 Ray-Ban AI 眼鏡後，Meta 布局 AI 吊墜穿戴裝置，AI 穿戴產品正從單一品項擴展到「全身配件生態系」，情境感知 AI 助理將成主流趨勢。",
-      "audience": "對 AI 科技趨勢感興趣的職場上班族、科技早期採用者",
-      "pain_point": "不確定 AI 穿戴裝置是否真的實用，或只是噱頭，不知道未來要不要跟進購買",
-      "title_idea": "2026 年最熱趨勢：AI 穿戴裝置從眼鏡到吊墜——下一個被 AI 改造的身體部位是哪裡？",
-      "local_angle": "AI 穿戴裝置在台灣幾乎無中文深度趨勢分析；歐美已熱烈討論，台灣幾乎空白，可做「AI 穿戴裝置全趨勢解析」長篇選題建立內容護城河"
-    },
-    {
-      "title": "OpenAI 謀求 9 月 IPO 上市，估值超 850 億美元，AI 公司股票化浪潮即將引爆",
-      "sources": [
-        {"name": "Build Fast with AI", "url": "https://www.buildfastwithai.com/blogs/ai-news-today-may-30-2026"},
-        {"name": "OpenAI", "url": "https://openai.com/news/"}
-      ],
-      "summary": "OpenAI 據報正謀求 9 月 IPO 上市，估值逾 850 億美元；隨著 Anthropic 估值近 1 兆美元，AI 獨角獸走向公開資本市場將是 2026 年重要產業里程碑。",
-      "audience": "關注 AI 產業與投資機會的職場上班族、創業者",
-      "pain_point": "想了解 OpenAI IPO 對自己使用 ChatGPT 的影響，以及是否有投資 AI 公司的機會",
-      "title_idea": "OpenAI 要上市了！9 月 IPO 完整解析：ChatGPT 會漲價嗎？對 AI 工具用戶意味著什麼？",
-      "local_angle": "台灣投資人對 OpenAI IPO 高度關注，但深度中文分析幾乎空白；可做「OpenAI IPO 完整懶人包」，結合投資分析與 AI 工具使用者觀點，雙重受眾覆蓋"
+      "summary": "環保運動人士 Erin Brockovich 建立眾包 AI 資料中心追蹤地圖，短期內收到近 4,000 份社區回報，最常見投訴是電費飆升與毫無透明度——AI 算力擴張的社會成本正引發大規模民怨。",
+      "audience": "關注 AI 產業生態與社會影響的職場上班族、科技觀察者",
+      "pain_point": "感覺 AI 發展好處都讓企業拿走，普通人卻要承擔電費上漲、土地被佔等代價，卻沒有發聲管道",
+      "title_idea": "AI 資料中心讓我家電費翻倍！Erin Brockovich 的反擊行動，揭露 AI 繁榮背後沒人說的代價",
+      "local_angle": "台灣同樣面臨 AI 資料中心用電爭議（如台電電力吃緊問題），歐美已有公民行動，台灣幾乎無人從「一般人視角」討論此議題；可做「AI 讓台灣電費變貴了嗎？」本地化深度選題"
     }
   ]
 }
