@@ -83,3 +83,19 @@ Dashboard updated successfully. Here's the full report:
 DONE
 --- AI report finished at Mon Jun  1 06:05:08 CST 2026 ---
 === Mon Jun  1 06:05:08 CST 2026 | Starting daily finance report ===
+FINANCE DONE
+
+---
+
+**執行摘要（2026-05-31 財經日報）**
+
+成功抓取並整合10則財經情報，已寫入 `skills/solopreneur-topic-miner/latest_finance_topics.json`，看板渲染完成（Finance: 7個日期）。
+
+| 分類 | 則數 | 精選亮點 |
+|------|------|---------|
+| **market_shocks** | 4則 | Berkshire 85億收購 Taylor Morrison、SpaceX IPO 1.8兆改寫指數規則、台股重挫523點、台積電轉單警報 |
+| **investment_opportunities** | 3則 | Burry 警告AI泡沫同時逆向買PayPal/Adobe、鴻海股利創新高+伺服器市占40%、全球債市崩盤下的黃金機會 |
+| **macro_observations** | 3則 | 伊朗戰爭三個月牛市不止、Musk 炮轟社會主義、SpaceX 重塑被動投資架構 |
+
+**主要來源**：Bloomberg RSS、ZeroHedge、鉅亨網、今周刊、CNBC、Andrei Jikh YouTube、Meet Kevin YouTube、Michael Burry/GuruFocus、WebSearch 多來源驗證。
+--- Finance report finished at Mon Jun  1 06:11:37 CST 2026 ---
