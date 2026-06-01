@@ -324,12 +324,16 @@
       min-height: 280px;
     }
     .card-stocks {
-      grid-column: span 6;
-      grid-row: span 3;
+      grid-column: span 5;
       min-height: 280px;
     }
+    .reserved-row {
+      grid-column: span 10;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
     .card-reserved {
-      grid-column: span 4;
       min-height: 90px;
     }
     .card-reserved { cursor: default; opacity: 0.6; }
@@ -1082,7 +1086,7 @@
     }
 
     /* ── Overtime card ── */
-    .card-overtime { grid-column: span 4; min-height: 90px; }
+    .card-overtime { grid-column: span 5; min-height: 90px; }
 
     /* ── Overtime panel (scoped to .ot-panel) ── */
     .ot-panel {
@@ -1194,8 +1198,8 @@
       .card-ai            { grid-column: span 2; grid-row: span 1; min-height: 240px; }
       .card-finance-bento { grid-column: span 2; }
       .card-stocks        { grid-column: span 2; grid-row: span 1; }
-      .card-reserved      { grid-column: span 1; }
       .card-overtime      { grid-column: span 2; }
+      .reserved-row       { grid-column: span 2; grid-template-columns: repeat(2, 1fr); }
       .bento-container, .masthead { padding-left: 20px; padding-right: 20px; }
       .masthead-headline { font-size: 36px; }
       .dash-header { padding: 16px 20px; }
@@ -1204,7 +1208,8 @@
     @media (max-width: 520px) {
       .bento-grid { grid-template-columns: 1fr; }
       .card-ai, .card-finance-bento, .card-stocks,
-      .card-reserved, .card-overtime { grid-column: span 1; grid-row: span 1; }
+      .card-overtime { grid-column: span 1; grid-row: span 1; }
+      .reserved-row { grid-column: span 1; grid-template-columns: 1fr; }
       .masthead-headline { font-size: 28px; }
       .overlay { padding: 16px; }
       .dash-nav { display: none; }
@@ -1389,50 +1394,158 @@
         </div>
       </div>
 
-      <!-- Reserved 2: 社群監控 -->
-      <div class="bento-card card-reserved">
-        <div class="card-head">
-          <div class="card-title-row">
-            <div class="icon-tile">
-              <svg viewBox="0 0 24 24" fill="#1a1306" stroke="#1a1306" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true">
-                <circle cx="12" cy="12" r="8"/>
-                <path d="M4 12h16M12 4c2.5 3 2.5 13 0 16M12 4c-2.5 3-2.5 13 0 16" stroke="#e5b344" stroke-width="1.2" fill="none"/>
-              </svg>
-            </div>
-            <div>
-              <div class="card-name">社群監控</div>
-              <div class="card-desc">輿情分析 · 熱點追蹤</div>
-            </div>
-          </div>
-          <span class="pill tone-mute"><span class="dot"></span>即將推出</span>
-        </div>
-        <div class="reserved-lines">
-          <div class="reserved-line"></div>
-          <div class="reserved-line"></div>
-        </div>
-      </div>
+      <!-- Reserved blocks: 上三下三 -->
+      <div class="reserved-row">
 
-      <!-- Reserved 3: 快訊中心 -->
-      <div class="bento-card card-reserved">
-        <div class="card-head">
-          <div class="card-title-row">
-            <div class="icon-tile">
-              <svg viewBox="0 0 24 24" fill="#1a1306" stroke="#1a1306" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true">
-                <path d="M13 3L5 14h6l-1 7 8-11h-6l1-7z"/>
-              </svg>
+        <!-- 社群監控 -->
+        <div class="bento-card card-reserved">
+          <div class="card-head">
+            <div class="card-title-row">
+              <div class="icon-tile">
+                <svg viewBox="0 0 24 24" fill="#1a1306" stroke="#1a1306" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true">
+                  <circle cx="12" cy="12" r="8"/>
+                  <path d="M4 12h16M12 4c2.5 3 2.5 13 0 16M12 4c-2.5 3-2.5 13 0 16" stroke="#e5b344" stroke-width="1.2" fill="none"/>
+                </svg>
+              </div>
+              <div>
+                <div class="card-name">社群監控</div>
+                <div class="card-desc">輿情分析 · 熱點追蹤</div>
+              </div>
             </div>
-            <div>
-              <div class="card-name">快訊中心</div>
-              <div class="card-desc">突發事件 · 即時快訊</div>
-            </div>
+            <span class="pill tone-mute"><span class="dot"></span>即將推出</span>
           </div>
-          <span class="pill tone-mute"><span class="dot"></span>即將推出</span>
+          <div class="reserved-lines">
+            <div class="reserved-line"></div>
+            <div class="reserved-line"></div>
+          </div>
         </div>
-        <div class="reserved-lines">
-          <div class="reserved-line"></div>
-          <div class="reserved-line"></div>
+
+        <!-- 快訊中心 -->
+        <div class="bento-card card-reserved">
+          <div class="card-head">
+            <div class="card-title-row">
+              <div class="icon-tile">
+                <svg viewBox="0 0 24 24" fill="#1a1306" stroke="#1a1306" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true">
+                  <path d="M13 3L5 14h6l-1 7 8-11h-6l1-7z"/>
+                </svg>
+              </div>
+              <div>
+                <div class="card-name">快訊中心</div>
+                <div class="card-desc">突發事件 · 即時快訊</div>
+              </div>
+            </div>
+            <span class="pill tone-mute"><span class="dot"></span>即將推出</span>
+          </div>
+          <div class="reserved-lines">
+            <div class="reserved-line"></div>
+            <div class="reserved-line"></div>
+          </div>
         </div>
-      </div>
+
+        <!-- 選題助手 -->
+        <div class="bento-card card-reserved">
+          <div class="card-head">
+            <div class="card-title-row">
+              <div class="icon-tile">
+                <svg viewBox="0 0 24 24" fill="none" stroke="#1a1306" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true">
+                  <path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 17l-6.2 4.3 2.4-7.4L2 9.4h7.6z"/>
+                </svg>
+              </div>
+              <div>
+                <div class="card-name">選題助手</div>
+                <div class="card-desc">AI 分析 · 爆款預測</div>
+              </div>
+            </div>
+            <span class="pill tone-mute"><span class="dot"></span>即將推出</span>
+          </div>
+          <div class="reserved-lines">
+            <div class="reserved-line"></div>
+            <div class="reserved-line"></div>
+          </div>
+        </div>
+
+        <!-- 排程發布 -->
+        <div class="bento-card card-reserved">
+          <div class="card-head">
+            <div class="card-title-row">
+              <div class="icon-tile">
+                <svg viewBox="0 0 24 24" fill="none" stroke="#1a1306" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true">
+                  <rect x="3" y="4" width="18" height="18" rx="2"/>
+                  <line x1="16" y1="2" x2="16" y2="6"/>
+                  <line x1="8" y1="2" x2="8" y2="6"/>
+                  <line x1="3" y1="10" x2="21" y2="10"/>
+                  <line x1="8" y1="14" x2="8" y2="14" stroke-width="2" stroke-linecap="round"/>
+                  <line x1="12" y1="14" x2="12" y2="14" stroke-width="2" stroke-linecap="round"/>
+                  <line x1="16" y1="14" x2="16" y2="14" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <div>
+                <div class="card-name">排程發布</div>
+                <div class="card-desc">多平台 · 時段最佳化</div>
+              </div>
+            </div>
+            <span class="pill tone-mute"><span class="dot"></span>即將推出</span>
+          </div>
+          <div class="reserved-lines">
+            <div class="reserved-line"></div>
+            <div class="reserved-line"></div>
+          </div>
+        </div>
+
+        <!-- 數據分析 -->
+        <div class="bento-card card-reserved">
+          <div class="card-head">
+            <div class="card-title-row">
+              <div class="icon-tile">
+                <svg viewBox="0 0 24 24" fill="none" stroke="#1a1306" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true">
+                  <line x1="18" y1="20" x2="18" y2="10"/>
+                  <line x1="12" y1="20" x2="12" y2="4"/>
+                  <line x1="6" y1="20" x2="6" y2="14"/>
+                  <line x1="2" y1="20" x2="22" y2="20"/>
+                </svg>
+              </div>
+              <div>
+                <div class="card-name">數據分析</div>
+                <div class="card-desc">流量追蹤 · 成效報告</div>
+              </div>
+            </div>
+            <span class="pill tone-mute"><span class="dot"></span>即將推出</span>
+          </div>
+          <div class="reserved-lines">
+            <div class="reserved-line"></div>
+            <div class="reserved-line"></div>
+          </div>
+        </div>
+
+        <!-- 競品雷達 -->
+        <div class="bento-card card-reserved">
+          <div class="card-head">
+            <div class="card-title-row">
+              <div class="icon-tile">
+                <svg viewBox="0 0 24 24" fill="none" stroke="#1a1306" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true">
+                  <circle cx="12" cy="12" r="9"/>
+                  <circle cx="12" cy="12" r="5"/>
+                  <circle cx="12" cy="12" r="1" fill="#1a1306"/>
+                  <line x1="12" y1="3" x2="12" y2="1"/>
+                  <line x1="12" y1="21" x2="12" y2="23"/>
+                  <line x1="3" y1="12" x2="1" y2="12"/>
+                  <line x1="21" y1="12" x2="23" y2="12"/>
+                </svg>
+              </div>
+              <div>
+                <div class="card-name">競品雷達</div>
+                <div class="card-desc">同類帳號 · 趨勢比較</div>
+              </div>
+            </div>
+            <span class="pill tone-mute"><span class="dot"></span>即將推出</span>
+          </div>
+          <div class="reserved-lines">
+            <div class="reserved-line"></div>
+            <div class="reserved-line"></div>
+          </div>
+        </div>
+
+      </div><!-- /reserved-row -->
 
     </div>
   </div>
