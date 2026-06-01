@@ -1,55 +1,109 @@
 {
-  "date": "2026-05-31",
+  "date": "2026-06-01",
   "big_events": [
     {
-      "title": "「AI 心理過載」論戰升溫：CEO 沉迷 AI、用戶反彈，DuckDuckGo 單周裝機量暴增 30%",
+      "title": "Anthropic 正式申請 IPO，估值近兆美元超越 OpenAI",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/31/making-sense-of-the-debate-over-ai-psychosis/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/"},
+        {"name": "CNBC", "url": "https://www.cnbc.com/2026/06/01/anthropic-ipo-s1-prospectus.html"},
+        {"name": "Washington Post", "url": "https://www.washingtonpost.com/technology/2026/06/01/anthropic-maker-claude-files-with-sec-go-public-an-ipo/"},
+        {"name": "NPR", "url": "https://www.npr.org/2026/06/01/nx-s1-5843199/anthropic-ipo-filing-ai-large"}
       ],
-      "summary": "Box 創辦人批 CEO 「AI 心理過載」，與此同時 Google 強推 AI 搜尋引發用戶反彈，DuckDuckGo 裝機量單周暴增 30%，AI 工具過度整合的反噬效應正在發酵。",
-      "audience": "職場上班族、使用 AI 工具的效率控",
-      "pain_point": "公司強推 AI 工具但實際效果差強人意，工作負擔反而增加，不知如何應對「被要求用 AI」的職場壓力",
-      "title_idea": "老闆瘋 AI、員工卻在逃離？「AI 心理過載」現象背後：這 3 個真相你必須知道",
-      "local_angle": "台灣職場「被迫用 AI」的現象與歐美完全相同，卻幾乎無人深度剖析；可做「如何在 AI 大潮中保護自己的工作效率與心理健康」選題，精準打中職場上班族痛點"
+      "summary": "Anthropic 向 SEC 提交 S-1 草稿，估值 9,650 億美元、年化營收 470 億美元，搶在 OpenAI 之前衝刺 IPO。",
+      "audience": "職場上班族、AI 工具使用者、科技業工作者",
+      "pain_point": "不知道 AI 產業是否泡沫化、自己是否該押注 AI 職涯方向",
+      "title_idea": "Anthropic 即將上市！估值超越 OpenAI，這代表 AI 時代真的來了？",
+      "local_angle": "歐美三大 AI 獨角獸同步備戰 IPO（Anthropic、OpenAI、SpaceX），台灣/華語圈對此幾乎無深度分析，搶先做「AI 公司上市潮代表什麼」系列選題"
     },
     {
-      "title": "「This is Fine」梗圖作者控訴 AI 新創 Artisan 盜用圖像打廣告，雙方達成和解",
+      "title": "Nvidia 在 Computex 發表 RTX Spark 超晶片，AI 代理 PC 時代正式宣告到來",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/31/this-is-fine-artist-kc-green-reaches-agreement-with-ai-startup-artisan/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/"},
+        {"name": "Nvidia Newsroom", "url": "https://nvidianews.nvidia.com/news/nvidia-microsoft-windows-pcs-agents-rtx-spark"},
+        {"name": "Republic World", "url": "https://www.republicworld.com/tech/nvidia-and-microsoft-want-your-next-windows-pc-to-run-ai-agents-not-just-apps-2026-06-01-126481"}
       ],
-      "summary": "藝術家 KC Green 在紐約及舊金山地鐵廣告中發現 AI 新創 Artisan 未授權使用其「This is Fine」梗圖宣傳 AI 助理 Ava，發文怒斥後迅速達成和解，Artisan 撤下廣告。",
-      "audience": "使用 AI 做內容創作的自媒體人、圖像設計師、職場工作者",
-      "pain_point": "AI 新創公司侵權事件頻傳，創作者的作品一不小心就被商業盜用，但維權門檻高",
-      "title_idea": "AI 公司偷用梗圖打廣告被抓包！「This is Fine」作者的維權方式，給所有創作者的一堂課",
-      "local_angle": "AI 版權爭議在台灣仍屬新議題，繁中深度分析幾乎空白；可做「AI 工具使用的版權紅線」教學選題，結合真實案例，吸引創作者社群流量"
+      "summary": "Jensen Huang 在 Computex 2026 發表 RTX Spark 超晶片，整合 CPU+GPU+AI 處理器，微軟、Dell、HP、ASUS、Lenovo 等廠商秋季推出搭載 AI 代理的新一代 PC。",
+      "audience": "職場上班族、電腦用戶、科技愛好者",
+      "pain_point": "不清楚 AI PC 跟普通電腦差在哪、未來買電腦該怎麼選",
+      "title_idea": "買電腦要等秋天！Nvidia + 微軟宣佈 AI 代理 PC，你的下一台電腦會幫你自動工作",
+      "local_angle": "台灣製造商（ASUS、MSI）是這波 AI PC 的核心供應商，從台灣角度切入更具本地共鳴；華語圈對「AI 代理 PC 實際能做什麼」的教學內容極度缺乏"
+    },
+    {
+      "title": "OpenAI Codex 登陸 Windows，AI 可直接「看螢幕、點滑鼠」操控你的電腦",
+      "sources": [
+        {"name": "Winbuzzer", "url": "https://winbuzzer.com/2026/06/01/openai-brings-codex-computer-use-to-windows-pcs-xcxwbn/"},
+        {"name": "ExplainX.ai", "url": "https://explainx.ai/blog/openai-codex-computer-use-windows-mobile-control-2026"},
+        {"name": "Kingy AI", "url": "https://kingy.ai/news/openai-just-brought-codex-computer-use-to-windows-what-pc-users-get-now/"}
+      ],
+      "summary": "OpenAI Codex 的 Computer Use 功能正式支援 Windows，可自動操控桌面應用程式，還能透過手機 App 遠端指揮 Windows PC 執行任務。",
+      "audience": "Windows 使用者、職場上班族、想自動化工作流程的人",
+      "pain_point": "重複性的電腦操作（如資料整理、表格填寫、系統操作）佔掉大量工作時間",
+      "title_idea": "用 ChatGPT 遙控你的 Windows 電腦！OpenAI Codex 新功能，讓 AI 幫你點滑鼠按鍵盤",
+      "local_angle": "Computer Use 在台灣/華語圈討論度低，實際操作教學幾乎是空白；此功能尚未在 EEA 上市，台灣用戶可提前搶先體驗並做教學"
     }
   ],
   "tool_updates": [
     {
-      "title": "OpenAI Codex Pro 雙倍用量促銷今日正式截止，$100/月 用戶 Codex 額度即時減半",
+      "title": "JetBrains 開源 Mellum2：12B 參數 MoE 模型，推論速度比同規格快兩倍以上",
       "sources": [
-        {"name": "OpenAI Help Center", "url": "https://help.openai.com/en/articles/20001106-codex-rate-card"},
-        {"name": "eesel AI 解析", "url": "https://www.eesel.ai/blog/codex-pricing"}
+        {"name": "JetBrains AI Blog", "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/"},
+        {"name": "HuggingFace", "url": "https://huggingface.co/blog/JetBrains/mellum2-launch"},
+        {"name": "The New Stack", "url": "https://thenewstack.io/jetbrains-mellum2-open-source-coding-model/"}
       ],
-      "summary": "OpenAI Codex Pro 推出時的 2 倍用量促銷活動今日（5/31）正式到期，$100/月 Pro 方案用戶從即日起 Codex 可用量減半（從 10x 降回 5x Plus），需升級至 $200 方案才能維持高用量。",
-      "audience": "使用 OpenAI Codex 的開發者、職場工程師、AI 效率工具愛好者",
-      "pain_point": "訂閱費用不變但實際可用量突然腰斬，需要快速決策是否升級方案或轉換工具",
-      "title_idea": "今天起 OpenAI Codex 用量直接減半！你該升級還是換工具？3 分鐘搞懂你的最佳選擇",
-      "local_angle": "台灣開發者社群使用 Codex 比例高，但對促銷到期的即時影響幾乎無繁中提醒；搶做「Codex 降額後的替代方案比較」，精準切入工程師焦慮"
+      "summary": "JetBrains 發布 Mellum2，12B MoE 架構實際只啟動 2.5B 參數，推論速度提升超過 2 倍，Apache 2.0 授權免費商用，專為 IDE 整合和 RAG 流水線優化。",
+      "audience": "程式開發者、想自學 AI 輔助程式設計的上班族、工程師",
+      "pain_point": "OpenAI / Claude 用量費用高，想有免費高效的本地 AI 程式碼模型",
+      "title_idea": "免費開源！JetBrains 推出 Mellum2：比 GPT-4 速度快、比 Claude 便宜，程式設計師的新武器",
+      "local_angle": "JetBrains 系列 IDE 在台灣開發者圈子有大量用戶，Mellum2 與 IntelliJ/PyCharm 深度整合，做「如何在台灣常見 IDE 中用 Mellum2」教學有明顯流量空間"
+    },
+    {
+      "title": "DuckDuckGo 推出「無 AI 搜尋」瀏覽器擴充，Chrome/Firefox 用戶可一鍵逃離 Google AI 搜尋",
+      "sources": [
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/"},
+        {"name": "Tom's Guide", "url": "https://www.tomsguide.com/computing/browsers/traffic-triples-to-duckduckgo-no-ai-search-as-google-doubles-down-on-ai"}
+      ],
+      "summary": "DuckDuckGo 發布 Chrome 和 Firefox 擴充功能，讓用戶將「無 AI 搜尋」設為預設，無 AI 搜尋頁流量已較基準線高出 84%，三倍於往常高峰。",
+      "audience": "注重資訊品質的上班族、研究工作者、對 AI 生成答案存疑的用戶",
+      "pain_point": "Google AI Overview 常常給出錯誤答案，需要原始連結而非 AI 摘要",
+      "title_idea": "厭倦 Google AI 亂答題？一個擴充功能讓你秒回「純搜尋」時代，30 秒安裝教學",
+      "local_angle": "台灣用戶大量使用 Google，但對 AI Overview 錯誤率的討論尚未成為顯著話題，搶先做「如何設定 DuckDuckGo 無 AI 搜尋」教學可快速收割流量"
+    },
+    {
+      "title": "AI 天氣新創 WindBorne 發布 WeatherMesh-6，準確度正式超越全球最強官方氣象機構 ECMWF",
+      "sources": [
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/01/this-ai-weather-startup-is-out-forecasting-government-agencies/"}
+      ],
+      "summary": "WindBorne Systems 的 WeatherMesh-6 準確度超越 ECMWF 黃金標準，每小時更新、解析度達 3 公里，5 天後預報精準度等同傳統 1 天預報，靠 400 顆自有氣象氣球取得數據優勢。",
+      "audience": "對 AI 顛覆傳統行業感興趣的職場人士、農業/戶外/活動產業從業者",
+      "pain_point": "天氣預報不夠準確影響工作計劃，不知道 AI 已能超越政府機構",
+      "title_idea": "AI 打敗政府氣象局！這家新創的天氣預測比 ECMWF 還準，顛覆你對 AI 邊界的認知",
+      "local_angle": "台灣氣象特殊（颱風、劇烈天氣），中央氣象署預報常被民眾抱怨，用台灣場景切入「AI 準確度 vs 官方氣象」話題極具共鳴"
     }
   ],
   "trends": [
     {
-      "title": "Erin Brockovich 推出 AI 資料中心追蹤地圖，47 州居民湧入舉報，最大民怨是「透明度為零」",
+      "title": "反 AI 搜尋浪潮爆發：DuckDuckGo 無 AI 搜尋流量三倍暴增，「去 AI 化」產品的新商機正在形成",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/31/erin-brockovich-takes-aim-at-data-center-secrecy/"},
-        {"name": "Brockovich Data Center Map", "url": "https://www.brockovichdatacenter.com/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/"},
+        {"name": "Piunika Web", "url": "https://piunikaweb.com/2026/06/01/duckduckgo-no-ai-search-traffic-triples/"}
       ],
-      "summary": "環保運動人士 Erin Brockovich 建立眾包 AI 資料中心追蹤地圖，短期內收到近 4,000 份社區回報，最常見投訴是電費飆升與毫無透明度——AI 算力擴張的社會成本正引發大規模民怨。",
-      "audience": "關注 AI 產業生態與社會影響的職場上班族、科技觀察者",
-      "pain_point": "感覺 AI 發展好處都讓企業拿走，普通人卻要承擔電費上漲、土地被佔等代價，卻沒有發聲管道",
-      "title_idea": "AI 資料中心讓我家電費翻倍！Erin Brockovich 的反擊行動，揭露 AI 繁榮背後沒人說的代價",
-      "local_angle": "台灣同樣面臨 AI 資料中心用電爭議（如台電電力吃緊問題），歐美已有公民行動，台灣幾乎無人從「一般人視角」討論此議題；可做「AI 讓台灣電費變貴了嗎？」本地化深度選題"
+      "summary": "Google I/O 宣布全面 AI 化搜尋後，用戶反彈明顯，DuckDuckGo 無 AI 搜尋流量創歷史新高，顯示「AI 疲勞」正催生反向市場需求。",
+      "audience": "內容創作者、自媒體人、數位行銷工作者",
+      "pain_point": "所有平台都在強推 AI 功能，用戶開始出現選擇疲勞和不信任感",
+      "title_idea": "用戶開始逃離 AI！DuckDuckGo 流量暴增 3 倍，「去 AI 化」會是下一個創業藍海嗎？",
+      "local_angle": "台灣科技媒體普遍只報 AI 正面消息，「AI 反彈情緒」這個角度在華語圈幾乎無人討論，具有顯著資訊差優勢"
+    },
+    {
+      "title": "AI 代理 PC 時代即將重塑辦公桌面：Nvidia + 微軟聯手，2026 秋季後每台新電腦都跑 AI 代理",
+      "sources": [
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/"},
+        {"name": "GlobeNewswire", "url": "https://www.globenewswire.com/news-release/2026/06/01/3303985/0/en/NVIDIA-and-Microsoft-Reinvent-Windows-PCs-for-the-Age-of-Personal-AI.html"}
+      ],
+      "summary": "Jensen Huang 宣稱 AI 代理 PC 的重要性堪比「智慧型手機誕生」，個人電腦將從被動工具轉型為主動 AI 代理執行器，秋季首波機型上市。",
+      "audience": "職場上班族、科技愛好者、企業 IT 決策者",
+      "pain_point": "不清楚未來的電腦會如何改變工作方式，擔心自己跟不上技術轉型",
+      "title_idea": "Jensen Huang：AI 代理 PC 比智慧型手機更革命性！你的下一台電腦會主動幫你完成工作",
+      "local_angle": "ASUS、MSI 等台廠都是 RTX Spark PC 的首發夥伴，台灣媒體幾乎只報硬體規格，缺乏「對上班族工作方式的實質影響」這類深度分析選題"
     }
   ]
 }
