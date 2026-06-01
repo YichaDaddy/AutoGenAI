@@ -638,55 +638,11 @@
 
     .section-line { flex: 1; margin-left: 10px; border-top: 1px dashed var(--border-faint); }
 
-    /* D: Section layout differentiation */
-    .cards-grid { display: flex; flex-direction: column; gap: 16px; }
-
-    /* Section 0 — Featured: first card full-width hero, rest 2-col */
-    .cards-grid--featured {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 16px;
-    }
-    .cards-grid--featured > .news-card:first-child {
-      grid-column: 1 / -1;
-    }
-    .cards-grid--featured > .news-card:first-child .card-title {
-      font-size: 22px;
-    }
-    .cards-grid--featured > .news-card:first-child .summary {
-      font-size: 14px;
-    }
-
-    /* Section 1 — Compact 2-col grid */
-    .cards-grid--compact {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 12px;
-    }
-    .cards-grid--compact .card-title { font-size: 16px; }
-    .cards-grid--compact .summary    { font-size: 13px; }
-
-    /* Section 2 — Trends: horizontal scroll strip */
-    .cards-grid--trends {
-      display: flex; flex-direction: row;
-      gap: 14px; overflow-x: auto;
-      scroll-snap-type: x mandatory;
-      scrollbar-width: none;
-      padding-bottom: 4px;
-      cursor: grab;
-    }
-    .cards-grid--trends::-webkit-scrollbar { display: none; }
-    .cards-grid--trends:active { cursor: grabbing; }
-    .cards-grid--trends > .news-card {
-      flex-shrink: 0;
-      width: min(370px, 82vw);
-      scroll-snap-align: start;
-    }
-    .cards-grid--trends .insight-panel { grid-template-columns: 1fr; }
+    /* D: Section layout */
+    .cards-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
 
     @media (max-width: 760px) {
-      .cards-grid--featured, .cards-grid--compact { grid-template-columns: 1fr; }
-      .cards-grid--featured > .news-card:first-child { grid-column: 1; }
+      .cards-grid { grid-template-columns: 1fr; }
     }
 
     /* News card (Double-Bezel) */
@@ -2529,9 +2485,9 @@
     }
 
     var GRID_CLASSES = [
-      'cards-grid cards-grid--featured',
-      'cards-grid cards-grid--compact',
-      'cards-grid cards-grid--trends'
+      'cards-grid',
+      'cards-grid',
+      'cards-grid'
     ];
 
     function renderDayPanel(dayData, ch, isFirst) {
