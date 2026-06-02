@@ -1,109 +1,116 @@
 {
-  "date": "2026-06-01",
+  "date": "2026-06-02",
   "big_events": [
     {
-      "title": "Anthropic 正式申請 IPO，估值近兆美元超越 OpenAI",
+      "title": "OpenAI Codex 全面進攻白領工作：6大職能插件 + Sites 功能同步上線",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/"},
-        {"name": "CNBC", "url": "https://www.cnbc.com/2026/06/01/anthropic-ipo-s1-prospectus.html"},
-        {"name": "Washington Post", "url": "https://www.washingtonpost.com/technology/2026/06/01/anthropic-maker-claude-files-with-sec-go-public-an-ipo/"},
-        {"name": "NPR", "url": "https://www.npr.org/2026/06/01/nx-s1-5843199/anthropic-ipo-filing-ai-large"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work/"},
+        {"name": "VentureBeat", "url": "https://venturebeat.com/orchestration/openais-codex-update-lets-agents-build-interactive-enterprise-workspaces-via-sites-and-role-specific-plugins"},
+        {"name": "OpenAI 官方", "url": "https://openai.com/index/codex-for-almost-everything/"}
       ],
-      "summary": "Anthropic 向 SEC 提交 S-1 草稿，估值 9,650 億美元、年化營收 470 億美元，搶在 OpenAI 之前衝刺 IPO。",
-      "audience": "職場上班族、AI 工具使用者、科技業工作者",
-      "pain_point": "不知道 AI 產業是否泡沫化、自己是否該押注 AI 職涯方向",
-      "title_idea": "Anthropic 即將上市！估值超越 OpenAI，這代表 AI 時代真的來了？",
-      "local_angle": "歐美三大 AI 獨角獸同步備戰 IPO（Anthropic、OpenAI、SpaceX），台灣/華語圈對此幾乎無深度分析，搶先做「AI 公司上市潮代表什麼」系列選題"
+      "summary": "OpenAI 釋出 Codex 6大職能插件（數據分析/創意/銷售/產品設計/投資銀行），新增 Sites 輸出互動網頁功能，週活用戶達 500 萬、半年成長 6 倍。",
+      "audience": "職場上班族、知識工作者、企業員工",
+      "pain_point": "工作繁雜、不知如何用 AI 代勞特定職能任務",
+      "title_idea": "OpenAI 要取代你的工作？6大職能 AI 插件實測（銷售／財務／設計全包）",
+      "local_angle": "工具已上線但華語圈教學極少，搶做職能別操作教學可吃到大量資訊差紅利"
     },
     {
-      "title": "Nvidia 在 Computex 發表 RTX Spark 超晶片，AI 代理 PC 時代正式宣告到來",
+      "title": "Microsoft Build 2026：AI「非同步協作員工」時代正式宣告，Scout 助理同步亮相",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/"},
-        {"name": "Nvidia Newsroom", "url": "https://nvidianews.nvidia.com/news/nvidia-microsoft-windows-pcs-agents-rtx-spark"},
-        {"name": "Republic World", "url": "https://www.republicworld.com/tech/nvidia-and-microsoft-want-your-next-windows-pc-to-run-ai-agents-not-just-apps-2026-06-01-126481"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/02/microsoft-launches-scout-an-openclaw-inspired-personal-assistant/"},
+        {"name": "Microsoft 官方部落格", "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/"},
+        {"name": "Tom's Guide", "url": "https://www.tomsguide.com/news/live/microsoft-build-2026"}
       ],
-      "summary": "Jensen Huang 在 Computex 2026 發表 RTX Spark 超晶片，整合 CPU+GPU+AI 處理器，微軟、Dell、HP、ASUS、Lenovo 等廠商秋季推出搭載 AI 代理的新一代 PC。",
-      "audience": "職場上班族、電腦用戶、科技愛好者",
-      "pain_point": "不清楚 AI PC 跟普通電腦差在哪、未來買電腦該怎麼選",
-      "title_idea": "買電腦要等秋天！Nvidia + 微軟宣佈 AI 代理 PC，你的下一台電腦會幫你自動工作",
-      "local_angle": "台灣製造商（ASUS、MSI）是這波 AI PC 的核心供應商，從台灣角度切入更具本地共鳴；華語圈對「AI 代理 PC 實際能做什麼」的教學內容極度缺乏"
+      "summary": "Satya Nadella 宣告 AI 進入非同步協作員工時代，Scout 個人助理、Project Polaris 自研編碼 AI、Azure Agent Mesh 等多項工具在 Build 2026 大會當日發布。",
+      "audience": "職場上班族、企業用戶、Microsoft 365 使用者",
+      "pain_point": "工作中重複性行政任務佔據大量時間，AI 工具零散不整合",
+      "title_idea": "微軟要給每個上班族一個永遠在線的 AI 助理！Scout 能幫你做哪些事？",
+      "local_angle": "台灣企業廣泛使用 Microsoft 365，Scout 直接影響日常工作流，是教學熱門選題"
     },
     {
-      "title": "OpenAI Codex 登陸 Windows，AI 可直接「看螢幕、點滑鼠」操控你的電腦",
+      "title": "Uber AI 工具預算 4 個月花光：企業員工用 AI 的速度遠超管理層預期",
       "sources": [
-        {"name": "Winbuzzer", "url": "https://winbuzzer.com/2026/06/01/openai-brings-codex-computer-use-to-windows-pcs-xcxwbn/"},
-        {"name": "ExplainX.ai", "url": "https://explainx.ai/blog/openai-codex-computer-use-windows-mobile-control-2026"},
-        {"name": "Kingy AI", "url": "https://kingy.ai/news/openai-just-brought-codex-computer-use-to-windows-what-pc-users-get-now/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months/"}
       ],
-      "summary": "OpenAI Codex 的 Computer Use 功能正式支援 Windows，可自動操控桌面應用程式，還能透過手機 App 遠端指揮 Windows PC 執行任務。",
-      "audience": "Windows 使用者、職場上班族、想自動化工作流程的人",
-      "pain_point": "重複性的電腦操作（如資料整理、表格填寫、系統操作）佔掉大量工作時間",
-      "title_idea": "用 ChatGPT 遙控你的 Windows 電腦！OpenAI Codex 新功能，讓 AI 幫你點滑鼠按鍵盤",
-      "local_angle": "Computer Use 在台灣/華語圈討論度低，實際操作教學幾乎是空白；此功能尚未在 EEA 上市，台灣用戶可提前搶先體驗並做教學"
+      "summary": "Uber 因員工大量使用 AI 工具導致年度預算 4 個月耗盡而緊急設限，凸顯職場 AI 採用速度已遠超企業規劃。",
+      "audience": "職場上班族、企業管理者、HR 人員",
+      "pain_point": "想用 AI 工具提升效率，但公司規範或預算不明確",
+      "title_idea": "上班族瘋 AI 工具，把公司預算 4 個月花光！你的公司有這個問題嗎？",
+      "local_angle": "台灣企業 AI 採購尚無統一規範，可切入「如何說服公司提供 AI 工具補貼」實用角度"
     }
   ],
   "tool_updates": [
     {
-      "title": "JetBrains 開源 Mellum2：12B 參數 MoE 模型，推論速度比同規格快兩倍以上",
+      "title": "Microsoft Scout 正式上線：永遠在線的個人 AI 工作助理，整合整套 Microsoft 365",
       "sources": [
-        {"name": "JetBrains AI Blog", "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/"},
-        {"name": "HuggingFace", "url": "https://huggingface.co/blog/JetBrains/mellum2-launch"},
-        {"name": "The New Stack", "url": "https://thenewstack.io/jetbrains-mellum2-open-source-coding-model/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/02/microsoft-launches-scout-an-openclaw-inspired-personal-assistant/"},
+        {"name": "Microsoft Blog", "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/"}
       ],
-      "summary": "JetBrains 發布 Mellum2，12B MoE 架構實際只啟動 2.5B 參數，推論速度提升超過 2 倍，Apache 2.0 授權免費商用，專為 IDE 整合和 RAG 流水線優化。",
-      "audience": "程式開發者、想自學 AI 輔助程式設計的上班族、工程師",
-      "pain_point": "OpenAI / Claude 用量費用高，想有免費高效的本地 AI 程式碼模型",
-      "title_idea": "免費開源！JetBrains 推出 Mellum2：比 GPT-4 速度快、比 Claude 便宜，程式設計師的新武器",
-      "local_angle": "JetBrains 系列 IDE 在台灣開發者圈子有大量用戶，Mellum2 與 IntelliJ/PyCharm 深度整合，做「如何在台灣常見 IDE 中用 Mellum2」教學有明顯流量空間"
+      "summary": "Scout 基於 OpenClaw 架構，整合 Teams、Outlook、OneDrive、SharePoint，用戶可自定義助理名稱並持續訓練個人化工作技能。",
+      "audience": "Microsoft 365 使用者、企業員工",
+      "pain_point": "每天在各 App 間切換耗費大量時間，沒有一個統一的 AI 工作中樞",
+      "title_idea": "微軟 Scout 實測：一個 AI 助理管理你所有工作，Teams 會議＋郵件＋日曆全自動",
+      "local_angle": "首批僅限企業 Frontier 用戶，搶先介紹功能可吃到資訊差流量"
     },
     {
-      "title": "DuckDuckGo 推出「無 AI 搜尋」瀏覽器擴充，Chrome/Firefox 用戶可一鍵逃離 Google AI 搜尋",
+      "title": "OpenAI Codex 6 大職能插件上線：數據分析、銷售、投行各職能直接上手",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/"},
-        {"name": "Tom's Guide", "url": "https://www.tomsguide.com/computing/browsers/traffic-triples-to-duckduckgo-no-ai-search-as-google-doubles-down-on-ai"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work/"},
+        {"name": "OpenAI 官方", "url": "https://openai.com/index/codex-for-almost-everything/"}
       ],
-      "summary": "DuckDuckGo 發布 Chrome 和 Firefox 擴充功能，讓用戶將「無 AI 搜尋」設為預設，無 AI 搜尋頁流量已較基準線高出 84%，三倍於往常高峰。",
-      "audience": "注重資訊品質的上班族、研究工作者、對 AI 生成答案存疑的用戶",
-      "pain_point": "Google AI Overview 常常給出錯誤答案，需要原始連結而非 AI 摘要",
-      "title_idea": "厭倦 Google AI 亂答題？一個擴充功能讓你秒回「純搜尋」時代，30 秒安裝教學",
-      "local_angle": "台灣用戶大量使用 Google，但對 AI Overview 錯誤率的討論尚未成為顯著話題，搶先做「如何設定 DuckDuckGo 無 AI 搜尋」教學可快速收割流量"
+      "summary": "6 大插件涵蓋數據分析、創意生產、銷售、產品設計、股權投資、投資銀行，Sites 功能可輸出互動網頁，Annotations 支援精準文件標注。",
+      "audience": "知識工作者、分析師、銷售業務、產品經理",
+      "pain_point": "AI 工具太通用，無法直接套用到自己的職能工作情境",
+      "title_idea": "OpenAI Codex 插件實測：銷售業務用 AI 助理，一天工作量縮到兩小時？",
+      "local_angle": "插件均為英文介面，華語職場的本地化使用教學需求極大"
     },
     {
-      "title": "AI 天氣新創 WindBorne 發布 WeatherMesh-6，準確度正式超越全球最強官方氣象機構 ECMWF",
+      "title": "Google 推出假電話即時偵測：AI 打 AI，深偽語音詐騙來電自動識別",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/01/this-ai-weather-startup-is-out-forecasting-government-agencies/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/02/google-rolls-out-fake-call-detection-to-protect-against-ai-deepfake-impersonation-scams/"}
       ],
-      "summary": "WindBorne Systems 的 WeatherMesh-6 準確度超越 ECMWF 黃金標準，每小時更新、解析度達 3 公里，5 天後預報精準度等同傳統 1 天預報，靠 400 顆自有氣象氣球取得數據優勢。",
-      "audience": "對 AI 顛覆傳統行業感興趣的職場人士、農業/戶外/活動產業從業者",
-      "pain_point": "天氣預報不夠準確影響工作計劃，不知道 AI 已能超越政府機構",
-      "title_idea": "AI 打敗政府氣象局！這家新創的天氣預測比 ECMWF 還準，顛覆你對 AI 邊界的認知",
-      "local_angle": "台灣氣象特殊（颱風、劇烈天氣），中央氣象署預報常被民眾抱怨，用台灣場景切入「AI 準確度 vs 官方氣象」話題極具共鳴"
+      "summary": "Google 正式推出利用 AI 偵測深偽語音詐騙電話的功能，可即時識別冒充親友或主管的 AI 合成語音來電。",
+      "audience": "一般手機用戶、年長族群、企業主管",
+      "pain_point": "AI 深偽語音詐騙越來越難辨別，親友或主管聲音都可被複製",
+      "title_idea": "AI 打敗 AI！Google 新功能自動識別深偽詐騙電話，原理和用法一次說清楚",
+      "local_angle": "台灣電話詐騙問題嚴重，Google 深偽偵測直接貼近本地痛點，話題熱度高"
+    },
+    {
+      "title": "Anthropic Claude Mythos 開放 150 組織：已自主發現 10,000+ 零日漏洞",
+      "sources": [
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries/"},
+        {"name": "Cybersecurity Dive", "url": "https://www.cybersecuritydive.com/news/ai-anthropic-claude-mythos-project-glasswing-expand/821714/"}
+      ],
+      "summary": "Anthropic 的 Claude Mythos 透過 Project Glasswing 擴展至 15+ 國、150 個組織，已自主發現超過 1 萬個高危漏洞，客戶含 NATO、三星、Okta。",
+      "audience": "資安人員、企業 IT 主管、科技創作者",
+      "pain_point": "AI 在資安領域的能耐和邊界不明確，缺乏具體案例",
+      "title_idea": "AI 自己找 Bug！Anthropic Claude Mythos 發現 1 萬個零日漏洞，代表什麼？",
+      "local_angle": "AI 資安話題在華語圈幾乎無人深入報導，適合搶先切入技術創作者受眾"
     }
   ],
   "trends": [
     {
-      "title": "反 AI 搜尋浪潮爆發：DuckDuckGo 無 AI 搜尋流量三倍暴增，「去 AI 化」產品的新商機正在形成",
+      "title": "好萊塢大導馬丁·史科西斯用 FLUX AI 做分鏡：頂級創意人擁抱 AI 加速",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/"},
-        {"name": "Piunika Web", "url": "https://piunikaweb.com/2026/06/01/duckduckgo-no-ai-search-traffic-triples/"}
+        {"name": "FutureTools", "url": "https://x.com/bfl_ai/status/2061800769226252721?utm_source=futuretools.io&utm_medium=newspage"},
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/02/martin-scorsese-becomes-the-latest-and-most-unlikely-hollywood-voice-for-ai/"}
       ],
-      "summary": "Google I/O 宣布全面 AI 化搜尋後，用戶反彈明顯，DuckDuckGo 無 AI 搜尋流量創歷史新高，顯示「AI 疲勞」正催生反向市場需求。",
-      "audience": "內容創作者、自媒體人、數位行銷工作者",
-      "pain_point": "所有平台都在強推 AI 功能，用戶開始出現選擇疲勞和不信任感",
-      "title_idea": "用戶開始逃離 AI！DuckDuckGo 流量暴增 3 倍，「去 AI 化」會是下一個創業藍海嗎？",
-      "local_angle": "台灣科技媒體普遍只報 AI 正面消息，「AI 反彈情緒」這個角度在華語圈幾乎無人討論，具有顯著資訊差優勢"
+      "summary": "馬丁·史科西斯加入 Black Forest Labs（FLUX）擔任顧問，已實際用 AI 完成分鏡工作，強調「人的品味與技藝」仍是核心。",
+      "audience": "影像創作者、自媒體創作者、設計師",
+      "pain_point": "擔心 AI 取代創意工作，不知道創意人應如何與 AI 協作",
+      "title_idea": "連馬丁史科西斯都在用 AI 做分鏡！創意人不被 AI 取代的關鍵究竟是什麼？",
+      "local_angle": "頂級創意人背書 AI 圖像工具，可切入「創作者 AI 工作流」教學角度，話題自帶流量"
     },
     {
-      "title": "AI 代理 PC 時代即將重塑辦公桌面：Nvidia + 微軟聯手，2026 秋季後每台新電腦都跑 AI 代理",
+      "title": "ZeroDrift 獲 1000 萬美元：AI 模型部署後自我保護成為新創賽道",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/"},
-        {"name": "GlobeNewswire", "url": "https://www.globenewswire.com/news-release/2026/06/01/3303985/0/en/NVIDIA-and-Microsoft-Reinvent-Windows-PCs-for-the-Age-of-Personal-AI.html"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/02/zerodrift-raises-10-million-to-protect-ai-models-from-themselves/"}
       ],
-      "summary": "Jensen Huang 宣稱 AI 代理 PC 的重要性堪比「智慧型手機誕生」，個人電腦將從被動工具轉型為主動 AI 代理執行器，秋季首波機型上市。",
-      "audience": "職場上班族、科技愛好者、企業 IT 決策者",
-      "pain_point": "不清楚未來的電腦會如何改變工作方式，擔心自己跟不上技術轉型",
-      "title_idea": "Jensen Huang：AI 代理 PC 比智慧型手機更革命性！你的下一台電腦會主動幫你完成工作",
-      "local_angle": "ASUS、MSI 等台廠都是 RTX Spark PC 的首發夥伴，台灣媒體幾乎只報硬體規格，缺乏「對上班族工作方式的實質影響」這類深度分析選題"
+      "summary": "ZeroDrift 針對 AI 模型部署後漂移與效果惡化問題獲千萬美元融資，顯示企業 AI 維運管理已成獨立市場需求。",
+      "audience": "獨立開發者、AI 產品創業者、企業 AI 負責人",
+      "pain_point": "部署了 AI 產品後，模型效果越來越差但不知如何監控與維護",
+      "title_idea": "AI 模型用久了會變笨？1000 萬美元的新創在解決這個你可能忽視的問題",
+      "local_angle": "AI 產品維運話題在華語圈幾乎無人涉足，適合搶先切入獨立開發者受眾"
     }
   ]
 }
