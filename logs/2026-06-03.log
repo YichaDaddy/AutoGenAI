@@ -1,1 +1,67 @@
 === Wed Jun  3 06:00:02 CST 2026 | Starting daily AI report ===
+Dashboard updated successfully. Here's the full summary of today's run:
+
+---
+
+## 📰 歐美 AI 情報日報 — 2026-06-02
+
+**賽道：AI 效率工具 ｜ 目標受眾：職場上班族**
+
+---
+
+### 板塊一：大事件
+
+**1. OpenAI Codex 全面進攻白領工作：6大職能插件 + Sites 功能同步上線**
+- **來源**：TechCrunch · VentureBeat · OpenAI 官方（3 家報導）
+- **一句摘要**：Codex 釋出數據分析/創意/銷售/產品設計/投行 6 大職能插件，週活 500 萬用戶、半年成長 6 倍。
+- **選題角度**：目標受眾：知識工作者｜痛點：AI 太通用無法套用職能工作
+- **標題雛形**：「OpenAI 要取代你的工作？6大職能 AI 插件實測（銷售／財務／設計全包）」
+- **本地化切角**：工具已上線但華語圈教學極少，搶做職能別操作教學可吃到資訊差紅利
+
+**2. Microsoft Build 2026：AI「非同步協作員工」時代正式宣告，Scout 助理同步亮相**
+- **來源**：TechCrunch · Microsoft 官方部落格 · Tom's Guide（3 家報導）
+- **一句摘要**：Satya Nadella 宣告 AI 進入非同步協作員工時代，Scout 助理、Project Polaris 等多項工具同日發布。
+- **標題雛形**：「微軟要給每個上班族一個永遠在線的 AI 助理！Scout 能幫你做哪些事？」
+- **本地化切角**：台灣企業廣泛使用 Microsoft 365，Scout 直接影響日常工作流
+
+**3. Uber AI 工具預算 4 個月花光：企業員工用 AI 的速度遠超管理層預期**
+- **來源**：TechCrunch
+- **一句摘要**：Uber 員工大量使用 AI 工具導致年度預算 4 個月耗盡，公司緊急設限。
+- **標題雛形**：「上班族瘋 AI 工具，把公司預算 4 個月花光！你的公司有這個問題嗎？」
+- **本地化切角**：台灣企業 AI 採購無規範，可切入「如何說服公司補貼 AI 工具」實用角度
+
+---
+
+### 板塊二：工具更新
+
+**4. Microsoft Scout 正式上線** — Teams/Outlook/OneDrive 全整合 AI 工作助理
+**5. OpenAI Codex 6 職能插件** — 銷售/分析/設計等職能別一鍵啟動
+**6. Google 假電話深偽偵測** — 即時識別 AI 合成語音詐騙來電
+**7. Anthropic Claude Mythos 擴張** — 開放 150 組織，自主發現 1 萬+ 零日漏洞
+
+---
+
+### 板塊三：值得追蹤的趨勢
+
+**8. 馬丁·史科西斯加入 FLUX AI 擔任顧問** — 頂級創意人擁抱 AI 加速，「人的品味」仍是核心
+**9. ZeroDrift 獲 1000 萬美元** — AI 模型部署後保護成為獨立新創賽道
+
+---
+
+### 來源覆蓋狀況
+
+| 來源 | 狀態 | 昨日內容數量 | 備註 |
+|------|------|------------|------|
+| TechCrunch AI | ✅ | 11 條 | 全部 URL 含 2026/06/02 已驗證 |
+| FutureTools | ✅ | 1 條 | 僅 Black Forest Labs/Scorsese 為 6/2 發布 |
+| WebSearch（OpenAI/Microsoft/Anthropic） | ✅ | 多條 | Microsoft Build 2026 關鍵日確認 |
+| YouTube 頻道 | ❌ | 0 | 本次未抓取（WebFetch 對 YouTube 受限）|
+| X/Twitter 關鍵帳號 | ❌ | 0 | 改以 WebSearch 覆蓋官方公告 |
+
+---
+
+💡 您的專屬網頁版看板已同步更新，可隨時打開 `daily_topic_dashboard.html` 查看。
+
+DONE
+--- AI report finished at Wed Jun  3 06:04:59 CST 2026 ---
+=== Wed Jun  3 06:04:59 CST 2026 | Starting daily finance report ===
