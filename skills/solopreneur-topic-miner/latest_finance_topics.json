@@ -1,185 +1,187 @@
 {
-  "date": "2026-06-01",
+  "date": "2026-06-02",
   "market_shocks": [
     {
-      "title": "SpaceX IPO 確定6月12日掛牌，史上最大 IPO 刷新紀錄，火箭股連兩日下跌",
+      "title": "Bitcoin 一年跌 36%，Mark Cuban 認賠出場，通脹避險神話徹底崩潰",
       "sources": [
         {
           "name": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-01/torrid-rally-in-rocket-stocks-falters-as-spacex-ipo-draws-close"
-        },
-        {
-          "name": "Bloomberg IPO Analysis",
-          "url": "https://www.bloomberg.com/graphics/2026-spacex-ipo-stock-market-nasdaq-listings/"
+          "url": "https://www.bloomberg.com/news/articles/2026-06-02/bitcoin-s-inflation-hedging-promise-in-tatters-after-36-plunge"
         }
       ],
-      "summary": "SpaceX 確認6月12日以代號 SPCX 在 Nasdaq 掛牌，目標估值1.75兆美元、募集750億美元，打破沙烏地阿美2019年的294億美元歷史紀錄。這是人類史上最大 IPO，相關火箭概念股（Rocket Lab、AST SpaceMobile等）連續兩日大幅回調，市場擔憂資金排擠效應。分析師警告，過去大型 IPO 往往是市場高點的先兆，歷史數據顯示大型 IPO 後一年股價平均下跌32%。",
-      "tw_stock_impact": "SpaceX 上市吸走大量全球資金，可能短期壓縮台積電、廣達等在美指數基金的比重。鴻海及旗下子公司（鴻準2354）為 SpaceX 供應機構件，是台灣最直接受惠標的。持有 VOO、QQQ 的台灣投資人將自動持有 SpaceX 股票，需重新評估持倉集中度。",
-      "investment_insight": "SpaceX 上市後 Nasdaq 100 將快速納入，各大 ETF 被迫建倉估超300億美元，形成罕見「指數驅動型」行情。台灣投資人可提前布局鴻海（2317）生態系；同時注意 SpaceX 估值高達94-107倍2025年收入，具極高估值泡沫風險。",
-      "title_idea": "SpaceX 6月12日掛牌！史上最大 IPO，你的 ETF 會被強制買入——怎麼在台股卡位最划算？",
-      "local_angle": "台灣人最熟悉的美股 ETF（VOO、QQQ）將在 SpaceX 上市後自動持有馬斯克太空帝國。鴻海是唯一台廠直接供應商，比直接買 SPCX 風險更低、更有確定性。"
+      "summary": "比特幣跌破 7 萬美元，一年跌幅達 36%，Bitcoin ETF 連 11 個交易日淨流出共 34.5 億美元。Mark Cuban 公開宣告出清持幣，指比特幣在地緣政治危機中不升反跌，徹底失去抗通膨資格。AI 股強勢吸走加密貨幣資金是主因之一。",
+      "tw_stock_impact": "台灣散戶大量持有比特幣現貨或 ETF，直接受損；加密貨幣相關台廠（概念股）跟跌壓力大，資金轉向 AI 股與黃金。",
+      "investment_insight": "比特幣抗通膨故事已被市場否定，資金正轉向黃金與 AI 股。逢反彈可考慮減碼，黃金 ETF（如 00635U）或成替代配置首選。",
+      "title_idea": "Mark Cuban 認賠出場！比特幣一年跌 36%，你還在抱嗎？",
+      "local_angle": "台灣散戶瘋購比特幣 ETF，現在換黃金 ETF 還來得及嗎？"
     },
     {
-      "title": "大空頭 Burry 直呼現在如1999年泡沫頂峰，買入半導體ETF看跌期權押注崩跌30%",
+      "title": "Michael Burry 做空輝達，指 AI 財報結構複雜槓桿 16 倍，如 dot-com 末期泡沫",
       "sources": [
+        {
+          "name": "Benzinga",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/06/52948998/michael-burry-is-shorting-nvda-steve-eisman-says-not-so-fast-why-the-big-short-stars-are-on-opposite-sides-of-the-trade"
+        },
+        {
+          "name": "247 Wall St.",
+          "url": "https://247wallst.com/investing/2026/06/01/michael-burry-just-called-nvidias-spacex-chip-deal-fugazi-heres-why-it-all-seems-wrong/"
+        }
+      ],
+      "summary": "Burry 在 Substack 點名輝達對 Valor Compute 的 GPU 銷售結構（賣 GPU 給客戶、再以股權形式回投同一客戶）以及保險子公司 Athene 的 Bermuda 離岸結構中 Level 3 資產高達 1,030 億美元、槓桿 16 倍，稱之為「Fugazi」。Steve Eisman 則反駁：「輝達 85% 營收成長根本無從做空。」",
+      "tw_stock_impact": "台積電、日月光、聯發科等輝達供應鏈若 NVDA 估值遭打折，台灣 AI 族群恐跟跌；但短期訂單能見度仍強，Computex 題材支撐。",
+      "investment_insight": "多空交戰最激烈時往往是轉折訊號。建議設好停損，若 NVDA 跌破關鍵支撐再考慮減碼 AI 概念股；Burry 做空時機過早的前科多，不宜倉皇跟空。",
+      "title_idea": "「大空頭」Burry 又出手做空輝達！他說 AI 帳面數字都是假的？",
+      "local_angle": "台積電供應鏈跟著輝達走，Burry 的空頭警告台灣散戶要怎麼因應？"
+    },
+    {
+      "title": "Marvell 26 年最大單日漲幅！黃仁勳 COMPUTEX 台北親封「下一個兆元公司」",
+      "sources": [
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-02/marvell-surges-after-huang-calls-it-the-next-1-trillion-company"
+        },
+        {
+          "name": "NOWnews",
+          "url": "https://www.nownews.com/amp/news/6842414"
+        }
+      ],
+      "summary": "輝達執行長黃仁勳在 COMPUTEX 台北展會點名 Marvell 將是下一個兆元市值公司，並透露輝達已向 Marvell 投資 20 億美元深度合作高速連線技術。Marvell 當日股價飆漲創下 1999 年以來最大單日漲幅。",
+      "tw_stock_impact": "日月光（3711）為 Marvell 先進封裝主要合作夥伴，直接受惠；台灣高速連線、矽光子、先進封裝族群全面爆量，Computex 題材持續發酵。",
+      "investment_insight": "黃仁勳欽點效應極強，可順勢佈局日月光、聯亞光等封裝供應鏈；但注意 Computex 結束後題材消退風險，建議設好移動停損。",
+      "title_idea": "黃仁勳台北點名！Marvell 要成下一個兆元公司，台廠誰跟著爆發？",
+      "local_angle": "日月光幫 Marvell 封裝，台灣封裝廠悄悄吃到兆元訂單？"
+    },
+    {
+      "title": "S&P 500 九連漲站上 7,600 點，創 1995 年後最長連漲紀錄",
+      "sources": [
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-02/us-stock-futures-pull-back-as-traders-evaluate-mideast-news"
+        },
         {
           "name": "TheStreet",
-          "url": "https://www.thestreet.com/investing/stocks/michael-burry-has-a-blunt-message-on-the-stock-market-for-2026"
-        },
-        {
-          "name": "Yahoo Finance - Burry Shorts",
-          "url": "https://finance.yahoo.com/news/michael-burry-shorts-doing-far-174839022.html"
-        },
-        {
-          "name": "Investing.com",
-          "url": "https://www.investing.com/analysis/michael-burrys-next-bet-beatendown-saas-stocks-poised-for-a-comeback-200678542"
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-02-2026"
         }
       ],
-      "summary": "預言2008金融海嘯的「大空頭」Michael Burry 在 Substack 寫道：「感覺像1999-2000年泡沫的最後幾個月。」他買入2027年1月到期的 iShares 半導體 ETF（SOXX）看跌期權，押注未來約30%跌幅。席勒本益比（CAPE ratio）目前為40.1，僅次於網路泡沫頂峰，是史上第二高點。他基金目前總值6814萬美元，最大持倉為 Molina Healthcare（35.11%）。",
-      "tw_stock_impact": "若半導體 ETF 崩跌30%，台積電（2330）幾乎難以倖免。台積電在 SOXX 中佔有一定比重，且兩者高度相關。台灣半導體族群（聯發科、聯電等）需做好對沖準備。",
-      "investment_insight": "Burry 操作邏輯：全市場追逐 AI 時押注 AI 半導體的反轉。不建議散戶直接模仿做空，但可降低半導體集中度、增持具抗跌性防禦股（生技、民生必需品）。台股投資人可考慮部分獲利了結 AI 概念股，配置到估值偏低的金融股。",
-      "title_idea": "大空頭 Burry 悄悄買了半導體 ETF 的看跌期權！他說現在跟網路泡沫最後幾個月一模一樣",
-      "local_angle": "台灣股市有超過30%市值集中在半導體，Burry 的警告是對台股最直接的警鐘。CAPE ratio 40.1 的當下，「別把雞蛋放同個籃子」比任何時候都重要。"
-    },
-    {
-      "title": "Saylor 食言！MicroStrategy 賣出32個比特幣，「永不出售」的比特幣信仰敘事正式破功",
-      "sources": [
-        {
-          "name": "ZeroHedge",
-          "url": "https://www.zerohedge.com/news/2026-06-01/saylor-breaks-immaculate-bitcoin-narrative"
-        }
-      ],
-      "summary": "MicroStrategy 執行長 Michael Saylor 此前多次高調聲稱「我們永遠不會出售比特幣」，如今公司卻悄悄賣出32個比特幣。ZeroHedge 報導此事件撼動了比特幣「不可動搖敘事」，引發加密貨幣圈大規模討論。這是繼以太坊基金會持續出售 ETH 後，又一個「核心信仰者」食言的重大事件，動搖市場對比特幣「機構永久持倉」論的信心。",
-      "tw_stock_impact": "台灣有大量散戶透過虛擬貨幣交易所持有比特幣。Saylor 賣幣消息短期衝擊市場信心，但比特幣目前基本面（機構 ETF 資金流入）仍強。台灣上市公司持有比特幣的企業需評估市值波動影響。",
-      "investment_insight": "「永遠持有」的敘事破裂是警訊，但不代表趨勢逆轉。真正風險在於 MicroStrategy 槓桿式比特幣持倉若被迫賣出，可能引發連鎖效應。建議在比特幣配置中設定停利停損點，避免宗教式持倉心態。",
-      "title_idea": "Saylor 說永遠不賣比特幣，結果還是賣了！加密圈最大謊言被揭穿，散戶現在該怎麼辦？",
-      "local_angle": "台灣加密貨幣散戶往往被「大佬不賣就是看好」邏輯左右。Saylor 食言事件提醒：所有人的持倉都是有條件的，散戶最需要的是自己的停損紀律，而非追隨大佬。"
-    },
-    {
-      "title": "GoPro 警告恐倒閉！AI 搶記憶體讓晶片成本失控，中小型硬體廠陷持續經營危機",
-      "sources": [
-        {
-          "name": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-01/gopro-warns-of-going-concern-risk-amid-ai-fueled-memory-crunch"
-        },
-        {
-          "name": "ZeroHedge",
-          "url": "https://www.zerohedge.com/markets/gopro-warns-it-may-not-survive-ai-memory-crunch-bites"
-        }
-      ],
-      "summary": "GoPro 向美國證管會提交文件，表示因 AI 競爭導致記憶體晶片成本飆升，公司面臨「持續經營重大疑慮」，正緊急尋求融資以避免違約。這是 AI 軍備競賽對非 AI 硬體廠商的連帶殺傷力：高端記憶體（HBM、DRAM）被 AI 訓練需求壟斷，傳統消費電子廠商被迫以更高價格採購，毛利壓縮至危險水平。",
-      "tw_stock_impact": "台灣記憶體相關廠商（南亞科2408、華邦電2344、群聯8299）因 AI 記憶體需求爆量而反向受惠，股價持續走強。但組裝台廠若高度依賴 GoPro 等消費電子品牌訂單，可能面臨出貨驟減風險；「被AI榨死」的消費電子品牌先例，值得台灣 ODM 廠商警惕。",
-      "investment_insight": "AI 記憶體需求引爆「贏家通吃」效應：HBM 供應商（SK Hynix、美光）和台灣南亞科等大受益；消費型相機、穿戴裝置等中小硬體廠成輸家。投資策略：做多記憶體供應商，避開高度依賴傳統 DRAM 的消費電子品牌。",
-      "title_idea": "AI 把 GoPro 逼到倒閉邊緣！記憶體晶片被搶光，下一個是誰？台灣硬體廠商要注意了",
-      "local_angle": "台灣有許多中小型消費電子 OEM/ODM 廠商，若客戶端品牌因記憶體成本而倒閉，台廠應收帳款和訂單都有風險。記憶體族群卻反向爆漲，是台灣投資人最直接的雙面刃機會。"
+      "summary": "S&P 500 指數創下 1995 年後最長九日連漲紀錄，收盤站上 7,600 點，本波自 3 月 27 日低點反彈已達 19%。Goldman Sachs CEO David Solomon 直言「市場貪婪遠大於恐懼」，AI 族群持續領漲；Meet Kevin 當日 YouTube 直播以「HOLY MOLY」形容超預期 JOLTS 就業數據。",
+      "tw_stock_impact": "台指期夜盤站穩 46,000 點，外資持續回補台股，台積電 ADR 跟漲，短線多頭動能強勁。",
+      "investment_insight": "九連漲後歷史平均後三個月仍有正報酬，但追高風險上升；建議持有 AI 核心部位，對波動性較高的小型 AI 概念股設好停損點。",
+      "title_idea": "美股九連漲創 30 年紀錄！台股 4.6 萬點還能追嗎？",
+      "local_angle": "台指期站穩 4.6 萬，外資大回補——這波能撐多久？"
     }
   ],
   "investment_opportunities": [
     {
-      "title": "黃仁勳宣布 Vera Rubin 全面量產！感謝台灣150家供應鏈，記憶體族群漲停，台股創歷史新高45337點",
-      "sources": [
-        {
-          "name": "ETtoday 財經雲",
-          "url": "https://finance.ettoday.net/news/3175651"
-        },
-        {
-          "name": "工商時報",
-          "url": "https://www.ctee.com.tw/news/20260601700862-430502"
-        },
-        {
-          "name": "Yahoo 台股",
-          "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3-vera-rubin%E9%87%8F%E7%94%A2-%E5%8F%B0%E7%81%A3%E4%BE%9B%E6%87%89%E9%8F%88%E4%B8%8B%E5%8D%8A%E5%B9%B4%E6%9C%83%E5%BE%88%E5%BF%99%E7%A2%8C-135108534.html"
-        }
-      ],
-      "summary": "輝達（NVIDIA）執行長黃仁勳於 GTC Taipei 2026 主場演講中正式宣布新一代 AI 平台 Vera Rubin 全面量產，感謝台灣150家供應鏈合作夥伴，點名華碩、鴻海、技嘉、英業達、和碩、雲達、緯創、緯穎等廠商。Vera Rubin 供應鏈規模是前代 Grace Blackwell 的兩倍，台股加權指數大漲604.97點收在45337.91點創歷史新高，南亞科（2408）、南亞（1303）、華邦電（2344）等多檔漲停。",
-      "tw_stock_impact": "直接利多：鴻海（2317）、技嘉（2376）、英業達（2356）、和碩（4938）、緯創（3231）、緯穎（6669）為黃仁勳點名的最直接受益標的。記憶體族群（南亞科2408、南亞1303、華邦電2344）形成漲停潮。台積電（2330）持平2355元，為市場穩定的核心錨點。",
-      "investment_insight": "Vera Rubin 供應鏈規模是 Grace Blackwell 的兩倍，代表台灣 AI 相關廠商的訂單量和收入規模將大幅提升。黃仁勳明確預告台灣供應鏈下半年「會很忙碌」，代表2026年下半年業績確定性高。布局策略：分散至黃仁勳點名的8家台廠，而非只壓台積電單一標的。",
-      "title_idea": "黃仁勳說「謝謝台灣150家廠商」！Vera Rubin 全面量產，台股創歷史新高，這次漲停的是哪幾檔？",
-      "local_angle": "這不只是美股行情，這是台灣自己的故事。黃仁勳在台灣宣布量產，台股當天大漲604點創45337歷史新高。台灣供應鏈廠商的每一家都可能是下一個明星股，投資人最該做的是把名單全部弄清楚。"
-    },
-    {
-      "title": "大空頭 Burry 反手做多 Adobe、Autodesk、Veeva！認為被AI打趴的SaaS股跌過頭了",
-      "sources": [
-        {
-          "name": "Insider Monkey",
-          "url": "https://www.insidermonkey.com/blog/michael-burry-stock-portfolio-top-8-stock-picks-in-2026-1764866/"
-        },
-        {
-          "name": "Investing.com",
-          "url": "https://www.investing.com/analysis/michael-burrys-next-bet-beatendown-saas-stocks-poised-for-a-comeback-200678542"
-        }
-      ],
-      "summary": "Michael Burry 在2026年持倉中重押三檔被 AI 浪潮打壓的企業軟體股：Adobe（ADBE）、Autodesk（ADSK）、Veeva Systems（VEEV）。他在 Substack 確認這是「逆向押注 AI 時代企業軟體股的大規模反彈機會」，認為市場過度懲罰了這些擁有強大護城河的 SaaS 公司。Burry 基金總值6814萬美元，最大持倉仍為醫療保險公司 Molina Healthcare（35.11%）。",
-      "tw_stock_impact": "台灣軟體服務業規模較小，直接影響有限。但 Burry 的邏輯對台灣 IT 服務廠商（叡揚資訊、精誠資訊等）有參考意義：在AI滲透率高的市場中，能整合AI的傳統軟體廠商反而有轉型機遇，而非被消滅。",
-      "investment_insight": "Adobe、Autodesk、Veeva 在2025-2026年因 AI 替代威脅大跌，本益比已降至歷史低位。Burry 的做多邏輯：護城河深厚的 SaaS 公司不會被 AI 完全取代，而是有能力整合 AI 並提高 ARPU。台灣投資人可參考此邏輯，關注被市場錯殺的企業軟體股。",
-      "title_idea": "大空頭 Burry 偷偷買了 Adobe 和 Autodesk！他說這些被AI打趴的軟體股，才是2026下半年最大反彈機會",
-      "local_angle": "台灣許多投資人只追 AI 概念股，但 Burry 的反向邏輯值得深思：被 AI 衝擊最大的傳統軟體股，若擁有護城河，跌深後往往是最好的買入時機。"
-    },
-    {
-      "title": "銅需求正式超越全球供應！AI 基礎設施成為原物料市場最被低估的系統性驅動力",
+      "title": "SpaceX IPO 本週定價，預估市值 1.75 兆美元，台廠供應鏈直接受惠",
       "sources": [
         {
           "name": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/videos/2026-06-01/copper-demand-is-exceeding-the-global-supply-says-groves-video"
+          "url": "https://www.bloomberg.com/news/articles/2026-06-02/spacex-is-said-to-plan-setting-ipo-terms-as-soon-as-wednesday"
+        },
+        {
+          "name": "TradingKey",
+          "url": "https://www.tradingkey.com/analysis/stocks/more/261719120-spacex-ipo-approaching-spacex-concept-stocks-starlink-supply-chain-tradingkey"
         }
       ],
-      "summary": "Bloomberg 市場評論員 Groves 指出，全球銅需求已正式超越供應能力，主因是 AI 資料中心建設、電動車生產、再生能源基礎設施三大需求同步爆發。銅礦開採週期長達7-10年，短期難以增產，供需缺口可能在2026-2028年持續擴大。LME 銅價在高位震盪，期貨市場呈現 backwardation 結構，顯示市場對近期供應緊張的預期強烈。",
-      "tw_stock_impact": "台灣銅相關廠商（大成9921、恒耀8039等銅管銅材廠）直接受惠。AI伺服器使用大量銅箔（用於PCB），台灣覆銅板（CCL）廠商如聯茂（6438）、台耀（4935）有望進一步受惠。電纜廠華新（1605）、大亞（1609）在台灣電網升級需求下也值得留意。",
-      "investment_insight": "銅是AI基礎設施最被忽略的原物料需求，卻是最難快速增加供給的關鍵金屬。投資策略：直接買銅 ETF（如 CPER 或銅期貨），或透過台灣銅材廠間接布局。相較於直接買 AI 股票，銅的估值更合理、波動性更低，是 AI 行情的「低調受益者」。",
-      "title_idea": "AI資料中心在偷吃銅！全球銅供應已告急，但99%投資人都不知道這才是AI行情最隱藏的受益股",
-      "local_angle": "台灣是全球電子銅材的重要生產基地，銅需求爆發對本土銅材廠（大成、恒耀）、覆銅板廠（聯茂、台耀）是直接利多。投資 AI 行情不一定要買台積電，買原物料端的銅材廠往往更便宜、確定性更高。"
+      "summary": "SpaceX 最快本週三完成 IPO 定價，目標 6 月 12 日掛牌 Nasdaq，預估市值 1.75 兆至 2 兆美元，是史上最大規模掛牌。機構投資人、ETF 基金預計大量建倉，可能排擠其他科技股資金。",
+      "tw_stock_impact": "緯創旗下緯創資通、競達（Compeq）是 Starlink 關鍵供應商，SpaceX IPO 預計帶動訂單能見度大增；台灣散戶首度可透過複委託直接投資 SpaceX。",
+      "investment_insight": "IPO 後第一個月波動劇烈，建議分批觀察換手後再進場；台灣供應鏈如緯創、競達是間接押注的低風險選項，確定性更高。",
+      "title_idea": "SpaceX 本週定價！台灣散戶如何搭上史上最大 IPO 財富火箭？",
+      "local_angle": "台灣工廠幫馬斯克造衛星，SpaceX IPO 讓這幾檔台股直接受惠"
+    },
+    {
+      "title": "輝達 Vera Rubin 記憶體成本暴增 435%，台灣記憶體族群爆量拉漲",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://www.cnyes.com/twstock"
+        },
+        {
+          "name": "ETtoday 財經雲",
+          "url": "https://finance.ettoday.net/news/3175651"
+        }
+      ],
+      "summary": "外資分析師指出，輝達新一代 Vera Rubin GPU 物料成本表中記憶體成本佔比暴增 435%，記憶體從配角躍升為核心零件。台灣記憶體族群 6/2 全面爆量，南亞科首站上 400 元，晶豪科漲停，華邦電跟進，法人指出記憶體廠 Q2 季報將形成強力保護傘。",
+      "tw_stock_impact": "南亞科（2408）、晶豪科（3006）、旺宏（2337）、華邦電（2344）為直接受益族群，可留意外資是否持續加碼南亞科。",
+      "investment_insight": "記憶體超級週期重啟，選有出貨 HBM 或 LPDDR5 的廠商優先佈局；華邦電利基 DRAM 市場也值得追蹤，建議逢回接。",
+      "title_idea": "輝達 Vera Rubin 記憶體成本暴增 435%！這幾檔台股漲停排隊",
+      "local_angle": "南亞科站上 400 元！記憶體爆發誰是下一個漲停"
+    },
+    {
+      "title": "銅突破每噸 1.4 萬美元、鋁達四年高點，AI 資料中心需求點燃原物料多頭",
+      "sources": [
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-02/aluminum-advances-to-four-year-high-on-tighter-global-market"
+        }
+      ],
+      "summary": "銅價突破每噸 1.4 萬美元，鋁攀升至四年新高，受到全球 AI 資料中心建設、綠能轉型需求及中東緊張局勢推動。銅礦開採週期長達 7-10 年，短期難以增產，供需缺口料持續至 2028 年。",
+      "tw_stock_impact": "大亞電線（1609）、華新（1605）等銅線材廠直接受惠；AI 伺服器散熱銅管廠如超眾、奇鋐同步利多。",
+      "investment_insight": "銅鋁多頭可透過台灣電線電纜族群或商品 ETF 參與；注意美伊談判若達成，油銅聯動可能快速回落，需設好停損。",
+      "title_idea": "銅破 1.4 萬美元四年高！AI 蓋資料中心正在吃掉全球的銅",
+      "local_angle": "台灣電線電纜廠大亞、華新直接受惠，這波原物料多頭誰最強？"
+    },
+    {
+      "title": "GameStop 靠公仔卡牌創史上最高季盈利，GME 盤後飆 13%",
+      "sources": [
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-02/gamestop-posted-its-highest-profit-ever-by-selling-action-figures-and-cards"
+        }
+      ],
+      "summary": "GameStop Q1 財報公佈史上最高單季獲利，驅動力是收藏品部門（公仔、集換式卡牌）爆炸性增長，而非電玩本業。市場解讀為傳統零售商轉型 IP 收藏品電商的成功案例，GME 盤後急漲 13%。",
+      "tw_stock_impact": "對台灣直接影響有限，但凸顯「IP 授權 × 收藏品」商業模式崛起；台灣有 IP 公仔代工廠可留意是否同步受益。",
+      "investment_insight": "GameStop 轉型成功提醒投資人：傳統零售業可借助收藏品熱潮逆轉頹勢；GME 投機性仍高，宜小倉位追蹤，不宜重壓。",
+      "title_idea": "GameStop 靠賣公仔創史上最高獲利！這間公司已徹底變身",
+      "local_angle": "IP 收藏品熱潮席捲全球，台灣代工廠能不能吃到這塊大餅？"
     }
   ],
   "macro_observations": [
     {
-      "title": "美股再創歷史新高：特朗普伊朗和談樂觀 + AI 熱情雙引擎，美元走強但美債同步下跌",
+      "title": "Fed 升息預期再起：JOLTS 職缺超預期，非農就業數據成本週最大變數",
       "sources": [
         {
           "name": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-01/us-stocks-reach-record-as-trump-keeps-peace-deal-hopes-intact"
+          "url": "https://www.bloomberg.com/news/articles/2026-06-02/treasuries-gain-ahead-of-week-s-first-batch-of-employment-data"
         },
         {
-          "name": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-01/us-bonds-drop-as-doubt-over-us-iran-talks-lifts-oil-prices"
-        },
-        {
-          "name": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-01/dollar-opens-week-boosted-by-ai-enthusiasm-haven-demand"
+          "name": "Meet Kevin YouTube",
+          "url": "https://www.youtube.com/watch?v=waX2ZHlY_Ts"
         }
       ],
-      "summary": "美股6月1日再創歷史新高，特朗普發言稱以色列已暫停黎巴嫩行動、美伊談判正在「快速推進」，地緣政治風險暫時緩和，AI 投資熱情持續升溫。美元指數同步走強，新興市場貨幣8連漲後終止。然而美國10年期公債殖利率因伊朗談判不確定性上升而走高，美債下跌——股漲債跌美元漲的三重訊號出現罕見分歧。",
-      "tw_stock_impact": "美股創高帶動台股同日大漲604點創45337歷史新高，形成共振行情。美元走強對台幣構成壓力，進口商成本上升；出口商（台積電、鴻海）反受益於匯兌收益。美債殖利率走高值得台灣壽險業（富邦金、國泰金）關注。",
-      "investment_insight": "美股多頭仍有兩大驅動力（和平紅利 + AI熱情），但美債走弱顯示殖利率壓力尚未消除。建議持有成長股核心部位的同時，保留5-10%現金作為機動調度，以應對伊朗談判失敗的突發反轉風險。",
-      "title_idea": "美股又創新高了！靠的是伊朗和談 + AI 熱情，但美債同時在跌——這組合有哪裡不對勁？",
-      "local_angle": "台股同日創45337歷史新高，美台股市雙雙創高，台灣投資人正享受罕見雙重利好。但美元走強和美債下跌的組合，代表市場對通膨的擔憂仍在，需防範快速反轉風險。"
+      "summary": "美國 5 月 JOLTS 職缺數據高於預期，強化 Fed 不急於降息甚至可能再升息的論述。Meet Kevin 直播以「MEGA BULLISH JOLTS」形容，但債市解讀截然相反：公債殖利率上揚，短債做空部位維持高峰。本週五非農就業數據將是最大催化劑。",
+      "tw_stock_impact": "美債殖利率上升壓縮成長股估值，台積電等高本益比科技股短線承壓；美元走強讓台幣升值空間受限，出口商有些許匯率庇護。",
+      "investment_insight": "非農數據出爐前避免大幅加倉；若數據超強，考慮暫時降低科技股比重，佈局玉山金、富邦金等防禦性金融股。",
+      "title_idea": "美國職缺數據爆表！Fed 下半年還會升息？週五非農決定一切",
+      "local_angle": "美債殖利率衝高，台灣金融股現在該加倉了嗎？"
     },
     {
-      "title": "AI 算力將成為華爾街新型金融資產：GPU 期貨或媲美石油期貨，重塑全球資本市場架構",
+      "title": "人民幣 15 年最看漲情緒，去美元化「緩慢但持續」加速進行",
       "sources": [
         {
           "name": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/videos/2026-06-01/ai-compute-to-become-a-wall-street-asset"
+          "url": "https://www.bloomberg.com/news/articles/2026-06-02/traders-most-bullish-yuan-in-15-years-on-global-role-valuation"
         }
       ],
-      "summary": "Bloomberg 專訪 Silicon Data 執行長，探討 AI 算力期貨化的可能性。該公司正在建立 AI 算力的衍生品市場，認為 GPU 算力的重要性將超越石油、成為全球最關鍵的生產資源。若 AI 期貨市場成形，投資人將能像操作原油或黃金般對沖 AI 算力成本，這對 AI 需求端（微軟、Google、OpenAI）和供應端（台積電、NVIDIA、CoreWeave）的估值框架都將產生顛覆性影響。",
-      "tw_stock_impact": "台積電作為最核心的 AI 晶片製造商，若算力成為可交易金融資產，其定價能力將進一步強化。台灣半導體廠商在全球 AI 算力供應鏈中的戰略地位，相當於中東在石油時代的地位——這對台股長期估值有深遠意義。",
-      "investment_insight": "AI 算力金融化代表 AI 投資從「概念題材」進化為「有可量化定價的大宗商品」。這個轉變利好：算力供應商（NVIDIA、台積電）、算力基礎設施（CoreWeave、雲達、緯穎）和算力指數化產品（AI ETF）。未來台灣投資人可能透過算力期貨直接對沖台積電持倉風險。",
-      "title_idea": "GPU 算力要變成像石油一樣可以期貨交易了！台積電即將成為「新中東」，這個大比喻到底準不準？",
-      "local_angle": "台灣控制全球最核心的 AI 算力生產（台積電先進製程市占90%以上），若算力成為金融化資產，台灣的戰略地位不只是科技大國，更是「算力版沙烏地阿美」的主要股東。"
+      "summary": "外匯市場對人民幣的看漲情緒達 2010 年以來最高，因人民幣國際結算份額持續擴大、中國股市估值相對便宜，以及美元信用受美國財政赤字拖累（每日借貸近 20 億美元）。分析師指這是去美元化「緩慢但持續」進行的信號。",
+      "tw_stock_impact": "台商在中國的人民幣資產換回台幣的匯兌收益將增加；若美元走弱，台灣出口競爭力提升，但台幣升值壓力加大。",
+      "investment_insight": "可佈局有大陸業務且人民幣收入占比高的台灣製造商，如台達電、廣達；中國 A 股 ETF 也可作為衛星部位觀察。",
+      "title_idea": "人民幣 15 年最看多！去美元化悄悄加速，台商怎麼因應？",
+      "local_angle": "台商人民幣資產升值，這波人民幣強勢對台灣企業是喜是憂？"
     },
     {
-      "title": "Graham Stephan 解密：美國正悄悄「通脹化」39兆美元國債，三條出路你的資產選哪條？",
+      "title": "私人信貸基金爆贖回危機：Cliffwater 收到 17% 贖回申請，只放行 5%",
       "sources": [
         {
-          "name": "Graham Stephan YouTube",
-          "url": "https://www.youtube.com/watch?v=rRumSzwsaRw"
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-02/cliffwater-private-credit-fund-stung-by-17-redemption-requests"
         }
       ],
-      "summary": "YouTube 財經頻道 Graham Stephan 發布「美國如何悄悄消除39兆美元國債」，分析美國政府面臨三條出路：財政緊縮（政治上不可能）、債務違約（政治自殺）、通貨膨脹（最可能）。他引用二戰後「金融抑制」歷史先例，指出政府可能透過刻意低報通膨數據、維持低利率、允許溫和通脹來「稀釋」真實債務負擔，並建議持有實物資產、股票、黃金對沖。",
-      "tw_stock_impact": "若美國走向「金融抑制」路線，美元長期購買力將下降，持有美元資產的台灣投資人實際報酬率縮水。台幣可能相對美元升值，利空台灣出口廠商；但台灣房地產、黃金、股票等實物資產將受惠。",
-      "investment_insight": "應對美國「通脹化國債」策略：增持實物資產（台灣房地產、黃金ETF如00757）、持股優先考慮能轉嫁通膨的企業（台積電的先進製程定價能力）、減少長天期美元債券部位（00679B等）。美元現金部位不宜過重。",
-      "title_idea": "美國39兆美元國債要怎麼還？Graham Stephan 說破真相：靠通膨讓你的錢悄悄縮水就好了",
-      "local_angle": "台灣人愛存美元、愛買美債ETF，但如果美國選擇用通膨稀釋國債，持有大量美元資產反而是在幫美國分擔財政問題。現在該重新思考資產配置比例了。"
+      "summary": "全球 1.8 兆美元私人信貸市場出現流動性警示，Cliffwater 旗艦基金收到 17% 贖回申請，但僅允許 5% 出場，是高收益私人信貸基金流動性限制條款首度大規模觸發，引發市場對影子銀行系統性風險的擔憂。",
+      "tw_stock_impact": "台灣壽險業（富邦人壽、國泰人壽）持有部分私人信貸資產，若全球私信貸估值重評，壽險股淨值有下修壓力；持有相關境外基金的投資人需留意鎖倉風險。",
+      "investment_insight": "此事件是流動性警示，非立即系統崩潰。建議檢視手中境外基金是否含私人信貸，短期避開高槓桿小型私募信貸產品。",
+      "title_idea": "1.8 兆美元私人信貸定時炸彈！Cliffwater 只讓你贖回 5%",
+      "local_angle": "台灣壽險業暗藏私人信貸地雷？這個風險你看懂了嗎"
     }
   ]
 }
