@@ -1,5 +1,138 @@
 [
   {
+    "date": "2026-06-03",
+    "big_events": [
+      {
+        "title": "Meta 將 WhatsApp Business AI 客服代理正式推向全球",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/"
+          }
+        ],
+        "summary": "Meta「Business Agent」可自動回覆問題、推薦商品、預約行程並過濾潛在客戶，向 WhatsApp Business 用戶全球開放，同步支援 Instagram DM。",
+        "audience": "中小企業主、自媒體變現創作者、電商賣家",
+        "pain_point": "客服耗時耗人力，無法 24 小時即時回覆潛在買家，導致流失訂單",
+        "title_idea": "你的 WhatsApp 現在可以自動接客了！Meta AI 客服代理全球上線，3 步設定完成",
+        "local_angle": "台灣電商與直播主普遍用 LINE 為主，但 WhatsApp 在海外市場已是標配；搶做「如何用 Meta AI 代理打海外市場」教學，資訊差紅利明顯"
+      },
+      {
+        "title": "Google 祖母公司 Alphabet 創紀錄募資 850 億美元加碼 AI 基礎建設",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/06/03/alphabets-record-breaking-85b-raise-for-googles-ai-business-is-a-helluva-good-signal/"
+          }
+        ],
+        "summary": "Alphabet 透過股票發行籌得 850 億美元，用於 AI 基礎設施擴張，超額認購顯示機構投資者對 AI 熱情不減，也為 Anthropic IPO 奠定信心基礎。",
+        "audience": "AI 創業者、職場上班族、自媒體創作者",
+        "pain_point": "不確定 AI 工具浪潮是否已過頂，猶豫是否要現在切入 AI 賽道",
+        "title_idea": "850 億美元告訴你：AI 浪潮才剛開始！Google 砸錢背後你需要知道的事",
+        "local_angle": "歐美資本市場超額認購 AI，印證切入 AI 自媒體賽道的時間視窗還在；可做「AI 創作者為什麼現在入場不晚」的觀點類選題"
+      },
+      {
+        "title": "Anthropic 將 Claude Mythos 網路安全 AI 擴展至全球 15 國以上關鍵基礎設施",
+        "sources": [
+          {
+            "name": "Republic World",
+            "url": "https://www.republicworld.com/tech/claude-mythos-arrives-in-india-as-anthropic-expands-cybersecurity-initiative-2026-06-03-126775"
+          },
+          {
+            "name": "Anthropic",
+            "url": "https://www.anthropic.com/glasswing"
+          }
+        ],
+        "summary": "Anthropic Project Glasswing 新增 150 家合作機構，涵蓋電力、水務、醫療等關鍵產業；Claude Mythos 已在所有主流作業系統與瀏覽器中自主發現數千個高危漏洞。",
+        "audience": "資安從業者、企業 IT 主管、科技自媒體創作者",
+        "pain_point": "AI 在網路攻擊上的能力讓人擔憂，卻不知道防禦性 AI 已進化到什麼程度",
+        "title_idea": "AI 已能超越頂尖駭客？Anthropic 這款模型找到了每個主流瀏覽器的漏洞",
+        "local_angle": "台灣是資安高風險地區，「AI 防禦 vs AI 攻擊」是本地受眾關注但資訊嚴重不足的題材；歐美已有大量報導，華語圈幾乎空白"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "Google 發布 Gemma 4 12B：筆電可跑的多模態開源 AI，支援音訊影片輸入",
+        "sources": [
+          {
+            "name": "MarkTechPost",
+            "url": "https://www.marktechpost.com/2026/06/03/google-deepmind-releases-gemma-4-12b-an-encoder-free-multimodal-model-with-native-audio-that-runs-on-a-16-gb-laptop/"
+          },
+          {
+            "name": "VentureBeat",
+            "url": "https://venturebeat.com/technology/googles-new-open-source-gemma-4-12b-analyzes-audio-video-and-runs-entirely-locally-on-a-typical-16gb-enterprise-laptop"
+          }
+        ],
+        "summary": "Google DeepMind 於 6/3 釋出 Gemma 4 12B，16GB VRAM 筆電即可本地執行，支援文字、圖片、音訊、影片，Apache 2.0 授權，256K 上下文視窗。",
+        "audience": "獨立開發者、AI 工具愛好者、想建立本地 AI 工作流的職場人",
+        "pain_point": "用雲端 AI API 有隱私疑慮且費用難控制，想在自己電腦跑高品質模型但門檻太高",
+        "title_idea": "不用雲端、不用付費！Google 最新開源 AI 模型，普通筆電就能跑多模態任務",
+        "local_angle": "本地端 AI 在台灣企業與創作者之間需求旺盛，但入門教學極少；搶做「Gemma 4 12B 本地安裝完整教學」，工具還沒中文介面，資訊差明顯"
+      },
+      {
+        "title": "Ideogram 4.0 開放權重圖像模型發布：原生 2K、文字渲染最強、可本地部署",
+        "sources": [
+          {
+            "name": "Ideogram Blog",
+            "url": "https://ideogram.ai/blog/ideogram-4.0/"
+          },
+          {
+            "name": "The Decoder",
+            "url": "https://the-decoder.com/ideogram-4-0-drops-as-an-open-weight-model-with-native-2k-resolution-and-improved-text-rendering/"
+          }
+        ],
+        "summary": "Ideogram 4.0（9.3B 參數）6/3 於 Hugging Face 上架，文字渲染超越 FLUX.2 32B 等更大模型，支援版面 Bounding Box 控制，非商業使用免費。",
+        "audience": "內容創作者、設計師、社群媒體經營者",
+        "pain_point": "AI 圖像工具難以正確渲染中文字，Logo 設計與社群圖卡有中文字需求卻屢屢出錯",
+        "title_idea": "免費、可本地跑、中文字也能準確生成！Ideogram 4.0 開源圖像模型完整試用",
+        "local_angle": "中文文字渲染是台灣用戶最大痛點，Ideogram 4.0 的文字渲染能力業界最強；海外已有大量英文評測，搶做中文版比較教學效果極佳"
+      },
+      {
+        "title": "Google Dreambeans：上傳生活照，AI 幫你一鍵變成卡通動畫風格",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/06/03/googles-dreambeans-its-weirdest-named-ai-tool-to-date-will-turn-your-life-into-a-cartoon/"
+          }
+        ],
+        "summary": "Google 推出 Dreambeans，可將個人照片與生活經驗轉換成卡通動畫風格，使用機器學習技術實現個性化視覺轉換。",
+        "audience": "Instagram / YouTube 創作者、親子內容創作者、個人品牌經營者",
+        "pain_point": "創作者需要獨特視覺風格吸引眼球，但請設計師費用高，自學設計門檻也高",
+        "title_idea": "Google 這個新 AI 工具讓你的照片秒變卡通！創作者個人品牌必學的視覺變身術",
+        "local_angle": "台灣 YouTube 與 IG 創作者對「個人品牌 IP 化」需求強烈；Dreambeans 還沒有中文教學，搶先做示範影片可吃到早期流量"
+      }
+    ],
+    "trends": [
+      {
+        "title": "前高盛、Meta 高管創業：用 AI 做語音客服，專攻被大公司忽視的小眾市場",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/06/03/these-two-founders-left-goldman-and-meta-to-build-voice-ai-for-markets-everyone-else-overlooked/"
+          }
+        ],
+        "summary": "兩位離開高盛與 Meta 的創辦人創建語音 AI 新創，專攻主流科技公司忽略的小眾垂直市場，代表 AI 創業正從通用型轉向利基型。",
+        "audience": "有意 AI 創業的職場人、正在評估利基市場的獨立開發者",
+        "pain_point": "看到 AI 機會但不知道如何切入，覺得大方向都被大公司佔滿了",
+        "title_idea": "不跟 OpenAI 硬拼！這兩位前高盛創辦人的 AI 創業策略：專攻沒人要的市場",
+        "local_angle": "台灣有許多傳統產業與中小企業仍未被 AI 覆蓋，「AI 小眾市場創業」是極具共鳴的選題；歐美已有驗證案例，華語圈切入角度幾乎空白"
+      },
+      {
+        "title": "Amazon 搜尋開始顯示 AI 生成商品圖：電商視覺進入 AI 替代時代",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/06/03/amazon-will-show-ai-product-images-when-you-search-for-some-reason/"
+          }
+        ],
+        "summary": "Amazon 開始在搜尋結果中顯示 AI 生成的商品替代圖像，可能改變買家對商品的第一印象與購買決策。",
+        "audience": "電商賣家、品牌行銷人員、跨境電商商家",
+        "pain_point": "商品主圖設計費用高且難以快速更新，AI 替代圖像可能影響現有商家曝光機會",
+        "title_idea": "Amazon 開始用 AI 換掉你的商品圖！電商賣家現在該怎麼辦？",
+        "local_angle": "台灣跨境電商賣家在 Amazon 平台佔比高，AI 商品圖對他們的影響直接且立即；本地幾乎沒人分析這個變化，具高度資訊差紅利"
+      }
+    ]
+  },
+  {
     "date": "2026-06-02",
     "big_events": [
       {
@@ -900,171 +1033,6 @@
         "pain_point": "用 AI 生成的圖片或內容，不知道未來是否有版權風險，或是否會被認定為假新聞",
         "title_idea": "AI 生成的圖片和文字以後都有「出生證明」！OpenAI 加入 C2PA，創作者影響有多大？",
         "local_angle": "AI 內容浮水印與溯源議題在台灣幾乎沒有繁體中文深度討論，但創作者都很在意版權與真偽問題，選題切入點精準"
-      }
-    ]
-  },
-  {
-    "date": "2026-05-27",
-    "big_events": [
-      {
-        "title": "AI 程式代理人新創 Cognition 完成 10 億美元融資，估值衝上 250 億美元",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/05/27/ai-coding-startup-cognition-raises-1b-at-25b-pre-money-valuation/"
-          }
-        ],
-        "summary": "Devin 母公司 Cognition 八個月估值翻倍，年化營收達 4.92 億美元，企業客戶涵蓋 Mercedes-Benz、NASA、Goldman Sachs。",
-        "audience": "職場上班族、工程師、科技愛好者",
-        "pain_point": "上班族擔心 AI 會取代自己的工作，又不知道 AI 寫程式的真實能力到底有多強",
-        "title_idea": "「AI 工程師 Devin 背後的公司估值破 250 億！你的工作真的要被 AI 搶走了？」",
-        "local_angle": "台灣科技業還沒大量導入 AI 代碼 Agent，華語圈幾乎無人深入分析 Devin 實際使用體驗，搶先做「AI 代碼 Agent 實測」教學紅利極大"
-      },
-      {
-        "title": "OpenAI × Thrive 打造自我進化稅務 AI，準確率 97%、節省 85% 作業時間",
-        "sources": [
-          {
-            "name": "OpenAI",
-            "url": "https://openai.com/index/building-self-improving-tax-agents-with-codex/"
-          },
-          {
-            "name": "Crypto Briefing",
-            "url": "https://cryptobriefing.com/openai-thrive-self-improving-tax-ai/"
-          }
-        ],
-        "summary": "OpenAI 用 Codex 為 Thrive Holdings 建立可自我改進的稅務 AI，處理 7000 筆報稅單，一位會計師作業時間從 180 小時降至 15 小時。",
-        "audience": "職場上班族（會計、財務、行政族群）",
-        "pain_point": "重複性事務工作耗時耗力，不知道 AI 工具能否實際幫助日常職場作業",
-        "title_idea": "「ChatGPT 幫你報稅！AI 稅務代理人 97% 正確率，你的會計工作還安全嗎？」",
-        "local_angle": "台灣報稅季剛結束，職場財務話題高度共鳴；以「AI 如何真正取代重複性職場工作」切角，歐美已有實際成果可引用"
-      },
-      {
-        "title": "Meta 正式推出 Instagram / Facebook / WhatsApp 付費訂閱，AI 進階方案最高 $19.99/月",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/"
-          }
-        ],
-        "summary": "Meta One 生態系推出月費 $2.99–$19.99 各層級訂閱，AI 方案含深度推理與影像生成，創作者/商業方案含驗證標章與進階分析。",
-        "audience": "自媒體創作者、職場行銷人、社群媒體重度使用者",
-        "pain_point": "創作者不確定 Meta 付費功能值不值得訂閱，AI 功能有哪些實際用途",
-        "title_idea": "「IG/FB/WhatsApp 要收費了！Meta 訂閱制全解析，AI 功能到底值不值得付？」",
-        "local_angle": "台灣 IG 用戶眾多，此話題本地關注度高；可做「Meta AI 訂閱 vs 競品」比較，目前華語圈深入分析幾乎為零"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "Runway 推出 MCP，Claude / ChatGPT 對話中可直接生成 AI 影片",
-        "sources": [
-          {
-            "name": "Runway",
-            "url": "https://runwayml.com/news/mcp"
-          },
-          {
-            "name": "KuCoin News",
-            "url": "https://www.kucoin.com/news/flash/runway-launches-model-context-protocol-server-for-ai-generated-media"
-          }
-        ],
-        "summary": "Runway 發布 MCP 伺服器，讓 Claude、ChatGPT、Cursor 等 AI 助理無需切換平台，直接在對話中呼叫 Runway 生成影片與圖片。",
-        "audience": "內容創作者、自媒體人、影片剪輯師",
-        "pain_point": "AI 影片生成工具繁多、操作繁瑣，需要在多個平台間切換，效率低",
-        "title_idea": "「Claude 現在可以直接幫你生 AI 影片！Runway MCP 完整教學，一鍵生成不用切平台」",
-        "local_angle": "MCP 生態在台灣幾乎無人做繁中教學，Runway 本身已有知名度；此教學搶佔「Claude × Runway」搜尋紅利"
-      },
-      {
-        "title": "ElevenLabs Music v2 發布：中途切換曲風、逐段生成，AI 音樂製作大升級",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/05/27/elevenlabss-new-music-generation-model-can-switch-genres-mid-track/"
-          }
-        ],
-        "summary": "Music v2 支援分段（前奏/主歌/副歌）獨立生成後合併，可中途切換曲風，並支援多語言人聲與非音樂音效。",
-        "audience": "Vlog 創作者、Podcast 製作人、內容行銷人",
-        "pain_point": "找免版權配樂困難，AI 生成音樂不夠靈活、無法符合影片節奏變化",
-        "title_idea": "「Vlog 配樂不再頭痛！ElevenLabs 音樂 AI 大升級，現在可以分段生成還能換曲風」",
-        "local_angle": "台灣 Vlogger 社群大，版權音樂問題普遍；ElevenLabs 中文教學稀缺，搶先做差異化內容"
-      },
-      {
-        "title": "Robinhood 開放 AI 代理人自動交易股票，專設隔離錢包管控風險",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/05/27/robinhood-now-lets-your-ai-agents-trade-stocks/"
-          }
-        ],
-        "summary": "Robinhood 推出 AI Agent 交易帳戶，AI 可分析投資組合並自動下單，預載金額隔離風險，目前支援股票（Beta），未來擴展至期權、加密貨幣、期貨。",
-        "audience": "投資理財族、對 AI 自動化感興趣的職場上班族",
-        "pain_point": "想嘗試 AI 理財但不知道安全性如何、AI 代理人交易的邊界在哪",
-        "title_idea": "「AI 幫你炒股來真的！Robinhood 開放 AI 自動交易，風險控管機制大公開」",
-        "local_angle": "台灣投資熱潮加上 AI 趨勢，此話題跨圈傳播力強；可做「AI 投資代理人」系列，海外已驗證、華語圈幾乎空白"
-      },
-      {
-        "title": "Anthropic Claude Managed Agents 更新：自託管安全沙箱 + MCP 私有網路隧道",
-        "sources": [
-          {
-            "name": "InfoQ",
-            "url": "https://www.infoq.com/news/2026/05/code-with-claude/"
-          },
-          {
-            "name": "Testing Catalog",
-            "url": "https://www.testingcatalog.com/anthropic-launches-new-secure-tools-for-claude-managed-agents/"
-          }
-        ],
-        "summary": "Anthropic 在 Code w/ Claude London 發布自託管沙箱（可部署於 Cloudflare/Vercel 等平台）及 MCP 私有網路隧道，讓企業 Agent 不暴露於公開網路。",
-        "audience": "開發者、企業 IT、對 Claude Agent 有興趣的職場工作者",
-        "pain_point": "企業擔心資料安全，不敢把敏感資料交給雲端 AI；不知道如何在自己的環境部署 AI Agent",
-        "title_idea": "「Claude Agent 企業版大升級！自架安全沙箱教學，公司機密資料不外洩」",
-        "local_angle": "台灣企業對 AI 資安顧慮普遍，此話題填補「企業安全部署 Claude Agent」的知識缺口，受眾精準"
-      }
-    ],
-    "trends": [
-      {
-        "title": "YouTube 開始自動偵測並標記 AI 生成影片，創作者須留意新規則",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/05/27/youtube-will-now-automatically-label-ai-videos/"
-          },
-          {
-            "name": "YouTube Blog",
-            "url": "https://blog.youtube"
-          }
-        ],
-        "summary": "YouTube 推出自動 AI 標記功能，不再只靠創作者自行申報，AI 生成內容將被平台主動識別並標示。",
-        "audience": "YouTube 創作者、AI 影片製作者",
-        "pain_point": "不確定自己用 AI 工具製作的影片是否會被標記、對頻道有何影響",
-        "title_idea": "「YouTube 自動偵測 AI 影片了！你的頻道會被標記嗎？創作者必看新規完整解析」",
-        "local_angle": "台灣 YouTube 創作者普遍開始使用 AI 工具，此規則影響所有人；可搶先做「如何合規使用 AI 製作 YouTube 內容」教學"
-      },
-      {
-        "title": "OpenAI vs Anthropic 公開論戰：AI 究竟會不會造成大規模失業？",
-        "sources": [
-          {
-            "name": "Axios",
-            "url": "https://www.axios.com/2026/05/27/ai-hype-doom-openai-anthropic"
-          }
-        ],
-        "summary": "Sam Altman 表示 AI 不會造成就業末日並承認早期預測過於悲觀；Anthropic Chris Olah 則在梵蒂岡 AI 倫理峰會警告大規模勞動力替代是真實風險。",
-        "audience": "職場上班族、對 AI 未來發展感焦慮的工作者",
-        "pain_point": "不確定 AI 對自己工作的真實威脅程度，各方說法混亂令人無所適從",
-        "title_idea": "「AI 到底會不會讓你失業？OpenAI CEO 和 Anthropic 兩套說法大對決，哪個更可信？」",
-        "local_angle": "台灣職場 AI 焦慮話題高度共鳴，可結合「如何用 AI 提升不可取代性」切角，把恐懼轉化為行動力"
-      },
-      {
-        "title": "Snowflake × AWS 簽署 60 億美元 AI 晶片協議，企業 AI 基礎建設軍備競賽升溫",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/05/27/in-more-good-news-for-amazon-snowflake-signs-6b-deal-with-aws-for-ai-cpu-chips/"
-          }
-        ],
-        "summary": "Snowflake 與 AWS 簽 60 億美元 AI CPU 晶片長期合約，顯示企業級 AI 基礎建設投資仍在急速擴張階段。",
-        "audience": "科技投資者、企業 IT 決策者、對 AI 產業趨勢有興趣的職場人",
-        "pain_point": "想掌握 AI 產業的真實發展走向，但財經新聞太枯燥難懂",
-        "title_idea": "「AI 軍備競賽沒有要停的跡象！Snowflake 砸 60 億買 AWS 晶片，背後代表什麼？」",
-        "local_angle": "可以「企業 AI 基礎建設爆炸成長 → 對職場工作者意味著什麼」切角，將財經新聞轉化為職場人關心的視角"
       }
     ]
   }
