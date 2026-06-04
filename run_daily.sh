@@ -110,6 +110,33 @@ echo "=== $(date) | Starting daily finance report ===" >> "$LOG_FILE"
 
 echo "--- Finance report finished at $(date) ---" >> "$LOG_FILE"
 
+# Generate daily quote
+echo "=== $(date) | Generating daily quote ===" >> "$LOG_FILE"
+
+/Applications/cmux.app/Contents/Resources/bin/claude --dangerously-skip-permissions -p "
+今天日期：$(date +%Y-%m-%d)
+
+請生成一句今日每日語錄，寫入 skills/solopreneur-topic-miner/daily_quote.json。
+
+【選句標準】
+- 英文程度：TOEIC 860 分以上，句子結構複雜、用字精準，不得使用過於通俗的名言
+- 不限人物：哲學家、作家、科學家、商業思想家、歷史人物皆可，盡量涵蓋多元領域
+- 不可重複：不得使用 Churchill、愛因斯坦、賈伯斯等被過度引用的人物的老套語錄
+- 意境：帶有深度、能讓人思考，適合早晨閱讀，激勵或溫暖人心
+
+【輸出格式】只寫入以下 JSON，不輸出任何其他文字：
+{
+  \"date\": \"$(date +%Y-%m-%d)\",
+  \"en\": \"英文原文\",
+  \"zh\": \"繁體中文翻譯（流暢、不逐字直譯）\",
+  \"by\": \"作者全名（英文）\"
+}
+
+使用 Write 工具將此 JSON 寫入 skills/solopreneur-topic-miner/daily_quote.json，完成後輸出「QUOTE DONE」。
+" >> "$LOG_FILE" 2>&1
+
+echo "--- Daily quote finished at $(date) ---" >> "$LOG_FILE"
+
 # Commit and push to GitHub
 git add -A
 git commit -m "auto: daily report $(date +%Y-%m-%d)" >> "$LOG_FILE" 2>&1

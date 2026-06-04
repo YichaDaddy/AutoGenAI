@@ -421,11 +421,11 @@ nav{display:flex;align-items:center;gap:18px;margin-bottom:30px}
           <div class="bar hatch"><div class="fill dark" id="ot-strip-fill" style="width:0%">0%</div></div></div>
       </div>
     </div>
-    <figure class="quote">
+    <figure class="quote" id="daily-quote">
       <span class="mark">"</span>
-      <blockquote class="en">Success is not final, failure is not fatal: it is the courage to continue that counts.</blockquote>
-      <div class="zh">成功並非終點，失敗也非末路，唯有繼續前進的勇氣才最為可貴。</div>
-      <figcaption class="by">— Winston Churchill</figcaption>
+      <blockquote class="en" id="q-en">Success is not final, failure is not fatal: it is the courage to continue that counts.</blockquote>
+      <div class="zh" id="q-zh">成功並非終點，失敗也非末路，唯有繼續前進的勇氣才最為可貴。</div>
+      <figcaption class="by" id="q-by">— Winston Churchill</figcaption>
     </figure>
   </div>
 
@@ -1317,6 +1317,27 @@ wireModal('modal-overtime','overtime');
   set('m-pct',pct+'%');
   var f=document.getElementById('m-fill');
   if(f){f.style.width='0%';requestAnimationFrame(function(){requestAnimationFrame(function(){f.style.width=pct+'%';});});}
+})();
+
+// ─────────────────────────────────────────────
+//  DAILY QUOTE
+// ─────────────────────────────────────────────
+(function(){
+  var FALLBACK={
+    en:'Success is not final, failure is not fatal: it is the courage to continue that counts.',
+    zh:'成功並非終點，失敗也非末路，唯有繼續前進的勇氣才最為可貴。',
+    by:'Winston Churchill'
+  };
+  function applyQuote(q){
+    var en=document.getElementById('q-en'),zh=document.getElementById('q-zh'),by=document.getElementById('q-by');
+    if(en)en.textContent=q.en;
+    if(zh)zh.textContent=q.zh;
+    if(by)by.textContent='— '+q.by;
+  }
+  fetch('skills/solopreneur-topic-miner/daily_quote.json?'+new Date().toISOString().slice(0,10))
+    .then(function(r){return r.ok?r.json():null;})
+    .then(function(d){if(d&&d.en&&d.zh&&d.by)applyQuote(d);})
+    .catch(function(){});
 })();
 
 // ─────────────────────────────────────────────
