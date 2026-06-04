@@ -1330,7 +1330,10 @@ wireModal('modal-overtime','overtime');
   };
   function applyQuote(q){
     var en=document.getElementById('q-en'),zh=document.getElementById('q-zh'),by=document.getElementById('q-by');
-    if(en)en.textContent=q.en;
+    if(en){
+      var sentences=q.en.replace(/([.!?])\s+/g,'$1\n').split('\n').filter(Boolean);
+      en.innerHTML=sentences.map(function(s){return esc(s);}).join('<br>');
+    }
     if(zh)zh.textContent=q.zh;
     if(by)by.textContent='— '+q.by;
   }
