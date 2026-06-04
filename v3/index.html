@@ -1334,7 +1334,7 @@ wireModal('modal-overtime','overtime');
     if(zh)zh.textContent=q.zh;
     if(by)by.textContent='— '+q.by;
   }
-  fetch('skills/solopreneur-topic-miner/daily_quote.json?'+new Date().toISOString().slice(0,10))
+  fetch('../skills/solopreneur-topic-miner/daily_quote.json?'+new Date().toISOString().slice(0,10))
     .then(function(r){return r.ok?r.json():null;})
     .then(function(d){if(d&&d.en&&d.zh&&d.by)applyQuote(d);})
     .catch(function(){});
