@@ -78,3 +78,20 @@
 **DONE**
 --- AI report finished at Sat Jun  6 06:04:48 CST 2026 ---
 === Sat Jun  6 06:04:48 CST 2026 | Starting daily finance report ===
+**FINANCE DONE**
+
+---
+
+**2026-06-05 財經日報完成**，共選出 **10 則**情報，寫入 `latest_finance_topics.json`，看板已更新（Finance 存檔 7 天）。
+
+本日最核心主題是**美國就業數據核彈**：
+
+| 分類 | 則數 | 核心主題 |
+|------|------|----------|
+| market_shocks | 4 | 就業爆表→Nasdaq -4.8% / Meta增資 / Burry做空Palantir / 房利美暴漲 |
+| investment_opportunities | 3 | Goldman喊買點 / Marvell入S&P 500 / SpaceX IPO |
+| macro_observations | 3 | Goldman警告AI過度建設 / Citi孤獨降息論 / 黃仁勳台灣備戰2027 |
+
+台股角度：6/5 盤中重挫逾 1,500 點，台積電跌至 2,350 元附近，但黃仁勳親口確認訂單能見度延伸至 2027 年下半年，基本面邏輯未變，短期外資賣壓可能是逢低布局機會。
+--- Finance report finished at Sat Jun  6 06:11:20 CST 2026 ---
+=== Sat Jun  6 06:11:20 CST 2026 | Generating daily quote ===
