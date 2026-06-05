@@ -102,7 +102,6 @@ a{color:inherit;text-decoration:none}
 #overtime{margin:0}
 .leftstack{grid-area:overtime;display:flex;flex-direction:column;gap:18px}
 .leftstack #overtime{flex:1}
-#toeic{grid-area:toeic;cursor:default}
 .ck{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:18px}
 .ck-title{font-size:18px;font-weight:600;letter-spacing:-.01em;display:flex;align-items:center;gap:9px}
 .ck-sub{font-size:12.5px;color:var(--ink-soft);font-weight:500;margin-top:4px}
@@ -159,12 +158,139 @@ a{color:inherit;text-decoration:none}
 .mfill{height:100%;border-radius:30px;background:linear-gradient(90deg,var(--accent-deep),var(--accent));transition:width .8s cubic-bezier(.2,.7,.3,1)}
 .mfoot{display:flex;justify-content:space-between;margin-top:9px;font-size:11px;color:var(--ink-soft);font-weight:500}
 .mfoot #m-pct{color:var(--gold-ink);font-weight:700}
-#toeic{padding:22px 24px;display:flex;flex-direction:column;gap:0}
-.toeic-soon{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:32px 0;text-align:center}
-.toeic-soon .ts-icon{font-size:40px;line-height:1}
-.toeic-soon .ts-title{font-size:16px;font-weight:600;color:var(--ink);letter-spacing:-.01em}
-.toeic-soon .ts-sub{font-size:12.5px;color:var(--ink-soft);line-height:1.6}
-.toeic-soon .ts-badge{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;background:rgba(244,200,74,.22);color:var(--gold-ink);border-radius:20px;padding:5px 13px;display:inline-block}
+/* ---------- TOEIC PRACTICE ---------- */
+#toeic{grid-area:toeic;padding:22px 24px}
+.tq-bar{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:18px;flex-wrap:wrap}
+.tq-expand{display:inline-flex;align-items:center;gap:6px;font-family:inherit;font-size:12.5px;font-weight:600;color:var(--ink);background:transparent;border:1px solid var(--line-strong);border-radius:20px;padding:7px 14px;cursor:pointer;transition:.18s}
+.tq-expand:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
+.tq-view[hidden]{display:none}
+#tq-seg .tab,#tqm-seg .tab{white-space:nowrap}
+.tq-actions{display:flex;align-items:center;gap:8px}
+.tq-expand.alt{border-color:var(--accent-deep);color:var(--gold-ink);background:rgba(244,200,74,.16)}
+.tq-expand.alt:hover{background:var(--accent);color:var(--ink);border-color:var(--accent)}
+.tq-expand.alt b{font-family:var(--mono);font-weight:700}
+.tq-meta{display:flex;align-items:center;gap:10px;margin-bottom:13px}
+.tq-tag{font-family:var(--mono);font-size:10.5px;letter-spacing:.04em;color:var(--gold-ink);background:rgba(244,200,74,.22);padding:4px 10px;border-radius:20px;white-space:nowrap}
+.tq-count{font-family:var(--mono);font-size:11.5px;color:var(--ink-faint);margin-left:auto;white-space:nowrap}
+.tq-stem{font-size:17px;line-height:1.75;font-weight:500;color:var(--ink);text-wrap:pretty;margin-bottom:17px}
+.tq-blank{display:inline-flex;align-items:center;justify-content:center;min-width:60px;padding:1px 11px;margin:0 3px;border-bottom:2px solid var(--accent-deep);color:var(--gold-ink);font-weight:700;font-family:var(--mono);background:rgba(244,200,74,.16);border-radius:6px 6px 0 0}
+.tq-blank.done{color:var(--down);border-color:var(--down);background:rgba(31,157,99,.1)}
+.tq-opts{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.tq-opts.col1{grid-template-columns:1fr}
+.tq-opt{display:flex;align-items:center;gap:11px;text-align:left;font-family:inherit;font-size:14.5px;font-weight:500;color:var(--ink);background:rgba(255,255,255,.6);border:1px solid var(--line-strong);border-radius:13px;padding:13px 15px;cursor:pointer;transition:.15s;line-height:1.45}
+.tq-opt:hover{border-color:var(--ink);background:#fff}
+.tq-key{width:26px;height:26px;flex-shrink:0;border-radius:8px;background:rgba(28,27,25,.07);display:grid;place-items:center;font-family:var(--mono);font-size:13px;font-weight:600;color:var(--ink-soft)}
+.tq-opt.correct{border-color:var(--down);background:rgba(31,157,99,.1)}
+.tq-opt.correct .tq-key{background:var(--down);color:#fff}
+.tq-opt.wrong{border-color:var(--up);background:rgba(224,69,59,.07)}
+.tq-opt.wrong .tq-key{background:var(--up);color:#fff}
+.tq-opts.locked .tq-opt{cursor:default}
+.tq-opts.locked .tq-opt:not(.correct):not(.wrong){opacity:.5}
+.tq-exp{margin-top:15px;border:1px solid var(--line);border-left:3px solid var(--accent-deep);background:rgba(244,200,74,.08);border-radius:0 13px 13px 0;padding:14px 17px;animation:tqfade .25s ease}
+@keyframes tqfade{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
+.tq-exp .ex-l{display:flex;align-items:center;gap:9px;margin-bottom:9px}
+.tq-exp .res{font-family:var(--mono);padding:3px 10px;border-radius:20px;font-size:11px;font-weight:700}
+.tq-exp .res.ok{background:rgba(31,157,99,.14);color:var(--down)}
+.tq-exp .res.ng{background:rgba(224,69,59,.12);color:var(--up)}
+.tq-exp .ex-ans{font-family:var(--mono);font-size:11px;color:var(--ink-faint)}
+.tq-exp .ex-zh{font-size:13.5px;color:var(--ink);font-weight:500;line-height:1.6;margin-bottom:8px}
+.tq-exp .ex-why{font-size:13px;color:var(--ink-soft);line-height:1.68;text-wrap:pretty}
+.tq-exp .ex-why b{color:var(--gold-ink);font-weight:700}
+.tq-nav{display:flex;align-items:center;gap:10px;margin-top:17px}
+.tq-navbtn{font-family:inherit;font-size:13px;font-weight:600;color:var(--ink);background:rgba(255,255,255,.6);border:1px solid var(--line-strong);border-radius:20px;padding:8px 16px;cursor:pointer;transition:.15s}
+.tq-navbtn:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
+.tq-navbtn:disabled{opacity:.32;pointer-events:none}
+.tq-navbtn.primary{background:var(--ink);color:#fff;border-color:var(--ink)}
+.tq-navbtn.primary:hover{background:var(--accent);color:var(--ink);border-color:var(--accent)}
+.tq-score{margin-left:auto;font-family:var(--mono);font-size:12px;color:var(--ink-soft)}
+.tq-score b{color:var(--down)}
+.tq6-split{display:grid;grid-template-columns:1.2fr 1fr;gap:18px}
+.tq6-passage{background:rgba(255,255,255,.55);border:1px solid var(--line);border-radius:var(--r-sm);padding:17px 20px;font-size:14px;line-height:1.95;color:var(--ink);max-height:286px;overflow-y:auto}
+.tq6-ptitle{font-size:10.5px;font-family:var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--gold-ink);margin-bottom:11px}
+.tq6-passage p{margin-bottom:11px;text-wrap:pretty}
+.tq6-passage p:last-child{margin-bottom:0}
+.pblank{display:inline-flex;align-items:center;justify-content:center;min-width:30px;padding:1px 8px;margin:0 2px;border-bottom:2px solid var(--line-strong);font-family:var(--mono);font-size:12px;font-weight:700;color:var(--ink-faint);background:rgba(28,27,25,.05);border-radius:5px 5px 0 0;cursor:pointer;transition:.15s}
+.pblank:hover{background:rgba(28,27,25,.1)}
+.pblank.active{border-color:var(--accent-deep);color:var(--gold-ink);background:rgba(244,200,74,.22)}
+.pblank.done{border-color:var(--down);color:var(--down);background:rgba(31,157,99,.1)}
+.tq6-side{display:flex;flex-direction:column}
+.tq6-bnav{display:flex;gap:7px;margin-bottom:14px}
+.tq6-bn{width:34px;height:34px;border-radius:10px;border:1px solid var(--line-strong);background:rgba(255,255,255,.6);font-family:var(--mono);font-size:14px;font-weight:600;color:var(--ink-soft);cursor:pointer;display:grid;place-items:center;transition:.15s}
+.tq6-bn:hover{border-color:var(--ink)}
+.tq6-bn.active{background:var(--ink);color:#fff;border-color:var(--ink)}
+.tq6-bn.done{border-color:var(--down);color:var(--down)}
+.tq6-bn.done.active{background:var(--down);color:#fff;border-color:var(--down)}
+.tqm-q{background:#fff;border:1px solid var(--line);border-radius:var(--r-sm);padding:20px 22px;box-shadow:var(--sh)}
+#tqm-body .bcards .tqm-q{break-inside:avoid;margin-bottom:18px}
+.tqm-q .tq-stem{font-size:16px;margin-bottom:14px}
+.tqm-split{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:start}
+.tqm-passage{position:sticky;top:0;background:#fff;border:1px solid var(--line);border-radius:var(--r-sm);padding:24px 26px;font-size:16px;line-height:2.05;box-shadow:var(--sh)}
+.tqm-passage .tq6-ptitle{font-size:11px;margin-bottom:15px}
+.tqm-passage p{margin-bottom:14px;text-wrap:pretty}
+.tqm-qs{display:flex;flex-direction:column;gap:16px}
+@media(max-width:760px){.tqm-split{grid-template-columns:1fr}.tqm-passage{position:static}.tq6-split{grid-template-columns:1fr}}
+/* ---------- 錯題本 / REVIEW ---------- */
+.rv-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:26px}
+.rv-stat{background:#fff;border:1px solid var(--line);border-radius:var(--r-sm);padding:18px 20px;box-shadow:var(--sh)}
+.rv-stat .n{font-size:34px;font-weight:700;line-height:1;color:var(--ink);font-feature-settings:"tnum"}
+.rv-stat .n span{font-size:17px;font-weight:600;color:var(--ink-soft);margin-left:2px}
+.rv-stat .l{font-size:13px;font-weight:600;color:var(--ink);margin-top:9px}
+.rv-stat .sub{font-size:11.5px;color:var(--ink-faint);margin-top:3px;font-family:var(--mono)}
+.rv-stat.warn .n{color:var(--up)}
+.rv-stat.ok .n{color:var(--down)}
+.rv-sec{margin-bottom:26px}
+.rv-sec-t{font-size:13px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:14px;display:flex;align-items:center;gap:10px}
+.rv-sec-t .rv-c{font-family:var(--mono);font-size:11px;letter-spacing:0;text-transform:none;color:var(--gold-ink);background:rgba(244,200,74,.2);padding:3px 9px;border-radius:20px;font-weight:600}
+.rv-trend{display:flex;align-items:flex-end;gap:10px;height:118px;padding:0 4px}
+.rv-tcol{flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;height:100%}
+.rv-tbars{flex:1;width:100%;max-width:38px;display:flex;align-items:flex-end;justify-content:center;gap:3px}
+.rv-tbars .rv-tc,.rv-tbars .rv-tw{width:13px;border-radius:4px 4px 0 0;min-height:3px}
+.rv-tbars .rv-tc{background:var(--down)}
+.rv-tbars .rv-tw{background:var(--up);opacity:.85}
+.rv-tbars .rv-t0{width:13px;height:3px;border-radius:3px;background:var(--line-strong)}
+.rv-tn{font-family:var(--mono);font-size:11px;color:var(--ink-soft);min-height:14px}
+.rv-td{font-size:11.5px;color:var(--ink-faint);font-weight:500}
+.rv-tcol.now .rv-td{color:var(--ink);font-weight:700}
+.rv-tcol.now{background:rgba(244,200,74,.1);border-radius:10px}
+.rv-tlegend{display:flex;gap:18px;margin-top:12px;font-size:11.5px;color:var(--ink-soft)}
+.rv-tlegend span{display:inline-flex;align-items:center;gap:6px}
+.rv-tlegend i{width:11px;height:11px;border-radius:3px;display:inline-block}
+.rv-tlegend .lc{background:var(--down)}
+.rv-tlegend .lw{background:var(--up)}
+.rv-weak{display:flex;flex-direction:column;gap:11px}
+.rv-wrow{display:flex;align-items:center;gap:13px}
+.rv-rank{width:24px;height:24px;flex-shrink:0;border-radius:7px;background:var(--ink);color:var(--accent);display:grid;place-items:center;font-family:var(--mono);font-size:12px;font-weight:700}
+.rv-wtag{width:148px;flex-shrink:0;font-size:13.5px;font-weight:600;color:var(--ink)}
+.rv-wbar{flex:1;height:11px;background:rgba(28,27,25,.06);border-radius:20px;overflow:hidden}
+.rv-wbar span{display:block;height:100%;background:linear-gradient(90deg,var(--accent-deep),var(--up));border-radius:20px}
+.rv-wn{font-family:var(--mono);font-size:12px;color:var(--up);font-weight:700;white-space:nowrap}
+.rv-notes{display:grid;grid-template-columns:1fr 1fr;gap:13px}
+.rv-note{background:rgba(244,200,74,.08);border:1px solid var(--line);border-left:3px solid var(--accent-deep);border-radius:0 var(--r-sm) var(--r-sm) 0;padding:15px 17px}
+.rv-note .rn-h{margin-bottom:10px}
+.rv-note .rn-b{font-size:13px;line-height:1.7;color:var(--ink-soft);text-wrap:pretty}
+.rv-note .rn-b b{color:var(--gold-ink);font-weight:700}
+.rv-list{display:flex;flex-direction:column;gap:16px}
+.rv-card{background:#fff;border:1px solid var(--line);border-radius:var(--r-sm);padding:20px 22px;box-shadow:var(--sh)}
+.rv-stem{font-size:16px;line-height:1.75;font-weight:500;color:var(--ink);margin:13px 0 14px;text-wrap:pretty}
+.rv-ctx{font-family:var(--mono);font-size:13px;color:var(--ink-soft)}
+.rv-ab{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:13px}
+.rv-yours,.rv-right{font-family:var(--mono);font-size:12px;font-weight:600;padding:6px 12px;border-radius:20px}
+.rv-yours{color:var(--up);background:rgba(224,69,59,.1);text-decoration:line-through;text-decoration-color:rgba(224,69,59,.5)}
+.rv-right{color:var(--down);background:rgba(31,157,99,.12)}
+.rv-zh{font-size:13.5px;font-weight:500;color:var(--ink);line-height:1.6;margin-bottom:7px}
+.rv-why{font-size:13px;color:var(--ink-soft);line-height:1.68;text-wrap:pretty}
+.rv-why b{color:var(--gold-ink);font-weight:700}
+.rv-acts{display:flex;gap:9px;margin-top:16px}
+.rv-btn{font-family:inherit;font-size:12.5px;font-weight:600;color:var(--ink);background:rgba(255,255,255,.6);border:1px solid var(--line-strong);border-radius:20px;padding:8px 16px;cursor:pointer;transition:.15s}
+.rv-btn:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
+.rv-btn.primary{background:var(--ink);color:#fff;border-color:var(--ink)}
+.rv-btn.primary:hover{background:var(--accent);color:var(--ink);border-color:var(--accent)}
+.rv-empty{text-align:center;padding:48px 20px;color:var(--ink-soft)}
+.rv-empty.mini{padding:30px 20px}
+.rv-empty .ei{width:54px;height:54px;margin:0 auto 16px;border-radius:16px;background:rgba(244,200,74,.18);color:var(--gold-ink);display:grid;place-items:center;font-size:24px}
+.rv-empty .et{font-size:16px;font-weight:600;color:var(--ink);margin-bottom:7px}
+.rv-empty .ed{font-size:13.5px;line-height:1.65;max-width:380px;margin:0 auto;text-wrap:pretty}
+@media(max-width:760px){.rv-stats{grid-template-columns:1fr}.rv-notes{grid-template-columns:1fr}.rv-wtag{width:96px}}
 .skl{background:linear-gradient(90deg,rgba(28,27,25,.05) 25%,rgba(28,27,25,.1) 37%,rgba(28,27,25,.05) 63%);background-size:400% 100%;animation:sk 1.4s infinite;border-radius:6px;color:transparent!important}
 @keyframes sk{0%{background-position:100% 0}100%{background-position:-100% 0}}
 .bni-loading{font-size:12.5px;color:var(--ink-faint);padding:14px 8px;font-style:italic}
@@ -510,18 +636,29 @@ a{color:inherit;text-decoration:none}
       </section>
     </div>
 
-    <!-- TOEIC 佔位（功能開發中） -->
+    <!-- TOEIC 多益練習 -->
     <section class="card" id="toeic">
       <div class="ck">
         <div><div class="ck-title">多益練習</div>
           <div class="ck-sub">PART 5 · 6 · 文法與句構</div></div>
-        <span class="chip ghost">即將推出</span>
+        <span class="chip gold" id="tq-progress">已完成 0 / 9</span>
       </div>
-      <div class="toeic-soon">
-        <div class="ts-icon">📖</div>
-        <div class="ts-title">TOEIC 文法刷題功能開發中</div>
-        <div class="ts-sub">每日練習 PART 5／6，附中文詳解<br>錯題本自動整理弱點觀念</div>
-        <span class="ts-badge">Coming Soon</span>
+      <div class="tq-bar">
+        <div class="tabs" id="tq-seg">
+          <div class="tab on" data-part="5">PART 5 · 短句填空</div>
+          <div class="tab" data-part="6">PART 6 · 段落填空</div>
+        </div>
+        <div class="tq-actions">
+          <button class="tq-expand alt" id="tq-review">錯題本 · <b id="tq-wrongn">0</b></button>
+          <button class="tq-expand" id="tq-open">展開完整題組 →</button>
+        </div>
+      </div>
+      <div class="tq-view" id="tq-v5"></div>
+      <div class="tq-view" id="tq-v6" hidden>
+        <div class="tq6-split">
+          <div class="tq6-passage" id="tq6-passage"></div>
+          <div class="tq6-side" id="tq6-side"></div>
+        </div>
       </div>
     </section>
 
@@ -704,6 +841,39 @@ a{color:inherit;text-decoration:none}
     </div>
   </div>
 
+
+  <!-- 多益練習 MODAL -->
+  <div class="modal" id="modal-toeic" aria-hidden="true">
+    <div class="modal-scrim" data-close></div>
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-label="多益練習">
+      <div class="modal-head">
+        <div class="mh-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 5.5A2 2 0 0 1 6 4h5v15H6a2 2 0 0 0-2 1.4z"></path>
+            <path d="M20 5.5A2 2 0 0 0 18 4h-5v15h5a2 2 0 0 1 2 1.4z"></path>
+            <path d="M7 8h2.2"></path><path d="M7 11h2.2"></path>
+          </svg>
+        </div>
+        <div>
+          <div class="mh-title">多益練習</div>
+          <div class="mh-sub">PART 5 短句填空 · PART 6 段落填空 · 附中文詳解</div>
+        </div>
+        <button class="modal-close" data-close>✕</button>
+      </div>
+      <div class="wl-toolbar">
+        <div class="tabs" id="tqm-seg">
+          <div class="tab on" data-mpart="5">PART 5 · 短句填空</div>
+          <div class="tab" data-mpart="6">PART 6 · 段落填空</div>
+          <div class="tab" data-mpart="review">錯題本</div>
+        </div>
+        <div class="wl-status">
+          <span class="chip ghost" id="tqm-stat">已完成 0 / 9</span>
+          <button class="wl-refresh" id="tqm-reset"><span class="rfi">↺</span>重作</button>
+        </div>
+      </div>
+      <div class="modal-body" id="tqm-body"></div>
+    </div>
+  </div>
 
 </div><!-- /wrap -->
 
@@ -1403,6 +1573,273 @@ fetch('stocks.json?'+Date.now())
     if(updated){saveStockCache(cache);renderMini();}
   })
   .catch(function(){});
+
+// ─────────────────────────────────────────────
+//  TOEIC PRACTICE
+// ─────────────────────────────────────────────
+(function(){
+  const L=['A','B','C','D'];
+  const P5=[
+    {tag:'副詞 · 詞性',
+     pre:'All staff must submit their expense reports ', post:' to receive reimbursement on time.',
+     opts:['prompt','promptly','promptness','prompted'], ans:1,
+     zh:'所有員工必須即時提交核銷報告，才能準時收到核銷款項。',
+     why:'空格修飾動詞 <b>submit</b>，需用副詞。(B) promptly「即時地」正確；(A) 形容詞、(C) 名詞、(D) 過去分詞皆不能修飾動詞。'},
+    {tag:'介系詞',
+     pre:'Please make sure all the contracts are signed and returned ', post:' Friday afternoon.',
+     opts:['until','by','since','for'], ans:1,
+     zh:'請確保所有合約在週五下午前完成簽署並寄回。',
+     why:'表「在某時間點前完成」用 <b>by</b>。until 強調動作「持續到」某時；since 接過去時間點搭配完成式；for 接一段期間。'},
+    {tag:'主詞動詞一致',
+     pre:'Neither the director nor the assistants ', post:' available for the afternoon briefing.',
+     opts:['is','was','are','being'], ans:2,
+     zh:'經理和助理們下午的簡報都無法出席。',
+     why:'Neither A nor B 採「就近原則」，動詞與較近的主詞 <b>assistants</b>（複數）一致，故用 are。'},
+    {tag:'動詞語意 · 搭配',
+     pre:'The upgraded system helps employees ', post:' their daily workflow and cut processing time.',
+     opts:['streamline','decline','withdraw','postpone'], ans:0,
+     zh:'升級後的系統協助員工簡化日常工作流程並縮短處理時間。',
+     why:'依語意需「簡化流程」，<b>streamline</b>（使精簡流暢）最貼切；decline 婉拒／下降、withdraw 撤回、postpone 延後皆不合。'},
+    {tag:'連接詞',
+     pre:'', post:' the shipment clears customs, our team will begin inspection immediately.',
+     opts:['Despite','During','Once','Although'], ans:2,
+     zh:'貨物一通關，我們團隊就會立即開始檢驗。',
+     why:'空格引導時間副詞子句，<b>Once</b>「一旦…就」最合語意；Despite／During 後須接名詞而非子句；Although 表讓步語意不符。'},
+  ];
+  const P6={
+    title:'Internal Memo — Office Relocation',
+    seg:[
+      ['Please be advised that the east wing of our building will undergo renovation beginning next Monday. During this period, employees on the third floor ',{b:0},' to the temporary workspace on the fifth floor.'],
+      ['The work is expected to last about three weeks. ',{b:1},', all meeting rooms on the third floor will remain closed, so staff are encouraged to reserve alternative rooms through the online booking system.'],
+      ['We sincerely appreciate your ',{b:2},' during this transition. ',{b:3}],
+    ],
+    blanks:[
+      {tag:'動詞 · 時態語態', col1:true, opts:['will be relocated','relocated','are relocating','have relocated'], ans:0,
+       zh:'三樓員工將被遷移至五樓的臨時辦公區。',
+       why:'句意為未來、且員工是「被」安排遷移，需未來被動式 <b>will be relocated</b>；其餘選項時態或語態皆不符。'},
+      {tag:'轉折語', col1:true, opts:['In the meantime','However','For instance','On the contrary'], ans:0,
+       zh:'在這段期間，三樓所有會議室將維持關閉。',
+       why:'前後是「施工期間同時發生的安排」，用 <b>In the meantime</b>「在此期間」承接；However 表轉折、For instance 舉例、On the contrary 表相反皆不符。'},
+      {tag:'名詞 · 詞性', col1:true, opts:['patience','patient','patiently','patients'], ans:0,
+       zh:'我們由衷感謝您在這段過渡期的耐心。',
+       why:'appreciate your ___ 需名詞作受詞，<b>patience</b>「耐心」（不可數）正確；patient 形容詞／病人、patiently 副詞、patients 複數可數皆不合。'},
+      {tag:'句子插入', col1:true, opts:['Please direct any questions to the Facilities team.','The new café will open early next month.','Quarterly sales have exceeded all expectations.','Visitor parking permits are no longer required.'], ans:0,
+       zh:'如有任何問題，請逕洽總務團隊。',
+       why:'文末需與「搬遷通知」主題連貫的收尾句，<b>(A)</b> 引導讀者提問最合宜；其餘選項與通知主題無關。'},
+    ]
+  };
+  const NOTES={
+    '副詞 · 詞性':'修飾<b>動詞、形容詞或整句</b>時用副詞（常見字尾 -ly）。空格緊鄰動詞 → 先想副詞；名詞前才用形容詞。',
+    '介系詞':'<b>by</b>＝某時間點前「完成」；<b>until</b>＝動作「持續到」某時；since＋過去時間點配完成式；for＋一段期間。',
+    '主詞動詞一致':'either/neither…nor、not only…but also 連接主詞時用<b>就近原則</b>，動詞跟「較近的主詞」一致。',
+    '動詞語意 · 搭配':'選項詞性相同時看<b>語意搭配</b>。先抓句子要表達的動作方向，再選最貼切的字（如 streamline＝使流程精簡）。',
+    '連接詞':'引導<b>子句</b>用連接詞（once、although、while）；<b>despite / during</b> 後面只能接名詞片語，不能接子句。',
+    '動詞 · 時態語態':'先判斷<b>時態</b>（未來／過去）再判斷<b>語態</b>。主詞是被安排的對象 → 被動；指向未來 → will be ＋ p.p.。',
+    '轉折語':'<b>In the meantime</b>＝同期間同時發生；However＝轉折；For instance＝舉例；On the contrary＝相反。依前後邏輯選。',
+    '名詞 · 詞性':'動詞或所有格後缺受詞 → 用<b>名詞</b>。注意可數/不可數：patience 不可數、patient 是形容詞或「病人」。',
+    '句子插入':'Part 6 插入句要與<b>上下文主題連貫</b>，留意指代詞與時間邏輯，選能承上啟下、呼應段落主旨的句子。',
+  };
+
+  const KEY='toeic-state';
+  let st={p5:{},p6:{},dismissed:{},daily:{}};
+  try{const s=localStorage.getItem(KEY);if(s)st=Object.assign(st,JSON.parse(s));}catch(e){}
+  st.dismissed=st.dismissed||{}; st.daily=st.daily||{};
+  const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(st));}catch(e){}};
+  let i5=0, b6=0, mPart='5';
+  const today=()=>new Date().toISOString().slice(0,10);
+
+  function optsBlock(part,qi,q,sel){
+    const locked=sel!=null;
+    return `<div class="tq-opts${q.col1?' col1':''}${locked?' locked':''}">`+q.opts.map((o,k)=>{
+      let cls='';if(locked){if(k===q.ans)cls=' correct';else if(k===sel)cls=' wrong';}
+      return `<button class="tq-opt${cls}" data-part="${part}" data-q="${qi}" data-o="${k}"><span class="tq-key">${L[k]}</span>${o}</button>`;
+    }).join('')+`</div>`;
+  }
+  function expBlock(q,sel){
+    if(sel==null) return '';
+    const ok=sel===q.ans;
+    return `<div class="tq-exp"><div class="ex-l"><span class="res ${ok?'ok':'ng'}">${ok?'✓ 答對':'✕ 答錯'}</span><span class="ex-ans">正解 ${L[q.ans]} · ${q.opts[q.ans]}</span></div><div class="ex-zh">${q.zh}</div><div class="ex-why">${q.why}</div></div>`;
+  }
+  function passage(active){
+    let h=`<div class="tq6-ptitle">${P6.title}</div>`;
+    P6.seg.forEach(line=>{h+='<p>';line.forEach(part=>{
+      if(typeof part==='string'){h+=part;return;}
+      const bi=part.b, done=st.p6[bi]!=null;
+      const cls='pblank'+(bi===active?' active':'')+(done?' done':'');
+      h+=`<span class="${cls}" data-b="${bi}">(${bi+1})</span>`;
+    });h+='</p>';});
+    return h;
+  }
+
+  const answered=()=>Object.keys(st.p5).length+Object.keys(st.p6).length;
+  const score5=()=>Object.keys(st.p5).filter(k=>+st.p5[k]===P5[k].ans).length;
+  const Q=(part,k)=>part==='5'?P5[k]:P6.blanks[k];
+
+  function wrongItems(){
+    const out=[];
+    Object.keys(st.p5).forEach(k=>{const q=P5[k];if(+st.p5[k]!==q.ans&&!st.dismissed['5-'+k])out.push({part:'5',k:+k,q,sel:+st.p5[k]});});
+    Object.keys(st.p6).forEach(k=>{const q=P6.blanks[k];if(+st.p6[k]!==q.ans&&!st.dismissed['6-'+k])out.push({part:'6',k:+k,q,sel:+st.p6[k]});});
+    return out;
+  }
+  function weakness(){
+    const m={};wrongItems().forEach(it=>{m[it.q.tag]=(m[it.q.tag]||0)+1;});
+    return Object.entries(m).sort((a,b)=>b[1]-a[1]);
+  }
+  function stats(){
+    const ans=answered();
+    let correct=Object.keys(st.p5).filter(k=>+st.p5[k]===P5[k].ans).length
+               +Object.keys(st.p6).filter(k=>+st.p6[k]===P6.blanks[k].ans).length;
+    const mastered=Object.keys(st.dismissed).length;
+    return {ans,correct,rate:ans?Math.round(correct/ans*100):0,pending:wrongItems().length,mastered};
+  }
+  function logAnswer(ok){const d=today();st.daily[d]=st.daily[d]||{c:0,w:0};ok?st.daily[d].c++:st.daily[d].w++;}
+
+  const v5=document.getElementById('tq-v5'), v6=document.getElementById('tq-v6');
+
+  function renderP5(){
+    const q=P5[i5], sel=st.p5[i5]==null?null:+st.p5[i5];
+    const stem=q.pre+`<span class="tq-blank${sel!=null?' done':''}">${sel!=null?q.opts[q.ans]:'?'}</span>`+q.post;
+    v5.innerHTML=`<div class="tq-meta"><span class="tq-tag">${q.tag}</span><span class="tq-count">第 ${i5+1} / ${P5.length} 題</span></div>`
+      +`<div class="tq-stem">${stem}</div>`+optsBlock('5',i5,q,sel)+expBlock(q,sel)
+      +`<div class="tq-nav"><button class="tq-navbtn" data-nav="prev"${i5===0?' disabled':''}>← 上一題</button>`
+      +`<button class="tq-navbtn primary" data-nav="next"${i5===P5.length-1?' disabled':''}>下一題 →</button>`
+      +`<span class="tq-score">答對 <b>${score5()}</b> / ${Object.keys(st.p5).length}</span></div>`;
+  }
+  function renderP6(){
+    document.getElementById('tq6-passage').innerHTML=passage(b6);
+    const q=P6.blanks[b6], sel=st.p6[b6]==null?null:+st.p6[b6];
+    document.getElementById('tq6-side').innerHTML=
+      `<div class="tq6-bnav">${P6.blanks.map((_,i)=>`<button class="tq6-bn${i===b6?' active':''}${st.p6[i]!=null?' done':''}" data-bn="${i}">${i+1}</button>`).join('')}</div>`
+      +`<div class="tq-meta"><span class="tq-tag">${q.tag}</span><span class="tq-count">第 ${b6+1} 格 / ${P6.blanks.length}</span></div>`
+      +optsBlock('6',b6,q,sel)+expBlock(q,sel);
+  }
+  function renderProgress(){
+    const t=`已完成 ${answered()} / ${P5.length+P6.blanks.length}`;
+    const a=document.getElementById('tq-progress'); if(a)a.textContent=t;
+    const b=document.getElementById('tqm-stat'); if(b)b.textContent=t;
+    const w=document.getElementById('tq-wrongn'); if(w)w.textContent=stats().pending;
+  }
+
+  const tqModal=document.getElementById('modal-toeic');
+  const body=document.getElementById('tqm-body');
+
+  function renderModal(){
+    if(mPart==='review'){renderReview();return;}
+    if(mPart==='5'){
+      body.innerHTML='<div class="bcards">'+P5.map((q,k)=>{
+        const sel=st.p5[k]==null?null:+st.p5[k];
+        const stem=q.pre+`<span class="tq-blank${sel!=null?' done':''}">${sel!=null?q.opts[q.ans]:'?'}</span>`+q.post;
+        return `<div class="tqm-q"><div class="tq-meta"><span class="tq-tag">${q.tag}</span><span class="tq-count">第 ${k+1} 題</span></div><div class="tq-stem">${stem}</div>${optsBlock('5',k,q,sel)}${expBlock(q,sel)}</div>`;
+      }).join('')+'</div>';
+    }else{
+      body.innerHTML='<div class="tqm-split"><div class="tqm-passage">'+passage(-1)+'</div><div class="tqm-qs">'
+        +P6.blanks.map((q,k)=>{const sel=st.p6[k]==null?null:+st.p6[k];
+          return `<div class="tqm-q"><div class="tq-meta"><span class="tq-tag">${q.tag}</span><span class="tq-count">第 ${k+1} 格</span></div>${optsBlock('6',k,q,sel)}${expBlock(q,sel)}</div>`;
+        }).join('')+'</div></div>';
+    }
+  }
+
+  function renderReview(){
+    const s=stats(), wrong=wrongItems(), weak=weakness();
+    let h='<div class="rv-stats">'
+      +`<div class="rv-stat"><div class="n">${s.rate}<span>%</span></div><div class="l">正確率</div><div class="sub">${s.correct} / ${s.ans} 題</div></div>`
+      +`<div class="rv-stat warn"><div class="n">${s.pending}</div><div class="l">待複習錯題</div><div class="sub">尚未克服</div></div>`
+      +`<div class="rv-stat ok"><div class="n">${s.mastered}</div><div class="l">已克服</div><div class="sub">標記為已懂</div></div>`
+      +'</div>';
+    if(s.ans===0){
+      body.innerHTML=h+'<div class="rv-empty"><div class="ei">✎</div><div class="et">還沒有作答紀錄</div><div class="ed">先到 PART 5 / PART 6 練習幾題，答錯的題目會自動收進這裡，並依文法觀念分類。</div></div>';
+      return;
+    }
+    const days=[];for(let i=6;i>=0;i--){const dt=new Date();dt.setDate(dt.getDate()-i);days.push(dt);}
+    const wk=['日','一','二','三','四','五','六'];
+    const dmax=Math.max(1,...days.map(dt=>{const d=st.daily[dt.toISOString().slice(0,10)];return d?d.c+d.w:0;}));
+    h+='<div class="rv-sec"><div class="rv-sec-t">近 7 日作答趨勢</div><div class="rv-trend">'
+      +days.map(dt=>{const key=dt.toISOString().slice(0,10),d=st.daily[key]||{c:0,w:0},tot=d.c+d.w,isToday=key===today();
+        return `<div class="rv-tcol${isToday?' now':''}"><div class="rv-tbars" title="${tot} 題">`
+          +(tot?`${d.w?`<span class="rv-tw" style="height:${Math.round(d.w/dmax*100)}%"></span>`:''}${d.c?`<span class="rv-tc" style="height:${Math.round(d.c/dmax*100)}%"></span>`:''}`:'<span class="rv-t0"></span>')
+          +`</div><div class="rv-tn">${tot||''}</div><div class="rv-td">${wk[dt.getDay()]}</div></div>`;}).join('')
+      +'</div><div class="rv-tlegend"><span><i class="lc"></i>答對</span><span><i class="lw"></i>答錯</span></div></div>';
+    if(weak.length){
+      const max=weak[0][1];
+      h+='<div class="rv-sec"><div class="rv-sec-t">弱點觀念 · Top '+Math.min(3,weak.length)+'</div><div class="rv-weak">'
+        +weak.slice(0,3).map(([tag,n],i)=>`<div class="rv-wrow"><span class="rv-rank">${i+1}</span><span class="rv-wtag">${tag}</span><div class="rv-wbar"><span style="width:${Math.round(n/max*100)}%"></span></div><span class="rv-wn">錯 ${n}</span></div>`).join('')
+        +'</div></div>';
+      h+='<div class="rv-sec"><div class="rv-sec-t">文法觀念筆記 · 依錯題自動生成</div><div class="rv-notes">'
+        +weak.map(([tag])=>`<div class="rv-note"><div class="rn-h"><span class="tq-tag">${tag}</span></div><div class="rn-b">${NOTES[tag]||''}</div></div>`).join('')
+        +'</div></div>';
+    }
+    h+='<div class="rv-sec"><div class="rv-sec-t">錯題清單 <span class="rv-c">'+wrong.length+' 題待複習</span></div>';
+    if(!wrong.length){
+      h+='<div class="rv-empty mini"><div class="ei">✓</div><div class="et">目前沒有待複習的錯題</div><div class="ed">太強了！答錯或標記重練的題目會出現在這裡。</div></div>';
+    }else{
+      h+='<div class="rv-list">'+wrong.map(it=>{
+        const q=it.q, isP5=it.part==='5';
+        const stem=isP5?(q.pre+`<span class="tq-blank">${q.opts[q.ans]}</span>`+q.post)
+                       :`<span class="rv-ctx">${P6.title} · 第 ${it.k+1} 格</span>`;
+        return `<div class="rv-card"><div class="tq-meta"><span class="tq-tag">${q.tag}</span><span class="tq-count">PART ${it.part}</span></div>`
+          +`<div class="rv-stem">${stem}</div>`
+          +`<div class="rv-ab"><span class="rv-yours">你的答案 ${L[it.sel]} · ${q.opts[it.sel]}</span><span class="rv-right">正解 ${L[q.ans]} · ${q.opts[q.ans]}</span></div>`
+          +`<div class="rv-zh">${q.zh}</div><div class="rv-why">${q.why}</div>`
+          +`<div class="rv-acts"><button class="rv-btn primary" data-retest="${it.part}-${it.k}">再測一次</button><button class="rv-btn" data-master="${it.part}-${it.k}">移除（已懂）</button></div></div>`;
+      }).join('')+'</div>';
+    }
+    h+='</div>';
+    body.innerHTML=h;
+  }
+
+  function renderAll(){renderP5();renderP6();renderProgress();if(tqModal&&tqModal.classList.contains('open'))renderModal();}
+
+  document.addEventListener('click',e=>{
+    const opt=e.target.closest('.tq-opt'); if(!opt) return;
+    const part=opt.dataset.part, q=+opt.dataset.q, o=+opt.dataset.o;
+    const store=part==='5'?st.p5:st.p6;
+    if(store[q]!=null) return;
+    store[q]=o; logAnswer(o===Q(part,q).ans);
+    if(o===Q(part,q).ans) delete st.dismissed[part+'-'+q];
+    save(); renderAll();
+  });
+
+  body.addEventListener('click',e=>{
+    const m=e.target.closest('[data-master]'), r=e.target.closest('[data-retest]');
+    if(m){st.dismissed[m.dataset.master]=1;save();renderReview();renderProgress();return;}
+    if(r){const [p,k]=r.dataset.retest.split('-');
+      (p==='5'?st.p5:st.p6)[k]=undefined; delete (p==='5'?st.p5:st.p6)[k];
+      delete st.dismissed[p+'-'+k]; save();
+      setSeg(p); mPart=p;
+      if(p==='5'){i5=+k;}else{b6=+k;}
+      closeTQ();
+      document.querySelectorAll('#tq-seg .tab').forEach(x=>x.classList.toggle('on',x.dataset.part===p));
+      v5.hidden=p!=='5'; v6.hidden=p==='5';
+      renderAll();
+      window.scrollTo({top:document.getElementById('toeic').offsetTop-70,behavior:'smooth'});
+    }
+  });
+
+  function setSeg(p){document.querySelectorAll('#tqm-seg .tab').forEach(x=>x.classList.toggle('on',x.dataset.mpart===p));}
+
+  document.querySelectorAll('#tq-seg .tab').forEach(t=>t.onclick=()=>{
+    document.querySelectorAll('#tq-seg .tab').forEach(x=>x.classList.remove('on'));t.classList.add('on');
+    const p5=t.dataset.part==='5';
+    v5.hidden=!p5; v6.hidden=p5;
+  });
+  v5.addEventListener('click',e=>{const n=e.target.closest('[data-nav]');if(!n)return;
+    if(n.dataset.nav==='prev'&&i5>0)i5--; if(n.dataset.nav==='next'&&i5<P5.length-1)i5++; renderP5();});
+  v6.addEventListener('click',e=>{const bn=e.target.closest('[data-bn]'),pb=e.target.closest('[data-b]');
+    if(bn){b6=+bn.dataset.bn;renderP6();} else if(pb){b6=+pb.dataset.b;renderP6();}});
+
+  const openTQ=(part)=>{if(part){mPart=part;setSeg(part);}tqModal.classList.add('open');tqModal.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';renderModal();};
+  const closeTQ=()=>{tqModal.classList.remove('open');tqModal.setAttribute('aria-hidden','true');document.body.style.overflow='';};
+  document.getElementById('tq-open').addEventListener('click',()=>openTQ('5'));
+  document.getElementById('tq-review').addEventListener('click',()=>openTQ('review'));
+  tqModal.querySelectorAll('[data-close]').forEach(el=>el.addEventListener('click',closeTQ));
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&tqModal.classList.contains('open'))closeTQ();});
+  document.querySelectorAll('#tqm-seg .tab').forEach(t=>t.onclick=()=>{
+    document.querySelectorAll('#tqm-seg .tab').forEach(x=>x.classList.remove('on'));t.classList.add('on');
+    mPart=t.dataset.mpart; body.scrollTop=0; renderModal();});
+  document.getElementById('tqm-reset').onclick=()=>{st={p5:{},p6:{},dismissed:{},daily:{}};save();i5=0;b6=0;renderAll();};
+
+  renderAll();
+})();
 </script>
 </body>
 </html>
