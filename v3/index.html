@@ -66,19 +66,6 @@ a{color:inherit;text-decoration:none}
 @keyframes shake{0%,100%{transform:translateX(0)}25%{transform:translateX(-8px)}75%{transform:translateX(8px)}}
 .shake{animation:shake .3s ease}
 
-/* ─── NAV ─── */
-nav{display:flex;align-items:center;gap:18px;margin-bottom:30px}
-.logo{display:flex;align-items:center;gap:9px;border:1.5px solid var(--ink);border-radius:40px;padding:9px 18px 9px 12px;font-weight:600;font-size:16px;letter-spacing:-.02em}
-.logo .dot{width:22px;height:22px;border-radius:7px;background:var(--ink);display:grid;place-items:center;color:var(--accent);font-size:11px;font-weight:700}
-.navlinks{display:flex;align-items:center;gap:4px;background:rgba(255,255,255,.7);backdrop-filter:blur(8px);border:1px solid var(--line);border-radius:40px;padding:5px;margin:0 auto}
-.navlinks a{padding:9px 17px;border-radius:30px;font-size:14px;font-weight:500;color:var(--ink-soft);transition:.18s}
-.navlinks a:hover{color:var(--ink)}
-.navlinks a.active{background:var(--ink);color:#fff}
-.navright{display:flex;align-items:center;gap:10px}
-.btn-dark{display:flex;align-items:center;gap:8px;background:var(--ink);color:#fff;border:none;border-radius:30px;padding:11px 18px;font-size:13.5px;font-weight:500;cursor:pointer;font-family:inherit}
-.icon-btn{width:42px;height:42px;border-radius:50%;border:1px solid var(--line);background:rgba(255,255,255,.7);display:grid;place-items:center;cursor:pointer;position:relative}
-.icon-btn .bdg{position:absolute;top:9px;right:10px;width:7px;height:7px;border-radius:50%;background:var(--up);border:1.5px solid #fff}
-.avatar{width:42px;height:42px;border-radius:50%;background:linear-gradient(135deg,var(--accent),#caa83a);display:grid;place-items:center;font-weight:700;color:var(--ink);font-size:15px;cursor:pointer}
 
 /* ─── HERO ─── */
 .hero{display:flex;justify-content:space-between;align-items:flex-start;gap:30px;margin-bottom:18px;flex-wrap:wrap}
@@ -104,7 +91,7 @@ nav{display:flex;align-items:center;gap:18px;margin-bottom:30px}
 .hatch{background:repeating-linear-gradient(115deg,rgba(28,27,25,.1) 0 2px,transparent 2px 8px)}
 
 /* ─── BENTO ─── */
-.bento{display:grid;gap:18px;grid-template-columns:repeat(3,1fr);grid-template-areas:"ai finance stocks" "overtime roadmap roadmap";}
+.bento{display:grid;gap:18px;grid-template-columns:repeat(3,1fr);grid-template-areas:"ai finance stocks" "overtime toeic toeic";}
 .card{background:rgba(255,255,255,.5);backdrop-filter:blur(12px) saturate(1.08);-webkit-backdrop-filter:blur(12px) saturate(1.08);border:1px solid rgba(255,255,255,.55);border-radius:var(--r);padding:24px;box-shadow:0 6px 30px rgba(60,50,20,.06);display:flex;flex-direction:column}
 #stocks{grid-area:stocks}
 #ai,#finance,#stocks,#overtime,#marathon{cursor:pointer;transition:transform .2s cubic-bezier(.2,.7,.3,1),box-shadow .2s,border-color .2s}
@@ -115,7 +102,7 @@ nav{display:flex;align-items:center;gap:18px;margin-bottom:30px}
 #overtime{margin:0}
 .leftstack{grid-area:overtime;display:flex;flex-direction:column;gap:18px}
 .leftstack #overtime{flex:1}
-#roadmap{grid-area:roadmap}
+#toeic{grid-area:toeic;cursor:default}
 .ck{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:18px}
 .ck-title{font-size:18px;font-weight:600;letter-spacing:-.01em;display:flex;align-items:center;gap:9px}
 .ck-sub{font-size:12.5px;color:var(--ink-soft);font-weight:500;margin-top:4px}
@@ -172,19 +159,37 @@ nav{display:flex;align-items:center;gap:18px;margin-bottom:30px}
 .mfill{height:100%;border-radius:30px;background:linear-gradient(90deg,var(--accent-deep),var(--accent));transition:width .8s cubic-bezier(.2,.7,.3,1)}
 .mfoot{display:flex;justify-content:space-between;margin-top:9px;font-size:11px;color:var(--ink-soft);font-weight:500}
 .mfoot #m-pct{color:var(--gold-ink);font-weight:700}
-#roadmap{padding:22px 24px}
-.rmhead{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
-.rmhead .t{font-size:13px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-soft)}
-.rmgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
-.rmcell{border:1px dashed var(--line-strong);border-radius:var(--r-sm);padding:15px 14px;background:rgba(255,255,255,.4);transition:.18s}
-.rmcell:hover{border-style:solid;background:#fff;transform:translateY(-2px)}
-.rmcell .mk{width:26px;height:26px;border-radius:8px;background:rgba(28,27,25,.07);display:grid;place-items:center;font-weight:600;font-size:12px;color:var(--ink-soft);margin-bottom:11px}
-.rmcell .rn{font-size:14px;font-weight:600}
-.rmcell .rd{font-size:11.5px;color:var(--ink-soft);font-weight:500;margin-top:5px;line-height:1.45}
-.rmcell .soon{font-family:var(--mono);font-size:9.5px;color:var(--ink-faint);margin-top:10px;display:inline-block}
+#toeic{padding:22px 24px;display:flex;flex-direction:column;gap:0}
+.toeic-soon{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:32px 0;text-align:center}
+.toeic-soon .ts-icon{font-size:40px;line-height:1}
+.toeic-soon .ts-title{font-size:16px;font-weight:600;color:var(--ink);letter-spacing:-.01em}
+.toeic-soon .ts-sub{font-size:12.5px;color:var(--ink-soft);line-height:1.6}
+.toeic-soon .ts-badge{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;background:rgba(244,200,74,.22);color:var(--gold-ink);border-radius:20px;padding:5px 13px;display:inline-block}
 .skl{background:linear-gradient(90deg,rgba(28,27,25,.05) 25%,rgba(28,27,25,.1) 37%,rgba(28,27,25,.05) 63%);background-size:400% 100%;animation:sk 1.4s infinite;border-radius:6px;color:transparent!important}
 @keyframes sk{0%{background-position:100% 0}100%{background-position:-100% 0}}
 .bni-loading{font-size:12.5px;color:var(--ink-faint);padding:14px 8px;font-style:italic}
+
+/* ─── DIGEST 提要式卡 ─── */
+.digest{display:flex;flex-direction:column}
+#ai .digest{flex:1;display:flex;flex-direction:column}
+#ai .dg-rest{flex:1;display:flex;flex-direction:column;justify-content:space-between}
+#finance .dg-rest{flex:1;display:flex;flex-direction:column;justify-content:space-between}
+.dg-lead{padding:2px 4px 17px;border-bottom:1px solid var(--line);margin-bottom:7px;display:flex;gap:15px;align-items:flex-start}
+.dg-thumb{width:88px;height:88px;flex-shrink:0;border-radius:14px;background-image:url("assets/ai-daily.png");background-size:cover;background-position:center;background-color:var(--bg-c)}
+.dg-leadtext{flex:1;min-width:0}
+.dg-kicker{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-ink);display:block;margin-bottom:10px}
+.dg-head{font-size:18px;font-weight:600;line-height:1.5;letter-spacing:-.01em;text-wrap:pretty}
+.dg-rest{display:flex;flex-direction:column}
+.dg-row{display:flex;gap:12px;align-items:baseline;padding:9px 4px;border-radius:11px;transition:background .15s;cursor:pointer}
+.dg-row:hover{background:var(--card-soft)}
+.dg-row .idx{padding-top:0;flex-shrink:0}
+.dg-t{font-size:14px;font-weight:500;line-height:1.5;flex:1;min-width:0;text-wrap:pretty}
+.dg-t.dark{color:var(--ink)}
+.fmark{font-size:11px;width:16px;flex-shrink:0;line-height:1.7}
+.fmark.up{color:var(--up)} .fmark.down{color:var(--down)}
+
+/* ─── MARATHON BANNER ─── */
+.m-banner{display:block;width:100%;height:118px;margin:4px 0 16px;border-radius:15px;background-image:url("assets/marathon-banner.png");background-size:cover;background-position:50% 42%;background-color:var(--bg-c)}
 
 /* ─── DETAIL MODAL ─── */
 .modal{position:fixed;inset:0;z-index:90;display:none}
@@ -347,9 +352,7 @@ nav{display:flex;align-items:center;gap:18px;margin-bottom:30px}
 
 /* ─── RESPONSIVE ─── */
 @media(max-width:1080px){
-  .bento{grid-template-columns:1fr 1fr;grid-template-areas:"ai finance" "stocks overtime" "roadmap roadmap";}
-  .rmgrid{grid-template-columns:repeat(3,1fr)}
-  .navlinks{display:none}
+  .bento{grid-template-columns:1fr 1fr;grid-template-areas:"ai finance" "stocks overtime" "toeic toeic";}
 }
 @media(max-width:760px){
   .modal-panel{width:calc(100vw - 16px);max-height:94vh;border-radius:20px}
@@ -370,14 +373,11 @@ nav{display:flex;align-items:center;gap:18px;margin-bottom:30px}
 }
 @media(max-width:680px){
   body{padding:14px 12px 28px}
-  .bento{grid-template-columns:1fr;grid-template-areas:"ai" "finance" "stocks" "overtime" "roadmap";}
-  .rmgrid{grid-template-columns:repeat(2,1fr)}
+  .bento{grid-template-columns:1fr;grid-template-areas:"ai" "finance" "stocks" "overtime" "toeic";}
   .hero{align-items:flex-start}
   .quote{width:100%;max-width:100%;text-align:left;align-self:flex-start;margin-top:8px}
   .quote .mark{font-size:26px}
   .strip{gap:12px}
-  .btn-dark{display:none}
-  .logo{padding:8px 14px 8px 10px;font-size:14px}
   /* Overtime calendar compact */
   .ot-cal{gap:4px}
   .otd{min-height:68px;padding:6px 5px 5px}
@@ -392,10 +392,6 @@ nav{display:flex;align-items:center;gap:18px;margin-bottom:30px}
 }
 @media(max-width:400px){
   .ot-sumgrid{grid-template-columns:1fr}
-  .rmgrid{grid-template-columns:1fr}
-  nav{gap:10px}
-  .icon-btn{width:36px;height:36px}
-  .avatar{width:36px;height:36px;font-size:13px}
 }
 @media(max-width:880px){.ot-sumgrid{grid-template-columns:repeat(2,1fr)}}
 </style>
@@ -415,23 +411,6 @@ nav{display:flex;align-items:center;gap:18px;margin-bottom:30px}
 </div>
 
 <div class="wrap" data-screen-label="Dashboard">
-
-  <!-- NAV -->
-  <nav>
-    <div class="logo"><span class="dot">AI</span>AutoGenAI</div>
-    <div class="navlinks">
-      <a href="#" class="active">總覽</a>
-      <a href="#">情報</a>
-      <a href="#">市場</a>
-      <a href="#">工具</a>
-      <a href="#">規劃</a>
-    </div>
-    <div class="navright">
-      <button class="btn-dark"><span style="font-size:15px">⚙</span>設定</button>
-      <button class="icon-btn"><span style="font-size:17px">♪</span><span class="bdg"></span></button>
-      <div class="avatar">M</div>
-    </div>
-  </nav>
 
   <!-- HERO -->
   <div class="hero">
@@ -465,8 +444,9 @@ nav{display:flex;align-items:center;gap:18px;margin-bottom:30px}
       <div class="ck">
         <div><div class="ck-title">AI 日報</div>
           <div class="ck-sub">AI 效率工具 · 中文自媒體選題</div></div>
+        <span class="chip gold" id="ai-count-chip">今日 — 則</span>
       </div>
-      <div class="list" id="bento-ai-list">
+      <div class="digest" id="bento-ai-list">
         <div class="bni-loading">載入中…</div>
       </div>
     </section>
@@ -480,7 +460,7 @@ nav{display:flex;align-items:center;gap:18px;margin-bottom:30px}
       <div class="idxbox"><div class="v mono" id="fin-taiex">—</div><div class="c up" id="fin-taiex-chg"></div></div>
       <div class="idxname mono" id="fin-taiex-sub">加權指數 TAIEX</div>
       <div class="shock" id="fin-shock-label">今日震撼彈</div>
-      <div class="list" id="bento-fin-list">
+      <div class="dg-rest" id="bento-fin-list">
         <div class="bni-loading">載入中…</div>
       </div>
     </section>
@@ -506,6 +486,7 @@ nav{display:flex;align-items:center;gap:18px;margin-bottom:30px}
             <div class="ck-sub mono">MARATHON · 08/02 比賽日</div></div>
           <span class="chip gold" id="m-eta">D-??</span>
         </div>
+        <div class="m-banner" role="img" aria-label="Sunshine Coast Marathon 賽道"></div>
         <div class="mbig"><span id="m-days">??</span><small>天後開跑</small></div>
         <div class="msub">2026/04/12 啟程 · <span id="m-day">計算中</span></div>
         <div class="mprog">
@@ -529,19 +510,18 @@ nav{display:flex;align-items:center;gap:18px;margin-bottom:30px}
       </section>
     </div>
 
-    <!-- ROADMAP -->
-    <section class="card" id="roadmap">
-      <div class="rmhead">
-        <div class="t">規劃中 · Roadmap</div>
-        <span class="chip ghost">6 項功能開發中</span>
+    <!-- TOEIC 佔位（功能開發中） -->
+    <section class="card" id="toeic">
+      <div class="ck">
+        <div><div class="ck-title">多益練習</div>
+          <div class="ck-sub">PART 5 · 6 · 文法與句構</div></div>
+        <span class="chip ghost">即將推出</span>
       </div>
-      <div class="rmgrid">
-        <div class="rmcell"><div class="mk">社</div><div class="rn">社群監控</div><div class="rd">輿情分析 · 熱點追蹤</div><span class="soon">Q3 規劃</span></div>
-        <div class="rmcell"><div class="mk">快</div><div class="rn">快訊中心</div><div class="rd">突發事件 · 即時推播</div><span class="soon">Q3 規劃</span></div>
-        <div class="rmcell"><div class="mk">選</div><div class="rn">選題助手</div><div class="rd">AI 分析 · 爆款預測</div><span class="soon">Q4 規劃</span></div>
-        <div class="rmcell"><div class="mk">排</div><div class="rn">排程發布</div><div class="rd">多平台 · 時段最佳化</div><span class="soon">Q4 規劃</span></div>
-        <div class="rmcell"><div class="mk">數</div><div class="rn">數據分析</div><div class="rd">流量追蹤 · 成效報告</div><span class="soon">規劃中</span></div>
-        <div class="rmcell"><div class="mk">競</div><div class="rn">競品雷達</div><div class="rd">同類帳號 · 趨勢比較</div><span class="soon">規劃中</span></div>
+      <div class="toeic-soon">
+        <div class="ts-icon">📖</div>
+        <div class="ts-title">TOEIC 文法刷題功能開發中</div>
+        <div class="ts-sub">每日練習 PART 5／6，附中文詳解<br>錯題本自動整理弱點觀念</div>
+        <span class="ts-badge">Coming Soon</span>
       </div>
     </section>
 
@@ -770,12 +750,8 @@ nav{display:flex;align-items:center;gap:18px;margin-bottom:30px}
   if(el) el.textContent = s;
 })();
 
-// ─────────────────────────────────────────────
-//  NAV
-// ─────────────────────────────────────────────
-document.querySelectorAll('.navlinks a').forEach(function(a){
-  a.onclick=function(e){e.preventDefault();document.querySelectorAll('.navlinks a').forEach(function(x){x.classList.remove('active');});a.classList.add('active');};
-});
+// cjkFont 向後相容
+try{var sv=localStorage.getItem('cjkFont');if(sv)document.documentElement.style.setProperty('--cjk',sv);}catch(e){}
 
 // ─────────────────────────────────────────────
 //  HELPERS
@@ -880,28 +856,44 @@ function initBentoNews(ch){
       archive.sort(function(a,b){return (a.date||'')<(b.date||'')?1:-1;});
       var day=archive[0];
       var secs=NEWS_SECTIONS[ch]||[];
-      var items=[];
-      for(var i=0;i<secs.length&&items.length<5;i++) items=items.concat(day[secs[i].key]||[]);
-      items=items.slice(0,5);
-      if(!items.length){el.innerHTML='<div class="bni-loading">暫無資料</div>';return;}
+
       if(ch==='finance'){
         var shocks=(day.market_shocks||[]).slice(0,3);
         var shockLabel=document.getElementById('fin-shock-label');
         if(shockLabel) shockLabel.textContent='今日 '+shocks.length+' 震撼彈';
+        if(!shocks.length){el.innerHTML='<div class="bni-loading">暫無資料</div>';return;}
         el.innerHTML=shocks.map(function(item){
           var ud=(item.tw_stock_impact||item.title||'').match(/上漲|上升|買超|利多|升息|受惠/)?'up':'down';
-          return '<div class="row"><span class="idx '+ud+'">!</span><div class="body">'+
-            '<div class="h">'+esc(item.title||'')+'</div>'+
-            ((item.sources&&item.sources.length)?'<div class="meta">'+item.sources.slice(0,1).map(function(s){return esc(s.name||s);}).join('')+'</div>':'')+
-            '</div></div>';
+          return '<div class="dg-row">'+
+            '<span class="fmark '+ud+'">'+(ud==='up'?'▲':'▼')+'</span>'+
+            '<span class="dg-t dark">'+esc(item.title||'')+'</span>'+
+            '</div>';
         }).join('');
       } else {
-        el.innerHTML=items.map(function(item,i){
-          return '<div class="row"><span class="idx">'+String(i+1).padStart(2,'0')+'</span>'+
-            '<div class="body"><div class="h">'+esc(item.title||'')+'</div>'+
-            ((item.sources&&item.sources.length)?'<div class="meta">'+item.sources.slice(0,2).map(function(s){return esc(s.name||s);}).join('<span class="d"></span>')+'</div>':'')+
-            '</div></div>';
-        }).join('');
+        var items=[];
+        for(var i=0;i<secs.length&&items.length<5;i++) items=items.concat(day[secs[i].key]||[]);
+        items=items.slice(0,5);
+        if(!items.length){el.innerHTML='<div class="bni-loading">暫無資料</div>';return;}
+        var chip=document.getElementById('ai-count-chip');
+        if(chip) chip.textContent='今日 '+items.length+' 則';
+        var lead=items[0];
+        var rest=items.slice(1,4);
+        el.innerHTML=
+          '<div class="dg-lead">'+
+            '<div class="dg-thumb" role="img" aria-label="AI Daily"></div>'+
+            '<div class="dg-leadtext">'+
+              '<span class="dg-kicker">今日精選</span>'+
+              '<div class="dg-head">'+esc(lead.title||'')+'</div>'+
+            '</div>'+
+          '</div>'+
+          '<div class="dg-rest">'+
+            rest.map(function(item,i){
+              return '<div class="dg-row">'+
+                '<span class="idx">'+String(i+2).padStart(2,'0')+'</span>'+
+                '<span class="dg-t">'+esc(item.title||'')+'</span>'+
+                '</div>';
+            }).join('')+
+          '</div>';
       }
     })
     .catch(function(){el.innerHTML='<div class="bni-loading">暫無資料</div>';});
