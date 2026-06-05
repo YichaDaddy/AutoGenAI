@@ -868,7 +868,6 @@ a{color:inherit;text-decoration:none}
         </div>
         <div class="wl-status">
           <span class="chip ghost" id="tqm-stat">已完成 0 / 9</span>
-          <button class="wl-refresh" id="tqm-reset"><span class="rfi">↺</span>重作</button>
         </div>
       </div>
       <div class="modal-body" id="tqm-body"></div>
@@ -1879,7 +1878,6 @@ fetch('stocks.json?'+Date.now())
     document.querySelectorAll('#tqm-seg .tab').forEach(x=>x.classList.remove('on'));t.classList.add('on');
     mPart=t.dataset.mpart;body.scrollTop=0;renderModal();
   });
-  document.getElementById('tqm-reset').onclick=()=>{Object.assign(st,defState());save();fbTPush();i5=0;b6=0;renderAll();};
 
   // ── Init ───────────────────────────────────
   fbTPull().then(fbData=>{
