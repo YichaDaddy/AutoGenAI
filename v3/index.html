@@ -1579,255 +1579,297 @@ fetch('stocks.json?'+Date.now())
 // ─────────────────────────────────────────────
 (function(){
   const L=['A','B','C','D'];
-  const P5=[
-    {tag:'副詞 · 詞性',
-     pre:'All staff must submit their expense reports ', post:' to receive reimbursement on time.',
-     opts:['prompt','promptly','promptness','prompted'], ans:1,
-     zh:'所有員工必須即時提交核銷報告，才能準時收到核銷款項。',
-     why:'空格修飾動詞 <b>submit</b>，需用副詞。(B) promptly「即時地」正確；(A) 形容詞、(C) 名詞、(D) 過去分詞皆不能修飾動詞。'},
-    {tag:'介系詞',
-     pre:'Please make sure all the contracts are signed and returned ', post:' Friday afternoon.',
-     opts:['until','by','since','for'], ans:1,
-     zh:'請確保所有合約在週五下午前完成簽署並寄回。',
-     why:'表「在某時間點前完成」用 <b>by</b>。until 強調動作「持續到」某時；since 接過去時間點搭配完成式；for 接一段期間。'},
-    {tag:'主詞動詞一致',
-     pre:'Neither the director nor the assistants ', post:' available for the afternoon briefing.',
-     opts:['is','was','are','being'], ans:2,
-     zh:'經理和助理們下午的簡報都無法出席。',
-     why:'Neither A nor B 採「就近原則」，動詞與較近的主詞 <b>assistants</b>（複數）一致，故用 are。'},
-    {tag:'動詞語意 · 搭配',
-     pre:'The upgraded system helps employees ', post:' their daily workflow and cut processing time.',
-     opts:['streamline','decline','withdraw','postpone'], ans:0,
-     zh:'升級後的系統協助員工簡化日常工作流程並縮短處理時間。',
-     why:'依語意需「簡化流程」，<b>streamline</b>（使精簡流暢）最貼切；decline 婉拒／下降、withdraw 撤回、postpone 延後皆不合。'},
-    {tag:'連接詞',
-     pre:'', post:' the shipment clears customs, our team will begin inspection immediately.',
-     opts:['Despite','During','Once','Although'], ans:2,
-     zh:'貨物一通關，我們團隊就會立即開始檢驗。',
-     why:'空格引導時間副詞子句，<b>Once</b>「一旦…就」最合語意；Despite／During 後須接名詞而非子句；Although 表讓步語意不符。'},
-  ];
-  const P6={
-    title:'Internal Memo — Office Relocation',
-    seg:[
-      ['Please be advised that the east wing of our building will undergo renovation beginning next Monday. During this period, employees on the third floor ',{b:0},' to the temporary workspace on the fifth floor.'],
-      ['The work is expected to last about three weeks. ',{b:1},', all meeting rooms on the third floor will remain closed, so staff are encouraged to reserve alternative rooms through the online booking system.'],
-      ['We sincerely appreciate your ',{b:2},' during this transition. ',{b:3}],
-    ],
-    blanks:[
-      {tag:'動詞 · 時態語態', col1:true, opts:['will be relocated','relocated','are relocating','have relocated'], ans:0,
-       zh:'三樓員工將被遷移至五樓的臨時辦公區。',
-       why:'句意為未來、且員工是「被」安排遷移，需未來被動式 <b>will be relocated</b>；其餘選項時態或語態皆不符。'},
-      {tag:'轉折語', col1:true, opts:['In the meantime','However','For instance','On the contrary'], ans:0,
-       zh:'在這段期間，三樓所有會議室將維持關閉。',
-       why:'前後是「施工期間同時發生的安排」，用 <b>In the meantime</b>「在此期間」承接；However 表轉折、For instance 舉例、On the contrary 表相反皆不符。'},
-      {tag:'名詞 · 詞性', col1:true, opts:['patience','patient','patiently','patients'], ans:0,
-       zh:'我們由衷感謝您在這段過渡期的耐心。',
-       why:'appreciate your ___ 需名詞作受詞，<b>patience</b>「耐心」（不可數）正確；patient 形容詞／病人、patiently 副詞、patients 複數可數皆不合。'},
-      {tag:'句子插入', col1:true, opts:['Please direct any questions to the Facilities team.','The new café will open early next month.','Quarterly sales have exceeded all expectations.','Visitor parking permits are no longer required.'], ans:0,
-       zh:'如有任何問題，請逕洽總務團隊。',
-       why:'文末需與「搬遷通知」主題連貫的收尾句，<b>(A)</b> 引導讀者提問最合宜；其餘選項與通知主題無關。'},
-    ]
-  };
-  const NOTES={
-    '副詞 · 詞性':'修飾<b>動詞、形容詞或整句</b>時用副詞（常見字尾 -ly）。空格緊鄰動詞 → 先想副詞；名詞前才用形容詞。',
-    '介系詞':'<b>by</b>＝某時間點前「完成」；<b>until</b>＝動作「持續到」某時；since＋過去時間點配完成式；for＋一段期間。',
-    '主詞動詞一致':'either/neither…nor、not only…but also 連接主詞時用<b>就近原則</b>，動詞跟「較近的主詞」一致。',
-    '動詞語意 · 搭配':'選項詞性相同時看<b>語意搭配</b>。先抓句子要表達的動作方向，再選最貼切的字（如 streamline＝使流程精簡）。',
-    '連接詞':'引導<b>子句</b>用連接詞（once、although、while）；<b>despite / during</b> 後面只能接名詞片語，不能接子句。',
-    '動詞 · 時態語態':'先判斷<b>時態</b>（未來／過去）再判斷<b>語態</b>。主詞是被安排的對象 → 被動；指向未來 → will be ＋ p.p.。',
-    '轉折語':'<b>In the meantime</b>＝同期間同時發生；However＝轉折；For instance＝舉例；On the contrary＝相反。依前後邏輯選。',
-    '名詞 · 詞性':'動詞或所有格後缺受詞 → 用<b>名詞</b>。注意可數/不可數：patience 不可數、patient 是形容詞或「病人」。',
-    '句子插入':'Part 6 插入句要與<b>上下文主題連貫</b>，留意指代詞與時間邏輯，選能承上啟下、呼應段落主旨的句子。',
-  };
+  const KEY='toeic-v2';
+  const QURL='../skills/toeic/questions.json';
+  const TOTAL_P5=5, TOTAL_P6B=4;
 
-  const KEY='toeic-state';
-  let st={p5:{},p6:{},dismissed:{},daily:{}};
-  try{const s=localStorage.getItem(KEY);if(s)st=Object.assign(st,JSON.parse(s));}catch(e){}
-  st.dismissed=st.dismissed||{}; st.daily=st.daily||{};
+  // ── State ──────────────────────────────────
+  const defState=()=>({currentSet:null,answers:{},wrongBank:{},wrongBankP6:{},dismissed:{},dismissedP6:{},daily:{}});
+  let st=defState();
+  try{const s=localStorage.getItem(KEY);if(s){const p=JSON.parse(s);st=Object.assign(defState(),p);}}catch(e){}
   const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(st));}catch(e){}};
-  let i5=0, b6=0, mPart='5';
-  const today=()=>new Date().toISOString().slice(0,10);
+  const todayStr=()=>new Date().toISOString().slice(0,10);
 
-  function optsBlock(part,qi,q,sel){
+  // ── Firebase ───────────────────────────────
+  function fbTPull(){
+    const c=getSyncCode();if(!c)return Promise.resolve(null);
+    return fetch(FB_DB+'/toeic/'+encodeURIComponent(c)+'.json').then(r=>r.ok?r.json():null).catch(()=>null);
+  }
+  function fbTPush(){
+    const c=getSyncCode();if(!c)return;
+    fetch(FB_DB+'/toeic/'+encodeURIComponent(c)+'.json',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify(st)}).catch(()=>{});
+  }
+
+  // ── Day-change logic ───────────────────────
+  function applyDayChange(newQ){
+    const today=todayStr();
+    if(!st.currentSet){
+      st.currentSet={date:today,p5:(newQ.p5||[]).slice(0,TOTAL_P5),p6:newQ.p6||null};
+      save();return;
+    }
+    if(st.currentSet.date===today)return;
+    const prevP5=st.currentSet.p5||[];
+    const prevP6=st.currentSet.p6;
+    const p5HasAns=prevP5.some(q=>st.answers[q.id]!=null);
+    const p6HasAns=prevP6&&[0,1,2,3].some(i=>st.answers[prevP6.id+'-'+i]!=null);
+    if(!p5HasAns&&!p6HasAns){st.currentSet.date=today;save();return;}
+    // Build new P5: wrongBank (oldest first) → carryover unanswered → fresh questions
+    const wrongItems=Object.values(st.wrongBank).filter(q=>!st.dismissed[q.id])
+      .sort((a,b)=>(a.addedDate||'').localeCompare(b.addedDate||''));
+    const carryover=prevP5.filter(q=>st.answers[q.id]==null);
+    const usedIds=new Set([...wrongItems.map(q=>q.id),...carryover.map(q=>q.id)]);
+    const fresh=(newQ.p5||[]).filter(q=>!usedIds.has(q.id));
+    const newP5=[...wrongItems,...carryover,...fresh].slice(0,TOTAL_P5);
+    const newP6=p6HasAns?newQ.p6:prevP6;
+    st.currentSet={date:today,p5:newP5,p6:newP6};
+    i5=0;b6=0;
+    save();
+  }
+
+  // ── Helpers ────────────────────────────────
+  function optsBlock(part,qid,q,sel){
     const locked=sel!=null;
-    return `<div class="tq-opts${q.col1?' col1':''}${locked?' locked':''}">`+q.opts.map((o,k)=>{
-      let cls='';if(locked){if(k===q.ans)cls=' correct';else if(k===sel)cls=' wrong';}
-      return `<button class="tq-opt${cls}" data-part="${part}" data-q="${qi}" data-o="${k}"><span class="tq-key">${L[k]}</span>${o}</button>`;
-    }).join('')+`</div>`;
+    return `<div class="tq-opts${q.col1?' col1':''}${locked?' locked':''}">`
+      +q.opts.map((o,k)=>{let cls='';if(locked){if(k===q.ans)cls=' correct';else if(k===sel)cls=' wrong';}
+        return `<button class="tq-opt${cls}" data-part="${part}" data-qid="${qid}" data-o="${k}"><span class="tq-key">${L[k]}</span>${o}</button>`;
+      }).join('')+'</div>';
   }
   function expBlock(q,sel){
-    if(sel==null) return '';
+    if(sel==null)return '';
     const ok=sel===q.ans;
     return `<div class="tq-exp"><div class="ex-l"><span class="res ${ok?'ok':'ng'}">${ok?'✓ 答對':'✕ 答錯'}</span><span class="ex-ans">正解 ${L[q.ans]} · ${q.opts[q.ans]}</span></div><div class="ex-zh">${q.zh}</div><div class="ex-why">${q.why}</div></div>`;
   }
-  function passage(active){
-    let h=`<div class="tq6-ptitle">${P6.title}</div>`;
-    P6.seg.forEach(line=>{h+='<p>';line.forEach(part=>{
+  function passage(p6obj,active){
+    if(!p6obj)return '';
+    let h=`<div class="tq6-ptitle">${p6obj.title}</div>`;
+    (p6obj.seg||[]).forEach(line=>{h+='<p>';line.forEach(part=>{
       if(typeof part==='string'){h+=part;return;}
-      const bi=part.b, done=st.p6[bi]!=null;
-      const cls='pblank'+(bi===active?' active':'')+(done?' done':'');
-      h+=`<span class="${cls}" data-b="${bi}">(${bi+1})</span>`;
+      const bi=part.b,ans=st.answers[(p6obj.id||'')+'-'+bi];
+      const done=ans!=null;
+      h+=`<span class="pblank${bi===active?' active':''}${done?' done':''}" data-b="${bi}">(${bi+1})</span>`;
     });h+='</p>';});
     return h;
   }
 
-  const answered=()=>Object.keys(st.p5).length+Object.keys(st.p6).length;
-  const score5=()=>Object.keys(st.p5).filter(k=>+st.p5[k]===P5[k].ans).length;
-  const Q=(part,k)=>part==='5'?P5[k]:P6.blanks[k];
+  // ── Stats ──────────────────────────────────
+  const getP5Qs=()=>st.currentSet?.p5||[];
+  const p5CorrectCnt=()=>getP5Qs().filter(q=>st.answers[q.id]?.correct).length;
+  const p5AnsweredCnt=()=>getP5Qs().filter(q=>st.answers[q.id]!=null).length;
+  function p6AnsweredCnt(){const p6=st.currentSet?.p6;if(!p6)return 0;return[0,1,2,3].filter(i=>st.answers[p6.id+'-'+i]!=null).length;}
+  function p6CorrectCnt(){const p6=st.currentSet?.p6;if(!p6)return 0;return[0,1,2,3].filter(i=>st.answers[p6.id+'-'+i]?.correct).length;}
+  const totalAnswered=()=>p5AnsweredCnt()+p6AnsweredCnt();
+  const totalCorrect=()=>p5CorrectCnt()+p6CorrectCnt();
+  const wrongP5Items=()=>Object.values(st.wrongBank).filter(q=>!st.dismissed[q.id]);
+  const wrongP6Items=()=>Object.values(st.wrongBankP6).filter(p=>!st.dismissedP6[p.id]);
+  function stats(){const ans=totalAnswered(),correct=totalCorrect();return{ans,correct,rate:ans?Math.round(correct/ans*100):0,pending:wrongP5Items().length+wrongP6Items().length,mastered:Object.keys(st.dismissed).length+Object.keys(st.dismissedP6).length};}
+  function logAnswer(ok){const d=todayStr();st.daily[d]=st.daily[d]||{c:0,w:0};ok?st.daily[d].c++:st.daily[d].w++;}
 
-  function wrongItems(){
-    const out=[];
-    Object.keys(st.p5).forEach(k=>{const q=P5[k];if(+st.p5[k]!==q.ans&&!st.dismissed['5-'+k])out.push({part:'5',k:+k,q,sel:+st.p5[k]});});
-    Object.keys(st.p6).forEach(k=>{const q=P6.blanks[k];if(+st.p6[k]!==q.ans&&!st.dismissed['6-'+k])out.push({part:'6',k:+k,q,sel:+st.p6[k]});});
-    return out;
-  }
-  function weakness(){
-    const m={};wrongItems().forEach(it=>{m[it.q.tag]=(m[it.q.tag]||0)+1;});
-    return Object.entries(m).sort((a,b)=>b[1]-a[1]);
-  }
-  function stats(){
-    const ans=answered();
-    let correct=Object.keys(st.p5).filter(k=>+st.p5[k]===P5[k].ans).length
-               +Object.keys(st.p6).filter(k=>+st.p6[k]===P6.blanks[k].ans).length;
-    const mastered=Object.keys(st.dismissed).length;
-    return {ans,correct,rate:ans?Math.round(correct/ans*100):0,pending:wrongItems().length,mastered};
-  }
-  function logAnswer(ok){const d=today();st.daily[d]=st.daily[d]||{c:0,w:0};ok?st.daily[d].c++:st.daily[d].w++;}
-
-  const v5=document.getElementById('tq-v5'), v6=document.getElementById('tq-v6');
-
-  function renderP5(){
-    const q=P5[i5], sel=st.p5[i5]==null?null:+st.p5[i5];
-    const stem=q.pre+`<span class="tq-blank${sel!=null?' done':''}">${sel!=null?q.opts[q.ans]:'?'}</span>`+q.post;
-    v5.innerHTML=`<div class="tq-meta"><span class="tq-tag">${q.tag}</span><span class="tq-count">第 ${i5+1} / ${P5.length} 題</span></div>`
-      +`<div class="tq-stem">${stem}</div>`+optsBlock('5',i5,q,sel)+expBlock(q,sel)
-      +`<div class="tq-nav"><button class="tq-navbtn" data-nav="prev"${i5===0?' disabled':''}>← 上一題</button>`
-      +`<button class="tq-navbtn primary" data-nav="next"${i5===P5.length-1?' disabled':''}>下一題 →</button>`
-      +`<span class="tq-score">答對 <b>${score5()}</b> / ${Object.keys(st.p5).length}</span></div>`;
-  }
-  function renderP6(){
-    document.getElementById('tq6-passage').innerHTML=passage(b6);
-    const q=P6.blanks[b6], sel=st.p6[b6]==null?null:+st.p6[b6];
-    document.getElementById('tq6-side').innerHTML=
-      `<div class="tq6-bnav">${P6.blanks.map((_,i)=>`<button class="tq6-bn${i===b6?' active':''}${st.p6[i]!=null?' done':''}" data-bn="${i}">${i+1}</button>`).join('')}</div>`
-      +`<div class="tq-meta"><span class="tq-tag">${q.tag}</span><span class="tq-count">第 ${b6+1} 格 / ${P6.blanks.length}</span></div>`
-      +optsBlock('6',b6,q,sel)+expBlock(q,sel);
-  }
-  function renderProgress(){
-    const t=`已完成 ${answered()} / ${P5.length+P6.blanks.length}`;
-    const a=document.getElementById('tq-progress'); if(a)a.textContent=t;
-    const b=document.getElementById('tqm-stat'); if(b)b.textContent=t;
-    const w=document.getElementById('tq-wrongn'); if(w)w.textContent=stats().pending;
-  }
-
+  // ── Render ─────────────────────────────────
+  let i5=0,b6=0,mPart='5';
+  const v5=document.getElementById('tq-v5'),v6=document.getElementById('tq-v6');
   const tqModal=document.getElementById('modal-toeic');
   const body=document.getElementById('tqm-body');
 
+  function renderP5(){
+    const qs=getP5Qs();
+    if(!qs.length){v5.innerHTML='<div class="rv-empty mini"><div class="ei">📖</div><div class="et">今日題目載入中</div><div class="ed">請稍候，或重新整理頁面。</div></div>';return;}
+    if(i5>=qs.length)i5=0;
+    const q=qs[i5],ans=st.answers[q.id],sel=ans!=null?ans.sel:null;
+    const stem=q.pre+`<span class="tq-blank${sel!=null?' done':''}">${sel!=null?q.opts[q.ans]:'?'}</span>`+q.post;
+    v5.innerHTML=`<div class="tq-meta"><span class="tq-tag">${q.tag}</span><span class="tq-count">第 ${i5+1} / ${qs.length} 題</span></div>`
+      +`<div class="tq-stem">${stem}</div>`+optsBlock('5',q.id,q,sel)+expBlock(q,sel)
+      +`<div class="tq-nav"><button class="tq-navbtn" data-nav="prev"${i5===0?' disabled':''}>← 上一題</button>`
+      +`<button class="tq-navbtn primary" data-nav="next"${i5===qs.length-1?' disabled':''}>下一題 →</button>`
+      +`<span class="tq-score">答對 <b>${p5CorrectCnt()}</b> / ${p5AnsweredCnt()}</span></div>`;
+  }
+  function renderP6(){
+    const p6=st.currentSet?.p6;
+    if(!p6){document.getElementById('tq6-passage').innerHTML='<div class="bni-loading">題組載入中…</div>';document.getElementById('tq6-side').innerHTML='';return;}
+    document.getElementById('tq6-passage').innerHTML=passage(p6,b6);
+    const q=p6.blanks[b6],ans=st.answers[p6.id+'-'+b6],sel=ans!=null?ans.sel:null;
+    document.getElementById('tq6-side').innerHTML=
+      `<div class="tq6-bnav">${p6.blanks.map((_,i)=>{const a=st.answers[p6.id+'-'+i];return`<button class="tq6-bn${i===b6?' active':''}${a!=null?' done':''}" data-bn="${i}">${i+1}</button>`;}).join('')}</div>`
+      +`<div class="tq-meta"><span class="tq-tag">${q.tag}</span><span class="tq-count">第 ${b6+1} 格 / ${p6.blanks.length}</span></div>`
+      +optsBlock('6',p6.id+'-'+b6,q,sel)+expBlock(q,sel);
+  }
+  function renderProgress(){
+    const t=`已完成 ${totalAnswered()} / ${TOTAL_P5+TOTAL_P6B}`;
+    const a=document.getElementById('tq-progress');if(a)a.textContent=t;
+    const b=document.getElementById('tqm-stat');if(b)b.textContent=t;
+    const w=document.getElementById('tq-wrongn');if(w)w.textContent=stats().pending;
+  }
   function renderModal(){
     if(mPart==='review'){renderReview();return;}
     if(mPart==='5'){
-      body.innerHTML='<div class="bcards">'+P5.map((q,k)=>{
-        const sel=st.p5[k]==null?null:+st.p5[k];
+      const qs=getP5Qs();
+      body.innerHTML='<div class="bcards">'+qs.map((q,k)=>{
+        const ans=st.answers[q.id],sel=ans!=null?ans.sel:null;
         const stem=q.pre+`<span class="tq-blank${sel!=null?' done':''}">${sel!=null?q.opts[q.ans]:'?'}</span>`+q.post;
-        return `<div class="tqm-q"><div class="tq-meta"><span class="tq-tag">${q.tag}</span><span class="tq-count">第 ${k+1} 題</span></div><div class="tq-stem">${stem}</div>${optsBlock('5',k,q,sel)}${expBlock(q,sel)}</div>`;
+        return `<div class="tqm-q"><div class="tq-meta"><span class="tq-tag">${q.tag}</span><span class="tq-count">第 ${k+1} 題</span></div><div class="tq-stem">${stem}</div>${optsBlock('5',q.id,q,sel)}${expBlock(q,sel)}</div>`;
       }).join('')+'</div>';
     }else{
-      body.innerHTML='<div class="tqm-split"><div class="tqm-passage">'+passage(-1)+'</div><div class="tqm-qs">'
-        +P6.blanks.map((q,k)=>{const sel=st.p6[k]==null?null:+st.p6[k];
-          return `<div class="tqm-q"><div class="tq-meta"><span class="tq-tag">${q.tag}</span><span class="tq-count">第 ${k+1} 格</span></div>${optsBlock('6',k,q,sel)}${expBlock(q,sel)}</div>`;
+      const p6=st.currentSet?.p6;
+      if(!p6){body.innerHTML='<div class="bni-loading">題組載入中…</div>';return;}
+      body.innerHTML='<div class="tqm-split"><div class="tqm-passage">'+passage(p6,-1)+'</div><div class="tqm-qs">'
+        +p6.blanks.map((q,k)=>{const ans=st.answers[p6.id+'-'+k],sel=ans!=null?ans.sel:null;
+          return `<div class="tqm-q"><div class="tq-meta"><span class="tq-tag">${q.tag}</span><span class="tq-count">第 ${k+1} 格</span></div>${optsBlock('6',p6.id+'-'+k,q,sel)}${expBlock(q,sel)}</div>`;
         }).join('')+'</div></div>';
     }
   }
-
   function renderReview(){
-    const s=stats(), wrong=wrongItems(), weak=weakness();
+    const s=stats();
     let h='<div class="rv-stats">'
       +`<div class="rv-stat"><div class="n">${s.rate}<span>%</span></div><div class="l">正確率</div><div class="sub">${s.correct} / ${s.ans} 題</div></div>`
       +`<div class="rv-stat warn"><div class="n">${s.pending}</div><div class="l">待複習錯題</div><div class="sub">尚未克服</div></div>`
       +`<div class="rv-stat ok"><div class="n">${s.mastered}</div><div class="l">已克服</div><div class="sub">標記為已懂</div></div>`
       +'</div>';
     if(s.ans===0){
-      body.innerHTML=h+'<div class="rv-empty"><div class="ei">✎</div><div class="et">還沒有作答紀錄</div><div class="ed">先到 PART 5 / PART 6 練習幾題，答錯的題目會自動收進這裡，並依文法觀念分類。</div></div>';
+      body.innerHTML=h+'<div class="rv-empty"><div class="ei">✎</div><div class="et">還沒有作答紀錄</div><div class="ed">先到 PART 5 / PART 6 練習幾題，答錯的題目會自動收進這裡。</div></div>';
       return;
     }
+    // 7-day trend
     const days=[];for(let i=6;i>=0;i--){const dt=new Date();dt.setDate(dt.getDate()-i);days.push(dt);}
     const wk=['日','一','二','三','四','五','六'];
     const dmax=Math.max(1,...days.map(dt=>{const d=st.daily[dt.toISOString().slice(0,10)];return d?d.c+d.w:0;}));
     h+='<div class="rv-sec"><div class="rv-sec-t">近 7 日作答趨勢</div><div class="rv-trend">'
-      +days.map(dt=>{const key=dt.toISOString().slice(0,10),d=st.daily[key]||{c:0,w:0},tot=d.c+d.w,isToday=key===today();
+      +days.map(dt=>{const key=dt.toISOString().slice(0,10),d=st.daily[key]||{c:0,w:0},tot=d.c+d.w,isToday=key===todayStr();
         return `<div class="rv-tcol${isToday?' now':''}"><div class="rv-tbars" title="${tot} 題">`
           +(tot?`${d.w?`<span class="rv-tw" style="height:${Math.round(d.w/dmax*100)}%"></span>`:''}${d.c?`<span class="rv-tc" style="height:${Math.round(d.c/dmax*100)}%"></span>`:''}`:'<span class="rv-t0"></span>')
           +`</div><div class="rv-tn">${tot||''}</div><div class="rv-td">${wk[dt.getDay()]}</div></div>`;}).join('')
       +'</div><div class="rv-tlegend"><span><i class="lc"></i>答對</span><span><i class="lw"></i>答錯</span></div></div>';
-    if(weak.length){
-      const max=weak[0][1];
-      h+='<div class="rv-sec"><div class="rv-sec-t">弱點觀念 · Top '+Math.min(3,weak.length)+'</div><div class="rv-weak">'
+    // P5 wrong items
+    const wP5=wrongP5Items();
+    if(wP5.length){
+      const tagMap={};wP5.forEach(q=>{tagMap[q.tag]=(tagMap[q.tag]||0)+1;});
+      const weak=Object.entries(tagMap).sort((a,b)=>b[1]-a[1]),max=weak[0][1];
+      h+='<div class="rv-sec"><div class="rv-sec-t">弱點觀念 · PART 5</div><div class="rv-weak">'
         +weak.slice(0,3).map(([tag,n],i)=>`<div class="rv-wrow"><span class="rv-rank">${i+1}</span><span class="rv-wtag">${tag}</span><div class="rv-wbar"><span style="width:${Math.round(n/max*100)}%"></span></div><span class="rv-wn">錯 ${n}</span></div>`).join('')
         +'</div></div>';
-      h+='<div class="rv-sec"><div class="rv-sec-t">文法觀念筆記 · 依錯題自動生成</div><div class="rv-notes">'
-        +weak.map(([tag])=>`<div class="rv-note"><div class="rn-h"><span class="tq-tag">${tag}</span></div><div class="rn-b">${NOTES[tag]||''}</div></div>`).join('')
-        +'</div></div>';
+      h+='<div class="rv-sec"><div class="rv-sec-t">PART 5 錯題清單 <span class="rv-c">'+wP5.length+' 題待複習</span></div><div class="rv-list">'
+        +wP5.map(q=>{
+          const ans=st.answers[q.id],sel=ans!=null?ans.sel:null;
+          const stem=q.pre+`<span class="tq-blank">${q.opts[q.ans]}</span>`+q.post;
+          return `<div class="rv-card"><div class="tq-meta"><span class="tq-tag">${q.tag}</span><span class="tq-count">${q.addedDate||''} 練習</span></div>`
+            +`<div class="rv-stem">${stem}</div>`
+            +(sel!=null?`<div class="rv-ab"><span class="rv-yours">你的答案 ${L[sel]} · ${q.opts[sel]}</span><span class="rv-right">正解 ${L[q.ans]} · ${q.opts[q.ans]}</span></div>`:'')
+            +`<div class="rv-zh">${q.zh}</div><div class="rv-why">${q.why}</div>`
+            +`<div class="rv-acts"><button class="rv-btn primary" data-retest-p5="${q.id}">再測一次</button><button class="rv-btn" data-master-p5="${q.id}">移除（已懂）</button></div></div>`;
+        }).join('')+'</div></div>';
     }
-    h+='<div class="rv-sec"><div class="rv-sec-t">錯題清單 <span class="rv-c">'+wrong.length+' 題待複習</span></div>';
-    if(!wrong.length){
-      h+='<div class="rv-empty mini"><div class="ei">✓</div><div class="et">目前沒有待複習的錯題</div><div class="ed">太強了！答錯或標記重練的題目會出現在這裡。</div></div>';
-    }else{
-      h+='<div class="rv-list">'+wrong.map(it=>{
-        const q=it.q, isP5=it.part==='5';
-        const stem=isP5?(q.pre+`<span class="tq-blank">${q.opts[q.ans]}</span>`+q.post)
-                       :`<span class="rv-ctx">${P6.title} · 第 ${it.k+1} 格</span>`;
-        return `<div class="rv-card"><div class="tq-meta"><span class="tq-tag">${q.tag}</span><span class="tq-count">PART ${it.part}</span></div>`
-          +`<div class="rv-stem">${stem}</div>`
-          +`<div class="rv-ab"><span class="rv-yours">你的答案 ${L[it.sel]} · ${q.opts[it.sel]}</span><span class="rv-right">正解 ${L[q.ans]} · ${q.opts[q.ans]}</span></div>`
-          +`<div class="rv-zh">${q.zh}</div><div class="rv-why">${q.why}</div>`
-          +`<div class="rv-acts"><button class="rv-btn primary" data-retest="${it.part}-${it.k}">再測一次</button><button class="rv-btn" data-master="${it.part}-${it.k}">移除（已懂）</button></div></div>`;
-      }).join('')+'</div>';
+    // P6 wrong items
+    const wP6=wrongP6Items();
+    if(wP6.length){
+      h+='<div class="rv-sec"><div class="rv-sec-t">PART 6 錯誤題組 <span class="rv-c">'+wP6.length+' 組待複習</span></div><div class="rv-list">'
+        +wP6.map(p6=>`<div class="rv-card"><div class="tq-meta"><span class="tq-tag">PART 6 · 段落填空</span><span class="tq-count">${p6.addedDate||''} 練習</span></div>`
+          +`<div class="rv-zh" style="margin-bottom:6px">${p6.title}</div>`
+          +`<div class="rv-ab">${(p6.wrongBlanks||[]).map(i=>`<span class="rv-yours">第 ${i+1} 格答錯</span>`).join('')}</div>`
+          +`<div class="rv-acts"><button class="rv-btn primary" data-retest-p6="${p6.id}">再測一次</button><button class="rv-btn" data-master-p6="${p6.id}">移除（已懂）</button></div></div>`
+        ).join('')+'</div></div>';
     }
-    h+='</div>';
+    if(!wP5.length&&!wP6.length){
+      h+='<div class="rv-empty mini"><div class="ei">✓</div><div class="et">目前沒有待複習的錯題</div><div class="ed">太強了！答錯的題目會自動出現在這裡。</div></div>';
+    }
     body.innerHTML=h;
   }
-
   function renderAll(){renderP5();renderP6();renderProgress();if(tqModal&&tqModal.classList.contains('open'))renderModal();}
 
+  // ── Event: answer ──────────────────────────
   document.addEventListener('click',e=>{
-    const opt=e.target.closest('.tq-opt'); if(!opt) return;
-    const part=opt.dataset.part, q=+opt.dataset.q, o=+opt.dataset.o;
-    const store=part==='5'?st.p5:st.p6;
-    if(store[q]!=null) return;
-    store[q]=o; logAnswer(o===Q(part,q).ans);
-    if(o===Q(part,q).ans) delete st.dismissed[part+'-'+q];
-    save(); renderAll();
+    const opt=e.target.closest('.tq-opt');if(!opt)return;
+    const part=opt.dataset.part,qid=opt.dataset.qid,o=+opt.dataset.o;
+    if(st.answers[qid]!=null)return;
+    let q=null;
+    if(part==='5'){
+      q=getP5Qs().find(x=>x.id===qid);
+    }else{
+      const p6=st.currentSet?.p6;if(!p6)return;
+      const bi=+qid.split('-').pop();
+      q=p6.blanks[bi];
+    }
+    if(!q)return;
+    const correct=o===q.ans;
+    st.answers[qid]={sel:o,correct};
+    logAnswer(correct);
+    if(part==='5'){
+      if(!correct){st.wrongBank[qid]=Object.assign({},q,{addedDate:todayStr()});}
+      else{delete st.wrongBank[qid];}
+    }else{
+      const p6=st.currentSet.p6,bi=+qid.split('-').pop();
+      if(!correct){
+        if(!st.wrongBankP6[p6.id])st.wrongBankP6[p6.id]=Object.assign({},p6,{addedDate:todayStr(),wrongBlanks:[]});
+        if(!st.wrongBankP6[p6.id].wrongBlanks.includes(bi))st.wrongBankP6[p6.id].wrongBlanks.push(bi);
+      }else if(st.wrongBankP6[p6.id]){
+        st.wrongBankP6[p6.id].wrongBlanks=st.wrongBankP6[p6.id].wrongBlanks.filter(x=>x!==bi);
+        if(st.wrongBankP6[p6.id].wrongBlanks.length===0)delete st.wrongBankP6[p6.id];
+      }
+    }
+    save();fbTPush();renderAll();
   });
 
+  // ── Event: review actions ──────────────────
   body.addEventListener('click',e=>{
-    const m=e.target.closest('[data-master]'), r=e.target.closest('[data-retest]');
-    if(m){st.dismissed[m.dataset.master]=1;save();renderReview();renderProgress();return;}
-    if(r){const [p,k]=r.dataset.retest.split('-');
-      (p==='5'?st.p5:st.p6)[k]=undefined; delete (p==='5'?st.p5:st.p6)[k];
-      delete st.dismissed[p+'-'+k]; save();
-      setSeg(p); mPart=p;
-      if(p==='5'){i5=+k;}else{b6=+k;}
-      closeTQ();
-      document.querySelectorAll('#tq-seg .tab').forEach(x=>x.classList.toggle('on',x.dataset.part===p));
-      v5.hidden=p!=='5'; v6.hidden=p==='5';
+    const rp5=e.target.closest('[data-retest-p5]');
+    if(rp5){
+      const qid=rp5.dataset.retestP5;
+      delete st.answers[qid];delete st.dismissed[qid];
+      const qs=getP5Qs();let idx=qs.findIndex(q=>q.id===qid);
+      if(idx<0){
+        const q=st.wrongBank[qid];if(q){
+          const ci=qs.findIndex(qq=>st.answers[qq.id]?.correct);
+          if(ci>=0)st.currentSet.p5.splice(ci,1,q);
+          else if(qs.length<TOTAL_P5)st.currentSet.p5.push(q);
+          else st.currentSet.p5[TOTAL_P5-1]=q;
+          idx=st.currentSet.p5.findIndex(qq=>qq.id===qid);
+        }
+      }
+      if(idx>=0)i5=idx;
+      save();fbTPush();closeTQ();
+      document.querySelectorAll('#tq-seg .tab').forEach(x=>x.classList.toggle('on',x.dataset.part==='5'));
+      v5.hidden=false;v6.hidden=true;
       renderAll();
       window.scrollTo({top:document.getElementById('toeic').offsetTop-70,behavior:'smooth'});
+      return;
     }
+    const mp5=e.target.closest('[data-master-p5]');
+    if(mp5){st.dismissed[mp5.dataset.masterP5]=true;save();fbTPush();renderReview();renderProgress();return;}
+    const rp6=e.target.closest('[data-retest-p6]');
+    if(rp6){
+      const p6id=rp6.dataset.retestP6,p6=st.wrongBankP6[p6id];if(!p6)return;
+      [0,1,2,3].forEach(i=>{delete st.answers[p6id+'-'+i];});
+      delete st.dismissedP6[p6id];
+      st.currentSet.p6=p6;b6=0;
+      save();fbTPush();closeTQ();
+      document.querySelectorAll('#tq-seg .tab').forEach(x=>x.classList.toggle('on',x.dataset.part==='6'));
+      v5.hidden=true;v6.hidden=false;
+      renderAll();
+      window.scrollTo({top:document.getElementById('toeic').offsetTop-70,behavior:'smooth'});
+      return;
+    }
+    const mp6=e.target.closest('[data-master-p6]');
+    if(mp6){st.dismissedP6[mp6.dataset.masterP6]=true;save();fbTPush();renderReview();renderProgress();return;}
   });
 
-  function setSeg(p){document.querySelectorAll('#tqm-seg .tab').forEach(x=>x.classList.toggle('on',x.dataset.mpart===p));}
-
+  // ── Event: inline navigation ───────────────
+  v5.addEventListener('click',e=>{
+    const n=e.target.closest('[data-nav]');if(!n)return;
+    const qs=getP5Qs();
+    if(n.dataset.nav==='prev'&&i5>0)i5--;
+    if(n.dataset.nav==='next'&&i5<qs.length-1)i5++;
+    renderP5();
+  });
+  v6.addEventListener('click',e=>{
+    const bn=e.target.closest('[data-bn]'),pb=e.target.closest('[data-b]');
+    if(bn){b6=+bn.dataset.bn;renderP6();}
+    else if(pb){b6=+pb.dataset.b;renderP6();}
+  });
   document.querySelectorAll('#tq-seg .tab').forEach(t=>t.onclick=()=>{
     document.querySelectorAll('#tq-seg .tab').forEach(x=>x.classList.remove('on'));t.classList.add('on');
-    const p5=t.dataset.part==='5';
-    v5.hidden=!p5; v6.hidden=p5;
+    const p5=t.dataset.part==='5';v5.hidden=!p5;v6.hidden=p5;
   });
-  v5.addEventListener('click',e=>{const n=e.target.closest('[data-nav]');if(!n)return;
-    if(n.dataset.nav==='prev'&&i5>0)i5--; if(n.dataset.nav==='next'&&i5<P5.length-1)i5++; renderP5();});
-  v6.addEventListener('click',e=>{const bn=e.target.closest('[data-bn]'),pb=e.target.closest('[data-b]');
-    if(bn){b6=+bn.dataset.bn;renderP6();} else if(pb){b6=+pb.dataset.b;renderP6();}});
 
-  const openTQ=(part)=>{if(part){mPart=part;setSeg(part);}tqModal.classList.add('open');tqModal.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';renderModal();};
+  // ── Modal ──────────────────────────────────
+  function setSeg(p){document.querySelectorAll('#tqm-seg .tab').forEach(x=>x.classList.toggle('on',x.dataset.mpart===p));}
+  const openTQ=p=>{if(p){mPart=p;setSeg(p);}tqModal.classList.add('open');tqModal.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';renderModal();};
   const closeTQ=()=>{tqModal.classList.remove('open');tqModal.setAttribute('aria-hidden','true');document.body.style.overflow='';};
   document.getElementById('tq-open').addEventListener('click',()=>openTQ('5'));
   document.getElementById('tq-review').addEventListener('click',()=>openTQ('review'));
@@ -1835,10 +1877,19 @@ fetch('stocks.json?'+Date.now())
   document.addEventListener('keydown',e=>{if(e.key==='Escape'&&tqModal.classList.contains('open'))closeTQ();});
   document.querySelectorAll('#tqm-seg .tab').forEach(t=>t.onclick=()=>{
     document.querySelectorAll('#tqm-seg .tab').forEach(x=>x.classList.remove('on'));t.classList.add('on');
-    mPart=t.dataset.mpart; body.scrollTop=0; renderModal();});
-  document.getElementById('tqm-reset').onclick=()=>{st={p5:{},p6:{},dismissed:{},daily:{}};save();i5=0;b6=0;renderAll();};
+    mPart=t.dataset.mpart;body.scrollTop=0;renderModal();
+  });
+  document.getElementById('tqm-reset').onclick=()=>{Object.assign(st,defState());save();fbTPush();i5=0;b6=0;renderAll();};
 
-  renderAll();
+  // ── Init ───────────────────────────────────
+  fbTPull().then(fbData=>{
+    if(fbData&&typeof fbData==='object'){st=Object.assign(defState(),fbData);save();}
+    return fetch(QURL+'?v='+todayStr());
+  }).then(r=>r.ok?r.json():null).then(newQ=>{
+    if(newQ)applyDayChange(newQ);
+    renderAll();
+  }).catch(()=>renderAll());
+
 })();
 </script>
 </body>

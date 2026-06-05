@@ -137,6 +137,78 @@ echo "=== $(date) | Generating daily quote ===" >> "$LOG_FILE"
 
 echo "--- Daily quote finished at $(date) ---" >> "$LOG_FILE"
 
+# Generate TOEIC questions (only if user answered yesterday's set)
+echo "=== $(date) | Checking TOEIC questions ===" >> "$LOG_FILE"
+
+TOEIC_FILE="skills/toeic/questions.json"
+TOEIC_DATE=$(python3 -c "import json,sys; d=json.load(open('$TOEIC_FILE')); print(d.get('date',''))" 2>/dev/null || echo "")
+TODAY=$(date +%Y-%m-%d)
+
+if [ "$TOEIC_DATE" = "$TODAY" ]; then
+  echo "TOEIC questions already generated for $TODAY, skipping." >> "$LOG_FILE"
+else
+  echo "Generating new TOEIC questions for $TODAY..." >> "$LOG_FILE"
+  /Applications/cmux.app/Contents/Resources/bin/claude --dangerously-skip-permissions -p "
+今天日期：$(date +%Y-%m-%d)
+
+你是多益命題 Agent。請生成一組高難度多益（TOEIC）練習題，目標程度：860 分以上考生。
+
+【PART 5 要求】5 道短句填空，每題測試一個不同的文法觀念：
+- 文法觀念必須涵蓋高難度項目，例如：假設語氣倒裝、分詞構句（主動/被動）、非限定關係子句、讓步介系詞（notwithstanding/despite）、動詞語意辨別（進階）、名詞子句、比較結構等
+- 句子使用正式商務或法律英文，用字精準
+- pre 為空格前文字（可為空字串），post 為空格後文字，兩者合起來為完整句子，空格即正確答案所在位置
+- 4 個選項，只有 1 個正確，干擾選項設計精良
+- zh 為繁體中文完整句意翻譯
+- why 為詳細文法解析（200 字以內），重點詞可用 <b>...</b> 標記
+
+【PART 6 要求】1 個段落填空題組：
+- 格式：商務信件、內部備忘錄或公告，共 3-4 段
+- 4 個填空（blanks），分別測試：時態語態、語篇連接詞、詞彙語意、句子插入
+- seg 陣列：每個元素是一個段落（陣列），段落由字串和 {\"b\": blankIndex}（0-3）交錯組成
+- title 為英文標題
+
+【嚴格輸出格式】只用 Write 工具將以下 JSON 直接寫入 skills/toeic/questions.json，不輸出任何其他文字：
+{
+  \"date\": \"$(date +%Y-%m-%d)\",
+  \"p5\": [
+    {
+      \"id\": \"$(date +%Y-%m-%d)-p5-0\",
+      \"tag\": \"文法觀念名稱（繁體中文，如：假設語氣倒裝）\",
+      \"pre\": \"空格前文字（可為空字串）\",
+      \"post\": \"空格後文字\",
+      \"opts\": [\"選項A\", \"選項B\", \"選項C\", \"選項D\"],
+      \"ans\": 正確選項索引（0-3的整數）,
+      \"zh\": \"繁體中文翻譯\",
+      \"why\": \"文法解析，可含 <b>重點</b>\"
+    },
+    {\"id\": \"$(date +%Y-%m-%d)-p5-1\", ...},
+    {\"id\": \"$(date +%Y-%m-%d)-p5-2\", ...},
+    {\"id\": \"$(date +%Y-%m-%d)-p5-3\", ...},
+    {\"id\": \"$(date +%Y-%m-%d)-p5-4\", ...}
+  ],
+  \"p6\": {
+    \"id\": \"$(date +%Y-%m-%d)-p6\",
+    \"title\": \"英文標題\",
+    \"seg\": [
+      [\"段落文字 \", {\"b\": 0}, \" 接續文字\"],
+      [{\"b\": 1}, \"逗號接續文字\"],
+      [\"文字 \", {\"b\": 2}, \" 文字\"],
+      [{\"b\": 3}]
+    ],
+    \"blanks\": [
+      {\"tag\": \"文法觀念\", \"col1\": true, \"opts\": [\"A\",\"B\",\"C\",\"D\"], \"ans\": 0, \"zh\": \"翻譯\", \"why\": \"解析\"},
+      {\"tag\": \"文法觀念\", \"col1\": true, \"opts\": [\"A\",\"B\",\"C\",\"D\"], \"ans\": 0, \"zh\": \"翻譯\", \"why\": \"解析\"},
+      {\"tag\": \"文法觀念\", \"col1\": true, \"opts\": [\"A\",\"B\",\"C\",\"D\"], \"ans\": 0, \"zh\": \"翻譯\", \"why\": \"解析\"},
+      {\"tag\": \"文法觀念\", \"col1\": true, \"opts\": [\"A\",\"B\",\"C\",\"D\"], \"ans\": 0, \"zh\": \"翻譯\", \"why\": \"解析\"}
+    ]
+  }
+}
+
+寫入完成後輸出「TOEIC DONE」。
+" >> "$LOG_FILE" 2>&1
+  echo "--- TOEIC generation finished at $(date) ---" >> "$LOG_FILE"
+fi
+
 # Commit and push to GitHub
 git add -A
 git commit -m "auto: daily report $(date +%Y-%m-%d)" >> "$LOG_FILE" 2>&1
