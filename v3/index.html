@@ -351,22 +351,51 @@ nav{display:flex;align-items:center;gap:18px;margin-bottom:30px}
   .rmgrid{grid-template-columns:repeat(3,1fr)}
   .navlinks{display:none}
 }
+@media(max-width:760px){
+  .modal-panel{width:calc(100vw - 16px);max-height:94vh;border-radius:20px}
+  .modal-head{padding:20px 18px 16px;gap:12px}
+  .mh-icon{width:46px;height:46px;border-radius:13px;flex-shrink:0}
+  .mh-title{font-size:20px}
+  .mh-sub{font-size:12.5px}
+  .datetabs{gap:20px;padding:0 18px}
+  .modal-body{padding:20px 18px 28px}
+  .wl-toolbar{padding-left:18px;padding-right:18px}
+  .blkgrid{grid-template-columns:1fr}
+  .wl-grid{grid-template-columns:1fr}
+  .wl-toolbar{align-items:flex-start}
+  .bcard{padding:16px 16px 20px 22px}
+  .bc-title{font-size:17px}
+  .wl-add{flex-direction:column}
+  .wl-addbtn{padding:14px;justify-content:center}
+}
 @media(max-width:680px){
-  body{padding:16px 14px 30px}
+  body{padding:14px 12px 28px}
   .bento{grid-template-columns:1fr;grid-template-areas:"ai" "finance" "stocks" "overtime" "roadmap";}
   .rmgrid{grid-template-columns:repeat(2,1fr)}
   .hero{align-items:flex-start}
   .quote{width:100%;max-width:100%;text-align:left;align-self:flex-start;margin-top:8px}
-  .strip{gap:16px}
+  .quote .mark{font-size:26px}
+  .strip{gap:12px}
+  .btn-dark{display:none}
+  .logo{padding:8px 14px 8px 10px;font-size:14px}
+  /* Overtime calendar compact */
+  .ot-cal{gap:4px}
+  .otd{min-height:68px;padding:6px 5px 5px}
+  .otd-n{font-size:12px}
+  .otd-tag{display:none}
+  .otd-in{padding:3px 5px}
+  .otd-in input{font-size:11px}
+  .otd-in span{display:none}
+  .ot-sumgrid{grid-template-columns:1fr 1fr}
+  .ot-salary{padding:14px 16px}
+  .ot-salinput input{font-size:20px}
 }
-@media(max-width:760px){
-  .modal-panel{width:calc(100vw - 24px);max-height:92vh;border-radius:22px}
-  .modal-head{padding:22px 22px 18px}
-  .datetabs,.modal-body,.wl-toolbar{padding-left:22px;padding-right:22px}
-  .blkgrid{grid-template-columns:1fr}
-  .mh-title{font-size:23px}
-  .wl-grid{grid-template-columns:1fr}
-  .wl-toolbar{align-items:flex-start}
+@media(max-width:400px){
+  .ot-sumgrid{grid-template-columns:1fr}
+  .rmgrid{grid-template-columns:1fr}
+  nav{gap:10px}
+  .icon-btn{width:36px;height:36px}
+  .avatar{width:36px;height:36px;font-size:13px}
 }
 @media(max-width:880px){.ot-sumgrid{grid-template-columns:repeat(2,1fr)}}
 </style>
