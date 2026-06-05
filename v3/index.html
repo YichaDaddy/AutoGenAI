@@ -1231,8 +1231,9 @@ wireModal('modal-overtime','overtime',function(){otFbPull();});
   var save=function(){try{localStorage.setItem('ot-salary',salary);localStorage.setItem('ot-hours',JSON.stringify(hours));}catch(e){}otFbPush();};
   var rate=function(){return salary>0?salary/30/8:0;};
 
+  function dk(y,m,d){return y+'-'+String(m+1).padStart(2,'0')+'-'+String(d).padStart(2,'0');}
   function dtype(y,m,d){
-    var key=y+'-'+(m+1)+'-'+d;
+    var key=dk(y,m,d);
     if(HOLIDAYS[key])return{t:'nat',name:HOLIDAYS[key]};
     var wd=new Date(y,m,d).getDay();
     if(wd===0)return{t:'sun',name:'例假日'};
@@ -1248,7 +1249,7 @@ wireModal('modal-overtime','overtime',function(){otFbPull();});
   function monthAgg(y,m){
     var days=new Date(y,m+1,0).getDate(),r=rate();
     var acc={wd:{h:0,p:0},sat:{h:0,p:0},sun:{h:0,p:0},nat:{h:0,p:0}};
-    for(var d=1;d<=days;d++){var hv=hours[y+'-'+(m+1)+'-'+d];if(!hv)continue;var ty=dtype(y,m,d).t;acc[ty].h+=hv;acc[ty].p+=payOf(ty,hv,r);}
+    for(var d=1;d<=days;d++){var hv=hours[dk(y,m,d)];if(!hv)continue;var ty=dtype(y,m,d).t;acc[ty].h+=hv;acc[ty].p+=payOf(ty,hv,r);}
     return acc;
   }
 
@@ -1260,7 +1261,7 @@ wireModal('modal-overtime','overtime',function(){otFbPull();});
     var html=WK.map(function(w,i){return '<div class="ot-wh'+(i>=5?' we':'')+'">'+w+'</div>';}).join('');
     for(var i=0;i<off;i++)html+='<div class="otd blank"></div>';
     for(var d=1;d<=days;d++){
-      var ty=dtype(view.y,view.m,d),key=view.y+'-'+(view.m+1)+'-'+d,val=hours[key]||'';
+      var ty=dtype(view.y,view.m,d),key=dk(view.y,view.m,d),val=hours[key]||'';
       var isToday=(view.y===TODAY.getFullYear()&&view.m===TODAY.getMonth()&&d===TODAY.getDate());
       html+='<div class="otd '+ty.t+(val?' filled':'')+(isToday?' today':'')+'">'+
         '<div class="otd-top"><span class="otd-n">'+d+'</span><span class="otd-tag">'+ty.name+'</span></div>'+
