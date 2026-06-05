@@ -1,1 +1,80 @@
 === Sat Jun  6 06:00:03 CST 2026 | Starting daily AI report ===
+看板已成功更新。以下是今日完整日報：
+
+---
+
+## 📰 AI 效率工具日報｜2026-06-05（昨日）
+
+---
+
+### 🔴 板塊一：大事件
+
+**1. Google 與 SpaceX 簽訂每月 9.2 億美元算力協議**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/) · [Bloomberg](https://www.bloomberg.com/news/articles/2026-06-05/google-buying-computing-from-spacex-in-920-million-a-month-deal) · [CNBC](https://www.cnbc.com/2026/06/05/google-to-pay-spacex-920-million-a-month-for-xai-compute-capacity.html)
+- **一句摘要**：Google 每月支付 SpaceX 9.2 億美元租用 11 萬張 NVIDIA GPU，協議至 2029 年、總額逾 300 億美元。
+- **標題雛形**：「Google 每個月花 9.2 億美元買算力！AI 燒錢到底有多瘋狂？一篇看懂 2026 AI 成本地圖」
+- **本地化切角**：台灣媒體多聚焦台積電供應鏈，Google-SpaceX 交易的「為什麼」幾乎沒人深度解析，搜尋流量可搶先佈局
+
+**2. AI Token 帳單危機引爆：業界爭相壓縮成本**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/06/05/the-token-bill-comes-due-inside-the-industry-scramble-to-manage-ais-runaway-costs/)
+- **一句摘要**：TechCrunch 深度調查 AI 成本失控現象，企業帳單直線上升，催生新一波效率工具需求。
+- **標題雛形**：「AI 訂閱費把你嚇到了嗎？2026 企業壓縮 AI 成本的 5 大策略，上班族也能用」
+- **本地化切角**：台灣職場 AI 工具成本優化內容極少，精準觸達職場受眾的藍海選題
+
+**3. AirTrunk 承諾 300 億美元在印度建設 5GW AI 資料中心**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/06/05/airtrunk-commits-30b-to-build-5gw-of-ai-data-centers-in-india/)
+- **一句摘要**：澳洲資料中心巨頭宣布在印度投入 300 億美元，亞洲 AI 算力版圖大洗牌。
+- **標題雛形**：「印度 AI 大爆發！300 億美元資料中心計畫，亞洲算力版圖正在重新洗牌」
+
+---
+
+### 🔵 板塊二：工具更新
+
+**4. ChatGPT Writing Blocks：在對話框直接撰寫並發送郵件**
+- **來源**：[OpenAI X 帳號](https://x.com/ChatGPTapp/status/2062944254591430917)
+- **一句摘要**：Writing Blocks 打通「AI 寫信 → 一鍵發送」閉環，徹底消除複製貼上的繁瑣步驟。
+- **標題雛形**：「ChatGPT 寫完信直接幫你發！Writing Blocks 完整教學，上班族效率翻倍」
+- **本地化切角**：台灣職場郵件使用率高，繁體中文教學幾乎為零，早期流量紅利極大
+
+**5. Google Gemma 4 QAT：本地 AI 壓縮至 1GB，消費者裝置跑得動**
+- **來源**：[Google 官方部落格](https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/) · [MarkTechPost](https://www.marktechpost.com/2026/06/05/google-deepmind-releases-gemma-4-qat-checkpoints-q4_0-and-a-new-mobile-format-cut-on-device-memory/)（✅ 確認 2026/06/05）
+- **一句摘要**：Gemma 4 E2B QAT 版本記憶體佔用壓縮至約 1GB，品質優於標準量化，手機也能跑。
+- **標題雛形**：「不用雲端！Google Gemma 4 QAT 讓你用 1GB 跑高品質 AI，免費本地 AI 時代正式到來」
+- **本地化切角**：本地 AI 部署教學台灣圈仍是藍海，「零成本本地 AI 入門」系列潛力大
+
+**6. GPT-5.5 Instant 成新預設，Canvas 退場、Writing Blocks 取代**
+- **來源**：[OpenAI Help Center](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)
+- **一句摘要**：Canvas 功能停用，Writing Blocks 取代，付費用戶有三個月過渡期。
+- **標題雛形**：「ChatGPT Canvas 消失了！GPT-5.5 Instant 完整教學：Writing Blocks 這樣用才高效」
+- **本地化切角**：改版衝擊台灣 Plus 用戶，過渡期三個月是教學流量黃金視窗
+
+---
+
+### 🟢 板塊三：值得追蹤的趨勢
+
+**7. AI 成本失控 × 輕量化模型崛起，效率工具創作者的黃金時機**
+
+**8. ChatGPT 進化為全功能辦公入口，Microsoft 365 / Google Workspace 迎來直接競爭**
+
+**9. 本地端 AI 輕量化臨界點突破，「保護個資、不依賴雲端」成 2026 下半年職場新趨勢**
+
+---
+
+### 📋 來源覆蓋狀況
+
+| 來源 | 狀態 | 昨日內容 | 備註 |
+|------|------|---------|------|
+| TechCrunch AI | ✅ | 4 篇 | 確認 URL 含 /2026/06/05/ |
+| FutureTools News | ✅ | 4 則 | 含 ChatGPT Writing Blocks、Gemma 4 QAT 等 |
+| WebSearch（AI news 06-05） | ✅ | 多則 | 含 Bloomberg、CNBC、MarkTechPost 交叉驗證 |
+| The Verge AI | ❌ | — | WebFetch 無法存取 theverge.com |
+| Matt Wolfe / YouTube 頻道 | ❌ | — | YouTube 頻道頁面本次未抓取，避免日期不確定 |
+| @OpenAI / @AnthropicAI X 帳號 | ⚠️ | 間接 | 透過 FutureTools 及 WebSearch 間接取得公告資訊 |
+
+---
+
+💡 您的專屬網頁版看板已同步更新，可隨時打開 `daily_topic_dashboard.html` 查看。
+
+**DONE**
+--- AI report finished at Sat Jun  6 06:04:48 CST 2026 ---
+=== Sat Jun  6 06:04:48 CST 2026 | Starting daily finance report ===
