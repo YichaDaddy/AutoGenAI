@@ -1,5 +1,172 @@
 [
   {
+    "date": "2026-06-05",
+    "big_events": [
+      {
+        "title": "Google 與 SpaceX 簽訂每月 9.2 億美元算力協議，AI 算力爭奪戰進入天文數字時代",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/"
+          },
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-06-05/google-buying-computing-from-spacex-in-920-million-a-month-deal"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/06/05/google-to-pay-spacex-920-million-a-month-for-xai-compute-capacity.html"
+          }
+        ],
+        "summary": "Google 將每月支付 SpaceX 9.2 億美元租用約 11 萬張 NVIDIA GPU 算力，協議持續至 2029 年中，總金額達 300 億美元，震驚業界。",
+        "audience": "職場 AI 使用者、科技產業觀察者、自媒體創作者",
+        "pain_point": "不懂 AI 背後算力軍備競賽有多瘋狂，感覺 AI 工具愈來愈貴但不知道為什麼",
+        "title_idea": "Google 每個月花 9.2 億美元買算力！AI 燒錢到底有多瘋狂？一篇看懂 2026 AI 成本地圖",
+        "local_angle": "台灣圈報導多聚焦台積電供應鏈，Google-SpaceX 這筆天文交易的「為什麼」幾乎沒人深度解析，相關搜尋流量可搶先佈局"
+      },
+      {
+        "title": "AI Token 帳單危機引爆：企業爭相壓縮 AI 成本，效率工具迎來新商機",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/06/05/the-token-bill-comes-due-inside-the-industry-scramble-to-manage-ais-runaway-costs/"
+          }
+        ],
+        "summary": "TechCrunch 深度調查 AI Token 成本失控現象：企業 AI 帳單直線上升，業界開始緊急尋找壓縮 Token 消耗的方案，催生出新一波 AI 效率工具需求。",
+        "audience": "職場使用 AI 工具的上班族、企業 IT 決策者、AI 工具創作者",
+        "pain_point": "訂閱 AI 工具費用愈來愈高，但不知道如何優化用量或找替代方案，每月都在燒預算",
+        "title_idea": "AI 訂閱費把你嚇到了嗎？2026 企業壓縮 AI 成本的 5 大策略，上班族也能用",
+        "local_angle": "台灣職場開始廣泛使用 AI 工具，成本優化的繁體中文內容極少，做「如何用最少錢發揮最大 AI 效益」選題，精準觸達職場受眾"
+      },
+      {
+        "title": "AirTrunk 承諾在印度投入 300 億美元建設 5GW AI 資料中心，亞洲算力版圖大洗牌",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/06/05/airtrunk-commits-30b-to-build-5gw-of-ai-data-centers-in-india/"
+          }
+        ],
+        "summary": "澳洲資料中心巨頭 AirTrunk 宣布在印度投入 300 億美元建設 5GW AI 算力設施，亞洲 AI 基礎建設版圖持續向南亞延伸擴張。",
+        "audience": "科技產業觀察者、商業媒體讀者、AI 趨勢追蹤者",
+        "pain_point": "想了解 AI 算力投資版圖的全球布局，但相關分析多為英文且缺乏亞洲視角",
+        "title_idea": "印度 AI 大爆發！AirTrunk 300 億美元資料中心計畫，亞洲 AI 算力版圖正在重新洗牌",
+        "local_angle": "用「印度 vs 台灣 AI 基礎建設競爭力」比較角度切入，可吸引關心台灣科技前景的讀者，此角度目前幾乎無人做"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "ChatGPT Writing Blocks 正式上線：在對話框直接撰寫並一鍵發送電子郵件",
+        "sources": [
+          {
+            "name": "OpenAI（X 官方帳號）",
+            "url": "https://x.com/ChatGPTapp/status/2062944254591430917"
+          },
+          {
+            "name": "FutureTools News",
+            "url": "https://futuretools.io/news"
+          }
+        ],
+        "summary": "OpenAI 推出 Writing Blocks 功能，讓使用者在 ChatGPT 對話中直接編輯郵件草稿並一鍵發送，徹底打通「AI 寫作 → 立即發送」的辦公工作流閉環。",
+        "audience": "天天寫信的職場上班族、業務人員、行政助理",
+        "pain_point": "用 ChatGPT 寫好信後還要複製貼上到 Gmail 或 Outlook，操作繁瑣且容易出錯",
+        "title_idea": "ChatGPT 寫完信直接幫你發！Writing Blocks 郵件功能完整教學，上班族效率翻倍",
+        "local_angle": "台灣職場郵件使用率極高，此功能的繁體中文教學幾乎還沒有人做，搶做第一批教學可獲大量早期搜尋流量"
+      },
+      {
+        "title": "Google 發布 Gemma 4 QAT 模型：本地端 AI 記憶體壓縮至 1GB，消費者裝置終於跑得動",
+        "sources": [
+          {
+            "name": "Google 官方部落格",
+            "url": "https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/"
+          },
+          {
+            "name": "MarkTechPost",
+            "url": "https://www.marktechpost.com/2026/06/05/google-deepmind-releases-gemma-4-qat-checkpoints-q4_0-and-a-new-mobile-format-cut-on-device-memory/"
+          }
+        ],
+        "summary": "Google 發布 Gemma 4 量化感知訓練（QAT）模型，Gemma 4 E2B 壓縮至約 1GB 記憶體，可在手機和消費級 GPU 本地執行高品質 AI，品質優於標準量化方式。",
+        "audience": "想在本地跑 AI 的上班族、開發者、重視隱私的使用者",
+        "pain_point": "想用本地 AI 保護隱私、降低訂閱費，但過去模型太大跑不動或品質太差",
+        "title_idea": "不用雲端！Google Gemma 4 QAT 讓你用 1GB 就跑高品質 AI，免費本地 AI 時代正式到來",
+        "local_angle": "本地 AI 部署教學在台灣圈仍是藍海，此版本品質大幅提升，適合做「零成本本地 AI 入門」系列，搶先佈局教學內容"
+      },
+      {
+        "title": "GPT-5.5 Instant 成為 ChatGPT 新預設：Canvas 退場、Writing Blocks 取代，回應更自然清晰",
+        "sources": [
+          {
+            "name": "OpenAI Help Center",
+            "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+          },
+          {
+            "name": "Releasebot",
+            "url": "https://releasebot.io/updates/openai/chatgpt"
+          }
+        ],
+        "summary": "OpenAI 將 GPT-5.5 Instant 設為所有用戶預設模型，停用 Canvas 並以 Writing Blocks 取代，回應更簡潔自然，付費用戶有三個月過渡期使用舊版。",
+        "audience": "ChatGPT Plus/Pro 使用者、職場 AI 重度依賴者",
+        "pain_point": "習慣 Canvas 操作介面卻突然被移除，不知道 Writing Blocks 怎麼用，擔心工作流被打斷",
+        "title_idea": "ChatGPT Canvas 消失了！GPT-5.5 Instant 完整使用教學：Writing Blocks 這樣用才更高效",
+        "local_angle": "Canvas 改版台灣用戶有感，做「升級前後對比 + 工作流遷移攻略」，可衝過渡期的大量搜尋流量，時間視窗只有 3 個月"
+      }
+    ],
+    "trends": [
+      {
+        "title": "AI 算力成本失控成新常態，輕量化模型與效率工具需求同步暴增",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/06/05/the-token-bill-comes-due-inside-the-industry-scramble-to-manage-ais-runaway-costs/"
+          },
+          {
+            "name": "Google 官方部落格",
+            "url": "https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/"
+          }
+        ],
+        "summary": "Google-SpaceX 算力大交易與 AI Token 帳單危機同天爆發，顯示 AI 成本正全面失控；Gemma 4 QAT 等輕量化方案的出現代表業界開始找出路，效率工具創作者迎來黃金視窗。",
+        "audience": "AI 工具自媒體創作者、職場效率工具愛好者",
+        "pain_point": "AI 工具愈來愈貴，訂閱費壓力大，不知道有哪些免費或低成本替代方案",
+        "title_idea": "2026 AI 費用大爆炸！5 個免費或低成本替代方案，讓你花最少錢獲得最大 AI 效益",
+        "local_angle": "台灣上班族普遍使用免費版 AI，對成本優化需求強烈，做「低成本 AI 工作流」系列選題，匹配感高且競爭者少"
+      },
+      {
+        "title": "ChatGPT 從寫作助手進化為全功能辦公入口，Microsoft 365 與 Google Workspace 面臨直接競爭",
+        "sources": [
+          {
+            "name": "OpenAI（X 官方帳號）",
+            "url": "https://x.com/ChatGPTapp/status/2062944254591430917"
+          },
+          {
+            "name": "ChatGPT for Excel/Sheets",
+            "url": "https://chatgpt.com/apps/spreadsheets/"
+          }
+        ],
+        "summary": "ChatGPT 短短數月內連續整合試算表（Excel/Sheets sidebar）與郵件發送（Writing Blocks），策略性地將自己定位為辦公軟體入口，職場 AI 整合趨勢全面加速。",
+        "audience": "職場上班族、辦公室工作者、公司 IT 採購決策者",
+        "pain_point": "每天要在 ChatGPT、Excel、Outlook 之間切換，工作流碎片化導致效率低落",
+        "title_idea": "ChatGPT 要取代 Office 了嗎？郵件、試算表、文件一站搞定，2026 辦公革命完整解析",
+        "local_angle": "台灣企業 Microsoft 365 滲透率高，「ChatGPT vs 傳統 Office 工具整合對比」精準觸達職場受眾，繁體中文深度對比內容目前幾乎為零"
+      },
+      {
+        "title": "本地端 AI 模型輕量化臨界點突破，「不依賴雲端、保護個資」成 2026 下半年職場新趨勢",
+        "sources": [
+          {
+            "name": "Google 官方部落格",
+            "url": "https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/"
+          },
+          {
+            "name": "MarkTechPost",
+            "url": "https://www.marktechpost.com/2026/06/05/google-deepmind-releases-gemma-4-qat-checkpoints-q4_0-and-a-new-mobile-format-cut-on-device-memory/"
+          }
+        ],
+        "summary": "Gemma 4 QAT 將高品質開源模型壓縮至 1GB，結合上半年各家輕量化進展，本地 AI「品質 vs 成本」臨界點已突破，預計下半年將有更多職場用戶轉向本地方案。",
+        "audience": "注重資料隱私的職場使用者、企業資安部門、個人開發者",
+        "pain_point": "公司資料外洩風險讓員工不敢把敏感資訊輸入 ChatGPT，但沒有替代方案",
+        "title_idea": "公司機密不外洩！2026 本地 AI 完整安裝教學，Gemma 4 QAT 讓你在自己電腦上跑高品質 AI",
+        "local_angle": "台灣金融、醫療、政府等高隱私需求產業眾多，本地 AI 教學可精準打入企業採購決策者與合規敏感職場，此賽道競爭者極少"
+      }
+    ]
+  },
+  {
     "date": "2026-06-04",
     "big_events": [
       {
@@ -862,157 +1029,6 @@
         "pain_point": "想了解 OpenAI IPO 對自己使用 ChatGPT 的影響，以及是否有投資 AI 公司的機會",
         "title_idea": "OpenAI 要上市了！9 月 IPO 完整解析：ChatGPT 會漲價嗎？對 AI 工具用戶意味著什麼？",
         "local_angle": "台灣投資人對 OpenAI IPO 高度關注，但深度中文分析幾乎空白；可做「OpenAI IPO 完整懶人包」，結合投資分析與 AI 工具使用者觀點，雙重受眾覆蓋"
-      }
-    ]
-  },
-  {
-    "date": "2026-05-29",
-    "big_events": [
-      {
-        "title": "Anthropic 估值 $9,650 億美元正式超越 OpenAI，成全球最高估值 AI 公司",
-        "sources": [
-          {
-            "name": "Al Jazeera",
-            "url": "https://www.aljazeera.com/economy/2026/5/29/anthropic-soars-to-965bn-valuation-leapfrogging-openai"
-          },
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/"
-          }
-        ],
-        "summary": "Anthropic 完成 650 億美元融資後估值達 9,650 億美元，首度超越 OpenAI（$8,520 億），由 Altimeter、Sequoia 等領投。",
-        "audience": "職場 Claude 用戶、AI 工具選擇困難者、科技趨勢關注者",
-        "pain_point": "不確定該押注哪個 AI 工具，擔心選錯平台、未來被迫換工具",
-        "title_idea": "Claude 的公司估值超越 ChatGPT！這代表什麼？你現在該怎麼選 AI 工具？",
-        "local_angle": "台灣職場 Claude 用戶快速增加但對 Anthropic 公司背景不熟，估值超越 OpenAI 是具話題性切入點，搭配工具選擇建議可創高互動"
-      },
-      {
-        "title": "Claude Opus 4.8 Dynamic Workflows：AI 指揮 AI，一次協調數百個子代理平行工作",
-        "sources": [
-          {
-            "name": "Anthropic 官方",
-            "url": "https://www.anthropic.com/news"
-          },
-          {
-            "name": "WaveSpeed Blog",
-            "url": "https://wavespeed.ai/blog/posts/opus-4-8/"
-          },
-          {
-            "name": "NeuralBuddies（May 29 日報）",
-            "url": "https://www.neuralbuddies.com/p/ai-news-recap-may-29-2026"
-          }
-        ],
-        "summary": "Opus 4.8 推出 Dynamic Workflows，可協調數百個平行子代理；Fast Mode 降至 3 折；誠實度讓漏掉 bug 的機率降 4 倍。",
-        "audience": "重度 AI 使用者、職場效率達人、Claude Code 開發者",
-        "pain_point": "複雜多步驟任務用 AI 一次只能做一件事，跑大型自動化流程耗時極長",
-        "title_idea": "Claude Opus 4.8 的 Dynamic Workflows 到底有多強？我讓 AI 幫我同時跑 50 個任務的實測",
-        "local_angle": "Dynamic Workflows 是全新功能，繁體中文實測教學幾乎是零，搶先做「多代理協作工作流」示範，流量紅利極大"
-      },
-      {
-        "title": "OpenAI 內部測試 GPT-5.6 曝光：推理更強、Agent 升級，六月發布在望",
-        "sources": [
-          {
-            "name": "NeuralBuddies（May 29 日報）",
-            "url": "https://www.neuralbuddies.com/p/ai-news-recap-may-29-2026"
-          }
-        ],
-        "summary": "OpenAI 內部 GPT-5.6 測試資訊外洩，顯示強化推理能力與多步驟 Agent 功能，預計六月正式亮相。",
-        "audience": "ChatGPT 重度用戶、AI 工具早期採用者",
-        "pain_point": "跟不上 AI 迭代速度，不知道什麼時候換版本、換版本後要重新學習",
-        "title_idea": "GPT-5.6 下個月來了！洩露的 4 大升級重點，現在就能準備的使用策略",
-        "local_angle": "每次 GPT 版本升級在台灣都能帶動大量搜尋，搶先分析洩露資訊並提供「如何利用新版本」實用建議，資訊差明顯"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "Google Pics 登場：免費 AI 圖像創作工具，從派對傳單到資訊圖表一鍵生成",
-        "sources": [
-          {
-            "name": "Google 官方部落格",
-            "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/"
-          }
-        ],
-        "summary": "Google 正式推出 Google Pics，基於 Nano Banana 模型，可製作各類圖像內容，對信任測試者開放，整合 Google 生態系。",
-        "audience": "職場文書族、社群管理者、沒有設計背景的內容創作者",
-        "pain_point": "做簡報、社群圖片設計不好看，不會用 Canva 進階功能，付不起 Midjourney",
-        "title_idea": "Google 免費 AI 圖像工具來了！Google Pics 實測：比 Canva AI 好用嗎？",
-        "local_angle": "Google 品牌在台灣信任度高，推出免費設計工具對職場族吸引力強，繁體中文評測幾乎空白，搶先測評流量紅利大"
-      },
-      {
-        "title": "Gemini 3.5 Flash 全面開放：旗艦模型智能水準、僅 1/3 費用",
-        "sources": [
-          {
-            "name": "Google 官方部落格",
-            "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/"
-          }
-        ],
-        "summary": "Gemini 3.5 Flash 正式上線，性能媲美 Gemini 3.1 Pro，但定價僅 1/3，透過 Google Antigravity 及 Gemini API 可立即使用。",
-        "audience": "開發者、SaaS 創業者、AI 工具重度用戶",
-        "pain_point": "AI API 費用高昂，難以大規模部署自動化工作流，性能 vs 成本難以兼顧",
-        "title_idea": "Gemini 3.5 Flash vs ChatGPT vs Claude：同樣的任務，誰最便宜又最好用？",
-        "local_angle": "API 性價比比較是開發者社群最熱門話題，但繁體中文版實測評比稀少，可做「三大平台 API 成本計算機」吸引技術族群"
-      },
-      {
-        "title": "DeepSWE 程式碼基準出爐：GPT-5.5 以 70% 奪冠，Claude Opus 4.7 落後",
-        "sources": [
-          {
-            "name": "NeuralBuddies（May 29 日報）",
-            "url": "https://www.neuralbuddies.com/p/ai-news-recap-may-29-2026"
-          }
-        ],
-        "summary": "Datacurve 發布 DeepSWE 基準（113 項跨 91 個代碼庫），GPT-5.5 以 70% 奪冠，GPT-5.4 56%，Claude Opus 4.7 僅 54%。",
-        "audience": "軟體工程師、使用 AI 輔助寫程式的開發者",
-        "pain_point": "不知道 Claude、GPT、Gemini 哪個最適合寫程式，每次都靠感覺選工具",
-        "title_idea": "2026 最新 AI 寫程式大賽結果出爐！GPT-5.5 打爆 Claude，工程師該怎麼選工具？",
-        "local_angle": "台灣開發者社群對 AI coding 工具選擇討論熱絡，但基於具體基準的繁體中文分析幾乎沒有，數據+實用建議組合選題傳播力強"
-      }
-    ],
-    "trends": [
-      {
-        "title": "Groq 放棄晶片轉型 AI 推論雲：Groq2 融資 6.5 億搶攻 AI 基礎設施",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/"
-          },
-          {
-            "name": "Axios",
-            "url": "https://www.axios.com/2026/05/28/groq-650-million-nvidia"
-          }
-        ],
-        "summary": "Groq 在 Nvidia 以 200 億美元授權其晶片技術後，轉型為 AI 推論雲（Groq2）並融資 6.5 億美元，主攻 inference-as-a-service。",
-        "audience": "創業者、關注 AI 基礎設施的開發者",
-        "pain_point": "不清楚 AI 產業基礎設施格局如何演變，不確定哪些平台或公司值得關注",
-        "title_idea": "Nvidia 買走 Groq 技術後，Groq 搖身一變成 AI 雲服務！AI 算力戰爭的下一個戰場",
-        "local_angle": "AI 基礎設施商業模式轉變在台灣科技媒體幾乎無人分析，「晶片公司轉型雲服務」是商業趨勢好選題"
-      },
-      {
-        "title": "Altman 與 Amodei 同步轉口：AI 不是搶你的工作，而是讓你做 10 個人的事",
-        "sources": [
-          {
-            "name": "NeuralBuddies（May 29 日報）",
-            "url": "https://www.neuralbuddies.com/p/ai-news-recap-may-29-2026"
-          }
-        ],
-        "summary": "OpenAI 和 Anthropic 執行長同步撤回「AI 取代白領」說法，改口強調 AI 是生產力倍增器，人類仍是不可或缺的一環。",
-        "audience": "職場上班族、對 AI 取代工作感到焦慮的族群",
-        "pain_point": "擔心自己的工作被 AI 取代，不知道要學什麼技能才能不被淘汰",
-        "title_idea": "OpenAI 和 Anthropic 老闆同時改口：AI 不搶你的工作——但你不學 AI，人會搶你的工作",
-        "local_angle": "職場焦慮是台灣上班族最共鳴的話題，兩大 AI 公司 CEO 同步轉口的訊號值得深挖，結合「如何用 AI 提升職場競爭力」實用建議"
-      },
-      {
-        "title": "Figure 03 機器人 200 小時連續工作零故障：AI 體力勞動商用化里程碑",
-        "sources": [
-          {
-            "name": "NeuralBuddies（May 29 日報）",
-            "url": "https://www.neuralbuddies.com/p/ai-news-recap-may-29-2026"
-          }
-        ],
-        "summary": "Figure AI 的三台 Figure 03 人形機器人搭載 Helix-02 AI，連續 200 小時處理超過 24 萬件包裹，全程零故障。",
-        "audience": "製造業從業者、對 AI 未來趨勢感興趣的職場族",
-        "pain_point": "不確定 AI 機器人是否真的能勝任實際工廠工作，對「AI 取代體力勞動」仍有懷疑",
-        "title_idea": "AI 機器人工廠工作 200 小時不休息！這段影像讓我開始認真思考 10 年後的就業市場",
-        "local_angle": "台灣製造業從業人口多、對自動化敏感度高，但繁體中文 AI 機器人實測報導極稀少，可做「實體 AI 商用化」深度分析搶先佈局"
       }
     ]
   }
