@@ -1615,7 +1615,13 @@ fetch('stocks.json?'+Date.now())
       st.currentSet={date:today,p5:(newQ.p5||[]).slice(0,TOTAL_P5),p6:newQ.p6||null};
       save();return;
     }
-    if(st.currentSet.date===today)return;
+    if(st.currentSet.date===today){
+      // 補齊新增欄位（如 zh_passage）而不動答題紀錄
+      if(newQ.p6&&st.currentSet.p6&&newQ.p6.id===st.currentSet.p6.id&&newQ.p6.zh_passage&&!st.currentSet.p6.zh_passage){
+        st.currentSet.p6.zh_passage=newQ.p6.zh_passage;save();
+      }
+      return;
+    }
     const prevP5=st.currentSet.p5||[];
     const prevP6=st.currentSet.p6;
     const p5HasAns=prevP5.some(q=>st.answers[q.id]!=null);
