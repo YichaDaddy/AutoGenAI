@@ -1,106 +1,103 @@
 {
-  "date": "2026-06-06",
+  "date": "2026-06-07",
   "p5": [
     {
-      "id": "2026-06-06-p5-0",
-      "tag": "分詞構句",
+      "id": "2026-06-07-p5-0",
+      "tag": "假設語氣倒裝",
       "pre": "",
-      "post": " by the overwhelming response from consumers, the marketing team decided to extend the promotional period by two weeks.",
-      "opts": ["Encouraging", "Encouraged", "To encourage", "Having encouraged"],
-      "ans": 1,
-      "zh": "受到消費者熱烈迴響的鼓舞，行銷團隊決定將促銷期延長兩週。",
-      "why": "主詞 the marketing team 是「被鼓舞」的一方，需被動分詞 <b>Encouraged</b>。Encouraging 為主動現在分詞、語意矛盾；To encourage 表目的、語意不符；Having encouraged 為主動完成分詞、同樣語意不符。"
-    },
-    {
-      "id": "2026-06-06-p5-1",
-      "tag": "倒裝假設語氣",
-      "pre": "",
-      "post": " management approved the additional funding, the research division would have met its annual targets.",
-      "opts": ["Should", "Had", "Were", "Did"],
-      "ans": 1,
-      "zh": "若管理層當時批准追加資金，研究部門本可達成年度目標。",
-      "why": "<b>Had</b> + 主詞 + 過去分詞 = 省略 if 的過去假設倒裝句型，等同 If management had approved...，主要子句接 would have + p.p. 呼應。Should 對應未來假設（If...should）；Were 用於 if...were；Did 用於一般現在的假設，皆不符。"
-    },
-    {
-      "id": "2026-06-06-p5-2",
-      "tag": "非限定關係子句",
-      "pre": "The audit committee's findings, ",
-      "post": " were presented to the board last Thursday, prompted an immediate review of financial controls.",
-      "opts": ["that", "which", "what", "those"],
-      "ans": 1,
-      "zh": "稽核委員會的調查結果（上週四向董事會呈報）促使對財務控管進行即時審查。",
-      "why": "逗號隔開的非限定關係子句只能用 <b>which</b>，不可用 that；what 本身即含先行詞，無法與 The audit committee's findings 並用；those 為代名詞，不能引導關係子句。"
-    },
-    {
-      "id": "2026-06-06-p5-3",
-      "tag": "詞性辨別 · 名詞",
-      "pre": "The newly appointed director has shown remarkable ",
-      "post": " in restructuring the company's global supply chain.",
-      "opts": ["proficient", "proficiency", "proficiently", "proficiencies"],
-      "ans": 1,
-      "zh": "新任命的總監在重整公司全球供應鏈方面展現出卓越的熟練度。",
-      "why": "remarkable 為形容詞，其後需名詞作受詞，<b>proficiency</b>（熟練度，不可數）正確；proficient 為形容詞；proficiently 為副詞；proficiencies 為複數可數形態，與 remarkable 後不接複數裸名詞的習慣不符。"
-    },
-    {
-      "id": "2026-06-06-p5-4",
-      "tag": "讓步介系詞",
-      "pre": "",
-      "post": " the terms proposed by the opposing counsel, the legal team remained confident in the strength of its position.",
-      "opts": ["Notwithstanding", "Nevertheless", "Whereas", "Whereby"],
+      "post": "the company have disclosed the financial irregularities earlier, the regulatory penalties would have been substantially reduced.",
+      "opts": ["Had", "Should", "Were", "Would"],
       "ans": 0,
-      "zh": "儘管對方律師提出了上述條款，法律團隊對自身立場的優勢仍充滿信心。",
-      "why": "<b>Notwithstanding</b>（儘管）為介系詞，後直接接名詞片語 the terms...，用法正確；Nevertheless 為副詞，不能引導名詞片語；Whereas 和 Whereby 為連接詞，語意和用法皆不符。"
+      "zh": "假若公司早些披露財務違規情事，監管罰款本可大幅降低。",
+      "why": "本題考<b>假設語氣倒裝</b>（Inverted Conditional）。原句為 <b>If the company had disclosed...</b>，省略 if 後，<b>had</b> 移至句首，形成 <b>Had + 主詞 + 過去分詞</b>結構，表示與過去事實相反的假設。Should 適用於現在／未來假設；Were 用於 be 動詞之倒裝；Would 不可置於倒裝句首，均不符本題語境。"
+    },
+    {
+      "id": "2026-06-07-p5-1",
+      "tag": "分詞構句（被動）",
+      "pre": "",
+      "post": "by the sudden collapse of its primary supplier, the manufacturing division was forced to suspend production indefinitely.",
+      "opts": ["Confronting", "Confronted", "Having confronted", "To confront"],
+      "ans": 1,
+      "zh": "由於主要供應商突然倒閉，製造部門被迫無限期暫停生產。",
+      "why": "空格後接 <b>by</b>，表明主詞（製造部門）與動詞為被動關係，須使用<b>被動分詞構句</b>，即過去分詞 <b>Confronted</b>（= Being confronted）。若主詞為動作執行者，才用現在分詞 Confronting；Having confronted 表主動且時序在前；To confront 為不定詞，引介目的而非原因，語意不合。"
+    },
+    {
+      "id": "2026-06-07-p5-2",
+      "tag": "非限定關係子句",
+      "pre": "The newly enacted legislation, ",
+      "post": " critics argue undermines investor confidence, has already prompted several multinational firms to reconsider their expansion plans.",
+      "opts": ["which", "that", "what", "whose"],
+      "ans": 0,
+      "zh": "這部新頒布的立法——批評人士認為其削弱了投資人信心——已促使多家跨國企業重新考量擴張計畫。",
+      "why": "逗號隔開的<b>非限定關係子句</b>必須用 <b>which</b>，不可用 that。此處結構為 <b>which [critics argue] undermines...</b>，「critics argue」為插入性報導動詞，which 本身仍是 undermines 的主詞。that 不引導非限定子句；what 引導名詞子句；whose 表所有格，均不符。"
+    },
+    {
+      "id": "2026-06-07-p5-3",
+      "tag": "讓步介系詞後置用法",
+      "pre": "The arbitration clause in the original contract ",
+      "post": ", either party retains the right to seek emergency injunctive relief from a court of competent jurisdiction.",
+      "opts": ["notwithstanding", "regardless", "nevertheless", "despite"],
+      "ans": 0,
+      "zh": "儘管原合約中有仲裁條款，任一方仍保有向管轄法院申請緊急禁制令救濟的權利。",
+      "why": "<b>notwithstanding</b> 在法律文書中常用於<b>後置讓步</b>（postpositive use），置於名詞片語之後，意為「儘管……」，為本題關鍵。regardless 後須接 of；nevertheless 為副詞，不能直接修飾名詞片語；despite 雖為介系詞，但須前置於名詞，不可後置，三者均不符本題結構。"
+    },
+    {
+      "id": "2026-06-07-p5-4",
+      "tag": "法律動詞語意辨析",
+      "pre": "The merger agreement stipulates that neither party may ",
+      "post": " its rights or obligations under this contract without the express written consent of the other.",
+      "opts": ["assign", "transfer", "delegate", "convey"],
+      "ans": 0,
+      "zh": "併購協議規定，任一方未經對方書面明確同意，不得轉讓其在本合約下的權利或義務。",
+      "why": "在合約法中，<b>assign</b> 是轉讓契約<b>權利與義務</b>的標準法律術語，常見於「assign rights or obligations」。transfer 較口語且語意籠統；<b>delegate</b> 僅指義務的委任，不涵蓋權利；<b>convey</b> 屬不動產法術語，指產權移轉，不適用於合約義務語境。"
     }
   ],
   "p6": {
-    "id": "2026-06-06-p6",
-    "title": "Notice of Amendment to Master Service Agreement",
+    "id": "2026-06-07-p6",
+    "title": "Mandatory Compliance Training and Updated Data Governance Protocols",
     "seg": [
-      ["Dear Ms. Harrington,"],
-      ["We are writing to inform you of a forthcoming amendment to the Master Service Agreement (MSA) entered into between ", {"b": 0}, " parties on March 15, 2024. Following an extensive internal review, several provisions within Article 7 — Intellectual Property Rights — have been identified as requiring clarification."],
-      [{"b": 1}, ", the amended agreement will not affect existing deliverables or milestones outlined in Schedule B. Your dedicated account manager, Mr. Chen, will reach out separately to schedule a review session at your convenience."],
-      ["We kindly request that you review the enclosed amendment summary and ", {"b": 2}, " your written acknowledgment to our legal department no later than June 30. Should you have any objections or require further clarification regarding the revised terms, please do not hesitate to contact us."],
-      [{"b": 3}],
-      ["Sincerely, Jonathan Blake — VP, Legal Affairs"]
+      ["Following the regulatory audit conducted in Q1 of this fiscal year, several procedural deficiencies in our data handling practices ", {"b": 0}, ". All staff with access to customer data must complete the revised compliance training module no later than June 30, 2026."],
+      [{"b": 1}, ", the Office of Data Governance has comprehensively revised the internal protocols governing the collection, storage, and dissemination of personally identifiable information. These revisions are intended to align our operations with the recent amendments to the Data Protection Act and to mitigate the risk of non-compliance penalties."],
+      ["Completion of the training module is ", {"b": 2}, " and will be tracked through the company's centralized learning management system. Employees who fail to complete the training by the stipulated deadline will have their access credentials suspended pending review by the Compliance Committee."],
+      [{"b": 3}, " Direct any questions or concerns regarding the training content or enrollment process to the Compliance Helpdesk."]
     ],
-    "zh_passage": "親愛的 Harrington 女士，\n\n我們謹此告知您，雙方於 2024 年 3 月 15 日簽訂的主服務協議（MSA）即將進行修訂。經過全面的內部審查，第七條——智慧財產權——中的若干條款被認定需要進行說明澄清。\n\n重要的是，修訂後的協議不會影響附件 B 中列明的現有可交付成果或里程碑。您的專屬客戶經理陳先生將另行與您聯繫，安排一次適合您時間的審查會議。\n\n我們敬請您審閱隨附的修訂摘要，並於 6 月 30 日前向我們的法律部門提交書面確認。若您對修訂條款有任何異議或需要進一步說明，請隨時與我們聯繫。\n\n感謝您對此事的及時關注。\n\n謹啟，Jonathan Blake — 法務副總裁",
     "blanks": [
       {
-        "tag": "限定詞 · 語意",
+        "tag": "時態語態",
         "col1": true,
-        "opts": ["the", "both", "all", "either"],
-        "ans": 1,
-        "zh": "雙方於 2024 年 3 月 15 日簽訂的主服務協議（MSA）。",
-        "why": "MSA 是雙方（two parties）簽訂的合約，<b>both</b>「雙方」最準確；the 過於泛泛；all 指三者以上；either 意為「任一方」，語意錯誤。"
+        "opts": ["were identified", "have been identified", "are identified", "had been identified"],
+        "ans": 0,
+        "zh": "幾項程序缺失在我們的資料處理實務中被查出。",
+        "why": "時間副詞 <b>in Q1 of this fiscal year</b> 明確指出過去的特定時間點，須用<b>簡單過去式被動</b> <b>were identified</b>。現在完成式（have been identified）通常不與特定過去時間點連用；現在式（are identified）表常態性事實；過去完成式（had been identified）需搭配另一過去基準時間點，此處語境不符。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["In addition", "To this end", "Importantly", "As noted above"],
-        "ans": 2,
-        "zh": "重要的是，修訂後的協議不會影響附件 B 中列明的現有可交付成果或里程碑。",
-        "why": "前句說明需修訂某條款，此句轉達「但不影響現有安排」，<b>Importantly</b>（重要的是）強調此補充最合語境；To this end 意為「為此目的」；In addition 為純粹加法銜接；As noted above 指前文已提，皆不符。"
+        "opts": ["In addition", "Nevertheless", "Conversely", "In contrast"],
+        "ans": 0,
+        "zh": "此外，資料治理辦公室已全面修訂了相關內部規程。",
+        "why": "第二段在第一段要求完成訓練的基礎上，進一步介紹規程修訂，屬<b>遞進補充</b>關係，應使用 <b>In addition</b>（此外）。Nevertheless 表讓步轉折；Conversely 和 In contrast 均表對比，三者與段落間「累加」的邏輯關係不符。"
       },
       {
-        "tag": "動詞語意 · 正式書面",
+        "tag": "詞彙語意",
         "col1": true,
-        "opts": ["return", "remit", "forward", "submit"],
-        "ans": 3,
-        "zh": "我們敬請您審閱隨附的修訂摘要，並於 6 月 30 日前向法律部門提交書面確認。",
-        "why": "<b>submit</b>（正式呈交文件）是商務法律場合的標準用語；return 指「歸還物品」；remit 指「匯款」；forward 指「轉發給第三方」，語意皆不符。"
+        "opts": ["mandatory", "optional", "discretionary", "provisional"],
+        "ans": 0,
+        "zh": "培訓模組的完成是強制性的，並將透過公司集中式學習管理系統進行追蹤。",
+        "why": "下文明示未完訓者將被暫停系統存取權限，可知完訓具有強制性，應選 <b>mandatory</b>（強制的）。optional（自願的）、discretionary（自由裁量的）語意相反；provisional（暫定的）描述性質而非義務程度，均不符語境邏輯。"
       },
       {
-        "tag": "句子插入 · 商務書信",
+        "tag": "句子插入",
         "col1": true,
         "opts": [
-          "We appreciate your prompt attention to this matter.",
-          "The amendment shall take effect upon mutual agreement.",
-          "Please ensure payment is made within 30 days.",
-          "We look forward to renewing our partnership next quarter."
+          "The training program is expected to take approximately two hours to complete.",
+          "Management reserves the right to waive this requirement at its sole discretion.",
+          "Employees who completed the previous training cycle are exempt from this updated module.",
+          "This policy supersedes all prior compliance guidelines issued before 2025."
         ],
         "ans": 0,
-        "zh": "感謝您對此事的及時關注。",
-        "why": "結尾段請求回覆確認後，<b>(A)</b> 感謝對方迅速處理是正式商務信函的標準收尾；(B) 提及生效條件屬法律細節，不適合放在結尾；(C) 付款要求與合約修訂通知無關；(D) 提及續約與當前情境不符。"
+        "zh": "本訓練課程預計約需兩小時完成。",
+        "why": "空格後句「Direct any questions...to the Compliance Helpdesk」為收尾引導句，前方最適合插入<b>實用操作資訊</b>（培訓所需時間），使讀者了解預期負擔後，自然過渡至詢問管道。B「豁免權保留」、C「前次結訓者免修」、D「取代舊規」均引入新政策議題，與後句銜接不自然。"
       }
     ]
   }
