@@ -1,116 +1,129 @@
 {
-  "date": "2026-06-05",
+  "date": "2026-06-06",
   "big_events": [
     {
-      "title": "Google 與 SpaceX 簽訂每月 9.2 億美元算力協議，AI 算力爭奪戰進入天文數字時代",
+      "title": "OpenAI 推出 ChatGPT Lockdown Mode：首個主流 AI 防 Prompt Injection 安全機制",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/"},
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-06-05/google-buying-computing-from-spacex-in-920-million-a-month-deal"},
-        {"name": "CNBC", "url": "https://www.cnbc.com/2026/06/05/google-to-pay-spacex-920-million-a-month-for-xai-compute-capacity.html"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/"},
+        {"name": "Engadget", "url": "https://www.engadget.com/2188537/openai-rolls-out-a-lockdown-mode-for-extra-protection-against-prompt-injection-attacks/"},
+        {"name": "OpenAI 官方", "url": "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt/"}
       ],
-      "summary": "Google 將每月支付 SpaceX 9.2 億美元租用約 11 萬張 NVIDIA GPU 算力，協議持續至 2029 年中，總金額達 300 億美元，震驚業界。",
-      "audience": "職場 AI 使用者、科技產業觀察者、自媒體創作者",
-      "pain_point": "不懂 AI 背後算力軍備競賽有多瘋狂，感覺 AI 工具愈來愈貴但不知道為什麼",
-      "title_idea": "Google 每個月花 9.2 億美元買算力！AI 燒錢到底有多瘋狂？一篇看懂 2026 AI 成本地圖",
-      "local_angle": "台灣圈報導多聚焦台積電供應鏈，Google-SpaceX 這筆天文交易的「為什麼」幾乎沒人深度解析，相關搜尋流量可搶先佈局"
+      "summary": "OpenAI 推出選用性 Lockdown Mode，可停用網路瀏覽、Agent Mode、Deep Research 等功能，防止敏感資料透過 prompt injection 被竊取，面向高安全需求企業用戶",
+      "audience": "企業員工、處理機密文件的職場工作者、IT 管理員",
+      "pain_point": "使用 ChatGPT 分析外部文件或網頁時，擔心公司內部機密資料意外外洩",
+      "title_idea": "你的 ChatGPT 可能在洩密？OpenAI 推出鎖定模式，企業員工必學的 AI 安全設定",
+      "local_angle": "台灣企業 AI 安全規範尚在起步，此功能繁體中文教學幾乎空白，搶先發佈可獲大量企業關鍵字流量"
     },
     {
-      "title": "AI Token 帳單危機引爆：企業爭相壓縮 AI 成本，效率工具迎來新商機",
+      "title": "ChatGPT 單日三大升級：GPT-5.5 Instant 全員開放、記憶體容量翻倍、英國廣告試點",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/05/the-token-bill-comes-due-inside-the-industry-scramble-to-manage-ais-runaway-costs/"}
+        {"name": "OpenAI 官方更新日誌", "url": "https://releasebot.io/updates/openai/chatgpt"},
+        {"name": "OpenAI Help Center", "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"}
       ],
-      "summary": "TechCrunch 深度調查 AI Token 成本失控現象：企業 AI 帳單直線上升，業界開始緊急尋找壓縮 Token 消耗的方案，催生出新一波 AI 效率工具需求。",
-      "audience": "職場使用 AI 工具的上班族、企業 IT 決策者、AI 工具創作者",
-      "pain_point": "訂閱 AI 工具費用愈來愈高，但不知道如何優化用量或找替代方案，每月都在燒預算",
-      "title_idea": "AI 訂閱費把你嚇到了嗎？2026 企業壓縮 AI 成本的 5 大策略，上班族也能用",
-      "local_angle": "台灣職場開始廣泛使用 AI 工具，成本優化的繁體中文內容極少，做「如何用最少錢發揮最大 AI 效益」選題，精準觸達職場受眾"
+      "summary": "6/6 單日推出三項更新：GPT-5.5 Instant 開放所有用戶使用、Plus/Pro 記憶體容量翻倍自動更新、英國 Free/Go 用戶開始見到廣告",
+      "audience": "日常使用 ChatGPT 的上班族、學生、內容創作者",
+      "pain_point": "不清楚自己的 ChatGPT 已悄悄升級哪些功能，錯過免費獲得的新能力",
+      "title_idea": "ChatGPT 昨天悄悄升了 3 件大事：免費版變強、記憶容量翻倍、廣告要來了",
+      "local_angle": "歐美 ChatGPT 用戶已在熱烈討論，華語圈整合報導極少，打包講清楚可搶首發流量"
     },
     {
-      "title": "AirTrunk 承諾在印度投入 300 億美元建設 5GW AI 資料中心，亞洲算力版圖大洗牌",
+      "title": "WWDC 2026 前瞻：Siri 2.0 即將登場，Apple Intelligence 正面挑戰 ChatGPT",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/05/airtrunk-commits-30b-to-build-5gw-of-ai-data-centers-in-india/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/"},
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-06-05/wwdc-2026-preview-ios-27-siri-ai-features-macos-27-more-apple-will-announce"}
       ],
-      "summary": "澳洲資料中心巨頭 AirTrunk 宣布在印度投入 300 億美元建設 5GW AI 算力設施，亞洲 AI 基礎建設版圖持續向南亞延伸擴張。",
-      "audience": "科技產業觀察者、商業媒體讀者、AI 趨勢追蹤者",
-      "pain_point": "想了解 AI 算力投資版圖的全球布局，但相關分析多為英文且缺乏亞洲視角",
-      "title_idea": "印度 AI 大爆發！AirTrunk 300 億美元資料中心計畫，亞洲 AI 算力版圖正在重新洗牌",
-      "local_angle": "用「印度 vs 台灣 AI 基礎建設競爭力」比較角度切入，可吸引關心台灣科技前景的讀者，此角度目前幾乎無人做"
+      "summary": "WWDC 6/8 開幕前，媒體密集報導 Siri 2.0 將支援多輪對話與跨 App 任務，iOS 27 帶來獨立 Siri App，Apple AI 助理策略大躍進",
+      "audience": "iPhone 用戶、Apple 生態系重度使用者、職場 Mac/iPhone 用戶",
+      "pain_point": "一直覺得 Siri 很廢，買了 iPhone Pro 卻感覺 Apple Intelligence 沒什麼用，不確定要繼續用 ChatGPT 還是等 Apple",
+      "title_idea": "WWDC 2026 Siri 終於不廢了！Apple AI 助理 vs ChatGPT 完整比較，6/8 看直播前必讀",
+      "local_angle": "台灣 iPhone 普及率極高，WWDC 前夕搶先發分析可站穩首發流量，6/8 後可繼續更新實測"
     }
   ],
   "tool_updates": [
     {
-      "title": "ChatGPT Writing Blocks 正式上線：在對話框直接撰寫並一鍵發送電子郵件",
+      "title": "ChatGPT Lockdown Mode 完整操作教學：哪些功能會停用？誰適合開啟？",
       "sources": [
-        {"name": "OpenAI（X 官方帳號）", "url": "https://x.com/ChatGPTapp/status/2062944254591430917"},
-        {"name": "FutureTools News", "url": "https://futuretools.io/news"}
+        {"name": "OpenAI Help Center", "url": "https://help.openai.com/en/articles/20001061"},
+        {"name": "Cybersecurity News", "url": "https://cybersecuritynews.com/chatgpt-lockdown-mode/"}
       ],
-      "summary": "OpenAI 推出 Writing Blocks 功能，讓使用者在 ChatGPT 對話中直接編輯郵件草稿並一鍵發送，徹底打通「AI 寫作 → 立即發送」的辦公工作流閉環。",
-      "audience": "天天寫信的職場上班族、業務人員、行政助理",
-      "pain_point": "用 ChatGPT 寫好信後還要複製貼上到 Gmail 或 Outlook，操作繁瑣且容易出錯",
-      "title_idea": "ChatGPT 寫完信直接幫你發！Writing Blocks 郵件功能完整教學，上班族效率翻倍",
-      "local_angle": "台灣職場郵件使用率極高，此功能的繁體中文教學幾乎還沒有人做，搶做第一批教學可獲大量早期搜尋流量"
+      "summary": "開啟 Lockdown Mode 後停用：即時網路瀏覽、圖片回應、Deep Research、Agent Mode、Canvas 網路連線、Live Connectors、檔案下載，適合高安全需求用戶",
+      "audience": "企業員工、IT 管理員、法務財務人員、處理機密的職場工作者",
+      "pain_point": "想在工作中用 ChatGPT 提升效率，但公司擔心資料安全，不知道是否有安全設定方式",
+      "title_idea": "ChatGPT 安全模式完整指南：5 步驟讓 AI 助理符合企業資安規範，老闆再也不擔心",
+      "local_angle": "台灣企業正在制定 AI 使用政策，此類「企業 AI 合規教學」搜尋量即將爆增，現在是卡位黃金期"
     },
     {
-      "title": "Google 發布 Gemma 4 QAT 模型：本地端 AI 記憶體壓縮至 1GB，消費者裝置終於跑得動",
+      "title": "GPT-5.5 Instant 正式向所有 ChatGPT 用戶開放：免費版也能用更強大模型",
       "sources": [
-        {"name": "Google 官方部落格", "url": "https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/"},
-        {"name": "MarkTechPost", "url": "https://www.marktechpost.com/2026/06/05/google-deepmind-releases-gemma-4-qat-checkpoints-q4_0-and-a-new-mobile-format-cut-on-device-memory/"}
+        {"name": "Releasebot OpenAI", "url": "https://releasebot.io/updates/openai"},
+        {"name": "OpenAI Help Center", "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"}
       ],
-      "summary": "Google 發布 Gemma 4 量化感知訓練（QAT）模型，Gemma 4 E2B 壓縮至約 1GB 記憶體，可在手機和消費級 GPU 本地執行高品質 AI，品質優於標準量化方式。",
-      "audience": "想在本地跑 AI 的上班族、開發者、重視隱私的使用者",
-      "pain_point": "想用本地 AI 保護隱私、降低訂閱費，但過去模型太大跑不動或品質太差",
-      "title_idea": "不用雲端！Google Gemma 4 QAT 讓你用 1GB 就跑高品質 AI，免費本地 AI 時代正式到來",
-      "local_angle": "本地 AI 部署教學在台灣圈仍是藍海，此版本品質大幅提升，適合做「零成本本地 AI 入門」系列，搶先佈局教學內容"
+      "summary": "GPT-5.5 Instant 下放全用戶，舊版 GPT-5.3 Instant 提供三個月過渡期後退場，速度更快、回應更清晰",
+      "audience": "使用免費版 ChatGPT 的上班族、學生、剛接觸 AI 的職場新人",
+      "pain_point": "使用免費版感覺 AI 不夠聰明，又不確定是否值得每月付費升級",
+      "title_idea": "ChatGPT 免費版偷偷變強了！GPT-5.5 Instant 現在就能用，速測 5 個工作場景差異",
+      "local_angle": "歐美用戶已在做速度與品質對比測試，中文版測評極度稀缺，快速出測評文有先發優勢"
     },
     {
-      "title": "GPT-5.5 Instant 成為 ChatGPT 新預設：Canvas 退場、Writing Blocks 取代，回應更自然清晰",
+      "title": "ChatGPT 記憶體功能全面升級：自動更新記憶、Plus/Pro 容量翻倍更懂你",
       "sources": [
-        {"name": "OpenAI Help Center", "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"},
-        {"name": "Releasebot", "url": "https://releasebot.io/updates/openai/chatgpt"}
+        {"name": "OpenAI 官方更新", "url": "https://releasebot.io/updates/openai/chatgpt"}
       ],
-      "summary": "OpenAI 將 GPT-5.5 Instant 設為所有用戶預設模型，停用 Canvas 並以 Writing Blocks 取代，回應更簡潔自然，付費用戶有三個月過渡期使用舊版。",
-      "audience": "ChatGPT Plus/Pro 使用者、職場 AI 重度依賴者",
-      "pain_point": "習慣 Canvas 操作介面卻突然被移除，不知道 Writing Blocks 怎麼用，擔心工作流被打斷",
-      "title_idea": "ChatGPT Canvas 消失了！GPT-5.5 Instant 完整使用教學：Writing Blocks 這樣用才更高效",
-      "local_angle": "Canvas 改版台灣用戶有感，做「升級前後對比 + 工作流遷移攻略」，可衝過渡期的大量搜尋流量，時間視窗只有 3 個月"
+      "summary": "ChatGPT 記憶體支援自動更新（不再需要手動整理），Plus/Pro 記憶容量翻倍，個人化精準度大幅提升",
+      "audience": "長期使用 ChatGPT 當工作助理的上班族",
+      "pain_point": "ChatGPT 老是忘記你的工作風格、常用格式和個人偏好，每次都要重新解釋",
+      "title_idea": "ChatGPT 記住你了！記憶容量翻倍：5 個設定讓 AI 助理更像你的專屬員工",
+      "local_angle": "記憶功能讓 ChatGPT 從工具進化為個人助理，具體使用場景教學型內容在華語圈幾乎空白"
+    },
+    {
+      "title": "ChatGPT 英國試點廣告計畫：Free/Go 用戶體驗將改變，付費版優勢更明顯",
+      "sources": [
+        {"name": "OpenAI 官方公告", "url": "https://releasebot.io/updates/openai"},
+        {"name": "OpenAI Release Notes", "url": "https://releasebot.io/updates/openai/chatgpt"}
+      ],
+      "summary": "OpenAI 在英國對免費版和 Go 用戶試投廣告，付費用戶不受影響，為全球廣告計畫的首個試點市場",
+      "audience": "使用免費 AI 工具的職場用戶、正在考慮是否升級付費的上班族",
+      "pain_point": "習慣免費用 AI，不確定廣告出現後使用體驗是否受影響，也不知是否值得升級",
+      "title_idea": "ChatGPT 開始打廣告了！免費版還值得用嗎？2026 年 AI 付費訂閱完整評估指南",
+      "local_angle": "廣告計畫先在英國測試，台灣暫未受影響，現在寫「付費 vs 免費對比」正是最好的切入時機"
     }
   ],
   "trends": [
     {
-      "title": "AI 算力成本失控成新常態，輕量化模型與效率工具需求同步暴增",
+      "title": "AI 職場安全進入合規時代：Lockdown Mode 是企業 AI 治理浪潮的起點",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/05/the-token-bill-comes-due-inside-the-industry-scramble-to-manage-ais-runaway-costs/"},
-        {"name": "Google 官方部落格", "url": "https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/"},
+        {"name": "Engadget", "url": "https://www.engadget.com/2188537/openai-rolls-out-a-lockdown-mode-for-extra-protection-against-prompt-injection-attacks/"}
       ],
-      "summary": "Google-SpaceX 算力大交易與 AI Token 帳單危機同天爆發，顯示 AI 成本正全面失控；Gemma 4 QAT 等輕量化方案的出現代表業界開始找出路，效率工具創作者迎來黃金視窗。",
-      "audience": "AI 工具自媒體創作者、職場效率工具愛好者",
-      "pain_point": "AI 工具愈來愈貴，訂閱費壓力大，不知道有哪些免費或低成本替代方案",
-      "title_idea": "2026 AI 費用大爆炸！5 個免費或低成本替代方案，讓你花最少錢獲得最大 AI 效益",
-      "local_angle": "台灣上班族普遍使用免費版 AI，對成本優化需求強烈，做「低成本 AI 工作流」系列選題，匹配感高且競爭者少"
+      "summary": "OpenAI 推出企業級 AI 安全功能，顯示 AI 工具正從「自由試用」走向「合規管理」，職場 AI 使用政策制定需求急速上升",
+      "audience": "企業 IT 主管、HR 政策制定者、對 AI 合規有顧慮的管理職",
+      "pain_point": "公司想推廣 AI 工具但不知道如何訂立安全規範，員工想用 AI 但怕觸犯公司政策",
+      "title_idea": "公司到底能不能用 ChatGPT？2026 企業 AI 安全規範完整指南，IT 主管必讀",
+      "local_angle": "台灣中大企業正在制定 AI 使用政策，「企業 AI 合規」是職場受眾的高需求題材，競爭者極少"
     },
     {
-      "title": "ChatGPT 從寫作助手進化為全功能辦公入口，Microsoft 365 與 Google Workspace 面臨直接競爭",
+      "title": "Apple Siri 2.0 效應：iPhone 將成最強 AI 工作裝置，重塑職場 AI 助理市場格局",
       "sources": [
-        {"name": "OpenAI（X 官方帳號）", "url": "https://x.com/ChatGPTapp/status/2062944254591430917"},
-        {"name": "ChatGPT for Excel/Sheets", "url": "https://chatgpt.com/apps/spreadsheets/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/"},
+        {"name": "Apple Insider", "url": "https://appleinsider.com/articles/26/06/05/ios-27-macos-27-siri-what-to-expect-to-launch-at-wwdc-2026"}
       ],
-      "summary": "ChatGPT 短短數月內連續整合試算表（Excel/Sheets sidebar）與郵件發送（Writing Blocks），策略性地將自己定位為辦公軟體入口，職場 AI 整合趨勢全面加速。",
-      "audience": "職場上班族、辦公室工作者、公司 IT 採購決策者",
-      "pain_point": "每天要在 ChatGPT、Excel、Outlook 之間切換，工作流碎片化導致效率低落",
-      "title_idea": "ChatGPT 要取代 Office 了嗎？郵件、試算表、文件一站搞定，2026 辦公革命完整解析",
-      "local_angle": "台灣企業 Microsoft 365 滲透率高，「ChatGPT vs 傳統 Office 工具整合對比」精準觸達職場受眾，繁體中文深度對比內容目前幾乎為零"
+      "summary": "若 Siri 2.0 成功，搭配 iOS 27 離線處理個人隱私資料，iPhone 將成職場首選 AI 裝置，對 ChatGPT/Gemini 構成直接挑戰",
+      "audience": "同時使用 iPhone 和 AI 工具的職場工作者、Apple 生態系重度用戶",
+      "pain_point": "AI 助理分散在 ChatGPT、Gemini、Siri 等多個平台，工作流破碎化效率低落",
+      "title_idea": "iPhone + Siri 2.0 = 你的私人 AI 助理？Apple vs ChatGPT 職場效率大對決",
+      "local_angle": "台灣 iPhone 使用率高達 60%+，Apple Intelligence 在地化使用場景教學有龐大潛在受眾"
     },
     {
-      "title": "本地端 AI 模型輕量化臨界點突破，「不依賴雲端、保護個資」成 2026 下半年職場新趨勢",
+      "title": "AI 工具商業模式加速分化：廣告、安全付費牆、訂閱分級——免費 AI 黃金時代正在結束",
       "sources": [
-        {"name": "Google 官方部落格", "url": "https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/"},
-        {"name": "MarkTechPost", "url": "https://www.marktechpost.com/2026/06/05/google-deepmind-releases-gemma-4-qat-checkpoints-q4_0-and-a-new-mobile-format-cut-on-device-memory/"}
+        {"name": "OpenAI 官方", "url": "https://releasebot.io/updates/openai"},
+        {"name": "OpenAI Help Center", "url": "https://help.openai.com/en/articles/20001061"}
       ],
-      "summary": "Gemma 4 QAT 將高品質開源模型壓縮至 1GB，結合上半年各家輕量化進展，本地 AI「品質 vs 成本」臨界點已突破，預計下半年將有更多職場用戶轉向本地方案。",
-      "audience": "注重資料隱私的職場使用者、企業資安部門、個人開發者",
-      "pain_point": "公司資料外洩風險讓員工不敢把敏感資訊輸入 ChatGPT，但沒有替代方案",
-      "title_idea": "公司機密不外洩！2026 本地 AI 完整安裝教學，Gemma 4 QAT 讓你在自己電腦上跑高品質 AI",
-      "local_angle": "台灣金融、醫療、政府等高隱私需求產業眾多，本地 AI 教學可精準打入企業採購決策者與合規敏感職場，此賽道競爭者極少"
+      "summary": "單日出現廣告試點、Lockdown Mode（僅限付費商業帳號）、GPT-5.5 Instant 分級策略，AI 工具正快速建立付費 vs 免費的差異化體驗牆",
+      "audience": "依賴免費 AI 工具的職場上班族、正在評估 AI 工具預算的中小企業主",
+      "pain_point": "習慣用免費 AI，但越來越多關鍵功能鎖在付費版，不知道該如何規劃 AI 工具預算",
+      "title_idea": "免費 AI 時代快結束了？2026 最值得花錢的 AI 訂閱排行，職場人的完整採購指南",
+      "local_angle": "AI 工具付費教學在華語圈嚴重供不應求，此題材長期流量穩定、轉化率高"
     }
   ]
 }
