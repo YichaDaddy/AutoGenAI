@@ -223,12 +223,21 @@ a{color:inherit;text-decoration:none}
 .tqm-q{background:#fff;border:1px solid var(--line);border-radius:var(--r-sm);padding:20px 22px;box-shadow:var(--sh)}
 #tqm-body .bcards .tqm-q{break-inside:avoid;margin-bottom:18px}
 .tqm-q .tq-stem{font-size:16px;margin-bottom:14px}
-.tqm-split{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:start}
-.tqm-passage{position:sticky;top:0;background:#fff;border:1px solid var(--line);border-radius:var(--r-sm);padding:24px 26px;font-size:16px;line-height:2.05;box-shadow:var(--sh)}
+.tqm-split{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:stretch;height:calc(90vh - 200px)}
+.tqm-passage{overflow-y:auto;background:#fff;border:1px solid var(--line);border-radius:var(--r-sm);padding:24px 26px;font-size:16px;line-height:2.05;box-shadow:var(--sh)}
 .tqm-passage .tq6-ptitle{font-size:11px;margin-bottom:15px}
 .tqm-passage p{margin-bottom:14px;text-wrap:pretty}
-.tqm-qs{display:flex;flex-direction:column;gap:16px}
-@media(max-width:760px){.tqm-split{grid-template-columns:1fr}.tqm-passage{position:static}.tq6-split{grid-template-columns:1fr}}
+.tqm-qs{display:flex;flex-direction:column;gap:16px;overflow-y:auto}
+#tqm-body.p6-split{overflow:hidden;padding:16px 24px 0}
+.tq-pending-note{font-size:13px;color:var(--fg3);background:var(--card-soft);border-radius:var(--r-sm);padding:10px 14px;text-align:center}
+.tq-add-btn{display:inline-block;margin-top:8px;padding:4px 10px;font-size:12px;border:1px solid var(--accent);border-radius:20px;background:transparent;color:var(--accent);cursor:pointer}
+.tq-add-btn:hover{background:var(--accent);color:#fff}
+.tq-add-btn:disabled{opacity:.5;cursor:default;pointer-events:none}
+.tq-zh-wrap{border-top:1px solid var(--line);margin-top:20px;padding-top:14px}
+.tq-zh-btn{font-size:13px;color:var(--fg2);background:none;border:none;cursor:pointer;padding:0;font-family:inherit}
+.tq-zh-btn:hover{color:var(--fg)}
+.tq-zh-text{font-size:14px;line-height:1.95;color:var(--fg2);margin-top:12px;white-space:pre-wrap}
+@media(max-width:760px){.tqm-split{grid-template-columns:1fr;height:auto}.tqm-passage{overflow-y:visible}.tqm-qs{overflow-y:visible}#tqm-body.p6-split{overflow-y:auto;padding:16px 18px 0}.tq6-split{grid-template-columns:1fr}}
 /* ---------- 錯題本 / REVIEW ---------- */
 .rv-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:26px}
 .rv-stat{background:#fff;border:1px solid var(--line);border-radius:var(--r-sm);padding:18px 20px;box-shadow:var(--sh)}
@@ -1633,10 +1642,12 @@ fetch('stocks.json?'+Date.now())
         return `<button class="tq-opt${cls}" data-part="${part}" data-qid="${qid}" data-o="${k}"><span class="tq-key">${L[k]}</span>${o}</button>`;
       }).join('')+'</div>';
   }
-  function expBlock(q,sel){
+  function expBlock(q,sel,qid){
     if(sel==null)return '';
     const ok=sel===q.ans;
-    return `<div class="tq-exp"><div class="ex-l"><span class="res ${ok?'ok':'ng'}">${ok?'✓ 答對':'✕ 答錯'}</span><span class="ex-ans">正解 ${L[q.ans]} · ${q.opts[q.ans]}</span></div><div class="ex-zh">${q.zh}</div><div class="ex-why">${q.why}</div></div>`;
+    const addBtn=ok&&qid&&!st.wrongBank[qid]
+      ?`<button class="tq-add-btn" data-add-wrong="${qid}">＋ 加入複習</button>`:'';
+    return `<div class="tq-exp"><div class="ex-l"><span class="res ${ok?'ok':'ng'}">${ok?'✓ 答對':'✕ 答錯'}</span><span class="ex-ans">正解 ${L[q.ans]} · ${q.opts[q.ans]}</span>${addBtn}</div><div class="ex-zh">${q.zh}</div><div class="ex-why">${q.why}</div></div>`;
   }
   function passage(p6obj,active){
     if(!p6obj)return '';
@@ -1676,7 +1687,7 @@ fetch('stocks.json?'+Date.now())
     const q=qs[i5],ans=st.answers[q.id],sel=ans!=null?ans.sel:null;
     const stem=q.pre+`<span class="tq-blank${sel!=null?' done':''}">${sel!=null?q.opts[q.ans]:'?'}</span>`+q.post;
     v5.innerHTML=`<div class="tq-meta"><span class="tq-tag">${q.tag}</span><span class="tq-count">第 ${i5+1} / ${qs.length} 題</span></div>`
-      +`<div class="tq-stem">${stem}</div>`+optsBlock('5',q.id,q,sel)+expBlock(q,sel)
+      +`<div class="tq-stem">${stem}</div>`+optsBlock('5',q.id,q,sel)+expBlock(q,sel,q.id)
       +`<div class="tq-nav"><button class="tq-navbtn" data-nav="prev"${i5===0?' disabled':''}>← 上一題</button>`
       +`<button class="tq-navbtn primary" data-nav="next"${i5===qs.length-1?' disabled':''}>下一題 →</button>`
       +`<span class="tq-score">答對 <b>${p5CorrectCnt()}</b> / ${p5AnsweredCnt()}</span></div>`;
@@ -1684,12 +1695,14 @@ fetch('stocks.json?'+Date.now())
   function renderP6(){
     const p6=st.currentSet?.p6;
     if(!p6){document.getElementById('tq6-passage').innerHTML='<div class="bni-loading">題組載入中…</div>';document.getElementById('tq6-side').innerHTML='';return;}
-    document.getElementById('tq6-passage').innerHTML=passage(p6,b6);
+    const allDone=[0,1,2,3].every(i=>st.answers[p6.id+'-'+i]!=null);
+    document.getElementById('tq6-passage').innerHTML=passage(p6,allDone?-1:b6);
     const q=p6.blanks[b6],ans=st.answers[p6.id+'-'+b6],sel=ans!=null?ans.sel:null;
     document.getElementById('tq6-side').innerHTML=
       `<div class="tq6-bnav">${p6.blanks.map((_,i)=>{const a=st.answers[p6.id+'-'+i];return`<button class="tq6-bn${i===b6?' active':''}${a!=null?' done':''}" data-bn="${i}">${i+1}</button>`;}).join('')}</div>`
       +`<div class="tq-meta"><span class="tq-tag">${q.tag}</span><span class="tq-count">第 ${b6+1} 格 / ${p6.blanks.length}</span></div>`
-      +optsBlock('6',p6.id+'-'+b6,q,sel)+expBlock(q,sel);
+      +optsBlock('6',p6.id+'-'+b6,q,sel)
+      +(allDone?expBlock(q,sel):'<div class="tq-pending-note">完成全部 4 格後查看解析</div>');
   }
   function renderProgress(){
     const t=`已完成 ${totalAnswered()} / ${TOTAL_P5+TOTAL_P6B}`;
@@ -1698,20 +1711,29 @@ fetch('stocks.json?'+Date.now())
     const w=document.getElementById('tq-wrongn');if(w)w.textContent=stats().pending;
   }
   function renderModal(){
+    body.classList.remove('p6-split');
     if(mPart==='review'){renderReview();return;}
     if(mPart==='5'){
       const qs=getP5Qs();
       body.innerHTML='<div class="bcards">'+qs.map((q,k)=>{
         const ans=st.answers[q.id],sel=ans!=null?ans.sel:null;
         const stem=q.pre+`<span class="tq-blank${sel!=null?' done':''}">${sel!=null?q.opts[q.ans]:'?'}</span>`+q.post;
-        return `<div class="tqm-q"><div class="tq-meta"><span class="tq-tag">${q.tag}</span><span class="tq-count">第 ${k+1} 題</span></div><div class="tq-stem">${stem}</div>${optsBlock('5',q.id,q,sel)}${expBlock(q,sel)}</div>`;
+        return `<div class="tqm-q"><div class="tq-meta"><span class="tq-tag">${q.tag}</span><span class="tq-count">第 ${k+1} 題</span></div><div class="tq-stem">${stem}</div>${optsBlock('5',q.id,q,sel)}${expBlock(q,sel,q.id)}</div>`;
       }).join('')+'</div>';
     }else{
       const p6=st.currentSet?.p6;
       if(!p6){body.innerHTML='<div class="bni-loading">題組載入中…</div>';return;}
-      body.innerHTML='<div class="tqm-split"><div class="tqm-passage">'+passage(p6,-1)+'</div><div class="tqm-qs">'
+      body.classList.add('p6-split');
+      const allDone=[0,1,2,3].every(i=>st.answers[p6.id+'-'+i]!=null);
+      const allCorrect=allDone&&!st.wrongBankP6[p6.id];
+      const zhHtml=allDone&&p6.zh_passage
+        ?`<div class="tq-zh-wrap"><button class="tq-zh-btn" data-zh-toggle>查看中文翻譯 ▼</button><div class="tq-zh-text" id="tqm-zh" hidden>${p6.zh_passage}</div></div>`:'' ;
+      const addP6Btn=allCorrect&&!st.wrongBankP6[p6.id]
+        ?`<div class="tq-zh-wrap"><button class="tq-add-btn" data-add-wrong-p6="${p6.id}">＋ 加入複習</button></div>`:'';
+      body.innerHTML='<div class="tqm-split"><div class="tqm-passage">'+passage(p6,-1)+zhHtml+addP6Btn+'</div><div class="tqm-qs">'
+        +(allDone?'':'<div class="tq-pending-note">完成全部 4 格後查看解析</div>')
         +p6.blanks.map((q,k)=>{const ans=st.answers[p6.id+'-'+k],sel=ans!=null?ans.sel:null;
-          return `<div class="tqm-q"><div class="tq-meta"><span class="tq-tag">${q.tag}</span><span class="tq-count">第 ${k+1} 格</span></div>${optsBlock('6',p6.id+'-'+k,q,sel)}${expBlock(q,sel)}</div>`;
+          return `<div class="tqm-q"><div class="tq-meta"><span class="tq-tag">${q.tag}</span><span class="tq-count">第 ${k+1} 格</span></div>${optsBlock('6',p6.id+'-'+k,q,sel)}${allDone?expBlock(q,sel):''}</div>`;
         }).join('')+'</div></div>';
     }
   }
@@ -1807,6 +1829,23 @@ fetch('stocks.json?'+Date.now())
 
   // ── Event: review actions ──────────────────
   body.addEventListener('click',e=>{
+    // 中文翻譯折疊
+    const zhBtn=e.target.closest('[data-zh-toggle]');
+    if(zhBtn){const box=document.getElementById('tqm-zh');if(box){box.hidden=!box.hidden;zhBtn.textContent=box.hidden?'查看中文翻譯 ▼':'收合翻譯 ▲';}return;}
+    // P5 加入複習
+    const awP5=e.target.closest('[data-add-wrong]');
+    if(awP5){
+      const qid=awP5.dataset.addWrong,q=getP5Qs().find(x=>x.id===qid);
+      if(q&&!st.wrongBank[qid])st.wrongBank[qid]=Object.assign({},q,{addedDate:todayStr()});
+      save();fbTPush();awP5.textContent='✓ 已加入';awP5.disabled=true;renderProgress();return;
+    }
+    // P6 加入複習
+    const awP6=e.target.closest('[data-add-wrong-p6]');
+    if(awP6){
+      const p6id=awP6.dataset.addWrongP6,p6=st.currentSet?.p6;
+      if(p6&&p6.id===p6id&&!st.wrongBankP6[p6id])st.wrongBankP6[p6id]=Object.assign({},p6,{addedDate:todayStr(),wrongBlanks:[]});
+      save();fbTPush();awP6.textContent='✓ 已加入複習';awP6.disabled=true;renderProgress();return;
+    }
     const rp5=e.target.closest('[data-retest-p5]');
     if(rp5){
       const qid=rp5.dataset.retestP5;
