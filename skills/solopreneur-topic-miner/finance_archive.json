@@ -1,5 +1,172 @@
 [
   {
+    "date": "2026-06-07",
+    "market_shocks": [
+      {
+        "title": "雙重崩跌夢魘：台股恐探4萬點關卡，台灣散戶複委託曝險創新高",
+        "sources": [
+          {
+            "name": "聯合新聞網",
+            "url": "https://udn.com/news/story/7238/9551787"
+          },
+          {
+            "name": "聯合新聞網",
+            "url": "https://udn.com/news/amp/story/7238/9550473"
+          },
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-06-07/worries-grow-that-hedge-fund-crowding-may-amplify-risk-in-crisis"
+          }
+        ],
+        "summary": "美股上週五重挫引爆台指期夜盤暴跌3,006點，創史上最大單日跌點紀錄；法人預估台股周一恐再下探1,761點以上，若月線失守將測試4萬點大關。Bloomberg報導也指出，對沖基金過度擁擠的部位若被迫平倉，恐進一步放大市場跌勢，形成連環效應。",
+        "tw_stock_impact": "國人前四月複委託成交金額已達5.8兆元，七成集中在美股科技、AI與半導體，雙市場同步重挫讓散戶資產縮水程度遠超以往修正；融資、期貨、質押部位面臨壓力測試。",
+        "investment_insight": "此時不宜貿然加碼攤平，建議先檢視海外與台股部位的「重複曝險」比例，將槓桿工具（融資、正2 ETF）部位降至安全水位，待月線支撐確立、成交量縮手後再分批布局龍頭股。",
+        "title_idea": "「史上最痛開盤」台股恐崩破4萬點！複委託七成壓寶科技股的台灣散戶如何自救",
+        "local_angle": "許多台灣存股族同時持有台股權值股與美股科技ETF，這次「雙重曝險」是過去十年罕見的全面性測試，值得每個小資族重新檢視資產配置。"
+      },
+      {
+        "title": "「大空頭」Burry再爆猛料：Nvidia-xAI晶片交易是「假面遊戲」，恐重演2008包裝術",
+        "sources": [
+          {
+            "name": "247wallst",
+            "url": "https://247wallst.com/investing/2026/06/01/michael-burry-just-called-nvidias-spacex-chip-deal-fugazi-heres-why-it-all-seems-wrong/"
+          },
+          {
+            "name": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-just-called-nvidia-154541018.html"
+          },
+          {
+            "name": "IBTimes UK",
+            "url": "https://www.ibtimes.co.uk/michael-burry-ai-bubble-warning-1800028"
+          }
+        ],
+        "summary": "Michael Burry在Substack上痛批Nvidia與馬斯克旗下xAI透過Valor、Apollo等多層次金融工具包裝的54億美元GPU交易為「fugazi」（虛假）。他指出此結構讓Nvidia提前認列營收、xAI免增加負債，真正風險卻被層層轉嫁到保險公司與一般退休族的年金商品中，手法神似2008年次貸危機的包裝術。",
+        "tw_stock_impact": "若AI晶片需求泡沫論調發酵，台積電、台達電等供應鏈個股估值將首當其衝；外資若重新評估AI資本支出永續性，恐引發台股權值股的連鎖性調節賣壓。",
+        "investment_insight": "投資AI概念股前，建議優先檢視該公司營收認列方式是否涉及「循環交易」或複雜的特殊目的實體（SPV）融資，財報附註中關聯方交易比重越高，風險越需提高警覺。",
+        "title_idea": "又是Burry！他說Nvidia和馬斯克的晶片生意是「假的」——這次AI泡沫的爆點藏在哪裡？",
+        "local_angle": "台灣供應鏈深陷「成也AI、敗也AI」的結構，Burry的警告等於直接點名台廠未來訂單能見度的隱憂，存股族該如何重新評估護國神山的長期價值？"
+      },
+      {
+        "title": "Meet Kevin爆紅警告片「崩盤已經開始」：百萬粉絲財經網紅齊喊OpenAI是世紀騙局",
+        "sources": [
+          {
+            "name": "YouTube - Meet Kevin",
+            "url": "https://www.youtube.com/channel/UCUvvj5lwue7PspotMDjk5UA"
+          }
+        ],
+        "summary": "知名財經YouTuber Meet Kevin在新片《it's over | the collapse is beginning》中直言OpenAI估值是一場「精心設計的騙局」，呼應近期AI類股暴跌走勢；他先前的影片也接連以「HOLY SQUEEZE WARNING」「IT'S HAPPENING」等聳動標題警示市場進入劇烈震盪期。",
+        "tw_stock_impact": "美國散戶網紅對AI泡沫的恐慌情緒若持續擴散，將直接影響台股AI供應鏈（如廣達、緯創、鴻海）的外資評等與資金流向，短線恐加劇波動。",
+        "investment_insight": "網紅標題式警告往往帶有誇大成分，投資人應將其視為「市場情緒溫度計」而非操作依據——當聳動標題集體出現「崩盤」字眼時，反而可能接近情緒性低點，適合分批布局而非恐慌出場。",
+        "title_idea": "「結束了」百萬訂閱網紅Meet Kevin喊崩盤！他到底看到了什麼讓全網瘋傳",
+        "local_angle": "台灣許多年輕投資人透過YouTube接收美股資訊，這類聳動標題容易引發跟風恐慌賣壓，了解網紅內容的「情緒指標」屬性比照單全收更重要。"
+      },
+      {
+        "title": "ZeroHedge示警：6月CPI恐成「刺破泡沫的最後一根針」，Fed鷹派轉向風險急升",
+        "sources": [
+          {
+            "name": "ZeroHedge",
+            "url": "https://www.zerohedge.com/markets/brace-june-event-risk-and-cpi-print-could-pop-bubble"
+          },
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-06-07/bond-traders-bet-on-a-cpi-surge-that-bolsters-case-for-fed-pivot"
+          }
+        ],
+        "summary": "ZeroHedge引述美銀策略師Hartnett警告，失業率與通膨率可能同步走高的罕見組合，歷史上往往是股市重大回檔前兆；Bloomberg報導也指出，債券交易員正押注本周CPI數據將出現「數年來最大增幅」，市場對Fed鷹派轉向的預期急速升溫。",
+        "tw_stock_impact": "若Fed鷹派立場確立，美元走強與資金回流美國將對新興市場（包含台股）資金動能形成壓力，外資匯出風險升高，新台幣匯率波動度也可能加劇。",
+        "investment_insight": "本周CPI公布前，建議降低短線槓桿部位、提高現金水位；若數據優於預期引發股市反彈，可視為減碼避險部位的時機，而非追高訊號。",
+        "title_idea": "這份CPI報告恐怕要「捅破泡沫」？ZeroHedge警告：6月可能是今年最關鍵的一周",
+        "local_angle": "Fed政策牽動全球資金流向，台灣出口商與資產配置族群都該關注這份數據——它可能決定下半年新台幣匯率與台股資金動能的方向。"
+      }
+    ],
+    "investment_opportunities": [
+      {
+        "title": "SpaceX世紀IPO倒數：6/12掛牌估值上看1.77兆美元，台灣散戶搭上馬斯克財富列車的3條路",
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/06/03/spacex-ipo-stock-price-roadshow-musk.html"
+          },
+          {
+            "name": "Fortune",
+            "url": "https://fortune.com/2026/06/03/spacex-ipo-share-price-index-funds-valuation-public/"
+          },
+          {
+            "name": "商業周刊",
+            "url": "https://www.businessweekly.com.tw/business/blog/3021482"
+          }
+        ],
+        "summary": "SpaceX確定以每股135美元、總值約1.77兆美元的估值在6月12日於那斯達克掛牌（代號SPCX），募資規模上看750億美元，馬斯克個人持股價值有望讓他成為全球首位兆萬富翁。分析師對估值看法兩極，Morningstar甚至認為其合理價值僅約7,800億美元，較私募市場估值低近五成。",
+        "tw_stock_impact": "SpaceX掛牌後極可能迅速被各大指數納入成分股，引發基金被動式買盤；台灣投資人若想參與需透過複委託或國際券商（如盈透證券、嘉信理財），同時可關注台廠供應鏈（如台達電、貿聯-KY）是否受惠相關訂單。",
+        "investment_insight": "IPO首日股價平均漲幅雖達19%，但鑒於估值爭議大，建議先觀察上市後首週的成交量與法人籌碼動向，避免追高搶進；可將SpaceX視為衛星持股而非核心部位，搭配定期定額分批佈局。",
+        "title_idea": "馬斯克要當「世界首位兆萬富翁」了！SpaceX估值1.77兆美元掛牌在即，台灣散戶3招卡位攻略",
+        "local_angle": "這可能是這個世代最受矚目的美股IPO事件之一，許多年輕投資人會問「我也能參與嗎？」——清楚的管道說明能精準命中讀者的搜尋需求。"
+      },
+      {
+        "title": "Andrei Jikh示警「黃金正在離開美國」：避險資金大遷徙，黃金重要性已超越美元",
+        "sources": [
+          {
+            "name": "YouTube - Andrei Jikh",
+            "url": "https://www.youtube.com/channel/UCGy7SkBjcIAgTiwkXEtPnYg"
+          }
+        ],
+        "summary": "擁有數百萬訂閱的財經YouTuber Andrei Jikh接連發布《黃金比美元更重要》《黃金正在離開美國》兩支影片，指出全球央行與機構資金正加速將黃金實體運出美國，反映對美元長期信心的結構性轉變，呼應近期金價屢創新高的走勢。",
+        "tw_stock_impact": "若全球資金持續轉向黃金避險，台灣的黃金存摺、黃金ETF買氣可望升溫；同時美元走弱也將牽動新台幣匯率與電子代工業的匯損評估。",
+        "investment_insight": "與其追高現貨黃金，可考慮分批布局與黃金連動的礦業股或黃金ETF，並將部位控制在總資產5-10%作為避險配置；密切觀察各國央行黃金儲備數據作為資金趨勢的領先指標。",
+        "title_idea": "「黃金正在逃離美國」百萬網紅一席話炸鍋：避險之王地位要換人坐了嗎？",
+        "local_angle": "台灣人偏好定存與儲蓄險的習慣正受到通膨侵蝕，黃金資產配置話題能引導讀者思考「除了台幣定存，我還能怎麼保值」。"
+      },
+      {
+        "title": "Heresy Financial連環爆「美元貶值恐讓股市估值失真」：暗池交易正在重塑市場流動性規則",
+        "sources": [
+          {
+            "name": "YouTube - Heresy Financial",
+            "url": "https://www.youtube.com/channel/UC4fg8o6oUkkZDLaC6eAZKwQ"
+          }
+        ],
+        "summary": "財經頻道Heresy Financial一連發布15支影片，聚焦「美元貶值是否讓股市顯得被高估」「暗池交易如何影響市場流動性」及「儲蓄帳戶利率為何下滑」等主題，主持人Joe Brown指出傳統估值指標在貨幣貶值環境下可能嚴重失真，散戶恐因此誤判進場時機。",
+        "tw_stock_impact": "若美元購買力持續下滑而股價維持高檔，台灣的複委託與美股ETF投資人可能面臨「帳面數字上漲、實質購買力卻縮水」的隱形虧損，需重新檢視真實報酬率。",
+        "investment_insight": "評估美股部位時，建議將美元指數（DXY）走勢與個股本益比一併檢視，計算「實質報酬」而非僅看帳面漲幅；同時可將部分資產配置在能對抗貨幣貶值的實體資產或抗通膨標的。",
+        "title_idea": "「你的美股獲利可能是假象」——財經網紅揭露美元貶值如何讓股市估值集體說謊",
+        "local_angle": "許多台灣人認為「買美股穩賺」，但這系列內容點出貨幣購買力被忽略的盲點，正好提醒讀者用更全面的角度檢視海外資產報酬。"
+      }
+    ],
+    "macro_observations": [
+      {
+        "title": "美國房貸月付款史上首破2,000美元：「房奴世代」壓力鍋逼近沸點",
+        "sources": [
+          {
+            "name": "ZeroHedge",
+            "url": "https://www.zerohedge.com/personal-finance/americans-average-monthly-mortgage-payment-tops-2000-first-time-ever"
+          }
+        ],
+        "summary": "ZeroHedge報導指出，美國家庭平均每月房貸支出已史上首度突破2,000美元，創下前所未有的負擔水準，凸顯升息循環與高房價對中產階級財務韌性的全面侵蝕，市場擔憂消費力道恐因此快速降溫。",
+        "tw_stock_impact": "美國消費動能若因房貸壓力降溫，將牽動仰賴美國終端市場的台灣出口供應鏈（電子代工、消費性電子）訂單能見度，間接影響相關個股第三、四季展望。",
+        "investment_insight": "可關注美國消費者信心指數與零售銷售數據作為領先指標，提前布局防禦型、受景氣循環影響較小的內需與民生消費類股，降低對單一市場消費動能的依賴。",
+        "title_idea": "「繳房貸繳到吃土」美國家庭月付款衝破2千美元天花板！這個訊號正在預告經濟降溫",
+        "local_angle": "對比台灣同樣高房價、高房貸負擔的處境，這則新聞能引發強烈共鳴，也提醒讀者觀察「消費動能降溫」如何反向影響仰賴美國市場的台灣供應鏈。"
+      },
+      {
+        "title": "馬斯克喊出「未來最快12個月美國將迎雙位數成長」：狂語還是新經濟典範的預言？",
+        "sources": [
+          {
+            "name": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/news/elon-musk-predicts-double-digit-221539787.html"
+          },
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Elon_Musk"
+          }
+        ],
+        "summary": "身價估值逾7千億美元、即將透過SpaceX掛牌挑戰「全球首位兆萬富翁」的馬斯克近期公開預測，美國經濟將在未來12至18個月內出現雙位數成長，甚至五年內有望達到三位數成長，言論在金融圈掀起兩極討論。",
+        "tw_stock_impact": "若市場買單馬斯克的樂觀論調，將進一步推升AI與太空科技類股評價，帶動台灣相關供應鏈（衛星通訊、半導體）想像空間；但若論調落空，過度追捧的類股恐面臨估值修正賣壓。",
+        "investment_insight": "面對科技大佬的高調預測，建議將其視為「市場情緒風向球」而非投資依據，可同步交叉比對官方經濟數據（GDP、PMI）與機構預測，避免因單一意見領袖言論而追高殺低。",
+        "title_idea": "馬斯克又語出驚人！「美國經濟要雙位數成長」——這次他是先知還是又在畫大餅？",
+        "local_angle": "台灣讀者對馬斯克言論向來高度關注，這類「大膽預言」題材具備天然話題性，也適合帶出「該如何理性解讀名人財經言論」的延伸討論。"
+      }
+    ]
+  },
+  {
     "date": "2026-06-06",
     "market_shocks": [
       {
@@ -1118,175 +1285,6 @@
         "investment_insight": "應對美國「通脹化國債」策略：增持實物資產（台灣房地產、黃金ETF如00757）、持股優先考慮能轉嫁通膨的企業（台積電的先進製程定價能力）、減少長天期美元債券部位（00679B等）。美元現金部位不宜過重。",
         "title_idea": "美國39兆美元國債要怎麼還？Graham Stephan 說破真相：靠通膨讓你的錢悄悄縮水就好了",
         "local_angle": "台灣人愛存美元、愛買美債ETF，但如果美國選擇用通膨稀釋國債，持有大量美元資產反而是在幫美國分擔財政問題。現在該重新思考資產配置比例了。"
-      }
-    ]
-  },
-  {
-    "date": "2026-05-31",
-    "market_shocks": [
-      {
-        "title": "Buffett 豪擲85億美元全現金收購 Taylor Morrison，大押美國房市底部已過",
-        "sources": [
-          {
-            "name": "Bloomberg Markets RSS",
-            "url": "https://www.bloomberg.com/news/articles/2026-05-31/berkshire-hathaway-to-buy-taylor-morrison-for-6-8-billion"
-          },
-          {
-            "name": "BusinessWire",
-            "url": "https://www.businesswire.com/news/home/20260531630893/en/Berkshire-Hathaway-to-Acquire-Taylor-Morrison-Home-Corporation-for-$8.5-Billion"
-          }
-        ],
-        "summary": "Berkshire Hathaway 宣布以每股72.5美元、總計85億美元全現金收購美國房屋建商 Taylor Morrison，溢價約24%。這是巴菲特有史以來最大的房地產相關收購，執行長 Greg Abel 表示將擴大地基型住宅業務版圖，與 Clayton Homes 整合。交易預計2026下半年完成，顯示巴菲特對美國房市底部已過充滿信心。",
-        "tw_stock_impact": "利多台灣建材供應鏈，如矽酸板、衛浴、系統廚具等出口商；同時顯示美國住房需求仍旺，支撐台灣相關 AI 智慧建築材料廠商長期前景。",
-        "investment_insight": "巴菲特重押房市代表「美國房市下行已結束」的強烈信號。可關注美國建材 ETF（ITB）或台灣相關出口廠商，勝一（1726）、冠軍建材（1535）等值得留意。",
-        "title_idea": "巴菲特押注美國房市！85億美元砸下全現金收購，這次連 Clayton Homes 都要變小弟",
-        "local_angle": "台灣投資人可借鑒巴菲特邏輯：當聰明錢在市場不確定時大舉買入實體資產，代表通縮風險消退。台灣房市、建材股或同步受惠。"
-      },
-      {
-        "title": "SpaceX IPO 1.8兆美元刷新史上紀錄，強制改寫全球指數基金規則",
-        "sources": [
-          {
-            "name": "Bloomberg",
-            "url": "https://www.bloomberg.com/news/features/2026-05-31/spacex-s-ipo-led-by-elon-musk-forces-index-funds-and-retail-to-change-the-rules"
-          },
-          {
-            "name": "The Motley Fool",
-            "url": "https://www.fool.com/investing/2026/05/31/sp-500-nasdaq-index-fund-investors-spacex-stock/"
-          }
-        ],
-        "summary": "SpaceX 計劃6月12日以至少1.8兆美元估值上市，募集750億美元，是人類歷史上最大 IPO。Nasdaq 100 將在上市後15個交易日快速納入，各大指數基金被迫修改規則迎接這頭巨獸。由於流通股僅4.3%，ETF 強制建倉資金估超300億美元，衝擊程度超出市場預期。",
-        "tw_stock_impact": "SpaceX 供應鏈中的台灣廠商直接受惠，包含鴻海旗下機構件廠；被動型 ETF 資金重配置可能短暫壓縮台積電等科技股在 S&P 500 中的比重。",
-        "investment_insight": "SpaceX 上市是全球最大私有科技公司轉公開的歷史事件。台灣投資人應優先布局鴻海生態系供應鏈（2317、鴻準2354）。持有 VOO、QQQ 者注意：SpaceX 上市後將自動佔據持倉，需重新評估集中度風險。",
-        "title_idea": "你的 ETF 即將被強制塞入 SpaceX！1.8兆市值改寫指數規則，台灣 ETF 投資人必讀",
-        "local_angle": "台灣買了 VOO、QQQ 的投資人注意：SpaceX 上市後將自動佔據你的持倉。鴻海供應鏈是台灣最直接的受益標的，別只想到美股。"
-      },
-      {
-        "title": "台股重挫523點，三大法人賣超480億，台積電跌破2300元整數關卡",
-        "sources": [
-          {
-            "name": "鉅亨網",
-            "url": "https://news.cnyes.com/news/id/6456665"
-          },
-          {
-            "name": "鉅亨網盤後",
-            "url": "https://news.cnyes.com/news/id/6470767"
-          }
-        ],
-        "summary": "台股收盤下跌523.82點，收在41,374.5點，三大法人合計賣超480.5億元。外資連續數日大幅賣超，資金顯著流出。台積電在天量天價後出現軟腳跡象，跌破2,300元整數關卡，拖累大盤信心。",
-        "tw_stock_impact": "直接衝擊台股多頭氣勢，短期恐測試月線支撐。外資賣超集中在半導體族群，暗示國際資金在 SpaceX IPO 前進行資產重配，台積電、聯發科為主要賣超標的。",
-        "investment_insight": "外資短線調節不等於長期看空。台股總市值已升至全球第五（4.95兆美元），基本面完整。大跌時分批布局台積電（2330）、元大台灣50（0050）優於追高，跌破2,200元可視為加碼訊號。",
-        "title_idea": "台股單日爆跌523點！台積電失守2300，外資賣超480億到底在跑什麼路？",
-        "local_angle": "台灣散戶最直接的問題：台積電該停損還是加碼？外資賣超加上 SpaceX IPO 資金轉移同步發生，可能是短期技術調整，非基本面惡化。"
-      },
-      {
-        "title": "台積電訂單恐轉單警報：特斯拉 AI 6.5 晶片傳全數移轉至英特爾",
-        "sources": [
-          {
-            "name": "鉅亨網",
-            "url": "https://news.cnyes.com/news/id/6456004"
-          }
-        ],
-        "summary": "市場傳出特斯拉下一代 AI 晶片（AI 6.5）可能全數從台積電轉單至英特爾，消息令市場震驚。若屬實，這將是台積電首次在高端 AI 晶片領域遭受重大轉單危機，加劇台股重挫氣氛，台積電股價在消息傳出後承壓跌破2,300元關卡。",
-        "tw_stock_impact": "直接衝擊台積電（2330）股價信心。若轉單成真，恐影響台積電 N3/N2 製程利用率，牽連整體台股市值。英特爾 vs 台積電雙雄競爭格局重燃，台灣 IC 設計廠的代工選擇也將重新評估。",
-        "investment_insight": "消息尚未證實，可作為短線避險信號。若台積電跌破2,200元支撐，可考慮減碼等待確認。同時留意英特爾（INTC）的反彈機會，以及鴻海等不依賴單一客戶的廠商受惠程度。",
-        "title_idea": "台積電訂單飛了？特斯拉 AI 晶片恐全轉英特爾，這則消息讓台股投資人徹夜難眠",
-        "local_angle": "台積電佔台股市值超過30%，任何轉單消息都是全民議題。即使最終未成真，也提醒台灣投資人過度集中單一公司的系統性風險。"
-      }
-    ],
-    "investment_opportunities": [
-      {
-        "title": "Michael Burry 大買 PayPal、Adobe、Lululemon，警告 AI 股正複製1999年網路泡沫",
-        "sources": [
-          {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/05/19/michael-burry-adds-to-beaten-down-stocks-while-warning-of-echoes-of-dot-com-bubble.html"
-          },
-          {
-            "name": "GuruFocus",
-            "url": "https://www.gurufocus.com/news/8874144/michael-burry-increases-positions-in-paypal-pypl-adobe-and-more-amid-ai-focus"
-          }
-        ],
-        "summary": "預言2008金融海嘯的「大空頭」Michael Burry 披露大幅加碼 PayPal、Adobe、Zoetis、Lululemon，並在1,500美元中段買入 MercadoLibre。他警告：「這些被低估的股票是主場秀之外的大規模鯨落，1999年也一樣——舊經濟與國際資產被拋售，只為了追美國AI泡沫。」",
-        "tw_stock_impact": "若 Burry 的 AI 泡沫論成真，台灣 AI 概念股（台積電、廣達、緯創）可能面臨估值重評。但台積電基本面支撐仍強，相較美國純軟體 AI 股，半導體硬體護城河更深。",
-        "investment_insight": "Burry 的「逆向思維」啟示：在市場全押 AI 時，尋找被忽略的價值股。台灣可關注傳產轉型股、金融股，或被市場遺忘的電子零組件廠，如大立光（3008）等今年相對落後的標的。",
-        "title_idea": "大空頭 Burry 偷買 PayPal 和 Lululemon！他說現在跟1999年一模一樣，AI股要崩了",
-        "local_angle": "台灣投資人大多重壓台積電和 AI 概念股，Burry 的警告值得作為避險參考。是否該把部分資金從 AI 熱股移回被低估的傳統價值股？"
-      },
-      {
-        "title": "鴻海現金股利創歷史新高7.2元，伺服器出貨倍增、全球市占率突破40%",
-        "sources": [
-          {
-            "name": "今周刊",
-            "url": "https://www.businesstoday.com.tw/article/category/80392/post/202603160027/"
-          }
-        ],
-        "summary": "鴻海（2317）宣布配發7.2元現金股利，為上市以來最高紀錄，EPS 達13元。2026年伺服器出貨量預計倍增，全球市佔率超過40%，AI 驅動成長預計持續多年。SpaceX IPO 帶動鴻家軍機構件廠多家攻漲停，資本市場再次聚焦鴻海生態系。",
-        "tw_stock_impact": "鴻海直接利多台灣供應鏈：鴻準（2354）、廣宇（2328）等子供應商同步受惠。現金股利7.2元相當於當前股價殖利率逾4%，兼具成長與價值雙重屬性。",
-        "investment_insight": "鴻海是台灣 AI 伺服器供應鏈最直接的受益標的，且估值相較美國科技股便宜許多。股利創新高代表公司對未來現金流高度自信。建議長線定期定額布局，或趁回檔時逢低加碼。",
-        "title_idea": "鴻海股利7.2元創史上新高！伺服器市占超40%，這才是台灣 AI 行情的真正主角",
-        "local_angle": "台灣散戶長期忽略鴻海，只追台積電。但鴻海2026年的伺服器版圖才是真正的 AI 大局，且殖利率+成長性遠優於多數定存概念股。"
-      },
-      {
-        "title": "全球債券市場全面崩盤？Andrei Jikh 解析殖利率危機與黃金的反向機會",
-        "sources": [
-          {
-            "name": "Andrei Jikh YouTube",
-            "url": "https://www.youtube.com/watch?v=w8yTmTdF1Kw"
-          }
-        ],
-        "summary": "財經 YouTuber Andrei Jikh 發布「Every Bond Market In The World Is Breaking」，深入分析全球主權債殖利率同步飆升現象。美國30年期公債殖利率持續在5%以上，日本公債危機未解，英、德同步承壓，顯示全球債市進入歷史性壓力期，資金正在加速出走傳統固定收益。",
-        "tw_stock_impact": "全球債市崩盤對台灣的影響：台灣壽險業持有大量海外債券，殖利率持續升高意味著評價損失擴大。富邦金（2881）、國泰金（2882）需特別關注其債券曝險部位。",
-        "investment_insight": "債市危機期間黃金通常是首選避險工具，目前黃金已突破歷史高點。台灣投資人可配置5-10%資金至黃金ETF（00757）或相關礦業股。短天期債券或現金部位的安全性優於長債，避免持有長天期 ETF（如00679B）。",
-        "title_idea": "全球債市正在崩潰？Andrei Jikh 警報：你的退休金可能已在無聲中悄悄縮水",
-        "local_angle": "台灣壽險業是全球數一數二的海外債券買家，債市崩潰等同台灣金融業的系統性壓力。投資人現在必須重新檢視金融股的曝險程度，尤其是壽險佔比高的金控。"
-      }
-    ],
-    "macro_observations": [
-      {
-        "title": "伊朗戰爭打滿三個月，華爾街風險資產照樣創高，牛市底氣到底從哪來？",
-        "sources": [
-          {
-            "name": "Bloomberg Markets",
-            "url": "https://www.bloomberg.com/news/articles/2026-05-31/wall-street-risk-rally-powers-past-war-stalemate-markets-wrap"
-          }
-        ],
-        "summary": "Bloomberg 報導美伊戰爭進入第三個月仍陷膠著，但華爾街股市持續反彈，風險資產創高。市場對地緣衝突的免疫力顯著增強，資金繼續追逐成長股和科技股。分析師指出，Fed 降息預期與企業獲利韌性是支撐多頭的主要動力，ZeroHedge 同步報導 Trump 強化對伊談判條款，局勢仍高度不確定。",
-        "tw_stock_impact": "地緣衝突「脫敏化」對台灣有雙面影響：正面是市場情緒穩定有利出口；負面是油價長期偏高將壓縮台灣企業獲利空間，尤其是塑化、航空業。",
-        "investment_insight": "當市場對壞消息免疫時，代表多頭動能強勁。此時應持有成長股核心部位，避免過早撤退。同時維持5-10%的現金部位作為機動調度，以應對突發性衝擊事件。",
-        "title_idea": "打了三個月的伊朗戰爭，為什麼股市還在漲？華爾街告訴你多頭的真正底氣是什麼",
-        "local_angle": "台灣作為地緣政治敏感地區，對外部衝突的市場反應往往被過度放大。理解「市場脫敏化」現象，有助台灣投資人在衝突新聞中保持冷靜，避免恐慌性殺出。"
-      },
-      {
-        "title": "Elon Musk 力挺奧地利學派：「沒有價格機制，任何經濟都無法運作」",
-        "sources": [
-          {
-            "name": "Yahoo Finance",
-            "url": "https://finance.yahoo.com/economy/policy/articles/elon-musk-says-economy-cannot-133228052.html"
-          }
-        ],
-        "summary": "Elon Musk 在 X 上公開支持奧地利學派經濟學，引用米塞斯1920年論文，並寫道「價格是關鍵資訊，沒有它，經濟無法運作」。此聲明被解讀為對政府補貼、央行干預、社會主義政策的強烈批判，也為 DOGE 大幅削減政府支出計畫背書，市場擔憂補貼政策縮減影響相關產業。",
-        "tw_stock_impact": "Musk 的自由市場論述若影響美國政策走向（減少補貼、削減赤字），將改變全球資本流動格局。台灣出口若減少美國政府補貼依賴，競爭力更取決於市場定價能力，對台積電等高競爭力廠商反而有利。",
-        "investment_insight": "Musk 的言論是觀察美國政策走向的風向球。若未來補貼政策縮減，電動車、綠能等依賴補貼的產業將面臨估值重評。台灣相關供應鏈（儲能、EV 零件）的投資需更審慎評估政策風險。",
-        "title_idea": "馬斯克突然變身奧地利學派信徒！這句「沒有價格機制經濟就崩潰」暗示什麼大招要來？",
-        "local_angle": "台灣高科技業長期受惠於美國補貼政策（CHIPS Act 等）。Musk 的自由市場論述若主導未來政策，台灣廠商的補貼紅利可能縮水，需提前布局自給自足的競爭力。"
-      },
-      {
-        "title": "SpaceX IPO 重塑全球指數基金架構，被動投資時代面臨歷史性結構考驗",
-        "sources": [
-          {
-            "name": "Morningstar",
-            "url": "https://www.morningstar.com/funds/spacex-ipo-how-index-funds-will-adapt"
-          },
-          {
-            "name": "InvestmentNews",
-            "url": "https://www.investmentnews.com/practice-management/spacexs-index-fund-debut-will-look-nothing-like-what-most-investors-expect-says-jacob-friedman/266776"
-          }
-        ],
-        "summary": "SpaceX 以僅4.3%流通股率掛牌，但市值高達1.8兆美元，打破傳統指數納入機制。各大指數（Nasdaq 100、Russell 1000、S&P 500）被迫修改快速納入規則，可能造成被動基金在特定日期集中買入，形成罕見的「指數驅動型」行情，ETF 強制建倉規模估超300億美元。",
-        "tw_stock_impact": "ETF 強制建倉 SpaceX 的資金可能部分來自調節現有持倉，台積電在 QQQ 和 SPY 中的比重可能因此短暫承壓。長期而言，SpaceX 加入指數代表科技股集中度進一步提升，對整體市場波動性有結構性影響。",
-        "investment_insight": "被動投資者「被動」承接 SpaceX 風險是新時代的警示。主動管理或等權重 ETF（如 RSP）將因此獲得相對優勢。台灣投資人若長期持有 QQQ，應了解 SpaceX 上市後自動改變持倉風險特性，考慮部分轉向等權重版本。",
-        "title_idea": "你沒買 SpaceX，但你的 ETF 已經偷偷買了！被動投資的終極隱形風險正在成形",
-        "local_angle": "台灣人最愛的美股 ETF（VOO、QQQ）在 SpaceX 上市後將自動持有馬斯克的太空帝國。這不只是好消息，也是風險集中度的警訊，台灣 ETF 投資人必須重新評估。"
       }
     ]
   }
