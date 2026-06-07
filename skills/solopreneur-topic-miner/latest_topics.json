@@ -1,129 +1,42 @@
 {
-  "date": "2026-06-06",
+  "date": "2026-06-07",
   "big_events": [
     {
-      "title": "OpenAI 推出 ChatGPT Lockdown Mode：首個主流 AI 防 Prompt Injection 安全機制",
+      "title": "OpenAI 證實仍在打造「超級 App」：要把 ChatGPT 變成你的全方位個人代理",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/"},
-        {"name": "Engadget", "url": "https://www.engadget.com/2188537/openai-rolls-out-a-lockdown-mode-for-extra-protection-against-prompt-injection-attacks/"},
-        {"name": "OpenAI 官方", "url": "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/"}
       ],
-      "summary": "OpenAI 推出選用性 Lockdown Mode，可停用網路瀏覽、Agent Mode、Deep Research 等功能，防止敏感資料透過 prompt injection 被竊取，面向高安全需求企業用戶",
-      "audience": "企業員工、處理機密文件的職場工作者、IT 管理員",
-      "pain_point": "使用 ChatGPT 分析外部文件或網頁時，擔心公司內部機密資料意外外洩",
-      "title_idea": "你的 ChatGPT 可能在洩密？OpenAI 推出鎖定模式，企業員工必學的 AI 安全設定",
-      "local_angle": "台灣企業 AI 安全規範尚在起步，此功能繁體中文教學幾乎空白，搶先發佈可獲大量企業關鍵字流量"
-    },
-    {
-      "title": "ChatGPT 單日三大升級：GPT-5.5 Instant 全員開放、記憶體容量翻倍、英國廣告試點",
-      "sources": [
-        {"name": "OpenAI 官方更新日誌", "url": "https://releasebot.io/updates/openai/chatgpt"},
-        {"name": "OpenAI Help Center", "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"}
-      ],
-      "summary": "6/6 單日推出三項更新：GPT-5.5 Instant 開放所有用戶使用、Plus/Pro 記憶體容量翻倍自動更新、英國 Free/Go 用戶開始見到廣告",
-      "audience": "日常使用 ChatGPT 的上班族、學生、內容創作者",
-      "pain_point": "不清楚自己的 ChatGPT 已悄悄升級哪些功能，錯過免費獲得的新能力",
-      "title_idea": "ChatGPT 昨天悄悄升了 3 件大事：免費版變強、記憶容量翻倍、廣告要來了",
-      "local_angle": "歐美 ChatGPT 用戶已在熱烈討論，華語圈整合報導極少，打包講清楚可搶首發流量"
-    },
-    {
-      "title": "WWDC 2026 前瞻：Siri 2.0 即將登場，Apple Intelligence 正面挑戰 ChatGPT",
-      "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/"},
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-06-05/wwdc-2026-preview-ios-27-siri-ai-features-macos-27-more-apple-will-announce"}
-      ],
-      "summary": "WWDC 6/8 開幕前，媒體密集報導 Siri 2.0 將支援多輪對話與跨 App 任務，iOS 27 帶來獨立 Siri App，Apple AI 助理策略大躍進",
-      "audience": "iPhone 用戶、Apple 生態系重度使用者、職場 Mac/iPhone 用戶",
-      "pain_point": "一直覺得 Siri 很廢，買了 iPhone Pro 卻感覺 Apple Intelligence 沒什麼用，不確定要繼續用 ChatGPT 還是等 Apple",
-      "title_idea": "WWDC 2026 Siri 終於不廢了！Apple AI 助理 vs ChatGPT 完整比較，6/8 看直播前必讀",
-      "local_angle": "台灣 iPhone 普及率極高，WWDC 前夕搶先發分析可站穩首發流量，6/8 後可繼續更新實測"
+      "summary": "OpenAI 將於數週內推出整合編碼工具與 AI 代理的全新 ChatGPT，目標打造能照顧生活與工作各層面的「個人代理」",
+      "audience": "同時用多個 AI 工具切換、想簡化工作流的職場上班族",
+      "pain_point": "ChatGPT、Notion AI、Copilot 等工具分散使用，切換來切換去反而拉低效率，不知道該往哪個方向整併",
+      "title_idea": "OpenAI 不演了！ChatGPT 要變身你的『AI 人生總管』，上班族現在該怎麼提前布局？",
+      "local_angle": "海外已明確點出「超級 App」整合方向，華語圈尚無人系統性解讀這對日常工作流的衝擊，可搶先做「超級 App 時代生存指南」"
     }
   ],
   "tool_updates": [
     {
-      "title": "ChatGPT Lockdown Mode 完整操作教學：哪些功能會停用？誰適合開啟？",
+      "title": "Notion AI 一度全面斷線：Anthropic 模型異常牽連數小時服務中斷",
       "sources": [
-        {"name": "OpenAI Help Center", "url": "https://help.openai.com/en/articles/20001061"},
-        {"name": "Cybersecurity News", "url": "https://cybersecuritynews.com/chatgpt-lockdown-mode/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/07/notion-restores-access-to-anthropic-after-service-disruption/"}
       ],
-      "summary": "開啟 Lockdown Mode 後停用：即時網路瀏覽、圖片回應、Deep Research、Agent Mode、Canvas 網路連線、Live Connectors、檔案下載，適合高安全需求用戶",
-      "audience": "企業員工、IT 管理員、法務財務人員、處理機密的職場工作者",
-      "pain_point": "想在工作中用 ChatGPT 提升效率，但公司擔心資料安全，不知道是否有安全設定方式",
-      "title_idea": "ChatGPT 安全模式完整指南：5 步驟讓 AI 助理符合企業資安規範，老闆再也不擔心",
-      "local_angle": "台灣企業正在制定 AI 使用政策，此類「企業 AI 合規教學」搜尋量即將爆增，現在是卡位黃金期"
-    },
-    {
-      "title": "GPT-5.5 Instant 正式向所有 ChatGPT 用戶開放：免費版也能用更強大模型",
-      "sources": [
-        {"name": "Releasebot OpenAI", "url": "https://releasebot.io/updates/openai"},
-        {"name": "OpenAI Help Center", "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"}
-      ],
-      "summary": "GPT-5.5 Instant 下放全用戶，舊版 GPT-5.3 Instant 提供三個月過渡期後退場，速度更快、回應更清晰",
-      "audience": "使用免費版 ChatGPT 的上班族、學生、剛接觸 AI 的職場新人",
-      "pain_point": "使用免費版感覺 AI 不夠聰明，又不確定是否值得每月付費升級",
-      "title_idea": "ChatGPT 免費版偷偷變強了！GPT-5.5 Instant 現在就能用，速測 5 個工作場景差異",
-      "local_angle": "歐美用戶已在做速度與品質對比測試，中文版測評極度稀缺，快速出測評文有先發優勢"
-    },
-    {
-      "title": "ChatGPT 記憶體功能全面升級：自動更新記憶、Plus/Pro 容量翻倍更懂你",
-      "sources": [
-        {"name": "OpenAI 官方更新", "url": "https://releasebot.io/updates/openai/chatgpt"}
-      ],
-      "summary": "ChatGPT 記憶體支援自動更新（不再需要手動整理），Plus/Pro 記憶容量翻倍，個人化精準度大幅提升",
-      "audience": "長期使用 ChatGPT 當工作助理的上班族",
-      "pain_point": "ChatGPT 老是忘記你的工作風格、常用格式和個人偏好，每次都要重新解釋",
-      "title_idea": "ChatGPT 記住你了！記憶容量翻倍：5 個設定讓 AI 助理更像你的專屬員工",
-      "local_angle": "記憶功能讓 ChatGPT 從工具進化為個人助理，具體使用場景教學型內容在華語圈幾乎空白"
-    },
-    {
-      "title": "ChatGPT 英國試點廣告計畫：Free/Go 用戶體驗將改變，付費版優勢更明顯",
-      "sources": [
-        {"name": "OpenAI 官方公告", "url": "https://releasebot.io/updates/openai"},
-        {"name": "OpenAI Release Notes", "url": "https://releasebot.io/updates/openai/chatgpt"}
-      ],
-      "summary": "OpenAI 在英國對免費版和 Go 用戶試投廣告，付費用戶不受影響，為全球廣告計畫的首個試點市場",
-      "audience": "使用免費 AI 工具的職場用戶、正在考慮是否升級付費的上班族",
-      "pain_point": "習慣免費用 AI，不確定廣告出現後使用體驗是否受影響，也不知是否值得升級",
-      "title_idea": "ChatGPT 開始打廣告了！免費版還值得用嗎？2026 年 AI 付費訂閱完整評估指南",
-      "local_angle": "廣告計畫先在英國測試，台灣暫未受影響，現在寫「付費 vs 免費對比」正是最好的切入時機"
+      "summary": "Notion 偵測到 Anthropic Opus 4.7／4.8 模型異常，緊急下架所有 Anthropic 模型，數小時後修復恢復",
+      "audience": "重度依賴 Notion AI／Claude 處理日常文件與待辦的上班族",
+      "pain_point": "工作到一半工具突然『罷工』，打亂節奏卻搞不清楚發生什麼事、也沒有備援方案",
+      "title_idea": "Notion AI 突然當機怎麼辦？當你仰賴的 AI 工具『罷工』，上班族該有的 3 個 Plan B",
+      "local_angle": "事件凸顯 AI 工具高度依賴單一供應商的風險，「別把雞蛋放同一個籃子」的工具備援教學在華語圈仍少見，可搶先卡位"
     }
   ],
   "trends": [
     {
-      "title": "AI 職場安全進入合規時代：Lockdown Mode 是企業 AI 治理浪潮的起點",
+      "title": "「代幣末日」(Tokenpocalypse) 來襲：AI 工具集體轉嫁成本，免費／低價時代恐將結束",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/"},
-        {"name": "Engadget", "url": "https://www.engadget.com/2188537/openai-rolls-out-a-lockdown-mode-for-extra-protection-against-prompt-injection-attacks/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/07/is-this-the-dawn-of-the-tokenpocalypse/"}
       ],
-      "summary": "OpenAI 推出企業級 AI 安全功能，顯示 AI 工具正從「自由試用」走向「合規管理」，職場 AI 使用政策制定需求急速上升",
-      "audience": "企業 IT 主管、HR 政策制定者、對 AI 合規有顧慮的管理職",
-      "pain_point": "公司想推廣 AI 工具但不知道如何訂立安全規範，員工想用 AI 但怕觸犯公司政策",
-      "title_idea": "公司到底能不能用 ChatGPT？2026 企業 AI 安全規範完整指南，IT 主管必讀",
-      "local_angle": "台灣中大企業正在制定 AI 使用政策，「企業 AI 合規」是職場受眾的高需求題材，競爭者極少"
-    },
-    {
-      "title": "Apple Siri 2.0 效應：iPhone 將成最強 AI 工作裝置，重塑職場 AI 助理市場格局",
-      "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/"},
-        {"name": "Apple Insider", "url": "https://appleinsider.com/articles/26/06/05/ios-27-macos-27-siri-what-to-expect-to-launch-at-wwdc-2026"}
-      ],
-      "summary": "若 Siri 2.0 成功，搭配 iOS 27 離線處理個人隱私資料，iPhone 將成職場首選 AI 裝置，對 ChatGPT/Gemini 構成直接挑戰",
-      "audience": "同時使用 iPhone 和 AI 工具的職場工作者、Apple 生態系重度用戶",
-      "pain_point": "AI 助理分散在 ChatGPT、Gemini、Siri 等多個平台，工作流破碎化效率低落",
-      "title_idea": "iPhone + Siri 2.0 = 你的私人 AI 助理？Apple vs ChatGPT 職場效率大對決",
-      "local_angle": "台灣 iPhone 使用率高達 60%+，Apple Intelligence 在地化使用場景教學有龐大潛在受眾"
-    },
-    {
-      "title": "AI 工具商業模式加速分化：廣告、安全付費牆、訂閱分級——免費 AI 黃金時代正在結束",
-      "sources": [
-        {"name": "OpenAI 官方", "url": "https://releasebot.io/updates/openai"},
-        {"name": "OpenAI Help Center", "url": "https://help.openai.com/en/articles/20001061"}
-      ],
-      "summary": "單日出現廣告試點、Lockdown Mode（僅限付費商業帳號）、GPT-5.5 Instant 分級策略，AI 工具正快速建立付費 vs 免費的差異化體驗牆",
-      "audience": "依賴免費 AI 工具的職場上班族、正在評估 AI 工具預算的中小企業主",
-      "pain_point": "習慣用免費 AI，但越來越多關鍵功能鎖在付費版，不知道該如何規劃 AI 工具預算",
-      "title_idea": "免費 AI 時代快結束了？2026 最值得花錢的 AI 訂閱排行，職場人的完整採購指南",
-      "local_angle": "AI 工具付費教學在華語圈嚴重供不應求，此題材長期流量穩定、轉化率高"
+      "summary": "GitHub Copilot 改按 token 計費引爆漲價爭議，文章直指 AI 公司在 IPO 壓力下將普遍把成本轉嫁給用戶",
+      "audience": "正在使用或考慮訂閱 ChatGPT／Copilot／Claude 等 AI 工具的上班族與小型團隊",
+      "pain_point": "訂閱費用可能無預警飆漲、額度被悄悄限縮，不知道該如何因應或挑選替代方案",
+      "title_idea": "『代幣末日』來了：你常用的 AI 工具正準備偷偷漲價，3 招幫你的荷包先做準備",
+      "local_angle": "海外已開始討論 AI 訂閱費用海嘯，華語圈使用者多半還沒意識到漲價即將蔓延，現在做成本因應教學正是搶先卡位的時機"
     }
   ]
 }
