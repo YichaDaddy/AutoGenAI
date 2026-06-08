@@ -1,10 +1,11 @@
-name: Deploy v2 to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
     branches: [main]
     paths:
       - 'v2/index.html'
+      - 'v3/index.html'
   workflow_dispatch:
 
 permissions:
@@ -41,16 +42,18 @@ jobs:
           path: gh-pages-dir
           fetch-depth: 1
 
-      - name: Copy cleaned file to gh-pages
-        run: cp v2/index.html gh-pages-dir/v2/index.html
+      - name: Copy files to gh-pages
+        run: |
+          cp v2/index.html gh-pages-dir/v2/index.html
+          cp v3/index.html gh-pages-dir/v3/index.html
 
       - name: Commit and push to gh-pages
         run: |
           cd gh-pages-dir
           git config user.name  "AutoGenAI Bot"
           git config user.email "bot@users.noreply.github.com"
-          git add v2/index.html
+          git add v2/index.html v3/index.html
           git diff --staged --quiet && echo "No changes to deploy" || (
-            git commit -m "deploy: sync v2/index.html from main $(date -u '+%Y-%m-%d %H:%M UTC')" &&
+            git commit -m "deploy: sync v2+v3 index.html from main $(date -u '+%Y-%m-%d %H:%M UTC')" &&
             git push origin gh-pages
           )
