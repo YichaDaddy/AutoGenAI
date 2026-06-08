@@ -1,42 +1,127 @@
 {
-  "date": "2026-06-07",
+  "date": "2026-06-08",
   "big_events": [
     {
-      "title": "OpenAI 證實仍在打造「超級 App」：要把 ChatGPT 變成你的全方位個人代理",
+      "title": "Apple WWDC 2026：Siri 換芯 Google Gemini 1.2 兆參數，Claude／ChatGPT 全面登陸 iPhone",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"},
+        {"name": "BuildFastWithAI", "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-8-2026"}
       ],
-      "summary": "OpenAI 將於數週內推出整合編碼工具與 AI 代理的全新 ChatGPT，目標打造能照顧生活與工作各層面的「個人代理」",
-      "audience": "同時用多個 AI 工具切換、想簡化工作流的職場上班族",
-      "pain_point": "ChatGPT、Notion AI、Copilot 等工具分散使用，切換來切換去反而拉低效率，不知道該往哪個方向整併",
-      "title_idea": "OpenAI 不演了！ChatGPT 要變身你的『AI 人生總管』，上班族現在該怎麼提前布局？",
-      "local_angle": "海外已明確點出「超級 App」整合方向，華語圈尚無人系統性解讀這對日常工作流的衝擊，可搶先做「超級 App 時代生存指南」"
+      "summary": "Tim Cook 宣布 Siri 改由 Google Gemini 1.2 兆參數模型驅動，用戶可自選 Claude、ChatGPT 或 Gemini 驅動 Apple Intelligence，iOS 27 同步發布。",
+      "audience": "iPhone 用戶、科技自媒體創作者、AI 效率工具使用者",
+      "pain_point": "不知道 iPhone 現在可以用 Claude 做什麼、Gemini Siri 跟以前差在哪",
+      "title_idea": "iOS 27 超完整解析：iPhone 現在可以選 Claude 當 AI！Siri 換成 Google Gemini 差在哪？",
+      "local_angle": "海外大事件，台灣果粉眾多，Claude／ChatGPT／Gemini 三選一使用心得比較是極佳切入點；工具教學紅利極高"
+    },
+    {
+      "title": "OpenAI 秘密遞交 IPO 文件，估值 $852B 挑戰史上最大科技上市",
+      "sources": [
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/"},
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-06-08/openai-filed-confidentially-for-ipo-as-rivals-race-to-market"},
+        {"name": "CNBC", "url": "https://www.cnbc.com/2026/06/08/openai-confidentially-files-for-ipo-prepping-wall-street-for-ai-debut.html"}
+      ],
+      "summary": "OpenAI 向 SEC 秘密遞交 S-1 IPO 文件，估值 $852B，Goldman Sachs 與 Morgan Stanley 協助，預計最快今秋掛牌，繼 Anthropic 之後加速 AI 上市潮。",
+      "audience": "創業者、投資人、科技產業觀察者、ChatGPT 用戶",
+      "pain_point": "AI 公司上市後工具是否漲價？免費版 ChatGPT 是否消失？",
+      "title_idea": "OpenAI 要上市了！$852B 估值代表什麼？ChatGPT 免費版還能撐多久？",
+      "local_angle": "華語圈對 OpenAI 財務透明度極感興趣；可切入「上市後 ChatGPT 會漲價嗎」的民生角度，吸引廣泛非技術受眾"
+    },
+    {
+      "title": "Microsoft Build 2026：Foundry 模型庫破 11,000 個，Claude Opus 4.8 進駐 Excel Agent",
+      "sources": [
+        {"name": "BuildFastWithAI", "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-8-2026"},
+        {"name": "CNBC", "url": "https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html"}
+      ],
+      "summary": "Microsoft Foundry 模型目錄超越 11,000 個，涵蓋 Claude Opus 4.8、GPT-5.5、Gemini 等主流模型；Claude 同步整合進 Excel Agent Mode 與 Microsoft 365 Copilot。",
+      "audience": "企業開發者、Office 重度使用者、AI 工具評測創作者",
+      "pain_point": "不知道如何在 Excel 中使用 AI 自動化工作流，對 Foundry 能做什麼一無所知",
+      "title_idea": "Excel 可以直接用 Claude 了！Microsoft Foundry 11,000 個 AI 模型怎麼選？職場人必看",
+      "local_angle": "台灣企業 Office 滲透率極高，Claude 進 Excel 的教學幾乎是空白市場；工具實作教學紅利大"
     }
   ],
   "tool_updates": [
     {
-      "title": "Notion AI 一度全面斷線：Anthropic 模型異常牽連數小時服務中斷",
+      "title": "Google NotebookLM 大升級：Agentic 多步驟研究、程式碼執行、100+ 技能，Gemini 3.5 驅動",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/07/notion-restores-access-to-anthropic-after-service-disruption/"}
+        {"name": "NPowerUser", "url": "https://nokiapoweruser.com/google-notebooklm-upgrade-agentic-features-ai-ultra/"},
+        {"name": "Android Police", "url": "https://www.androidpolice.com/googles-notebooklm-can-now-write-code-analyze-data/"},
+        {"name": "Neowin", "url": "https://www.neowin.net/news/googles-notebooklm-gets-some-useful-features-you-may-have-been-waiting-for/"}
       ],
-      "summary": "Notion 偵測到 Anthropic Opus 4.7／4.8 模型異常，緊急下架所有 Anthropic 模型，數小時後修復恢復",
-      "audience": "重度依賴 Notion AI／Claude 處理日常文件與待辦的上班族",
-      "pain_point": "工作到一半工具突然『罷工』，打亂節奏卻搞不清楚發生什麼事、也沒有備援方案",
-      "title_idea": "Notion AI 突然當機怎麼辦？當你仰賴的 AI 工具『罷工』，上班族該有的 3 個 Plan B",
-      "local_angle": "事件凸顯 AI 工具高度依賴單一供應商的風險，「別把雞蛋放同一個籃子」的工具備援教學在華語圈仍少見，可搶先卡位"
+      "summary": "NotebookLM 新增 Agentic 研究模式、程式碼執行、100+ 軟體技能，可輸出 PDF／Excel／PPT／JSON 等 12 種格式，由 Gemini 3.5 驅動，AI Ultra 用戶即可使用。",
+      "audience": "研究人員、內容創作者、職場知識工作者",
+      "pain_point": "整理大量資料或做研究報告時，AI 工具無法自動串接多個步驟並輸出可直接使用的格式",
+      "title_idea": "NotebookLM 進化成 AI 研究助理！自動寫報告、跑程式碼、輸出 Excel，免費版能用嗎？",
+      "local_angle": "NotebookLM 繁體中文教學極少，Gemini 3.5 Agentic 組合是全新場景；第一個做完整中文教學幾乎沒有競爭"
+    },
+    {
+      "title": "Amazon 推出 AI 客製化商品設計，輸入文字 10 秒生成 T-shirt／帽T／杯子",
+      "sources": [
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/08/amazon-now-lets-you-design-custom-merch-using-ai/"},
+        {"name": "AboutAmazon", "url": "https://www.aboutamazon.com"}
+      ],
+      "summary": "Amazon 在購物 App 上線文字生成商品設計功能，輸入描述即生成客製化 T-shirt、帽T、馬克杯等，透過 Merch on Demand 出貨，Prime 會員享免費配送。",
+      "audience": "自媒體創作者、獨立設計師、想做 Print-on-Demand 副業的創業者",
+      "pain_point": "沒有設計能力，但想做自己的周邊商品或 POD（印刷即需）副業",
+      "title_idea": "Amazon 加入 AI 設計！不會畫圖也能做周邊商品？10 秒生成 T-shirt 完整實測",
+      "local_angle": "POD 副業在華語圈方興未艾，AI 設計工具結合 Amazon 全球通路的完整教學（從設計到上架賺錢）幾乎是藍海"
+    },
+    {
+      "title": "Anthropic 上線 Claude Connector 效能儀表板 + MCP 伺服器直接提交功能",
+      "sources": [
+        {"name": "Anthropic News", "url": "https://www.anthropic.com/news"},
+        {"name": "FutureTools", "url": "https://futuretools.io/news"}
+      ],
+      "summary": "Anthropic 為 Claude Connector 新增效能監控儀表板（活躍用戶數、工具呼叫量、健康分數、錯誤率、延遲），並開放開發者直接在 App 內提交 MCP 伺服器。",
+      "audience": "開發者、想用 MCP 擴充 Claude 功能的技術型創作者",
+      "pain_point": "不清楚 MCP 是什麼、自己開發的 Claude 工具如何進入官方生態讓更多人找到",
+      "title_idea": "Claude 官方 MCP 市集開放了！開發者如何提交工具？Connector 儀表板怎麼看？",
+      "local_angle": "MCP 生態在華語圈幾乎無人系統講解；Anthropic 官方入口是嶄新主題，技術向創作者有完整搶先機會"
+    },
+    {
+      "title": "Apple iOS 27 全新 AI Shortcuts：自然語言描述，AI 自動生成跨 App 工作流",
+      "sources": [
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/08/apple-will-let-you-build-workflows-using-ai-in-its-new-shortcuts-app/"}
+      ],
+      "summary": "Apple 在 iOS 27 推出 AI 強化版 Shortcuts，用戶用自然語言描述需求，AI 自動生成跨 App 自動化工作流，無需寫一行程式碼。",
+      "audience": "iPhone 重度用戶、效率工具愛好者、想自動化日常任務的上班族",
+      "pain_point": "想用 iPhone 自動化工作但看不懂 Shortcuts 腳本，門檻太高",
+      "title_idea": "iPhone 的 AI 自動化來了！5 個用 AI Shortcuts 解放雙手的職場應用場景",
+      "local_angle": "自動化工作流在台灣職場滲透率低，Apple 原生 AI Shortcuts 是零門檻入口；繁中教學幾乎是空白"
     }
   ],
   "trends": [
     {
-      "title": "「代幣末日」(Tokenpocalypse) 來襲：AI 工具集體轉嫁成本，免費／低價時代恐將結束",
+      "title": "Claude 進駐 20 億台 iPhone：單季成長 306%，AI 助理三國時代正式開幕",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/07/is-this-the-dawn-of-the-tokenpocalypse/"}
+        {"name": "BuildFastWithAI", "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-8-2026"}
       ],
-      "summary": "GitHub Copilot 改按 token 計費引爆漲價爭議，文章直指 AI 公司在 IPO 壓力下將普遍把成本轉嫁給用戶",
-      "audience": "正在使用或考慮訂閱 ChatGPT／Copilot／Claude 等 AI 工具的上班族與小型團隊",
-      "pain_point": "訂閱費用可能無預警飆漲、額度被悄悄限縮，不知道該如何因應或挑選替代方案",
-      "title_idea": "『代幣末日』來了：你常用的 AI 工具正準備偷偷漲價，3 招幫你的荷包先做準備",
-      "local_angle": "海外已開始討論 AI 訂閱費用海嘯，華語圈使用者多半還沒意識到漲價即將蔓延，現在做成本因應教學正是搶先卡位的時機"
+      "summary": "Claude 透過 Apple Intelligence 整合潛在觸及 20 億裝置，今年一月至四月市占成長 306%；AI 助理格局正從 ChatGPT 一強轉向三強競爭。",
+      "audience": "AI 工具使用者、自媒體創作者、科技趨勢觀察者",
+      "pain_point": "不知道該用哪個 AI 助理，也不清楚 Claude 跟 ChatGPT、Gemini 的實際差異",
+      "title_idea": "ChatGPT 還是 Claude？2026 AI 助理三國大戰最新數據：誰最適合台灣職場人？",
+      "local_angle": "三大 AI 助理比較是常青選題；加上最新市占數據更具說服力，台灣用戶對 Claude 認識不深，教育市場空間大"
+    },
+    {
+      "title": "旗艦 AI 模型 API 定價大戰：Grok 4.3 比 Claude Opus 便宜 10 倍，誰才是 CP 值之王？",
+      "sources": [
+        {"name": "BuildFastWithAI", "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-8-2026"}
+      ],
+      "summary": "最新定價：GPT-5.5 $1.50/$9、Claude Opus 4.8 $5/$25、Gemini 3.5 Flash $1.50/$9、Grok 4.3 $0.50/$2，旗艦模型價差達 10 倍以上，選型決策更複雜。",
+      "audience": "獨立開發者、用 API 建 AI 產品的創業者",
+      "pain_point": "不知道哪個模型最划算，API 成本如何直接影響產品定價與存活率",
+      "title_idea": "AI API 定價全比較 2026：獨立開發者用哪個模型最省錢？完整試算表",
+      "local_angle": "API 定價比較是開發者社群熱門話題；台灣獨立開發者社群快速成長，附試算表的深度文章有精準受眾"
+    },
+    {
+      "title": "EU AI Act 8 月 2 日生效倒數 55 天：高風險 AI 應用最高罰款全球營收 7%",
+      "sources": [
+        {"name": "BuildFastWithAI", "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-8-2026"}
+      ],
+      "summary": "歐盟 AI 法案主要條款將於 2026/08/02 執行，涵蓋就業、教育、金融、醫療等高風險系統，違規最高罰 3,500 萬歐元或全球營收 7%。",
+      "audience": "企業主、SaaS 創業者、使用 AI 工具的中小企業",
+      "pain_point": "不知道 EU AI Act 對自己使用 AI 工具的業務有沒有影響，是否需要合規",
+      "title_idea": "EU AI Act 8 月生效！台灣企業有沒有影響？用 ChatGPT 做生意要注意哪些事？",
+      "local_angle": "AI 法規在台灣幾乎無人深入解說；從台灣企業角度切入（是否有影響、如何因應）是差異化切角，幾乎無競爭"
     }
   ]
 }
