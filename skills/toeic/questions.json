@@ -1,103 +1,103 @@
 {
-  "date": "2026-06-08",
+  "date": "2026-06-09",
   "p5": [
     {
-      "id": "2026-06-08-p5-0",
-      "tag": "假設語氣未來式倒裝",
+      "id": "2026-06-09-p5-0",
+      "tag": "假設語氣倒裝（第三條件句）",
+      "pre": "Had the board approved the merger proposal, the company",
+      "post": "significantly expanded its market share within the following fiscal year.",
+      "opts": ["would have", "will have", "would", "had"],
+      "ans": 0,
+      "zh": "若董事會已批准合併提案，公司將在接下來的財政年度內大幅擴展其市場份額。",
+      "why": "此句為<b>倒裝假設語氣</b>（省略 if，Had 提前），屬第三條件句（與過去事實相反）。主要子句應使用 <b>would / could / might + have + 過去分詞</b>，故選 would have（後接 expanded）。will have 為未來完成式，語意不符；would 後需接動詞原形，而非過去分詞；had 不符合主要子句結構。"
+    },
+    {
+      "id": "2026-06-09-p5-1",
+      "tag": "分詞構句（被動省略）",
       "pre": "",
-      "post": "the board decide to proceed with the divestiture before the antitrust review concludes, the transaction would almost certainly attract regulatory scrutiny.",
-      "opts": ["Should", "Were", "Had", "If"],
+      "post": "for its stringent quality control measures, the pharmaceutical firm has maintained an unblemished regulatory record for over two decades.",
+      "opts": ["Renowned", "Having renowned", "To be renowned", "Renowning"],
       "ans": 0,
-      "zh": "若董事會在反壟斷審查結束前就決定推進此次資產剝離，該交易幾乎肯定會招致監管審查。",
-      "why": "本題考<b>未來假設語氣的倒裝</b>。原句為 <b>If the board should decide...</b>，表「萬一」之低可能性假設，省略 if 後 <b>should</b> 移至句首，形成 <b>Should + 主詞 + 原形動詞</b>。Were 用於 be 動詞或與過去事實相反之假設倒裝；Had 用於與過去事實相反的假設倒裝；If 則不可與倒裝結構並用，三者均不符句意與結構。"
+      "zh": "以嚴格的品質管控措施聞名，這家製藥公司二十多年來保持著無瑕的法規遵循記錄。",
+      "why": "<b>被動分詞構句</b>中，當主詞（the pharmaceutical firm）是動作的承受者時，可直接以<b>過去分詞</b>開頭，為 Being renowned 的省略形式。Having renowned 錯誤（renowned 非及物動詞的過去分詞用法）；To be renowned 為不定詞，表目的而非附帶說明；Renowning 不存在此動詞形式。"
     },
     {
-      "id": "2026-06-08-p5-1",
-      "tag": "分詞構句（完成式主動）",
-      "pre": "",
-      "post": "thoroughly reviewed the due diligence report, the legal counsel advised the client to renegotiate several indemnification clauses before signing.",
-      "opts": ["Having", "Had", "Being", "To have"],
-      "ans": 0,
-      "zh": "在徹底審閱過盡職調查報告後，法律顧問建議客戶在簽署前重新協商數項賠償條款。",
-      "why": "本題考<b>完成式分詞構句（主動）</b>。空格後接過去分詞 reviewed，且該動作（審閱報告）發生在主要子句動作（建議）<b>之前</b>，須用 <b>Having + p.p.</b> 表示時間先後。Had 為過去完成式，須搭配主詞無法構成分詞片語；Being 為現在式被動分詞，與「主動審閱」語意不符；To have 為不定詞完成式，不可單獨置於句首引導分詞構句。"
+      "id": "2026-06-09-p5-2",
+      "tag": "非限定關係子句（which）",
+      "pre": "The revised contractual terms,",
+      "post": "the legal team spent three months negotiating, were ultimately rejected by the arbitration panel.",
+      "opts": ["that", "which", "over which", "in which"],
+      "ans": 1,
+      "zh": "修訂後的合約條款（法律團隊花了三個月進行談判）最終被仲裁小組否決。",
+      "why": "<b>非限定關係子句</b>（逗號隔開，補充說明資訊）<b>絕對不可用 that</b>，必須用 <b>which</b>。which 代替先行詞 the revised contractual terms，作 negotiating 的受詞（spent three months negotiating which → which the legal team spent three months negotiating）。over which 和 in which 與此動詞搭配語意不符。"
     },
     {
-      "id": "2026-06-08-p5-2",
-      "tag": "非限定關係子句（whose）",
-      "pre": "The pharmaceutical conglomerate, ",
-      "post": " quarterly earnings have consistently exceeded analyst projections, announced plans to acquire a smaller biotech firm specializing in gene therapy.",
-      "opts": ["whose", "which", "that", "who"],
-      "ans": 0,
-      "zh": "這家製藥集團——其季度盈餘持續超越分析師預測——宣布計畫收購一家專精於基因治療的小型生技公司。",
-      "why": "空格後接名詞 <b>quarterly earnings</b>，需要表示「所有格」關係的關係代名詞，故用 <b>whose</b>，引導非限定子句修飾先行詞 the pharmaceutical conglomerate，並表示「該集團的季度盈餘」。which／that 為一般關係代名詞，不具所有格功能，無法直接連接後方名詞；who 僅用於指人且同樣不具所有格作用，三者皆不符句構。"
+      "id": "2026-06-09-p5-3",
+      "tag": "讓步介系詞（notwithstanding）",
+      "pre": "The acquisition,",
+      "post": "the subsidiary's mounting debt obligations, proceeded as scheduled following approval from the regulatory commission.",
+      "opts": ["despite of", "notwithstanding", "in spite", "regardless"],
+      "ans": 1,
+      "zh": "儘管子公司債務負擔日益加重，此次收購仍按計畫在監管委員會批准後如期進行。",
+      "why": "<b>notwithstanding</b> 是高階正式讓步介系詞，直接接名詞片語，無需搭配其他介系詞，意為「儘管」。despite of 錯誤（despite 直接接名詞，<b>無需 of</b>）；in spite 必須與 <b>of</b> 連用才完整；regardless 需接 of。notwithstanding 亦可後置使用（the debt notwithstanding），為法律文件的常見正式用法。"
     },
     {
-      "id": "2026-06-08-p5-3",
-      "tag": "讓步介系詞（despite）",
-      "pre": "",
-      "post": " repeated warnings from the compliance department, the regional office continued to process transactions that violated the updated anti-money-laundering guidelines.",
-      "opts": ["Despite", "Although", "Even though", "Whereas"],
-      "ans": 0,
-      "zh": "儘管法遵部門再三提出警告，該區域辦公室仍持續處理違反最新反洗錢準則的交易。",
-      "why": "空格後直接接<b>名詞片語</b>（repeated warnings...），須使用<b>介系詞</b> <b>despite</b> 表「儘管」之讓步語意。although、even though、whereas 均為<b>連接詞</b>，後方須接「主詞＋動詞」構成的子句，無法直接銜接純名詞片語，故均不符本題語法結構。"
-    },
-    {
-      "id": "2026-06-08-p5-4",
-      "tag": "比較結構（the + 比較級...the + 比較級）",
-      "pre": "The more rigorously the internal audit team scrutinizes the subsidiary's financial statements, ",
-      "post": " it becomes that the reported revenue figures were materially overstated.",
-      "opts": ["the more apparent", "the most apparent", "more apparent", "much more apparent"],
-      "ans": 0,
-      "zh": "內部稽核小組對該子公司財務報表審查得越嚴謹，呈報的營收數字遭重大高估一事就越顯而易見。",
-      "why": "本題考<b>「the + 比較級...the + 比較級」</b>平行對等結構，表示「越……就越……」。前句已用 <b>The more rigorously</b> 起始，後句須對應使用 <b>the more apparent</b> 維持結構平行並修飾形容詞 apparent。the most apparent 為最高級，不符比較邏輯；more apparent 與 much more apparent 均缺少定冠詞 the，破壞此固定句型的平行結構。"
+      "id": "2026-06-09-p5-4",
+      "tag": "名詞子句假設語氣（subjunctive）",
+      "pre": "The board of directors recommends that the chief financial officer",
+      "post": "a comprehensive audit of all overseas subsidiaries before the close of the fiscal quarter.",
+      "opts": ["conducts", "conduct", "conducted", "has conducted"],
+      "ans": 1,
+      "zh": "董事會建議財務長在本財季結束前對所有海外子公司進行全面審計。",
+      "why": "<b>recommend that</b> 後接的名詞子句須用<b>假設語氣（subjunctive mood）</b>，動詞維持原形，<b>第三人稱單數不加 -s</b>，故選 <b>conduct</b>。此結構適用於 recommend／suggest／insist／demand／require + that 的從句。conducts 錯誤（多餘 -s）；conducted 為過去式；has conducted 為現在完成式，均不符假設語氣要求。"
     }
   ],
   "p6": {
-    "id": "2026-06-08-p6",
-    "title": "Notice of Revised Procurement Approval Thresholds",
+    "id": "2026-06-09-p6",
+    "title": "Memorandum: Organizational Restructuring and Compliance Obligations",
     "seg": [
-      ["This memorandum is issued to inform all department heads that, effective July 1, 2026, the thresholds governing procurement approval authority ", {"b": 0}, " in accordance with the recommendations issued by the Internal Controls Committee following its annual review of expenditure patterns."],
-      [{"b": 1}, ", any single purchase order exceeding USD 50,000 will now require co-signature from both the requesting department head and the Chief Financial Officer, rather than from the department head alone as previously permitted."],
-      ["Department heads are strongly encouraged to consult the updated approval matrix, which has been distributed via the finance portal, in order to avoid processing delays that may arise from ", {"b": 2}, " requests submitted under the outdated thresholds."],
-      [{"b": 3}, " Questions regarding the revised procedures should be directed to the Procurement Compliance Office prior to submitting any orders that approach the new threshold limits."]
+      ["We write to inform all department heads of the forthcoming changes to the company's organizational structure, which ", {"b": 0}, " by the Board of Directors at last month's extraordinary general meeting. These changes are intended to streamline operations across our global network and enhance accountability at every level of management."],
+      [{"b": 1}, ", the restructuring will necessitate a comprehensive review of all existing inter-departmental reporting lines. Each department head is required to submit a detailed workflow assessment to the Human Resources Division no later than June 30, 2026. Failure to comply with this deadline may result in administrative penalties under Section 12 of the Employee Conduct Policy."],
+      ["The Finance Division has been ", {"b": 2}, " to oversee the reallocation of budgetary resources in alignment with the new organizational framework. All procurement requests exceeding USD 50,000 will henceforth require dual authorization from both the respective department head and the Chief Financial Officer."],
+      [{"b": 3}, " We appreciate your cooperation and anticipate that the transition will be completed without significant disruption to ongoing operations."]
     ],
     "blanks": [
       {
-        "tag": "時態語態",
+        "tag": "時態語態（過去被動）",
         "col1": true,
-        "opts": ["will be revised", "are revised", "have been revised", "were revised"],
+        "opts": ["were ratified", "have been ratifying", "are ratifying", "will be ratified"],
         "ans": 0,
-        "zh": "採購核准權限的門檻將於 2026 年 7 月 1 日起生效並進行修訂。",
-        "why": "句中明確指出生效時間為<b>未來日期</b> <b>effective July 1, 2026</b>，表示此項變更尚未發生但已確定將於未來執行，須用<b>未來式被動</b> <b>will be revised</b>。are revised 表現在常態；have been revised 暗示動作已完成；were revised 則指過去已完成的修訂，三者皆與「尚未生效、未來才實施」的語境矛盾。"
+        "zh": "被董事會在上個月的臨時股東大會上批准",
+        "why": "時間副詞 <b>at last month's</b> 指定明確過去時間點，須用簡單過去式；先行詞 changes 為複數且動作由 Board 執行，故用<b>過去被動 were ratified</b>。現在完成進行式 have been ratifying 表主動持續，語意不符；will be ratified 為未來式，與 last month 形成矛盾。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["Specifically", "Otherwise", "On the other hand", "Likewise"],
+        "opts": ["To this end", "Nevertheless", "By contrast", "In retrospect"],
         "ans": 0,
-        "zh": "具體而言，任何超過五萬美元的單筆採購單，現在都需要雙重簽核。",
-        "why": "第二段是針對第一段「門檻將被修訂」此一概括性敘述，提出<b>具體細節說明</b>（雙重簽核規定），故應使用 <b>Specifically</b>（具體而言）承接上文並引出細節。Otherwise 表「否則」之條件轉折；On the other hand 與 Likewise 皆表對比或類比關係，均不符此處「由概括到細節」的語篇邏輯。"
+        "zh": "為此，這次重組將需要全面審查所有現有的跨部門彙報關係。",
+        "why": "<b>To this end</b> 意為「為此目的」，承接上段說明改革目標後引出具體執行措施，邏輯最為順暢。Nevertheless 表讓步轉折；By contrast 表對比；In retrospect 表回顧過去，三者均與上下文「目的導向」的語篇邏輯矛盾。"
       },
       {
-        "tag": "詞彙語意辨析",
+        "tag": "詞彙語意（正式授權動詞）",
         "col1": true,
-        "opts": ["outstanding", "outgoing", "outlying", "outspoken"],
+        "opts": ["mandated", "requested", "suggested", "invited"],
         "ans": 0,
-        "zh": "為避免因依舊制門檻提交而尚未處理完畢的請求所造成的延誤……",
-        "why": "此處需要一個能修飾 <b>requests</b> 並表示「尚未結案、懸而未決」之意的形容詞，<b>outstanding</b>（未結案的、待處理的）為商務文書中描述未完成事項的標準用詞。outgoing 意為「離任的／外發的」；outlying 意為「偏遠的」；outspoken 意為「直言不諱的」，三者語意皆與「尚未處理完畢的請求」不符。"
+        "zh": "財務部已被正式授命監督預算資源的重新分配",
+        "why": "<b>mandated</b> 意為「被正式授命、授權」，帶有強制性官方指令的意涵，適用於公司內部正式授權場景。requested 和 suggested 語氣過輕，缺乏強制性；invited 用於非正式邀請，不符合法律備忘錄的語域要求。"
       },
       {
         "tag": "句子插入（語篇連貫）",
         "col1": true,
         "opts": [
-          "We appreciate your cooperation in ensuring a smooth transition to the new approval framework.",
-          "The Internal Controls Committee will convene again next quarter to assess additional cost-saving measures.",
-          "Please note that the previous procurement software will be decommissioned at the end of this fiscal year.",
-          "All department heads are required to attend the annual budget planning retreat in August."
+          "Should you require further clarification regarding the revised reporting structure, please do not hesitate to contact the Office of the Chief Operating Officer directly.",
+          "The aforementioned changes will take effect upon the ratification of the amended corporate charter.",
+          "All staff members are encouraged to submit their vacation requests well in advance of any scheduled leave.",
+          "The company's annual performance review cycle commences in the fourth quarter of each fiscal year."
         ],
         "ans": 0,
-        "zh": "我們感謝您配合確保平穩過渡至新的核准架構。",
-        "why": "末段先說明新制可能造成的疑問應洽詢窗口，此處插入句須與整篇「宣布制度變更並期待順利過渡」的主旨銜接，並自然導向結尾的問題詢問指引，故 <b>「感謝配合以確保平穩過渡」</b> 最為連貫得體。其餘選項分別涉及下次會議排程、軟體下架、與年度預算營隊等<b>無關主題</b>，均會打斷段落的邏輯一致性。"
+        "zh": "若您需要進一步了解修訂後的彙報架構，請隨時直接聯繫營運長辦公室。",
+        "why": "結尾段承接「感謝合作」，需要提供聯絡資訊或後續行動指引以完整段落。選項A以倒裝條件句 <b>Should you require</b>（正式語氣）提供具體聯絡管道，符合備忘錄慣例結尾格式；B重複前文已涵蓋的生效資訊；C、D與本備忘錄主題無關，插入後打斷邏輯一致性。"
       }
     ]
   }
