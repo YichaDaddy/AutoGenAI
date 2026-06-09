@@ -1,5 +1,172 @@
 [
   {
+    "date": "2026-06-09",
+    "big_events": [
+      {
+        "title": "WWDC 2026：Apple 全面 AI 化，Siri 改用 Gemini、iOS 27 跨 App 感知大爆發",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
+          },
+          {
+            "name": "Tom's Guide",
+            "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+          },
+          {
+            "name": "Apple Newsroom",
+            "url": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/"
+          }
+        ],
+        "summary": "Apple 發表 iOS 27，Siri 底層換用 Google Gemini，新增跨 App 情境感知、AI 語音聽寫、照片 AI 編輯，延伸至 Watch、CarPlay、AirPods，iPhone 11 以上均可升級。",
+        "audience": "iPhone 用戶、職場上班族、自媒體創作者",
+        "pain_point": "Siri 長期被嘲「最笨助理」，用戶渴望真正能幫忙的 AI 助理，但不知新版能做什麼、跟 ChatGPT 有何不同",
+        "title_idea": "iOS 27 的 Siri 終於不廢了！5 個你馬上能用的 AI 新功能（WWDC 2026 完整解析）",
+        "local_angle": "台灣 iPhone 市佔率高，Apple Intelligence 中文支援是焦點；蘋果與 Google 聯手讓 Gemini 進入億台裝置，繁中教學幾乎空白，資訊差紅利極大"
+      },
+      {
+        "title": "Anthropic 發布 Claude Fable 5（Mythos 公開版）：一個 Prompt 生成可玩遊戲，一人等於整個開發團隊",
+        "sources": [
+          {
+            "name": "TechCrunch（遊戲角度）",
+            "url": "https://techcrunch.com/2026/06/09/anthropics-fable-5-can-make-weirdly-fun-video-games-with-the-click-of-a-button/"
+          },
+          {
+            "name": "TechCrunch（模型發布）",
+            "url": "https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today/"
+          },
+          {
+            "name": "Anthropic",
+            "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+          }
+        ],
+        "summary": "Anthropic 開放 Mythos 等級模型 Fable 5，AI 研究員 Mollick 稱「遠超所有公開模型」，可從單一 Prompt 生成完整可玩遊戲與複雜應用，定價 $10/$50 per M token。",
+        "audience": "獨立開發者、Vibe Coder、想用 AI 做副業的上班族",
+        "pain_point": "想用 AI 做 side project 但技術門檻高，不知道最新模型有多強、是否值得從 GPT 換過來",
+        "title_idea": "Anthropic 新模型讓我一個人做出完整遊戲！Claude Fable 5 實測：比 GPT-5 還強在哪裡",
+        "local_angle": "Fable 5 尚無中文專屬教學，搶做「從 Prompt 到產品」系列；Vibe Coding 話題在歐美爆發，華語圈剛起步，資訊差紅利極大"
+      },
+      {
+        "title": "Google Gemini 3.5 Live Translate 上線：70+ 語言近即時語音翻譯，保留語調與語速",
+        "sources": [
+          {
+            "name": "Google Blog",
+            "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/"
+          },
+          {
+            "name": "FutureTools",
+            "url": "https://futuretools.io/news"
+          }
+        ],
+        "summary": "Google 發布 Gemini 3.5 Live Translate，支援 70+ 語言即時語音翻譯，同步保留音調與節奏，內建 SynthID 水印防濫用，已在 Google Meet 及 AI Studio 上線。",
+        "audience": "跨國工作者、英語學習者、自媒體創作者想進攻多語市場",
+        "pain_point": "跨語言會議需人工口譯，成本高；創作者想做雙語內容但翻譯品質差",
+        "title_idea": "開會再也不需要翻譯了？Google Gemini 即時語音翻譯實測：70 種語言、延遲只有幾秒",
+        "local_angle": "台灣職場跨國合作需求高，中英即時翻譯是剛需；華語媒體對此功能幾乎無深度測評，搶先做中文版體驗教學"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "Lovable 達成 $500M ARR：每週 100 萬個新專案，80% 用戶是非技術背景",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/06/09/lovable-says-it-has-hit-500m-in-annualized-revenue-with-1-million-new-projects-a-week/"
+          },
+          {
+            "name": "The Next Web",
+            "url": "https://thenextweb.com/news/lovable-build-economy-500m-arr-vibe-coding"
+          }
+        ],
+        "summary": "AI Vibe Coding 平台 Lovable 宣布年化營收破 $500M，平台上累積建立超過 5000 萬個專案，主力用戶是設計師、業務、創業者等非工程師族群。",
+        "audience": "想用 AI 做 side project 或工具的上班族、創業者",
+        "pain_point": "有產品想法但不會寫程式，看到這個數據想知道如何入手 Vibe Coding",
+        "title_idea": "不會寫程式也能年收千萬？Lovable 的爆炸式成長告訴你 2026 最強副業入口",
+        "local_angle": "Lovable 已有繁體中文界面但台灣用戶極少，搶做「零基礎用 Lovable 做副業產品」系列，受眾廣、競爭少"
+      },
+      {
+        "title": "Anthropic 推出 Apple Foundation Models Swift 套件：iOS 開發者可直接在 App 中調用 Claude",
+        "sources": [
+          {
+            "name": "Anthropic Newsroom",
+            "url": "https://www.anthropic.com/news"
+          },
+          {
+            "name": "Releasebot",
+            "url": "https://releasebot.io/updates/anthropic"
+          }
+        ],
+        "summary": "Anthropic 發布 Swift 套件，讓 iOS／macOS 開發者透過 Apple Foundation Models 框架呼叫 Claude，搭配 WWDC 2026 同步推出，用於需要複雜推理的 App 功能。",
+        "audience": "iOS 開發者、想把 AI 功能做進 App 的獨立開發者",
+        "pain_point": "不確定在 App 中接入 Claude 的最佳方式，原生整合教學稀缺",
+        "title_idea": "寫 iOS App 現在可以直接叫 Claude！Anthropic Swift 套件完整整合教學",
+        "local_angle": "WWDC 當天同步推出，目前幾乎無中文開發教學；台灣 iOS 開發者社群活躍，搶先做整合示範教學"
+      },
+      {
+        "title": "Sandstone 獲 $3000 萬融資：AI 法律助理進駐企業內部法務，B2B AI 工具新賽道",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/06/09/sandstone-raises-30m-to-bring-ai-to-in-house-legal-teams/"
+          }
+        ],
+        "summary": "AI 法律新創 Sandstone 完成 $30M 融資，專注企業內部法律團隊的 AI 工作流，自動化合約審查、法律研究等重複性高的高價值工作。",
+        "audience": "企業法務、B2B SaaS 關注者、AI 創業研究者",
+        "pain_point": "法律工作重複性高但責任重大，不知如何在法律場景引入 AI 而不出包",
+        "title_idea": "AI 替企業法務省了幾千萬？Sandstone 的 $30M 告訴你 B2B AI 工具的新爆發賽道",
+        "local_angle": "台灣企業法務 AI 化幾乎沒有中文案例研究，做「AI 如何改變法律工作」的深度內容，受眾精準且付費意願高"
+      }
+    ],
+    "trends": [
+      {
+        "title": "便宜 AI 模型正在搶食高價模型市場：科技公司開始學會用小模型做大事",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/06/09/can-tech-companies-learn-to-love-cheaper-models/"
+          }
+        ],
+        "summary": "TechCrunch 深度分析顯示科技公司正從追求最貴最強模型，轉向評估 cost-per-task 效益，小模型組合拳開始勝過單一旗艦模型。",
+        "audience": "使用 AI 工具的上班族、想省 AI 訂閱費的創作者",
+        "pain_point": "每個月 AI 訂閱費用太高，不知道哪些便宜方案可以取代昂貴旗艦模型",
+        "title_idea": "別再花大錢訂 GPT-5 了！2026 最划算的 AI 工具組合省到你驚呼",
+        "local_angle": "台灣用戶對 AI 工具費用敏感，「省錢 AI 工具組合」是強選題；歐美討論熱烈，華語圈幾乎無對應實測內容"
+      },
+      {
+        "title": "Vibe Coding 走向主流：非技術背景創業者正用 AI 取代整個開發團隊",
+        "sources": [
+          {
+            "name": "TechCrunch（Lovable）",
+            "url": "https://techcrunch.com/2026/06/09/lovable-says-it-has-hit-500m-in-annualized-revenue-with-1-million-new-projects-a-week/"
+          },
+          {
+            "name": "Fortune",
+            "url": "https://fortune.com/2026/05/18/solo-founders-ai-automation-entire-teams-entrepreneurs/"
+          }
+        ],
+        "summary": "從 Lovable $500M ARR 到 Claude Fable 5 一人做遊戲，2026 年「一人公司 + AI」模式正從話題變成真實商業案例，非技術用戶成為最大建構者族群。",
+        "audience": "想創業或做副業的職場上班族",
+        "pain_point": "看到別人用 AI 一人賺大錢，但不知道自己應該做什麼方向、怎麼起步",
+        "title_idea": "2026 的一人公司不需要工程師了：AI 讓你一個人做出完整產品的 3 個真實案例",
+        "local_angle": "「一人公司」概念在台灣開始流行但缺乏 AI 落地案例；結合 Lovable 和 Claude Fable 5 做中文版實作教學系列"
+      },
+      {
+        "title": "MANGOS 取代 FAANG：AI 公司重塑科技版圖，職場人需要認識新霸主",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/06/09/its-not-faang-anymore-its-mangos/"
+          }
+        ],
+        "summary": "科技業「FAANG」縮寫已過時，新的 MANGOS 縮寫反映 AI 時代的真實權力格局，OpenAI、Nvidia 取代 Netflix、Amazon 成為新指標公司。",
+        "audience": "科技業求職者、想了解 AI 產業格局的職場人",
+        "pain_point": "科技股與 AI 格局變化快，不知道現在哪些公司真正掌握 AI 話語權，求職目標是否還對",
+        "title_idea": "FAANG 已死？2026 科技業新霸主 MANGOS 是什麼，對你的求職和職涯有什麼影響",
+        "local_angle": "台灣年輕人最熟悉 FAANG，但這個縮寫已過時；做「AI 時代的求職指南」切角，解讀新科技版圖，吸引廣泛求職族群"
+      }
+    ]
+  },
+  {
     "date": "2026-06-08",
     "big_events": [
       {
@@ -876,173 +1043,6 @@
         "pain_point": "商品主圖設計費用高且難以快速更新，AI 替代圖像可能影響現有商家曝光機會",
         "title_idea": "Amazon 開始用 AI 換掉你的商品圖！電商賣家現在該怎麼辦？",
         "local_angle": "台灣跨境電商賣家在 Amazon 平台佔比高，AI 商品圖對他們的影響直接且立即；本地幾乎沒人分析這個變化，具高度資訊差紅利"
-      }
-    ]
-  },
-  {
-    "date": "2026-06-02",
-    "big_events": [
-      {
-        "title": "OpenAI Codex 全面進攻白領工作：6大職能插件 + Sites 功能同步上線",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work/"
-          },
-          {
-            "name": "VentureBeat",
-            "url": "https://venturebeat.com/orchestration/openais-codex-update-lets-agents-build-interactive-enterprise-workspaces-via-sites-and-role-specific-plugins"
-          },
-          {
-            "name": "OpenAI 官方",
-            "url": "https://openai.com/index/codex-for-almost-everything/"
-          }
-        ],
-        "summary": "OpenAI 釋出 Codex 6大職能插件（數據分析/創意/銷售/產品設計/投資銀行），新增 Sites 輸出互動網頁功能，週活用戶達 500 萬、半年成長 6 倍。",
-        "audience": "職場上班族、知識工作者、企業員工",
-        "pain_point": "工作繁雜、不知如何用 AI 代勞特定職能任務",
-        "title_idea": "OpenAI 要取代你的工作？6大職能 AI 插件實測（銷售／財務／設計全包）",
-        "local_angle": "工具已上線但華語圈教學極少，搶做職能別操作教學可吃到大量資訊差紅利"
-      },
-      {
-        "title": "Microsoft Build 2026：AI「非同步協作員工」時代正式宣告，Scout 助理同步亮相",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/02/microsoft-launches-scout-an-openclaw-inspired-personal-assistant/"
-          },
-          {
-            "name": "Microsoft 官方部落格",
-            "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/"
-          },
-          {
-            "name": "Tom's Guide",
-            "url": "https://www.tomsguide.com/news/live/microsoft-build-2026"
-          }
-        ],
-        "summary": "Satya Nadella 宣告 AI 進入非同步協作員工時代，Scout 個人助理、Project Polaris 自研編碼 AI、Azure Agent Mesh 等多項工具在 Build 2026 大會當日發布。",
-        "audience": "職場上班族、企業用戶、Microsoft 365 使用者",
-        "pain_point": "工作中重複性行政任務佔據大量時間，AI 工具零散不整合",
-        "title_idea": "微軟要給每個上班族一個永遠在線的 AI 助理！Scout 能幫你做哪些事？",
-        "local_angle": "台灣企業廣泛使用 Microsoft 365，Scout 直接影響日常工作流，是教學熱門選題"
-      },
-      {
-        "title": "Uber AI 工具預算 4 個月花光：企業員工用 AI 的速度遠超管理層預期",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months/"
-          }
-        ],
-        "summary": "Uber 因員工大量使用 AI 工具導致年度預算 4 個月耗盡而緊急設限，凸顯職場 AI 採用速度已遠超企業規劃。",
-        "audience": "職場上班族、企業管理者、HR 人員",
-        "pain_point": "想用 AI 工具提升效率，但公司規範或預算不明確",
-        "title_idea": "上班族瘋 AI 工具，把公司預算 4 個月花光！你的公司有這個問題嗎？",
-        "local_angle": "台灣企業 AI 採購尚無統一規範，可切入「如何說服公司提供 AI 工具補貼」實用角度"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "Microsoft Scout 正式上線：永遠在線的個人 AI 工作助理，整合整套 Microsoft 365",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/02/microsoft-launches-scout-an-openclaw-inspired-personal-assistant/"
-          },
-          {
-            "name": "Microsoft Blog",
-            "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/"
-          }
-        ],
-        "summary": "Scout 基於 OpenClaw 架構，整合 Teams、Outlook、OneDrive、SharePoint，用戶可自定義助理名稱並持續訓練個人化工作技能。",
-        "audience": "Microsoft 365 使用者、企業員工",
-        "pain_point": "每天在各 App 間切換耗費大量時間，沒有一個統一的 AI 工作中樞",
-        "title_idea": "微軟 Scout 實測：一個 AI 助理管理你所有工作，Teams 會議＋郵件＋日曆全自動",
-        "local_angle": "首批僅限企業 Frontier 用戶，搶先介紹功能可吃到資訊差流量"
-      },
-      {
-        "title": "OpenAI Codex 6 大職能插件上線：數據分析、銷售、投行各職能直接上手",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work/"
-          },
-          {
-            "name": "OpenAI 官方",
-            "url": "https://openai.com/index/codex-for-almost-everything/"
-          }
-        ],
-        "summary": "6 大插件涵蓋數據分析、創意生產、銷售、產品設計、股權投資、投資銀行，Sites 功能可輸出互動網頁，Annotations 支援精準文件標注。",
-        "audience": "知識工作者、分析師、銷售業務、產品經理",
-        "pain_point": "AI 工具太通用，無法直接套用到自己的職能工作情境",
-        "title_idea": "OpenAI Codex 插件實測：銷售業務用 AI 助理，一天工作量縮到兩小時？",
-        "local_angle": "插件均為英文介面，華語職場的本地化使用教學需求極大"
-      },
-      {
-        "title": "Google 推出假電話即時偵測：AI 打 AI，深偽語音詐騙來電自動識別",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/02/google-rolls-out-fake-call-detection-to-protect-against-ai-deepfake-impersonation-scams/"
-          }
-        ],
-        "summary": "Google 正式推出利用 AI 偵測深偽語音詐騙電話的功能，可即時識別冒充親友或主管的 AI 合成語音來電。",
-        "audience": "一般手機用戶、年長族群、企業主管",
-        "pain_point": "AI 深偽語音詐騙越來越難辨別，親友或主管聲音都可被複製",
-        "title_idea": "AI 打敗 AI！Google 新功能自動識別深偽詐騙電話，原理和用法一次說清楚",
-        "local_angle": "台灣電話詐騙問題嚴重，Google 深偽偵測直接貼近本地痛點，話題熱度高"
-      },
-      {
-        "title": "Anthropic Claude Mythos 開放 150 組織：已自主發現 10,000+ 零日漏洞",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries/"
-          },
-          {
-            "name": "Cybersecurity Dive",
-            "url": "https://www.cybersecuritydive.com/news/ai-anthropic-claude-mythos-project-glasswing-expand/821714/"
-          }
-        ],
-        "summary": "Anthropic 的 Claude Mythos 透過 Project Glasswing 擴展至 15+ 國、150 個組織，已自主發現超過 1 萬個高危漏洞，客戶含 NATO、三星、Okta。",
-        "audience": "資安人員、企業 IT 主管、科技創作者",
-        "pain_point": "AI 在資安領域的能耐和邊界不明確，缺乏具體案例",
-        "title_idea": "AI 自己找 Bug！Anthropic Claude Mythos 發現 1 萬個零日漏洞，代表什麼？",
-        "local_angle": "AI 資安話題在華語圈幾乎無人深入報導，適合搶先切入技術創作者受眾"
-      }
-    ],
-    "trends": [
-      {
-        "title": "好萊塢大導馬丁·史科西斯用 FLUX AI 做分鏡：頂級創意人擁抱 AI 加速",
-        "sources": [
-          {
-            "name": "FutureTools",
-            "url": "https://x.com/bfl_ai/status/2061800769226252721?utm_source=futuretools.io&utm_medium=newspage"
-          },
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/02/martin-scorsese-becomes-the-latest-and-most-unlikely-hollywood-voice-for-ai/"
-          }
-        ],
-        "summary": "馬丁·史科西斯加入 Black Forest Labs（FLUX）擔任顧問，已實際用 AI 完成分鏡工作，強調「人的品味與技藝」仍是核心。",
-        "audience": "影像創作者、自媒體創作者、設計師",
-        "pain_point": "擔心 AI 取代創意工作，不知道創意人應如何與 AI 協作",
-        "title_idea": "連馬丁史科西斯都在用 AI 做分鏡！創意人不被 AI 取代的關鍵究竟是什麼？",
-        "local_angle": "頂級創意人背書 AI 圖像工具，可切入「創作者 AI 工作流」教學角度，話題自帶流量"
-      },
-      {
-        "title": "ZeroDrift 獲 1000 萬美元：AI 模型部署後自我保護成為新創賽道",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/02/zerodrift-raises-10-million-to-protect-ai-models-from-themselves/"
-          }
-        ],
-        "summary": "ZeroDrift 針對 AI 模型部署後漂移與效果惡化問題獲千萬美元融資，顯示企業 AI 維運管理已成獨立市場需求。",
-        "audience": "獨立開發者、AI 產品創業者、企業 AI 負責人",
-        "pain_point": "部署了 AI 產品後，模型效果越來越差但不知如何監控與維護",
-        "title_idea": "AI 模型用久了會變笨？1000 萬美元的新創在解決這個你可能忽視的問題",
-        "local_angle": "AI 產品維運話題在華語圈幾乎無人涉足，適合搶先切入獨立開發者受眾"
       }
     ]
   }
