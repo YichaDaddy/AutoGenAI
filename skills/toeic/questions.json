@@ -1,103 +1,118 @@
 {
-  "date": "2026-06-09",
+  "date": "2026-06-10",
   "p5": [
     {
-      "id": "2026-06-09-p5-0",
-      "tag": "假設語氣倒裝（第三條件句）",
-      "pre": "Had the board approved the merger proposal, the company",
-      "post": "significantly expanded its market share within the following fiscal year.",
-      "opts": ["would have", "will have", "would", "had"],
+      "id": "2026-06-10-p5-0",
+      "tag": "假設語氣倒裝",
+      "pre": "Had the board ratified the merger agreement last quarter, the combined entity",
+      "post": "a formidable competitive advantage in emerging markets.",
+      "opts": ["would have commanded", "will have commanded", "would command", "had commanded"],
       "ans": 0,
-      "zh": "若董事會已批准合併提案，公司將在接下來的財政年度內大幅擴展其市場份額。",
-      "why": "此句為<b>倒裝假設語氣</b>（省略 if，Had 提前），屬第三條件句（與過去事實相反）。主要子句應使用 <b>would / could / might + have + 過去分詞</b>，故選 would have（後接 expanded）。will have 為未來完成式，語意不符；would 後需接動詞原形，而非過去分詞；had 不符合主要子句結構。"
+      "zh": "假設董事會上季度已批准合併協議，合併後的實體將在新興市場擁有強大的競爭優勢。",
+      "why": "<b>Had the board ratified</b> 是 <b>If the board had ratified</b> 的倒裝形式，省略 if 並將 had 移至句首，表示與過去事實相反的假設（第三條件句）。主要子句須使用 <b>would/could/might + have + p.p.</b> 結構。選項 B will have commanded 為未來完成式，不適用於假設語氣；C would command 為第二條件句（與現在相反）的結果子句；D had commanded 為過去完成式，無法單獨作結果子句。"
     },
     {
-      "id": "2026-06-09-p5-1",
-      "tag": "分詞構句（被動省略）",
+      "id": "2026-06-10-p5-1",
+      "tag": "分詞構句（被動）",
       "pre": "",
-      "post": "for its stringent quality control measures, the pharmaceutical firm has maintained an unblemished regulatory record for over two decades.",
-      "opts": ["Renowned", "Having renowned", "To be renowned", "Renowning"],
+      "post": "by the Securities and Exchange Commission, the revised prospectus must be reissued no later than the fifteenth of next month.",
+      "opts": ["Rejected", "Having rejected", "Rejecting", "To be rejected"],
       "ans": 0,
-      "zh": "以嚴格的品質管控措施聞名，這家製藥公司二十多年來保持著無瑕的法規遵循記錄。",
-      "why": "<b>被動分詞構句</b>中，當主詞（the pharmaceutical firm）是動作的承受者時，可直接以<b>過去分詞</b>開頭，為 Being renowned 的省略形式。Having renowned 錯誤（renowned 非及物動詞的過去分詞用法）；To be renowned 為不定詞，表目的而非附帶說明；Renowning 不存在此動詞形式。"
+      "zh": "由於修訂後的招股說明書遭證券交易委員會退件，必須在下月十五日前重新發行。",
+      "why": "主句主詞 the revised prospectus 與分詞形成<b>被動</b>關係，故應使用<b>過去分詞</b>（Rejected）起頭，作被動分詞構句，相當於 Because it was rejected by...，表示「被退件之後」。Having rejected 為主動完成分詞，邏輯上主詞應為執行退件者，造成語意矛盾。Rejecting 為主動現在分詞，同樣不符。To be rejected 表尚未發生的未來動作，與已完成退件的語意不符。"
     },
     {
-      "id": "2026-06-09-p5-2",
-      "tag": "非限定關係子句（which）",
-      "pre": "The revised contractual terms,",
-      "post": "the legal team spent three months negotiating, were ultimately rejected by the arbitration panel.",
-      "opts": ["that", "which", "over which", "in which"],
-      "ans": 1,
-      "zh": "修訂後的合約條款（法律團隊花了三個月進行談判）最終被仲裁小組否決。",
-      "why": "<b>非限定關係子句</b>（逗號隔開，補充說明資訊）<b>絕對不可用 that</b>，必須用 <b>which</b>。which 代替先行詞 the revised contractual terms，作 negotiating 的受詞（spent three months negotiating which → which the legal team spent three months negotiating）。over which 和 in which 與此動詞搭配語意不符。"
+      "id": "2026-06-10-p5-2",
+      "tag": "非限定關係子句",
+      "pre": "The arbitration panel issued its final ruling on Friday,",
+      "post": "effectively brought a decade-long intellectual property dispute to a close.",
+      "opts": ["which", "that", "what", "whereby"],
+      "ans": 0,
+      "zh": "仲裁小組於週五做出最終裁決，此裁決有效地終結了長達十年的智慧財產權糾紛。",
+      "why": "逗號後的<b>非限定關係子句</b>（non-restrictive relative clause）只能用 <b>which</b>，指代前面整個主句所描述的事件（做出最終裁決）。<b>that 絕對不可接在逗號後</b>，只用於限定性關係子句。what 引導名詞子句，不能作關係代名詞。whereby 意為「藉此」，後須接說明手段的子句，語意不符本句脈絡。"
     },
     {
-      "id": "2026-06-09-p5-3",
-      "tag": "讓步介系詞（notwithstanding）",
-      "pre": "The acquisition,",
-      "post": "the subsidiary's mounting debt obligations, proceeded as scheduled following approval from the regulatory commission.",
-      "opts": ["despite of", "notwithstanding", "in spite", "regardless"],
-      "ans": 1,
-      "zh": "儘管子公司債務負擔日益加重，此次收購仍按計畫在監管委員會批准後如期進行。",
-      "why": "<b>notwithstanding</b> 是高階正式讓步介系詞，直接接名詞片語，無需搭配其他介系詞，意為「儘管」。despite of 錯誤（despite 直接接名詞，<b>無需 of</b>）；in spite 必須與 <b>of</b> 連用才完整；regardless 需接 of。notwithstanding 亦可後置使用（the debt notwithstanding），為法律文件的常見正式用法。"
+      "id": "2026-06-10-p5-3",
+      "tag": "讓步介系詞",
+      "pre": "",
+      "post": "the significant legal impediments outlined in counsel's memorandum, the executive team resolved to proceed with the cross-border acquisition.",
+      "opts": ["Notwithstanding", "Nevertheless", "Although", "Regardless"],
+      "ans": 0,
+      "zh": "儘管法律顧問備忘錄中列出了重大法律障礙，高管團隊仍決定推進跨境收購。",
+      "why": "<b>Notwithstanding</b> 作介系詞時可直接後接名詞片語（the significant legal impediments），表示「儘管」，是正式法律及商務文件的常用讓步介系詞，亦可後置（the impediments notwithstanding）。Nevertheless 為副詞，須另起獨立子句，不能直接接名詞。Although 為從屬連接詞，後須接完整子句（主詞＋動詞），接名詞片語語法錯誤。Regardless 須搭配 of 方可接名詞，單獨使用不合語法。"
     },
     {
-      "id": "2026-06-09-p5-4",
-      "tag": "名詞子句假設語氣（subjunctive）",
-      "pre": "The board of directors recommends that the chief financial officer",
-      "post": "a comprehensive audit of all overseas subsidiaries before the close of the fiscal quarter.",
-      "opts": ["conducts", "conduct", "conducted", "has conducted"],
-      "ans": 1,
-      "zh": "董事會建議財務長在本財季結束前對所有海外子公司進行全面審計。",
-      "why": "<b>recommend that</b> 後接的名詞子句須用<b>假設語氣（subjunctive mood）</b>，動詞維持原形，<b>第三人稱單數不加 -s</b>，故選 <b>conduct</b>。此結構適用於 recommend／suggest／insist／demand／require + that 的從句。conducts 錯誤（多餘 -s）；conducted 為過去式；has conducted 為現在完成式，均不符假設語氣要求。"
+      "id": "2026-06-10-p5-4",
+      "tag": "動詞語意辨別（進階）",
+      "pre": "By executing this settlement agreement, both parties agree to",
+      "post": "all claims, counterclaims, and causes of action arising from or related to the contractual dispute in question.",
+      "opts": ["waive", "defer", "suspend", "relinquish"],
+      "ans": 0,
+      "zh": "雙方透過簽署此和解協議，同意放棄所有與本合約糾紛相關的索賠、反索賠及訴因。",
+      "why": "<b>waive</b> 為法律術語，指當事人主動、正式地放棄其法律權利或主張（waive a right / waive a claim），是和解協議的標準用語。defer 意為「延後履行」，暗示日後仍會執行，不含放棄之意。suspend 意為「暫時中止」，強調可恢復性，非永久放棄。relinquish 雖可表自願放棄，但慣用於放棄職位或控制權；在法律索賠語境中，<b>waive</b> 更精確且正式。"
     }
   ],
   "p6": {
-    "id": "2026-06-09-p6",
-    "title": "Memorandum: Organizational Restructuring and Compliance Obligations",
+    "id": "2026-06-10-p6",
+    "title": "Memorandum: Implementation of Revised Vendor Onboarding Procedures",
     "seg": [
-      ["We write to inform all department heads of the forthcoming changes to the company's organizational structure, which ", {"b": 0}, " by the Board of Directors at last month's extraordinary general meeting. These changes are intended to streamline operations across our global network and enhance accountability at every level of management."],
-      [{"b": 1}, ", the restructuring will necessitate a comprehensive review of all existing inter-departmental reporting lines. Each department head is required to submit a detailed workflow assessment to the Human Resources Division no later than June 30, 2026. Failure to comply with this deadline may result in administrative penalties under Section 12 of the Employee Conduct Policy."],
-      ["The Finance Division has been ", {"b": 2}, " to oversee the reallocation of budgetary resources in alignment with the new organizational framework. All procurement requests exceeding USD 50,000 will henceforth require dual authorization from both the respective department head and the Chief Financial Officer."],
-      [{"b": 3}, " We appreciate your cooperation and anticipate that the transition will be completed without significant disruption to ongoing operations."]
+      ["Effective immediately, the Procurement Department ", {"b": 0}, " in accordance with the recently enacted Supplier Transparency and Accountability Act. Under the new framework, all prospective vendors must submit a comprehensive due diligence package before any contractual engagement may commence."],
+      ["The revised procedures mandate that vendors provide audited financial statements for the preceding three fiscal years. ", {"b": 1}, ", they must furnish documentation certifying full compliance with all applicable labor and environmental regulations."],
+      ["Procurement officers are advised to exercise particular ", {"b": 2}, " when reviewing vendor submissions that include third-party certifications, as instances of fraudulent documentation have recently been reported across the industry."],
+      ["Departments that fail to adhere to the revised onboarding procedures may face a temporary suspension of their procurement privileges. ", {"b": 3}, " All related inquiries should be directed to the Procurement Compliance Officer at compliance@company.internal."]
     ],
     "blanks": [
       {
-        "tag": "時態語態（過去被動）",
+        "tag": "時態語態",
         "col1": true,
-        "opts": ["were ratified", "have been ratifying", "are ratifying", "will be ratified"],
+        "opts": [
+          "has revised its procedures",
+          "revised its procedures",
+          "will revise its procedures",
+          "had revised its procedures"
+        ],
         "ans": 0,
-        "zh": "被董事會在上個月的臨時股東大會上批准",
-        "why": "時間副詞 <b>at last month's</b> 指定明確過去時間點，須用簡單過去式；先行詞 changes 為複數且動作由 Board 執行，故用<b>過去被動 were ratified</b>。現在完成進行式 have been ratifying 表主動持續，語意不符；will be ratified 為未來式，與 last month 形成矛盾。"
+        "zh": "採購部門已修訂其程序，以符合最近頒布的《供應商透明與問責法》。",
+        "why": "「Effective immediately」（即刻生效）表示動作已完成且結果延續至現在，應使用<b>現在完成式</b>（has revised）。過去簡單式 revised 僅陳述過去事件，缺乏與現在的連結。未來式 will revise 與「即刻生效」矛盾。過去完成式 had revised 需搭配另一個明確的過去參考時間點，此處並無此語境。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["To this end", "Nevertheless", "By contrast", "In retrospect"],
-        "ans": 0,
-        "zh": "為此，這次重組將需要全面審查所有現有的跨部門彙報關係。",
-        "why": "<b>To this end</b> 意為「為此目的」，承接上段說明改革目標後引出具體執行措施，邏輯最為順暢。Nevertheless 表讓步轉折；By contrast 表對比；In retrospect 表回顧過去，三者均與上下文「目的導向」的語篇邏輯矛盾。"
-      },
-      {
-        "tag": "詞彙語意（正式授權動詞）",
-        "col1": true,
-        "opts": ["mandated", "requested", "suggested", "invited"],
-        "ans": 0,
-        "zh": "財務部已被正式授命監督預算資源的重新分配",
-        "why": "<b>mandated</b> 意為「被正式授命、授權」，帶有強制性官方指令的意涵，適用於公司內部正式授權場景。requested 和 suggested 語氣過輕，缺乏強制性；invited 用於非正式邀請，不符合法律備忘錄的語域要求。"
-      },
-      {
-        "tag": "句子插入（語篇連貫）",
-        "col1": true,
         "opts": [
-          "Should you require further clarification regarding the revised reporting structure, please do not hesitate to contact the Office of the Chief Operating Officer directly.",
-          "The aforementioned changes will take effect upon the ratification of the amended corporate charter.",
-          "All staff members are encouraged to submit their vacation requests well in advance of any scheduled leave.",
-          "The company's annual performance review cycle commences in the fourth quarter of each fiscal year."
+          "In addition",
+          "Nevertheless",
+          "As a result",
+          "On the contrary"
         ],
         "ans": 0,
-        "zh": "若您需要進一步了解修訂後的彙報架構，請隨時直接聯繫營運長辦公室。",
-        "why": "結尾段承接「感謝合作」，需要提供聯絡資訊或後續行動指引以完整段落。選項A以倒裝條件句 <b>Should you require</b>（正式語氣）提供具體聯絡管道，符合備忘錄慣例結尾格式；B重複前文已涵蓋的生效資訊；C、D與本備忘錄主題無關，插入後打斷邏輯一致性。"
+        "zh": "此外，他們還必須提供證明符合所有適用勞工和環境法規的文件。",
+        "why": "前句要求提交財務報表，後句補充另一項要求，屬<b>並列遞進</b>關係，應使用 <b>In addition</b>（此外）。Nevertheless 表讓步轉折，暗示前後觀點對比，不符。As a result 表因果，兩項要求並非因果關係。On the contrary 表正面反駁前述觀點，與本段持續列舉要求的邏輯完全相悖。"
+      },
+      {
+        "tag": "詞彙語意",
+        "col1": true,
+        "opts": [
+          "diligence",
+          "caution",
+          "restraint",
+          "vigilance"
+        ],
+        "ans": 0,
+        "zh": "採購人員在審查包含第三方認證的供應商文件時，應特別謹慎盡職。",
+        "why": "<b>exercise diligence</b>（盡職查核）是採購與法律領域的標準用語，特指審查文件時的徹底核查，並呼應前文 due diligence 一詞形成語篇連貫。exercise caution 偏向「小心避免風險」，語意較通用。exercise restraint 意為「克制、自制」，語意完全不符文件審查情境。vigilance 有「保持警惕」之意，但面對具體的文件詐欺問題，<b>diligence</b>（程序性徹底查核）比 vigilance（持續警覺）更精準。"
+      },
+      {
+        "tag": "句子插入",
+        "col1": true,
+        "opts": [
+          "Furthermore, repeated non-compliance may be referred to the Internal Audit Committee for formal disciplinary proceedings.",
+          "Vendors are encouraged to review their contractual obligations on an annual basis.",
+          "The previous vendor onboarding procedures had been in place since 2019.",
+          "Please be advised that the procurement team's office hours have been updated."
+        ],
+        "ans": 0,
+        "zh": "此外，屢次不遵規定者可能被移交內部稽核委員會進行正式懲戒程序。",
+        "why": "前句說明首次不遵規定的後果（暫停採購權限），後句引導讀者詢問進一步問題，插入句應承接並<b>升級懲戒層次</b>。選項 A 以 <b>Furthermore</b> 遞進，提出「屢次違規移交稽核委員會」，與前後文邏輯一貫且語氣層層加重。B 談供應商義務，主詞由部門變成供應商，語境斷層。C 提及舊程序年份，屬無關的歷史背景資訊。D 談辦公時間更新，與合規後果毫無關聯。"
       }
     ]
   }
