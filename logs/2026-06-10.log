@@ -1,1 +1,76 @@
 === Wed Jun 10 06:00:03 CST 2026 | Starting daily AI report ===
+Dashboard rendered successfully. Here's the complete daily report:
+
+---
+
+## 📰 AI 效率工具日報｜2026-06-09（昨日情報）
+
+賽道：AI 效率工具 ｜ 受眾：職場上班族
+
+---
+
+### 板塊一：大事件
+
+**WWDC 2026：Apple 全面 AI 化，Siri 改用 Gemini、iOS 27 跨 App 感知大爆發**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/) · [Apple Newsroom](https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/)
+- **一句摘要**：Siri 底層換用 Google Gemini，新增跨 App 情境感知、AI 語音聽寫、照片 AI 編輯，iPhone 11 以上均可升級
+- **選題角度**：目標受眾：台灣 iPhone 用戶 | 痛點：不知新版 Siri 能做什麼 | 標題雛形：**iOS 27 的 Siri 終於不廢了！5 個你馬上能用的 AI 新功能**
+
+**Anthropic 發布 Claude Fable 5（Mythos 公開版）：一個 Prompt 生成可玩遊戲**
+- **來源**：[TechCrunch（遊戲）](https://techcrunch.com/2026/06/09/anthropics-fable-5-can-make-weirdly-fun-video-games-with-the-click-of-a-button/) · [TechCrunch（模型）](https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today/)
+- **一句摘要**：AI 研究員 Mollick 稱「遠超所有公開模型」，單一 Prompt 生成完整可玩遊戲，定價 $10/$50 per M token
+- **選題角度**：目標受眾：獨立開發者、Vibe Coder | 痛點：想做 side project 但不知最新模型多強 | 標題雛形：**Claude Fable 5 實測：比 GPT-5 還強在哪裡？一人做出完整遊戲**
+
+**Google Gemini 3.5 Live Translate：70+ 語言近即時語音翻譯**
+- **來源**：[Google Blog](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/)
+- **一句摘要**：保留音調與節奏的即時語音翻譯，已在 Google Meet 及 AI Studio 上線，內建 SynthID 防濫用
+- **選題角度**：目標受眾：跨國工作者、雙語創作者 | 痛點：跨語言會議成本高 | 標題雛形：**開會再也不需要翻譯了？Gemini 即時語音翻譯實測**
+
+---
+
+### 板塊二：工具更新
+
+**Lovable 達成 $500M ARR：每週 100 萬個新專案，80% 用戶非技術背景**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/06/09/lovable-says-it-has-hit-500m-in-annualized-revenue-with-1-million-new-projects-a-week/)
+- **標題雛形**：**不會寫程式也能年收千萬？Lovable 的爆炸式成長告訴你 2026 最強副業入口**
+
+**Anthropic 推出 Apple Foundation Models Swift 套件**
+- **來源**：[Anthropic Newsroom](https://www.anthropic.com/news)
+- **標題雛形**：**寫 iOS App 現在可以直接叫 Claude！Anthropic Swift 套件完整整合教學**
+
+**Sandstone 獲 $3000 萬融資：AI 法律助理進駐企業內部法務**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/06/09/sandstone-raises-30m-to-bring-ai-to-in-house-legal-teams/)
+- **標題雛形**：**AI 替企業法務省了幾千萬？B2B AI 工具的新爆發賽道解析**
+
+---
+
+### 板塊三：值得追蹤的趨勢
+
+**便宜 AI 模型正在搶食高價模型市場** → [TechCrunch](https://techcrunch.com/2026/06/09/can-tech-companies-learn-to-love-cheaper-models/) | 標題雛形：**別再花大錢訂 GPT-5 了！2026 最划算 AI 工具組合**
+
+**Vibe Coding 走向主流：非技術創業者正用 AI 取代開發團隊** → 標題雛形：**2026 的一人公司不需要工程師了：3 個用 AI 建出完整產品的真實案例**
+
+**MANGOS 取代 FAANG：AI 公司重塑科技版圖** → [TechCrunch](https://techcrunch.com/2026/06/09/its-not-faang-anymore-its-mangos/) | 標題雛形：**FAANG 已死？MANGOS 是什麼，對你的求職有什麼影響**
+
+---
+
+### 來源覆蓋狀況
+
+| 來源 | 狀態 | 昨日內容數量 | 備註 |
+|------|------|------------|------|
+| TechCrunch AI | ✅ | 8 篇 | URL /2026/06/09/ 全數確認 |
+| FutureTools.io | ✅ | 2 條 | Anthropic Fable 5、Gemini 3.5 Live Translate |
+| WebSearch AI news | ✅ | 多條 | WWDC、Lovable、Anthropic |
+| Matt Wolfe (@mreflow) | ❌ | 0 條 | X.com 無法確認昨日專屬貼文 |
+| The AI Advantage | ❌ | 0 條 | YouTube 無法確認昨日影片 |
+| Matthew Berman | ❌ | 0 條 | YouTube 無法確認昨日影片 |
+| @OpenAI / @AnthropicAI | ❌ | 0 條 | X.com 直接存取受限 |
+| @sama / @karpathy | ❌ | 0 條 | X.com 直接存取受限 |
+
+---
+
+💡 您的專屬網頁版看板已同步更新，可隨時打開 `daily_topic_dashboard.html` 查看。
+
+DONE
+--- AI report finished at Wed Jun 10 06:05:40 CST 2026 ---
+=== Wed Jun 10 06:05:40 CST 2026 | Starting daily finance report ===
