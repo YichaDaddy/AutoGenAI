@@ -1,116 +1,98 @@
 {
-  "date": "2026-06-09",
+  "date": "2026-06-10",
   "big_events": [
     {
-      "title": "WWDC 2026：Apple 全面 AI 化，Siri 改用 Gemini、iOS 27 跨 App 感知大爆發",
+      "title": "Anthropic Claude Fable 5 後續效應：資安研究員質疑模型護欄設計",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"},
-        {"name": "Tom's Guide", "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"},
-        {"name": "Apple Newsroom", "url": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/"}
       ],
-      "summary": "Apple 發表 iOS 27，Siri 底層換用 Google Gemini，新增跨 App 情境感知、AI 語音聽寫、照片 AI 編輯，延伸至 Watch、CarPlay、AirPods，iPhone 11 以上均可升級。",
-      "audience": "iPhone 用戶、職場上班族、自媒體創作者",
-      "pain_point": "Siri 長期被嘲「最笨助理」，用戶渴望真正能幫忙的 AI 助理，但不知新版能做什麼、跟 ChatGPT 有何不同",
-      "title_idea": "iOS 27 的 Siri 終於不廢了！5 個你馬上能用的 AI 新功能（WWDC 2026 完整解析）",
-      "local_angle": "台灣 iPhone 市佔率高，Apple Intelligence 中文支援是焦點；蘋果與 Google 聯手讓 Gemini 進入億台裝置，繁中教學幾乎空白，資訊差紅利極大"
+      "summary": "資安界批評 Anthropic 為 Fable 5 設置的安全護欄設計不當，恐影響模型在資安研究上的實用性。",
+      "audience": "關注 AI 安全與新模型評測的職場上班族、IT/資安從業者",
+      "pain_point": "看到 Fable 5「最強公開模型」的宣傳很心動，但不確定它的安全限制會不會讓實際使用綁手綁腳",
+      "title_idea": "Anthropic 最強模型 Fable 5 才上線一天就被資安圈出征？3 分鐘看懂這場護欄爭議",
+      "local_angle": "昨天才介紹完 Fable 5 的爆發性功能，今天接著做「正反兩面」深度追蹤，華語圈對這場辯論幾乎零報導，搶占話題延續性紅利"
     },
     {
-      "title": "Anthropic 發布 Claude Fable 5（Mythos 公開版）：一個 Prompt 生成可玩遊戲，一人等於整個開發團隊",
+      "title": "「AI 中毒」企業每位員工每月砸 $7,500 在 AI 工具上",
       "sources": [
-        {"name": "TechCrunch（遊戲角度）", "url": "https://techcrunch.com/2026/06/09/anthropics-fable-5-can-make-weirdly-fun-video-games-with-the-click-of-a-button/"},
-        {"name": "TechCrunch（模型發布）", "url": "https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today/"},
-        {"name": "Anthropic", "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/10/ai-pilled-firms-spend-7500-per-employee-each-month-on-ai/"}
       ],
-      "summary": "Anthropic 開放 Mythos 等級模型 Fable 5，AI 研究員 Mollick 稱「遠超所有公開模型」，可從單一 Prompt 生成完整可玩遊戲與複雜應用，定價 $10/$50 per M token。",
-      "audience": "獨立開發者、Vibe Coder、想用 AI 做副業的上班族",
-      "pain_point": "想用 AI 做 side project 但技術門檻高，不知道最新模型有多強、是否值得從 GPT 換過來",
-      "title_idea": "Anthropic 新模型讓我一個人做出完整遊戲！Claude Fable 5 實測：比 GPT-5 還強在哪裡",
-      "local_angle": "Fable 5 尚無中文專屬教學，搶做「從 Prompt 到產品」系列；Vibe Coding 話題在歐美爆發，華語圈剛起步，資訊差紅利極大"
+      "summary": "報告顯示積極導入 AI 的企業，平均每位員工每月 AI 相關支出高達 $7,500 美元，遠超一般訂閱費用。",
+      "audience": "職場上班族、企業主管、HR/IT 決策者",
+      "pain_point": "自己公司只給一個 ChatGPT 帳號，看到別家公司砸重本投資 AI，不知道差距在哪、該不該主動爭取資源",
+      "title_idea": "別人家公司每人每月花 7500 美金在 AI 上，你的公司給了多少？2026 企業 AI 投資真相",
+      "local_angle": "台灣企業普遍對 AI 預算保守，這份數據可作為「向老闆爭取 AI 工具預算」的論述素材，華語圈尚無對應整理文章"
     },
     {
-      "title": "Google Gemini 3.5 Live Translate 上線：70+ 語言近即時語音翻譯，保留語調與語速",
+      "title": "Amazon 再向銀行借 175 億美元，AI 基礎建設燒錢戰持續升溫",
       "sources": [
-        {"name": "Google Blog", "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/"},
-        {"name": "FutureTools", "url": "https://futuretools.io/news"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues/"}
       ],
-      "summary": "Google 發布 Gemini 3.5 Live Translate，支援 70+ 語言即時語音翻譯，同步保留音調與節奏，內建 SynthID 水印防濫用，已在 Google Meet 及 AI Studio 上線。",
-      "audience": "跨國工作者、英語學習者、自媒體創作者想進攻多語市場",
-      "pain_point": "跨語言會議需人工口譯，成本高；創作者想做雙語內容但翻譯品質差",
-      "title_idea": "開會再也不需要翻譯了？Google Gemini 即時語音翻譯實測：70 種語言、延遲只有幾秒",
-      "local_angle": "台灣職場跨國合作需求高，中英即時翻譯是剛需；華語媒體對此功能幾乎無深度測評，搶先做中文版體驗教學"
+      "summary": "繼發債後，Amazon 再向銀行團借款 175 億美元，反映科技巨頭為 AI 基礎建設持續加碼舉債。",
+      "audience": "關注科技產業趨勢、投資理財的職場上班族",
+      "pain_point": "常聽到「AI 泡沫」說法，但不確定巨頭們實際燒錢的規模到底有多誇張、這對科技股和工作機會有什麼影響",
+      "title_idea": "Amazon 一個月內又借 175 億美元蓋 AI！科技巨頭瘋狂燒錢的背後邏輯",
+      "local_angle": "延續前一天 MANGOS 取代 FAANG 的話題，用具體借款數字讓「AI 軍備競賽」更有感，適合做成科技財經科普短片"
     }
   ],
   "tool_updates": [
     {
-      "title": "Lovable 達成 $500M ARR：每週 100 萬個新專案，80% 用戶是非技術背景",
+      "title": "ChatGPT 大改版：全新模型選擇器上線，6 種模式怎麼選？",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/09/lovable-says-it-has-hit-500m-in-annualized-revenue-with-1-million-new-projects-a-week/"},
-        {"name": "The Next Web", "url": "https://thenextweb.com/news/lovable-build-economy-500m-arr-vibe-coding"}
+        {"name": "Value The Markets", "url": "https://www.valuethemarkets.com/cryptocurrency/news/openai-introduces-enhanced-model-picker-for-chatgpt"},
+        {"name": "OpenAI Help Center", "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"}
       ],
-      "summary": "AI Vibe Coding 平台 Lovable 宣布年化營收破 $500M，平台上累積建立超過 5000 萬個專案，主力用戶是設計師、業務、創業者等非工程師族群。",
-      "audience": "想用 AI 做 side project 或工具的上班族、創業者",
-      "pain_point": "有產品想法但不會寫程式，看到這個數據想知道如何入手 Vibe Coding",
-      "title_idea": "不會寫程式也能年收千萬？Lovable 的爆炸式成長告訴你 2026 最強副業入口",
-      "local_angle": "Lovable 已有繁體中文界面但台灣用戶極少，搶做「零基礎用 Lovable 做副業產品」系列，受眾廣、競爭少"
+      "summary": "OpenAI 為付費版 ChatGPT 推出全新模型選擇器，提供 Instant 到 Pro Extended 共 6 種模式。",
+      "audience": "所有使用 ChatGPT Plus/Pro 的職場上班族",
+      "pain_point": "打開 ChatGPT 突然多出一堆陌生選項，不知道平常打字、做簡報、寫程式分別該選哪一個，怕選錯浪費額度",
+      "title_idea": "ChatGPT 突然多了 6 個模式選項？一張圖搞懂 Instant/High/Pro Extended 該怎麼選",
+      "local_angle": "介面更新影響全體付費用戶，但 OpenAI 官方說明是英文且偏技術，搶先做中文「選模式懶人包」教學影片，受眾極廣"
     },
     {
-      "title": "Anthropic 推出 Apple Foundation Models Swift 套件：iOS 開發者可直接在 App 中調用 Claude",
+      "title": "Google 發布 DiffusionGemma：擴散式語言模型，文字生成速度快 4 倍",
       "sources": [
-        {"name": "Anthropic Newsroom", "url": "https://www.anthropic.com/news"},
-        {"name": "Releasebot", "url": "https://releasebot.io/updates/anthropic"}
+        {"name": "Google Blog", "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/"}
       ],
-      "summary": "Anthropic 發布 Swift 套件，讓 iOS／macOS 開發者透過 Apple Foundation Models 框架呼叫 Claude，搭配 WWDC 2026 同步推出，用於需要複雜推理的 App 功能。",
-      "audience": "iOS 開發者、想把 AI 功能做進 App 的獨立開發者",
-      "pain_point": "不確定在 App 中接入 Claude 的最佳方式，原生整合教學稀缺",
-      "title_idea": "寫 iOS App 現在可以直接叫 Claude！Anthropic Swift 套件完整整合教學",
-      "local_angle": "WWDC 當天同步推出，目前幾乎無中文開發教學；台灣 iOS 開發者社群活躍，搶先做整合示範教學"
+      "summary": "Google 推出實驗性擴散式語言模型 DiffusionGemma，可同時生成多個文字 token，單張 H100 達每秒千 token 以上。",
+      "audience": "對 AI 技術趨勢有興趣的上班族、開發者、自媒體創作者",
+      "pain_point": "常抱怨 AI 工具回應太慢、等待出字的時間影響工作效率，想知道未來是否有解",
+      "title_idea": "AI 打字會「秒回」了？Google 新模型讓文字生成速度暴增 4 倍的技術解析",
+      "local_angle": "這項技術尚屬實驗階段，中文媒體幾乎沒有報導，可做成「AI 未來會有多快」趨勢解讀型內容，建立技術前瞻形象"
     },
     {
-      "title": "Sandstone 獲 $3000 萬融資：AI 法律助理進駐企業內部法務，B2B AI 工具新賽道",
+      "title": "研究警告：AI「記憶」功能用不好，反而讓模型表現變差",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/09/sandstone-raises-30m-to-bring-ai-to-in-house-legal-teams/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/10/how-memory-tools-can-make-ai-models-worse/"}
       ],
-      "summary": "AI 法律新創 Sandstone 完成 $30M 融資，專注企業內部法律團隊的 AI 工作流，自動化合約審查、法律研究等重複性高的高價值工作。",
-      "audience": "企業法務、B2B SaaS 關注者、AI 創業研究者",
-      "pain_point": "法律工作重複性高但責任重大，不知如何在法律場景引入 AI 而不出包",
-      "title_idea": "AI 替企業法務省了幾千萬？Sandstone 的 $30M 告訴你 B2B AI 工具的新爆發賽道",
-      "local_angle": "台灣企業法務 AI 化幾乎沒有中文案例研究，做「AI 如何改變法律工作」的深度內容，受眾精準且付費意願高"
+      "summary": "報導指出 ChatGPT、Claude 等工具的長期記憶功能，若累積過多舊資訊，反而會讓模型回答品質下降。",
+      "audience": "重度使用 ChatGPT/Claude 記憶功能的職場上班族",
+      "pain_point": "開了 AI 記憶功能後覺得它「越用越笨」、常常答非所問，卻不知道是記憶設定出了問題",
+      "title_idea": "你的 ChatGPT 是不是越用越笨？AI「記憶功能」的隱藏副作用與清理技巧",
+      "local_angle": "記憶功能幾乎人人都有開，但很少人知道要定期整理；做成「AI 工具保養」實用教學，是高搜尋量、低製作門檻的選題"
     }
   ],
   "trends": [
     {
-      "title": "便宜 AI 模型正在搶食高價模型市場：科技公司開始學會用小模型做大事",
+      "title": "前 Datadog 團隊創立 AI coding 新創 Niteshift，賭「不被大廠鎖定」",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/09/can-tech-companies-learn-to-love-cheaper-models/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/10/datadog-veterans-launch-ai-coding-startup-niteshift-on-a-bet-against-big-ai-lock-in/"}
       ],
-      "summary": "TechCrunch 深度分析顯示科技公司正從追求最貴最強模型，轉向評估 cost-per-task 效益，小模型組合拳開始勝過單一旗艦模型。",
-      "audience": "使用 AI 工具的上班族、想省 AI 訂閱費的創作者",
-      "pain_point": "每個月 AI 訂閱費用太高，不知道哪些便宜方案可以取代昂貴旗艦模型",
-      "title_idea": "別再花大錢訂 GPT-5 了！2026 最划算的 AI 工具組合省到你驚呼",
-      "local_angle": "台灣用戶對 AI 工具費用敏感，「省錢 AI 工具組合」是強選題；歐美討論熱烈，華語圈幾乎無對應實測內容"
+      "summary": "多位 Datadog 前員工創立 AI coding 新創 Niteshift，主打不綁定特定大型 AI 模型供應商的開發工具。",
+      "audience": "想嘗試 Vibe Coding、關注 AI 創業案例的職場上班族",
+      "pain_point": "看到 Lovable、Cursor 等工具都綁定特定 AI 供應商，擔心未來漲價或政策改變被「卡脖子」",
+      "title_idea": "連 Datadog 老將都看不下去：新創 Niteshift 想做「不被任何 AI 大廠綁架」的開發工具",
+      "local_angle": "延續前一天 Lovable $500M ARR 的 Vibe Coding 熱潮，補上「供應商鎖定」這個更深一層的觀察角度，適合做成系列觀察文"
     },
     {
-      "title": "Vibe Coding 走向主流：非技術背景創業者正用 AI 取代整個開發團隊",
+      "title": "華納音樂收購 AI 音樂歸因新創 Sureel AI，劍指 AI 創作版權戰場",
       "sources": [
-        {"name": "TechCrunch（Lovable）", "url": "https://techcrunch.com/2026/06/09/lovable-says-it-has-hit-500m-in-annualized-revenue-with-1-million-new-projects-a-week/"},
-        {"name": "Fortune", "url": "https://fortune.com/2026/05/18/solo-founders-ai-automation-entire-teams-entrepreneurs/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/10/warner-music-acquires-ai-attribution-startup-sureel-ai/"}
       ],
-      "summary": "從 Lovable $500M ARR 到 Claude Fable 5 一人做遊戲，2026 年「一人公司 + AI」模式正從話題變成真實商業案例，非技術用戶成為最大建構者族群。",
-      "audience": "想創業或做副業的職場上班族",
-      "pain_point": "看到別人用 AI 一人賺大錢，但不知道自己應該做什麼方向、怎麼起步",
-      "title_idea": "2026 的一人公司不需要工程師了：AI 讓你一個人做出完整產品的 3 個真實案例",
-      "local_angle": "「一人公司」概念在台灣開始流行但缺乏 AI 落地案例；結合 Lovable 和 Claude Fable 5 做中文版實作教學系列"
-    },
-    {
-      "title": "MANGOS 取代 FAANG：AI 公司重塑科技版圖，職場人需要認識新霸主",
-      "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/09/its-not-faang-anymore-its-mangos/"}
-      ],
-      "summary": "科技業「FAANG」縮寫已過時，新的 MANGOS 縮寫反映 AI 時代的真實權力格局，OpenAI、Nvidia 取代 Netflix、Amazon 成為新指標公司。",
-      "audience": "科技業求職者、想了解 AI 產業格局的職場人",
-      "pain_point": "科技股與 AI 格局變化快，不知道現在哪些公司真正掌握 AI 話語權，求職目標是否還對",
-      "title_idea": "FAANG 已死？2026 科技業新霸主 MANGOS 是什麼，對你的求職和職涯有什麼影響",
-      "local_angle": "台灣年輕人最熟悉 FAANG，但這個縮寫已過時；做「AI 時代的求職指南」切角，解讀新科技版圖，吸引廣泛求職族群"
+      "summary": "華納音樂收購 AI 音樂歸因新創 Sureel AI，用 AI 技術追蹤、識別音樂版權的使用與來源。",
+      "audience": "經營 YouTube/Podcast 等自媒體的職場上班族、音樂創作者",
+      "pain_point": "用 AI 工具產出的音樂或內容，常擔心版權歸屬不清楚，不知道平台或唱片公司未來會怎麼管控",
+      "title_idea": "用 AI 做音樂以後會被抓到嗎？華納收購 AI 版權偵測新創背後的訊號",
+      "local_angle": "AI 版權議題在台灣創作者圈討論度逐漸升高，但多停留在法律層面；用「唱片公司大動作收購」這個具體事件切入，較容易引起共鳴"
     }
   ]
 }
