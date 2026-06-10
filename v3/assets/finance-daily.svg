@@ -1,0 +1,89 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- background -->
+  <rect width="400" height="400" fill="#F2E7C9"/>
+  <!-- ground -->
+  <rect x="0" y="332" width="400" height="68" fill="#EADFC4"/>
+
+  <!-- sun -->
+  <circle cx="78" cy="60" r="28" fill="#F4C84A"/>
+  <g stroke="#F4C84A" stroke-width="4" stroke-linecap="round">
+    <line x1="78" y1="14" x2="78" y2="2"/>
+    <line x1="120" y1="60" x2="134" y2="60"/>
+    <line x1="108" y1="30" x2="118" y2="20"/>
+  </g>
+
+  <!-- skyline -->
+  <rect x="18" y="104" width="46" height="136" fill="#ECE0C4"/>
+  <rect x="68" y="76" width="40" height="164" fill="#E8DAB8"/>
+  <rect x="300" y="112" width="50" height="128" fill="#ECE0C4"/>
+  <rect x="352" y="142" width="34" height="98" fill="#E8DAB8"/>
+  <g fill="#D8C9A3">
+    <rect x="28" y="118" width="10" height="10"/>
+    <rect x="46" y="118" width="10" height="10"/>
+    <rect x="28" y="138" width="10" height="10"/>
+    <rect x="46" y="138" width="10" height="10"/>
+    <rect x="78" y="94" width="10" height="10"/>
+    <rect x="96" y="94" width="10" height="10"/>
+    <rect x="78" y="114" width="10" height="10"/>
+    <rect x="96" y="114" width="10" height="10"/>
+    <rect x="310" y="126" width="10" height="10"/>
+    <rect x="328" y="126" width="10" height="10"/>
+    <rect x="310" y="146" width="10" height="10"/>
+    <rect x="328" y="146" width="10" height="10"/>
+  </g>
+
+  <!-- kiosk side face -->
+  <polygon points="300,190 332,172 332,312 300,330" fill="#3C6F68"/>
+  <!-- kiosk front face -->
+  <rect x="140" y="190" width="160" height="140" rx="6" fill="#4F8A82"/>
+  <!-- kiosk top face -->
+  <polygon points="140,190 300,190 332,172 172,172" fill="#7FBDB4"/>
+  <!-- roof front -->
+  <polygon points="150,172 322,172 300,142 172,142" fill="#D9622E"/>
+  <!-- roof side -->
+  <polygon points="322,172 352,154 330,124 300,142" fill="#B14F22"/>
+
+  <!-- sign -->
+  <text x="236" y="163" font-family="'JetBrains Mono',monospace" font-size="19" font-weight="700" fill="#FBF9F3" text-anchor="middle" letter-spacing="2">MARKET</text>
+
+  <!-- screen -->
+  <rect x="160" y="206" width="120" height="68" rx="6" fill="#1C1B19"/>
+  <!-- candlestick chart -->
+  <g>
+    <rect x="170" y="236" width="9" height="28" fill="#1F9D63"/>
+    <rect x="185" y="220" width="9" height="44" fill="#E0453B"/>
+    <rect x="200" y="244" width="9" height="20" fill="#1F9D63"/>
+    <rect x="215" y="210" width="9" height="54" fill="#E0453B"/>
+    <rect x="230" y="230" width="9" height="34" fill="#1F9D63"/>
+    <rect x="245" y="200" width="9" height="64" fill="#E0453B"/>
+    <rect x="260" y="226" width="9" height="38" fill="#1F9D63"/>
+  </g>
+
+  <!-- ticker tape -->
+  <rect x="160" y="288" width="120" height="22" rx="11" fill="#F8F5EE"/>
+  <g fill="#A8A39A">
+    <circle cx="176" cy="299" r="3"/>
+    <circle cx="196" cy="299" r="3"/>
+    <circle cx="216" cy="299" r="3"/>
+    <circle cx="236" cy="299" r="3"/>
+    <circle cx="256" cy="299" r="3"/>
+    <circle cx="270" cy="299" r="3"/>
+  </g>
+
+  <!-- bull -->
+  <g>
+    <ellipse cx="85" cy="298" rx="40" ry="30" fill="#2B2A28"/>
+    <rect x="58" y="318" width="10" height="22" rx="2" fill="#2B2A28"/>
+    <rect x="78" y="320" width="10" height="22" rx="2" fill="#2B2A28"/>
+    <rect x="98" y="320" width="10" height="22" rx="2" fill="#2B2A28"/>
+    <rect x="115" y="318" width="10" height="22" rx="2" fill="#2B2A28"/>
+    <circle cx="48" cy="270" r="22" fill="#2B2A28"/>
+    <path d="M30 258 Q18 246 24 234" stroke="#F4C84A" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M50 254 Q56 240 70 238" stroke="#F4C84A" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <circle cx="40" cy="268" r="4" fill="#E0453B"/>
+    <ellipse cx="32" cy="282" rx="10" ry="7" fill="#1C1B19"/>
+  </g>
+
+  <!-- floating up arrow -->
+  <path d="M348 248 l14 -22 l14 22 z" fill="#E0453B"/>
+</svg>

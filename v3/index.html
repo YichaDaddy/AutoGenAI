@@ -121,12 +121,7 @@ a{color:inherit;text-decoration:none}
 .row .h{font-size:14px;font-weight:500;line-height:1.5}
 .meta{font-size:12px;color:var(--ink-soft);font-weight:500;margin-top:5px;display:flex;gap:8px;align-items:center}
 .meta .d{width:3px;height:3px;border-radius:50%;background:var(--ink-faint)}
-.idxbox{display:flex;align-items:flex-end;gap:14px;margin-bottom:6px}
-.idxbox .v{font-size:38px;font-weight:600;letter-spacing:-.02em;line-height:.9}
-.idxbox .c{font-size:15px;font-weight:600;padding-bottom:4px}
 .up{color:var(--up)} .down{color:var(--down)}
-.idxname{font-size:12.5px;color:var(--ink-soft);font-weight:500;margin-bottom:16px}
-.shock{font-size:11px;font-weight:600;color:var(--ink-soft);text-transform:uppercase;letter-spacing:.06em;margin:6px 0 10px}
 .tabs{display:flex;gap:6px;margin-bottom:14px}
 .tab{font-size:12.5px;font-weight:600;padding:7px 14px;border-radius:20px;cursor:pointer;color:var(--ink-soft);border:1px solid var(--line)}
 .tab.on{background:var(--ink);color:#fff;border-color:var(--ink)}
@@ -306,11 +301,12 @@ a{color:inherit;text-decoration:none}
 
 /* ─── DIGEST 提要式卡 ─── */
 .digest{display:flex;flex-direction:column}
-#ai .digest{flex:1;display:flex;flex-direction:column}
-#ai .dg-rest{flex:1;display:flex;flex-direction:column;justify-content:space-between}
-#finance .dg-rest{flex:1;display:flex;flex-direction:column;justify-content:space-between}
+#ai .digest,#finance .digest{flex:1;display:flex;flex-direction:column}
+#ai .dg-rest,#finance .dg-rest{flex:1;display:flex;flex-direction:column;justify-content:space-between}
 .dg-lead{padding:2px 4px 17px;border-bottom:1px solid var(--line);margin-bottom:7px;display:flex;gap:15px;align-items:flex-start}
-.dg-thumb{width:88px;height:88px;flex-shrink:0;border-radius:14px;background-image:url("assets/ai-daily.png");background-size:cover;background-position:center;background-color:var(--bg-c)}
+.dg-thumb{width:88px;height:88px;flex-shrink:0;border-radius:14px;background-size:cover;background-position:center;background-color:var(--bg-c)}
+#ai .dg-thumb{background-image:url("assets/ai-daily.png")}
+#finance .dg-thumb{background-image:url("assets/finance-daily.svg")}
 .dg-leadtext{flex:1;min-width:0}
 .dg-kicker{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-ink);display:block;margin-bottom:10px}
 .dg-head{font-size:18px;font-weight:600;line-height:1.5;letter-spacing:-.01em;text-wrap:pretty}
@@ -591,11 +587,9 @@ a{color:inherit;text-decoration:none}
       <div class="ck">
         <div><div class="ck-title">財經日報</div>
           <div class="ck-sub">市場動態 · 台灣投資人視角</div></div>
+        <span class="chip gold" id="fin-count-chip">今日 — 則</span>
       </div>
-      <div class="idxbox"><div class="v mono" id="fin-taiex">—</div><div class="c up" id="fin-taiex-chg"></div></div>
-      <div class="idxname mono" id="fin-taiex-sub">加權指數 TAIEX</div>
-      <div class="shock" id="fin-shock-label">今日震撼彈</div>
-      <div class="dg-rest" id="bento-fin-list">
+      <div class="digest" id="bento-fin-list">
         <div class="bni-loading">載入中…</div>
       </div>
     </section>
@@ -1039,17 +1033,29 @@ function initBentoNews(ch){
       var secs=NEWS_SECTIONS[ch]||[];
 
       if(ch==='finance'){
-        var shocks=(day.market_shocks||[]).slice(0,3);
-        var shockLabel=document.getElementById('fin-shock-label');
-        if(shockLabel) shockLabel.textContent='今日 '+shocks.length+' 震撼彈';
+        var shocks=(day.market_shocks||[]).slice(0,4);
         if(!shocks.length){el.innerHTML='<div class="bni-loading">暫無資料</div>';return;}
-        el.innerHTML=shocks.map(function(item){
-          var ud=(item.tw_stock_impact||item.title||'').match(/上漲|上升|買超|利多|升息|受惠/)?'up':'down';
-          return '<div class="dg-row">'+
-            '<span class="fmark '+ud+'">'+(ud==='up'?'▲':'▼')+'</span>'+
-            '<span class="dg-t dark">'+esc(item.title||'')+'</span>'+
-            '</div>';
-        }).join('');
+        var finChip=document.getElementById('fin-count-chip');
+        if(finChip) finChip.textContent='今日 '+shocks.length+' 則';
+        var finLead=shocks[0];
+        var finRest=shocks.slice(1);
+        el.innerHTML=
+          '<div class="dg-lead">'+
+            '<div class="dg-thumb" role="img" aria-label="Market Daily"></div>'+
+            '<div class="dg-leadtext">'+
+              '<span class="dg-kicker">今日精選</span>'+
+              '<div class="dg-head">'+esc(finLead.title||'')+'</div>'+
+            '</div>'+
+          '</div>'+
+          '<div class="dg-rest">'+
+            finRest.map(function(item){
+              var ud=(item.tw_stock_impact||item.title||'').match(/上漲|上升|買超|利多|升息|受惠/)?'up':'down';
+              return '<div class="dg-row">'+
+                '<span class="fmark '+ud+'">'+(ud==='up'?'▲':'▼')+'</span>'+
+                '<span class="dg-t dark">'+esc(item.title||'')+'</span>'+
+                '</div>';
+            }).join('')+
+          '</div>';
       } else {
         var items=[];
         for(var i=0;i<secs.length&&items.length<5;i++) items=items.concat(day[secs[i].key]||[]);
