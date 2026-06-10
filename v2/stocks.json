@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-10T19:31:05Z",
+  "updated": "2026-06-10T21:45:05Z",
   "data": {
     "2330.TW": {
       "price": 2255.0,
@@ -56,36 +56,36 @@
       "name": "輝達"
     },
     "AAPL": {
-      "price": 291.74,
-      "change": -18.52,
-      "pct": -5.97,
+      "price": 291.58,
+      "change": -18.68,
+      "pct": -6.02,
       "prev": 310.26,
       "currency": "USD",
       "state": "CLOSED",
       "name": "蘋果"
     },
     "MSFT": {
-      "price": 398.23,
-      "change": -29.11,
-      "pct": -6.81,
+      "price": 397.36,
+      "change": -29.98,
+      "pct": -7.02,
       "prev": 427.34,
       "currency": "USD",
       "state": "CLOSED",
       "name": "微軟"
     },
     "VOO": {
-      "price": 667.55,
-      "change": -25.81,
-      "pct": -3.72,
+      "price": 667.05,
+      "change": -26.31,
+      "pct": -3.79,
       "prev": 693.36,
       "currency": "USD",
       "state": "CLOSED",
       "name": "Vanguard S&P500"
     },
     "QQQ": {
-      "price": 694.58,
-      "change": -49.63,
-      "pct": -6.67,
+      "price": 693.69,
+      "change": -50.52,
+      "pct": -6.79,
       "prev": 744.21,
       "currency": "USD",
       "state": "CLOSED",
