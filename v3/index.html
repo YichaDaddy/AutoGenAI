@@ -964,10 +964,13 @@ function renderBcard(item, idx, ch){
     var v=item[i.key]; if(!v) return '';
     return '<div class="blk '+i.cls+'" style="margin-top:12px"><div class="blk-l">'+i.label+'</div><div class="blk-t">'+esc(v)+'</div></div>';
   }).join('');
-  var src = ((item.sources||[]).slice(0,1).map(function(s){return esc(s.name||s);}).join(''))||'';
+  var srcItem = (item.sources||[])[0];
+  var src = srcItem ? esc(srcItem.name||srcItem) : '';
+  var srcUrl = srcItem && srcItem.url ? esc(srcItem.url) : '';
+  var srcTag = src ? (srcUrl ? '<a class="src" href="'+srcUrl+'" target="_blank" rel="noopener">'+src+'</a>' : '<span class="src">'+src+'</span>') : '';
   return '<article class="bcard">'+
     '<div class="bc-top"><span class="bc-no">'+String(idx+1).padStart(2,'0')+'</span>'+
-    (src?'<span class="mid">·</span><span class="src">'+src+'</span>':'')+
+    (srcTag?'<span class="mid">·</span>'+srcTag:'')+
     '</div>'+
     '<h3 class="bc-title">'+esc(item.title||'')+'</h3>'+
     (item.summary?'<p class="bc-desc">'+esc(item.summary)+'</p>':'')+
