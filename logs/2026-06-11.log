@@ -1,1 +1,71 @@
 === Thu Jun 11 06:00:03 CST 2026 | Starting daily AI report ===
+## 📊 昨日（2026-06-10）歐美 AI 情報日報
+
+### 板塊一：大事件
+
+**1. Anthropic Claude Fable 5 後續效應：資安研究員質疑模型護欄設計**
+- 來源：[TechCrunch](https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/)
+- 摘要：資安界批評 Fable 5 的安全護欄設計不當，恐影響其在資安研究上的實用性
+- 標題雛形：「Anthropic 最強模型 Fable 5 才上線一天就被資安圈出征？3 分鐘看懂這場護欄爭議」
+- 本地化切角：延續前一天 Fable 5 大事件的「正反兩面」追蹤，華語圈零報導
+
+**2.「AI 中毒」企業每位員工每月砸 $7,500 在 AI 工具上**
+- 來源：[TechCrunch](https://techcrunch.com/2026/06/10/ai-pilled-firms-spend-7500-per-employee-each-month-on-ai/)
+- 摘要：積極導入 AI 的企業，平均每員工每月 AI 支出高達 $7,500 美元
+- 標題雛形：「別人家公司每人每月花 7500 美金在 AI 上，你的公司給了多少？」
+- 本地化切角：可作為「向老闆爭取 AI 工具預算」的論述素材
+
+**3. Amazon 再向銀行借 175 億美元，AI 基礎建設燒錢戰持續升溫**
+- 來源：[TechCrunch](https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues/)
+- 摘要：Amazon 繼發債後再向銀行團借款 175 億美元擴大 AI 投資
+- 標題雛形：「Amazon 一個月內又借 175 億美元蓋 AI！科技巨頭瘋狂燒錢的背後邏輯」
+
+### 板塊二：工具更新
+
+**4. ChatGPT 大改版：全新模型選擇器上線，6 種模式怎麼選？**
+- 來源：[Value The Markets](https://www.valuethemarkets.com/cryptocurrency/news/openai-introduces-enhanced-model-picker-for-chatgpt) · [OpenAI Help Center](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)
+- 摘要：付費版 ChatGPT 新增 Instant～Pro Extended 共 6 種模式選擇
+- 標題雛形：「ChatGPT 突然多了 6 個模式選項？一張圖搞懂該怎麼選」
+
+**5. Google 發布 DiffusionGemma：擴散式語言模型，文字生成速度快 4 倍**
+- 來源：[Google Blog](https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/)
+- 摘要：實驗性擴散模型可同時生成多個 token，單張 H100 達每秒千 token
+- 標題雛形：「AI 打字會『秒回』了？Google 新模型讓生成速度暴增 4 倍」
+
+**6. 研究警告：AI「記憶」功能用不好，反而讓模型表現變差**
+- 來源：[TechCrunch](https://techcrunch.com/2026/06/10/how-memory-tools-can-make-ai-models-worse/)
+- 摘要：ChatGPT、Claude 的長期記憶功能若累積過多舊資訊，會讓回答品質下降
+- 標題雛形：「你的 ChatGPT 是不是越用越笨？AI 記憶功能的隱藏副作用」
+
+### 板塊三：值得追蹤的趨勢
+
+**7. 前 Datadog 團隊創立 AI coding 新創 Niteshift，賭「不被大廠鎖定」**
+- 來源：[TechCrunch](https://techcrunch.com/2026/06/10/datadog-veterans-launch-ai-coding-startup-niteshift-on-a-bet-against-big-ai-lock-in/)
+- 摘要：主打不綁定特定 AI 模型供應商的 AI coding 工具
+- 標題雛形：「連 Datadog 老將都看不下去：新創 Niteshift 想做不被大廠綁架的開發工具」
+
+**8. 華納音樂收購 AI 音樂歸因新創 Sureel AI，劍指 AI 創作版權戰場**
+- 來源：[TechCrunch](https://techcrunch.com/2026/06/10/warner-music-acquires-ai-attribution-startup-sureel-ai/)
+- 摘要：華納收購 AI 版權偵測新創，追蹤識別音樂版權使用與來源
+- 標題雛形：「用 AI 做音樂以後會被抓到嗎？華納收購 AI 版權偵測新創背後的訊號」
+
+---
+
+### 📋 來源覆蓋狀況
+
+| 來源 | 狀態 | 昨日內容數量 | 備註 |
+|------|------|------------|------|
+| TechCrunch AI | ✅ | 9 篇（URL含 /2026/06/10/），選用 6 篇 | SpaceX IPO、Decart 駕駛模擬、Jedify 因相關性較低未選用 |
+| FutureTools News | ✅ | 1 則 | Google DiffusionGemma |
+| The Verge AI | ❌ | 0 | WebFetch 無法存取該網域 |
+| WebSearch 綜合（OpenAI/Anthropic/Google） | ✅ | 補充 2 則 | ChatGPT 模型選擇器、Anthropic Newsroom 6/10 動態（其中「AI Exponential 政策」因屬政策議題已排除） |
+| Matt Wolfe / The AI Advantage / Matthew Berman / Wes Roth / MattVidPro / Skill Leap AI | ⏸ 未執行 | - | 本次自動化流程依指示聚焦 TechCrunch + FutureTools + 綜合新聞搜尋，未執行 YouTube 頻道逐一檢索 |
+| @OpenAI / @AnthropicAI / @GoogleDeepMind / @sama / @karpathy / @rowancheung / @levelsio 等 X 帳號 | ⏸ 未執行 | - | 同上，本次未執行逐帳號 X/Twitter 搜尋 |
+
+---
+
+`latest_topics.json` 已更新（date: 2026-06-10），看板已重新渲染（Archive 新增 2026-06-10、共 7 個日期）。💡 您的專屬網頁版看板已同步更新，可隨時打開 `daily_topic_dashboard.html` 查看。
+
+DONE
+--- AI report finished at Thu Jun 11 06:04:58 CST 2026 ---
+=== Thu Jun 11 06:04:58 CST 2026 | Starting daily finance report ===
