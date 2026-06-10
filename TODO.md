@@ -1,6 +1,6 @@
 # 待修改清單
 
-## TOEIC：換日判斷的競態問題（race condition）
+## ~~TOEIC：換日判斷的競態問題（race condition）~~（已修復 2026-06-11）
 
 **現象**：早上開 dashboard 時看到的多益題目沒更新，重新整理後才出現新題目。
 

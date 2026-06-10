@@ -1623,7 +1623,7 @@ fetch('stocks.json?'+Date.now())
   function applyDayChange(newQ){
     const today=todayStr();
     if(!st.currentSet){
-      st.currentSet={date:today,p5:(newQ.p5||[]).slice(0,TOTAL_P5),p6:newQ.p6||null};
+      st.currentSet={date:newQ.date||today,p5:(newQ.p5||[]).slice(0,TOTAL_P5),p6:newQ.p6||null};
       save();return;
     }
     if(st.currentSet.date===today){
@@ -1631,6 +1631,10 @@ fetch('stocks.json?'+Date.now())
       if(newQ.p6&&st.currentSet.p6&&newQ.p6.id===st.currentSet.p6.id&&newQ.p6.zh_passage&&!st.currentSet.p6.zh_passage){
         st.currentSet.p6.zh_passage=newQ.p6.zh_passage;save();
       }
+      return;
+    }
+    if(newQ.date!==today){
+      // 後端題庫還沒產出今天的內容，維持現有題組，避免提早換日
       return;
     }
     const prevP5=st.currentSet.p5||[];
