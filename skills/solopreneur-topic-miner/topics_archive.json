@@ -1,5 +1,130 @@
 [
   {
+    "date": "2026-06-11",
+    "big_events": [
+      {
+        "title": "Anthropic 砸 1.5 億美元成立 Claude Corps，訓練千人 AI 人才進駐非營利組織",
+        "sources": [
+          {
+            "name": "Anthropic",
+            "url": "https://www.anthropic.com/news/claude-corps"
+          },
+          {
+            "name": "Washington Post",
+            "url": "https://www.washingtonpost.com/business/2026/06/11/anthropic-ai-claude-corps-daniela-amodei/d11fd0a0-6595-11f1-bdd4-805ebb99a693_story.html"
+          }
+        ],
+        "summary": "Anthropic 投入 1.5 億美元，培訓千名青年 AI 人才進駐非營利組織協助導入 Claude。",
+        "audience": "關注 AI 職涯發展、非營利組織數位轉型的職場上班族",
+        "pain_point": "想轉職進入 AI 領域卻不知道從何切入，又覺得「AI 人才」門檻很高、自己沒有技術背景",
+        "title_idea": "不用會寫程式也能進 AI 圈？Anthropic 砸 1.5 億美元找 1000 人做的這件事",
+        "local_angle": "這類「AI 應用人才」培訓計畫在華語圈幾乎沒人介紹，可做成「非技術背景如何切入 AI 產業」的職涯選題，搭配 Claude 實際應用教學"
+      },
+      {
+        "title": "OpenAI 牽手 Oracle Cloud：企業可直接用既有雲端額度購買 GPT 與 Codex",
+        "sources": [
+          {
+            "name": "OpenAI",
+            "url": "https://openai.com/index/openai-on-oracle-cloud/"
+          }
+        ],
+        "summary": "OpenAI 與 Oracle 合作，企業客戶可用 Oracle 雲端額度直接採購 OpenAI 模型與 Codex。",
+        "audience": "企業 IT 採購、雲端服務相關職場上班族、對 AI 產業布局有興趣的人",
+        "pain_point": "想在公司導入 ChatGPT/Codex，但卡在採購流程和預算歸屬，不知道有沒有更簡單的途徑",
+        "title_idea": "你公司的 Oracle 雲端額度，現在可以拿來買 ChatGPT 了！企業導入 AI 的新捷徑",
+        "local_angle": "台灣不少企業用 Oracle 雲端服務，這個合作直接降低導入 OpenAI 工具的門檻，可做成「企業 IT 主管必看」的資訊整理"
+      },
+      {
+        "title": "最新流量數據曝光：ChatGPT 市占暴跌至 52.7%，Claude 一個月內市占成長最快",
+        "sources": [
+          {
+            "name": "PPC Land（Similarweb 數據）",
+            "url": "https://ppc.land/chatgpt-drops-to-52-7-as-claude-triples-its-ai-traffic-share/"
+          }
+        ],
+        "summary": "Similarweb 數據顯示 ChatGPT 流量占比一年內從 76.4% 跌至 52.7%，Claude 從 1.6% 暴增至 8.9%。",
+        "audience": "正在比較 ChatGPT、Claude、Gemini 該選哪個的職場上班族",
+        "pain_point": "訂閱了 ChatGPT 但常聽說 Claude、Gemini 更強，不知道現在主流到底用哪個、要不要跟著換",
+        "title_idea": "ChatGPT 正在被超車？最新數據顯示 Claude 一個月內市占翻倍，上班族該換工具了嗎",
+        "local_angle": "華語圈討論還停留在「ChatGPT 最強」的舊印象，用最新流量數據做「2026 年中 AI 工具選擇指南」，搶占資訊差"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "新 App「Pool」把你的截圖變成可搜尋的 AI 記憶庫",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/06/11/pools-new-app-turns-your-screenshots-into-a-searchable-memory-bank/"
+          }
+        ],
+        "summary": "新應用程式 Pool 用 AI 自動整理、標記手機截圖，可用語意搜尋找回任何截圖內容。",
+        "audience": "手機相簿裡塞滿截圖、常常找不到重要資訊的職場上班族",
+        "pain_point": "截圖存了上千張，會議重點、訂單明細、靈感筆記全部混在一起，要用的時候根本找不到",
+        "title_idea": "手機截圖救星來了！這個新 AI App 讓你「用講的」就能找到任何一張截圖",
+        "local_angle": "手機截圖整理是極高共鳴的日常痛點，且工具剛上線、中文教學是空白市場，適合做成實測開箱影片"
+      },
+      {
+        "title": "DoorDash 推出 AI 點餐助理「Ask DoorDash」，打字、傳照片就能下單",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/06/11/doordashs-new-ai-chatbot-lets-you-order-with-prompts-and-photos/"
+          }
+        ],
+        "summary": "DoorDash 新推出的 AI 聊天機器人，讓用戶用自然語言或上傳照片描述需求即可完成點餐。",
+        "audience": "對 AI 如何改變消費體驗有興趣的職場上班族、電商/外送產業相關工作者",
+        "pain_point": "好奇 AI 聊天機器人到底能不能取代傳統的「點選式」介面，未來台灣外送 App 會不會也跟進",
+        "title_idea": "點外賣不用再滑選單了！DoorDash 上線 AI 點餐機器人，傳張照片就幫你下單",
+        "local_angle": "台灣外送平台尚未推出類似功能，可做成「海外已驗證、台灣還沒有」的趨勢觀察，預測本地平台跟進時間"
+      },
+      {
+        "title": "免買 Copilot+ PC！微軟讓一般 RTX 30 系顯卡也能跑 Windows 11 本機 AI 功能",
+        "sources": [
+          {
+            "name": "Windows Latest",
+            "url": "https://www.windowslatest.com/2026/06/11/microsoft-is-killing-the-copilot-pc-advantage-brings-windows-11s-local-ai-to-rtx-30-pcs-with-6gb-vram/"
+          }
+        ],
+        "summary": "微軟開放搭載 RTX 30 系以上、6GB VRAM 顯卡的一般 PC，也能使用 Windows 11 本機語言模型 API。",
+        "audience": "用一般文書/遊戲筆電工作、捨不得買新 Copilot+ PC 的職場上班族",
+        "pain_point": "聽說 Windows 11 有很多本機 AI 新功能，但以為一定要買貴鬆鬆的新款 Copilot+ PC 才能用",
+        "title_idea": "你的舊顯卡也能跑 AI！微軟悄悄解鎖 Windows 11 本機 AI 功能，免換新電腦",
+        "local_angle": "多數上班族電腦都是 RTX 30 系，這則消息直接影響「要不要換電腦」的購買決策，適合做成「免費解鎖隱藏功能」教學"
+      }
+    ],
+    "trends": [
+      {
+        "title": "Anthropic 攜手印度 IT 巨頭 TCS，成立專責部門推廣 Claude 企業導入",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/06/11/anthropic-taps-tcs-to-scale-its-enterprise-ai-deployments/"
+          }
+        ],
+        "summary": "Anthropic 與 Tata Consultancy Services 合作，由 TCS 成立專責單位協助金融、醫療、電信等產業導入 Claude。",
+        "audience": "在外商/大型企業任職、未來可能接觸到企業導入 AI 專案的職場上班族",
+        "pain_point": "公司說要導入 AI，但都是顧問公司在主導，員工不知道接下來自己的工作流程會被怎麼改變",
+        "title_idea": "你的公司可能快要被 TCS「AI 化」了：Anthropic 找來顧問巨頭大舉導入 Claude 的真正意義",
+        "local_angle": "這類「AI 巨頭 + 顧問公司」的企業導入模式，未來可能複製到台灣的外商分公司，適合做成「企業 AI 導入會怎麼影響你」的職場觀察選題"
+      },
+      {
+        "title": "音樂串流平台 Deezer 推出 AI 檢測工具，能揪出 Spotify、Apple Music 上的 AI 生成歌曲",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/06/11/deezers-new-tool-can-identify-ai-music-from-spotify-apple-music-and-others/"
+          }
+        ],
+        "summary": "Deezer 推出新工具，可掃描並標示 Spotify、Apple Music 等平台上由 AI 生成的音樂內容。",
+        "audience": "用 Suno、Udio 等 AI 工具做音樂、配樂的自媒體創作者",
+        "pain_point": "用 AI 生成的音樂當作影片配樂或上架，擔心未來會被平台標記、下架或影響流量分潤",
+        "title_idea": "你的 AI 配樂可能正在被「抓包」：串流平台開始大規模偵測 AI 生成音樂",
+        "local_angle": "華語創作者大量使用 AI 配樂卻很少注意版權與平台規範變化，可做成「AI 音樂創作者必知的平台新規則」提醒型內容，搶占警示資訊差"
+      }
+    ]
+  },
+  {
     "date": "2026-06-10",
     "big_events": [
       {
@@ -876,165 +1001,6 @@
         "pain_point": "公司資料外洩風險讓員工不敢把敏感資訊輸入 ChatGPT，但沒有替代方案",
         "title_idea": "公司機密不外洩！2026 本地 AI 完整安裝教學，Gemma 4 QAT 讓你在自己電腦上跑高品質 AI",
         "local_angle": "台灣金融、醫療、政府等高隱私需求產業眾多，本地 AI 教學可精準打入企業採購決策者與合規敏感職場，此賽道競爭者極少"
-      }
-    ]
-  },
-  {
-    "date": "2026-06-04",
-    "big_events": [
-      {
-        "title": "OpenAI 推出 ChatGPT Dreaming V3 記憶系統，自動從對話歷史整合記憶並隨時間更新",
-        "sources": [
-          {
-            "name": "OpenAI 官方部落格",
-            "url": "https://openai.com/index/chatgpt-memory-dreaming/"
-          },
-          {
-            "name": "9to5Mac",
-            "url": "https://9to5mac.com/2026/06/04/openai-says-chatgpts-memory-feature-is-getting-smarter-and-coming-to-free-users/"
-          },
-          {
-            "name": "Engadget",
-            "url": "https://www.engadget.com/2187811/chatgpt-s-memory-is-getting-better-especially-if-you-re-on-the-free-tier/"
-          }
-        ],
-        "summary": "OpenAI 於 6/4 向 Plus/Pro 用戶推出 Dreaming V3 記憶架構，可自動從多段對話整合記憶、隨時間動態更新，並向免費用戶逐步開放。",
-        "audience": "職場上班族、AI 工具重度使用者",
-        "pain_point": "每次開新對話都要重新介紹自己，AI 無法記住工作偏好與個人習慣，效率大打折扣",
-        "title_idea": "ChatGPT 終於不會「失憶」了！Dreaming V3 記憶系統讓 AI 真正認識你，設定完全攻略",
-        "local_angle": "海外 Plus/Pro 用戶 6/4 首批體驗，台灣圈教學幾乎為零，搶做使用教學與設定指南可吃早期流量紅利"
-      },
-      {
-        "title": "NVIDIA 正式發布 Nemotron 3 Ultra 550B 開源模型，成為速度最快的美國開源前沿 AI",
-        "sources": [
-          {
-            "name": "NVIDIA Developer Blog",
-            "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-powers-faster-more-efficient-reasoning-for-long-running-agents/"
-          },
-          {
-            "name": "Artificial Analysis",
-            "url": "https://artificialanalysis.ai/articles/nvidia-nemotron-3-ultra-launch-announced"
-          },
-          {
-            "name": "NVIDIA Newsroom",
-            "url": "https://nvidianews.nvidia.com/news/nvidia-debuts-nemotron-3-family-of-open-models"
-          }
-        ],
-        "summary": "NVIDIA 於 6/4 在 HuggingFace、OpenRouter 與 NVIDIA NIM 上架 550B 參數開源模型，速度比同級模型快 5 倍、代理任務成本降 30%，採 Mamba-Transformer 混合架構。",
-        "audience": "獨立開發者、企業 IT 部門、AI 新創",
-        "pain_point": "開源模型效能不足，要用高性能 AI 代理只能依賴高額訂閱服務，成本難以控制",
-        "title_idea": "免費自架！NVIDIA 開源 550B 超強模型，速度比 GPT-4 快 5 倍、成本省 30%",
-        "local_angle": "Computex 2026 在台灣發布，本地媒體偏重硬體，AI 應用層面的繁體中文部署教學極少，資訊差明顯"
-      },
-      {
-        "title": "Apple 批准 Poke 為 Messages for Business 首個 AI 代理，企業即時通訊 AI 生態正式開放",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/"
-          }
-        ],
-        "summary": "Apple 正式核准 Poke 入駐 Messages for Business，成為 iPhone 原生訊息中首個可自動回覆的 AI 客服代理，標誌 Apple 企業 AI 生態里程碑。",
-        "audience": "電商業者、中小企業主、SaaS 創業者",
-        "pain_point": "想在 iPhone 原生訊息中提供 24 小時 AI 客服，但一直沒有合規且易上手的方案",
-        "title_idea": "Apple 正式開放 AI 代理！企業主必看：用 iPhone 訊息做 AI 客服的時代來了",
-        "local_angle": "台灣 iPhone 市占率極高，商業即時通訊需求大，此商機台灣圈幾乎尚無人分析，搶做第一批深度解析"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "Meta 在 Facebook 推出 Creator Assistant AI 創作者助手，個性化分析受眾與內容表現",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/04/meta-rolls-out-a-new-ai-creator-assistant-on-facebook/"
-          },
-          {
-            "name": "Facebook 官方公告",
-            "url": "https://about.fb.com/news/2026/06/creator-assistant-more-languages-for-ai-translations-on-facebook/"
-          },
-          {
-            "name": "Engadget",
-            "url": "https://www.engadget.com/2187615/meta-creator-assistant/"
-          }
-        ],
-        "summary": "Meta 在 Facebook 創作者後台推出 AI 助手，可對話式查詢「何時發文最佳」「留言說什麼」，並基於個人受眾數據幫助腦力激盪新選題，現向美/加/印度開放。",
-        "audience": "Facebook 內容創作者、自媒體人、行銷人員",
-        "pain_point": "數據後台看不懂，不知道為什麼某篇爆某篇沉，也不知道怎麼複製爆款邏輯",
-        "title_idea": "Facebook 出 AI 助手幫你分析「為什麼這篇爆了」！Meta Creator Assistant 完整實測教學",
-        "local_angle": "台灣 Facebook 用戶基礎大，此工具繁體中文教學幾乎沒有，是搶做第一批教學的絕佳視窗"
-      },
-      {
-        "title": "Meta Reels AI 語音翻譯擴展至阿拉伯語、印尼語等 5 種語言，保留創作者原聲音色",
-        "sources": [
-          {
-            "name": "Facebook 官方公告",
-            "url": "https://about.fb.com/news/2026/06/creator-assistant-more-languages-for-ai-translations-on-facebook/"
-          }
-        ],
-        "summary": "Meta 同步宣布 AI Reels 翻譯新增阿拉伯語、印尼語、法語、泰語、越南語，創作者可一鍵讓影片說出自己聲音的多國語版本。",
-        "audience": "想打入東南亞市場的台灣創作者、跨語言自媒體",
-        "pain_point": "製作多語言影片成本高、外包聲優貴、配音聽起來不像自己",
-        "title_idea": "一鍵複製你的聲音說印尼語！Meta Reels AI 翻譯擴展 5 語言，東南亞市場攻略完整解析",
-        "local_angle": "東南亞市場爆發，台灣創作者有語言優勢但缺工具；此功能可做「台灣人進攻東南亞」系列教學，競爭者極少"
-      },
-      {
-        "title": "OpenAI 更新 GPT-Rosalind 生命科學特化模型，融入代理式編程與藥物研究能力",
-        "sources": [
-          {
-            "name": "OpenAI 官方",
-            "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/"
-          }
-        ],
-        "summary": "GPT-Rosalind 新版融合代理式編程、藥物研發、基因組學專業知識，並推出 LifeSciBench 評測基準，專為生命科學研究機構設計。",
-        "audience": "醫藥研究員、生技新創、生物資訊工程師",
-        "pain_point": "通用 AI 在生命科學專業領域準確性不足，研究人員不敢完全依賴 AI 輔助研究",
-        "title_idea": "AI 加速新藥研發！OpenAI 推出生命科學專屬 GPT，做到這些事連博士都驚訝",
-        "local_angle": "台灣生技產業強，此利基受眾願意付費買專業內容，資訊差大且競爭者少，適合做深度解析"
-      }
-    ],
-    "trends": [
-      {
-        "title": "WWDC 2026 倒數：Siri 將大改版、Apple Intelligence 全面整合進日常工作流",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/04/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/"
-          }
-        ],
-        "summary": "TechCrunch 深度預測 WWDC 2026 將帶來 Siri 大幅升級與 Apple Intelligence 全系統整合，被視為 Apple AI 策略的最關鍵一戰。",
-        "audience": "Apple 生態圈用戶、AI 效率工具使用者、職場人士",
-        "pain_point": "期待 Apple AI 功能很久，現在 Siri 仍無法處理複雜工作任務，讓人失望",
-        "title_idea": "WWDC 2026 倒數！Siri 這次終於要變成真正的 AI 助手了？5 大預測完整解析",
-        "local_angle": "台灣 iPhone 用戶比例全球前段，WWDC 話題流量高，做預測分析或倒數直播解說可衝大量觀看"
-      },
-      {
-        "title": "Meta 學 Tesla 以帳篷蓋 AI 資料中心，科技巨頭 AI 基礎建設競賽進入非常規模式",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/04/meta-steals-a-tactic-from-tesla-and-builds-data-centers-in-tents/"
-          }
-        ],
-        "summary": "Meta 採用臨時帳篷結構快速搭建資料中心，大幅縮短 AI 算力部署時程，顯示科技巨頭為搶 AI 算力已不惜採用非常規建設方式。",
-        "audience": "科技創業者、AI 產業觀察者、媒體創作者",
-        "pain_point": "AI 算力部署速度跟不上模型與應用需求的爆發成長，巨頭都在焦慮",
-        "title_idea": "Meta 用帳篷蓋資料中心！AI 軍備競賽瘋狂到什麼程度？一篇看懂背後邏輯",
-        "local_angle": "有趣科技奇聞角度，台灣科技媒體偏重硬規格數字，這種人性化故事視角幾乎沒人做，適合 Podcast 或短影音"
-      },
-      {
-        "title": "Hello Robot 搶攻矽谷家用機器人市場，AI 代理技術推動家庭自動化加速商業化",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/04/is-silicon-valley-ready-to-put-robots-in-peoples-homes-hello-robot-is/"
-          }
-        ],
-        "summary": "Hello Robot 正式嘗試商業化家用自主機器人，矽谷開始嚴肅討論 AI 代理技術是否已足以支撐家庭場景的全面部署。",
-        "audience": "科技前瞻者、AI 應用關注者、親子族群",
-        "pain_point": "機器人價格昂貴且功能侷限，距離真正進入一般家庭仍遙遠，不知何時能實現",
-        "title_idea": "AI 機器人要進你家了！矽谷最新家用機器人公司發表，2027 年普通人買得起嗎？",
-        "local_angle": "日本機器人文化深入台灣視野，做中日美三地家用機器人市場比較有獨特切角，競爭者極少"
       }
     ]
   }
