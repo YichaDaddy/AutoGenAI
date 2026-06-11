@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-11T20:00:52Z",
+  "updated": "2026-06-11T22:14:51Z",
   "data": {
     "2330.TW": {
       "price": 2250.0,
@@ -74,9 +74,9 @@
       "name": "微軟"
     },
     "VOO": {
-      "price": 678.76,
-      "change": -17.3,
-      "pct": -2.49,
+      "price": 678.23,
+      "change": -17.83,
+      "pct": -2.56,
       "prev": 696.06,
       "currency": "USD",
       "state": "CLOSED",
