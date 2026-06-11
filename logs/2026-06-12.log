@@ -1,1 +1,25 @@
 === Fri Jun 12 01:00:00 CST 2026 | Starting daily AI report ===
+已完成今日（2026-06-11）日報更新，8 則情報全數核對 URL/發布時間為昨日。
+
+**板塊分布**：大事件 3 則（Anthropic Claude Corps $1.5億計畫、OpenAI×Oracle Cloud 合作、ChatGPT 市占暴跌 vs Claude 暴增）／工具更新 3 則（Pool 截圖記憶庫 App、DoorDash AI 點餐機器人、Windows 11 本機 AI 解鎖 RTX 30 系）／趨勢 2 則（Anthropic×TCS 企業導入、Deezer AI 音樂偵測工具）。
+
+**來源覆蓋狀況**：
+
+| 來源 | 狀態 | 昨日內容數量 | 備註 |
+|------|------|------------|------|
+| TechCrunch AI | ✅ | 4 篇可用 | Anthropic×TCS、DoorDash、Pool、Deezer |
+| OpenAI 官方/動態 | ✅ | 1 則 | Oracle Cloud 合作 |
+| Anthropic 官方/動態 | ✅ | 1 則 | Claude Corps |
+| Windows Latest（補充科技媒體） | ✅ | 1 則 | RTX 本機 AI |
+| AI 流量數據（Similarweb 經 PPC Land） | ✅ | 1 則 | ChatGPT vs Claude 市占 |
+| The Verge AI | ❌ | 0 | WebFetch 無法存取該網域 |
+| FutureTools.io | ❌ | 0 | 該頁面昨日（06/11）無更新內容 |
+| YouTube（Matt Wolfe 等 6 頻道） | ❌ | 0 | WebSearch 未找到明確昨日上傳影片，未逐一深入查證 |
+| @levelsio / @GregIsenberg | ❌ | 0 | 搜尋未發現昨日相關貼文 |
+| @sama / @karpathy / @rowancheung 等 | ❌ | 0 | 未進行查證 |
+
+看板已透過 `render_dashboard.py` 同步更新（Archive 已新增 2026-06-11）。
+
+DONE
+--- AI report finished at Fri Jun 12 01:06:36 CST 2026 ---
+=== Fri Jun 12 01:06:36 CST 2026 | Starting daily finance report ===
