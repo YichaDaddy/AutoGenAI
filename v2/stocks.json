@@ -1,47 +1,47 @@
 {
-  "updated": "2026-06-10T23:15:51Z",
+  "updated": "2026-06-11T05:27:40Z",
   "data": {
     "2330.TW": {
-      "price": 2255.0,
-      "change": -130.0,
-      "pct": -5.45,
-      "prev": 2385.0,
+      "price": 2250.0,
+      "change": -115.0,
+      "pct": -4.86,
+      "prev": 2365.0,
       "currency": "TWD",
       "state": "CLOSED",
       "name": "台積電"
     },
     "2454.TW": {
-      "price": 4155.0,
-      "change": -275.0,
-      "pct": -6.21,
-      "prev": 4430.0,
+      "price": 4080.0,
+      "change": -220.0,
+      "pct": -5.12,
+      "prev": 4300.0,
       "currency": "TWD",
       "state": "CLOSED",
       "name": "聯發科"
     },
     "2317.TW": {
-      "price": 263.0,
-      "change": -30.0,
-      "pct": -10.24,
-      "prev": 293.0,
+      "price": 257.5,
+      "change": -27.0,
+      "pct": -9.49,
+      "prev": 284.5,
       "currency": "TWD",
       "state": "CLOSED",
       "name": "鴻海"
     },
     "0050.TW": {
-      "price": 100.25,
-      "change": -5.85,
-      "pct": -5.51,
-      "prev": 106.1,
+      "price": 99.85,
+      "change": -4.3,
+      "pct": -4.13,
+      "prev": 104.15,
       "currency": "TWD",
       "state": "CLOSED",
       "name": "元大台灣50"
     },
     "0056.TW": {
-      "price": 49.62,
-      "change": -3.03,
-      "pct": -5.75,
-      "prev": 52.65,
+      "price": 49.53,
+      "change": -2.27,
+      "pct": -4.38,
+      "prev": 51.8,
       "currency": "TWD",
       "state": "CLOSED",
       "name": "元大高股息"
