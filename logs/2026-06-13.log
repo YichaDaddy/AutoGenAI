@@ -1,1 +1,59 @@
 === Sat Jun 13 01:00:01 CST 2026 | Starting daily AI report ===
+Dashboard updated successfully. Here's the report for **2026-06-12**:
+
+---
+
+## 📋 2026-06-12 歐美 AI 情報日報
+
+### 板塊一：大事件
+
+**1. Anthropic 首度發布「AI 全民調查」：71% 美國人支持政府監管 AI，僅 15% 信任 AI 公司**
+- 來源：[Anthropic](https://www.anthropic.com/news/anthropic-public-record)
+- 摘要：Anthropic 調查近 5.2 萬名美國人對 AI 的真實看法，64% 最怕 AI 害自己失業
+- 選題角度：標題雛形「Anthropic砸錢調查5萬人發現：每天用AI的人，反而比較不怕被AI取代」，可做成「AI使用心態自我檢測」互動內容
+
+**2. ChatGPT 月活躍用戶衝破10億，成史上最快達標App，但社會觀感兩極**
+- 來源：[CNBC](https://www.cnbc.com/2026/06/12/chatgpt-a-billion-monthly-app-users-despite-souring-public-ai-sentiment.html)
+- 摘要：Sensor Tower數據顯示ChatGPT五月衝破10億月活，Claude、Meta AI年增率三位數
+- 選題角度：用全球級數字當鉤子，做成「上班族AI工具導入現況」系列開場
+
+### 板塊二：工具更新
+
+**3. Moonshot AI 開源新模型 Kimi K2.7-Code：1兆參數、推理token省30%、可商用**
+- 來源：[Crypto Briefing](https://cryptobriefing.com/kimi-k2-7-code-open-source-release/) · [Hugging Face](https://huggingface.co/moonshotai/Kimi-K2.7-Code)
+- 摘要：混合專家架構大幅降低推理成本與延遲，採修改版MIT授權可商用
+- 選題角度：「免費開源AI編程神器」，做成「不用寫code也能懂」科普切角
+
+### 板塊三：值得追蹤的趨勢
+
+無——今日經多輪檢索（TechCrunch、The Verge、FutureTools、官方部落格、X/Twitter、YouTube頻道、Hacker News等），未找到符合「6/12發布」且符合賽道（AI效率工具/職場上班族）的趨勢類選題，如實留空。
+
+---
+
+### 📋 來源覆蓋狀況
+
+| 來源 | 狀態 | 昨日內容數量 | 備註 |
+|------|------|------------|------|
+| Matt Wolfe / FutureTools | ❌ | 0 條 | FutureTools.io/news 最新更新至6/11，無6/12項目 |
+| The AI Advantage | ❌ | 0 條 | 找不到6/12影片資訊 |
+| Matthew Berman | ❌ | 0 條 | 找不到6/12影片資訊 |
+| Wes Roth | ❌ | 0 條 | 找不到6/12影片資訊 |
+| MattVidPro AI | ❌ | 0 條 | 找不到6/12影片資訊 |
+| Skill Leap AI | ❌ | 0 條 | 找不到6/12影片資訊 |
+| TechCrunch AI | ✅ | 0 條（符合賽道） | 6/12僅一篇SpaceX IPO文章，屬財報/IPO新聞，依負面清單排除 |
+| The Verge AI | ❌ | 0 條 | WebFetch遭403拒絕，無法存取 |
+| @OpenAI | ❌ | 0 條 | openai.com/news 遭403拒絕，無法確認6/12貼文 |
+| @AnthropicAI | ✅ | 1 條 | anthropic.com/news 找到6/12發布的Public Record報告 |
+| @GoogleDeepMind | ❌ | 0 條 | 無6/12相關內容 |
+| @sama / @karpathy | ❌ | 0 條 | 無法確認6/12貼文 |
+| @rowancheung / @mreflow / @alexfinnX | ❌ | 0 條 | 無法確認6/12貼文 |
+| @levelsio / @GregIsenberg | ❌ | 0 條 | 無法確認6/12貼文 |
+| 綜合WebSearch | ✅ | 2 條 | ChatGPT 10億用戶(CNBC)、Kimi K2.7-Code(Moonshot AI)均確認為6/12發布 |
+
+**備註**：今日為AI新聞相對清淡的一天（主要科技媒體焦點集中在SpaceX IPO與WWDC收尾，AI專屬新發布較少），依「嚴格日期規則」僅納入3則確認為6/12發布的真實情報，未以舊文充數。
+
+💡 您的專屬網頁版看板已同步更新，可隨時打開 `daily_topic_dashboard.html` 查看。
+
+DONE
+--- AI report finished at Sat Jun 13 01:08:13 CST 2026 ---
+=== Sat Jun 13 01:08:13 CST 2026 | Starting daily finance report ===

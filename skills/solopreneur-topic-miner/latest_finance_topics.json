@@ -1,126 +1,114 @@
 {
-  "date": "2026-06-11",
+  "date": "2026-06-12",
   "market_shocks": [
     {
-      "title": "SpaceX史上最大IPO定價135美元！估值1.77兆美元，馬斯克衝向「兆萬富翁」",
+      "title": "馬斯克正式登基「兆萬富翁」！SpaceX掛牌爆量飆破2.2兆美元市值",
       "sources": [
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-06-11/spacex-ipo-said-to-draw-more-than-70-billion-in-retail-orders"},
-        {"name": "CNBC", "url": "https://www.cnbc.com/2026/06/09/spacex-ipo-explained-stock-price-date.html"},
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-06-11/blackrock-s-spacex-ipo-share-order-said-to-target-5-billion"}
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-06-12/spacex-ipo-spcx-prepares-for-debut-after-75-billion-ipo-smashes-record"},
+        {"name": "CNBC", "url": "https://www.cnbc.com/2026/06/12/spacex-ipo-spcx-live-updates.html"},
+        {"name": "NBC News", "url": "https://www.nbcnews.com/business/markets/spacex-ipo-stock-price-rcna349760"}
       ],
-      "summary": "SpaceX以每股135美元定價IPO，估值約1.77兆美元，預計6/12在那斯達克以代號SPCX掛牌，募資規模達750億美元，將成史上最大IPO，超過阿里巴巴紀錄。全球散戶申購金額已突破1000億美元，貝萊德更表態砸下約50億美元搶進，馬斯克持股價值隨之飆升、外界估算他將成為全球首位「兆萬富翁」。",
-      "tw_stock_impact": "SpaceX掛牌熱潮帶動全球資金風險偏好升溫，可望部分抵銷美股科技七雄6月以來的賣壓，連帶提振台股權值股與AI供應鏈的市場情緒；後續若掛牌爆量大漲，恐進一步推升全球AI相關類股的本益比預期。",
-      "investment_insight": "一般散戶難以取得SpaceX初次配售價，建議觀察掛牌首日及前幾個交易日的價格穩定度，不要急於追價；可將SPCX掛牌表現視為檢驗市場對「AI／太空基礎建設」敘事信心的風向球。",
-      "title_idea": "馬斯克要當「兆萬富翁」了！SpaceX明天掛牌，全球散戶搶破頭超千億美元",
-      "local_angle": "台灣投資人能透過複委託參與SpaceX掛牌嗎？這股全球熱潮會不會也燒到台積電等AI概念股？"
+      "summary": "SpaceX以135美元IPO定價後，6/12正式在那斯達克掛牌開盤大漲至150美元、一度衝上2.21兆美元市值，單日成交額逼近330億美元，超越QQQ與SPY的成交量。馬斯克身價隨之突破1兆美元，成為全球史上第一位「兆萬富翁」，並在Starbase敲響開盤鐘，直言「我當初覺得這家公司有90%機率會失敗」。",
+      "tw_stock_impact": "SpaceX市值直逼亞馬遜(2.54兆)，全球資金風險偏好急速升溫，可能帶動台股AI與低軌衛星概念股短線跟漲；但也要注意資金是否從台股權值股流向美股新貴。",
+      "investment_insight": "SpaceX股票尚未對一般投資人開放申購且估值已偏高，追高風險大；可關注7/6前後Nasdaq 100指數型基金被動納入SPCX帶來的資金流向，作為觀察科技股資金輪動的指標，而非直接追價SPCX。",
+      "title_idea": "「我以為這公司會倒閉」馬斯克親口認證，今天他成了地球第一個兆萬富翁",
+      "local_angle": "台灣的低軌衛星概念股會不會也跟著SpaceX這把火燒起來？普通台灣投資人到底有沒有機會參與這場世紀IPO？"
     },
     {
-      "title": "美國5月躉售物價飆6.5%創2022年來新高，伊朗油價衝擊發威",
+      "title": "「大賣空」Burry示警：那指可能再殺一波，7/6是關鍵日",
       "sources": [
-        {"name": "CNN Business", "url": "https://us.cnn.com/2026/06/11/economy/us-ppi-wholesale-inflation-may"},
-        {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/economy/policy/articles/u-ppi-rose-6-5-123756086.html"}
+        {"name": "Bitget News", "url": "https://www.bitget.com/news/detail/12560605456670"},
+        {"name": "24/7 Wall St", "url": "https://247wallst.com/investing/2026/06/01/michael-burry-just-called-nvidias-spacex-chip-deal-fugazi-heres-why-it-all-seems-wrong/"}
       ],
-      "summary": "美國5月生產者物價指數(PPI)年增6.5%，創2022年11月以來最大增幅，月增1.1%；其中能源價格大漲10.7%，汽油批發價單月暴漲23.4%、年增近70%，是受伊朗衝突推升油價所致。核心PPI(扣除食品、能源與貿易服務)年增率達5.1%，為2022年10月以來最高，顯示輸入性通膨壓力正全面擴散至企業成本端。",
-      "tw_stock_impact": "通膨升溫強化市場對Fed維持高利率更久的預期，美元走勢與資金流向牽動新台幣匯率與外資布局；若通膨壓力持續，恐壓抑全球高估值AI概念股的評價空間，台股估值偏高的個股首當其衝。",
-      "investment_insight": "留意聯準會後續發言是否轉趨鷹派，若降息時程被推遲，建議降低高本益比成長股部位，適度增加防禦型(食品、公用事業、高股息)資產比重，以因應通膨環境下的利率波動。",
-      "title_idea": "通膨幽靈回來了！美國躉售物價飆6.5%創3年新高，Fed降息夢碎？",
-      "local_angle": "油價推升的輸入性通膨，會不會讓台灣電價、運輸與民生物價跟著漲，進而影響你的存股組合？"
+      "summary": "知名空頭分析師Michael Burry警告，那斯達克100指數恐在SpaceX掛牌後出現大幅賣壓，因被動型ETF與指數基金須等待一段時間才能納入SPCX，待7/6「快速納入」條款生效、數十億美元資金真正湧入前，這段空窗期可能造成市場震盪。Burry先前也多次質疑輝達與SpaceX的晶片合作案「虛有其表」，並警告AI大型股本益比過高。",
+      "tw_stock_impact": "若那指真如Burry所言出現回檔，台股AI供應鏈權值股(台積電、廣達、鴻海)將首當其衝承受外資調節賣壓，恐重演6月初科技七雄重挫拖累台股的劇本。",
+      "investment_insight": "在7/6前可留意Nasdaq 100成分股調整與被動資金流向，若指數型基金提前布局造成市場波動加大，反而可能是優質AI概念股逢低布局的機會；不建議在資訊不對稱下單押方向。",
+      "title_idea": "大賣空再出手！Burry說7月6日前那指還會崩一次，全球散戶該逃還是該等？",
+      "local_angle": "如果美股AI股再跌一波，台積電、廣達會不會又被外資提款？現在該先避一避還是準備接刀？"
     },
     {
-      "title": "科技七雄6月慘賠2兆美元！微軟、亞馬遜各蒸發逾3500億美元市值",
+      "title": "貝萊德私募信貸基金二度「鎖門」！贖回潮飆至13%敲響警鐘",
       "sources": [
-        {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/article/magnificent-7-stocks-have-lost-2-trillion-so-far-this-month-driving-the-sp-500-decline-chart-of-the-day-100000483.html"}
+        {"name": "ZeroHedge", "url": "https://www.zerohedge.com/markets/blackrocks-private-credit-fund-gates-investors-again-after-redemption-requests-surge"}
       ],
-      "summary": "「科技七雄」(蘋果、微軟、Alphabet、亞馬遜、輝達、特斯拉、Meta)6月以來合計蒸發約2兆美元市值，中位數跌幅達9.7%，同期標普500其餘成分股中位數卻上漲0.3%。微軟與亞馬遜各損失超過3500億美元，蘋果、Alphabet各蒸發約3000億美元，輝達、特斯拉也分別重挫約2600億與2000億美元，AI資本支出疑慮是主要拖累。",
-      "tw_stock_impact": "科技七雄是台灣電子供應鏈(尤其AI伺服器、晶圓代工)最重要的下游客戶與股價連動指標，七雄重挫往往牽動台積電、鴻海、廣達等權值股的市場情緒，加重台股波動。",
-      "investment_insight": "這波回檔集中在「AI資本支出疑慮」相關個股(微軟、輝達)，而非全面性系統風險，標普500其他成分股仍上漲。投資人可趁拉回分批布局基本面紮實、AI需求能見度高的個股，避免因龍頭股雜音錯殺優質資產。",
-      "title_idea": "兩兆美元蒸發！科技七雄6月集體跳水，是健康回檔還是泡沫破裂前兆？",
-      "local_angle": "微軟、輝達重挫，台積電、廣達這些「含七雄概念」的台廠會被拖累嗎？該逢低加碼還是先觀望？"
+      "summary": "貝萊德旗下一支私募信貸基金因投資人贖回需求暴增，連續第二個季度啟動「贖回限制」(gate)機制，第二季贖回申請比例飆升至13%，高於第一季的9.3%。私募信貸市場長期被視為流動性風險的灰色地帶，此舉再度引發市場對「影子銀行」體系健康度的擔憂。",
+      "tw_stock_impact": "私募信貸是近年AI資料中心、伺服器建置背後重要的融資來源之一，若私募信貸市場流動性緊縮，可能間接影響部分仰賴此類融資的雲端/資料中心建設步調，對台灣伺服器、散熱供應鏈訂單能見度形成隱性風險。",
+      "investment_insight": "私募信貸贖回限制是觀察「影子銀行」壓力的早期指標，建議追蹤是否有更多資產管理公司跟進限制贖回；若蔓延至公開市場信用利差擴大，將是降低風險資產曝險的訊號。",
+      "title_idea": "連兩季鎖門！貝萊德私募信貸基金贖回潮破表，是個案還是骨牌第一張？",
+      "local_angle": "私募信貸吃緊會不會讓AI伺服器擴產的「錢」變少，進而影響台廠接單節奏？"
     },
     {
-      "title": "Oracle股債大分歧！股價跌、債券漲，AI燒錢爭議持續延燒",
+      "title": "台股強彈1019點站穩4.4萬！外資卻連6天提款台積電逾百億",
       "sources": [
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-06-11/oracle-bonds-rally-as-funding-plans-signal-borrowing-discipline"},
-        {"name": "Futu News", "url": "https://news.futunn.com/en/post/74473919/clarifying-future-financing-arrangements-to-ease-market-concerns-oracle-orclus"}
+        {"name": "豐雲學堂", "url": "https://www.sinotrade.com.tw/richclub/hotstock/%E5%8F%B0%E8%82%A1%E7%9B%A4%E5%BE%8C-%E5%A4%A7%E7%9B%A4%E9%9C%87%E7%9B%AA1-456%E9%BB%9E%E5%BE%8C%E6%94%B6%E6%96%82-%E7%B5%82%E5%A0%B4%E5%B0%8F%E8%B7%8C76%E9%BB%9E%E5%AE%88%E7%A9%A94%E8%90%AC3%E9%97%9C%E5%8D%A1-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E9%85%8D%E7%99%BC6%E5%85%83%E7%A7%92%E5%A1%AB%E6%81%AF0611-6a2a6a01199469d0fd3fc4ee"},
+        {"name": "Yahoo奇摩股市", "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%BC%B2%E4%B8%8D%E5%8B%95-%E5%A4%96%E8%B3%87%E9%80%A35%E7%A0%8D6-4%E8%90%AC%E5%BC%B5-%E8%80%81%E6%89%8B%E9%BB%9E%E5%87%BA3%E5%A4%A7%E5%8E%9F%E5%9B%A0-%E7%95%99%E6%84%8F%E9%80%99%E9%A1%9E%E8%82%A1-002100709.html"}
       ],
-      "summary": "Oracle財報優於預期，但雲端基礎設施銷售增速不如預期、資本支出持續暴增，股價應聲下跌；同一天Oracle債券卻因公司宣布「今年不再發新債」、僅以原訂400億美元股債計畫融資而走揚，殖利率利差明顯收斂。股債市場對Oracle未來走向出現罕見分歧，反映「AI基礎建設燒錢」議題尚未落幕。",
-      "tw_stock_impact": "Oracle是台灣伺服器、機殼、散熱供應鏈的重要客戶，其資本支出步調直接影響台廠訂單能見度；股債分歧顯示市場對「AI燒錢」疑慮未消，台廠評價恐隨美股雜音持續波動。",
-      "investment_insight": "債券市場通常比股票市場更早反映違約風險，Oracle債券走揚顯示信用風險暫時可控，但股價下跌反映成長放緩疑慮。建議將Oracle後續資本支出與訂單轉換情況，作為觀察台灣AI伺服器供應鏈訂單能見度的領先指標。",
-      "title_idea": "一邊跌一邊漲！Oracle股債大分歧，AI燒錢是「紀律」還是「無底洞」？",
-      "local_angle": "Oracle如果放緩擴產腳步，雙鴻、奇鋐、緯穎這些台廠的訂單會跟著縮水嗎？"
+      "summary": "受美股6/11全面收漲帶動，台股6/12強勢反攻，盤中一度衝上44798點，終場收44169.04點、大漲1019.58點。然而台積電配發6元現金股息「秒填息」後，外資卻連續第6個交易日賣超台積電，單日提款逾110億元，6天合計賣超357億元，顯示指數上漲背後籌碼面仍偏弱。",
+      "tw_stock_impact": "大盤指數創高與權值股遭外資調節同時發生，顯示這波反彈可能由非台積電族群(如金融、傳產)帶動；若外資賣壓持續，台積電股價牽動大盤的「假突破」風險需留意。",
+      "investment_insight": "投資人不宜只看大盤指數判斷多空，應留意三大法人買賣超結構；若手中持有台積電，可觀察外資賣超是否轉為買超作為轉強訊號，短線操作者可優先留意非台積電的補漲族群。",
+      "title_idea": "大盤大漲千點卻是「假象」？外資連6天偷偷倒貨台積電，散戶接刀了嗎",
+      "local_angle": "你的台積電存股或0050該繼續抱嗎？外資連續倒貨背後，是不是在布局更大的調節？"
     }
   ],
   "investment_opportunities": [
     {
-      "title": "台積電是SpaceX上市最大隱形贏家？AI晶片代工需求成關鍵變數",
+      "title": "「他們在買黃金、卻叫你買AI」Andrei Jikh爆紅影片點出資金動向",
       "sources": [
-        {"name": "MarketBeat", "url": "https://www.marketbeat.com/originals/the-real-spacex-play-5-chip-stocks-powering-the-ipo-before-it-launches/"},
-        {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/real-spacex-play-5-chip-151500147.html"}
+        {"name": "YouTube - Andrei Jikh", "url": "https://www.youtube.com/watch?v=dg9Ezg_RS6E"}
       ],
-      "summary": "隨著SpaceX以1.77兆美元估值掛牌上市，市場分析指出，無論輝達、超微、英特爾或馬斯克自家AI5晶片誰主導下一代AI晶片設計，最終都得交由掌握全球約72%晶圓代工市佔的台積電生產，使台積電成為這波SpaceX上市熱潮中「最安靜的贏家」，台積電股價在掛牌前已率先反映此題材。",
-      "tw_stock_impact": "台積電身為台股權值最重的個股，其評價與SpaceX／AI基礎建設敘事高度連動；SpaceX上市熱潮若持續發酵，可望成為支撐台股大盤的重要力量，部分抵銷美股科技七雄拖累的賣壓。",
-      "investment_insight": "不需要直接參與SpaceX抽籤，台灣投資人透過持有台積電(2330)或相關ETF(如0050、00935)，已等同間接參與這波AI基礎建設與SpaceX供應鏈的成長紅利，可作為核心持股逢低分批布局。",
-      "title_idea": "不用搶SpaceX抽籤！這檔台股才是兆元IPO背後的真正贏家",
-      "local_angle": "SpaceX上市熱潮燒到台積電身上，0050、00935這些ETF投資人該加碼還是觀望？"
+      "summary": "知名理財YouTuber Andrei Jikh發布新片「They're Buying Gold And Selling You AI」，影片在24小時內衝破2.6萬觀看，他直指機構與央行近期持續加碼黃金，同時市場敘事仍在鼓吹散戶追高AI股，質疑這是資金與資訊不對稱的「割韭菜」現象，並提醒投資人留意「印鈔撐市場」的風險。",
+      "tw_stock_impact": "若全球資金真有轉向黃金避險的趨勢，台灣投資人持有的AI概念股(如AI伺服器、PCB族群)估值若已偏高，可能面臨評價修正壓力；同時黃金相關ETF詢問度可能上升。",
+      "investment_insight": "不需要全面拋售AI股，但可考慮將部分資金配置至黃金或黃金ETF作為對沖，尤其在Fed降息路徑不明、地緣風險未完全解除的環境下，黃金兼具避險與抗通膨雙重角色。",
+      "title_idea": "YouTube爆紅影片爆料：央行偷偷囤黃金，卻叫你all in AI？資金真相曝光",
+      "local_angle": "台灣投資人手上的AI概念股是不是該分一杯羹給黃金？現在進場黃金ETF會不會太晚？"
     },
     {
-      "title": "AI吃光記憶體！DRAM、NAND價格暴漲近翻倍，台廠迎轉單與漲價潮",
+      "title": "00919配息率衝13.33%創新高！高股息ETF存股族迎除息行情",
       "sources": [
-        {"name": "Tom's Hardware", "url": "https://www.tomshardware.com/pc-components/dram/dram-and-nand-contract-prices-to-climb-again-in-q2"},
-        {"name": "IndexBox", "url": "https://www.indexbox.io/blog/memory-shortage-crisis-ai-demand-drives-dram-and-nand-prices-up-200-in-2026/"}
+        {"name": "豐雲學堂", "url": "https://www.sinotrade.com.tw/richclub/hotstock/0050-00919-00878%E2%8B%AF2026%E5%B9%B4%E5%AD%98%E8%82%A1%E6%97%8F%E6%9C%80%E6%84%9B10%E6%AA%94ETF%E6%8E%92%E8%A1%8C%E6%8F%AD%E6%9B%89-%E9%85%8D%E6%81%AF-%E6%88%90%E5%88%86%E8%82%A1-%E6%AE%96%E5%88%A9%E7%8E%87%E4%B8%80%E6%96%87%E6%8E%8C%E6%8F%A1-657aa75dfc95f66b8c098433"}
       ],
-      "summary": "受AI伺服器對高頻寬記憶體(HBM)與高容量DDR5需求暴增影響，第二季DRAM合約價估再漲58-63%，NAND快閃記憶體更暴漲70-75%，延續第一季DRAM價格已飆漲90-95%的瘋狂走勢，部分現貨價格年漲幅近700%。TrendForce預估缺貨潮將延續至2026全年，新產能最快要到2027年底才能開出。",
-      "tw_stock_impact": "三星、SK海力士轉向生產高毛利AI記憶體，排擠消費性電子產能，台灣記憶體模組廠(如南亞科、華邦電、十銓、創見)有望受惠轉單與漲價題材，但PC、手機品牌廠(如華碩、宏碁)將面臨成本上升壓力。",
-      "investment_insight": "記憶體缺貨是供需結構性問題，非短期現象，建議關注台灣記憶體概念股(南亞科、華邦電)及模組廠的漲價與訂單能見度；同時留意PC/手機組裝廠的成本轉嫁能力，避免持有毛利率將被壓縮的下游品牌股。",
-      "title_idea": "一根記憶體漲價7倍！AI掀起的「缺貨海嘯」，台廠也能跟著吃肉？",
-      "local_angle": "筆電、手機要漲價了？台灣記憶體概念股南亞科、華邦電是這波漲價潮的受惠者嗎？"
+      "summary": "群益台灣精選高息ETF(00919)公布第13次配息預估每股配發1元，年化配息率達13.33%，創上市以來新高，且連續13季配息率維持10%以上。最新成分股調整後金融股權重提升至42.55%，涵蓋國泰金、富邦金、台新新光金、中信金、凱基金等五大壽險金控。除息日為6/16，最後買進日為6/15。",
+      "tw_stock_impact": "00919是台灣存股族規模最大的高股息ETF之一，配息率創新高消息可能帶動除息前的買盤與資金卡位，短線推升金融股權值；但除息後填息壓力也是觀察重點。",
+      "investment_insight": "想參與這次高配息的投資人最後買進日為6/15，但須留意除息後的填息表現；長期存股族不必特別搶在除息日前進場，重點仍是定期定額累積。",
+      "title_idea": "年化配息13.33%創紀錄！這檔台灣最夯高股息ETF，存股族搶在6/15前卡位",
+      "local_angle": "領到這筆股息該繼續存還是該獲利了結？00919的金融股佔比變高，對長期存股族是好消息還是風險？"
     },
     {
-      "title": "SpaceX掛牌在即！台灣、香港散戶能參與兆元IPO盛宴嗎？",
+      "title": "比特幣築底訊號浮現！買盤搭上AI熱潮與SpaceX IPO順風車",
       "sources": [
-        {"name": "TradeSmart Blog", "url": "https://www.lowrisktradesmart.org/en/blog/spacex-ipo-hong-kong-taiwan-retail-guide"}
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-06-12/bitcoin-bottom-hunters-are-eyeing-up-ai-frenzy-and-spacex-ipo"}
       ],
-      "summary": "SpaceX將於6/12在那斯達克以SPCX掛牌，創史上最大規模IPO紀錄，吸引全球散戶超過1000億美元申購熱潮。對台灣與香港投資人而言，由於SpaceX並未在亞洲市場直接發售，多數人僅能透過國內券商「複委託」管道於掛牌後在次級市場買進美股，而非以IPO價參與初次配售。",
-      "tw_stock_impact": "此話題在台灣投資社群引發高度討論，許多投資人詢問複委託開戶與手續費，券商美股複委託業務量可望隨話題熱度增加，相關券商手續費收入亦有望受惠。",
-      "investment_insight": "一般散戶難以取得SpaceX初次配售(IPO價)，掛牌首日股價波動通常劇烈，建議追高前先觀察前幾個交易日的價格穩定度，並留意複委託交易的匯損與手續費成本，避免追價套在阿呆谷。",
-      "title_idea": "全民瘋搶SpaceX！台灣股民複委託這樣買，手續費先算給你看",
-      "local_angle": "身邊朋友都在問「SpaceX股票要去哪買」，複委託到底划不划算？掛牌當天該衝還是該等？"
-    },
-    {
-      "title": "Burry最新持倉曝光！喊買「被低估」的Adobe，三星跌到淨值就進場",
-      "sources": [
-        {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-sees-adobe-ai-081438077.html"},
-        {"name": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/adbe-stock-rises-ahead-of-q2-earnings-report-today-michael-burry-thinks-the-market-may-be-underpricing-adobe/cZKTZbxR72T"}
-      ],
-      "summary": "「大空頭」原型麥克貝瑞(Michael Burry)在Adobe第二季財報(6/11公布)前公開喊出「市場嚴重低估Adobe」，認為其Firefly生成式AI與企業整合形成競爭護城河，是AI時代的「甜蜜球」。ADBE股價今年已重挫近30%，但近期因輝達執行長黃仁勳喊話「AI將帶動而非取代軟體需求」，已從低點反彈約8%。貝瑞同時重申「三星電子股價跌到每股淨值就買進」的操作原則，並維持對Palantir的放空部位。",
-      "tw_stock_impact": "貝瑞對「AI是否吃掉軟體」的辯論，同樣適用於檢視台灣軟體與AI應用類股的本益比；三星作為記憶體大廠，其股價動向也牽動台灣記憶體供應鏈的比價效應。",
-      "investment_insight": "貝瑞的邏輯核心是「逆向找出被錯殺的AI受惠股」，台灣投資人可借鏡此思路，篩選因「AI威脅論」遭錯殺、但實際具備AI整合能力的軟體與內容相關個股作為波段布局參考，而非單純追逐題材股。",
-      "title_idea": "大空頭出手了！貝瑞喊「Adobe被嚴重低估」，三星跌到這價位就要全力買進",
-      "local_angle": "當市場瘋狂追捧AI硬體時，「被低估的AI軟體股」會不會是台灣投資人忽略的下一個機會？"
+      "summary": "比特幣近期從6萬美元下方反彈，市場「逢低買盤」開始浮現，部分投資人認為這波加密貨幣的築底訊號，與AI投資熱潮重新升溫、以及SpaceX掛牌帶動的整體風險偏好回升有關，認為加密資產可能受惠於這波「樂觀情緒外溢」。",
+      "tw_stock_impact": "比特幣價格波動向來牽動台灣相關概念股(如伺服器電源供應鏈)及加密貨幣投資人情緒；若比特幣確認築底反彈，可能帶動台灣投資人對相關ETF與概念股的關注度回溫。",
+      "investment_insight": "比特幣從6萬美元附近反彈仍屬「築底訊號」而非確認轉強，建議將其視為觀察風險偏好的領先指標之一，而非直接重倉進場；可採分批小額方式參與，並嚴設停損。",
+      "title_idea": "比特幣跌破6萬後迎來轉機？分析師：這次反彈跟SpaceX、AI熱潮脫不了關係",
+      "local_angle": "台灣的虛擬貨幣ETF和挖礦概念股，會不會跟著這波「樂觀外溢」一起動起來？"
     }
   ],
   "macro_observations": [
     {
-      "title": "歐洲央行還沒升完！IMF示警恐再升息，全球緊縮循環未完待續",
+      "title": "川普喊話伊朗和平協議「近在眼前」！油價回落、全球股市鬆口氣",
       "sources": [
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-06-11/ecb-may-need-to-keep-hiking-after-thursday-s-rate-move-imf-says?srnd=homepage-europe"}
+        {"name": "CNBC", "url": "https://www.cnbc.com/2026/06/12/world-cup-markets-iran-war-spacex-ipo.html"},
+        {"name": "ZeroHedge", "url": "https://www.zerohedge.com/geopolitical/us-iran-deal-near-narrative-returns-tehran-refuses-surrender-hormuz-leverage"}
       ],
-      "summary": "歐洲央行(ECB)6/11宣布升息一碼後，IMF隨即評估指出ECB「政策利率仍需進一步提高」才能壓制中東衝突引發的能源通膨衝擊；多位ECB官員也未排除最快7月再次升息的可能性，顯示全球主要央行的緊縮壓力可能比市場預期更持久。",
-      "tw_stock_impact": "若歐美央行同步維持鷹派立場，全球資金成本上升將壓抑高估值成長股評價，外資對台股(尤其本益比偏高的AI類股)的配置可能轉趨保守，新台幣匯率也可能因利差因素承壓。",
-      "investment_insight": "在全球利率「higher for longer」的格局下，建議投資人重新檢視手中成長股的估值是否反映過於樂觀的降息預期，並適度提高現金部位或高股息資產比重，以因應市場波動加劇。",
-      "title_idea": "升息還沒完！IMF示警ECB恐7月再出手，全球資金行情要提前收傘？",
-      "local_angle": "歐美利率「降不下來」，會不會讓台股這波AI行情提前降溫？存股族該調整節奏嗎？"
+      "summary": "美國總統川普表態伊朗與美方可能即將簽署和平協議，市場樂觀情緒推升歐股全面收漲(歐洲泛Stoxx 600上漲1.8%、英德法主要指數均漲逾1.6%)，亞太股市週五同步走高；不過德黑蘭方面表示尚未做出最終決定，零星衝突仍在持續，荷姆茲海峽的航運風險尚未完全解除。",
+      "tw_stock_impact": "中東局勢降溫有助緩解油價與航運成本壓力，對台灣以出口貿易為主的經濟體屬於正面消息；但若和談破局，油價與全球通膨風險可能再度升溫，衝擊台股評價。",
+      "investment_insight": "地緣政治和談消息屬於「希望式行情」，波動性高且容易反轉；投資人可觀察布蘭特原油與荷姆茲海峽航運數據作為驗證指標，避免單純因新聞標題追高風險資產。",
+      "title_idea": "川普一句話，全球股市集體噴出！伊朗和平協議真的要來了嗎？",
+      "local_angle": "中東若真降溫，台灣的航運、塑化、原物料股會怎麼反應？對台灣進口能源成本又有什麼影響？"
     },
     {
-      "title": "還沒上市先開戰！傳OpenAI考慮大砍AI價格搶攻Anthropic用戶",
+      "title": "美國消費者信心觸底反彈，歐洲央行卻喊話「升息還沒完」",
       "sources": [
-        {"name": "CNBC", "url": "https://www.cnbc.com/2026/06/11/openai-mulls-slashing-prices-ahead-of-competition-from-anthropic-wsj.html"}
+        {"name": "ZeroHedge", "url": "https://www.zerohedge.com/markets/umich-sentiment-bounces-record-low-june-inflation-fears-fade"},
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-06-12/ecb-s-kazimir-says-rates-must-be-lifted-more-to-tackle-inflation"}
       ],
-      "summary": "據華爾街日報報導，OpenAI正考慮大幅調降AI服務的token計價，以應對Anthropic可能採取的同步降價策略，搶在雙方相繼申請美國IPO前鞏固用戶基礎。Anthropic上月底完成新一輪募資、估值達9650億美元，略高於OpenAI今年3月的8520億美元估值，但OpenAI在達到損益兩平前的預估燒錢速度約為Anthropic的14倍。",
-      "tw_stock_impact": "兩大AI龍頭若開打價格戰，將壓縮市場對整體AI產業鏈獲利能力的預期，可能影響投資人對台灣AI伺服器、晶片設計服務廠商未來訂單與毛利的評價邏輯。",
-      "investment_insight": "AI模型廠商打價格戰，短期對使用AI服務的下游企業(含台灣軟體業者)是成本利多，但也反映「AI變現」比預期更困難。建議優先選擇硬體基礎設施(算力、晶片代工)而非應用層的AI概念股，避免押注尚未獲利的商業模式。",
-      "title_idea": "還沒上市先開戰！OpenAI傳大砍價搶客，AI燒錢大戰進入「割喉期」",
-      "local_angle": "AI服務變便宜對台灣中小企業是好消息？但這對台灣AI概念股的成長故事會不會打折扣？"
+      "summary": "密西根大學消費者信心指數6月從歷史低點反彈，低收入家庭信心改善尤其明顯，反映民眾對通膨擔憂略有緩解；但同一天歐洲央行理事Kazimir卻表示，為壓制持續擴散的通膨壓力，利率仍須進一步上調，顯示美歐貨幣政策步調與市場情緒出現明顯分歧。",
+      "tw_stock_impact": "美歐利率路徑分歧可能加大外匯市場波動，影響新台幣兌美元、歐元匯率，進而牽動台灣出口商避險成本與外資資金流向；若歐洲持續升息，恐壓抑全球資金風險偏好。",
+      "investment_insight": "留意美國通膨數據與Fed後續發言是否確認降息路徑，同時觀察歐元區利率政策是否壓抑歐股表現並影響全球資金流向；可作為調整外幣資產與台股權重配置的參考依據。",
+      "title_idea": "美國人信心回來了，歐洲央行卻說「還沒升完」！全球利率政策正在分裂？",
+      "local_angle": "美歐利率走向分歧，會不會讓新台幣匯率變得更難預測？對手上有海外基金、ETF的投資人有什麼影響？"
     }
   ]
 }
