@@ -13,7 +13,7 @@ echo "=== $(date) | Starting daily AI report ===" >> "$LOG_FILE"
 cd "$HOME/projects/AutoGenAI" || exit 1
 
 # Run the topic miner via Claude Code CLI (non-interactive)
-/Applications/cmux.app/Contents/Resources/bin/claude --dangerously-skip-permissions -p "
+/Applications/cmux.app/Contents/Resources/bin/claude --dangerously-skip-permissions --model claude-haiku-4-5-20251001 -p "
 你是 solopreneur-topic-miner Agent。請立刻執行以下工作：
 
 今天日期：$(date +%Y-%m-%d)
@@ -41,7 +41,7 @@ echo "--- AI report finished at $(date) ---" >> "$LOG_FILE"
 # Run the finance news miner via Claude Code CLI
 echo "=== $(date) | Starting daily finance report ===" >> "$LOG_FILE"
 
-/Applications/cmux.app/Contents/Resources/bin/claude --dangerously-skip-permissions -p "
+/Applications/cmux.app/Contents/Resources/bin/claude --dangerously-skip-permissions --model claude-haiku-4-5-20251001 -p "
 你是財經日報 Agent。請立刻執行以下工作：
 
 今天日期：$(date +%Y-%m-%d)
@@ -113,7 +113,7 @@ echo "--- Finance report finished at $(date) ---" >> "$LOG_FILE"
 # Generate daily quote
 echo "=== $(date) | Generating daily quote ===" >> "$LOG_FILE"
 
-/Applications/cmux.app/Contents/Resources/bin/claude --dangerously-skip-permissions -p "
+/Applications/cmux.app/Contents/Resources/bin/claude --dangerously-skip-permissions --model claude-haiku-4-5-20251001 -p "
 今天日期：$(date +%Y-%m-%d)
 
 請生成一句今日每日語錄，寫入 skills/solopreneur-topic-miner/daily_quote.json。
@@ -148,7 +148,7 @@ if [ "$TOEIC_DATE" = "$TODAY" ]; then
   echo "TOEIC questions already generated for $TODAY, skipping." >> "$LOG_FILE"
 else
   echo "Generating new TOEIC questions for $TODAY..." >> "$LOG_FILE"
-  /Applications/cmux.app/Contents/Resources/bin/claude --dangerously-skip-permissions -p "
+  /Applications/cmux.app/Contents/Resources/bin/claude --dangerously-skip-permissions --model claude-haiku-4-5-20251001 -p "
 今天日期：$(date +%Y-%m-%d)
 
 你是多益命題 Agent。請生成一組高難度多益（TOEIC）練習題，目標程度：860 分以上考生。
