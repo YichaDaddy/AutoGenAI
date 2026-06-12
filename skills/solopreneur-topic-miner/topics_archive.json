@@ -1,5 +1,59 @@
 [
   {
+    "date": "2026-06-12",
+    "big_events": [
+      {
+        "title": "Anthropic 首度發布「AI 全民調查」：71% 美國人支持政府監管 AI，僅 15% 信任 AI 公司",
+        "sources": [
+          {
+            "name": "Anthropic",
+            "url": "https://www.anthropic.com/news/anthropic-public-record"
+          }
+        ],
+        "summary": "Anthropic 調查近 5.2 萬名美國人對 AI 的真實看法，64% 最怕 AI 害自己失業。",
+        "audience": "對「該不該用AI」感到焦慮、想了解同事與主管真實心態的職場上班族",
+        "pain_point": "每天被各種AI新聞轟炸，卻不知道身邊的人到底怎麼看AI，也不確定自己對AI的擔心是不是「想太多」",
+        "title_idea": "Anthropic砸錢調查5萬人發現：每天用AI的人，反而比較不怕被AI取代",
+        "local_angle": "海外AI龍頭首次公開做「全民AI心態調查」，華語圈尚無類似報導，可做成「AI使用心態自我檢測」互動型內容，引發辦公室話題討論"
+      },
+      {
+        "title": "ChatGPT 月活躍用戶衝破10億，成史上最快達標App，但社會觀感兩極",
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/06/12/chatgpt-a-billion-monthly-app-users-despite-souring-public-ai-sentiment.html"
+          }
+        ],
+        "summary": "Sensor Tower數據顯示ChatGPT五月衝破10億月活，Claude、Meta AI年增率三位數。",
+        "audience": "還在猶豫要不要把AI工具排進日常工作流的職場上班族",
+        "pain_point": "身邊同事好像都在用AI工具，自己卻還停留在「偶爾問問ChatGPT」，擔心生產力被拉開差距卻不知從何系統化導入",
+        "title_idea": "全球10億人每月在用ChatGPT！2026年中AI使用數據看懂：你落後了嗎？",
+        "local_angle": "用「ChatGPT破10億」這個全球級數字當鉤子，搭配Claude/Meta AI成長率對比圖，做成「上班族AI工具導入現況」系列開場"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "Moonshot AI 開源新模型 Kimi K2.7-Code：1兆參數、推理token省30%、可商用",
+        "sources": [
+          {
+            "name": "Crypto Briefing",
+            "url": "https://cryptobriefing.com/kimi-k2-7-code-open-source-release/"
+          },
+          {
+            "name": "Hugging Face",
+            "url": "https://huggingface.co/moonshotai/Kimi-K2.7-Code"
+          }
+        ],
+        "summary": "Kimi K2.7-Code開源上線，混合專家架構大幅降低推理成本與延遲，採修改版MIT授權可商用。",
+        "audience": "想用AI寫程式、做自動化但對訂閱費敏感的職場上班族與SOHO工作者",
+        "pain_point": "ChatGPT、Claude訂閱費不斷上漲，想找免費或低成本的AI編程助手，但又覺得「開源模型」門檻太高、跟自己無關",
+        "title_idea": "免費開源AI編程神器來了！Kimi K2.7-Code省30%運算成本，這樣用不用懂寫程式",
+        "local_angle": "中國團隊開源模型在海外科技圈討論度高，但華語職場受眾普遍不知道「開源模型」對自己有何實際用處，適合做「不用寫code也能懂」的科普切角"
+      }
+    ],
+    "trends": []
+  },
+  {
     "date": "2026-06-11",
     "big_events": [
       {
@@ -834,173 +888,6 @@
         "pain_point": "習慣用免費 AI，但越來越多關鍵功能鎖在付費版，不知道該如何規劃 AI 工具預算",
         "title_idea": "免費 AI 時代快結束了？2026 最值得花錢的 AI 訂閱排行，職場人的完整採購指南",
         "local_angle": "AI 工具付費教學在華語圈嚴重供不應求，此題材長期流量穩定、轉化率高"
-      }
-    ]
-  },
-  {
-    "date": "2026-06-05",
-    "big_events": [
-      {
-        "title": "Google 與 SpaceX 簽訂每月 9.2 億美元算力協議，AI 算力爭奪戰進入天文數字時代",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/"
-          },
-          {
-            "name": "Bloomberg",
-            "url": "https://www.bloomberg.com/news/articles/2026-06-05/google-buying-computing-from-spacex-in-920-million-a-month-deal"
-          },
-          {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/06/05/google-to-pay-spacex-920-million-a-month-for-xai-compute-capacity.html"
-          }
-        ],
-        "summary": "Google 將每月支付 SpaceX 9.2 億美元租用約 11 萬張 NVIDIA GPU 算力，協議持續至 2029 年中，總金額達 300 億美元，震驚業界。",
-        "audience": "職場 AI 使用者、科技產業觀察者、自媒體創作者",
-        "pain_point": "不懂 AI 背後算力軍備競賽有多瘋狂，感覺 AI 工具愈來愈貴但不知道為什麼",
-        "title_idea": "Google 每個月花 9.2 億美元買算力！AI 燒錢到底有多瘋狂？一篇看懂 2026 AI 成本地圖",
-        "local_angle": "台灣圈報導多聚焦台積電供應鏈，Google-SpaceX 這筆天文交易的「為什麼」幾乎沒人深度解析，相關搜尋流量可搶先佈局"
-      },
-      {
-        "title": "AI Token 帳單危機引爆：企業爭相壓縮 AI 成本，效率工具迎來新商機",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/05/the-token-bill-comes-due-inside-the-industry-scramble-to-manage-ais-runaway-costs/"
-          }
-        ],
-        "summary": "TechCrunch 深度調查 AI Token 成本失控現象：企業 AI 帳單直線上升，業界開始緊急尋找壓縮 Token 消耗的方案，催生出新一波 AI 效率工具需求。",
-        "audience": "職場使用 AI 工具的上班族、企業 IT 決策者、AI 工具創作者",
-        "pain_point": "訂閱 AI 工具費用愈來愈高，但不知道如何優化用量或找替代方案，每月都在燒預算",
-        "title_idea": "AI 訂閱費把你嚇到了嗎？2026 企業壓縮 AI 成本的 5 大策略，上班族也能用",
-        "local_angle": "台灣職場開始廣泛使用 AI 工具，成本優化的繁體中文內容極少，做「如何用最少錢發揮最大 AI 效益」選題，精準觸達職場受眾"
-      },
-      {
-        "title": "AirTrunk 承諾在印度投入 300 億美元建設 5GW AI 資料中心，亞洲算力版圖大洗牌",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/05/airtrunk-commits-30b-to-build-5gw-of-ai-data-centers-in-india/"
-          }
-        ],
-        "summary": "澳洲資料中心巨頭 AirTrunk 宣布在印度投入 300 億美元建設 5GW AI 算力設施，亞洲 AI 基礎建設版圖持續向南亞延伸擴張。",
-        "audience": "科技產業觀察者、商業媒體讀者、AI 趨勢追蹤者",
-        "pain_point": "想了解 AI 算力投資版圖的全球布局，但相關分析多為英文且缺乏亞洲視角",
-        "title_idea": "印度 AI 大爆發！AirTrunk 300 億美元資料中心計畫，亞洲 AI 算力版圖正在重新洗牌",
-        "local_angle": "用「印度 vs 台灣 AI 基礎建設競爭力」比較角度切入，可吸引關心台灣科技前景的讀者，此角度目前幾乎無人做"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "ChatGPT Writing Blocks 正式上線：在對話框直接撰寫並一鍵發送電子郵件",
-        "sources": [
-          {
-            "name": "OpenAI（X 官方帳號）",
-            "url": "https://x.com/ChatGPTapp/status/2062944254591430917"
-          },
-          {
-            "name": "FutureTools News",
-            "url": "https://futuretools.io/news"
-          }
-        ],
-        "summary": "OpenAI 推出 Writing Blocks 功能，讓使用者在 ChatGPT 對話中直接編輯郵件草稿並一鍵發送，徹底打通「AI 寫作 → 立即發送」的辦公工作流閉環。",
-        "audience": "天天寫信的職場上班族、業務人員、行政助理",
-        "pain_point": "用 ChatGPT 寫好信後還要複製貼上到 Gmail 或 Outlook，操作繁瑣且容易出錯",
-        "title_idea": "ChatGPT 寫完信直接幫你發！Writing Blocks 郵件功能完整教學，上班族效率翻倍",
-        "local_angle": "台灣職場郵件使用率極高，此功能的繁體中文教學幾乎還沒有人做，搶做第一批教學可獲大量早期搜尋流量"
-      },
-      {
-        "title": "Google 發布 Gemma 4 QAT 模型：本地端 AI 記憶體壓縮至 1GB，消費者裝置終於跑得動",
-        "sources": [
-          {
-            "name": "Google 官方部落格",
-            "url": "https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/"
-          },
-          {
-            "name": "MarkTechPost",
-            "url": "https://www.marktechpost.com/2026/06/05/google-deepmind-releases-gemma-4-qat-checkpoints-q4_0-and-a-new-mobile-format-cut-on-device-memory/"
-          }
-        ],
-        "summary": "Google 發布 Gemma 4 量化感知訓練（QAT）模型，Gemma 4 E2B 壓縮至約 1GB 記憶體，可在手機和消費級 GPU 本地執行高品質 AI，品質優於標準量化方式。",
-        "audience": "想在本地跑 AI 的上班族、開發者、重視隱私的使用者",
-        "pain_point": "想用本地 AI 保護隱私、降低訂閱費，但過去模型太大跑不動或品質太差",
-        "title_idea": "不用雲端！Google Gemma 4 QAT 讓你用 1GB 就跑高品質 AI，免費本地 AI 時代正式到來",
-        "local_angle": "本地 AI 部署教學在台灣圈仍是藍海，此版本品質大幅提升，適合做「零成本本地 AI 入門」系列，搶先佈局教學內容"
-      },
-      {
-        "title": "GPT-5.5 Instant 成為 ChatGPT 新預設：Canvas 退場、Writing Blocks 取代，回應更自然清晰",
-        "sources": [
-          {
-            "name": "OpenAI Help Center",
-            "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
-          },
-          {
-            "name": "Releasebot",
-            "url": "https://releasebot.io/updates/openai/chatgpt"
-          }
-        ],
-        "summary": "OpenAI 將 GPT-5.5 Instant 設為所有用戶預設模型，停用 Canvas 並以 Writing Blocks 取代，回應更簡潔自然，付費用戶有三個月過渡期使用舊版。",
-        "audience": "ChatGPT Plus/Pro 使用者、職場 AI 重度依賴者",
-        "pain_point": "習慣 Canvas 操作介面卻突然被移除，不知道 Writing Blocks 怎麼用，擔心工作流被打斷",
-        "title_idea": "ChatGPT Canvas 消失了！GPT-5.5 Instant 完整使用教學：Writing Blocks 這樣用才更高效",
-        "local_angle": "Canvas 改版台灣用戶有感，做「升級前後對比 + 工作流遷移攻略」，可衝過渡期的大量搜尋流量，時間視窗只有 3 個月"
-      }
-    ],
-    "trends": [
-      {
-        "title": "AI 算力成本失控成新常態，輕量化模型與效率工具需求同步暴增",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/05/the-token-bill-comes-due-inside-the-industry-scramble-to-manage-ais-runaway-costs/"
-          },
-          {
-            "name": "Google 官方部落格",
-            "url": "https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/"
-          }
-        ],
-        "summary": "Google-SpaceX 算力大交易與 AI Token 帳單危機同天爆發，顯示 AI 成本正全面失控；Gemma 4 QAT 等輕量化方案的出現代表業界開始找出路，效率工具創作者迎來黃金視窗。",
-        "audience": "AI 工具自媒體創作者、職場效率工具愛好者",
-        "pain_point": "AI 工具愈來愈貴，訂閱費壓力大，不知道有哪些免費或低成本替代方案",
-        "title_idea": "2026 AI 費用大爆炸！5 個免費或低成本替代方案，讓你花最少錢獲得最大 AI 效益",
-        "local_angle": "台灣上班族普遍使用免費版 AI，對成本優化需求強烈，做「低成本 AI 工作流」系列選題，匹配感高且競爭者少"
-      },
-      {
-        "title": "ChatGPT 從寫作助手進化為全功能辦公入口，Microsoft 365 與 Google Workspace 面臨直接競爭",
-        "sources": [
-          {
-            "name": "OpenAI（X 官方帳號）",
-            "url": "https://x.com/ChatGPTapp/status/2062944254591430917"
-          },
-          {
-            "name": "ChatGPT for Excel/Sheets",
-            "url": "https://chatgpt.com/apps/spreadsheets/"
-          }
-        ],
-        "summary": "ChatGPT 短短數月內連續整合試算表（Excel/Sheets sidebar）與郵件發送（Writing Blocks），策略性地將自己定位為辦公軟體入口，職場 AI 整合趨勢全面加速。",
-        "audience": "職場上班族、辦公室工作者、公司 IT 採購決策者",
-        "pain_point": "每天要在 ChatGPT、Excel、Outlook 之間切換，工作流碎片化導致效率低落",
-        "title_idea": "ChatGPT 要取代 Office 了嗎？郵件、試算表、文件一站搞定，2026 辦公革命完整解析",
-        "local_angle": "台灣企業 Microsoft 365 滲透率高，「ChatGPT vs 傳統 Office 工具整合對比」精準觸達職場受眾，繁體中文深度對比內容目前幾乎為零"
-      },
-      {
-        "title": "本地端 AI 模型輕量化臨界點突破，「不依賴雲端、保護個資」成 2026 下半年職場新趨勢",
-        "sources": [
-          {
-            "name": "Google 官方部落格",
-            "url": "https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/"
-          },
-          {
-            "name": "MarkTechPost",
-            "url": "https://www.marktechpost.com/2026/06/05/google-deepmind-releases-gemma-4-qat-checkpoints-q4_0-and-a-new-mobile-format-cut-on-device-memory/"
-          }
-        ],
-        "summary": "Gemma 4 QAT 將高品質開源模型壓縮至 1GB，結合上半年各家輕量化進展，本地 AI「品質 vs 成本」臨界點已突破，預計下半年將有更多職場用戶轉向本地方案。",
-        "audience": "注重資料隱私的職場使用者、企業資安部門、個人開發者",
-        "pain_point": "公司資料外洩風險讓員工不敢把敏感資訊輸入 ChatGPT，但沒有替代方案",
-        "title_idea": "公司機密不外洩！2026 本地 AI 完整安裝教學，Gemma 4 QAT 讓你在自己電腦上跑高品質 AI",
-        "local_angle": "台灣金融、醫療、政府等高隱私需求產業眾多，本地 AI 教學可精準打入企業採購決策者與合規敏感職場，此賽道競爭者極少"
       }
     ]
   }

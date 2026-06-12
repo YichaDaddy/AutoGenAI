@@ -1,98 +1,42 @@
 {
-  "date": "2026-06-11",
+  "date": "2026-06-12",
   "big_events": [
     {
-      "title": "Anthropic 砸 1.5 億美元成立 Claude Corps，訓練千人 AI 人才進駐非營利組織",
+      "title": "Anthropic 首度發布「AI 全民調查」：71% 美國人支持政府監管 AI，僅 15% 信任 AI 公司",
       "sources": [
-        {"name": "Anthropic", "url": "https://www.anthropic.com/news/claude-corps"},
-        {"name": "Washington Post", "url": "https://www.washingtonpost.com/business/2026/06/11/anthropic-ai-claude-corps-daniela-amodei/d11fd0a0-6595-11f1-bdd4-805ebb99a693_story.html"}
+        {"name": "Anthropic", "url": "https://www.anthropic.com/news/anthropic-public-record"}
       ],
-      "summary": "Anthropic 投入 1.5 億美元，培訓千名青年 AI 人才進駐非營利組織協助導入 Claude。",
-      "audience": "關注 AI 職涯發展、非營利組織數位轉型的職場上班族",
-      "pain_point": "想轉職進入 AI 領域卻不知道從何切入，又覺得「AI 人才」門檻很高、自己沒有技術背景",
-      "title_idea": "不用會寫程式也能進 AI 圈？Anthropic 砸 1.5 億美元找 1000 人做的這件事",
-      "local_angle": "這類「AI 應用人才」培訓計畫在華語圈幾乎沒人介紹，可做成「非技術背景如何切入 AI 產業」的職涯選題，搭配 Claude 實際應用教學"
+      "summary": "Anthropic 調查近 5.2 萬名美國人對 AI 的真實看法，64% 最怕 AI 害自己失業。",
+      "audience": "對「該不該用AI」感到焦慮、想了解同事與主管真實心態的職場上班族",
+      "pain_point": "每天被各種AI新聞轟炸，卻不知道身邊的人到底怎麼看AI，也不確定自己對AI的擔心是不是「想太多」",
+      "title_idea": "Anthropic砸錢調查5萬人發現：每天用AI的人，反而比較不怕被AI取代",
+      "local_angle": "海外AI龍頭首次公開做「全民AI心態調查」，華語圈尚無類似報導，可做成「AI使用心態自我檢測」互動型內容，引發辦公室話題討論"
     },
     {
-      "title": "OpenAI 牽手 Oracle Cloud：企業可直接用既有雲端額度購買 GPT 與 Codex",
+      "title": "ChatGPT 月活躍用戶衝破10億，成史上最快達標App，但社會觀感兩極",
       "sources": [
-        {"name": "OpenAI", "url": "https://openai.com/index/openai-on-oracle-cloud/"}
+        {"name": "CNBC", "url": "https://www.cnbc.com/2026/06/12/chatgpt-a-billion-monthly-app-users-despite-souring-public-ai-sentiment.html"}
       ],
-      "summary": "OpenAI 與 Oracle 合作，企業客戶可用 Oracle 雲端額度直接採購 OpenAI 模型與 Codex。",
-      "audience": "企業 IT 採購、雲端服務相關職場上班族、對 AI 產業布局有興趣的人",
-      "pain_point": "想在公司導入 ChatGPT/Codex，但卡在採購流程和預算歸屬，不知道有沒有更簡單的途徑",
-      "title_idea": "你公司的 Oracle 雲端額度，現在可以拿來買 ChatGPT 了！企業導入 AI 的新捷徑",
-      "local_angle": "台灣不少企業用 Oracle 雲端服務，這個合作直接降低導入 OpenAI 工具的門檻，可做成「企業 IT 主管必看」的資訊整理"
-    },
-    {
-      "title": "最新流量數據曝光：ChatGPT 市占暴跌至 52.7%，Claude 一個月內市占成長最快",
-      "sources": [
-        {"name": "PPC Land（Similarweb 數據）", "url": "https://ppc.land/chatgpt-drops-to-52-7-as-claude-triples-its-ai-traffic-share/"}
-      ],
-      "summary": "Similarweb 數據顯示 ChatGPT 流量占比一年內從 76.4% 跌至 52.7%，Claude 從 1.6% 暴增至 8.9%。",
-      "audience": "正在比較 ChatGPT、Claude、Gemini 該選哪個的職場上班族",
-      "pain_point": "訂閱了 ChatGPT 但常聽說 Claude、Gemini 更強，不知道現在主流到底用哪個、要不要跟著換",
-      "title_idea": "ChatGPT 正在被超車？最新數據顯示 Claude 一個月內市占翻倍，上班族該換工具了嗎",
-      "local_angle": "華語圈討論還停留在「ChatGPT 最強」的舊印象，用最新流量數據做「2026 年中 AI 工具選擇指南」，搶占資訊差"
+      "summary": "Sensor Tower數據顯示ChatGPT五月衝破10億月活，Claude、Meta AI年增率三位數。",
+      "audience": "還在猶豫要不要把AI工具排進日常工作流的職場上班族",
+      "pain_point": "身邊同事好像都在用AI工具，自己卻還停留在「偶爾問問ChatGPT」，擔心生產力被拉開差距卻不知從何系統化導入",
+      "title_idea": "全球10億人每月在用ChatGPT！2026年中AI使用數據看懂：你落後了嗎？",
+      "local_angle": "用「ChatGPT破10億」這個全球級數字當鉤子，搭配Claude/Meta AI成長率對比圖，做成「上班族AI工具導入現況」系列開場"
     }
   ],
   "tool_updates": [
     {
-      "title": "新 App「Pool」把你的截圖變成可搜尋的 AI 記憶庫",
+      "title": "Moonshot AI 開源新模型 Kimi K2.7-Code：1兆參數、推理token省30%、可商用",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/11/pools-new-app-turns-your-screenshots-into-a-searchable-memory-bank/"}
+        {"name": "Crypto Briefing", "url": "https://cryptobriefing.com/kimi-k2-7-code-open-source-release/"},
+        {"name": "Hugging Face", "url": "https://huggingface.co/moonshotai/Kimi-K2.7-Code"}
       ],
-      "summary": "新應用程式 Pool 用 AI 自動整理、標記手機截圖，可用語意搜尋找回任何截圖內容。",
-      "audience": "手機相簿裡塞滿截圖、常常找不到重要資訊的職場上班族",
-      "pain_point": "截圖存了上千張，會議重點、訂單明細、靈感筆記全部混在一起，要用的時候根本找不到",
-      "title_idea": "手機截圖救星來了！這個新 AI App 讓你「用講的」就能找到任何一張截圖",
-      "local_angle": "手機截圖整理是極高共鳴的日常痛點，且工具剛上線、中文教學是空白市場，適合做成實測開箱影片"
-    },
-    {
-      "title": "DoorDash 推出 AI 點餐助理「Ask DoorDash」，打字、傳照片就能下單",
-      "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/11/doordashs-new-ai-chatbot-lets-you-order-with-prompts-and-photos/"}
-      ],
-      "summary": "DoorDash 新推出的 AI 聊天機器人，讓用戶用自然語言或上傳照片描述需求即可完成點餐。",
-      "audience": "對 AI 如何改變消費體驗有興趣的職場上班族、電商/外送產業相關工作者",
-      "pain_point": "好奇 AI 聊天機器人到底能不能取代傳統的「點選式」介面，未來台灣外送 App 會不會也跟進",
-      "title_idea": "點外賣不用再滑選單了！DoorDash 上線 AI 點餐機器人，傳張照片就幫你下單",
-      "local_angle": "台灣外送平台尚未推出類似功能，可做成「海外已驗證、台灣還沒有」的趨勢觀察，預測本地平台跟進時間"
-    },
-    {
-      "title": "免買 Copilot+ PC！微軟讓一般 RTX 30 系顯卡也能跑 Windows 11 本機 AI 功能",
-      "sources": [
-        {"name": "Windows Latest", "url": "https://www.windowslatest.com/2026/06/11/microsoft-is-killing-the-copilot-pc-advantage-brings-windows-11s-local-ai-to-rtx-30-pcs-with-6gb-vram/"}
-      ],
-      "summary": "微軟開放搭載 RTX 30 系以上、6GB VRAM 顯卡的一般 PC，也能使用 Windows 11 本機語言模型 API。",
-      "audience": "用一般文書/遊戲筆電工作、捨不得買新 Copilot+ PC 的職場上班族",
-      "pain_point": "聽說 Windows 11 有很多本機 AI 新功能，但以為一定要買貴鬆鬆的新款 Copilot+ PC 才能用",
-      "title_idea": "你的舊顯卡也能跑 AI！微軟悄悄解鎖 Windows 11 本機 AI 功能，免換新電腦",
-      "local_angle": "多數上班族電腦都是 RTX 30 系，這則消息直接影響「要不要換電腦」的購買決策，適合做成「免費解鎖隱藏功能」教學"
+      "summary": "Kimi K2.7-Code開源上線，混合專家架構大幅降低推理成本與延遲，採修改版MIT授權可商用。",
+      "audience": "想用AI寫程式、做自動化但對訂閱費敏感的職場上班族與SOHO工作者",
+      "pain_point": "ChatGPT、Claude訂閱費不斷上漲，想找免費或低成本的AI編程助手，但又覺得「開源模型」門檻太高、跟自己無關",
+      "title_idea": "免費開源AI編程神器來了！Kimi K2.7-Code省30%運算成本，這樣用不用懂寫程式",
+      "local_angle": "中國團隊開源模型在海外科技圈討論度高，但華語職場受眾普遍不知道「開源模型」對自己有何實際用處，適合做「不用寫code也能懂」的科普切角"
     }
   ],
-  "trends": [
-    {
-      "title": "Anthropic 攜手印度 IT 巨頭 TCS，成立專責部門推廣 Claude 企業導入",
-      "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/11/anthropic-taps-tcs-to-scale-its-enterprise-ai-deployments/"}
-      ],
-      "summary": "Anthropic 與 Tata Consultancy Services 合作，由 TCS 成立專責單位協助金融、醫療、電信等產業導入 Claude。",
-      "audience": "在外商/大型企業任職、未來可能接觸到企業導入 AI 專案的職場上班族",
-      "pain_point": "公司說要導入 AI，但都是顧問公司在主導，員工不知道接下來自己的工作流程會被怎麼改變",
-      "title_idea": "你的公司可能快要被 TCS「AI 化」了：Anthropic 找來顧問巨頭大舉導入 Claude 的真正意義",
-      "local_angle": "這類「AI 巨頭 + 顧問公司」的企業導入模式，未來可能複製到台灣的外商分公司，適合做成「企業 AI 導入會怎麼影響你」的職場觀察選題"
-    },
-    {
-      "title": "音樂串流平台 Deezer 推出 AI 檢測工具，能揪出 Spotify、Apple Music 上的 AI 生成歌曲",
-      "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/11/deezers-new-tool-can-identify-ai-music-from-spotify-apple-music-and-others/"}
-      ],
-      "summary": "Deezer 推出新工具，可掃描並標示 Spotify、Apple Music 等平台上由 AI 生成的音樂內容。",
-      "audience": "用 Suno、Udio 等 AI 工具做音樂、配樂的自媒體創作者",
-      "pain_point": "用 AI 生成的音樂當作影片配樂或上架，擔心未來會被平台標記、下架或影響流量分潤",
-      "title_idea": "你的 AI 配樂可能正在被「抓包」：串流平台開始大規模偵測 AI 生成音樂",
-      "local_angle": "華語創作者大量使用 AI 配樂卻很少注意版權與平台規範變化，可做成「AI 音樂創作者必知的平台新規則」提醒型內容，搶占警示資訊差"
-    }
-  ]
+  "trends": []
 }
