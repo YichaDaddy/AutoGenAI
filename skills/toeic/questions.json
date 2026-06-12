@@ -1,71 +1,71 @@
 {
-  "date": "2026-06-12",
+  "date": "2026-06-13",
   "p5": [
     {
-      "id": "2026-06-12-p5-0",
+      "id": "2026-06-13-p5-0",
       "tag": "假設語氣倒裝",
       "pre": "",
-      "post": " the regulatory authority to reject the proposed merger, both companies would be required to submit a revised compliance framework within sixty days.",
-      "opts": ["Were", "Should", "If", "Was"],
+      "post": " the merger fail to receive regulatory clearance by the end of the fiscal quarter, both parties have agreed to revisit the terms of the agreement.",
+      "opts": ["Should", "If", "Would", "Were"],
       "ans": 0,
-      "zh": "若主管機關駁回此項提案併購案，雙方企業將須在六十天內提交修訂後的法規遵循架構。",
-      "why": "<b>Were + S + to V</b> 為與現在/未來事實相反的假設語氣倒裝形式，等同於 \"If the regulatory authority were to reject...\"，後接不定詞，與空格後的 \"to reject\" 搭配一致。\"Should + S + 原形動詞\"用於可能性較高的未來假設，但其後不可接 \"to V\"，與後文不合；\"If\" 須搭配「主詞+動詞」（If the authority were to reject），不可直接接「名詞+to V」；正式假設語氣中一律用 \"<b>were</b>\"，不可用 \"Was\"。"
+      "zh": "若此次併購未能在本財務季度結束前獲得監管機關核准，雙方已同意重新檢視協議條款。",
+      "why": "\"<b>Should</b> + S + 原形動詞\" 是 \"If + S + should + 原形動詞\" 省略 if 並將 should 移至句首的倒裝句型，表示「萬一、假設」，後接原形動詞 <b>fail</b>，與本句結構相符。\"Were\" 須搭配 \"to V\"（Were...to fail），與後方 \"fail\" 不一致；\"If\" 後須用第三人稱單數 \"fails\" 或 \"should fail\"；\"Would\" 不能單獨引導條件子句。"
     },
     {
-      "id": "2026-06-12-p5-1",
+      "id": "2026-06-13-p5-1",
       "tag": "分詞構句（被動）",
       "pre": "",
-      "post": " to substantial scrutiny by industry regulators, the proposed accounting practices were ultimately deemed compliant with international standards.",
-      "opts": ["Subjecting", "Subjected", "Having subjected", "To subject"],
-      "ans": 1,
-      "zh": "在受到產業監管機關的嚴格審查後，這些擬議中的會計實務最終被認定符合國際準則。",
-      "why": "分詞構句的邏輯主詞為主要子句主詞 \"the proposed accounting practices\"，與動詞 subject（使受到）之間為<b>被動關係</b>（會計實務「被」審查），須用過去分詞 \"Subjected\" 構成被動分詞構句，相當於 \"Having been subjected to...\"。\"Subjecting\"（主動現在分詞）、\"To subject\"（不定詞）、\"Having subjected\"（完成式主動分詞）皆暗示主詞為動作執行者，與句意不符。"
+      "post": " by an independent auditor, the financial statements were deemed compliant with international accounting standards.",
+      "opts": ["Reviewed", "Reviewing", "Having reviewed", "To review"],
+      "ans": 0,
+      "zh": "經獨立審計師審查後，財務報表被認定符合國際會計準則。",
+      "why": "分詞構句的邏輯主詞為主要子句主詞 \"the financial statements\"，與動詞 review 之間為<b>被動關係</b>（報表「被」審查），須用過去分詞 \"<b>Reviewed</b>\"，相當於 \"Having been reviewed\" 的省略形式。\"Reviewing\"（主動現在分詞）與 \"Having reviewed\"（主動完成分詞）皆暗示主詞主動執行審查動作，語意矛盾；\"To review\" 為不定詞，不可單獨置於句首構成分詞構句。"
     },
     {
-      "id": "2026-06-12-p5-2",
-      "tag": "名詞子句的假設語氣",
-      "pre": "The compliance officer recommended that the firm ",
-      "post": " all third-party vendor contracts before the end of the fiscal quarter.",
-      "opts": ["reviews", "review", "reviewed", "will review"],
-      "ans": 1,
-      "zh": "法遵主管建議公司應在本會計季度結束前，重新審查所有第三方供應商合約。",
-      "why": "動詞 \"recommend\"（建議）後接的 that 子句須使用<b>假設語氣</b>，不論主詞為第三人稱單數，動詞一律用<b>原形</b>，故為 \"review\"。\"reviews\"（第三人稱單數現在式）、\"reviewed\"（過去式）、\"will review\"（未來式）皆為直述語氣，不符合「建議類動詞 + that 子句」須用原形動詞的規則。"
+      "id": "2026-06-13-p5-2",
+      "tag": "非限定關係子句",
+      "pre": "The CEO announced a restructuring plan, ",
+      "post": " is expected to result in the elimination of approximately 200 positions across three divisions.",
+      "opts": ["which", "that", "what", "it"],
+      "ans": 0,
+      "zh": "執行長宣布了一項重組計畫，預計將導致三個部門共約200個職位被裁撤。",
+      "why": "逗號後的子句為<b>非限定關係子句</b>，用以補充說明前面的先行詞 \"a restructuring plan\"，須用 \"<b>which</b>\"。\"that\" 不可用於以逗號隔開的非限定關係子句中；\"what\" 本身已內含先行詞，前方不應再有名詞先行詞；\"it\" 為人稱代名詞，置於此處會使句子變成沒有連接詞的連寫句（run-on sentence），文法錯誤。"
     },
     {
-      "id": "2026-06-12-p5-3",
+      "id": "2026-06-13-p5-3",
       "tag": "讓步介系詞",
       "pre": "",
-      "post": " persistent currency fluctuations throughout the fiscal year, the multinational corporation reported record profits in its overseas divisions.",
-      "opts": ["Despite", "Although", "In spite", "However"],
+      "post": " the substantial cost overruns documented in the engineering report, the steering committee voted to proceed with the construction phase as originally scheduled.",
+      "opts": ["Notwithstanding", "Although", "Provided that", "In light of"],
       "ans": 0,
-      "zh": "儘管整個會計年度貨幣匯率持續波動，這家跨國企業的海外部門仍創下獲利新高。",
-      "why": "空格後直接接名詞片語（persistent currency fluctuations...），須用<b>介系詞</b>表達「讓步」語意，\"Despite\" 可直接接名詞片語，意為「儘管」。\"Although\" 為連接詞，須接「主詞+動詞」子句；\"In spite\" 須搭配 \"of\" 才能接名詞，單獨使用不合文法；\"However\"（然而）為副詞，不能直接接名詞片語作為讓步引導詞。"
+      "zh": "儘管工程報告中記載了大幅超支的成本，指導委員會仍投票決定按原定計畫進行建設階段。",
+      "why": "\"<b>Notwithstanding</b>\" 為介系詞，意為「儘管」，可直接接名詞片語表讓步，符合本句結構。\"Although\" 為從屬連接詞，須接「主詞+動詞」的完整子句，不能直接接名詞片語；\"Provided that\" 意為「只要、假如」，引導條件子句，語意不符；\"In light of\" 意為「鑑於、考量到」，會使句意變成「因超支而決定繼續」，與全句的讓步邏輯矛盾。"
     },
     {
-      "id": "2026-06-12-p5-4",
-      "tag": "動詞語意辨別（進階）",
-      "pre": "The non-compete clause embedded in the executive's severance agreement ",
-      "post": " him from accepting employment with any competing firm for a period of two years.",
-      "opts": ["precludes", "deprives", "exempts", "spares"],
+      "id": "2026-06-13-p5-4",
+      "tag": "比較結構",
+      "pre": "",
+      "post": " negotiations drag on without resolution, the more skeptical investors become regarding the viability of the proposed joint venture.",
+      "opts": ["The longer", "Longer", "As long as", "The long"],
       "ans": 0,
-      "zh": "該名高階主管離職協議中所載的競業禁止條款，使其在兩年內不得受雇於任何競爭企業。",
-      "why": "<b>preclude sb from V-ing</b> 意為「使某人不可能／不被允許做某事」，語意等同於「禁止」，符合競業禁止條款具強制效力的語境。\"deprive\" 須搭配介系詞 <b>of</b>（deprive sb of sth），與 from 搭配錯誤；\"exempt sb from\"（豁免某人某項義務）語意恰與「禁止」相反；\"spare sb from\"（使某人免於遭受不愉快之事）語意不符，條款並非在保護他，而是限制其行為。"
+      "zh": "談判持續拖延而未獲解決的時間越長，投資人對於該合資計畫可行性的疑慮就越深。",
+      "why": "本句為「<b>the + 比較級..., the + 比較級...</b>」的相關比較句型，意為「越...就越...」，前後兩分句皆須以 \"the + 比較級\" 開頭，故須選 \"<b>The longer</b>\"，對應後句的 \"the more skeptical\"。\"Longer\" 缺少冠詞 the，不符此句型結構；\"As long as\"（只要）引導條件子句，與後句的比較關聯結構不搭配；\"The long\" 中 \"long\" 並非比較級形式，文法錯誤。"
     }
   ],
   "p6": {
-    "id": "2026-06-12-p6",
-    "title": "Memorandum: Integration of Operations and Logistics Departments",
+    "id": "2026-06-13-p6",
+    "title": "Memorandum: Temporary Suspension of On-Site Parking Privileges",
     "seg": [
-      ["TO: All Staff\nFROM: Office of the Chief Operating Officer\nRE: Departmental Integration Following the Hartwell Acquisition\n\nFollowing the recent acquisition of Hartwell Industries, the Operations and Logistics departments ", {"b": 0}, " under the direction of a single Vice President, effective August 1. This integration is designed to eliminate redundant functions and consolidate our supply chain oversight."],
-      [{"b": 1}, ", employees currently assigned to either department should expect to receive an updated organizational chart and a revised reporting structure no later than July 15. Staff who do not receive this information by the stated date should contact Human Resources without delay."],
-      ["Management recognizes that organizational changes of this scale can ", {"b": 2}, " uncertainty among employees, and we are committed to maintaining open lines of communication throughout the transition. A dedicated integration task force has been established to address questions and resolve scheduling conflicts as they arise."],
-      [{"b": 3}, "\n\nWe sincerely appreciate your patience, flexibility, and continued dedication as we navigate this transition together.\n\nSincerely,\nOffice of the Chief Operating Officer"]
+      ["TO: All Staff\nFROM: Facilities Management\nRE: Temporary Suspension of On-Site Parking\n\nBeginning July 1, the underground parking garage at the headquarters building ", {"b": 0}, " for structural reinforcement work that is expected to last approximately six weeks. During this period, employees who currently hold reserved parking permits will need to make alternative arrangements for commuting."],
+      ["Employees affected by this closure are strongly encouraged to explore public transportation options or carpooling arrangements with colleagues. ", {"b": 1}, ", the company will provide a complimentary shuttle service running every twenty minutes between the headquarters and the Riverside Street parking facility, located approximately eight minutes away by car."],
+      ["Staff members who rely on the shuttle service should ", {"b": 2}, " their schedules accordingly, as the first departure from headquarters is at 7:00 a.m. and the last return trip departs Riverside Street at 7:30 p.m."],
+      [{"b": 3}]
     ],
     "blanks": [
-      {"tag": "時態語態（未來式被動語態）", "col1": true, "opts": ["will place", "will be placed", "have placed", "were placing"], "ans": 1, "zh": "繼最近收購Hartwell工業公司後，營運部與物流部將自八月一日起，被併入由一位副總裁統一管轄。", "why": "主詞 \"the Operations and Logistics departments\" 是被「安置、歸併」的對象，而非主動執行此動作的一方，須用<b>被動語態</b>；\"effective August 1\" 表示此變動於未來生效，須搭配<b>未來式</b>，故為 \"will be placed\"。\"will place\" 為主動語態，邏輯不通；\"have placed\"（現在完成式）與 \"were placing\"（過去進行式）時態皆與未來生效的語境不符。"},
-      {"tag": "語篇連接詞（時間銜接）", "col1": true, "opts": ["In the meantime", "On the contrary", "As a result", "In retrospect"], "ans": 0, "zh": "在此同時，目前隸屬於這兩個部門的員工應於七月十五日前收到更新後的組織圖與修訂後的報告架構。若在指定日期前未收到相關資訊，員工應立即聯繫人力資源部門。", "why": "前段說明部門整併將於八月一日生效，本段說明「在此期間」員工應採取的行動，兩者為時間先後的銜接關係，故用 \"<b>In the meantime</b>\"（在此同時）。\"On the contrary\"（恰恰相反）表對立；\"As a result\"（因此）表因果；\"In retrospect\"（事後回顧）用於回顧過去，三者皆與承接「過渡期間」的語意不符。"},
-      {"tag": "詞彙語意（進階字彙辨析）", "col1": true, "opts": ["engender", "endeavor", "enhance", "endorse"], "ans": 0, "zh": "管理階層理解此規模的組織變動可能會引發員工的不安，我們承諾在轉型過程中保持溝通管道暢通。已成立專責整合工作小組，以因應問題並解決可能出現的排程衝突。", "why": "<b>engender</b> 意為「引發、產生」，常接負面抽象名詞（如 uncertainty），語意符合「組織變動引發員工不安」。\"endeavor\"（努力）通常不直接接名詞作受詞；\"enhance\"（提升）與「不安」搭配語意矛盾；\"endorse\"（背書、支持）語意不符，管理階層不會「支持不安」。"},
-      {"tag": "句子插入（語篇銜接與主旨一致性）", "col1": true, "opts": ["A detailed FAQ document addressing common questions about the integration will be circulated to all affected staff by July 10.", "The company's annual holiday party has been rescheduled to accommodate the new office layout.", "Quarterly sales figures for the Asia-Pacific region exceeded projections by twelve percent.", "All employees are reminded to renew their parking permits before the end of the month."], "ans": 0, "zh": "一份針對此次整併常見問題的詳細問答文件，將於七月十日前發送給所有受影響的員工。我們由衷感謝各位在這次轉型過程中展現的耐心、彈性與持續的奉獻。", "why": "此句須與全文主旨（部門整併、過渡期間的溝通與後續說明）一致，並自然銜接段落結尾的感謝語句。選項中僅有「將發送整併相關問答文件」與整併主題直接相關。其餘選項分別涉及尾牙活動、亞太區業績、停車證更新，皆與部門整併備忘錄主旨無關，屬於離題句子。"}
+      {"tag": "時態語態（未來式被動語態）", "col1": true, "opts": ["will be closed", "is closed", "was closed", "had been closed"], "ans": 0, "zh": "自七月一日起，總部大樓的地下停車場將因結構強化工程而關閉，預計將持續約六週。在此期間，目前持有保留車位許可證的員工需另行安排通勤方式。", "why": "句首 \"Beginning July 1\" 指向未來特定時間點，且停車場是被工程單位「關閉」的對象，主詞與動詞之間為<b>被動關係</b>，須用未來時態的被動語態 \"<b>will be closed</b>\"。\"is closed\"（現在時）、\"was closed\"（過去時）、\"had been closed\"（過去完成時）的時態皆與「自七月一日起」所指的未來時間點不符。"},
+      {"tag": "語篇連接詞（時間銜接）", "col1": true, "opts": ["In the meantime", "On the other hand", "Even so", "As a result"], "ans": 0, "zh": "受此次關閉影響的員工，強烈建議探索大眾運輸或與同事共乘的安排。在此期間，公司將提供免費接駁車服務，每二十分鐘一班，往返總部與約八分鐘車程的Riverside Street停車場。", "why": "前句說明員工可採取的替代通勤方式，後句說明「在停車場關閉期間」公司額外提供的接駁服務，兩者為「同一期間內並行措施」的關係，故用 \"<b>In the meantime</b>\"（在此同時、在此期間）。\"On the other hand\"（另一方面）表對比；\"Even so\"（即使如此）表讓步；\"As a result\"（因此）表因果，三者皆與此處表達「期間內並行」的語意不符。"},
+      {"tag": "詞彙語意（進階字彙辨析）", "col1": true, "opts": ["adjust", "amend", "compose", "accommodate"], "ans": 0, "zh": "依賴接駁車服務的員工應據此調整作息時間，因為從總部出發的首班車為早上七點，而從Riverside Street返回的末班車則於晚上七點三十分發車。", "why": "\"<b>adjust</b> one's schedule\" 為固定搭配，意指依新情況微調作息時間，最符合語境。\"amend\"（修訂）多用於正式文件、法規或合約，不用於描述個人作息；\"compose\"（撰寫、組成）語意不符；\"accommodate\"（配合、容納）通常接「他人」或「需求」作受詞，不會說 \"accommodate one's own schedule accordingly\"。"},
+      {"tag": "句子插入（語篇銜接與主旨一致性）", "col1": true, "opts": ["Questions regarding the shuttle schedule or requests for temporary off-site parking permits should be directed to the Facilities Help Desk at extension 4521.", "The company's annual holiday party will be held in the main lobby on December 15th.", "Please note that the cafeteria will remain open during normal operating hours throughout the renovation period.", "All employees are reminded to submit their expense reports by the end of each month."], "ans": 0, "zh": "有關接駁車時間或臨時場外停車許可證的申請，相關問題請洽設施服務台，分機4521。", "why": "本段為全文結尾，須與整篇備忘錄的主旨（停車場關閉、接駁安排）緊密呼應，並提供讀者進一步詢問的管道，因此「提供設施服務台聯絡方式」最為恰當。其餘選項分別涉及尾牙活動、餐廳營業時間、報帳期限，皆與停車場關閉公告的主題無關，置於此處會破壞文章的主題一致性。"}
     ]
   }
 }
