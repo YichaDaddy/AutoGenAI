@@ -1,1 +1,157 @@
 === Sun Jun 14 01:00:01 CST 2026 | Starting daily AI report ===
+看板已成功更新！現在生成完整的文字日報和來源覆蓋狀況。
+
+---
+
+## 📰 AutoGenAI 爆款選題日報
+**日期：2026-06-13** | **賽道：AI 效率工具** | **目標受眾：職場上班族**
+
+---
+
+### 🔥 **板塊一：大事件**（影響廣泛的重要新聞）
+
+**1. Anthropic Fable 5 和 Mythos 5 被美國政府強制下線——才上線 3 天就被迫停運**
+- **來源**：[Bloomberg](https://www.bloomberg.com/news/articles/2026-06-13/anthropic-says-us-limits-foreign-access-to-fable-5-mythos-5) · [Fortune](https://fortune.com/2026/06/13/anthropic-disables-fable-mythos-export-controls-national-security-threat/) · [The New Stack](https://thenewstack.io/us-gov-orders-anthropic-to-pull-fable-5-and-mythos-5-three-days-after-launch/)
+- **摘要**：美國政府下達出口管制令，禁止外國人訪問 Fable 5 和 Mythos 5。Anthropic 雖反駁但仍遵令下線模型。
+
+**中文觀眾選題角度：**
+- **目標受眾**：正在考慮使用 Anthropic 旗艦模型的企業和開發者、跨國遠程工作者
+- **痛點**：剛開始依賴某個 AI 工具就被政府禁用；跨國團隊無法統一方案；對 AI 政策的不確定性感到無力
+- **標題雛形**：「AI 時代的『卡脖子』危機：Anthropic 最強模型上線 3 天被政府強制下線，你的工作流該怎麼辦？」
+- **本地化切角**：海外第一次發生「政府強制禁用 AI 模型」的事件，華語圈尚無實質討論。可做「AI 工具政策風險評估」、「多模型備份策略」等實操指南
+
+---
+
+**2. Anthropic 企業應用首度超越 OpenAI——Ramp AI Index 顯示採用率達 41%**
+- **來源**：[Ramp AI Index](https://ramp.com/data/ai-index) · [VentureBeat](https://venturebeat.com/technology/anthropic-finally-beat-openai-in-business-adoption-but-3-big-threats-could-erase-its-lead/) · [FourWeekMBA](https://fourweekmba.com/anthropic-overtakes-openai-enterprise-adoption-ramp-ai-index/)
+- **摘要**：Ramp 根據數萬家企業真實付費數據，Anthropic 採用率升至 41%，首次超越 OpenAI。企業級 AI 選擇里程碑式轉變。
+
+**中文觀眾選題角度：**
+- **目標受眾**：IT 部門、企業採購者、想選「最安全靠譜」AI 工具的管理層
+- **痛點**：在 OpenAI 和 Anthropic 間反覆糾結；擔心選錯導致後續遷移成本高；想找「有更多公司用」的選項
+- **標題雛形**：「爆炸性數據：Anthropic 首度超越 OpenAI！4.1 萬家美國公司的選擇告訴你什麼信號」
+- **本地化切角**：基於真實企業付費數據的第一次「官方認證」翻轉，國內尚無同等分析。可做「企業 AI 選型指南」、「OpenAI vs Anthropic 成本對比」
+
+---
+
+**3. OpenAI 遭多州檢察官調查——隱私、定價、工人權益成焦點**
+- **來源**：[TechCrunch](https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/)
+- **摘要**：美國多州檢察官就 OpenAI 的隱私政策、定價透明度、工人權益等問題展開正式調查。社會對 AI 龍頭的監管壓力持續升高。
+
+**中文觀眾選題角度：**
+- **目標受眾**：依賴 OpenAI 服務的組織和開發者、關心「AI 公司是否會被制約」的創業者
+- **痛點**：OpenAI 如果被罰重金可能漲價；調查期間政策變數多；不確定付費方案是否會被凍結或要求退款
+- **標題雛形**：「OpenAI 被多州檢察官調查！AI 巨頭面臨『隱私、定價、工人權益』的三面夾擊，創業者要未雨綢繆」
+- **本地化切角**：監管風險是 AI 創業者最容易忽視的課題。可做「AI 公司政策風險清單」、「合規成本有多高」等實操分析
+
+---
+
+### 🛠️ **板塊二：工具更新**（具體 AI 工具或產品的新功能/版本）
+
+**4. Claude Code 新增 Fork 命令和 CLI——打造並行工作流，不用來回切分支**
+- **來源**：[Releasebot (Anthropic)](https://releasebot.io/updates/anthropic/claude-code) · [Claude Code Changelog](https://claudefa.st/blog/guide/changelog)
+- **摘要**：Claude Code 桌面版和 CLI 新增 /fork 和 /branch 命令，讓開發者在同一對話中分岔成平行會話，無需複製整個上下文。
+
+**中文觀眾選題角度：**
+- **目標受眾**：用 Claude Code 寫程式的開發者、想提高編碼效率的程序員
+- **痛點**：想試驗多個不同代碼方案卻要在兩個完整聊天記錄間來回切換；重複粘貼上下文很煩人
+- **標題雛形**：「Claude Code 更新：Fork 命令來了，從此一個對話跑四個方案，編碼效率翻倍」
+- **本地化切角**：Fork 是程序員日常開發的基本需求。可做「Claude Code 進階用法」系列，或對標「VSCode 分支開發體驗」
+
+---
+
+**5. OpenAI 併購德國 AI 初創 Ona——為 Codex 加上「24 小時不中斷」工作能力**
+- **來源**：[OpenAI News](https://openai.com/index/openai-to-acquire-ona/) · [Bloomberg](https://www.bloomberg.com/news/articles/2026-06-11/openai-to-acquire-cloud-platform-ona-to-support-ai-agents) · [CNBC](https://www.cnbc.com/2026/06/11/open-ai-ona-acquisition-codex.html)
+- **摘要**：OpenAI 併購 Ona，一家德國 AI 代理雲平台。Ona 技術可讓 Codex AI 代理進行跨裝置、跨會話的長期工作。
+
+**中文觀眾選題角度：**
+- **目標受眾**：想讓 AI 代理完整執行多天工作的企業自動化經理、開發者生產力工具愛好者
+- **痛點**：當前 AI 編碼助手只能在單次會話中工作；無法接手「跨越多天的編碼專案」；每次重啟要重新 context dump
+- **標題雛形**：「OpenAI 砸錢買 Ona：Codex 升級了，終於能接手『不用看著的長期工作』」
+- **本地化切角**：OpenAI 首次向「AI 代理能做多少事」演進的併購信號，國內科技圈還沒充分討論。可做「Codex 與其他編碼 AI 對比」
+
+---
+
+**6. Google Gemini 3.5 Pro 即將上線——200 萬 token 上下文，Deep Think 推理加持**
+- **來源**：[TechTimes](https://www.techtimes.com/articles/317919/20260606/google-gemini-35-pro-nears-june-launch-with-2-million-token-context-and-deep-think-reasoning.htm) · [WaveSpeed Blog](https://wavespeed.ai/blog/posts/gemini-3-5-pro-coming-next-month/)
+- **摘要**：Google I/O 確認 Gemini 3.5 Pro 將在 6 月推出，帶來 200 萬 token 上下文窗口和新的 Deep Think 推理模式。
+
+**中文觀眾選題角度：**
+- **目標受眾**：需要處理超大文件、研究報告、程式碼庫的知識工作者、多模態分析愛好者
+- **痛點**：現有工具的 context 上限經常不夠用；複雜推理工作要手動分拆任務；想處理「文字 + 圖片 + 表格」卻常卡頓
+- **標題雛形**：「Google 終於出手：Gemini 3.5 Pro 月底到，200 萬 token 讓你一次讀完整個數據湖」
+- **本地化切角**：Google 對標 Claude 和 GPT 的正面交戰。可做「三大模型 context 窗口對比」、「Deep Think 模式實測」
+
+---
+
+### 📈 **板塊三：值得追蹤的趨勢**（還沒爆發但值得留意的苗頭）
+
+**7. GPT-5.6 「Kindle-Alpha」洩露——更強推理、編碼、視覺能力，官方尚未宣布**
+- **來源**：開發者頻道 · [Build Fast With AI](https://www.buildfastwithai.com/blogs/ai-news-today-june-13-2026)
+- **摘要**：OpenAI GPT-5.6「Kindle-Alpha」檢查點在開發者頻道洩露，顯示更強的推理、編碼和視覺效能。OpenAI 尚未官方確認。
+
+**中文觀眾選題角度：**
+- **目標受眾**：密切跟蹤 AI 前沿進展的技術愛好者、想提前布局的創業者
+- **痛點**：想知道「OpenAI 下一步在幹嘛」來決定自己的技術棧選擇；擔心新模型發布後自己的投資立即過時
+- **標題雛形**：「GPT-5.6 來了？開發者洩露新檢查點，推理和編碼能力又上一層樓」
+- **本地化切角**：此類「洩露信號」帖容易被捲成「虛假爆料」。應做「如何判斷 AI 模型洩露的真偽」科普，同時追蹤官方宣布
+
+---
+
+**8. Anthropic 推出競爭性產品 Claude Design 引發合作夥伴不滿——IPO 前的「攻勢」**
+- **來源**：[The Information (引述)](https://www.buildfastwithai.com/blogs/ai-news-today-june-13-2026) · [VentureBeat](https://venturebeat.com/technology/anthropic-finally-beat-openai-in-business-adoption-but-3-big-threats-could-erase-its-lead/)
+- **摘要**：Anthropic 悄悄推出 Claude Design（對標 Figma 和 Canva），卻在上線前才通知合作夥伴。同步還有未公開的定價調整，引發企業信任危機。
+
+**中文觀眾選題角度：**
+- **目標受眾**：考慮與 Anthropic 長期合作的企業和合作方、Anthropic IPO 觀察者
+- **痛點**：擔心 Anthropic 會意外推出與自己業務衝突的產品；不信任「暗地裡簽署的合作協議」；想知道 Anthropic 的真實野心
+- **標題雛形**：「Anthropic 的真面目曝光：企業 AI 龍頭竟悄悄跟合作夥伴搶生意，IPO 前這一步很凶險」
+- **本地化切角**：揭示 AI 龍頭快速成長下的「管理張力」。可做「AI 公司合作協議裡的陷阱」、「IPO 前的策略轉向有多激進」等解讀
+
+---
+
+---
+
+### 📋 **來源覆蓋狀況**
+
+| 來源 | 狀態 | 昨日內容數量 | 備註 |
+|------|------|------------|------|
+| **YouTube 頻道** | | | |
+| Matt Wolfe (@mreflow) | ❌ | 0 | 無法直接抓取 YouTube RSS，WebFetch 失敗 |
+| The AI Advantage | ❌ | 0 | 同上 |
+| Matthew Berman | ❌ | 0 | 同上 |
+| Wes Roth | ❌ | 0 | 同上 |
+| MattVidPro AI | ❌ | 0 | 同上 |
+| Skill Leap AI | ❌ | 0 | 同上 |
+| **科技媒體** | | | |
+| TechCrunch AI | ✅ | 1 | OpenAI investigation |
+| The Verge AI | ❌ | 0 | WebFetch 無法存取 |
+| FutureTools News | ⚠️ | 0 | 週末更新較慢，無 06-13 新工具 |
+| **X/Twitter 官方帳號** | | | |
+| @OpenAI | ⚠️ | 1 | 通過 WebSearch 間接抓取（併購 Ona 宣布） |
+| @AnthropicAI | ✅ | 2 | Fable 5/Mythos 5 下線；企業應用超越 |
+| @GoogleDeepMind | ⚠️ | 1 | Gemini 3.5 Pro 預告（但為 5-19 宣布，6-13 有後續報導） |
+| **其他新聞彙整** | | | |
+| Build Fast With AI | ✅ | 多篇 | 「June 13, 2026: 16 Biggest Stories」 |
+| Ramp AI Index | ✅ | 1 | Anthropic 採用率超越 OpenAI |
+| Releasebot | ✅ | 2 | Claude Code fork；其他工具更新 |
+
+---
+
+### 📌 **蒐集困境與建議**
+
+1. **YouTube 頻道抓取困難**：YouTube RSS 提供商限制，需改用 YouTube Data API（需認證）或人工監控頻道。
+2. **X/Twitter 直接存取失敗**：X API 存取權限限制，只能通過 Google News 和 WebSearch 間接獲得轉述內容。
+3. **The Verge 無法 WebFetch**：該網站對自動化爬蟲有保護，需改用其他手段。
+4. **未來優化方向**：
+   - 配置 YouTube RSS 訂閱源（如果可用）
+   - 整合 X API 或使用 Nitter 鏡像
+   - 設定爬蟲友善的媒體訪問方式（如 RSS feed）
+
+---
+
+✅ **DONE**
+
+💡 您的專屬網頁版看板已同步更新，可隨時打開 `daily_topic_dashboard.html` 查看。本次日報已收錄 **8 則精選情報**（大事件 3 則、工具更新 3 則、值得追蹤的趨勢 2 則），全部聚焦 **AI 效率工具賽道** 和 **職場上班族** 的實際痛點。
+--- AI report finished at Sun Jun 14 01:03:48 CST 2026 ---
+=== Sun Jun 14 01:03:48 CST 2026 | Starting daily finance report ===
