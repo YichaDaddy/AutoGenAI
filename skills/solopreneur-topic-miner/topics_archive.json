@@ -1,5 +1,166 @@
 [
   {
+    "date": "2026-06-13",
+    "big_events": [
+      {
+        "title": "Anthropic Fable 5 和 Mythos 5 被美國政府強制下線——才上線 3 天就被迫停運",
+        "sources": [
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-06-13/anthropic-says-us-limits-foreign-access-to-fable-5-mythos-5"
+          },
+          {
+            "name": "Fortune",
+            "url": "https://fortune.com/2026/06/13/anthropic-disables-fable-mythos-export-controls-national-security-threat/"
+          },
+          {
+            "name": "The New Stack",
+            "url": "https://thenewstack.io/us-gov-orders-anthropic-to-pull-fable-5-and-mythos-5-three-days-after-launch/"
+          }
+        ],
+        "summary": "美國政府下達出口管制令，禁止外國人（包括 Anthropic 員工）訪問 Fable 5 和 Mythos 5，理由是國安風險。Anthropic 公開反駁但仍遵令下線模型。",
+        "audience": "正在考慮使用 Anthropic 旗艦模型的企業和開發者；需要跨境協作的遠程工作者",
+        "pain_point": "剛開始依賴某個 AI 工具，突然被政府禁用；跨國團隊無法統一使用同一套 AI 方案；對 AI 政策的不確定性感到無力",
+        "title_idea": "AI 時代的「卡脖子」危機：Anthropic 最強模型上線 3 天被政府強制下線，你的工作流該怎麼辦？",
+        "local_angle": "海外第一次發生「政府強制禁用 AI 模型」的事件，華語圈尚無實質討論。可做「AI 工具政策風險評估」、「多模型備份策略」等實操指南，也能引發對「AI 監管時代」的思考"
+      },
+      {
+        "title": "Anthropic 企業應用首度超越 OpenAI——Ramp AI Index 顯示採用率達 41%",
+        "sources": [
+          {
+            "name": "Ramp AI Index",
+            "url": "https://ramp.com/data/ai-index"
+          },
+          {
+            "name": "VentureBeat",
+            "url": "https://venturebeat.com/technology/anthropic-finally-beat-openai-in-business-adoption-but-3-big-threats-could-erase-its-lead"
+          },
+          {
+            "name": "FourWeekMBA",
+            "url": "https://fourweekmba.com/anthropic-overtakes-openai-enterprise-adoption-ramp-ai-index/"
+          }
+        ],
+        "summary": "Ramp 根據數萬家企業真實付費數據顯示，Anthropic 採用率升至 41%，首次超越 OpenAI（持平）。這是企業級 AI 選擇的里程碑式轉變。",
+        "audience": "IT 部門、企業採購者、想選「最安全靠譜」AI 工具的管理層",
+        "pain_point": "在 OpenAI 和 Anthropic 間反覆糾結，不知道該投資誰；擔心選錯會導致後續遷移成本高；想找到「有更多公司用」的選項",
+        "title_idea": "爆炸性數據：Anthropic 首度超越 OpenAI！4.1 萬家美國公司的選擇告訴你什麼信號",
+        "local_angle": "這是基於真實企業付費數據的第一次「官方認證」的大翻轉，國內尚無同等分析。可做「企業 AI 選型指南」、「OpenAI vs Anthropic 成本對比」等決策輔助內容"
+      },
+      {
+        "title": "OpenAI 遭多州檢察官調查——隱私、定價、工人權益成焦點",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/"
+          }
+        ],
+        "summary": "美國多州檢察官就 OpenAI 的隱私政策、定價透明度、工人權益等問題展開正式調查，反映社會對 AI 龍頭的監管壓力持續升高。",
+        "audience": "依賴 OpenAI 服務的組織和開發者；關心「AI 公司是否會被制約」的創業者",
+        "pain_point": "OpenAI 如果被罰重金可能漲價；調查期間政策變數多；不確定付費方案是否會被凍結或要求退款",
+        "title_idea": "OpenAI 被多州檢察官調查！AI 巨頭面臨「隱私、定價、工人權益」的三面夾擊，創業者要未雨綢繆",
+        "local_angle": "監管風險是 AI 創業者和企業決策者最容易忽視的課題。可做「AI 公司政策風險清單」、「合規成本有多高」等實操分析，預測未來漲價和政策變化"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "Claude Code 新增 Fork 命令和 CLI——打造並行工作流，不用來回切分支",
+        "sources": [
+          {
+            "name": "Releasebot (Anthropic)",
+            "url": "https://releasebot.io/updates/anthropic/claude-code"
+          },
+          {
+            "name": "Claude Code Changelog",
+            "url": "https://claudefa.st/blog/guide/changelog"
+          }
+        ],
+        "summary": "Claude Code 桌面版和 CLI 新增 /fork 和 /branch 命令，讓開發者在同一對話中分岔成平行會話，無需複製整個上下文。",
+        "audience": "用 Claude Code 寫程式的開發者、想提高編碼效率的程序員",
+        "pain_point": "想試驗多個不同的代碼方案（保險 vs 激進），卻要在兩個完整聊天記錄間來回切換；重複粘貼上下文很煩人；擔心弄丟哪一個思路",
+        "title_idea": "Claude Code 更新：Fork 命令來了，從此一個對話跑四個方案，編碼效率翻倍",
+        "local_angle": "Fork 是程序員日常開發的基本需求，但 AI 工具中少見「無痛式並行實驗」。可做「Claude Code 進階用法」系列，或對標「VSCode 分支開發體驗」"
+      },
+      {
+        "title": "OpenAI 併購德國 AI 初創 Ona——為 Codex 加上「24 小時不中斷」工作能力",
+        "sources": [
+          {
+            "name": "OpenAI News",
+            "url": "https://openai.com/index/openai-to-acquire-ona/"
+          },
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-06-11/openai-to-acquire-cloud-platform-ona-to-support-ai-agents"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/06/11/open-ai-ona-acquisition-codex.html"
+          }
+        ],
+        "summary": "OpenAI 宣布併購 Ona，一家 2020 年成立於德國的 AI 代理雲平台公司。Ona 的技術可讓 Codex AI 編碼助手代理人類進行跨裝置、跨會話的長期工作。",
+        "audience": "想讓 AI 代理完整執行多天工作的企業自動化經理；開發者生產力工具愛好者",
+        "pain_point": "當前 AI 編碼助手只能在單次會話中工作，無法接手「跨越多天的編碼專案」；每次重啟就要重新 context dump；想要真正的「24 小時打工 AI」",
+        "title_idea": "OpenAI 砸錢買 Ona：Codex 升級了，終於能接手「不用看著的長期工作」",
+        "local_angle": "這是 OpenAI 首次向「AI 代理能做多少事」演進的併購信號，國內科技圈還沒充分討論。可做「Codex 與其他編碼 AI 對比」、「Ona 被併購後的路線圖」預測"
+      },
+      {
+        "title": "Google Gemini 3.5 Pro 即將上線——200 萬 token 上下文，Deep Think 推理加持",
+        "sources": [
+          {
+            "name": "TechTimes",
+            "url": "https://www.techtimes.com/articles/317919/20260606/google-gemini-35-pro-nears-june-launch-with-2-million-token-context-and-deep-think-reasoning.htm"
+          },
+          {
+            "name": "WaveSpeed Blog",
+            "url": "https://wavespeed.ai/blog/posts/gemini-3-5-pro-coming-next-month/"
+          }
+        ],
+        "summary": "Google I/O 2026 確認 Gemini 3.5 Pro 將在 6 月推出，帶來 200 萬 token 上下文窗口和新的 Deep Think 推理模式，瞄準複雜多模態任務。",
+        "audience": "需要處理超大文件、研究報告、程式碼庫的知識工作者；多模態分析愛好者",
+        "pain_point": "現有工具的 context 上限經常不夠用；複雜推理工作要手動分拆任務；想用同一個工具處理「文字 + 圖片 + 表格 + 影片」但常卡頓",
+        "title_idea": "Google 終於出手：Gemini 3.5 Pro 月底到，200 萬 token 讓你一次讀完整個數據湖",
+        "local_angle": "這是 Google 對標 Claude 和 GPT 的正面交戰。可做「三大模型 context 窗口對比」、「Deep Think 模式實測」等評測內容"
+      }
+    ],
+    "trends": [
+      {
+        "title": "GPT-5.6 「Kindle-Alpha」洩露——更強推理、編碼、視覺能力，官方尚未宣布",
+        "sources": [
+          {
+            "name": "TechTimes (引述開發者爆料)",
+            "url": "https://www.techtimes.com/articles/317919/20260606/google-gemini-35-pro-nears-june-launch-with-2-million-token-context-and-deep-think-reasoning.htm"
+          },
+          {
+            "name": "Build Fast With AI",
+            "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-13-2026"
+          }
+        ],
+        "summary": "OpenAI GPT-5.6「Kindle-Alpha」檢查點在開發者頻道洩露，顯示更強的推理、編碼和視覺效能。OpenAI 尚未官方確認該模型存在或發布時間。",
+        "audience": "密切跟蹤 AI 前沿進展的技術愛好者、想提前布局的創業者",
+        "pain_point": "想知道「OpenAI 下一步在幹嘛」來決定自己的技術棧選擇；擔心新模型發布後自己的投資立即過時",
+        "title_idea": "GPT-5.6 來了？開發者洩露新檢查點，推理和編碼能力又上一層樓",
+        "local_angle": "這類「洩露信號」帖很容易被國內捲成「虛假爆料」。應做「如何判斷 AI 模型洩露的真偽」科普，同時追蹤官方宣布時間"
+      },
+      {
+        "title": "Anthropic 推出競爭性產品 Claude Design 引發合作夥伴不滿——IPO 前的「攻勢」",
+        "sources": [
+          {
+            "name": "The Information (引述)",
+            "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-13-2026"
+          },
+          {
+            "name": "VentureBeat",
+            "url": "https://venturebeat.com/technology/anthropic-finally-beat-openai-in-business-adoption-but-3-big-threats-could-erase-its-lead"
+          }
+        ],
+        "summary": "Anthropic 在 4 月悄悄推出 Claude Design（對標 Figma 和 Canva），卻在上線前才通知合作夥伴。報導指出 Anthropic 同步還有未公開的定價調整，引發企業信任危機。",
+        "audience": "考慮與 Anthropic 長期合作的企業和合作方；Anthropic IPO 觀察者",
+        "pain_point": "擔心 Anthropic 會意外推出與自己業務衝突的產品；不信任「暗地裡簽署的合作協議」；想知道 Anthropic 的真實野心在哪",
+        "title_idea": "Anthropic 的真面目曝光：企業 AI 龍頭竟悄悄跟合作夥伴搶生意，IPO 前這一步很凶險",
+        "local_angle": "這揭示了 AI 龍頭在快速成長下的「管理張力」。可做「AI 公司合作協議裡的陷阱」、「IPO 前的策略轉向有多激進」等解讀"
+      }
+    ]
+  },
+  {
     "date": "2026-06-12",
     "big_events": [
       {
@@ -699,195 +860,6 @@
         "pain_point": "訂閱費用可能無預警飆漲、額度被悄悄限縮，不知道該如何因應或挑選替代方案",
         "title_idea": "『代幣末日』來了：你常用的 AI 工具正準備偷偷漲價，3 招幫你的荷包先做準備",
         "local_angle": "海外已開始討論 AI 訂閱費用海嘯，華語圈使用者多半還沒意識到漲價即將蔓延，現在做成本因應教學正是搶先卡位的時機"
-      }
-    ]
-  },
-  {
-    "date": "2026-06-06",
-    "big_events": [
-      {
-        "title": "OpenAI 推出 ChatGPT Lockdown Mode：首個主流 AI 防 Prompt Injection 安全機制",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/"
-          },
-          {
-            "name": "Engadget",
-            "url": "https://www.engadget.com/2188537/openai-rolls-out-a-lockdown-mode-for-extra-protection-against-prompt-injection-attacks/"
-          },
-          {
-            "name": "OpenAI 官方",
-            "url": "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt/"
-          }
-        ],
-        "summary": "OpenAI 推出選用性 Lockdown Mode，可停用網路瀏覽、Agent Mode、Deep Research 等功能，防止敏感資料透過 prompt injection 被竊取，面向高安全需求企業用戶",
-        "audience": "企業員工、處理機密文件的職場工作者、IT 管理員",
-        "pain_point": "使用 ChatGPT 分析外部文件或網頁時，擔心公司內部機密資料意外外洩",
-        "title_idea": "你的 ChatGPT 可能在洩密？OpenAI 推出鎖定模式，企業員工必學的 AI 安全設定",
-        "local_angle": "台灣企業 AI 安全規範尚在起步，此功能繁體中文教學幾乎空白，搶先發佈可獲大量企業關鍵字流量"
-      },
-      {
-        "title": "ChatGPT 單日三大升級：GPT-5.5 Instant 全員開放、記憶體容量翻倍、英國廣告試點",
-        "sources": [
-          {
-            "name": "OpenAI 官方更新日誌",
-            "url": "https://releasebot.io/updates/openai/chatgpt"
-          },
-          {
-            "name": "OpenAI Help Center",
-            "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
-          }
-        ],
-        "summary": "6/6 單日推出三項更新：GPT-5.5 Instant 開放所有用戶使用、Plus/Pro 記憶體容量翻倍自動更新、英國 Free/Go 用戶開始見到廣告",
-        "audience": "日常使用 ChatGPT 的上班族、學生、內容創作者",
-        "pain_point": "不清楚自己的 ChatGPT 已悄悄升級哪些功能，錯過免費獲得的新能力",
-        "title_idea": "ChatGPT 昨天悄悄升了 3 件大事：免費版變強、記憶容量翻倍、廣告要來了",
-        "local_angle": "歐美 ChatGPT 用戶已在熱烈討論，華語圈整合報導極少，打包講清楚可搶首發流量"
-      },
-      {
-        "title": "WWDC 2026 前瞻：Siri 2.0 即將登場，Apple Intelligence 正面挑戰 ChatGPT",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/"
-          },
-          {
-            "name": "Bloomberg",
-            "url": "https://www.bloomberg.com/news/articles/2026-06-05/wwdc-2026-preview-ios-27-siri-ai-features-macos-27-more-apple-will-announce"
-          }
-        ],
-        "summary": "WWDC 6/8 開幕前，媒體密集報導 Siri 2.0 將支援多輪對話與跨 App 任務，iOS 27 帶來獨立 Siri App，Apple AI 助理策略大躍進",
-        "audience": "iPhone 用戶、Apple 生態系重度使用者、職場 Mac/iPhone 用戶",
-        "pain_point": "一直覺得 Siri 很廢，買了 iPhone Pro 卻感覺 Apple Intelligence 沒什麼用，不確定要繼續用 ChatGPT 還是等 Apple",
-        "title_idea": "WWDC 2026 Siri 終於不廢了！Apple AI 助理 vs ChatGPT 完整比較，6/8 看直播前必讀",
-        "local_angle": "台灣 iPhone 普及率極高，WWDC 前夕搶先發分析可站穩首發流量，6/8 後可繼續更新實測"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "ChatGPT Lockdown Mode 完整操作教學：哪些功能會停用？誰適合開啟？",
-        "sources": [
-          {
-            "name": "OpenAI Help Center",
-            "url": "https://help.openai.com/en/articles/20001061"
-          },
-          {
-            "name": "Cybersecurity News",
-            "url": "https://cybersecuritynews.com/chatgpt-lockdown-mode/"
-          }
-        ],
-        "summary": "開啟 Lockdown Mode 後停用：即時網路瀏覽、圖片回應、Deep Research、Agent Mode、Canvas 網路連線、Live Connectors、檔案下載，適合高安全需求用戶",
-        "audience": "企業員工、IT 管理員、法務財務人員、處理機密的職場工作者",
-        "pain_point": "想在工作中用 ChatGPT 提升效率，但公司擔心資料安全，不知道是否有安全設定方式",
-        "title_idea": "ChatGPT 安全模式完整指南：5 步驟讓 AI 助理符合企業資安規範，老闆再也不擔心",
-        "local_angle": "台灣企業正在制定 AI 使用政策，此類「企業 AI 合規教學」搜尋量即將爆增，現在是卡位黃金期"
-      },
-      {
-        "title": "GPT-5.5 Instant 正式向所有 ChatGPT 用戶開放：免費版也能用更強大模型",
-        "sources": [
-          {
-            "name": "Releasebot OpenAI",
-            "url": "https://releasebot.io/updates/openai"
-          },
-          {
-            "name": "OpenAI Help Center",
-            "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
-          }
-        ],
-        "summary": "GPT-5.5 Instant 下放全用戶，舊版 GPT-5.3 Instant 提供三個月過渡期後退場，速度更快、回應更清晰",
-        "audience": "使用免費版 ChatGPT 的上班族、學生、剛接觸 AI 的職場新人",
-        "pain_point": "使用免費版感覺 AI 不夠聰明，又不確定是否值得每月付費升級",
-        "title_idea": "ChatGPT 免費版偷偷變強了！GPT-5.5 Instant 現在就能用，速測 5 個工作場景差異",
-        "local_angle": "歐美用戶已在做速度與品質對比測試，中文版測評極度稀缺，快速出測評文有先發優勢"
-      },
-      {
-        "title": "ChatGPT 記憶體功能全面升級：自動更新記憶、Plus/Pro 容量翻倍更懂你",
-        "sources": [
-          {
-            "name": "OpenAI 官方更新",
-            "url": "https://releasebot.io/updates/openai/chatgpt"
-          }
-        ],
-        "summary": "ChatGPT 記憶體支援自動更新（不再需要手動整理），Plus/Pro 記憶容量翻倍，個人化精準度大幅提升",
-        "audience": "長期使用 ChatGPT 當工作助理的上班族",
-        "pain_point": "ChatGPT 老是忘記你的工作風格、常用格式和個人偏好，每次都要重新解釋",
-        "title_idea": "ChatGPT 記住你了！記憶容量翻倍：5 個設定讓 AI 助理更像你的專屬員工",
-        "local_angle": "記憶功能讓 ChatGPT 從工具進化為個人助理，具體使用場景教學型內容在華語圈幾乎空白"
-      },
-      {
-        "title": "ChatGPT 英國試點廣告計畫：Free/Go 用戶體驗將改變，付費版優勢更明顯",
-        "sources": [
-          {
-            "name": "OpenAI 官方公告",
-            "url": "https://releasebot.io/updates/openai"
-          },
-          {
-            "name": "OpenAI Release Notes",
-            "url": "https://releasebot.io/updates/openai/chatgpt"
-          }
-        ],
-        "summary": "OpenAI 在英國對免費版和 Go 用戶試投廣告，付費用戶不受影響，為全球廣告計畫的首個試點市場",
-        "audience": "使用免費 AI 工具的職場用戶、正在考慮是否升級付費的上班族",
-        "pain_point": "習慣免費用 AI，不確定廣告出現後使用體驗是否受影響，也不知是否值得升級",
-        "title_idea": "ChatGPT 開始打廣告了！免費版還值得用嗎？2026 年 AI 付費訂閱完整評估指南",
-        "local_angle": "廣告計畫先在英國測試，台灣暫未受影響，現在寫「付費 vs 免費對比」正是最好的切入時機"
-      }
-    ],
-    "trends": [
-      {
-        "title": "AI 職場安全進入合規時代：Lockdown Mode 是企業 AI 治理浪潮的起點",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/"
-          },
-          {
-            "name": "Engadget",
-            "url": "https://www.engadget.com/2188537/openai-rolls-out-a-lockdown-mode-for-extra-protection-against-prompt-injection-attacks/"
-          }
-        ],
-        "summary": "OpenAI 推出企業級 AI 安全功能，顯示 AI 工具正從「自由試用」走向「合規管理」，職場 AI 使用政策制定需求急速上升",
-        "audience": "企業 IT 主管、HR 政策制定者、對 AI 合規有顧慮的管理職",
-        "pain_point": "公司想推廣 AI 工具但不知道如何訂立安全規範，員工想用 AI 但怕觸犯公司政策",
-        "title_idea": "公司到底能不能用 ChatGPT？2026 企業 AI 安全規範完整指南，IT 主管必讀",
-        "local_angle": "台灣中大企業正在制定 AI 使用政策，「企業 AI 合規」是職場受眾的高需求題材，競爭者極少"
-      },
-      {
-        "title": "Apple Siri 2.0 效應：iPhone 將成最強 AI 工作裝置，重塑職場 AI 助理市場格局",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/"
-          },
-          {
-            "name": "Apple Insider",
-            "url": "https://appleinsider.com/articles/26/06/05/ios-27-macos-27-siri-what-to-expect-to-launch-at-wwdc-2026"
-          }
-        ],
-        "summary": "若 Siri 2.0 成功，搭配 iOS 27 離線處理個人隱私資料，iPhone 將成職場首選 AI 裝置，對 ChatGPT/Gemini 構成直接挑戰",
-        "audience": "同時使用 iPhone 和 AI 工具的職場工作者、Apple 生態系重度用戶",
-        "pain_point": "AI 助理分散在 ChatGPT、Gemini、Siri 等多個平台，工作流破碎化效率低落",
-        "title_idea": "iPhone + Siri 2.0 = 你的私人 AI 助理？Apple vs ChatGPT 職場效率大對決",
-        "local_angle": "台灣 iPhone 使用率高達 60%+，Apple Intelligence 在地化使用場景教學有龐大潛在受眾"
-      },
-      {
-        "title": "AI 工具商業模式加速分化：廣告、安全付費牆、訂閱分級——免費 AI 黃金時代正在結束",
-        "sources": [
-          {
-            "name": "OpenAI 官方",
-            "url": "https://releasebot.io/updates/openai"
-          },
-          {
-            "name": "OpenAI Help Center",
-            "url": "https://help.openai.com/en/articles/20001061"
-          }
-        ],
-        "summary": "單日出現廣告試點、Lockdown Mode（僅限付費商業帳號）、GPT-5.5 Instant 分級策略，AI 工具正快速建立付費 vs 免費的差異化體驗牆",
-        "audience": "依賴免費 AI 工具的職場上班族、正在評估 AI 工具預算的中小企業主",
-        "pain_point": "習慣用免費 AI，但越來越多關鍵功能鎖在付費版，不知道該如何規劃 AI 工具預算",
-        "title_idea": "免費 AI 時代快結束了？2026 最值得花錢的 AI 訂閱排行，職場人的完整採購指南",
-        "local_angle": "AI 工具付費教學在華語圈嚴重供不應求，此題材長期流量穩定、轉化率高"
       }
     ]
   }
