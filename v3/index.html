@@ -525,6 +525,65 @@ a{color:inherit;text-decoration:none}
   .ot-sumgrid{grid-template-columns:1fr}
 }
 @media(max-width:880px){.ot-sumgrid{grid-template-columns:repeat(2,1fr)}}
+
+/* ─── MARATHON MODAL（課表 + 跑步分析）─── */
+.mm-wrap{display:flex;flex-direction:column;gap:22px}
+.mm-hero{display:grid;grid-template-columns:1.1fr 1fr;gap:20px;background:linear-gradient(135deg,#FFFCF4,#FBF4E0);border:1px solid var(--line-strong);border-radius:var(--r-sm);padding:22px 24px}
+.mm-hero .mm-k{font-size:12px;color:var(--ink-soft);font-family:var(--mono);letter-spacing:.03em;margin-bottom:7px}
+.mm-pred{font-size:46px;font-weight:700;letter-spacing:-.02em;line-height:1;color:var(--ink);font-family:var(--mono)}
+.mm-pred small{font-size:.36em;color:var(--gold-ink);font-weight:600;margin-left:9px;letter-spacing:0;font-family:var(--cjk)}
+.mm-goal{margin-top:11px;font-size:12.5px;color:var(--ink-soft);line-height:1.65}
+.mm-goal b{color:var(--gold-ink)}
+.mm-hero-r{border-left:1px solid var(--line);padding-left:20px;display:flex;flex-direction:column;justify-content:center}
+.mm-wxrow{display:flex;align-items:baseline;gap:9px;margin-bottom:5px}
+.mm-wxrow .t{font-size:27px;font-weight:700;font-family:var(--mono);color:var(--ink)}
+.mm-wxrow .l{font-size:12px;color:var(--ink-soft)}
+.mm-wxnote{font-size:12px;color:var(--down);font-weight:600;margin-top:5px}
+.mm-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.mm-st{background:var(--card);border:1px solid var(--line);border-radius:var(--r-sm);box-shadow:var(--sh);padding:13px 16px;text-align:center}
+.mm-st .v{font-family:var(--mono);font-size:22px;font-weight:700;color:var(--gold-ink)}
+.mm-st .v small{font-size:.5em;color:var(--ink-faint);font-weight:500;margin-left:2px}
+.mm-st .k{font-size:11px;color:var(--ink-soft);margin-top:3px}
+.mm-sec{display:flex;align-items:center;gap:9px;font-size:15px;font-weight:600;color:var(--ink)}
+.mm-sec .vbar{display:inline-block;width:4px;height:16px;border-radius:2px;background:var(--accent-deep)}
+.mm-sec small{font-family:var(--mono);font-size:11px;color:var(--ink-faint);font-weight:500;margin-left:auto}
+.mm-planwrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r-sm);background:var(--card)}
+.mm-plan{width:100%;min-width:600px;border-collapse:collapse;font-size:13px}
+.mm-plan th{font-size:10.5px;color:var(--ink-faint);font-weight:600;text-align:left;padding:10px 14px;font-family:var(--mono);letter-spacing:.03em;border-bottom:1px solid var(--line)}
+.mm-plan td{padding:11px 14px;border-bottom:1px solid var(--line);vertical-align:top;color:var(--ink-soft)}
+.mm-plan tr:last-child td{border-bottom:0}
+.mm-plan .wk{font-family:var(--mono);font-weight:700;color:var(--ink);white-space:nowrap}
+.mm-plan .wk i{display:block;font-style:normal;font-size:10px;color:var(--ink-faint);font-weight:500;margin-top:1px}
+.mm-plan .q{color:var(--ink)}
+.mm-plan .lr b{color:var(--gold-ink)}
+.mm-plan .vol{font-family:var(--mono);color:var(--ink-soft);white-space:nowrap}
+.mm-plan tr.now{background:linear-gradient(90deg,rgba(244,200,74,.18),rgba(244,200,74,.03))}
+.mm-plan tr.now .wk{color:var(--gold-ink)}
+.mm-plan tr.race td{background:rgba(31,157,99,.06)}
+.mm-note{font-size:11.5px;color:var(--ink-faint);line-height:1.7;margin-top:-10px}
+.mm-runs{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.mm-run{background:var(--card);border:1px solid var(--line);border-radius:var(--r-sm);box-shadow:var(--sh);padding:16px 17px;display:flex;flex-direction:column;gap:11px}
+.mm-rh{display:flex;align-items:flex-start;gap:10px}
+.mm-rh .d{font-family:var(--mono);font-size:11.5px;color:var(--ink-faint)}
+.mm-rh .name{font-size:15px;font-weight:600;color:var(--ink);margin-top:2px}
+.mm-badge{margin-left:auto;font-size:11px;font-weight:600;padding:4px 11px;border-radius:20px;white-space:nowrap;border:1px solid var(--line-strong)}
+.mm-badge.good{background:rgba(31,157,99,.1);color:var(--down);border-color:rgba(31,157,99,.25)}
+.mm-badge.heat{background:rgba(224,69,59,.09);color:var(--up);border-color:rgba(224,69,59,.22)}
+.mm-badge.gold{background:rgba(244,200,74,.18);color:var(--gold-ink);border-color:rgba(232,179,33,.4)}
+.mm-wx{display:inline-flex;align-items:center;gap:7px;font-size:11.5px;color:var(--ink-soft);font-family:var(--mono);background:var(--card-soft);border:1px solid var(--line);border-radius:20px;padding:4px 11px;align-self:flex-start}
+.mm-wx .hot{color:var(--up);font-weight:600}
+.mm-metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.mm-metric{text-align:center;background:var(--card-soft);border-radius:var(--r-xs);padding:8px 4px}
+.mm-metric .v{font-family:var(--mono);font-size:15px;font-weight:600;color:var(--ink)}
+.mm-metric .v small{font-size:.62em;color:var(--ink-faint);font-weight:500}
+.mm-metric .k{font-size:10px;color:var(--ink-faint);margin-top:2px}
+.mm-eval{font-size:12.5px;line-height:1.7;color:var(--ink-soft);border-left:3px solid var(--accent);background:var(--card-soft);border-radius:0 8px 8px 0;padding:10px 13px}
+.mm-eval b{color:var(--ink)}
+@media(max-width:760px){
+  .mm-hero{grid-template-columns:1fr;gap:16px}
+  .mm-hero-r{border-left:0;border-top:1px solid var(--line);padding-left:0;padding-top:16px}
+  .mm-runs{grid-template-columns:1fr}
+}
 </style>
 </head>
 <body>
@@ -844,6 +903,29 @@ a{color:inherit;text-decoration:none}
     </div>
   </div>
 
+
+  <!-- 馬拉松 MODAL -->
+  <div class="modal" id="modal-marathon" aria-hidden="true">
+    <div class="modal-scrim" data-close></div>
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-label="馬拉松課表與跑步分析">
+      <div class="modal-head">
+        <div class="mh-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="13" cy="4.4" r="2"></circle>
+            <path d="M6.5 21l2.5-5 3 2 1.5-3.5"></path>
+            <path d="M8.5 9.5 12 11l2.5-1.5L18 11"></path>
+            <path d="M13.5 13.5 16.5 15l2-2.2"></path>
+          </svg>
+        </div>
+        <div>
+          <div class="mh-title">馬拉松 · 課表與跑步分析</div>
+          <div class="mh-sub">陽光海岸馬拉松 08/02 · Strava 串接 · 目標 Sub-4</div>
+        </div>
+        <button class="modal-close" data-close>✕</button>
+      </div>
+      <div class="modal-body"><div class="mm-wrap" id="mm-body"></div></div>
+    </div>
+  </div>
 
   <!-- 多益練習 MODAL -->
   <div class="modal" id="modal-toeic" aria-hidden="true">
@@ -1957,6 +2039,81 @@ fetch('stocks.json?'+Date.now())
     renderAll();
   }).catch(()=>renderAll());
 
+})();
+
+// ─────────────────────────────────────────────
+//  MARATHON DETAIL（課表 + 跑步分析）— B 版靜態快照
+//  資料：Strava 實測（2026/05–06）+ Open-Meteo 竹北當日清晨天氣
+// ─────────────────────────────────────────────
+(function(){
+  var RACE=new Date(2026,7,2),DAY=86400000;
+  var now=new Date(),today=new Date(now.getFullYear(),now.getMonth(),now.getDate());
+  var dleft=Math.max(0,Math.ceil((RACE-today)/DAY));
+
+  var runs=[
+    {date:'06/14',dow:'日',name:'17.7K 長距離',dist:'17.7',pace:'6:14',hr:154,hrmax:173,wx:{t:26.9,rh:71,feel:27.8,hot:1},badge:['heat','🔥 熱天長跑'],
+     ev:'26.9°C、71% 濕度的清晨撐完 17.7K，心率從 130 一路漂到尾段 164 — 在台灣夏天這是硬仗。<b>換算到布里斯本涼天，這個有氧水準約等於 5:55/km 的實力。</b>'},
+    {date:'06/13',dow:'六',name:'5K 輕鬆跑',dist:'5.0',pace:'6:14',hr:145,hrmax:156,wx:{t:23.6,rh:96,feel:28.2,hot:1},badge:['good','✅ 輕鬆達標'],
+     ev:'96% 接近飽和的濕度，還能把心率壓在 145 完成輕鬆跑，恢復目的達成。<b>濕度這麼高心肺還這麼穩，底子不錯。</b>'},
+    {date:'06/04',dow:'四',name:'10K',dist:'10.0',pace:'6:16',hr:149,hrmax:163,wx:{t:27.1,rh:77,feel:30.0,hot:1},badge:['heat','🔥 體感 30°C'],
+     ev:'體感飆到 30°C，是這週最煎熬的一場，心率漂到 160 屬正常熱反應、不是體能退步。<b>這種天氣請改看「跑滿時間」，別追配速。</b>'},
+    {date:'06/02',dow:'二',name:'8.9K · 間歇',dist:'8.9',pace:'5:59',hr:147,hrmax:170,wx:{t:23.1,rh:98,feel:27.9,hot:0},badge:['gold','⚡ 速度課'],
+     ev:'800m 反覆衝刺、最快單公里 4:53、最大心率 170 — 漂亮的速度刺激。<b>正是課表想保留的腿部彈性與跑步經濟性。</b>'},
+    {date:'05/31',dow:'日',name:'10K · 十八尖山',dist:'10.1',pace:'6:14',hr:159,hrmax:177,wx:{t:27.1,rh:57,feel:27.3,hot:1},badge:['gold','⛰️ 坡度課 +201m'],
+     ev:'爬升 201m、均心率 159、最高 177，等於一場高強度肌力課。<b>坡度練的是馬拉松後段的腿力，對破四很有幫助。</b>'},
+    {date:'05/30',dow:'六',name:'15K 長距離',dist:'15.0',pace:'6:18',hr:140,hrmax:153,wx:{t:23.1,rh:85,feel:24.0,hot:0},badge:['good','⭐ 本月最佳有氧'],
+     ev:'體感 24°C 的涼爽清晨，<b>均心率只有 140 就完成 15K</b>，心率漂移極小（126→150）。這才是你真正的有氧底子 — 到澳洲涼天會直接兌現成速度。'},
+    {date:'05/26',dow:'二',name:'6.7K · 間歇',dist:'6.7',pace:'6:50',hr:149,hrmax:176,wx:{t:27.0,rh:72,feel:27.2,hot:1},badge:['gold','⚡ 速度課'],
+     ev:'400m 反覆、最快 1:46、最大心率 176。均配速看起來慢是因為含恢復段。<b>高溫下做高強度間歇，補水要特別留意。</b>'}
+  ];
+
+  var plan=[
+    {wk:'W1',dt:'6/15–21',q:'節奏跑 4K @T',lr:'22K 全程 Easy',hot:'跑滿 2:30',vol:'44K',now:1},
+    {wk:'W2',dt:'6/22–28',q:'節奏跑 5K @T',lr:'25K 末段 <b>6K@MP</b>',hot:'跑滿 2:50',vol:'49K'},
+    {wk:'W3',dt:'6/29–7/5',q:'3×3K @MP',lr:'28K 中段 <b>6K@MP</b>',hot:'跑滿 3:10',vol:'52K'},
+    {wk:'W4',dt:'7/6–12',q:'節奏跑 6K @T',lr:'🔑 <b>32K 巔峰</b>・2×6K@MP',hot:'跑滿 3:35',vol:'56K'},
+    {wk:'W5',dt:'7/13–19',q:'8K @MP',lr:'26K 末段 <b>8K@MP</b>',hot:'清晨/跑步機',vol:'50K'},
+    {wk:'W6',dt:'7/20–26',q:'節奏跑 4K @T',lr:'18K 中段 5K@MP',hot:'減量週',vol:'38K'},
+    {wk:'W7',dt:'7/27–8/2',q:'6K 鬆 + 快步',lr:'🏁 <b>比賽 06:00</b>',hot:'涼爽 11–18°C',vol:'賽',race:1}
+  ];
+
+  function render(){
+    var box=document.getElementById('mm-body');if(!box)return;
+    var h='';
+    h+='<div class="mm-hero"><div class="mm-hero-l"><div class="mm-k">目前推估完賽</div>'+
+       '<div class="mm-pred">~4:05<small>初馬</small></div>'+
+       '<div class="mm-goal">目標 <b>Sub-4（破4）</b> — 涼爽賽道 + 平路讓破四成為合理目標，剩下的限制只有耐力續航，正是這 7 週要補的。</div></div>'+
+       '<div class="mm-hero-r"><div class="mm-k">比賽日天氣 · 陽光海岸 8/2 06:00</div>'+
+       '<div class="mm-wxrow"><span class="t">11–18°C</span><span class="l">起跑 11° → 完賽 18°</span></div>'+
+       '<div class="mm-wxnote">乾爽 · 微風 · 接近馬拉松黃金天氣 ❄️</div></div></div>';
+    h+='<div class="mm-strip"><div class="mm-st"><div class="v">D-'+dleft+'</div><div class="k">距離比賽</div></div>'+
+       '<div class="mm-st"><div class="v">20→32<small>K</small></div><div class="k">最長跑進度</div></div>'+
+       '<div class="mm-st"><div class="v">4<small>天/週</small></div><div class="k">二・四・六・日</div></div></div>';
+    h+='<div class="mm-sec"><span class="vbar"></span>七週課表<small>6/15 → 8/2 · Sub-4 進攻版</small></div>';
+    h+='<div class="mm-planwrap"><table class="mm-plan"><thead><tr><th>週</th><th>週二 · 品質</th><th>週六 · 長距離</th><th>熱天調整</th><th>週量</th></tr></thead><tbody>';
+    plan.forEach(function(p){
+      var cls=p.now?' class="now"':(p.race?' class="race"':'');
+      h+='<tr'+cls+'><td class="wk">'+p.wk+'<i>'+p.dt+'</i></td><td class="q">'+p.q+'</td><td class="lr">'+p.lr+'</td><td>'+p.hot+'</td><td class="vol">'+p.vol+'</td></tr>';
+    });
+    h+='</tbody></table></div>';
+    h+='<div class="mm-note">週四・週日為輕鬆恢復跑（6:45–7:05/km、心率 &lt;150）。配速代號：E 輕鬆 ｜ MP 馬拉松配速 5:35–5:40 ｜ T 節奏跑 5:10–5:20。熱天長跑一律「跑滿時間、看心率不看配速」。</div>';
+    h+='<div class="mm-sec"><span class="vbar"></span>跑步分析紀錄<small>近 7 筆 · Strava 實測 + 竹北當日天氣</small></div>';
+    h+='<div class="mm-runs">';
+    runs.forEach(function(r){
+      h+='<div class="mm-run"><div class="mm-rh"><div><div class="d">'+r.date+'（'+r.dow+'）</div><div class="name">'+r.name+'</div></div>'+
+         '<span class="mm-badge '+r.badge[0]+'">'+r.badge[1]+'</span></div>'+
+         '<div class="mm-wx">🌡 <span'+(r.wx.hot?' class="hot"':'')+'>'+r.wx.t+'°C</span> · 濕 '+r.wx.rh+'% · 體感 '+r.wx.feel+'°C</div>'+
+         '<div class="mm-metrics">'+
+         '<div class="mm-metric"><div class="v">'+r.dist+'<small>km</small></div><div class="k">距離</div></div>'+
+         '<div class="mm-metric"><div class="v">'+r.pace+'</div><div class="k">配速/km</div></div>'+
+         '<div class="mm-metric"><div class="v">'+r.hr+'</div><div class="k">均心率</div></div>'+
+         '<div class="mm-metric"><div class="v">'+r.hrmax+'</div><div class="k">最高心率</div></div></div>'+
+         '<div class="mm-eval">'+r.ev+'</div></div>';
+    });
+    h+='</div>';
+    box.innerHTML=h;
+  }
+  wireModal('modal-marathon','marathon',render);
 })();
 </script>
 </body>
