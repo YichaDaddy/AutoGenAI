@@ -2299,12 +2299,13 @@ fetch('stocks.json?'+Date.now())
       '<div class="mm-eval">'+(s.c==='long'?'長跑當天若高溫高濕，改「跑滿時間、看心率不看配速」，MP 段落留到涼爽時段或跑步機。':s.c==='race'?'前半務必忍住別跑進 5:25，涼天 + 平路給你餘裕，破四不用搶時間。':s.c==='q'?'排在清晨最涼時段才追得到配速；熱到不行就降強度、別硬撐。':'真正放慢、心率壓在 150 以下，輕鬆日跑太快會吃掉品質日的本錢。')+'</div>';
   }
   var pop;
-  function hidePop(){if(pop){pop.hidden=true;pop.classList.remove('sheet');}}
+  function hidePop(){var p=document.getElementById('mm-pop');if(p){p.hidden=true;p.classList.remove('sheet');}}
   function openPop(cell){
     var key=cell.getAttribute('data-date');if(!key)return;
     pop=document.getElementById('mm-pop');
     pop.innerHTML=RUNS[key]?runPopHTML(key):planPopHTML(key);
     pop.hidden=false;
+    var xb=pop.querySelector('.mm-px');if(xb)xb.addEventListener('click',function(e){e.stopPropagation();hidePop();});
     if(window.innerWidth<=760){pop.classList.add('sheet');pop.style.left='';pop.style.top='';return;}
     pop.classList.remove('sheet');
     // .modal-panel 有 transform，position:fixed 的定位基準是面板而非視窗，故以面板座標系計算
