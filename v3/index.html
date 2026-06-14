@@ -626,6 +626,7 @@ a{color:inherit;text-decoration:none}
 .mmc-act .hk{margin-left:auto}
 .mm-pop{position:fixed;z-index:40;width:330px;max-width:92vw;max-height:min(74vh,480px);overflow-y:auto;background:var(--card);border:1px solid var(--line-strong);border-radius:16px;box-shadow:0 24px 64px rgba(46,40,20,.24);padding:15px 16px;display:flex;flex-direction:column;gap:10px}
 .mm-pop[hidden]{display:none}
+.mm-loading{padding:48px 20px;text-align:center;color:var(--ink-soft);font-size:13px;font-family:var(--mono)}
 .mm-pop.sheet{position:fixed;left:50%!important;top:50%!important;transform:translate(-50%,-50%);width:330px}
 .mm-px{position:absolute;top:11px;right:12px;width:24px;height:24px;border-radius:50%;border:1px solid var(--line);background:transparent;color:var(--ink-soft);cursor:pointer;font-size:13px;line-height:1}
 .mm-px:hover{background:var(--ink);color:#fff}
@@ -2138,7 +2139,8 @@ fetch('stocks.json?'+Date.now())
   function finFmt(s){var h=Math.floor(s/3600),m=Math.round((s-h*3600)/60);return h+':'+pad(m);}
 
   // ── 真實跑步（含逐秒降採樣 streams）──────────
-  var RUNS={
+  // RUNS_FALLBACK：A 版 marathon.json 抓不到時的內建備援快照，確保頁面永不開天窗
+  var RUNS_FALLBACK={
     '2026-06-14':{name:'17.7K 長距離',km:17.7,mov:6616,ahr:154,mhr:173,cad:87,elev:52,wx:{t:26.9,rh:71,feel:27.8},badge:['heat','🔥 熱天長跑'],
       ev:'26.9°C、71% 濕度撐完 17.7K，心率一路從 130 漂到 164 — 台灣夏天的硬仗。換算涼天，這個有氧水準很有料。',
       hr:[87,134,145,148,147,150,140,128,152,152,153,156,153,158,164,150,155,159,159,161,166,156,160,165,165,162,130,158,163,165],
@@ -2182,6 +2184,7 @@ fetch('stocks.json?'+Date.now())
       alt:[37,35.6,35.8,37,35.4,35.2,35.6,35.4,36,35.2,36.2,34.6,36,33.8,34.8,34.2,36.4,33.2,35.2,33.6,35.6,33,35.4,33.8,35.6,34.2,33.6,34.8,33.4,34.6],
       v:[2.7,2.7,2.54,2.42,2.62,3.46,3.84,3.42,0.72,3.52,3.58,3.68,0.98,3.46,3.56,3.8,0.8,3.56,3.94,3.8,3.58,3.8,3.74,3.28,3.64,2.52,2.66,2.8,2.72,2.62]}
   };
+  var RUNS=RUNS_FALLBACK;
 
   // ── 七週課表（逐日）─────────────────────────
   function S(c,l,det,cool,hot){return{c:c,l:l,det:det,cool:cool,hot:hot};}
@@ -2318,8 +2321,8 @@ fetch('stocks.json?'+Date.now())
     pop.style.left=left+'px'; pop.style.top=top+'px';
   }
 
-  var wired=false;
-  function render(){
+  var wired=false,dataLoaded=false;
+  function draw(){
     var box=document.getElementById('mm-body');if(!box)return;
     box.innerHTML=heroHTML()+
       '<div class="mm-sec"><span class="vbar"></span>訓練月曆<small>課表＋實際跑步 · 點任一天看分析</small></div>'+
@@ -2342,6 +2345,15 @@ fetch('stocks.json?'+Date.now())
       window.addEventListener('resize',hidePop);
       wired=true;
     }
+  }
+  function render(){
+    var box=document.getElementById('mm-body');if(!box)return;
+    if(dataLoaded){draw();return;}
+    box.innerHTML='<div class="mm-loading">載入 Strava 跑步資料…</div>';
+    fetch('marathon.json?'+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(j){
+      if(j&&j.runs&&Object.keys(j.runs).length)RUNS=j.runs;
+      dataLoaded=true;draw();
+    }).catch(function(){dataLoaded=true;draw();});
   }
   wireModal('modal-marathon','marathon',render);
 })();

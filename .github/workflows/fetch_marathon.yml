@@ -1,0 +1,42 @@
+name: Fetch Marathon Data
+
+on:
+  schedule:
+    # 02:00 UTC = 10:00 台灣時間（清晨跑步通常已上傳到 Strava）
+    - cron: '0 2 * * *'
+  workflow_dispatch:   # 允許手動觸發
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Fetch marathon data
+        env:
+          STRAVA_CLIENT_ID: ${{ secrets.STRAVA_CLIENT_ID }}
+          STRAVA_CLIENT_SECRET: ${{ secrets.STRAVA_CLIENT_SECRET }}
+          STRAVA_REFRESH_TOKEN: ${{ secrets.STRAVA_REFRESH_TOKEN }}
+        run: python scripts/fetch_marathon.py
+
+      - name: Commit & push marathon.json to main
+        run: |
+          git config user.name  "AutoGenAI Bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add v3/marathon.json
+          git diff --staged --quiet && echo "No changes" || (
+            git commit -m "auto: update marathon data $(date -u '+%Y-%m-%d %H:%M UTC')" &&
+            git pull --rebase origin main &&
+            git push origin main
+          )
