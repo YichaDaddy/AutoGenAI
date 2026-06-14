@@ -1,5 +1,86 @@
 [
   {
+    "date": "2026-06-14",
+    "big_events": [
+      {
+        "title": "AI 公司 IPO 潮：SpaceX 創造歷史，OpenAI/Anthropic 緊隨其後",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/06/14/as-ai-companies-race-to-go-public-who-else-is-along-for-the-ride/"
+          }
+        ],
+        "summary": "SpaceX 完成歷史性 IPO 使馬斯克成首位萬億富翁，OpenAI 和 Anthropic 也在準備上市，標誌 AI 產業資本化新階段。",
+        "audience": "職場中關注 AI 工具發展和公司動向的人、自由工作者、獨立開發者",
+        "pain_point": "擔心 AI 工具收費模式變化、功能逐漸收費化，免費工具轉為付費",
+        "title_idea": "《AI 獨角獸上市潮起，用慣的免費工具會漲價嗎？》",
+        "local_angle": "海外已驗證的 AI 商業化路徑，台灣軟體從業者和獨立開發者可提早規劃工具成本。資訊差機會：搶先分析如何應對工具轉付費的職場策略。"
+      },
+      {
+        "title": "加州立法禁止『AI 老闆』單獨決策裁員：職場 AI 監管的重要突破",
+        "sources": [
+          {
+            "name": "US News",
+            "url": "https://www.usnews.com/news/us/articles/2026-06-14/trump-tried-to-block-state-ai-regulations-but-some-states-are-forging-ahead"
+          },
+          {
+            "name": "California State Senate",
+            "url": "https://sd05.senate.ca.gov/news/ca-senate-approves-no-robo-bosses-act-2026-ensure-human-oversight-ai-workplace"
+          }
+        ],
+        "summary": "California SB 947『No Robo Bosses Act』通過參議院投票（29-9），禁止企業單獨依賴 AI 系統做裁員或懲罰決策，要求人工審核。",
+        "audience": "台灣上班族、HR 從業者、勞工權益關注者、企業管理層",
+        "pain_point": "擔心被演算法系統不公正地裁員，缺乏申訴和人工審查機制，AI 決策的黑箱化風險",
+        "title_idea": "《加州禁 AI 裁員法過關：被演算法開除的時代要結束了？》",
+        "local_angle": "台灣目前尚無此法規，但美國趨勢將成為企業重視人權和 AI 透明度的國際標竿。台灣上班族可借鑑美國經驗，主動了解公司 AI 應用是否涉及不當決策風險。創作角度：分析台灣企業如何應對全球 AI 監管趨勢，搶佔職場安全教育的內容空白。"
+      }
+    ],
+    "tool_updates": [],
+    "trends": [],
+    "source_coverage_notes": {
+      "status": "日期驗證完成",
+      "coverage": [
+        {
+          "source": "TechCrunch AI",
+          "status": "✅",
+          "count": 1,
+          "note": "確認 2026-06-14 發布"
+        },
+        {
+          "source": "US News",
+          "status": "✅",
+          "count": 1,
+          "note": "California SB 947 相關報導"
+        },
+        {
+          "source": "YouTube 頻道（Matt Wolfe 等）",
+          "status": "❌",
+          "count": 0,
+          "note": "無法確認 2026-06-14 昨日更新或訪問受限"
+        },
+        {
+          "source": "The Verge AI",
+          "status": "❌",
+          "count": 0,
+          "note": "WebFetch 無法訪問"
+        },
+        {
+          "source": "X/Twitter 帳號",
+          "status": "❌",
+          "count": 0,
+          "note": "直接訪問不可行，WebSearch 無相關 2026-06-14 結果"
+        },
+        {
+          "source": "futuretools.io",
+          "status": "⚠️",
+          "count": 0,
+          "note": "抓取到的工具更新（ElevenLabs、Claude 等）均發布於 06-09 之前，不符合昨日日期條件"
+        }
+      ],
+      "explanation": "根據嚴格日期規則，2026-06-14 日報內容極為有限。前期搜集的大量內容因發布日期非昨日而全數剔除，包括：Claude Fable 5（06-09）、Anthropic 白皮書（06-04）、OpenAI 音頻模型（05-07）、NAVER-NVIDIA（06-07）、Moonshot 融資（06-08）、Google 網絡犯罪訴訟（06-12）、KPMG 報告撤回（06-13）。僅保留確實發布於 2026-06-14 的內容。"
+    }
+  },
+  {
     "date": "2026-06-13",
     "big_events": [
       {
@@ -809,57 +890,6 @@
         "pain_point": "不知道 EU AI Act 對自己使用 AI 工具的業務有沒有影響，是否需要合規",
         "title_idea": "EU AI Act 8 月生效！台灣企業有沒有影響？用 ChatGPT 做生意要注意哪些事？",
         "local_angle": "AI 法規在台灣幾乎無人深入解說；從台灣企業角度切入（是否有影響、如何因應）是差異化切角，幾乎無競爭"
-      }
-    ]
-  },
-  {
-    "date": "2026-06-07",
-    "big_events": [
-      {
-        "title": "OpenAI 證實仍在打造「超級 App」：要把 ChatGPT 變成你的全方位個人代理",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/"
-          }
-        ],
-        "summary": "OpenAI 將於數週內推出整合編碼工具與 AI 代理的全新 ChatGPT，目標打造能照顧生活與工作各層面的「個人代理」",
-        "audience": "同時用多個 AI 工具切換、想簡化工作流的職場上班族",
-        "pain_point": "ChatGPT、Notion AI、Copilot 等工具分散使用，切換來切換去反而拉低效率，不知道該往哪個方向整併",
-        "title_idea": "OpenAI 不演了！ChatGPT 要變身你的『AI 人生總管』，上班族現在該怎麼提前布局？",
-        "local_angle": "海外已明確點出「超級 App」整合方向，華語圈尚無人系統性解讀這對日常工作流的衝擊，可搶先做「超級 App 時代生存指南」"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "Notion AI 一度全面斷線：Anthropic 模型異常牽連數小時服務中斷",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/07/notion-restores-access-to-anthropic-after-service-disruption/"
-          }
-        ],
-        "summary": "Notion 偵測到 Anthropic Opus 4.7／4.8 模型異常，緊急下架所有 Anthropic 模型，數小時後修復恢復",
-        "audience": "重度依賴 Notion AI／Claude 處理日常文件與待辦的上班族",
-        "pain_point": "工作到一半工具突然『罷工』，打亂節奏卻搞不清楚發生什麼事、也沒有備援方案",
-        "title_idea": "Notion AI 突然當機怎麼辦？當你仰賴的 AI 工具『罷工』，上班族該有的 3 個 Plan B",
-        "local_angle": "事件凸顯 AI 工具高度依賴單一供應商的風險，「別把雞蛋放同一個籃子」的工具備援教學在華語圈仍少見，可搶先卡位"
-      }
-    ],
-    "trends": [
-      {
-        "title": "「代幣末日」(Tokenpocalypse) 來襲：AI 工具集體轉嫁成本，免費／低價時代恐將結束",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/07/is-this-the-dawn-of-the-tokenpocalypse/"
-          }
-        ],
-        "summary": "GitHub Copilot 改按 token 計費引爆漲價爭議，文章直指 AI 公司在 IPO 壓力下將普遍把成本轉嫁給用戶",
-        "audience": "正在使用或考慮訂閱 ChatGPT／Copilot／Claude 等 AI 工具的上班族與小型團隊",
-        "pain_point": "訂閱費用可能無預警飆漲、額度被悄悄限縮，不知道該如何因應或挑選替代方案",
-        "title_idea": "『代幣末日』來了：你常用的 AI 工具正準備偷偷漲價，3 招幫你的荷包先做準備",
-        "local_angle": "海外已開始討論 AI 訂閱費用海嘯，華語圈使用者多半還沒意識到漲價即將蔓延，現在做成本因應教學正是搶先卡位的時機"
       }
     ]
   }
