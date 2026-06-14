@@ -127,3 +127,27 @@
 --- Daily quote finished at Mon Jun 15 01:04:38 CST 2026 ---
 === Mon Jun 15 01:04:38 CST 2026 | Checking TOEIC questions ===
 Generating new TOEIC questions for 2026-06-15...
+根據 CLAUDE.md 的規則，我需要先說明計畫並等您確認後才能動手。
+
+## 計畫概要
+
+我將生成以下內容：
+
+**PART 5**（5 道題）：
+- Q1：假設語氣倒裝結構（Had it not been...）
+- Q2：分詞構句（過去分詞修飾語）
+- Q3：非限定關係子句（非限制性 which）
+- Q4：讓步介系詞（notwithstanding/despite）
+- Q5：進階動詞語意辨別
+
+**PART 6**（1 組 4 個填空）：
+- 商務信件/內部備忘錄格式
+- 填空 1：時態語態
+- 填空 2：語篇連接詞
+- 填空 3：詞彙語意
+- 填空 4：句子插入
+
+然後組織成您指定的 JSON 格式，寫入 `skills/toeic/questions.json`。
+
+**請確認我可以繼續？**
+--- TOEIC generation finished at Mon Jun 15 01:05:10 CST 2026 ---
