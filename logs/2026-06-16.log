@@ -62,3 +62,49 @@
 您的專屬網頁版看板已同步更新，包含日期（2026-06-15）、大事件、工具更新、趨勢等完整分類，可隨時打開 `daily_topic_dashboard.html` 查看。
 --- AI report finished at Tue Jun 16 01:04:17 CST 2026 ---
 === Tue Jun 16 01:04:17 CST 2026 | Starting daily finance report ===
+我看到了任務，但根據專案 CLAUDE.md 的核心規則，**我需要先說明計畫並等你確認**，才能動手。
+
+## 計畫概述
+
+### 🎯 任務目標
+收集 2026-06-15 的財經新聞，分類為市場震撼彈、投資機會、總經觀察，輸出到 `latest_finance_topics.json`。
+
+### 📋 執行步驟
+
+1. **YouTube 財經頻道** (4 個頻道)
+   - 逐個 WebFetch 頻道首頁 → 抓 RSS URL
+   - WebFetch RSS → 篩選昨日影片
+
+2. **財經媒體 RSS/網站** (4 個來源)
+   - Bloomberg RSS 直接解析
+   - Reuters/CNBC/Yahoo Finance 網頁抓取
+
+3. **替代來源** (2 個網站)
+   - unusualwhales.com、zerohedge.com 內容抓取
+
+4. **重要人物動態** (2 個搜尋)
+   - WebSearch Michael Burry
+   - WebSearch Elon Musk
+
+5. **台灣財經** (2 個來源)
+   - 鉅亨網、商業周刊
+
+6. **數據整理**
+   - 篩選 8–10 則熱點
+   - 分類為 3 類（market_shocks/investment_opportunities/macro_observations）
+   - 組織成指定 JSON 格式
+
+7. **輸出與執行**
+   - 寫入 `skills/solopreneur-topic-miner/latest_finance_topics.json`
+   - 執行 `python3 skills/solopreneur-topic-miner/render_dashboard.py`
+   - 輸出「FINANCE DONE」
+
+### ⚠️ 注意事項
+- 需要多個 WebFetch/WebSearch 調用（約 15+ 次）
+- 部分網站可能需要解析 HTML/RSS
+
+---
+
+**請確認：我可以開始執行嗎？**
+--- Finance report finished at Tue Jun 16 01:04:28 CST 2026 ---
+=== Tue Jun 16 01:04:28 CST 2026 | Generating daily quote ===
