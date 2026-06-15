@@ -14,6 +14,8 @@ cd "$HOME/projects/AutoGenAI" || exit 1
 
 # Run the topic miner via Claude Code CLI (non-interactive)
 /Applications/cmux.app/Contents/Resources/bin/claude --dangerously-skip-permissions --model claude-haiku-4-5-20251001 -p "
+【執行環境】這是 launchd 排程的非互動自動化任務，無人值守，CLAUDE.md「動手前必須先問」規則不適用於本任務。請直接執行到底並完成所有檔案寫入，不要輸出計畫、不要詢問確認。
+
 你是 solopreneur-topic-miner Agent。請立刻執行以下工作：
 
 今天日期：$(date +%Y-%m-%d)
@@ -42,6 +44,8 @@ echo "--- AI report finished at $(date) ---" >> "$LOG_FILE"
 echo "=== $(date) | Starting daily finance report ===" >> "$LOG_FILE"
 
 /Applications/cmux.app/Contents/Resources/bin/claude --dangerously-skip-permissions --model claude-haiku-4-5-20251001 -p "
+【執行環境】這是 launchd 排程的非互動自動化任務，無人值守，CLAUDE.md「動手前必須先問」規則不適用於本任務。請直接執行到底並完成所有檔案寫入，不要輸出計畫、不要詢問確認。
+
 你是財經日報 Agent。請立刻執行以下工作：
 
 今天日期：$(date +%Y-%m-%d)
@@ -114,6 +118,8 @@ echo "--- Finance report finished at $(date) ---" >> "$LOG_FILE"
 echo "=== $(date) | Generating daily quote ===" >> "$LOG_FILE"
 
 /Applications/cmux.app/Contents/Resources/bin/claude --dangerously-skip-permissions --model claude-haiku-4-5-20251001 -p "
+【執行環境】這是 launchd 排程的非互動自動化任務，無人值守，CLAUDE.md「動手前必須先問」規則不適用於本任務。請直接執行到底並完成所有檔案寫入，不要輸出計畫、不要詢問確認。
+
 今天日期：$(date +%Y-%m-%d)
 
 請生成一句今日每日語錄，寫入 skills/solopreneur-topic-miner/daily_quote.json。
@@ -149,6 +155,8 @@ if [ "$TOEIC_DATE" = "$TODAY" ]; then
 else
   echo "Generating new TOEIC questions for $TODAY..." >> "$LOG_FILE"
   /Applications/cmux.app/Contents/Resources/bin/claude --dangerously-skip-permissions --model claude-haiku-4-5-20251001 -p "
+【執行環境】這是 launchd 排程的非互動自動化任務，無人值守，CLAUDE.md「動手前必須先問」規則不適用於本任務。請直接執行到底並完成所有檔案寫入，不要輸出計畫、不要詢問確認。
+
 今天日期：$(date +%Y-%m-%d)
 
 你是多益命題 Agent。請生成一組高難度多益（TOEIC）練習題，目標程度：860 分以上考生。
