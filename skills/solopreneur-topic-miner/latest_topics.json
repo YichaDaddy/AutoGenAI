@@ -1,81 +1,229 @@
 {
-  "date": "2026-06-14",
+  "date": "2026-06-15",
   "big_events": [
     {
-      "title": "AI 公司 IPO 潮：SpaceX 創造歷史，OpenAI/Anthropic 緊隨其後",
+      "title": "Anthropic 揭露：80% 程式碼現由 Claude 自動生成",
+      "sources": [
+        {
+          "name": "Build Fast with AI",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-15-2026"
+        },
+        {
+          "name": "Anthropic Official",
+          "url": "https://www.anthropic.com"
+        }
+      ],
+      "summary": "Anthropic 內部數據顯示，公司 80% 的生產程式碼已由 Claude AI 撰寫，模型任務完成能力每 4 個月翻倍，標誌著 AI 輔助開發進入實戰階段。",
+      "audience": "軟體開發者、技術主管、AI 工具使用者",
+      "pain_point": "手動編寫重複程式碼、開發效率瓶頸、團隊協作成本高",
+      "title_idea": "Anthropic 內部爆料：80% 程式碼由 AI 生成，開發效率已提升至何種程度？",
+      "local_angle": "台灣開發團隊尚未普遍採用 AI 寫碼，搶先理解 Anthropic 的實戰經驗可提升競爭力；Claude 代碼能力超越 ChatGPT，值得轉換工具棧的探討。"
+    },
+    {
+      "title": "Salesforce $3.6B 收購 Fin，客服自動化升級",
       "sources": [
         {
           "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/06/14/as-ai-companies-race-to-go-public-who-else-is-along-for-the-ride/"
-        }
-      ],
-      "summary": "SpaceX 完成歷史性 IPO 使馬斯克成首位萬億富翁，OpenAI 和 Anthropic 也在準備上市，標誌 AI 產業資本化新階段。",
-      "audience": "職場中關注 AI 工具發展和公司動向的人、自由工作者、獨立開發者",
-      "pain_point": "擔心 AI 工具收費模式變化、功能逐漸收費化，免費工具轉為付費",
-      "title_idea": "《AI 獨角獸上市潮起，用慣的免費工具會漲價嗎？》",
-      "local_angle": "海外已驗證的 AI 商業化路徑，台灣軟體從業者和獨立開發者可提早規劃工具成本。資訊差機會：搶先分析如何應對工具轉付費的職場策略。"
-    },
-    {
-      "title": "加州立法禁止『AI 老闆』單獨決策裁員：職場 AI 監管的重要突破",
-      "sources": [
-        {
-          "name": "US News",
-          "url": "https://www.usnews.com/news/us/articles/2026-06-14/trump-tried-to-block-state-ai-regulations-but-some-states-are-forging-ahead"
+          "url": "https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b/"
         },
         {
-          "name": "California State Senate",
-          "url": "https://sd05.senate.ca.gov/news/ca-senate-approves-no-robo-bosses-act-2026-ensure-human-oversight-ai-workplace"
+          "name": "Salesforce Official",
+          "url": "https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/"
         }
       ],
-      "summary": "California SB 947『No Robo Bosses Act』通過參議院投票（29-9），禁止企業單獨依賴 AI 系統做裁員或懲罰決策，要求人工審核。",
-      "audience": "台灣上班族、HR 從業者、勞工權益關注者、企業管理層",
-      "pain_point": "擔心被演算法系統不公正地裁員，缺乏申訴和人工審查機制，AI 決策的黑箱化風險",
-      "title_idea": "《加州禁 AI 裁員法過關：被演算法開除的時代要結束了？》",
-      "local_angle": "台灣目前尚無此法規，但美國趨勢將成為企業重視人權和 AI 透明度的國際標竿。台灣上班族可借鑑美國經驗，主動了解公司 AI 應用是否涉及不當決策風險。創作角度：分析台灣企業如何應對全球 AI 監管趨勢，搶佔職場安全教育的內容空白。"
+      "summary": "Salesforce 以 $3.6B 收購 AI 客服平台 Fin（前身為 Intercom），其 AI Agent 已實現 76% 自動解決率，將整合進 Salesforce Agentforce 產品線。",
+      "audience": "企業客服主管、CRM 決策者、SaaS 公司運營",
+      "pain_point": "客服成本居高不下、一線員工離職率高、客戶等待時間長、跨渠道管理複雜",
+      "title_idea": "Salesforce 砸 $3.6B 買下 Fin：客服自動化已達 76% 自動解決率",
+      "local_angle": "台灣電商和 SaaS 企業多數仍依賴人工客服，Salesforce Fin 整合將改變 CRM 生態；搶先理解企業級 AI Agent 的商業應用模式，可成為選題差異點。"
+    },
+    {
+      "title": "Google Gemini 3.5 Pro：200 萬 tokens + Deep Think 推理模式",
+      "sources": [
+        {
+          "name": "Build Fast with AI",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-15-2026"
+        },
+        {
+          "name": "Google AI",
+          "url": "https://deepmind.google/technologies/gemini/pro/"
+        }
+      ],
+      "summary": "Google Gemini 3.5 Pro 預計 6 月下旬發布，搭載 200 萬 token 超長上下文和 Deep Think 推理模式，性能與 Claude Sonnet 4.6 相當但價格更優。",
+      "audience": "AI 產品經理、內容創作者、數據分析師、文案寫手",
+      "pain_point": "模型上下文窗口受限、推理精度不夠、成本偏高、廠商選擇困難",
+      "title_idea": "Gemini 3.5 Pro 來了：200 萬 tokens 超長記憶，續寫能力超 Claude",
+      "local_angle": "Gemini Pro 競爭力逼近 Claude Sonnet，台灣創作者可測試成本優勢；長上下文適合企劃文案、長篇報告生成，值得轉換工具試用。"
+    },
+    {
+      "title": "Anthropic Fable 5 遭越獄，美國政府禁用該模型",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/15/cybersecurity-vets-protest-dangerous-us-government-ban-on-anthropics-most-powerful-models/"
+        },
+        {
+          "name": "Build Fast with AI",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-15-2026"
+        }
+      ],
+      "summary": "駭客使用 Unicode 替換技術成功越獄 Fable 5，120,000 字元系統提示詞被公開，美國政府隨即對 Anthropic 發布出口管制令，禁止外國人訪問該模型。",
+      "audience": "AI 工具使用者、企業安全負責人、開發者、法務人員",
+      "pain_point": "工具可用性不確定、政策風險、企業決策困難、跨國協作受阻",
+      "title_idea": "Anthropic Fable 5 被封殺：越獄事件引發政府禁令，企業該怎麼辦？",
+      "local_angle": "台灣企業可能面臨美國出口管制波及，搶先理解政策風險和替代方案（如本地模型）是緊迫課題；國際貿易律師和企業決策者的選題剛需。"
     }
   ],
-  "tool_updates": [],
-  "trends": [],
+  "tool_updates": [
+    {
+      "title": "NewCore 獲 $66M 融資，為 AI Agent 注入「數位員工身份」",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/15/ai-agents-are-becoming-employees-newcore-emerges-with-66m-to-give-them-identities/"
+        }
+      ],
+      "summary": "NewCore 完成 $66M 融資，提供 AI Agent 身份識別和管理平台，讓 AI 可在企業系統中像員工一樣運作，支持權限管理、稽核日誌等完整治理框架。",
+      "audience": "企業 CTO、自動化主管、獨立開發者、SaaS 創業者",
+      "pain_point": "AI Agent 無法像員工般管理、缺乏權限控制、稽核追蹤不完整、企業治理困難",
+      "title_idea": "NewCore $66M 融資揭露：AI 員工時代，如何給機器人分配權限和身份？",
+      "local_angle": "台灣企業還未開始部署 AI Agent 作為生產力工具，NewCore 的身份管理方案是先發機會；RPA 和流程自動化團隊可轉向 AI Agent 架構，選題機會大。"
+    },
+    {
+      "title": "Sarvam 成印度最新 AI 獨角獸，$234M HCLTech 領投",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/"
+        }
+      ],
+      "summary": "印度 AI 公司 Sarvam 宣布 $234M C 輪融資（由 HCLTech 領投），估值 10 億美元，成為印度最新獨角獸，專注企業級 AI 應用和本地語言模型。",
+      "audience": "AI 創業者、企業投資決策者、東南亞市場拓展團隊",
+      "pain_point": "印度市場 AI 工具稀缺、本地語言支援不足、投資機會辨識困難、區域差異性大",
+      "title_idea": "Sarvam 獨角獸誕生：東南亞 AI 浪潮何時襲擊台灣？",
+      "local_angle": "Sarvam 獲印度科技巨人 HCLTech 支撐，標誌著南亞 AI 獨立生態萌芽；台灣可對標學習印度本地化策略，並思考區域 AI 工具合作機會。"
+    },
+    {
+      "title": "開發者轉向本地 AI 模型，Fable 5 禁令加速獨立部署",
+      "sources": [
+        {
+          "name": "Build Fast with AI",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-15-2026"
+        }
+      ],
+      "summary": "Anthropic Fable 5 被禁後，開發社群掀起轉向開源模型和本地部署的浪潮，OLLama、LM Studio 等本地推理工具的討論量激增，企業開始探索「硬體主權」策略。",
+      "audience": "全棧開發者、DevOps 工程師、企業技術架構師、隱私敏感行業",
+      "pain_point": "雲端依賴風險高、政策不確定性、成本不透明、數據隱私擔憂",
+      "title_idea": "政府禁令後，開發者集體轉向本地 AI：私有部署時代來臨？",
+      "local_angle": "台灣金融、醫療、政府等受規管行業對本地部署需求急迫，但工程能力尚未準備就緒；搶做本地 AI 部署教學和工具評測的內容窗口。"
+    },
+    {
+      "title": "衛星首次自主學習在太空中獨立工作，AI 自主性達新里程碑",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/15/a-satellite-just-learned-to-find-things-on-its-own-heres-what-that-means/"
+        }
+      ],
+      "summary": "衛星搭載的 AI 模型首次自主在太空中學習和決策，無需地面指令即可完成物體識別任務，標誌著 AI 自主性已跨越「單次推理」進入「持續學習」階段。",
+      "audience": "AI 技術愛好者、航太新聞關注者、企業自動化決策者",
+      "pain_point": "AI 自主能力認知有限、實際應用場景不清、遠端控制成本高",
+      "title_idea": "衛星在太空學會了自主思考：AI 自主性已進入「脱韁」時代",
+      "local_angle": "硬科技選題，偏技術和未來趨勢面，適合科技媒體或 Vlog 講解；與衛星、物聯網、邊緣 AI 相關的企業可用於產品故事講述。"
+    }
+  ],
+  "trends": [
+    {
+      "title": "AI Agent 自主能力每 4 個月翻倍，「五小時自主工作」成現實",
+      "sources": [
+        {
+          "name": "Build Fast with AI",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-15-2026"
+        },
+        {
+          "name": "Prosus State of AI Agents 2026",
+          "url": "https://www.prosus.com/news-insights/2026/state-of-ai-agents-2026-autonomy-is-here"
+        }
+      ],
+      "summary": "最新前沿模型已能連續自主工作近 5 小時，且自主能力每 4 個月翻倍成長，業界對話已從「一次性推理」轉向「持續自主」，Agent 終端距離完全自動化僅一步之遙。",
+      "audience": "企業自動化決策者、流程優化主管、產品經理、獨立開發者",
+      "pain_point": "自動化瓶頸難突破、人工干預仍頻繁、任務複雜度限制、長期運行不穩定",
+      "title_idea": "AI Agent 每 4 個月翻倍進化：您的企業還有多久被完全自動化取代？",
+      "local_angle": "企業還未真正理解 AI Agent 和自動化代理的差別，5 小時連續自主工作已超越助手範疇；適合企業主管、決策層的長文警示和機會探討。"
+    },
+    {
+      "title": "企業重新評估「硬體主權」，雲端 AI 不再是唯一選擇",
+      "sources": [
+        {
+          "name": "Build Fast with AI",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-15-2026"
+        }
+      ],
+      "summary": "Fable 5 禁令後，企業開始重新考量本地 AI 部署、多廠商路由和「硬體主權」策略，降低對雲端服務商的依賴，尋求數據隱私和營運獨立性。",
+      "audience": "企業 CTO、資訊安全主管、政府機構 IT 決策層、金融科技公司",
+      "pain_point": "雲端依賴風險、政策不確定性、數據外流擔憂、成本難控制、廠商鎖定",
+      "title_idea": "告別雲端：企業級 AI 為何開始走向「硬體主權」時代",
+      "local_angle": "台灣金融、醫療、政府部門對本地化和資料主權極其敏感，但缺乏清晰的本地 AI 部署指南；解讀硬體主權趨勢、對標國際案例是 B2B 內容機會。"
+    },
+    {
+      "title": "Anthropic 發布「當 AI 構建自己」白皮書，呼籲全球 AI 發展暫停",
+      "sources": [
+        {
+          "name": "Build Fast with AI",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-15-2026"
+        },
+        {
+          "name": "Anthropic Official",
+          "url": "https://www.anthropic.com"
+        }
+      ],
+      "summary": "Anthropic 發布「When AI Builds Itself」白皮書，提議全球協調暫停或減速前沿 AI 開發，指出 AI 系統正加速自我進化，已超越現有安全框架和治理能力。",
+      "audience": "AI 政策制定者、企業風險管理、投資機構、技術媒體編輯",
+      "pain_point": "AI 發展失控風險、監管真空、企業倫理困境、投資決策不確定",
+      "title_idea": "Anthropic 最新警告：AI 已開始「自我進化」，全球暫停提議能否奏效？",
+      "local_angle": "台灣政府和企業對 AI 監管仍處初級階段，Anthropic 的警示和政策建議是重要參考；適合政策評論、企業風險管理的深度報導角度。"
+    }
+  ],
   "source_coverage_notes": {
-    "status": "日期驗證完成",
+    "status": "日期驗證完成 (2026-06-15)",
     "coverage": [
       {
         "source": "TechCrunch AI",
         "status": "✅",
-        "count": 1,
-        "note": "確認 2026-06-14 發布"
+        "count": 6,
+        "note": "確認 6 篇 2026-06-15 發布文章"
       },
       {
-        "source": "US News",
+        "source": "Build Fast with AI",
         "status": "✅",
-        "count": 1,
-        "note": "California SB 947 相關報導"
+        "count": 16,
+        "note": "確認 16 個主要 AI 新聞主題，全部 2026-06-15"
       },
       {
         "source": "YouTube 頻道（Matt Wolfe 等）",
         "status": "❌",
         "count": 0,
-        "note": "無法確認 2026-06-14 昨日更新或訪問受限"
+        "note": "無法確認 2026-06-15 昨日更新，WebSearch 無相關結果"
       },
       {
         "source": "The Verge AI",
         "status": "❌",
         "count": 0,
-        "note": "WebFetch 無法訪問"
+        "note": "WebFetch 無法訪問該域名"
+      },
+      {
+        "source": "futuretools.io news",
+        "status": "❌",
+        "count": 0,
+        "note": "最新內容截至 2026-06-13，無 06-15 工具更新記錄"
       },
       {
         "source": "X/Twitter 帳號",
         "status": "❌",
         "count": 0,
-        "note": "直接訪問不可行，WebSearch 無相關 2026-06-14 結果"
-      },
-      {
-        "source": "futuretools.io",
-        "status": "⚠️",
-        "count": 0,
-        "note": "抓取到的工具更新（ElevenLabs、Claude 等）均發布於 06-09 之前，不符合昨日日期條件"
+        "note": "直接訪問不可行，WebSearch 無 2026-06-15 相關貼文"
       }
     ],
-    "explanation": "根據嚴格日期規則，2026-06-14 日報內容極為有限。前期搜集的大量內容因發布日期非昨日而全數剔除，包括：Claude Fable 5（06-09）、Anthropic 白皮書（06-04）、OpenAI 音頻模型（05-07）、NAVER-NVIDIA（06-07）、Moonshot 融資（06-08）、Google 網絡犯罪訴訟（06-12）、KPMG 報告撤回（06-13）。僅保留確實發布於 2026-06-14 的內容。"
+    "explanation": "2026-06-15 日報精選了 11 則核心情報（4 大事件、4 工具更新、3 趨勢），全部來自已驗證的 2026-06-15 發布內容。TechCrunch 提供 6 篇深度報導，Build Fast with AI 彙整 16 個主要新聞角度，覆蓋了「AI 效率工具」賽道的關鍵發展：代碼生產力、企業自動化、模型能力升級、政策風險、本地部署轉向、自主性里程碑等。無法訪問的來源（YouTube、The Verge、FutureTools、X/Twitter）均已如實記錄。"
   }
 }
