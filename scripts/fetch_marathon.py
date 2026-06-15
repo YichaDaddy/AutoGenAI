@@ -6,7 +6,7 @@
 天氣用 Open-Meteo（免費、免金鑰），座標取每筆活動的 GPS 起點，無 GPS 時退回竹北。
 輸出結構與 v3/index.html 內建的 RUNS_FALLBACK 一致，前端 fetch 後直接渲染。
 """
-import os, sys, json, urllib.request, urllib.parse, datetime
+import os, sys, json, time, urllib.request, urllib.parse, urllib.error, datetime
 
 CID = os.environ.get('STRAVA_CLIENT_ID')
 CSEC = os.environ.get('STRAVA_CLIENT_SECRET')
@@ -23,10 +23,28 @@ def die(msg):
     sys.exit(1)
 
 
-def http_json(url, data=None, headers=None):
-    req = urllib.request.Request(url, data=data, headers=headers or {})
-    with urllib.request.urlopen(req, timeout=40) as r:
-        return json.load(r)
+def http_json(url, data=None, headers=None, retries=3):
+    """GET/POST JSON，遇 Strava 瞬斷（403/429/5xx）或網路錯誤自動重試＋退避。"""
+    short = url.split('?')[0]
+    for attempt in range(retries + 1):
+        try:
+            req = urllib.request.Request(url, data=data, headers=headers or {})
+            with urllib.request.urlopen(req, timeout=40) as r:
+                return json.load(r)
+        except urllib.error.HTTPError as e:
+            if e.code in (403, 429, 500, 502, 503, 504) and attempt < retries:
+                wait = 4 * (attempt + 1)
+                print('HTTP %d on %s → %ds 後重試 (%d/%d)' % (e.code, short, wait, attempt + 1, retries))
+                time.sleep(wait)
+                continue
+            raise
+        except urllib.error.URLError as e:
+            if attempt < retries:
+                wait = 4 * (attempt + 1)
+                print('連線錯誤 %s on %s → %ds 後重試 (%d/%d)' % (e, short, wait, attempt + 1, retries))
+                time.sleep(wait)
+                continue
+            raise
 
 
 def get_token():
