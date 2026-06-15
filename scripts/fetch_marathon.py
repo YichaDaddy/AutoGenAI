@@ -163,7 +163,7 @@ def main():
             'hr': downsample(hr, SAMPLES), 'd': downsample(d, SAMPLES),
             'v': downsample(v, SAMPLES), 'alt': downsample(alt, SAMPLES),
         }
-    out = {'generated': datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
+    out = {'generated': datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
            'runs': runs}
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, 'w', encoding='utf-8') as f:
