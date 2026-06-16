@@ -1,71 +1,104 @@
 {
-  "date": "2026-06-16",
+  "date": "2026-06-17",
   "p5": [
     {
-      "id": "2026-06-16-p5-0",
-      "tag": "倒裝句（否定副詞句首）",
-      "pre": "",
-      "post": " the quarterly financial audit reached its conclusion did management authorize the release of the year-end bonus payments to eligible employees.",
-      "opts": ["Not until", "Until", "Not since", "Since"],
-      "ans": 0,
-      "zh": "直到年度財務審計完成後，管理層才核准向符合資格的員工發放年終獎金。",
-      "why": "\"<b>Not until</b> + 子句, + 助動詞(did) + 主詞 + 原形動詞\" 為否定副詞置於句首引發的倒裝句型，意為「直到...才...」，後方 \"did management authorize\" 正是此倒裝結構。\"Until\" 單獨置於句首不會觸發倒裝；\"Not since\" 通常與完成時態搭配（Not since X has S V）；\"Since\" 語意為「自從」，與全句「直到才」的邏輯不符。"
+      "id": "2026-06-17-p5-0",
+      "tag": "假設語氣倒裝",
+      "pre": "Had the merger proposal received full regulatory approval, the parent company",
+      "post": "with the consolidation ahead of schedule.",
+      "opts": ["would proceed", "would have proceeded", "had proceeded", "proceeds"],
+      "ans": 1,
+      "zh": "若合併提案獲得完整的監管核准，母公司本將提前完成整合工作。",
+      "why": "本句開頭的 <b>Had + 主詞 + 過去分詞</b> 是假設語氣的倒裝形式，等同於 'If the merger proposal had received...'，表示與過去事實相反的假設（第三條件句）。主要子句應使用 <b>would have + 過去分詞</b>，故答案為 would have proceeded。would proceed 屬第二條件句（與現在相反）；had proceeded 為過去完成式，不構成條件句主句；proceeds 為現在式，完全不符。"
     },
     {
-      "id": "2026-06-16-p5-1",
-      "tag": "分詞構句（主動）",
+      "id": "2026-06-17-p5-1",
+      "tag": "分詞構句（被動）",
       "pre": "",
-      "post": " the potential risks associated with the proposed merger, the board commissioned an independent due diligence review before proceeding further.",
-      "opts": ["Recognizing", "Recognized", "To recognize", "Having been recognized"],
+      "post": "by the unexpectedly high attrition rate among senior engineers, the executive committee convened an emergency session to review compensation benchmarks.",
+      "opts": ["Alarmed", "Alarming", "Having alarmed", "To be alarmed"],
       "ans": 0,
-      "zh": "董事會意識到此次擬議併購案所伴隨的潛在風險，因此在進一步推進前委託進行了一項獨立的盡職調查審查。",
-      "why": "分詞構句的邏輯主詞為主要子句主詞 \"the board\"，與動詞 recognize 之間為<b>主動關係</b>（董事會主動「意識到」風險），須用現在分詞 \"<b>Recognizing</b>\"。\"Recognized\" 與 \"Having been recognized\" 皆為被動形式，暗示「董事會被意識到」，語意矛盾；\"To recognize\"（不定詞表目的）會使句意變成「為了意識到風險，董事會委託審查」，邏輯不通。"
+      "zh": "對資深工程師出乎意料的高離職率感到震驚，執行委員會召開緊急會議以審查薪酬基準。",
+      "why": "主要子句的主語 'the executive committee' 是被高離職率所震驚的對象，分詞構句應使用<b>過去分詞 Alarmed</b>（被動），意為「對……感到震驚」。Alarming 為現在分詞（主動），意為「令人震驚的」，邏輯相反；Having alarmed 表主動且動作先於主句，語意錯誤；To be alarmed 為不定詞，不用於此類句首修飾語。"
     },
     {
-      "id": "2026-06-16-p5-2",
-      "tag": "名詞子句（主詞）",
-      "pre": "",
-      "post": " the proposed amendments to the bylaws will be ratified by the shareholders remains uncertain, given the considerable opposition expressed at the preliminary meeting.",
-      "opts": ["Whether", "If", "That", "What"],
+      "id": "2026-06-17-p5-2",
+      "tag": "非限定關係子句",
+      "pre": "The lead negotiator,",
+      "post": "extensive knowledge of international trade law proved invaluable, successfully concluded the bilateral agreement within three months.",
+      "opts": ["whose", "whom", "who", "of which"],
       "ans": 0,
-      "zh": "章程修正案是否將獲得股東批准仍屬未知，因為在初步會議上已表達出相當大的反對聲音。",
-      "why": "\"<b>Whether</b> + S + V\" 可作主詞名詞子句，表示「是否」這一未定的結果，與後方主要動詞 \"remains uncertain\"（仍不確定）語意呼應。\"If\" 引導的子句一般不作句子主詞（僅用於受詞位置或口語）；\"That\" 引導的名詞子句雖可作主詞，但通常陳述已知事實，與「仍不確定」的語境衝突；\"What\" 本身須在子句中扮演缺失的成分（如受詞），但本句子句結構完整，不需要 \"what\"。"
+      "zh": "這位首席談判代表——其對國際貿易法的深厚知識被證明彌足珍貴——在三個月內成功締結了雙邊協議。",
+      "why": "空格後緊接名詞 'extensive knowledge'，表示先行詞 'The lead negotiator' 所擁有的知識，需使用<b>關係代名詞所有格 whose</b>（= his/her）。此句為<b>非限定關係子句</b>（以逗號隔開），故不可用 that（只用於限定子句）。whom 為受格、who 為主格，均不能直接修飾後方名詞；of which 用於事物所有格，不適用於指人。"
     },
     {
-      "id": "2026-06-16-p5-3",
-      "tag": "動詞語意辨別",
-      "pre": "All subcontractors are required to ",
-      "post": " the safety protocols outlined in Appendix C, regardless of the scale of the assigned task.",
-      "opts": ["adhere to", "consist of", "result in", "account for"],
+      "id": "2026-06-17-p5-3",
+      "tag": "讓步介系詞",
+      "pre": "",
+      "post": "the foregoing provisions, all intellectual property developed during the term of this agreement shall vest exclusively in the company.",
+      "opts": ["Notwithstanding", "Despite of", "In spite", "Although"],
       "ans": 0,
-      "zh": "所有分包商均須遵守附錄C所列之安全規範，無論其所承接任務的規模大小。",
-      "why": "\"<b>adhere to</b>\" 意為「遵守、遵循」（規則、規範、標準），與後方受詞 \"the safety protocols\" 語意搭配。\"consist of\"（由...組成）、\"result in\"（導致）、\"account for\"（說明、占...比例）三者語意皆與「遵守規範」不符，置入句中會造成語意錯誤。"
+      "zh": "儘管有上述條款，本協議期間所開發的所有智慧財產權應專屬歸屬於公司。",
+      "why": "<b>Notwithstanding</b> 是法律英文中常見的讓步介系詞，直接接名詞片語（'the foregoing provisions'），意為「儘管有……」，常用於契約條款開頭。Despite 正確用法為 'Despite + 名詞'（不可加 'of'，故 Despite of 為錯誤）；In spite 後必須接 'of'，不可單獨使用；Although 為連接詞，後需接主詞＋動詞的完整子句，不可接名詞片語。"
     },
     {
-      "id": "2026-06-16-p5-4",
-      "tag": "假設語氣（與現在事實相反的倒裝）",
-      "pre": "",
-      "post": " the timely intervention of the crisis management team, the data breach could have escalated into a far more damaging reputational disaster.",
-      "opts": ["Were it not for", "If it were not", "Had it not", "Without it being"],
-      "ans": 0,
-      "zh": "若不是危機管理團隊的及時介入，這次資料外洩事件原本可能會演變成一場更具破壞性的商譽災難。",
-      "why": "\"<b>Were it not for</b> + 名詞片語\" 是 \"If it were not for + 名詞片語\" 省略 if 並將 were 移至句首的倒裝形式，意為「若不是...」，後方可直接接名詞片語 \"the timely intervention...\"，並與主要子句的 \"could have escalated\"（與過去事實相反的假設語氣）呼應。\"If it were not\" 後須再加 \"for\" 才完整；\"Had it not\" 為 \"If it had not been for\" 的省略，但缺少 \"been for\" 則不完整；\"Without it being\" 並非標準的假設句型表達方式。"
+      "id": "2026-06-17-p5-4",
+      "tag": "動詞語意辨別（進階）",
+      "pre": "The force majeure clause expressly",
+      "post": "either party from seeking indemnification for losses arising from events outside their reasonable control.",
+      "opts": ["inhibits", "deters", "precludes", "refrains"],
+      "ans": 2,
+      "zh": "不可抗力條款明確排除任何一方就超出其合理控制範圍之事件所造成的損失尋求賠償的權利。",
+      "why": "<b>preclude X from doing</b> 是法律英文的固定搭配，意指「在法律上排除某人……的可能」，語意最強且最正式。deter 意為「嚇阻」，屬心理層面；inhibit 意為「抑制」，強度不足以描述法律效力；refrain 為不及物動詞，正確用法為 'X refrains from doing'（不接受詞），故文法錯誤。"
     }
   ],
   "p6": {
-    "id": "2026-06-16-p6",
-    "title": "Notice: Transition to the New Digital Expense Reporting Platform",
+    "id": "2026-06-17-p6",
+    "title": "Memorandum: Mandatory Pre-Travel Compliance Briefing",
     "seg": [
-      ["TO: All Department Heads\nFROM: Finance Operations\nRE: Transition to New Digital Expense Reporting Platform\n\nEffective August 1, the company ", {"b": 0}, " from the current paper-based expense reimbursement process to a fully digital platform, ExpenseTrack Pro, which will streamline approval workflows and reduce processing times."],
-      ["All employees will be required to submit receipts and expense reports through the new system beginning on the effective date. ", {"b": 1}, ", employees who have outstanding reimbursement claims submitted under the old paper-based process should continue to use the existing forms until those claims are fully processed."],
-      ["To facilitate a smooth transition, the Finance Operations team will conduct a series of training sessions designed to ", {"b": 2}, " employees on the platform's core functions, including receipt scanning, approval routing, and real-time status tracking."],
+      ["All employees in Grade 6 and above ", {"b": 0}, " a mandatory pre-travel compliance briefing before undertaking any international business trip exceeding ten consecutive days."],
+      [{"b": 1}, ", the prior policy mandated only a voluntary online module, the revised guidelines introduce a structured, in-person session conducted by the Legal Compliance team."],
+      ["Employees who fail to attend the briefing session without prior written authorization from their division director will be deemed ", {"b": 2}, " and may be subject to disciplinary measures in accordance with the Employee Conduct Code."],
       [{"b": 3}]
     ],
     "blanks": [
-      {"tag": "時態語態（未來時態主動語態）", "col1": true, "opts": ["will transition", "has transitioned", "is transitioned", "had transitioned"], "ans": 0, "zh": "自八月一日起，公司將從目前的紙本費用報銷流程過渡至全面數位化平台ExpenseTrack Pro，此平台將簡化核准流程並縮短處理時間。", "why": "句首 \"Effective August 1\" 指向未來生效日期，且「公司」是執行轉換動作的主體（主動），須用未來時態主動語態 \"<b>will transition</b>\"。\"has transitioned\"（現在完成）與 \"had transitioned\"（過去完成）的時態錨點與「自八月一日起」不符；\"is transitioned\" 為被動語態，但公司是轉換動作的執行者而非被轉換的對象，不應使用被動。"},
-      {"tag": "語篇連接詞（轉折）", "col1": true, "opts": ["However", "Furthermore", "As a result", "For instance"], "ans": 0, "zh": "所有員工自生效日起須透過新系統提交收據及費用報告。然而，在舊紙本流程下已提交但尚未處理完畢的報銷申請，相關員工應繼續使用現行表單，直到該等申請完全處理完畢為止。", "why": "前句說明「所有員工自生效日起須使用新系統」，後句說明「但已提交舊申請的員工仍可使用舊表單」，兩者構成例外／轉折關係，須用 \"<b>However</b>\"。\"Furthermore\"（此外）表附加；\"As a result\"（因此）表因果；\"For instance\"（例如）表舉例，三者皆無法表達此處的轉折語意。"},
-      {"tag": "詞彙語意（動詞與介系詞搭配）", "col1": true, "opts": ["train", "familiarize", "acquaint", "introduce"], "ans": 0, "zh": "為促進順利轉換，財務營運團隊將舉辦一系列培訓課程，針對平台的核心功能對員工進行培訓，內容包括收據掃描、核准流程路由及即時狀態追蹤。", "why": "\"<b>train</b> somebody <b>on</b> something\" 為固定搭配，指「針對某項目對某人進行培訓」，與句中介系詞 \"on\" 相符。\"familiarize\" 與 \"acquaint\" 皆須搭配介系詞 \"with\"（familiarize/acquaint somebody with something）；\"introduce\" 須搭配 \"to\"（introduce somebody to something），三者皆與句中的 \"on\" 不符。"},
-      {"tag": "句子插入（語篇銜接與主旨一致性）", "col1": true, "opts": ["Department heads are asked to ensure that all team members complete the mandatory training module by July 25, prior to the system's official launch.", "The quarterly sales figures for the Asia-Pacific region exceeded projections by twelve percent.", "Employees seeking to update their direct deposit information should contact the Human Resources department directly.", "The building's main conference room will be unavailable for bookings during the week of July 20."], "ans": 0, "zh": "請各部門主管確保所有團隊成員於系統正式上線前，於七月二十五日前完成必修培訓模組。", "why": "本段為全文結尾，須延續前文「培訓課程」的主題，並對讀者（部門主管）提出具體行動呼籲，與全篇「新系統上線前的準備工作」主旨一致。其餘選項分別涉及銷售業績、薪資轉帳資訊、會議室排程，皆與本備忘錄討論的系統轉換主題無關，置於此處會破壞文章的主題一致性。"}
+      {
+        "tag": "時態語態",
+        "col1": true,
+        "opts": ["are required to complete", "were requiring to complete", "have been requiring to complete", "will require completing"],
+        "ans": 0,
+        "zh": "所有六職等及以上的員工，在進行任何超過連續十天的國際商務旅行之前，須完成強制性的出行前合規簡報。",
+        "why": "本句說明現行規定，應使用<b>現在簡單式被動 are required to</b>。were requiring to 使用了過去進行式且 'require to' 非標準主動用法；have been requiring 同樣不自然；will require completing 雖為未來式，但時態與政策宣告的現時性不符，且 'require completing' 語義不如 'be required to complete' 明確。"
+      },
+      {
+        "tag": "語篇連接詞",
+        "col1": true,
+        "opts": ["Whereas", "Since", "Provided that", "Insofar as"],
+        "ans": 0,
+        "zh": "有別於舊版政策僅規定自願完成線上模組，修訂後的指引引入了由法律合規團隊主持的結構性當面簡報。",
+        "why": "<b>Whereas</b> 為正式的對比連接詞，引導子句說明舊政策，與後半句呈現新政策形成對照，符合本段語篇邏輯。Since 表原因；Provided that 表條件（「若……的話」）；Insofar as 表「在……程度內」，三者皆無法表達此處新舊政策對比的語篇關係。"
+      },
+      {
+        "tag": "詞彙語意",
+        "col1": true,
+        "opts": ["non-compliant", "ineligible", "disqualified", "inadmissible"],
+        "ans": 0,
+        "zh": "未事先獲得所在部門主管書面授權而缺席簡報的員工，將被視為不合規，並可能依員工行為準則受到紀律處分。",
+        "why": "<b>non-compliant</b>（不合規的）是人力資源與合規管理的標準術語，形容未遵守規定的員工狀態。ineligible 指「不具備申請資格」；disqualified 指「被取消資格」，通常需主動程序；inadmissible 主要為法律術語，形容「不可採信的（證據）」，均不適合描述員工未遵守出席要求的情形。"
+      },
+      {
+        "tag": "句子插入",
+        "col1": true,
+        "opts": [
+          "Should you require further clarification on any of the above provisions, please do not hesitate to contact the Human Resources Division at your earliest convenience.",
+          "The Human Resources Division acknowledges the inconvenience these changes may cause and will endeavor to accommodate scheduling conflicts on a case-by-case basis hereafter.",
+          "All queries regarding the new policy should have been forwarded to the Human Resources Division by the end of last month.",
+          "Employees who have already completed equivalent training under the previous framework will be exempted, regardless of their grade level."
+        ],
+        "ans": 0,
+        "zh": "如您需要進一步澄清上述任何條款，請隨時與人力資源部門聯繫。",
+        "why": "句子插入題需考量語篇邏輯與語氣一致性。(A) 以<b>假設語氣倒裝</b> 'Should you require...' 提供諮詢管道，是正式備忘錄的標準結語，語氣正式且邏輯完整。(B) 雖語意可理解，但道歉語氣與政策公告的權威性不符；(C) 'should have been forwarded by last month' 時態矛盾，與公告新政策不一致；(D) 引入全文未提及的豁免條款，邏輯斷裂。"
+      }
     ]
   }
 }
