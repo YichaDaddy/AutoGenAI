@@ -1,148 +1,136 @@
 {
-  "date": "2026-06-16",
+  "date": "2026-06-17",
   "big_events": [
     {
-      "title": "SpaceX $600億美元收購 AI 代碼工具 Cursor，AI 開發工具市場大洗牌",
+      "title": "AI 三巨頭首次同台：G7 峰會 Sam Altman、Dario Amodei、Demis Hassabis 齊聚法國",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/"},
-        {"name": "CNBC", "url": "https://www.cnbc.com/2026/06/16/spacex-spcx-cursor-acquisition-ipo.html"},
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-06-16/spacex-pounces-on-60-billion-cursor-takeover-days-after-ipo"}
+        {"name": "CNBC", "url": "https://www.cnbc.com/2026/06/17/g7-trump-ai-tech-leaders-openai-anthropic-google.html"},
+        {"name": "Washington Post", "url": "https://www.washingtonpost.com/national/2026/06/17/g7-summit-trump-ai-france-17-june-2026/fde295f4-6a1e-11f1-830e-133d20cadd28_story.html"}
       ],
-      "summary": "SpaceX IPO 後四天即宣布以 $600 億全股票收購 AI 代碼助手 Cursor（Anysphere），Cursor 年化營收達 $26 億，已進駐 64% 的財星 500 大企業。",
-      "audience": "使用 AI 工具的工程師、開發者、以及關注職場 AI 應用的上班族",
-      "pain_point": "職場人員不確定該投資哪款 AI 工具、哪家平台的生態圈最值得押注",
-      "title_idea": "Cursor 要變成「太空工具」了？SpaceX 砸 $600 億收購，你的 AI 代碼工具未來會怎麼變",
-      "local_angle": "Cursor 已在台灣開發者社群廣泛使用，收購消息在華語圈剛傳開，搶先做教學與分析可吃到第一波流量紅利"
+      "summary": "OpenAI、Anthropic、Google DeepMind 三位 CEO 史上首次同台出席 G7（法國），聚焦 AI 前沿風險、基礎建設主權與兒童網路保護議題。",
+      "audience": "關注 AI 產業動態的職場專業人士、科技自媒體創作者",
+      "pain_point": "不確定全球 AI 監管走向，不知道大公司下一步會怎麼走",
+      "title_idea": "AI 三巨頭首次同台！G7 峰會的這場飯局，將決定未來 AI 規則怎麼訂",
+      "local_angle": "歐美已熱議 AI 主權與監管框架，台灣職場工作者對此幾乎零意識——搶先科普此議題可建立專業感"
     },
     {
-      "title": "微軟 Work IQ APIs 上線 + Scout 自主 Agent 首發：用 MCP 工具把企業組織行為 AI 化",
+      "title": "Google 六年來首款新智慧音箱：$99 Google Home Speaker 由 Gemini AI 全面驅動",
       "sources": [
-        {"name": "AI Agents News June 2026", "url": "https://blog.mean.ceo/ai-agents-news-june-2026/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/17/google-bets-on-gemini-to-reinvent-the-smart-home-speaker/"}
       ],
-      "summary": "微軟推出 Work IQ APIs 提供 MCP 工具與語意索引，讓企業可映射組織行為；同步首發 Microsoft Scout，一個擁有 Entra 身份的全天候自主 Agent。",
-      "audience": "在企業環境工作、使用 Microsoft 365 的職場上班族與 IT 管理者",
-      "pain_point": "上班族希望 AI 能自動處理繁瑣的跨部門協作任務，但不知道微軟 AI Agent 計畫走到哪",
-      "title_idea": "微軟 AI Agent 來了！Work IQ + Scout 讓你的 AI 助手有自己的公司帳號，這代表什麼？",
-      "local_angle": "台灣大量企業使用 Microsoft 365，這波更新直接影響本地職場，但中文內容極度稀缺，先做教學有明顯流量紅利"
+      "summary": "Google 推出 6 年來首款全新智慧音箱，捨棄舊版 Google Assistant 改用 Gemini，支援自然語言多步驟指令與 Gemini Live 對話，含 $10/月 Home Premium 訂閱方案，預購中。",
+      "audience": "對智慧家居與 AI 語音助理感興趣的職場人士",
+      "pain_point": "不確定 Gemini 與舊版 Assistant 差在哪，也不知道 AI 音箱對日常工作有多少實際幫助",
+      "title_idea": "Google 音箱 6 年後復活！Gemini 加持，它能取代你桌上的 AI 助理嗎？",
+      "local_angle": "Gemini 助理整合在實體裝置的發展歐美先行，台灣繁中實測教學幾乎空缺——資訊差紅利明顯"
     },
     {
-      "title": "調查：60% 美國消費者一看到「AI」品牌行銷就反感，AI 光環正在褪色",
+      "title": "Android 17 正式推送 Pixel：Gemini Omni 2 影片生成、Lyria 3 AI 音樂、Bubbles 多工同步上線",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/16/sixty-percent-of-u-s-consumers-say-ai-in-brand-messaging-is-a-turnoff-survey-finds/"}
+        {"name": "Eastern Herald", "url": "https://easternherald.com/2026/06/17/google-pixel-drop-june-2026-android-17-ai-update/"},
+        {"name": "Google Blog", "url": "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop/"}
       ],
-      "summary": "美國新調查顯示，六成消費者對品牌行銷中出現「AI」字眼感到反感，過度強調 AI 已產生行銷反效果。",
-      "audience": "自媒體創作者、行銷人員、以及用 AI 工具工作的職場人士",
-      "pain_point": "創作者與行銷人擔心強調 AI 工具會讓受眾感到被冷落或不信任",
-      "title_idea": "「我用 AI 做的」正在害你掉粉？調查：6 成美國人看到 AI 品牌行銷就想逃",
-      "local_angle": "歐美已出現 AI 行銷疲勞，台灣/華語圈還在 AI 內容熱潮中，這個逆向洞察很稀缺，反思型內容能快速圈粉"
+      "summary": "Google 六月 Pixel Drop 帶來多項 Gemini AI 新功能：Gemini Omni 2 可從文字提示生成影片、Lyria 3 支援 AI 音樂創作，Bubbles 新增全域浮動視窗多工。",
+      "audience": "使用 Android 手機的職場工作者與內容創作者",
+      "pain_point": "不知道 Android 17 哪些 Gemini 功能可以直接提升工作效率或內容創作能力",
+      "title_idea": "Android 17 正式來了！這 5 個 Gemini AI 新功能，上班族一定要馬上試",
+      "local_angle": "Gemini 功能在台灣 Android 用戶中幾乎無人深入介紹，繁中實測教學目前是藍海"
     }
   ],
   "tool_updates": [
     {
-      "title": "Plaud AI 錄音筆出貨破 200 萬、年化訂閱收入達 $1 億，AI 硬體終於找到商業模式",
+      "title": "DeepL 收購 Mixhalo：即時現場口譯技術加入 DeepL，商務國際會議的新利器",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/16/plaud-says-its-software-business-topped-100m-in-arr-after-shipping-over-2m-ai-notetakers/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/17/deepl-acquires-mixhalo-for-live-event-audio-streaming-and-translation/"}
       ],
-      "summary": "Plaud 宣布 AI 錄音筆出貨超 200 萬台、訂閱年化營收破 $1 億，近 50% 硬體用戶升級付費方案，成 AI 硬體＋SaaS 罕見成功案例。",
-      "audience": "開會多、筆記需求高的上班族、業務、主管",
-      "pain_point": "開完會沒時間整理筆記，事後根本記不清誰說了什麼決定",
-      "title_idea": "開完會不用再手打逐字稿！Plaud AI 錄音筆靠什麼賣出 200 萬台、訂閱收入破億？",
-      "local_angle": "Plaud 有繁中介面，台灣電商也有販售，直接做「開箱＋實測＋對比競品」內容，本地教學幾乎空白"
+      "summary": "DeepL 收購現場音訊串流與即時翻譯平台 Mixhalo，技術整合後可在研討會、活動現場提供耳機即時口譯，DeepL 同步宣布設立舊金山辦公室。",
+      "audience": "需要參加國際會議或跨語言溝通的職場工作者",
+      "pain_point": "參加英文演講或國際論壇時，即時理解發言內容仍然很困難",
+      "title_idea": "DeepL 收購現場即時翻譯神器！以後聽國際研討會再也不用靠筆記了？",
+      "local_angle": "即時口譯工具在台灣職場需求強烈但繁中教學幾乎空白——搶做 DeepL 新功能試用分享有明顯先機"
     },
     {
-      "title": "Probably AI 獲 a16z $900 萬投資：號稱 99.99% 準確率的數據分析工具，終結 LLM 幻覺",
+      "title": "Pinterest 推出 Ask Pinterest：對話式 AI 購物 App，用自然語言探索商品與靈感",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/16/probably-raises-9m-to-build-a-more-reliable-kind-of-ai/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/17/pinterest-launches-an-experimental-ai-shopping-app-called-ask-pinterest/"}
       ],
-      "summary": "AI 新創 Probably 獲 a16z 領投 $900 萬種子輪，用「數據科學機甲」架構讓 LLM 達 99.99% 準確率並大幅降低 token 成本，瞄準會計、醫療等精準度要求高的場景。",
-      "audience": "需要用 AI 做數據分析、財務報表或精準查詢的職場人士、分析師",
-      "pain_point": "用 ChatGPT 做數據分析時，數字老是算錯，不敢把 AI 結果直接拿給主管看",
-      "title_idea": "終於！這個 AI 工具號稱準確率 99.99%，a16z 砸錢解決 ChatGPT 算錯數字的惡夢",
-      "local_angle": "Probably 剛獲投資、產品尚在早期，中文介紹幾乎為零，搶先做深度評測可建立先發優勢"
+      "summary": "Pinterest 推出獨立 AI 購物 App「Ask Pinterest」，用戶可自然語言提問取得個人化選品推薦，現已在 ask.pinterest.com 開放試用。",
+      "audience": "對 AI 應用在電商與日常消費場景感興趣的職場人士",
+      "pain_point": "想用 AI 輔助購物決策，但現有工具不夠懂自己的品味與使用情境",
+      "title_idea": "Pinterest 推出 AI 購物助理！用聊天方式找商品，這才是電商的未來？",
+      "local_angle": "AI 對話式電商是歐美已驗證的新趨勢，台灣還沒有人做深度體驗教學——資訊差明顯"
     },
     {
-      "title": "AWS 推出 OpenSearch MCP Apps：AI Agent 現在可以直接查公司 log、追蹤線上事件",
+      "title": "Character.AI 推出創作者套裝：分析儀表板、排行榜、追蹤通知四項工具同步上線",
       "sources": [
-        {"name": "AWS Blog", "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-finops-agent-in-preview-gemma-4-on-bedrock-kiro-pro-max-and-more-june-15-2026/"}
+        {"name": "Character.AI Blog", "url": "https://blog.character.ai/creator-bundle/"},
+        {"name": "FutureTools", "url": "https://futuretools.io/news"}
       ],
-      "summary": "AWS OpenSearch Service 新增 MCP Apps 支援，讓 agentic IDE（如 Claude Desktop、VS Code）中的 AI Agent 可直接查詢 log、追蹤事件與指標，並同步回傳文字摘要與互動視覺化圖表。",
-      "audience": "使用 AWS 的工程師、DevOps 工程師、希望 AI 幫忙 debug 的開發者",
-      "pain_point": "系統出問題時需要在多個工具之間切換查看 log，診斷效率極低",
-      "title_idea": "出 bug 不用瘋狂查 log！AWS 的 AI Agent 現在可以自動幫你追查系統事件了",
-      "local_angle": "MCP 生態快速擴張但中文教學稀缺，做「如何在 Claude Desktop 接 OpenSearch MCP App」教程有明確搜尋需求"
+      "summary": "Character.AI 推出 Creator Bundle，包含互動數據分析儀表板（Creator Insights）、Creator Leaderboard 排行榜、受眾追蹤通知與創作指南四項新工具。",
+      "audience": "使用 AI 工具進行內容創作或自媒體經營的工作者",
+      "pain_point": "在 Character.AI 上創作 AI 角色，但不知道作品表現如何也難以累積穩定受眾",
+      "title_idea": "Character.AI 創作者工具全面升級！這是 AI 版 YouTube Studio 的開始？",
+      "local_angle": "Character.AI 在台灣有大量用戶，但繁中的創作者功能深度教學幾乎是空白"
     }
   ],
   "trends": [
     {
-      "title": "Cursor 被收購，AI 代碼工具整合加速：企業 AI 開發市場進入寡頭競爭新時代",
+      "title": "AI 幻覺剋星：Pramaana Labs 獲 Khosla 領投 $2,700 萬，用數學形式驗證讓 AI 輸出可稽核",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/"},
-        {"name": "NBC News", "url": "https://www.nbcnews.com/tech/tech-news/spacex-buys-ai-coding-startup-cursor-60-billion-rcna350262"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/17/pramaana-labs-raises-27-million-seed-round-from-khosla-ventures-to-bring-formal-verification-to-ai/"}
       ],
-      "summary": "Cursor 進駐 64% 財星 500 大企業後被 SpaceX 以 $600 億收購，AI 代碼工具市場格局將重組，競爭對手 Copilot、Windsurf、Claude Code 正面承壓。",
-      "audience": "使用 AI 輔助開發工具的工程師與技術主管",
-      "pain_point": "工具整合後不確定訂閱費用與功能走向，擔心被鎖定在特定平台生態",
-      "title_idea": "Cursor 被 SpaceX 買走後，我們該換哪個 AI 代碼工具？替代方案完整比較",
-      "local_angle": "此話題在英文圈剛爆發，中文討論幾乎空白，做「Cursor vs Claude Code vs Copilot」比較文是高搜尋量藍海"
+      "summary": "Pramaana Labs 結合 LLM 與 LEAN 形式驗證語言，為法律、藥品、稅務等高風險領域打造可驗證的確定性 AI 輸出系統，獲 Khosla Ventures 領投。",
+      "audience": "在職場使用 AI 做決策或需要高可靠度 AI 輸出的工作者",
+      "pain_point": "AI 工具偶爾產出錯誤答案，難以在需要精確度的工作場景（合約、財務）中安心使用",
+      "title_idea": "AI 終於不再說謊？這家獲 Khosla 投資的新創，用數學讓 AI 輸出 100% 可驗證",
+      "local_angle": "AI 可靠度是台灣企業採用 AI 最大的顧慮，此方向的科普選題有強共鳴且幾乎無人深挖"
     },
     {
-      "title": "「AI 害我失業」正在反噬：Robinhood 裁員聲明成反面教材，企業須重思 AI 溝通策略",
+      "title": "AI 實體化催生新型藍領職缺：「機器人訓練員」成各大 AI 實驗室搶手勞動力",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/16/robinhoods-note-on-10-layoffs-shows-blaming-ai-isnt-cutting-it/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/17/collecting-robot-training-data-is-dirty-unglamorous-work-some-ai-labs-are-already-paying-xdof-to-do-it/"}
       ],
-      "summary": "Robinhood 裁員 10% 試圖將責任歸咎於 AI 自動化，但說法未獲公眾接受，分析指出企業以 AI 為裁員藉口的溝通策略正在失效。",
-      "audience": "關心 AI 對職場衝擊的上班族、HR 從業人員、企業主管",
-      "pain_point": "職場人士不確定 AI 究竟「搶走」多少工作、哪些技能在 AI 時代仍有保障",
-      "title_idea": "裁員 10% 說是 AI 害的？Robinhood 被打臉，老闆再也不能這樣甩鍋了",
-      "local_angle": "AI 替代職場話題在台灣很有共鳴但缺乏精確案例分析，用歐美案例做「AI 裁員真相」系列有持久流量"
+      "summary": "為訓練具身 AI 機器人，各大 AI 實驗室大量聘用人工進行機器人動作示範與資料蒐集，形成新型態「AI 資料工人」市場。",
+      "audience": "關注 AI 對就業市場影響的職場工作者",
+      "pain_point": "擔心 AI 讓工作消失，但不清楚 AI 究竟在創造哪些新工作機會、薪資如何",
+      "title_idea": "AI 時代的新職業出現了！靠「教機器人走路」，月薪可能超乎你的想像",
+      "local_angle": "AI 就業影響是台灣熱議話題，「AI 實際創造的新職缺」這個正向切角在華語圈幾乎無人深挖"
     }
   ],
   "source_coverage_notes": {
-    "status": "日期驗證完成 (2026-06-16)",
+    "status": "日期驗證完成 (2026-06-17)",
     "coverage": [
       {
         "source": "TechCrunch AI",
         "status": "✅",
         "count": 8,
-        "note": "確認 8 篇 URL 含 /2026/06/16/ 的文章，篩選後取 5 篇 AI 相關"
+        "note": "確認 8 篇 URL 含 /2026/06/17/ 的文章，篩選後取 5 篇 AI 相關（智慧音箱、Pinterest、DeepL、Pramaana Labs、機器人訓練資料）"
       },
       {
-        "source": "WebSearch（AI news 2026-06-16）",
+        "source": "FutureTools News",
         "status": "✅",
-        "count": 4,
-        "note": "SpaceX/Cursor 被 CNBC、Bloomberg、NBC、Engadget 等多家媒體確認報導於 6/16"
+        "count": 3,
+        "note": "確認 3 篇 2026-06-17 標記內容，取用 Character.AI Creator Bundle 工具更新"
       },
       {
-        "source": "AI Agents News June 2026",
+        "source": "WebSearch（AI news 2026-06-17）",
         "status": "✅",
-        "count": 2,
-        "note": "確認微軟 Work IQ APIs 與 Microsoft Scout 發布於 6/16"
-      },
-      {
-        "source": "AWS Blog（June 15 Roundup）",
-        "status": "✅",
-        "count": 1,
-        "note": "AWS OpenSearch MCP Apps 發布於 6/15 weekly roundup，時效接近，納入工具更新"
-      },
-      {
-        "source": "futuretools.io/news",
-        "status": "❌",
-        "count": 0,
-        "note": "最新內容截至 2026-06-15，無 06-16 工具更新記錄"
+        "count": 3,
+        "note": "G7 AI 峰會確認由 CNBC、Washington Post 等多家媒體報導於 6/17；Android 17 Pixel Drop 由 Google Blog、Eastern Herald 等確認 6/17 發布"
       },
       {
         "source": "YouTube 頻道（Matt Wolfe 等）",
         "status": "❌",
         "count": 0,
-        "note": "無法確認 2026-06-16 昨日更新，WebSearch 無相關結果"
+        "note": "無法確認 2026-06-17 昨日更新，WebSearch 無特定日期相關結果"
       },
       {
         "source": "X/Twitter 帳號",
         "status": "❌",
         "count": 0,
-        "note": "直接訪問不可行，WebSearch 無 2026-06-16 特定貼文"
+        "note": "直接訪問不可行，WebSearch 無 2026-06-17 特定貼文可驗證"
       }
     ],
-    "explanation": "2026-06-16 日報精選 8 則核心情報（3 大事件、3 工具更新、2 趨勢），全部來自已驗證的 2026-06-16（或緊鄰發布）內容。TechCrunch 8 篇文章全部透過 URL 日期核對確認。SpaceX 收購 Cursor 為當日最重大事件，獲 5+ 主流媒體確認報導。無法訪問的來源均已如實記錄。"
+    "explanation": "2026-06-17 日報精選 8 則核心情報（3 大事件、3 工具更新、2 趨勢），全部來自已驗證的 2026-06-17 發布內容。TechCrunch 所有文章透過 URL 日期核對確認。G7 AI 峰會為當日最重大事件，三位 AI 巨頭 CEO 史上首次同台為歷史性時刻。無法訪問的來源均已如實記錄。"
   }
 }

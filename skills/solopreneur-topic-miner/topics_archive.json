@@ -1,5 +1,174 @@
 [
   {
+    "date": "2026-06-17",
+    "big_events": [
+      {
+        "title": "AI 三巨頭首次同台：G7 峰會 Sam Altman、Dario Amodei、Demis Hassabis 齊聚法國",
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/06/17/g7-trump-ai-tech-leaders-openai-anthropic-google.html"
+          },
+          {
+            "name": "Washington Post",
+            "url": "https://www.washingtonpost.com/national/2026/06/17/g7-summit-trump-ai-france-17-june-2026/fde295f4-6a1e-11f1-830e-133d20cadd28_story.html"
+          }
+        ],
+        "summary": "OpenAI、Anthropic、Google DeepMind 三位 CEO 史上首次同台出席 G7（法國），聚焦 AI 前沿風險、基礎建設主權與兒童網路保護議題。",
+        "audience": "關注 AI 產業動態的職場專業人士、科技自媒體創作者",
+        "pain_point": "不確定全球 AI 監管走向，不知道大公司下一步會怎麼走",
+        "title_idea": "AI 三巨頭首次同台！G7 峰會的這場飯局，將決定未來 AI 規則怎麼訂",
+        "local_angle": "歐美已熱議 AI 主權與監管框架，台灣職場工作者對此幾乎零意識——搶先科普此議題可建立專業感"
+      },
+      {
+        "title": "Google 六年來首款新智慧音箱：$99 Google Home Speaker 由 Gemini AI 全面驅動",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/06/17/google-bets-on-gemini-to-reinvent-the-smart-home-speaker/"
+          }
+        ],
+        "summary": "Google 推出 6 年來首款全新智慧音箱，捨棄舊版 Google Assistant 改用 Gemini，支援自然語言多步驟指令與 Gemini Live 對話，含 $10/月 Home Premium 訂閱方案，預購中。",
+        "audience": "對智慧家居與 AI 語音助理感興趣的職場人士",
+        "pain_point": "不確定 Gemini 與舊版 Assistant 差在哪，也不知道 AI 音箱對日常工作有多少實際幫助",
+        "title_idea": "Google 音箱 6 年後復活！Gemini 加持，它能取代你桌上的 AI 助理嗎？",
+        "local_angle": "Gemini 助理整合在實體裝置的發展歐美先行，台灣繁中實測教學幾乎空缺——資訊差紅利明顯"
+      },
+      {
+        "title": "Android 17 正式推送 Pixel：Gemini Omni 2 影片生成、Lyria 3 AI 音樂、Bubbles 多工同步上線",
+        "sources": [
+          {
+            "name": "Eastern Herald",
+            "url": "https://easternherald.com/2026/06/17/google-pixel-drop-june-2026-android-17-ai-update/"
+          },
+          {
+            "name": "Google Blog",
+            "url": "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop/"
+          }
+        ],
+        "summary": "Google 六月 Pixel Drop 帶來多項 Gemini AI 新功能：Gemini Omni 2 可從文字提示生成影片、Lyria 3 支援 AI 音樂創作，Bubbles 新增全域浮動視窗多工。",
+        "audience": "使用 Android 手機的職場工作者與內容創作者",
+        "pain_point": "不知道 Android 17 哪些 Gemini 功能可以直接提升工作效率或內容創作能力",
+        "title_idea": "Android 17 正式來了！這 5 個 Gemini AI 新功能，上班族一定要馬上試",
+        "local_angle": "Gemini 功能在台灣 Android 用戶中幾乎無人深入介紹，繁中實測教學目前是藍海"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "DeepL 收購 Mixhalo：即時現場口譯技術加入 DeepL，商務國際會議的新利器",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/06/17/deepl-acquires-mixhalo-for-live-event-audio-streaming-and-translation/"
+          }
+        ],
+        "summary": "DeepL 收購現場音訊串流與即時翻譯平台 Mixhalo，技術整合後可在研討會、活動現場提供耳機即時口譯，DeepL 同步宣布設立舊金山辦公室。",
+        "audience": "需要參加國際會議或跨語言溝通的職場工作者",
+        "pain_point": "參加英文演講或國際論壇時，即時理解發言內容仍然很困難",
+        "title_idea": "DeepL 收購現場即時翻譯神器！以後聽國際研討會再也不用靠筆記了？",
+        "local_angle": "即時口譯工具在台灣職場需求強烈但繁中教學幾乎空白——搶做 DeepL 新功能試用分享有明顯先機"
+      },
+      {
+        "title": "Pinterest 推出 Ask Pinterest：對話式 AI 購物 App，用自然語言探索商品與靈感",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/06/17/pinterest-launches-an-experimental-ai-shopping-app-called-ask-pinterest/"
+          }
+        ],
+        "summary": "Pinterest 推出獨立 AI 購物 App「Ask Pinterest」，用戶可自然語言提問取得個人化選品推薦，現已在 ask.pinterest.com 開放試用。",
+        "audience": "對 AI 應用在電商與日常消費場景感興趣的職場人士",
+        "pain_point": "想用 AI 輔助購物決策，但現有工具不夠懂自己的品味與使用情境",
+        "title_idea": "Pinterest 推出 AI 購物助理！用聊天方式找商品，這才是電商的未來？",
+        "local_angle": "AI 對話式電商是歐美已驗證的新趨勢，台灣還沒有人做深度體驗教學——資訊差明顯"
+      },
+      {
+        "title": "Character.AI 推出創作者套裝：分析儀表板、排行榜、追蹤通知四項工具同步上線",
+        "sources": [
+          {
+            "name": "Character.AI Blog",
+            "url": "https://blog.character.ai/creator-bundle/"
+          },
+          {
+            "name": "FutureTools",
+            "url": "https://futuretools.io/news"
+          }
+        ],
+        "summary": "Character.AI 推出 Creator Bundle，包含互動數據分析儀表板（Creator Insights）、Creator Leaderboard 排行榜、受眾追蹤通知與創作指南四項新工具。",
+        "audience": "使用 AI 工具進行內容創作或自媒體經營的工作者",
+        "pain_point": "在 Character.AI 上創作 AI 角色，但不知道作品表現如何也難以累積穩定受眾",
+        "title_idea": "Character.AI 創作者工具全面升級！這是 AI 版 YouTube Studio 的開始？",
+        "local_angle": "Character.AI 在台灣有大量用戶，但繁中的創作者功能深度教學幾乎是空白"
+      }
+    ],
+    "trends": [
+      {
+        "title": "AI 幻覺剋星：Pramaana Labs 獲 Khosla 領投 $2,700 萬，用數學形式驗證讓 AI 輸出可稽核",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/06/17/pramaana-labs-raises-27-million-seed-round-from-khosla-ventures-to-bring-formal-verification-to-ai/"
+          }
+        ],
+        "summary": "Pramaana Labs 結合 LLM 與 LEAN 形式驗證語言，為法律、藥品、稅務等高風險領域打造可驗證的確定性 AI 輸出系統，獲 Khosla Ventures 領投。",
+        "audience": "在職場使用 AI 做決策或需要高可靠度 AI 輸出的工作者",
+        "pain_point": "AI 工具偶爾產出錯誤答案，難以在需要精確度的工作場景（合約、財務）中安心使用",
+        "title_idea": "AI 終於不再說謊？這家獲 Khosla 投資的新創，用數學讓 AI 輸出 100% 可驗證",
+        "local_angle": "AI 可靠度是台灣企業採用 AI 最大的顧慮，此方向的科普選題有強共鳴且幾乎無人深挖"
+      },
+      {
+        "title": "AI 實體化催生新型藍領職缺：「機器人訓練員」成各大 AI 實驗室搶手勞動力",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/06/17/collecting-robot-training-data-is-dirty-unglamorous-work-some-ai-labs-are-already-paying-xdof-to-do-it/"
+          }
+        ],
+        "summary": "為訓練具身 AI 機器人，各大 AI 實驗室大量聘用人工進行機器人動作示範與資料蒐集，形成新型態「AI 資料工人」市場。",
+        "audience": "關注 AI 對就業市場影響的職場工作者",
+        "pain_point": "擔心 AI 讓工作消失，但不清楚 AI 究竟在創造哪些新工作機會、薪資如何",
+        "title_idea": "AI 時代的新職業出現了！靠「教機器人走路」，月薪可能超乎你的想像",
+        "local_angle": "AI 就業影響是台灣熱議話題，「AI 實際創造的新職缺」這個正向切角在華語圈幾乎無人深挖"
+      }
+    ],
+    "source_coverage_notes": {
+      "status": "日期驗證完成 (2026-06-17)",
+      "coverage": [
+        {
+          "source": "TechCrunch AI",
+          "status": "✅",
+          "count": 8,
+          "note": "確認 8 篇 URL 含 /2026/06/17/ 的文章，篩選後取 5 篇 AI 相關（智慧音箱、Pinterest、DeepL、Pramaana Labs、機器人訓練資料）"
+        },
+        {
+          "source": "FutureTools News",
+          "status": "✅",
+          "count": 3,
+          "note": "確認 3 篇 2026-06-17 標記內容，取用 Character.AI Creator Bundle 工具更新"
+        },
+        {
+          "source": "WebSearch（AI news 2026-06-17）",
+          "status": "✅",
+          "count": 3,
+          "note": "G7 AI 峰會確認由 CNBC、Washington Post 等多家媒體報導於 6/17；Android 17 Pixel Drop 由 Google Blog、Eastern Herald 等確認 6/17 發布"
+        },
+        {
+          "source": "YouTube 頻道（Matt Wolfe 等）",
+          "status": "❌",
+          "count": 0,
+          "note": "無法確認 2026-06-17 昨日更新，WebSearch 無特定日期相關結果"
+        },
+        {
+          "source": "X/Twitter 帳號",
+          "status": "❌",
+          "count": 0,
+          "note": "直接訪問不可行，WebSearch 無 2026-06-17 特定貼文可驗證"
+        }
+      ],
+      "explanation": "2026-06-17 日報精選 8 則核心情報（3 大事件、3 工具更新、2 趨勢），全部來自已驗證的 2026-06-17 發布內容。TechCrunch 所有文章透過 URL 日期核對確認。G7 AI 峰會為當日最重大事件，三位 AI 巨頭 CEO 史上首次同台為歷史性時刻。無法訪問的來源均已如實記錄。"
+    }
+  },
+  {
     "date": "2026-06-16",
     "big_events": [
       {
@@ -827,131 +996,6 @@
         "pain_point": "用 AI 生成的音樂當作影片配樂或上架，擔心未來會被平台標記、下架或影響流量分潤",
         "title_idea": "你的 AI 配樂可能正在被「抓包」：串流平台開始大規模偵測 AI 生成音樂",
         "local_angle": "華語創作者大量使用 AI 配樂卻很少注意版權與平台規範變化，可做成「AI 音樂創作者必知的平台新規則」提醒型內容，搶占警示資訊差"
-      }
-    ]
-  },
-  {
-    "date": "2026-06-10",
-    "big_events": [
-      {
-        "title": "Anthropic Claude Fable 5 後續效應：資安研究員質疑模型護欄設計",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/"
-          }
-        ],
-        "summary": "資安界批評 Anthropic 為 Fable 5 設置的安全護欄設計不當，恐影響模型在資安研究上的實用性。",
-        "audience": "關注 AI 安全與新模型評測的職場上班族、IT/資安從業者",
-        "pain_point": "看到 Fable 5「最強公開模型」的宣傳很心動，但不確定它的安全限制會不會讓實際使用綁手綁腳",
-        "title_idea": "Anthropic 最強模型 Fable 5 才上線一天就被資安圈出征？3 分鐘看懂這場護欄爭議",
-        "local_angle": "昨天才介紹完 Fable 5 的爆發性功能，今天接著做「正反兩面」深度追蹤，華語圈對這場辯論幾乎零報導，搶占話題延續性紅利"
-      },
-      {
-        "title": "「AI 中毒」企業每位員工每月砸 $7,500 在 AI 工具上",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/10/ai-pilled-firms-spend-7500-per-employee-each-month-on-ai/"
-          }
-        ],
-        "summary": "報告顯示積極導入 AI 的企業，平均每位員工每月 AI 相關支出高達 $7,500 美元，遠超一般訂閱費用。",
-        "audience": "職場上班族、企業主管、HR/IT 決策者",
-        "pain_point": "自己公司只給一個 ChatGPT 帳號，看到別家公司砸重本投資 AI，不知道差距在哪、該不該主動爭取資源",
-        "title_idea": "別人家公司每人每月花 7500 美金在 AI 上，你的公司給了多少？2026 企業 AI 投資真相",
-        "local_angle": "台灣企業普遍對 AI 預算保守，這份數據可作為「向老闆爭取 AI 工具預算」的論述素材，華語圈尚無對應整理文章"
-      },
-      {
-        "title": "Amazon 再向銀行借 175 億美元，AI 基礎建設燒錢戰持續升溫",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues/"
-          }
-        ],
-        "summary": "繼發債後，Amazon 再向銀行團借款 175 億美元，反映科技巨頭為 AI 基礎建設持續加碼舉債。",
-        "audience": "關注科技產業趨勢、投資理財的職場上班族",
-        "pain_point": "常聽到「AI 泡沫」說法，但不確定巨頭們實際燒錢的規模到底有多誇張、這對科技股和工作機會有什麼影響",
-        "title_idea": "Amazon 一個月內又借 175 億美元蓋 AI！科技巨頭瘋狂燒錢的背後邏輯",
-        "local_angle": "延續前一天 MANGOS 取代 FAANG 的話題，用具體借款數字讓「AI 軍備競賽」更有感，適合做成科技財經科普短片"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "ChatGPT 大改版：全新模型選擇器上線，6 種模式怎麼選？",
-        "sources": [
-          {
-            "name": "Value The Markets",
-            "url": "https://www.valuethemarkets.com/cryptocurrency/news/openai-introduces-enhanced-model-picker-for-chatgpt"
-          },
-          {
-            "name": "OpenAI Help Center",
-            "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
-          }
-        ],
-        "summary": "OpenAI 為付費版 ChatGPT 推出全新模型選擇器，提供 Instant 到 Pro Extended 共 6 種模式。",
-        "audience": "所有使用 ChatGPT Plus/Pro 的職場上班族",
-        "pain_point": "打開 ChatGPT 突然多出一堆陌生選項，不知道平常打字、做簡報、寫程式分別該選哪一個，怕選錯浪費額度",
-        "title_idea": "ChatGPT 突然多了 6 個模式選項？一張圖搞懂 Instant/High/Pro Extended 該怎麼選",
-        "local_angle": "介面更新影響全體付費用戶，但 OpenAI 官方說明是英文且偏技術，搶先做中文「選模式懶人包」教學影片，受眾極廣"
-      },
-      {
-        "title": "Google 發布 DiffusionGemma：擴散式語言模型，文字生成速度快 4 倍",
-        "sources": [
-          {
-            "name": "Google Blog",
-            "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/"
-          }
-        ],
-        "summary": "Google 推出實驗性擴散式語言模型 DiffusionGemma，可同時生成多個文字 token，單張 H100 達每秒千 token 以上。",
-        "audience": "對 AI 技術趨勢有興趣的上班族、開發者、自媒體創作者",
-        "pain_point": "常抱怨 AI 工具回應太慢、等待出字的時間影響工作效率，想知道未來是否有解",
-        "title_idea": "AI 打字會「秒回」了？Google 新模型讓文字生成速度暴增 4 倍的技術解析",
-        "local_angle": "這項技術尚屬實驗階段，中文媒體幾乎沒有報導，可做成「AI 未來會有多快」趨勢解讀型內容，建立技術前瞻形象"
-      },
-      {
-        "title": "研究警告：AI「記憶」功能用不好，反而讓模型表現變差",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/10/how-memory-tools-can-make-ai-models-worse/"
-          }
-        ],
-        "summary": "報導指出 ChatGPT、Claude 等工具的長期記憶功能，若累積過多舊資訊，反而會讓模型回答品質下降。",
-        "audience": "重度使用 ChatGPT/Claude 記憶功能的職場上班族",
-        "pain_point": "開了 AI 記憶功能後覺得它「越用越笨」、常常答非所問，卻不知道是記憶設定出了問題",
-        "title_idea": "你的 ChatGPT 是不是越用越笨？AI「記憶功能」的隱藏副作用與清理技巧",
-        "local_angle": "記憶功能幾乎人人都有開，但很少人知道要定期整理；做成「AI 工具保養」實用教學，是高搜尋量、低製作門檻的選題"
-      }
-    ],
-    "trends": [
-      {
-        "title": "前 Datadog 團隊創立 AI coding 新創 Niteshift，賭「不被大廠鎖定」",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/10/datadog-veterans-launch-ai-coding-startup-niteshift-on-a-bet-against-big-ai-lock-in/"
-          }
-        ],
-        "summary": "多位 Datadog 前員工創立 AI coding 新創 Niteshift，主打不綁定特定大型 AI 模型供應商的開發工具。",
-        "audience": "想嘗試 Vibe Coding、關注 AI 創業案例的職場上班族",
-        "pain_point": "看到 Lovable、Cursor 等工具都綁定特定 AI 供應商，擔心未來漲價或政策改變被「卡脖子」",
-        "title_idea": "連 Datadog 老將都看不下去：新創 Niteshift 想做「不被任何 AI 大廠綁架」的開發工具",
-        "local_angle": "延續前一天 Lovable $500M ARR 的 Vibe Coding 熱潮，補上「供應商鎖定」這個更深一層的觀察角度，適合做成系列觀察文"
-      },
-      {
-        "title": "華納音樂收購 AI 音樂歸因新創 Sureel AI，劍指 AI 創作版權戰場",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/10/warner-music-acquires-ai-attribution-startup-sureel-ai/"
-          }
-        ],
-        "summary": "華納音樂收購 AI 音樂歸因新創 Sureel AI，用 AI 技術追蹤、識別音樂版權的使用與來源。",
-        "audience": "經營 YouTube/Podcast 等自媒體的職場上班族、音樂創作者",
-        "pain_point": "用 AI 工具產出的音樂或內容，常擔心版權歸屬不清楚，不知道平台或唱片公司未來會怎麼管控",
-        "title_idea": "用 AI 做音樂以後會被抓到嗎？華納收購 AI 版權偵測新創背後的訊號",
-        "local_angle": "AI 版權議題在台灣創作者圈討論度逐漸升高，但多停留在法律層面；用「唱片公司大動作收購」這個具體事件切入，較容易引起共鳴"
       }
     ]
   }
