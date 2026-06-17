@@ -1,1 +1,24 @@
 === Thu Jun 18 01:00:01 CST 2026 | Starting daily AI report ===
+Dashboard rendered successfully. Here's the summary of what was done:
+
+**來源覆蓋狀況：**
+
+| 來源 | 狀態 | 數量 | 備註 |
+|------|------|------|------|
+| TechCrunch AI | ✅ | 8 篇 | URL /2026/06/17/ 全部核對確認 |
+| FutureTools News | ✅ | 3 則 | 確認 6/17 標記，取 Character.AI |
+| WebSearch (G7、Android 17) | ✅ | 3 則 | CNBC/WaPo/Google Blog 確認 6/17 |
+| YouTube 頻道 | ❌ | 0 | 無法確認 6/17 特定影片 |
+| X/Twitter | ❌ | 0 | 無法訪問，無法驗證 |
+
+**精選 8 則情報（2026-06-17）：**
+
+- **大事件**：AI 三巨頭首次同台 G7、Google Gemini 智慧音箱復活、Android 17 Pixel Drop 上線
+- **工具更新**：DeepL 收購 Mixhalo 即時口譯、Pinterest Ask Pinterest AI 購物、Character.AI 創作者套裝
+- **趨勢**：Pramaana Labs $2,700 萬 AI 形式驗證、機器人訓練員新興職缺
+
+`latest_topics.json` 已寫入，看板已更新。
+
+DONE
+--- AI report finished at Thu Jun 18 01:04:56 CST 2026 ---
+=== Thu Jun 18 01:04:56 CST 2026 | Starting daily finance report ===
