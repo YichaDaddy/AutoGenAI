@@ -1,103 +1,103 @@
 {
-  "date": "2026-06-17",
+  "date": "2026-06-18",
   "p5": [
     {
-      "id": "2026-06-17-p5-0",
+      "id": "2026-06-18-p5-0",
       "tag": "假設語氣倒裝",
-      "pre": "Had the merger proposal received full regulatory approval, the parent company",
-      "post": "with the consolidation ahead of schedule.",
-      "opts": ["would proceed", "would have proceeded", "had proceeded", "proceeds"],
-      "ans": 1,
-      "zh": "若合併提案獲得完整的監管核准，母公司本將提前完成整合工作。",
-      "why": "本句開頭的 <b>Had + 主詞 + 過去分詞</b> 是假設語氣的倒裝形式，等同於 'If the merger proposal had received...'，表示與過去事實相反的假設（第三條件句）。主要子句應使用 <b>would have + 過去分詞</b>，故答案為 would have proceeded。would proceed 屬第二條件句（與現在相反）；had proceeded 為過去完成式，不構成條件句主句；proceeds 為現在式，完全不符。"
-    },
-    {
-      "id": "2026-06-17-p5-1",
-      "tag": "分詞構句（被動）",
       "pre": "",
-      "post": "by the unexpectedly high attrition rate among senior engineers, the executive committee convened an emergency session to review compensation benchmarks.",
-      "opts": ["Alarmed", "Alarming", "Having alarmed", "To be alarmed"],
+      "post": " the merger been disclosed earlier, shareholders would have had ample time to reassess their investment positions.",
+      "opts": ["Had", "Have", "Has", "Having"],
       "ans": 0,
-      "zh": "對資深工程師出乎意料的高離職率感到震驚，執行委員會召開緊急會議以審查薪酬基準。",
-      "why": "主要子句的主語 'the executive committee' 是被高離職率所震驚的對象，分詞構句應使用<b>過去分詞 Alarmed</b>（被動），意為「對……感到震驚」。Alarming 為現在分詞（主動），意為「令人震驚的」，邏輯相反；Having alarmed 表主動且動作先於主句，語意錯誤；To be alarmed 為不定詞，不用於此類句首修飾語。"
+      "zh": "若合併案早些披露，股東本可有充裕時間重新評估其投資部位。",
+      "why": "此為<b>假設語氣倒裝</b>句型。原句為 "If the merger had been disclosed..."，省略 if 後須將助動詞 <b>had</b> 提至主詞前，構成 "Had the merger been disclosed..."。主句使用 would have had，確認為與過去事實相反的假設。Have／Has 時態錯誤；Having 引導分詞構句，無法與主句形成條件關係。"
     },
     {
-      "id": "2026-06-17-p5-2",
+      "id": "2026-06-18-p5-1",
+      "tag": "被動分詞構句",
+      "pre": "",
+      "post": " with allegations of financial misconduct, the CFO tendered his resignation with immediate effect.",
+      "opts": ["Confronted", "Confronting", "To confront", "Having confronted"],
+      "ans": 0,
+      "zh": "面對財務不當行為的指控，財務長立即提出辭呈。",
+      "why": "此處需要<b>被動分詞構句</b>。主詞 the CFO 是被指控的對象，故用過去分詞 <b>Confronted</b> 修飾主詞，等同於 "Being confronted with..."。Confronting 為主動分詞，暗示 CFO 主動對質他人，語意相反；To confront 表目的；Having confronted 表主動且已完成，三者均與語境不符。"
+    },
+    {
+      "id": "2026-06-18-p5-2",
       "tag": "非限定關係子句",
-      "pre": "The lead negotiator,",
-      "post": "extensive knowledge of international trade law proved invaluable, successfully concluded the bilateral agreement within three months.",
-      "opts": ["whose", "whom", "who", "of which"],
+      "pre": "The board unanimously approved the acquisition of TechVenture Inc., ",
+      "post": " proprietary algorithms are widely regarded as the most sophisticated in the sector.",
+      "opts": ["whose", "which", "of which", "that"],
       "ans": 0,
-      "zh": "這位首席談判代表——其對國際貿易法的深厚知識被證明彌足珍貴——在三個月內成功締結了雙邊協議。",
-      "why": "空格後緊接名詞 'extensive knowledge'，表示先行詞 'The lead negotiator' 所擁有的知識，需使用<b>關係代名詞所有格 whose</b>（= his/her）。此句為<b>非限定關係子句</b>（以逗號隔開），故不可用 that（只用於限定子句）。whom 為受格、who 為主格，均不能直接修飾後方名詞；of which 用於事物所有格，不適用於指人。"
+      "zh": "董事會一致批准收購 TechVenture 公司，該公司的專有演算法被業界公認為最尖端的技術。",
+      "why": "逗號後接<b>非限定關係子句</b>修飾 TechVenture Inc.，且關係子句的主詞為所有格結構 proprietary algorithms，故需用 <b>whose</b>（= TechVenture's）。which 後不可直接接名詞；of which 語序須改為 "the algorithms of which are..."；<b>that 絕對不可用於非限定子句</b>（逗號後），此為文法鐵則。"
     },
     {
-      "id": "2026-06-17-p5-3",
-      "tag": "讓步介系詞",
+      "id": "2026-06-18-p5-3",
+      "tag": "讓步介系詞（notwithstanding）",
       "pre": "",
-      "post": "the foregoing provisions, all intellectual property developed during the term of this agreement shall vest exclusively in the company.",
-      "opts": ["Notwithstanding", "Despite of", "In spite", "Although"],
+      "post": " the contractual provisions to the contrary, the arbitration panel ruled in favor of the claimant.",
+      "opts": ["Notwithstanding", "Nevertheless", "Regardless", "Albeit"],
       "ans": 0,
-      "zh": "儘管有上述條款，本協議期間所開發的所有智慧財產權應專屬歸屬於公司。",
-      "why": "<b>Notwithstanding</b> 是法律英文中常見的讓步介系詞，直接接名詞片語（'the foregoing provisions'），意為「儘管有……」，常用於契約條款開頭。Despite 正確用法為 'Despite + 名詞'（不可加 'of'，故 Despite of 為錯誤）；In spite 後必須接 'of'，不可單獨使用；Although 為連接詞，後需接主詞＋動詞的完整子句，不可接名詞片語。"
+      "zh": "儘管合約中有相反的規定，仲裁小組仍裁定支持索賠方。",
+      "why": "<b>Notwithstanding</b> 是正式法律英文中的<b>讓步介系詞</b>，後直接接名詞片語（the contractual provisions），相當於 despite，廣泛見於合約與仲裁文書，亦可後置於名詞後。Nevertheless 為連接副詞，不可接名詞片語；Regardless 須搭配介系詞 of；Albeit 為連接詞，後接形容詞或分詞短語，不接完整名詞片語。"
     },
     {
-      "id": "2026-06-17-p5-4",
+      "id": "2026-06-18-p5-4",
       "tag": "動詞語意辨別（進階）",
-      "pre": "The force majeure clause expressly",
-      "post": "either party from seeking indemnification for losses arising from events outside their reasonable control.",
-      "opts": ["inhibits", "deters", "precludes", "refrains"],
-      "ans": 2,
-      "zh": "不可抗力條款明確排除任何一方就超出其合理控制範圍之事件所造成的損失尋求賠償的權利。",
-      "why": "<b>preclude X from doing</b> 是法律英文的固定搭配，意指「在法律上排除某人……的可能」，語意最強且最正式。deter 意為「嚇阻」，屬心理層面；inhibit 意為「抑制」，強度不足以描述法律效力；refrain 為不及物動詞，正確用法為 'X refrains from doing'（不接受詞），故文法錯誤。"
+      "pre": "The oversight committee's comprehensive report was specifically designed to ",
+      "post": " a substantive response from all business units regarding their current compliance status.",
+      "opts": ["elicit", "evoke", "extract", "invoke"],
+      "ans": 0,
+      "zh": "監管委員會的全面報告專門設計用來引導各業務單位就其目前合規狀況提出實質性回應。",
+      "why": "<b>elicit</b> 意為「引出、誘發特定回應或資訊」，強調透過精心設計的文件主動獲取所需反饋，是正式商務文體的慣用搭配（elicit a response）。<b>evoke</b> 多指喚起情感或記憶；<b>extract</b> 含強制取得之意，常搭配 confession、data；<b>invoke</b> 意為援引法規或神明，語境完全不符。四詞雖均含「引出」概念，但 elicit 最精確對應「誘導回應」的正式語境。"
     }
   ],
   "p6": {
-    "id": "2026-06-17-p6",
-    "title": "Memorandum: Mandatory Pre-Travel Compliance Briefing",
+    "id": "2026-06-18-p6",
+    "title": "Revised Protocol for Cross-Border Data Transfer Compliance",
     "seg": [
-      ["All employees in Grade 6 and above ", {"b": 0}, " a mandatory pre-travel compliance briefing before undertaking any international business trip exceeding ten consecutive days."],
-      [{"b": 1}, ", the prior policy mandated only a voluntary online module, the revised guidelines introduce a structured, in-person session conducted by the Legal Compliance team."],
-      ["Employees who fail to attend the briefing session without prior written authorization from their division director will be deemed ", {"b": 2}, " and may be subject to disciplinary measures in accordance with the Employee Conduct Code."],
+      ["Following the enactment of the amended Data Protection Regulation, all subsidiaries operating in jurisdictions subject to enhanced privacy standards are required to update their data handling procedures accordingly. All regional compliance officers ", {"b": 0}, " of this obligation in the preliminary circular distributed last quarter; however, formal implementation guidelines were not available until the final regulatory text was officially published."],
+      [{"b": 1}, ", the Legal Affairs Division has developed a standardized compliance framework that reconciles the requirements of multiple overlapping regulatory regimes. This framework is intended to serve as the authoritative reference for all inter-jurisdictional data transfers pending further legislative developments."],
+      ["Departments are urged to ", {"b": 2}, " the attached guidelines thoroughly before initiating any cross-border data processing activity. Any deviation from the prescribed procedures must be documented and submitted to the designated Compliance Officer for prior written authorization."],
       [{"b": 3}]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["are required to complete", "were requiring to complete", "have been requiring to complete", "will require completing"],
+        "opts": ["had been notified", "have been notifying", "were to notify", "would have notified"],
         "ans": 0,
-        "zh": "所有六職等及以上的員工，在進行任何超過連續十天的國際商務旅行之前，須完成強制性的出行前合規簡報。",
-        "why": "本句說明現行規定，應使用<b>現在簡單式被動 are required to</b>。were requiring to 使用了過去進行式且 'require to' 非標準主動用法；have been requiring 同樣不自然；will require completing 雖為未來式，但時態與政策宣告的現時性不符，且 'require completing' 語義不如 'be required to complete' 明確。"
+        "zh": "所有地區合規主管已於上季度發佈的初步通知函中被告知此義務；然而，正式實施指引直到法規最終文本公布後才得以發佈。",
+        "why": "主詞 compliance officers 是「被通知」的對象，須用<b>被動語態</b>；動作發生在過去某明確時間點（last quarter），且早於另一過去事件（guidelines not available），故需使用<b>過去完成被動</b> <b>had been notified</b>。have been notifying 為主動進行；were to notify 表過去義務或計畫；would have notified 屬假設語氣，與敘述事實的句意不符。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["Whereas", "Since", "Provided that", "Insofar as"],
+        "opts": ["Accordingly", "Nevertheless", "Alternatively", "Conversely"],
         "ans": 0,
-        "zh": "有別於舊版政策僅規定自願完成線上模組，修訂後的指引引入了由法律合規團隊主持的結構性當面簡報。",
-        "why": "<b>Whereas</b> 為正式的對比連接詞，引導子句說明舊政策，與後半句呈現新政策形成對照，符合本段語篇邏輯。Since 表原因；Provided that 表條件（「若……的話」）；Insofar as 表「在……程度內」，三者皆無法表達此處新舊政策對比的語篇關係。"
+        "zh": "因此，法律事務部已制定一套標準化合規框架，以協調多個重疊監管制度的要求。",
+        "why": "前段陳述法規已生效、指引已發佈，後段描述法律部門「因應」此情況所採取的具體行動。<b>Accordingly</b>（因此、相應地）是銜接「前提已成立 → 相應行動」的<b>因果型語篇連接詞</b>，語義最精準。Nevertheless 表讓步轉折；Alternatively 提出替代方案；Conversely 表相反對比，三者均與前後段的因果邏輯相悖。"
       },
       {
         "tag": "詞彙語意",
         "col1": true,
-        "opts": ["non-compliant", "ineligible", "disqualified", "inadmissible"],
+        "opts": ["scrutinize", "peruse", "skim", "browse"],
         "ans": 0,
-        "zh": "未事先獲得所在部門主管書面授權而缺席簡報的員工，將被視為不合規，並可能依員工行為準則受到紀律處分。",
-        "why": "<b>non-compliant</b>（不合規的）是人力資源與合規管理的標準術語，形容未遵守規定的員工狀態。ineligible 指「不具備申請資格」；disqualified 指「被取消資格」，通常需主動程序；inadmissible 主要為法律術語，形容「不可採信的（證據）」，均不適合描述員工未遵守出席要求的情形。"
+        "zh": "各部門應在啟動任何跨境資料處理活動前，仔細審查所附指引。",
+        "why": "<b>scrutinize</b> 意為「仔細審查、逐一檢驗（以確認符合標準或發現問題）」，強調批判性的深度審視，與合規情境高度吻合。<b>peruse</b> 雖表仔細閱讀，但側重完整性而非批判性分析；<b>skim</b> 為快速略讀，與副詞 thoroughly 矛盾；<b>browse</b> 意為隨意瀏覽，程度最淺，完全不符合法遵文件的審查要求。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Should you require further clarification on any of the above provisions, please do not hesitate to contact the Human Resources Division at your earliest convenience.",
-          "The Human Resources Division acknowledges the inconvenience these changes may cause and will endeavor to accommodate scheduling conflicts on a case-by-case basis hereafter.",
-          "All queries regarding the new policy should have been forwarded to the Human Resources Division by the end of last month.",
-          "Employees who have already completed equivalent training under the previous framework will be exempted, regardless of their grade level."
+          "Failure to adhere to these protocols may expose the organization to substantial regulatory penalties and heighten the risk of enforcement action by the competent authorities.",
+          "The original data protection policy was first established three years ago and has since undergone two major revisions.",
+          "All employees are encouraged to attend the upcoming compliance training workshops on a voluntary basis.",
+          "Regional offices may delegate the documentation responsibility to a designated deputy in the event of the primary officer's unavailability."
         ],
         "ans": 0,
-        "zh": "如您需要進一步澄清上述任何條款，請隨時與人力資源部門聯繫。",
-        "why": "句子插入題需考量語篇邏輯與語氣一致性。(A) 以<b>假設語氣倒裝</b> 'Should you require...' 提供諮詢管道，是正式備忘錄的標準結語，語氣正式且邏輯完整。(B) 雖語意可理解，但道歉語氣與政策公告的權威性不符；(C) 'should have been forwarded by last month' 時態矛盾，與公告新政策不一致；(D) 引入全文未提及的豁免條款，邏輯斷裂。"
+        "zh": "未能遵守這些規程可能使組織面臨重大監管罰款，並加劇主管機關採取執法行動的風險。",
+        "why": "此空格位於備忘錄最後一段，功能是<b>強化結尾</b>。選項 A 明確陳述違規後果（罰款與執法風險），與前段「須事先取得書面授權」形成「規範 → 後果」的完整論述結構，符合正式合規備忘錄的慣用收尾方式。選項 B 為歷史背景說明，放在結尾突兀；C 談自願培訓，語氣與文件基調不符；D 為例外情況處理，不宜作結語。"
       }
     ]
   }
