@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T19:22:42Z",
+  "updated": "2026-06-18T21:32:55Z",
   "data": {
     "2330.TW": {
       "price": 2410.0,
@@ -47,45 +47,45 @@
       "name": "元大高股息"
     },
     "NVDA": {
-      "price": 210.03,
-      "change": 5.16,
-      "pct": 2.52,
+      "price": 210.69,
+      "change": 5.82,
+      "pct": 2.84,
       "prev": 204.87,
       "currency": "USD",
       "state": "CLOSED",
       "name": "輝達"
     },
     "AAPL": {
-      "price": 297.24,
-      "change": 1.61,
-      "pct": 0.54,
+      "price": 298.01,
+      "change": 2.38,
+      "pct": 0.81,
       "prev": 295.63,
       "currency": "USD",
       "state": "CLOSED",
       "name": "蘋果"
     },
     "MSFT": {
-      "price": 377.81,
-      "change": -12.53,
-      "pct": -3.21,
+      "price": 379.4,
+      "change": -10.94,
+      "pct": -2.8,
       "prev": 390.34,
       "currency": "USD",
       "state": "CLOSED",
       "name": "微軟"
     },
     "VOO": {
-      "price": 687.81,
-      "change": 9.58,
-      "pct": 1.41,
+      "price": 688.11,
+      "change": 9.88,
+      "pct": 1.46,
       "prev": 678.23,
       "currency": "USD",
       "state": "CLOSED",
       "name": "Vanguard S&P500"
     },
     "QQQ": {
-      "price": 739.59,
-      "change": 22.47,
-      "pct": 3.13,
+      "price": 740.62,
+      "change": 23.5,
+      "pct": 3.28,
       "prev": 717.12,
       "currency": "USD",
       "state": "CLOSED",
