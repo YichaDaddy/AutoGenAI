@@ -1,103 +1,103 @@
 {
-  "date": "2026-06-18",
+  "date": "2026-06-19",
   "p5": [
     {
-      "id": "2026-06-18-p5-0",
+      "id": "2026-06-19-p5-0",
       "tag": "假設語氣倒裝",
-      "pre": "",
-      "post": " the merger been disclosed earlier, shareholders would have had ample time to reassess their investment positions.",
-      "opts": ["Had", "Have", "Has", "Having"],
+      "pre": "Had the financial irregularities been detected earlier, the company",
+      "post": "the regulatory penalties that ultimately led to its insolvency.",
+      "opts": ["might have averted", "might avert", "would avert", "had averted"],
       "ans": 0,
-      "zh": "若合併案早些披露，股東本可有充裕時間重新評估其投資部位。",
-      "why": "此為<b>假設語氣倒裝</b>句型。原句為 "If the merger had been disclosed..."，省略 if 後須將助動詞 <b>had</b> 提至主詞前，構成 "Had the merger been disclosed..."。主句使用 would have had，確認為與過去事實相反的假設。Have／Has 時態錯誤；Having 引導分詞構句，無法與主句形成條件關係。"
+      "zh": "若財務不法情事能更早被發現，公司本可避免最終導致其破產的那些監管處罰。",
+      "why": "<b>Had ... been detected</b> 是假設語氣過去完成式的倒裝形式，等同於 <b>If the irregularities had been detected</b>。此類型的主要子句須用 <b>might/would/could + have + p.p.</b> 表示「本可…」的反事實結果。B「might avert」（現在式）、C「would avert」（現在式）均與過去反事實語境不符；D「had averted」為過去完成式，用於主要子句有誤。唯 A <b>might have averted</b>（情態動詞過去完成式）正確對應過去反事實條件句。"
     },
     {
-      "id": "2026-06-18-p5-1",
-      "tag": "被動分詞構句",
+      "id": "2026-06-19-p5-1",
+      "tag": "分詞構句（被動）",
       "pre": "",
-      "post": " with allegations of financial misconduct, the CFO tendered his resignation with immediate effect.",
-      "opts": ["Confronted", "Confronting", "To confront", "Having confronted"],
+      "post": "by successive rounds of austerity measures, the municipal infrastructure fund lacked sufficient capital to undertake the proposed bridge rehabilitation project.",
+      "opts": ["Depleted", "Depleting", "Having depleted", "To have been depleted"],
       "ans": 0,
-      "zh": "面對財務不當行為的指控，財務長立即提出辭呈。",
-      "why": "此處需要<b>被動分詞構句</b>。主詞 the CFO 是被指控的對象，故用過去分詞 <b>Confronted</b> 修飾主詞，等同於 "Being confronted with..."。Confronting 為主動分詞，暗示 CFO 主動對質他人，語意相反；To confront 表目的；Having confronted 表主動且已完成，三者均與語境不符。"
+      "zh": "因接連數輪撙節措施而資金耗盡，市政基礎建設基金缺乏足夠資本以推展擬議中的橋梁整建工程。",
+      "why": "分詞構句中，若主句主詞（the municipal infrastructure fund）與分詞動作之間是<b>被動</b>關係（基金被撙節措施耗盡），應使用<b>過去分詞</b>，即 <b>Depleted by...</b>，為 <b>Having been depleted by...</b> 的省略形式。B「Depleting」為主動分詞，暗示主詞主動消耗他物，語意矛盾；C「Having depleted」亦為主動完成式；D「To have been depleted」為不定詞完成被動式，不可作分詞構句開頭。故唯 A 正確。"
     },
     {
-      "id": "2026-06-18-p5-2",
+      "id": "2026-06-19-p5-2",
       "tag": "非限定關係子句",
-      "pre": "The board unanimously approved the acquisition of TechVenture Inc., ",
-      "post": " proprietary algorithms are widely regarded as the most sophisticated in the sector.",
-      "opts": ["whose", "which", "of which", "that"],
-      "ans": 0,
-      "zh": "董事會一致批准收購 TechVenture 公司，該公司的專有演算法被業界公認為最尖端的技術。",
-      "why": "逗號後接<b>非限定關係子句</b>修飾 TechVenture Inc.，且關係子句的主詞為所有格結構 proprietary algorithms，故需用 <b>whose</b>（= TechVenture's）。which 後不可直接接名詞；of which 語序須改為 "the algorithms of which are..."；<b>that 絕對不可用於非限定子句</b>（逗號後），此為文法鐵則。"
+      "pre": "The revised remuneration policy,",
+      "post": "introduces a tiered performance bonus structure, will take effect at the commencement of the next fiscal year.",
+      "opts": ["that", "which", "what", "whereby"],
+      "ans": 1,
+      "zh": "修訂後的薪酬政策（其中引入了分級績效獎金制度）將於下一財政年度開始時生效。",
+      "why": "先行詞 <b>the revised remuneration policy</b> 後方的關係子句以逗號隔開，屬<b>非限定關係子句</b>（non-restrictive relative clause），此時只能用 <b>which</b>，不可用 <b>that</b>——that 僅用於限定子句，且不可緊接逗號之後。A「that」違反此規則；C「what」引導名詞子句，不修飾先行詞；D「whereby」意為「藉此」，語意不符此處的補充說明功能。故 B 正確。"
     },
     {
-      "id": "2026-06-18-p5-3",
-      "tag": "讓步介系詞（notwithstanding）",
+      "id": "2026-06-19-p5-3",
+      "tag": "讓步介系詞（後置 notwithstanding）",
+      "pre": "The board resolved to proceed with the acquisition, the minority shareholders' reservations",
+      "post": ".",
+      "opts": ["notwithstanding", "despite", "although", "nevertheless"],
+      "ans": 0,
+      "zh": "董事會決議推進此次收購案，儘管少數股東持有保留意見。",
+      "why": "<b>Notwithstanding</b> 在正式法律及商務文體中可置於名詞片語<b>之後</b>（後置用法，postpositive），構成「名詞片語 + notwithstanding」結構，語意等同「儘管…」。B「despite」為介系詞，須前置於名詞片語，不可後置；C「although」為連接詞，須接完整子句，此處缺動詞，文法有誤；D「nevertheless」為副詞，不可銜接名詞片語。唯 A 的後置用法符合正式英語慣例。"
+    },
+    {
+      "id": "2026-06-19-p5-4",
+      "tag": "名詞子句（主詞位置）",
       "pre": "",
-      "post": " the contractual provisions to the contrary, the arbitration panel ruled in favor of the claimant.",
-      "opts": ["Notwithstanding", "Nevertheless", "Regardless", "Albeit"],
+      "post": "the proposed merger will generate synergistic benefits commensurate with projected costs is a matter that remains to be substantiated through rigorous due diligence.",
+      "opts": ["Whether", "That", "What", "How"],
       "ans": 0,
-      "zh": "儘管合約中有相反的規定，仲裁小組仍裁定支持索賠方。",
-      "why": "<b>Notwithstanding</b> 是正式法律英文中的<b>讓步介系詞</b>，後直接接名詞片語（the contractual provisions），相當於 despite，廣泛見於合約與仲裁文書，亦可後置於名詞後。Nevertheless 為連接副詞，不可接名詞片語；Regardless 須搭配介系詞 of；Albeit 為連接詞，後接形容詞或分詞短語，不接完整名詞片語。"
-    },
-    {
-      "id": "2026-06-18-p5-4",
-      "tag": "動詞語意辨別（進階）",
-      "pre": "The oversight committee's comprehensive report was specifically designed to ",
-      "post": " a substantive response from all business units regarding their current compliance status.",
-      "opts": ["elicit", "evoke", "extract", "invoke"],
-      "ans": 0,
-      "zh": "監管委員會的全面報告專門設計用來引導各業務單位就其目前合規狀況提出實質性回應。",
-      "why": "<b>elicit</b> 意為「引出、誘發特定回應或資訊」，強調透過精心設計的文件主動獲取所需反饋，是正式商務文體的慣用搭配（elicit a response）。<b>evoke</b> 多指喚起情感或記憶；<b>extract</b> 含強制取得之意，常搭配 confession、data；<b>invoke</b> 意為援引法規或神明，語境完全不符。四詞雖均含「引出」概念，但 elicit 最精確對應「誘導回應」的正式語境。"
+      "zh": "擬議中的合併案是否能產生與預期成本相稱的綜效效益，是一項仍有待嚴謹盡職調查加以驗證的事宜。",
+      "why": "空格引導的名詞子句作全句主詞。關鍵在語意：後文 <b>remains to be substantiated</b>（有待驗證）暗示結果不確定，故應用 <b>whether</b>（是否）引導帶有疑問性質的名詞子句。B「That」引導名詞子句表示既定事實，與「仍需驗證」矛盾；C「What」須後接結構不完整的子句（缺主詞或受詞），但此句結構完整；D「How」強調方式，語意不符。故 A 正確。"
     }
   ],
   "p6": {
-    "id": "2026-06-18-p6",
-    "title": "Revised Protocol for Cross-Border Data Transfer Compliance",
+    "id": "2026-06-19-p6",
+    "title": "Revised Expense Reimbursement Procedures",
     "seg": [
-      ["Following the enactment of the amended Data Protection Regulation, all subsidiaries operating in jurisdictions subject to enhanced privacy standards are required to update their data handling procedures accordingly. All regional compliance officers ", {"b": 0}, " of this obligation in the preliminary circular distributed last quarter; however, formal implementation guidelines were not available until the final regulatory text was officially published."],
-      [{"b": 1}, ", the Legal Affairs Division has developed a standardized compliance framework that reconciles the requirements of multiple overlapping regulatory regimes. This framework is intended to serve as the authoritative reference for all inter-jurisdictional data transfers pending further legislative developments."],
-      ["Departments are urged to ", {"b": 2}, " the attached guidelines thoroughly before initiating any cross-border data processing activity. Any deviation from the prescribed procedures must be documented and submitted to the designated Compliance Officer for prior written authorization."],
-      [{"b": 3}]
+      ["This memorandum serves to inform all department heads of substantive amendments to the company's expense reimbursement policy, which ", {"b": 0}, " following a comprehensive audit conducted by the internal compliance team in the preceding quarter. These revisions are intended to enhance procedural transparency and reduce processing delays."],
+      [{"b": 1}, ", all reimbursement requests must be submitted within fifteen business days of the date on which the expenditure was incurred. Claims filed after this deadline will be subject to managerial review and may require written justification outlining any extenuating circumstances."],
+      ["Employees are strongly encouraged to ", {"b": 2}, " all expense reports through the newly implemented online portal rather than via paper submission. Supporting documentation, including original receipts and vendor invoices, remains mandatory for all claims exceeding USD 500."],
+      [{"b": 3}, " Any queries regarding the updated procedures may be directed to the Finance Division Help Desk at extension 4872."]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["had been notified", "have been notifying", "were to notify", "would have notified"],
+        "opts": ["have been implemented", "had been implemented", "were implementing", "are implementing"],
         "ans": 0,
-        "zh": "所有地區合規主管已於上季度發佈的初步通知函中被告知此義務；然而，正式實施指引直到法規最終文本公布後才得以發佈。",
-        "why": "主詞 compliance officers 是「被通知」的對象，須用<b>被動語態</b>；動作發生在過去某明確時間點（last quarter），且早於另一過去事件（guidelines not available），故需使用<b>過去完成被動</b> <b>had been notified</b>。have been notifying 為主動進行；were to notify 表過去義務或計畫；would have notified 屬假設語氣，與敘述事實的句意不符。"
+        "zh": "這些修訂措施是在上一季內部合規團隊進行全面稽核後實施的。",
+        "why": "<b>現在完成被動式（have been implemented）</b>表示「近期已完成且與當下具關聯性」，最適合描述剛頒布的政策修訂。B「had been implemented」為過去完成式，暗示在某一過去時間點之前完成，時序不符；C「were implementing」為過去進行主動式，但政策修訂不能自行「主動實施」，主被動有誤；D「are implementing」為現在進行主動式，同樣有主被動誤用問題。故 A 正確。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["Accordingly", "Nevertheless", "Alternatively", "Conversely"],
+        "opts": ["Pursuant to these amendments", "Despite these amendments", "By and large", "Conversely"],
         "ans": 0,
-        "zh": "因此，法律事務部已制定一套標準化合規框架，以協調多個重疊監管制度的要求。",
-        "why": "前段陳述法規已生效、指引已發佈，後段描述法律部門「因應」此情況所採取的具體行動。<b>Accordingly</b>（因此、相應地）是銜接「前提已成立 → 相應行動」的<b>因果型語篇連接詞</b>，語義最精準。Nevertheless 表讓步轉折；Alternatively 提出替代方案；Conversely 表相反對比，三者均與前後段的因果邏輯相悖。"
+        "zh": "依據上述修訂，所有報銷申請必須在支出發生日起十五個工作日內提交。",
+        "why": "<b>Pursuant to</b>（依據、依照）為正式法律及商務用語，用以引出因某規定而產生的義務，邏輯上承接前段的政策公告，最為貼切。B「Despite」（儘管）表讓步，與語意衝突——不可能「儘管修訂」卻仍遵循規定；C「By and large」（大體而言）為概括性副詞片語，不能引出具體規定；D「Conversely」（相反地）表對比，與前文無對比關係。唯 A 正確。"
       },
       {
         "tag": "詞彙語意",
         "col1": true,
-        "opts": ["scrutinize", "peruse", "skim", "browse"],
+        "opts": ["submit", "remit", "dispatch", "forward"],
         "ans": 0,
-        "zh": "各部門應在啟動任何跨境資料處理活動前，仔細審查所附指引。",
-        "why": "<b>scrutinize</b> 意為「仔細審查、逐一檢驗（以確認符合標準或發現問題）」，強調批判性的深度審視，與合規情境高度吻合。<b>peruse</b> 雖表仔細閱讀，但側重完整性而非批判性分析；<b>skim</b> 為快速略讀，與副詞 thoroughly 矛盾；<b>browse</b> 意為隨意瀏覽，程度最淺，完全不符合法遵文件的審查要求。"
+        "zh": "強烈建議員工透過新建置的線上入口網站提交所有費用報告，而非以紙本方式提交。",
+        "why": "<b>Submit</b>（提交）是「向上級或系統呈送文件以供審核」的標準搭配，尤與 expense reports、applications、forms 等詞固定連用。B「remit」原意為「匯款」或「寬恕罪責」，偶見於寄送文件，但在費用報銷語境中極不自然；C「dispatch」強調快速發送或派遣，多用於貨物或人員；D「forward」指轉寄至第三方，暗示轉手而非直接提交系統。故 A 正確。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Failure to adhere to these protocols may expose the organization to substantial regulatory penalties and heighten the risk of enforcement action by the competent authorities.",
-          "The original data protection policy was first established three years ago and has since undergone two major revisions.",
-          "All employees are encouraged to attend the upcoming compliance training workshops on a voluntary basis.",
-          "Regional offices may delegate the documentation responsibility to a designated deputy in the event of the primary officer's unavailability."
+          "Please note that this policy supersedes all previous reimbursement guidelines; expenses incurred prior to 1 July 2026 should continue to be processed under the existing framework.",
+          "The Finance Division would like to express its gratitude to all staff for their patience during the system migration period.",
+          "Employees who require additional clarification may consult the Human Resources department during regular office hours.",
+          "All managers are reminded to update their team's shared drives with the latest version of this policy document."
         ],
         "ans": 0,
-        "zh": "未能遵守這些規程可能使組織面臨重大監管罰款，並加劇主管機關採取執法行動的風險。",
-        "why": "此空格位於備忘錄最後一段，功能是<b>強化結尾</b>。選項 A 明確陳述違規後果（罰款與執法風險），與前段「須事先取得書面授權」形成「規範 → 後果」的完整論述結構，符合正式合規備忘錄的慣用收尾方式。選項 B 為歷史背景說明，放在結尾突兀；C 談自願培訓，語氣與文件基調不符；D 為例外情況處理，不宜作結語。"
+        "zh": "請注意，本政策取代所有先前的報銷準則；2026年7月1日之前發生的費用應繼續依現行框架辦理。",
+        "why": "插入句須與上下文邏輯緊密銜接。前段說明新政策各項要求，後句引導讀者洽詢問題，因此插入句最適合提供<b>新舊政策過渡說明</b>，告知員工政策生效界線，避免混淆。A 正確填補此關鍵訊息缺口。B 為感謝語，與正式政策段落語氣不連貫；C 重複了後句已說明的諮詢管道，屬多餘資訊；D 談文件管理細節，與主要訊息偏離且語氣突兀。"
       }
     ]
   }
