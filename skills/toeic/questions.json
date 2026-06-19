@@ -1,103 +1,103 @@
 {
-  "date": "2026-06-19",
+  "date": "2026-06-20",
   "p5": [
     {
-      "id": "2026-06-19-p5-0",
+      "id": "2026-06-20-p5-0",
       "tag": "假設語氣倒裝",
-      "pre": "Had the financial irregularities been detected earlier, the company",
-      "post": "the regulatory penalties that ultimately led to its insolvency.",
-      "opts": ["might have averted", "might avert", "would avert", "had averted"],
-      "ans": 0,
-      "zh": "若財務不法情事能更早被發現，公司本可避免最終導致其破產的那些監管處罰。",
-      "why": "<b>Had ... been detected</b> 是假設語氣過去完成式的倒裝形式，等同於 <b>If the irregularities had been detected</b>。此類型的主要子句須用 <b>might/would/could + have + p.p.</b> 表示「本可…」的反事實結果。B「might avert」（現在式）、C「would avert」（現在式）均與過去反事實語境不符；D「had averted」為過去完成式，用於主要子句有誤。唯 A <b>might have averted</b>（情態動詞過去完成式）正確對應過去反事實條件句。"
-    },
-    {
-      "id": "2026-06-19-p5-1",
-      "tag": "分詞構句（被動）",
       "pre": "",
-      "post": "by successive rounds of austerity measures, the municipal infrastructure fund lacked sufficient capital to undertake the proposed bridge rehabilitation project.",
-      "opts": ["Depleted", "Depleting", "Having depleted", "To have been depleted"],
+      "post": "the merger agreement earlier, the shareholders would have received a more favorable settlement.",
+      "opts": ["Had the board ratified", "If the board would ratify", "The board having ratified", "Were the board to ratify"],
       "ans": 0,
-      "zh": "因接連數輪撙節措施而資金耗盡，市政基礎建設基金缺乏足夠資本以推展擬議中的橋梁整建工程。",
-      "why": "分詞構句中，若主句主詞（the municipal infrastructure fund）與分詞動作之間是<b>被動</b>關係（基金被撙節措施耗盡），應使用<b>過去分詞</b>，即 <b>Depleted by...</b>，為 <b>Having been depleted by...</b> 的省略形式。B「Depleting」為主動分詞，暗示主詞主動消耗他物，語意矛盾；C「Having depleted」亦為主動完成式；D「To have been depleted」為不定詞完成被動式，不可作分詞構句開頭。故唯 A 正確。"
+      "zh": "假如董事會早些批准合併協議，股東們本可獲得更有利的和解條件。",
+      "why": "本題測試<b>假設語氣過去完成倒裝句</b>。原句為 'If the board had ratified...'，倒裝後省略 if，將助動詞 <b>had</b> 移至主詞前，形成 'Had the board ratified...'。主要子句使用 <b>would have + p.p.</b>，確認為與過去事實相反的假設。選項 B 在 if 子句中錯誤使用 would；選項 C 分詞構句無法獨立引導假設條件；選項 D <b>Were...to</b> 為現在／未來假設倒裝，與主要子句 would have received 矛盾。"
     },
     {
-      "id": "2026-06-19-p5-2",
-      "tag": "非限定關係子句",
-      "pre": "The revised remuneration policy,",
-      "post": "introduces a tiered performance bonus structure, will take effect at the commencement of the next fiscal year.",
-      "opts": ["that", "which", "what", "whereby"],
-      "ans": 1,
-      "zh": "修訂後的薪酬政策（其中引入了分級績效獎金制度）將於下一財政年度開始時生效。",
-      "why": "先行詞 <b>the revised remuneration policy</b> 後方的關係子句以逗號隔開，屬<b>非限定關係子句</b>（non-restrictive relative clause），此時只能用 <b>which</b>，不可用 <b>that</b>——that 僅用於限定子句，且不可緊接逗號之後。A「that」違反此規則；C「what」引導名詞子句，不修飾先行詞；D「whereby」意為「藉此」，語意不符此處的補充說明功能。故 B 正確。"
-    },
-    {
-      "id": "2026-06-19-p5-3",
-      "tag": "讓步介系詞（後置 notwithstanding）",
-      "pre": "The board resolved to proceed with the acquisition, the minority shareholders' reservations",
-      "post": ".",
-      "opts": ["notwithstanding", "despite", "although", "nevertheless"],
-      "ans": 0,
-      "zh": "董事會決議推進此次收購案，儘管少數股東持有保留意見。",
-      "why": "<b>Notwithstanding</b> 在正式法律及商務文體中可置於名詞片語<b>之後</b>（後置用法，postpositive），構成「名詞片語 + notwithstanding」結構，語意等同「儘管…」。B「despite」為介系詞，須前置於名詞片語，不可後置；C「although」為連接詞，須接完整子句，此處缺動詞，文法有誤；D「nevertheless」為副詞，不可銜接名詞片語。唯 A 的後置用法符合正式英語慣例。"
-    },
-    {
-      "id": "2026-06-19-p5-4",
-      "tag": "名詞子句（主詞位置）",
+      "id": "2026-06-20-p5-1",
+      "tag": "分詞構句（被動完成式）",
       "pre": "",
-      "post": "the proposed merger will generate synergistic benefits commensurate with projected costs is a matter that remains to be substantiated through rigorous due diligence.",
-      "opts": ["Whether", "That", "What", "How"],
+      "post": "by the compliance team over the past three months, the financial records were finally cleared for public disclosure.",
+      "opts": ["Having been reviewed", "Having reviewed", "Being reviewed", "After reviewing"],
       "ans": 0,
-      "zh": "擬議中的合併案是否能產生與預期成本相稱的綜效效益，是一項仍有待嚴謹盡職調查加以驗證的事宜。",
-      "why": "空格引導的名詞子句作全句主詞。關鍵在語意：後文 <b>remains to be substantiated</b>（有待驗證）暗示結果不確定，故應用 <b>whether</b>（是否）引導帶有疑問性質的名詞子句。B「That」引導名詞子句表示既定事實，與「仍需驗證」矛盾；C「What」須後接結構不完整的子句（缺主詞或受詞），但此句結構完整；D「How」強調方式，語意不符。故 A 正確。"
+      "zh": "在過去三個月經合規團隊審查之後，這些財務記錄終於獲准公開揭露。",
+      "why": "分詞構句中，主句主詞 'financial records' 為<b>被動接受者</b>，且審查動作先於主句動作完成，故需使用<b>完成被動分詞 Having been reviewed</b>。選項 B Having reviewed 為主動式，邏輯矛盾（記錄不能主動審查）；選項 C Being reviewed 表同時進行的被動，與 over the past three months 及 finally 的時序不符；選項 D After reviewing 為主動式，邏輯主詞不一致。"
+    },
+    {
+      "id": "2026-06-20-p5-2",
+      "tag": "讓步介系詞（notwithstanding）",
+      "pre": "The arbitration clause shall remain enforceable",
+      "post": "any provision to the contrary contained in this agreement.",
+      "opts": ["notwithstanding", "regardless", "nevertheless", "in spite"],
+      "ans": 0,
+      "zh": "無論本協議中是否含有任何相反條款，本仲裁條款仍應具有強制效力。",
+      "why": "<b>Notwithstanding</b> 作介系詞使用時意為「儘管；不論」，可直接接名詞片語，為正式法律文件標準用法。選項 B <b>regardless</b> 作介系詞時必須接 <b>of</b>；選項 C <b>nevertheless</b> 是副詞，不能接名詞片語；選項 D <b>in spite</b> 必須與 <b>of</b> 連用才成介系詞片語。Notwithstanding 置於被讓步的名詞片語之前無需 of，是其與其他讓步詞的關鍵區別。"
+    },
+    {
+      "id": "2026-06-20-p5-3",
+      "tag": "名詞子句（假設語氣）",
+      "pre": "The board of directors mandated",
+      "post": "all overseas subsidiaries submit audited financial statements within thirty days.",
+      "opts": ["that", "for", "which", "what"],
+      "ans": 0,
+      "zh": "董事會規定所有海外子公司必須在三十天內提交經審計的財務報表。",
+      "why": "動詞 <b>mandate</b> 屬於要求／命令類動詞，其後接名詞子句時須使用<b>假設語氣（subjunctive mood）</b>：<b>that + 主詞 + 動詞原形</b>，故 'submit'（非 'submits'）為正確形式。選項 B for 後接不定詞（for...to submit），但與本題句型不符；選項 C which 為關係代名詞，需有先行詞；選項 D what 本身已含「事物」義，此處語意不合。"
+    },
+    {
+      "id": "2026-06-20-p5-4",
+      "tag": "比較結構（加強語氣）",
+      "pre": "Compliance with the revised environmental standards proved",
+      "post": "the management team had initially projected.",
+      "opts": ["far more costly than", "far as costly as", "costlier than ever", "more costly as what"],
+      "ans": 0,
+      "zh": "遵守修訂後的環保標準，結果遠比管理團隊最初預期的花費更高。",
+      "why": "<b>far more...than</b> 為正式英文中加強比較程度的標準結構，<b>far</b> 修飾比較級 more costly 以強調差距懸殊，than 引導省略比較子句。選項 B 'far as costly as' 語法錯誤，對等比較應為 <b>as...as</b>，無 'far as' 的說法；選項 C 'costlier than ever' 意為「比以往任何時候都昂貴」，不符合與初始預測相比的語意；選項 D 'more costly as what' 混用比較詞，英文比較結構不以 as what 收尾。"
     }
   ],
   "p6": {
-    "id": "2026-06-19-p6",
-    "title": "Revised Expense Reimbursement Procedures",
+    "id": "2026-06-20-p6",
+    "title": "Mandatory Compliance Training and Revised Remote Work Policy",
     "seg": [
-      ["This memorandum serves to inform all department heads of substantive amendments to the company's expense reimbursement policy, which ", {"b": 0}, " following a comprehensive audit conducted by the internal compliance team in the preceding quarter. These revisions are intended to enhance procedural transparency and reduce processing delays."],
-      [{"b": 1}, ", all reimbursement requests must be submitted within fifteen business days of the date on which the expenditure was incurred. Claims filed after this deadline will be subject to managerial review and may require written justification outlining any extenuating circumstances."],
-      ["Employees are strongly encouraged to ", {"b": 2}, " all expense reports through the newly implemented online portal rather than via paper submission. Supporting documentation, including original receipts and vendor invoices, remains mandatory for all claims exceeding USD 500."],
-      [{"b": 3}, " Any queries regarding the updated procedures may be directed to the Finance Division Help Desk at extension 4872."]
+      ["This memorandum serves to inform all personnel of two significant policy changes that will take effect commencing August 1st. Pursuant to recent amendments to the Corporate Governance Code, updated compliance training modules ", {"b": 0}, " to all staff members no later than July 15th, and completion is compulsory for continued employment in regulated roles."],
+      [{"b": 1}, ", employees who fail to complete the mandatory training by the stipulated deadline will be subject to a formal disciplinary review, which may result in the suspension of system access privileges until compliance is achieved."],
+      ["Regarding the revised remote work policy, employees who wish to continue remote arrangements must ", {"b": 2}, " a formal request to their respective department heads by no later than the last business day of this month. Requests submitted after this date will not be considered until the following review cycle."],
+      [{"b": 3}, " We appreciate your prompt attention to these matters and your continued cooperation in upholding the highest standards of operational integrity."]
     ],
     "blanks": [
       {
-        "tag": "時態語態",
+        "tag": "時態語態（未來被動）",
         "col1": true,
-        "opts": ["have been implemented", "had been implemented", "were implementing", "are implementing"],
+        "opts": ["will be distributed", "will distribute", "are distributed", "have been distributed"],
         "ans": 0,
-        "zh": "這些修訂措施是在上一季內部合規團隊進行全面稽核後實施的。",
-        "why": "<b>現在完成被動式（have been implemented）</b>表示「近期已完成且與當下具關聯性」，最適合描述剛頒布的政策修訂。B「had been implemented」為過去完成式，暗示在某一過去時間點之前完成，時序不符；C「were implementing」為過去進行主動式，但政策修訂不能自行「主動實施」，主被動有誤；D「are implementing」為現在進行主動式，同樣有主被動誤用問題。故 A 正確。"
+        "zh": "更新後的合規培訓模組將於七月十五日前發送給所有員工，受管制職位員工須強制完成。",
+        "why": "主詞 'training modules' 為<b>被動接受者</b>（由公司發送給員工），且動作發生於未來（no later than July 15th），故使用<b>未來被動式 will be distributed</b>。選項 B will distribute 為主動，主詞不是動作執行者；選項 C are distributed 為現在被動，與未來時間副詞矛盾；選項 D have been distributed 表過去已完成，與語境不符。"
       },
       {
-        "tag": "語篇連接詞",
+        "tag": "語篇連接詞（因果結果）",
         "col1": true,
-        "opts": ["Pursuant to these amendments", "Despite these amendments", "By and large", "Conversely"],
+        "opts": ["Accordingly", "Nevertheless", "Conversely", "Incidentally"],
         "ans": 0,
-        "zh": "依據上述修訂，所有報銷申請必須在支出發生日起十五個工作日內提交。",
-        "why": "<b>Pursuant to</b>（依據、依照）為正式法律及商務用語，用以引出因某規定而產生的義務，邏輯上承接前段的政策公告，最為貼切。B「Despite」（儘管）表讓步，與語意衝突——不可能「儘管修訂」卻仍遵循規定；C「By and large」（大體而言）為概括性副詞片語，不能引出具體規定；D「Conversely」（相反地）表對比，與前文無對比關係。唯 A 正確。"
+        "zh": "因此，未能在規定期限內完成強制培訓的員工，將接受正式的紀律審查。",
+        "why": "<b>Accordingly</b> 意為「因此；從而」，用於引出前文邏輯所導致的<b>結果或後果</b>，與「違規將受紀律審查」的因果語境吻合。選項 B <b>Nevertheless</b>（儘管如此）表讓步，邏輯方向相反；選項 C <b>Conversely</b>（相反地）表對比，語意不符；選項 D <b>Incidentally</b>（順便一提）用於引入附帶資訊，語氣過輕且不符強調後果的語境。"
       },
       {
-        "tag": "詞彙語意",
+        "tag": "詞彙語意（動詞搭配）",
         "col1": true,
-        "opts": ["submit", "remit", "dispatch", "forward"],
+        "opts": ["submit", "propose", "deliver", "present"],
         "ans": 0,
-        "zh": "強烈建議員工透過新建置的線上入口網站提交所有費用報告，而非以紙本方式提交。",
-        "why": "<b>Submit</b>（提交）是「向上級或系統呈送文件以供審核」的標準搭配，尤與 expense reports、applications、forms 等詞固定連用。B「remit」原意為「匯款」或「寬恕罪責」，偶見於寄送文件，但在費用報銷語境中極不自然；C「dispatch」強調快速發送或派遣，多用於貨物或人員；D「forward」指轉寄至第三方，暗示轉手而非直接提交系統。故 A 正確。"
+        "zh": "希望繼續遠端工作安排的員工，必須向各自的部門主管提交正式申請。",
+        "why": "<b>Submit a request</b>（提交申請）是正式商務與法律英文中的<b>標準動詞搭配（collocation）</b>。選項 B <b>propose a request</b> 詞義重疊，propose 本身含有「提出」之意，與 request 搭配語意冗餘；選項 C <b>deliver</b> 通常搭配 speech、verdict、goods，接 request 不自然；選項 D <b>present a request</b> 雖語法正確，但在正式文書情境中，submit 遠比 present 更為慣用且精準。"
       },
       {
-        "tag": "句子插入",
+        "tag": "句子插入（篇章結尾語）",
         "col1": true,
         "opts": [
-          "Please note that this policy supersedes all previous reimbursement guidelines; expenses incurred prior to 1 July 2026 should continue to be processed under the existing framework.",
-          "The Finance Division would like to express its gratitude to all staff for their patience during the system migration period.",
-          "Employees who require additional clarification may consult the Human Resources department during regular office hours.",
-          "All managers are reminded to update their team's shared drives with the latest version of this policy document."
+          "Should you have any questions regarding the new policy, please do not hesitate to contact the Human Resources Department directly.",
+          "The Human Resources Department has been established to handle all employee-related queries and concerns.",
+          "Questions regarding such policies have been raised repeatedly by employees throughout previous fiscal years.",
+          "Human Resources will be undergoing significant structural reorganization effective next quarter."
         ],
         "ans": 0,
-        "zh": "請注意，本政策取代所有先前的報銷準則；2026年7月1日之前發生的費用應繼續依現行框架辦理。",
-        "why": "插入句須與上下文邏輯緊密銜接。前段說明新政策各項要求，後句引導讀者洽詢問題，因此插入句最適合提供<b>新舊政策過渡說明</b>，告知員工政策生效界線，避免混淆。A 正確填補此關鍵訊息缺口。B 為感謝語，與正式政策段落語氣不連貫；C 重複了後句已說明的諮詢管道，屬多餘資訊；D 談文件管理細節，與主要訊息偏離且語氣突兀。"
+        "zh": "如您對新政策有任何疑問，請直接聯繫人力資源部門，切勿猶豫。",
+        "why": "商務備忘錄結尾段通常以<b>提供聯絡管道</b>收尾，引導讀者採取後續行動。選項 A 使用<b>假設語氣倒裝</b>（Should you have...），語氣正式有禮，與結語 'We appreciate...' 銜接自然，符合正式備忘錄文體慣例。選項 B 僅描述人資部門功能，缺乏引導性；選項 C 提及過去提問歷史，偏離當前語境；選項 D 引入人資重組的新資訊，與本備忘錄主題無關，不適合作結語。"
       }
     ]
   }
