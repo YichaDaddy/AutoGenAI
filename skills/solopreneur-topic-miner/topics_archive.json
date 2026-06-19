@@ -1,5 +1,214 @@
 [
   {
+    "date": "2026-06-19",
+    "big_events": [
+      {
+        "title": "美國政府正式封禁 Anthropic Fable 5 與 Mythos 5，全球上線計畫暫停",
+        "sources": [
+          {
+            "name": "BuildFastWithAI",
+            "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-19-2026"
+          },
+          {
+            "name": "LLM Stats",
+            "url": "https://llm-stats.com/ai-news"
+          }
+        ],
+        "summary": "白宮以國家安全為由，要求 Anthropic 下架最新 Fable 5 與 Mythos 5 模型，封禁導致全球用戶無法存取，Dario Amodei 拒絕政府提出的修補或下架要求，雙方陷入僵局。",
+        "audience": "正在使用 Claude 的職場工作者、開發者與企業 IT 決策者",
+        "pain_point": "依賴 Anthropic 模型的工作者突然失去工具，不知道如何應對或尋找替代方案",
+        "title_idea": "Claude 最強兩個模型被美國政府封了！現在怎麼辦？替代工具完整攻略",
+        "local_angle": "台灣／華語圈大量使用 Claude 的工作者受衝擊，搶做「替代工具比較」或「影響分析」教學，資訊差紅利巨大"
+      },
+      {
+        "title": "Google 推出全天候 24/7 Search Agents，AI 自動追蹤你指定的任何網路動態",
+        "sources": [
+          {
+            "name": "BuildFastWithAI",
+            "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-19-2026"
+          },
+          {
+            "name": "WaveSpeed Blog",
+            "url": "https://wavespeed.ai/blog/posts/june-2026-ai-launch-wave/"
+          }
+        ],
+        "summary": "Google 正式推出 24/7 Search Agents，可持續監控網路動態並在條件觸發時主動通知用戶，涵蓋票券搶購、房產掛牌、競品動態等情境，大幅降低職場資訊蒐集成本。",
+        "audience": "職場上班族、業務人員、自媒體創作者",
+        "pain_point": "每天要花大量時間手動搜尋特定資訊，容易錯過時間敏感的機會",
+        "title_idea": "Google 出了個 AI 幫你全天候盯盤！這 5 種工作場景讓你每天省 1 小時",
+        "local_angle": "海外已在熱議，但中文教學幾乎為零，搶做「台灣用法攻略」能吃到第一波流量紅利"
+      },
+      {
+        "title": "Reliance Jio 為 5 億印度用戶全面嵌入 AI，電話、App、家居裝置一網打盡",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/"
+          }
+        ],
+        "summary": "印度首富安巴尼旗下 Reliance 宣布透過 Jio 平台為逾 5 億用戶部署 AI 電話助理（Jio Call Agent）、AI 版 MyJio App 及 TeleFrame 家居 AI 顯示器，並投資 1,100 億美元建立國家級 AI 基礎設施。",
+        "audience": "關注 AI 全球化趨勢的職場人士、創業者",
+        "pain_point": "不了解 AI 如何在非西方市場大規模落地，以及對自身行業的潛在衝擊",
+        "title_idea": "5 億人同時用上 AI 是什麼感覺？印度超級 App 這樣玩，台灣值得學",
+        "local_angle": "AI 普及化趨勢比歐美更快登陸亞洲，台灣觀眾感受更切身，有切入全球競爭格局的好角度"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "Claude 企業版新增 Okta MCP 連接器，管理員設定一次全員零接觸存取",
+        "sources": [
+          {
+            "name": "Releasebot Anthropic Updates",
+            "url": "https://releasebot.io/updates/anthropic"
+          },
+          {
+            "name": "BuildFastWithAI",
+            "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-19-2026"
+          }
+        ],
+        "summary": "Anthropic 為 Claude Team／Enterprise 推出 Okta MCP 企業連接器（beta），IT 管理員完成授權設定後，員工登入即可無縫使用 Claude chat、Claude Code 及 Cowork，統一管控所有授權。",
+        "audience": "企業 IT 管理員、採購 AI 工具的部門主管",
+        "pain_point": "公司想大規模導入 AI 但需要解決帳號管理、安全授權等繁瑣流程",
+        "title_idea": "公司 IT 一鍵開通，全體員工直接用 Claude！企業 MCP 整合完全解析",
+        "local_angle": "台灣企業 AI 導入正在加速，此功能讓中大型企業統一部署 Claude 更容易，市場教育機會高"
+      },
+      {
+        "title": "Claude Cowork 桌面自動化工具免費配額翻倍，非技術員工也能零門檻試用",
+        "sources": [
+          {
+            "name": "BuildFastWithAI",
+            "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-19-2026"
+          },
+          {
+            "name": "The New Stack",
+            "url": "https://thenewstack.io"
+          }
+        ],
+        "summary": "Anthropic 大幅提升 Claude Cowork 桌面自動化應用的免費使用上限，讓不懂程式的職場用戶能以 AI 自動化處理日常重複性任務，無需付費即可體驗完整功能。",
+        "audience": "不會寫程式的一般上班族、想用 AI 提升效率的行政人員",
+        "pain_point": "想用 AI 自動化工作流程但不懂技術，且免費方案功能受限",
+        "title_idea": "不會寫程式也能讓 AI 幫你自動做事！Claude Cowork 免費版更新完整試用報告",
+        "local_angle": "Cowork 在台灣知名度低，中文教程近乎空白，先做教學直接吃工具推廣紅利"
+      },
+      {
+        "title": "OpenAI 收購 Python 工具公司 Astral（uv＋ruff），整合進 Codex AI 程式助理",
+        "sources": [
+          {
+            "name": "BuildFastWithAI",
+            "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-19-2026"
+          },
+          {
+            "name": "The New Stack",
+            "url": "https://thenewstack.io"
+          }
+        ],
+        "summary": "OpenAI 收購打造出 Python 套件管理器 uv 與格式化工具 ruff 的 Astral 團隊，計劃將這兩款深受開發者喜愛的工具整合進 Codex AI 程式助理平台，強化 AI 開發工具鏈。",
+        "audience": "Python 開發者、用 AI 輔助寫程式的工程師、獨立開發者",
+        "pain_point": "AI 程式助理與現有開發工具鏈整合度不足，切換成本高",
+        "title_idea": "OpenAI 把 Python 最受歡迎的兩個工具都買了！Codex 接下來要變成什麼？",
+        "local_angle": "uv 和 ruff 在台灣 Python 社群已有口碑，此收購新聞對技術受眾吸引力極高"
+      },
+      {
+        "title": "Google 推出六年來首款自有品牌智慧喇叭，搭載 Gemini AI 自然對話引擎",
+        "sources": [
+          {
+            "name": "BuildFastWithAI",
+            "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-19-2026"
+          },
+          {
+            "name": "LLM Stats",
+            "url": "https://llm-stats.com/ai-news"
+          }
+        ],
+        "summary": "Google 時隔六年重回智慧喇叭市場，新裝置搭載 Gemini AI，主打自然對話、複雜任務理解與家居整合，對標亞馬遜 Echo 高階系列，標誌著 AI 語音助理進入新世代。",
+        "audience": "對 AI 家居裝置感興趣的職場人士、科技早期採用者",
+        "pain_point": "現有智慧喇叭 AI 能力太弱，無法處理複雜指令或完成真正的工作任務",
+        "title_idea": "Google 六年後終於出新智慧喇叭！Gemini AI 加持後，語音助理到底進步了多少？",
+        "local_angle": "台灣對 Google 生態系接受度高，此裝置推出時機與 Gemini AI 教學需求完美吻合"
+      }
+    ],
+    "trends": [
+      {
+        "title": "AI 獨立創業者爆發：美國 4,180 萬 solopreneurs，34% 零編程基礎打造 micro-SaaS",
+        "sources": [
+          {
+            "name": "Wide Journal",
+            "url": "https://widejournal.com/business/entrepreneurship/ai-solopreneur-one-person-business-2026/"
+          },
+          {
+            "name": "Grey Journal",
+            "url": "https://greyjournal.net/hustle/grow/solo-founders-million-dollar-ai-businesses-2026/"
+          }
+        ],
+        "summary": "2026 年 Q1 數據顯示美國 solopreneur 數量突破 4,180 萬，其中 34% 新 micro-SaaS 創辦人無程式背景，部分月收已達 5,000–50,000 美元，AI 工具鏈全面普及是主要驅動力。",
+        "audience": "有創業夢想的職場上班族、對副業感興趣的工作者",
+        "pain_point": "感覺創業需要技術門檻，不知道如何靠 AI 無痛踏入獨立開發",
+        "title_idea": "不懂程式也能月入 5 萬？2026 年美國這批 AI solopreneur 是怎麼做到的",
+        "local_angle": "歐美已有大量成功案例，台灣／華語圈複製空間廣，此選題既能教人技能又能激勵共鳴"
+      },
+      {
+        "title": "KAIST 新型資料庫讓 AI 幻覺降低 78%，企業 AI 工具可信度迎來重大突破",
+        "sources": [
+          {
+            "name": "LLM Stats",
+            "url": "https://llm-stats.com/ai-news"
+          },
+          {
+            "name": "TechXplore",
+            "url": "https://techxplore.com"
+          }
+        ],
+        "summary": "韓國 KAIST 研究團隊開發新型資料庫技術，透過改進 RAG 架構的語義索引方式，讓 AI 工具「聽起來合理但錯誤」的幻覺率降低達 78%，對企業 AI 工具應用可信度具重大意義。",
+        "audience": "正在評估或已採用 AI 工具的企業用戶、技術決策者",
+        "pain_point": "對 AI 工具輸出的準確性存疑，擔心在正式工作中使用到錯誤資訊",
+        "title_idea": "AI 胡說八道的問題快要解決了？這項技術讓幻覺率降低 78%，你的工作場景能用嗎",
+        "local_angle": "AI 可信度是台灣企業採用 AI 的最大顧慮之一，此技術突破能引發廣泛企業用戶共鳴"
+      }
+    ],
+    "source_coverage_notes": {
+      "status": "日期驗證完成 (2026-06-19)",
+      "coverage": [
+        {
+          "source": "TechCrunch AI",
+          "status": "✅",
+          "count": 2,
+          "note": "確認 2 篇 URL 含 /2026/06/19/ 的 AI 相關文章：Reliance Jio AI 全面整合（安巴尼）、Allbirds 轉型 AI 公司 Smartbird。另有 2 篇 video/podcast 項目未含日期 URL，已剔除。"
+        },
+        {
+          "source": "FutureTools News",
+          "status": "⚠️",
+          "count": 1,
+          "note": "僅找到 1 條 6/19 發布項目：MIT DAAAM 機器人長期記憶技術。因與賽道（職場 AI 效率工具）匹配度較低，未納入主要選題，但已記錄。"
+        },
+        {
+          "source": "BuildFastWithAI（WebSearch）",
+          "status": "✅",
+          "count": 8,
+          "note": "找到專屬 2026-06-19 日報頁面，收錄 16 則新聞，篩選出 8 則與 AI 效率工具賽道高度相關：Fable 5/Mythos 5 封禁、Seoul 辦公室開幕、Claude Cowork 配額翻倍、Okta MCP 連接器、OpenAI Astral 收購、Google 智慧喇叭等。"
+        },
+        {
+          "source": "YouTube 頻道（Matt Wolfe 等）",
+          "status": "❌",
+          "count": 0,
+          "note": "無法確認 2026-06-19 昨日特定上傳影片，WebSearch 無日期可驗證之結果，如實記錄，未以舊內容充數。"
+        },
+        {
+          "source": "X/Twitter 帳號",
+          "status": "❌",
+          "count": 0,
+          "note": "直接訪問不可行，WebSearch 無 2026-06-19 特定貼文可驗證，如實記錄。"
+        },
+        {
+          "source": "The Verge AI",
+          "status": "❌",
+          "count": 0,
+          "note": "WebFetch 無法訪問 The Verge，如實記錄，未補充推測內容。"
+        }
+      ],
+      "explanation": "2026-06-19 日報精選 9 則核心情報（3 大事件、4 工具更新、2 趨勢）。TechCrunch 文章均透過 URL 日期（/2026/06/19/）核對確認。Anthropic Fable 5/Mythos 5 封禁事件為當日最大 AI 業界新聞；Google 24/7 Search Agents 與 Claude Cowork 配額翻倍為職場效率工具受眾最高匹配選題。"
+    }
+  },
+  {
     "date": "2026-06-18",
     "big_events": [
       {
@@ -990,59 +1199,5 @@
         "local_angle": "這揭示了 AI 龍頭在快速成長下的「管理張力」。可做「AI 公司合作協議裡的陷阱」、「IPO 前的策略轉向有多激進」等解讀"
       }
     ]
-  },
-  {
-    "date": "2026-06-12",
-    "big_events": [
-      {
-        "title": "Anthropic 首度發布「AI 全民調查」：71% 美國人支持政府監管 AI，僅 15% 信任 AI 公司",
-        "sources": [
-          {
-            "name": "Anthropic",
-            "url": "https://www.anthropic.com/news/anthropic-public-record"
-          }
-        ],
-        "summary": "Anthropic 調查近 5.2 萬名美國人對 AI 的真實看法，64% 最怕 AI 害自己失業。",
-        "audience": "對「該不該用AI」感到焦慮、想了解同事與主管真實心態的職場上班族",
-        "pain_point": "每天被各種AI新聞轟炸，卻不知道身邊的人到底怎麼看AI，也不確定自己對AI的擔心是不是「想太多」",
-        "title_idea": "Anthropic砸錢調查5萬人發現：每天用AI的人，反而比較不怕被AI取代",
-        "local_angle": "海外AI龍頭首次公開做「全民AI心態調查」，華語圈尚無類似報導，可做成「AI使用心態自我檢測」互動型內容，引發辦公室話題討論"
-      },
-      {
-        "title": "ChatGPT 月活躍用戶衝破10億，成史上最快達標App，但社會觀感兩極",
-        "sources": [
-          {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/06/12/chatgpt-a-billion-monthly-app-users-despite-souring-public-ai-sentiment.html"
-          }
-        ],
-        "summary": "Sensor Tower數據顯示ChatGPT五月衝破10億月活，Claude、Meta AI年增率三位數。",
-        "audience": "還在猶豫要不要把AI工具排進日常工作流的職場上班族",
-        "pain_point": "身邊同事好像都在用AI工具，自己卻還停留在「偶爾問問ChatGPT」，擔心生產力被拉開差距卻不知從何系統化導入",
-        "title_idea": "全球10億人每月在用ChatGPT！2026年中AI使用數據看懂：你落後了嗎？",
-        "local_angle": "用「ChatGPT破10億」這個全球級數字當鉤子，搭配Claude/Meta AI成長率對比圖，做成「上班族AI工具導入現況」系列開場"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "Moonshot AI 開源新模型 Kimi K2.7-Code：1兆參數、推理token省30%、可商用",
-        "sources": [
-          {
-            "name": "Crypto Briefing",
-            "url": "https://cryptobriefing.com/kimi-k2-7-code-open-source-release/"
-          },
-          {
-            "name": "Hugging Face",
-            "url": "https://huggingface.co/moonshotai/Kimi-K2.7-Code"
-          }
-        ],
-        "summary": "Kimi K2.7-Code開源上線，混合專家架構大幅降低推理成本與延遲，採修改版MIT授權可商用。",
-        "audience": "想用AI寫程式、做自動化但對訂閱費敏感的職場上班族與SOHO工作者",
-        "pain_point": "ChatGPT、Claude訂閱費不斷上漲，想找免費或低成本的AI編程助手，但又覺得「開源模型」門檻太高、跟自己無關",
-        "title_idea": "免費開源AI編程神器來了！Kimi K2.7-Code省30%運算成本，這樣用不用懂寫程式",
-        "local_angle": "中國團隊開源模型在海外科技圈討論度高，但華語職場受眾普遍不知道「開源模型」對自己有何實際用處，適合做「不用寫code也能懂」的科普切角"
-      }
-    ],
-    "trends": []
   }
 ]
