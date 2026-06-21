@@ -31,12 +31,30 @@ jobs:
         run: python scripts/fetch_marathon.py
 
       - name: Commit & push marathon.json to main
+        id: push_main
         run: |
           git config user.name  "AutoGenAI Bot"
           git config user.email "bot@users.noreply.github.com"
           git add v3/marathon.json
-          git diff --staged --quiet && echo "No changes" || (
-            git commit -m "auto: update marathon data $(date -u '+%Y-%m-%d %H:%M UTC')" &&
-            git pull --rebase origin main &&
+          if git diff --staged --quiet; then
+            echo "No changes"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "auto: update marathon data $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git pull --rebase origin main
             git push origin main
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Sync marathon.json to gh-pages
+        if: steps.push_main.outputs.changed == 'true'
+        run: |
+          git fetch origin gh-pages
+          git worktree add gh-pages-dir origin/gh-pages
+          cp v3/marathon.json gh-pages-dir/v3/marathon.json
+          cd gh-pages-dir
+          git add v3/marathon.json
+          git diff --staged --quiet && echo "No changes to deploy" || (
+            git commit -m "deploy: sync marathon.json $(date -u '+%Y-%m-%d %H:%M UTC')" &&
+            git push origin HEAD:gh-pages
           )
