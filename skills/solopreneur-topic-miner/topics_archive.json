@@ -1,5 +1,262 @@
 [
   {
+    "date": "2026-06-21",
+    "big_events": [
+      {
+        "title": "SpaceX 以 600 億美元全股票收購 AI 編程神器 Cursor，Grok Build 即將登場",
+        "sources": [
+          {
+            "name": "BuildFastWithAI",
+            "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-21-2026"
+          },
+          {
+            "name": "Basenor",
+            "url": "https://www.basenor.com/blogs/news/grok-4-3-lands-on-amazon-bedrock-with-1m-token-context"
+          }
+        ],
+        "summary": "SpaceX 於 6/16 向 SEC 提交 600 億美元全股票收購 Cursor 申請，Cursor 年化收入約 40 億美元，並計畫結合 xAI 基礎設施推出全新 AI 編程產品 Grok Build。",
+        "audience": "使用 AI 工具的開發者、職場科技愛好者",
+        "pain_point": "不確定 AI 編程工具市場整合後現有工具選擇是否會改變或漲價",
+        "title_idea": "SpaceX 花 600 億買下 Cursor！AI 寫程式工具大洗牌，你的開發流程要跟著變了嗎？",
+        "local_angle": "此消息歐美剛引爆，華語圈深度解析極少，搶做 Cursor × Grok Build 前瞻分析或現有教學有明顯資訊差紅利"
+      },
+      {
+        "title": "iOS 27 AI 功能清單曝光：Siri AI 全面升級、Apple Intelligence 遍佈 Mail／Photos／Calendar",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/"
+          },
+          {
+            "name": "Apple Newsroom",
+            "url": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/"
+          }
+        ],
+        "summary": "Apple 正式公布 iOS 27 AI 功能：Siri AI 支援開放式問答與螢幕感知，Apple Intelligence 整合 Safari、Photos、Mail、Calendar、Shortcuts，支援 iPhone 15 Pro 及後續機型。",
+        "audience": "iPhone 用戶、職場上班族",
+        "pain_point": "不了解 iOS 27 AI 功能如何具體提升每日工作流程效率",
+        "title_idea": "iOS 27 來了！這 5 個 AI 功能讓你的 iPhone 秒變職場效率神器（附實際用法）",
+        "local_angle": "Apple Intelligence 繁體中文支援預計同步推出，台灣用戶立即受益，搶做圖文教學或 YT 示範影片需求量大"
+      },
+      {
+        "title": "Fable 5 封禁第 9 天：白宮要求「零越獄」遭 Anthropic CEO 拒絕，Polymarket 預測 6 月底前解禁機率 58–67%",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/"
+          },
+          {
+            "name": "BuildFastWithAI",
+            "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-21-2026"
+          }
+        ],
+        "summary": "Claude Fable 5 自 6/12 遭美國出口管制封禁，白宮顧問 David Sacks 要求修補所有越獄漏洞，Dario Amodei 拒絕，免費試用期 6/22 截止，競爭對手受益明顯。",
+        "audience": "Claude 重度使用者、AI 工具依賴的職場人士",
+        "pain_point": "慣用 AI 工具突然無法使用，不知道最佳替代方案為何",
+        "title_idea": "Claude 最強模型被封禁 9 天！白宮要求「零越獄」根本不可能達到？Gemini 和 GPT 誰是最佳備案",
+        "local_angle": "台灣用戶同樣受影響，三大替代方案（Gemini 3.5 Pro vs GPT-5.5 vs Grok 4.3）比較教學剛需極高"
+      },
+      {
+        "title": "DeepSeek V4 預覽版登場：1.6 兆參數 MoE 開源模型，訓練於華為昇騰 950 晶片",
+        "sources": [
+          {
+            "name": "BuildFastWithAI",
+            "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-21-2026"
+          }
+        ],
+        "summary": "DeepSeek 發布 V4 預覽版，1.6 兆參數混合專家架構，使用華為昇騰 950 晶片訓練，目前是全球最強開源選項，但仍遜於美國頂級閉源模型。",
+        "audience": "技術型職場人士、獨立開發者、對開源 AI 有興趣的創作者",
+        "pain_point": "想自架低成本 AI 解決方案但不確定哪個開源模型值得選",
+        "title_idea": "DeepSeek V4 震撼登場！1.6 兆參數開源模型到底有多猛？跟 GPT-5.5 比起來如何？",
+        "local_angle": "華語圈對 DeepSeek 有天然親近感，中文效果佳，搶做詳細評測與本地部署教學有明確資訊差"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "Grok 4.3 正式入駐 Amazon Bedrock：百萬 Token 視窗、每百萬輸入僅 $1.25",
+        "sources": [
+          {
+            "name": "AWS 官方公告",
+            "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/grok-amazon-bedrock/"
+          },
+          {
+            "name": "xAI",
+            "url": "https://x.ai/news/grok-amazon-bedrock"
+          }
+        ],
+        "summary": "xAI 的 Grok 4.3 在 Amazon Bedrock 全面開放，具備 100 萬 Token 上下文、四段可調推理層級、原生影片輸入，定價 $1.25/$2.50 per M tokens，快取輸入低至 $0.20。",
+        "audience": "使用 AWS 的開發者、需要長文件分析的企業人士",
+        "pain_point": "想找高性價比長上下文 API 模型，處理長合約、財報等大型文件",
+        "title_idea": "Grok 4.3 進駐 AWS！100 萬 Token 超長記憶，這樣用讓你 API 成本砍半",
+        "local_angle": "工具尚無中文詳細教學，搶做 Grok 4.3 API 入門 + 實際應用（合約審查／程式碼生成）教學有先機"
+      },
+      {
+        "title": "Claude Opus 4.8 更新：100 萬 Token 預設上下文 + API 新增 response_inclusion 省費參數",
+        "sources": [
+          {
+            "name": "Anthropic Release Notes (Releasebot)",
+            "url": "https://releasebot.io/updates/anthropic"
+          },
+          {
+            "name": "BuildFastWithAI",
+            "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-21-2026"
+          }
+        ],
+        "summary": "Claude Opus 4.8 新增 100 萬 Token 預設上下文，適合複雜長篇編程任務；API 同步更新 response_inclusion 參數，可降低代理工作流的 Token 消耗。",
+        "audience": "使用 Claude API 的開發者、重度 AI 工具用戶",
+        "pain_point": "在處理長文件或大型程式庫時遭遇上下文不足的限制，或 API 成本偏高",
+        "title_idea": "Claude Opus 4.8 爆量升級！100 萬 Token 到底能裝多少東西？整本書分析不是夢",
+        "local_angle": "繁體中文法律文件、財報、書籍整本分析的應用教學，台灣華語圈幾乎空白，搶先切入效果強"
+      },
+      {
+        "title": "Gemini 3.5 Pro 企業版進入倒數：200 萬 Token 超長上下文 + Deep Think 推理，本月底前上線",
+        "sources": [
+          {
+            "name": "BuildFastWithAI",
+            "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-21-2026"
+          },
+          {
+            "name": "WaveSpeed Blog",
+            "url": "https://wavespeed.ai/blog/posts/june-2026-ai-launch-wave/"
+          }
+        ],
+        "summary": "Gemini 3.5 Pro 在 Vertex AI 企業預覽版具備 200 萬 Token 上下文與 Deep Think 推理模式，預計定價 $15–$60/百萬 Token，6 月底正式全面開放。",
+        "audience": "企業 IT 人員、使用 Google Workspace 的職場人士",
+        "pain_point": "需要處理超長研究報告或整個程式庫，現有 AI 工具上下文嚴重不足",
+        "title_idea": "Gemini 3.5 Pro 快來了！200 萬 Token 能裝進幾本書？這些職場場景你一定用得到",
+        "local_angle": "亞洲企業 Google Workspace 普及率高，Gemini 整合 Google Docs/Sheets 的職場應用教學正是當打之年"
+      },
+      {
+        "title": "OpenAI 合作夥伴計畫：$1.5 億打造 30 萬認證 AI 顧問生態系，與 Anthropic／Google 正面競爭",
+        "sources": [
+          {
+            "name": "BuildFastWithAI",
+            "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-21-2026"
+          }
+        ],
+        "summary": "OpenAI 推出全球合作夥伴計畫，投入 1.5 億美元，目標年底前培養 30 萬名認證顧問，直接競爭 Anthropic 與 Google 的合作生態系。",
+        "audience": "想靠 AI 技能轉職或接案的職場人士、自由工作者",
+        "pain_point": "想成為 AI 顧問或靠 AI 技能接案，但不知道從哪個認證切入最有市場價值",
+        "title_idea": "OpenAI 花 1.5 億培養 30 萬 AI 顧問！現在入場還來得及嗎？認證流程與接案定價完整解析",
+        "local_angle": "台灣目前無 OpenAI 官方認證中文資訊，搶先整理認證路徑與台灣接案市場定價有大量搜尋需求"
+      }
+    ],
+    "trends": [
+      {
+        "title": "Black Duck 研究：97% 開發者使用 AI 工具，但只有 1/3 企業建立治理框架，Claude Code 採用率達 63%",
+        "sources": [
+          {
+            "name": "BuildFastWithAI（引用 Black Duck 研究）",
+            "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-21-2026"
+          }
+        ],
+        "summary": "Black Duck 調查顯示 97% 開發者現使用 AI 編程工具，Claude Code 採用率高達 63%，但僅 1/3 企業有 AI 使用治理框架，職場 AI 合規風險正在累積。",
+        "audience": "企業主管、HR、IT 部門、注重職場規範的上班族",
+        "pain_point": "員工私下大量使用 AI 工具，企業主管不知道如何制定合理規範又不阻礙生產力",
+        "title_idea": "你公司 97% 的工程師都在偷用 AI！企業該怎麼管才不會搞砸又不扼殺效率？",
+        "local_angle": "台灣企業 AI 治理意識更落後歐美，提前做「企業 AI 使用政策範本」主題是高價值稀缺內容"
+      },
+      {
+        "title": "六月成史上最大 AI 模型發布月：Fable 5、Gemini 3.5、Grok 4.3 齊發，護城河已從「季」縮至「週」",
+        "sources": [
+          {
+            "name": "BuildFastWithAI",
+            "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-21-2026"
+          },
+          {
+            "name": "WaveSpeed Blog",
+            "url": "https://wavespeed.ai/blog/posts/june-2026-ai-launch-wave/"
+          }
+        ],
+        "summary": "30 天內 Fable 5、Gemini 3.5 Flash/Pro、Grok 4.3、MAI-Code-1 齊發，分析師指出 AI 模型競爭護城河已從「季度」縮至「數週」，工具選擇策略需要重新思考。",
+        "audience": "AI 工具愛好者、自媒體創作者、企業決策者",
+        "pain_point": "AI 工具更新太快，不知道該深耕哪個工具，學了又怕很快被淘汰",
+        "title_idea": "史上最瘋狂 AI 軍備競賽月！30 天推 5 個頂尖模型，你到底該學哪個？選工具的底層邏輯",
+        "local_angle": "歐美已有完整模型對比評測，直接翻譯並加入繁體中文職場應用角度是最快切入方式"
+      },
+      {
+        "title": "Reuters 調查：全球 10% 成年人每週靠 AI 聊天機器人獲取新聞，但只有 4% 點回原始來源",
+        "sources": [
+          {
+            "name": "BuildFastWithAI（引用 Reuters 數位新聞報告）",
+            "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-21-2026"
+          }
+        ],
+        "summary": "Reuters 數位新聞報告顯示全球 10% 成年人每週用 AI 聊天機器人看新聞（前一年 7%），但只有 4% 會點回原始媒體來源。",
+        "audience": "內容創作者、媒體工作者、自媒體人",
+        "pain_point": "擔心 AI 聚合取代原創內容流量，不知道在 AI 時代如何維持創作者獨特價值",
+        "title_idea": "全球每 10 個人就有 1 個在用 AI 看新聞！自媒體人的流量要被 AI 搶走了嗎？",
+        "local_angle": "此趨勢在台灣尚無對應數據，用歐美數據切入預警並引導「AI 時代創作差異化」討論，是強選題且幾乎無競爭"
+      }
+    ],
+    "source_coverage_notes": {
+      "status": "日期驗證完成 (2026-06-21)",
+      "coverage": [
+        {
+          "source": "TechCrunch AI",
+          "status": "✅",
+          "count": 2,
+          "note": "確認 2 篇 URL 含 /2026/06/21/ 的文章：① When the Trump administration cracks down on Anthropic ② Beyond Siri: iOS 27 AI features。"
+        },
+        {
+          "source": "FutureTools.io",
+          "status": "❌",
+          "count": 0,
+          "note": "頁面最新條目為 2026-06-19，6/21 當日無新項目，如實記錄，未以舊文充數。"
+        },
+        {
+          "source": "Matt Wolfe (mreflow) YouTube",
+          "status": "❌",
+          "count": 0,
+          "note": "未找到 6/21 確認上傳的影片，如實記錄。"
+        },
+        {
+          "source": "The AI Advantage / Matthew Berman",
+          "status": "❌",
+          "count": 0,
+          "note": "未找到 6/21 發布的確認內容，如實記錄。"
+        },
+        {
+          "source": "BuildFastWithAI 日報彙整",
+          "status": "✅",
+          "count": 16,
+          "note": "抓取到完整的「AI News Today June 21, 2026: 16 Biggest Stories」，為本日主要資料來源。"
+        },
+        {
+          "source": "@AnthropicAI / Fable 5 封禁",
+          "status": "✅",
+          "count": 2,
+          "note": "TechCrunch 6/21 原文報導 + BuildFastWithAI 彙整，封禁第 9 天脈絡清晰。"
+        },
+        {
+          "source": "AWS / Grok 4.3 on Bedrock",
+          "status": "✅",
+          "count": 1,
+          "note": "AWS 官方公告確認，6/15 GA，6/21 報導熱度仍在。"
+        },
+        {
+          "source": "Apple iOS 27",
+          "status": "✅",
+          "count": 1,
+          "note": "TechCrunch /2026/06/21/ URL 確認，Apple Newsroom 同步公告。"
+        },
+        {
+          "source": "The Verge AI",
+          "status": "❌",
+          "count": 0,
+          "note": "WebFetch 無法存取，如實記錄。"
+        },
+        {
+          "source": "@OpenAI",
+          "status": "⚠️",
+          "count": 0,
+          "note": "6/21 無確認的重大 OpenAI 新公告，OpenAI Partner Network 為 6/16 發布，仍在報導週期，已標注。"
+        }
+      ],
+      "explanation": "2026-06-21 日報精選 11 則核心情報（4 大事件、4 工具更新、3 趨勢）。TechCrunch 確認 2 篇 /2026/06/21/ URL 文章，主要資訊來自 BuildFastWithAI「16 Biggest Stories」日報（6/21 發布）及 AWS/Apple 官方公告。FutureTools 6/21 無更新，YouTube 頻道無確認 6/21 影片，如實記錄。"
+    }
+  },
+  {
     "date": "2026-06-20",
     "big_events": [
       {
@@ -1229,87 +1486,6 @@
         }
       ],
       "explanation": "2026-06-15 日報精選了 11 則核心情報（4 大事件、4 工具更新、3 趨勢），全部來自已驗證的 2026-06-15 發布內容。TechCrunch 提供 6 篇深度報導，Build Fast with AI 彙整 16 個主要新聞角度，覆蓋了「AI 效率工具」賽道的關鍵發展：代碼生產力、企業自動化、模型能力升級、政策風險、本地部署轉向、自主性里程碑等。無法訪問的來源（YouTube、The Verge、FutureTools、X/Twitter）均已如實記錄。"
-    }
-  },
-  {
-    "date": "2026-06-14",
-    "big_events": [
-      {
-        "title": "AI 公司 IPO 潮：SpaceX 創造歷史，OpenAI/Anthropic 緊隨其後",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/14/as-ai-companies-race-to-go-public-who-else-is-along-for-the-ride/"
-          }
-        ],
-        "summary": "SpaceX 完成歷史性 IPO 使馬斯克成首位萬億富翁，OpenAI 和 Anthropic 也在準備上市，標誌 AI 產業資本化新階段。",
-        "audience": "職場中關注 AI 工具發展和公司動向的人、自由工作者、獨立開發者",
-        "pain_point": "擔心 AI 工具收費模式變化、功能逐漸收費化，免費工具轉為付費",
-        "title_idea": "《AI 獨角獸上市潮起，用慣的免費工具會漲價嗎？》",
-        "local_angle": "海外已驗證的 AI 商業化路徑，台灣軟體從業者和獨立開發者可提早規劃工具成本。資訊差機會：搶先分析如何應對工具轉付費的職場策略。"
-      },
-      {
-        "title": "加州立法禁止『AI 老闆』單獨決策裁員：職場 AI 監管的重要突破",
-        "sources": [
-          {
-            "name": "US News",
-            "url": "https://www.usnews.com/news/us/articles/2026-06-14/trump-tried-to-block-state-ai-regulations-but-some-states-are-forging-ahead"
-          },
-          {
-            "name": "California State Senate",
-            "url": "https://sd05.senate.ca.gov/news/ca-senate-approves-no-robo-bosses-act-2026-ensure-human-oversight-ai-workplace"
-          }
-        ],
-        "summary": "California SB 947『No Robo Bosses Act』通過參議院投票（29-9），禁止企業單獨依賴 AI 系統做裁員或懲罰決策，要求人工審核。",
-        "audience": "台灣上班族、HR 從業者、勞工權益關注者、企業管理層",
-        "pain_point": "擔心被演算法系統不公正地裁員，缺乏申訴和人工審查機制，AI 決策的黑箱化風險",
-        "title_idea": "《加州禁 AI 裁員法過關：被演算法開除的時代要結束了？》",
-        "local_angle": "台灣目前尚無此法規，但美國趨勢將成為企業重視人權和 AI 透明度的國際標竿。台灣上班族可借鑑美國經驗，主動了解公司 AI 應用是否涉及不當決策風險。創作角度：分析台灣企業如何應對全球 AI 監管趨勢，搶佔職場安全教育的內容空白。"
-      }
-    ],
-    "tool_updates": [],
-    "trends": [],
-    "source_coverage_notes": {
-      "status": "日期驗證完成",
-      "coverage": [
-        {
-          "source": "TechCrunch AI",
-          "status": "✅",
-          "count": 1,
-          "note": "確認 2026-06-14 發布"
-        },
-        {
-          "source": "US News",
-          "status": "✅",
-          "count": 1,
-          "note": "California SB 947 相關報導"
-        },
-        {
-          "source": "YouTube 頻道（Matt Wolfe 等）",
-          "status": "❌",
-          "count": 0,
-          "note": "無法確認 2026-06-14 昨日更新或訪問受限"
-        },
-        {
-          "source": "The Verge AI",
-          "status": "❌",
-          "count": 0,
-          "note": "WebFetch 無法訪問"
-        },
-        {
-          "source": "X/Twitter 帳號",
-          "status": "❌",
-          "count": 0,
-          "note": "直接訪問不可行，WebSearch 無相關 2026-06-14 結果"
-        },
-        {
-          "source": "futuretools.io",
-          "status": "⚠️",
-          "count": 0,
-          "note": "抓取到的工具更新（ElevenLabs、Claude 等）均發布於 06-09 之前，不符合昨日日期條件"
-        }
-      ],
-      "explanation": "根據嚴格日期規則，2026-06-14 日報內容極為有限。前期搜集的大量內容因發布日期非昨日而全數剔除，包括：Claude Fable 5（06-09）、Anthropic 白皮書（06-04）、OpenAI 音頻模型（05-07）、NAVER-NVIDIA（06-07）、Moonshot 融資（06-08）、Google 網絡犯罪訴訟（06-12）、KPMG 報告撤回（06-13）。僅保留確實發布於 2026-06-14 的內容。"
     }
   }
 ]
