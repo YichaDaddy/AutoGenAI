@@ -1,103 +1,103 @@
 {
-  "date": "2026-06-21",
+  "date": "2026-06-22",
   "p5": [
     {
-      "id": "2026-06-21-p5-0",
+      "id": "2026-06-22-p5-0",
       "tag": "假設語氣倒裝",
-      "pre": "",
-      "post": " the merger not been approved by the regulatory authorities, the company would have faced severe financial repercussions.",
-      "opts": ["Had", "Were", "Should", "If"],
+      "pre": "Had the board",
+      "post": "the merger proposal earlier, the company would have avoided substantial financial losses.",
+      "opts": ["approved", "would approve", "has approved", "approves"],
       "ans": 0,
-      "zh": "若該合併案未獲監管機關批准，公司將面臨嚴重的財務後果。",
-      "why": "此句為<b>假設語氣倒裝</b>句型。原句 \"If the merger had not been approved...\" 省略 if 後，助動詞 <b>had</b> 前移至主詞前形成倒裝。\"Were\" 用於現在假設倒裝（Were it not for...），\"Should\" 用於未來假設倒裝（Should you need...），兩者皆不搭配過去完成被動 \"not been approved\"。保留 \"If\" 則不形成倒裝，且句中缺少 had，故僅 \"Had\" 正確。"
+      "zh": "如果董事會早些批准合併提案，公司本可避免重大財務損失。",
+      "why": "此句為<b>第三條件句倒裝</b>，省略 if，將助動詞 had 移至句首（Had the board...）。從句動詞須用<b>過去分詞</b> approved（= if the board had approved），主句用 would have + p.p.。選項 B would approve 屬第二條件句型態，選項 C has approved 為現在完成式，選項 D approves 為現在式，均與倒裝假設語氣結構不符。"
     },
     {
-      "id": "2026-06-21-p5-1",
-      "tag": "被動分詞構句",
+      "id": "2026-06-22-p5-1",
+      "tag": "分詞構句（被動）",
       "pre": "",
-      "post": " with unprecedented scrutiny by the audit committee, the financial statements were ultimately deemed compliant with all applicable standards.",
-      "opts": ["Subjected", "Subjecting", "Having subjected", "To be subjected"],
-      "ans": 0,
-      "zh": "在審計委員會前所未有的嚴格審查下，財務報表最終被認定符合所有適用標準。",
-      "why": "本題考<b>被動分詞構句</b>。主句主詞 \"the financial statements\" 在語意上是動作的接受者（報表被審查），須以過去分詞 <b>Subjected</b> 起首，等同 \"After they were subjected to...\"。\"Subjecting\" 為主動分詞，語意錯誤（報表不能審查他人）。\"Having subjected\" 表主動完成，亦不符邏輯。\"To be subjected\" 為不定詞被動式，不能充當分詞構句起首。"
+      "post": "in strict accordance with international accounting standards, the financial statements were subsequently certified by an independent auditor.",
+      "opts": ["Preparing", "Prepared", "Having been preparing", "To prepare"],
+      "ans": 1,
+      "zh": "依照國際會計準則嚴格編製後，財務報表隨後由獨立審計師認證。",
+      "why": "主要子句主詞 financial statements 與 prepare 之間為<b>被動關係</b>（報表「被編製」），分詞構句須以<b>過去分詞</b> Prepared 開頭。Preparing 為主動現在分詞，邏輯主語不符。Having been preparing 強調持續性主動動作，語意冗贅且邏輯錯誤。To prepare 為不定詞，不能作分詞構句的起首成分。"
     },
     {
-      "id": "2026-06-21-p5-2",
+      "id": "2026-06-22-p5-2",
       "tag": "非限定關係子句",
-      "pre": "The board approved the revised procurement policy, ",
-      "post": " had been the subject of considerable debate among senior management for over three months.",
-      "opts": ["which", "that", "what", "it"],
-      "ans": 0,
-      "zh": "董事會批准了修訂後的採購政策，該政策在高階管理層之間已引發超過三個月的激烈辯論。",
-      "why": "逗號後接<b>非限定關係子句</b>，關係代名詞必須使用 <b>which</b>，不得用 \"that\"。\"that\" 僅限用於限定關係子句（無逗號隔開），用以辨別特定先行詞；\"which\" 置於逗號後則補充說明，提供非必要資訊。\"what\" 相當於 \"the thing that\"，不能接在已有先行詞後；\"it\" 為人稱代名詞，無法連接兩個子句。"
+      "pre": "The chairman submitted his resignation letter on Friday,",
+      "post": "came as a shock to most board members.",
+      "opts": ["that", "which", "what", "who"],
+      "ans": 1,
+      "zh": "董事長於週五提交辭呈，此事讓大多數董事會成員深感震驚。",
+      "why": "空格所在子句指稱前面<b>整個句子的內容</b>（提交辭呈此事），關係代名詞須用 <b>which</b>。非限定關係子句不可用 that（that 只引導限定子句）。what 引導名詞子句，不引導關係子句。who 只代替「人」，不代替事件。"
     },
     {
-      "id": "2026-06-21-p5-3",
+      "id": "2026-06-22-p5-3",
       "tag": "讓步介系詞",
-      "pre": "",
-      "post": " the significant budgetary constraints imposed by the parent company, the regional office managed to exceed its quarterly revenue targets by a considerable margin.",
-      "opts": ["Notwithstanding", "Despite of", "Although", "Nevertheless"],
+      "pre": "The contract shall remain in full force and effect,",
+      "post": "any breach of the ancillary provisions contained herein.",
+      "opts": ["notwithstanding", "nevertheless", "provided that", "whereas"],
       "ans": 0,
-      "zh": "儘管母公司施加了重大的預算限制，該地區辦事處仍設法以相當大的幅度超越了季度營收目標。",
-      "why": "<b>Notwithstanding</b> 是正式法律及商務英文的讓步介系詞，相當於 \"despite\"，直接接名詞片語。\"Despite of\" 為錯誤用法，despite 後不加 of（易與 \"in spite of\" 混淆）。\"Although\" 為連接詞，後須接完整子句，不能直接接名詞片語。\"Nevertheless\" 為副詞，無法直接接名詞，需另起獨立子句。"
+      "zh": "本合約應持續完全有效，縱使其中附屬條款遭到任何違反。",
+      "why": "<b>notwithstanding</b> 作介系詞，表「縱使、不拘於」，後直接接名詞片語，是法律文書中的慣用讓步表達。nevertheless 為副詞，不能後接名詞片語。provided that 引導條件子句，後需完整從句。whereas 引導對比子句，亦需完整從句，故三者均不適用。"
     },
     {
-      "id": "2026-06-21-p5-4",
-      "tag": "not so much...as 比較結構",
-      "pre": "The proposed restructuring plan is designed to address not so much the immediate liquidity concerns ",
-      "post": " the long-term strategic misalignment that has hindered the firm's global competitiveness.",
-      "opts": ["as", "but", "than", "rather than"],
+      "id": "2026-06-22-p5-4",
+      "tag": "否定副詞倒裝",
+      "pre": "No sooner",
+      "post": "the quarterly results than the stock price began its precipitous decline.",
+      "opts": ["had the company announced", "the company had announced", "did the company announce", "the company announced"],
       "ans": 0,
-      "zh": "擬議的重組計畫旨在解決的，與其說是眼前的流動性問題，不如說是長期阻礙公司全球競爭力的戰略錯位。",
-      "why": "<b>not so much A as B</b> 是固定比較句型，意為「與其說是 A，不如說是 B」，強調 B 比 A 更貼切或重要，配對詞固定為 <b>as</b>。\"but\" 用於 \"not A but B\"；\"than\" 搭配 \"rather than\" 或 \"no sooner...than\"；\"rather than\" 與 \"not so much\" 不構成固定搭配。三者均無法替代此句型中的 as。"
+      "zh": "公司一宣布季度業績，股價便開始急劇下跌。",
+      "why": "<b>No sooner... than</b> 為否定副詞片語，置於句首時須<b>主謂倒裝</b>。No sooner 後接<b>過去完成式倒裝</b>（had + 主詞 + p.p.），than 後接過去簡單式。選項 B 語序未倒裝。選項 C did...announce 為一般過去式倒裝，適用於 Hardly/Scarcely...when 結構。選項 D 無倒裝且時態不符。"
     }
   ],
   "p6": {
-    "id": "2026-06-21-p6",
-    "title": "Amendments to the Company Remote Work Policy",
+    "id": "2026-06-22-p6",
+    "title": "Revision of Remote Work Policy and Compliance Requirements",
     "seg": [
-      ["The Company's Remote Work Policy has ", {"b": 0}, " by the Executive Committee following a comprehensive review of workforce productivity data spanning the previous fiscal year. The revised policy takes effect commencing the first business day of Q3 2026."],
-      [{"b": 1}, ", employees who wish to maintain current remote work arrangements are required to submit a Flexible Work Agreement form to their respective line managers no later than July 15, 2026. Late submissions will not be considered during the initial approval cycle."],
-      ["The amended policy introduces a tiered eligibility framework under which approvals are ", {"b": 2}, " a standardized assessment of role classification, individual performance trajectory, and operational requirements at the departmental level."],
-      [{"b": 3}, " Any queries regarding the application procedure or the eligibility criteria should be directed to the Human Resources Business Partner assigned to your division."]
+      ["TO: All Staff\nFROM: Human Resources Department\nRE: Revision of Remote Work Policy and Compliance Requirements\n\nThis memorandum is issued to notify all personnel of the forthcoming revisions to the company's remote work policy, effective August 1, 2026. The revised framework ", {"b": 0}, " in close consultation with department heads over the past three months to address operational deficiencies identified during the annual performance review."],
+      ["Under the revised guidelines, employees seeking to maintain remote work arrangements must submit a formal application to their immediate supervisor no later than July 15, 2026. ", {"b": 1}, ", applications received after this date will be subject to a review period of no fewer than ten business days, potentially delaying approval until September."],
+      ["The revised policy also stipulates that all remote employees must complete a mandatory cybersecurity training module ", {"b": 2}, " commencing any off-site work. Failure to comply with this requirement will result in the immediate suspension of remote work privileges."],
+      ["The Human Resources Department will host an informational session on June 30, 2026, to address any questions or concerns regarding the new policy. ", {"b": 3}, " We encourage all employees to attend and to review the complete policy document, which has been uploaded to the company intranet."]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["been revised", "been revising", "revised", "revising"],
+        "opts": ["has been developed", "was being developed", "developed", "had developed"],
         "ans": 0,
-        "zh": "本公司遠距工作政策已由執行委員會依據涵蓋上一財政年度的全面勞動生產力數據審查結果加以修訂。",
-        "why": "主詞 \"The Company's Remote Work Policy\" 是動作的接受者（政策被修訂），須用<b>被動語態</b>；助動詞 has 後接 <b>been revised</b>（現在完成式被動），強調動作已完成且結果與現在相關。\"been revising\" 為現在完成進行式主動，語意為政策主動修訂他人，不通；\"revised\" 和 \"revising\" 缺少構成完成式必要的 been，文法不完整。"
+        "zh": "修訂後的框架在過去三個月內與部門主管密切磋商後制定，以解決年度績效審查中發現的業務缺陷。",
+        "why": "過去三個月的磋商工作延續至現在，須用<b>現在完成被動式 has been developed</b>，強調動作已完成且結果與現在相關。was being developed 為過去進行被動式，暗示工作尚未結束。developed 為主動簡單式，framework 無法自行 develop。had developed 為過去完成主動式，時態與語態均不符。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["Consequently", "Nevertheless", "Moreover", "In contrast"],
+        "opts": ["Otherwise", "Furthermore", "Consequently", "Nevertheless"],
         "ans": 0,
-        "zh": "因此，希望維持現有遠距工作安排的員工，須在 2026 年 7 月 15 日前向其直屬主管提交彈性工作協議表格。逾期送件將不納入首輪審核。",
-        "why": "前段說明政策已修訂；本段說明員工須採取對應行動，此為前因所導致的結果，需表示<b>因果關係</b>的連接副詞。<b>Consequently</b>（因此）最符語境。\"Nevertheless\"（儘管如此）表讓步轉折，無對比前提；\"Moreover\"（此外）表補充並列，非因果；\"In contrast\"（相較之下）表對比，前後段無對比語意，三者均不符。"
+        "zh": "否則，在此日期之後收到的申請將須經歷不少於十個工作日的審查期，可能導致批准延遲至九月。",
+        "why": "前句說明截止日期（7月15日），空格引出不遵從該規定的後果。<b>Otherwise</b> 表「否則」，邏輯銜接最為緊密。Furthermore 表「此外」，用於並列添加資訊，非條件後果。Consequently 表「因此」，需有明確因果前提，此處前句為條件句，非成因。Nevertheless 引出轉折，語意相反。"
       },
       {
         "tag": "詞彙語意",
         "col1": true,
-        "opts": ["contingent on", "consistent with", "conducive to", "conducive for"],
+        "opts": ["prior to", "pursuant to", "in lieu of", "with respect to"],
         "ans": 0,
-        "zh": "修訂後的政策建立了一套分級審核框架，在此框架下，審核結果取決於涵蓋職位分類、個人績效軌跡及部門作業需求等項目的標準化評估。",
-        "why": "空格後接 \"a standardized assessment\"，語意為「審核結果須以此評估為前提條件」，即<b>有條件依賴</b>關係，故選 <b>contingent on</b>（取決於）。\"consistent with\"（與⋯一致）表符合性；\"conducive to\"（有益於）表促進性；\"conducive for\" 為錯誤搭配（conducive 後只接 to），三者均無法表達「結果有條件取決於評估」此一語意。"
+        "zh": "修訂後的政策亦規定，所有遠距工作員工必須在開始任何離站工作之前完成強制性資安培訓模組。",
+        "why": "<b>prior to</b> 作介系詞，表「在……之前」，後接動名詞 commencing，是正式文件說明先決條件的標準用法。pursuant to 表「依據」，後接規定或文件名稱，不接動作。in lieu of 表「代替」，語意不符。with respect to 表「關於」，亦不符「之前」的時序語意。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "We trust that you will ensure compliance with these new requirements within your respective departments.",
-          "The Human Resources Division would like to acknowledge the cooperation of all employees throughout the policy review process.",
-          "A complete version of the amended policy document will be accessible on the company intranet from the end of this week.",
-          "All employees who are currently enrolled in a remote work arrangement should note that their agreements will be terminated with immediate effect."
+          "Attendance at this session will be recorded and factored into annual performance evaluations.",
+          "Details regarding the venue and registration procedure will be circulated via email by the end of this week.",
+          "The session will be conducted entirely in Mandarin to accommodate the majority of our workforce.",
+          "Employees who fail to attend will be required to schedule individual consultations with HR."
         ],
-        "ans": 0,
-        "zh": "我們相信各位將確保所屬部門遵守上述新規定。如有任何關於申請程序或資格認定標準的疑問，請聯繫指派至貴部門的人力資源業務夥伴。",
-        "why": "空格後為「如有疑問請聯繫業務夥伴」，屬備忘錄<b>結尾段</b>。空格需銜接前文規定說明並引出後文聯絡資訊。選項 A <b>We trust that you will ensure compliance...</b> 直接對部門主管表達合規期望，自然引出後續聯絡句，為最佳銜接。B 感謝合作，語境不符；C 提及文件上傳，引入新資訊打斷結語；D 宣告終止協議，語氣過激且與前文申請流程矛盾。"
+        "ans": 1,
+        "zh": "有關場地與報名程序的詳細資訊將於本週末前透過電子郵件發送。",
+        "why": "空格位於「宣布說明會」與「鼓勵出席」之間，需插入銜接兩者的句子。選項 B 提供<b>場地與報名細節</b>，讓員工知道如何出席，語篇流暢自然。選項 A 談績效評核，偏離主題且語氣強制。選項 C 聲稱以中文進行，與英文備忘錄語境矛盾。選項 D 在鼓勵出席前突出懲罰措施，破壞語篇一致性。"
       }
     ]
   }
