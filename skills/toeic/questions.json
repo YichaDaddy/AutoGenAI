@@ -1,103 +1,103 @@
 {
-  "date": "2026-06-22",
+  "date": "2026-06-23",
   "p5": [
     {
-      "id": "2026-06-22-p5-0",
+      "id": "2026-06-23-p5-0",
       "tag": "假設語氣倒裝",
-      "pre": "Had the board",
-      "post": "the merger proposal earlier, the company would have avoided substantial financial losses.",
-      "opts": ["approved", "would approve", "has approved", "approves"],
-      "ans": 0,
-      "zh": "如果董事會早些批准合併提案，公司本可避免重大財務損失。",
-      "why": "此句為<b>第三條件句倒裝</b>，省略 if，將助動詞 had 移至句首（Had the board...）。從句動詞須用<b>過去分詞</b> approved（= if the board had approved），主句用 would have + p.p.。選項 B would approve 屬第二條件句型態，選項 C has approved 為現在完成式，選項 D approves 為現在式，均與倒裝假設語氣結構不符。"
+      "pre": "Had the acquisition proposal",
+      "post": "more thoroughly reviewed, the resulting litigation could have been avoided entirely.",
+      "opts": ["be", "been", "being", "to be"],
+      "ans": 1,
+      "zh": "若收購提案當初經過更徹底的審查，隨之而來的訴訟本可完全避免。",
+      "why": "本題考<b>假設語氣倒裝</b>的被動結構。「Had + 主詞 + been + 過去分詞」是 if 子句省略 if 後的倒裝形式，等同於「If the acquisition proposal had been more thoroughly reviewed」。空格填入 <b>been</b>，與後方 reviewed 共同構成過去完成被動語態。be（原形）和 to be（不定詞）不符合倒裝句型；being 為現在分詞，無法與 Had 構成完成被動結構。"
     },
     {
-      "id": "2026-06-22-p5-1",
+      "id": "2026-06-23-p5-1",
       "tag": "分詞構句（被動）",
       "pre": "",
-      "post": "in strict accordance with international accounting standards, the financial statements were subsequently certified by an independent auditor.",
-      "opts": ["Preparing", "Prepared", "Having been preparing", "To prepare"],
-      "ans": 1,
-      "zh": "依照國際會計準則嚴格編製後，財務報表隨後由獨立審計師認證。",
-      "why": "主要子句主詞 financial statements 與 prepare 之間為<b>被動關係</b>（報表「被編製」），分詞構句須以<b>過去分詞</b> Prepared 開頭。Preparing 為主動現在分詞，邏輯主語不符。Having been preparing 強調持續性主動動作，語意冗贅且邏輯錯誤。To prepare 為不定詞，不能作分詞構句的起首成分。"
-    },
-    {
-      "id": "2026-06-22-p5-2",
-      "tag": "非限定關係子句",
-      "pre": "The chairman submitted his resignation letter on Friday,",
-      "post": "came as a shock to most board members.",
-      "opts": ["that", "which", "what", "who"],
-      "ans": 1,
-      "zh": "董事長於週五提交辭呈，此事讓大多數董事會成員深感震驚。",
-      "why": "空格所在子句指稱前面<b>整個句子的內容</b>（提交辭呈此事），關係代名詞須用 <b>which</b>。非限定關係子句不可用 that（that 只引導限定子句）。what 引導名詞子句，不引導關係子句。who 只代替「人」，不代替事件。"
-    },
-    {
-      "id": "2026-06-22-p5-3",
-      "tag": "讓步介系詞",
-      "pre": "The contract shall remain in full force and effect,",
-      "post": "any breach of the ancillary provisions contained herein.",
-      "opts": ["notwithstanding", "nevertheless", "provided that", "whereas"],
+      "post": "to a non-disclosure agreement, the former executive was prohibited from disclosing the terms of the settlement.",
+      "opts": ["Bound", "Binding", "To bind", "Having bound"],
       "ans": 0,
-      "zh": "本合約應持續完全有效，縱使其中附屬條款遭到任何違反。",
-      "why": "<b>notwithstanding</b> 作介系詞，表「縱使、不拘於」，後直接接名詞片語，是法律文書中的慣用讓步表達。nevertheless 為副詞，不能後接名詞片語。provided that 引導條件子句，後需完整從句。whereas 引導對比子句，亦需完整從句，故三者均不適用。"
+      "zh": "受到保密協議的約束，這位前主管被禁止透露和解條款。",
+      "why": "主句主詞「the former executive」與動詞 bind 是<b>被動關係</b>（該主管被協議約束），因此分詞構句應使用<b>過去分詞</b> Bound，等同於 Being bound 的省略。Binding 為主動現在分詞，暗示主詞主動束縛他人，語意矛盾；To bind 為不定詞，不作分詞構句；Having bound 表示主動完成，亦不符被動語意。分辨主詞與動詞的主被動關係是本題關鍵。"
     },
     {
-      "id": "2026-06-22-p5-4",
-      "tag": "否定副詞倒裝",
-      "pre": "No sooner",
-      "post": "the quarterly results than the stock price began its precipitous decline.",
-      "opts": ["had the company announced", "the company had announced", "did the company announce", "the company announced"],
+      "id": "2026-06-23-p5-2",
+      "tag": "非限定關係子句（介系詞前置）",
+      "pre": "The merger agreement, a copy of",
+      "post": "has been submitted to the regulatory authority, stipulates a 90-day transition period.",
+      "opts": ["which", "that", "what", "it"],
       "ans": 0,
-      "zh": "公司一宣布季度業績，股價便開始急劇下跌。",
-      "why": "<b>No sooner... than</b> 為否定副詞片語，置於句首時須<b>主謂倒裝</b>。No sooner 後接<b>過去完成式倒裝</b>（had + 主詞 + p.p.），than 後接過去簡單式。選項 B 語序未倒裝。選項 C did...announce 為一般過去式倒裝，適用於 Hardly/Scarcely...when 結構。選項 D 無倒裝且時態不符。"
+      "zh": "合併協議已將一份副本提交監管機關，協議本身規定了九十天的過渡期。",
+      "why": "本題考<b>介系詞 + 關係代名詞</b>的非限定子句結構。「a copy of which」中，which 代指 the merger agreement，整個片語等同於「of which a copy」的前置形式。<b>非限定關係子句</b>（逗號內嵌）只能用 which，不可用 that；what 是複合關係代名詞，不充當關係代名詞；it 無法引導子句。此句型常見於法律與正式商務書面英文。"
+    },
+    {
+      "id": "2026-06-23-p5-3",
+      "tag": "讓步介系詞（notwithstanding）",
+      "pre": "The indemnification clause shall remain in full force and effect",
+      "post": "any subsequent modification to the underlying contract.",
+      "opts": ["notwithstanding", "despite of", "although", "nevertheless"],
+      "ans": 0,
+      "zh": "無論對基礎合約做出任何後續修改，賠償條款均應繼續完全有效。",
+      "why": "<b>notwithstanding</b> 是正式法律英文中的讓步介系詞，意為「儘管、不論」，可直接接名詞片語，且可後置於主句之後（postpositive use）。despite of 是常見錯誤用法（despite 後不加 of）；although 為連接詞，後接完整子句而非名詞片語；nevertheless 是轉折副詞，不引導名詞片語。掌握 notwithstanding 的介系詞用法是高階法律商務英文的必備能力。"
+    },
+    {
+      "id": "2026-06-23-p5-4",
+      "tag": "名詞子句主詞一致性",
+      "pre": "Whether the proposed merger will satisfy antitrust requirements",
+      "post": "to be determined by the commission before the end of the fiscal quarter.",
+      "opts": ["remains", "remain", "are", "being"],
+      "ans": 0,
+      "zh": "擬議中的合併是否符合反壟斷要求，仍有待委員會在本財務季度結束前作出裁定。",
+      "why": "由 whether 引導的<b>名詞子句</b>整體作主詞，視為<b>單數</b>，謂語動詞須用三人稱單數形式 remains。remain 為複數動詞原形，錯誤；are 為複數 be 動詞，亦錯；being 是分詞，不能單獨作謂語。「remains to be determined」是正式書面語的慣用句型，意為「仍有待確定」，為高階商務英文的重要表達。"
     }
   ],
   "p6": {
-    "id": "2026-06-22-p6",
-    "title": "Revision of Remote Work Policy and Compliance Requirements",
+    "id": "2026-06-23-p6",
+    "title": "Memorandum Regarding the Implementation of Enhanced Data Governance Protocols",
     "seg": [
-      ["TO: All Staff\nFROM: Human Resources Department\nRE: Revision of Remote Work Policy and Compliance Requirements\n\nThis memorandum is issued to notify all personnel of the forthcoming revisions to the company's remote work policy, effective August 1, 2026. The revised framework ", {"b": 0}, " in close consultation with department heads over the past three months to address operational deficiencies identified during the annual performance review."],
-      ["Under the revised guidelines, employees seeking to maintain remote work arrangements must submit a formal application to their immediate supervisor no later than July 15, 2026. ", {"b": 1}, ", applications received after this date will be subject to a review period of no fewer than ten business days, potentially delaying approval until September."],
-      ["The revised policy also stipulates that all remote employees must complete a mandatory cybersecurity training module ", {"b": 2}, " commencing any off-site work. Failure to comply with this requirement will result in the immediate suspension of remote work privileges."],
-      ["The Human Resources Department will host an informational session on June 30, 2026, to address any questions or concerns regarding the new policy. ", {"b": 3}, " We encourage all employees to attend and to review the complete policy document, which has been uploaded to the company intranet."]
+      ["Following an extensive internal audit, significant deficiencies in our current data management infrastructure ", {"b": 0}, " by the External Review Committee. Effective July 1, 2026, all divisions are required to adopt the revised Data Governance Framework (DGF), the details of which are outlined in the accompanying policy document."],
+      [{"b": 1}, " the implementation timeline may appear compressed, the Leadership Team is confident that adequate resources have been allocated to facilitate a seamless transition. Department heads are urged to designate a Data Compliance Liaison within their respective teams no later than June 30."],
+      ["Training sessions will be ", {"b": 2}, " across all regional offices throughout the month of July. Attendance is mandatory for all personnel with access to client records or proprietary data. ", {"b": 3}],
+      ["Queries pertaining to the new framework should be directed to the Compliance Helpdesk at compliance@company.com. Your cooperation in this matter is greatly appreciated."]
     ],
     "blanks": [
       {
-        "tag": "時態語態",
+        "tag": "時態語態（被動完成式）",
         "col1": true,
-        "opts": ["has been developed", "was being developed", "developed", "had developed"],
+        "opts": ["have been identified", "were identifying", "had identified", "are to identify"],
         "ans": 0,
-        "zh": "修訂後的框架在過去三個月內與部門主管密切磋商後制定，以解決年度績效審查中發現的業務缺陷。",
-        "why": "過去三個月的磋商工作延續至現在，須用<b>現在完成被動式 has been developed</b>，強調動作已完成且結果與現在相關。was being developed 為過去進行被動式，暗示工作尚未結束。developed 為主動簡單式，framework 無法自行 develop。had developed 為過去完成主動式，時態與語態均不符。"
+        "zh": "在完成一次廣泛的內部稽核後，外部審查委員會已發現我們目前資料管理基礎架構中存在重大缺失。",
+        "why": "空格後接「by the External Review Committee」，明確需要<b>被動語態</b>。稽核結果與當前情況直接相關，應使用<b>現在完成被動式</b>「have been identified」。「were identifying」為過去進行主動，語態錯誤；「had identified」是主動過去完成式，主詞不符；「are to identify」表示義務，語意不合。"
       },
       {
-        "tag": "語篇連接詞",
+        "tag": "語篇連接詞（讓步）",
         "col1": true,
-        "opts": ["Otherwise", "Furthermore", "Consequently", "Nevertheless"],
+        "opts": ["While", "Therefore", "Furthermore", "Consequently"],
         "ans": 0,
-        "zh": "否則，在此日期之後收到的申請將須經歷不少於十個工作日的審查期，可能導致批准延遲至九月。",
-        "why": "前句說明截止日期（7月15日），空格引出不遵從該規定的後果。<b>Otherwise</b> 表「否則」，邏輯銜接最為緊密。Furthermore 表「此外」，用於並列添加資訊，非條件後果。Consequently 表「因此」，需有明確因果前提，此處前句為條件句，非成因。Nevertheless 引出轉折，語意相反。"
+        "zh": "儘管實施時程看似緊湊，領導團隊確信已分配足夠資源以促進順利過渡。",
+        "why": "前半句提出「時程看似緊湊」的讓步，後半句卻肯定「已分配足夠資源」，形成<b>讓步轉折</b>關係，須用讓步連接詞 <b>While</b>（相當於 Although）。Therefore 和 Consequently 表示因果，與語意相反；Furthermore 表示遞進，不表讓步，均不符語篇邏輯。"
       },
       {
-        "tag": "詞彙語意",
+        "tag": "詞彙語意（動詞搭配）",
         "col1": true,
-        "opts": ["prior to", "pursuant to", "in lieu of", "with respect to"],
+        "opts": ["conducted", "constituted", "conveyed", "contracted"],
         "ans": 0,
-        "zh": "修訂後的政策亦規定，所有遠距工作員工必須在開始任何離站工作之前完成強制性資安培訓模組。",
-        "why": "<b>prior to</b> 作介系詞，表「在……之前」，後接動名詞 commencing，是正式文件說明先決條件的標準用法。pursuant to 表「依據」，後接規定或文件名稱，不接動作。in lieu of 表「代替」，語意不符。with respect to 表「關於」，亦不符「之前」的時序語意。"
+        "zh": "培訓課程將於七月份在所有地區辦公室舉行。",
+        "why": "「<b>conduct</b> training sessions」是正式英文中描述「舉辦／進行培訓」的標準搭配（conduct = carry out formally）。constituted 意為「構成」；conveyed 意為「傳達訊息」；contracted 意為「締結契約或縮減」，三者與 training sessions 的<b>動詞搭配（collocation）</b>均不符。"
       },
       {
-        "tag": "句子插入",
+        "tag": "句子插入（語篇連貫）",
         "col1": true,
         "opts": [
-          "Attendance at this session will be recorded and factored into annual performance evaluations.",
-          "Details regarding the venue and registration procedure will be circulated via email by the end of this week.",
-          "The session will be conducted entirely in Mandarin to accommodate the majority of our workforce.",
-          "Employees who fail to attend will be required to schedule individual consultations with HR."
+          "Employees who fail to complete the required training by July 31 will be subject to a temporary suspension of data access privileges.",
+          "The inaugural data audit was first commissioned in fiscal year 2019 as part of a broader modernization initiative.",
+          "The company has partnered with three external vendors to supply updated data management software.",
+          "All office supplies requisitions should continue to be submitted through the standard procurement portal."
         ],
-        "ans": 1,
-        "zh": "有關場地與報名程序的詳細資訊將於本週末前透過電子郵件發送。",
-        "why": "空格位於「宣布說明會」與「鼓勵出席」之間，需插入銜接兩者的句子。選項 B 提供<b>場地與報名細節</b>，讓員工知道如何出席，語篇流暢自然。選項 A 談績效評核，偏離主題且語氣強制。選項 C 聲稱以中文進行，與英文備忘錄語境矛盾。選項 D 在鼓勵出席前突出懲罰措施，破壞語篇一致性。"
+        "ans": 0,
+        "zh": "未能在七月三十一日前完成規定培訓的員工，將被暫停資料存取權限。",
+        "why": "前文指出培訓對特定人員屬<b>強制出席</b>，緊接著最合乎邏輯的是說明未遵守的<b>後果</b>，以強化政策執行力道。選項 A 補充強制政策的執行機制，<b>語篇連貫性</b>最強。選項 B 提及歷史背景，與段落脈絡脫節；選項 C 關於軟體供應商，主題轉換突兀；選項 D 關於辦公用品採購，完全偏離主題。"
       }
     ]
   }
