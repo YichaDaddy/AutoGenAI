@@ -1,8 +1,8 @@
 {
-  "date": "2026-06-21",
+  "date": "2026-06-22",
   "big_events": [
     {
-      "title": "SpaceX 以 600 億美元全股票收購 AI 編程神器 Cursor，Grok Build 即將登場",
+      "title": "SpaceX 與開源 AI 新創 Reflection AI 簽署最高 63 億美元算力合約，開源大模型獲重量級基礎設施背書",
       "sources": [
         {"name": "BuildFastWithAI", "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-21-2026"},
         {"name": "Basenor", "url": "https://www.basenor.com/blogs/news/grok-4-3-lands-on-amazon-bedrock-with-1m-token-context"}
