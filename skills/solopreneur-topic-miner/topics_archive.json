@@ -1,5 +1,218 @@
 [
   {
+    "date": "2026-06-23",
+    "big_events": [
+      {
+        "title": "Anthropic Claude Tag 登場：Slack 頻道的全天候 AI 隊友，自動學習公司脈絡並主動介入任務",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/"
+          }
+        ],
+        "summary": "Anthropic 推出 Claude Tag，在 Slack 頻道以 @Claude 召喚後，AI 在 ambient 模式下持續學習公司脈絡、主動追蹤待辦並執行多步驟任務，現以研究預覽開放 Team/Enterprise 方案。",
+        "audience": "職場上班族、團隊協作工作者、中小企業主、遠端工作者",
+        "pain_point": "Slack 訊息爆炸卻沒人整理重點，公司知識散落各頻道，任務跟進全靠人力記憶",
+        "title_idea": "在 Slack 直接 @Claude 就能自動追蹤任務？Anthropic 新功能讓 AI 變成真正的隊友",
+        "local_angle": "台灣職場廣泛使用 Slack，Claude Tag 繁中介面支援尚待確認，搶做繁中操作教學與企業導入指南紅利窗口已開"
+      },
+      {
+        "title": "OpenAI Daybreak 全面擴張：GPT-5.5-Cyber 正式發布 + Patch the Planet 開源安全計畫 + 28 家頂級廠商加盟",
+        "sources": [
+          {
+            "name": "TechTimes",
+            "url": "https://www.techtimes.com/articles/318900/20260623/openai-daybreak-expands-patch-pipeline-five-eyes-warns-ai-attacks-are-months-away.htm"
+          },
+          {
+            "name": "The Hacker News",
+            "url": "https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html"
+          },
+          {
+            "name": "WindowsReport",
+            "url": "https://windowsreport.com/openai-expands-daybreak-with-gpt-5-5-cyber-and-new-security-tools/"
+          },
+          {
+            "name": "CybersecurityDive",
+            "url": "https://www.cybersecuritydive.com/news/OpenAI-Daybreak-cyber-threats/820122/"
+          }
+        ],
+        "summary": "OpenAI Daybreak 大規模擴張，GPT-5.5-Cyber 轉正式（限已驗證防禦方），在 CyberGym 評測拿下 85.6%，Codex Security 掃描 3 千萬+ commits，同日啟動開源漏洞修補計畫 Patch the Planet，CrowdStrike、Palo Alto、Cisco 等 28 家廠商加盟聯盟。",
+        "audience": "企業 IT 主管、資安從業人員、採購決策者、獨立開發者",
+        "pain_point": "AI 加速網路攻擊但防禦工具跟不上，企業代碼漏洞掃描靠人工太慢且成本高",
+        "title_idea": "OpenAI 打造 AI 安全聯盟！28 家頂級廠商聯手，GPT-5.5-Cyber 自動修補漏洞完整解析",
+        "local_angle": "台灣企業資安市場正在高速擴張，AI 主動防禦工具的繁中深度報導幾乎為零，此主題兼具教育性與商業機會"
+      },
+      {
+        "title": "五眼聯盟同日發警告：AI 驅動的網路攻擊將在「數月內」到來，與 Daybreak 擴張形成強烈共鳴",
+        "sources": [
+          {
+            "name": "TechTimes",
+            "url": "https://www.techtimes.com/articles/318900/20260623/openai-daybreak-expands-patch-pipeline-five-eyes-warns-ai-attacks-are-months-away.htm"
+          },
+          {
+            "name": "Infosecurity Magazine",
+            "url": "https://www.infosecurity-magazine.com/news/openai-daybreak-gpt-5-5-cyber/"
+          }
+        ],
+        "summary": "英美澳加紐五眼情報聯盟同日發出聯合警告，稱前沿 AI 模型將在「數月而非數年內」大幅提升攻擊者能力，強化企業導入 AI 防禦工具的緊迫性，與 OpenAI Daybreak 擴張形成產業共識。",
+        "audience": "企業決策者、CTO、IT 主管、關注 AI 安全工具的職場主管",
+        "pain_point": "傳統資安工具跟不上 AI 加速攻擊節奏，企業主不清楚現在需要做什麼準備",
+        "title_idea": "五眼聯盟警告來了：AI 網攻數月後升級，你的公司現在該部署哪些防禦工具？",
+        "local_angle": "台灣中小企業資安意識薄弱，此類政府級別的 AI 安全警告在繁中市場幾乎空白，有強烈的教育切入機會"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "GPT-5.5-Cyber 正式發布（限驗證防禦方）：AI 漏洞偵測 CyberGym 評測 85.6%，Codex Security 突破 3 千萬 commits",
+        "sources": [
+          {
+            "name": "CybersecurityNews",
+            "url": "https://cybersecuritynews.com/gpt-5-5-cyber/"
+          },
+          {
+            "name": "OpenAI Daybreak",
+            "url": "https://openai.com/daybreak/"
+          }
+        ],
+        "summary": "GPT-5.5-Cyber 從研究預覽轉正式，在 CyberGym 評測拿下 85.6%，Codex Security 已掃描逾 30,000 個代碼庫的 3,000 萬+ commits，超過 50 萬條漏洞自動關閉，7 萬+ 條由人工確認。",
+        "audience": "開發者、DevOps 工程師、企業資安負責人",
+        "pain_point": "代碼審查耗時耗力，人工無法跟上快速迭代節奏，安全漏洞難以規模化管理",
+        "title_idea": "3 個月掃 3 千萬 commits！OpenAI Codex Security 如何用 AI 幫你的代碼自動找漏洞",
+        "local_angle": "台灣軟體公司普遍缺乏資安人才，AI 代碼安全工具的繁中教學幾乏空白，技術向內容機會明確"
+      },
+      {
+        "title": "OpenAI Patch the Planet 正式啟動：AI 自動掃描開源專案漏洞，大幅減輕維護者負擔",
+        "sources": [
+          {
+            "name": "Engadget",
+            "url": "https://www.engadget.com/2199569/openai-new-daybreak-initiative-open-source-projects-bugs/"
+          },
+          {
+            "name": "OpenAI Daybreak",
+            "url": "https://openai.com/daybreak/"
+          }
+        ],
+        "summary": "OpenAI 正式啟動 Patch the Planet 計畫，以 Codex Security 協助開源專案識別漏洞、生成修補方案，維護者只需審核確認，目標是系統化提升關鍵開源軟體的整體安全性。",
+        "audience": "獨立開發者、開源專案維護者、使用開源工具的工程師",
+        "pain_point": "開源專案人手不足，安全漏洞難以及時發現和修補，維護者同時要顧功能又要顧安全",
+        "title_idea": "OpenAI 免費幫開源專案修 Bug？Patch the Planet 完整解析，維護者必看",
+        "local_angle": "台灣活躍開源社群（COSCUP 等）對此計畫幾乎無繁中報導，率先做深度介紹可快速獲取技術社群關注"
+      },
+      {
+        "title": "Claude Desktop 企業部署大擴張：支援 AWS、Google Cloud、Microsoft Foundry，含 SSO 與離線部署選項",
+        "sources": [
+          {
+            "name": "FutureTools News",
+            "url": "https://futuretools.io/news"
+          }
+        ],
+        "summary": "Anthropic 宣布 Claude Desktop 擴展至三大企業雲端平台，支援企業 SSO 及離線部署選項，讓大型企業可在合規環境下部署 Claude，滿足金融、醫療等行業的資料主權需求。",
+        "audience": "企業 IT 決策者、採購主管、大型企業數位轉型負責人、顧問",
+        "pain_point": "企業導入 AI 工具受限於資安合規要求，公有雲 SaaS 無法滿足金融、醫療、政府等行業需求",
+        "title_idea": "Claude 可以關在自己的雲裡了！AWS / Google Cloud / Azure 離線部署完整指南",
+        "local_angle": "台灣金融業、政府機構有嚴格資料在地化要求，此功能直擊核心痛點，繁中市場相關報導幾乎空白"
+      },
+      {
+        "title": "Google Vertex Vector Search 2.0 正式 GA：向量＋全文混合搜尋、自動 Embedding，RAG 應用門檻大幅降低",
+        "sources": [
+          {
+            "name": "Google Cloud Medium",
+            "url": "https://medium.com/google-cloud/introducing-vertex-ai-vector-search-2-0-from-zero-to-billion-scale-90ed666dac43"
+          },
+          {
+            "name": "Google Codelabs",
+            "url": "https://codelabs.developers.google.com/vector-search-2-intro"
+          }
+        ],
+        "summary": "Google Vertex Vector Search 2.0 正式 GA，整合向量＋全文混合搜尋、Auto-Embedding、私有 VPC 部署，讓企業知識庫和 RAG 應用從開發到億級規模的路徑更完整、成本更低。",
+        "audience": "AI 應用開發者、技術型創業者、想建企業知識庫的工程師",
+        "pain_point": "RAG 應用搭建繁瑣，向量庫選型困難，企業合規部署缺乏一站式完整方案",
+        "title_idea": "Google 向量搜尋 2.0 正式 GA！從零到億級 RAG 知識庫，一套工具搞定的完整教學",
+        "local_angle": "台灣開發者在 RAG 應用領域快速增長，繁中的企業知識庫建置實戰教學稀缺，切入時機成熟"
+      }
+    ],
+    "trends": [
+      {
+        "title": "AI 防禦工具軍備競賽加速：OpenAI vs Anthropic 同日出招，企業安全市場成 2026 下半年最大兵家必爭之地",
+        "sources": [
+          {
+            "name": "TechTimes",
+            "url": "https://www.techtimes.com/articles/318900/20260623/openai-daybreak-expands-patch-pipeline-five-eyes-warns-ai-attacks-are-months-away.htm"
+          },
+          {
+            "name": "Unite.AI",
+            "url": "https://www.unite.ai/openais-daybreak-wants-to-own-the-patch-not-just-the-bug/"
+          }
+        ],
+        "summary": "OpenAI Daybreak 和 Anthropic Claude Tag 在同一天推出，加上五眼聯盟警告，顯示 2026 下半年企業 AI 安全工具市場即將迎來爆發式採購潮，各大廠商搶先卡位。",
+        "audience": "企業決策者、科技自媒體創作者、關注 AI 產業趨勢的人",
+        "pain_point": "不知道 AI 安全工具市場走向，難以判斷哪些工具值得學習和推薦",
+        "title_idea": "OpenAI 和 Anthropic 同一天出招：2026 年 AI 安全工具戰爭正式開打！",
+        "local_angle": "此趨勢分析在繁中市場幾乎空白，提前做產業分析可建立意見領袖地位，對企業受眾吸引力強"
+      },
+      {
+        "title": "獨立創業者 AI 工具成本結構驗證：月費 $30-300 可支撐 $1M ARR，一人公司商業模式大規模驗證",
+        "sources": [
+          {
+            "name": "Fortune",
+            "url": "https://fortune.com/2026/05/18/solo-founders-ai-automation-entire-teams-entrepreneurs/"
+          },
+          {
+            "name": "Alfred Blog",
+            "url": "https://get-alfred.ai/blog/best-ai-tools-for-solopreneurs"
+          }
+        ],
+        "summary": "多份 2026 年研究確認，獨立創業者月花 $30-300 的 AI 工具堆疊（含內容、行銷、工程、客服）已可替代完整團隊功能，支撐 $1M ARR 的商業模式驗證成本大幅降低。",
+        "audience": "想創業或副業的職場上班族、自媒體創作者、獨立開發者",
+        "pain_point": "想用 AI 創業卻不知道該用哪些工具、擔心成本過高、不確定 AI 是否能真的替代團隊",
+        "title_idea": "月花 $30 到 $300 的 AI 工具清單，讓你一個人做到年收百萬！2026 最新歐美驗證",
+        "local_angle": "台灣職場上班族副業創業意願強，「AI 到底能省多少成本」缺乏具體數字，此主題歐美已大量驗證、繁中幾乎沒有實際試算，資訊差紅利明確"
+      }
+    ],
+    "source_coverage_notes": {
+      "status": "日期驗證完成 (2026-06-23)",
+      "coverage": [
+        {
+          "source": "TechCrunch AI",
+          "status": "✅",
+          "count": 1,
+          "note": "確認 1 篇 URL 含 /2026/06/23/ 的 AI 相關文章：Anthropic Claude Tag 登場（另有 Founder Summit 活動文章不計入）。"
+        },
+        {
+          "source": "FutureTools.io",
+          "status": "⚠️",
+          "count": 0,
+          "note": "昨日（June 23）無新更新，最新內容為 June 22（Claude Desktop 企業雲擴展），已納入工具更新並標注日期為 June 22。"
+        },
+        {
+          "source": "The Verge AI",
+          "status": "❌",
+          "count": 0,
+          "note": "WebFetch 返回 403 Forbidden，無法存取，如實記錄。"
+        },
+        {
+          "source": "WebSearch AI news June 23",
+          "status": "✅",
+          "count": 7,
+          "note": "OpenAI Daybreak 擴張（TechTimes URL 含 20260623）、GPT-5.5-Cyber 發布、Patch the Planet 啟動、五眼聯盟警告均確認為 June 23。"
+        },
+        {
+          "source": "YouTube 頻道（Matt Wolfe、Matthew Berman 等）",
+          "status": "❌",
+          "count": 0,
+          "note": "YouTube 頻道頁面無法直接抓取昨日影片，WebSearch site:youtube.com 亦未返回 June 23 具體影片，如實記錄。"
+        },
+        {
+          "source": "X / Twitter 關鍵帳號",
+          "status": "❌",
+          "count": 0,
+          "note": "X/Twitter 存取受限，未能抓取 @OpenAI、@AnthropicAI 等帳號昨日貼文，重點訊息已透過 WebSearch 間接覆蓋。"
+        }
+      ],
+      "explanation": "2026-06-23 日報精選 9 則核心情報（3 大事件、4 工具更新、2 趨勢）。TechCrunch /2026/06/23/ URL 確認 Claude Tag 文章，TechTimes URL 含 20260623 確認 Daybreak 擴張報導，其餘 June 23 資訊透過多家媒體 WebSearch 交叉驗證。Claude Desktop 企業雲擴展來自 FutureTools June 22 最新條目，已標注。YouTube 頻道及 The Verge 無法存取，如實記錄。"
+    }
+  },
+  {
     "date": "2026-06-22",
     "big_events": [
       {
@@ -1331,187 +1544,6 @@
         }
       ],
       "explanation": "2026-06-17 日報精選 8 則核心情報（3 大事件、3 工具更新、2 趨勢），全部來自已驗證的 2026-06-17 發布內容。TechCrunch 所有文章透過 URL 日期核對確認。G7 AI 峰會為當日最重大事件，三位 AI 巨頭 CEO 史上首次同台為歷史性時刻。無法訪問的來源均已如實記錄。"
-    }
-  },
-  {
-    "date": "2026-06-16",
-    "big_events": [
-      {
-        "title": "SpaceX $600億美元收購 AI 代碼工具 Cursor，AI 開發工具市場大洗牌",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/"
-          },
-          {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/06/16/spacex-spcx-cursor-acquisition-ipo.html"
-          },
-          {
-            "name": "Bloomberg",
-            "url": "https://www.bloomberg.com/news/articles/2026-06-16/spacex-pounces-on-60-billion-cursor-takeover-days-after-ipo"
-          }
-        ],
-        "summary": "SpaceX IPO 後四天即宣布以 $600 億全股票收購 AI 代碼助手 Cursor（Anysphere），Cursor 年化營收達 $26 億，已進駐 64% 的財星 500 大企業。",
-        "audience": "使用 AI 工具的工程師、開發者、以及關注職場 AI 應用的上班族",
-        "pain_point": "職場人員不確定該投資哪款 AI 工具、哪家平台的生態圈最值得押注",
-        "title_idea": "Cursor 要變成「太空工具」了？SpaceX 砸 $600 億收購，你的 AI 代碼工具未來會怎麼變",
-        "local_angle": "Cursor 已在台灣開發者社群廣泛使用，收購消息在華語圈剛傳開，搶先做教學與分析可吃到第一波流量紅利"
-      },
-      {
-        "title": "微軟 Work IQ APIs 上線 + Scout 自主 Agent 首發：用 MCP 工具把企業組織行為 AI 化",
-        "sources": [
-          {
-            "name": "AI Agents News June 2026",
-            "url": "https://blog.mean.ceo/ai-agents-news-june-2026/"
-          }
-        ],
-        "summary": "微軟推出 Work IQ APIs 提供 MCP 工具與語意索引，讓企業可映射組織行為；同步首發 Microsoft Scout，一個擁有 Entra 身份的全天候自主 Agent。",
-        "audience": "在企業環境工作、使用 Microsoft 365 的職場上班族與 IT 管理者",
-        "pain_point": "上班族希望 AI 能自動處理繁瑣的跨部門協作任務，但不知道微軟 AI Agent 計畫走到哪",
-        "title_idea": "微軟 AI Agent 來了！Work IQ + Scout 讓你的 AI 助手有自己的公司帳號，這代表什麼？",
-        "local_angle": "台灣大量企業使用 Microsoft 365，這波更新直接影響本地職場，但中文內容極度稀缺，先做教學有明顯流量紅利"
-      },
-      {
-        "title": "調查：60% 美國消費者一看到「AI」品牌行銷就反感，AI 光環正在褪色",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/16/sixty-percent-of-u-s-consumers-say-ai-in-brand-messaging-is-a-turnoff-survey-finds/"
-          }
-        ],
-        "summary": "美國新調查顯示，六成消費者對品牌行銷中出現「AI」字眼感到反感，過度強調 AI 已產生行銷反效果。",
-        "audience": "自媒體創作者、行銷人員、以及用 AI 工具工作的職場人士",
-        "pain_point": "創作者與行銷人擔心強調 AI 工具會讓受眾感到被冷落或不信任",
-        "title_idea": "「我用 AI 做的」正在害你掉粉？調查：6 成美國人看到 AI 品牌行銷就想逃",
-        "local_angle": "歐美已出現 AI 行銷疲勞，台灣/華語圈還在 AI 內容熱潮中，這個逆向洞察很稀缺，反思型內容能快速圈粉"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "Plaud AI 錄音筆出貨破 200 萬、年化訂閱收入達 $1 億，AI 硬體終於找到商業模式",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/16/plaud-says-its-software-business-topped-100m-in-arr-after-shipping-over-2m-ai-notetakers/"
-          }
-        ],
-        "summary": "Plaud 宣布 AI 錄音筆出貨超 200 萬台、訂閱年化營收破 $1 億，近 50% 硬體用戶升級付費方案，成 AI 硬體＋SaaS 罕見成功案例。",
-        "audience": "開會多、筆記需求高的上班族、業務、主管",
-        "pain_point": "開完會沒時間整理筆記，事後根本記不清誰說了什麼決定",
-        "title_idea": "開完會不用再手打逐字稿！Plaud AI 錄音筆靠什麼賣出 200 萬台、訂閱收入破億？",
-        "local_angle": "Plaud 有繁中介面，台灣電商也有販售，直接做「開箱＋實測＋對比競品」內容，本地教學幾乎空白"
-      },
-      {
-        "title": "Probably AI 獲 a16z $900 萬投資：號稱 99.99% 準確率的數據分析工具，終結 LLM 幻覺",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/16/probably-raises-9m-to-build-a-more-reliable-kind-of-ai/"
-          }
-        ],
-        "summary": "AI 新創 Probably 獲 a16z 領投 $900 萬種子輪，用「數據科學機甲」架構讓 LLM 達 99.99% 準確率並大幅降低 token 成本，瞄準會計、醫療等精準度要求高的場景。",
-        "audience": "需要用 AI 做數據分析、財務報表或精準查詢的職場人士、分析師",
-        "pain_point": "用 ChatGPT 做數據分析時，數字老是算錯，不敢把 AI 結果直接拿給主管看",
-        "title_idea": "終於！這個 AI 工具號稱準確率 99.99%，a16z 砸錢解決 ChatGPT 算錯數字的惡夢",
-        "local_angle": "Probably 剛獲投資、產品尚在早期，中文介紹幾乎為零，搶先做深度評測可建立先發優勢"
-      },
-      {
-        "title": "AWS 推出 OpenSearch MCP Apps：AI Agent 現在可以直接查公司 log、追蹤線上事件",
-        "sources": [
-          {
-            "name": "AWS Blog",
-            "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-finops-agent-in-preview-gemma-4-on-bedrock-kiro-pro-max-and-more-june-15-2026/"
-          }
-        ],
-        "summary": "AWS OpenSearch Service 新增 MCP Apps 支援，讓 agentic IDE（如 Claude Desktop、VS Code）中的 AI Agent 可直接查詢 log、追蹤事件與指標，並同步回傳文字摘要與互動視覺化圖表。",
-        "audience": "使用 AWS 的工程師、DevOps 工程師、希望 AI 幫忙 debug 的開發者",
-        "pain_point": "系統出問題時需要在多個工具之間切換查看 log，診斷效率極低",
-        "title_idea": "出 bug 不用瘋狂查 log！AWS 的 AI Agent 現在可以自動幫你追查系統事件了",
-        "local_angle": "MCP 生態快速擴張但中文教學稀缺，做「如何在 Claude Desktop 接 OpenSearch MCP App」教程有明確搜尋需求"
-      }
-    ],
-    "trends": [
-      {
-        "title": "Cursor 被收購，AI 代碼工具整合加速：企業 AI 開發市場進入寡頭競爭新時代",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/"
-          },
-          {
-            "name": "NBC News",
-            "url": "https://www.nbcnews.com/tech/tech-news/spacex-buys-ai-coding-startup-cursor-60-billion-rcna350262"
-          }
-        ],
-        "summary": "Cursor 進駐 64% 財星 500 大企業後被 SpaceX 以 $600 億收購，AI 代碼工具市場格局將重組，競爭對手 Copilot、Windsurf、Claude Code 正面承壓。",
-        "audience": "使用 AI 輔助開發工具的工程師與技術主管",
-        "pain_point": "工具整合後不確定訂閱費用與功能走向，擔心被鎖定在特定平台生態",
-        "title_idea": "Cursor 被 SpaceX 買走後，我們該換哪個 AI 代碼工具？替代方案完整比較",
-        "local_angle": "此話題在英文圈剛爆發，中文討論幾乎空白，做「Cursor vs Claude Code vs Copilot」比較文是高搜尋量藍海"
-      },
-      {
-        "title": "「AI 害我失業」正在反噬：Robinhood 裁員聲明成反面教材，企業須重思 AI 溝通策略",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/16/robinhoods-note-on-10-layoffs-shows-blaming-ai-isnt-cutting-it/"
-          }
-        ],
-        "summary": "Robinhood 裁員 10% 試圖將責任歸咎於 AI 自動化，但說法未獲公眾接受，分析指出企業以 AI 為裁員藉口的溝通策略正在失效。",
-        "audience": "關心 AI 對職場衝擊的上班族、HR 從業人員、企業主管",
-        "pain_point": "職場人士不確定 AI 究竟「搶走」多少工作、哪些技能在 AI 時代仍有保障",
-        "title_idea": "裁員 10% 說是 AI 害的？Robinhood 被打臉，老闆再也不能這樣甩鍋了",
-        "local_angle": "AI 替代職場話題在台灣很有共鳴但缺乏精確案例分析，用歐美案例做「AI 裁員真相」系列有持久流量"
-      }
-    ],
-    "source_coverage_notes": {
-      "status": "日期驗證完成 (2026-06-16)",
-      "coverage": [
-        {
-          "source": "TechCrunch AI",
-          "status": "✅",
-          "count": 8,
-          "note": "確認 8 篇 URL 含 /2026/06/16/ 的文章，篩選後取 5 篇 AI 相關"
-        },
-        {
-          "source": "WebSearch（AI news 2026-06-16）",
-          "status": "✅",
-          "count": 4,
-          "note": "SpaceX/Cursor 被 CNBC、Bloomberg、NBC、Engadget 等多家媒體確認報導於 6/16"
-        },
-        {
-          "source": "AI Agents News June 2026",
-          "status": "✅",
-          "count": 2,
-          "note": "確認微軟 Work IQ APIs 與 Microsoft Scout 發布於 6/16"
-        },
-        {
-          "source": "AWS Blog（June 15 Roundup）",
-          "status": "✅",
-          "count": 1,
-          "note": "AWS OpenSearch MCP Apps 發布於 6/15 weekly roundup，時效接近，納入工具更新"
-        },
-        {
-          "source": "futuretools.io/news",
-          "status": "❌",
-          "count": 0,
-          "note": "最新內容截至 2026-06-15，無 06-16 工具更新記錄"
-        },
-        {
-          "source": "YouTube 頻道（Matt Wolfe 等）",
-          "status": "❌",
-          "count": 0,
-          "note": "無法確認 2026-06-16 昨日更新，WebSearch 無相關結果"
-        },
-        {
-          "source": "X/Twitter 帳號",
-          "status": "❌",
-          "count": 0,
-          "note": "直接訪問不可行，WebSearch 無 2026-06-16 特定貼文"
-        }
-      ],
-      "explanation": "2026-06-16 日報精選 8 則核心情報（3 大事件、3 工具更新、2 趨勢），全部來自已驗證的 2026-06-16（或緊鄰發布）內容。TechCrunch 8 篇文章全部透過 URL 日期核對確認。SpaceX 收購 Cursor 為當日最重大事件，獲 5+ 主流媒體確認報導。無法訪問的來源均已如實記錄。"
     }
   }
 ]

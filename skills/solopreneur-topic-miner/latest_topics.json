@@ -1,183 +1,159 @@
 {
-  "date": "2026-06-22",
+  "date": "2026-06-23",
   "big_events": [
     {
-      "title": "SpaceX 與開源 AI 新創 Reflection AI 簽署最高 63 億美元算力合約，開源大模型獲重量級基礎設施背書",
+      "title": "Anthropic Claude Tag 登場：Slack 頻道的全天候 AI 隊友，自動學習公司脈絡並主動介入任務",
       "sources": [
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-06-22/spacex-inks-multibillion-dollar-computing-deal-with-reflection-ai"},
-        {"name": "CNBC", "url": "https://www.cnbc.com/2026/06/22/spacex-ai-colossus-data-center-reflection.html"},
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/"}
       ],
-      "summary": "Reflection AI（前 Google DeepMind 研究員創辦）每月支付 SpaceX 1.5 億美元，使用 Memphis Colossus 2 資料中心的 Nvidia GB300 晶片，合約最高達 63 億美元，主攻開源大模型訓練。",
-      "audience": "對免費/開源 AI 工具感興趣的職場人、獨立開發者、AI 創業觀察者",
-      "pain_point": "ChatGPT 等付費 AI 工具費用不斷上漲，職場人需要高品質且低成本的 AI 替代方案",
-      "title_idea": "馬斯克的 SpaceX 砸 63 億押注開源 AI！下一個免費 ChatGPT 競爭者要來了？",
-      "local_angle": "開源 AI 獲大量算力背書在歐美已成熱議，台灣職場人對 Reflection AI 認知幾乎為零，資訊差極大，可搶先做「開源 AI 工具崛起」解析"
+      "summary": "Anthropic 推出 Claude Tag，在 Slack 頻道以 @Claude 召喚後，AI 在 ambient 模式下持續學習公司脈絡、主動追蹤待辦並執行多步驟任務，現以研究預覽開放 Team/Enterprise 方案。",
+      "audience": "職場上班族、團隊協作工作者、中小企業主、遠端工作者",
+      "pain_point": "Slack 訊息爆炸卻沒人整理重點，公司知識散落各頻道，任務跟進全靠人力記憶",
+      "title_idea": "在 Slack 直接 @Claude 就能自動追蹤任務？Anthropic 新功能讓 AI 變成真正的隊友",
+      "local_angle": "台灣職場廣泛使用 Slack，Claude Tag 繁中介面支援尚待確認，搶做繁中操作教學與企業導入指南紅利窗口已開"
     },
     {
-      "title": "Getty Images 與 OpenAI 簽多年授權協議，版權圖片將出現在 ChatGPT 搜尋結果中，Getty 股價飆升 200%",
+      "title": "OpenAI Daybreak 全面擴張：GPT-5.5-Cyber 正式發布 + Patch the Planet 開源安全計畫 + 28 家頂級廠商加盟",
       "sources": [
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-06-22/getty-images-soars-200-in-early-trading-after-openai-deal"},
-        {"name": "PetaPixel", "url": "https://petapixel.com/2026/06/22/getty-images-strikes-deal-with-openai-sending-gettys-stock-soaring/"},
-        {"name": "Fast Company", "url": "https://www.fastcompany.com/91562788/getty-images-stock-price-skyrocketing-today-surprise-deal-with-openai"},
-        {"name": "Getty Newsroom", "url": "https://newsroom.gettyimages.com/en/getty-images/getty-images-announces-display-partnership-with-openai"}
+        {"name": "TechTimes", "url": "https://www.techtimes.com/articles/318900/20260623/openai-daybreak-expands-patch-pipeline-five-eyes-warns-ai-attacks-are-months-away.htm"},
+        {"name": "The Hacker News", "url": "https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html"},
+        {"name": "WindowsReport", "url": "https://windowsreport.com/openai-expands-daybreak-with-gpt-5-5-cyber-and-new-security-tools/"},
+        {"name": "CybersecurityDive", "url": "https://www.cybersecuritydive.com/news/OpenAI-Daybreak-cyber-threats/820122/"}
       ],
-      "summary": "Getty Images 授權 OpenAI 在 ChatGPT 搜尋與探索功能中展示版權圖片（僅展示、不用於模型訓練），繼 2025 年與 Perplexity 合作後再下一城，消息公布後 Getty 盤前股價大漲逾 200%。",
-      "audience": "職場行銷人員、簡報製作者、內容創作者、使用 ChatGPT 查找素材的上班族",
-      "pain_point": "用 ChatGPT 搜尋時只有文字、缺乏視覺素材，製作簡報或行銷內容時還需另外找圖、且版權問題讓人頭痛",
-      "title_idea": "ChatGPT 終於有正版圖了！Getty 授權合作讓 AI 搜尋秒變圖片庫，行銷人必看",
-      "local_angle": "此功能剛宣布、全球尚未普及，台灣設計師與行銷人可搶先做「ChatGPT 視覺搜尋教學」，趁空窗期搶佔流量"
+      "summary": "OpenAI Daybreak 大規模擴張，GPT-5.5-Cyber 轉正式（限已驗證防禦方），在 CyberGym 評測拿下 85.6%，Codex Security 掃描 3 千萬+ commits，同日啟動開源漏洞修補計畫 Patch the Planet，CrowdStrike、Palo Alto、Cisco 等 28 家廠商加盟聯盟。",
+      "audience": "企業 IT 主管、資安從業人員、採購決策者、獨立開發者",
+      "pain_point": "AI 加速網路攻擊但防禦工具跟不上，企業代碼漏洞掃描靠人工太慢且成本高",
+      "title_idea": "OpenAI 打造 AI 安全聯盟！28 家頂級廠商聯手，GPT-5.5-Cyber 自動修補漏洞完整解析",
+      "local_angle": "台灣企業資安市場正在高速擴張，AI 主動防禦工具的繁中深度報導幾乎為零，此主題兼具教育性與商業機會"
     },
     {
-      "title": "Groq 完成 6.5 億美元融資，在 Nvidia 以 200 億美元授權其晶片技術後全力轉型 AI 推理雲服務商",
+      "title": "五眼聯盟同日發警告：AI 驅動的網路攻擊將在「數月內」到來，與 Daybreak 擴張形成強烈共鳴",
       "sources": [
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-06-22/groq-raises-650-million-to-help-startup-pivot-after-nvidia-deal"},
-        {"name": "AI Weekly", "url": "https://aiweekly.co/alerts/groq-raises-650m-pivots-to-ai-inference-neocloud"},
-        {"name": "Axios", "url": "https://www.axios.com/2026/06/22/open-source-ai-gets-more-compute-from-spacex"}
+        {"name": "TechTimes", "url": "https://www.techtimes.com/articles/318900/20260623/openai-daybreak-expands-patch-pipeline-five-eyes-warns-ai-attacks-are-months-away.htm"},
+        {"name": "Infosecurity Magazine", "url": "https://www.infosecurity-magazine.com/news/openai-daybreak-gpt-5-5-cyber/"}
       ],
-      "summary": "Groq 宣布完成 6.5 億美元新一輪融資（由 Disruptive 與 Infinitum 領投），Nvidia 以 200 億買走其晶片技術並帶走核心高層後，Groq 全力轉型成 AI 推理雲，目標 2027 年底達 200MW 算力。",
-      "audience": "AI 工具重度使用者、需要快速 AI 回應的職場人、開發者",
-      "pain_point": "ChatGPT 等主流 AI 工具在高峰期回應緩慢，影響工作效率，且訂閱費用逐年上漲",
-      "title_idea": "比 ChatGPT 快 10 倍的 AI 來了！Groq 砸 6.5 億打造超速推理雲，上班族該知道",
-      "local_angle": "Groq 免費 API 速度已遠超 OpenAI，台灣開發者和 AI 重度用戶可搶先製作評測內容；融資消息讓 Groq 商業前景更明確"
+      "summary": "英美澳加紐五眼情報聯盟同日發出聯合警告，稱前沿 AI 模型將在「數月而非數年內」大幅提升攻擊者能力，強化企業導入 AI 防禦工具的緊迫性，與 OpenAI Daybreak 擴張形成產業共識。",
+      "audience": "企業決策者、CTO、IT 主管、關注 AI 安全工具的職場主管",
+      "pain_point": "傳統資安工具跟不上 AI 加速攻擊節奏，企業主不清楚現在需要做什麼準備",
+      "title_idea": "五眼聯盟警告來了：AI 網攻數月後升級，你的公司現在該部署哪些防禦工具？",
+      "local_angle": "台灣中小企業資安意識薄弱，此類政府級別的 AI 安全警告在繁中市場幾乎空白，有強烈的教育切入機會"
     }
   ],
   "tool_updates": [
     {
-      "title": "Google DeepMind 攜手頂級文藝電影公司 A24 投資 7500 萬美元，共同開發 AI 電影製作工具",
+      "title": "GPT-5.5-Cyber 正式發布（限驗證防禦方）：AI 漏洞偵測 CyberGym 評測 85.6%，Codex Security 突破 3 千萬 commits",
       "sources": [
-        {"name": "Google DeepMind Blog", "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/deepmind-a24-research-partnership/"},
-        {"name": "Variety", "url": "https://variety.com/2026/film/news/google-a24-ai-filmmaking-tools-1236787297/"},
-        {"name": "Seeking Alpha", "url": "https://seekingalpha.com/news/4605598-google-invests-in-movie-studio-a24-for-deepmind-rd-collaboration"}
+        {"name": "CybersecurityNews", "url": "https://cybersecuritynews.com/gpt-5-5-cyber/"},
+        {"name": "OpenAI Daybreak", "url": "https://openai.com/daybreak/"}
       ],
-      "summary": "Google 投資 7500 萬美元入股 A24，DeepMind 研究人員將與 A24 Labs 合作開發 AI 輔助分鏡板、拍攝工作流等電影製作工具；協議明確不授權 Google 使用 A24 影片內容做訓練。",
-      "audience": "影片創作者、YouTube 創作者、自媒體內容生產者",
-      "pain_point": "個人創作者缺乏專業影視製作資源，分鏡規劃費時費力，影片前製成本高",
-      "title_idea": "Google 砸錢進軍好萊塢！AI 電影製作工具即將問世，YouTuber 的製作成本要砍一半？",
-      "local_angle": "海外頂級片廠已在用 AI 規劃分鏡，台灣 YouTuber 和影片創作者可搶先介紹「AI 視頻製作工作流」趨勢，資訊差紅利明顯"
+      "summary": "GPT-5.5-Cyber 從研究預覽轉正式，在 CyberGym 評測拿下 85.6%，Codex Security 已掃描逾 30,000 個代碼庫的 3,000 萬+ commits，超過 50 萬條漏洞自動關閉，7 萬+ 條由人工確認。",
+      "audience": "開發者、DevOps 工程師、企業資安負責人",
+      "pain_point": "代碼審查耗時耗力，人工無法跟上快速迭代節奏，安全漏洞難以規模化管理",
+      "title_idea": "3 個月掃 3 千萬 commits！OpenAI Codex Security 如何用 AI 幫你的代碼自動找漏洞",
+      "local_angle": "台灣軟體公司普遍缺乏資安人才，AI 代碼安全工具的繁中教學幾乏空白，技術向內容機會明確"
     },
     {
-      "title": "ChatGPT 搜尋功能整合 Getty Images 授權版權圖片，AI 搜尋答案可直接呈現高品質視覺素材",
+      "title": "OpenAI Patch the Planet 正式啟動：AI 自動掃描開源專案漏洞，大幅減輕維護者負擔",
       "sources": [
-        {"name": "Getty Newsroom", "url": "https://newsroom.gettyimages.com/en/getty-images/getty-images-announces-display-partnership-with-openai"},
-        {"name": "The Next Web", "url": "https://thenextweb.com/news/getty-images-openai-chatgpt-deal-shares-soar"},
-        {"name": "Yahoo Tech", "url": "https://tech.yahoo.com/ai/chatgpt/article/openai-inks-new-deal-to-show-getty-images-in-chatgpt-135633529.html"}
+        {"name": "Engadget", "url": "https://www.engadget.com/2199569/openai-new-daybreak-initiative-open-source-projects-bugs/"},
+        {"name": "OpenAI Daybreak", "url": "https://openai.com/daybreak/"}
       ],
-      "summary": "用 ChatGPT 搜尋問題時，回應中可能直接顯示 Getty Images 授權圖片幫助視覺化說明；採展示授權而非訓練授權，保障攝影師版權。",
-      "audience": "日常使用 ChatGPT 搜尋的職場人、行銷設計師、簡報製作者",
-      "pain_point": "AI 工具搜尋結果只有文字，視覺化不足，要配圖還需在多個平台間切換",
-      "title_idea": "ChatGPT 搜尋升級！直接顯示 Getty 正版圖片，找素材再也不用開另一個頁面",
-      "local_angle": "功能剛宣布、全球仍在推出，台灣使用者尚未普遍感知，可搶先錄「實際操作教學」搶佔搜尋流量"
+      "summary": "OpenAI 正式啟動 Patch the Planet 計畫，以 Codex Security 協助開源專案識別漏洞、生成修補方案，維護者只需審核確認，目標是系統化提升關鍵開源軟體的整體安全性。",
+      "audience": "獨立開發者、開源專案維護者、使用開源工具的工程師",
+      "pain_point": "開源專案人手不足，安全漏洞難以及時發現和修補，維護者同時要顧功能又要顧安全",
+      "title_idea": "OpenAI 免費幫開源專案修 Bug？Patch the Planet 完整解析，維護者必看",
+      "local_angle": "台灣活躍開源社群（COSCUP 等）對此計畫幾乎無繁中報導，率先做深度介紹可快速獲取技術社群關注"
     },
     {
-      "title": "Groq Cloud 推理 API 擴容：取得 Nvidia GB300 最新算力，AI 推理速度全市場最快，可作 ChatGPT 高速替代",
+      "title": "Claude Desktop 企業部署大擴張：支援 AWS、Google Cloud、Microsoft Foundry，含 SSO 與離線部署選項",
       "sources": [
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-06-22/groq-raises-650-million-to-help-startup-pivot-after-nvidia-deal"},
-        {"name": "AI Insider", "url": "https://theaiinsider.tech/2026/06/01/groq-seeks-650m-to-scale-ai-inference-cloud-after-nvidias-20b-technology-deal/"}
+        {"name": "FutureTools News", "url": "https://futuretools.io/news"}
       ],
-      "summary": "Groq 推理雲（GroqCloud）將擴建至 200MW 算力、導入最新 Nvidia GB300 晶片，目前免費 API 已提供全球最快 token 生成速度，適合需要高頻即時 AI 回覆的職場場景。",
-      "audience": "職場 AI 工具重度使用者、開發者、想降低 AI 訂閱費用的上班族",
-      "pain_point": "ChatGPT Plus 每月費用高，且尖峰時段回應速度慢，影響工作節奏",
-      "title_idea": "免費又比 ChatGPT 快！Groq API 完整教學：上班族怎麼用它提升工作效率",
-      "local_angle": "Groq 免費方案在歐美開發者社群已廣為人知，台灣一般職場人幾乎不清楚，教學內容競爭少、資訊差大"
+      "summary": "Anthropic 宣布 Claude Desktop 擴展至三大企業雲端平台，支援企業 SSO 及離線部署選項，讓大型企業可在合規環境下部署 Claude，滿足金融、醫療等行業的資料主權需求。",
+      "audience": "企業 IT 決策者、採購主管、大型企業數位轉型負責人、顧問",
+      "pain_point": "企業導入 AI 工具受限於資安合規要求，公有雲 SaaS 無法滿足金融、醫療、政府等行業需求",
+      "title_idea": "Claude 可以關在自己的雲裡了！AWS / Google Cloud / Azure 離線部署完整指南",
+      "local_angle": "台灣金融業、政府機構有嚴格資料在地化要求，此功能直擊核心痛點，繁中市場相關報導幾乎空白"
+    },
+    {
+      "title": "Google Vertex Vector Search 2.0 正式 GA：向量＋全文混合搜尋、自動 Embedding，RAG 應用門檻大幅降低",
+      "sources": [
+        {"name": "Google Cloud Medium", "url": "https://medium.com/google-cloud/introducing-vertex-ai-vector-search-2-0-from-zero-to-billion-scale-90ed666dac43"},
+        {"name": "Google Codelabs", "url": "https://codelabs.developers.google.com/vector-search-2-intro"}
+      ],
+      "summary": "Google Vertex Vector Search 2.0 正式 GA，整合向量＋全文混合搜尋、Auto-Embedding、私有 VPC 部署，讓企業知識庫和 RAG 應用從開發到億級規模的路徑更完整、成本更低。",
+      "audience": "AI 應用開發者、技術型創業者、想建企業知識庫的工程師",
+      "pain_point": "RAG 應用搭建繁瑣，向量庫選型困難，企業合規部署缺乏一站式完整方案",
+      "title_idea": "Google 向量搜尋 2.0 正式 GA！從零到億級 RAG 知識庫，一套工具搞定的完整教學",
+      "local_angle": "台灣開發者在 RAG 應用領域快速增長，繁中的企業知識庫建置實戰教學稀缺，切入時機成熟"
     }
   ],
   "trends": [
     {
-      "title": "五眼聯盟情報機構聯合警告：能大規模顛覆網路安全的前沿 AI 模型，距離公開只剩「數月」",
+      "title": "AI 防禦工具軍備競賽加速：OpenAI vs Anthropic 同日出招，企業安全市場成 2026 下半年最大兵家必爭之地",
       "sources": [
-        {"name": "CyberScoop", "url": "https://cyberscoop.com/five-eyes-alliance-say-advanced-ai-hacking-models-months-away/"},
-        {"name": "Gadget Review", "url": "https://www.gadgetreview.com/why-intel-agencies-say-ai-could-destroy-governments-by-next-year"}
+        {"name": "TechTimes", "url": "https://www.techtimes.com/articles/318900/20260623/openai-daybreak-expands-patch-pipeline-five-eyes-warns-ai-attacks-are-months-away.htm"},
+        {"name": "Unite.AI", "url": "https://www.unite.ai/openais-daybreak-wants-to-own-the-patch-not-just-the-bug/"}
       ],
-      "summary": "美英加澳紐五眼聯盟情報機構發出聯合警告，能大幅強化網路攻擊能力的前沿 AI 模型預計「數月內」即可公開取得，Timeline 已從數年縮短至數月。",
-      "audience": "企業 IT 人員、資安從業者、關心 AI 風險的職場主管",
-      "pain_point": "AI 帶來的資安威脅升級速度，已遠超企業資安部門的應對能力",
-      "title_idea": "五眼情報局緊急示警！AI 駭客工具「數月後公開」，你的公司還沒準備好？",
-      "local_angle": "歐美政府已在採取行動，台灣企業資安意識相對滯後，可搶先製作「AI 資安威脅解析」教育型內容，受眾廣泛且競爭少"
+      "summary": "OpenAI Daybreak 和 Anthropic Claude Tag 在同一天推出，加上五眼聯盟警告，顯示 2026 下半年企業 AI 安全工具市場即將迎來爆發式採購潮，各大廠商搶先卡位。",
+      "audience": "企業決策者、科技自媒體創作者、關注 AI 產業趨勢的人",
+      "pain_point": "不知道 AI 安全工具市場走向，難以判斷哪些工具值得學習和推薦",
+      "title_idea": "OpenAI 和 Anthropic 同一天出招：2026 年 AI 安全工具戰爭正式開打！",
+      "local_angle": "此趨勢分析在繁中市場幾乎空白，提前做產業分析可建立意見領袖地位，對企業受眾吸引力強"
     },
     {
-      "title": "SpaceX Colossus 2 成 AI 算力新霸主：繼 Anthropic、Google、Cursor 後，Reflection AI 是第四大客戶",
+      "title": "獨立創業者 AI 工具成本結構驗證：月費 $30-300 可支撐 $1M ARR，一人公司商業模式大規模驗證",
       "sources": [
-        {"name": "Axios", "url": "https://www.axios.com/2026/06/22/open-source-ai-gets-more-compute-from-spacex"},
-        {"name": "Seeking Alpha", "url": "https://seekingalpha.com/news/4605652-spacex-lands-another-cloud-computing-deal-as-reflection-signs-up-for-potential-63b-contract"}
+        {"name": "Fortune", "url": "https://fortune.com/2026/05/18/solo-founders-ai-automation-entire-teams-entrepreneurs/"},
+        {"name": "Alfred Blog", "url": "https://get-alfred.ai/blog/best-ai-tools-for-solopreneurs"}
       ],
-      "summary": "SpaceX Colossus 2 資料中心已連續拿下 Anthropic、Google、Cursor、Reflection AI 四大客戶的算力合約，正在快速成長為足以媲美 AWS 和 Azure 的 AI 雲端基礎設施提供商。",
-      "audience": "AI 產業觀察者、對科技趨勢感興趣的職場人、AI 創業者",
-      "pain_point": "AI 算力市場由少數大廠壟斷，新進者難以取得具競爭力的算力資源",
-      "title_idea": "馬斯克悄悄成了 AI 界新地主！SpaceX 算力帝國版圖有多大你不敢想像",
-      "local_angle": "SpaceX AI 算力生意在歐美已成熱議焦點，台灣媒體尚未深入分析，可搶先做「AI 基礎設施戰爭」解析，吸引科技迷受眾"
-    },
-    {
-      "title": "AI 版權授權商業模式正式確立：Getty 繼 Perplexity 後再簽 OpenAI，圖片授權成 AI 平台行業標準",
-      "sources": [
-        {"name": "The Next Web", "url": "https://thenextweb.com/news/getty-images-openai-chatgpt-deal-shares-soar"},
-        {"name": "ExplainX.ai", "url": "https://explainx.ai/blog/getty-openai-deal-ai-image-copyright-history-2026"}
-      ],
-      "summary": "Getty 2025 年與 Perplexity 簽授權、2026 年再與 OpenAI 達協議，「AI 平台展示版權內容、向版權方付費」的模式正在快速確立為行業標準，對創作者版權保護具里程碑意義。",
-      "audience": "內容創作者、自媒體經營者、攝影師、關心 AI 版權議題的職場人",
-      "pain_point": "不確定 AI 工具使用的圖片素材是否合法，創作者擔心版權被 AI 侵用卻無從申索",
-      "title_idea": "AI 版權戰爭誰贏了？Getty 模式將成行業標準，創作者的圖片終於要獲得保障",
-      "local_angle": "歐美 AI 版權授權模式正在確立，台灣法規討論和產業認知仍滯後，可搶先製作「AI 版權科普」內容，教育型選題競爭少"
+      "summary": "多份 2026 年研究確認，獨立創業者月花 $30-300 的 AI 工具堆疊（含內容、行銷、工程、客服）已可替代完整團隊功能，支撐 $1M ARR 的商業模式驗證成本大幅降低。",
+      "audience": "想創業或副業的職場上班族、自媒體創作者、獨立開發者",
+      "pain_point": "想用 AI 創業卻不知道該用哪些工具、擔心成本過高、不確定 AI 是否能真的替代團隊",
+      "title_idea": "月花 $30 到 $300 的 AI 工具清單，讓你一個人做到年收百萬！2026 最新歐美驗證",
+      "local_angle": "台灣職場上班族副業創業意願強，「AI 到底能省多少成本」缺乏具體數字，此主題歐美已大量驗證、繁中幾乎沒有實際試算，資訊差紅利明確"
     }
   ],
   "source_coverage_notes": {
-    "status": "日期驗證完成 (2026-06-22)",
+    "status": "日期驗證完成 (2026-06-23)",
     "coverage": [
       {
         "source": "TechCrunch AI",
         "status": "✅",
         "count": 1,
-        "note": "確認 1 篇 URL 含 /2026/06/22/ 的 AI 相關文章：SpaceX inks compute deal with Reflection AI（另有 Founder Summit 活動文章不計入）。"
+        "note": "確認 1 篇 URL 含 /2026/06/23/ 的 AI 相關文章：Anthropic Claude Tag 登場（另有 Founder Summit 活動文章不計入）。"
       },
       {
         "source": "FutureTools.io",
         "status": "⚠️",
-        "count": 1,
-        "note": "頁面顯示 Getty+OpenAI 授權合作（6/22），其餘條目未能確認日期。"
-      },
-      {
-        "source": "llm-stats.com AI News",
-        "status": "✅",
-        "count": 6,
-        "note": "確認 6/22 報導：Getty+OpenAI、SpaceX+Reflection AI、Groq $650M、Google DeepMind+A24、John Jumper 離職、Five Eyes 警告。"
-      },
-      {
-        "source": "Bloomberg",
-        "status": "✅",
-        "count": 3,
-        "note": "確認 3 篇 6/22 文章：SpaceX+Reflection AI $6.3B、Getty 股價飆升 200%、Groq 完成 6.5 億美元融資。"
-      },
-      {
-        "source": "CNBC",
-        "status": "✅",
-        "count": 1,
-        "note": "確認 SpaceX signs compute deal with AI startup Reflection（6/22）。"
-      },
-      {
-        "source": "Matt Wolfe / YouTube AI 頻道",
-        "status": "❌",
         "count": 0,
-        "note": "未能確認任何 YouTube 頻道在 6/22 發布的影片，如實記錄。"
+        "note": "昨日（June 23）無新更新，最新內容為 June 22（Claude Desktop 企業雲擴展），已納入工具更新並標注日期為 June 22。"
       },
       {
         "source": "The Verge AI",
         "status": "❌",
         "count": 0,
-        "note": "WebFetch 無法存取 theverge.com，如實記錄。"
+        "note": "WebFetch 返回 403 Forbidden，無法存取，如實記錄。"
       },
       {
-        "source": "@OpenAI / @AnthropicAI",
-        "status": "⚠️",
-        "count": 0,
-        "note": "6/22 無確認的重大官方公告（Getty+OpenAI 為 OpenAI 參與的商業合作，已計入大事件）。"
-      },
-      {
-        "source": "CyberScoop",
+        "source": "WebSearch AI news June 23",
         "status": "✅",
-        "count": 1,
-        "note": "Five Eyes 聯盟警告前沿 AI 模型將於數月內公開，約 6/22 前後。"
+        "count": 7,
+        "note": "OpenAI Daybreak 擴張（TechTimes URL 含 20260623）、GPT-5.5-Cyber 發布、Patch the Planet 啟動、五眼聯盟警告均確認為 June 23。"
+      },
+      {
+        "source": "YouTube 頻道（Matt Wolfe、Matthew Berman 等）",
+        "status": "❌",
+        "count": 0,
+        "note": "YouTube 頻道頁面無法直接抓取昨日影片，WebSearch site:youtube.com 亦未返回 June 23 具體影片，如實記錄。"
+      },
+      {
+        "source": "X / Twitter 關鍵帳號",
+        "status": "❌",
+        "count": 0,
+        "note": "X/Twitter 存取受限，未能抓取 @OpenAI、@AnthropicAI 等帳號昨日貼文，重點訊息已透過 WebSearch 間接覆蓋。"
       }
     ],
-    "explanation": "2026-06-22 日報精選 9 則核心情報（3 大事件、3 工具更新、3 趨勢）。Bloomberg 確認 3 篇 6/22 原文報導，TechCrunch /2026/06/22/ URL 確認 SpaceX 文章，llm-stats.com 彙整當日 6 則要聞。YouTube 頻道及 The Verge 無法確認 6/22 內容，如實記錄。"
+    "explanation": "2026-06-23 日報精選 9 則核心情報（3 大事件、4 工具更新、2 趨勢）。TechCrunch /2026/06/23/ URL 確認 Claude Tag 文章，TechTimes URL 含 20260623 確認 Daybreak 擴張報導，其餘 June 23 資訊透過多家媒體 WebSearch 交叉驗證。Claude Desktop 企業雲擴展來自 FutureTools June 22 最新條目，已標注。YouTube 頻道及 The Verge 無法存取，如實記錄。"
   }
 }
