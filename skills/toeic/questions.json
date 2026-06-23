@@ -1,103 +1,103 @@
 {
-  "date": "2026-06-23",
+  "date": "2026-06-24",
   "p5": [
     {
-      "id": "2026-06-23-p5-0",
+      "id": "2026-06-24-p5-0",
       "tag": "假設語氣倒裝",
-      "pre": "Had the acquisition proposal",
-      "post": "more thoroughly reviewed, the resulting litigation could have been avoided entirely.",
-      "opts": ["be", "been", "being", "to be"],
-      "ans": 1,
-      "zh": "若收購提案當初經過更徹底的審查，隨之而來的訴訟本可完全避免。",
-      "why": "本題考<b>假設語氣倒裝</b>的被動結構。「Had + 主詞 + been + 過去分詞」是 if 子句省略 if 後的倒裝形式，等同於「If the acquisition proposal had been more thoroughly reviewed」。空格填入 <b>been</b>，與後方 reviewed 共同構成過去完成被動語態。be（原形）和 to be（不定詞）不符合倒裝句型；being 為現在分詞，無法與 Had 構成完成被動結構。"
+      "pre": "",
+      "post": " the regulatory authority granted its approval in time, the merger would have proceeded without further delay.",
+      "opts": ["Had", "Were", "Should", "Did"],
+      "ans": 0,
+      "zh": "假如監管機構當時及時批准，此次合併本可不再有任何延誤地順利進行。",
+      "why": "過去事實相反的假設句倒裝形式為 <b>Had + 主詞 + 過去分詞</b>，等同於 If the regulatory authority had granted...。主句 <b>would have proceeded</b> 確認此為第三條件句（過去虛擬）。Were 用於現在假設倒裝（Were + 主詞 + to V）；Should 用於表示未來萬一的倒裝；Did 屬直述語氣，均不符合「過去虛擬」情境。"
     },
     {
-      "id": "2026-06-23-p5-1",
+      "id": "2026-06-24-p5-1",
       "tag": "分詞構句（被動）",
       "pre": "",
-      "post": "to a non-disclosure agreement, the former executive was prohibited from disclosing the terms of the settlement.",
-      "opts": ["Bound", "Binding", "To bind", "Having bound"],
-      "ans": 0,
-      "zh": "受到保密協議的約束，這位前主管被禁止透露和解條款。",
-      "why": "主句主詞「the former executive」與動詞 bind 是<b>被動關係</b>（該主管被協議約束），因此分詞構句應使用<b>過去分詞</b> Bound，等同於 Being bound 的省略。Binding 為主動現在分詞，暗示主詞主動束縛他人，語意矛盾；To bind 為不定詞，不作分詞構句；Having bound 表示主動完成，亦不符被動語意。分辨主詞與動詞的主被動關係是本題關鍵。"
+      "post": " with imminent financial risks, the audit committee convened an emergency session to reassess the firm's exposure.",
+      "opts": ["Confronting", "Confronted", "Having confronted", "To be confronted"],
+      "ans": 1,
+      "zh": "面對迫在眉睫的財務風險，審計委員會召開緊急會議以重新評估公司的風險敞口。",
+      "why": "主詞 audit committee 被動地「面臨」風險，故用<b>被動分詞構句</b> Confronted with...（等同 Because it was confronted with...）。Confronting（主動分詞）暗示委員會主動讓他人面對風險，邏輯不符；Having confronted 表主動且先完成的動作；To be confronted 為不定詞片語，不構成分詞構句。此題關鍵在辨別<b>邏輯主詞與分詞的主被動關係</b>。"
     },
     {
-      "id": "2026-06-23-p5-2",
-      "tag": "非限定關係子句（介系詞前置）",
-      "pre": "The merger agreement, a copy of",
-      "post": "has been submitted to the regulatory authority, stipulates a 90-day transition period.",
-      "opts": ["which", "that", "what", "it"],
-      "ans": 0,
-      "zh": "合併協議已將一份副本提交監管機關，協議本身規定了九十天的過渡期。",
-      "why": "本題考<b>介系詞 + 關係代名詞</b>的非限定子句結構。「a copy of which」中，which 代指 the merger agreement，整個片語等同於「of which a copy」的前置形式。<b>非限定關係子句</b>（逗號內嵌）只能用 which，不可用 that；what 是複合關係代名詞，不充當關係代名詞；it 無法引導子句。此句型常見於法律與正式商務書面英文。"
+      "id": "2026-06-24-p5-2",
+      "tag": "非限定關係子句",
+      "pre": "The arbitration panel issued its final ruling last Thursday, ",
+      "post": " stipulated that neither party was entitled to seek further judicial review.",
+      "opts": ["that", "which", "where", "what"],
+      "ans": 1,
+      "zh": "仲裁小組於上週四作出最終裁決，該裁決規定雙方均無權尋求進一步的司法審查。",
+      "why": "逗號後的關係子句補充說明整個先行詞（the final ruling），屬<b>非限定關係子句</b>，必須使用 <b>which</b>。that 不可置於逗號之後，只用於限定關係子句；where 引導地點子句；what 本身內含先行詞（the thing that），後方不可再有名詞先行詞。在正式法律文件中，which 常以此結構引介重要補充條件或裁決說明。"
     },
     {
-      "id": "2026-06-23-p5-3",
+      "id": "2026-06-24-p5-3",
       "tag": "讓步介系詞（notwithstanding）",
-      "pre": "The indemnification clause shall remain in full force and effect",
-      "post": "any subsequent modification to the underlying contract.",
-      "opts": ["notwithstanding", "despite of", "although", "nevertheless"],
-      "ans": 0,
-      "zh": "無論對基礎合約做出任何後續修改，賠償條款均應繼續完全有效。",
-      "why": "<b>notwithstanding</b> 是正式法律英文中的讓步介系詞，意為「儘管、不論」，可直接接名詞片語，且可後置於主句之後（postpositive use）。despite of 是常見錯誤用法（despite 後不加 of）；although 為連接詞，後接完整子句而非名詞片語；nevertheless 是轉折副詞，不引導名詞片語。掌握 notwithstanding 的介系詞用法是高階法律商務英文的必備能力。"
+      "pre": "The licensing agreement remained in full force and effect ",
+      "post": " the licensor's subsequent objections to certain performance benchmarks.",
+      "opts": ["although", "notwithstanding", "nevertheless", "in spite"],
+      "ans": 1,
+      "zh": "儘管授權方事後對某些績效基準提出異議，授權協議仍然完全有效。",
+      "why": "<b>Notwithstanding</b> 作介系詞時後接名詞片語，常見於正式法律合約，意為「儘管…仍然」。although 為連接詞，後須接含動詞的子句，不能直接接名詞片語；nevertheless 為副詞，不接受詞；in spite 不完整，正確形式須為 <b>in spite of</b>。此題同時測試<b>連接詞、副詞、介系詞</b>的詞類辨別及法律英文用語。"
     },
     {
-      "id": "2026-06-23-p5-4",
-      "tag": "名詞子句主詞一致性",
-      "pre": "Whether the proposed merger will satisfy antitrust requirements",
-      "post": "to be determined by the commission before the end of the fiscal quarter.",
-      "opts": ["remains", "remain", "are", "being"],
-      "ans": 0,
-      "zh": "擬議中的合併是否符合反壟斷要求，仍有待委員會在本財務季度結束前作出裁定。",
-      "why": "由 whether 引導的<b>名詞子句</b>整體作主詞，視為<b>單數</b>，謂語動詞須用三人稱單數形式 remains。remain 為複數動詞原形，錯誤；are 為複數 be 動詞，亦錯；being 是分詞，不能單獨作謂語。「remains to be determined」是正式書面語的慣用句型，意為「仍有待確定」，為高階商務英文的重要表達。"
+      "id": "2026-06-24-p5-4",
+      "tag": "動詞語意辨別（進階）",
+      "pre": "The collapse of the preliminary negotiations ",
+      "post": " any possibility of reaching a mutually acceptable settlement before the scheduled arbitration.",
+      "opts": ["nullified", "precluded", "rescinded", "obviated"],
+      "ans": 1,
+      "zh": "初步談判的破裂排除了在預定仲裁前達成雙方均可接受之和解的任何可能性。",
+      "why": "<b>Preclude</b> 為法律英文核心動詞，意為「排除、杜絕（某種可能性）」，<b>preclude any possibility of...</b> 為高頻法律固定搭配。nullify 意為「使（法律文件）無效」，受詞限於具體文件；rescind 意為「正式撤銷（合約、命令）」，同樣不與 possibility 搭配；obviate 意為「消除（需要性）」，通常搭配 the need for 而非 possibility。此題考驗對<b>動詞搭配語意精準性</b>的掌握。"
     }
   ],
   "p6": {
-    "id": "2026-06-23-p6",
-    "title": "Memorandum Regarding the Implementation of Enhanced Data Governance Protocols",
+    "id": "2026-06-24-p6",
+    "title": "Notice of Revised Hybrid Work Policy — Effective Q3 2026",
     "seg": [
-      ["Following an extensive internal audit, significant deficiencies in our current data management infrastructure ", {"b": 0}, " by the External Review Committee. Effective July 1, 2026, all divisions are required to adopt the revised Data Governance Framework (DGF), the details of which are outlined in the accompanying policy document."],
-      [{"b": 1}, " the implementation timeline may appear compressed, the Leadership Team is confident that adequate resources have been allocated to facilitate a seamless transition. Department heads are urged to designate a Data Compliance Liaison within their respective teams no later than June 30."],
-      ["Training sessions will be ", {"b": 2}, " across all regional offices throughout the month of July. Attendance is mandatory for all personnel with access to client records or proprietary data. ", {"b": 3}],
-      ["Queries pertaining to the new framework should be directed to the Compliance Helpdesk at compliance@company.com. Your cooperation in this matter is greatly appreciated."]
+      ["This memorandum is issued to notify all department heads of forthcoming amendments to the Company's hybrid work policy. The revised framework ", {"b": 0}, " following an exhaustive review of workforce productivity data and employee satisfaction surveys conducted over the preceding two fiscal quarters."],
+      ["Under the revised policy, employees in non-client-facing roles may work remotely for no more than two days per week, provided that written ", {"b": 1}, " has been obtained from both their direct supervisor and the relevant division head."],
+      [{"b": 2}, ", all department heads are requested to communicate the updated guidelines to their respective teams no later than July 10, 2026, and to submit a consolidated list of employees currently on approved remote schedules to the HR Division by July 17."],
+      ["Employees who fail to comply with the new requirements by the stipulated deadline may have their existing arrangements suspended pending further review. ", {"b": 3}]
     ],
     "blanks": [
       {
-        "tag": "時態語態（被動完成式）",
+        "tag": "時態語態",
         "col1": true,
-        "opts": ["have been identified", "were identifying", "had identified", "are to identify"],
+        "opts": ["has been formulated", "had formulated", "was formulating", "has formulated"],
         "ans": 0,
-        "zh": "在完成一次廣泛的內部稽核後，外部審查委員會已發現我們目前資料管理基礎架構中存在重大缺失。",
-        "why": "空格後接「by the External Review Committee」，明確需要<b>被動語態</b>。稽核結果與當前情況直接相關，應使用<b>現在完成被動式</b>「have been identified」。「were identifying」為過去進行主動，語態錯誤；「had identified」是主動過去完成式，主詞不符；「are to identify」表示義務，語意不合。"
+        "zh": "修訂框架係在對前兩個財政季度所進行的勞動力生產力數據及員工滿意度調查進行全面審查後制定而成。",
+        "why": "主詞 framework 為被動承受者，且審查剛完成、結果（框架）現已推出，故用<b>現在完成式被動語態</b> has been formulated。had formulated 與 was formulating 均為主動語態，主詞不符（框架無法自行制定）；has formulated 雖為現在完成主動式，同樣有主詞施受錯誤的問題。此題同時檢驗<b>主被動判斷</b>與<b>時態選擇</b>的能力。"
       },
       {
-        "tag": "語篇連接詞（讓步）",
+        "tag": "詞彙語意",
         "col1": true,
-        "opts": ["While", "Therefore", "Furthermore", "Consequently"],
+        "opts": ["authorization", "endorsement", "ratification", "accreditation"],
         "ans": 0,
-        "zh": "儘管實施時程看似緊湊，領導團隊確信已分配足夠資源以促進順利過渡。",
-        "why": "前半句提出「時程看似緊湊」的讓步，後半句卻肯定「已分配足夠資源」，形成<b>讓步轉折</b>關係，須用讓步連接詞 <b>While</b>（相當於 Although）。Therefore 和 Consequently 表示因果，與語意相反；Furthermore 表示遞進，不表讓步，均不符語篇邏輯。"
+        "zh": "在修訂後的政策下，從事非客戶接觸性職位的員工每週最多可遠端工作兩天，前提是須同時取得其直屬主管及相關部門主管的書面授權。",
+        "why": "<b>Authorization</b> 指上級給予的官方許可，是人力資源政策中「書面核准」的標準用語，與 written、obtained 搭配最為精確。endorsement 通常指對某觀點或人的「公開支持」，正式程度不足；ratification 專用於條約或協議的「正式確認批准」，語境限於多方協商後的程序；accreditation 指機構或資格的「認證」，與工作安排申請無關。"
       },
       {
-        "tag": "詞彙語意（動詞搭配）",
+        "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["conducted", "constituted", "conveyed", "contracted"],
+        "opts": ["Accordingly", "Notwithstanding", "In contrast", "On balance"],
         "ans": 0,
-        "zh": "培訓課程將於七月份在所有地區辦公室舉行。",
-        "why": "「<b>conduct</b> training sessions」是正式英文中描述「舉辦／進行培訓」的標準搭配（conduct = carry out formally）。constituted 意為「構成」；conveyed 意為「傳達訊息」；contracted 意為「締結契約或縮減」，三者與 training sessions 的<b>動詞搭配（collocation）</b>均不符。"
+        "zh": "有鑑於此，所有部門主管須於2026年7月10日前將更新後的指引傳達給各自的團隊，並於7月17日前將目前已獲批准遠端工作安排的員工彙總名單提交人資部門。",
+        "why": "<b>Accordingly</b>（因此、有鑑於此）承接上文政策內容，引出對應的行動要求，為最自然的因果銜接詞。Notwithstanding 表讓步（儘管如此），與此處的順承邏輯相悖；In contrast 引出對比點，與上文無對立關係；On balance 意為「整體而言、綜合考量」，用於總結性陳述，不適合引介具體指令。"
       },
       {
-        "tag": "句子插入（語篇連貫）",
+        "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Employees who fail to complete the required training by July 31 will be subject to a temporary suspension of data access privileges.",
-          "The inaugural data audit was first commissioned in fiscal year 2019 as part of a broader modernization initiative.",
-          "The company has partnered with three external vendors to supply updated data management software.",
-          "All office supplies requisitions should continue to be submitted through the standard procurement portal."
+          "The Human Resources Division reserves the right to amend this policy at its sole discretion, subject to applicable labor regulations.",
+          "Should you require clarification on any aspect of this policy, please contact your designated HR liaison, whose details are appended hereto.",
+          "The Company trusts that all employees will embrace the updated arrangements as part of our ongoing commitment to operational excellence.",
+          "Please be advised that remote work privileges may be revoked at any time if productivity benchmarks are not consistently met."
         ],
-        "ans": 0,
-        "zh": "未能在七月三十一日前完成規定培訓的員工，將被暫停資料存取權限。",
-        "why": "前文指出培訓對特定人員屬<b>強制出席</b>，緊接著最合乎邏輯的是說明未遵守的<b>後果</b>，以強化政策執行力道。選項 A 補充強制政策的執行機制，<b>語篇連貫性</b>最強。選項 B 提及歷史背景，與段落脈絡脫節；選項 C 關於軟體供應商，主題轉換突兀；選項 D 關於辦公用品採購，完全偏離主題。"
+        "ans": 1,
+        "zh": "如需就本政策任何方面尋求澄清，請聯絡您的指定人資聯絡人，其聯絡資料附於本函末尾。",
+        "why": "此段緊接「違規者安排可能遭暫停」的警告，最適合以<b>提供後續聯絡管道</b>的句子作結，引導讀者採取具體行動。選項 A 雖為政策文件常見聲明，但緊接懲處警告後出現略顯突兀；選項 C 語氣積極正面，與前一句懲處語境不協調；選項 D 重複強調違規後果，與前句語意過度重疊。選項 B 以假設語氣（<b>Should you require...</b>）提供聯絡資訊，是正式備忘錄收束段落的標準手法。"
       }
     ]
   }
