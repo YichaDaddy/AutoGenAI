@@ -1,103 +1,103 @@
 {
-  "date": "2026-06-24",
+  "date": "2026-06-25",
   "p5": [
     {
-      "id": "2026-06-24-p5-0",
+      "id": "2026-06-25-p5-0",
       "tag": "假設語氣倒裝",
       "pre": "",
-      "post": " the regulatory authority granted its approval in time, the merger would have proceeded without further delay.",
-      "opts": ["Had", "Were", "Should", "Did"],
+      "post": "the board not ratified the amendment, the entire contractual framework would have been rendered void.",
+      "opts": ["Had", "Were", "Should", "If"],
       "ans": 0,
-      "zh": "假如監管機構當時及時批准，此次合併本可不再有任何延誤地順利進行。",
-      "why": "過去事實相反的假設句倒裝形式為 <b>Had + 主詞 + 過去分詞</b>，等同於 If the regulatory authority had granted...。主句 <b>would have proceeded</b> 確認此為第三條件句（過去虛擬）。Were 用於現在假設倒裝（Were + 主詞 + to V）；Should 用於表示未來萬一的倒裝；Did 屬直述語氣，均不符合「過去虛擬」情境。"
+      "zh": "假設董事會未批准修正案，整個合約框架將已被宣告無效。",
+      "why": "此題考<b>假設語氣過去完成倒裝</b>。省略 if 並將助動詞前移，形成「<b>Had + 主詞 + 過去分詞</b>」，等同 "If the board had not ratified..."。B "Were" 用於與現在事實相反的假設；C "Should" 用於未來不確定情況；D "If" 保留連接詞則後需接 had，無法單獨使用，故唯 A 正確。"
     },
     {
-      "id": "2026-06-24-p5-1",
+      "id": "2026-06-25-p5-1",
       "tag": "分詞構句（被動）",
       "pre": "",
-      "post": " with imminent financial risks, the audit committee convened an emergency session to reassess the firm's exposure.",
-      "opts": ["Confronting", "Confronted", "Having confronted", "To be confronted"],
+      "post": "by independent auditors prior to publication, the financial statements were found to contain material misstatements.",
+      "opts": ["Reviewing", "Reviewed", "To be reviewed", "Having reviewed"],
       "ans": 1,
-      "zh": "面對迫在眉睫的財務風險，審計委員會召開緊急會議以重新評估公司的風險敞口。",
-      "why": "主詞 audit committee 被動地「面臨」風險，故用<b>被動分詞構句</b> Confronted with...（等同 Because it was confronted with...）。Confronting（主動分詞）暗示委員會主動讓他人面對風險，邏輯不符；Having confronted 表主動且先完成的動作；To be confronted 為不定詞片語，不構成分詞構句。此題關鍵在辨別<b>邏輯主詞與分詞的主被動關係</b>。"
+      "zh": "在發布前由獨立審計師審查後，這些財務報表被發現含有重大不實陳述。",
+      "why": "主句主詞 "the financial statements" 與動詞 "review" 為<b>被動關係</b>（報表被審查），須用<b>被動分詞構句 Reviewed</b>。A "Reviewing" 為主動分詞，語意錯誤。C "To be reviewed" 為不定詞被動，通常表目的，不符此處完成語意。D "Having reviewed" 為主動完成分詞，主詞須為動作執行者，與本句不合。"
     },
     {
-      "id": "2026-06-24-p5-2",
+      "id": "2026-06-25-p5-2",
       "tag": "非限定關係子句",
-      "pre": "The arbitration panel issued its final ruling last Thursday, ",
-      "post": " stipulated that neither party was entitled to seek further judicial review.",
-      "opts": ["that", "which", "where", "what"],
+      "pre": "The deputy managing director,",
+      "post": "extensive background in international trade law proved instrumental in navigating the regulatory hurdles, was promoted to the executive committee.",
+      "opts": ["who", "whose", "whom", "of whom"],
       "ans": 1,
-      "zh": "仲裁小組於上週四作出最終裁決，該裁決規定雙方均無權尋求進一步的司法審查。",
-      "why": "逗號後的關係子句補充說明整個先行詞（the final ruling），屬<b>非限定關係子句</b>，必須使用 <b>which</b>。that 不可置於逗號之後，只用於限定關係子句；where 引導地點子句；what 本身內含先行詞（the thing that），後方不可再有名詞先行詞。在正式法律文件中，which 常以此結構引介重要補充條件或裁決說明。"
+      "zh": "這位副常務董事擁有豐富的國際貿易法背景，在克服監管障礙方面發揮了關鍵作用，並獲晉升至執行委員會。",
+      "why": "空格後緊接名詞 "extensive background"，須用<b>所有格關係代名詞 whose</b> 表示「其（背景）」。A "who" 後須接動詞，無法直接修飾名詞。C "whom" 為受格，後不接名詞。D "of whom" 意為「其中之一」，結構與本句不符。此為以逗號隔開的<b>非限定關係子句</b>，補充說明先行詞。"
     },
     {
-      "id": "2026-06-24-p5-3",
-      "tag": "讓步介系詞（notwithstanding）",
-      "pre": "The licensing agreement remained in full force and effect ",
-      "post": " the licensor's subsequent objections to certain performance benchmarks.",
-      "opts": ["although", "notwithstanding", "nevertheless", "in spite"],
-      "ans": 1,
-      "zh": "儘管授權方事後對某些績效基準提出異議，授權協議仍然完全有效。",
-      "why": "<b>Notwithstanding</b> 作介系詞時後接名詞片語，常見於正式法律合約，意為「儘管…仍然」。although 為連接詞，後須接含動詞的子句，不能直接接名詞片語；nevertheless 為副詞，不接受詞；in spite 不完整，正確形式須為 <b>in spite of</b>。此題同時測試<b>連接詞、副詞、介系詞</b>的詞類辨別及法律英文用語。"
+      "id": "2026-06-25-p5-3",
+      "tag": "讓步介系詞",
+      "pre": "The arbitral tribunal's ruling shall be deemed final and binding",
+      "post": "any procedural irregularities that may have occurred during the preliminary hearings.",
+      "opts": ["notwithstanding", "concerning", "contingent upon", "subject to"],
+      "ans": 0,
+      "zh": "仲裁庭的裁決應被視為最終且具有約束力，即便初步聽證期間可能發生任何程序上的不規則情形。",
+      "why": "<b>notwithstanding</b> 為高階讓步介系詞（= despite），後接名詞片語，常見於法律文件，表示「儘管……仍……」。B "concerning" 意為「關於」，無讓步語意。C "contingent upon" 意為「取決於」，語意與裁決的終局性相矛盾。D "subject to" 意為「受制於」，暗示裁決仍受程序瑕疵左右，與原意完全相反。"
     },
     {
-      "id": "2026-06-24-p5-4",
-      "tag": "動詞語意辨別（進階）",
-      "pre": "The collapse of the preliminary negotiations ",
-      "post": " any possibility of reaching a mutually acceptable settlement before the scheduled arbitration.",
-      "opts": ["nullified", "precluded", "rescinded", "obviated"],
+      "id": "2026-06-25-p5-4",
+      "tag": "比較結構代名詞替代",
+      "pre": "The performance of the new algorithm under high-load conditions proved to be substantially superior to",
+      "post": "of its predecessor, warranting immediate deployment across all production servers.",
+      "opts": ["this", "that", "which", "what"],
       "ans": 1,
-      "zh": "初步談判的破裂排除了在預定仲裁前達成雙方均可接受之和解的任何可能性。",
-      "why": "<b>Preclude</b> 為法律英文核心動詞，意為「排除、杜絕（某種可能性）」，<b>preclude any possibility of...</b> 為高頻法律固定搭配。nullify 意為「使（法律文件）無效」，受詞限於具體文件；rescind 意為「正式撤銷（合約、命令）」，同樣不與 possibility 搭配；obviate 意為「消除（需要性）」，通常搭配 the need for 而非 possibility。此題考驗對<b>動詞搭配語意精準性</b>的掌握。"
+      "zh": "新演算法在高負載條件下的表現，被證明大幅優於前身演算法的表現，因此有必要立即在所有生產伺服器上部署。",
+      "why": "比較句型中，為避免重複 "the performance"，須以代名詞替代。<b>that</b> 用於指代前文提及的<b>單數名詞</b>，是正式英文的標準用法（"superior to that of its predecessor" = "superior to the performance of its predecessor"）。A "this" 指眼前事物，語境不符。C "which" 為關係代名詞，不能單獨作比較對象。D "what" 引導名詞子句，結構不符。"
     }
   ],
   "p6": {
-    "id": "2026-06-24-p6",
-    "title": "Notice of Revised Hybrid Work Policy — Effective Q3 2026",
+    "id": "2026-06-25-p6",
+    "title": "Memorandum: Revised Remote Work Policy Effective Q3 2026",
     "seg": [
-      ["This memorandum is issued to notify all department heads of forthcoming amendments to the Company's hybrid work policy. The revised framework ", {"b": 0}, " following an exhaustive review of workforce productivity data and employee satisfaction surveys conducted over the preceding two fiscal quarters."],
-      ["Under the revised policy, employees in non-client-facing roles may work remotely for no more than two days per week, provided that written ", {"b": 1}, " has been obtained from both their direct supervisor and the relevant division head."],
-      [{"b": 2}, ", all department heads are requested to communicate the updated guidelines to their respective teams no later than July 10, 2026, and to submit a consolidated list of employees currently on approved remote schedules to the HR Division by July 17."],
-      ["Employees who fail to comply with the new requirements by the stipulated deadline may have their existing arrangements suspended pending further review. ", {"b": 3}]
+      ["The Executive Committee ", {"b": 0}, " a comprehensive review of the company's remote work guidelines in response to evolving operational requirements and feedback gathered from department heads across all regional offices. The revised policy will take effect on the first business day of the third quarter."],
+      [{"b": 1}, ", employees at the managerial level and above will be required to attend all-hands meetings in person, regardless of their designated work arrangements. Virtual participation will be permitted solely in circumstances where travel presents an undue hardship, subject to prior written authorization from the respective division head."],
+      ["The Human Resources Department will distribute updated policy documentation to each employee no later than July 5. Any questions or concerns should be ", {"b": 2}, " to the Human Resources Department in writing before July 1 to ensure they are addressed prior to implementation."],
+      [{"b": 3}, " An employee's failure to comply with the updated policy may result in disciplinary measures, up to and including termination of employment, at the sole discretion of management."]
     ],
     "blanks": [
       {
-        "tag": "時態語態",
+        "tag": "時態（現在完成式）",
         "col1": true,
-        "opts": ["has been formulated", "had formulated", "was formulating", "has formulated"],
+        "opts": ["has completed", "had completed", "will have completed", "was completing"],
         "ans": 0,
-        "zh": "修訂框架係在對前兩個財政季度所進行的勞動力生產力數據及員工滿意度調查進行全面審查後制定而成。",
-        "why": "主詞 framework 為被動承受者，且審查剛完成、結果（框架）現已推出，故用<b>現在完成式被動語態</b> has been formulated。had formulated 與 was formulating 均為主動語態，主詞不符（框架無法自行制定）；has formulated 雖為現在完成主動式，同樣有主詞施受錯誤的問題。此題同時檢驗<b>主被動判斷</b>與<b>時態選擇</b>的能力。"
-      },
-      {
-        "tag": "詞彙語意",
-        "col1": true,
-        "opts": ["authorization", "endorsement", "ratification", "accreditation"],
-        "ans": 0,
-        "zh": "在修訂後的政策下，從事非客戶接觸性職位的員工每週最多可遠端工作兩天，前提是須同時取得其直屬主管及相關部門主管的書面授權。",
-        "why": "<b>Authorization</b> 指上級給予的官方許可，是人力資源政策中「書面核准」的標準用語，與 written、obtained 搭配最為精確。endorsement 通常指對某觀點或人的「公開支持」，正式程度不足；ratification 專用於條約或協議的「正式確認批准」，語境限於多方協商後的程序；accreditation 指機構或資格的「認證」，與工作安排申請無關。"
+        "zh": "執行委員會已完成對公司遠距工作指引的全面審查，以因應不斷演變的營運需求及各地區辦公室部門主管的意見回饋。修訂後的政策將於第三季第一個工作日生效。",
+        "why": "備忘錄宣布一項具備當下相關性的近期結果，應使用<b>現在完成式 has completed</b>——委員會「已完成」審查，且結果（新政策）仍持續有效。B "had completed"（過去完成式）需有另一個過去時間點作參照，本段落無此設置。C "will have completed"（未來完成式）暗示動作尚未完成，與公告語境矛盾。D "was completing"（過去進行式）表示過去進行中的動作，不符已完成的宣告語境。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["Accordingly", "Notwithstanding", "In contrast", "On balance"],
+        "opts": ["In this regard", "Nevertheless", "Notwithstanding the foregoing", "In lieu thereof"],
         "ans": 0,
-        "zh": "有鑑於此，所有部門主管須於2026年7月10日前將更新後的指引傳達給各自的團隊，並於7月17日前將目前已獲批准遠端工作安排的員工彙總名單提交人資部門。",
-        "why": "<b>Accordingly</b>（因此、有鑑於此）承接上文政策內容，引出對應的行動要求，為最自然的因果銜接詞。Notwithstanding 表讓步（儘管如此），與此處的順承邏輯相悖；In contrast 引出對比點，與上文無對立關係；On balance 意為「整體而言、綜合考量」，用於總結性陳述，不適合引介具體指令。"
+        "zh": "就此而言，管理階層及以上人員須親自出席全員大會，不論其指定的工作安排為何。",
+        "why": "<b>In this regard</b>（就此而言）承接前文政策主題，進一步說明具體規定，語意銜接最為流暢。B "Nevertheless"（然而）表轉折，但第二段並非與第一段相矛盾，而是延伸補充，不適用。C "Notwithstanding the foregoing"（儘管如前所述）為讓步語氣，暗示例外情形，與此處補充說明意旨不符。D "In lieu thereof"（代替前述事項）表示替代，語意完全偏離。"
+      },
+      {
+        "tag": "詞彙語意（動詞辨析）",
+        "col1": true,
+        "opts": ["directed", "responded", "delegated", "forwarded"],
+        "ans": 0,
+        "zh": "如有任何問題或疑慮，請於七月一日前以書面方式發送至人力資源部，以確保在政策實施前獲得解答。",
+        "why": "<b>direct questions/inquiries to</b> 是商務英文中將問題送交特定部門的標準正式用語（如 "Please direct all queries to HR"）。B "responded" 為不及物動詞，無法以 "be responded to [部門]" 表達「送至」之意，語法有誤。C "delegated"（委派任務）指授權他人執行工作，與提問語境不符。D "forwarded"（轉交）暗示中間人再傳遞訊息，與直接送交 HR 的語境有所出入。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "The Human Resources Division reserves the right to amend this policy at its sole discretion, subject to applicable labor regulations.",
-          "Should you require clarification on any aspect of this policy, please contact your designated HR liaison, whose details are appended hereto.",
-          "The Company trusts that all employees will embrace the updated arrangements as part of our ongoing commitment to operational excellence.",
-          "Please be advised that remote work privileges may be revoked at any time if productivity benchmarks are not consistently met."
+          "Please note that strict adherence to the revised policy is mandatory for all personnel without exception.",
+          "Employees are advised to familiarize themselves with the updated guidelines at their earliest convenience.",
+          "The company will provide optional training sessions to assist employees in transitioning to the new arrangements.",
+          "Questions submitted after the deadline will be reviewed on a case-by-case basis during the implementation phase."
         ],
-        "ans": 1,
-        "zh": "如需就本政策任何方面尋求澄清，請聯絡您的指定人資聯絡人，其聯絡資料附於本函末尾。",
-        "why": "此段緊接「違規者安排可能遭暫停」的警告，最適合以<b>提供後續聯絡管道</b>的句子作結，引導讀者採取具體行動。選項 A 雖為政策文件常見聲明，但緊接懲處警告後出現略顯突兀；選項 C 語氣積極正面，與前一句懲處語境不協調；選項 D 重複強調違規後果，與前句語意過度重疊。選項 B 以假設語氣（<b>Should you require...</b>）提供聯絡資訊，是正式備忘錄收束段落的標準手法。"
+        "ans": 0,
+        "zh": "請注意，所有人員均須嚴格遵守修訂後的政策，無一例外。員工違反更新政策可能導致紀律處分，包括終止僱傭關係，由管理層全權酌情決定。",
+        "why": "空格後緊接「違反政策將受紀律處分」的強烈聲明，前一句須先確立政策的<b>強制性</b>，後句的懲戒措施才有邏輯依據。A「所有人員均須嚴格遵守……無一例外」正是此種過渡語，語意完全銜接。B「建議員工儘早熟悉」語氣過於溫和，與後句嚴肅懲戒形成邏輯斷裂。C「提供培訓課程」引入全新主題，與懲戒段落毫無關聯。D「逾期問題將個案審查」承接上段問題提交流程，無法帶出合規執行主題。"
       }
     ]
   }
