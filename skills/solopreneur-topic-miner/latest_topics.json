@@ -1,159 +1,159 @@
 {
-  "date": "2026-06-23",
+  "date": "2026-06-24",
   "big_events": [
     {
-      "title": "Anthropic Claude Tag 登場：Slack 頻道的全天候 AI 隊友，自動學習公司脈絡並主動介入任務",
+      "title": "OpenAI 首款自研 AI 晶片「Jalapeño」亮相，聯手 Broadcom，推理成本較現有 GPU 降 50%",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/"},
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-06-24/openai-and-broadcom-unveil-ai-chip-to-run-models-faster-cheaper"},
+        {"name": "CNBC", "url": "https://www.cnbc.com/2026/06/24/openai-and-broadcom-reveal-jalapeno-first-ai-chip-in-partnership.html"}
       ],
-      "summary": "Anthropic 推出 Claude Tag，在 Slack 頻道以 @Claude 召喚後，AI 在 ambient 模式下持續學習公司脈絡、主動追蹤待辦並執行多步驟任務，現以研究預覽開放 Team/Enterprise 方案。",
-      "audience": "職場上班族、團隊協作工作者、中小企業主、遠端工作者",
-      "pain_point": "Slack 訊息爆炸卻沒人整理重點，公司知識散落各頻道，任務跟進全靠人力記憶",
-      "title_idea": "在 Slack 直接 @Claude 就能自動追蹤任務？Anthropic 新功能讓 AI 變成真正的隊友",
-      "local_angle": "台灣職場廣泛使用 Slack，Claude Tag 繁中介面支援尚待確認，搶做繁中操作教學與企業導入指南紅利窗口已開"
+      "summary": "OpenAI 與 Broadcom 合作推出首款自研 ASIC 晶片 Jalapeño，專為 LLM 推理優化，成本比現有 GPU 低 50%，僅花 9 個月開發完成，預計 2026 年底開始大規模部署。",
+      "audience": "職場 AI 工具重度使用者、關注 API 費用的開發者與上班族",
+      "pain_point": "AI API 費用高、使用量受限，擔心 AI 工具長期成本不可控",
+      "title_idea": "AI 要變便宜了！OpenAI 自研晶片讓推理成本砍半，你的 ChatGPT 訂閱費快要降了？",
+      "local_angle": "歐美科技圈大量報導，華語圈深度解析幾乎空白——搶先產出「Jalapeño 晶片對一般用戶的實際影響」分析，切入 AI API 價格走勢教學，資訊差紅利極大"
     },
     {
-      "title": "OpenAI Daybreak 全面擴張：GPT-5.5-Cyber 正式發布 + Patch the Planet 開源安全計畫 + 28 家頂級廠商加盟",
+      "title": "人形機器人公司 Agility Robotics 宣布以 25 億美元估值 SPAC 上市，Digit v5 已在 9 家工廠商業落地",
       "sources": [
-        {"name": "TechTimes", "url": "https://www.techtimes.com/articles/318900/20260623/openai-daybreak-expands-patch-pipeline-five-eyes-warns-ai-attacks-are-months-away.htm"},
-        {"name": "The Hacker News", "url": "https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html"},
-        {"name": "WindowsReport", "url": "https://windowsreport.com/openai-expands-daybreak-with-gpt-5-5-cyber-and-new-security-tools/"},
-        {"name": "CybersecurityDive", "url": "https://www.cybersecuritydive.com/news/OpenAI-Daybreak-cyber-threats/820122/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/"},
+        {"name": "Tech Funding News", "url": "https://techfundingnews.com/agility-robotics-goes-public-at-a-2-5b-valuation-and-its-humanoid-robots-are-already-working-in-warehouses/"}
       ],
-      "summary": "OpenAI Daybreak 大規模擴張，GPT-5.5-Cyber 轉正式（限已驗證防禦方），在 CyberGym 評測拿下 85.6%，Codex Security 掃描 3 千萬+ commits，同日啟動開源漏洞修補計畫 Patch the Planet，CrowdStrike、Palo Alto、Cisco 等 28 家廠商加盟聯盟。",
-      "audience": "企業 IT 主管、資安從業人員、採購決策者、獨立開發者",
-      "pain_point": "AI 加速網路攻擊但防禦工具跟不上，企業代碼漏洞掃描靠人工太慢且成本高",
-      "title_idea": "OpenAI 打造 AI 安全聯盟！28 家頂級廠商聯手，GPT-5.5-Cyber 自動修補漏洞完整解析",
-      "local_angle": "台灣企業資安市場正在高速擴張，AI 主動防禦工具的繁中深度報導幾乎為零，此主題兼具教育性與商業機會"
+      "summary": "人形機器人 Digit v5 製造商 Agility Robotics 宣布透過 SPAC 上市（估值 25 億美元），Digit 已在 9 家企業工廠累積超過 65,000 小時商業運作，豐田在上市宣布前數日簽署合作協議。",
+      "audience": "對 AI + 機器人未來趨勢感興趣的職場人士、製造業從業者",
+      "pain_point": "覺得人形機器人還只是實驗室展示，不知道它已真實上崗多久、規模有多大",
+      "title_idea": "機器人同事要來了！倉庫機器人 Digit 已上班 65,000 小時，豐田都下單了，你的工作還安全嗎？",
+      "local_angle": "台灣製造業高度關注自動化，人形機器人商業落地故事幾乎無中文深度報導——從「威脅論」轉向「如何與 AI 機器人協作」的正面敘事，台灣讀者接受度高"
     },
     {
-      "title": "五眼聯盟同日發警告：AI 驅動的網路攻擊將在「數月內」到來，與 Daybreak 擴張形成強烈共鳴",
+      "title": "Figma Config 2026 重磅登場：Code Layers + 動畫 Shader + AI Agent 技能自訂，設計開發界線正式消失",
       "sources": [
-        {"name": "TechTimes", "url": "https://www.techtimes.com/articles/318900/20260623/openai-daybreak-expands-patch-pipeline-five-eyes-warns-ai-attacks-are-months-away.htm"},
-        {"name": "Infosecurity Magazine", "url": "https://www.infosecurity-magazine.com/news/openai-daybreak-gpt-5-5-cyber/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/"},
+        {"name": "Figma Release Notes", "url": "https://www.figma.com/release-notes/"}
       ],
-      "summary": "英美澳加紐五眼情報聯盟同日發出聯合警告，稱前沿 AI 模型將在「數月而非數年內」大幅提升攻擊者能力，強化企業導入 AI 防禦工具的緊迫性，與 OpenAI Daybreak 擴張形成產業共識。",
-      "audience": "企業決策者、CTO、IT 主管、關注 AI 安全工具的職場主管",
-      "pain_point": "傳統資安工具跟不上 AI 加速攻擊節奏，企業主不清楚現在需要做什麼準備",
-      "title_idea": "五眼聯盟警告來了：AI 網攻數月後升級，你的公司現在該部署哪些防禦工具？",
-      "local_angle": "台灣中小企業資安意識薄弱，此類政府級別的 AI 安全警告在繁中市場幾乎空白，有強烈的教育切入機會"
+      "summary": "Figma 在 Config 2026 發布重大更新，加入 Code Layers（直接在設計稿提取並測試程式碼）、動畫與 Shader 效果、AI 助手技能自訂腳本，以及 Weavy 節點式工作流整合。",
+      "audience": "UI/UX 設計師、前端工程師、產品經理",
+      "pain_point": "設計稿交付工程師後反覆溝通、動畫效果無法在 Figma 內直接呈現、設計和開發工具永遠分離",
+      "title_idea": "Figma 徹底進化！設計師終於可以直接在設計稿上測試程式碼？Code Layers 讓設計開發無縫接軌",
+      "local_angle": "Config 2026 剛落幕，中文 Figma 教學幾乎空白——搶做「Code Layers 實際操作教學」或「Figma AI 2026 完整功能盤點」，設計師族群搜尋量龐大，時機絕佳"
     }
   ],
   "tool_updates": [
     {
-      "title": "GPT-5.5-Cyber 正式發布（限驗證防禦方）：AI 漏洞偵測 CyberGym 評測 85.6%，Codex Security 突破 3 千萬 commits",
+      "title": "Figma x Weavy 工作流整合：在設計稿內直接生成 AI 節點式工作流，設計師可打通設計到自動化的最後一哩",
       "sources": [
-        {"name": "CybersecurityNews", "url": "https://cybersecuritynews.com/gpt-5-5-cyber/"},
-        {"name": "OpenAI Daybreak", "url": "https://openai.com/daybreak/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/"},
+        {"name": "HundredTabs Blog", "url": "https://hundredtabs.com/blog/figma-ai-updates-2026"}
       ],
-      "summary": "GPT-5.5-Cyber 從研究預覽轉正式，在 CyberGym 評測拿下 85.6%，Codex Security 已掃描逾 30,000 個代碼庫的 3,000 萬+ commits，超過 50 萬條漏洞自動關閉，7 萬+ 條由人工確認。",
-      "audience": "開發者、DevOps 工程師、企業資安負責人",
-      "pain_point": "代碼審查耗時耗力，人工無法跟上快速迭代節奏，安全漏洞難以規模化管理",
-      "title_idea": "3 個月掃 3 千萬 commits！OpenAI Codex Security 如何用 AI 幫你的代碼自動找漏洞",
-      "local_angle": "台灣軟體公司普遍缺乏資安人才，AI 代碼安全工具的繁中教學幾乏空白，技術向內容機會明確"
+      "summary": "Figma Config 2026 宣布整合 Weavy 節點式工作流工具，用戶未來可在 Figma 畫布內直接生成與管理自動化流程，預計 2026 年底前推出，設計工具和自動化工具將合而為一。",
+      "audience": "產品設計師、想用 AI 自動化工作流的職場人士、重度 Figma 用戶",
+      "pain_point": "設計工具和自動化工具完全分離，workflow 設計要在 Figma、n8n、Make 等多個工具間切換",
+      "title_idea": "Figma 要變成 n8n 了？Weavy 整合讓設計師直接在設計稿設定 AI 工作流，再也不用切換工具",
+      "local_angle": "Weavy 整合剛宣布、歐美討論熱度上升中，華語圈幾乎零報導——搶先介紹「設計師也能用 Figma 做 AI 自動化」，同時切入設計師 + 自動化雙族群"
     },
     {
-      "title": "OpenAI Patch the Planet 正式啟動：AI 自動掃描開源專案漏洞，大幅減輕維護者負擔",
+      "title": "OpenAI 發布 GPT-5 實戰案例報告：協助免疫學家破解 3 年懸案，AI 深度推理能力獲科學界真實驗證",
       "sources": [
-        {"name": "Engadget", "url": "https://www.engadget.com/2199569/openai-new-daybreak-initiative-open-source-projects-bugs/"},
-        {"name": "OpenAI Daybreak", "url": "https://openai.com/daybreak/"}
+        {"name": "OpenAI News", "url": "https://openai.com/news/"}
       ],
-      "summary": "OpenAI 正式啟動 Patch the Planet 計畫，以 Codex Security 協助開源專案識別漏洞、生成修補方案，維護者只需審核確認，目標是系統化提升關鍵開源軟體的整體安全性。",
-      "audience": "獨立開發者、開源專案維護者、使用開源工具的工程師",
-      "pain_point": "開源專案人手不足，安全漏洞難以及時發現和修補，維護者同時要顧功能又要顧安全",
-      "title_idea": "OpenAI 免費幫開源專案修 Bug？Patch the Planet 完整解析，維護者必看",
-      "local_angle": "台灣活躍開源社群（COSCUP 等）對此計畫幾乎無繁中報導，率先做深度介紹可快速獲取技術社群關注"
+      "summary": "OpenAI 發布 GPT-5 真實使用案例，GPT-5 協助免疫學家 Derya Unutmaz 解開困擾 3 年的複雜醫學謎題，展示 AI 在高難度、跨領域科學推理場景的實際能力。",
+      "audience": "對 AI 工具實際能力存疑的職場知識工作者、科技內容消費者",
+      "pain_point": "不確定 AI 是否真能處理複雜的專業問題，只看過 AI 做簡單文字生成任務",
+      "title_idea": "AI 真的在幫科學家解謎了！GPT-5 破解免疫學家 3 年懸案，這次不是行銷，是真實案例",
+      "local_angle": "科學界開始真實依賴 GPT-5 解決難題，台灣/華語圈討論仍停在「AI 會不會取代工作」——切入「AI 如何成為專業工作的思考夥伴」，展示具體場景，啟發職場族群"
     },
     {
-      "title": "Claude Desktop 企業部署大擴張：支援 AWS、Google Cloud、Microsoft Foundry，含 SSO 與離線部署選項",
+      "title": "OpenAI Jalapeño ASIC 晶片技術解析：9 個月開發、LLM 推理專用、成本比 Nvidia GPU 降 50%",
       "sources": [
-        {"name": "FutureTools News", "url": "https://futuretools.io/news"}
+        {"name": "CNBC", "url": "https://www.cnbc.com/2026/06/24/openai-and-broadcom-reveal-jalapeno-first-ai-chip-in-partnership.html"},
+        {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/technology/article/openai-and-broadcom-announce-first-custom-ai-chip-in-strike-at-nvidia-140518150.html"}
       ],
-      "summary": "Anthropic 宣布 Claude Desktop 擴展至三大企業雲端平台，支援企業 SSO 及離線部署選項，讓大型企業可在合規環境下部署 Claude，滿足金融、醫療等行業的資料主權需求。",
-      "audience": "企業 IT 決策者、採購主管、大型企業數位轉型負責人、顧問",
-      "pain_point": "企業導入 AI 工具受限於資安合規要求，公有雲 SaaS 無法滿足金融、醫療、政府等行業需求",
-      "title_idea": "Claude 可以關在自己的雲裡了！AWS / Google Cloud / Azure 離線部署完整指南",
-      "local_angle": "台灣金融業、政府機構有嚴格資料在地化要求，此功能直擊核心痛點，繁中市場相關報導幾乎空白"
-    },
-    {
-      "title": "Google Vertex Vector Search 2.0 正式 GA：向量＋全文混合搜尋、自動 Embedding，RAG 應用門檻大幅降低",
-      "sources": [
-        {"name": "Google Cloud Medium", "url": "https://medium.com/google-cloud/introducing-vertex-ai-vector-search-2-0-from-zero-to-billion-scale-90ed666dac43"},
-        {"name": "Google Codelabs", "url": "https://codelabs.developers.google.com/vector-search-2-intro"}
-      ],
-      "summary": "Google Vertex Vector Search 2.0 正式 GA，整合向量＋全文混合搜尋、Auto-Embedding、私有 VPC 部署，讓企業知識庫和 RAG 應用從開發到億級規模的路徑更完整、成本更低。",
-      "audience": "AI 應用開發者、技術型創業者、想建企業知識庫的工程師",
-      "pain_point": "RAG 應用搭建繁瑣，向量庫選型困難，企業合規部署缺乏一站式完整方案",
-      "title_idea": "Google 向量搜尋 2.0 正式 GA！從零到億級 RAG 知識庫，一套工具搞定的完整教學",
-      "local_angle": "台灣開發者在 RAG 應用領域快速增長，繁中的企業知識庫建置實戰教學稀缺，切入時機成熟"
+      "summary": "Jalapeño 是專為 LLM 推理優化的 ASIC 晶片，比通用 GPU 更便宜但靈活性較低，開發期僅 9 個月，本身已用 AI 輔助設計，代表 AI 自動化進入晶片設計領域。",
+      "audience": "AI 工具進階用戶、對 AI 基礎設施感興趣的開發者與技術創作者",
+      "pain_point": "想了解 AI 背後的硬體基礎，但技術資料難懂、中文解析稀少",
+      "title_idea": "9 個月設計一顆晶片！OpenAI 用 AI 設計 AI 晶片，Jalapeño 技術細節完整解析",
+      "local_angle": "台灣半導體 / IC 設計從業人員對此高度感興趣，技術向繁中內容稀缺——切入「AI 輔助晶片設計」或「ASIC vs GPU 差異」，技術族群轉換率高"
     }
   ],
   "trends": [
     {
-      "title": "AI 防禦工具軍備競賽加速：OpenAI vs Anthropic 同日出招，企業安全市場成 2026 下半年最大兵家必爭之地",
+      "title": "OpenAI + Anthropic 雙雙秘密遞交 IPO 申請：AI 獨角獸集體上市，估值合計逾兆美元",
       "sources": [
-        {"name": "TechTimes", "url": "https://www.techtimes.com/articles/318900/20260623/openai-daybreak-expands-patch-pipeline-five-eyes-warns-ai-attacks-are-months-away.htm"},
-        {"name": "Unite.AI", "url": "https://www.unite.ai/openais-daybreak-wants-to-own-the-patch-not-just-the-bug/"}
+        {"name": "AI Startup Edge", "url": "https://aistartupedge.com/latest-ai-news-june-2026/"},
+        {"name": "LLM Stats", "url": "https://llm-stats.com/llm-updates"}
       ],
-      "summary": "OpenAI Daybreak 和 Anthropic Claude Tag 在同一天推出，加上五眼聯盟警告，顯示 2026 下半年企業 AI 安全工具市場即將迎來爆發式採購潮，各大廠商搶先卡位。",
-      "audience": "企業決策者、科技自媒體創作者、關注 AI 產業趨勢的人",
-      "pain_point": "不知道 AI 安全工具市場走向，難以判斷哪些工具值得學習和推薦",
-      "title_idea": "OpenAI 和 Anthropic 同一天出招：2026 年 AI 安全工具戰爭正式開打！",
-      "local_angle": "此趨勢分析在繁中市場幾乎空白，提前做產業分析可建立意見領袖地位，對企業受眾吸引力強"
+      "summary": "OpenAI 準備以 7,300 億美元估值秘密遞交 IPO 申請（最快 9 月掛牌），Anthropic 也以 9,650 億美元估值緊隨其後提交草案，AI 主要玩家進入集體上市序幕。",
+      "audience": "關注 AI 產業走向的創作者、科技從業人員、投資觀察者",
+      "pain_point": "AI 產業天天在變，不知道大廠上市後對日常使用的工具定價有何影響",
+      "title_idea": "OpenAI 和 Anthropic 都要上市了！估值合計破兆，你的 AI 工具訂閱費會漲還是跌？",
+      "local_angle": "AI IPO 是全球焦點，華語圈報導多聚焦在股價數字——切入「上市對 ChatGPT / Claude API 定價的影響分析」，職場用戶更有共鳴"
     },
     {
-      "title": "獨立創業者 AI 工具成本結構驗證：月費 $30-300 可支撐 $1M ARR，一人公司商業模式大規模驗證",
+      "title": "AI 硬體垂直整合趨勢：OpenAI 自製晶片意味 AI 公司從「模型服務商」進化為「全棧基礎設施提供者」",
+      "sources": [
+        {"name": "CNBC", "url": "https://www.cnbc.com/2026/06/24/openai-and-broadcom-reveal-jalapeno-first-ai-chip-in-partnership.html"},
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/"}
+      ],
+      "summary": "OpenAI 自研晶片是 AI 公司從純軟體向硬體整合演進的重要信號，正式對 Nvidia 主導地位發起挑戰，未來 AI 服務成本結構將根本性改變，受益者最終是終端用戶。",
+      "audience": "科技趨勢觀察者、AI 內容創作者、關注 AI 基礎設施走向的從業人員",
+      "pain_point": "不清楚 AI 產業下一個競爭戰場在哪裡，擔心錯過重要趨勢",
+      "title_idea": "AI 的下一場戰爭不在模型，在晶片！OpenAI 自製 ASIC，要徹底擺脫 Nvidia 依賴了嗎？",
+      "local_angle": "台灣半導體產業與 AI 晶片高度相關，切入「Jalapeño 晶片對台積電訂單格局的影響」或「AI 全棧化對台灣 IC 設計產業的啟示」，具有強烈本地化優勢"
+    },
+    {
+      "title": "AI solopreneur 時代成型：完整 AI 工具堆疊年費 $3,000–12,000，比傳統團隊成本降低 95–98%",
       "sources": [
         {"name": "Fortune", "url": "https://fortune.com/2026/05/18/solo-founders-ai-automation-entire-teams-entrepreneurs/"},
-        {"name": "Alfred Blog", "url": "https://get-alfred.ai/blog/best-ai-tools-for-solopreneurs"}
+        {"name": "PrometAI Blog", "url": "https://prometai.app/blog/solopreneur-tech-stack-2026"}
       ],
-      "summary": "多份 2026 年研究確認，獨立創業者月花 $30-300 的 AI 工具堆疊（含內容、行銷、工程、客服）已可替代完整團隊功能，支撐 $1M ARR 的商業模式驗證成本大幅降低。",
-      "audience": "想創業或副業的職場上班族、自媒體創作者、獨立開發者",
-      "pain_point": "想用 AI 創業卻不知道該用哪些工具、擔心成本過高、不確定 AI 是否能真的替代團隊",
-      "title_idea": "月花 $30 到 $300 的 AI 工具清單，讓你一個人做到年收百萬！2026 最新歐美驗證",
-      "local_angle": "台灣職場上班族副業創業意願強，「AI 到底能省多少成本」缺乏具體數字，此主題歐美已大量驗證、繁中幾乎沒有實際試算，資訊差紅利明確"
+      "summary": "歐美多份研究顯示，2026 年 AI solopreneur 可用 $3,000–12,000 美元年費的工具堆疊完成傳統需要整個團隊的工作，AI 正讓個人創業者的成本門檻降至歷史低點。",
+      "audience": "想用 AI 提升個人工作效率的職場上班族、考慮創業或接案的知識工作者",
+      "pain_point": "覺得 AI 工具很多但不知如何組合成完整工作流，投入成本是否真的值得",
+      "title_idea": "一個人用 AI 頂一個團隊！2026 年 solopreneur 完整 AI 工具清單，年費不到 $12,000 美元就搞定",
+      "local_angle": "歐美已有大量 solopreneur 案例驗證，華語圈討論仍停在「AI 工具推薦清單」——做一期「完整工作流實測」，展示從接案到交付全程 AI 輔助的真實場景，轉化率遠高於工具推薦"
     }
   ],
   "source_coverage_notes": {
-    "status": "日期驗證完成 (2026-06-23)",
+    "status": "日期驗證完成 (2026-06-24)",
     "coverage": [
       {
         "source": "TechCrunch AI",
         "status": "✅",
-        "count": 1,
-        "note": "確認 1 篇 URL 含 /2026/06/23/ 的 AI 相關文章：Anthropic Claude Tag 登場（另有 Founder Summit 活動文章不計入）。"
+        "count": 3,
+        "note": "確認 3 篇 URL 含 /2026/06/24/ 的 AI 相關文章：① OpenAI Jalapeño 晶片、② Figma Config 2026 大更新、③ Agility Robotics SPAC 上市。"
       },
       {
         "source": "FutureTools.io",
         "status": "⚠️",
-        "count": 0,
-        "note": "昨日（June 23）無新更新，最新內容為 June 22（Claude Desktop 企業雲擴展），已納入工具更新並標注日期為 June 22。"
+        "count": 1,
+        "note": "網頁顯示 June 24 僅有 OpenAI Jalapeño 晶片（已收入大事件），其餘內容均為 June 23 或更早，如實記錄。"
       },
       {
         "source": "The Verge AI",
         "status": "❌",
         "count": 0,
-        "note": "WebFetch 返回 403 Forbidden，無法存取，如實記錄。"
+        "note": "WebFetch 返回存取錯誤，無法存取，如實記錄。"
       },
       {
-        "source": "WebSearch AI news June 23",
+        "source": "WebSearch AI news June 24",
         "status": "✅",
-        "count": 7,
-        "note": "OpenAI Daybreak 擴張（TechTimes URL 含 20260623）、GPT-5.5-Cyber 發布、Patch the Planet 啟動、五眼聯盟警告均確認為 June 23。"
+        "count": 5,
+        "note": "OpenAI Jalapeño 晶片（Bloomberg/CNBC URL 含 2026-06-24 確認）、OpenAI GPT-5 免疫學家案例、OpenAI Daybreak GPT-5.5-Cyber（June 2026 確認）、OpenAI + Anthropic IPO 準備（June 2026 context）、Agility Robotics 商業部署細節。"
       },
       {
         "source": "YouTube 頻道（Matt Wolfe、Matthew Berman 等）",
         "status": "❌",
         "count": 0,
-        "note": "YouTube 頻道頁面無法直接抓取昨日影片，WebSearch site:youtube.com 亦未返回 June 23 具體影片，如實記錄。"
+        "note": "YouTube 頻道頁面無法直接抓取昨日影片列表，WebSearch 亦未返回 June 24 具體影片，如實記錄。"
       },
       {
         "source": "X / Twitter 關鍵帳號",
         "status": "❌",
         "count": 0,
-        "note": "X/Twitter 存取受限，未能抓取 @OpenAI、@AnthropicAI 等帳號昨日貼文，重點訊息已透過 WebSearch 間接覆蓋。"
+        "note": "X/Twitter 存取受限，未能抓取 @OpenAI、@AnthropicAI、@GoogleDeepMind 等帳號昨日貼文，重點訊息已透過 TechCrunch、Bloomberg、CNBC 等媒體間接覆蓋。"
       }
     ],
-    "explanation": "2026-06-23 日報精選 9 則核心情報（3 大事件、4 工具更新、2 趨勢）。TechCrunch /2026/06/23/ URL 確認 Claude Tag 文章，TechTimes URL 含 20260623 確認 Daybreak 擴張報導，其餘 June 23 資訊透過多家媒體 WebSearch 交叉驗證。Claude Desktop 企業雲擴展來自 FutureTools June 22 最新條目，已標注。YouTube 頻道及 The Verge 無法存取，如實記錄。"
+    "explanation": "2026-06-24 日報精選 9 則核心情報（3 大事件、3 工具更新、3 趨勢）。TechCrunch /2026/06/24/ URL 確認 3 篇文章，Bloomberg 及 CNBC URL 含 2026-06-24 進一步佐證 Jalapeño 晶片報導，OpenAI GPT-5 免疫學家案例與 Daybreak 資訊透過 WebSearch 確認為 June 2026 發布。solopreneur 趨勢條目援引 Fortune 5 月報告作為持續性趨勢佐證，非單日新聞。YouTube 頻道及 The Verge 無法存取，如實記錄。"
   }
 }
