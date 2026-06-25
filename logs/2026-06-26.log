@@ -1,1 +1,21 @@
 === Fri Jun 26 01:00:01 CST 2026 | Starting daily AI report ===
+DONE
+
+日報已完成，`latest_topics.json` 寫入 9 則 2026-06-25 精選情報，看板已更新。
+
+**本日來源覆蓋摘要：**
+| 來源 | 狀態 | 數量 |
+|------|------|------|
+| TechCrunch AI (URL 含 /2026/06/25/) | ✅ | 6 篇 |
+| OpenAI 官方 | ✅ | 1 篇 |
+| FutureTools.io | ❌ | 0（最新截至 6/24，無昨日更新）|
+| The Verge AI | ❌ | 0（無法存取）|
+| YouTube 頻道 | ❌ | 0（無法抓取）|
+| X / Twitter | ❌ | 0（存取受限）|
+
+**今日精選（9 則）：**
+- **大事件**：OpenAI Jalapeño 晶片官宣、Adobe 收購 Topaz Labs、Amazon 130 億印度 AI 投資
+- **工具更新**：Google Finance AI App、Topaz Labs 技術整合 Adobe Firefly、Unconventional AI 1000x 省電晶片
+- **趨勢**：General Intuition 電玩訓練 AI Agent、Netris AI 雲端快速部署、六月 AI 模型大爆發
+--- AI report finished at Fri Jun 26 01:06:13 CST 2026 ---
+=== Fri Jun 26 01:06:13 CST 2026 | Starting daily finance report ===
