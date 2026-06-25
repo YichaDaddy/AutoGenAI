@@ -1,159 +1,160 @@
 {
-  "date": "2026-06-24",
+  "date": "2026-06-25",
   "big_events": [
     {
-      "title": "OpenAI 首款自研 AI 晶片「Jalapeño」亮相，聯手 Broadcom，推理成本較現有 GPU 降 50%",
+      "title": "OpenAI x Broadcom 正式確認「Jalapeño」首款 LLM 推論晶片，九個月完成設計，年底前部署",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/"},
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-06-24/openai-and-broadcom-unveil-ai-chip-to-run-models-faster-cheaper"},
-        {"name": "CNBC", "url": "https://www.cnbc.com/2026/06/24/openai-and-broadcom-reveal-jalapeno-first-ai-chip-in-partnership.html"}
+        {"name": "OpenAI 官方", "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/"},
+        {"name": "The AI Insider", "url": "https://theaiinsider.tech/2026/06/25/openai-unveils-jalapeno-its-first-custom-ai-inference-chip-built-with-broadcom/"},
+        {"name": "Tom's Hardware", "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/broadcom-and-openai-unveil-custom-built-jalapeno-inference-processor-openais-first-chip-is-a-massive-reticle-sized-asic-built-in-an-ultra-fast-nine-month-development-cycle"},
+        {"name": "Winbuzzer", "url": "https://winbuzzer.com/2026/06/25/openai-and-broadcom-unveil-jalapeo-ai-inference-chip-xcxwbn/"}
       ],
-      "summary": "OpenAI 與 Broadcom 合作推出首款自研 ASIC 晶片 Jalapeño，專為 LLM 推理優化，成本比現有 GPU 低 50%，僅花 9 個月開發完成，預計 2026 年底開始大規模部署。",
-      "audience": "職場 AI 工具重度使用者、關注 API 費用的開發者與上班族",
-      "pain_point": "AI API 費用高、使用量受限，擔心 AI 工具長期成本不可控",
-      "title_idea": "AI 要變便宜了！OpenAI 自研晶片讓推理成本砍半，你的 ChatGPT 訂閱費快要降了？",
-      "local_angle": "歐美科技圈大量報導，華語圈深度解析幾乎空白——搶先產出「Jalapeño 晶片對一般用戶的實際影響」分析，切入 AI API 價格走勢教學，資訊差紅利極大"
+      "summary": "OpenAI 與 Broadcom 官方發布首款自研推論晶片 Jalapeño，專為 LLM 推論優化，效能每瓦遠超現有 GPU，由 AI 輔助完成晶片設計，預計 2026 年底進入大規模部署。",
+      "audience": "職場 AI 工具重度使用者、關注 ChatGPT API 費用的開發者與上班族",
+      "pain_point": "ChatGPT 有時回應慢、API 費用高，擔心長期 AI 使用成本不可控",
+      "title_idea": "OpenAI 自己造晶片正式官宣！Jalapeño 晶片發布，ChatGPT 要變多快多便宜？",
+      "local_angle": "昨日歐美科技圈炸鍋，但華語圈缺少「對一般用戶的實際影響」視角——搶做「Jalapeño 晶片對 ChatGPT 速度與 API 定價的影響」科普，資訊差極大"
     },
     {
-      "title": "人形機器人公司 Agility Robotics 宣布以 25 億美元估值 SPAC 上市，Digit v5 已在 9 家工廠商業落地",
+      "title": "Adobe 宣布收購 AI 影像暨影片增強工具商 Topaz Labs，整合進 Firefly 與 Creative Cloud",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/"},
-        {"name": "Tech Funding News", "url": "https://techfundingnews.com/agility-robotics-goes-public-at-a-2-5b-valuation-and-its-humanoid-robots-are-already-working-in-warehouses/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/25/adobe-acquires-image-and-video-enhancement-tool-maker-topaz-labs/"}
       ],
-      "summary": "人形機器人 Digit v5 製造商 Agility Robotics 宣布透過 SPAC 上市（估值 25 億美元），Digit 已在 9 家企業工廠累積超過 65,000 小時商業運作，豐田在上市宣布前數日簽署合作協議。",
-      "audience": "對 AI + 機器人未來趨勢感興趣的職場人士、製造業從業者",
-      "pain_point": "覺得人形機器人還只是實驗室展示，不知道它已真實上崗多久、規模有多大",
-      "title_idea": "機器人同事要來了！倉庫機器人 Digit 已上班 65,000 小時，豐田都下單了，你的工作還安全嗎？",
-      "local_angle": "台灣製造業高度關注自動化，人形機器人商業落地故事幾乎無中文深度報導——從「威脅論」轉向「如何與 AI 機器人協作」的正面敘事，台灣讀者接受度高"
+      "summary": "Adobe 收購以 AI 影片升清（Astra）和影像增強（Wonder）著稱的 Topaz Labs，計畫整合至 Firefly 與整個創意套件，強化對抗 Canva 和 DaVinci 的競爭力，交易年底前完成。",
+      "audience": "內容創作者、設計師、自媒體人、使用 Adobe Creative Cloud 的職場人士",
+      "pain_point": "AI 修圖/升清工具分散在 Topaz Labs 等獨立訂閱，希望在慣用的 Adobe 套件內直接取用",
+      "title_idea": "Adobe 花錢買走最強 AI 修圖工具！Topaz 進 Firefly 後，普通人也能用專業級 AI 影像升清",
+      "local_angle": "Topaz Labs 在歐美攝影/影片圈是神器級工具，台灣多數創作者還沒用過——整合教學及「Adobe Firefly 2026 完整功能」選題時機絕佳"
     },
     {
-      "title": "Figma Config 2026 重磅登場：Code Layers + 動畫 Shader + AI Agent 技能自訂，設計開發界線正式消失",
+      "title": "Amazon 宣布 2030 年前追加 130 億美元擴建印度 AI 基礎建設，累計承諾達 480 億美元",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/"},
-        {"name": "Figma Release Notes", "url": "https://www.figma.com/release-notes/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment/"}
       ],
-      "summary": "Figma 在 Config 2026 發布重大更新，加入 Code Layers（直接在設計稿提取並測試程式碼）、動畫與 Shader 效果、AI 助手技能自訂腳本，以及 Weavy 節點式工作流整合。",
-      "audience": "UI/UX 設計師、前端工程師、產品經理",
-      "pain_point": "設計稿交付工程師後反覆溝通、動畫效果無法在 Figma 內直接呈現、設計和開發工具永遠分離",
-      "title_idea": "Figma 徹底進化！設計師終於可以直接在設計稿上測試程式碼？Code Layers 讓設計開發無縫接軌",
-      "local_angle": "Config 2026 剛落幕，中文 Figma 教學幾乎空白——搶做「Code Layers 實際操作教學」或「Figma AI 2026 完整功能盤點」，設計師族群搜尋量龐大，時機絕佳"
+      "summary": "亞馬遜宣布追加 130 億美元強化印度 AI 與雲端基建（孟買、海德拉巴 AWS 資料中心），彰顯印度成全球 AI 算力競爭新重鎮，科技巨頭爭相布局亞洲市場。",
+      "audience": "關注 AI 產業格局的職場科技愛好者、創業者",
+      "pain_point": "想了解 AI 算力競賽的全球版圖，以及未來 AI 服務成本走勢",
+      "title_idea": "AI 算力戰爭打進亞洲！AWS 再砸 130 億投印度，下一個 AI 基建重鎮為什麼不是台灣？",
+      "local_angle": "台灣有半導體優勢但 AI 基建話語權偏弱，從「台灣視角」解讀印度 AI 崛起，具強烈在地共鳴"
     }
   ],
   "tool_updates": [
     {
-      "title": "Figma x Weavy 工作流整合：在設計稿內直接生成 AI 節點式工作流，設計師可打通設計到自動化的最後一哩",
+      "title": "Google Finance 推獨立 Android App，AI「Key Moments」功能自動解讀股市漲跌原因",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/"},
-        {"name": "HundredTabs Blog", "url": "https://hundredtabs.com/blog/figma-ai-updates-2026"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/25/google-finance-gets-a-dedicated-app-for-android/"}
       ],
-      "summary": "Figma Config 2026 宣布整合 Weavy 節點式工作流工具，用戶未來可在 Figma 畫布內直接生成與管理自動化流程，預計 2026 年底前推出，設計工具和自動化工具將合而為一。",
-      "audience": "產品設計師、想用 AI 自動化工作流的職場人士、重度 Figma 用戶",
-      "pain_point": "設計工具和自動化工具完全分離，workflow 設計要在 Figma、n8n、Make 等多個工具間切換",
-      "title_idea": "Figma 要變成 n8n 了？Weavy 整合讓設計師直接在設計稿設定 AI 工作流，再也不用切換工具",
-      "local_angle": "Weavy 整合剛宣布、歐美討論熱度上升中，華語圈幾乎零報導——搶先介紹「設計師也能用 Figma 做 AI 自動化」，同時切入設計師 + 自動化雙族群"
+      "summary": "Google Finance 推出 Android 獨立 App，內建 AI「Key Moments」解讀股票波動，可用自然語言設定定時市場簡報與持倉分析任務，iOS 版本稍後推出。",
+      "audience": "有投資習慣的職場上班族、想用 AI 管理財務的知識工作者",
+      "pain_point": "每天要自己查股票新聞太耗時，希望 AI 能自動整理「今天市場發生了什麼、為什麼漲跌」",
+      "title_idea": "Google 把 AI 塞進財經 App！以後看股票不用自己猜，AI 直接告訴你漲跌原因",
+      "local_angle": "Google Finance 在台灣使用率高，但此 App 的 AI 功能幾乎無中文教學——搶做使用教學與「自然語言設定財經任務」實測，職場理財族群接受度高"
     },
     {
-      "title": "OpenAI 發布 GPT-5 實戰案例報告：協助免疫學家破解 3 年懸案，AI 深度推理能力獲科學界真實驗證",
+      "title": "Topaz Labs 旗艦 AI 技術（Astra 影片超解析＋Wonder 影像增強）即將原生整合 Adobe Firefly",
       "sources": [
-        {"name": "OpenAI News", "url": "https://openai.com/news/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/25/adobe-acquires-image-and-video-enhancement-tool-maker-topaz-labs/"}
       ],
-      "summary": "OpenAI 發布 GPT-5 真實使用案例，GPT-5 協助免疫學家 Derya Unutmaz 解開困擾 3 年的複雜醫學謎題，展示 AI 在高難度、跨領域科學推理場景的實際能力。",
-      "audience": "對 AI 工具實際能力存疑的職場知識工作者、科技內容消費者",
-      "pain_point": "不確定 AI 是否真能處理複雜的專業問題，只看過 AI 做簡單文字生成任務",
-      "title_idea": "AI 真的在幫科學家解謎了！GPT-5 破解免疫學家 3 年懸案，這次不是行銷，是真實案例",
-      "local_angle": "科學界開始真實依賴 GPT-5 解決難題，台灣/華語圈討論仍停在「AI 會不會取代工作」——切入「AI 如何成為專業工作的思考夥伴」，展示具體場景，啟發職場族群"
+      "summary": "Topaz Labs 的 Astra 影片升清模型和 Wonder 影像增強工具，以及讓大型 AI 模型跑在消費級 GPU 上的核心技術，收購後將整合進 Adobe Premiere Pro、Lightroom 和 Firefly。",
+      "audience": "使用 Premiere Pro / Lightroom 的影片創作者、YouTuber、自媒體工作者",
+      "pain_point": "影片解析度不足、舊素材畫質差，需付費購買額外訂閱才能升清",
+      "title_idea": "不用再另外買 Topaz！Adobe 整合 AI 升清神器後，Premiere 直接升 4K 有多強？",
+      "local_angle": "台灣許多 YouTuber 仍需單獨購買 Topaz 外掛，整合後的新工作流尚無中文教學——率先示範可搶佔流量"
     },
     {
-      "title": "OpenAI Jalapeño ASIC 晶片技術解析：9 個月開發、LLM 推理專用、成本比 Nvidia GPU 降 50%",
+      "title": "Unconventional AI 展示振盪器晶片架構：Naveen Rao 宣稱推論耗電可降低 1,000 倍",
       "sources": [
-        {"name": "CNBC", "url": "https://www.cnbc.com/2026/06/24/openai-and-broadcom-reveal-jalapeno-first-ai-chip-in-partnership.html"},
-        {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/technology/article/openai-and-broadcom-announce-first-custom-ai-chip-in-strike-at-nvidia-140518150.html"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x/"}
       ],
-      "summary": "Jalapeño 是專為 LLM 推理優化的 ASIC 晶片，比通用 GPU 更便宜但靈活性較低，開發期僅 9 個月，本身已用 AI 輔助設計，代表 AI 自動化進入晶片設計領域。",
-      "audience": "AI 工具進階用戶、對 AI 基礎設施感興趣的開發者與技術創作者",
-      "pain_point": "想了解 AI 背後的硬體基礎，但技術資料難懂、中文解析稀少",
-      "title_idea": "9 個月設計一顆晶片！OpenAI 用 AI 設計 AI 晶片，Jalapeño 技術細節完整解析",
-      "local_angle": "台灣半導體 / IC 設計從業人員對此高度感興趣，技術向繁中內容稀缺——切入「AI 輔助晶片設計」或「ASIC vs GPU 差異」，技術族群轉換率高"
+      "summary": "前 Databricks AI 長 Naveen Rao 創辦 Unconventional AI，以振盪器運算架構取代傳統 GPU，實測影像生成模型媲美頂規水準，目標讓 AI 推論耗電降低 1,000 倍以解決電費瓶頸。",
+      "audience": "關注 AI 基礎設施成本、希望 AI 更便宜普及的職場科技愛好者",
+      "pain_point": "AI 服務費貴、AI 電費問題讓人擔心長期使用成本持續攀升",
+      "title_idea": "AI 電費要爆炸？前 Databricks 高管說他找到解法——推論耗電少 1,000 倍的新型晶片",
+      "local_angle": "台灣媒體報導 AI 耗電多聚焦政策議題，這個「技術突破」切角幾乎沒人做——科普機會極大"
     }
   ],
   "trends": [
     {
-      "title": "OpenAI + Anthropic 雙雙秘密遞交 IPO 申請：AI 獨角獸集體上市，估值合計逾兆美元",
+      "title": "General Intuition 23 億美元押注：用電玩訓練 AI Agent 比真實世界數據更便宜且可擴展",
       "sources": [
-        {"name": "AI Startup Edge", "url": "https://aistartupedge.com/latest-ai-news-june-2026/"},
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/"}
+      ],
+      "summary": "新創 General Intuition 利用數百萬小時電玩影片與玩家操作數據訓練 AI Agent 空間推理能力，估值達 23 億美元，被投資人視為具身 AI 和機器人訓練數據的可擴展替代方案。",
+      "audience": "對 AI Agent、機器人和未來自動化感興趣的科技愛好者、開發者",
+      "pain_point": "好奇 AI Agent 要怎麼學會「做事」，真實世界的訓練數據為何昂貴且難以取得",
+      "title_idea": "打電動居然能訓練機器人！這家公司估值 23 億美元，靠遊戲數據教 AI 認識真實世界",
+      "local_angle": "電玩 × AI Agent 的交叉話題在台灣幾乎是空白，適合科普科技頻道搶佔先機"
+    },
+    {
+      "title": "Netris 獲 a16z 領投 1,500 萬 Series A：AI Neocloud 快速上線工具，GPU 雲端創業門檻大降",
+      "sources": [
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/25/netris-raises-15m-series-a-from-a16z-to-help-ai-neoclouds-go-live-faster/"}
+      ],
+      "summary": "Netris 獲 a16z 投資，提供 AI 雲端基礎建設軟體，讓新興 AI 算力供應商（Neocloud）壓縮上線時間，使獨立開發者和小團隊快速搭建 GPU 租賃或 AI 算力服務。",
+      "audience": "有意從事 AI 算力創業或 GPU 雲端服務的技術創業者、獨立開發者",
+      "pain_point": "想跟上 AI 基建創業浪潮但不知如何快速搭建算力平台",
+      "title_idea": "a16z 押注 AI 算力基建！有了 Netris，個人也能快速建立自己的 AI 雲端服務？",
+      "local_angle": "AI GPU 雲端創業在台灣屬冷門話題，但全球機會已爆發——作為前瞻趨勢選題具備顯著資訊差"
+    },
+    {
+      "title": "六月 AI 模型大爆發：GPT-5.6、Gemini 3.5 Pro、Claude 4.8 競相發布，職場工具選擇迎來最複雜時刻",
+      "sources": [
+        {"name": "Essa Mamdani Blog", "url": "https://www.essamamdani.com/blog/june-2026-ai-model-flood-gpt-gemini-claude"},
         {"name": "LLM Stats", "url": "https://llm-stats.com/llm-updates"}
       ],
-      "summary": "OpenAI 準備以 7,300 億美元估值秘密遞交 IPO 申請（最快 9 月掛牌），Anthropic 也以 9,650 億美元估值緊隨其後提交草案，AI 主要玩家進入集體上市序幕。",
-      "audience": "關注 AI 產業走向的創作者、科技從業人員、投資觀察者",
-      "pain_point": "AI 產業天天在變，不知道大廠上市後對日常使用的工具定價有何影響",
-      "title_idea": "OpenAI 和 Anthropic 都要上市了！估值合計破兆，你的 AI 工具訂閱費會漲還是跌？",
-      "local_angle": "AI IPO 是全球焦點，華語圈報導多聚焦在股價數字——切入「上市對 ChatGPT / Claude API 定價的影響分析」，職場用戶更有共鳴"
-    },
-    {
-      "title": "AI 硬體垂直整合趨勢：OpenAI 自製晶片意味 AI 公司從「模型服務商」進化為「全棧基礎設施提供者」",
-      "sources": [
-        {"name": "CNBC", "url": "https://www.cnbc.com/2026/06/24/openai-and-broadcom-reveal-jalapeno-first-ai-chip-in-partnership.html"},
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/"}
-      ],
-      "summary": "OpenAI 自研晶片是 AI 公司從純軟體向硬體整合演進的重要信號，正式對 Nvidia 主導地位發起挑戰，未來 AI 服務成本結構將根本性改變，受益者最終是終端用戶。",
-      "audience": "科技趨勢觀察者、AI 內容創作者、關注 AI 基礎設施走向的從業人員",
-      "pain_point": "不清楚 AI 產業下一個競爭戰場在哪裡，擔心錯過重要趨勢",
-      "title_idea": "AI 的下一場戰爭不在模型，在晶片！OpenAI 自製 ASIC，要徹底擺脫 Nvidia 依賴了嗎？",
-      "local_angle": "台灣半導體產業與 AI 晶片高度相關，切入「Jalapeño 晶片對台積電訂單格局的影響」或「AI 全棧化對台灣 IC 設計產業的啟示」，具有強烈本地化優勢"
-    },
-    {
-      "title": "AI solopreneur 時代成型：完整 AI 工具堆疊年費 $3,000–12,000，比傳統團隊成本降低 95–98%",
-      "sources": [
-        {"name": "Fortune", "url": "https://fortune.com/2026/05/18/solo-founders-ai-automation-entire-teams-entrepreneurs/"},
-        {"name": "PrometAI Blog", "url": "https://prometai.app/blog/solopreneur-tech-stack-2026"}
-      ],
-      "summary": "歐美多份研究顯示，2026 年 AI solopreneur 可用 $3,000–12,000 美元年費的工具堆疊完成傳統需要整個團隊的工作，AI 正讓個人創業者的成本門檻降至歷史低點。",
-      "audience": "想用 AI 提升個人工作效率的職場上班族、考慮創業或接案的知識工作者",
-      "pain_point": "覺得 AI 工具很多但不知如何組合成完整工作流，投入成本是否真的值得",
-      "title_idea": "一個人用 AI 頂一個團隊！2026 年 solopreneur 完整 AI 工具清單，年費不到 $12,000 美元就搞定",
-      "local_angle": "歐美已有大量 solopreneur 案例驗證，華語圈討論仍停在「AI 工具推薦清單」——做一期「完整工作流實測」，展示從接案到交付全程 AI 輔助的真實場景，轉化率遠高於工具推薦"
+      "summary": "GPT-5.6、Gemini 3.5 Pro 和 Claude 4.8 在六月集中上線，AI 模型市場進入能力高度接近的白熱化競爭，職場使用者面臨「用哪個最划算、怎麼切換」的新困惑。",
+      "audience": "日常使用 AI 工具的職場上班族、需要為團隊選擇 AI 訂閱方案的管理者",
+      "pain_point": "三家 AI 巨頭同期出新模型，不知怎麼選、哪個最值回票價、功能差異在哪",
+      "title_idea": "GPT-5.6 vs Gemini 3.5 Pro vs Claude 4.8 同月殺出！2026 年職場人必看的 AI 模型選擇指南",
+      "local_angle": "歐美已有大量英文比較評測，繁體中文版「職場實戰場景比較」幾乎空白——做本地化測試內容，對職場族群轉換率極高"
     }
   ],
   "source_coverage_notes": {
-    "status": "日期驗證完成 (2026-06-24)",
+    "status": "日期驗證完成 (2026-06-25)",
     "coverage": [
       {
         "source": "TechCrunch AI",
         "status": "✅",
-        "count": 3,
-        "note": "確認 3 篇 URL 含 /2026/06/24/ 的 AI 相關文章：① OpenAI Jalapeño 晶片、② Figma Config 2026 大更新、③ Agility Robotics SPAC 上市。"
+        "count": 6,
+        "note": "確認 6 篇 URL 含 /2026/06/25/ 的文章：① OpenAI Jalapeño 晶片官宣、② Adobe 收購 Topaz Labs、③ Amazon 130 億印度 AI 投資、④ Google Finance AI App、⑤ General Intuition $2.3B、⑥ Databricks AI 長創業 Unconventional AI。另有 Netris a16z Series A（同日）。"
+      },
+      {
+        "source": "OpenAI 官方",
+        "status": "✅",
+        "count": 1,
+        "note": "openai.com/index/openai-broadcom-jalapeno-inference-chip/ 確認為 June 25 發布，多家媒體（The AI Insider、Winbuzzer URL 均含 2026/06/25）佐證。"
       },
       {
         "source": "FutureTools.io",
-        "status": "⚠️",
-        "count": 1,
-        "note": "網頁顯示 June 24 僅有 OpenAI Jalapeño 晶片（已收入大事件），其餘內容均為 June 23 或更早，如實記錄。"
+        "status": "❌",
+        "count": 0,
+        "note": "網頁顯示最新 AI 工具動態截至 June 24，無 June 25 新增工具更新，如實記錄，不以舊文充數。"
       },
       {
         "source": "The Verge AI",
         "status": "❌",
         "count": 0,
-        "note": "WebFetch 返回存取錯誤，無法存取，如實記錄。"
+        "note": "WebFetch 返回存取錯誤，無法抓取，如實記錄。"
       },
       {
-        "source": "WebSearch AI news June 24",
+        "source": "WebSearch 補充搜尋",
         "status": "✅",
-        "count": 5,
-        "note": "OpenAI Jalapeño 晶片（Bloomberg/CNBC URL 含 2026-06-24 確認）、OpenAI GPT-5 免疫學家案例、OpenAI Daybreak GPT-5.5-Cyber（June 2026 確認）、OpenAI + Anthropic IPO 準備（June 2026 context）、Agility Robotics 商業部署細節。"
+        "count": 3,
+        "note": "補充確認 Jalapeño 晶片多來源報導、Google Finance AI App 功能細節、六月 AI 模型競爭趨勢。"
       },
       {
         "source": "YouTube 頻道（Matt Wolfe、Matthew Berman 等）",
         "status": "❌",
         "count": 0,
-        "note": "YouTube 頻道頁面無法直接抓取昨日影片列表，WebSearch 亦未返回 June 24 具體影片，如實記錄。"
+        "note": "YouTube 頻道頁面無法直接抓取昨日影片列表，WebSearch 亦未返回 June 25 具體影片，如實記錄。"
       },
       {
         "source": "X / Twitter 關鍵帳號",
         "status": "❌",
         "count": 0,
-        "note": "X/Twitter 存取受限，未能抓取 @OpenAI、@AnthropicAI、@GoogleDeepMind 等帳號昨日貼文，重點訊息已透過 TechCrunch、Bloomberg、CNBC 等媒體間接覆蓋。"
+        "note": "X/Twitter 存取受限，無法抓取 @OpenAI、@AnthropicAI、@GoogleDeepMind 等昨日貼文，重要訊息已透過 TechCrunch 及 OpenAI 官方頁面間接覆蓋。"
       }
     ],
-    "explanation": "2026-06-24 日報精選 9 則核心情報（3 大事件、3 工具更新、3 趨勢）。TechCrunch /2026/06/24/ URL 確認 3 篇文章，Bloomberg 及 CNBC URL 含 2026-06-24 進一步佐證 Jalapeño 晶片報導，OpenAI GPT-5 免疫學家案例與 Daybreak 資訊透過 WebSearch 確認為 June 2026 發布。solopreneur 趨勢條目援引 Fortune 5 月報告作為持續性趨勢佐證，非單日新聞。YouTube 頻道及 The Verge 無法存取，如實記錄。"
+    "explanation": "2026-06-25 日報精選 9 則核心情報（3 大事件、3 工具更新、3 趨勢）。TechCrunch URL /2026/06/25/ 確認 6 篇文章，OpenAI 官方頁面及多家媒體 URL 含 2026/06/25 確認 Jalapeño 晶片為昨日事件。FutureTools 及 The Verge 無法取得昨日內容，如實記錄，未以舊文充數。六月 AI 模型競爭趨勢條目援引持續性 June 2026 資料作為趨勢佐證。"
   }
 }
