@@ -222,7 +222,29 @@ git add -A
 git commit -m "auto: daily report $(date +%Y-%m-%d)" >> "$LOG_FILE" 2>&1
 git push origin main >> "$LOG_FILE" 2>&1
 
-# Sync gh-pages without branch checkout (force because GH Actions may have committed stocks.json there)
-git push origin main:gh-pages --force >> "$LOG_FILE" 2>&1
+# Sync deploy files to gh-pages via worktree (preserves marathon.json pushed by fetch workflow)
+git worktree remove /tmp/ghp-daily 2>/dev/null || true
+git fetch origin gh-pages >> "$LOG_FILE" 2>&1
+git worktree add /tmp/ghp-daily origin/gh-pages >> "$LOG_FILE" 2>&1
+cp v2/index.html /tmp/ghp-daily/v2/index.html
+cp v3/index.html /tmp/ghp-daily/v3/index.html
+cp -f v3/marathon.json /tmp/ghp-daily/v3/marathon.json 2>/dev/null || true
+mkdir -p /tmp/ghp-daily/skills/solopreneur-topic-miner /tmp/ghp-daily/skills/toeic
+cp -f skills/solopreneur-topic-miner/finance_archive.json /tmp/ghp-daily/skills/solopreneur-topic-miner/finance_archive.json 2>/dev/null || true
+cp -f skills/solopreneur-topic-miner/latest_finance_topics.json /tmp/ghp-daily/skills/solopreneur-topic-miner/latest_finance_topics.json 2>/dev/null || true
+cp -f skills/solopreneur-topic-miner/latest_topics.json /tmp/ghp-daily/skills/solopreneur-topic-miner/latest_topics.json 2>/dev/null || true
+cp -f skills/solopreneur-topic-miner/daily_quote.json /tmp/ghp-daily/skills/solopreneur-topic-miner/daily_quote.json 2>/dev/null || true
+cp -f skills/toeic/questions.json /tmp/ghp-daily/skills/toeic/questions.json 2>/dev/null || true
+(
+  cd /tmp/ghp-daily
+  git config user.name "AutoGenAI Bot"
+  git config user.email "bot@users.noreply.github.com"
+  git add -A
+  git diff --staged --quiet && echo "No changes to deploy" >> "$LOG_FILE" || (
+    git commit -m "deploy: daily report $(date +%Y-%m-%d)" &&
+    git push origin HEAD:gh-pages
+  ) >> "$LOG_FILE" 2>&1
+)
+git worktree remove /tmp/ghp-daily >> "$LOG_FILE" 2>&1
 
 echo "=== $(date) | All done ===" >> "$LOG_FILE"
