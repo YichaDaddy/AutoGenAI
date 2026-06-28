@@ -11,3 +11,24 @@ Failed to authenticate. API Error: 401 Invalid authentication credentials
 Generating new TOEIC questions for 2026-06-29...
 Failed to authenticate. API Error: 401 Invalid authentication credentials
 --- TOEIC generation finished at Mon Jun 29 01:00:24 CST 2026 ---
+[main d62e71d] auto: daily report 2026-06-29
+ 1 file changed, 13 insertions(+)
+ create mode 100644 logs/2026-06-29.log
+To https://github.com/YichaDaddy/AutoGenAI.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/YichaDaddy/AutoGenAI.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+From https://github.com/YichaDaddy/AutoGenAI
+ * branch            gh-pages   -> FETCH_HEAD
+   d9db225..5831bc4  gh-pages   -> origin/gh-pages
+Preparing worktree (detached HEAD 5831bc4)
+HEAD is now at 5831bc4 deploy: sync marathon.json 2026-06-28 06:24 UTC
+[detached HEAD 364fc05] deploy: daily report 2026-06-29
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+To https://github.com/YichaDaddy/AutoGenAI.git
+   5831bc4..364fc05  HEAD -> gh-pages
+=== Mon Jun 29 01:00:28 CST 2026 | All done ===
