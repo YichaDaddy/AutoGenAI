@@ -624,6 +624,10 @@ a{color:inherit;text-decoration:none}
 .mmc-dot{width:7px;height:7px;border-radius:50%;background:#1F9D63;flex-shrink:0}
 .mmc-act .km{font-weight:700;color:var(--ink)}
 .mmc-act .hk{margin-left:auto}
+.mm-refresh{width:32px;height:32px;border-radius:50%;border:1px solid var(--line-strong);background:transparent;color:var(--ink-soft);font-size:18px;cursor:pointer;transition:.2s;display:flex;align-items:center;justify-content:center;margin-left:auto;flex-shrink:0}
+.mm-refresh:hover{background:var(--accent);color:var(--ink);border-color:var(--accent)}
+.mm-refresh.spin{animation:mm-spin .8s linear infinite;pointer-events:none;opacity:.5}
+@keyframes mm-spin{to{transform:rotate(360deg)}}
 .mm-pop{position:fixed;z-index:40;width:330px;max-width:92vw;max-height:min(74vh,480px);overflow-y:auto;background:var(--card);border:1px solid var(--line-strong);border-radius:16px;box-shadow:0 24px 64px rgba(46,40,20,.24);padding:15px 16px;display:flex;flex-direction:column;gap:10px}
 .mm-pop[hidden]{display:none}
 .mm-loading{padding:48px 20px;text-align:center;color:var(--ink-soft);font-size:13px;font-family:var(--mono)}
@@ -1010,6 +1014,7 @@ a{color:inherit;text-decoration:none}
           <div class="mh-title">馬拉松 · 課表與跑步分析</div>
           <div class="mh-sub">陽光海岸馬拉松 08/02 · Strava 串接 · 目標 Sub-4</div>
         </div>
+        <button class="mm-refresh" id="mm-refresh-btn" title="從 Strava 抓最新跑步紀錄">⟳</button>
         <button class="modal-close" data-close>✕</button>
       </div>
       <div class="modal-body"><div class="mm-wrap" id="mm-body"></div></div>
@@ -2406,6 +2411,53 @@ fetch('stocks.json?'+Date.now())
     }).catch(function(){dataLoaded=true;draw();});
   }
   wireModal('modal-marathon','marathon',render);
+
+  // ── Strava 手動更新按鈕 ──────────────────────
+  var GH_REPO='YichaDaddy/AutoGenAI',GH_WF='fetch_marathon.yml',LS_KEY='gh_marathon_pat';
+  function ghApi(path,method,body){
+    var pat=localStorage.getItem(LS_KEY);
+    if(!pat)return Promise.reject('no-pat');
+    return fetch('https://api.github.com'+path,{
+      method:method||'GET',
+      headers:{'Authorization':'Bearer '+pat,'Accept':'application/vnd.github+json'},
+      body:body?JSON.stringify(body):undefined
+    });
+  }
+  function pollRun(runId,btn,tries){
+    if(tries>24){btn.classList.remove('spin');btn.title='逾時，請稍後重試';return;}
+    ghApi('/repos/'+GH_REPO+'/actions/runs/'+runId).then(function(r){return r.json();}).then(function(d){
+      if(d.status==='completed'){
+        btn.classList.remove('spin');
+        if(d.conclusion==='success'){
+          btn.title='更新完成！重新載入…';
+          dataLoaded=false;render();
+        }else{btn.title='Workflow 失敗：'+d.conclusion;}
+      }else{setTimeout(function(){pollRun(runId,btn,tries+1);},5000);}
+    }).catch(function(){setTimeout(function(){pollRun(runId,btn,tries+1);},5000);});
+  }
+  function findLatestRun(btn,since,tries){
+    if(tries>6){btn.classList.remove('spin');btn.title='找不到執行紀錄';return;}
+    ghApi('/repos/'+GH_REPO+'/actions/workflows/'+GH_WF+'/runs?per_page=1&created=%3E'+since).then(function(r){return r.json();}).then(function(d){
+      if(d.workflow_runs&&d.workflow_runs.length){pollRun(d.workflow_runs[0].id,btn,0);}
+      else{setTimeout(function(){findLatestRun(btn,since,tries+1);},3000);}
+    }).catch(function(){setTimeout(function(){findLatestRun(btn,since,tries+1);},3000);});
+  }
+  document.getElementById('mm-refresh-btn').addEventListener('click',function(){
+    var btn=this;
+    if(btn.classList.contains('spin'))return;
+    var pat=localStorage.getItem(LS_KEY);
+    if(!pat){
+      pat=prompt('請貼上 GitHub Fine-Grained PAT\n（僅需 Actions read/write 權限，存在本機 localStorage）');
+      if(!pat||!pat.trim())return;
+      localStorage.setItem(LS_KEY,pat.trim());
+    }
+    btn.classList.add('spin');btn.title='正在觸發 Strava 更新…';
+    var since=new Date().toISOString().slice(0,19)+'Z';
+    ghApi('/repos/'+GH_REPO+'/actions/workflows/'+GH_WF+'/dispatches','POST',{ref:'main'}).then(function(r){
+      if(r.status===204){btn.title='已觸發，等待完成…';findLatestRun(btn,since,0);}
+      else{btn.classList.remove('spin');btn.title='觸發失敗 ('+r.status+')';localStorage.removeItem(LS_KEY);}
+    }).catch(function(e){btn.classList.remove('spin');btn.title='網路錯誤';});
+  });
 })();
 </script>
 </body>
