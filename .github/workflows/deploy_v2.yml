@@ -10,6 +10,7 @@ on:
       - 'v3/index.html'
       - 'v3/marathon.json'
       - 'skills/solopreneur-topic-miner/finance_archive.json'
+      - 'skills/solopreneur-topic-miner/topics_archive.json'
       - 'skills/solopreneur-topic-miner/latest_finance_topics.json'
       - 'skills/solopreneur-topic-miner/latest_topics.json'
       - 'skills/solopreneur-topic-miner/daily_quote.json'
@@ -59,6 +60,7 @@ jobs:
           cp -f v3/marathon.json gh-pages-dir/v3/marathon.json 2>/dev/null || echo "no marathon.json yet"
           mkdir -p gh-pages-dir/skills/solopreneur-topic-miner gh-pages-dir/skills/toeic
           cp -f skills/solopreneur-topic-miner/finance_archive.json gh-pages-dir/skills/solopreneur-topic-miner/finance_archive.json 2>/dev/null || echo "no finance_archive.json yet"
+          cp -f skills/solopreneur-topic-miner/topics_archive.json gh-pages-dir/skills/solopreneur-topic-miner/topics_archive.json 2>/dev/null || echo "no topics_archive.json yet"
           cp -f skills/solopreneur-topic-miner/latest_finance_topics.json gh-pages-dir/skills/solopreneur-topic-miner/latest_finance_topics.json 2>/dev/null || echo "no latest_finance_topics.json yet"
           cp -f skills/solopreneur-topic-miner/latest_topics.json gh-pages-dir/skills/solopreneur-topic-miner/latest_topics.json 2>/dev/null || echo "no latest_topics.json yet"
           cp -f skills/solopreneur-topic-miner/daily_quote.json gh-pages-dir/skills/solopreneur-topic-miner/daily_quote.json 2>/dev/null || echo "no daily_quote.json yet"
@@ -71,6 +73,7 @@ jobs:
           git config user.email "bot@users.noreply.github.com"
           git add index.html daily_topic_dashboard.html v2/index.html v3/index.html v3/marathon.json \
             skills/solopreneur-topic-miner/finance_archive.json \
+            skills/solopreneur-topic-miner/topics_archive.json \
             skills/solopreneur-topic-miner/latest_finance_topics.json \
             skills/solopreneur-topic-miner/latest_topics.json \
             skills/solopreneur-topic-miner/daily_quote.json \
