@@ -4,6 +4,8 @@ on:
   push:
     branches: [main]
     paths:
+      - 'index.html'
+      - 'daily_topic_dashboard.html'
       - 'v2/index.html'
       - 'v3/index.html'
       - 'v3/marathon.json'
@@ -50,6 +52,8 @@ jobs:
 
       - name: Copy files to gh-pages
         run: |
+          cp -f index.html gh-pages-dir/index.html 2>/dev/null || echo "no root index.html yet"
+          cp -f daily_topic_dashboard.html gh-pages-dir/daily_topic_dashboard.html 2>/dev/null || echo "no daily_topic_dashboard.html yet"
           cp v2/index.html gh-pages-dir/v2/index.html
           cp v3/index.html gh-pages-dir/v3/index.html
           cp -f v3/marathon.json gh-pages-dir/v3/marathon.json 2>/dev/null || echo "no marathon.json yet"
@@ -65,7 +69,7 @@ jobs:
           cd gh-pages-dir
           git config user.name  "AutoGenAI Bot"
           git config user.email "bot@users.noreply.github.com"
-          git add v2/index.html v3/index.html v3/marathon.json \
+          git add index.html daily_topic_dashboard.html v2/index.html v3/index.html v3/marathon.json \
             skills/solopreneur-topic-miner/finance_archive.json \
             skills/solopreneur-topic-miner/latest_finance_topics.json \
             skills/solopreneur-topic-miner/latest_topics.json \
