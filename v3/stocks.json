@@ -1,0 +1,95 @@
+{
+  "updated": "2026-07-01T03:21:06Z",
+  "data": {
+    "2330.TW": {
+      "price": 2490.0,
+      "change": 100.0,
+      "pct": 4.18,
+      "prev": 2390.0,
+      "currency": "TWD",
+      "state": "CLOSED",
+      "name": "台積電"
+    },
+    "2454.TW": {
+      "price": 4325.0,
+      "change": 15.0,
+      "pct": 0.35,
+      "prev": 4310.0,
+      "currency": "TWD",
+      "state": "CLOSED",
+      "name": "聯發科"
+    },
+    "2317.TW": {
+      "price": 250.0,
+      "change": -7.5,
+      "pct": -2.91,
+      "prev": 257.5,
+      "currency": "TWD",
+      "state": "CLOSED",
+      "name": "鴻海"
+    },
+    "0050.TW": {
+      "price": 109.3,
+      "change": 2.1,
+      "pct": 1.96,
+      "prev": 107.2,
+      "currency": "TWD",
+      "state": "CLOSED",
+      "name": "元大台灣50"
+    },
+    "0056.TW": {
+      "price": 52.8,
+      "change": -0.4,
+      "pct": -0.75,
+      "prev": 53.2,
+      "currency": "TWD",
+      "state": "CLOSED",
+      "name": "元大高股息"
+    },
+    "NVDA": {
+      "price": 200.09,
+      "change": 0.05,
+      "pct": 0.02,
+      "prev": 200.04,
+      "currency": "USD",
+      "state": "CLOSED",
+      "name": "輝達"
+    },
+    "AAPL": {
+      "price": 289.36,
+      "change": -4.94,
+      "pct": -1.68,
+      "prev": 294.3,
+      "currency": "USD",
+      "state": "CLOSED",
+      "name": "蘋果"
+    },
+    "MSFT": {
+      "price": 373.02,
+      "change": -0.92,
+      "pct": -0.25,
+      "prev": 373.94,
+      "currency": "USD",
+      "state": "CLOSED",
+      "name": "微軟"
+    },
+    "VOO": {
+      "price": 686.81,
+      "change": 10.47,
+      "pct": 1.55,
+      "prev": 676.34,
+      "currency": "USD",
+      "state": "CLOSED",
+      "name": "Vanguard S&P500"
+    },
+    "QQQ": {
+      "price": 736.4,
+      "change": 22.75,
+      "pct": 3.19,
+      "prev": 713.65,
+      "currency": "USD",
+      "state": "CLOSED",
+      "name": "Invesco QQQ"
+    }
+  }
+}
