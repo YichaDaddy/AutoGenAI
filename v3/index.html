@@ -634,6 +634,10 @@ a{color:inherit;text-decoration:none}
 .mm-poph .pd{font-size:10.5px;color:var(--ink-faint);font-family:var(--mono)}
 .mm-poph .pn{font-size:15px;font-weight:600;color:var(--ink);margin-top:2px}
 .mm-poph .mm-badge{margin-left:auto}
+.mm-runblock{display:flex;flex-direction:column;gap:10px}
+.mm-runblock+.mm-runblock{margin-top:12px;padding-top:12px;border-top:1px dashed var(--line)}
+.mm-daysum{font-size:11px;color:var(--ink-soft);font-family:var(--mono);background:var(--card-soft);border:1px solid var(--line);border-radius:8px;padding:6px 10px}
+.mmc-multi{font-size:9px;font-weight:700;color:var(--ink-soft)}
 .mm-mrow{display:grid;grid-template-columns:repeat(4,1fr);gap:7px}
 .mm-mc{text-align:center;background:var(--card-soft);border-radius:9px;padding:7px 3px}
 .mm-mc .v{font-family:var(--mono);font-size:15px;font-weight:700;color:var(--ink)}
@@ -2192,7 +2196,10 @@ fetch('stocks.json?'+Date.now())
       alt:[37,35.6,35.8,37,35.4,35.2,35.6,35.4,36,35.2,36.2,34.6,36,33.8,34.8,34.2,36.4,33.2,35.2,33.6,35.6,33,35.4,33.8,35.6,34.2,33.6,34.8,33.4,34.6],
       v:[2.7,2.7,2.54,2.42,2.62,3.46,3.84,3.42,0.72,3.52,3.58,3.68,0.98,3.46,3.56,3.8,0.8,3.56,3.94,3.8,3.58,3.8,3.74,3.28,3.64,2.52,2.66,2.8,2.72,2.62]}
   };
-  var RUNS=RUNS_FALLBACK;
+  // 一天可能有多筆跑步紀錄；統一正規化成 RUNS[key]=[run,...]（相容舊版單一物件格式）
+  function normRuns(o){var out={};for(var k in o){out[k]=Array.isArray(o[k])?o[k]:[o[k]];}return out;}
+  function dayAgg(list){var km=0,hot=false;for(var i=0;i<list.length;i++){km+=list[i].km;if(list[i].wx&&list[i].wx.feel>=27)hot=true;}return{km:Math.round(km*10)/10,hot:hot,n:list.length};}
+  var RUNS=normRuns(RUNS_FALLBACK);
 
   // ── 七週課表（逐日）─────────────────────────
   function S(c,l,seg,cool,hot){return{c:c,l:l,seg:seg,cool:cool,hot:hot};}
@@ -2292,11 +2299,12 @@ fetch('stocks.json?'+Date.now())
     for(var i=0;i<lead;i++)html+='<div class="mmc-cell empty"></div>';
     for(var d=1;d<=dim;d++){
       var dt=new Date(view.y,view.m,d),key=keyOf(dt),pl=PLAN[key],ac=RUNS[key],has=pl||ac;
+      var agg=ac?dayAgg(ac):null;
       var cls='mmc-cell'+(has?' has':'')+(ac?' done':'')+(key===keyOf(today)?' today':'')+(pl&&pl.c==='race'?' raceday':'');
       html+='<div class="'+cls+'"'+(has?' data-date="'+key+'"':'')+'>'+
         '<div class="mmc-day">'+d+'</div>'+
         (pl?'<span class="mmc-tag '+tagCls(pl.c)+'">'+pl.l+'</span>':'')+
-        (ac?'<div class="mmc-act"><span class="mmc-dot"></span><span class="km">'+ac.km+'K</span>'+(ac.wx.feel>=27?' <span class="hk">🔥</span>':'')+'</div>':'')+
+        (agg?'<div class="mmc-act"><span class="mmc-dot"></span><span class="km">'+agg.km+'K</span>'+(agg.n>1?' <span class="mmc-multi">×'+agg.n+'</span>':'')+(agg.hot?' <span class="hk">🔥</span>':'')+'</div>':'')+
         '</div>';
     }
     grid.innerHTML=html;
@@ -2306,15 +2314,15 @@ fetch('stocks.json?'+Date.now())
   // ── Popover ─────────────────────────────────
   function mc(k,v){return '<div class="mm-mc"><div class="v">'+v+'</div><div class="k">'+k+'</div></div>';}
   function ic(k,v,cls){return '<div class="mm-ic'+(cls?' '+cls:'')+'"><div class="k">'+k+'</div><div class="v">'+v+'</div></div>';}
-  function runPopHTML(key){
-    var r=RUNS[key],pace=r.mov/r.km,dc=decouple(r),gp=gap(r),cool=pace/(1+0.005*Math.max(0,r.wx.feel-15)),zc=zones(r.hr),tot=r.hr.length;
+  function singleRunHTML(r,key,headLabel){
+    var pace=r.mov/r.km,dc=decouple(r),gp=gap(r),cool=pace/(1+0.005*Math.max(0,r.wx.feel-15)),zc=zones(r.hr),tot=r.hr.length;
     var dcCls=dc==null?'':(dc<5?'g':dc<8?'a':'r'),dcTxt=dc==null?'—':(dc>=0?'+':'')+dc.toFixed(1)+'%';
     var hm=mnmx(r.hr),vm=mnmx(r.v),am=mnmx(r.alt),hasAlt=(am[1]-am[0])>12;
     var zbar='<div class="mm-zbar">';for(var z=0;z<5;z++){var p=zc[z]/tot*100;if(p>0.5)zbar+='<i style="width:'+p.toFixed(1)+'%;background:'+ZCOL[z]+'" title="'+ZNM[z]+'"></i>';}zbar+='</div>';
     var zleg='';for(var z2=0;z2<5;z2++){if(zc[z2]/tot>0.06)zleg+='<span><i style="background:'+ZCOL[z2]+'"></i>'+ZNM[z2]+' '+Math.round(zc[z2]/tot*100)+'%</span>';}
     var paceStr=(r.v.filter(function(x){return x>0.4;}).length<r.v.length*0.85)?'含恢復段':'';
-    return '<button class="mm-px" data-popclose>✕</button>'+
-      '<div class="mm-poph"><div><div class="pd">'+key.slice(5).replace('-','/')+'（'+WD[pk(key).getDay()]+'）· 實際跑步</div><div class="pn">'+r.name+'</div></div>'+
+    return '<div class="mm-runblock">'+
+      '<div class="mm-poph"><div><div class="pd">'+headLabel+'</div><div class="pn">'+r.name+'</div></div>'+
         '<span class="mm-badge '+r.badge[0]+'">'+r.badge[1]+'</span></div>'+
       '<div class="mm-wx">🌡 <span'+(r.wx.feel>=27?' class="hot"':'')+'>'+r.wx.t+'°C</span> · 濕 '+r.wx.rh+'% · 體感 '+r.wx.feel+'°C</div>'+
       '<div class="mm-mrow">'+mc('距離',r.km+'<small>km</small>')+mc('均配速',paceFmt(pace))+mc('均心率',r.ahr)+mc('最高心率',r.mhr)+'</div>'+
@@ -2327,7 +2335,20 @@ fetch('stocks.json?'+Date.now())
         ic('坡度校正配速',paceFmt(gp)+'<small>/km</small>')+
         ic('涼天換算配速',paceFmt(cool)+'<small>/km</small>','c')+
         ic('總爬升',r.elev+'<small>m</small>')+'</div>'+
-      '<div class="mm-eval">'+r.ev+'</div>';
+      '<div class="mm-eval">'+r.ev+'</div></div>';
+  }
+  function runPopHTML(key){
+    var list=RUNS[key],dateLab=key.slice(5).replace('-','/')+'（'+WD[pk(key).getDay()]+'）';
+    var out='<button class="mm-px" data-popclose>✕</button>';
+    if(list.length>1){
+      var agg=dayAgg(list);
+      out+='<div class="mm-daysum">'+dateLab+' · 當日 '+list.length+' 筆跑步 · 合計 '+agg.km+'K</div>';
+    }
+    out+=list.map(function(r,i){
+      var lab=list.length>1?((r.time||('第'+(i+1)+'趟'))+' · 實際跑步'):(dateLab+' · 實際跑步');
+      return singleRunHTML(r,key,lab);
+    }).join('');
+    return out;
   }
   function planPopHTML(key){
     var s=PLAN[key],cn={q:'品質課',e:'輕鬆跑',long:'長距離',race:'比賽',shake:'抖腿'}[s.c];
@@ -2401,7 +2422,7 @@ fetch('stocks.json?'+Date.now())
     if(dataLoaded){draw();return;}
     box.innerHTML='<div class="mm-loading">載入 Strava 跑步資料…</div>';
     fetch('marathon.json?'+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(j){
-      if(j&&j.runs&&Object.keys(j.runs).length)RUNS=j.runs;
+      if(j&&j.runs&&Object.keys(j.runs).length)RUNS=normRuns(j.runs);
       dataLoaded=true;draw();
     }).catch(function(){dataLoaded=true;draw();});
   }

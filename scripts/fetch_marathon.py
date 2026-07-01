@@ -341,10 +341,12 @@ def main():
     acts = sapi(tok, '/athlete/activities', {'per_page': 40})
     runs = {}
     for a in acts:
-        if len(runs) >= N_RUNS:
-            break
         if a.get('type') != 'Run' or a.get('distance', 0) < 1500:
             continue
+        dl_peek = datetime.datetime.fromisoformat(a['start_date_local'].replace('Z', ''))
+        key_peek = dl_peek.strftime('%Y-%m-%d')
+        if key_peek not in runs and len(runs) >= N_RUNS:
+            break
         aid = a['id']
         try:
             st = sapi(tok, '/activities/%d/streams' % aid,
@@ -362,8 +364,8 @@ def main():
         v = [x or 0 for x in v]
         if v and v[0] == 0 and len(v) > 1:
             v[0] = v[1]
-        dl = datetime.datetime.fromisoformat(a['start_date_local'].replace('Z', ''))
-        key = dl.strftime('%Y-%m-%d')
+        dl = dl_peek
+        key = key_peek
         ll = a.get('start_latlng') or ZHUBEI
         wx = weather(ll[0], ll[1], dl)
         km = a['distance'] / 1000.0
@@ -374,21 +376,27 @@ def main():
         typ = classify(km, elev, v)
         stats = analyze(hr, d, v, alt, a['moving_time'], km, cad_avg)
         name, badge, ev = make_meta(km, typ, wx, ahr, mhr, elev, stats)
-        runs[key] = {
+        runs.setdefault(key, []).append({
             'name': name, 'km': round(km, 1), 'mov': a['moving_time'],
+            'time': dl.strftime('%H:%M'),
             'ahr': ahr, 'mhr': mhr, 'cad': round(cad_avg),
             'elev': round(elev),
             'wx': wx or {'t': None, 'rh': None, 'feel': 0},
             'badge': badge, 'ev': ev, 'stats': stats,
             'hr': downsample(hr, SAMPLES), 'd': downsample(d, SAMPLES),
             'v': downsample(v, SAMPLES), 'alt': downsample(alt, SAMPLES),
-        }
+        })
+    # Strava 依時間新到舊排序，同一天內的活動需反轉為早到晚，方便前端依序顯示
+    n_activities = 0
+    for key in runs:
+        runs[key].reverse()
+        n_activities += len(runs[key])
     out = {'generated': datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
            'runs': runs}
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, 'w', encoding='utf-8') as f:
         json.dump(out, f, ensure_ascii=False, separators=(',', ':'))
-    print('Wrote %d runs to %s' % (len(runs), os.path.relpath(OUT)))
+    print('Wrote %d runs across %d days to %s' % (n_activities, len(runs), os.path.relpath(OUT)))
 
 
 if __name__ == '__main__':
