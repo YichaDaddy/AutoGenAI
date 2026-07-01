@@ -226,7 +226,6 @@ git push origin main >> "$LOG_FILE" 2>&1
 git worktree remove /tmp/ghp-daily 2>/dev/null || true
 git fetch origin gh-pages >> "$LOG_FILE" 2>&1
 git worktree add /tmp/ghp-daily origin/gh-pages >> "$LOG_FILE" 2>&1
-cp v2/index.html /tmp/ghp-daily/v2/index.html
 cp v3/index.html /tmp/ghp-daily/v3/index.html
 cp -f v3/marathon.json /tmp/ghp-daily/v3/marathon.json 2>/dev/null || true
 mkdir -p /tmp/ghp-daily/skills/solopreneur-topic-miner /tmp/ghp-daily/skills/toeic

@@ -33,7 +33,7 @@ jobs:
         run: |
           git config user.name  "AutoGenAI Bot"
           git config user.email "bot@users.noreply.github.com"
-          git add v2/stocks.json
+          git add v3/stocks.json
           git diff --staged --quiet && echo "No changes" || (
             git commit -m "auto: update stock data $(date -u '+%Y-%m-%d %H:%M UTC')" &&
             git pull --rebase origin main &&

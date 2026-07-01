@@ -70,7 +70,7 @@ for sym, name in SYMBOLS.items():
 
 print(f'\n{ok}/{len(SYMBOLS)} symbols fetched  ({output["updated"]})')
 
-out_path = 'v2/stocks.json'
+out_path = 'v3/stocks.json'
 with open(out_path, 'w', encoding='utf-8') as f:
     json.dump(output, f, ensure_ascii=False, indent=2)
 print(f'Written → {out_path}')
