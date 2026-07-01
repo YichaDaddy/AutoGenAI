@@ -5,7 +5,7 @@ import os
 import json
 from datetime import datetime
 
-BASE_DIR             = "/Users/mac/projects/AutoGenAI"
+BASE_DIR             = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 SKILL_DIR            = os.path.join(BASE_DIR, "skills/solopreneur-topic-miner")
 HTML_PATH            = os.path.join(BASE_DIR, "daily_topic_dashboard.html")
 PROFILE_PATH         = os.path.join(SKILL_DIR, "user_profile.json")

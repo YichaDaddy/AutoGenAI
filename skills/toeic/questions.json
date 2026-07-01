@@ -1,103 +1,103 @@
 {
-  "date": "2026-07-01",
+  "date": "2026-07-02",
   "p5": [
     {
-      "id": "2026-07-01-p5-0",
-      "tag": "否定副詞倒裝",
+      "id": "2026-07-02-p5-0",
+      "tag": "假設語氣倒裝",
       "pre": "",
-      "post": " the quarterly audit had been completed did the finance department discover the extent of the accounting discrepancy.",
-      "opts": ["Not until", "Until", "Not since", "Since"],
+      "post": " the parties failed to reach an agreement by the deadline, the contract would have been automatically terminated by the presiding arbitrator.",
+      "opts": ["Had", "If", "Should", "Unless"],
       "ans": 0,
-      "zh": "直到季度稽核完成後，財務部門才發現會計差異的嚴重程度。",
-      "why": "否定副詞片語 <b>Not until</b> 置於句首時，主要子句須採<b>倒裝</b>語序（did the finance department discover）。Until 缺少否定意味，不會觸發倒裝；Not since 與 Since 語意皆為「自從」，不符合本句「直到...才」的邏輯，也無法引導本句所需的倒裝結構。"
+      "zh": "若各方未能在截止日期前達成協議，該合約原本會被主持仲裁人自動終止。",
+      "why": "此句為與過去事實相反的假設語氣，可用 <b>Had + 主詞 + 過去分詞</b> 倒裝取代 <b>If + 主詞 + had + 過去分詞</b>，語氣更正式精練。若填入 If，主詞須置於其後且不倒裝（If the parties had failed），與句子結構不合；Should 用於<b>未來</b>可能性的倒裝（=If...should）；Unless 語意為「除非」，與句意矛盾。"
     },
     {
-      "id": "2026-07-01-p5-1",
-      "tag": "名詞子句作主詞",
+      "id": "2026-07-02-p5-1",
+      "tag": "完成式分詞構句",
       "pre": "",
-      "post": " the proposed merger would attract intense regulatory scrutiny had been widely anticipated within the industry long before the announcement was made.",
-      "opts": ["That", "What", "Which", "It"],
+      "post": " the quarterly report by midnight, the finance team immediately circulated it to all department heads for review.",
+      "opts": ["Having finalized", "Finalized", "To finalize", "Finalize"],
       "ans": 0,
-      "zh": "業界普遍在正式宣布之前就已預料到，這項擬議中的合併案將招致嚴格的監管審查。",
-      "why": "此空格引導一個意義完整（不缺主詞或受詞）的子句，並作為全句主詞，須用 <b>That</b> 引導<b>名詞子句</b>。What 只能用於子句本身缺少成分時；Which 不可引導無先行詞的名詞子句；It 為虛主詞，須搭配 'It had been anticipated that...' 的結構，與本句語序不符。"
+      "zh": "在午夜前完成季度報告後，財務團隊立即將其發送給各部門主管審閱。",
+      "why": "此為完成式主動分詞構句，表示動作發生在主要子句之前（先完成報告，才發送），且分詞邏輯主詞（finance team）為動作發出者，須用 <b>Having + 過去分詞</b>；Finalized 為單純過去分詞，隱含被動語意，與主動完成的邏輯不符；To finalize 為不定詞表目的，語意錯誤；Finalize 為原形動詞，不構成分詞構句。"
     },
     {
-      "id": "2026-07-01-p5-2",
-      "tag": "比較結構（the + 比較級, the + 比較級）",
-      "pre": "The more stringent the compliance requirements become,",
-      "post": " the compliance officer must devote to monitoring vendor contracts.",
-      "opts": ["the greater the amount of time", "the greatest amount of time", "greater the amount of time", "the amount of time is greater"],
+      "id": "2026-07-02-p5-2",
+      "tag": "非限定關係子句",
+      "pre": "The proposed amendment",
+      "post": " aims to close a long-standing loophole in the taxation code.",
+      "opts": [", which was drafted by a bipartisan committee,", ", that was drafted by a bipartisan committee,", " drafted by a bipartisan committee that", ", who was drafted by a bipartisan committee,"],
       "ans": 0,
-      "zh": "法遵要求越嚴格，法遵主管就必須投入越多時間監控供應商合約。",
-      "why": "<b>The + 比較級, the + 比較級</b> 為固定句型，兩個子句都必須以「the + 比較級」起頭。選項須維持 the greater the amount of time 的完整倒裝比較結構；greatest 為最高級，不符句型邏輯；漏掉句首 the，或改為正常語序（the amount of time is greater），都破壞了此固定句型所需的對稱結構。"
+      "zh": "這項修正案（由跨黨派委員會起草）旨在填補稅法中長期存在的漏洞。",
+      "why": "非限定關係子句用來補充說明先行詞，須以逗號前後隔開，且僅能用 <b>which</b> 指稱事物，不可用 that；先行詞 amendment 為事物，須用 which 而非指人的 who；選項若省略前後逗號則變成限定用法或句構不完整，與句意（額外補充說明）不符。"
     },
     {
-      "id": "2026-07-01-p5-3",
-      "tag": "獨立分詞構句",
+      "id": "2026-07-02-p5-3",
+      "tag": "讓步介系詞",
       "pre": "",
-      "post": " the confidentiality clause to apply retroactively, the newly appointed directors were required to sign a supplementary non-disclosure agreement covering all prior negotiations.",
-      "opts": ["The board having deemed", "The board deemed", "Having been deemed by the board", "The board to deem"],
+      "post": " the substantial evidence presented by the plaintiff, the jury ultimately returned a verdict in favor of the defendant.",
+      "opts": ["Notwithstanding", "Because of", "Due to", "Owing to"],
       "ans": 0,
-      "zh": "由於董事會認定保密條款應追溯適用，新任董事必須簽署一份補充保密協議，涵蓋此前所有的談判內容。",
-      "why": "此為<b>獨立分詞構句（Nominative Absolute）</b>：分詞構句的主詞（the board）與主要子句主詞（directors）不同，須明列出來；認定動作又先於主要子句動作，故用完成式主動分詞 <b>having deemed</b>。The board deemed 為完整子句，中間缺連接詞或分號；Having been deemed by the board 語態錯誤（board 是動作發出者而非承受者）；The board to deem 為不定詞片語，不構成分詞構句。"
+      "zh": "儘管原告提出了充分的證據，陪審團最終仍判被告勝訴。",
+      "why": "<b>Notwithstanding</b> 為正式讓步介系詞，意為「儘管、雖然」，後接名詞片語表示雖有此事實但結果相反，符合本句「證據充分卻仍判被告勝訴」的轉折語氣；Because of、Due to、Owing to 皆表示<b>原因</b>，若填入將使句意變成「因為證據充分，所以判被告勝訴」，邏輯矛盾。"
     },
     {
-      "id": "2026-07-01-p5-4",
-      "tag": "動詞語意辨別（preclude／impede／inhibit／restrain）",
-      "pre": "The arbitration agreement explicitly",
-      "post": " either party from pursuing related claims in a civil court once the arbitration proceedings have commenced.",
-      "opts": ["precludes", "impedes", "inhibits", "restrains"],
+      "id": "2026-07-02-p5-4",
+      "tag": "動詞語意辨別（supersede／supplant／replace／override）",
+      "pre": "The arbitration clause in the 2026 agreement explicitly",
+      "post": " any conflicting dispute-resolution provisions contained in prior contracts between the parties.",
+      "opts": ["supersedes", "supplants", "replaces", "overrides"],
       "ans": 0,
-      "zh": "仲裁協議明文規定，一旦仲裁程序展開，任一方均不得於民事法院提起相關請求。",
-      "why": "<b>preclude A from V-ing</b> 是正式法律英文中表示「排除、禁止」的標準固定搭配，語意精確且符合合約用語的正式程度。impede 通常直接接受詞（impede the process），罕與 from 連用；inhibit 多用於心理或生理層面的抑制（inhibit growth）；restrain 語氣較弱，強調「約束、克制」，且較常見於 restrain oneself，均不符合本句「明文禁止」的強烈語氣。"
+      "zh": "2026年協議中的仲裁條款明文規定，優先取代雙方先前合約中任何相牴觸的爭端解決條款。",
+      "why": "<b>supersede</b> 是正式法律英文中表示「因較新、較具權威性而取代」的標準用語，常見於合約的完整協議條款；supplant 隱含以策略或不正當手段取而代之，語域不符；replace 語氣過於口語籠統；override 通常用於「駁回、推翻」決定或規則，而非用於條款文字本身的取代關係。"
     }
   ],
   "p6": {
-    "id": "2026-07-01-p6",
-    "title": "Memorandum: Updated Travel and Expense Reimbursement Policy",
+    "id": "2026-07-02-p6",
+    "title": "Memorandum: Updated Remote Work Policy",
     "seg": [
-      ["The Finance Department wishes to inform all employees that, commencing September 1, 2026, the corporate travel and expense reimbursement policy ", {"b": 0}, " to align with the revised auditing standards recently adopted by the Board of Directors."],
-      [{"b": 1}, ", employees submitting claims exceeding NT$20,000 must attach original receipts along with a signed itemization form, to be filed within fifteen business days of the date the expense was incurred. Delayed submissions may be subject to additional review."],
-      ["All department managers are advised to familiarize their teams with the amended guidelines, copies of which are available on the internal finance portal. The Finance Department will implement the revised procedures department by department throughout August, in order to ensure a ", {"b": 2}, " rollout that allows adequate time for each team to adjust."],
-      ["Employees are strongly encouraged to review the complete policy document prior to the effective date. ", {"b": 3}]
+      ["To all department managers: effective August 1, the company's remote work guidelines ", {"b": 0}, " to reflect employee feedback gathered over the past two quarters and to align with productivity data reviewed by senior leadership."],
+      [{"b": 1}, " the maximum number of fully remote days permitted each week will increase from two to three for employees in eligible roles, effective immediately upon manager approval."],
+      ["Managers are strongly encouraged to ", {"b": 2}, " these requests based on team performance metrics rather than tenure or personal preference, ensuring the review process remains equitable across all departments."],
+      ["Employees are reminded that the revised policy applies uniformly across all business units, with no exceptions granted on a case-by-case basis. ", {"b": 3}]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["will be updated", "is updating", "was updated", "has been updated"],
+        "opts": ["will be revised", "revised", "have revised", "are revising"],
         "ans": 0,
-        "zh": "財務部門謹通知所有員工，自 2026 年 9 月 1 日起，公司差旅暨費用報銷政策將被更新，以配合董事會近期採納的修訂稽核標準。",
-        "why": "'commencing September 1, 2026' 表示更新動作發生於<b>未來</b>，且政策為被更新的對象，須用<b>未來被動式</b> <b>will be updated</b>。is updating 為主動語態，主詞（policy）無法自行「更新」；was updated 為過去式，與未來生效日矛盾；has been updated 表動作已完成，與尚未到來的生效日不符。"
+        "zh": "致各部門主管：自八月一日起，公司的遠端工作準則將被修訂，以反映過去兩季蒐集到的員工意見，並配合高階主管審閱的生產力數據。",
+        "why": "'effective August 1' 表示動作發生於<b>未來</b>，且準則為被修訂的對象，須用<b>未來被動式</b> will be revised。revised 為過去式或過去分詞，缺少助動詞無法單獨作謂語；have revised 為現在完成主動式，主詞（guidelines）無法自行修訂；are revising 為現在進行主動式，與未來生效日及被動語意皆不符。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["Moreover", "Nonetheless", "Conversely", "Accordingly"],
+        "opts": ["As a result,", "For example,", "On the other hand,", "In contrast,"],
         "ans": 0,
-        "zh": "此外，申報金額超過新台幣 2 萬元的員工，必須檢附正本收據及簽署的明細表，並於費用發生之日起十五個工作天內送件。逾期送件可能需要接受額外審查。",
-        "why": "第二段承接第一段，針對政策修訂補充具體規定，屬於<b>遞進補充</b>邏輯，應選 <b>Moreover</b>（此外）。Nonetheless 與 Conversely 均表示轉折或對比，與此處一致補充的關係不符；Accordingly 表「因此、據此」的因果結果，但第二段內容並非第一段的直接結果，而是額外的規定細節。"
+        "zh": "因此，符合資格職位的員工每週可完全遠端工作的天數上限，將在經理核准後立即由兩天增加為三天。",
+        "why": "本段承接前段「政策將依員工意見與生產力數據修訂」的原因，說明修訂後的具體結果，屬於<b>因果</b>關係，應選表結果的 <b>As a result</b>；For example 表舉例、On the other hand 與 In contrast 皆表對比或轉折，均與此處的因果邏輯不符。"
       },
       {
         "tag": "詞彙語意（搭配詞）",
         "col1": true,
-        "opts": ["staggered", "simultaneous", "immediate", "uniform"],
+        "opts": ["evaluate", "assume", "presume", "anticipate"],
         "ans": 0,
-        "zh": "財務部門將於八月依部門別分階段導入新流程，以確保推行過程採分批進行，讓各團隊有充裕時間適應。",
-        "why": "前文明確指出將「依部門別」逐步導入（department by department），語意須搭配表示<b>分階段、非同時進行</b>的 <b>staggered</b>。simultaneous（同時的）與 immediate（立即的）皆與逐步推行的敘述直接矛盾；uniform（一致的）描述的是均一性而非時間安排，語意不符。"
+        "zh": "主管應積極依據團隊績效指標而非年資或個人偏好來評估這些申請，以確保審核流程在各部門間保持公平一致。",
+        "why": "此處語意需要「依據客觀指標來審核、評定」申請，故用 <b>evaluate</b>（評估）；assume（假設）、presume（推測）皆與「審核申請」的動作語意不符；anticipate（預期、預先設想）亦非「評估」之意，均無法與 requests 搭配出正確語意。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Questions concerning specific reimbursement scenarios should be directed to the Finance Department at ext. 3350 or via the internal help desk portal.",
-          "Employees who submit fraudulent expense claims will face immediate disciplinary action, up to and including termination.",
-          "The policy revision was drafted in consultation with the external auditing firm and has been formally ratified by the Board of Directors.",
-          "We wish all employees a pleasant and productive start to the new fiscal quarter."
+          "Please direct any questions regarding this policy to your HR business partner before the July 15 deadline.",
+          "The company remains committed to maintaining a rigorous interview process for all incoming hires.",
+          "Historically, remote work arrangements have been the single largest driver of quarterly revenue growth.",
+          "Employees are reminded that unauthorized absences will result in disciplinary action."
         ],
         "ans": 0,
-        "zh": "有關具體報銷情境的疑問，請洽財務部門，分機 3350，或透過內部服務台入口網站詢問。",
-        "why": "備忘錄結尾應提供<b>後續詢問管道</b>，功能性收尾最符合此類公告慣例，故選項 A 最適當。選項 B 語氣過於嚴厲、聚焦懲處，文中未提及舞弊情事；選項 C 屬於政策修訂的<b>背景說明</b>，邏輯上應置於開頭而非結尾；選項 D 為與主題無關的制式問候語，缺乏正式備忘錄應有的實用收尾功能。"
+        "zh": "若對此政策有任何疑問，請於7月15日截止日前洽詢您的人資業務夥伴。",
+        "why": "備忘錄結尾應提供與本篇主題（遠端工作政策修訂）相關且具功能性的<b>後續詢問管道</b>，故選項 A 最適當；選項 B 涉及招聘面試流程，與遠端工作政策無關；選項 C 為缺乏根據的營收因果宣稱，與政策公告的性質不符；選項 D 談的是曠職懲處，主題與語氣皆與本備忘錄不合。"
       }
     ]
   }
