@@ -1,5 +1,260 @@
 [
   {
+    "date": "2026-07-01",
+    "big_events": [
+      {
+        "title": "美國解除出口管制，Anthropic 最強模型 Claude Fable 5、Mythos 5 全球用戶重新開放",
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/economy/2026/7/1/us-lifts-restrictions-on-powerful-ai-models-fable-mythos-anthropic-says"
+          },
+          {
+            "name": "9to5Mac",
+            "url": "https://9to5mac.com/2026/07/01/claude-fable-5-cleared-to-return-as-us-lifts-anthropics-export-control-restriction/"
+          }
+        ],
+        "summary": "美國解除出口管制，Claude Fable 5、Mythos 5 重新對全球用戶開放使用",
+        "audience": "重度使用 Claude 處理工作、對 AI 模型政策與國際限制敏感的職場 AI 使用者、科技線自媒體",
+        "pain_point": "模型上週被無預警下架又忽然回歸，搞不清楚「現在到底能不能用」、額度與方案權益是否受影響",
+        "title_idea": "Claude 最強模型「回來了」！Fable 5、Mythos 5 解禁全紀錄，你的方案受影響嗎？",
+        "local_angle": "台灣用戶對這次「先禁後解」事件多半只看到片段消息，可做「一次搞懂前因後果＋額度怎麼用」的懶人包，卡在資訊差最大的空窗期"
+      },
+      {
+        "title": "Google 代理型助理 Gemini Spark 正式登陸 macOS，僅限 AI Ultra 訂閱戶搶先體驗",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/"
+          },
+          {
+            "name": "Dataconomy",
+            "url": "https://dataconomy.com/2026/07/01/gemini-spark-ai-assistant-macos-us-usd-100/"
+          }
+        ],
+        "summary": "Gemini Spark 開放 macOS，目前僅美國 AI Ultra（約200美元/月）訂閱戶可用",
+        "audience": "使用 Mac 工作、關注 Google AI 生態系、考慮訂閱高階 AI 方案的職場人士",
+        "pain_point": "不清楚代理型助理和一般聊天機器人差在哪，猶豫值不值得為了一個功能升級到最貴訂閱方案",
+        "title_idea": "Google 最強 AI 助理登陸 Mac！Gemini Spark 值不值得升級到 200 美元月費？",
+        "local_angle": "台灣 Mac 用戶對 Gemini Spark 認知幾乎是零、也尚無中文評測，適合搶先做「值不值得訂閱」實測分析文，卡進決策關鍵字"
+      },
+      {
+        "title": "Microsoft 365 Copilot 中小企業方案轉為永久商品，AI 正式內建辦公室基本配備",
+        "sources": [
+          {
+            "name": "Windows Forum",
+            "url": "https://windowsforum.com/threads/microsoft-365-business-plans-with-copilot-go-permanent-for-smbs-july-2026.425116/"
+          },
+          {
+            "name": "Strategic Micro Systems",
+            "url": "https://www.stmicro.net/blog/microsoft-365-copilot-business-july-2026/"
+          }
+        ],
+        "summary": "M365 Business Standard/Premium 含 Copilot 轉為正式方案，AI 不再限時促銷",
+        "audience": "中小企業主、行政／採購決策者、需規劃公司 AI 工具預算的職場人士",
+        "pain_point": "搞不清楚公司該不該加購 Copilot、促銷結束後費用會不會暴增，猶豫是否該現在導入",
+        "title_idea": "Copilot 不再是限時特價！Microsoft 365 全面內建 AI，中小企業該怎麼選方案？",
+        "local_angle": "台灣中小企業對 M365 Copilot 定價變化資訊落後，可做「方案比較＋划不划算」的中文決策指南，鎖定企業主與行政人員的搜尋需求"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "ChatGPT Plus 用戶可直接連結銀行帳戶，AI 秒懂你的收支狀況",
+        "sources": [
+          {
+            "name": "Dataconomy",
+            "url": "https://dataconomy.com/2026/07/01/openai-chatgpt-personal-finance-tools-us/"
+          }
+        ],
+        "summary": "ChatGPT Plus 新增財務帳戶連結，可生成支出儀表板並用 AI 問答理財",
+        "audience": "想用 AI 管理個人財務、記帳但嫌麻煩的職場上班族",
+        "pain_point": "記帳 App 太多懶得切換，想直接用「聊天」的方式搞懂錢花去哪，卻不知道 ChatGPT 已經能做到",
+        "title_idea": "不用再開記帳 App 了！ChatGPT Plus 新功能直接幫你算清楚每月花多少",
+        "local_angle": "目前僅美國開放、台灣用戶尚無中文教學，可搶先做「連結帳戶怎麼設定、資安風險評估」的第一手教學，卡未來開放到台灣的關鍵字"
+      },
+      {
+        "title": "Claude Sonnet 5 正式成為 Anthropic 預設模型，100 萬 token 上下文＋限時特惠價",
+        "sources": [
+          {
+            "name": "Tech Times",
+            "url": "https://www.techtimes.com/articles/319409/20260701/claude-sonnet-5-ships-anthropic-default-agentic-performance-closes-opus-gap.htm"
+          }
+        ],
+        "summary": "Sonnet 5 成免費/Pro 版預設模型，1M 上下文、8月底前每百萬token 2/10美元",
+        "audience": "用 Claude 寫作、整理報告、處理長文件的職場知識工作者",
+        "pain_point": "長文件、長對話容易被截斷或被 AI 遺忘前文，不知道免費也能用到多強的模型、優惠什麼時候截止",
+        "title_idea": "免費版也能用 100 萬字上下文！Claude Sonnet 5 悄悄升級，8月底前用最划算",
+        "local_angle": "台灣使用者多半以為要付費才能用長上下文，這次預設模型直接升級，適合做「免費/付費差在哪、怎麼用滿 1M token」的實測懶人包"
+      },
+      {
+        "title": "Anthropic 推出 Claude Science 科研工作台，7/15 前開放申請最高 3 萬美元研究額度",
+        "sources": [
+          {
+            "name": "Dataconomy",
+            "url": "https://dataconomy.com/2026/07/01/anthropic-claude-science-ai-research-launch/"
+          }
+        ],
+        "summary": "Claude Science 開放 50 個研究專案申請，7/15 截止、每案最高 3 萬美元 AI 額度",
+        "audience": "研究生、學術工作者、想嘗試申請 AI 輔助研究補助的職場知識工作者",
+        "pain_point": "知道有 AI 科研工具，但不知道申請截止日將近，錯過就得再等下一輪",
+        "title_idea": "還剩兩週！Claude Science 研究補助申請倒數，最高拿 3 萬美元 AI 額度",
+        "local_angle": "台灣學術圈對這個申請管道幾乎沒討論，適合做「申請資格、流程整理」的時效性內容，蹭上 7/15 截止日的急迫感"
+      }
+    ],
+    "trends": [
+      {
+        "title": "Cloudflare 新政策逼 AI 公司為抓取出版商內容付費，9/15 後預設擋下混用型爬蟲",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/"
+          }
+        ],
+        "summary": "Cloudflare 將預設封鎖同時用於搜尋和 AI 訓練的「混用型」爬蟲，逼 AI 公司付費",
+        "audience": "經營部落格／自媒體、擔心內容被 AI 白嫖的內容創作者",
+        "pain_point": "辛苦寫的內容被 AI 公司拿去訓練模型卻拿不到任何回報，不知道有什麼工具能保護或變現",
+        "title_idea": "你的文章正在餵養 AI 卻沒收到半毛錢？Cloudflare 這招要逼 AI 公司付費了",
+        "local_angle": "台灣自媒體對「內容授權費」議題還很陌生，可做「創作者如何用 Cloudflare 保護內容」教學，順勢帶出內容變現新思路"
+      },
+      {
+        "title": "隱私優先 AI 平台 Venice AI 完成 6500 萬美元 A 輪，估值衝上十億美元",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/"
+          }
+        ],
+        "summary": "Venice AI 主打「不留紀錄」使用 200+ 模型，A 輪估值衝上十億美元",
+        "audience": "重視隱私、不想被 AI 公司蒐集對話紀錄拿去訓練模型的職場 AI 使用者",
+        "pain_point": "用 ChatGPT/Claude 聊敏感工作內容時總擔心被留存或外洩，卻不知道有隱私優先的替代方案",
+        "title_idea": "怕 AI 偷看你的對話紀錄？這個隱私優先 AI 平台一年內衝上十億美元估值",
+        "local_angle": "台灣使用者對「AI 隱私替代方案」關注度低，可搶做「Venice AI 是什麼、跟 ChatGPT 差在哪」的第一支中文介紹內容"
+      },
+      {
+        "title": "OpenAI 內部數據曝光：員工日常產出 99.8% 已由 Codex 代理完成，AI 正式吃下知識工作",
+        "sources": [
+          {
+            "name": "Dataconomy",
+            "url": "https://dataconomy.com/2026/07/01/codex-internal-ai-output-99-8-percent-adoption/"
+          }
+        ],
+        "summary": "OpenAI 員工用 Codex 產出的 token 占比達 99.8%，AI 代理從工程師擴及一般知識工作",
+        "audience": "擔心被 AI 取代、想了解「代理式 AI」會怎麼改變工作內容的職場上班族",
+        "pain_point": "常聽說 AI 會取代工作卻沒有具體數據，不知道自己該不該現在開始學用 AI 代理人工具",
+        "title_idea": "OpenAI 員工自己都在用 AI 做 99.8% 的工作了，你的工作還撐得住嗎？",
+        "local_angle": "台灣職場對「代理式 AI」多半停留在概念討論，可用這組內部真實數據做警示型內容，帶出「現在該學什麼」的實用建議"
+      }
+    ],
+    "source_coverage_notes": {
+      "status": "日期驗證完成 (2026-07-01)",
+      "coverage": [
+        {
+          "source": "TechCrunch AI",
+          "status": "✅",
+          "count": 10,
+          "note": "直接 WebFetch 遭 403 拒絕，改用 WebSearch site:techcrunch.com/2026/07/01 取得完整清單，實際採用其中3篇（Gemini Spark、Cloudflare政策、Venice AI）"
+        },
+        {
+          "source": "The Verge AI",
+          "status": "❌",
+          "count": 0,
+          "note": "WebFetch 回傳「無法擷取」錯誤，WebSearch 限定 site:theverge.com 與 7/1 日期也無任何結果，判定此來源當日不可用"
+        },
+        {
+          "source": "FutureTools.io News",
+          "status": "❌",
+          "count": 0,
+          "note": "WebFetch 遭 403 Forbidden 拒絕，無替代管道可驗證當日更新內容"
+        },
+        {
+          "source": "Dataconomy",
+          "status": "✅",
+          "count": 7,
+          "note": "透過 WebSearch site:dataconomy.com/2026/07/01 取得完整清單，採用其中4篇（Gemini Spark macOS、ChatGPT個人財務、Claude Science、Codex內部採用率）"
+        },
+        {
+          "source": "9to5Mac",
+          "status": "✅",
+          "count": 1,
+          "note": "直接 WebFetch 遭 403，改用 WebSearch 取得 Claude Fable 5 解禁報導作為補充來源"
+        },
+        {
+          "source": "Al Jazeera",
+          "status": "✅",
+          "count": 1,
+          "note": "WebSearch 取得 Claude Fable 5/Mythos 5 解除出口管制報導"
+        },
+        {
+          "source": "Microsoft 365 Copilot 定價變動（Windows Forum / Strategic Micro Systems）",
+          "status": "✅",
+          "count": 2,
+          "note": "透過 WebSearch 確認 7/1 生效的正式方案轉換與定價細節"
+        },
+        {
+          "source": "Matt Wolfe (YouTube)",
+          "status": "❌",
+          "count": 0,
+          "note": "頻道頁面無法直接抓取，WebSearch 未能找到明確標註於 7/1 上傳的影片"
+        },
+        {
+          "source": "The AI Advantage (YouTube)",
+          "status": "❌",
+          "count": 0,
+          "note": "同上，WebSearch 僅找到頻道概況，無 7/1 當日影片資訊"
+        },
+        {
+          "source": "Matthew Berman (YouTube)",
+          "status": "❌",
+          "count": 0,
+          "note": "WebSearch 未能找到 7/1 當日影片，僅有較舊的一般性報導"
+        },
+        {
+          "source": "Wes Roth (YouTube)",
+          "status": "❌",
+          "count": 0,
+          "note": "WebSearch 未能找到 7/1 當日影片"
+        },
+        {
+          "source": "MattVidPro AI (YouTube)",
+          "status": "❌",
+          "count": 0,
+          "note": "WebSearch 未能找到 7/1 當日影片"
+        },
+        {
+          "source": "Skill Leap AI (YouTube)",
+          "status": "❌",
+          "count": 0,
+          "note": "WebSearch 未能找到 7/1 當日影片"
+        },
+        {
+          "source": "@OpenAI / @AnthropicAI / @GoogleDeepMind (X)",
+          "status": "❌",
+          "count": 0,
+          "note": "X/Twitter 直接存取失敗，WebSearch site:x.com 未篩出 7/1 當日官方貼文，改以官方新聞稿與科技媒體報導（見上方 Anthropic、Google 相關項目）間接覆蓋"
+        },
+        {
+          "source": "@sama / @karpathy (X)",
+          "status": "❌",
+          "count": 0,
+          "note": "WebSearch 找到的貼文集中在 4-6 月，未見 7/1 當日發文"
+        },
+        {
+          "source": "@rowancheung / @mreflow / @alexfinnX (X)",
+          "status": "❌",
+          "count": 0,
+          "note": "WebSearch 未找到 7/1 當日貼文，內容多為較早期的一般性文章"
+        },
+        {
+          "source": "@levelsio / @GregIsenberg (X)",
+          "status": "❌",
+          "count": 0,
+          "note": "WebSearch 找到的貼文多為 4-6 月或更早，未見 7/1 當日發文；GregIsenberg 部分貼文因 X 平台 JavaScript 限制無法完整讀取內文"
+        }
+      ],
+      "explanation": "本次情報來源以「文字新聞媒體」覆蓋最完整：TechCrunch、Dataconomy、9to5Mac、Al Jazeera 皆能透過 WebSearch site: 限定日期查詢法取得確實於 2026-07-01 發布的文章並交叉驗證。The Verge 與 FutureTools.io 兩個來源當日完全無法取得內容（前者WebFetch失敗且WebSearch無結果，後者WebFetch遭403），如實記錄為空。YouTube 六大頻道與十個 X/Twitter 帳號則全數未能找到明確標註於 7/1 當日發布的內容——這是 X/Twitter 與 YouTube 搜尋引擎索引時效性的已知限制（SKILL.md 已預期此情況），並未以推測或舊內容替代，僅將 Anthropic、Google 官方動態透過科技媒體報導間接納入報告。所有納入選題的事實與連結均來自實際擷取結果，未捏造任何內容。"
+    }
+  },
+  {
     "date": "2026-06-30",
     "big_events": [
       {
@@ -1343,279 +1598,6 @@
         }
       ],
       "explanation": "2026-06-21 日報精選 11 則核心情報（4 大事件、4 工具更新、3 趨勢）。TechCrunch 確認 2 篇 /2026/06/21/ URL 文章，主要資訊來自 BuildFastWithAI「16 Biggest Stories」日報（6/21 發布）及 AWS/Apple 官方公告。FutureTools 6/21 無更新，YouTube 頻道無確認 6/21 影片，如實記錄。"
-    }
-  },
-  {
-    "date": "2026-06-20",
-    "big_events": [
-      {
-        "title": "諾貝爾獎得主 John Jumper 離開 DeepMind 加入 Anthropic，AlphaFold 之父出走 Google",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/"
-          },
-          {
-            "name": "The Next Web",
-            "url": "https://thenextweb.com/news/john-jumper-nobel-deepmind-leaves-anthropic-alphafold"
-          },
-          {
-            "name": "Benzinga",
-            "url": "https://www.benzinga.com/markets/tech/26/06/60004029/googles-nobel-winning-scientist-exits-deepmind-for-anthropic-second-blow-in-a-week"
-          }
-        ],
-        "summary": "2024 諾貝爾化學獎得主、AlphaFold 共同創作者 John Jumper 宣布離開 Google DeepMind，加入 Anthropic，在 DeepMind 效力近九年後出走，同週繼 Noam Shazeer 之後第二位頂尖人才出走。",
-        "audience": "關注 AI 公司動態與工具選擇的職場上班族、自媒體創作者",
-        "pain_point": "不確定該跟哪家 AI 公司、用哪個模型，擔心押錯寶",
-        "title_idea": "諾貝爾獎科學家棄 Google 投 Anthropic！Claude 要登頂了嗎？2026 AI 三強新格局解析",
-        "local_angle": "Anthropic 連搶兩位 DeepMind 頂尖人才，「Claude 陣營崛起」是台灣/華語圈自媒體幾乎還沒切入的角度，搶先做深度分析可獲得大量自然流量"
-      },
-      {
-        "title": "Google 同週失去兩位 AI 巨星：Noam Shazeer 去 OpenAI、John Jumper 去 Anthropic",
-        "sources": [
-          {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/06/18/google-gemini-co-lead-noam-shazeer-leaves-for-openai.html"
-          },
-          {
-            "name": "The AI Insider",
-            "url": "https://theaiinsider.tech/2026/06/19/openai-hires-transformer-co-author-noam-shazeer-and-former-white-house-ai-official-dean-ball-ahead-of-ipo/"
-          },
-          {
-            "name": "Startup Fortune",
-            "url": "https://startupfortune.com/nobel-laureate-john-jumper-leaves-google-deepmind-for-anthropic-as-talent-drains-from-googles-ai-crown-jewel/"
-          }
-        ],
-        "summary": "本週 Google DeepMind 接連失去兩位核心人物：Gemini 共同負責人、Transformer 論文共同作者 Noam Shazeer 加入 OpenAI（6/18），諾貝爾獎得主 John Jumper 加入 Anthropic（6/20），被稱為「Google AI 皇冠最慘的一週」。",
-        "audience": "想了解 AI 公司格局走向、選對學習方向的職場上班族",
-        "pain_point": "每天都有 AI 新聞，不知道哪些事件真的重要、值得追蹤",
-        "title_idea": "Google 一週內失去兩位神人！OpenAI 和 Anthropic 搶走 Google 的大腦，對你有什麼影響？",
-        "local_angle": "歐美科技媒體大篇幅報導「Google 人才危機」，台灣/華語圈幾乎沒有中文深度分析，資訊差極大，時機緊迫"
-      },
-      {
-        "title": "Claude Fable 5 免費窗口僅剩 2 天：6 月 22 日後轉為付費點數扣除",
-        "sources": [
-          {
-            "name": "Medium / Tuck Ross",
-            "url": "https://tuckross.medium.com/the-most-capable-ai-ever-released-is-free-in-your-plan-but-only-until-june-22-69f9dc99d504"
-          },
-          {
-            "name": "FindSkill.ai",
-            "url": "https://findskill.ai/blog/claude-fable-5-free-until-june-22/"
-          },
-          {
-            "name": "Developers Digest",
-            "url": "https://www.developersdigest.tech/blog/claude-fable-5-june-22-deadline"
-          }
-        ],
-        "summary": "Anthropic Fable 5（6/9 發布，目前評測最強 AI 模型）在 Pro、Max、Team 方案免費使用至 6/22，今日（6/20）起僅剩最後 48 小時，6/23 起需消耗付費額度。",
-        "audience": "已訂閱 Claude Pro/Max 的職場上班族、自媒體創作者、獨立開發者",
-        "pain_point": "訂了 Claude 但不知道免費試用視窗快到期，不知道該在截止前做哪些高價值任務",
-        "title_idea": "Claude 最強 AI 免費用的機會剩最後 2 天！這 5 件事你現在就要讓 Fable 5 幫你做完",
-        "local_angle": "「限時免費」帶來天然緊迫感，做「6/22 前必做任務清單」內容，結合 Fable 5 實測教學，可觸及大量 Claude 訂閱用戶"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "ChatGPT 新功能包：60 語言發音助手 + 世界盃 AI 對話 + Codex Record & Replay 上線",
-        "sources": [
-          {
-            "name": "Windows Report",
-            "url": "https://windowsreport.com/chatgpt-gets-pronunciation-audio-world-cup-hub-faster-photo-uploads-more/"
-          },
-          {
-            "name": "Releasebot / OpenAI",
-            "url": "https://releasebot.io/updates/openai/chatgpt"
-          },
-          {
-            "name": "AlternativeTo News",
-            "url": "https://alternativeto.net/news/2026/6/codex-adds-record-and-replay-for-reusable-workflows-on-macos/"
-          }
-        ],
-        "summary": "OpenAI 推出 ChatGPT 多項更新：60+ 語言文字與音訊發音指引、FIFA 世界盃賽程/預測對話模式、iOS 相片上傳加速，以及 Codex Business 用戶的 Record & Replay 工作流錄製功能。",
-        "audience": "每天使用 ChatGPT 的職場上班族、英語學習者、想自動化工作流程的商業用戶",
-        "pain_point": "ChatGPT 功能太多更新太快，不知道哪些新功能真的對工作有用",
-        "title_idea": "ChatGPT 這週偷偷加了這些功能！發音老師、世界盃助理、工作流自動錄製一次看懂",
-        "local_angle": "ChatGPT 多語言發音功能是英語學習者的剛需，世界盃搭配時事話題吸引非技術受眾，台灣/華語圈同步報導機會窗口開著"
-      },
-      {
-        "title": "ChatGPT Codex Record & Replay：示範工作流一次，讓 AI 永遠記得並重複執行",
-        "sources": [
-          {
-            "name": "AlternativeTo News",
-            "url": "https://alternativeto.net/news/2026/6/codex-adds-record-and-replay-for-reusable-workflows-on-macos/"
-          },
-          {
-            "name": "Digital Applied",
-            "url": "https://www.digitalapplied.com/blog/openai-codex-chatgpt-business-plugins-june-2026-agentic-work"
-          },
-          {
-            "name": "OpenAI Help Center",
-            "url": "https://help.openai.com/en/articles/11391654-chatgpt-business-release-notes"
-          }
-        ],
-        "summary": "ChatGPT Business 用戶可在 macOS 上錄製一次工作流程，Codex 自動轉為可重複觸發的 AI Skill，支援瀏覽器操作、外掛程式整合與 Computer Use，實現真正的流程自動化。",
-        "audience": "使用 ChatGPT Business 的上班族，想把重複性工作交給 AI 的非程式背景用戶",
-        "pain_point": "想自動化日常工作流程，但沒有能力寫程式，需要直覺的「錄影」式設定方式",
-        "title_idea": "不用寫程式！ChatGPT 新功能讓你錄一次就能讓 AI 永久幫你重複執行這個工作",
-        "local_angle": "Record & Replay 在歐美剛推出，中文教學幾乎為零，做第一篇詳細實測報告可搶到先發流量，尤其對職場自動化受眾吸引力極強"
-      },
-      {
-        "title": "Kimi K2.7 Code：開源 1 兆參數編碼模型，思考 Token 少 30%，免費上架 Hugging Face",
-        "sources": [
-          {
-            "name": "Crypto Briefing",
-            "url": "https://cryptobriefing.com/kimi-k2-7-code-open-source-release/"
-          },
-          {
-            "name": "DevOps.com",
-            "url": "https://devops.com/moonshot-ais-kimi-k2-7-code-targets-token-efficiency-in-agentic-coding/"
-          },
-          {
-            "name": "llm-stats.com",
-            "url": "https://llm-stats.com/models/kimi-k2.7-code"
-          }
-        ],
-        "summary": "中國 Moonshot AI 開源 Kimi K2.7 Code，1 兆參數 MoE 架構，專為長時程 Agentic 編碼設計，思考 Token 消耗比 K2.6 少 30%，已免費上架 Hugging Face（Modified MIT 授權）。",
-        "audience": "想用免費/開源 AI 替代付費編碼工具的獨立開發者、自媒體工程師",
-        "pain_point": "Claude Code 和 GPT-5.5 API 費用高，需要低成本的高性能 AI 編碼替代方案",
-        "title_idea": "完全免費！這個 1 兆參數開源 AI 編碼神器比 Claude Code 便宜多少？實測對比來了",
-        "local_angle": "開源模型在台灣/華語圈技術受眾廣泛，「免費替代付費 AI 工具」定位吸引力高，做對比測試容易引發分享"
-      }
-    ],
-    "trends": [
-      {
-        "title": "AI 人才大戰白熱化：頂尖研究員全面流向 OpenAI 與 Anthropic，Google 人才優勢正在瓦解",
-        "sources": [
-          {
-            "name": "FourWeekMBA",
-            "url": "https://fourweekmba.com/john-jumper-leaves-deepmind-anthropic/"
-          },
-          {
-            "name": "Jobs By Culture",
-            "url": "https://jobsbyculture.com/blog/deepmind-layoffs-2026"
-          },
-          {
-            "name": "Mezha.net",
-            "url": "https://mezha.net/eng/bukvy/4ba3fccc_john_jumper_leaves/"
-          }
-        ],
-        "summary": "一週之內，Transformer 論文共同作者 Noam Shazeer 與諾貝爾獎得主 John Jumper 相繼出走 DeepMind，加速了 AI 三強（OpenAI/Anthropic/Google）的人才重分配，業界認為這標誌著 AI 優勢轉移的起點。",
-        "audience": "想押注正確 AI 工具、關注 AI 行業格局的職場上班族",
-        "pain_point": "AI 工具選太多、不知道哪家最有未來，擔心現在的選擇幾個月後就過時",
-        "title_idea": "AI 大格局正在改寫：從這 2 個人的跳槽，看懂 OpenAI、Anthropic、Google 的未來走向",
-        "local_angle": "「AI 公司格局分析」類內容在歐美長期高流量，台灣/華語圈深度分析極少，做中文版本可填補資訊差"
-      },
-      {
-        "title": "世界盃 × AI 場景化應用：ChatGPT 搶佔體育賽事入口，AI 工具正走向生活化",
-        "sources": [
-          {
-            "name": "ChatGPT Football",
-            "url": "https://chatgpt.com/football/"
-          },
-          {
-            "name": "Yahoo Sports",
-            "url": "https://sports.yahoo.com/articles/world-cup-pronounce-players-name-155242470.html"
-          },
-          {
-            "name": "Windows Report",
-            "url": "https://windowsreport.com/chatgpt-gets-pronunciation-audio-world-cup-hub-faster-photo-uploads-more/"
-          }
-        ],
-        "summary": "2026 FIFA 世界盃進行中，ChatGPT 推出專屬世界盃對話功能，主流 AI 平台開始搶佔體育賽事場景入口，顯示 AI 從「工作工具」正在擴展為「生活助手」的趨勢。",
-        "audience": "有追球習慣的上班族、想了解 AI 更多應用場景的普通用戶",
-        "pain_point": "感覺 AI 工具只能用在工作，不知道在日常娛樂生活中也可以怎麼用",
-        "title_idea": "世界盃用 ChatGPT 追球超強！這 6 種問法讓你成為朋友圈最懂球的人",
-        "local_angle": "世界盃是全年最大流量話題，結合 AI 工具教學可觸及大量非技術受眾，台灣/華語圈幾乎沒有「用 AI 看世界盃」實用教學"
-      },
-      {
-        "title": "2026 AI Solopreneur 浪潮：一人公司靠 AI 自動化每週省 15–20 小時，成本降至傳統 1/10",
-        "sources": [
-          {
-            "name": "Solo Business Hub",
-            "url": "https://www.solobusinesshub.com/trend-watch/solopreneur-boom-america-2026"
-          },
-          {
-            "name": "Entrepreneur Loop",
-            "url": "https://entrepreneurloop.com/solo-founder-ai-tools/"
-          },
-          {
-            "name": "PrometAI Blog",
-            "url": "https://prometai.app/blog/solopreneur-tech-stack-2026"
-          }
-        ],
-        "summary": "2026 年歐美 solopreneur（一人公司）持續增長，AI 自動化讓個人每週平均節省 15-20 小時，完整 AI 工具組年費降至 3,000–12,000 美元，遠低於傳統團隊成本，催生大量月收百萬的獨立創業者。",
-        "audience": "對副業或創業有興趣的職場上班族、自媒體創作者",
-        "pain_point": "想靠 AI 工具提升效率甚至創業，但不知道具體工具組合是什麼、成本能不能負擔",
-        "title_idea": "2026 年這樣的一人公司靠 AI 月入百萬！他們的工具清單和工作流完整公開",
-        "local_angle": "「AI solopreneur」的成功模式在歐美已大量驗證，但台灣/華語圈中文實作內容極少，複製門檻低、受眾廣泛"
-      }
-    ],
-    "source_coverage_notes": {
-      "status": "日期驗證完成 (2026-06-20)",
-      "coverage": [
-        {
-          "source": "TechCrunch AI",
-          "status": "✅",
-          "count": 1,
-          "note": "確認 1 篇 URL 含 /2026/06/20/ 的文章：John Jumper 離開 DeepMind 加入 Anthropic（9:39 AM PDT）。"
-        },
-        {
-          "source": "FutureTools.io",
-          "status": "⚠️",
-          "count": 0,
-          "note": "最新條目為 2026-06-19，6/20 當日尚無新項目（頁面說明週末更新較慢）。如實記錄，未以舊文充數。"
-        },
-        {
-          "source": "Matt Wolfe (mreflow) YouTube",
-          "status": "❌",
-          "count": 0,
-          "note": "futuretools.io 顯示最新影片為 6/19（週間彙整），6/20 無確認上傳，未納入。"
-        },
-        {
-          "source": "The AI Advantage / Matthew Berman",
-          "status": "❌",
-          "count": 0,
-          "note": "未找到 6/20 發布的確認內容，如實記錄。"
-        },
-        {
-          "source": "@OpenAI / ChatGPT",
-          "status": "✅",
-          "count": 2,
-          "note": "ChatGPT 多項更新（發音助手、世界盃模式，6/18 發布 6/20 確認生效）；Codex Record & Replay（6/18 起 6/20 first seen on Releasebot）。"
-        },
-        {
-          "source": "@AnthropicAI",
-          "status": "✅",
-          "count": 1,
-          "note": "Fable 5 免費窗口即將截止（6/22），大量文章於 6/20 前後發布提醒。"
-        },
-        {
-          "source": "@GoogleDeepMind",
-          "status": "✅",
-          "count": 1,
-          "note": "John Jumper 離職 x.com 公告（6/19-20 跨日），TechCrunch 正式報導確認 6/20。"
-        },
-        {
-          "source": "Noam Shazeer / OpenAI 跳槽",
-          "status": "✅",
-          "count": 1,
-          "note": "CNBC 報導 6/18，仍為 6/20 最熱門 AI 業界話題之一，已注明原始發布日期。"
-        },
-        {
-          "source": "The Verge AI",
-          "status": "❌",
-          "count": 0,
-          "note": "WebFetch 無法訪問，如實記錄。"
-        },
-        {
-          "source": "Kimi K2.7 Code (MoonshotAI)",
-          "status": "⚠️",
-          "count": 1,
-          "note": "正式發布日為 6/12，仍在報導週期內，作為工具更新納入，已標注發布日。"
-        }
-      ],
-      "explanation": "2026-06-20 日報精選 9 則核心情報（3 大事件、3 工具更新、3 趨勢）。唯一確認 TechCrunch /2026/06/20/ URL 文章為 John Jumper 報導；Noam Shazeer 故事（6/18）與 ChatGPT 更新（6/18-20）仍為當日最熱話題，標注來源日期後納入。週末 FutureTools 更新較慢，如實記錄零條目。"
     }
   }
 ]

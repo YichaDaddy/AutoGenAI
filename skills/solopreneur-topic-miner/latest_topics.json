@@ -1,158 +1,134 @@
 {
-  "date": "2026-06-30",
+  "date": "2026-07-01",
   "big_events": [
     {
-      "title": "Anthropic 發布「Claude Science」科研工作台，押注工作流整合而非新模型搶攻科學家市場",
+      "title": "美國解除出口管制，Anthropic 最強模型 Claude Fable 5、Mythos 5 全球用戶重新開放",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/"},
-        {"name": "Anthropic 官方", "url": "https://www.anthropic.com/news/claude-science-ai-workbench"},
-        {"name": "STAT News", "url": "https://www.statnews.com/2026/06/30/anthropic-release-claude-science-ceo-dario-amodei/"}
+        {"name": "Al Jazeera", "url": "https://www.aljazeera.com/economy/2026/7/1/us-lifts-restrictions-on-powerful-ai-models-fable-mythos-anthropic-says"},
+        {"name": "9to5Mac", "url": "https://9to5mac.com/2026/07/01/claude-fable-5-cleared-to-return-as-us-lifts-anthropics-export-control-restriction/"}
       ],
-      "summary": "Anthropic 推出 Claude Science 科研工作台 Beta 版，整合 60+ 專業技能與審核代理人，協助科學家做研究、寫論文",
-      "audience": "研究人員、生技/製藥從業者、對 AI 應用於專業領域感興趣的職場知識工作者",
-      "pain_point": "科研工具分散、AI 產出結果難驗證，職場人也好奇 AI 能否勝任「有嚴謹要求」的專業工作",
-      "title_idea": "Claude 不出新模型，直接做一個「AI 科學家工作台」！Claude Science 到底能取代研究員多少工作？",
-      "local_angle": "台灣生技與學術圈對 Claude Science 幾乎零討論，可搶做「非科研背景也看得懂」的功能解讀，並延伸「AI 如何做嚴謹產出並自我審核」對一般職場報告寫作的啟發"
+      "summary": "美國解除出口管制，Claude Fable 5、Mythos 5 重新對全球用戶開放使用",
+      "audience": "重度使用 Claude 處理工作、對 AI 模型政策與國際限制敏感的職場 AI 使用者、科技線自媒體",
+      "pain_point": "模型上週被無預警下架又忽然回歸，搞不清楚「現在到底能不能用」、額度與方案權益是否受影響",
+      "title_idea": "Claude 最強模型「回來了」！Fable 5、Mythos 5 解禁全紀錄，你的方案受影響嗎？",
+      "local_angle": "台灣用戶對這次「先禁後解」事件多半只看到片段消息，可做「一次搞懂前因後果＋額度怎麼用」的懶人包，卡在資訊差最大的空窗期"
     },
     {
-      "title": "Google 發布 Nano Banana 2 Lite：4 秒出圖、成本砍半的高速圖像生成模型全面上線",
+      "title": "Google 代理型助理 Gemini Spark 正式登陸 macOS，僅限 AI Ultra 訂閱戶搶先體驗",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite/"},
-        {"name": "VentureBeat", "url": "https://venturebeat.com/technology/google-unveils-nano-banana-2-lite-aka-gemini-3-1-flash-lite-for-low-cost-4-second-fast-enterprise-image-generations"},
-        {"name": "TheNextWeb", "url": "https://thenextweb.com/news/google-nano-banana-2-lite-omni-flash-image-video"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/"},
+        {"name": "Dataconomy", "url": "https://dataconomy.com/2026/07/01/gemini-spark-ai-assistant-macos-us-usd-100/"}
       ],
-      "summary": "Google 推出 Nano Banana 2 Lite，出圖僅需 4 秒、每千張圖僅 0.034 美元，並同步擴大 Gemini Omni Flash 影片生成 API",
-      "audience": "電商小編、社群小編、需要大量產圖的自媒體與行銷職場人士",
-      "pain_point": "AI 圖像生成速度慢、批量產出成本高，難以應用在需要快速迭代的職場素材製作",
-      "title_idea": "Google Nano Banana 2 Lite 上線：4 秒出一張圖，職場小編的圖庫產能要翻倍了？",
-      "local_angle": "Nano Banana 上一代在台灣社群已有話題度，Lite 版主打「量產」尚無中文實測——搶做「行銷小編用 Nano Banana 2 Lite 批量產圖」實測教學"
+      "summary": "Gemini Spark 開放 macOS，目前僅美國 AI Ultra（約200美元/月）訂閱戶可用",
+      "audience": "使用 Mac 工作、關注 Google AI 生態系、考慮訂閱高階 AI 方案的職場人士",
+      "pain_point": "不清楚代理型助理和一般聊天機器人差在哪，猶豫值不值得為了一個功能升級到最貴訂閱方案",
+      "title_idea": "Google 最強 AI 助理登陸 Mac！Gemini Spark 值不值得升級到 200 美元月費？",
+      "local_angle": "台灣 Mac 用戶對 Gemini Spark 認知幾乎是零、也尚無中文評測，適合搶先做「值不值得訂閱」實測分析文，卡進決策關鍵字"
     },
     {
-      "title": "Nvidia 對手 Etched 脫離隱身模式：晶片實測成功、估值 50 億美元、客戶合約已破 10 億美元",
+      "title": "Microsoft 365 Copilot 中小企業方案轉為永久商品，AI 正式內建辦公室基本配備",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/"},
-        {"name": "TechBuzz.ai", "url": "https://www.techbuzz.ai/articles/etched-hits-5b-valuation-with-1b-in-ai-chip-sales"}
+        {"name": "Windows Forum", "url": "https://windowsforum.com/threads/microsoft-365-business-plans-with-copilot-go-permanent-for-smbs-july-2026.425116/"},
+        {"name": "Strategic Micro Systems", "url": "https://www.stmicro.net/blog/microsoft-365-copilot-business-july-2026/"}
       ],
-      "summary": "AI 晶片新創 Etched 公布 TSMC 代工晶片實測成功，累計融資 8 億美元、客戶合約超過 10 億美元，直接挑戰 Nvidia 推論市場",
-      "audience": "關注 AI 基礎設施成本、想了解 AI 算力競賽走向的職場科技愛好者",
-      "pain_point": "擔心 AI 服務因算力壟斷而持續漲價，好奇是否有替代方案能壓低成本",
-      "title_idea": "挑戰 Nvidia 的晶片新創出關了！Etched 憑什麼估值 50 億美元、拿下 10 億訂單？",
-      "local_angle": "台灣是全球半導體重鎮卻鮮少報導 Etched 這類專用推論晶片新創，切入「台廠供應鏈可能受惠」角度具高共鳴"
+      "summary": "M365 Business Standard/Premium 含 Copilot 轉為正式方案，AI 不再限時促銷",
+      "audience": "中小企業主、行政／採購決策者、需規劃公司 AI 工具預算的職場人士",
+      "pain_point": "搞不清楚公司該不該加購 Copilot、促銷結束後費用會不會暴增，猶豫是否該現在導入",
+      "title_idea": "Copilot 不再是限時特價！Microsoft 365 全面內建 AI，中小企業該怎麼選方案？",
+      "local_angle": "台灣中小企業對 M365 Copilot 定價變化資訊落後，可做「方案比較＋划不划算」的中文決策指南，鎖定企業主與行政人員的搜尋需求"
     }
   ],
   "tool_updates": [
     {
-      "title": "新加坡新創 Acti 推出「Agentic Keyboard」：長按任一按鍵即可翻譯、查股價、發會議連結",
+      "title": "ChatGPT Plus 用戶可直接連結銀行帳戶，AI 秒懂你的收支狀況",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard/"},
-        {"name": "FoundersToday", "url": "https://www.founderstoday.news/acti-snaps-over-5m-in-funding/"}
+        {"name": "Dataconomy", "url": "https://dataconomy.com/2026/07/01/openai-chatgpt-personal-finance-tools-us/"}
       ],
-      "summary": "Acti 推出 iOS/Android 通用型 AI 代理鍵盤，可自訂「Skill Keys」直接在任何 App 內執行 AI 動作，獲 530 萬美元種子輪",
-      "audience": "常用手機處理訊息、Email、社群回覆的職場上班族與小型團隊工作者",
-      "pain_point": "在不同 App 間切換使用 AI 工具很麻煩，希望打字當下就能直接完成翻譯、摘要、排程等動作",
-      "title_idea": "手機鍵盤裝了 AI 大腦！Acti 讓你長按一個鍵就能翻譯、查股價、發會議邀請",
-      "local_angle": "台灣上班族習慣 LINE、Email 多工切換，這種「鍵盤即代理人」的概念幾乎沒人介紹過，適合做開箱實測搶佔關鍵字"
+      "summary": "ChatGPT Plus 新增財務帳戶連結，可生成支出儀表板並用 AI 問答理財",
+      "audience": "想用 AI 管理個人財務、記帳但嫌麻煩的職場上班族",
+      "pain_point": "記帳 App 太多懶得切換，想直接用「聊天」的方式搞懂錢花去哪，卻不知道 ChatGPT 已經能做到",
+      "title_idea": "不用再開記帳 App 了！ChatGPT Plus 新功能直接幫你算清楚每月花多少",
+      "local_angle": "目前僅美國開放、台灣用戶尚無中文教學，可搶先做「連結帳戶怎麼設定、資安風險評估」的第一手教學，卡未來開放到台灣的關鍵字"
     },
     {
-      "title": "Google Nano Banana 2 Lite 與 Gemini Omni Flash 影片生成同步擴大開放企業與消費端",
+      "title": "Claude Sonnet 5 正式成為 Anthropic 預設模型，100 萬 token 上下文＋限時特惠價",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite/"}
+        {"name": "Tech Times", "url": "https://www.techtimes.com/articles/319409/20260701/claude-sonnet-5-ships-anthropic-default-agentic-performance-closes-opus-gap.htm"}
       ],
-      "summary": "Nano Banana 2 Lite 與 Gemini Omni Flash 影片生成同步開放 AI Studio、Gemini App、NotebookLM、Google Ads 等多平台",
-      "audience": "使用 Google 生態系工具（NotebookLM、Google Ads、Gemini App）做內容與行銷的職場人士",
-      "pain_point": "不清楚新模型已悄悄整合進日常在用的 Google 工具，錯過可直接提升效率的免費新功能",
-      "title_idea": "你的 Google 帳號已偷偷升級！Nano Banana 2 Lite 和 AI 影片生成藏在這幾個地方",
-      "local_angle": "多數台灣用戶只知道 Gemini App，不知道 NotebookLM、Google Ads 已內建同批模型——做「隱藏功能盤點」型內容轉發率高"
+      "summary": "Sonnet 5 成免費/Pro 版預設模型，1M 上下文、8月底前每百萬token 2/10美元",
+      "audience": "用 Claude 寫作、整理報告、處理長文件的職場知識工作者",
+      "pain_point": "長文件、長對話容易被截斷或被 AI 遺忘前文，不知道免費也能用到多強的模型、優惠什麼時候截止",
+      "title_idea": "免費版也能用 100 萬字上下文！Claude Sonnet 5 悄悄升級，8月底前用最划算",
+      "local_angle": "台灣使用者多半以為要付費才能用長上下文，這次預設模型直接升級，適合做「免費/付費差在哪、怎麼用滿 1M token」的實測懶人包"
     },
     {
-      "title": "OpenAI Codex Remote 正式全面開放：手機端即可遠端操控電腦上的 Codex 工作進度",
+      "title": "Anthropic 推出 Claude Science 科研工作台，7/15 前開放申請最高 3 萬美元研究額度",
       "sources": [
-        {"name": "Releasebot（OpenAI Codex Changelog 彙整）", "url": "https://releasebot.io/updates/openai/codex"},
-        {"name": "OpenAI Developers Changelog", "url": "https://developers.openai.com/codex/changelog"}
+        {"name": "Dataconomy", "url": "https://dataconomy.com/2026/07/01/anthropic-claude-science-ai-research-launch/"}
       ],
-      "summary": "Codex Remote 全面開放所有 ChatGPT 付費方案，可用手機 App 啟動、查看並核准連接 Mac/Windows 主機上的工作進度",
-      "audience": "使用 ChatGPT/Codex 寫程式或自動化流程的職場開發者、技術型自由工作者",
-      "pain_point": "不在電腦前時無法掌握 AI 自動化任務的進度，需要人在電腦旁才能確認與核准",
-      "title_idea": "出門也能遙控你的 AI 工程師！Codex Remote 全面開放，手機審核任務進度",
-      "local_angle": "台灣工程師與技術創作者對 Codex Remote 討論度仍低，搶做「手機遠端操作 Codex」實測教學具資訊差"
+      "summary": "Claude Science 開放 50 個研究專案申請，7/15 截止、每案最高 3 萬美元 AI 額度",
+      "audience": "研究生、學術工作者、想嘗試申請 AI 輔助研究補助的職場知識工作者",
+      "pain_point": "知道有 AI 科研工具，但不知道申請截止日將近，錯過就得再等下一輪",
+      "title_idea": "還剩兩週！Claude Science 研究補助申請倒數，最高拿 3 萬美元 AI 額度",
+      "local_angle": "台灣學術圈對這個申請管道幾乎沒討論，適合做「申請資格、流程整理」的時效性內容，蹭上 7/15 截止日的急迫感"
     }
   ],
   "trends": [
     {
-      "title": "前 DeepMind 撲克 AI 團隊轉戰量化交易，公司 EquiLibre 估值飆至 5 億美元、宣稱零虧損月份",
+      "title": "Cloudflare 新政策逼 AI 公司為抓取出版商內容付費，9/15 後預設擋下混用型爬蟲",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/"},
-        {"name": "TheNextWeb", "url": "https://thenextweb.com/news/team-built-ai-dominate-poker-now-picking-stocks"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/"}
       ],
-      "summary": "打造撲克 AI「DeepStack」的三人團隊創辦 EquiLibre，用強化學習操盤股票與加密貨幣，估值達 5 億美元",
-      "audience": "對 AI 應用於投資理財、強化學習商業化案例感興趣的職場科技愛好者",
-      "pain_point": "好奇 AI 除了聊天助手外，還能如何被包裝成「能賺錢」的獨立事業或投資工具",
-      "title_idea": "打撲克的 AI 團隊跑去操盤股票了！強化學習如何從賭桌殺進華爾街？",
-      "local_angle": "強化學習如何商業化落地的案例在台灣少有淺白解讀，適合科技/財經自媒體做跨界科普選題"
+      "summary": "Cloudflare 將預設封鎖同時用於搜尋和 AI 訓練的「混用型」爬蟲，逼 AI 公司付費",
+      "audience": "經營部落格／自媒體、擔心內容被 AI 白嫖的內容創作者",
+      "pain_point": "辛苦寫的內容被 AI 公司拿去訓練模型卻拿不到任何回報，不知道有什麼工具能保護或變現",
+      "title_idea": "你的文章正在餵養 AI 卻沒收到半毛錢？Cloudflare 這招要逼 AI 公司付費了",
+      "local_angle": "台灣自媒體對「內容授權費」議題還很陌生，可做「創作者如何用 Cloudflare 保護內容」教學，順勢帶出內容變現新思路"
     },
     {
-      "title": "加密交易所 OKX 推出 AI Agent 市集，讓 AI 代理人能互相「僱用」與自動付款",
+      "title": "隱私優先 AI 平台 Venice AI 完成 6500 萬美元 A 輪，估值衝上十億美元",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/"}
       ],
-      "summary": "OKX 開放「OKX AI」市集供開發者測試，讓 AI 代理人可自主雇用彼此、鏈上結算並累積可攜式信譽",
-      "audience": "對 AI Agent 經濟、獨立開發者變現模式感興趣的技術創業者",
-      "pain_point": "不清楚「AI 幫 AI 打工」這種新商業模式如何運作，也想知道獨立開發者能否從中卡位",
-      "title_idea": "AI 也開始互相請人做事了！OKX 打造讓 AI Agent「互聘互付」的新市集",
-      "local_angle": "AI Agent 經濟＋區塊鏈結算是全新交叉話題，華語圈幾乎無報導，適合作為前瞻趨勢選題卡位"
+      "summary": "Venice AI 主打「不留紀錄」使用 200+ 模型，A 輪估值衝上十億美元",
+      "audience": "重視隱私、不想被 AI 公司蒐集對話紀錄拿去訓練模型的職場 AI 使用者",
+      "pain_point": "用 ChatGPT/Claude 聊敏感工作內容時總擔心被留存或外洩，卻不知道有隱私優先的替代方案",
+      "title_idea": "怕 AI 偷看你的對話紀錄？這個隱私優先 AI 平台一年內衝上十億美元估值",
+      "local_angle": "台灣使用者對「AI 隱私替代方案」關注度低，可搶做「Venice AI 是什麼、跟 ChatGPT 差在哪」的第一支中文介紹內容"
     },
     {
-      "title": "AI 專用推論晶片新創陸續脫離隱身模式，算力成本戰從雲端延燒到終端裝置",
+      "title": "OpenAI 內部數據曝光：員工日常產出 99.8% 已由 Codex 代理完成，AI 正式吃下知識工作",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/"}
+        {"name": "Dataconomy", "url": "https://dataconomy.com/2026/07/01/codex-internal-ai-output-99-8-percent-adoption/"}
       ],
-      "summary": "繼多家新創投入推論晶片賽道後，Etched 等公司實測成功並取得巨額訂單，顯示 AI 服務降價潛力持續累積",
-      "audience": "長期關注 AI 訂閱費用、想預判未來 AI 工具是否會更便宜的職場 AI 重度使用者",
-      "pain_point": "擔心 AI 工具訂閱費用只漲不跌，想預先了解降價的技術動能是否真實存在",
-      "title_idea": "AI 越用越便宜是真的嗎？從 Etched 看懂推論晶片如何決定你的 AI 月費",
-      "local_angle": "把硬體端技術突破翻譯成「對你我 AI 月費有什麼影響」的白話科普，台灣媒體較少做這種消費者視角延伸"
+      "summary": "OpenAI 員工用 Codex 產出的 token 占比達 99.8%，AI 代理從工程師擴及一般知識工作",
+      "audience": "擔心被 AI 取代、想了解「代理式 AI」會怎麼改變工作內容的職場上班族",
+      "pain_point": "常聽說 AI 會取代工作卻沒有具體數據，不知道自己該不該現在開始學用 AI 代理人工具",
+      "title_idea": "OpenAI 員工自己都在用 AI 做 99.8% 的工作了，你的工作還撐得住嗎？",
+      "local_angle": "台灣職場對「代理式 AI」多半停留在概念討論，可用這組內部真實數據做警示型內容，帶出「現在該學什麼」的實用建議"
     }
   ],
   "source_coverage_notes": {
-    "status": "日期驗證完成 (2026-06-30)",
+    "status": "日期驗證完成 (2026-07-01)",
     "coverage": [
-      {
-        "source": "TechCrunch AI",
-        "status": "✅",
-        "count": 10,
-        "note": "直接 WebFetch 遭 403 阻擋，改用 WebSearch site: 語法確認 10 篇 URL 含 /2026/06/30/ 的文章，包含 Claude Science、Nano Banana 2 Lite、Etched、Acti、DeepMind 量化交易、OKX AI 市集等，非 AI 相關（Realta Fusion、Tesla Cybercab、Blue Origin、Clicks 手機）已排除。"
-      },
-      {
-        "source": "FutureTools.io",
-        "status": "❌",
-        "count": 0,
-        "note": "WebFetch 回傳 403 Forbidden，無法存取頁面內容，如實記錄，未以其他日期資料充數。"
-      },
-      {
-        "source": "The Verge AI",
-        "status": "❌",
-        "count": 0,
-        "note": "WebFetch 顯示無法擷取（unable to fetch），改用相關 WebSearch 亦未取得可歸屬於 The Verge 6/30 當日的獨家內容，如實記錄。"
-      },
-      {
-        "source": "WebSearch 補充搜尋（OpenAI/Anthropic/Google 官方動態）",
-        "status": "✅",
-        "count": 3,
-        "note": "確認 Codex Remote 全面開放、Claude Science Beta 上線細節、Nano Banana 2 Lite 定價與上架平台；GPT-5.6 本身於 6/30 仍限量測試中，未納入以免誤導。"
-      },
-      {
-        "source": "YouTube 頻道（Matt Wolfe、Matthew Berman、Wes Roth、The AI Advantage、MattVidPro AI、Skill Leap AI）",
-        "status": "❌",
-        "count": 0,
-        "note": "頻道頁面無法直接抓取上傳列表，WebSearch 亦未返回可確認為 2026-06-30 上傳的具體影片，如實記錄，未納入報告。"
-      },
-      {
-        "source": "X / Twitter 關鍵帳號（@OpenAI、@AnthropicAI、@GoogleDeepMind、@sama、@karpathy 等）",
-        "status": "❌",
-        "count": 0,
-        "note": "X/Twitter 直接存取受限，WebSearch 間接搜尋未返回可歸屬於 6/30 當日的具體貼文內容，重大公告已透過 TechCrunch 及官方新聞稿間接覆蓋。"
-      }
+      {"source": "TechCrunch AI", "status": "✅", "count": 10, "note": "直接 WebFetch 遭 403 拒絕，改用 WebSearch site:techcrunch.com/2026/07/01 取得完整清單，實際採用其中3篇（Gemini Spark、Cloudflare政策、Venice AI）"},
+      {"source": "The Verge AI", "status": "❌", "count": 0, "note": "WebFetch 回傳「無法擷取」錯誤，WebSearch 限定 site:theverge.com 與 7/1 日期也無任何結果，判定此來源當日不可用"},
+      {"source": "FutureTools.io News", "status": "❌", "count": 0, "note": "WebFetch 遭 403 Forbidden 拒絕，無替代管道可驗證當日更新內容"},
+      {"source": "Dataconomy", "status": "✅", "count": 7, "note": "透過 WebSearch site:dataconomy.com/2026/07/01 取得完整清單，採用其中4篇（Gemini Spark macOS、ChatGPT個人財務、Claude Science、Codex內部採用率）"},
+      {"source": "9to5Mac", "status": "✅", "count": 1, "note": "直接 WebFetch 遭 403，改用 WebSearch 取得 Claude Fable 5 解禁報導作為補充來源"},
+      {"source": "Al Jazeera", "status": "✅", "count": 1, "note": "WebSearch 取得 Claude Fable 5/Mythos 5 解除出口管制報導"},
+      {"source": "Microsoft 365 Copilot 定價變動（Windows Forum / Strategic Micro Systems）", "status": "✅", "count": 2, "note": "透過 WebSearch 確認 7/1 生效的正式方案轉換與定價細節"},
+      {"source": "Matt Wolfe (YouTube)", "status": "❌", "count": 0, "note": "頻道頁面無法直接抓取，WebSearch 未能找到明確標註於 7/1 上傳的影片"},
+      {"source": "The AI Advantage (YouTube)", "status": "❌", "count": 0, "note": "同上，WebSearch 僅找到頻道概況，無 7/1 當日影片資訊"},
+      {"source": "Matthew Berman (YouTube)", "status": "❌", "count": 0, "note": "WebSearch 未能找到 7/1 當日影片，僅有較舊的一般性報導"},
+      {"source": "Wes Roth (YouTube)", "status": "❌", "count": 0, "note": "WebSearch 未能找到 7/1 當日影片"},
+      {"source": "MattVidPro AI (YouTube)", "status": "❌", "count": 0, "note": "WebSearch 未能找到 7/1 當日影片"},
+      {"source": "Skill Leap AI (YouTube)", "status": "❌", "count": 0, "note": "WebSearch 未能找到 7/1 當日影片"},
+      {"source": "@OpenAI / @AnthropicAI / @GoogleDeepMind (X)", "status": "❌", "count": 0, "note": "X/Twitter 直接存取失敗，WebSearch site:x.com 未篩出 7/1 當日官方貼文，改以官方新聞稿與科技媒體報導（見上方 Anthropic、Google 相關項目）間接覆蓋"},
+      {"source": "@sama / @karpathy (X)", "status": "❌", "count": 0, "note": "WebSearch 找到的貼文集中在 4-6 月，未見 7/1 當日發文"},
+      {"source": "@rowancheung / @mreflow / @alexfinnX (X)", "status": "❌", "count": 0, "note": "WebSearch 未找到 7/1 當日貼文，內容多為較早期的一般性文章"},
+      {"source": "@levelsio / @GregIsenberg (X)", "status": "❌", "count": 0, "note": "WebSearch 找到的貼文多為 4-6 月或更早，未見 7/1 當日發文；GregIsenberg 部分貼文因 X 平台 JavaScript 限制無法完整讀取內文"}
     ],
-    "explanation": "本日報精選 10 則核心情報（3 大事件、3 工具更新、3 趨勢），全數來自確認 URL 或內容日期為 2026-06-30 的真實來源。TechCrunch 為主力來源（10 篇），並以 Anthropic、Google、OpenAI 官方發布頁與第三方報導交叉驗證細節。FutureTools、The Verge 因存取失敗無法取得當日內容，YouTube 與 X/Twitter 亦未能確認當日具體發布，均如實標記為 ❌，未以舊資料或推測內容填補。"
+    "explanation": "本次情報來源以「文字新聞媒體」覆蓋最完整：TechCrunch、Dataconomy、9to5Mac、Al Jazeera 皆能透過 WebSearch site: 限定日期查詢法取得確實於 2026-07-01 發布的文章並交叉驗證。The Verge 與 FutureTools.io 兩個來源當日完全無法取得內容（前者WebFetch失敗且WebSearch無結果，後者WebFetch遭403），如實記錄為空。YouTube 六大頻道與十個 X/Twitter 帳號則全數未能找到明確標註於 7/1 當日發布的內容——這是 X/Twitter 與 YouTube 搜尋引擎索引時效性的已知限制（SKILL.md 已預期此情況），並未以推測或舊內容替代，僅將 Anthropic、Google 官方動態透過科技媒體報導間接納入報告。所有納入選題的事實與連結均來自實際擷取結果，未捏造任何內容。"
   }
 }
