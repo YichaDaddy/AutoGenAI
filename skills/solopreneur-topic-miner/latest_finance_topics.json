@@ -1,125 +1,125 @@
 {
-  "date": "2026-07-01",
+  "date": "2026-07-02",
   "market_shocks": [
     {
-      "title": "大空頭Burry再出手放空Caterpillar，直言南韓晶片狂潮是「終局的開始」",
+      "title": "全球「大空頭」Burry放空輝達特斯拉 警告AI泡沫進入尾聲",
       "sources": [
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-07-01/michael-burry-s-short-call-dents-caterpillar-s-ai-fueled-rally"},
-        {"name": "Benzinga", "url": "https://www.benzinga.com/markets/tech/26/07/60207524/big-short-investor-michael-burry-reveals-tesla-nvidia-shorts-says-chip-boom-is-beginning-of-the-end"}
+        {"name": "Fortune", "url": "https://fortune.com/2026/07/02/michael-burry-short-caterpillar-ai-infrastructure-bubble-power-systems-valuation/"},
+        {"name": "Benzinga", "url": "https://www.benzinga.com/markets/tech/26/07/60236453/michael-burry-hints-his-ai-bear-thesis-goes-beyond-tesla-and-nvidia-shorts"}
       ],
-      "summary": "Michael Burry在1060.98美元價位首度放空長年偏多的重工股Caterpillar，導致該股當日應聲下跌。他同時重申看空輝達、特斯拉、應用材料，並點名近期費城半導體指數（SOX）的漲勢主要由南韓資本支出狂潮撐起，直言「這就是終局的開始」。",
-      "tw_stock_impact": "SOX指數與台灣半導體供應鏈連動極高，Burry將矛頭指向南韓晶片資本支出過熱，台積電、聯發科等權值股評價同步受到市場重新檢視。",
-      "investment_insight": "Burry放空紀錄不代表股價必跌，但「首度放空長期抱股」是他個人操作史上罕見訊號，建議半導體部位投資人留意SOX相對200日均線的乖離是否持續收斂，逢高分批鎖利優於加碼追高。",
-      "title_idea": "大空頭又來了！Burry首度放空老牌重工股，還說晶片狂潮是「終局的開始」",
-      "local_angle": "台股半導體權值比重逼近四成，Burry點名的「南韓晶片資本支出撐盤」邏輯若被市場採信，台積電、聯發科的本益比評價恐面臨修正壓力，投資人宜提前規劃停利策略。"
+      "summary": "以放空次貸聞名的避險基金經理人Michael Burry最新揭露持倉，同步放空Nvidia、特斯拉、應用材料、開拓重工與半導體ETF SOXX，直指南韓800兆韓元晶片投資計畫是「AI狂熱終結的開始」。他認為費城半導體指數相對200日均線的乖離幅度已達到網路泡沫時期水準。",
+      "tw_stock_impact": "Burry放空名單直接命中台積電、日月光等台廠上游客戶Nvidia與設備商應材，市場情緒轉向保守，資金可能從台股半導體權值股撤出觀望。",
+      "investment_insight": "短線可留意費半指數與台積電ADR連動性，若美股半導體持續破線，建議降低對台股電子權值股的曝險並分批減碼觀察，而非急於抄底。",
+      "title_idea": "「大空頭」封神操作再現？Burry放空輝達特斯拉，這次連台積電客戶都點名",
+      "local_angle": "台灣投資人多押注台積電供應鏈，Burry此舉等於間接看空台廠訂單能見度，值得追蹤半導體庫存與資本支出後續表態。"
     },
     {
-      "title": "37億美元併購案破局！Shutterstock單日暴跌逾30%，Getty Images甩鍋英國監管機關",
+      "title": "台積電ADR重挫近7% 台股開盤急殺逾千點",
       "sources": [
-        {"name": "The Motley Fool", "url": "https://www.fool.com/investing/2026/07/01/why-shutterstocks-stock-shuttered-today/"},
-        {"name": "Invezz", "url": "https://invezz.com/news/2026/07/01/shutterstock-stock-plunges-30-as-getty-images-scraps-3-7b-merger/"}
+        {"name": "經濟日報", "url": "https://money.udn.com/money/story/5599/9601685"},
+        {"name": "聯合新聞網", "url": "https://udn.com/news/story/7251/9601827"},
+        {"name": "鉅亨網", "url": "https://news.cnyes.com/news/id/6519851"}
       ],
-      "summary": "Getty Images宣布終止與Shutterstock價值37億美元的合併案，原因是英國競爭與市場管理局（CMA）要求Shutterstock必須分拆編輯類圖庫業務作為核准條件，雙方董事會無法接受此條件而喊卡。消息一出Shutterstock股價盤中暴跌逾30%，Getty股價亦下跌。",
-      "tw_stock_impact": "此併購案原是圖庫產業為對抗AI生圖工具而抱團取暖的代表案例，破局後顯示監管機關對內容平台整併的審查趨嚴，對台灣同樣面臨AI版權與內容變現壓力的媒體、設計相關類股具參考意義，但直接持股連動有限。",
-      "investment_insight": "併購破局常伴隨標的股單日重挫但基本面未必惡化，若Shutterstock後續財報顯示營收衰退加劇，30%跌幅恐非一次性修正而是估值重新定錨的開始，投資人切勿貿然低接「併購失敗題材股」。",
-      "title_idea": "37億美元併購說喊卡就喊卡！Shutterstock單日崩跌30%，AI浪潮下的圖庫巨頭要拆夥了",
-      "local_angle": "台灣影音、設計、內容創作者高度依賴Shutterstock、Getty等圖庫授權，併購破局後兩大巨頭恐持續削價競爭，對台灣自由接案設計師的授權成本反而可能是短期利多。"
+      "summary": "美股費城半導體指數重挫逾6%，拖累台積電ADR大跌近7%，台指期夜盤重摔867點，7月2日台股開盤一度狂瀉逾1,000點、回測46,000點關卡，所幸金融股撐盤，跌幅收斂至約308點收在46,670點。",
+      "tw_stock_impact": "台積電、南亞科、欣興、聯電等權值股同步走弱，是本次台股殺盤最直接來源，投資人須留意權值股波動放大整體指數震盪。",
+      "investment_insight": "開盤急殺後尾盤收斂顯示買盤仍願意進場承接，可觀察隔日美股半導體是否止穩，再決定是加碼低接電子權值股或轉進金融、傳產等抗跌類股分散風險。",
+      "title_idea": "台積電ADR崩近7%！台股開盤急殺千點，這次金融股神救援",
+      "local_angle": "對重壓台積電及其供應鏈的台灣散戶而言，ADR夜盤表現已成為隔天判斷開盤走勢的關鍵先行指標。"
     },
     {
-      "title": "Meta宣布跨界賣雲端算力股價噴9%，CoreWeave、Nebius重挫逾6%連自家大客戶都變對手",
+      "title": "南韓晶片股遭血洗：Kospi重挫近8% 三星SK海力士市值蒸發290億美元",
       "sources": [
-        {"name": "CNBC", "url": "https://www.cnbc.com/2026/07/01/2026-laggards-shine-in-mixed-market-that-kicked-off-q3.html"},
-        {"name": "BanklessTimes", "url": "https://www.banklesstimes.com/articles/2026/07/01/heres-why-nebius-iren-and-coreweave-stocks-are-falling-today/"}
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-07-02/south-korean-stocks-tumble-6-as-ai-jitters-hurt-chipmakers"}
       ],
-      "summary": "彭博報導Meta正規劃比照AWS、Azure模式，出售自家資料中心過剩運算產能給第三方客戶，消息帶動Meta股價單日大漲近9%；但同日AI雲端新創CoreWeave、Nebius股價重挫逾6%，其中Nebius與Meta簽有高達270億美元的多年期算力合約，如今最大客戶反而可能變成競爭對手，Micron同日也因DRAM訴訟與產能過剩疑慮下跌逾9%。",
-      "tw_stock_impact": "Meta跨足賣算力若成真，將壓縮CoreWeave、Nebius等中小型雲端商的議價空間，連帶影響其對台灣AI伺服器代工廠（廣達、緯創、鴻海）的訂單能見度；但Meta自建產能擴張若持續，仍將維持對台廠伺服器機殼、散熱供應鏈的需求。",
-      "investment_insight": "科技巨頭「內部化」算力供應鏈是新趨勢，建議降低對純雲端新創（CoreWeave、Nebius）的曝險，轉向直接綁定Meta、微軟等超大型客戶訂單的台灣硬體代工股。",
-      "title_idea": "Meta要跟AWS搶生意！股價噴9%，但自家最大客戶Nebius股價卻慘摔",
-      "local_angle": "廣達、緯穎等台廠AI伺服器訂單高度綁定Meta資本支出，Meta決定親自下海賣算力，對台廠而言是機會也是警訊——若Meta自建產能取代外部雲端商，長期資本支出配置恐生變數，值得緊盯法說會說法。"
+      "summary": "市場對AI晶片投資熱潮能否持續的疑慮升溫，南韓Kospi指數收盤重挫近8%，三星電子暴跌9.1%、SK海力士重挫近15%，兩大晶片巨頭單日合計蒸發市值約2,900億美元。",
+      "tw_stock_impact": "南韓記憶體與晶片股是台灣半導體供應鏈的直接競爭與連動對象，其崩跌通常會加深市場對台廠訂單與庫存週期的疑慮，加重台股電子股賣壓。",
+      "investment_insight": "可比較台韓晶片廠估值差距是否因此次拋售而擴大，若台廠基本面未變、僅受情緒面拖累，可能出現錯殺的分批布局機會。",
+      "title_idea": "三星、SK海力士單日蒸發290億美元！南韓AI晶片股崩跌，台廠會是下一個？",
+      "local_angle": "台韓半導體長期被視為競爭對手兼景氣同步指標，韓股重挫常被台灣投資人視為觀察台積電、記憶體族群風險的領先信號。"
+    },
+    {
+      "title": "特斯拉Q2交車大爆發25% 股價卻重挫7%創近一年最慘單日",
+      "sources": [
+        {"name": "CNBC", "url": "https://www.cnbc.com/2026/07/02/tesla-tsla-q2-2026-vehicle-delivery-production.html"},
+        {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-drops-7-despite-blowout-150632365.html"}
+      ],
+      "summary": "特斯拉公布第二季交車量達48萬126輛、年增25%，遠優於市場預期，但股價當天反而重挫7%，寫下近一年最差單日表現，市場解讀為利多出盡與獲利了結，加上獲利率與估值疑慮持續壓抑股價。",
+      "tw_stock_impact": "特斯拉供應鏈中不乏台廠零組件廠，短線股價劇烈波動可能牽動台灣電動車概念股情緒，但基本面交車數據強勁對供應鏈訂單能見度仍屬正面。",
+      "investment_insight": "「利多不漲」的走勢顯示市場已提前反應樂觀預期，操作上應留意7月22日財報公布的毛利率數據，而非單純以交車量判斷買賣時機。",
+      "title_idea": "交車量狂噴25%股價卻跌7%！特斯拉「利多出貨」給投資人的震撼教育",
+      "local_angle": "台灣電動車供應鏈概念股常跟隨特斯拉股價連動，這次「數據亮眼股價卻重摔」的反差，是提醒台灣投資人別只看單一利多消息追價的活教材。"
     }
   ],
   "investment_opportunities": [
     {
-      "title": "聯發科三個月股價從1430衝上4970元，市值超車高通登台版護國神山候選人",
+      "title": "六十年老店熄燈只因炒股賺翻！國巨飆股行情有多猛？",
       "sources": [
-        {"name": "今周刊", "url": "https://www.businesstoday.com.tw/article/category/183008/post/202607010004/"}
+        {"name": "今周刊", "url": "https://www.businesstoday.com.tw/article/category/183030/post/202607020004/"}
       ],
-      "summary": "聯發科（2454）股價三個月內從1,430元飆漲至4,970元，市值超越美系IC設計龍頭高通，財經專家謝金河指出這是聯發科「轉大人」的關鍵時刻。市場關注其AI ASIC、雲端晶片布局是否能延續動能，並討論其是否有機會成為繼台積電之後的下一座「護國神山」。",
-      "tw_stock_impact": "聯發科是台股IC設計指標股，市值超車高通象徵台灣IC設計實力躍居全球一線，對台股半導體類股的整體評價與投資人信心具指標意義。",
-      "investment_insight": "短短三個月漲幅超過2倍，追高風險已大幅提高；建議關注聯發科後續法說會對雲端AI晶片訂單的具體展望，逢財報公布前後的拉回介入，優於情緒性追價。",
-      "title_idea": "3個月狂飆3倍！聯發科市值幹掉高通，下一座護國神山要誕生了？",
-      "local_angle": "聯發科是台灣IC設計代表企業，其市值超車國際大廠的消息極具「台灣之光」話題性，容易引發散戶追捧，但短線漲幅已大，建議理性看待籌碼面過熱風險。"
+      "summary": "台北雙連一甲子老店「燕山湯圓」宣布熄燈，老闆坦言主因是投資國巨股票大賺，財富自由後「不想努力了」。此事件反映被動元件族群在AI伺服器與MLCC缺貨行情帶動下的驚人漲幅，國巨股價近期一度衝破千元大關。",
+      "tw_stock_impact": "被動元件族群（國巨、華新科等）是台股AI基礎建設供應鏈中受惠最直接的次族群之一，本次話題也再次凸顯台股散戶財富效應與AI概念股的高度連結。",
+      "investment_insight": "追價百元、千元股須留意評價是否已反映未來多年成長，建議關注MLCC報價與庫存週期是否持續，而非僅憑股價創高追高。",
+      "title_idea": "賣湯圓賣到財富自由？老闆炒國巨股票賺翻直接關店，台股AI概念股瘋成這樣",
+      "local_angle": "一則庶民致富故事精準捕捉台灣散戶對被動元件飆股的集體記憶，也是解釋「為何要懂AI概念股」給新手讀者的最佳切入點。"
     },
     {
-      "title": "定存族瘋搶！0056擬配息1.35元創單季新高，年化殖利率飆破10%",
+      "title": "Rivian調升全年交車展望 股價單日大漲逾8%",
       "sources": [
-        {"name": "鉅亨網", "url": "https://news.cnyes.com/news/id/6519029"}
+        {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-july-2-213507415.html"}
       ],
-      "summary": "元大高股息ETF（0056）宣布第三季擬配息1.35元，創下單季配息新高，以目前股價換算年化殖利率超過10%。這是0056近12次配息以來多次全數填息的延續，也讓這檔台灣最受歡迎的高股息ETF之一再度成為市場焦點。",
-      "tw_stock_impact": "0056是台灣散戶持有人數最多的高股息ETF之一，配息創新高消息容易帶動除息前的搶息買盤，短線推升成交量與淨值波動；同時可能吸引更多資金從定存轉入ETF市場。",
-      "investment_insight": "高股息不等於高總報酬，追息前應留意除息後的填息表現與成分股基本面；長期存股族可將配息再投入，但不建議為搶單次高息而在除息前大幅加碼。",
-      "title_idea": "月領破萬不是夢？0056配息創新高、年化殖利率破10%，小資族瘋搶進場",
-      "local_angle": "0056是台灣存股族心頭好，這次配息創新高的消息對高度依賴月配息現金流的退休族、小資族極具吸引力，但務必搭配填息紀錄評估長期報酬，而非只看單次殖利率數字。"
+      "summary": "電動車新創Rivian公布第二季交車數優於自家目標，並上修2026全年交車展望，激勵股價當日跳漲逾8%至18.63美元，成為美股電動車族群中少數逆勢走強的個股。",
+      "tw_stock_impact": "Rivian調升展望顯示北美電動車需求並未如市場擔心般急凍，對台灣電動車零組件與電池供應鏈廠商是需求面的正向訊號。",
+      "investment_insight": "可留意Rivian供應鏈中台廠訂單能見度是否同步上修，作為判斷是否加碼相關概念股的參考依據，而非僅追逐美股股價漲幅。",
+      "title_idea": "特斯拉重挫、Rivian卻噴8%！電動車股「冰火兩重天」誰才是真贏家",
+      "local_angle": "電動車類股同日表現分歧，提醒台灣投資人不能只看「電動車」單一標籤選股，須細看個別公司交車與展望數據。"
     },
     {
-      "title": "被動元件漲價潮席捲台股，國巨股價衝破千元、華新科三個月股價翻倍",
+      "title": "聯電列處置股股價跌近4% 外資卻連3天大買逾11萬張",
       "sources": [
-        {"name": "今周刊", "url": "https://www.businesstoday.com.tw/article/category/183008/post/202607010070/"},
-        {"name": "今周刊", "url": "https://www.businesstoday.com.tw/article/category/183015/post/202607010003/"}
+        {"name": "今周刊", "url": "https://www.businesstoday.com.tw/article/category/183008/post/202607020001/"}
       ],
-      "summary": "台股第三季漲價潮主角並非台積電，而是被動元件族群：國巨（2327）股價正式突破千元大關，華新科（2492）、禾伸堂（3026）近三個月股價翻倍，外資機構同步上調目標價，欣興（3037）、南電（8046）等載板廠同步受惠這波供應鏈重新定價行情。",
-      "tw_stock_impact": "被動元件是台股傳產與電子交叉的指標族群，這波漲價潮反映AI伺服器規格升級帶動上游材料需求，對台灣中游供應鏈廠商獲利具直接拉抬效果。",
-      "investment_insight": "漲價循環通常伴隨庫存回補與終端拉貨，建議關注國巨、華新科等龍頭股法說會對後續報價與稼動率的具體說法，短線漲幅已大者可等回檔分批布局，避免追高。",
-      "title_idea": "台股Q3漲價潮主角不是台積電！國巨衝破千元，這幾檔被動元件股悄悄翻倍",
-      "local_angle": "被動元件是台灣傳統產業轉型AI供應鏈的代表案例，這波漲價潮讓許多長期低基期的傳產股意外成為飆股，是台灣投資人重新檢視「傳產也能吃AI財」的絕佳案例。"
-    },
-    {
-      "title": "南亞股價衝上183元再創天價，外資喊讚AI材料題材連8日加碼",
-      "sources": [
-        {"name": "鉅亨網", "url": "https://news.cnyes.com/news/id/6518751"}
-      ],
-      "summary": "南亞（1303）股價開盤即攻上183元漲停，改寫歷史新高，外資機構連續8個交易日加碼買超逾8.8萬張。市場解讀南亞已從傳統塑化股成功轉型為AI伺服器材料供應鏈要角，銅箔基板、玻纖布等產品受惠AI伺服器規格升級需求同步放量。",
-      "tw_stock_impact": "南亞的轉型故事顯示台灣傳產股透過切入AI材料供應鏈可望迎來估值重估，對同樣具備材料轉型潛力的其他傳產股（如台化、聯電轉投資材料事業）具示範效應。",
-      "investment_insight": "南亞今年以來股價漲幅已超過160%，追價風險偏高；建議關注其AI等級產品營收占比是否如外資預期持續提升至5成以上，作為判斷評價是否合理的依據，而非單純追逐漲停動能。",
-      "title_idea": "傳產股變AI概念股！南亞股價衝183元創天價，外資連8天狂買是為什麼",
-      "local_angle": "南亞是台灣「傳產轉型AI」的代表性案例，對長期持有傳產股的存股族而言，這是重新檢視手中部位是否也具備類似轉型潛力的好時機，但需留意短線漲幅已大的追高風險。"
+      "summary": "台積電代工同業聯電（2303）因股價波動過大遭台灣證交所列為處置股，交易將受限至7月15日，消息公布後股價一度重挫近4%，但外資近三個交易日逆勢買超超過11萬張，並有機構同步調升目標價，形成「監管降溫、外資加碼」的罕見對比。",
+      "tw_stock_impact": "處置股制度會限制當沖與人工撮合，短線流動性下降、波動放大，聯電是台股晶圓代工次族群指標股之一，其走勢常牽動整體半導體類股情緒。",
+      "investment_insight": "外資逆勢加碼且調升目標價，顯示法人看好基本面尚未反映在股價，投資人可留意處置期滿後籌碼是否轉趨穩定，作為介入時機參考，但需留意處置期間流動性風險。",
+      "title_idea": "股價跌到被「關禁閉」！聯電變處置股，外資卻偷偷買超11萬張是什麼操作？",
+      "local_angle": "「處置股」是台股特有制度，外資逆勢加碼的反差故事最能引發台灣散戶好奇「內行人在買什麼」的心理。"
     }
   ],
   "macro_observations": [
     {
-      "title": "外資結束連6賣、單日回補323億元，台股Q3開紅盤大漲893點收復47,000點",
+      "title": "非農就業大爆冷！道瓊卻噴逾590點創歷史新高 那斯達克跌0.8%",
       "sources": [
-        {"name": "鉅亨網", "url": "https://news.cnyes.com/news/id/6519222"},
-        {"name": "鉅亨網", "url": "https://news.cnyes.com/news/id/6519261"}
+        {"name": "CNBC", "url": "https://www.cnbc.com/2026/07/02/us-treasury-yields-rise-as-investors-await-june-jobs-report.html"},
+        {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-july-2-132600808.html"}
       ],
-      "summary": "台股第三季開盤首日強力反彈，加權指數大漲893.08點、漲幅1.94%，收在47,018.99點，成交量放大至1.3兆元。外資結束連續6個交易日賣超，單日轉為買超323.76億元，並大舉買進兩檔主動式ETF逾10萬張，但市場也提醒巨量成交背後「以盤代跌」與籌碼「拉積盤」的隱憂仍需觀察。",
-      "tw_stock_impact": "外資結束賣超循環、單日大舉回補，顯示國際資金對台股Q3展望轉趨正面，但單日巨量若缺乏後續買盤接力，也可能是短線獲利了結前的最後一波拉抬。",
-      "investment_insight": "外資買賣超由賣轉買通常是波段轉折的領先訊號之一，但需觀察後續2-3個交易日是否延續買超力道，避免將單日數據直接解讀為多頭確立。",
-      "title_idea": "外資連6賣說停就停！單日狂買323億，台股Q3開紅盤大漲893點收復47000",
-      "local_angle": "台灣投資人習慣以外資買賣超作為進出場參考指標，這次結束連6賣的轉折若能延續，將是判斷台股Q3能否延續多頭的重要觀察窗口，但巨量成交的「拉積盤」疑慮也提醒不宜盲目追高。"
+      "summary": "美國6月非農就業僅增加5.7萬人，遠低於市場預期的11.5萬人，失業率降至4.2%。市場解讀就業降溫將支撐聯準會維持鴿派立場，道瓊工業指數應聲勁揚594.83點、收在歷史新高52,900.07點，但科技股遭拋售，那斯達克指數逆勢下跌0.8%。",
+      "tw_stock_impact": "美股「傳產漲、科技跌」的資金輪動若延續，可能促使台股資金從電子權值股轉向傳產、金融等類股，投資人應留意台美類股輪動是否同步。",
+      "investment_insight": "就業數據轉弱但股市不跌反漲，顯示市場正押注降息預期，操作上可留意殖利率敏感的傳產、金融股，並持續追蹤下一次FOMC會議前的利率走向訊號。",
+      "title_idea": "就業數字慘到嚇人，道瓊卻噴上歷史新高？華爾街到底在賭什麼",
+      "local_angle": "美股「壞消息變好消息」的邏輯常讓台灣投資人困惑，本則適合拆解「就業轉弱=可能降息=股市上漲」的資金邏輯給讀者。"
     },
     {
-      "title": "Fed縮減公開發言引爆波動疑慮，華爾街緊盯Warsh談話揭示利率路徑",
+      "title": "非農數據疲弱點燃降息預期 黃金單日暴漲近2.8%",
       "sources": [
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-07-01/us-stocks-decline-as-traders-await-warsh-comments-fresh-data"},
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-07-01/wall-street-worries-less-fed-talk-will-spur-market-volatility"}
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-07-02/gold-holds-gain-after-warsh-remarks-ease-fed-rate-hike-prospects"},
+        {"name": "CNBC", "url": "https://www.cnbc.com/select/the-price-of-gold-today-july-2-2026/"}
       ],
-      "summary": "美股Q3開盤首日震盪，投資人屏息等待聯準會主席Warsh最新談話與經濟數據。市場人士示警，聯準會近期減少例行公開發言、削減前瞻指引的做法，恐讓市場對利率路徑的判讀更加不確定，進而放大波動度；同時歷史數據顯示標普500自2005年以來7月平均上漲2.5%，是傳統旺季。",
-      "tw_stock_impact": "聯準會溝通透明度下降，將直接提高美股與台股連動的短線波動風險；若市場對利率路徑判斷分歧擴大，台股電子權值股評價亦可能隨美股波動放大而劇烈震盪。",
-      "investment_insight": "在Fed前瞻指引減少的環境下，建議投資人降低對單一政策發言的過度反應，改以分批布局取代單筆重壓，並提高現金部位以因應波動放大的可能性。",
-      "title_idea": "Fed話變少了，華爾街反而更慌！專家警告：溝通不透明恐讓股市波動加劇",
-      "local_angle": "台灣投資人高度關注Fed利率決策對新台幣匯率與資金成本的影響，若聯準會溝通模式轉向「少說多做」，投資人需更依賴總體數據本身而非官員談話來判斷降息時程，操作難度將提高。"
+      "summary": "疲弱的6月就業數據加上聯準會官員Warsh談話降低升息疑慮，現貨黃金當日一度飆漲2.8%，金價站上每盎司4,123.61美元，較前一交易日明顯走高，資金明顯轉向避險與抗通膨資產。",
+      "tw_stock_impact": "黃金走強通常伴隨美元轉弱與降息預期升溫，對台灣出口導向企業（尤其電子代工）匯損壓力可望減輕，但也需留意資金是否從風險性資產（如台股）轉往貴金屬避險。",
+      "investment_insight": "若降息預期進一步強化，可留意新台幣升值對出口權值股獲利的影響，並評估是否透過黃金ETF或相關概念股做資產配置避險。",
+      "title_idea": "非農爆冷嚇壞市場！黃金一天狂飆2.8%，資金在害怕什麼？",
+      "local_angle": "金價與新台幣匯率連動密切，台灣投資人可藉此觀察降息預期如何牽動新台幣走勢與出口股獲利前景。"
     },
     {
-      "title": "美元走強逆襲，新興市場貨幣今年漲幅全數蒸發",
+      "title": "美股狂潮一年造就百萬新富豪！UBS：2025全球新增近百萬人",
       "sources": [
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-07-01/emerging-market-currencies-erase-2026-gains-as-dollar-advances"}
+        {"name": "CNBC", "url": "https://www.cnbc.com/2026/07/02/stock-market-gains-new-millionaires-ubs.html"}
       ],
-      "summary": "隨市場升息預期升溫、美元指數走強，新興市場貨幣今年以來累積的漲幅已全數回吐。這與今年上半年市場普遍看空美元、看多新興市場資產的主流敘事出現明顯反轉，顯示利率路徑的不確定性正重新洗牌全球資金流向。",
-      "tw_stock_impact": "美元轉強、新台幣連帶承壓，對台灣出口型企業匯兌收益短期有利，但也可能加速外資資金從新興市場（含台股）撤出，形成資金動能與匯率利多互相拉扯的局面。",
-      "investment_insight": "美元走勢逆轉是下半年資產配置的關鍵變數，建議持有新興市場資產或高外幣曝險部位的投資人適度避險，並留意新台幣匯率是否跟隨區域貨幣走弱。",
-      "title_idea": "新興市場今年漲幅一夕蒸發！美元逆襲，誰的資金正在悄悄大逃亡？",
-      "local_angle": "新台幣匯率牽動出口廠商獲利與進口物價，美元強勢若持續，台灣央行的貨幣政策與外資流向台股的力道都將是下半年觀察重點，尤其對仰賴出口的電子業影響直接。"
+      "summary": "瑞銀（UBS）最新報告指出，受惠股市大漲，2025年全球百萬富翁人數增加近百萬人，全球百萬富翁總數達5,800萬人，美國就新增超過44萬名百萬富翁，平均每天誕生逾1,200位新富豪。",
+      "tw_stock_impact": "報告凸顯全球資產增值主要集中在持有股票資產的族群，對台灣投資人而言是提醒「持續參與市場」與「資產配置」對財富累積的長期重要性。",
+      "investment_insight": "財富集中於股市參與者的趨勢短期內難以逆轉，建議投資人檢視自身資產配置中股票部位比重，避免長期空手錯過資產增值週期。",
+      "title_idea": "美股一年狂造百萬富翁！你有沒有搭上這波財富列車？",
+      "local_angle": "台灣投資人常糾結「該不該進場」，這則數據型新聞用具體人數呈現「不投資的機會成本」，具備強烈的行動誘因。"
     }
   ]
 }
