@@ -30,12 +30,32 @@ jobs:
         run: python scripts/fetch_stocks.py
 
       - name: Commit & push stocks.json to main
+        id: push_main
         run: |
           git config user.name  "AutoGenAI Bot"
           git config user.email "bot@users.noreply.github.com"
           git add v3/stocks.json
-          git diff --staged --quiet && echo "No changes" || (
-            git commit -m "auto: update stock data $(date -u '+%Y-%m-%d %H:%M UTC')" &&
-            git pull --rebase origin main &&
+          if git diff --staged --quiet; then
+            echo "No changes"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "auto: update stock data $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git pull --rebase origin main
             git push origin main
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      # GITHUB_TOKEN 的 push 不會觸發 deploy_v2 workflow（GitHub 防遞迴），
+      # 所以要在這裡直接同步 gh-pages，作法同 fetch_marathon.yml
+      - name: Sync stocks.json to gh-pages
+        if: steps.push_main.outputs.changed == 'true'
+        run: |
+          git fetch origin gh-pages
+          git worktree add gh-pages-dir origin/gh-pages
+          cp v3/stocks.json gh-pages-dir/v3/stocks.json
+          cd gh-pages-dir
+          git add v3/stocks.json
+          git diff --staged --quiet && echo "No changes to deploy" || (
+            git commit -m "deploy: sync stocks.json $(date -u '+%Y-%m-%d %H:%M UTC')" &&
+            git push origin HEAD:gh-pages
           )

@@ -1433,7 +1433,9 @@ async function refreshStocks(silent){
   var nameUpdated=false;
   symbols.forEach(function(sym){
     var r=result&&result[sym];
-    cache[sym]=r||{failed:true};
+    // 即時抓取失敗時保留舊快取（stocks.json 快照或上次成功值），不要蓋成 failed 讓畫面開天窗
+    if(r)cache[sym]=r;
+    else if(!cache[sym]||cache[sym].failed)cache[sym]={failed:true};
     if(r&&r.name){var entry=(list||[]).find(function(s){return s.s===sym;});if(entry&&entry.n===sym.replace('.TW','')){entry.n=r.name;nameUpdated=true;}}
   });
   if(nameUpdated){var l=getStockList();l[wlActiveMarket]=list;saveStockList(l);}
@@ -1582,6 +1584,7 @@ wireModal('modal-overtime','overtime',function(){otFbPull();});
     '2025-01-01':'元旦','2025-01-27':'農曆除夕','2025-01-28':'春節初一','2025-01-29':'春節初二','2025-01-30':'春節初三','2025-01-31':'春節初四',
     '2025-02-28':'和平紀念日','2025-04-03':'兒童節補假','2025-04-04':'兒童節/清明',
     '2025-05-01':'勞動節','2025-05-31':'端午節','2025-10-06':'中秋補假','2025-10-07':'中秋節','2025-10-10':'國慶日','2025-12-25':'行憲紀念日',
+    '2025-09-28':'教師節','2025-09-29':'教師節補假','2025-10-24':'臺灣光復節補假','2025-10-25':'臺灣光復節',
     '2026-01-01':'元旦','2026-02-16':'農曆除夕','2026-02-17':'春節初一','2026-02-18':'春節初二','2026-02-19':'春節初三','2026-02-20':'春節初四',
     '2026-02-27':'和平紀念日補假','2026-02-28':'和平紀念日','2026-04-03':'兒童節補假','2026-04-04':'兒童節','2026-04-05':'清明節','2026-04-06':'清明節補假',
     '2026-05-01':'勞動節','2026-06-19':'端午節','2026-09-25':'中秋節','2026-09-28':'孔子誕辰紀念日',
@@ -1635,8 +1638,9 @@ wireModal('modal-overtime','overtime',function(){otFbPull();});
   }
   function payOf(t,h,r){
     if(h<=0)return 0;
-    if(t==='wd')return r*(Math.min(h,2)*1.33+Math.max(h-2,0)*1.67);
-    if(t==='sat')return r*(Math.min(h,2)*1.33+clamp(h-2,0,6)*1.67+Math.max(h-8,0)*2.67);
+    // 倍率用法定分數（4/3、5/3、8/3），與 overtime.html 一致；1.33 會少算約 0.2%
+    if(t==='wd')return r*(Math.min(h,2)*4/3+Math.max(h-2,0)*5/3);
+    if(t==='sat')return r*(Math.min(h,2)*4/3+clamp(h-2,0,6)*5/3+Math.max(h-8,0)*8/3);
     return r*h*2.0;
   }
   function monthAgg(y,m){
@@ -1687,16 +1691,20 @@ wireModal('modal-overtime','overtime',function(){otFbPull();});
   }
 
   function updateMini(){
-    var a=monthAgg(view.y,view.m);
+    // bento 卡標示「本月」，一律用真實當前月份計算，不跟著 modal 檢視的月份跑；
+    // 天數也要過濾當月，否則會把其他月份的記錄一起算進去
+    var y=TODAY.getFullYear(),m=TODAY.getMonth();
+    var a=monthAgg(y,m);
     var tp=a.wd.p+a.sat.p+a.sun.p+a.nat.p;
-    var days=Object.keys(hours).filter(function(k){return hours[k]>0;}).length;
+    var pfx=dk(y,m,1).slice(0,7);
+    var days=Object.keys(hours).filter(function(k){return hours[k]>0&&k.slice(0,7)===pfx;}).length;
     var big=document.getElementById('mini-ot-amt');if(big)big.textContent=Math.round(tp).toLocaleString('en-US');
     var sub=document.getElementById('mini-ot-sub');if(sub)sub.textContent='時薪基準 '+Math.round(rate())+' · 已記錄 '+days+' 天';
     var wdEl=document.getElementById('mini-h-wd');if(wdEl)wdEl.innerHTML=a.wd.h+'<small>h</small>';
     var satEl=document.getElementById('mini-h-sat');if(satEl)satEl.innerHTML=a.sat.h+'<small>h</small>';
     var sunEl=document.getElementById('mini-h-sun');if(sunEl)sunEl.innerHTML=(a.sun.h+a.nat.h)+'<small>h</small>';
     // Update hero strip
-    var daysInMonth=new Date(view.y,view.m+1,0).getDate();
+    var daysInMonth=new Date(y,m+1,0).getDate();
     var pct=Math.min(100,Math.round(days/daysInMonth*100));
     var stripFill=document.getElementById('ot-strip-fill');if(stripFill){stripFill.style.width=pct+'%';stripFill.textContent=pct+'%';}
     var stripDays=document.getElementById('ot-days-strip');if(stripDays)stripDays.textContent=days+' 天';
@@ -1751,7 +1759,8 @@ wireModal('modal-overtime','overtime',function(){otFbPull();});
     if(zh)zh.textContent=q.zh;
     if(by)by.textContent='— '+q.by;
   }
-  fetch('../skills/solopreneur-topic-miner/daily_quote.json?'+new Date().toISOString().slice(0,10))
+  var qd=new Date(),qkey=qd.getFullYear()+'-'+String(qd.getMonth()+1).padStart(2,'0')+'-'+String(qd.getDate()).padStart(2,'0');
+  fetch('../skills/solopreneur-topic-miner/daily_quote.json?'+qkey)
     .then(function(r){return r.ok?r.json():null;})
     .then(function(d){if(d&&d.en&&d.zh&&d.by)applyQuote(d);})
     .catch(function(){});
@@ -1791,7 +1800,9 @@ fetch('stocks.json?'+Date.now())
   let st=defState();
   try{const s=localStorage.getItem(KEY);if(s){const p=JSON.parse(s);st=Object.assign(defState(),p);}}catch(e){}
   const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(st));}catch(e){}};
-  const todayStr=()=>new Date().toISOString().slice(0,10);
+  // 一律用本地日期：toISOString() 是 UTC，台灣 00:00–08:00 會被算成前一天（新題延到 8 點才換、凌晨作答記錯天）
+  const dstr=d=>d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+  const todayStr=()=>dstr(new Date());
 
   // ── Firebase ───────────────────────────────
   function fbTPull(){
@@ -1833,6 +1844,8 @@ fetch('stocks.json?'+Date.now())
     const usedIds=new Set([...wrongItems.map(q=>q.id),...carryover.map(q=>q.id)]);
     const fresh=(newQ.p5||[]).filter(q=>!usedIds.has(q.id));
     const newP5=[...wrongItems,...carryover,...fresh].slice(0,TOTAL_P5);
+    // 帶入題組的錯題要清掉舊作答，否則會以「已鎖定」狀態出現、無法重測，進度也會虛胖
+    newP5.forEach(q=>{if(st.wrongBank[q.id])delete st.answers[q.id];});
     const newP6=p6HasAns?newQ.p6:prevP6;
     st.currentSet={date:today,p5:newP5,p6:newP6};
     i5=0;b6=0;
@@ -1956,9 +1969,9 @@ fetch('stocks.json?'+Date.now())
     // 7-day trend
     const days=[];for(let i=6;i>=0;i--){const dt=new Date();dt.setDate(dt.getDate()-i);days.push(dt);}
     const wk=['日','一','二','三','四','五','六'];
-    const dmax=Math.max(1,...days.map(dt=>{const d=st.daily[dt.toISOString().slice(0,10)];return d?d.c+d.w:0;}));
+    const dmax=Math.max(1,...days.map(dt=>{const d=st.daily[dstr(dt)];return d?d.c+d.w:0;}));
     h+='<div class="rv-sec"><div class="rv-sec-t">近 7 日作答趨勢</div><div class="rv-trend">'
-      +days.map(dt=>{const key=dt.toISOString().slice(0,10),d=st.daily[key]||{c:0,w:0},tot=d.c+d.w,isToday=key===todayStr();
+      +days.map(dt=>{const key=dstr(dt),d=st.daily[key]||{c:0,w:0},tot=d.c+d.w,isToday=key===todayStr();
         return `<div class="rv-tcol${isToday?' now':''}"><div class="rv-tbars" title="${tot} 題">`
           +(tot?`${d.w?`<span class="rv-tw" style="height:${Math.round(d.w/dmax*100)}%"></span>`:''}${d.c?`<span class="rv-tc" style="height:${Math.round(d.c/dmax*100)}%"></span>`:''}`:'<span class="rv-t0"></span>')
           +`</div><div class="rv-tn">${tot||''}</div><div class="rv-td">${wk[dt.getDay()]}</div></div>`;}).join('')

@@ -143,7 +143,7 @@ echo "=== $(date) | Generating daily quote ===" >> "$LOG_FILE"
 
 echo "--- Daily quote finished at $(date) ---" >> "$LOG_FILE"
 
-# Generate TOEIC questions (only if user answered yesterday's set)
+# Generate TOEIC questions (skip if today's set already generated)
 echo "=== $(date) | Checking TOEIC questions ===" >> "$LOG_FILE"
 
 TOEIC_FILE="skills/toeic/questions.json"
@@ -228,7 +228,9 @@ git fetch origin gh-pages >> "$LOG_FILE" 2>&1
 git worktree add /tmp/ghp-daily origin/gh-pages >> "$LOG_FILE" 2>&1
 cp v3/index.html /tmp/ghp-daily/v3/index.html
 cp -f v3/marathon.json /tmp/ghp-daily/v3/marathon.json 2>/dev/null || true
+cp -f v3/stocks.json /tmp/ghp-daily/v3/stocks.json 2>/dev/null || true
 mkdir -p /tmp/ghp-daily/skills/solopreneur-topic-miner /tmp/ghp-daily/skills/toeic
+cp -f skills/solopreneur-topic-miner/topics_archive.json /tmp/ghp-daily/skills/solopreneur-topic-miner/topics_archive.json 2>/dev/null || true
 cp -f skills/solopreneur-topic-miner/finance_archive.json /tmp/ghp-daily/skills/solopreneur-topic-miner/finance_archive.json 2>/dev/null || true
 cp -f skills/solopreneur-topic-miner/latest_finance_topics.json /tmp/ghp-daily/skills/solopreneur-topic-miner/latest_finance_topics.json 2>/dev/null || true
 cp -f skills/solopreneur-topic-miner/latest_topics.json /tmp/ghp-daily/skills/solopreneur-topic-miner/latest_topics.json 2>/dev/null || true

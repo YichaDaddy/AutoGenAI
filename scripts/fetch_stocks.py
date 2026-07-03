@@ -24,9 +24,11 @@ HEADERS = {
 }
 
 def fetch(symbol):
+    # range 必須用 1d：range=5d 時 chartPreviousClose 是「5 天前」的收盤價，
+    # 算出來的漲跌幅會變成一週漲幅（曾造成聯發科顯示 +11.98%，超過台股 10% 漲停上限）
     url = (
         f'https://query2.finance.yahoo.com/v8/finance/chart/{symbol}'
-        '?interval=1d&range=5d'
+        '?interval=1d&range=1d'
     )
     try:
         req = Request(url, headers=HEADERS)
