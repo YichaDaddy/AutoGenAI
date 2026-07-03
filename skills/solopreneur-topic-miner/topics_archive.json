@@ -1,5 +1,168 @@
 [
   {
+    "date": "2026-07-03",
+    "big_events": [
+      {
+        "title": "OpenAI 提議讓美國政府持有 5% 股權,仿阿拉斯加模式全民分潤",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/07/02/openai-proposes-us-government-own-5percent-stake-to-address-political-blowback.html"
+          },
+          {
+            "name": "The Japan Times",
+            "url": "https://www.japantimes.co.jp/business/2026/07/03/openai-us-government-stake/"
+          }
+        ],
+        "summary": "OpenAI提議政府持股5%,仿阿拉斯加主權基金分潤全民",
+        "audience": "關注AI產業趨勢與職場AI政策的上班族、內容創作者",
+        "pain_point": "民眾擔心AI巨頭獨占獲利、政策走向影響未來工作與納稅",
+        "title_idea": "OpenAI要把5%股份送美國政府?這波「AI全民分紅」是真的還是公關操作",
+        "local_angle": "台灣讀者可延伸討論若台灣推動AI主權基金或全民分潤機制的可行性,並比較各國AI監理走向"
+      },
+      {
+        "title": "白宮與OpenAI、Google、Anthropic協商「自願式AI模型發布標準」",
+        "sources": [
+          {
+            "name": "Yahoo Finance (轉載FT報導)",
+            "url": "https://finance.yahoo.com/technology/ai/articles/us-talks-ai-companies-voluntary-001646707.html"
+          },
+          {
+            "name": "Business Standard",
+            "url": "https://www.business-standard.com/world-news/us-govt-in-advanced-talks-with-ai-companies-for-voluntary-model-standards-126070200121_1.html"
+          }
+        ],
+        "summary": "美國政府擬與三大AI廠訂自願式模型發布審查標準",
+        "audience": "使用ChatGPT、Gemini、Claude進行企業內容產出的中小企業主與行銷人員",
+        "pain_point": "不確定未來新模型上市會不會因監管延遲或功能受限,打亂工作流程規劃",
+        "title_idea": "白宮要幫AI模型「上市前健檢」?新規範可能怎麼影響你每天用的ChatGPT",
+        "local_angle": "提醒台灣用戶留意美國新模型若因審查延遲發布,可能連動影響台灣用戶搶先體驗新功能的時程"
+      },
+      {
+        "title": "微軟成立25億美元「Frontier Company」,招募6000人專攻企業AI落地",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/"
+          },
+          {
+            "name": "TechWireAsia",
+            "url": "https://techwireasia.com/2026/07/microsoft-frontier-company-enterprise-ai-deployments/"
+          }
+        ],
+        "summary": "微軟砸25億美元、招募6000人專攻企業導入AI落地",
+        "audience": "企業IT主管、數位轉型顧問、中小企業老闆",
+        "pain_point": "企業想導入AI卻不知從何下手、缺乏落地執行的人力與方法",
+        "title_idea": "微軟砸重本組「AI特種部隊」:企業導入AI卡關,這次巨頭直接幫你做",
+        "local_angle": "可對照台灣中小企業導入AI常見的預算與人力痛點,分析是否有本地顧問服務能借鏡此模式"
+      },
+      {
+        "title": "Anthropic洽談三星代工2奈米客製化AI晶片",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/"
+          },
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-07-02/anthropic-in-talks-with-samsung-for-custom-ai-chip-information-mr3l34t4"
+          },
+          {
+            "name": "The Korea Herald",
+            "url": "https://www.koreaherald.com/article/10797311"
+          }
+        ],
+        "summary": "Anthropic洽談三星代工自研AI晶片,拚降低算力成本",
+        "audience": "關注AI基礎建設與投資趨勢的科技愛好者、產業分析型自媒體",
+        "pain_point": "讀者難以理解晶片自研對Claude等服務未來價格與效能的實際影響",
+        "title_idea": "Claude背後的晶片戰:Anthropic找三星代工,想解決什麼問題?",
+        "local_angle": "連結台灣半導體供應鏈與台積電競爭格局,適合科技類創作者做「AI晶片戰爭如何影響台灣供應鏈」延伸報導"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "AI瀏覽器大戰白熱化:Comet、Atlas、Dia、Neon全面比較",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/03/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/"
+          }
+        ],
+        "summary": "TechCrunch整理2026年主流AI瀏覽器與其自動化功能",
+        "audience": "想用AI瀏覽器提升工作效率的上班族、自由工作者",
+        "pain_point": "AI瀏覽器選擇太多,不知道哪款真正能幫忙處理郵件、排程、購物等瑣事",
+        "title_idea": "2026瀏覽器大戰:Comet、Atlas、Dia到底該裝哪一個?一次搞懂差異",
+        "local_angle": "可製作中文對照表,標示各瀏覽器在台灣的語言支援與是否能串接LINE、蝦皮等在地服務"
+      },
+      {
+        "title": "TechCrunch推出「AI名詞完全指南」白話解釋AGI、幻覺等術語",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/"
+          }
+        ],
+        "summary": "TechCrunch發布AI術語白話文詞典,解釋AGI、幻覺等常見詞",
+        "audience": "剛開始接觸AI工具、常被術語搞混的職場新手",
+        "pain_point": "看不懂同事或新聞常提到的AI術語(如幻覺、AGI、微調),不敢發問",
+        "title_idea": "同事又在聊AGI、幻覺、微調?一次看懂上班族最常聽到的AI名詞",
+        "local_angle": "可翻譯成台灣職場常見情境對話,搭配本地時事案例(如AI客服出包)做成懶人包貼文"
+      },
+      {
+        "title": "OpenClaw被用來自動化交友與生活瑣事,實測AI代理應用場景",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/02/yep-were-using-openclaw-to-date-now/"
+          }
+        ],
+        "summary": "用戶用OpenClaw自動追蹤賽事、產出社群貼文、規劃約會行程",
+        "audience": "對AI agent自動化生活或行銷有興趣的個人品牌經營者、行銷小編",
+        "pain_point": "知道AI agent很強,但不知道具體能自動化哪些生活或行銷瑣事",
+        "title_idea": "有人已經用AI代理「自動追劇約會」了!5個OpenClaw真實應用場景拆解",
+        "local_angle": "可改編成台灣情境教學,例如用AI agent自動整理約會餐廳口袋名單、規劃週末行程"
+      }
+    ],
+    "trends": [
+      {
+        "title": "AI巨頭與政府關係加深,「監理即合作」成產業新常態",
+        "sources": [
+          {
+            "name": "Yahoo Finance (轉載FT報導)",
+            "url": "https://finance.yahoo.com/technology/ai/articles/us-talks-ai-companies-voluntary-001646707.html"
+          },
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/"
+          }
+        ],
+        "summary": "政府入股與模型上市審查同步發生,AI監理典範正在轉移",
+        "audience": "關心科技政策走向的內容創作者、財經自媒體經營者",
+        "pain_point": "讀者難以判斷這些政策消息對自己日常使用的AI工具會有什麼實際影響",
+        "title_idea": "從「監管」到「入股」:2026下半年AI產業與政府關係怎麼變了?",
+        "local_angle": "可延伸討論台灣政府AI治理政策是否會參考美國模式,吸引關心政策走向的讀者"
+      },
+      {
+        "title": "Meta坦承AI代理進展不如預期,產業炒作出現降溫訊號",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/"
+          }
+        ],
+        "summary": "祖克柏向員工坦言AI代理發展落後預期,千億資本支出未見等值回報",
+        "audience": "猶豫是否該投入時間學習或導入AI agent工具的上班族與企業主",
+        "pain_point": "擔心花時間學AI agent工具,結果技術還不成熟、白忙一場",
+        "title_idea": "連Meta都說AI代理「進度落後」,現在還要跟風導入AI agent嗎?",
+        "local_angle": "提醒台灣讀者理性看待AI agent炒作,建議先從小範圍工作流程試用,而非貿然全面導入"
+      }
+    ]
+  },
+  {
     "date": "2026-07-02",
     "big_events": [
       {
@@ -1291,261 +1454,6 @@
         }
       ],
       "explanation": "2026-06-23 日報精選 9 則核心情報（3 大事件、4 工具更新、2 趨勢）。TechCrunch /2026/06/23/ URL 確認 Claude Tag 文章，TechTimes URL 含 20260623 確認 Daybreak 擴張報導，其餘 June 23 資訊透過多家媒體 WebSearch 交叉驗證。Claude Desktop 企業雲擴展來自 FutureTools June 22 最新條目，已標注。YouTube 頻道及 The Verge 無法存取，如實記錄。"
-    }
-  },
-  {
-    "date": "2026-06-22",
-    "big_events": [
-      {
-        "title": "SpaceX 與開源 AI 新創 Reflection AI 簽署最高 63 億美元算力合約，開源大模型獲重量級基礎設施背書",
-        "sources": [
-          {
-            "name": "Bloomberg",
-            "url": "https://www.bloomberg.com/news/articles/2026-06-22/spacex-inks-multibillion-dollar-computing-deal-with-reflection-ai"
-          },
-          {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/06/22/spacex-ai-colossus-data-center-reflection.html"
-          },
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/"
-          }
-        ],
-        "summary": "Reflection AI（前 Google DeepMind 研究員創辦）每月支付 SpaceX 1.5 億美元，使用 Memphis Colossus 2 資料中心的 Nvidia GB300 晶片，合約最高達 63 億美元，主攻開源大模型訓練。",
-        "audience": "對免費/開源 AI 工具感興趣的職場人、獨立開發者、AI 創業觀察者",
-        "pain_point": "ChatGPT 等付費 AI 工具費用不斷上漲，職場人需要高品質且低成本的 AI 替代方案",
-        "title_idea": "馬斯克的 SpaceX 砸 63 億押注開源 AI！下一個免費 ChatGPT 競爭者要來了？",
-        "local_angle": "開源 AI 獲大量算力背書在歐美已成熱議，台灣職場人對 Reflection AI 認知幾乎為零，資訊差極大，可搶先做「開源 AI 工具崛起」解析"
-      },
-      {
-        "title": "Getty Images 與 OpenAI 簽多年授權協議，版權圖片將出現在 ChatGPT 搜尋結果中，Getty 股價飆升 200%",
-        "sources": [
-          {
-            "name": "Bloomberg",
-            "url": "https://www.bloomberg.com/news/articles/2026-06-22/getty-images-soars-200-in-early-trading-after-openai-deal"
-          },
-          {
-            "name": "PetaPixel",
-            "url": "https://petapixel.com/2026/06/22/getty-images-strikes-deal-with-openai-sending-gettys-stock-soaring/"
-          },
-          {
-            "name": "Fast Company",
-            "url": "https://www.fastcompany.com/91562788/getty-images-stock-price-skyrocketing-today-surprise-deal-with-openai"
-          },
-          {
-            "name": "Getty Newsroom",
-            "url": "https://newsroom.gettyimages.com/en/getty-images/getty-images-announces-display-partnership-with-openai"
-          }
-        ],
-        "summary": "Getty Images 授權 OpenAI 在 ChatGPT 搜尋與探索功能中展示版權圖片（僅展示、不用於模型訓練），繼 2025 年與 Perplexity 合作後再下一城，消息公布後 Getty 盤前股價大漲逾 200%。",
-        "audience": "職場行銷人員、簡報製作者、內容創作者、使用 ChatGPT 查找素材的上班族",
-        "pain_point": "用 ChatGPT 搜尋時只有文字、缺乏視覺素材，製作簡報或行銷內容時還需另外找圖、且版權問題讓人頭痛",
-        "title_idea": "ChatGPT 終於有正版圖了！Getty 授權合作讓 AI 搜尋秒變圖片庫，行銷人必看",
-        "local_angle": "此功能剛宣布、全球尚未普及，台灣設計師與行銷人可搶先做「ChatGPT 視覺搜尋教學」，趁空窗期搶佔流量"
-      },
-      {
-        "title": "Groq 完成 6.5 億美元融資，在 Nvidia 以 200 億美元授權其晶片技術後全力轉型 AI 推理雲服務商",
-        "sources": [
-          {
-            "name": "Bloomberg",
-            "url": "https://www.bloomberg.com/news/articles/2026-06-22/groq-raises-650-million-to-help-startup-pivot-after-nvidia-deal"
-          },
-          {
-            "name": "AI Weekly",
-            "url": "https://aiweekly.co/alerts/groq-raises-650m-pivots-to-ai-inference-neocloud"
-          },
-          {
-            "name": "Axios",
-            "url": "https://www.axios.com/2026/06/22/open-source-ai-gets-more-compute-from-spacex"
-          }
-        ],
-        "summary": "Groq 宣布完成 6.5 億美元新一輪融資（由 Disruptive 與 Infinitum 領投），Nvidia 以 200 億買走其晶片技術並帶走核心高層後，Groq 全力轉型成 AI 推理雲，目標 2027 年底達 200MW 算力。",
-        "audience": "AI 工具重度使用者、需要快速 AI 回應的職場人、開發者",
-        "pain_point": "ChatGPT 等主流 AI 工具在高峰期回應緩慢，影響工作效率，且訂閱費用逐年上漲",
-        "title_idea": "比 ChatGPT 快 10 倍的 AI 來了！Groq 砸 6.5 億打造超速推理雲，上班族該知道",
-        "local_angle": "Groq 免費 API 速度已遠超 OpenAI，台灣開發者和 AI 重度用戶可搶先製作評測內容；融資消息讓 Groq 商業前景更明確"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "Google DeepMind 攜手頂級文藝電影公司 A24 投資 7500 萬美元，共同開發 AI 電影製作工具",
-        "sources": [
-          {
-            "name": "Google DeepMind Blog",
-            "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/deepmind-a24-research-partnership/"
-          },
-          {
-            "name": "Variety",
-            "url": "https://variety.com/2026/film/news/google-a24-ai-filmmaking-tools-1236787297/"
-          },
-          {
-            "name": "Seeking Alpha",
-            "url": "https://seekingalpha.com/news/4605598-google-invests-in-movie-studio-a24-for-deepmind-rd-collaboration"
-          }
-        ],
-        "summary": "Google 投資 7500 萬美元入股 A24，DeepMind 研究人員將與 A24 Labs 合作開發 AI 輔助分鏡板、拍攝工作流等電影製作工具；協議明確不授權 Google 使用 A24 影片內容做訓練。",
-        "audience": "影片創作者、YouTube 創作者、自媒體內容生產者",
-        "pain_point": "個人創作者缺乏專業影視製作資源，分鏡規劃費時費力，影片前製成本高",
-        "title_idea": "Google 砸錢進軍好萊塢！AI 電影製作工具即將問世，YouTuber 的製作成本要砍一半？",
-        "local_angle": "海外頂級片廠已在用 AI 規劃分鏡，台灣 YouTuber 和影片創作者可搶先介紹「AI 視頻製作工作流」趨勢，資訊差紅利明顯"
-      },
-      {
-        "title": "ChatGPT 搜尋功能整合 Getty Images 授權版權圖片，AI 搜尋答案可直接呈現高品質視覺素材",
-        "sources": [
-          {
-            "name": "Getty Newsroom",
-            "url": "https://newsroom.gettyimages.com/en/getty-images/getty-images-announces-display-partnership-with-openai"
-          },
-          {
-            "name": "The Next Web",
-            "url": "https://thenextweb.com/news/getty-images-openai-chatgpt-deal-shares-soar"
-          },
-          {
-            "name": "Yahoo Tech",
-            "url": "https://tech.yahoo.com/ai/chatgpt/article/openai-inks-new-deal-to-show-getty-images-in-chatgpt-135633529.html"
-          }
-        ],
-        "summary": "用 ChatGPT 搜尋問題時，回應中可能直接顯示 Getty Images 授權圖片幫助視覺化說明；採展示授權而非訓練授權，保障攝影師版權。",
-        "audience": "日常使用 ChatGPT 搜尋的職場人、行銷設計師、簡報製作者",
-        "pain_point": "AI 工具搜尋結果只有文字，視覺化不足，要配圖還需在多個平台間切換",
-        "title_idea": "ChatGPT 搜尋升級！直接顯示 Getty 正版圖片，找素材再也不用開另一個頁面",
-        "local_angle": "功能剛宣布、全球仍在推出，台灣使用者尚未普遍感知，可搶先錄「實際操作教學」搶佔搜尋流量"
-      },
-      {
-        "title": "Groq Cloud 推理 API 擴容：取得 Nvidia GB300 最新算力，AI 推理速度全市場最快，可作 ChatGPT 高速替代",
-        "sources": [
-          {
-            "name": "Bloomberg",
-            "url": "https://www.bloomberg.com/news/articles/2026-06-22/groq-raises-650-million-to-help-startup-pivot-after-nvidia-deal"
-          },
-          {
-            "name": "AI Insider",
-            "url": "https://theaiinsider.tech/2026/06/01/groq-seeks-650m-to-scale-ai-inference-cloud-after-nvidias-20b-technology-deal/"
-          }
-        ],
-        "summary": "Groq 推理雲（GroqCloud）將擴建至 200MW 算力、導入最新 Nvidia GB300 晶片，目前免費 API 已提供全球最快 token 生成速度，適合需要高頻即時 AI 回覆的職場場景。",
-        "audience": "職場 AI 工具重度使用者、開發者、想降低 AI 訂閱費用的上班族",
-        "pain_point": "ChatGPT Plus 每月費用高，且尖峰時段回應速度慢，影響工作節奏",
-        "title_idea": "免費又比 ChatGPT 快！Groq API 完整教學：上班族怎麼用它提升工作效率",
-        "local_angle": "Groq 免費方案在歐美開發者社群已廣為人知，台灣一般職場人幾乎不清楚，教學內容競爭少、資訊差大"
-      }
-    ],
-    "trends": [
-      {
-        "title": "五眼聯盟情報機構聯合警告：能大規模顛覆網路安全的前沿 AI 模型，距離公開只剩「數月」",
-        "sources": [
-          {
-            "name": "CyberScoop",
-            "url": "https://cyberscoop.com/five-eyes-alliance-say-advanced-ai-hacking-models-months-away/"
-          },
-          {
-            "name": "Gadget Review",
-            "url": "https://www.gadgetreview.com/why-intel-agencies-say-ai-could-destroy-governments-by-next-year"
-          }
-        ],
-        "summary": "美英加澳紐五眼聯盟情報機構發出聯合警告，能大幅強化網路攻擊能力的前沿 AI 模型預計「數月內」即可公開取得，Timeline 已從數年縮短至數月。",
-        "audience": "企業 IT 人員、資安從業者、關心 AI 風險的職場主管",
-        "pain_point": "AI 帶來的資安威脅升級速度，已遠超企業資安部門的應對能力",
-        "title_idea": "五眼情報局緊急示警！AI 駭客工具「數月後公開」，你的公司還沒準備好？",
-        "local_angle": "歐美政府已在採取行動，台灣企業資安意識相對滯後，可搶先製作「AI 資安威脅解析」教育型內容，受眾廣泛且競爭少"
-      },
-      {
-        "title": "SpaceX Colossus 2 成 AI 算力新霸主：繼 Anthropic、Google、Cursor 後，Reflection AI 是第四大客戶",
-        "sources": [
-          {
-            "name": "Axios",
-            "url": "https://www.axios.com/2026/06/22/open-source-ai-gets-more-compute-from-spacex"
-          },
-          {
-            "name": "Seeking Alpha",
-            "url": "https://seekingalpha.com/news/4605652-spacex-lands-another-cloud-computing-deal-as-reflection-signs-up-for-potential-63b-contract"
-          }
-        ],
-        "summary": "SpaceX Colossus 2 資料中心已連續拿下 Anthropic、Google、Cursor、Reflection AI 四大客戶的算力合約，正在快速成長為足以媲美 AWS 和 Azure 的 AI 雲端基礎設施提供商。",
-        "audience": "AI 產業觀察者、對科技趨勢感興趣的職場人、AI 創業者",
-        "pain_point": "AI 算力市場由少數大廠壟斷，新進者難以取得具競爭力的算力資源",
-        "title_idea": "馬斯克悄悄成了 AI 界新地主！SpaceX 算力帝國版圖有多大你不敢想像",
-        "local_angle": "SpaceX AI 算力生意在歐美已成熱議焦點，台灣媒體尚未深入分析，可搶先做「AI 基礎設施戰爭」解析，吸引科技迷受眾"
-      },
-      {
-        "title": "AI 版權授權商業模式正式確立：Getty 繼 Perplexity 後再簽 OpenAI，圖片授權成 AI 平台行業標準",
-        "sources": [
-          {
-            "name": "The Next Web",
-            "url": "https://thenextweb.com/news/getty-images-openai-chatgpt-deal-shares-soar"
-          },
-          {
-            "name": "ExplainX.ai",
-            "url": "https://explainx.ai/blog/getty-openai-deal-ai-image-copyright-history-2026"
-          }
-        ],
-        "summary": "Getty 2025 年與 Perplexity 簽授權、2026 年再與 OpenAI 達協議，「AI 平台展示版權內容、向版權方付費」的模式正在快速確立為行業標準，對創作者版權保護具里程碑意義。",
-        "audience": "內容創作者、自媒體經營者、攝影師、關心 AI 版權議題的職場人",
-        "pain_point": "不確定 AI 工具使用的圖片素材是否合法，創作者擔心版權被 AI 侵用卻無從申索",
-        "title_idea": "AI 版權戰爭誰贏了？Getty 模式將成行業標準，創作者的圖片終於要獲得保障",
-        "local_angle": "歐美 AI 版權授權模式正在確立，台灣法規討論和產業認知仍滯後，可搶先製作「AI 版權科普」內容，教育型選題競爭少"
-      }
-    ],
-    "source_coverage_notes": {
-      "status": "日期驗證完成 (2026-06-22)",
-      "coverage": [
-        {
-          "source": "TechCrunch AI",
-          "status": "✅",
-          "count": 1,
-          "note": "確認 1 篇 URL 含 /2026/06/22/ 的 AI 相關文章：SpaceX inks compute deal with Reflection AI（另有 Founder Summit 活動文章不計入）。"
-        },
-        {
-          "source": "FutureTools.io",
-          "status": "⚠️",
-          "count": 1,
-          "note": "頁面顯示 Getty+OpenAI 授權合作（6/22），其餘條目未能確認日期。"
-        },
-        {
-          "source": "llm-stats.com AI News",
-          "status": "✅",
-          "count": 6,
-          "note": "確認 6/22 報導：Getty+OpenAI、SpaceX+Reflection AI、Groq $650M、Google DeepMind+A24、John Jumper 離職、Five Eyes 警告。"
-        },
-        {
-          "source": "Bloomberg",
-          "status": "✅",
-          "count": 3,
-          "note": "確認 3 篇 6/22 文章：SpaceX+Reflection AI $6.3B、Getty 股價飆升 200%、Groq 完成 6.5 億美元融資。"
-        },
-        {
-          "source": "CNBC",
-          "status": "✅",
-          "count": 1,
-          "note": "確認 SpaceX signs compute deal with AI startup Reflection（6/22）。"
-        },
-        {
-          "source": "Matt Wolfe / YouTube AI 頻道",
-          "status": "❌",
-          "count": 0,
-          "note": "未能確認任何 YouTube 頻道在 6/22 發布的影片，如實記錄。"
-        },
-        {
-          "source": "The Verge AI",
-          "status": "❌",
-          "count": 0,
-          "note": "WebFetch 無法存取 theverge.com，如實記錄。"
-        },
-        {
-          "source": "@OpenAI / @AnthropicAI",
-          "status": "⚠️",
-          "count": 0,
-          "note": "6/22 無確認的重大官方公告（Getty+OpenAI 為 OpenAI 參與的商業合作，已計入大事件）。"
-        },
-        {
-          "source": "CyberScoop",
-          "status": "✅",
-          "count": 1,
-          "note": "Five Eyes 聯盟警告前沿 AI 模型將於數月內公開，約 6/22 前後。"
-        }
-      ],
-      "explanation": "2026-06-22 日報精選 9 則核心情報（3 大事件、3 工具更新、3 趨勢）。Bloomberg 確認 3 篇 6/22 原文報導，TechCrunch /2026/06/22/ URL 確認 SpaceX 文章，llm-stats.com 彙整當日 6 則要聞。YouTube 頻道及 The Verge 無法確認 6/22 內容，如實記錄。"
     }
   }
 ]
