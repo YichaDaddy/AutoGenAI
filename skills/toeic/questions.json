@@ -1,103 +1,103 @@
 {
-  "date": "2026-07-03",
+  "date": "2026-07-04",
   "p5": [
     {
-      "id": "2026-07-03-p5-0",
-      "tag": "名詞子句（虛主詞句型的強制性語氣）",
-      "pre": "It is imperative ",
-      "post": " the audit committee review all vendor contracts before the fiscal year closes.",
-      "opts": ["that", "which", "what", "whether"],
+      "id": "2026-07-04-p5-0",
+      "tag": "非限定關係子句",
+      "pre": "The board approved the proposed merger, ",
+      "post": " had been under negotiation for nearly eighteen months, subject to shareholder ratification.",
+      "opts": ["which", "that", "what", "who"],
       "ans": 0,
-      "zh": "審計委員會務必在會計年度結束前審查所有供應商合約。",
-      "why": "<b>It is imperative that</b> 為虛主詞句型，that 子句才是邏輯上的真正主詞，且此類表「必要性」的形容詞後方子句須用<b>假設語氣</b>（review 為原形動詞，不加 s）；which、what 皆無法引導完整的名詞子句作為 it 的真正主詞；whether 引導的是「是否」的不確定子句，與「務必如此」的命令語氣不符。"
+      "zh": "董事會核准了這樁已洽談近十八個月的併購案，惟須經股東批准後方能生效。",
+      "why": "逗號後為<b>非限定關係子句</b>，補充說明先行詞 the proposed merger，須用 <b>which</b>；that 依文法規則不可用於逗號引導的非限定關係子句；what 本身已內含先行詞（＝the thing that），不可再接於名詞之後重複指涉；who 僅能指涉「人」，無法指涉「併購案」這類事物。"
     },
     {
-      "id": "2026-07-03-p5-1",
-      "tag": "比較結構（強調詞 + 比較級）",
-      "pre": "The revised logistics strategy proved far ",
-      "post": " efficient than the one it replaced, cutting average delivery times by nearly 40 percent.",
-      "opts": ["more", "much", "very", "most"],
-      "ans": 0,
-      "zh": "改版後的物流策略遠比先前的策略更有效率，將平均配送時間縮短了近40%。",
-      "why": "形容詞 efficient 為多音節詞，比較級須用 <b>more + 形容詞 + than</b>；far 是用來加強比較級語氣的強調副詞（far more efficient）；much 雖也可加強比較級，但此處已有 far，且句構需要的是構成比較級本身的 more；very 不可修飾比較級（無 very more 的用法）；most 為最高級，須搭配 the 且不與 than 子句並用。"
-    },
-    {
-      "id": "2026-07-03-p5-2",
-      "tag": "被動分詞構句",
+      "id": "2026-07-04-p5-1",
+      "tag": "讓步介系詞",
       "pre": "",
-      "post": " from years of litigation, the two companies finally reached a settlement that satisfied both shareholders and regulators.",
-      "opts": ["Exhausted", "Exhausting", "Having exhausted", "To exhaust"],
+      "post": " repeated warnings from auditors, the finance department failed to implement adequate internal controls before the year-end review.",
+      "opts": ["Notwithstanding", "Although", "Despite that", "Even though"],
       "ans": 0,
-      "zh": "歷經多年訴訟已疲憊不堪，兩家公司終於達成一項讓股東與監管機關都滿意的和解協議。",
-      "why": "分詞構句的邏輯主詞為 two companies，而兩家公司是被多年訴訟「拖垮、耗盡精力」的一方，屬<b>被動</b>關係，須用過去分詞 <b>Exhausted</b>；Exhausting 為主動現在分詞，語意變成公司主動耗盡某事物；Having exhausted 為主動完成式分詞，同樣語意不合；To exhaust 為不定詞表目的，與句意（歷經訴訟後的狀態）無關。"
+      "zh": "儘管審計人員多次提出警告，財務部門仍未能在年終審查前落實足夠的內部控制。",
+      "why": "空格後直接接名詞片語 repeated warnings（無主詞動詞的完整子句），須用<b>介系詞</b> Notwithstanding（＝儘管，常見於正式法律／商業文件）；Although 與 Even though 皆為連接詞，文法上須接「主詞+動詞」的完整子句，不能直接接名詞片語；Despite that 並非標準搭配（despite 後方不接 that，也不會以此形式與名詞片語連用）。"
     },
     {
-      "id": "2026-07-03-p5-3",
-      "tag": "假設語氣倒裝（Should 表未來可能性）",
+      "id": "2026-07-04-p5-2",
+      "tag": "分詞構句（主動完成式）",
       "pre": "",
-      "post": " the merger fail to receive regulatory clearance by year-end, both parties have agreed to extend the exclusivity period by six months.",
-      "opts": ["Should", "Would", "Were", "Had"],
+      "post": " a significant portion of its cash reserves in emerging markets, the fund became especially vulnerable to the currency crisis that unfolded last spring.",
+      "opts": ["Having invested", "Invested", "To invest", "Investing"],
       "ans": 0,
-      "zh": "萬一這樁併購案未能在年底前取得監管機關核准，雙方已同意將排他期延長六個月。",
-      "why": "<b>Should + 主詞 + 原形動詞</b> 為 If...should...（表未來低機率假設）的倒裝形式，語意等同 If the merger should fail...；Would 不可置於句首構成此類倒裝；Were 用於 If + 主詞 + were 的倒裝（現在式假設語氣），與此處原形動詞 fail 的句構不合；Had 用於過去完成式倒裝（表與過去事實相反），與句中「年底前」這一未來時間點矛盾。"
+      "zh": "由於已將相當比例的現金儲備投資於新興市場，該基金在去年春天爆發的匯率危機中變得格外脆弱。",
+      "why": "分詞構句的邏輯主詞為 the fund，且此為<b>主動</b>語態（基金主動進行投資），又因「投資」的動作發生在「變得脆弱」之前，須用<b>完成式主動分詞 Having invested</b> 表達時間先後；Invested 為過去分詞，語意會變成被動（基金被投資），邏輯不通；To invest 為不定詞表目的，與句意無關；Investing 僅表與主要子句同時發生的動作，無法呈現「先投資、後陷入脆弱」的先後關係。"
     },
     {
-      "id": "2026-07-03-p5-4",
-      "tag": "動詞語意辨別（mitigate／eliminate／alleviate／diminish）",
-      "pre": "The new hedging strategy is designed to ",
-      "post": " the company's exposure to currency fluctuations, though it cannot eliminate the risk entirely.",
-      "opts": ["mitigate", "eliminate", "alleviate", "diminish"],
+      "id": "2026-07-04-p5-3",
+      "tag": "進階動詞語意辨別（法律搭配詞）",
+      "pre": "The parties agreed to ",
+      "post": " any claims arising from the initial agreement once the settlement was finalized.",
+      "opts": ["waive", "forfeit", "relinquish", "abandon"],
       "ans": 0,
-      "zh": "這項新的避險策略旨在降低公司對匯率波動的曝險程度，儘管無法完全消除該風險。",
-      "why": "<b>mitigate</b> 是財務／風險管理語域中「降低風險嚴重程度但不完全消除」的標準用詞，與後半句「無法完全消除」語意一致；eliminate 表「完全消除」，與後文直接矛盾；alleviate 通常搭配痛苦、負擔等語意，與 exposure（曝險）搭配不自然；diminish 泛指「減少」，語域籠統，不若 mitigate 精準對應風險管理情境。"
+      "zh": "雙方同意，一旦和解正式生效，即放棄因最初協議而生的任何求償權利。",
+      "why": "<b>waive claims</b>（放棄求償權）是法律和解文件中最標準且慣用的固定搭配，強調「自願放棄」某項權利；forfeit 通常指「因違約或未履行義務而被迫喪失」，帶有懲罰意味，與雙方自願和解的語境不符；relinquish 語意相近，但較常搭配 rights、control 等抽象名詞，與 claims 的慣用搭配不如 waive 道地；abandon 語意過於籠統（單純放棄、拋棄），不具備 waive 在法律語境中「正式且具法律效力地放棄權利」的精確意涵。"
+    },
+    {
+      "id": "2026-07-04-p5-4",
+      "tag": "否定倒裝（Not until）",
+      "pre": "",
+      "post": " the year-end audit did the compliance team discover that several transactions had bypassed the standard approval workflow entirely.",
+      "opts": ["Not until", "Until", "Not since", "Since"],
+      "ans": 0,
+      "zh": "直到年終審計，合規團隊才發現有數筆交易完全繞過了標準核准流程。",
+      "why": "<b>Not until + 時間／事件, + 助動詞 + 主詞 + 原形動詞</b> 為否定副詞片語置於句首、觸發<b>主詞助動詞倒裝</b>的固定句型，語意為「直到...才...」；Until 缺少 Not，無法觸發此倒裝句構，且語意會變成單純的時間子句；Not since 語意為「自從...就不曾」，與「發現」這個瞬間動作不合；Since 同樣不觸發倒裝，且語意（自從）與句意不符。"
     }
   ],
   "p6": {
-    "id": "2026-07-03-p6",
-    "title": "Notice: Data Security Incident and Remediation Timeline",
+    "id": "2026-07-04-p6",
+    "title": "Memorandum: Revised Vendor Payment Terms",
     "seg": [
-      ["To all customers: on June 28, our security team detected unauthorized access to a subset of user account records. An internal investigation ", {"b": 0}, " immediately, and affected accounts have since been secured with mandatory password resets."],
-      [{"b": 1}, " the breach appears to have been limited to email addresses and encrypted password hashes, we are proactively notifying all users as a precautionary measure."],
-      ["Customers are advised to ", {"b": 2}, " their passwords immediately, particularly if the same credentials are reused across other platforms, and to enable two-factor authentication wherever available."],
-      ["A dedicated support line has been established to assist affected users with the reset process. ", {"b": 3}, " We take the security of your data seriously and will continue to provide updates as the investigation progresses."]
+      ["To all department heads: effective August 1, the standard payment term for new vendor contracts ", {"b": 0}, " from net-30 to net-45 days, in order to align our cash flow cycle with industry benchmarks."],
+      [{"b": 1}, " departments that have already negotiated net-60 terms under existing master service agreements will not be affected by this change until those agreements expire."],
+      ["Department heads are required to ", {"b": 2}, " their current vendor contracts and flag any agreements that will need renegotiation before the new terms take effect."],
+      ["The procurement office will host two optional briefing sessions next week to answer questions about the transition. ", {"b": 3}, " Please direct any additional inquiries to the procurement helpdesk."]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["was launched", "launched", "has launched", "is launching"],
+        "opts": ["will be extended", "extended", "has extended", "is extending"],
         "ans": 0,
-        "zh": "致所有客戶：6月28日，我們的資安團隊偵測到部分用戶帳戶紀錄遭未經授權存取。內部調查已立即展開，受影響帳戶自那時起已強制重設密碼以確保安全。",
-        "why": "investigation（調查）是被團隊「展開」的對象，須用<b>被動語態</b>；且句中明確的過去日期（June 28）要求用<b>簡單過去式</b>，故為 was launched；launched 缺少助動詞 was，無法單獨作被動謂語；has launched 為現在完成主動式，主詞無法自行發起調查；is launching 為現在進行主動式，與過去確切日期不符。"
+        "zh": "致所有部門主管：自8月1日起，新簽署供應商合約的標準付款條件將由淨30天延長至淨45天，以使我們的現金流週期與業界標準一致。",
+        "why": "付款條件（term）是被公司政策「延長」的對象，須用<b>被動語態</b>；且生效日期（8月1日）為未來時間點，須用<b>未來式</b>，故為 will be extended；extended 缺少助動詞，無法單獨構成被動謂語；has extended 為現在完成主動式，語意變成條件本身主動完成延長動作，不合邏輯；is extending 為現在進行主動式，與未來生效日期不符。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["Although", "Because", "Provided that", "Now that"],
+        "opts": ["However", "Therefore", "In addition", "As a result"],
         "ans": 0,
-        "zh": "儘管此次資安漏洞看似僅限於電子郵件地址與加密後的密碼雜湊值，我們仍主動通知所有用戶作為預防措施。",
-        "why": "本句前後為「漏洞範圍看似有限」與「仍主動通知所有用戶」的<b>轉折對比</b>關係，須用讓步連接詞 <b>Although</b>；Because 會使句意變成「因為漏洞範圍有限，所以通知用戶」，邏輯矛盾；Provided that 表條件「只要」，與事實敘述不符；Now that 表「既然（已發生的事實成為理由）」，與此處的對比語氣不合。"
+        "zh": "然而，已在現行主服務協議下協商出淨60天付款條件的部門，在該協議到期前不會受此次調整影響。",
+        "why": "前段說明「付款條件將全面延長」，本段則說明「特定部門不受影響」的<b>例外情況</b>，前後為轉折關係，須用 <b>However</b>；Therefore（因此）與 As a result（結果）皆表因果順接，與「例外」的邏輯不符；In addition（此外）表補充遞進，未能呈現轉折語氣。"
       },
       {
         "tag": "詞彙語意（搭配詞）",
         "col1": true,
-        "opts": ["change", "exchange", "alter", "convert"],
+        "opts": ["review", "revise", "reveal", "reverse"],
         "ans": 0,
-        "zh": "建議客戶立即更改密碼，特別是若相同帳密曾用於其他平台，並盡可能啟用雙重驗證。",
-        "why": "<b>change one's password</b> 是資安通知中「更改密碼」的固定標準搭配詞；exchange 意指與他方互換，用於密碼並不合邏輯；alter 雖語意相近但在此語境中並非慣用搭配，顯得不自然；convert 指格式或形式上的轉換，與「更新密碼」的動作不符。"
+        "zh": "各部門主管須先檢視目前的供應商合約，並標記出在新付款條件生效前需要重新協商的合約。",
+        "why": "本句動作順序是「先檢視合約，再標記出需重新協商者」，須用 <b>review</b>（檢視）；revise 意指「直接修改」，但合約的修改應在「重新協商」階段才發生，此處僅是檢視階段，用 revise 會使動作順序矛盾；reveal（揭露）與合約檢視無關；reverse（撤銷、反轉）語意不符。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Representatives are available twenty-four hours a day to answer questions about account security.",
-          "Our quarterly earnings call is scheduled for the second week of August.",
-          "The company plans to open three new retail locations by year-end.",
-          "Employees are reminded to complete their annual compliance training by the end of the month."
+          "Attendance is not mandatory, but department heads are strongly encouraged to join.",
+          "The company's annual shareholder meeting will be held in September.",
+          "All employees must complete the updated code-of-conduct training by year-end.",
+          "The marketing team unveiled a new logo for the upcoming product launch."
         ],
         "ans": 0,
-        "zh": "客服代表全天24小時待命，為您解答有關帳戶安全的相關問題。",
-        "why": "此處應承接前一句「已設立專屬客服專線」的內容，補充說明該專線的<b>服務細節</b>，故選項 A 最恰當；選項 B 談財報電話會議、選項 C 談展店計畫、選項 D 談員工合規訓練，三者皆與本篇資安事件通知的主題無關，置入會使段落邏輯斷裂。"
+        "zh": "出席並非強制規定，但強烈建議各部門主管參加。",
+        "why": "此處應承接前一句「將舉辦兩場說明會」的內容，補充說明該說明會的<b>出席性質</b>，故選項 A 最恰當；選項 B 談股東會、選項 C 談行為準則訓練、選項 D 談新品牌 Logo 發表，三者皆與本篇「供應商付款條件調整」的主題無關，置入會使段落邏輯斷裂。"
       }
     ]
   }
