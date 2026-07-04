@@ -1,5 +1,146 @@
 [
   {
+    "date": "2026-07-04",
+    "big_events": [
+      {
+        "title": "解封法庭郵件曝光:五角大廈曾要求Anthropic開放自主武器換取合約",
+        "sources": [
+          {
+            "name": "Tech Times",
+            "url": "https://www.techtimes.com/articles/319713/20260704/pentagon-blacklisted-anthropic-over-autonomous-weapons-limits-emails-reveal-very-close-talks.htm"
+          }
+        ],
+        "summary": "解封法庭郵件顯示五角大廈曾逼Anthropic鬆綁自主武器限制",
+        "audience": "關注AI倫理與國防科技議題的科技媒體工作者、企業AI治理顧問",
+        "pain_point": "讀者難以判斷Claude背後的安全承諾是否可信,擔心AI巨頭在商業壓力下讓步原則",
+        "title_idea": "五角大廈想要「聽話的AI」?解密郵件揭Anthropic拒絕開發自主武器的真實談判",
+        "local_angle": "可延伸討論台灣國防與AI結合的倫理界線,並比較台灣廠商若面對類似壓力該如何自處"
+      },
+      {
+        "title": "阿里巴巴全面禁用Claude Code,指控暗藏「監控代碼」",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/"
+          },
+          {
+            "name": "South China Morning Post",
+            "url": "https://www.scmp.com/tech/big-tech/article/3359375/alibaba-bans-staff-using-claude-code-over-anthropic-spyware-concerns"
+          }
+        ],
+        "summary": "阿里巴巴禁員工用Claude Code,稱其暗藏偷測中國用戶機制",
+        "audience": "使用AI程式助手開發的工程師、關注中美AI供應鏈對立的科技評論者",
+        "pain_point": "開發者擔心跨國AI工具背後藏有政治風險或隱私監控,不知道該不該繼續依賴",
+        "title_idea": "Claude Code被抓「偷看時區」?阿里巴巴宣布7月10日全面禁用,改推自家工具",
+        "local_angle": "提醒台灣工程師留意跨境AI工具的資安爭議,可對照台灣企業導入國外AI編程工具時的資安盤點清單"
+      },
+      {
+        "title": "中國新規上路,豆包、通義千問智能體功能7月15日集體下架",
+        "sources": [
+          {
+            "name": "Tech Times",
+            "url": "https://www.techtimes.com/articles/319703/20260704/china-ai-companion-law-arrives-july-15-doubao-qwen-agent-data-will-deleted.htm"
+          },
+          {
+            "name": "東方財富網",
+            "url": "https://wap.eastmoney.com/a/202607043794195277.html"
+          }
+        ],
+        "summary": "陸方AI擬人化新規上路,豆包、千問智能體功能同步下架",
+        "audience": "研究兩岸AI監理差異的內容創作者、對AI虛擬陪伴應用有興趣的產品經理",
+        "pain_point": "使用者累積的AI智能體對話與人設資料可能一夕消失,企業也難預判監管紅線在哪",
+        "title_idea": "陸版AI管制來了!豆包、千問智能體7月15日集體熄燈,用戶資料說刪就刪",
+        "local_angle": "可對比台灣目前對AI虛擬陪伴/聊天機器人尚無專法規範的現況,提醒創作者提前思考資料保存與用戶告知機制"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "美團開源LongCat-2.0:1.6兆參數模型跑贏GPT-5.5,全靠中國自製晶片訓練",
+        "sources": [
+          {
+            "name": "VentureBeat",
+            "url": "https://venturebeat.com/technology/meituan-open-sources-longcat-2-0-the-1-6t-near-frontier-agentic-coding-model-thats-been-leading-openrouter-trained-entirely-on-chinese-chips"
+          },
+          {
+            "name": "Cryptopolitan",
+            "url": "https://www.cryptopolitan.com/meituan-longcat-2-0-ai-model-chinese-chips/"
+          }
+        ],
+        "summary": "美團開源1.6兆參數LongCat-2.0,程式能力超車GPT-5.5",
+        "audience": "想找便宜好用寫程式AI的自由工作者、關注開源模型可否取代付費訂閱的技術型創作者",
+        "pain_point": "訂閱多個AI寫程式工具成本越來越高,想知道免費開源模型是否已經夠用",
+        "title_idea": "免費又比GPT-5.5強?美團神秘模型LongCat-2.0正式開源,程式高手實測心得搶先看",
+        "local_angle": "可製作「開源模型 vs 訂閱制AI」費用試算表,提醒讀者留意中國模型的資料傳輸與合規疑慮再評估是否導入工作流程"
+      },
+      {
+        "title": "Google拍7月4日獨立紀念日廣告,示範Gemini幫國父「腦力激盪」寫獨立宣言",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/"
+          }
+        ],
+        "summary": "Google推出趣味廣告,展示Gemini「幫我視覺化」與會議記錄功能",
+        "audience": "常需要開會記錄、腦力激盪發想文案的行政人員、行銷企劃",
+        "pain_point": "開會常常抓不到重點、想不出創意方向,卻不知道AI工具實際能怎麼幫忙",
+        "title_idea": "連國父開會都靠AI?Google廣告示範Gemini怎麼幫你「畫重點」又「想點子」",
+        "local_angle": "可轉化成台灣職場情境教學,示範用Gemini做會議記錄整理、腦力激盪發想的實際操作步驟"
+      },
+      {
+        "title": "TechCrunch出手解說Mistral AI:歐洲版OpenAI的競爭實力大公開",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/"
+          }
+        ],
+        "summary": "TechCrunch整理Mistral AI背景、產品線與歐洲AI主權布局",
+        "audience": "只知道ChatGPT、Gemini,想拓展AI工具選項的職場AI初學者",
+        "pain_point": "市面AI工具太多,不知道除了ChatGPT、Claude還有哪些替代選擇值得認識",
+        "title_idea": "除了ChatGPT,你還認識Mistral嗎?一次搞懂這家歐洲AI黑馬在做什麼",
+        "local_angle": "可製作台灣讀者版「AI工具地圖」,標示Mistral相關產品目前在台灣的可用性與中文支援程度"
+      }
+    ],
+    "trends": [
+      {
+        "title": "好萊塢片廠控告Midjourney侵權,卻被要求交出自家AI使用內幕",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/"
+          },
+          {
+            "name": "Variety",
+            "url": "https://variety.com/2026/film/news/midjourney-studios-ai-copyright-discovery-1236800902/"
+          }
+        ],
+        "summary": "Midjourney反訴要求控告它的片廠公開內部AI使用紀錄",
+        "audience": "使用AI繪圖工具產出商業內容的自媒體、平面設計接案者",
+        "pain_point": "不確定用AI生成的素材是否有侵權風險,也不知道大公司內部其實怎麼用AI",
+        "title_idea": "告別人用AI侵權,自己卻偷偷用?迪士尼、華納被Midjourney反將一軍的內幕",
+        "local_angle": "提醒台灣內容創作者留意使用AI繪圖工具的著作權風險,建議建立素材來源紀錄以防未來糾紛"
+      },
+      {
+        "title": "從矽谷到北京:AI代理工具同步被政府與企業「收緊」成新常態",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/"
+          },
+          {
+            "name": "Tech Times",
+            "url": "https://www.techtimes.com/articles/319703/20260704/china-ai-companion-law-arrives-july-15-doubao-qwen-agent-data-will-deleted.htm"
+          }
+        ],
+        "summary": "同一天內,中美企業與政府都在收緊AI代理工具的使用權限",
+        "audience": "關注中美AI監理走向的財經自媒體、企業數位轉型決策者",
+        "pain_point": "AI代理/智能體工具規範變化太快,難以判斷該押注哪個平台或政策風向",
+        "title_idea": "同一天,中美都在「管」AI代理:阿里禁用Claude Code、北京勒令豆包千問下架智能體",
+        "local_angle": "可延伸討論台灣企業若同時使用中美AI工具,該如何準備應對雙邊政策風險的「兩手策略」"
+      }
+    ]
+  },
+  {
     "date": "2026-07-03",
     "big_events": [
       {
@@ -1241,219 +1382,6 @@
         }
       ],
       "explanation": "2026-06-24 日報精選 9 則核心情報（3 大事件、3 工具更新、3 趨勢）。TechCrunch /2026/06/24/ URL 確認 3 篇文章，Bloomberg 及 CNBC URL 含 2026-06-24 進一步佐證 Jalapeño 晶片報導，OpenAI GPT-5 免疫學家案例與 Daybreak 資訊透過 WebSearch 確認為 June 2026 發布。solopreneur 趨勢條目援引 Fortune 5 月報告作為持續性趨勢佐證，非單日新聞。YouTube 頻道及 The Verge 無法存取，如實記錄。"
-    }
-  },
-  {
-    "date": "2026-06-23",
-    "big_events": [
-      {
-        "title": "Anthropic Claude Tag 登場：Slack 頻道的全天候 AI 隊友，自動學習公司脈絡並主動介入任務",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/"
-          }
-        ],
-        "summary": "Anthropic 推出 Claude Tag，在 Slack 頻道以 @Claude 召喚後，AI 在 ambient 模式下持續學習公司脈絡、主動追蹤待辦並執行多步驟任務，現以研究預覽開放 Team/Enterprise 方案。",
-        "audience": "職場上班族、團隊協作工作者、中小企業主、遠端工作者",
-        "pain_point": "Slack 訊息爆炸卻沒人整理重點，公司知識散落各頻道，任務跟進全靠人力記憶",
-        "title_idea": "在 Slack 直接 @Claude 就能自動追蹤任務？Anthropic 新功能讓 AI 變成真正的隊友",
-        "local_angle": "台灣職場廣泛使用 Slack，Claude Tag 繁中介面支援尚待確認，搶做繁中操作教學與企業導入指南紅利窗口已開"
-      },
-      {
-        "title": "OpenAI Daybreak 全面擴張：GPT-5.5-Cyber 正式發布 + Patch the Planet 開源安全計畫 + 28 家頂級廠商加盟",
-        "sources": [
-          {
-            "name": "TechTimes",
-            "url": "https://www.techtimes.com/articles/318900/20260623/openai-daybreak-expands-patch-pipeline-five-eyes-warns-ai-attacks-are-months-away.htm"
-          },
-          {
-            "name": "The Hacker News",
-            "url": "https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html"
-          },
-          {
-            "name": "WindowsReport",
-            "url": "https://windowsreport.com/openai-expands-daybreak-with-gpt-5-5-cyber-and-new-security-tools/"
-          },
-          {
-            "name": "CybersecurityDive",
-            "url": "https://www.cybersecuritydive.com/news/OpenAI-Daybreak-cyber-threats/820122/"
-          }
-        ],
-        "summary": "OpenAI Daybreak 大規模擴張，GPT-5.5-Cyber 轉正式（限已驗證防禦方），在 CyberGym 評測拿下 85.6%，Codex Security 掃描 3 千萬+ commits，同日啟動開源漏洞修補計畫 Patch the Planet，CrowdStrike、Palo Alto、Cisco 等 28 家廠商加盟聯盟。",
-        "audience": "企業 IT 主管、資安從業人員、採購決策者、獨立開發者",
-        "pain_point": "AI 加速網路攻擊但防禦工具跟不上，企業代碼漏洞掃描靠人工太慢且成本高",
-        "title_idea": "OpenAI 打造 AI 安全聯盟！28 家頂級廠商聯手，GPT-5.5-Cyber 自動修補漏洞完整解析",
-        "local_angle": "台灣企業資安市場正在高速擴張，AI 主動防禦工具的繁中深度報導幾乎為零，此主題兼具教育性與商業機會"
-      },
-      {
-        "title": "五眼聯盟同日發警告：AI 驅動的網路攻擊將在「數月內」到來，與 Daybreak 擴張形成強烈共鳴",
-        "sources": [
-          {
-            "name": "TechTimes",
-            "url": "https://www.techtimes.com/articles/318900/20260623/openai-daybreak-expands-patch-pipeline-five-eyes-warns-ai-attacks-are-months-away.htm"
-          },
-          {
-            "name": "Infosecurity Magazine",
-            "url": "https://www.infosecurity-magazine.com/news/openai-daybreak-gpt-5-5-cyber/"
-          }
-        ],
-        "summary": "英美澳加紐五眼情報聯盟同日發出聯合警告，稱前沿 AI 模型將在「數月而非數年內」大幅提升攻擊者能力，強化企業導入 AI 防禦工具的緊迫性，與 OpenAI Daybreak 擴張形成產業共識。",
-        "audience": "企業決策者、CTO、IT 主管、關注 AI 安全工具的職場主管",
-        "pain_point": "傳統資安工具跟不上 AI 加速攻擊節奏，企業主不清楚現在需要做什麼準備",
-        "title_idea": "五眼聯盟警告來了：AI 網攻數月後升級，你的公司現在該部署哪些防禦工具？",
-        "local_angle": "台灣中小企業資安意識薄弱，此類政府級別的 AI 安全警告在繁中市場幾乎空白，有強烈的教育切入機會"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "GPT-5.5-Cyber 正式發布（限驗證防禦方）：AI 漏洞偵測 CyberGym 評測 85.6%，Codex Security 突破 3 千萬 commits",
-        "sources": [
-          {
-            "name": "CybersecurityNews",
-            "url": "https://cybersecuritynews.com/gpt-5-5-cyber/"
-          },
-          {
-            "name": "OpenAI Daybreak",
-            "url": "https://openai.com/daybreak/"
-          }
-        ],
-        "summary": "GPT-5.5-Cyber 從研究預覽轉正式，在 CyberGym 評測拿下 85.6%，Codex Security 已掃描逾 30,000 個代碼庫的 3,000 萬+ commits，超過 50 萬條漏洞自動關閉，7 萬+ 條由人工確認。",
-        "audience": "開發者、DevOps 工程師、企業資安負責人",
-        "pain_point": "代碼審查耗時耗力，人工無法跟上快速迭代節奏，安全漏洞難以規模化管理",
-        "title_idea": "3 個月掃 3 千萬 commits！OpenAI Codex Security 如何用 AI 幫你的代碼自動找漏洞",
-        "local_angle": "台灣軟體公司普遍缺乏資安人才，AI 代碼安全工具的繁中教學幾乏空白，技術向內容機會明確"
-      },
-      {
-        "title": "OpenAI Patch the Planet 正式啟動：AI 自動掃描開源專案漏洞，大幅減輕維護者負擔",
-        "sources": [
-          {
-            "name": "Engadget",
-            "url": "https://www.engadget.com/2199569/openai-new-daybreak-initiative-open-source-projects-bugs/"
-          },
-          {
-            "name": "OpenAI Daybreak",
-            "url": "https://openai.com/daybreak/"
-          }
-        ],
-        "summary": "OpenAI 正式啟動 Patch the Planet 計畫，以 Codex Security 協助開源專案識別漏洞、生成修補方案，維護者只需審核確認，目標是系統化提升關鍵開源軟體的整體安全性。",
-        "audience": "獨立開發者、開源專案維護者、使用開源工具的工程師",
-        "pain_point": "開源專案人手不足，安全漏洞難以及時發現和修補，維護者同時要顧功能又要顧安全",
-        "title_idea": "OpenAI 免費幫開源專案修 Bug？Patch the Planet 完整解析，維護者必看",
-        "local_angle": "台灣活躍開源社群（COSCUP 等）對此計畫幾乎無繁中報導，率先做深度介紹可快速獲取技術社群關注"
-      },
-      {
-        "title": "Claude Desktop 企業部署大擴張：支援 AWS、Google Cloud、Microsoft Foundry，含 SSO 與離線部署選項",
-        "sources": [
-          {
-            "name": "FutureTools News",
-            "url": "https://futuretools.io/news"
-          }
-        ],
-        "summary": "Anthropic 宣布 Claude Desktop 擴展至三大企業雲端平台，支援企業 SSO 及離線部署選項，讓大型企業可在合規環境下部署 Claude，滿足金融、醫療等行業的資料主權需求。",
-        "audience": "企業 IT 決策者、採購主管、大型企業數位轉型負責人、顧問",
-        "pain_point": "企業導入 AI 工具受限於資安合規要求，公有雲 SaaS 無法滿足金融、醫療、政府等行業需求",
-        "title_idea": "Claude 可以關在自己的雲裡了！AWS / Google Cloud / Azure 離線部署完整指南",
-        "local_angle": "台灣金融業、政府機構有嚴格資料在地化要求，此功能直擊核心痛點，繁中市場相關報導幾乎空白"
-      },
-      {
-        "title": "Google Vertex Vector Search 2.0 正式 GA：向量＋全文混合搜尋、自動 Embedding，RAG 應用門檻大幅降低",
-        "sources": [
-          {
-            "name": "Google Cloud Medium",
-            "url": "https://medium.com/google-cloud/introducing-vertex-ai-vector-search-2-0-from-zero-to-billion-scale-90ed666dac43"
-          },
-          {
-            "name": "Google Codelabs",
-            "url": "https://codelabs.developers.google.com/vector-search-2-intro"
-          }
-        ],
-        "summary": "Google Vertex Vector Search 2.0 正式 GA，整合向量＋全文混合搜尋、Auto-Embedding、私有 VPC 部署，讓企業知識庫和 RAG 應用從開發到億級規模的路徑更完整、成本更低。",
-        "audience": "AI 應用開發者、技術型創業者、想建企業知識庫的工程師",
-        "pain_point": "RAG 應用搭建繁瑣，向量庫選型困難，企業合規部署缺乏一站式完整方案",
-        "title_idea": "Google 向量搜尋 2.0 正式 GA！從零到億級 RAG 知識庫，一套工具搞定的完整教學",
-        "local_angle": "台灣開發者在 RAG 應用領域快速增長，繁中的企業知識庫建置實戰教學稀缺，切入時機成熟"
-      }
-    ],
-    "trends": [
-      {
-        "title": "AI 防禦工具軍備競賽加速：OpenAI vs Anthropic 同日出招，企業安全市場成 2026 下半年最大兵家必爭之地",
-        "sources": [
-          {
-            "name": "TechTimes",
-            "url": "https://www.techtimes.com/articles/318900/20260623/openai-daybreak-expands-patch-pipeline-five-eyes-warns-ai-attacks-are-months-away.htm"
-          },
-          {
-            "name": "Unite.AI",
-            "url": "https://www.unite.ai/openais-daybreak-wants-to-own-the-patch-not-just-the-bug/"
-          }
-        ],
-        "summary": "OpenAI Daybreak 和 Anthropic Claude Tag 在同一天推出，加上五眼聯盟警告，顯示 2026 下半年企業 AI 安全工具市場即將迎來爆發式採購潮，各大廠商搶先卡位。",
-        "audience": "企業決策者、科技自媒體創作者、關注 AI 產業趨勢的人",
-        "pain_point": "不知道 AI 安全工具市場走向，難以判斷哪些工具值得學習和推薦",
-        "title_idea": "OpenAI 和 Anthropic 同一天出招：2026 年 AI 安全工具戰爭正式開打！",
-        "local_angle": "此趨勢分析在繁中市場幾乎空白，提前做產業分析可建立意見領袖地位，對企業受眾吸引力強"
-      },
-      {
-        "title": "獨立創業者 AI 工具成本結構驗證：月費 $30-300 可支撐 $1M ARR，一人公司商業模式大規模驗證",
-        "sources": [
-          {
-            "name": "Fortune",
-            "url": "https://fortune.com/2026/05/18/solo-founders-ai-automation-entire-teams-entrepreneurs/"
-          },
-          {
-            "name": "Alfred Blog",
-            "url": "https://get-alfred.ai/blog/best-ai-tools-for-solopreneurs"
-          }
-        ],
-        "summary": "多份 2026 年研究確認，獨立創業者月花 $30-300 的 AI 工具堆疊（含內容、行銷、工程、客服）已可替代完整團隊功能，支撐 $1M ARR 的商業模式驗證成本大幅降低。",
-        "audience": "想創業或副業的職場上班族、自媒體創作者、獨立開發者",
-        "pain_point": "想用 AI 創業卻不知道該用哪些工具、擔心成本過高、不確定 AI 是否能真的替代團隊",
-        "title_idea": "月花 $30 到 $300 的 AI 工具清單，讓你一個人做到年收百萬！2026 最新歐美驗證",
-        "local_angle": "台灣職場上班族副業創業意願強，「AI 到底能省多少成本」缺乏具體數字，此主題歐美已大量驗證、繁中幾乎沒有實際試算，資訊差紅利明確"
-      }
-    ],
-    "source_coverage_notes": {
-      "status": "日期驗證完成 (2026-06-23)",
-      "coverage": [
-        {
-          "source": "TechCrunch AI",
-          "status": "✅",
-          "count": 1,
-          "note": "確認 1 篇 URL 含 /2026/06/23/ 的 AI 相關文章：Anthropic Claude Tag 登場（另有 Founder Summit 活動文章不計入）。"
-        },
-        {
-          "source": "FutureTools.io",
-          "status": "⚠️",
-          "count": 0,
-          "note": "昨日（June 23）無新更新，最新內容為 June 22（Claude Desktop 企業雲擴展），已納入工具更新並標注日期為 June 22。"
-        },
-        {
-          "source": "The Verge AI",
-          "status": "❌",
-          "count": 0,
-          "note": "WebFetch 返回 403 Forbidden，無法存取，如實記錄。"
-        },
-        {
-          "source": "WebSearch AI news June 23",
-          "status": "✅",
-          "count": 7,
-          "note": "OpenAI Daybreak 擴張（TechTimes URL 含 20260623）、GPT-5.5-Cyber 發布、Patch the Planet 啟動、五眼聯盟警告均確認為 June 23。"
-        },
-        {
-          "source": "YouTube 頻道（Matt Wolfe、Matthew Berman 等）",
-          "status": "❌",
-          "count": 0,
-          "note": "YouTube 頻道頁面無法直接抓取昨日影片，WebSearch site:youtube.com 亦未返回 June 23 具體影片，如實記錄。"
-        },
-        {
-          "source": "X / Twitter 關鍵帳號",
-          "status": "❌",
-          "count": 0,
-          "note": "X/Twitter 存取受限，未能抓取 @OpenAI、@AnthropicAI 等帳號昨日貼文，重點訊息已透過 WebSearch 間接覆蓋。"
-        }
-      ],
-      "explanation": "2026-06-23 日報精選 9 則核心情報（3 大事件、4 工具更新、2 趨勢）。TechCrunch /2026/06/23/ URL 確認 Claude Tag 文章，TechTimes URL 含 20260623 確認 Daybreak 擴張報導，其餘 June 23 資訊透過多家媒體 WebSearch 交叉驗證。Claude Desktop 企業雲擴展來自 FutureTools June 22 最新條目，已標注。YouTube 頻道及 The Verge 無法存取，如實記錄。"
     }
   }
 ]
