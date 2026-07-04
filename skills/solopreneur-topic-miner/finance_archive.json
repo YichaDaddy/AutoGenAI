@@ -1,5 +1,158 @@
 [
   {
+    "date": "2026-07-04",
+    "market_shocks": [
+      {
+        "title": "AI吃電怪獸逼爆美國電網！國慶連假電價狂飆逾243%",
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/07/03/power-grid-independence-day-weekend.html"
+          },
+          {
+            "name": "ZeroHedge",
+            "url": "https://www.zerohedge.com/weather/heat-dome-threatens-americas-250th-birthday-power-grid-crisis-continues"
+          }
+        ],
+        "summary": "熱浪疊加AI資料中心用電暴增，美國最大電網PJM在建國250週年國慶連假期間持續發布緊急減載令，批發電價一度較去年同期飆漲逾243%、部分時段每度突破2000美元，用電量逼近2006年歷史高峰，凸顯AI基礎設施的電力缺口已從技術議題升級為系統性風險，這股緊張態勢延續整個7月4日連假。",
+        "tw_stock_impact": "台灣同樣面臨台積電先進封裝與資料中心用電需求快速攀升的電網壓力，美國案例會放大市場對台灣供電穩定性、電價上漲與限電風險的擔憂，衝擊電力設備、儲能與機房散熱概念股評價。",
+        "investment_insight": "可留意台達電、中興電、士電等電力設備與儲能供應鏈，以及雙鴻、健策等散熱概念股，作為AI用電需求外溢的間接受惠標的；同時追蹤電價上漲對高耗能傳產成本結構的壓力。",
+        "title_idea": "電網要爆了！AI比你想的更耗電，美國國慶連假電價狂飆243%",
+        "local_angle": "台灣正在辯論台積電擴廠與資料中心會不會排擠民生用電，美國電網瀕臨崩潰的畫面，正是台灣未來可能面對的預演，值得電力概念股投資人提前關注。"
+      },
+      {
+        "title": "記憶體鬼故事重演？陸廠示警疊加海外空頭，台廠三雄本週承壓",
+        "sources": [
+          {
+            "name": "鉅亨網",
+            "url": "https://news.cnyes.com/news/id/6522281"
+          },
+          {
+            "name": "BigGo財經",
+            "url": "https://finance.biggo.com.tw/news/980b1e5d-2f8b-4fce-a2fb-2f98fff7b7d6"
+          }
+        ],
+        "summary": "鉅亨網週末版「本週大事回顧」點名，中國記憶體龍頭兆易創新公告示警產品價格已處歷史高檔、缺乏終端需求支撐，加上國際空頭近期加碼放空美光等AI晶片股的訊號交織，讓台股記憶體三雄南亞科、華邦電、旺宏本週股價劇烈震盪、外資單日賣超逾10萬張。",
+        "tw_stock_impact": "南亞科、華邦電、旺宏、力積電等記憶體概念股評價本週明顯修正，反映市場對記憶體超級循環是否提前見頂的分歧擴大，也牽動00939、00940等AI主題ETF淨值波動。",
+        "investment_insight": "若DRAM/HBM供需吃緊的基本面未變，短線回檔可視為長線布局機會；但建議分批進場並嚴設停損，並持續追蹤下一季法說會財測是否印證或推翻示警論點，避免追高。",
+        "title_idea": "大空頭又出手！記憶體鬼故事捲土重來，南亞科華邦電慘遭團滅？",
+        "local_angle": "南亞科、華邦電是台股資金重壓的AI概念股，任何海外空頭或陸廠示警訊號都會立刻反映在台股盤面，本土投資人需判斷這是健康回檔還是循環轉折。"
+      },
+      {
+        "title": "美國建國250年負債破39.7兆美元，每天多欠4.3億美元",
+        "sources": [
+          {
+            "name": "Newsweek",
+            "url": "https://www.newsweek.com/from-71-million-to-39-trillion-u-s-national-debts-250-year-climb-12084747"
+          },
+          {
+            "name": "US Debt Clock",
+            "url": "https://www.us-debt-clock.com/data/debt-by-year"
+          }
+        ],
+        "summary": "美國在獨立宣言簽署250週年的7月4日當天，國家債務累積達39.72兆美元，換算下來相當於過去250年來平均每天舉債約4.3億美元；財政部同時預告第三季將再借6710億美元，凸顯財政擴張速度未見收斂，成為250歲生日最諷刺的數字紀錄。",
+        "tw_stock_impact": "美債規模持續膨脹強化市場對美國財政赤字與長債殖利率上行的擔憂，若殖利率走升，將牽動新台幣匯率、外資資金成本與台股本益比評價，衝擊金融股與壽險業債券帳上損益。",
+        "investment_insight": "可將美債殖利率走勢列為資金風向指標，適度增加防禦性資產（如美元短債、黃金）配置，分散單一市場財政風險，並留意台灣壽險業美債曝險是否受波動放大。",
+        "title_idea": "美國生日快樂，順便欠了39.7兆美元！這筆帳最後誰來還？",
+        "local_angle": "台灣壽險業與退休基金持有大量美債，美國財政壓力若推升殖利率波動，將直接影響台灣機構投資人的帳上損益與匯兌風險。"
+      }
+    ],
+    "investment_opportunities": [
+      {
+        "title": "川普兒童投資帳戶7月4日上線，600萬帳戶自動買進S&P 500",
+        "sources": [
+          {
+            "name": "CNN Business",
+            "url": "https://www.cnn.com/2026/07/04/business/trump-accounts-faq"
+          },
+          {
+            "name": "24/7 Wall St",
+            "url": "https://247wallst.com/personal-finance/2026/07/03/trump-accounts-auto-buy-spym-on-july-4-heres-the-etf-nobodys-heard-of/"
+          }
+        ],
+        "summary": "美國「川普帳戶」（Trump Accounts）於7月4日正式啟用，目前已開立超過600萬個兒童投資帳戶，符合資格的新生兒可獲政府一次性1000美元注資，帳戶預設投資標的為追蹤S&P 500的SPYM ETF，並由Robinhood打造專屬App管理，形成長期穩定的被動資金流入。",
+        "tw_stock_impact": "數百萬帳戶長期定期買進S&P 500將為美股帶來持續性的被動資金支撐，間接墊高台積電ADR、費城半導體指數成分股等台廠客戶所在指數的估值基礎，也可能刺激台灣跟進討論兒童理財政策。",
+        "investment_insight": "可留意受惠於被動資金流入的美股大型指數ETF與Robinhood（HOOD）等基礎設施受益股；台灣投資人也可思考仿效此模式，為子女早期定期定額布局全球指數型ETF。",
+        "title_idea": "川普送你孩子1000美元！這個帳戶美股媽媽都在搶開",
+        "local_angle": "台灣家長熟悉的「零用錢投資」概念在美國正式制度化，可作為台灣討論兒童財商教育與長期投資規劃的參考範本。"
+      },
+      {
+        "title": "台灣《虛擬資產服務法》三讀過關，本週登上金融政策焦點",
+        "sources": [
+          {
+            "name": "鉅亨網",
+            "url": "https://news.cnyes.com/news/id/6520420"
+          },
+          {
+            "name": "中央社",
+            "url": "https://www.cna.com.tw/news/aipl/202606300063.aspx"
+          }
+        ],
+        "summary": "立法院三讀通過台灣首部《虛擬資產服務法》，明定業者須取得金管會許可、穩定幣須十足準備金並存放境內，操縱市場最重可處10年徒刑；此事在鉅亨網7月4日發布的「本週大事回顧」中被列為本週三大焦點之一，金管會目標2027年第一季前完成9部子法上路。",
+        "tw_stock_impact": "法規明確化有助合規虛擬資產業者（如交易所、託管服務商）取得市場信任，相關概念股與已插旗虛擬資產業務的金融科技業者，可望受惠於制度紅利與資金正名化。",
+        "investment_insight": "留意具備先行申請許可優勢的本土交易所與金融科技公司，以及可能受託發行穩定幣的銀行體系，作為法規元年的潛在受惠標的；但子法尚未到位，短期仍以觀察為主，不宜過早重押。",
+        "title_idea": "台灣加密貨幣元年來了！三讀通過後，這些業者笑了",
+        "local_angle": "台灣終於補上虛擬資產監理缺口，對照美國、香港等地的監管進度，本土投資人可趁機盤點手上交易所與資產是否符合未來合規要求。"
+      },
+      {
+        "title": "勞退基金5月大賺586億！AI狂潮讓勞工分紅創新高",
+        "sources": [
+          {
+            "name": "鉅亨網",
+            "url": "https://news.cnyes.com/news/id/6518554"
+          },
+          {
+            "name": "中央社",
+            "url": "https://www.cna.com.tw/news/ahel/202607010058.aspx"
+          }
+        ],
+        "summary": "勞動基金運用局公布，截至5月底整體勞動基金規模達8.61兆元，前5月收益率飆27.7%，其中5月單月大賺586億元；新制勞退基金前5月替1310萬勞工平均分紅11.1萬元創歷史新高，主因是全球AI與大型科技股大漲，此績效同樣被收錄在7月4日發布的本週財經大事回顧中。",
+        "tw_stock_impact": "勞退基金作為台股與美股的長期機構資金，其重壓AI科技股的操作策略等同為台灣散戶提供最直接的成功範例，也顯示官方資金對AI趨勢的高度信心，有助支撐相關權值股信心面。",
+        "investment_insight": "散戶可參考勞退基金的資產配置邏輯，透過定期定額布局全球科技/AI主題ETF，分享AI成長趨勢紅利，同時留意集中度過高帶來的循環風險，避免全押單一主題。",
+        "title_idea": "官方認證！勞退基金押AI大賺586億，你的退休金也搭上了嗎？",
+        "local_angle": "每位台灣勞工都是這波勞退基金收益的直接受益人，了解基金操作邏輯有助評估自己是否該加碼同類主題投資。"
+      }
+    ],
+    "macro_observations": [
+      {
+        "title": "川普對歐盟關稅最後期限就在7月4日，車用關稅恐跳升至25%",
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/amp/economy/2026/5/7/trump-sets-july-4-deadline-for-eu-tariff-hike-decision"
+          },
+          {
+            "name": "Baker Botts Tariff Tracker",
+            "url": "https://ourtake.bakerbotts.com/post/102n7tq/trump-tariff-tracker-july-2-2026"
+          }
+        ],
+        "summary": "川普將美國建國250週年的7月4日設為歐盟履行貿易協議承諾的最後期限，要求歐盟同步將關稅降至零，否則美國將把歐盟汽車及卡車關稅由15%大幅上調至25%，成為近期全球貿易緊張情勢的最新變數。",
+        "tw_stock_impact": "若美歐關稅戰重燃，將牽動全球供應鏈與貿易情緒，衝擊台灣以出口為導向的汽車零組件、工具機供應鏈信心，同時讓市場重新檢視台灣已談定的15%關稅優惠是否穩固、是否會被要求加碼讓步。",
+        "investment_insight": "建議追蹤7月4日後美歐後續談判進展，若情勢升溫可留意避險資產與內需股；台灣供應鏈廠商則應留意對歐出口美系車廠客戶端訂單變化，作為調整持股的參考。",
+        "title_idea": "倒數計時！川普對歐盟關稅大限就在國慶日，汽車關稅大戰一觸即發",
+        "local_angle": "台灣才剛與美國談定15%關稅待遇，川普對歐盟的強硬態度提醒台灣廠商，貿易協議的執行細節與後續稽核同樣關鍵,不能掉以輕心。"
+      },
+      {
+        "title": "新任聯準會主席沃許鴿派發聲，比特幣國慶連假撐在6.3萬美元",
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "url": "https://www.coindesk.com/markets/2026/07/02/bitcoin-zooms-above-usd61-000-as-inflation-fears-soften"
+          },
+          {
+            "name": "Convex",
+            "url": "https://convextrade.com/metrics/btc"
+          }
+        ],
+        "summary": "新任聯準會主席Kevin Warsh近期發言暗示通膨風險已趨緩，市場解讀為偏鴿信號，帶動比特幣回升站上6.1萬美元；截至7月4日美股因國慶連假休市期間，比特幣持穩於約6.3萬美元附近，波動有限，顯示風險資產尚在消化新主席政策風向。",
+        "tw_stock_impact": "若聯準會確立偏鴿路線，將降低市場對進一步緊縮的擔憂，有利台股與新興市場資金面；台灣投資人可觀察美元指數與新台幣匯率是否隨聯準會態度轉向而出現變化，牽動出口權值股匯兌損益。",
+        "investment_insight": "可留意聯準會後續會議紀要與Warsh公開講話，作為判斷降息時點的指標；比特幣連假期間波動收斂，顯示市場尚在等待更明確的政策訊號，追高或殺低都不宜過早。",
+        "title_idea": "鮑爾接班人一開口，比特幣連假不跌反穩！降息訊號來了？",
+        "local_angle": "聯準會主席換人後的政策風向，直接牽動新台幣兌美元走勢與外資對台股的資金配置，是下半年台灣投資人必須緊盯的變數。"
+      }
+    ]
+  },
+  {
     "date": "2026-07-03",
     "market_shocks": [
       {
@@ -1022,191 +1175,6 @@
         "investment_insight": "歐洲能源危機為電力基礎設施、節能技術、太陽能儲能帶來龐大商機，台廠相關供應鏈可受惠於歐洲加速能源轉型的政策需求。",
         "title_idea": "歐洲熱到電網快崩潰，ECB還要繼續升息——衰退倒計時已經開始了嗎？",
         "local_angle": "台廠在歐洲市場的曝險（車用零件的和大工業、電子零件的台達電）需關注歐洲訂單能見度，電力轉型相關台廠反而可受惠。"
-      }
-    ]
-  },
-  {
-    "date": "2026-06-23",
-    "market_shocks": [
-      {
-        "title": "韓國KOSPI單日暴跌10%，SK海力士、三星齊跌12%，全球科技股崩跌",
-        "sources": [
-          {
-            "name": "ZeroHedge",
-            "url": "https://www.zerohedge.com/markets/korea-crashed-goldman-explains-what-happened-and-why-it-matters"
-          },
-          {
-            "name": "ZeroHedge",
-            "url": "https://www.zerohedge.com/markets/after-korean-carnage-nomura-quants-fear-massive-levered-etf-forced-selling-us-markets"
-          },
-          {
-            "name": "TheStreet",
-            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-23-2026"
-          },
-          {
-            "name": "Bloomberg",
-            "url": "https://www.bloomberg.com/news/articles/2026-06-23/emerging-market-stocks-fall-on-korea-selloff-currencies-weaken"
-          }
-        ],
-        "summary": "南韓KOSPI指數6月23日單日重挫9.99%，三星電子與SK海力士分別下跌逾12%並觸發熔斷。觸發點是《朝鮮日報》一篇報導指Nvidia Rubin晶片生產預測下修與HBM4過渡衝擊，加上SpaceX大規模發債引發AI泡沫疑慮，導致全球AI與記憶體股骨牌效應。Nomura警告，美國槓桿ETF被動再平衡可能帶來第二波強制拋售，納斯達克同日下跌1.47%。",
-        "tw_stock_impact": "台灣半導體族群（台積電、聯發科、南亞科）首當其衝，AI概念股評價修正壓力加劇；外資可能同步調節台股半導體持倉，形成「誤殺效應」，需密切追蹤外資賣超動向。",
-        "investment_insight": "短期避開高槓桿半導體ETF（如SOXL），觀察台積電是否在法說會前後出現超跌買點；中長期AI算力需求未變，修正提供分批佈局機會，但需先等待韓國槓桿ETF強制再平衡完成。",
-        "title_idea": "南韓暴跌10%只是開始？Nomura警告美國槓桿ETF恐掀第二波強制砍倉",
-        "local_angle": "台積電是全球AI晶片唯一代工廠，南韓股災雖非基本面惡化，但外資同步調節台股部位的「誤殺效應」是近期最大風險，值得台灣投資人高度警戒。"
-      },
-      {
-        "title": "SpaceX三日崩跌31%——IPO兩週後旋即發行200億美元債券，市場傻眼",
-        "sources": [
-          {
-            "name": "Bloomberg",
-            "url": "https://www.bloomberg.com/news/videos/2026-06-23/spacex-slides-amid-tech-selloff-amc-down-on-share-sale-video"
-          },
-          {
-            "name": "Fortune",
-            "url": "https://fortune.com/2026/06/23/stock-markets-fed-interest-rate-expectations-400-billion-spacex/"
-          },
-          {
-            "name": "BitMEX Blog",
-            "url": "https://www.bitmex.com/blog/spacex-stock-selloff"
-          },
-          {
-            "name": "NBC News",
-            "url": "https://www.nbcnews.com/business/business-news/tech-sell-off-markets-spacex-alphabet-nasdaq100-stocks-rcna351331"
-          }
-        ],
-        "summary": "SpaceX上市不到兩週，股價從高點225美元急跌至154美元，市值蒸發超過4000億美元。公司宣布發行首次200億美元公司債，帳上已有逾1008億美元現金卻仍大舉舉債，引發市場質疑這是AI燒錢計畫的前奏，打亂了IPO蜜月期的估值邏輯，成為引爆全球科技股崩盤的重要導火線。",
-        "tw_stock_impact": "台灣機構件廠（廣宇、正達等）先前因SpaceX IPO題材被炒作，股價回落壓力驟增；SpaceX估值動搖也波及整體AI基礎設施供應鏈評價，市值共蒸發逾400億美元。",
-        "investment_insight": "SpaceX債券發行若成功定價，反是長期資本市場認可訊號；台灣直接受惠SpaceX太空硬體的供應商需重新核實實際出貨能見度，再決定是否逢低介入，切勿盲目追進。",
-        "title_idea": "IPO剛上市就崩31%！SpaceX發200億美元債被市場當「緊急借錢」警訊？",
-        "local_angle": "台灣有多家零組件廠商入列SpaceX供應鏈，股價先前被題材炒作，此次崩跌後需重新評估實際訂單能見度，先確認出貨再決定是否逢低佈局。"
-      },
-      {
-        "title": "Apollo旗艦信貸基金緊急重啟贖回限制，私募信用市場出現流動性裂縫",
-        "sources": [
-          {
-            "name": "Bloomberg",
-            "url": "https://www.bloomberg.com/news/videos/2026-06-23/apollo-faces-rising-redemption-pressure-video"
-          }
-        ],
-        "summary": "Apollo Global Management重新對旗艦信貸基金設置提款上限，原因是投資人贖回請求大幅超過允許限額。這是自2022年房地產信貸危機以來，私募信用市場首次出現如此規模的流動性壓力，引發市場對高收益債與私人信用整體健康度的疑慮，與科技股崩盤同步出現的流動性壓力格外令人警惕。",
-        "tw_stock_impact": "台灣壽險公司大量持有境外高收益債與私募信貸基金，若全球贖回潮蔓延，恐衝擊壽險業海外投資組合評價損益，相關保險股（國泰金、富邦金）股價承壓。",
-        "investment_insight": "短期迴避高收益債ETF（HYG、JNK）；若恐慌蔓延至投資等級債，反而是逢低佈局美國國債的時機，可關注TLT或元大美債20年（00679B）。",
-        "title_idea": "連Apollo都暫停提款了！私募信用市場「流動性幻覺」正在破滅？",
-        "local_angle": "台灣投資人透過境外基金配置了大量私募信用產品，Apollo此舉代表風險溢價重新定價的起點，應儘速檢視自身持倉的流動性風險，這是本次科技股崩跌之外最值得警覺的訊號。"
-      },
-      {
-        "title": "台央行警告「四貸同堂」炒股，散戶瘋狂槓桿恐重演歷史悲劇",
-        "sources": [
-          {
-            "name": "鉅亨網",
-            "url": "https://news.cnyes.com/news/id/6508373"
-          }
-        ],
-        "summary": "台灣央行公開示警「四貸同堂」（信貸、房貸、車貸、股票質押同時用來買股）現象，認為散戶過度槓桿炒股風險升溫。金管會雖回應財務風險可控，並強調與2005年雙卡風暴情境不同，但央行罕見公開表態本身即是強烈警訊，暗示監管收緊只是時間問題，疊加南韓崩盤的全球背景，時機尤為敏感。",
-        "tw_stock_impact": "若監管單位後續加碼管制融資槓桿或信用擴張，將直接壓縮台股成交量能與短線流動性，高融資比例的中小型股首當其衝，需特別警惕。",
-        "investment_insight": "立即追蹤融資餘額變化；若後續出現集中減碼融資，將是追蹤短線賣壓的最佳指標，建議降低持倉中高融資比例個股的曝險，保留現金應對贖回潮。",
-        "title_idea": "台灣央行終於急了！散戶「四貸同堂」買股，監管收緊倒數計時中？",
-        "local_angle": "這是台灣本土最直接的系統性風險訊號，疊加南韓崩盤時機，投資人應立即自查槓桿比例，並密切關注後續金管會是否推出冷卻措施，這可能是短線賣壓的重要觸發點。"
-      }
-    ],
-    "investment_opportunities": [
-      {
-        "title": "美債多頭回歸！科技股崩盤＋降息預期升溫，國債殖利率反轉拐點浮現",
-        "sources": [
-          {
-            "name": "Bloomberg",
-            "url": "https://www.bloomberg.com/news/articles/2026-06-23/treasuries-gain-before-auctions-as-traders-trim-rate-hike-bets"
-          }
-        ],
-        "summary": "美股科技股大跌與油價下滑同步推動資金流向避險資產，美國國債價格上漲，市場交易員大幅砍掉升息預期，聯準會政策轉向窗口再度浮現。今日拍賣前機構投資人搶先佈局，顯示對利率峰值已至的信心增強，S&P 500同日下跌0.98%、納斯達克下跌1.47%，資金輪動明顯。",
-        "tw_stock_impact": "美債殖利率下行有助緩解台灣壽險業利差損壓力，同時使台灣高配息REITs與公用事業股重新具備相對吸引力，資金有望輪動入場，可視為市場風向轉換的前兆。",
-        "investment_insight": "可關注TLT（20年期以上美債ETF）逢低佈局；台灣方面，元大美債20年（00679B）若出現成交量放大，為短線入場信號；富邦美債20年（00696B）亦是觀察標的。",
-        "title_idea": "科技股崩了，美債卻笑了！這次降息押注是真的還是假訊號？",
-        "local_angle": "台灣投資人熱愛債券ETF，此次美債反彈若持續，00679B可望再度吸引壽險法人進場，是近期最值得追蹤的資金流向指標，也是科技股修正期間的最佳避風港。"
-      },
-      {
-        "title": "AI數據中心電力需求爆炸，美國核電建設提速三倍，核能股成市場新寵",
-        "sources": [
-          {
-            "name": "Bloomberg",
-            "url": "https://www.bloomberg.com/news/videos/2026-06-23/america-s-nuclear-buildout-gains-speed-video"
-          }
-        ],
-        "summary": "Oklo執行長表示美國政府支持與AI基礎設施電力需求正在加速核電復興。數據中心為滿足AI算力需求，已開始簽署長期核電購電協議，帶動小型模組化反應爐（SMR）相關股票大漲。美國核電建設速度已達2010年代的三倍，且在科技股崩盤日逆勢上漲，展現強烈的資金分流效應。",
-        "tw_stock_impact": "台灣電力需求因AI晶片製造急速攀升，台電核能議題重返政治版面；台廠若切入SMR零組件供應鏈（精密機械、管材、特殊合金），具備長線爆發題材，可密切追蹤相關廠商動態。",
-        "investment_insight": "美國可關注Oklo（OKLO）、Constellation Energy（CEG）；台灣方面追蹤是否有精密機械廠入列美國SMR供應商名單，一旦確認可能是倍數行情起點，現在布局的是下一個十年主題。",
-        "title_idea": "科技股大跌的那天，核能股為什麼在漲？AI燒電問題比你想的還嚴重",
-        "local_angle": "台灣能源轉型與核能重啟討論升溫，美國核電復興是重要參考座標，同時帶動台廠切入全球核電供應鏈的新契機——這是本次科技股崩盤中最值得關注的資金輪動方向。"
-      },
-      {
-        "title": "以色列防衛產業擬赴美掛牌，軍工供應鏈與國防ETF迎來新題材",
-        "sources": [
-          {
-            "name": "Bloomberg",
-            "url": "https://www.bloomberg.com/news/articles/2026-06-23/israel-weighs-us-ipo-for-multi-billion-dollar-defense-companies"
-          }
-        ],
-        "summary": "以色列正評估讓旗下數家百億美元規模的國有防衛企業赴美上市，以繞過以色列國內更嚴格的資訊揭露要求。此舉將為國際投資人提供直接參與以色列軍工產業的管道，也反映出地緣政治緊張下全球防衛支出持續攀升的長期趨勢，軍工產業正成為抵抗科技股震盪的防禦性題材。",
-        "tw_stock_impact": "台灣國防預算持續上升，漢翔（2634）、無人機相關供應商因軍工題材重估；若美國掛牌以色列防衛股成功，可能引發更多亞太地區國防產業的估值重新定價，帶動台股國防族群跟進。",
-        "investment_insight": "可關注全球防衛ETF（如ITA、XAR）；台灣方面漢翔受惠於F-16升級與無人機案，是最直接的本土標的，在科技股震盪環境下，國防股的防禦性特質格外凸顯。",
-        "title_idea": "以色列軍工要去美國上市了！全球軍備競賽下，哪些台廠已偷偷吃到國防訂單？",
-        "local_angle": "台海緊張情勢下，台灣國防支出增加是長線結構性趨勢，搭配以色列軍工上市引發的全球關注，漢翔等台灣國防股值得重新評估，也是科技股修正期間最佳的防禦性輪動選擇。"
-      }
-    ],
-    "macro_observations": [
-      {
-        "title": "ECB vs Fed政策大分岐：歐元跌至一年新低，美元2026年來最強壓制新興市場",
-        "sources": [
-          {
-            "name": "Bloomberg",
-            "url": "https://www.bloomberg.com/news/articles/2026-06-23/euro-hits-august-low-as-lagarde-s-rates-talk-diverges-from-fed"
-          },
-          {
-            "name": "Bloomberg",
-            "url": "https://www.bloomberg.com/news/articles/2026-06-23/emerging-market-stocks-fall-on-korea-selloff-currencies-weaken"
-          }
-        ],
-        "summary": "ECB行長拉加德發表鴿派言論後，歐元兌美元跌至12個月新低；美元指數創2026年新高，ECB傾向暫停升息、Fed維持限制性利率，兩大央行政策分岐加劇強勢美元格局，全面壓制新興市場貨幣與股市。ECB副行長Vujcic同日警告「通膨將維持高檔更長時間」，進一步確認ECB政策的不確定性。",
-        "tw_stock_impact": "台幣承壓，外資匯出壓力加大；強美元對台灣出口商（美元計價收入）短期有利，但對進口通膨與台灣央行匯率政策形成考驗，需關注央行是否出手干預匯市。",
-        "investment_insight": "強美元環境下避開新興市場債券基金；台灣出口導向電子股（美元報價）匯兌收益短期擴大，但需同步確認美國下游需求未同步走弱，避免「匯兌收益掩蓋需求惡化」的陷阱。",
-        "title_idea": "美元狂飆2026年新高！新興市場全線崩潰，台幣會不會也被拖下水？",
-        "local_angle": "台幣兌美元走弱直接影響台灣投資人的美元資產換算報酬，同時暗示外資對新興市場減碼趨勢加速，是外資動向的最佳領先指標，也決定了台股未來一週的資金格局。"
-      },
-      {
-        "title": "新任Fed主席Warsh被定性「供給側派」，全球投資人的Fed分析框架需全面重建",
-        "sources": [
-          {
-            "name": "Bloomberg",
-            "url": "https://www.bloomberg.com/news/videos/2026-06-23/warsh-fed-to-rely-on-supply-side-indicators-says-caron-video"
-          },
-          {
-            "name": "Andrei Jikh (YouTube)",
-            "url": "https://www.youtube.com/shorts/9IcDzlVKbDs"
-          }
-        ],
-        "summary": "摩根士丹利分析師Jim Caron指出，新任Fed主席Kevin Warsh將優先採用供給側指標（生產力、勞動供給、能源成本）取代傳統需求側通膨指標制定政策，意味市場慣用的「CPI驅動Fed反應」邏輯可能全面失效。財經YouTuber Andrei Jikh同日製作《Why Wall Street Is Watching Kevin Warsh》，顯示此議題已引發廣泛市場關注，是2026下半年最重要的政策框架轉換。",
-        "tw_stock_impact": "Warsh的供給側框架若導致更長時間維持高利率，台灣科技股的成長估值將面臨再度壓縮風險；但若其框架重視AI驅動的生產力提升，科技成長股反而可能意外受惠，形成雙面刃效應。",
-        "investment_insight": "持續追蹤Warsh公開演講與FOMC聲明措辭變化，重新建立利率情境分析框架；不再單純依賴CPI數據預測Fed動向，需同步追蹤供給側指標如ISM供應指數、能源價格、勞動生產率。",
-        "title_idea": "新Fed主席Warsh跟你想的完全不一樣！摩根士丹利：過去那套分析Fed的方法全失效了",
-        "local_angle": "台灣投資人長期依賴CPI數據預測Fed動向，Warsh的供給側框架代表這套預測模型需要整個重建，是2026年下半年最重要的總經思維升級課題，現在開始調整分析框架才不會被市場淘汰。"
-      },
-      {
-        "title": "俄羅斯全境油荒蔓延，考慮限制柴油出口，地緣政治風險重燃能源市場",
-        "sources": [
-          {
-            "name": "Bloomberg",
-            "url": "https://www.bloomberg.com/news/articles/2026-06-23/russia-s-gasoline-crunch-spans-country-after-refinery-attacks"
-          },
-          {
-            "name": "Bloomberg",
-            "url": "https://www.bloomberg.com/news/articles/2026-06-23/russia-considers-diesel-export-ban-on-ukraine-refinery-attacks"
-          }
-        ],
-        "summary": "烏克蘭無人機持續攻擊俄羅斯煉油廠，造成全俄各地汽油短缺並觸發限購措施；俄羅斯當局正考慮禁止柴油出口以維持國內供應。此事件干擾全球柴油供應鏈，並對歐洲能源安全形成新壓力——同日美伊和平協議促成荷莫茲海峽重新暢通，油價在雙重地緣政治因素下形成結構性拉鋸局面。",
-        "tw_stock_impact": "全球柴油供應緊縮將推升航運成本，對台灣高度依賴進口能源的製造業不利；若油價因此反彈，台灣航運股（長榮、陽明）短線受惠，但需留意需求面能否支撐漲價。",
-        "investment_insight": "關注柴油裂解價差（diesel crack spread）走勢；若俄羅斯真的限制柴油出口，歐洲柴油率先飆升，可追蹤歐洲能源ETF（XLE、IEO）短線機會，同時長榮（2603）漲價題材值得關注。",
-        "title_idea": "俄羅斯全境油荒爆發！烏克蘭無人機打爆煉油廠，柴油出口禁令一觸即發",
-        "local_angle": "台灣是能源進口國，柴油漲價直接衝擊物流業與農漁業成本，也可能影響CPI走向，是央行關注的輸入性通膨警訊，投資人需同步追蹤油價對台股成本端的衝擊與航運股的受惠機會。"
       }
     ]
   }
