@@ -1,102 +1,121 @@
 {
-  "date": "2026-07-04",
+  "date": "2026-07-05",
   "big_events": [
     {
-      "title": "解封法庭郵件曝光:五角大廈曾要求Anthropic開放自主武器換取合約",
+      "title": "AI效率實測:Bending Spoons那斯達克上市,90%程式碼由AI生成,人均營收兩年翻倍",
       "sources": [
-        {"name": "Tech Times", "url": "https://www.techtimes.com/articles/319713/20260704/pentagon-blacklisted-anthropic-over-autonomous-weapons-limits-emails-reveal-very-close-talks.htm"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/05/what-is-bending-spoons-everything-to-know-about-aols-acquirer/"}
       ],
-      "summary": "解封法庭郵件顯示五角大廈曾逼Anthropic鬆綁自主武器限制",
-      "audience": "關注AI倫理與國防科技議題的科技媒體工作者、企業AI治理顧問",
-      "pain_point": "讀者難以判斷Claude背後的安全承諾是否可信,擔心AI巨頭在商業壓力下讓步原則",
-      "title_idea": "五角大廈想要「聽話的AI」?解密郵件揭Anthropic拒絕開發自主武器的真實談判",
-      "local_angle": "可延伸討論台灣國防與AI結合的倫理界線,並比較台灣廠商若面對類似壓力該如何自處"
+      "summary": "義大利科技公司上市,AI讓人均營收兩年翻倍",
+      "audience": "想向老闆證明AI能提升團隊產出的中階主管、對「AI+效率」案例有興趣的職場上班族",
+      "pain_point": "想推動公司導入AI卻缺乏具體數字說服老闆或客戶,只能空口說「AI很有用」",
+      "title_idea": "AI幫公司賺更多錢的真實案例:這家上市公司靠AI把人均營收翻倍,程式碼九成讓AI寫",
+      "local_angle": "這是歐美真實IPO財報數字,華語圈還沒人用這組數據做「AI真的能省錢」的說服素材,適合做成給老闆看的懶人包簡報"
     },
     {
-      "title": "阿里巴巴全面禁用Claude Code,指控暗藏「監控代碼」",
+      "title": "Anthropic共同創辦人示警:AI已讓公司不再需要「新鮮人工程師」,恐引爆全產業經濟震盪",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/"},
-        {"name": "South China Morning Post", "url": "https://www.scmp.com/tech/big-tech/article/3359375/alibaba-bans-staff-using-claude-code-over-anthropic-spyware-concerns"}
+        {"name": "The Decoder", "url": "https://the-decoder.com/anthropic-doesnt-need-junior-engineers-anymore-thanks-to-ai-and-warns-of-an-economic-shock-when-other-industries-follow/"}
       ],
-      "summary": "阿里巴巴禁員工用Claude Code,稱其暗藏偷測中國用戶機制",
-      "audience": "使用AI程式助手開發的工程師、關注中美AI供應鏈對立的科技評論者",
-      "pain_point": "開發者擔心跨國AI工具背後藏有政治風險或隱私監控,不知道該不該繼續依賴",
-      "title_idea": "Claude Code被抓「偷看時區」?阿里巴巴宣布7月10日全面禁用,改推自家工具",
-      "local_angle": "提醒台灣工程師留意跨境AI工具的資安爭議,可對照台灣企業導入國外AI編程工具時的資安盤點清單"
+      "summary": "Anthropic坦言AI讓新人職缺消失,警告經濟衝擊將擴散",
+      "audience": "剛出社會的新鮮人、擔心被AI取代的基層上班族、企業HR與管理職",
+      "pain_point": "對「AI會不會讓我找不到工作」感到焦慮,卻不知道該如何提前因應",
+      "title_idea": "連Anthropic自己都說:新鮮人工程師快沒了!AI正在淘汰的是這種人才",
+      "local_angle": "這是海外AI龍頭公司內部人士的第一手警告,華語圈多半只聊「AI會取代誰」的空泛預測,可做成「如何避免成為被淘汰那群人」的實用選題"
     },
     {
-      "title": "中國新規上路,豆包、通義千問智能體功能7月15日集體下架",
+      "title": "微軟砸25億美元成立新公司Frontier,派6000名AI工程師直接進駐企業客戶",
       "sources": [
-        {"name": "Tech Times", "url": "https://www.techtimes.com/articles/319703/20260704/china-ai-companion-law-arrives-july-15-doubao-qwen-agent-data-will-deleted.htm"},
-        {"name": "東方財富網", "url": "https://wap.eastmoney.com/a/202607043794195277.html"}
+        {"name": "WinBuzzer", "url": "https://winbuzzer.com/2026/07/05/microsoft-introduces-frontier-company-for-enterprise-ai-xcxwbn/"},
+        {"name": "The Decoder", "url": "https://the-decoder.com/microsoft-launches-2-5-billion-frontier-company-to-embed-6000-ai-engineers-inside-enterprise-clients/"}
       ],
-      "summary": "陸方AI擬人化新規上路,豆包、千問智能體功能同步下架",
-      "audience": "研究兩岸AI監理差異的內容創作者、對AI虛擬陪伴應用有興趣的產品經理",
-      "pain_point": "使用者累積的AI智能體對話與人設資料可能一夕消失,企業也難預判監管紅線在哪",
-      "title_idea": "陸版AI管制來了!豆包、千問智能體7月15日集體熄燈,用戶資料說刪就刪",
-      "local_angle": "可對比台灣目前對AI虛擬陪伴/聊天機器人尚無專法規範的現況,提醒創作者提前思考資料保存與用戶告知機制"
+      "summary": "微軟成立專責企業AI導入新公司,重金派工程師進駐客戶",
+      "audience": "中小企業主、想承接企業AI導入顧問案的自由工作者與顧問",
+      "pain_point": "想幫公司或客戶導入AI卻不知道從何開始,缺乏「別人怎麼做」的具體案例",
+      "title_idea": "微軟砸25億元教你怎麼幫企業導入AI:這是最新的「AI顧問」商業模式範本",
+      "local_angle": "海外已出現「AI導入顧問」這門新生意的巨頭範本,華語圈AI顧問接案市場才剛起步,可拿這套做法包裝成中小企業能用的簡化版服務"
+    },
+    {
+      "title": "2026上半年AI投資狂潮:近90家新創跨過10億美元獨角獸門檻",
+      "sources": [
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/05/almost-40-new-unicorns-have-been-minted-so-far-this-year-here-they-are/"}
+      ],
+      "summary": "AI熱潮帶動今年新增近90家獨角獸新創",
+      "audience": "想了解創投風向、尋找AI創業題材的個人創業者與自由工作者",
+      "pain_point": "不知道現在資金都往哪些AI題材流動,擔心錯過市場趨勢",
+      "title_idea": "2026上半年獨角獸榜單曝光:這些AI新創到底在做什麼賺錢?",
+      "local_angle": "榜單裡的商業模式(AI工作空間、晶片設計、財富管理等)多數華語圈還沒人整理分析,適合做成「歐美獨角獸在幹嘛」系列選題"
     }
   ],
   "tool_updates": [
     {
-      "title": "美團開源LongCat-2.0:1.6兆參數模型跑贏GPT-5.5,全靠中國自製晶片訓練",
+      "title": "開源工具pxpipe把文字轉成PNG圖片,讓Claude Code、GPT-5.6的token費用省下最多70%",
       "sources": [
-        {"name": "VentureBeat", "url": "https://venturebeat.com/technology/meituan-open-sources-longcat-2-0-the-1-6t-near-frontier-agentic-coding-model-thats-been-leading-openrouter-trained-entirely-on-chinese-chips"},
-        {"name": "Cryptopolitan", "url": "https://www.cryptopolitan.com/meituan-longcat-2-0-ai-model-chinese-chips/"}
+        {"name": "WinBuzzer", "url": "https://winbuzzer.com/2026/07/05/pxpipe-proxy-claims-fable-cost-cuts-through-code-images-xcxwbn/"},
+        {"name": "The Decoder", "url": "https://the-decoder.com/open-source-tool-pxpipe-hides-text-in-pngs-to-cut-claude-code-and-fable-5-token-costs-up-to-70/"}
       ],
-      "summary": "美團開源1.6兆參數LongCat-2.0,程式能力超車GPT-5.5",
-      "audience": "想找便宜好用寫程式AI的自由工作者、關注開源模型可否取代付費訂閱的技術型創作者",
-      "pain_point": "訂閱多個AI寫程式工具成本越來越高,想知道免費開源模型是否已經夠用",
-      "title_idea": "免費又比GPT-5.5強?美團神秘模型LongCat-2.0正式開源,程式高手實測心得搶先看",
-      "local_angle": "可製作「開源模型 vs 訂閱制AI」費用試算表,提醒讀者留意中國模型的資料傳輸與合規疑慮再評估是否導入工作流程"
+      "summary": "開源代理工具用圖片代替文字,大砍AI用量費用",
+      "audience": "每天大量使用Claude Code、ChatGPT的AI效率工具重度使用者、需控管AI訂閱與API費用的職場人士",
+      "pain_point": "AI工具用得越多帳單越可怕,想省錢卻不知道有什麼技巧",
+      "title_idea": "省下70%AI費用的省錢神技:把你的提示詞「拍成照片」給AI看",
+      "local_angle": "這是純技術性省錢技巧,操作步驟明確、容易做成教學影片,華語圈AI工具教學頻道還沒人翻譯介紹這個開源專案,是搶先做教學的好機會"
     },
     {
-      "title": "Google拍7月4日獨立紀念日廣告,示範Gemini幫國父「腦力激盪」寫獨立宣言",
+      "title": "馬斯克宣布Grok Imagine開發「完工」,xAI影像影片生成功能正式到位",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/"}
+        {"name": "Basenor", "url": "https://www.basenor.com/blogs/news/grok-imagine-is-done-xai-completes-image-generation-feature"}
       ],
-      "summary": "Google推出趣味廣告,展示Gemini「幫我視覺化」與會議記錄功能",
-      "audience": "常需要開會記錄、腦力激盪發想文案的行政人員、行銷企劃",
-      "pain_point": "開會常常抓不到重點、想不出創意方向,卻不知道AI工具實際能怎麼幫忙",
-      "title_idea": "連國父開會都靠AI?Google廣告示範Gemini怎麼幫你「畫重點」又「想點子」",
-      "local_angle": "可轉化成台灣職場情境教學,示範用Gemini做會議記錄整理、腦力激盪發想的實際操作步驟"
+      "summary": "馬斯克發文宣布Grok圖片影片生成功能開發完成",
+      "audience": "內容創作者、想用AI快速產出短影音素材的自媒體經營者",
+      "pain_point": "想找免費或平價的AI影像影片生成工具,卻不確定哪個平台功能最完整最新",
+      "title_idea": "Grok Imagine正式完工!藏在X App裡的免費AI影片生成器你用過了嗎",
+      "local_angle": "Grok Imagine深度整合在X/Twitter App裡,目前華語圈教學內容仍偏少,適合做「如何用Grok Imagine免費做短影音」的實測教學"
     },
     {
-      "title": "TechCrunch出手解說Mistral AI:歐洲版OpenAI的競爭實力大公開",
+      "title": "Google員工用Claude Code+Fable 5,短短幾小時把2003年老遊戲原生移植到iOS",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/"}
+        {"name": "The Decoder", "url": "https://the-decoder.com/claude-code-and-fable-5-ported-the-2003-pc-game-command-conquer-to-native-ios-in-a-few-hours/"}
       ],
-      "summary": "TechCrunch整理Mistral AI背景、產品線與歐洲AI主權布局",
-      "audience": "只知道ChatGPT、Gemini,想拓展AI工具選項的職場AI初學者",
-      "pain_point": "市面AI工具太多,不知道除了ChatGPT、Claude還有哪些替代選擇值得認識",
-      "title_idea": "除了ChatGPT,你還認識Mistral嗎?一次搞懂這家歐洲AI黑馬在做什麼",
-      "local_angle": "可製作台灣讀者版「AI工具地圖」,標示Mistral相關產品目前在台灣的可用性與中文支援程度"
+      "summary": "開發者用AI編碼工具幾小時完成老遊戲iOS移植",
+      "audience": "對AI輔助寫程式(vibe coding)有興趣的職場上班族、想側面驗證AI編碼能力的技術愛好者",
+      "pain_point": "不確定AI編碼工具到底能做到什麼程度,缺乏具體有畫面感的案例說服自己或團隊嘗試",
+      "title_idea": "Google員工實測:AI編碼工具幾小時搞定20年前老遊戲移植,強到離譜",
+      "local_angle": "這種「跟著做就有感」的AI編碼案例最適合做成教學型內容,華語圈vibe coding教學仍以簡單網頁App為主,尚未有人示範這類老遊戲移植題材"
     }
   ],
   "trends": [
     {
-      "title": "好萊塢片廠控告Midjourney侵權,卻被要求交出自家AI使用內幕",
+      "title": "亞馬遜Mechanical Turk停止開放新用戶申請,AI正式終結人力群眾外包時代",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/"},
-        {"name": "Variety", "url": "https://variety.com/2026/film/news/midjourney-studios-ai-copyright-discovery-1236800902/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/"}
       ],
-      "summary": "Midjourney反訴要求控告它的片廠公開內部AI使用紀錄",
-      "audience": "使用AI繪圖工具產出商業內容的自媒體、平面設計接案者",
-      "pain_point": "不確定用AI生成的素材是否有侵權風險,也不知道大公司內部其實怎麼用AI",
-      "title_idea": "告別人用AI侵權,自己卻偷偷用?迪士尼、華納被Midjourney反將一軍的內幕",
-      "local_angle": "提醒台灣內容創作者留意使用AI繪圖工具的著作權風險,建議建立素材來源紀錄以防未來糾紛"
+      "summary": "AI取代人工標註,亞馬遜關閉群眾外包新用戶入口",
+      "audience": "從事資料標註或線上零工的接案族、關注AI取代人力工作趨勢的職場上班族",
+      "pain_point": "過去靠零工平台賺外快的管道正在消失,想知道AI時代還有哪些新的接案或變現機會",
+      "title_idea": "紅極一時的「人工外包」平台走入歷史!AI時代該轉往哪些新型態接案機會",
+      "local_angle": "這是「舊商業模式被AI淘汰」的鮮明案例,可延伸做「零工經濟在AI時代如何轉型」的選題,提醒讀者關注AI訓練師、prompt優化師等新興接案機會"
     },
     {
-      "title": "從矽谷到北京:AI代理工具同步被政府與企業「收緊」成新常態",
+      "title": "Mistral執行長公開警告:把公司命脈押在「封閉AI模型」上,等於把商業機密雙手奉上",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/"},
-        {"name": "Tech Times", "url": "https://www.techtimes.com/articles/319703/20260704/china-ai-companion-law-arrives-july-15-doubao-qwen-agent-data-will-deleted.htm"}
+        {"name": "The Decoder", "url": "https://the-decoder.com/mistral-ceo-mensch-says-proprietary-ai-models-give-labs-a-front-row-seat-to-your-business-processes/"}
       ],
-      "summary": "同一天內,中美企業與政府都在收緊AI代理工具的使用權限",
-      "audience": "關注中美AI監理走向的財經自媒體、企業數位轉型決策者",
-      "pain_point": "AI代理/智能體工具規範變化太快,難以判斷該押注哪個平台或政策風向",
-      "title_idea": "同一天,中美都在「管」AI代理:阿里禁用Claude Code、北京勒令豆包千問下架智能體",
-      "local_angle": "可延伸討論台灣企業若同時使用中美AI工具,該如何準備應對雙邊政策風險的「兩手策略」"
+      "summary": "Mistral創辦人示警企業別過度依賴封閉AI模型",
+      "audience": "用AI工具處理公司機密資料的中小企業主、對資料隱私敏感的職場上班族",
+      "pain_point": "大量把公司內部資料丟給ChatGPT、Claude等工具,卻沒想過資料主權與隱私風險",
+      "title_idea": "你的AI對話紀錄,其實正在被拿去看穿你公司的商業機密?",
+      "local_angle": "台灣中小企業普遍還沒意識到「AI資料主權」議題,可做成「企業用AI該注意的資料風險」科普選題,同時帶出開源或自架AI模型的替代方案"
+    },
+    {
+      "title": "德國法院判決:Google要為AI Overviews的錯誤答案負全責,AI摘要恐衝擊創作者流量生態",
+      "sources": [
+        {"name": "The Decoder", "url": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/"}
+      ],
+      "summary": "德國法院裁定Google需為AI摘要錯誤內容負責",
+      "audience": "靠SEO或Google流量維生的內容創作者、部落客、自媒體經營者",
+      "pain_point": "擔心Google AI Overviews直接摘要走讀者、流量被搶走,卻不清楚背後的法律與商業意涵",
+      "title_idea": "Google AI摘要搶走你的流量?這場德國官司判決可能改變一切",
+      "local_angle": "這起判決可能牽動全球Google處理AI摘要的方式,對仰賴SEO流量的華語創作者有直接影響,是少見還沒被華語媒體深度分析的AI搜尋摘要法律風險議題"
     }
   ]
 }
