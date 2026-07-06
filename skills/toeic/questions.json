@@ -1,103 +1,103 @@
 {
-  "date": "2026-07-06",
+  "date": "2026-07-07",
   "p5": [
     {
-      "id": "2026-07-06-p5-0",
-      "tag": "讓步介系詞",
+      "id": "2026-07-07-p5-0",
+      "tag": "假設語氣倒裝",
       "pre": "",
-      "post": " the substantial cost overruns disclosed in the interim report, the board reaffirmed its commitment to completing the infrastructure project on the original timeline.",
-      "opts": ["Notwithstanding", "Although", "Even though", "Despite of"],
+      "post": " the merger negotiations concluded before the fiscal year-end, the combined entity would have reported significantly stronger consolidated earnings.",
+      "opts": ["Had", "If", "Should", "Were"],
       "ans": 0,
-      "zh": "儘管期中報告揭露了大幅的成本超支，董事會仍重申將依原定時程完成此基礎建設工程之承諾。",
-      "why": "<b>Notwithstanding</b> 為介系詞，意為「儘管」，其後可直接接名詞片語（the substantial cost overruns disclosed...），符合句構；Although 與 Even though 皆為連接詞，須接「主詞+動詞」的完整子句，不能直接接名詞片語，故不合語法；Despite of 為常見錯誤用法，despite 本身已是介系詞，不需再搭配 of。"
+      "zh": "若合併協商能在會計年度結束前完成，合併後的公司原本可望申報大幅提升的合併獲利。",
+      "why": "<b>Had + 主詞 + 過去分詞</b> 為省略 if 的假設語氣倒裝，等同於「If the merger negotiations had concluded」，與後方「would have reported」（與過去事實相反的假設結果）搭配一致；If 後方須接完整的過去完成式（If the negotiations had concluded），若只填 If，則與後方動詞形式 concluded（過去簡單式而非過去完成式）不符；Should 用於未來假設倒裝（Should S V），語意與已然發生的過去事件不合；Were 表示 Were S to V 的未來假設倒裝，格式須為 Were the negotiations to conclude，與已完成式 concluded 不搭配。"
     },
     {
-      "id": "2026-07-06-p5-1",
-      "tag": "非限定關係子句",
-      "pre": "The company's flagship product, ",
-      "post": " has generated over sixty percent of total revenue since its launch, is now facing unprecedented competition from several well-funded startups.",
-      "opts": ["which", "that", "who", "what"],
-      "ans": 0,
-      "zh": "該公司的旗艦產品（自推出以來已創造逾六成的總營收）如今正面臨數家資金雄厚新創公司前所未有的競爭。",
-      "why": "逗號夾住的<b>非限定關係子句</b>用來補充說明「旗艦產品」，須用 which；that 依文法規則只能用於限定關係子句（不加逗號的子句），不可用於非限定子句；who 用於指人，此處先行詞為「產品」不合；what 本身已內含先行詞語意，不能有明確先行詞在前，故不合。"
-    },
-    {
-      "id": "2026-07-06-p5-2",
-      "tag": "倒裝句（Only）",
+      "id": "2026-07-07-p5-1",
+      "tag": "分詞構句",
       "pre": "",
-      "post": " did the auditors discover irregularities so severe that the entire financial statement had to be restated.",
-      "opts": ["Only after conducting a second review", "After conducting a second review", "Having conducted a second review", "To conduct a second review"],
+      "post": " the necessary regulatory approvals well in advance, the company was able to launch its new product line without any delay.",
+      "opts": ["Having secured", "Having secure", "To secure", "Secured"],
       "ans": 0,
-      "zh": "直到進行第二次覆核後，審計人員才發現嚴重到必須重編整份財務報表的異常情況。",
-      "why": "當 <b>Only + 時間／方式副詞片語</b> 置於句首強調時，主要子句需採<b>倒裝</b>（助動詞＋主詞＋動詞原形），故本句以 did the auditors discover 呈現倒裝；只有 Only after conducting a second review 這個選項以 Only 起首，能與後方的倒裝動詞形式一致；其餘三個選項皆未以 Only 開頭，若填入將與 did discover 的倒裝結構不搭配，文法不一致。"
+      "zh": "在及早取得必要的主管機關核准後，該公司得以毫無延遲地推出新產品線。",
+      "why": "<b>Having + 過去分詞</b> 構成完成式主動分詞構句，表示「取得核准」這個動作發生在主要子句「得以推出產品」之前，符合時間先後邏輯；Having secure 中 secure 應為過去分詞 secured，此形式文法錯誤；To secure 為不定詞，表目的（為了取得），與句意「已經取得」不符；Secured 單獨使用為被動分詞構句，暗示公司是被取得核准的一方（缺乏動作執行者），與句意公司主動取得核准不符。"
     },
     {
-      "id": "2026-07-06-p5-3",
-      "tag": "假設語氣比較子句",
-      "pre": "The CFO responded to the shareholders' questions ",
-      "post": " she had anticipated every possible objection well in advance of the meeting.",
-      "opts": ["as though", "in case", "insofar as", "granted that"],
+      "id": "2026-07-07-p5-2",
+      "tag": "名詞子句",
+      "pre": "",
+      "post": " the newly appointed compliance officer possesses adequate authority to enforce the revised protocols remains a matter of considerable debate among senior executives.",
+      "opts": ["Whether", "That", "If", "What"],
       "ans": 0,
-      "zh": "財務長回應股東提問時，彷彿她早已在會議前就預想到所有可能的質疑。",
-      "why": "<b>as though</b>（彷彿，相當於 as if）引導假設性比較子句，常搭配過去完成式（had anticipated）表達「與實際情況不符的想像」，語意通順；in case 意為「以防萬一」，表達預防目的，與比較假設語意不符；insofar as 意為「就...範圍而言」，用於限定範圍而非比較假設；granted that 意為「即使承認...」，屬讓步語氣，與此處比較語意不符。"
+      "zh": "新任命的法遵主管是否具備足夠的職權來落實修訂後的規範，在資深主管之間仍是一個備受爭議的問題。",
+      "why": "<b>Whether</b> 引導的名詞子句可置於句首作句子主詞，且「whether...remains a matter of debate」為常見固定用法，表達「是否...仍有爭議」；That 引導的名詞子句雖可作主詞，但語意上是直接陳述一件事為真，無法表達本句「是否」的不確定語氣；If 引導的名詞子句只能作受詞，不可置於句首作主詞子句；What 需搭配文法上不完整（缺少主詞或受詞）的子句，此處子句成分完整，故不合用法。"
     },
     {
-      "id": "2026-07-06-p5-4",
+      "id": "2026-07-07-p5-3",
+      "tag": "比較結構",
+      "pre": "The revised supply chain protocol proved ",
+      "post": " effective at reducing delivery delays as the previous system had been at minimizing warehousing costs.",
+      "opts": ["every bit as", "much more", "so much as", "no sooner"],
+      "ans": 0,
+      "zh": "經修訂的供應鏈流程在降低出貨延遲方面的成效，恰如舊制度在降低倉儲成本方面的成效一樣顯著。",
+      "why": "<b>every bit as...as</b> 用於強調兩者程度完全相當，符合本句「as...as」對等比較的完整結構；much more 須搭配 than 表示兩者不對等的差異比較，不能搭配句中的 as 結構；so much as 慣用於 not so much A as B（與其說A不如說B）的否定句型，本句並非此結構；no sooner 慣用於 no sooner...than（一...就...）表示時間上的先後承接，並非程度上的比較句型。"
+    },
+    {
+      "id": "2026-07-07-p5-4",
       "tag": "進階動詞語意辨別",
-      "pre": "Pursuant to the guarantee clause, the parent company agreed to ",
-      "post": " the subsidiary's obligations should the latter default on the loan.",
-      "opts": ["assume", "undertake", "presume", "consume"],
+      "pre": "The auditors were instructed to ",
+      "post": " each subsidiary's financial statements independently before the consolidated report could be finalized.",
+      "opts": ["reconcile", "conciliate", "recompense", "reciprocate"],
       "ans": 0,
-      "zh": "依據擔保條款規定，母公司同意於子公司對貸款違約時，承擔該子公司的相關義務。",
-      "why": "<b>assume</b> 在法律與財務語境中意為「承擔（義務、責任、負債）」，assume obligations/liabilities 為固定搭配；undertake 雖也有「承擔」之意，但慣用結構為 undertake to do something 或 undertake a duty，直接接 the obligations 作受詞不若 assume 道地自然；presume 意為「假設、推定」，語意完全不同；consume 意為「消耗」，與承擔責任無關，屬形似字陷阱。"
+      "zh": "查核人員被指示在合併報告定案之前，先各自核對每家子公司的財務報表。",
+      "why": "<b>reconcile</b> 在財務語境中意為「核對、勾稽（帳目、財務報表）使其一致」，reconcile financial statements/accounts 為固定搭配；conciliate 意為「調解、安撫（人際或紛爭）」，不用於財務報表的核對；recompense 意為「補償、賠償」，與核對帳目語意無關；reciprocate 意為「回報、互惠」，同樣與查核核對的語意不符，屬形似字陷阱。"
     }
   ],
   "p6": {
-    "id": "2026-07-06-p6",
-    "title": "Memo: Transition to a New Vendor Management System",
+    "id": "2026-07-07-p6",
+    "title": "Memo: Revisions to the Data Retention Policy",
     "seg": [
-      ["To all department heads: after nearly a year of evaluation, the procurement office has decided that the current vendor management platform ", {"b": 0}, " with a more robust, cloud-based system beginning October 1, in order to reduce onboarding delays and consolidate supplier records across all regional offices."],
-      [{"b": 1}, " new vendor accounts must be registered directly through the updated portal; legacy spreadsheet-based submissions will no longer be accepted after the cutover date."],
-      ["Procurement staff will hold two mandatory walkthrough sessions to ", {"b": 2}, " department heads with the new approval workflow before the system goes live."],
-      ["Employees who fail to complete the required training before the cutover may experience delays in getting purchase orders approved. ", {"b": 3}, " Additional guidance will be distributed via email closer to the launch date."]
+      ["To all staff: following a comprehensive review conducted by the legal and IT departments, the company's data retention schedule ", {"b": 0}, " to comply with the updated privacy regulations that take effect next quarter."],
+      [{"b": 1}, " employees must securely archive any records scheduled for retention beyond the standard eighteen-month window, and promptly delete all files that fall outside the newly defined retention period."],
+      ["The compliance team will conduct two training sessions to help department managers ", {"b": 2}, " the new classification criteria for sensitive records before the policy takes effect."],
+      ["Departments that fail to complete the reclassification process by the deadline may be subject to a temporary suspension of system access privileges. ", {"b": 3}, " Questions regarding the revised policy should be directed to the compliance hotline."]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["will be replaced", "replaced", "has replaced", "is replacing"],
+        "opts": ["will be revised", "revised", "has revised", "is revising"],
         "ans": 0,
-        "zh": "致各部門主管：歷經近一年的評估後，採購辦公室決定現行供應商管理平台將於10月1日起被一套更穩健的雲端系統所取代，以減少導入延宕並整合各地區辦公室的供應商紀錄。",
-        "why": "平台是被「取代」的一方，須用<b>被動語態</b>；且生效日期（10月1日）為未來時間點，須用<b>未來式</b>，故為 will be replaced；replaced 缺少助動詞，無法單獨構成被動謂語；has replaced 為現在完成主動式，語意變成平台本身主動完成取代，邏輯不通；is replacing 為現在進行主動式，與未來生效日期不符。"
+        "zh": "致全體員工：在法務部門與資訊部門完成全面檢視後，公司的資料保存排程將被修訂，以符合下季生效的最新隱私法規。",
+        "why": "排程是被「修訂」的一方，須用<b>被動語態</b>；且生效時間為「下季」，屬未來事件，須用<b>未來式</b>，故為 will be revised；revised 缺少助動詞，無法單獨構成被動謂語；has revised 為現在完成主動式，語意變成排程本身主動完成修訂，邏輯不通；is revising 為現在進行主動式，與未來生效時間不符。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["Going forward", "On the other hand", "In retrospect", "By comparison"],
+        "opts": ["Accordingly", "Nevertheless", "Alternatively", "Meanwhile"],
         "ans": 0,
-        "zh": "展望未來，所有新供應商帳戶都必須直接透過更新後的入口網站註冊；轉換日之後將不再接受以試算表提交的舊式申請。",
-        "why": "前段說明系統將被取代，本段接續說明<b>今後</b>的新規定，須用 Going forward（意為「從今以後」）承接時間軸；On the other hand（另一方面）表對比語氣，與本句承接語意不符；In retrospect（回顧來看）用於回顧過去，與本段談論未來規定的方向相反；By comparison（相較之下）表比較，與本句語意無關。"
+        "zh": "因此，員工必須將任何排定保存期限超過標準十八個月的紀錄妥善歸檔，並立即刪除所有超出新定保存期限範圍的檔案。",
+        "why": "前段說明保存排程將被修訂，本段承接說明<b>因此而生</b>的具體行動要求，須用 Accordingly（因此，表因果承接）；Nevertheless（然而）表轉折語氣，與本句的因果邏輯不符；Alternatively（或者、另一方面）表選項並列，與本句語意不合；Meanwhile（同時、與此同時）表同時發生的另一件事，並非因果承接，故不合。"
       },
       {
-        "tag": "詞彙搭配",
+        "tag": "詞彙語意辨別",
         "col1": true,
-        "opts": ["familiarize", "accustom", "adapt", "conform"],
+        "opts": ["grasp", "grab", "grope", "grip"],
         "ans": 0,
-        "zh": "採購人員將在系統上線前舉辦兩場必要的說明會，以協助各部門主管熟悉新的核准作業流程。",
-        "why": "<b>familiarize sb with sth</b> 為固定用法，意為「使某人熟悉某事」，與句中介系詞 with 搭配一致；accustom sb to sth 慣用介系詞為 to，與句中 with 不符；adapt 通常用於 adapt to sth 或 adapt sth for sth，與 sb...with 的結構不合；conform 意為「遵循、符合（規範）」，語意上與「讓部門主管熟悉新流程」不符，且慣用介系詞亦為 to。"
+        "zh": "法遵團隊將在政策生效前舉辦兩場教育訓練，協助各部門主管掌握新的敏感資料分類標準。",
+        "why": "<b>grasp</b> 在此為抽象用法，意為「理解、掌握（觀念、標準）」，符合語境；grab 意為「抓取」，通常用於具體實物而非抽象概念的理解，語意不符；grope 意為「摸索、笨拙地摸索」，帶有負面意涵，不符合正式商務文書語氣；grip 意為「緊握」，同樣用於具體實物的抓握，不用於理解抽象規範。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "A recorded version of each session will be made available on the intranet for those unable to attend in person.",
-          "The company's annual shareholder meeting will be held virtually this year.",
-          "The new system was originally developed by a vendor based in Singapore.",
-          "Employees are reminded that the office will be closed on the upcoming public holiday."
+          "A dedicated help desk will remain available throughout the transition period to assist with any classification questions.",
+          "The company's quarterly earnings call is scheduled for the second week of next month.",
+          "All employees are required to complete the annual ethics certification by December thirty-first.",
+          "The new office building will feature expanded conference facilities on the fourth floor."
         ],
         "ans": 0,
-        "zh": "未能在轉換日前完成訓練的員工，在請購單核准上可能會面臨延遲。每場說明會的錄影版本將公布於內部網路，供無法親自出席者觀看。近發布日前，將另以電子郵件發送更多操作指引。",
-        "why": "此處應承接前一句「員工可能因未受訓而延誤請購單核准」的問題，補充說明<b>可補救的替代方案</b>（提供錄影版本），故選項 A 最恰當，也能與下一句「將發送更多操作指引」自然銜接；選項 B 談股東會、選項 C 談系統開發商背景、選項 D 談國定假日休館，三者皆與本篇「供應商系統轉換與教育訓練」的主題無關，置入會使段落邏輯斷裂。"
+        "zh": "未能於截止日前完成重新分類作業的部門，可能會被暫時停權系統存取權限。在整個過渡期間，將持續提供專責服務台以協助解答任何分類相關問題。有關修訂後政策的問題，應洽詢法遵專線。",
+        "why": "此處應承接前一句「部門可能被停權」的後果說明，並自然銜接下一句「有關政策問題應洽詢法遵專線」，故選項描述<b>提供專責服務台協助分類問題</b>最符合上下文邏輯、承先啟後；其餘選項分別談論季報電話會議、年度倫理認證、新辦公大樓設施，皆與本篇「資料保存政策修訂」主題無關，插入會使段落邏輯斷裂。"
       }
     ]
   }
