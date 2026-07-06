@@ -1,5 +1,134 @@
 [
   {
+    "date": "2026-07-06",
+    "big_events": [
+      {
+        "title": "GPT-5.6最強模型Sol跑出91.9%基準分數,卻仍只開放約20家政府核准夥伴使用",
+        "sources": [
+          {
+            "name": "BuildFastWithAI",
+            "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-6-2026"
+          },
+          {
+            "name": "unrot.co",
+            "url": "https://unrot.co/blogs/today-top-10-ai-news-july-6-2026"
+          }
+        ],
+        "summary": "OpenAI新一代GPT-5.6三款模型持續受政府審核限制,一般用戶仍無法使用",
+        "audience": "關注AI工具排行、想搶先用最新模型的職場效率玩家",
+        "pain_point": "看到最強AI模型的消息卻用不到,不知道現在該選哪個模型才划算",
+        "title_idea": "OpenAI最強模型測出91.9分!為什麼你還是用不到GPT-5.6?",
+        "local_angle": "華語圈很多人還搞不清楚GPT-5.5、5.6跟各版本差異,可做一支「現在該用哪個模型」對照教學"
+      },
+      {
+        "title": "Gemini 3.5 Pro第二度跳票,Google坦言AI代理任務太耗費token",
+        "sources": [
+          {
+            "name": "BuildFastWithAI",
+            "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-6-2026"
+          },
+          {
+            "name": "unrot.co",
+            "url": "https://unrot.co/blogs/today-top-10-ai-news-july-6-2026"
+          }
+        ],
+        "summary": "Gemini 3.5 Pro連續錯過兩次上市死線,官方稱是agent任務耗token過多",
+        "audience": "用Google Workspace辦公、觀望要不要換AI工具的上班族",
+        "pain_point": "不確定該不該等新模型上市,還是先把手上工具用熟比較划算",
+        "title_idea": "Google又跳票!Gemini 3.5 Pro為什麼一直生不出來?",
+        "local_angle": "與其空等Gemini新版,不如做「先把現有Gemini/ChatGPT用滿」的實用向內容蹭話題"
+      },
+      {
+        "title": "TechCrunch統計:2026年科技業已裁員逾12萬人,AI是最常被點名的理由",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/"
+          }
+        ],
+        "summary": "科技公司邊喊營收創新高邊裁員,理由多指向導入AI技術",
+        "audience": "擔心被AI取代、想確認自己工作是否安全的上班族",
+        "pain_point": "看到裁員潮新聞就心慌,卻不知道自己具體該學什麼技能自保",
+        "title_idea": "2026年裁員破12萬人,AI才是幕後黑手?上班族該練的3個保命技能",
+        "local_angle": "華語職場對「AI取代論」焦慮但缺乏具體應對指南,可做「不被裁員名單點到」的實操型選題"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "Google悄悄修改隱私設定,你上傳的照片、語音都可能被拿去訓練AI",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/"
+          }
+        ],
+        "summary": "Google更新Search隱私設定,預設把上傳內容用於AI訓練,需手動關閉",
+        "audience": "常用Google Lens、語音搜尋、Google翻譯的上班族",
+        "pain_point": "不知道自己的資料正在被拿去訓練AI,想關掉卻找不到設定在哪",
+        "title_idea": "還在用Google Lens?先關掉這個設定,不然你的照片都在餵AI",
+        "local_angle": "華語圈幾乎沒人報導這個隱私設定異動,可以第一時間做「3步驟關閉」教學搶流量"
+      },
+      {
+        "title": "ChatGPT Enterprise/Edu的workspace agent免費期7月6日到期,改按用量收費",
+        "sources": [
+          {
+            "name": "OpenAI Help Center",
+            "url": "https://help.openai.com/en/articles/10128477-chatgpt-enterprise-edu-release-notes"
+          }
+        ],
+        "summary": "OpenAI企業版/教育版的workspace agent功能結束免費試用,開始計費",
+        "audience": "公司採購ChatGPT Enterprise、負責IT預算的上班族與主管",
+        "pain_point": "不清楚免費期已結束,月底收到帳單才驚覺費用超出預期",
+        "title_idea": "用ChatGPT Enterprise的注意了!這個功能今天起開始收費",
+        "local_angle": "台灣企業導入ChatGPT Enterprise比例逐漸提高,提前預警費用變化是很好的信任型內容"
+      },
+      {
+        "title": "Vercel執行長揭露:公司內部用Eve和Sandbox兩套工具馴服AI代理人",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/"
+          }
+        ],
+        "summary": "Vercel CEO分享用Eve框架寫代理人指令、用Sandbox限制代理人存取權限",
+        "audience": "想導入AI代理人處理重複工作、但擔心權限失控的職場工作者",
+        "pain_point": "想用AI代理人自動化工作,又怕它誤操作或抓取不該拿的資料",
+        "title_idea": "怕AI代理人闖禍?矽谷公司用這兩招把風險關進籠子裡",
+        "local_angle": "「AI代理人權限管控」在華語圈討論還很少,可做成「給非工程師看的AI代理人安全入門」"
+      }
+    ],
+    "trends": [
+      {
+        "title": "Vercel執行長:AI產業正在爭論——模型和代理人到底該不該綁在一起",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/"
+          }
+        ],
+        "summary": "Rauch認為未來AI工具會像軟體工程一樣,模型與代理人分開組裝",
+        "audience": "想長期布局AI工具、關心產業走向的自由工作者與內容創作者",
+        "pain_point": "每次AI工具改版就要重新學,不知道該押注哪個平台或供應商",
+        "title_idea": "AI工具以後會怎麼變?矽谷CEO一句話點出下一步",
+        "local_angle": "「模型與代理分離」這個框架華語圈還沒有對應說法,可搶先做成解釋性內容建立話語權"
+      },
+      {
+        "title": "AI智慧眼鏡新創Even Realities靠陸資背景衝上10億美元估值",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/06/smart-glasses-maker-even-realities-hits-1b-valuation-with-150m-funding-led-by-meituan-tencent/"
+          }
+        ],
+        "summary": "深圳新創獲美團、騰訊領投1.5億美元,主打不犧牲隱私的顯示型AI眼鏡",
+        "audience": "對AI硬體、穿戴式裝置有興趣的科技愛好者與早期採用者",
+        "pain_point": "想知道下一波AI硬體浪潮在哪,但市面資訊多集中在Meta、Ray-Ban眼鏡",
+        "title_idea": "10億美元AI眼鏡新創曝光,不是Meta也不是Apple",
+        "local_angle": "海外AI眼鏡新創已拿到大筆資金驗證市場,華語圈創作者對這類「非Meta系」選手關注度還很低"
+      }
+    ]
+  },
+  {
     "date": "2026-07-05",
     "big_events": [
       {
@@ -1127,205 +1256,6 @@
         }
       ],
       "explanation": "本日報精選 10 則核心情報（3 大事件、3 工具更新、3 趨勢），全數來自確認 URL 或內容日期為 2026-06-30 的真實來源。TechCrunch 為主力來源（10 篇），並以 Anthropic、Google、OpenAI 官方發布頁與第三方報導交叉驗證細節。FutureTools、The Verge 因存取失敗無法取得當日內容，YouTube 與 X/Twitter 亦未能確認當日具體發布，均如實標記為 ❌，未以舊資料或推測內容填補。"
-    }
-  },
-  {
-    "date": "2026-06-25",
-    "big_events": [
-      {
-        "title": "OpenAI x Broadcom 正式確認「Jalapeño」首款 LLM 推論晶片，九個月完成設計，年底前部署",
-        "sources": [
-          {
-            "name": "OpenAI 官方",
-            "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/"
-          },
-          {
-            "name": "The AI Insider",
-            "url": "https://theaiinsider.tech/2026/06/25/openai-unveils-jalapeno-its-first-custom-ai-inference-chip-built-with-broadcom/"
-          },
-          {
-            "name": "Tom's Hardware",
-            "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/broadcom-and-openai-unveil-custom-built-jalapeno-inference-processor-openais-first-chip-is-a-massive-reticle-sized-asic-built-in-an-ultra-fast-nine-month-development-cycle"
-          },
-          {
-            "name": "Winbuzzer",
-            "url": "https://winbuzzer.com/2026/06/25/openai-and-broadcom-unveil-jalapeo-ai-inference-chip-xcxwbn/"
-          }
-        ],
-        "summary": "OpenAI 與 Broadcom 官方發布首款自研推論晶片 Jalapeño，專為 LLM 推論優化，效能每瓦遠超現有 GPU，由 AI 輔助完成晶片設計，預計 2026 年底進入大規模部署。",
-        "audience": "職場 AI 工具重度使用者、關注 ChatGPT API 費用的開發者與上班族",
-        "pain_point": "ChatGPT 有時回應慢、API 費用高，擔心長期 AI 使用成本不可控",
-        "title_idea": "OpenAI 自己造晶片正式官宣！Jalapeño 晶片發布，ChatGPT 要變多快多便宜？",
-        "local_angle": "昨日歐美科技圈炸鍋，但華語圈缺少「對一般用戶的實際影響」視角——搶做「Jalapeño 晶片對 ChatGPT 速度與 API 定價的影響」科普，資訊差極大"
-      },
-      {
-        "title": "Adobe 宣布收購 AI 影像暨影片增強工具商 Topaz Labs，整合進 Firefly 與 Creative Cloud",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/25/adobe-acquires-image-and-video-enhancement-tool-maker-topaz-labs/"
-          }
-        ],
-        "summary": "Adobe 收購以 AI 影片升清（Astra）和影像增強（Wonder）著稱的 Topaz Labs，計畫整合至 Firefly 與整個創意套件，強化對抗 Canva 和 DaVinci 的競爭力，交易年底前完成。",
-        "audience": "內容創作者、設計師、自媒體人、使用 Adobe Creative Cloud 的職場人士",
-        "pain_point": "AI 修圖/升清工具分散在 Topaz Labs 等獨立訂閱，希望在慣用的 Adobe 套件內直接取用",
-        "title_idea": "Adobe 花錢買走最強 AI 修圖工具！Topaz 進 Firefly 後，普通人也能用專業級 AI 影像升清",
-        "local_angle": "Topaz Labs 在歐美攝影/影片圈是神器級工具，台灣多數創作者還沒用過——整合教學及「Adobe Firefly 2026 完整功能」選題時機絕佳"
-      },
-      {
-        "title": "Amazon 宣布 2030 年前追加 130 億美元擴建印度 AI 基礎建設，累計承諾達 480 億美元",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment/"
-          }
-        ],
-        "summary": "亞馬遜宣布追加 130 億美元強化印度 AI 與雲端基建（孟買、海德拉巴 AWS 資料中心），彰顯印度成全球 AI 算力競爭新重鎮，科技巨頭爭相布局亞洲市場。",
-        "audience": "關注 AI 產業格局的職場科技愛好者、創業者",
-        "pain_point": "想了解 AI 算力競賽的全球版圖，以及未來 AI 服務成本走勢",
-        "title_idea": "AI 算力戰爭打進亞洲！AWS 再砸 130 億投印度，下一個 AI 基建重鎮為什麼不是台灣？",
-        "local_angle": "台灣有半導體優勢但 AI 基建話語權偏弱，從「台灣視角」解讀印度 AI 崛起，具強烈在地共鳴"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "Google Finance 推獨立 Android App，AI「Key Moments」功能自動解讀股市漲跌原因",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/25/google-finance-gets-a-dedicated-app-for-android/"
-          }
-        ],
-        "summary": "Google Finance 推出 Android 獨立 App，內建 AI「Key Moments」解讀股票波動，可用自然語言設定定時市場簡報與持倉分析任務，iOS 版本稍後推出。",
-        "audience": "有投資習慣的職場上班族、想用 AI 管理財務的知識工作者",
-        "pain_point": "每天要自己查股票新聞太耗時，希望 AI 能自動整理「今天市場發生了什麼、為什麼漲跌」",
-        "title_idea": "Google 把 AI 塞進財經 App！以後看股票不用自己猜，AI 直接告訴你漲跌原因",
-        "local_angle": "Google Finance 在台灣使用率高，但此 App 的 AI 功能幾乎無中文教學——搶做使用教學與「自然語言設定財經任務」實測，職場理財族群接受度高"
-      },
-      {
-        "title": "Topaz Labs 旗艦 AI 技術（Astra 影片超解析＋Wonder 影像增強）即將原生整合 Adobe Firefly",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/25/adobe-acquires-image-and-video-enhancement-tool-maker-topaz-labs/"
-          }
-        ],
-        "summary": "Topaz Labs 的 Astra 影片升清模型和 Wonder 影像增強工具，以及讓大型 AI 模型跑在消費級 GPU 上的核心技術，收購後將整合進 Adobe Premiere Pro、Lightroom 和 Firefly。",
-        "audience": "使用 Premiere Pro / Lightroom 的影片創作者、YouTuber、自媒體工作者",
-        "pain_point": "影片解析度不足、舊素材畫質差，需付費購買額外訂閱才能升清",
-        "title_idea": "不用再另外買 Topaz！Adobe 整合 AI 升清神器後，Premiere 直接升 4K 有多強？",
-        "local_angle": "台灣許多 YouTuber 仍需單獨購買 Topaz 外掛，整合後的新工作流尚無中文教學——率先示範可搶佔流量"
-      },
-      {
-        "title": "Unconventional AI 展示振盪器晶片架構：Naveen Rao 宣稱推論耗電可降低 1,000 倍",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x/"
-          }
-        ],
-        "summary": "前 Databricks AI 長 Naveen Rao 創辦 Unconventional AI，以振盪器運算架構取代傳統 GPU，實測影像生成模型媲美頂規水準，目標讓 AI 推論耗電降低 1,000 倍以解決電費瓶頸。",
-        "audience": "關注 AI 基礎設施成本、希望 AI 更便宜普及的職場科技愛好者",
-        "pain_point": "AI 服務費貴、AI 電費問題讓人擔心長期使用成本持續攀升",
-        "title_idea": "AI 電費要爆炸？前 Databricks 高管說他找到解法——推論耗電少 1,000 倍的新型晶片",
-        "local_angle": "台灣媒體報導 AI 耗電多聚焦政策議題，這個「技術突破」切角幾乎沒人做——科普機會極大"
-      }
-    ],
-    "trends": [
-      {
-        "title": "General Intuition 23 億美元押注：用電玩訓練 AI Agent 比真實世界數據更便宜且可擴展",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/"
-          }
-        ],
-        "summary": "新創 General Intuition 利用數百萬小時電玩影片與玩家操作數據訓練 AI Agent 空間推理能力，估值達 23 億美元，被投資人視為具身 AI 和機器人訓練數據的可擴展替代方案。",
-        "audience": "對 AI Agent、機器人和未來自動化感興趣的科技愛好者、開發者",
-        "pain_point": "好奇 AI Agent 要怎麼學會「做事」，真實世界的訓練數據為何昂貴且難以取得",
-        "title_idea": "打電動居然能訓練機器人！這家公司估值 23 億美元，靠遊戲數據教 AI 認識真實世界",
-        "local_angle": "電玩 × AI Agent 的交叉話題在台灣幾乎是空白，適合科普科技頻道搶佔先機"
-      },
-      {
-        "title": "Netris 獲 a16z 領投 1,500 萬 Series A：AI Neocloud 快速上線工具，GPU 雲端創業門檻大降",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/06/25/netris-raises-15m-series-a-from-a16z-to-help-ai-neoclouds-go-live-faster/"
-          }
-        ],
-        "summary": "Netris 獲 a16z 投資，提供 AI 雲端基礎建設軟體，讓新興 AI 算力供應商（Neocloud）壓縮上線時間，使獨立開發者和小團隊快速搭建 GPU 租賃或 AI 算力服務。",
-        "audience": "有意從事 AI 算力創業或 GPU 雲端服務的技術創業者、獨立開發者",
-        "pain_point": "想跟上 AI 基建創業浪潮但不知如何快速搭建算力平台",
-        "title_idea": "a16z 押注 AI 算力基建！有了 Netris，個人也能快速建立自己的 AI 雲端服務？",
-        "local_angle": "AI GPU 雲端創業在台灣屬冷門話題，但全球機會已爆發——作為前瞻趨勢選題具備顯著資訊差"
-      },
-      {
-        "title": "六月 AI 模型大爆發：GPT-5.6、Gemini 3.5 Pro、Claude 4.8 競相發布，職場工具選擇迎來最複雜時刻",
-        "sources": [
-          {
-            "name": "Essa Mamdani Blog",
-            "url": "https://www.essamamdani.com/blog/june-2026-ai-model-flood-gpt-gemini-claude"
-          },
-          {
-            "name": "LLM Stats",
-            "url": "https://llm-stats.com/llm-updates"
-          }
-        ],
-        "summary": "GPT-5.6、Gemini 3.5 Pro 和 Claude 4.8 在六月集中上線，AI 模型市場進入能力高度接近的白熱化競爭，職場使用者面臨「用哪個最划算、怎麼切換」的新困惑。",
-        "audience": "日常使用 AI 工具的職場上班族、需要為團隊選擇 AI 訂閱方案的管理者",
-        "pain_point": "三家 AI 巨頭同期出新模型，不知怎麼選、哪個最值回票價、功能差異在哪",
-        "title_idea": "GPT-5.6 vs Gemini 3.5 Pro vs Claude 4.8 同月殺出！2026 年職場人必看的 AI 模型選擇指南",
-        "local_angle": "歐美已有大量英文比較評測，繁體中文版「職場實戰場景比較」幾乎空白——做本地化測試內容，對職場族群轉換率極高"
-      }
-    ],
-    "source_coverage_notes": {
-      "status": "日期驗證完成 (2026-06-25)",
-      "coverage": [
-        {
-          "source": "TechCrunch AI",
-          "status": "✅",
-          "count": 6,
-          "note": "確認 6 篇 URL 含 /2026/06/25/ 的文章：① OpenAI Jalapeño 晶片官宣、② Adobe 收購 Topaz Labs、③ Amazon 130 億印度 AI 投資、④ Google Finance AI App、⑤ General Intuition $2.3B、⑥ Databricks AI 長創業 Unconventional AI。另有 Netris a16z Series A（同日）。"
-        },
-        {
-          "source": "OpenAI 官方",
-          "status": "✅",
-          "count": 1,
-          "note": "openai.com/index/openai-broadcom-jalapeno-inference-chip/ 確認為 June 25 發布，多家媒體（The AI Insider、Winbuzzer URL 均含 2026/06/25）佐證。"
-        },
-        {
-          "source": "FutureTools.io",
-          "status": "❌",
-          "count": 0,
-          "note": "網頁顯示最新 AI 工具動態截至 June 24，無 June 25 新增工具更新，如實記錄，不以舊文充數。"
-        },
-        {
-          "source": "The Verge AI",
-          "status": "❌",
-          "count": 0,
-          "note": "WebFetch 返回存取錯誤，無法抓取，如實記錄。"
-        },
-        {
-          "source": "WebSearch 補充搜尋",
-          "status": "✅",
-          "count": 3,
-          "note": "補充確認 Jalapeño 晶片多來源報導、Google Finance AI App 功能細節、六月 AI 模型競爭趨勢。"
-        },
-        {
-          "source": "YouTube 頻道（Matt Wolfe、Matthew Berman 等）",
-          "status": "❌",
-          "count": 0,
-          "note": "YouTube 頻道頁面無法直接抓取昨日影片列表，WebSearch 亦未返回 June 25 具體影片，如實記錄。"
-        },
-        {
-          "source": "X / Twitter 關鍵帳號",
-          "status": "❌",
-          "count": 0,
-          "note": "X/Twitter 存取受限，無法抓取 @OpenAI、@AnthropicAI、@GoogleDeepMind 等昨日貼文，重要訊息已透過 TechCrunch 及 OpenAI 官方頁面間接覆蓋。"
-        }
-      ],
-      "explanation": "2026-06-25 日報精選 9 則核心情報（3 大事件、3 工具更新、3 趨勢）。TechCrunch URL /2026/06/25/ 確認 6 篇文章，OpenAI 官方頁面及多家媒體 URL 含 2026/06/25 確認 Jalapeño 晶片為昨日事件。FutureTools 及 The Verge 無法取得昨日內容，如實記錄，未以舊文充數。六月 AI 模型競爭趨勢條目援引持續性 June 2026 資料作為趨勢佐證。"
     }
   }
 ]
