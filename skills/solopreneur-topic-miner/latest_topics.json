@@ -1,121 +1,99 @@
 {
-  "date": "2026-07-05",
+  "date": "2026-07-06",
   "big_events": [
     {
-      "title": "AI效率實測:Bending Spoons那斯達克上市,90%程式碼由AI生成,人均營收兩年翻倍",
+      "title": "GPT-5.6最強模型Sol跑出91.9%基準分數,卻仍只開放約20家政府核准夥伴使用",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/05/what-is-bending-spoons-everything-to-know-about-aols-acquirer/"}
+        {"name": "BuildFastWithAI", "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-6-2026"},
+        {"name": "unrot.co", "url": "https://unrot.co/blogs/today-top-10-ai-news-july-6-2026"}
       ],
-      "summary": "義大利科技公司上市,AI讓人均營收兩年翻倍",
-      "audience": "想向老闆證明AI能提升團隊產出的中階主管、對「AI+效率」案例有興趣的職場上班族",
-      "pain_point": "想推動公司導入AI卻缺乏具體數字說服老闆或客戶,只能空口說「AI很有用」",
-      "title_idea": "AI幫公司賺更多錢的真實案例:這家上市公司靠AI把人均營收翻倍,程式碼九成讓AI寫",
-      "local_angle": "這是歐美真實IPO財報數字,華語圈還沒人用這組數據做「AI真的能省錢」的說服素材,適合做成給老闆看的懶人包簡報"
+      "summary": "OpenAI新一代GPT-5.6三款模型持續受政府審核限制,一般用戶仍無法使用",
+      "audience": "關注AI工具排行、想搶先用最新模型的職場效率玩家",
+      "pain_point": "看到最強AI模型的消息卻用不到,不知道現在該選哪個模型才划算",
+      "title_idea": "OpenAI最強模型測出91.9分!為什麼你還是用不到GPT-5.6?",
+      "local_angle": "華語圈很多人還搞不清楚GPT-5.5、5.6跟各版本差異,可做一支「現在該用哪個模型」對照教學"
     },
     {
-      "title": "Anthropic共同創辦人示警:AI已讓公司不再需要「新鮮人工程師」,恐引爆全產業經濟震盪",
+      "title": "Gemini 3.5 Pro第二度跳票,Google坦言AI代理任務太耗費token",
       "sources": [
-        {"name": "The Decoder", "url": "https://the-decoder.com/anthropic-doesnt-need-junior-engineers-anymore-thanks-to-ai-and-warns-of-an-economic-shock-when-other-industries-follow/"}
+        {"name": "BuildFastWithAI", "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-6-2026"},
+        {"name": "unrot.co", "url": "https://unrot.co/blogs/today-top-10-ai-news-july-6-2026"}
       ],
-      "summary": "Anthropic坦言AI讓新人職缺消失,警告經濟衝擊將擴散",
-      "audience": "剛出社會的新鮮人、擔心被AI取代的基層上班族、企業HR與管理職",
-      "pain_point": "對「AI會不會讓我找不到工作」感到焦慮,卻不知道該如何提前因應",
-      "title_idea": "連Anthropic自己都說:新鮮人工程師快沒了!AI正在淘汰的是這種人才",
-      "local_angle": "這是海外AI龍頭公司內部人士的第一手警告,華語圈多半只聊「AI會取代誰」的空泛預測,可做成「如何避免成為被淘汰那群人」的實用選題"
+      "summary": "Gemini 3.5 Pro連續錯過兩次上市死線,官方稱是agent任務耗token過多",
+      "audience": "用Google Workspace辦公、觀望要不要換AI工具的上班族",
+      "pain_point": "不確定該不該等新模型上市,還是先把手上工具用熟比較划算",
+      "title_idea": "Google又跳票!Gemini 3.5 Pro為什麼一直生不出來?",
+      "local_angle": "與其空等Gemini新版,不如做「先把現有Gemini/ChatGPT用滿」的實用向內容蹭話題"
     },
     {
-      "title": "微軟砸25億美元成立新公司Frontier,派6000名AI工程師直接進駐企業客戶",
+      "title": "TechCrunch統計:2026年科技業已裁員逾12萬人,AI是最常被點名的理由",
       "sources": [
-        {"name": "WinBuzzer", "url": "https://winbuzzer.com/2026/07/05/microsoft-introduces-frontier-company-for-enterprise-ai-xcxwbn/"},
-        {"name": "The Decoder", "url": "https://the-decoder.com/microsoft-launches-2-5-billion-frontier-company-to-embed-6000-ai-engineers-inside-enterprise-clients/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/"}
       ],
-      "summary": "微軟成立專責企業AI導入新公司,重金派工程師進駐客戶",
-      "audience": "中小企業主、想承接企業AI導入顧問案的自由工作者與顧問",
-      "pain_point": "想幫公司或客戶導入AI卻不知道從何開始,缺乏「別人怎麼做」的具體案例",
-      "title_idea": "微軟砸25億元教你怎麼幫企業導入AI:這是最新的「AI顧問」商業模式範本",
-      "local_angle": "海外已出現「AI導入顧問」這門新生意的巨頭範本,華語圈AI顧問接案市場才剛起步,可拿這套做法包裝成中小企業能用的簡化版服務"
-    },
-    {
-      "title": "2026上半年AI投資狂潮:近90家新創跨過10億美元獨角獸門檻",
-      "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/05/almost-40-new-unicorns-have-been-minted-so-far-this-year-here-they-are/"}
-      ],
-      "summary": "AI熱潮帶動今年新增近90家獨角獸新創",
-      "audience": "想了解創投風向、尋找AI創業題材的個人創業者與自由工作者",
-      "pain_point": "不知道現在資金都往哪些AI題材流動,擔心錯過市場趨勢",
-      "title_idea": "2026上半年獨角獸榜單曝光:這些AI新創到底在做什麼賺錢?",
-      "local_angle": "榜單裡的商業模式(AI工作空間、晶片設計、財富管理等)多數華語圈還沒人整理分析,適合做成「歐美獨角獸在幹嘛」系列選題"
+      "summary": "科技公司邊喊營收創新高邊裁員,理由多指向導入AI技術",
+      "audience": "擔心被AI取代、想確認自己工作是否安全的上班族",
+      "pain_point": "看到裁員潮新聞就心慌,卻不知道自己具體該學什麼技能自保",
+      "title_idea": "2026年裁員破12萬人,AI才是幕後黑手?上班族該練的3個保命技能",
+      "local_angle": "華語職場對「AI取代論」焦慮但缺乏具體應對指南,可做「不被裁員名單點到」的實操型選題"
     }
   ],
   "tool_updates": [
     {
-      "title": "開源工具pxpipe把文字轉成PNG圖片,讓Claude Code、GPT-5.6的token費用省下最多70%",
+      "title": "Google悄悄修改隱私設定,你上傳的照片、語音都可能被拿去訓練AI",
       "sources": [
-        {"name": "WinBuzzer", "url": "https://winbuzzer.com/2026/07/05/pxpipe-proxy-claims-fable-cost-cuts-through-code-images-xcxwbn/"},
-        {"name": "The Decoder", "url": "https://the-decoder.com/open-source-tool-pxpipe-hides-text-in-pngs-to-cut-claude-code-and-fable-5-token-costs-up-to-70/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/"}
       ],
-      "summary": "開源代理工具用圖片代替文字,大砍AI用量費用",
-      "audience": "每天大量使用Claude Code、ChatGPT的AI效率工具重度使用者、需控管AI訂閱與API費用的職場人士",
-      "pain_point": "AI工具用得越多帳單越可怕,想省錢卻不知道有什麼技巧",
-      "title_idea": "省下70%AI費用的省錢神技:把你的提示詞「拍成照片」給AI看",
-      "local_angle": "這是純技術性省錢技巧,操作步驟明確、容易做成教學影片,華語圈AI工具教學頻道還沒人翻譯介紹這個開源專案,是搶先做教學的好機會"
+      "summary": "Google更新Search隱私設定,預設把上傳內容用於AI訓練,需手動關閉",
+      "audience": "常用Google Lens、語音搜尋、Google翻譯的上班族",
+      "pain_point": "不知道自己的資料正在被拿去訓練AI,想關掉卻找不到設定在哪",
+      "title_idea": "還在用Google Lens?先關掉這個設定,不然你的照片都在餵AI",
+      "local_angle": "華語圈幾乎沒人報導這個隱私設定異動,可以第一時間做「3步驟關閉」教學搶流量"
     },
     {
-      "title": "馬斯克宣布Grok Imagine開發「完工」,xAI影像影片生成功能正式到位",
+      "title": "ChatGPT Enterprise/Edu的workspace agent免費期7月6日到期,改按用量收費",
       "sources": [
-        {"name": "Basenor", "url": "https://www.basenor.com/blogs/news/grok-imagine-is-done-xai-completes-image-generation-feature"}
+        {"name": "OpenAI Help Center", "url": "https://help.openai.com/en/articles/10128477-chatgpt-enterprise-edu-release-notes"}
       ],
-      "summary": "馬斯克發文宣布Grok圖片影片生成功能開發完成",
-      "audience": "內容創作者、想用AI快速產出短影音素材的自媒體經營者",
-      "pain_point": "想找免費或平價的AI影像影片生成工具,卻不確定哪個平台功能最完整最新",
-      "title_idea": "Grok Imagine正式完工!藏在X App裡的免費AI影片生成器你用過了嗎",
-      "local_angle": "Grok Imagine深度整合在X/Twitter App裡,目前華語圈教學內容仍偏少,適合做「如何用Grok Imagine免費做短影音」的實測教學"
+      "summary": "OpenAI企業版/教育版的workspace agent功能結束免費試用,開始計費",
+      "audience": "公司採購ChatGPT Enterprise、負責IT預算的上班族與主管",
+      "pain_point": "不清楚免費期已結束,月底收到帳單才驚覺費用超出預期",
+      "title_idea": "用ChatGPT Enterprise的注意了!這個功能今天起開始收費",
+      "local_angle": "台灣企業導入ChatGPT Enterprise比例逐漸提高,提前預警費用變化是很好的信任型內容"
     },
     {
-      "title": "Google員工用Claude Code+Fable 5,短短幾小時把2003年老遊戲原生移植到iOS",
+      "title": "Vercel執行長揭露:公司內部用Eve和Sandbox兩套工具馴服AI代理人",
       "sources": [
-        {"name": "The Decoder", "url": "https://the-decoder.com/claude-code-and-fable-5-ported-the-2003-pc-game-command-conquer-to-native-ios-in-a-few-hours/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/"}
       ],
-      "summary": "開發者用AI編碼工具幾小時完成老遊戲iOS移植",
-      "audience": "對AI輔助寫程式(vibe coding)有興趣的職場上班族、想側面驗證AI編碼能力的技術愛好者",
-      "pain_point": "不確定AI編碼工具到底能做到什麼程度,缺乏具體有畫面感的案例說服自己或團隊嘗試",
-      "title_idea": "Google員工實測:AI編碼工具幾小時搞定20年前老遊戲移植,強到離譜",
-      "local_angle": "這種「跟著做就有感」的AI編碼案例最適合做成教學型內容,華語圈vibe coding教學仍以簡單網頁App為主,尚未有人示範這類老遊戲移植題材"
+      "summary": "Vercel CEO分享用Eve框架寫代理人指令、用Sandbox限制代理人存取權限",
+      "audience": "想導入AI代理人處理重複工作、但擔心權限失控的職場工作者",
+      "pain_point": "想用AI代理人自動化工作,又怕它誤操作或抓取不該拿的資料",
+      "title_idea": "怕AI代理人闖禍?矽谷公司用這兩招把風險關進籠子裡",
+      "local_angle": "「AI代理人權限管控」在華語圈討論還很少,可做成「給非工程師看的AI代理人安全入門」"
     }
   ],
   "trends": [
     {
-      "title": "亞馬遜Mechanical Turk停止開放新用戶申請,AI正式終結人力群眾外包時代",
+      "title": "Vercel執行長:AI產業正在爭論——模型和代理人到底該不該綁在一起",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/"}
       ],
-      "summary": "AI取代人工標註,亞馬遜關閉群眾外包新用戶入口",
-      "audience": "從事資料標註或線上零工的接案族、關注AI取代人力工作趨勢的職場上班族",
-      "pain_point": "過去靠零工平台賺外快的管道正在消失,想知道AI時代還有哪些新的接案或變現機會",
-      "title_idea": "紅極一時的「人工外包」平台走入歷史!AI時代該轉往哪些新型態接案機會",
-      "local_angle": "這是「舊商業模式被AI淘汰」的鮮明案例,可延伸做「零工經濟在AI時代如何轉型」的選題,提醒讀者關注AI訓練師、prompt優化師等新興接案機會"
+      "summary": "Rauch認為未來AI工具會像軟體工程一樣,模型與代理人分開組裝",
+      "audience": "想長期布局AI工具、關心產業走向的自由工作者與內容創作者",
+      "pain_point": "每次AI工具改版就要重新學,不知道該押注哪個平台或供應商",
+      "title_idea": "AI工具以後會怎麼變?矽谷CEO一句話點出下一步",
+      "local_angle": "「模型與代理分離」這個框架華語圈還沒有對應說法,可搶先做成解釋性內容建立話語權"
     },
     {
-      "title": "Mistral執行長公開警告:把公司命脈押在「封閉AI模型」上,等於把商業機密雙手奉上",
+      "title": "AI智慧眼鏡新創Even Realities靠陸資背景衝上10億美元估值",
       "sources": [
-        {"name": "The Decoder", "url": "https://the-decoder.com/mistral-ceo-mensch-says-proprietary-ai-models-give-labs-a-front-row-seat-to-your-business-processes/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/06/smart-glasses-maker-even-realities-hits-1b-valuation-with-150m-funding-led-by-meituan-tencent/"}
       ],
-      "summary": "Mistral創辦人示警企業別過度依賴封閉AI模型",
-      "audience": "用AI工具處理公司機密資料的中小企業主、對資料隱私敏感的職場上班族",
-      "pain_point": "大量把公司內部資料丟給ChatGPT、Claude等工具,卻沒想過資料主權與隱私風險",
-      "title_idea": "你的AI對話紀錄,其實正在被拿去看穿你公司的商業機密?",
-      "local_angle": "台灣中小企業普遍還沒意識到「AI資料主權」議題,可做成「企業用AI該注意的資料風險」科普選題,同時帶出開源或自架AI模型的替代方案"
-    },
-    {
-      "title": "德國法院判決:Google要為AI Overviews的錯誤答案負全責,AI摘要恐衝擊創作者流量生態",
-      "sources": [
-        {"name": "The Decoder", "url": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/"}
-      ],
-      "summary": "德國法院裁定Google需為AI摘要錯誤內容負責",
-      "audience": "靠SEO或Google流量維生的內容創作者、部落客、自媒體經營者",
-      "pain_point": "擔心Google AI Overviews直接摘要走讀者、流量被搶走,卻不清楚背後的法律與商業意涵",
-      "title_idea": "Google AI摘要搶走你的流量?這場德國官司判決可能改變一切",
-      "local_angle": "這起判決可能牽動全球Google處理AI摘要的方式,對仰賴SEO流量的華語創作者有直接影響,是少見還沒被華語媒體深度分析的AI搜尋摘要法律風險議題"
+      "summary": "深圳新創獲美團、騰訊領投1.5億美元,主打不犧牲隱私的顯示型AI眼鏡",
+      "audience": "對AI硬體、穿戴式裝置有興趣的科技愛好者與早期採用者",
+      "pain_point": "想知道下一波AI硬體浪潮在哪,但市面資訊多集中在Meta、Ray-Ban眼鏡",
+      "title_idea": "10億美元AI眼鏡新創曝光,不是Meta也不是Apple",
+      "local_angle": "海外AI眼鏡新創已拿到大筆資金驗證市場,華語圈創作者對這類「非Meta系」選手關注度還很低"
     }
   ]
 }
