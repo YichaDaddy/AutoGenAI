@@ -1,65 +1,65 @@
 {
-  "date": "2026-07-06",
+  "date": "2026-07-08",
   "p5": [
     {
-      "id": "2026-07-06-p5-0",
-      "tag": "讓步介系詞",
+      "id": "2026-07-08-p5-0",
+      "tag": "假設語氣倒裝",
       "pre": "",
-      "post": " the substantial cost overruns disclosed in the interim report, the board reaffirmed its commitment to completing the infrastructure project on the original timeline.",
-      "opts": ["Notwithstanding", "Although", "Even though", "Despite of"],
+      "post": " the board decide to proceed with the merger despite the regulatory concerns, shareholders would likely demand an immediate independent review.",
+      "opts": ["Should", "Were", "If", "Would"],
       "ans": 0,
-      "zh": "儘管期中報告揭露了大幅的成本超支，董事會仍重申將依原定時程完成此基礎建設工程之承諾。",
-      "why": "<b>Notwithstanding</b> 為介系詞，意為「儘管」，其後可直接接名詞片語（the substantial cost overruns disclosed...），符合句構；Although 與 Even though 皆為連接詞，須接「主詞+動詞」的完整子句，不能直接接名詞片語，故不合語法；Despite of 為常見錯誤用法，despite 本身已是介系詞，不需再搭配 of。"
+      "zh": "若董事會決定不顧法規疑慮而推動此併購案，股東可能會立即要求進行獨立審查。",
+      "why": "<b>Should + 主詞 + 原形動詞</b>置於句首，是「If + 主詞 + should + 原形動詞」的倒裝形式，用來表示假設性較低、屬未來可能發生的條件，並與主要子句的 would 呼應；Were 倒裝須接 <b>to V</b>（如 Were the board to decide），與句中直接接原形動詞 decide 的結構不符；If 為連接詞而非倒裝用法，且此處主詞為第三人稱單數，若非倒裝需用 decides，與原句 decide 不符；Would 倒裝僅用於疑問句或委婉語氣，不用於條件句倒裝。"
     },
     {
-      "id": "2026-07-06-p5-1",
-      "tag": "非限定關係子句",
-      "pre": "The company's flagship product, ",
-      "post": " has generated over sixty percent of total revenue since its launch, is now facing unprecedented competition from several well-funded startups.",
-      "opts": ["which", "that", "who", "what"],
-      "ans": 0,
-      "zh": "該公司的旗艦產品（自推出以來已創造逾六成的總營收）如今正面臨數家資金雄厚新創公司前所未有的競爭。",
-      "why": "逗號夾住的<b>非限定關係子句</b>用來補充說明「旗艦產品」，須用 which；that 依文法規則只能用於限定關係子句（不加逗號的子句），不可用於非限定子句；who 用於指人，此處先行詞為「產品」不合；what 本身已內含先行詞語意，不能有明確先行詞在前，故不合。"
-    },
-    {
-      "id": "2026-07-06-p5-2",
-      "tag": "倒裝句（Only）",
+      "id": "2026-07-08-p5-1",
+      "tag": "分詞構句",
       "pre": "",
-      "post": " did the auditors discover irregularities so severe that the entire financial statement had to be restated.",
-      "opts": ["Only after conducting a second review", "After conducting a second review", "Having conducted a second review", "To conduct a second review"],
+      "post": ", the shareholders responded with immediate skepticism regarding the projected earnings.",
+      "opts": ["Having reviewed the leaked internal memo", "Reviewed the leaked internal memo", "To review the leaked internal memo", "The review of the leaked internal memo"],
       "ans": 0,
-      "zh": "直到進行第二次覆核後，審計人員才發現嚴重到必須重編整份財務報表的異常情況。",
-      "why": "當 <b>Only + 時間／方式副詞片語</b> 置於句首強調時，主要子句需採<b>倒裝</b>（助動詞＋主詞＋動詞原形），故本句以 did the auditors discover 呈現倒裝；只有 Only after conducting a second review 這個選項以 Only 起首，能與後方的倒裝動詞形式一致；其餘三個選項皆未以 Only 開頭，若填入將與 did discover 的倒裝結構不搭配，文法不一致。"
+      "zh": "在詳閱外洩的內部備忘錄後，股東們對預期獲利數字立即表示懷疑。",
+      "why": "<b>Having reviewed...</b>為完成式分詞構句，表示「先...後...」的時間先後關係，且動作的邏輯主詞（審閱備忘錄的人）與主要子句主詞 the shareholders 一致，用法正確；Reviewed the leaked internal memo 為過去分詞，隱含被動語意（「被審閱」），與股東主動閱讀備忘錄的語意不符；To review... 為不定詞表目的，語意變成「為了要審閱」，與上下文邏輯不符；The review of... 為名詞片語而非分詞構句，會造成句子結構錯誤（逗號拼接）。"
     },
     {
-      "id": "2026-07-06-p5-3",
-      "tag": "假設語氣比較子句",
-      "pre": "The CFO responded to the shareholders' questions ",
-      "post": " she had anticipated every possible objection well in advance of the meeting.",
-      "opts": ["as though", "in case", "insofar as", "granted that"],
+      "id": "2026-07-08-p5-2",
+      "tag": "名詞子句",
+      "pre": "Analysts remain divided over ",
+      "post": " will be able to sustain its current growth trajectory without securing additional venture capital funding.",
+      "opts": ["whether the startup", "if the startup", "that the startup", "the startup"],
       "ans": 0,
-      "zh": "財務長回應股東提問時，彷彿她早已在會議前就預想到所有可能的質疑。",
-      "why": "<b>as though</b>（彷彿，相當於 as if）引導假設性比較子句，常搭配過去完成式（had anticipated）表達「與實際情況不符的想像」，語意通順；in case 意為「以防萬一」，表達預防目的，與比較假設語意不符；insofar as 意為「就...範圍而言」，用於限定範圍而非比較假設；granted that 意為「即使承認...」，屬讓步語氣，與此處比較語意不符。"
+      "zh": "分析師們對於這家新創公司是否能在未取得額外創投資金的情況下維持現有成長軌跡，看法分歧。",
+      "why": "<b>whether</b> 可引導名詞子句作為介系詞（over）的受詞，為此處唯一正確用法；if 雖然也可引導名詞子句，但不能直接接在介系詞後面，僅可用於作動詞受詞的場合；that 引導的名詞子句同樣不能直接置於介系詞之後（需改寫成 over the fact that...）；the startup 僅為名詞片語，無法構成完整子句，句意不完整。"
     },
     {
-      "id": "2026-07-06-p5-4",
+      "id": "2026-07-08-p5-3",
+      "tag": "比較結構",
+      "pre": "The newly appointed director proved to be ",
+      "post": " a skilled negotiator than her predecessor, successfully closing three major contracts within her first quarter.",
+      "opts": ["no less", "no more", "not less", "no fewer"],
+      "ans": 0,
+      "zh": "這位新上任的總監被證明是位不遜於前任的談判高手，在到職首季便成功簽下三筆大型合約。",
+      "why": "<b>no less...than</b> 為固定比較句型，意為「不遜於／和...一樣」，用來強調正面特質的對等程度，符合上下文「成功簽下三筆大型合約」的正面語意；no more...than 語意上是「和...一樣不／同樣程度地不」，通常用於否定或平庸語境，與本句正面肯定的語氣矛盾；not less 不是英文中的固定搭配，慣用說法必須是 no less；no fewer 只能修飾可數名詞（如 no fewer than five contracts），不能修飾單數的 a skilled negotiator，用法不符。"
+    },
+    {
+      "id": "2026-07-08-p5-4",
       "tag": "進階動詞語意辨別",
-      "pre": "Pursuant to the guarantee clause, the parent company agreed to ",
-      "post": " the subsidiary's obligations should the latter default on the loan.",
-      "opts": ["assume", "undertake", "presume", "consume"],
+      "pre": "The confidentiality clause explicitly stipulates that signing this agreement does not ",
+      "post": " either party from pursuing separate legal action should a dispute arise regarding intellectual property rights.",
+      "opts": ["preclude", "conclude", "seclude", "occlude"],
       "ans": 0,
-      "zh": "依據擔保條款規定，母公司同意於子公司對貸款違約時，承擔該子公司的相關義務。",
-      "why": "<b>assume</b> 在法律與財務語境中意為「承擔（義務、責任、負債）」，assume obligations/liabilities 為固定搭配；undertake 雖也有「承擔」之意，但慣用結構為 undertake to do something 或 undertake a duty，直接接 the obligations 作受詞不若 assume 道地自然；presume 意為「假設、推定」，語意完全不同；consume 意為「消耗」，與承擔責任無關，屬形似字陷阱。"
+      "zh": "保密條款明文規定，簽署本協議並不排除任一方於智慧財產權爭議發生時，另行提起法律訴訟之權利。",
+      "why": "<b>preclude</b> 意為「排除、阻止（某種可能性）」，preclude sb from V-ing 為固定搭配，符合法律文件常見用法；conclude 意為「總結、締結（合約）」，語意與「排除…的可能性」無關；seclude 意為「使隔離、隱居」，語意不符；occlude 意為「阻塞（管道、視線等）」，多用於醫學或物理情境，與法律語境不符。"
     }
   ],
   "p6": {
-    "id": "2026-07-06-p6",
-    "title": "Memo: Transition to a New Vendor Management System",
+    "id": "2026-07-08-p6",
+    "title": "Memo: Transition to Digital Expense Reimbursement System",
     "seg": [
-      ["To all department heads: after nearly a year of evaluation, the procurement office has decided that the current vendor management platform ", {"b": 0}, " with a more robust, cloud-based system beginning October 1, in order to reduce onboarding delays and consolidate supplier records across all regional offices."],
-      [{"b": 1}, " new vendor accounts must be registered directly through the updated portal; legacy spreadsheet-based submissions will no longer be accepted after the cutover date."],
-      ["Procurement staff will hold two mandatory walkthrough sessions to ", {"b": 2}, " department heads with the new approval workflow before the system goes live."],
-      ["Employees who fail to complete the required training before the cutover may experience delays in getting purchase orders approved. ", {"b": 3}, " Additional guidance will be distributed via email closer to the launch date."]
+      ["To all staff: as part of a company-wide effort to modernize internal operations, the current paper-based expense reimbursement process ", {"b": 0}, " by a fully digital platform beginning next Monday, reducing the average approval cycle from three weeks to five business days."],
+      [{"b": 1}, " employees should continue submitting reimbursement requests through the existing paper forms; the finance department will notify each division individually once its transition date has been confirmed."],
+      ["Prior to each division's cutover date, the finance team will hold a brief training session to ", {"b": 2}, " staff with the new submission interface and receipt-upload requirements."],
+      ["Employees who have questions about which reimbursement category applies to a given expense should consult the updated policy handbook before submitting a request. ", {"b": 3}]
     ],
     "blanks": [
       {
@@ -67,37 +67,37 @@
         "col1": true,
         "opts": ["will be replaced", "replaced", "has replaced", "is replacing"],
         "ans": 0,
-        "zh": "致各部門主管：歷經近一年的評估後，採購辦公室決定現行供應商管理平台將於10月1日起被一套更穩健的雲端系統所取代，以減少導入延宕並整合各地區辦公室的供應商紀錄。",
-        "why": "平台是被「取代」的一方，須用<b>被動語態</b>；且生效日期（10月1日）為未來時間點，須用<b>未來式</b>，故為 will be replaced；replaced 缺少助動詞，無法單獨構成被動謂語；has replaced 為現在完成主動式，語意變成平台本身主動完成取代，邏輯不通；is replacing 為現在進行主動式，與未來生效日期不符。"
+        "zh": "致全體同仁：作為公司內部作業現代化的一環，現行紙本費用報帳流程將於下週一起被全面數位化的平台所取代，將平均核准週期由三週縮短為五個工作天。",
+        "why": "報帳流程是被「取代」的一方，須用<b>被動語態</b>；且生效日期（下週一）為未來時間點，須用<b>未來式</b>，故為 will be replaced；replaced 缺少助動詞，無法單獨構成被動謂語；has replaced 為現在完成主動式，語意變成流程本身主動完成取代，邏輯不通；is replacing 為現在進行主動式，與未來生效日期不符，語態也錯誤。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["Going forward", "On the other hand", "In retrospect", "By comparison"],
+        "opts": ["In the meantime", "As a result", "For instance", "In conclusion"],
         "ans": 0,
-        "zh": "展望未來，所有新供應商帳戶都必須直接透過更新後的入口網站註冊；轉換日之後將不再接受以試算表提交的舊式申請。",
-        "why": "前段說明系統將被取代，本段接續說明<b>今後</b>的新規定，須用 Going forward（意為「從今以後」）承接時間軸；On the other hand（另一方面）表對比語氣，與本句承接語意不符；In retrospect（回顧來看）用於回顧過去，與本段談論未來規定的方向相反；By comparison（相較之下）表比較，與本句語意無關。"
+        "zh": "在過渡期間，員工應繼續透過現行紙本表單提交報帳申請；財務部門將於各部門轉換日期確認後，個別通知該部門。",
+        "why": "本段說明在正式轉換前的<b>過渡期間</b>該如何處理，須用 In the meantime（意為「與此同時／在此過渡期間」）承接上一段宣布的變革；As a result 表因果結果，與本句銜接語意不符；For instance 表舉例，與本句性質不合；In conclusion 表總結收尾，但本段並非全文結論，用於此處不合邏輯。"
       },
       {
-        "tag": "詞彙搭配",
+        "tag": "詞彙語意",
         "col1": true,
-        "opts": ["familiarize", "accustom", "adapt", "conform"],
+        "opts": ["acquaint", "acquire", "accustom", "affiliate"],
         "ans": 0,
-        "zh": "採購人員將在系統上線前舉辦兩場必要的說明會，以協助各部門主管熟悉新的核准作業流程。",
-        "why": "<b>familiarize sb with sth</b> 為固定用法，意為「使某人熟悉某事」，與句中介系詞 with 搭配一致；accustom sb to sth 慣用介系詞為 to，與句中 with 不符；adapt 通常用於 adapt to sth 或 adapt sth for sth，與 sb...with 的結構不合；conform 意為「遵循、符合（規範）」，語意上與「讓部門主管熟悉新流程」不符，且慣用介系詞亦為 to。"
+        "zh": "在各部門的正式轉換日之前，財務團隊將舉辦簡短的訓練說明會，讓員工熟悉新的申報介面與收據上傳規定。",
+        "why": "<b>acquaint sb with sth</b>為固定用法，意為「使某人熟悉/認識某事物」，介系詞須搭配 with，與句中 with the new submission interface 一致；acquire 意為「取得、獲得」，語意不符，且不能以人作受詞後接 with 表達此意；accustom 慣用介系詞為 to（accustom sb to sth），與句中 with 不符；affiliate 意為「使正式加盟/隸屬於」，語意與「使員工熟悉系統」無關。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "A recorded version of each session will be made available on the intranet for those unable to attend in person.",
-          "The company's annual shareholder meeting will be held virtually this year.",
-          "The new system was originally developed by a vendor based in Singapore.",
-          "Employees are reminded that the office will be closed on the upcoming public holiday."
+          "A searchable FAQ page addressing common categorization questions will also be posted on the intranet by the end of this week.",
+          "The company's holiday party will be rescheduled to accommodate the finance team's workload.",
+          "The original paper forms were first introduced over a decade ago.",
+          "All employees are required to complete an annual compliance certification by December 31."
         ],
         "ans": 0,
-        "zh": "未能在轉換日前完成訓練的員工，在請購單核准上可能會面臨延遲。每場說明會的錄影版本將公布於內部網路，供無法親自出席者觀看。近發布日前，將另以電子郵件發送更多操作指引。",
-        "why": "此處應承接前一句「員工可能因未受訓而延誤請購單核准」的問題，補充說明<b>可補救的替代方案</b>（提供錄影版本），故選項 A 最恰當，也能與下一句「將發送更多操作指引」自然銜接；選項 B 談股東會、選項 C 談系統開發商背景、選項 D 談國定假日休館，三者皆與本篇「供應商系統轉換與教育訓練」的主題無關，置入會使段落邏輯斷裂。"
+        "zh": "若員工對於特定支出應歸屬哪個報帳類別有疑問，應於送出申請前先查閱最新版政策手冊。本週內，一份彙整常見類別認定問題的搜尋式常見問答頁面也將公布於內部網路。",
+        "why": "本段承接「員工應查閱政策手冊」的建議，選項 A 補充另一項可協助員工釐清報帳類別問題的資源（FAQ頁面），與段落主題（報帳政策說明與員工支援資源）連貫；選項 B 談尾牙活動、選項 C 談舊表單的歷史起源、選項 D 談年度合規認證期限，三者皆與本篇「費用報帳系統轉換」的主題無關，插入後會使段落邏輯斷裂。"
       }
     ]
   }
