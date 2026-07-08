@@ -1,99 +1,105 @@
 {
-  "date": "2026-07-06",
+  "date": "2026-07-08",
   "big_events": [
     {
-      "title": "GPT-5.6最強模型Sol跑出91.9%基準分數,卻仍只開放約20家政府核准夥伴使用",
+      "title": "OpenAI 全面推出 GPT-Live 語音模型，ChatGPT 語音對話更自然",
       "sources": [
-        {"name": "BuildFastWithAI", "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-6-2026"},
-        {"name": "unrot.co", "url": "https://unrot.co/blogs/today-top-10-ai-news-july-6-2026"}
+        {"name": "OpenAI 官方", "url": "https://openai.com/index/introducing-gpt-live/"},
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/"},
+        {"name": "VentureBeat", "url": "https://venturebeat.com/technology/openai-launches-gpt-live-a-full-duplex-voice-upgrade-that-lets-chatgpt-talk-more-like-a-person"}
       ],
-      "summary": "OpenAI新一代GPT-5.6三款模型持續受政府審核限制,一般用戶仍無法使用",
-      "audience": "關注AI工具排行、想搶先用最新模型的職場效率玩家",
-      "pain_point": "看到最強AI模型的消息卻用不到,不知道現在該選哪個模型才划算",
-      "title_idea": "OpenAI最強模型測出91.9分!為什麼你還是用不到GPT-5.6?",
-      "local_angle": "華語圈很多人還搞不清楚GPT-5.5、5.6跟各版本差異,可做一支「現在該用哪個模型」對照教學"
+      "summary": "ChatGPT語音全雙工升級，可邊聽邊說、更像真人對話",
+      "audience": "常用 ChatGPT 語音助理處理工作、通勤學習的上班族",
+      "pain_point": "舊版語音助理常打斷對話、反應生硬，實用性低",
+      "title_idea": "ChatGPT終於會「聽你說話」了！GPT-Live全雙工語音實測",
+      "local_angle": "海外媒體已大篇幅報導功能亮點，但中文圈實測教學還很少，適合搶先做上手評測"
     },
     {
-      "title": "Gemini 3.5 Pro第二度跳票,Google坦言AI代理任務太耗費token",
+      "title": "xAI宣布Grok 4.5比肩Opus等級，7月9日全面開放",
       "sources": [
-        {"name": "BuildFastWithAI", "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-6-2026"},
-        {"name": "unrot.co", "url": "https://unrot.co/blogs/today-top-10-ai-news-july-6-2026"}
+        {"name": "SpaceXAI／xAI 官方", "url": "https://x.ai/news/grok-4-5"},
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/"}
       ],
-      "summary": "Gemini 3.5 Pro連續錯過兩次上市死線,官方稱是agent任務耗token過多",
-      "audience": "用Google Workspace辦公、觀望要不要換AI工具的上班族",
-      "pain_point": "不確定該不該等新模型上市,還是先把手上工具用熟比較划算",
-      "title_idea": "Google又跳票!Gemini 3.5 Pro為什麼一直生不出來?",
-      "local_angle": "與其空等Gemini新版,不如做「先把現有Gemini/ChatGPT用滿」的實用向內容蹭話題"
+      "summary": "Musk稱Grok 4.5效能追平Opus、速度更快、價格更低",
+      "audience": "關注AI模型選擇、想省成本的知識工作者",
+      "pain_point": "不確定該用哪個AI模型才划算，資訊分散難比較",
+      "title_idea": "Grok 4.5來勢洶洶：跟GPT、Claude比到底差在哪？",
+      "local_angle": "華語圈對Grok關注度仍低，可做「三大模型平價比較」搶佔資訊差"
     },
     {
-      "title": "TechCrunch統計:2026年科技業已裁員逾12萬人,AI是最常被點名的理由",
+      "title": "UST與Anthropic策略合作，全球訓練2萬名員工使用Claude",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/"}
+        {"name": "Morningstar／PR Newswire", "url": "https://www.morningstar.com/news/pr-newswire/20260708io00270/ust-partners-with-anthropic-to-bring-claude-into-usts-platforms-engineering-and-operations-and-train-20000-ust-employees-globally"}
       ],
-      "summary": "科技公司邊喊營收創新高邊裁員,理由多指向導入AI技術",
-      "audience": "擔心被AI取代、想確認自己工作是否安全的上班族",
-      "pain_point": "看到裁員潮新聞就心慌,卻不知道自己具體該學什麼技能自保",
-      "title_idea": "2026年裁員破12萬人,AI才是幕後黑手?上班族該練的3個保命技能",
-      "local_angle": "華語職場對「AI取代論」焦慮但缺乏具體應對指南,可做「不被裁員名單點到」的實操型選題"
+      "summary": "企業級顧問公司大規模導入Claude，員工全面AI培訓",
+      "audience": "想了解企業如何導入AI、規劃內部教育訓練的職場人士／HR",
+      "pain_point": "公司想推AI但不知道怎麼大規模培訓員工上手",
+      "title_idea": "兩萬人怎麼一起學AI？看國際企業的Claude導入計畫",
+      "local_angle": "台灣企業AI導入案例多是零星嘗試，這種系統化培訓範本值得參考"
     }
   ],
   "tool_updates": [
     {
-      "title": "Google悄悄修改隱私設定,你上傳的照片、語音都可能被拿去訓練AI",
+      "title": "Google Drive「問Gemini」完成Android App全面上線",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/"}
+        {"name": "Google Workspace Updates", "url": "https://workspaceupdates.googleblog.com/2026/06/ask-gemini-in-drive-now-available-on-mobile.html"}
       ],
-      "summary": "Google更新Search隱私設定,預設把上傳內容用於AI訓練,需手動關閉",
-      "audience": "常用Google Lens、語音搜尋、Google翻譯的上班族",
-      "pain_point": "不知道自己的資料正在被拿去訓練AI,想關掉卻找不到設定在哪",
-      "title_idea": "還在用Google Lens?先關掉這個設定,不然你的照片都在餵AI",
-      "local_angle": "華語圈幾乎沒人報導這個隱私設定異動,可以第一時間做「3步驟關閉」教學搶流量"
+      "summary": "手機版Drive App可直接用Gemini深度查找、總結雲端文件",
+      "audience": "常用手機處理雲端文件、會議紀錄的上班族",
+      "pain_point": "手機上找資料、翻閱長文件很麻煩，效率低",
+      "title_idea": "手機版Google Drive也能問AI了！這樣用更省時間",
+      "local_angle": "功能剛完成全量推送，繁中教學幾乎是空白，適合搶第一波實測"
     },
     {
-      "title": "ChatGPT Enterprise/Edu的workspace agent免費期7月6日到期,改按用量收費",
+      "title": "Meta為AI眼鏡加入防拆錄影燈機制，回應偷拍疑慮",
       "sources": [
-        {"name": "OpenAI Help Center", "url": "https://help.openai.com/en/articles/10128477-chatgpt-enterprise-edu-release-notes"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/08/meta-wants-its-ai-glasses-to-seem-less-creepy-its-ai-strategy-says-otherwise/"}
       ],
-      "summary": "OpenAI企業版/教育版的workspace agent功能結束免費試用,開始計費",
-      "audience": "公司採購ChatGPT Enterprise、負責IT預算的上班族與主管",
-      "pain_point": "不清楚免費期已結束,月底收到帳單才驚覺費用超出預期",
-      "title_idea": "用ChatGPT Enterprise的注意了!這個功能今天起開始收費",
-      "local_angle": "台灣企業導入ChatGPT Enterprise比例逐漸提高,提前預警費用變化是很好的信任型內容"
+      "summary": "錄影指示燈遭遮擋或破壞時，鏡頭將自動停用",
+      "audience": "對智慧眼鏡、穿戴式AI裝置有興趣的科技早期採用者",
+      "pain_point": "擔心AI眼鏡被拿來偷拍，不敢在公共場合配戴或靠近使用者",
+      "title_idea": "AI眼鏡被罵「偷拍神器」，Meta出的解法夠不夠？",
+      "local_angle": "智慧眼鏡尚未在台灣普及，先做隱私爭議懶人包卡位話題熱度"
     },
     {
-      "title": "Vercel執行長揭露:公司內部用Eve和Sandbox兩套工具馴服AI代理人",
+      "title": "法國新創ZML推出免費推論加速工具，開源模型可跨AI晶片運行",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips/"}
       ],
-      "summary": "Vercel CEO分享用Eve框架寫代理人指令、用Sandbox限制代理人存取權限",
-      "audience": "想導入AI代理人處理重複工作、但擔心權限失控的職場工作者",
-      "pain_point": "想用AI代理人自動化工作,又怕它誤操作或抓取不該拿的資料",
-      "title_idea": "怕AI代理人闖禍?矽谷公司用這兩招把風險關進籠子裡",
-      "local_angle": "「AI代理人權限管控」在華語圈討論還很少,可做成「給非工程師看的AI代理人安全入門」"
+      "summary": "免費軟體讓LLM能在Nvidia、AMD、TPU等晶片間靈活切換運算",
+      "audience": "自架AI工具、關心AI運算成本的獨立開發者與技術愛好者",
+      "pain_point": "不同AI晶片相容性差，自建AI服務常被單一供應商綁住、成本高",
+      "title_idea": "為什麼你的AI工具會變便宜？幕後推手是這家法國新創",
+      "local_angle": "屬於基礎建設話題，中文圈幾乎沒人講，可做成「AI成本下降」科普切角"
     }
   ],
   "trends": [
     {
-      "title": "Vercel執行長:AI產業正在爭論——模型和代理人到底該不該綁在一起",
+      "title": "Prime Intellect完成1.3億美元A輪，主打企業自建AI Agent",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/"}
       ],
-      "summary": "Rauch認為未來AI工具會像軟體工程一樣,模型與代理人分開組裝",
-      "audience": "想長期布局AI工具、關心產業走向的自由工作者與內容創作者",
-      "pain_point": "每次AI工具改版就要重新學,不知道該押注哪個平台或供應商",
-      "title_idea": "AI工具以後會怎麼變?矽谷CEO一句話點出下一步",
-      "local_angle": "「模型與代理分離」這個框架華語圈還沒有對應說法,可搶先做成解釋性內容建立話語權"
+      "summary": "提供算力與工具，協助企業打造專屬AI代理人",
+      "audience": "想了解企業AI Agent趨勢的產品經理、企業內部IT／創新人員",
+      "pain_point": "想導入AI Agent卻不知從何開始，市面工具眾多難以選擇",
+      "title_idea": "企業也能養自己的AI員工？1.3億美元砸出的新賽道",
+      "local_angle": "AI Agent企業化是海外正熱的下一波紅利，台灣討論還停留在概念階段"
     },
     {
-      "title": "AI智慧眼鏡新創Even Realities靠陸資背景衝上10億美元估值",
+      "title": "TechCrunch：AI新創營收成長速度持續加快，里程碑週期縮短",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/06/smart-glasses-maker-even-realities-hits-1b-valuation-with-150m-funding-led-by-meituan-tencent/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/08/these-ai-startups-are-growing-revenue-at-faster-and-faster-rates/"}
       ],
-      "summary": "深圳新創獲美團、騰訊領投1.5億美元,主打不犧牲隱私的顯示型AI眼鏡",
-      "audience": "對AI硬體、穿戴式裝置有興趣的科技愛好者與早期採用者",
-      "pain_point": "想知道下一波AI硬體浪潮在哪,但市面資訊多集中在Meta、Ray-Ban眼鏡",
-      "title_idea": "10億美元AI眼鏡新創曝光,不是Meta也不是Apple",
-      "local_angle": "海外AI眼鏡新創已拿到大筆資金驗證市場,華語圈創作者對這類「非Meta系」選手關注度還很低"
+      "summary": "多家AI新創達成營收里程碑的時間比過去更短",
+      "audience": "關注AI創業、想評估AI副業／新創機會的自由工作者",
+      "pain_point": "不確定AI創業是不是還有機會，怕進場太晚",
+      "title_idea": "AI新創賺錢速度創新高，代表現在進場還不算晚？",
+      "local_angle": "提供具體成長數據佐證，可做「海外AI創業真實變現速度」選題，破解迷思"
     }
+  ],
+  "source_coverage": [
+    {"source": "TechCrunch AI", "status": "success", "count": 6, "note": "直接 WebFetch 分類頁與單篇文章皆回傳 403 Forbidden，改以 WebSearch（site:techcrunch.com/2026/07/08）取得當日全部文章列表並逐篇核實日期"},
+    {"source": "FutureTools.io News", "status": "failed", "count": 0, "note": "WebFetch 回傳 403 Forbidden，多次嘗試仍無法直讀頁面；WebSearch 亦未能定位到明確標註 2026-07-08 的項目，此來源當日無可採用內容"},
+    {"source": "OpenAI／Anthropic／Google／xAI／Meta 官方公告", "status": "partial_success", "count": 5, "note": "透過 WebSearch 交叉比對官方網站與多家科技媒體，確認 GPT-Live、Grok 4.5、UST×Anthropic合作、Google Drive Ask Gemini(Android)、Meta AI眼鏡安全機制等5則明確發生於2026-07-08；另查到 Microsoft Dynamics 365 Sales/Service Agent GA（實際為6/30）、中國AI模型市佔數據（CNBC實際為7/7）、Notion更新（實際為7/1）、Canva×Perplexity整合（實際為6月）等，經核實日期不符已排除，未納入"}
   ]
 }

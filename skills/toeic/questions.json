@@ -1,103 +1,103 @@
 {
-  "date": "2026-07-07",
+  "date": "2026-07-09",
   "p5": [
     {
-      "id": "2026-07-07-p5-0",
-      "tag": "假設語氣倒裝",
-      "pre": "",
-      "post": " the merger negotiations concluded before the fiscal year-end, the combined entity would have reported significantly stronger consolidated earnings.",
-      "opts": ["Had", "If", "Should", "Were"],
+      "id": "2026-07-09-p5-0",
+      "tag": "非限定關係子句",
+      "pre": "The newly ratified trade agreement, ",
+      "post": " provisions extend far beyond tariff reduction, has drawn scrutiny from several regulatory bodies.",
+      "opts": ["whose", "which", "that", "who"],
       "ans": 0,
-      "zh": "若合併協商能在會計年度結束前完成，合併後的公司原本可望申報大幅提升的合併獲利。",
-      "why": "<b>Had + 主詞 + 過去分詞</b> 為省略 if 的假設語氣倒裝，等同於「If the merger negotiations had concluded」，與後方「would have reported」（與過去事實相反的假設結果）搭配一致；If 後方須接完整的過去完成式（If the negotiations had concluded），若只填 If，則與後方動詞形式 concluded（過去簡單式而非過去完成式）不符；Should 用於未來假設倒裝（Should S V），語意與已然發生的過去事件不合；Were 表示 Were S to V 的未來假設倒裝，格式須為 Were the negotiations to conclude，與已完成式 concluded 不搭配。"
+      "zh": "這項新批准的貿易協定——其條款範圍遠超出關稅削減——已引起多個監管機構的關注。",
+      "why": "<b>whose</b>可用於非限定關係子句表所有格，即使先行詞為物品（agreement）亦可使用；which後直接接名詞provisions不合語法；that不可用於逗號隔開的非限定子句；who僅能指人，與agreement不符。"
     },
     {
-      "id": "2026-07-07-p5-1",
-      "tag": "分詞構句",
+      "id": "2026-07-09-p5-1",
+      "tag": "讓步介系詞",
       "pre": "",
-      "post": " the necessary regulatory approvals well in advance, the company was able to launch its new product line without any delay.",
-      "opts": ["Having secured", "Having secure", "To secure", "Secured"],
+      "post": " the mounting criticism from shareholder advocacy groups, the board proceeded with the executive compensation package as originally proposed.",
+      "opts": ["Irrespective of", "Regardless for", "In respect of", "With regard to"],
       "ans": 0,
-      "zh": "在及早取得必要的主管機關核准後，該公司得以毫無延遲地推出新產品線。",
-      "why": "<b>Having + 過去分詞</b> 構成完成式主動分詞構句，表示「取得核准」這個動作發生在主要子句「得以推出產品」之前，符合時間先後邏輯；Having secure 中 secure 應為過去分詞 secured，此形式文法錯誤；To secure 為不定詞，表目的（為了取得），與句意「已經取得」不符；Secured 單獨使用為被動分詞構句，暗示公司是被取得核准的一方（缺乏動作執行者），與句意公司主動取得核准不符。"
+      "zh": "儘管股東維權團體的批評日益增加，董事會仍按原提案通過了高階主管薪酬方案。",
+      "why": "<b>Irrespective of</b>為介系詞片語，意為「不論、儘管」，可表達讓步語意；Regardless for為錯誤搭配（應為regardless of）；In respect of意為「關於」，屬中性描述而非讓步；With regard to同樣意為「關於」，非讓步用法。"
     },
     {
-      "id": "2026-07-07-p5-2",
+      "id": "2026-07-09-p5-2",
       "tag": "名詞子句",
       "pre": "",
-      "post": " the newly appointed compliance officer possesses adequate authority to enforce the revised protocols remains a matter of considerable debate among senior executives.",
-      "opts": ["Whether", "That", "If", "What"],
+      "post": " the internal audit uncovered discrepancies in the vendor contracts came as no surprise to the compliance officer, who had flagged similar irregularities months earlier.",
+      "opts": ["That", "What", "It", "This"],
       "ans": 0,
-      "zh": "新任命的法遵主管是否具備足夠的職權來落實修訂後的規範，在資深主管之間仍是一個備受爭議的問題。",
-      "why": "<b>Whether</b> 引導的名詞子句可置於句首作句子主詞，且「whether...remains a matter of debate」為常見固定用法，表達「是否...仍有爭議」；That 引導的名詞子句雖可作主詞，但語意上是直接陳述一件事為真，無法表達本句「是否」的不確定語氣；If 引導的名詞子句只能作受詞，不可置於句首作主詞子句；What 需搭配文法上不完整（缺少主詞或受詞）的子句，此處子句成分完整，故不合用法。"
+      "zh": "內部稽核發現供應商合約中存在差異一事，對合規主管而言並不意外，因其早在數月前便已察覺類似異常。",
+      "why": "<b>That</b>可引導名詞子句作句子主詞，意為「…這件事」；What已隱含先行詞，與句中已有受詞discrepancies重複而語意不通；It為虛主詞須與that連用，不能單獨置於句首引導真主詞子句；This為指示代名詞，無法引導子句。"
     },
     {
-      "id": "2026-07-07-p5-3",
+      "id": "2026-07-09-p5-3",
       "tag": "比較結構",
-      "pre": "The revised supply chain protocol proved ",
-      "post": " effective at reducing delivery delays as the previous system had been at minimizing warehousing costs.",
-      "opts": ["every bit as", "much more", "so much as", "no sooner"],
+      "pre": "",
+      "post": " the regulatory framework governing cross-border data transfers, the more essential it becomes for multinational corporations to retain specialized compliance counsel in each jurisdiction.",
+      "opts": ["The more complex", "More complex", "The complexer", "As complex as"],
       "ans": 0,
-      "zh": "經修訂的供應鏈流程在降低出貨延遲方面的成效，恰如舊制度在降低倉儲成本方面的成效一樣顯著。",
-      "why": "<b>every bit as...as</b> 用於強調兩者程度完全相當，符合本句「as...as」對等比較的完整結構；much more 須搭配 than 表示兩者不對等的差異比較，不能搭配句中的 as 結構；so much as 慣用於 not so much A as B（與其說A不如說B）的否定句型，本句並非此結構；no sooner 慣用於 no sooner...than（一...就...）表示時間上的先後承接，並非程度上的比較句型。"
+      "zh": "跨境資料傳輸的監管架構愈複雜，跨國企業就愈有必要在每個司法管轄區聘請專門的合規法律顧問。",
+      "why": "<b>The + 比較級, the + 比較級</b>句型表示兩者程度同步遞增，兩子句均須以The起首；More complex缺少The，不符固定句型；complexer為誤用比較級（多音節形容詞應用more）；As complex as為同等比較，與遞增語意不符。"
     },
     {
-      "id": "2026-07-07-p5-4",
+      "id": "2026-07-09-p5-4",
       "tag": "進階動詞語意辨別",
-      "pre": "The auditors were instructed to ",
-      "post": " each subsidiary's financial statements independently before the consolidated report could be finalized.",
-      "opts": ["reconcile", "conciliate", "recompense", "reciprocate"],
+      "pre": "The severity of the safety violations documented in the report ",
+      "post": " immediate suspension of the contractor's license pending a full investigation.",
+      "opts": ["warrants", "guarantees", "warranties", "insures"],
       "ans": 0,
-      "zh": "查核人員被指示在合併報告定案之前，先各自核對每家子公司的財務報表。",
-      "why": "<b>reconcile</b> 在財務語境中意為「核對、勾稽（帳目、財務報表）使其一致」，reconcile financial statements/accounts 為固定搭配；conciliate 意為「調解、安撫（人際或紛爭）」，不用於財務報表的核對；recompense 意為「補償、賠償」，與核對帳目語意無關；reciprocate 意為「回報、互惠」，同樣與查核核對的語意不符，屬形似字陷阱。"
+      "zh": "報告中記載的安全違規情節嚴重程度，足以構成立即暫停該承包商執照的正當理由，靜候完整調查結果。",
+      "why": "<b>warrant</b>作及物動詞意為「足以構成…之正當理由、使…有正當性」；guarantee意為「保證」，語意不符；warranties為名詞複數形，不可作句子主要動詞；insure意為「投保、確保安全」，多用於保險語境，與此處不符。"
     }
   ],
   "p6": {
-    "id": "2026-07-07-p6",
-    "title": "Memo: Revisions to the Data Retention Policy",
+    "id": "2026-07-09-p6",
+    "title": "Notice: Mandatory Rollout of Two-Factor Authentication",
     "seg": [
-      ["To all staff: following a comprehensive review conducted by the legal and IT departments, the company's data retention schedule ", {"b": 0}, " to comply with the updated privacy regulations that take effect next quarter."],
-      [{"b": 1}, " employees must securely archive any records scheduled for retention beyond the standard eighteen-month window, and promptly delete all files that fall outside the newly defined retention period."],
-      ["The compliance team will conduct two training sessions to help department managers ", {"b": 2}, " the new classification criteria for sensitive records before the policy takes effect."],
-      ["Departments that fail to complete the reclassification process by the deadline may be subject to a temporary suspension of system access privileges. ", {"b": 3}, " Questions regarding the revised policy should be directed to the compliance hotline."]
+      ["To all employees: Following a marked increase in phishing attempts targeting corporate email accounts over the past quarter, two-factor authentication (2FA) ", {"b": 0}, " for all internal systems beginning next Wednesday, reducing the likelihood of unauthorized account access even if a password is compromised."],
+      [{"b": 1}, ", employees may continue accessing internal systems using their existing single-factor login credentials; the IT security team will contact each department individually to schedule mandatory 2FA enrollment sessions."],
+      ["Prior to each department's scheduled enrollment session, employees are encouraged to ", {"b": 2}, " themselves with the official IT security handbook, which outlines step-by-step instructions for installing the authentication app on both company-issued and personal mobile devices."],
+      ["Employees who use assistive technology or encounter compatibility issues with the authentication app should contact the IT helpdesk directly rather than waiting for their department's scheduled session. ", {"b": 3}]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["will be revised", "revised", "has revised", "is revising"],
+        "opts": ["will be required", "will require", "has required", "is requiring"],
         "ans": 0,
-        "zh": "致全體員工：在法務部門與資訊部門完成全面檢視後，公司的資料保存排程將被修訂，以符合下季生效的最新隱私法規。",
-        "why": "排程是被「修訂」的一方，須用<b>被動語態</b>；且生效時間為「下季」，屬未來事件，須用<b>未來式</b>，故為 will be revised；revised 缺少助動詞，無法單獨構成被動謂語；has revised 為現在完成主動式，語意變成排程本身主動完成修訂，邏輯不通；is revising 為現在進行主動式，與未來生效時間不符。"
+        "zh": "致全體同仁：鑑於上一季度鎖定企業電子郵件帳號的釣魚攻擊明顯增加，雙重驗證（2FA）機制將自下週三起適用於所有內部系統，即使密碼遭外洩，亦可降低帳號遭未授權存取之風險。",
+        "why": "2FA本身是被要求施行的措施，須用<b>被動語態</b>；生效日期為未來（下週三），須用<b>未來式</b>，故為will be required；will require為主動語態，語意變成2FA本身主動要求，邏輯不通；has required為現在完成主動，與尚未生效的未來時間點矛盾；is requiring為現在進行主動，時態與語態皆不符。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["Accordingly", "Nevertheless", "Alternatively", "Meanwhile"],
+        "opts": ["In the interim", "As a consequence", "By contrast", "In retrospect"],
         "ans": 0,
-        "zh": "因此，員工必須將任何排定保存期限超過標準十八個月的紀錄妥善歸檔，並立即刪除所有超出新定保存期限範圍的檔案。",
-        "why": "前段說明保存排程將被修訂，本段承接說明<b>因此而生</b>的具體行動要求，須用 Accordingly（因此，表因果承接）；Nevertheless（然而）表轉折語氣，與本句的因果邏輯不符；Alternatively（或者、另一方面）表選項並列，與本句語意不合；Meanwhile（同時、與此同時）表同時發生的另一件事，並非因果承接，故不合。"
+        "zh": "在此過渡期間，員工仍可使用現行的單一驗證登入憑證存取內部系統；IT資安團隊將個別聯繫各部門，安排強制性的雙重驗證啟用說明會。",
+        "why": "<b>In the interim</b>意為「在此過渡期間」，承接上段宣布的未來變革，說明目前仍可沿用舊制；As a consequence表因果，不符；By contrast表對比，不符；In retrospect表回顧過去，與此處講述現在至未來過渡期的語意時態不合。"
       },
       {
-        "tag": "詞彙語意辨別",
+        "tag": "詞彙語意",
         "col1": true,
-        "opts": ["grasp", "grab", "grope", "grip"],
+        "opts": ["familiarize", "accustom", "orient", "apprise"],
         "ans": 0,
-        "zh": "法遵團隊將在政策生效前舉辦兩場教育訓練，協助各部門主管掌握新的敏感資料分類標準。",
-        "why": "<b>grasp</b> 在此為抽象用法，意為「理解、掌握（觀念、標準）」，符合語境；grab 意為「抓取」，通常用於具體實物而非抽象概念的理解，語意不符；grope 意為「摸索、笨拙地摸索」，帶有負面意涵，不符合正式商務文書語氣；grip 意為「緊握」，同樣用於具體實物的抓握，不用於理解抽象規範。"
+        "zh": "在各部門排定的啟用說明會之前，鼓勵員工先熟悉官方IT資安手冊之內容，該手冊詳列在公司配發及個人行動裝置上安裝驗證應用程式之步驟說明。",
+        "why": "<b>familiarize oneself with sth</b>為固定用法，介系詞須搭配with，與句中with一致；accustom oneself to sth慣用介系詞為to；orient oneself to sth慣用介系詞亦為to；apprise sb of sth慣用介系詞為of，且語意偏「告知」而非「使自己熟悉」。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "A dedicated help desk will remain available throughout the transition period to assist with any classification questions.",
-          "The company's quarterly earnings call is scheduled for the second week of next month.",
-          "All employees are required to complete the annual ethics certification by December thirty-first.",
-          "The new office building will feature expanded conference facilities on the fourth floor."
+          "A dedicated support line will remain staffed extended hours throughout the transition period to accommodate such requests.",
+          "The company picnic originally planned for this weekend has been moved indoors due to the forecast.",
+          "Two-factor authentication was first developed in the early 2000s for online banking systems.",
+          "All employees must renew their parking permits before the end of the fiscal year."
         ],
         "ans": 0,
-        "zh": "未能於截止日前完成重新分類作業的部門，可能會被暫時停權系統存取權限。在整個過渡期間，將持續提供專責服務台以協助解答任何分類相關問題。有關修訂後政策的問題，應洽詢法遵專線。",
-        "why": "此處應承接前一句「部門可能被停權」的後果說明，並自然銜接下一句「有關政策問題應洽詢法遵專線」，故選項描述<b>提供專責服務台協助分類問題</b>最符合上下文邏輯、承先啟後；其餘選項分別談論季報電話會議、年度倫理認證、新辦公大樓設施，皆與本篇「資料保存政策修訂」主題無關，插入會使段落邏輯斷裂。"
+        "zh": "使用輔助科技的員工，或在驗證應用程式上遇到相容性問題者，應直接聯繫IT服務台，而不必等候所屬部門排定的說明會。在整個過渡期間，將有專責支援專線延長服務時段，以因應此類需求。",
+        "why": "本段說明員工有特殊需求應直接聯繫IT服務台，選項A補充服務台將延長服務時段以因應需求，與段落主題連貫；選項B談野餐活動、選項C談雙重驗證歷史起源、選項D談停車證更新期限，皆與「資安驗證系統轉換」主題無關，插入後使段落邏輯斷裂。"
       }
     ]
   }
