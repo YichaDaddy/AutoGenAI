@@ -1,100 +1,105 @@
 {
-  "date": "2026-07-07",
+  "date": "2026-07-08",
   "big_events": [
     {
-      "title": "Meta 發表首款圖像生成模型 Muse Image，全面上線 Meta AI、Instagram、WhatsApp",
+      "title": "OpenAI 全面推出 GPT-Live 語音模型，ChatGPT 語音對話更自然",
       "sources": [
-        {"name": "CNBC", "url": "https://www.cnbc.com/2026/07/07/meta-ai-muse-image.html"},
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-07-07/meta-debuts-new-ai-image-generation-model-inside-chatbot-instagram"}
+        {"name": "OpenAI 官方", "url": "https://openai.com/index/introducing-gpt-live/"},
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/"},
+        {"name": "VentureBeat", "url": "https://venturebeat.com/technology/openai-launches-gpt-live-a-full-duplex-voice-upgrade-that-lets-chatgpt-talk-more-like-a-person"}
       ],
-      "summary": "Meta發表AI繪圖模型Muse Image，用照片生成客製圖片",
-      "audience": "經營社群、需要大量產出行銷圖文的上班族小編",
-      "pain_point": "不會用複雜繪圖軟體，也找不到便宜又能保留人像特徵的AI繪圖工具",
-      "title_idea": "Meta也做AI繪圖了！一張自拍變文藝復興油畫，Muse Image實測",
-      "local_angle": "目前僅部分地區免費開放，台灣尚未見中文教學，可搶先做實測影片佔資訊差"
+      "summary": "ChatGPT語音全雙工升級，可邊聽邊說、更像真人對話",
+      "audience": "常用 ChatGPT 語音助理處理工作、通勤學習的上班族",
+      "pain_point": "舊版語音助理常打斷對話、反應生硬，實用性低",
+      "title_idea": "ChatGPT終於會「聽你說話」了！GPT-Live全雙工語音實測",
+      "local_angle": "海外媒體已大篇幅報導功能亮點，但中文圈實測教學還很少，適合搶先做上手評測"
     },
     {
-      "title": "TechCrunch分析：開源AI崛起，Anthropic市占地位尚未真正被撼動",
+      "title": "xAI宣布Grok 4.5比肩Opus等級，7月9日全面開放",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/"}
+        {"name": "SpaceXAI／xAI 官方", "url": "https://x.ai/news/grok-4-5"},
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/"}
       ],
-      "summary": "分析指出開源AI崛起，尚未撼動Anthropic龍頭地位",
-      "audience": "有在比較、選用不同AI模型（含開源）處理工作的上班族與獨立開發者",
-      "pain_point": "不確定該用昂貴的頂級模型還是便宜的開源模型，怕選錯浪費預算",
-      "title_idea": "開源AI這麼便宜，為什麼企業還是離不開Claude/GPT？一篇看懂",
-      "local_angle": "台灣中小企業、自由工作者常糾結AI工具選型，可做「怎麼選模型才划算」的實用整理"
+      "summary": "Musk稱Grok 4.5效能追平Opus、速度更快、價格更低",
+      "audience": "關注AI模型選擇、想省成本的知識工作者",
+      "pain_point": "不確定該用哪個AI模型才划算，資訊分散難比較",
+      "title_idea": "Grok 4.5來勢洶洶：跟GPT、Claude比到底差在哪？",
+      "local_angle": "華語圈對Grok關注度仍低，可做「三大模型平價比較」搶佔資訊差"
     },
     {
-      "title": "美企因成本壓力轉用中國開源AI模型，OpenRouter數據顯示佔比最高達46%",
+      "title": "UST與Anthropic策略合作，全球訓練2萬名員工使用Claude",
       "sources": [
-        {"name": "CNBC", "url": "https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html"}
+        {"name": "Morningstar／PR Newswire", "url": "https://www.morningstar.com/news/pr-newswire/20260708io00270/ust-partners-with-anthropic-to-bring-claude-into-usts-platforms-engineering-and-operations-and-train-20000-ust-employees-globally"}
       ],
-      "summary": "OpenAI、Anthropic漲價，美企轉用便宜六至九成的中國模型",
-      "audience": "中小企業主、獨立開發者、需控管AI使用成本的上班族",
-      "pain_point": "AI工具月費越來越貴，不知道有沒有更便宜但堪用的替代方案",
-      "title_idea": "貴鬆鬆的ChatGPT/Claude用不起？中國開源AI模型正悄悄變主流",
-      "local_angle": "海外已在討論成本替代方案，中文圈很少人整理「便宜AI模型」選型指南，可搶先做"
+      "summary": "企業級顧問公司大規模導入Claude，員工全面AI培訓",
+      "audience": "想了解企業如何導入AI、規劃內部教育訓練的職場人士／HR",
+      "pain_point": "公司想推AI但不知道怎麼大規模培訓員工上手",
+      "title_idea": "兩萬人怎麼一起學AI？看國際企業的Claude導入計畫",
+      "local_angle": "台灣企業AI導入案例多是零星嘗試，這種系統化培訓範本值得參考"
     }
   ],
   "tool_updates": [
     {
-      "title": "Claude Cowork 擴展至手機與網頁版，Max用戶可離線交辦任務",
+      "title": "Google Drive「問Gemini」完成Android App全面上線",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/"},
-        {"name": "VentureBeat", "url": "https://venturebeat.com/technology/anthropic-brings-claude-cowork-to-mobile-and-web-as-usage-data-shows-most-users-arent-coding"},
-        {"name": "9to5Mac", "url": "https://9to5mac.com/2026/07/07/anthropic-expanding-claude-cowork-to-mobile-and-web-details-here/"}
+        {"name": "Google Workspace Updates", "url": "https://workspaceupdates.googleblog.com/2026/06/ask-gemini-in-drive-now-available-on-mobile.html"}
       ],
-      "summary": "Anthropic開放Cowork手機/網頁版，任務可離線背景執行",
-      "audience": "用AI代辦雜務、需要隨時掌握工作進度的上班族與主管",
-      "pain_point": "交辦AI任務後得留著電腦開機盯著，出門在外沒辦法追蹤進度",
-      "title_idea": "出門也能盯AI幫你做事！Claude Cowork手機版實測",
-      "local_angle": "3家海外媒體報導，屬Max方案搶先體驗，中文圈還沒人做手機端實測教學"
+      "summary": "手機版Drive App可直接用Gemini深度查找、總結雲端文件",
+      "audience": "常用手機處理雲端文件、會議紀錄的上班族",
+      "pain_point": "手機上找資料、翻閱長文件很麻煩，效率低",
+      "title_idea": "手機版Google Drive也能問AI了！這樣用更省時間",
+      "local_angle": "功能剛完成全量推送，繁中教學幾乎是空白，適合搶第一波實測"
     },
     {
-      "title": "Claude Fable 5 訂閱免費額度到期，明起改採外加usage credits計費",
+      "title": "Meta為AI眼鏡加入防拆錄影燈機制，回應偷拍疑慮",
       "sources": [
-        {"name": "Tech Times", "url": "https://www.techtimes.com/articles/319864/20260707/claude-fable-5-drops-subscriptions-tonight-enable-credits-lose-access.htm"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/08/meta-wants-its-ai-glasses-to-seem-less-creepy-its-ai-strategy-says-otherwise/"}
       ],
-      "summary": "Fable 5訂閱免費額度到期，明起改收usage credits",
-      "audience": "用Claude Pro/Max處理工作、依賴Fable 5高階功能的上班族",
-      "pain_point": "隔天起可能突然用不了最強模型，又不清楚該不該加開usage credits、會不會爆花費",
-      "title_idea": "明天起Claude最強模型要多收費！3分鐘看懂該不該開usage credits",
-      "local_angle": "海外用戶正在討論因應策略，中文圈幾乎沒人整理判斷教學，時效性極高（僅剩今日）"
+      "summary": "錄影指示燈遭遮擋或破壞時，鏡頭將自動停用",
+      "audience": "對智慧眼鏡、穿戴式AI裝置有興趣的科技早期採用者",
+      "pain_point": "擔心AI眼鏡被拿來偷拍，不敢在公共場合配戴或靠近使用者",
+      "title_idea": "AI眼鏡被罵「偷拍神器」，Meta出的解法夠不夠？",
+      "local_angle": "智慧眼鏡尚未在台灣普及，先做隱私爭議懶人包卡位話題熱度"
     },
     {
-      "title": "Figma 收購 vibe-coding 新創 Bud（原Orchids），原服務7/18關閉",
+      "title": "法國新創ZML推出免費推論加速工具，開源模型可跨AI晶片運行",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/07/figma-acquires-team-behind-a-vibe-coding-app/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips/"}
       ],
-      "summary": "Figma收購vibe coding新創Bud，原服務7/18關閉",
-      "audience": "有用AI vibe coding工具做原型、自動化的自由工作者、小型團隊",
-      "pain_point": "手上專案要在期限前搬遷，不清楚資料能不能救、有哪些替代工具",
-      "title_idea": "又一款AI開發工具要關站！7/18前你的專案得搬家，備份教學一次看懂",
-      "local_angle": "關站消息剛出，華語圈幾乎沒人討論遷移方案，可搶時效做「資料搬家」教學影片"
+      "summary": "免費軟體讓LLM能在Nvidia、AMD、TPU等晶片間靈活切換運算",
+      "audience": "自架AI工具、關心AI運算成本的獨立開發者與技術愛好者",
+      "pain_point": "不同AI晶片相容性差，自建AI服務常被單一供應商綁住、成本高",
+      "title_idea": "為什麼你的AI工具會變便宜？幕後推手是這家法國新創",
+      "local_angle": "屬於基礎建設話題，中文圈幾乎沒人講，可做成「AI成本下降」科普切角"
     }
   ],
   "trends": [
     {
-      "title": "AI法律新創Norm完成1.2億美元募資，估值達10億美元躋身獨角獸",
+      "title": "Prime Intellect完成1.3億美元A輪，主打企業自建AI Agent",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/07/ai-law-startup-norm-raises-120m-hits-unicorn-valuation/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/"}
       ],
-      "summary": "AI法律新創Norm募資1.2億美元，晉升獨角獸",
-      "audience": "想切入垂直領域AI SaaS的獨立開發者、優化內部流程的上班族",
-      "pain_point": "不知道AI在專業服務（法律、合約）領域還有哪些具體可複製的商業模式",
-      "title_idea": "又一家AI獨角獸誕生！這家公司靠『AI審合約』估值破10億美元",
-      "local_angle": "台灣/華語圈法律科技+AI應用案例極少人整理，可做商業模式拆解型內容"
+      "summary": "提供算力與工具，協助企業打造專屬AI代理人",
+      "audience": "想了解企業AI Agent趨勢的產品經理、企業內部IT／創新人員",
+      "pain_point": "想導入AI Agent卻不知從何開始，市面工具眾多難以選擇",
+      "title_idea": "企業也能養自己的AI員工？1.3億美元砸出的新賽道",
+      "local_angle": "AI Agent企業化是海外正熱的下一波紅利，台灣討論還停留在概念階段"
     },
     {
-      "title": "微軟加碼使用自家AI模型，降低對OpenAI、Anthropic依賴以節省成本",
+      "title": "TechCrunch：AI新創營收成長速度持續加快，里程碑週期縮短",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/08/these-ai-startups-are-growing-revenue-at-faster-and-faster-rates/"}
       ],
-      "summary": "微軟加碼自家模型，降低對OpenAI/Anthropic依賴",
-      "audience": "企業內部評估AI導入成本的上班族、IT與採購決策者",
-      "pain_point": "公司AI相關支出持續攀升，不知道該全部依賴大廠模型還是混搭省成本",
-      "title_idea": "連微軟都在『AI降成本』？企業導入AI的省錢新招",
-      "local_angle": "台灣企業導入AI常只看功能不看成本結構，可做「多模型混搭省錢」的企業導入教學"
+      "summary": "多家AI新創達成營收里程碑的時間比過去更短",
+      "audience": "關注AI創業、想評估AI副業／新創機會的自由工作者",
+      "pain_point": "不確定AI創業是不是還有機會，怕進場太晚",
+      "title_idea": "AI新創賺錢速度創新高，代表現在進場還不算晚？",
+      "local_angle": "提供具體成長數據佐證，可做「海外AI創業真實變現速度」選題，破解迷思"
     }
+  ],
+  "source_coverage": [
+    {"source": "TechCrunch AI", "status": "success", "count": 6, "note": "直接 WebFetch 分類頁與單篇文章皆回傳 403 Forbidden，改以 WebSearch（site:techcrunch.com/2026/07/08）取得當日全部文章列表並逐篇核實日期"},
+    {"source": "FutureTools.io News", "status": "failed", "count": 0, "note": "WebFetch 回傳 403 Forbidden，多次嘗試仍無法直讀頁面；WebSearch 亦未能定位到明確標註 2026-07-08 的項目，此來源當日無可採用內容"},
+    {"source": "OpenAI／Anthropic／Google／xAI／Meta 官方公告", "status": "partial_success", "count": 5, "note": "透過 WebSearch 交叉比對官方網站與多家科技媒體，確認 GPT-Live、Grok 4.5、UST×Anthropic合作、Google Drive Ask Gemini(Android)、Meta AI眼鏡安全機制等5則明確發生於2026-07-08；另查到 Microsoft Dynamics 365 Sales/Service Agent GA（實際為6/30）、中國AI模型市佔數據（CNBC實際為7/7）、Notion更新（實際為7/1）、Canva×Perplexity整合（實際為6月）等，經核實日期不符已排除，未納入"}
   ]
 }
