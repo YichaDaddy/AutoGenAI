@@ -1,5 +1,240 @@
 [
   {
+    "date": "2026-07-09",
+    "big_events": [
+      {
+        "title": "OpenAI 同步公開發布 GPT-5.6 三款新模型（Sol／Terra／Luna）",
+        "sources": [
+          {
+            "name": "Engadget",
+            "url": "https://www.engadget.com/2210308/openai-rolls-out-gpt5-6-july-9/"
+          },
+          {
+            "name": "BuildFastWithAI",
+            "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-9-2026"
+          },
+          {
+            "name": "Dataconomy",
+            "url": "https://dataconomy.com/2026/07/08/openai-gpt-5-6-launch-july-9/"
+          }
+        ],
+        "summary": "OpenAI 7/9 全面開放 GPT-5.6 三款分級模型，涵蓋 ChatGPT、API 與 Codex。",
+        "audience": "常用 ChatGPT 處理工作、想知道該用哪個模型省錢的職場上班族",
+        "pain_point": "不清楚新模型跟舊版差在哪、該不該換、會不會多花錢",
+        "title_idea": "GPT-5.6 一次出三款？上班族到底該用 Sol、Terra 還是 Luna",
+        "local_angle": "海外已有詳細分級與定價比較，華語圈教學多半還停留在「GPT-5 上線」，可搶先做選型懶人包"
+      },
+      {
+        "title": "OpenAI 推出「ChatGPT Work」：能連續工作數小時的職場代理人",
+        "sources": [
+          {
+            "name": "GVWire",
+            "url": "https://gvwire.com/2026/07/09/openai-launches-chatgpt-work/"
+          },
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-07-09/openai-unveils-chatgpt-work-agent-to-field-tasks-for-hours"
+          },
+          {
+            "name": "OpenAI 官方",
+            "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/"
+          }
+        ],
+        "summary": "ChatGPT Work 可跨檔案、跨應用獨立執行任務，數小時完成簡報、文件、試算表。",
+        "audience": "每天被例行公文、簡報、報表淹沒的上班族與中小企業主",
+        "pain_point": "重複性文書工作耗時，交辦給 AI 又怕結果不受控",
+        "title_idea": "OpenAI 出手做「工作代理人」：一鍵交辦，數小時後收成品",
+        "local_angle": "功能剛開始滾動上線，華語圈還沒有實測教學，是搶先卡位「怎麼用 ChatGPT Work 交辦真實工作」的黃金空窗期"
+      },
+      {
+        "title": "SpaceXAI（原 xAI）發布 Grok 4.5，主打「Opus 等級、更便宜」",
+        "sources": [
+          {
+            "name": "TheTechPortal",
+            "url": "https://thetechportal.com/2026/07/09/spacexai-launches-grok-4-5-its-first-ai-model-built-with-cursor-featuring-advanced-legal-and-finance-capabilities/"
+          },
+          {
+            "name": "Techweez",
+            "url": "https://techweez.com/2026/07/09/spacexai-grok-4-5-launch/"
+          }
+        ],
+        "summary": "Grok 4.5 結合 Cursor 程式碼訓練資料，定位工程、法律、財務與 AI agent 應用。",
+        "audience": "會比價選 AI 工具、關心哪家模型CP值最高的效率工具愛好者",
+        "pain_point": "模型太多不知道怎麼選，怕多花錢買到用不到的功能",
+        "title_idea": "同一天三強齊發！Grok 4.5 用「更便宜的 Opus 等級」打價格戰",
+        "local_angle": "海外已在比較 Grok 4.5 與 Claude Opus 4.8 的性價比，華語圈尚無中文評測，可做第一手比較文"
+      },
+      {
+        "title": "Anthropic、OpenAI、SpaceX 市值合計超過過去 25 年科技業出場總和",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/09/anthropic-openai-and-spacex-are-bigger-than-the-last-25-years-of-tech-exits/"
+          }
+        ],
+        "summary": "三大 AI／太空巨頭市值合計上看 4 兆美元，規模超越過去 25 年科技出場總和。",
+        "audience": "關注 AI 產業趨勢、想判斷該不該投入 AI 相關工作或副業的上班族",
+        "pain_point": "看到新聞覺得 AI 泡沫化或機會很大，但不知道跟自己有什麼關係",
+        "title_idea": "AI 三巨頭市值贏過25年科技業總和：這代表你的工作機會來了",
+        "local_angle": "海外財經媒體多在談資本市場意義，華語圈可轉譯成「這對想轉職/接案的你意味著什麼」的實用角度"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "Claude 新增「Reflect」使用回顧儀表板與專注模式",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai/"
+          },
+          {
+            "name": "MacRumors",
+            "url": "https://www.macrumors.com/2026/07/09/anthropic-reflect-claude-tracking/"
+          },
+          {
+            "name": "Aroged",
+            "url": "https://www.aroged.com/2026/07/09/anthropic-adds-ai-usage-statistics-and-efficiency-tips-to-claude"
+          }
+        ],
+        "summary": "Claude 推出 Reflect：顯示使用主題、活躍時段，並提供休息提醒與專注時段設定。",
+        "audience": "每天用 Claude 工作、擔心自己過度依賴或不清楚使用效率的上班族",
+        "pain_point": "不知道自己到底把 AI 用在哪裡、時間都花去哪了，也怕產生依賴",
+        "title_idea": "Claude 幫你「反省」自己：新功能揭露你的 AI 使用習慣",
+        "local_angle": "功能剛上線，華語圈還沒人教怎麼設定與解讀這份「AI使用成績單」，適合做實測教學"
+      },
+      {
+        "title": "Google 廣告新增「AI 生成」標示功能",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai/"
+          }
+        ],
+        "summary": "Google 開始在廣告中標示是否由 AI 生成，提升廣告透明度。",
+        "audience": "做數位行銷、投放廣告或用 AI 產出行銷素材的上班族與小編",
+        "pain_point": "不確定用 AI 做廣告素材會不會被平台標記、影響成效或信任度",
+        "title_idea": "Google廣告開始標AI生成？行銷人現在要注意的新規則",
+        "local_angle": "規則剛上路，華語圈廣告投手多半還沒注意到，可提前整理因應懶人包搶流量"
+      },
+      {
+        "title": "開源 AI 工具 Ollama 完成 6500 萬美元融資，用戶逼近 900 萬",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/"
+          }
+        ],
+        "summary": "本地執行 AI 模型工具 Ollama 完成新一輪融資，使用者成長至近900萬。",
+        "audience": "在意資安、想省訂閱費、想在自己電腦跑 AI 模型的職場工作者",
+        "pain_point": "公司資料不能上傳雲端 AI，或訂閱費越花越多，想找免費/本地替代方案",
+        "title_idea": "免費在自己電腦跑 AI？用戶暴增900萬的Ollama你還沒聽過嗎",
+        "local_angle": "工具成長快速但華語圈教學仍偏冷門，適合做「上班族也能懂」的本地部署入門教學"
+      },
+      {
+        "title": "Meta AI 影像工具會使用公開 Instagram 照片，教學曝光如何關閉",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/09/how-to-stop-metas-ai-image-generator-from-using-your-instagram-photos/"
+          }
+        ],
+        "summary": "TechCrunch 教學說明如何避免 Meta AI 影像生成器取用你公開的 Instagram 照片。",
+        "audience": "有經營 Instagram、擔心自己作品或肖像被 AI 取用的內容創作者",
+        "pain_point": "不知道自己公開帳號的照片已被拿去訓練/生成AI圖片，也不知道怎麼關掉",
+        "title_idea": "你的IG照片可能正被AI偷用！3步驟關閉Meta AI取用權限",
+        "local_angle": "設定入口藏得很深，華語圈尚無中文步驟教學，是隱私/自保類選題的搶先卡位機會"
+      }
+    ],
+    "trends": [
+      {
+        "title": "法國語音 AI 新創 Gradium 種子輪擴大至 1 億美元，Nvidia 領投",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia/"
+          }
+        ],
+        "summary": "語音 AI 新創 Gradium 完成 1 億美元種子輪募資，Nvidia 參投。",
+        "audience": "做 Podcast、有聲書、配音或直播的內容創作者與自媒體工作者",
+        "pain_point": "配音、多語言錄音成本高，不知道有哪些新一代語音AI工具可用",
+        "title_idea": "又一家語音AI拿到破億美元資金，未來配音這行要變天了",
+        "local_angle": "海外資本已重押語音 AI 賽道，華語圈語音克隆/配音教學仍是藍海，值得提前布局"
+      },
+      {
+        "title": "AI 訓練資料新創 Mercor 洽談 200 億美元估值，收購 Deeptune 擴大 AI agent 訓練業務",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/09/mercor-is-in-talks-for-a-20b-valuation/"
+          }
+        ],
+        "summary": "Mercor 洽談 200 億美元估值並收購 Deeptune，深耕 AI 訓練與 agent 訓練市場。",
+        "audience": "想找 AI 相關兼職/副業機會、對「AI打工經濟」有興趣的上班族",
+        "pain_point": "想靠AI賺外快但不知道除了接案寫文案外還有什麼新機會",
+        "title_idea": "估值破200億美元的Mercor在做什麼？原來「訓練AI」也能接案賺錢",
+        "local_angle": "「AI 訓練師／agent 訓練」這類新興零工在華語圈幾乎沒人介紹，是還沒被說爛的副業選題"
+      },
+      {
+        "title": "Meta 新一代自研 AI 晶片將於 9 月量產",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/"
+          }
+        ],
+        "summary": "Meta 自研 AI 晶片將於今年 9 月開始量產，加入自研晶片賽局。",
+        "audience": "關注 AI 成本走勢、想預判「AI工具會不會變便宜」的效率工具愛好者",
+        "pain_point": "訂閱一堆AI工具負擔重，想知道未來價格會不會下降、該不該等",
+        "title_idea": "Meta自研AI晶片9月量產：這會讓你的AI訂閱費變便宜嗎",
+        "local_angle": "屬於供應鏈硬體新聞，華語圈科技媒體多只轉述財經角度，可改寫成「對一般用戶荷包的影響」科普切角"
+      }
+    ],
+    "source_coverage": [
+      {
+        "source": "TechCrunch AI 分類頁",
+        "status": "failed",
+        "count": 10,
+        "note": "直接 WebFetch 分類頁與單篇文章皆回傳 403 Forbidden（環境層級封鎖，測試 Wikipedia 亦同），改以 WebSearch（site:techcrunch.com/2026/07/09）取得當日文章列表並逐篇核實 URL 日期，共確認 10 篇 2026-07-09 文章"
+      },
+      {
+        "source": "FutureTools.io News",
+        "status": "failed",
+        "count": 0,
+        "note": "WebFetch 回傳 403 Forbidden；WebSearch 找到的項目（Google Photos Video Remix、Meta Muse）標註日期為 7/7～7/8，非 7/9，依規則排除，此來源當日無可採用內容"
+      },
+      {
+        "source": "OpenAI 官方/相關媒體",
+        "status": "success",
+        "count": 2,
+        "note": "GPT-5.6 三模型上線、ChatGPT Work 上線，皆由多家媒體（Engadget、Bloomberg、GVWire、Dataconomy、BuildFastWithAI）交叉確認為 2026-07-09"
+      },
+      {
+        "source": "SpaceXAI／xAI 官方/相關媒體",
+        "status": "success",
+        "count": 1,
+        "note": "Grok 4.5 公開發布，由 TheTechPortal、Techweez 等多家媒體確認為 2026-07-09"
+      },
+      {
+        "source": "Anthropic 官方/相關媒體",
+        "status": "success",
+        "count": 1,
+        "note": "Claude Reflect 功能，由 TechCrunch、MacRumors、Aroged 確認為 2026-07-09"
+      },
+      {
+        "source": "YouTube（Matt Wolfe／Matthew Berman／Wes Roth 等）",
+        "status": "failed",
+        "count": 0,
+        "note": "WebSearch 僅找到頻道概況與較早期影片，未能定位到明確標註 2026-07-09 上傳的影片，如實記錄為 0"
+      },
+      {
+        "source": "X/Twitter（@sama／@karpathy／@levelsio／@GregIsenberg 等）",
+        "status": "failed",
+        "count": 0,
+        "note": "WebSearch 對 site:x.com 查詢多回傳較早期貼文，未找到可明確核實為 2026-07-09 的貼文內容，如實記錄為 0"
+      }
+    ]
+  },
+  {
     "date": "2026-07-08",
     "big_events": [
       {
@@ -949,261 +1184,6 @@
         }
       ],
       "explanation": "本次為新聞相對清淡的一天：多數原本看似當日的候選新聞（GPT-5.6發布、Gemini 3.5 Flash、Cursor iOS App、Newsom-Anthropic加州合作、Mistral OCR 4、Claude Fable 5全球回歸、Notion 3.6、UBTECH機器人、Gong MCP、OpenAI Jalapeño晶片等）經逐一查證實際發布日期，全數落在6/23～7/1之間，依「嚴格日期規則」全部剔除，未用舊聞充數。TechCrunch AI分類頁與FutureTools.io兩個指定來源皆遭WebFetch 403拒絕，改用WebSearch site:domain搭配日期路徑（如site:techcrunch.com 2026/07/02）取得可驗證清單，此方法對TechCrunch、CNBC、Axios、Dataconomy、9to5Mac、9to5Google皆有效，但對VentureBeat、The Verge等不含日期路徑或未收錄的網站則無法使用。最終8則選題全數為URL或多方報導明確標註2026/07/02當日發布/更新的內容，無捏造。"
-    }
-  },
-  {
-    "date": "2026-07-01",
-    "big_events": [
-      {
-        "title": "美國解除出口管制，Anthropic 最強模型 Claude Fable 5、Mythos 5 全球用戶重新開放",
-        "sources": [
-          {
-            "name": "Al Jazeera",
-            "url": "https://www.aljazeera.com/economy/2026/7/1/us-lifts-restrictions-on-powerful-ai-models-fable-mythos-anthropic-says"
-          },
-          {
-            "name": "9to5Mac",
-            "url": "https://9to5mac.com/2026/07/01/claude-fable-5-cleared-to-return-as-us-lifts-anthropics-export-control-restriction/"
-          }
-        ],
-        "summary": "美國解除出口管制，Claude Fable 5、Mythos 5 重新對全球用戶開放使用",
-        "audience": "重度使用 Claude 處理工作、對 AI 模型政策與國際限制敏感的職場 AI 使用者、科技線自媒體",
-        "pain_point": "模型上週被無預警下架又忽然回歸，搞不清楚「現在到底能不能用」、額度與方案權益是否受影響",
-        "title_idea": "Claude 最強模型「回來了」！Fable 5、Mythos 5 解禁全紀錄，你的方案受影響嗎？",
-        "local_angle": "台灣用戶對這次「先禁後解」事件多半只看到片段消息，可做「一次搞懂前因後果＋額度怎麼用」的懶人包，卡在資訊差最大的空窗期"
-      },
-      {
-        "title": "Google 代理型助理 Gemini Spark 正式登陸 macOS，僅限 AI Ultra 訂閱戶搶先體驗",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/"
-          },
-          {
-            "name": "Dataconomy",
-            "url": "https://dataconomy.com/2026/07/01/gemini-spark-ai-assistant-macos-us-usd-100/"
-          }
-        ],
-        "summary": "Gemini Spark 開放 macOS，目前僅美國 AI Ultra（約200美元/月）訂閱戶可用",
-        "audience": "使用 Mac 工作、關注 Google AI 生態系、考慮訂閱高階 AI 方案的職場人士",
-        "pain_point": "不清楚代理型助理和一般聊天機器人差在哪，猶豫值不值得為了一個功能升級到最貴訂閱方案",
-        "title_idea": "Google 最強 AI 助理登陸 Mac！Gemini Spark 值不值得升級到 200 美元月費？",
-        "local_angle": "台灣 Mac 用戶對 Gemini Spark 認知幾乎是零、也尚無中文評測，適合搶先做「值不值得訂閱」實測分析文，卡進決策關鍵字"
-      },
-      {
-        "title": "Microsoft 365 Copilot 中小企業方案轉為永久商品，AI 正式內建辦公室基本配備",
-        "sources": [
-          {
-            "name": "Windows Forum",
-            "url": "https://windowsforum.com/threads/microsoft-365-business-plans-with-copilot-go-permanent-for-smbs-july-2026.425116/"
-          },
-          {
-            "name": "Strategic Micro Systems",
-            "url": "https://www.stmicro.net/blog/microsoft-365-copilot-business-july-2026/"
-          }
-        ],
-        "summary": "M365 Business Standard/Premium 含 Copilot 轉為正式方案，AI 不再限時促銷",
-        "audience": "中小企業主、行政／採購決策者、需規劃公司 AI 工具預算的職場人士",
-        "pain_point": "搞不清楚公司該不該加購 Copilot、促銷結束後費用會不會暴增，猶豫是否該現在導入",
-        "title_idea": "Copilot 不再是限時特價！Microsoft 365 全面內建 AI，中小企業該怎麼選方案？",
-        "local_angle": "台灣中小企業對 M365 Copilot 定價變化資訊落後，可做「方案比較＋划不划算」的中文決策指南，鎖定企業主與行政人員的搜尋需求"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "ChatGPT Plus 用戶可直接連結銀行帳戶，AI 秒懂你的收支狀況",
-        "sources": [
-          {
-            "name": "Dataconomy",
-            "url": "https://dataconomy.com/2026/07/01/openai-chatgpt-personal-finance-tools-us/"
-          }
-        ],
-        "summary": "ChatGPT Plus 新增財務帳戶連結，可生成支出儀表板並用 AI 問答理財",
-        "audience": "想用 AI 管理個人財務、記帳但嫌麻煩的職場上班族",
-        "pain_point": "記帳 App 太多懶得切換，想直接用「聊天」的方式搞懂錢花去哪，卻不知道 ChatGPT 已經能做到",
-        "title_idea": "不用再開記帳 App 了！ChatGPT Plus 新功能直接幫你算清楚每月花多少",
-        "local_angle": "目前僅美國開放、台灣用戶尚無中文教學，可搶先做「連結帳戶怎麼設定、資安風險評估」的第一手教學，卡未來開放到台灣的關鍵字"
-      },
-      {
-        "title": "Claude Sonnet 5 正式成為 Anthropic 預設模型，100 萬 token 上下文＋限時特惠價",
-        "sources": [
-          {
-            "name": "Tech Times",
-            "url": "https://www.techtimes.com/articles/319409/20260701/claude-sonnet-5-ships-anthropic-default-agentic-performance-closes-opus-gap.htm"
-          }
-        ],
-        "summary": "Sonnet 5 成免費/Pro 版預設模型，1M 上下文、8月底前每百萬token 2/10美元",
-        "audience": "用 Claude 寫作、整理報告、處理長文件的職場知識工作者",
-        "pain_point": "長文件、長對話容易被截斷或被 AI 遺忘前文，不知道免費也能用到多強的模型、優惠什麼時候截止",
-        "title_idea": "免費版也能用 100 萬字上下文！Claude Sonnet 5 悄悄升級，8月底前用最划算",
-        "local_angle": "台灣使用者多半以為要付費才能用長上下文，這次預設模型直接升級，適合做「免費/付費差在哪、怎麼用滿 1M token」的實測懶人包"
-      },
-      {
-        "title": "Anthropic 推出 Claude Science 科研工作台，7/15 前開放申請最高 3 萬美元研究額度",
-        "sources": [
-          {
-            "name": "Dataconomy",
-            "url": "https://dataconomy.com/2026/07/01/anthropic-claude-science-ai-research-launch/"
-          }
-        ],
-        "summary": "Claude Science 開放 50 個研究專案申請，7/15 截止、每案最高 3 萬美元 AI 額度",
-        "audience": "研究生、學術工作者、想嘗試申請 AI 輔助研究補助的職場知識工作者",
-        "pain_point": "知道有 AI 科研工具，但不知道申請截止日將近，錯過就得再等下一輪",
-        "title_idea": "還剩兩週！Claude Science 研究補助申請倒數，最高拿 3 萬美元 AI 額度",
-        "local_angle": "台灣學術圈對這個申請管道幾乎沒討論，適合做「申請資格、流程整理」的時效性內容，蹭上 7/15 截止日的急迫感"
-      }
-    ],
-    "trends": [
-      {
-        "title": "Cloudflare 新政策逼 AI 公司為抓取出版商內容付費，9/15 後預設擋下混用型爬蟲",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/"
-          }
-        ],
-        "summary": "Cloudflare 將預設封鎖同時用於搜尋和 AI 訓練的「混用型」爬蟲，逼 AI 公司付費",
-        "audience": "經營部落格／自媒體、擔心內容被 AI 白嫖的內容創作者",
-        "pain_point": "辛苦寫的內容被 AI 公司拿去訓練模型卻拿不到任何回報，不知道有什麼工具能保護或變現",
-        "title_idea": "你的文章正在餵養 AI 卻沒收到半毛錢？Cloudflare 這招要逼 AI 公司付費了",
-        "local_angle": "台灣自媒體對「內容授權費」議題還很陌生，可做「創作者如何用 Cloudflare 保護內容」教學，順勢帶出內容變現新思路"
-      },
-      {
-        "title": "隱私優先 AI 平台 Venice AI 完成 6500 萬美元 A 輪，估值衝上十億美元",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/"
-          }
-        ],
-        "summary": "Venice AI 主打「不留紀錄」使用 200+ 模型，A 輪估值衝上十億美元",
-        "audience": "重視隱私、不想被 AI 公司蒐集對話紀錄拿去訓練模型的職場 AI 使用者",
-        "pain_point": "用 ChatGPT/Claude 聊敏感工作內容時總擔心被留存或外洩，卻不知道有隱私優先的替代方案",
-        "title_idea": "怕 AI 偷看你的對話紀錄？這個隱私優先 AI 平台一年內衝上十億美元估值",
-        "local_angle": "台灣使用者對「AI 隱私替代方案」關注度低，可搶做「Venice AI 是什麼、跟 ChatGPT 差在哪」的第一支中文介紹內容"
-      },
-      {
-        "title": "OpenAI 內部數據曝光：員工日常產出 99.8% 已由 Codex 代理完成，AI 正式吃下知識工作",
-        "sources": [
-          {
-            "name": "Dataconomy",
-            "url": "https://dataconomy.com/2026/07/01/codex-internal-ai-output-99-8-percent-adoption/"
-          }
-        ],
-        "summary": "OpenAI 員工用 Codex 產出的 token 占比達 99.8%，AI 代理從工程師擴及一般知識工作",
-        "audience": "擔心被 AI 取代、想了解「代理式 AI」會怎麼改變工作內容的職場上班族",
-        "pain_point": "常聽說 AI 會取代工作卻沒有具體數據，不知道自己該不該現在開始學用 AI 代理人工具",
-        "title_idea": "OpenAI 員工自己都在用 AI 做 99.8% 的工作了，你的工作還撐得住嗎？",
-        "local_angle": "台灣職場對「代理式 AI」多半停留在概念討論，可用這組內部真實數據做警示型內容，帶出「現在該學什麼」的實用建議"
-      }
-    ],
-    "source_coverage_notes": {
-      "status": "日期驗證完成 (2026-07-01)",
-      "coverage": [
-        {
-          "source": "TechCrunch AI",
-          "status": "✅",
-          "count": 10,
-          "note": "直接 WebFetch 遭 403 拒絕，改用 WebSearch site:techcrunch.com/2026/07/01 取得完整清單，實際採用其中3篇（Gemini Spark、Cloudflare政策、Venice AI）"
-        },
-        {
-          "source": "The Verge AI",
-          "status": "❌",
-          "count": 0,
-          "note": "WebFetch 回傳「無法擷取」錯誤，WebSearch 限定 site:theverge.com 與 7/1 日期也無任何結果，判定此來源當日不可用"
-        },
-        {
-          "source": "FutureTools.io News",
-          "status": "❌",
-          "count": 0,
-          "note": "WebFetch 遭 403 Forbidden 拒絕，無替代管道可驗證當日更新內容"
-        },
-        {
-          "source": "Dataconomy",
-          "status": "✅",
-          "count": 7,
-          "note": "透過 WebSearch site:dataconomy.com/2026/07/01 取得完整清單，採用其中4篇（Gemini Spark macOS、ChatGPT個人財務、Claude Science、Codex內部採用率）"
-        },
-        {
-          "source": "9to5Mac",
-          "status": "✅",
-          "count": 1,
-          "note": "直接 WebFetch 遭 403，改用 WebSearch 取得 Claude Fable 5 解禁報導作為補充來源"
-        },
-        {
-          "source": "Al Jazeera",
-          "status": "✅",
-          "count": 1,
-          "note": "WebSearch 取得 Claude Fable 5/Mythos 5 解除出口管制報導"
-        },
-        {
-          "source": "Microsoft 365 Copilot 定價變動（Windows Forum / Strategic Micro Systems）",
-          "status": "✅",
-          "count": 2,
-          "note": "透過 WebSearch 確認 7/1 生效的正式方案轉換與定價細節"
-        },
-        {
-          "source": "Matt Wolfe (YouTube)",
-          "status": "❌",
-          "count": 0,
-          "note": "頻道頁面無法直接抓取，WebSearch 未能找到明確標註於 7/1 上傳的影片"
-        },
-        {
-          "source": "The AI Advantage (YouTube)",
-          "status": "❌",
-          "count": 0,
-          "note": "同上，WebSearch 僅找到頻道概況，無 7/1 當日影片資訊"
-        },
-        {
-          "source": "Matthew Berman (YouTube)",
-          "status": "❌",
-          "count": 0,
-          "note": "WebSearch 未能找到 7/1 當日影片，僅有較舊的一般性報導"
-        },
-        {
-          "source": "Wes Roth (YouTube)",
-          "status": "❌",
-          "count": 0,
-          "note": "WebSearch 未能找到 7/1 當日影片"
-        },
-        {
-          "source": "MattVidPro AI (YouTube)",
-          "status": "❌",
-          "count": 0,
-          "note": "WebSearch 未能找到 7/1 當日影片"
-        },
-        {
-          "source": "Skill Leap AI (YouTube)",
-          "status": "❌",
-          "count": 0,
-          "note": "WebSearch 未能找到 7/1 當日影片"
-        },
-        {
-          "source": "@OpenAI / @AnthropicAI / @GoogleDeepMind (X)",
-          "status": "❌",
-          "count": 0,
-          "note": "X/Twitter 直接存取失敗，WebSearch site:x.com 未篩出 7/1 當日官方貼文，改以官方新聞稿與科技媒體報導（見上方 Anthropic、Google 相關項目）間接覆蓋"
-        },
-        {
-          "source": "@sama / @karpathy (X)",
-          "status": "❌",
-          "count": 0,
-          "note": "WebSearch 找到的貼文集中在 4-6 月，未見 7/1 當日發文"
-        },
-        {
-          "source": "@rowancheung / @mreflow / @alexfinnX (X)",
-          "status": "❌",
-          "count": 0,
-          "note": "WebSearch 未找到 7/1 當日貼文，內容多為較早期的一般性文章"
-        },
-        {
-          "source": "@levelsio / @GregIsenberg (X)",
-          "status": "❌",
-          "count": 0,
-          "note": "WebSearch 找到的貼文多為 4-6 月或更早，未見 7/1 當日發文；GregIsenberg 部分貼文因 X 平台 JavaScript 限制無法完整讀取內文"
-        }
-      ],
-      "explanation": "本次情報來源以「文字新聞媒體」覆蓋最完整：TechCrunch、Dataconomy、9to5Mac、Al Jazeera 皆能透過 WebSearch site: 限定日期查詢法取得確實於 2026-07-01 發布的文章並交叉驗證。The Verge 與 FutureTools.io 兩個來源當日完全無法取得內容（前者WebFetch失敗且WebSearch無結果，後者WebFetch遭403），如實記錄為空。YouTube 六大頻道與十個 X/Twitter 帳號則全數未能找到明確標註於 7/1 當日發布的內容——這是 X/Twitter 與 YouTube 搜尋引擎索引時效性的已知限制（SKILL.md 已預期此情況），並未以推測或舊內容替代，僅將 Anthropic、Google 官方動態透過科技媒體報導間接納入報告。所有納入選題的事實與連結均來自實際擷取結果，未捏造任何內容。"
     }
   }
 ]
