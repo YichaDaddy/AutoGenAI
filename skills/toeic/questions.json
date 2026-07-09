@@ -1,103 +1,103 @@
 {
-  "date": "2026-07-09",
+  "date": "2026-07-10",
   "p5": [
     {
-      "id": "2026-07-09-p5-0",
-      "tag": "非限定關係子句",
-      "pre": "The newly ratified trade agreement, ",
-      "post": " provisions extend far beyond tariff reduction, has drawn scrutiny from several regulatory bodies.",
-      "opts": ["whose", "which", "that", "who"],
+      "id": "2026-07-10-p5-0",
+      "tag": "假設語氣倒裝",
+      "pre": "",
+      "post": " the board postponed the merger vote until the antitrust review had been completed, several institutional investors would have divested their holdings immediately.",
+      "opts": ["Had", "Should", "Were", "If"],
       "ans": 0,
-      "zh": "這項新批准的貿易協定——其條款範圍遠超出關稅削減——已引起多個監管機構的關注。",
-      "why": "<b>whose</b>可用於非限定關係子句表所有格，即使先行詞為物品（agreement）亦可使用；which後直接接名詞provisions不合語法；that不可用於逗號隔開的非限定子句；who僅能指人，與agreement不符。"
+      "zh": "若董事會將合併表決延後至反壟斷審查完成，數家機構投資人本將立即出脫持股。",
+      "why": "<b>Had</b>為過去完成式假設語氣倒裝（Had + 主詞 + 過去分詞），對應與過去事實相反的假設，且主要子句用would have + 過去分詞相呼應；Should用於現在/未來假設倒裝（Should...postpone），須搭配would/will而非would have；Were用於Were...to postpone之未來假設倒裝，時態不符；If雖可表假設語氣，但屬非倒裝形式，此處動詞仍為單一過去式postponed而非had postponed，句型結構不符。"
     },
     {
-      "id": "2026-07-09-p5-1",
+      "id": "2026-07-10-p5-1",
+      "tag": "分詞構句",
+      "pre": "",
+      "post": " by the sudden collapse in commodity prices, several emerging-market central banks moved swiftly to shore up their currencies.",
+      "opts": ["Blindsided", "Blindsiding", "To blindside", "Having blindsided"],
+      "ans": 0,
+      "zh": "猝不及防遭逢大宗商品價格驟然崩跌，數家新興市場央行迅速採取行動以穩定本國貨幣匯率。",
+      "why": "<b>Blindsided</b>為過去分詞，表被動「猝不及防遭到打擊」，主詞central banks為承受動作的一方，語意通順；Blindsiding為現在分詞，語意變成央行主動使人措手不及，邏輯不通；To blindside為不定詞，不符合分詞構句句型；Having blindsided為完成式主動分詞，語意主動且強調動作早於主要子句，與句意不合。"
+    },
+    {
+      "id": "2026-07-10-p5-2",
+      "tag": "非限定關係子句",
+      "pre": "The merger was finalized in record time, ",
+      "post": " surprised even the deal's own legal advisors.",
+      "opts": ["which", "that", "what", "it"],
+      "ans": 0,
+      "zh": "這起併購案以破紀錄的速度完成，此事連交易本身的法律顧問都感到意外。",
+      "why": "<b>which</b>可用於非限定關係子句，指稱前面整句「併購案迅速完成」這一概念，逗號後接續補充說明；that不可用於逗號隔開的非限定關係子句；what本身已包含先行詞，不能在完整子句後以逗號承接；it為人稱代名詞，無法引導子句。"
+    },
+    {
+      "id": "2026-07-10-p5-3",
       "tag": "讓步介系詞",
       "pre": "",
-      "post": " the mounting criticism from shareholder advocacy groups, the board proceeded with the executive compensation package as originally proposed.",
-      "opts": ["Irrespective of", "Regardless for", "In respect of", "With regard to"],
+      "post": " the sharp downturn in consumer spending, the retailer's flagship stores posted record quarterly revenue.",
+      "opts": ["Notwithstanding", "Despite of", "Although", "Even so"],
       "ans": 0,
-      "zh": "儘管股東維權團體的批評日益增加，董事會仍按原提案通過了高階主管薪酬方案。",
-      "why": "<b>Irrespective of</b>為介系詞片語，意為「不論、儘管」，可表達讓步語意；Regardless for為錯誤搭配（應為regardless of）；In respect of意為「關於」，屬中性描述而非讓步；With regard to同樣意為「關於」，非讓步用法。"
+      "zh": "儘管消費支出急遽下滑，這家零售商的旗艦店本季營收仍創下紀錄。",
+      "why": "<b>Notwithstanding</b>為正式介系詞，意為「儘管、不因…而受影響」，可直接接名詞片語表讓步；Despite of為誤用（despite本身不可加of）；Although為連接詞，須接完整子句而非名詞片語；Even so為副詞，用於句首承接前句語意，不能直接連接名詞片語。"
     },
     {
-      "id": "2026-07-09-p5-2",
-      "tag": "名詞子句",
-      "pre": "",
-      "post": " the internal audit uncovered discrepancies in the vendor contracts came as no surprise to the compliance officer, who had flagged similar irregularities months earlier.",
-      "opts": ["That", "What", "It", "This"],
-      "ans": 0,
-      "zh": "內部稽核發現供應商合約中存在差異一事，對合規主管而言並不意外，因其早在數月前便已察覺類似異常。",
-      "why": "<b>That</b>可引導名詞子句作句子主詞，意為「…這件事」；What已隱含先行詞，與句中已有受詞discrepancies重複而語意不通；It為虛主詞須與that連用，不能單獨置於句首引導真主詞子句；This為指示代名詞，無法引導子句。"
-    },
-    {
-      "id": "2026-07-09-p5-3",
-      "tag": "比較結構",
-      "pre": "",
-      "post": " the regulatory framework governing cross-border data transfers, the more essential it becomes for multinational corporations to retain specialized compliance counsel in each jurisdiction.",
-      "opts": ["The more complex", "More complex", "The complexer", "As complex as"],
-      "ans": 0,
-      "zh": "跨境資料傳輸的監管架構愈複雜，跨國企業就愈有必要在每個司法管轄區聘請專門的合規法律顧問。",
-      "why": "<b>The + 比較級, the + 比較級</b>句型表示兩者程度同步遞增，兩子句均須以The起首；More complex缺少The，不符固定句型；complexer為誤用比較級（多音節形容詞應用more）；As complex as為同等比較，與遞增語意不符。"
-    },
-    {
-      "id": "2026-07-09-p5-4",
+      "id": "2026-07-10-p5-4",
       "tag": "進階動詞語意辨別",
-      "pre": "The severity of the safety violations documented in the report ",
-      "post": " immediate suspension of the contractor's license pending a full investigation.",
-      "opts": ["warrants", "guarantees", "warranties", "insures"],
+      "pre": "Given the ambiguous phrasing of the clause, legal counsel cautioned that the term sheet could reasonably ",
+      "post": " an exclusivity obligation the parties had never explicitly negotiated.",
+      "opts": ["imply", "infer", "conclude", "assume"],
       "ans": 0,
-      "zh": "報告中記載的安全違規情節嚴重程度，足以構成立即暫停該承包商執照的正當理由，靜候完整調查結果。",
-      "why": "<b>warrant</b>作及物動詞意為「足以構成…之正當理由、使…有正當性」；guarantee意為「保證」，語意不符；warranties為名詞複數形，不可作句子主要動詞；insure意為「投保、確保安全」，多用於保險語境，與此處不符。"
+      "zh": "由於條款用語含糊不清，法律顧問提醒，此意向書條款可能被合理解讀為隱含一項雙方從未明確協商過的排他性義務。",
+      "why": "<b>imply</b>意為「（文字本身）暗示、隱含」，主詞為term sheet（文件本身），符合「文件暗示某義務」的語意；infer意為「（讀者）從中推論」，主詞應為人而非文件，不符句構；conclude意為「下結論」，語氣過於肯定，與「可能被解讀為」的推測語氣不符；assume意為「（人）假設」，同樣要求人稱主詞，不符文件作主詞的句構。"
     }
   ],
   "p6": {
-    "id": "2026-07-09-p6",
-    "title": "Notice: Mandatory Rollout of Two-Factor Authentication",
+    "id": "2026-07-10-p6",
+    "title": "Memo: Consolidation of Regional Office Leases",
     "seg": [
-      ["To all employees: Following a marked increase in phishing attempts targeting corporate email accounts over the past quarter, two-factor authentication (2FA) ", {"b": 0}, " for all internal systems beginning next Wednesday, reducing the likelihood of unauthorized account access even if a password is compromised."],
-      [{"b": 1}, ", employees may continue accessing internal systems using their existing single-factor login credentials; the IT security team will contact each department individually to schedule mandatory 2FA enrollment sessions."],
-      ["Prior to each department's scheduled enrollment session, employees are encouraged to ", {"b": 2}, " themselves with the official IT security handbook, which outlines step-by-step instructions for installing the authentication app on both company-issued and personal mobile devices."],
-      ["Employees who use assistive technology or encounter compatibility issues with the authentication app should contact the IT helpdesk directly rather than waiting for their department's scheduled session. ", {"b": 3}]
+      ["To all staff: After an extensive six-month review of occupancy rates, lease renewal terms, and remote-work adoption across our regional offices, the decision to consolidate the Chicago, Denver, and Austin locations into a single flagship office in Chicago ", {"b": 0}, " at yesterday's board meeting, effective the start of next fiscal quarter."],
+      [{"b": 1}, ", employees based in the Denver and Austin offices will be offered relocation packages to Chicago, remote-work arrangements, or a voluntary separation program, with elections due by the end of this month."],
+      ["Employees who elect relocation are strongly encouraged to ", {"b": 2}, " themselves of the enhanced relocation stipend outlined in Appendix B, which covers temporary housing, moving expenses, and one round-trip house-hunting visit for immediate family members."],
+      ["Employees with questions about the transition timeline, benefits continuity, or the voluntary separation terms should direct them to their HR business partner rather than their direct manager, as managers have not yet received full details on individualized packages. ", {"b": 3}]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["will be required", "will require", "has required", "is requiring"],
+        "opts": ["was finalized", "finalizes", "has finalized", "will finalize"],
         "ans": 0,
-        "zh": "致全體同仁：鑑於上一季度鎖定企業電子郵件帳號的釣魚攻擊明顯增加，雙重驗證（2FA）機制將自下週三起適用於所有內部系統，即使密碼遭外洩，亦可降低帳號遭未授權存取之風險。",
-        "why": "2FA本身是被要求施行的措施，須用<b>被動語態</b>；生效日期為未來（下週三），須用<b>未來式</b>，故為will be required；will require為主動語態，語意變成2FA本身主動要求，邏輯不通；has required為現在完成主動，與尚未生效的未來時間點矛盾；is requiring為現在進行主動，時態與語態皆不符。"
+        "zh": "致全體同仁：在針對各地區辦公室的使用率、租約續約條款及遠距辦公普及程度進行為期六個月的全面審查後，將芝加哥、丹佛及奧斯汀三處辦公室整併為芝加哥單一旗艦辦公室之決議，已於昨日董事會議中拍板定案，將自下一會計季度起生效。",
+        "why": "<b>was finalized</b>為被動語態過去式，符合「決議是被董事會拍板定案」的被動語意，且昨日會議已是過去事實；finalizes為現在式主動，語態與時態皆不符；has finalized為現在完成式主動，語態不符（decision本身不會主動finalize）；will finalize為未來式主動，與「昨日已開會」之過去時間矛盾。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["In the interim", "As a consequence", "By contrast", "In retrospect"],
+        "opts": ["Accordingly", "Nevertheless", "In summary", "Meanwhile"],
         "ans": 0,
-        "zh": "在此過渡期間，員工仍可使用現行的單一驗證登入憑證存取內部系統；IT資安團隊將個別聯繫各部門，安排強制性的雙重驗證啟用說明會。",
-        "why": "<b>In the interim</b>意為「在此過渡期間」，承接上段宣布的未來變革，說明目前仍可沿用舊制；As a consequence表因果，不符；By contrast表對比，不符；In retrospect表回顧過去，與此處講述現在至未來過渡期的語意時態不合。"
+        "zh": "據此，丹佛及奧斯汀辦公室的員工將獲得遷至芝加哥的搬遷方案、遠距辦公安排，或自願資遣方案三種選擇，並須於本月底前完成意願登記。",
+        "why": "<b>Accordingly</b>意為「據此、相應地」，承接上段決議定案的結果，引出因應此決議而提供的具體選項，因果關係明確；Nevertheless表轉折語意，與此處順接關係不符；In summary用於總結全文，此處僅為文中承接語句，尚非結尾；Meanwhile表同一時間發生的另一件事，不具因果承接語意。"
       },
       {
         "tag": "詞彙語意",
         "col1": true,
-        "opts": ["familiarize", "accustom", "orient", "apprise"],
+        "opts": ["avail", "benefit", "utilize", "leverage"],
         "ans": 0,
-        "zh": "在各部門排定的啟用說明會之前，鼓勵員工先熟悉官方IT資安手冊之內容，該手冊詳列在公司配發及個人行動裝置上安裝驗證應用程式之步驟說明。",
-        "why": "<b>familiarize oneself with sth</b>為固定用法，介系詞須搭配with，與句中with一致；accustom oneself to sth慣用介系詞為to；orient oneself to sth慣用介系詞亦為to；apprise sb of sth慣用介系詞為of，且語意偏「告知」而非「使自己熟悉」。"
+        "zh": "選擇遷移的員工，強烈建議善用附錄B所列之加碼搬遷津貼，此津貼涵蓋臨時住房、搬遷費用，以及供直系家屬使用的一趟往返看屋行程。",
+        "why": "<b>avail oneself of</b>為固定慣用語，意為「善加利用」，須搭配反身代名詞oneself及介系詞of；benefit為不及物動詞，慣用介系詞為from而非「反身代名詞+of」；utilize為及物動詞，其後直接接受詞，不會搭配反身代名詞oneself；leverage用法與utilize相同，皆不搭配oneself of的固定句型。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "A dedicated support line will remain staffed extended hours throughout the transition period to accommodate such requests.",
-          "The company picnic originally planned for this weekend has been moved indoors due to the forecast.",
-          "Two-factor authentication was first developed in the early 2000s for online banking systems.",
-          "All employees must renew their parking permits before the end of the fiscal year."
+          "A dedicated transition hotline will also be available starting Monday to field general questions outside of scheduled HR meetings.",
+          "The Denver office was originally opened in 2014 to support the company's westward expansion.",
+          "Employees are reminded that the annual holiday party will be held in December as usual.",
+          "Chicago's public transit system includes both bus and rail options for commuters."
         ],
         "ans": 0,
-        "zh": "使用輔助科技的員工，或在驗證應用程式上遇到相容性問題者，應直接聯繫IT服務台，而不必等候所屬部門排定的說明會。在整個過渡期間，將有專責支援專線延長服務時段，以因應此類需求。",
-        "why": "本段說明員工有特殊需求應直接聯繫IT服務台，選項A補充服務台將延長服務時段以因應需求，與段落主題連貫；選項B談野餐活動、選項C談雙重驗證歷史起源、選項D談停車證更新期限，皆與「資安驗證系統轉換」主題無關，插入後使段落邏輯斷裂。"
+        "zh": "有關過渡期時程、福利延續性或自願資遣條款之問題，員工應洽詢所屬人資業務夥伴而非直屬主管，因主管目前尚未取得個人化方案的完整細節。另外，自週一起將提供專責過渡期諮詢專線，以因應排定之人資會議以外的一般問題。",
+        "why": "本段說明員工應向HR而非主管洽詢問題，選項A補充另有專線可因應一般問題，與段落主題（如何取得協助）連貫一致；選項B談丹佛辦公室歷史沿革、選項C談年度尾牙活動、選項D談芝加哥大眾運輸系統，皆與「過渡期諮詢管道」主題無關，插入後將使段落邏輯斷裂。"
       }
     ]
   }
