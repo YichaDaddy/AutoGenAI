@@ -1,5 +1,136 @@
 [
   {
+    "date": "2026-07-10",
+    "big_events": [
+      {
+        "title": "Apple 正式控告 OpenAI 竊取商業機密，矛頭指向前首席硬體長 Tang Tan",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/"
+          }
+        ],
+        "summary": "Apple 指控 OpenAI 挖角高層並不當取得機密資料，AI 硬體大戰從產品面升級為法律戰。",
+        "audience": "關注 AI 產業動態與蘋果生態系的科技上班族",
+        "pain_point": "看得懂新聞標題，卻不清楚訴訟背後的 AI 硬體卡位戰對消費者與從業者的實際影響",
+        "title_idea": "蘋果告上 OpenAI！挖角、機密、AI 硬體——這場世紀訴訟在搶什麼？",
+        "local_angle": "英文法律新聞門檻高，中文圈尚無白話拆解，搶做「訴訟背景＋雙方籌碼」懶人包紅利"
+      },
+      {
+        "title": "SK Hynix 美股 IPO 募資 265 億美元，寫下史上最大外國企業 IPO 紀錄",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/"
+          }
+        ],
+        "summary": "AI 記憶體龍頭赴美掛牌創紀錄，並被施壓在美國新建晶圓廠支援 AI 基礎建設。",
+        "audience": "同時追 AI 產業與半導體投資題材的職場族",
+        "pain_point": "知道 HBM／記憶體很重要，但說不清 SK Hynix、三星、美光的競局與台廠位置",
+        "title_idea": "史上最大外企 IPO！SK Hynix 募 265 億美元，AI 記憶體軍備賽白熱化",
+        "local_angle": "以台灣人熟悉的台積電赴美設廠敘事對照，解讀「AI 算力在地化」的地緣政治壓力"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "Instagram 負責人 Mosseri：用戶可自行關閉 AI 內容推薦，但平台不會主動過濾",
+        "sources": [
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com/tech/963961/instagram-adam-mosseri-ai-feed-filters"
+          }
+        ],
+        "summary": "IG 選擇「標示而非封鎖」AI 生成內容，把要不要看 AI 內容的決定權交給用戶。",
+        "audience": "經營 IG 的創作者與小編",
+        "pain_point": "擔心 AI 洗版稀釋自然觸及，不知道演算法將如何對待 AI 與真人內容",
+        "title_idea": "IG 官方說話了：AI 內容不會被封殺！創作者現在該調整的 3 件事",
+        "local_angle": "設定教學＋觸及策略解讀，中文圈尚無第一手整理，適合搶快"
+      },
+      {
+        "title": "Meta 推出新推理模型與 Meta Model API，價格僅 OpenAI／Anthropic 約四分之一",
+        "sources": [
+          {
+            "name": "CGTN",
+            "url": "https://news.cgtn.com/news/2026-07-10/OpenAI-unveils-super-app-as-rivalry-with-Anthropic-intensifies-1OF7nrvaglG/p.html"
+          }
+        ],
+        "summary": "新模型驅動 Meta AI「Thinking」模式，API 定價每百萬 tokens 輸入 1.25／輸出 4.25 美元。",
+        "audience": "串接 AI API 的獨立開發者與工具型創作者",
+        "pain_point": "模型 API 成本吃掉毛利，想找便宜替代方案又怕品質不穩",
+        "title_idea": "只要 1/4 價格！Meta 低價推理模型 API 實測：真能取代 GPT 和 Claude？",
+        "local_angle": "以中文任務實測比較三家 API 成本與品質，做「省錢方案」評測缺口"
+      }
+    ],
+    "trends": [
+      {
+        "title": "太陽能公司 Sunrun 試辦「家庭 AI 算力節點」：付錢請用戶把機房搬回家",
+        "sources": [
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/963930/sunrun-distributed-ai-data-center"
+          }
+        ],
+        "summary": "Sunrun 將 AI 運算節點裝進用戶家中，結合屋頂太陽能付費借算力，測試分散式資料中心模式。",
+        "audience": "關注 AI 基礎建設與被動收入題材的觀眾",
+        "pain_point": "資料中心蓋不動、電力吃緊的新聞天天有，卻少有人講「一般人能參與什麼」",
+        "title_idea": "把 AI 機房搬進你家還付你錢？美國太陽能巨頭的分散式算力實驗",
+        "local_angle": "延伸討論台灣電價與屋頂光電情境，「在家挖 AI」的可行性想像題材新鮮"
+      },
+      {
+        "title": "AI 辦公「超級 App」大戰白熱化：ChatGPT Work 對決 Claude Cowork",
+        "sources": [
+          {
+            "name": "CGTN",
+            "url": "https://news.cgtn.com/news/2026-07-10/OpenAI-unveils-super-app-as-rivalry-with-Anthropic-intensifies-1OF7nrvaglG/p.html"
+          }
+        ],
+        "summary": "外媒定調 OpenAI 與 Anthropic 的競爭進入「代理型辦公平台」階段，文件、簡報、網站一站生成。",
+        "audience": "想用 AI 提升辦公效率的上班族",
+        "pain_point": "工具更新太快，不知道該押哪個平台建立工作流",
+        "title_idea": "別再問用哪個 AI 了！ChatGPT Work vs Claude Cowork 上班族選邊指南",
+        "local_angle": "以台灣常見辦公情境（中文報告、簡報、Excel）實測兩大平台，本地化評測缺口大"
+      }
+    ],
+    "source_coverage": [
+      {
+        "source": "TechCrunch AI 分類頁",
+        "status": "success",
+        "count": 2,
+        "note": "WebFetch 直讀成功，URL 含 /2026/07/10/ 者共 2 篇（Apple 告 OpenAI、SK Hynix IPO），皆已收錄"
+      },
+      {
+        "source": "The Verge AI",
+        "status": "partial",
+        "count": 2,
+        "note": "直接 WebFetch 被封鎖，改經 FutureTools News 與 WebSearch 交叉取得 2 篇 7/10 文章（Sunrun、Instagram），URL 已核實"
+      },
+      {
+        "source": "FutureTools.io News",
+        "status": "success",
+        "count": 4,
+        "note": "WebFetch 成功，7/10 條目 4 則（含 Matt Wolfe 週報影片，屬一週回顧未單獨成條）"
+      },
+      {
+        "source": "WebSearch（OpenAI/Anthropic/Google 官方動態）",
+        "status": "success",
+        "count": 1,
+        "note": "CGTN 2026-07-10 報導 OpenAI 超級 App 與 Meta 新模型定價；ChatGPT Work/GPT-5.6 主體已收錄於 7/9 日報，本日僅取增量角度"
+      },
+      {
+        "source": "YouTube 六頻道",
+        "status": "failed",
+        "count": 0,
+        "note": "本次補跑未逐一檢查各頻道 7/10 上傳清單，僅由 FutureTools 間接取得 Matt Wolfe 一則，如實標記未覆蓋"
+      },
+      {
+        "source": "X/Twitter 關鍵帳號",
+        "status": "failed",
+        "count": 0,
+        "note": "本次補跑未執行 X 帳號搜尋，如實標記未覆蓋"
+      }
+    ]
+  },
+  {
     "date": "2026-07-09",
     "big_events": [
       {
@@ -980,210 +1111,5 @@
         "local_angle": "提醒台灣讀者理性看待AI agent炒作,建議先從小範圍工作流程試用,而非貿然全面導入"
       }
     ]
-  },
-  {
-    "date": "2026-07-02",
-    "big_events": [
-      {
-        "title": "微軟成立子公司 Frontier，砸25億美元跨入AI導入顧問市場",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/"
-          },
-          {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/07/02/microsoft-commits-2point5-billion-6000-employees-ai-implementation-unit.html"
-          }
-        ],
-        "summary": "微軟成立獨立AI部署公司，投入25億美元、6000名員工協助企業導入AI",
-        "audience": "企業IT主管、想推動部門AI轉型的中階上班族",
-        "pain_point": "公司採購了AI工具卻不知道怎麼落地到實際工作流程，內部沒人懂怎麼『導入』",
-        "title_idea": "微軟砸25億美元證明一件事：AI工具再強，沒人幫你『導入』也是白買",
-        "local_angle": "台灣企業目前多半還在『買訂閱』階段，很少討論『AI導入顧問』這個新興職缺與服務類型，可切入教讀者如何在公司內部扮演這個角色，搶占華語圈資訊差"
-      },
-      {
-        "title": "Anthropic傳與三星洽談客製化AI晶片",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/"
-          }
-        ],
-        "summary": "Anthropic評估與三星合作開發專屬AI晶片，降低對Nvidia依賴",
-        "audience": "關注AI產業趨勢、科技線自媒體受眾",
-        "pain_point": "只看得懂AI工具怎麼用，看不懂AI晶片戰爭跟自己職涯/投資有何關係",
-        "title_idea": "連Anthropic都要有自己的晶片：一次看懂AI巨頭『晶片自主』大戰在搶什麼",
-        "local_angle": "可與台灣半導體供應鏈角色對照，切入『AI大廠自研晶片』對台廠訂單與科技業就業市場的影響，是目前華語圈討論度仍低的產業視角"
-      },
-      {
-        "title": "OpenAI提議讓美國政府持股5%，換取政治壓力降溫",
-        "sources": [
-          {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/07/02/openai-proposes-us-government-own-5percent-stake-to-address-political-blowback.html"
-          },
-          {
-            "name": "Axios",
-            "url": "https://www.axios.com/2026/07/02/openai-stake-trump-altman"
-          }
-        ],
-        "summary": "OpenAI提議讓美國政府持股5%（市值約426億美元），緩解華府政治壓力",
-        "audience": "關注AI巨頭產業結構與監管走向的職場人士、AI創業者",
-        "pain_point": "搞不懂AI巨頭跟政府之間的角力會不會影響到自己使用的AI工具價格、開放程度",
-        "title_idea": "OpenAI要把5%股份送給美國政府？價值426億美元的政治盤算是什麼",
-        "local_angle": "華語圈多聚焦AI技術本身，較少討論『AI公司與政府關係』如何影響工具的長期可用性與定價，可做成產業觀察型內容，吸引對AI創業/投資有興趣的讀者"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "Meta低調上線Pocket，文字生成互動小遊戲的vibe coding App",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/"
-          }
-        ],
-        "summary": "Meta推出Pocket，用戶輸入文字提示即可生成並分享互動小遊戲",
-        "audience": "想嘗試零程式碼創作、經營自媒體/社群互動內容的上班族",
-        "pain_point": "想做互動小遊戲或輕量應用吸引粉絲互動，但不會寫程式、市面工具太分散不知道從哪學",
-        "title_idea": "不用寫程式也能做小遊戲？Meta新App Pocket實測：打字就生成",
-        "local_angle": "『vibe coding』一詞在華語圈討論度仍低，可用Meta親自下場的新聞作引子，示範如何用類似工具做輕量互動內容練功，切入AI效率工具賽道的實作教學"
-      },
-      {
-        "title": "Google揭露Android Halo細節，AI代理進度直接顯示在手機狀態列",
-        "sources": [
-          {
-            "name": "Dataconomy",
-            "url": "https://dataconomy.com/2026/07/02/android-halo-ai-agent-updates/"
-          },
-          {
-            "name": "Gizmochina",
-            "url": "https://www.gizmochina.com/2026/07/02/google-explains-android-halo-a-status-bar-communication-layer-for-ai-agents/"
-          }
-        ],
-        "summary": "Android Halo讓AI代理（如Gemini）在狀態列即時回報進度、提問、顯示結果，年底隨Android 17推出",
-        "audience": "習慣用手機處理工作瑣事、對AI代理人（Agent）功能有興趣的上班族",
-        "pain_point": "交辦AI代理任務後要一直開App確認進度，不知道『背景執行』的AI代理未來會怎麼融入手機日常操作",
-        "title_idea": "以後滑手機狀態列就能看AI幫你辦事到哪了：Android Halo搶先解析",
-        "local_angle": "台灣讀者對『AI代理』還停留在ChatGPT對話框想像，可用這則新聞做『手機AI代理時代要來了』的前瞻科普內容，示範今天就能練習的代理式AI使用情境"
-      }
-    ],
-    "trends": [
-      {
-        "title": "AI真實成本現形：Google、Amazon碳排放大幅上升",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/02/a-warning-sign-about-ais-real-cost-courtesy-of-google-and-amazon/"
-          }
-        ],
-        "summary": "Google碳排放年增25%、Amazon增16%，AI運算是主要推力",
-        "audience": "重視企業永續(ESG)議題的上班族、雲端服務決策者",
-        "pain_point": "只看到AI帶來效率提升，沒意識到背後龐大的能源與環境成本",
-        "title_idea": "用AI省時間，卻在悄悄燒地球？Google、Amazon碳排飆升的真相",
-        "local_angle": "台灣企業近年重視ESG報告揭露，可切入『選擇AI雲端服務也該考慮碳足跡』的角度，是華語圈AI效率工具內容中少見的永續切角"
-      },
-      {
-        "title": "從連鎖三明治店IPO看AI敘事有多浮誇",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/"
-          }
-        ],
-        "summary": "傳統連鎖餐飲IPO也要蹭AI敘事，反映市場AI泡沫疑慮升溫",
-        "audience": "對AI創業/投資敘事有興趣的自媒體受眾、內容創作者",
-        "pain_point": "分不清哪些『AI』標籤是真材實料還是行銷話術，容易被過度包裝的AI敘事誤導",
-        "title_idea": "連三明治店IPO都要講AI故事：解讀2026年的『AI標籤通膨』現象",
-        "local_angle": "華語圈自媒體很愛蹭AI話題衝流量，可藉此新聞反思『掛AI就能漲估值』的現象，帶一點媒體識讀教育性質，同時提醒創作者慎選真正有價值的AI選題"
-      },
-      {
-        "title": "Nvidia推出算力換營收分潤方案，扶植資金不足的AI新創",
-        "sources": [
-          {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/07/02/nvidia-plans-to-offer-start-up-customers-access-to-revenue-sharing-deals.html"
-          }
-        ],
-        "summary": "Nvidia讓算力不足的AI新創先用GPU，之後用營收分潤取代預付費用",
-        "audience": "想投入AI創業、對AI基礎建設商業模式有興趣的職場人士",
-        "pain_point": "想做AI新創但買不起雲端算力，不知道除了自掏腰包還有什麼募資/合作方式",
-        "title_idea": "沒錢買算力也能做AI新創？Nvidia這招『算力換分潤』正在改變遊戲規則",
-        "local_angle": "台灣AI新創普遍面臨算力成本壓力，可整理『算力分潤』這類新型融資模式給本地創業者參考，是華語圈目前少見的AI基礎建設變現視角"
-      }
-    ],
-    "source_coverage_notes": {
-      "status": "日期驗證完成 (2026-07-02)",
-      "coverage": [
-        {
-          "source": "TechCrunch AI category page",
-          "status": "❌ (改用替代方案)",
-          "count": 0,
-          "note": "直接 WebFetch https://techcrunch.com/category/artificial-intelligence/ 遭 403 Forbidden 拒絕，改用 WebSearch site:techcrunch.com 2026/07/02 取得完整清單（共10篇當日文章），從中篩出5篇AI/科技相關並採用其中4篇（Microsoft Frontier、Anthropic-Samsung晶片、Meta Pocket、AI真實成本/碳排、Jersey Mike's IPO）"
-        },
-        {
-          "source": "FutureTools.io News",
-          "status": "❌",
-          "count": 0,
-          "note": "直接 WebFetch 遭 403 Forbidden 拒絕；改用 WebSearch 查詢該站當日內容，僅取得站台一般描述與非7/2當日的舊聞（Cursor iOS App等實際為6/29發布），判定當日透過現有管道無法驗證新內容，如實記錄為空"
-        },
-        {
-          "source": "WebSearch: AI news July 2 2026 / OpenAI Anthropic Google announcement",
-          "status": "✅（部分採用）",
-          "count": 2,
-          "note": "初步搜尋帶出多則候選新聞（GPT-5.6、Gemini 3.5 Flash、Cursor iOS、Newsom-Anthropic加州合作、Mistral OCR 4、Notion 3.6、Claude Fable 5全球回歸、UBTECH機器人、Gong MCP等），經逐一查證實際發布日期後，全數證實為 6/23～7/1 之間發布，非7/2當日新聞，依規則全部剔除，未納入最終清單"
-        },
-        {
-          "source": "CNBC (site:cnbc.com/2026/07/02)",
-          "status": "✅",
-          "count": 10,
-          "note": "WebSearch 限定日期路徑取得完整清單，交叉驗證 Microsoft AI 部署部門，並新增採用 OpenAI 5%政府持股提案、Nvidia算力分潤方案兩則"
-        },
-        {
-          "source": "Axios (site:axios.com/2026/07/02)",
-          "status": "✅",
-          "count": 6,
-          "note": "WebSearch 限定日期路徑取得清單，交叉驗證 OpenAI 政府持股提案；另有 Trump AI地緣政治、Palantir執行長批評AI實驗室等純政治/產業評論性質內容，依規則排除未採用"
-        },
-        {
-          "source": "Dataconomy (site:dataconomy.com/2026/07/02)",
-          "status": "✅",
-          "count": 10,
-          "note": "WebSearch 限定日期路徑取得完整清單，採用 Android Halo AI代理狀態列功能一則；其餘為非AI相關內容（SpaceX裝置傳聞、Xbox/PlayStation光碟政策等）未採用"
-        },
-        {
-          "source": "9to5mac.com / 9to5google.com (site: 2026/07/02)",
-          "status": "✅（無合格項目）",
-          "count": 0,
-          "note": "取得完整當日文章清單，內容多為iOS 27、Galaxy S26優惠、穿戴裝置等非核心AI效率工具主題，無符合三大主題（AI工具動態/AI創業變現/AI自媒體玩法）的項目"
-        },
-        {
-          "source": "VentureBeat",
-          "status": "❌（無法按日期篩選）",
-          "count": 0,
-          "note": "VentureBeat文章URL不含日期路徑，無法用 site:domain/YYYY/MM/DD 方式篩選；WebSearch一般查詢帶出的候選文章（GPT-5.6、Mistral OCR4、Jalapeño晶片、Claude Fable 5等）經逐一查證均為6月下旬～7/1發布，非7/2當日新聞，全數剔除"
-        },
-        {
-          "source": "The Verge / Engadget / Ars Technica / ZDNet / Mashable / TechRadar",
-          "status": "❌",
-          "count": 0,
-          "note": "以 site:domain 2026/07/02 方式查詢均無結果或結果集中在較早日期，判定當日透過現有管道無可驗證的AI相關新內容"
-        },
-        {
-          "source": "The Neuron（AI新聞日報digest, 標題即為7/2當日）",
-          "status": "❌（無法直接驗證）",
-          "count": 0,
-          "note": "直接 WebFetch 遭 403 Forbidden，僅能透過 WebSearch 摘要片段間接得知內容（UBTECH機器人、Hugging Face+Cerebras語音模型、Gong MCP、Mistral OCR4等），但逐一查證後上述項目實際發布日期多為6/23～7/1，判斷該digest為『當日彙整近期AI新聞』性質而非全部限定當日首發，故未採用其中任何一則"
-        },
-        {
-          "source": "TLDR AI / Ben's Bites / Superhuman AI 等AI電子報",
-          "status": "❌",
-          "count": 0,
-          "note": "WebSearch 僅能取得電子報的一般介紹頁面，無法取得7/2當日確切發送內容，如實記錄為無法驗證"
-        }
-      ],
-      "explanation": "本次為新聞相對清淡的一天：多數原本看似當日的候選新聞（GPT-5.6發布、Gemini 3.5 Flash、Cursor iOS App、Newsom-Anthropic加州合作、Mistral OCR 4、Claude Fable 5全球回歸、Notion 3.6、UBTECH機器人、Gong MCP、OpenAI Jalapeño晶片等）經逐一查證實際發布日期，全數落在6/23～7/1之間，依「嚴格日期規則」全部剔除，未用舊聞充數。TechCrunch AI分類頁與FutureTools.io兩個指定來源皆遭WebFetch 403拒絕，改用WebSearch site:domain搭配日期路徑（如site:techcrunch.com 2026/07/02）取得可驗證清單，此方法對TechCrunch、CNBC、Axios、Dataconomy、9to5Mac、9to5Google皆有效，但對VentureBeat、The Verge等不含日期路徑或未收錄的網站則無法使用。最終8則選題全數為URL或多方報導明確標註2026/07/02當日發布/更新的內容，無捏造。"
-    }
   }
 ]
