@@ -1,146 +1,131 @@
 {
-  "date": "2026-07-09",
+  "date": "2026-07-10",
   "big_events": [
     {
-      "title": "OpenAI 同步公開發布 GPT-5.6 三款新模型（Sol／Terra／Luna）",
+      "title": "Apple 正式控告 OpenAI 竊取商業機密，矛頭指向前首席硬體長 Tang Tan",
       "sources": [
-        {"name": "Engadget", "url": "https://www.engadget.com/2210308/openai-rolls-out-gpt5-6-july-9/"},
-        {"name": "BuildFastWithAI", "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-9-2026"},
-        {"name": "Dataconomy", "url": "https://dataconomy.com/2026/07/08/openai-gpt-5-6-launch-july-9/"}
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/"
+        }
       ],
-      "summary": "OpenAI 7/9 全面開放 GPT-5.6 三款分級模型，涵蓋 ChatGPT、API 與 Codex。",
-      "audience": "常用 ChatGPT 處理工作、想知道該用哪個模型省錢的職場上班族",
-      "pain_point": "不清楚新模型跟舊版差在哪、該不該換、會不會多花錢",
-      "title_idea": "GPT-5.6 一次出三款？上班族到底該用 Sol、Terra 還是 Luna",
-      "local_angle": "海外已有詳細分級與定價比較，華語圈教學多半還停留在「GPT-5 上線」，可搶先做選型懶人包"
+      "summary": "Apple 指控 OpenAI 挖角高層並不當取得機密資料，AI 硬體大戰從產品面升級為法律戰。",
+      "audience": "關注 AI 產業動態與蘋果生態系的科技上班族",
+      "pain_point": "看得懂新聞標題，卻不清楚訴訟背後的 AI 硬體卡位戰對消費者與從業者的實際影響",
+      "title_idea": "蘋果告上 OpenAI！挖角、機密、AI 硬體——這場世紀訴訟在搶什麼？",
+      "local_angle": "英文法律新聞門檻高，中文圈尚無白話拆解，搶做「訴訟背景＋雙方籌碼」懶人包紅利"
     },
     {
-      "title": "OpenAI 推出「ChatGPT Work」：能連續工作數小時的職場代理人",
+      "title": "SK Hynix 美股 IPO 募資 265 億美元，寫下史上最大外國企業 IPO 紀錄",
       "sources": [
-        {"name": "GVWire", "url": "https://gvwire.com/2026/07/09/openai-launches-chatgpt-work/"},
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-07-09/openai-unveils-chatgpt-work-agent-to-field-tasks-for-hours"},
-        {"name": "OpenAI 官方", "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/"}
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/"
+        }
       ],
-      "summary": "ChatGPT Work 可跨檔案、跨應用獨立執行任務，數小時完成簡報、文件、試算表。",
-      "audience": "每天被例行公文、簡報、報表淹沒的上班族與中小企業主",
-      "pain_point": "重複性文書工作耗時，交辦給 AI 又怕結果不受控",
-      "title_idea": "OpenAI 出手做「工作代理人」：一鍵交辦，數小時後收成品",
-      "local_angle": "功能剛開始滾動上線，華語圈還沒有實測教學，是搶先卡位「怎麼用 ChatGPT Work 交辦真實工作」的黃金空窗期"
-    },
-    {
-      "title": "SpaceXAI（原 xAI）發布 Grok 4.5，主打「Opus 等級、更便宜」",
-      "sources": [
-        {"name": "TheTechPortal", "url": "https://thetechportal.com/2026/07/09/spacexai-launches-grok-4-5-its-first-ai-model-built-with-cursor-featuring-advanced-legal-and-finance-capabilities/"},
-        {"name": "Techweez", "url": "https://techweez.com/2026/07/09/spacexai-grok-4-5-launch/"}
-      ],
-      "summary": "Grok 4.5 結合 Cursor 程式碼訓練資料，定位工程、法律、財務與 AI agent 應用。",
-      "audience": "會比價選 AI 工具、關心哪家模型CP值最高的效率工具愛好者",
-      "pain_point": "模型太多不知道怎麼選，怕多花錢買到用不到的功能",
-      "title_idea": "同一天三強齊發！Grok 4.5 用「更便宜的 Opus 等級」打價格戰",
-      "local_angle": "海外已在比較 Grok 4.5 與 Claude Opus 4.8 的性價比，華語圈尚無中文評測，可做第一手比較文"
-    },
-    {
-      "title": "Anthropic、OpenAI、SpaceX 市值合計超過過去 25 年科技業出場總和",
-      "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/09/anthropic-openai-and-spacex-are-bigger-than-the-last-25-years-of-tech-exits/"}
-      ],
-      "summary": "三大 AI／太空巨頭市值合計上看 4 兆美元，規模超越過去 25 年科技出場總和。",
-      "audience": "關注 AI 產業趨勢、想判斷該不該投入 AI 相關工作或副業的上班族",
-      "pain_point": "看到新聞覺得 AI 泡沫化或機會很大，但不知道跟自己有什麼關係",
-      "title_idea": "AI 三巨頭市值贏過25年科技業總和：這代表你的工作機會來了",
-      "local_angle": "海外財經媒體多在談資本市場意義，華語圈可轉譯成「這對想轉職/接案的你意味著什麼」的實用角度"
+      "summary": "AI 記憶體龍頭赴美掛牌創紀錄，並被施壓在美國新建晶圓廠支援 AI 基礎建設。",
+      "audience": "同時追 AI 產業與半導體投資題材的職場族",
+      "pain_point": "知道 HBM／記憶體很重要，但說不清 SK Hynix、三星、美光的競局與台廠位置",
+      "title_idea": "史上最大外企 IPO！SK Hynix 募 265 億美元，AI 記憶體軍備賽白熱化",
+      "local_angle": "以台灣人熟悉的台積電赴美設廠敘事對照，解讀「AI 算力在地化」的地緣政治壓力"
     }
   ],
   "tool_updates": [
     {
-      "title": "Claude 新增「Reflect」使用回顧儀表板與專注模式",
+      "title": "Instagram 負責人 Mosseri：用戶可自行關閉 AI 內容推薦，但平台不會主動過濾",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai/"},
-        {"name": "MacRumors", "url": "https://www.macrumors.com/2026/07/09/anthropic-reflect-claude-tracking/"},
-        {"name": "Aroged", "url": "https://www.aroged.com/2026/07/09/anthropic-adds-ai-usage-statistics-and-efficiency-tips-to-claude"}
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/963961/instagram-adam-mosseri-ai-feed-filters"
+        }
       ],
-      "summary": "Claude 推出 Reflect：顯示使用主題、活躍時段，並提供休息提醒與專注時段設定。",
-      "audience": "每天用 Claude 工作、擔心自己過度依賴或不清楚使用效率的上班族",
-      "pain_point": "不知道自己到底把 AI 用在哪裡、時間都花去哪了，也怕產生依賴",
-      "title_idea": "Claude 幫你「反省」自己：新功能揭露你的 AI 使用習慣",
-      "local_angle": "功能剛上線，華語圈還沒人教怎麼設定與解讀這份「AI使用成績單」，適合做實測教學"
+      "summary": "IG 選擇「標示而非封鎖」AI 生成內容，把要不要看 AI 內容的決定權交給用戶。",
+      "audience": "經營 IG 的創作者與小編",
+      "pain_point": "擔心 AI 洗版稀釋自然觸及，不知道演算法將如何對待 AI 與真人內容",
+      "title_idea": "IG 官方說話了：AI 內容不會被封殺！創作者現在該調整的 3 件事",
+      "local_angle": "設定教學＋觸及策略解讀，中文圈尚無第一手整理，適合搶快"
     },
     {
-      "title": "Google 廣告新增「AI 生成」標示功能",
+      "title": "Meta 推出新推理模型與 Meta Model API，價格僅 OpenAI／Anthropic 約四分之一",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai/"}
+        {
+          "name": "CGTN",
+          "url": "https://news.cgtn.com/news/2026-07-10/OpenAI-unveils-super-app-as-rivalry-with-Anthropic-intensifies-1OF7nrvaglG/p.html"
+        }
       ],
-      "summary": "Google 開始在廣告中標示是否由 AI 生成，提升廣告透明度。",
-      "audience": "做數位行銷、投放廣告或用 AI 產出行銷素材的上班族與小編",
-      "pain_point": "不確定用 AI 做廣告素材會不會被平台標記、影響成效或信任度",
-      "title_idea": "Google廣告開始標AI生成？行銷人現在要注意的新規則",
-      "local_angle": "規則剛上路，華語圈廣告投手多半還沒注意到，可提前整理因應懶人包搶流量"
-    },
-    {
-      "title": "開源 AI 工具 Ollama 完成 6500 萬美元融資，用戶逼近 900 萬",
-      "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/"}
-      ],
-      "summary": "本地執行 AI 模型工具 Ollama 完成新一輪融資，使用者成長至近900萬。",
-      "audience": "在意資安、想省訂閱費、想在自己電腦跑 AI 模型的職場工作者",
-      "pain_point": "公司資料不能上傳雲端 AI，或訂閱費越花越多，想找免費/本地替代方案",
-      "title_idea": "免費在自己電腦跑 AI？用戶暴增900萬的Ollama你還沒聽過嗎",
-      "local_angle": "工具成長快速但華語圈教學仍偏冷門，適合做「上班族也能懂」的本地部署入門教學"
-    },
-    {
-      "title": "Meta AI 影像工具會使用公開 Instagram 照片，教學曝光如何關閉",
-      "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/09/how-to-stop-metas-ai-image-generator-from-using-your-instagram-photos/"}
-      ],
-      "summary": "TechCrunch 教學說明如何避免 Meta AI 影像生成器取用你公開的 Instagram 照片。",
-      "audience": "有經營 Instagram、擔心自己作品或肖像被 AI 取用的內容創作者",
-      "pain_point": "不知道自己公開帳號的照片已被拿去訓練/生成AI圖片，也不知道怎麼關掉",
-      "title_idea": "你的IG照片可能正被AI偷用！3步驟關閉Meta AI取用權限",
-      "local_angle": "設定入口藏得很深，華語圈尚無中文步驟教學，是隱私/自保類選題的搶先卡位機會"
+      "summary": "新模型驅動 Meta AI「Thinking」模式，API 定價每百萬 tokens 輸入 1.25／輸出 4.25 美元。",
+      "audience": "串接 AI API 的獨立開發者與工具型創作者",
+      "pain_point": "模型 API 成本吃掉毛利，想找便宜替代方案又怕品質不穩",
+      "title_idea": "只要 1/4 價格！Meta 低價推理模型 API 實測：真能取代 GPT 和 Claude？",
+      "local_angle": "以中文任務實測比較三家 API 成本與品質，做「省錢方案」評測缺口"
     }
   ],
   "trends": [
     {
-      "title": "法國語音 AI 新創 Gradium 種子輪擴大至 1 億美元，Nvidia 領投",
+      "title": "太陽能公司 Sunrun 試辦「家庭 AI 算力節點」：付錢請用戶把機房搬回家",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia/"}
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/963930/sunrun-distributed-ai-data-center"
+        }
       ],
-      "summary": "語音 AI 新創 Gradium 完成 1 億美元種子輪募資，Nvidia 參投。",
-      "audience": "做 Podcast、有聲書、配音或直播的內容創作者與自媒體工作者",
-      "pain_point": "配音、多語言錄音成本高，不知道有哪些新一代語音AI工具可用",
-      "title_idea": "又一家語音AI拿到破億美元資金，未來配音這行要變天了",
-      "local_angle": "海外資本已重押語音 AI 賽道，華語圈語音克隆/配音教學仍是藍海，值得提前布局"
+      "summary": "Sunrun 將 AI 運算節點裝進用戶家中，結合屋頂太陽能付費借算力，測試分散式資料中心模式。",
+      "audience": "關注 AI 基礎建設與被動收入題材的觀眾",
+      "pain_point": "資料中心蓋不動、電力吃緊的新聞天天有，卻少有人講「一般人能參與什麼」",
+      "title_idea": "把 AI 機房搬進你家還付你錢？美國太陽能巨頭的分散式算力實驗",
+      "local_angle": "延伸討論台灣電價與屋頂光電情境，「在家挖 AI」的可行性想像題材新鮮"
     },
     {
-      "title": "AI 訓練資料新創 Mercor 洽談 200 億美元估值，收購 Deeptune 擴大 AI agent 訓練業務",
+      "title": "AI 辦公「超級 App」大戰白熱化：ChatGPT Work 對決 Claude Cowork",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/09/mercor-is-in-talks-for-a-20b-valuation/"}
+        {
+          "name": "CGTN",
+          "url": "https://news.cgtn.com/news/2026-07-10/OpenAI-unveils-super-app-as-rivalry-with-Anthropic-intensifies-1OF7nrvaglG/p.html"
+        }
       ],
-      "summary": "Mercor 洽談 200 億美元估值並收購 Deeptune，深耕 AI 訓練與 agent 訓練市場。",
-      "audience": "想找 AI 相關兼職/副業機會、對「AI打工經濟」有興趣的上班族",
-      "pain_point": "想靠AI賺外快但不知道除了接案寫文案外還有什麼新機會",
-      "title_idea": "估值破200億美元的Mercor在做什麼？原來「訓練AI」也能接案賺錢",
-      "local_angle": "「AI 訓練師／agent 訓練」這類新興零工在華語圈幾乎沒人介紹，是還沒被說爛的副業選題"
-    },
-    {
-      "title": "Meta 新一代自研 AI 晶片將於 9 月量產",
-      "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/"}
-      ],
-      "summary": "Meta 自研 AI 晶片將於今年 9 月開始量產，加入自研晶片賽局。",
-      "audience": "關注 AI 成本走勢、想預判「AI工具會不會變便宜」的效率工具愛好者",
-      "pain_point": "訂閱一堆AI工具負擔重，想知道未來價格會不會下降、該不該等",
-      "title_idea": "Meta自研AI晶片9月量產：這會讓你的AI訂閱費變便宜嗎",
-      "local_angle": "屬於供應鏈硬體新聞，華語圈科技媒體多只轉述財經角度，可改寫成「對一般用戶荷包的影響」科普切角"
+      "summary": "外媒定調 OpenAI 與 Anthropic 的競爭進入「代理型辦公平台」階段，文件、簡報、網站一站生成。",
+      "audience": "想用 AI 提升辦公效率的上班族",
+      "pain_point": "工具更新太快，不知道該押哪個平台建立工作流",
+      "title_idea": "別再問用哪個 AI 了！ChatGPT Work vs Claude Cowork 上班族選邊指南",
+      "local_angle": "以台灣常見辦公情境（中文報告、簡報、Excel）實測兩大平台，本地化評測缺口大"
     }
   ],
   "source_coverage": [
-    {"source": "TechCrunch AI 分類頁", "status": "failed", "count": 10, "note": "直接 WebFetch 分類頁與單篇文章皆回傳 403 Forbidden（環境層級封鎖，測試 Wikipedia 亦同），改以 WebSearch（site:techcrunch.com/2026/07/09）取得當日文章列表並逐篇核實 URL 日期，共確認 10 篇 2026-07-09 文章"},
-    {"source": "FutureTools.io News", "status": "failed", "count": 0, "note": "WebFetch 回傳 403 Forbidden；WebSearch 找到的項目（Google Photos Video Remix、Meta Muse）標註日期為 7/7～7/8，非 7/9，依規則排除，此來源當日無可採用內容"},
-    {"source": "OpenAI 官方/相關媒體", "status": "success", "count": 2, "note": "GPT-5.6 三模型上線、ChatGPT Work 上線，皆由多家媒體（Engadget、Bloomberg、GVWire、Dataconomy、BuildFastWithAI）交叉確認為 2026-07-09"},
-    {"source": "SpaceXAI／xAI 官方/相關媒體", "status": "success", "count": 1, "note": "Grok 4.5 公開發布，由 TheTechPortal、Techweez 等多家媒體確認為 2026-07-09"},
-    {"source": "Anthropic 官方/相關媒體", "status": "success", "count": 1, "note": "Claude Reflect 功能，由 TechCrunch、MacRumors、Aroged 確認為 2026-07-09"},
-    {"source": "YouTube（Matt Wolfe／Matthew Berman／Wes Roth 等）", "status": "failed", "count": 0, "note": "WebSearch 僅找到頻道概況與較早期影片，未能定位到明確標註 2026-07-09 上傳的影片，如實記錄為 0"},
-    {"source": "X/Twitter（@sama／@karpathy／@levelsio／@GregIsenberg 等）", "status": "failed", "count": 0, "note": "WebSearch 對 site:x.com 查詢多回傳較早期貼文，未找到可明確核實為 2026-07-09 的貼文內容，如實記錄為 0"}
+    {
+      "source": "TechCrunch AI 分類頁",
+      "status": "success",
+      "count": 2,
+      "note": "WebFetch 直讀成功，URL 含 /2026/07/10/ 者共 2 篇（Apple 告 OpenAI、SK Hynix IPO），皆已收錄"
+    },
+    {
+      "source": "The Verge AI",
+      "status": "partial",
+      "count": 2,
+      "note": "直接 WebFetch 被封鎖，改經 FutureTools News 與 WebSearch 交叉取得 2 篇 7/10 文章（Sunrun、Instagram），URL 已核實"
+    },
+    {
+      "source": "FutureTools.io News",
+      "status": "success",
+      "count": 4,
+      "note": "WebFetch 成功，7/10 條目 4 則（含 Matt Wolfe 週報影片，屬一週回顧未單獨成條）"
+    },
+    {
+      "source": "WebSearch（OpenAI/Anthropic/Google 官方動態）",
+      "status": "success",
+      "count": 1,
+      "note": "CGTN 2026-07-10 報導 OpenAI 超級 App 與 Meta 新模型定價；ChatGPT Work/GPT-5.6 主體已收錄於 7/9 日報，本日僅取增量角度"
+    },
+    {
+      "source": "YouTube 六頻道",
+      "status": "failed",
+      "count": 0,
+      "note": "本次補跑未逐一檢查各頻道 7/10 上傳清單，僅由 FutureTools 間接取得 Matt Wolfe 一則，如實標記未覆蓋"
+    },
+    {
+      "source": "X/Twitter 關鍵帳號",
+      "status": "failed",
+      "count": 0,
+      "note": "本次補跑未執行 X 帳號搜尋，如實標記未覆蓋"
+    }
   ]
 }

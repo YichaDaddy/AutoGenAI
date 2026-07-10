@@ -1,103 +1,165 @@
 {
-  "date": "2026-07-10",
+  "date": "2026-07-11",
   "p5": [
     {
-      "id": "2026-07-10-p5-0",
+      "id": "2026-07-11-p5-0",
       "tag": "假設語氣倒裝",
       "pre": "",
-      "post": " the board postponed the merger vote until the antitrust review had been completed, several institutional investors would have divested their holdings immediately.",
-      "opts": ["Had", "Should", "Were", "If"],
+      "post": " the merger agreement been ratified by the board last quarter, the two firms would have consolidated their back-office operations by the end of the fiscal year.",
+      "opts": [
+        "Had",
+        "Should",
+        "Were",
+        "Unless"
+      ],
       "ans": 0,
-      "zh": "若董事會將合併表決延後至反壟斷審查完成，數家機構投資人本將立即出脫持股。",
-      "why": "<b>Had</b>為過去完成式假設語氣倒裝（Had + 主詞 + 過去分詞），對應與過去事實相反的假設，且主要子句用would have + 過去分詞相呼應；Should用於現在/未來假設倒裝（Should...postpone），須搭配would/will而非would have；Were用於Were...to postpone之未來假設倒裝，時態不符；If雖可表假設語氣，但屬非倒裝形式，此處動詞仍為單一過去式postponed而非had postponed，句型結構不符。"
+      "zh": "假使合併協議上一季已獲董事會批准，兩家公司原本可在本會計年度結束前完成後勤部門的整併。",
+      "why": "與過去事實相反的第三類假設語氣，省略 if 時須將助動詞 <b>Had</b> 倒裝至句首（Had + 主詞 + 過去分詞）。<b>Should</b> 用於對未來的假設、<b>Were</b> 用於 be 動詞的第二類假設，皆無法搭配過去完成式結構；<b>Unless</b> 是連接詞，需接完整子句且語意不符。"
     },
     {
-      "id": "2026-07-10-p5-1",
-      "tag": "分詞構句",
+      "id": "2026-07-11-p5-1",
+      "tag": "分詞構句（被動）",
       "pre": "",
-      "post": " by the sudden collapse in commodity prices, several emerging-market central banks moved swiftly to shore up their currencies.",
-      "opts": ["Blindsided", "Blindsiding", "To blindside", "Having blindsided"],
+      "post": " to mounting regulatory scrutiny, the bank suspended its cross-border derivatives program pending the outcome of an internal audit.",
+      "opts": [
+        "Subjected",
+        "Subjecting",
+        "To subject",
+        "Subjection"
+      ],
       "ans": 0,
-      "zh": "猝不及防遭逢大宗商品價格驟然崩跌，數家新興市場央行迅速採取行動以穩定本國貨幣匯率。",
-      "why": "<b>Blindsided</b>為過去分詞，表被動「猝不及防遭到打擊」，主詞central banks為承受動作的一方，語意通順；Blindsiding為現在分詞，語意變成央行主動使人措手不及，邏輯不通；To blindside為不定詞，不符合分詞構句句型；Having blindsided為完成式主動分詞，語意主動且強調動作早於主要子句，與句意不合。"
+      "zh": "由於面臨日益升高的監管審查，該銀行暫停了跨境衍生性商品業務，靜候內部稽核結果出爐。",
+      "why": "分詞構句的主詞即主要子句主詞 the bank，而銀行是「被置於」審查之下（be subjected to），語意為被動，須用過去分詞 <b>Subjected</b>，相當於 Because it was subjected to...。<b>Subjecting</b> 為主動語意不符；不定詞與名詞在此無法構成分詞構句。"
     },
     {
-      "id": "2026-07-10-p5-2",
-      "tag": "非限定關係子句",
-      "pre": "The merger was finalized in record time, ",
-      "post": " surprised even the deal's own legal advisors.",
-      "opts": ["which", "that", "what", "it"],
-      "ans": 0,
-      "zh": "這起併購案以破紀錄的速度完成，此事連交易本身的法律顧問都感到意外。",
-      "why": "<b>which</b>可用於非限定關係子句，指稱前面整句「併購案迅速完成」這一概念，逗號後接續補充說明；that不可用於逗號隔開的非限定關係子句；what本身已包含先行詞，不能在完整子句後以逗號承接；it為人稱代名詞，無法引導子句。"
-    },
-    {
-      "id": "2026-07-10-p5-3",
+      "id": "2026-07-11-p5-2",
       "tag": "讓步介系詞",
       "pre": "",
-      "post": " the sharp downturn in consumer spending, the retailer's flagship stores posted record quarterly revenue.",
-      "opts": ["Notwithstanding", "Despite of", "Although", "Even so"],
+      "post": " repeated assurances from the vendor, the procurement committee remained unconvinced that the revised delivery schedule could be honored.",
+      "opts": [
+        "Notwithstanding",
+        "Nevertheless",
+        "Whereas",
+        "Albeit"
+      ],
       "ans": 0,
-      "zh": "儘管消費支出急遽下滑，這家零售商的旗艦店本季營收仍創下紀錄。",
-      "why": "<b>Notwithstanding</b>為正式介系詞，意為「儘管、不因…而受影響」，可直接接名詞片語表讓步；Despite of為誤用（despite本身不可加of）；Although為連接詞，須接完整子句而非名詞片語；Even so為副詞，用於句首承接前句語意，不能直接連接名詞片語。"
+      "zh": "儘管供應商一再保證，採購委員會仍不相信修訂後的交貨時程能夠兌現。",
+      "why": "空格後接名詞片語 repeated assurances，須用介系詞；<b>Notwithstanding</b> 為正式書面用語，等同 despite／in spite of。<b>Nevertheless</b> 是副詞不能直接接名詞；<b>Whereas</b> 是連接詞須接完整子句；<b>Albeit</b> 慣用上接形容詞或副詞片語（albeit briefly），不接一般名詞片語。"
     },
     {
-      "id": "2026-07-10-p5-4",
-      "tag": "進階動詞語意辨別",
-      "pre": "Given the ambiguous phrasing of the clause, legal counsel cautioned that the term sheet could reasonably ",
-      "post": " an exclusivity obligation the parties had never explicitly negotiated.",
-      "opts": ["imply", "infer", "conclude", "assume"],
+      "id": "2026-07-11-p5-3",
+      "tag": "名詞子句",
+      "pre": "The arbitration panel must first determine ",
+      "post": " the contractor is entitled to compensation for delays attributable to force majeure.",
+      "opts": [
+        "whether",
+        "that",
+        "what",
+        "which"
+      ],
       "ans": 0,
-      "zh": "由於條款用語含糊不清，法律顧問提醒，此意向書條款可能被合理解讀為隱含一項雙方從未明確協商過的排他性義務。",
-      "why": "<b>imply</b>意為「（文字本身）暗示、隱含」，主詞為term sheet（文件本身），符合「文件暗示某義務」的語意；infer意為「（讀者）從中推論」，主詞應為人而非文件，不符句構；conclude意為「下結論」，語氣過於肯定，與「可能被解讀為」的推測語氣不符；assume意為「（人）假設」，同樣要求人稱主詞，不符文件作主詞的句構。"
+      "zh": "仲裁庭必須先行裁定，承包商是否有權就可歸因於不可抗力的延誤取得補償。",
+      "why": "determine 之後接名詞子句作受詞，且「裁定」的對象是尚無定論的二選一問題（有權或無權），須用表「是否」的 <b>whether</b>。<b>that</b> 引導的是既定事實，與「有待裁定」語意矛盾；<b>what</b>／<b>which</b> 須在子句中擔任主詞或受詞等成分，但本句子句結構已完整，無缺空位。"
+    },
+    {
+      "id": "2026-07-11-p5-4",
+      "tag": "否定副詞倒裝",
+      "pre": "Rarely ",
+      "post": " so comprehensive an overhaul of its compliance framework in so short a span as the brokerage undertook this spring.",
+      "opts": [
+        "has the industry witnessed",
+        "the industry has witnessed",
+        "the industry witnessed",
+        "did the industry witnessed"
+      ],
+      "ans": 0,
+      "zh": "業界鮮少在如此短的期間內，見證如同這家券商今年春天所推動的這般全面的法遵制度改革。",
+      "why": "否定副詞 <b>Rarely</b> 置於句首時，主詞與助動詞必須倒裝，形成「Rarely + 助動詞 + 主詞 + 動詞」；描述至今為止的經驗用現在完成式，故選 <b>has the industry witnessed</b>。(B)(C) 未倒裝即不合法；(D) did 之後應接原形動詞 witness，witnessed 為動詞形式錯誤。"
     }
   ],
   "p6": {
-    "id": "2026-07-10-p6",
-    "title": "Memo: Consolidation of Regional Office Leases",
+    "id": "2026-07-11-p6",
+    "title": "MEMO: Migration to the New Expense Reimbursement Platform",
     "seg": [
-      ["To all staff: After an extensive six-month review of occupancy rates, lease renewal terms, and remote-work adoption across our regional offices, the decision to consolidate the Chicago, Denver, and Austin locations into a single flagship office in Chicago ", {"b": 0}, " at yesterday's board meeting, effective the start of next fiscal quarter."],
-      [{"b": 1}, ", employees based in the Denver and Austin offices will be offered relocation packages to Chicago, remote-work arrangements, or a voluntary separation program, with elections due by the end of this month."],
-      ["Employees who elect relocation are strongly encouraged to ", {"b": 2}, " themselves of the enhanced relocation stipend outlined in Appendix B, which covers temporary housing, moving expenses, and one round-trip house-hunting visit for immediate family members."],
-      ["Employees with questions about the transition timeline, benefits continuity, or the voluntary separation terms should direct them to their HR business partner rather than their direct manager, as managers have not yet received full details on individualized packages. ", {"b": 3}]
+      [
+        "To all department heads: Effective 1 August, all travel and entertainment claims ",
+        {
+          "b": 0
+        },
+        " to the company's new expense platform, ExpenseHub, which consolidates submission, approval, and audit functions within a single interface."
+      ],
+      [
+        {
+          "b": 1
+        },
+        ", employees should continue to file claims through the legacy portal; any receipts dated after 31 July must, however, be retained for submission once the new system goes live."
+      ],
+      [
+        "Please note that expenses ",
+        {
+          "b": 2
+        },
+        " prior to the cutover date remain reimbursable under the current policy, provided they are submitted within ninety days of the transaction."
+      ],
+      [
+        {
+          "b": 3
+        },
+        " Questions regarding the transition may be directed to the Finance Service Desk."
+      ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["was finalized", "finalizes", "has finalized", "will finalize"],
+        "opts": [
+          "will be migrated",
+          "will migrate",
+          "have migrated",
+          "are migrating"
+        ],
         "ans": 0,
-        "zh": "致全體同仁：在針對各地區辦公室的使用率、租約續約條款及遠距辦公普及程度進行為期六個月的全面審查後，將芝加哥、丹佛及奧斯汀三處辦公室整併為芝加哥單一旗艦辦公室之決議，已於昨日董事會議中拍板定案，將自下一會計季度起生效。",
-        "why": "<b>was finalized</b>為被動語態過去式，符合「決議是被董事會拍板定案」的被動語意，且昨日會議已是過去事實；finalizes為現在式主動，語態與時態皆不符；has finalized為現在完成式主動，語態不符（decision本身不會主動finalize）；will finalize為未來式主動，與「昨日已開會」之過去時間矛盾。"
+        "zh": "致各部門主管：自 8 月 1 日起，所有差旅與交際費用申報「將被移轉」至公司新的費用平台 ExpenseHub，該平台將申報、簽核與稽核功能整合於單一介面。",
+        "why": "主詞 claims（申報單）是「被移轉」的對象，語意為被動；搭配 Effective 1 August 表未來生效時點，須用未來式被動語態 <b>will be migrated</b>。其餘選項皆為主動語態，申報單無法自行移轉，語意不通。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["Accordingly", "Nevertheless", "In summary", "Meanwhile"],
+        "opts": [
+          "In the interim",
+          "Consequently",
+          "By contrast",
+          "Notwithstanding"
+        ],
         "ans": 0,
-        "zh": "據此，丹佛及奧斯汀辦公室的員工將獲得遷至芝加哥的搬遷方案、遠距辦公安排，或自願資遣方案三種選擇，並須於本月底前完成意願登記。",
-        "why": "<b>Accordingly</b>意為「據此、相應地」，承接上段決議定案的結果，引出因應此決議而提供的具體選項，因果關係明確；Nevertheless表轉折語意，與此處順接關係不符；In summary用於總結全文，此處僅為文中承接語句，尚非結尾；Meanwhile表同一時間發生的另一件事，不具因果承接語意。"
+        "zh": "「在此過渡期間」，同仁應繼續透過舊系統入口申報；惟 7 月 31 日之後開立的單據務必保留，待新系統上線後再行提交。",
+        "why": "上文說 8 月 1 日切換新平台，本句講的是切換前的過渡安排，語意上需要「在此期間」的承接詞，故選 <b>In the interim</b>。<b>Consequently</b>（因此）表因果、<b>By contrast</b>（相較之下）表對比，皆不符語境；<b>Notwithstanding</b> 為介系詞／副詞，用法與語意均不合。"
       },
       {
         "tag": "詞彙語意",
         "col1": true,
-        "opts": ["avail", "benefit", "utilize", "leverage"],
+        "opts": [
+          "incurred",
+          "occurred",
+          "expended",
+          "transpired"
+        ],
         "ans": 0,
-        "zh": "選擇遷移的員工，強烈建議善用附錄B所列之加碼搬遷津貼，此津貼涵蓋臨時住房、搬遷費用，以及供直系家屬使用的一趟往返看屋行程。",
-        "why": "<b>avail oneself of</b>為固定慣用語，意為「善加利用」，須搭配反身代名詞oneself及介系詞of；benefit為不及物動詞，慣用介系詞為from而非「反身代名詞+of」；utilize為及物動詞，其後直接接受詞，不會搭配反身代名詞oneself；leverage用法與utilize相同，皆不搭配oneself of的固定句型。"
+        "zh": "請注意：於切換日之前「發生」的費用，仍依現行政策辦理核銷，惟須於交易日起九十日內提交申請。",
+        "why": "「發生費用」的固定搭配是 <b>incur expenses</b>，此處為過去分詞片語 expenses incurred...（被產生的費用）修飾名詞。<b>occurred</b>／<b>transpired</b> 為不及物動詞，不能構成被動修飾；<b>expended</b> 意為「被花掉」，與「產生費用而待核銷」的語意有出入，且慣用上不與 expenses 搭配。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "A dedicated transition hotline will also be available starting Monday to field general questions outside of scheduled HR meetings.",
-          "The Denver office was originally opened in 2014 to support the company's westward expansion.",
-          "Employees are reminded that the annual holiday party will be held in December as usual.",
-          "Chicago's public transit system includes both bus and rail options for commuters."
+          "A series of thirty-minute training webinars will be held during the last week of July, and attendance at one session is strongly encouraged.",
+          "The company's quarterly earnings will be announced at the annual shareholders' meeting next month.",
+          "Employees who fail to submit timesheets will forfeit their parking privileges immediately.",
+          "The legacy portal was originally commissioned in 2012 at considerable expense to the department."
         ],
         "ans": 0,
-        "zh": "有關過渡期時程、福利延續性或自願資遣條款之問題，員工應洽詢所屬人資業務夥伴而非直屬主管，因主管目前尚未取得個人化方案的完整細節。另外，自週一起將提供專責過渡期諮詢專線，以因應排定之人資會議以外的一般問題。",
-        "why": "本段說明員工應向HR而非主管洽詢問題，選項A補充另有專線可因應一般問題，與段落主題（如何取得協助）連貫一致；選項B談丹佛辦公室歷史沿革、選項C談年度尾牙活動、選項D談芝加哥大眾運輸系統，皆與「過渡期諮詢管道」主題無關，插入後將使段落邏輯斷裂。"
+        "zh": "「7 月最後一週將舉辦一系列 30 分鐘的線上教育訓練，強烈建議每位同仁擇一場次參加。」轉換相關問題可洽財務服務台。",
+        "why": "結尾段落功能是「行動呼籲＋協助窗口」，插入句須與系統轉換直接相關且承接後句的服務台資訊，<b>教育訓練場次公告</b>最符合語篇邏輯。(B) 財報公告、(C) 工時表與停車權益皆偏離主題；(D) 舊系統的歷史成本與收尾段落的功能不符。"
       }
     ]
   }

@@ -1,119 +1,119 @@
 {
-  "date": "2026-07-09",
+  "date": "2026-07-10",
   "market_shocks": [
     {
-      "title": "美伊戰事升溫、原油先漲後跌，美股靠AI晶片股觸底反彈",
+      "title": "美股「只剩 AI 在漲」：S&P 500 收 7543 創高，但 11 大類股竟有 9 類下跌",
       "sources": [
-        {"name": "ZeroHedge", "url": "https://www.zerohedge.com/geopolitical/return-war-iran-sends-ballistic-missiles-kuwait-bahrain-qatar-jordan-after-us-struck"},
-        {"name": "Washington Post", "url": "https://www.washingtonpost.com/business/2026/07/09/stock-markets-oil-iran-ai/2a3410ae-7b51-11f1-b194-f872dd4ec5aa_story.html"},
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-07-08/latest-oil-market-news-and-analysis-for-july-9"}
+        {
+          "name": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-july-10-075400187.html"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/07/09/stock-market-today-live-updates.html"
+        }
       ],
-      "summary": "美軍對伊朗超過170處軍事目標發動空襲，伊朗隨即以彈道飛彈報復科威特、巴林、卡達與約旦，一度推升布蘭特原油站上79美元；但美股投資人選擇忽視地緣風險，聚焦AI晶片股回神，那斯達克指數當日收漲逾1%。市場對戰爭的「免疫力」再次凸顯資金對AI敘事的執著。",
-      "tw_stock_impact": "台灣為能源淨進口國，油價若持續走高將牽動航空、塑化、電力成本；但若美股不理會戰事持續靠晶片股撐盤，台積電、聯發科等權值股仍可能跟漲。",
-      "investment_insight": "短線可留意能源與航運類股的避險部位，同時觀察布蘭特原油是否站穩80美元關卡；若地緣風險未進一步惡化，AI晶片股逢回仍是加碼機會。",
-      "title_idea": "美軍炸伊朗、飛彈射向四國，華爾街竟然大漲？",
-      "local_angle": "台灣進口能源成本敏感，中油、台塑化等概念股值得關注；同時台股權值股連動美股AI晶片行情，投資人可比對台美股表現是否同步。"
+      "summary": "S&P 500 漲 0.8%、那斯達克靠 AI 巨頭漲 1.3%，但原物料、金融、非必需消費類股分別重挫 2.6%、1.9%、1.8%，漲勢極度集中。",
+      "tw_stock_impact": "AI 領漲對台積電、AI 供應鏈 ADR 連動有利，但美股廣度惡化是回檔前兆訊號，電子以外類股承壓",
+      "investment_insight": "指數創高≠雨露均霑，用等權重指數（RSP）對照市值加權可檢視漲勢健康度；集中度過高時分批減碼追高部位",
+      "title_idea": "美股創新高卻有 9 成類股在跌？「AI 獨撐」行情的危險訊號",
+      "local_angle": "台股同樣「電子一枝獨秀」，可對照台灣 50 與櫃買指數的背離，講給存股族聽"
     },
     {
-      "title": "台股摜破月線大跌379點，記憶體股逆勢噴出、台積電除息155億入帳",
+      "title": "荷莫茲海峽戰火重燃：布蘭特原油站上 76 美元、單週漲近 6%",
       "sources": [
-        {"name": "時報資訊", "url": "https://www.chinatimes.com/realtimenews/20260709002987-260410"},
-        {"name": "鉅亨網", "url": "https://news.cnyes.com/news/id/6528270"}
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-09/latest-oil-market-news-and-analysis-for-july-10"
+        },
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/business/markets/oil-prices-strait-hormuz-chip-stocks-rcna353328"
+        }
       ],
-      "summary": "台股加權指數7月9日重挫379.8點、收45,354.61點，攻克月線失敗，外資賣壓未歇；但記憶體概念股逆勢走強，南亞科攻上漲停、華邦電與旺宏分別大漲逾4%與3%，同一天台積電除息，約155.6億元現金股利流入市場。",
-      "tw_stock_impact": "台積電除息後的除權息缺口需靠填息表現觀察後續資金動向，若除息資金回頭布局記憶體或中小型股，短線資金輪動效應值得留意。",
-      "investment_insight": "除息後現金入帳資金潮通常帶動中小型股表態，可鎖定記憶體、被動元件等法說旺季題材，同時追蹤台積電填息速度作為大盤情緒指標。",
-      "title_idea": "台股崩379點那天，台積電悄悄配了155億現金給你",
-      "local_angle": "對持有台積電股票的散戶而言，除息當天股價下跌屬正常現象，重點在於後續填息速度；記憶體股的逆勢表現則顯示資金轉向中小型AI供應鏈。"
+      "summary": "美伊互襲延宕油輪復航，全球五分之一原油運量卡在荷莫茲海峽，油價風險溢價再起。",
+      "tw_stock_impact": "塑化、航運（油輪運價）短線受惠；航空、用電大戶成本承壓，台幣輸入性通膨壓力升溫",
+      "investment_insight": "地緣油價行情來得快去得也快，賺價差用 ETF 或期貨紀律停利，別追高持有現貨型能源股當長線",
+      "title_idea": "油價又要噴了？荷莫茲海峽危機 2.0，台灣人加油和投資都該知道的事",
+      "local_angle": "從中油浮動油價公式切入，算給觀眾看「布蘭特漲 6%，下週加油多花多少」"
     },
     {
-      "title": "SpaceX股價貼近發行價，靠獵鷹9號第36次回收紀錄止穩反彈",
+      "title": "Q2 財報季開局不穩：PepsiCo 打頭陣令市場失望，Delta 同日登場",
       "sources": [
-        {"name": "The Motley Fool", "url": "https://www.fool.com/investing/2026/07/09/spacex-stock-down-20000-worth-this-much-mid-2027/"},
-        {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/article/spacex-stock-in-focus-as-launch-starlink-business-hit-new-milestones-153225745.html"}
+        {
+          "name": "Charles Schwab",
+          "url": "https://www.schwab.com/learn/story/stock-market-update-open"
+        }
       ],
-      "summary": "SpaceX（SPCX）股價本週一度跌破150美元的上市承銷價、來到145.20美元歷史新低，7月9日靠獵鷹9號完成第36次回收紀錄、單次發射29顆星鏈衛星後止穩，股價回彈約2.6%。分析師仍看多其火箭事業長期價值。",
-      "tw_stock_impact": "SpaceX剛納入那斯達克100指數，台灣衛星通訊供應鏈概念股（如穩懋、啟碁、正文等）股價連動性提高，SpaceX股價劇烈波動可能牽動台廠的短線評價修正。",
-      "investment_insight": "追蹤SpaceX相關台灣供應鏈個股時，應留意SPCX股價是否跌破IPO價形成的心理關卡；若持續破底恐使供應鏈股評價同步承壓，長線則可分批布局訂單能見度高的衛星零組件廠。",
-      "title_idea": "馬斯克的SpaceX股價竟然跌破承銷價，台灣供應鏈躺著也中槍？",
-      "local_angle": "許多台灣投資人透過概念股間接參與SpaceX熱潮，SPCX股價劇烈修正提醒投資人留意「蜜月期過後」的評價風險。"
+      "summary": "百事財報未達預期揭開財報季序幕，市場緊盯消費與航空業指引驗證經濟降溫程度。",
+      "tw_stock_impact": "美國消費動能若轉弱，台灣出口電子消費性產品（PC、手機鏈）下半年旺季預期恐下修",
+      "investment_insight": "財報季首週看「指引」比看 EPS 重要，消費龍頭下修指引往往是景氣循環股的領先賣出訊號",
+      "title_idea": "財報季第一槍就啞火！百事失望開局，暗示美國消費者開始縮手？",
+      "local_angle": "連結台灣「毛三到四」代工廠的旺季效應，讓電子股股東知道美國消費數據為何重要"
     }
   ],
   "investment_opportunities": [
     {
-      "title": "「大空頭」Burry放空輝達美光超微特斯拉，轉押注博弈股獲利",
+      "title": "SK Hynix 美股 IPO 募 265 億美元創紀錄，AI 記憶體軍備賽資本戰開打",
       "sources": [
-        {"name": "CasinoBeats", "url": "https://casinobeats.com/2026/07/09/the-big-bet-michael-burry-backs-sportsbooks-to-overcome-prediction-market-threat/"},
-        {"name": "Benzinga", "url": "https://www.benzinga.com/markets/tech/26/07/60207524/big-short-investor-michael-burry-reveals-tesla-nvidia-shorts-says-chip-boom-is-beginning-of-the-end"},
-        {"name": "MarketScreener", "url": "https://www.marketscreener.com/news/michael-burry-buys-flutter-draftkings-shares-betting-prediction-market-threat-will-fade-ce7f5ed9dc8af323"}
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/"
+        }
       ],
-      "summary": "「大空頭」原型人物Michael Burry近日公開放空輝達、美光、超微與特斯拉，並稱晶片熱潮已是「終局的開始」；同時他買進DraftKings與Flutter Entertainment股票，賭注監管機關將打壓Kalshi、Polymarket等預測市場平台，讓傳統博弈公司受惠。",
-      "tw_stock_impact": "輝達、美光、超微皆是台廠（台積電、日月光、記憶體模組廠）重要客戶或競爭對手，若AI晶片股真如Burry所言見頂修正，台灣半導體供應鏈訂單能見度恐受影響，需留意法人資金是否跟進調節。",
-      "investment_insight": "不需盲目跟單放空，但可將Burry的疑慮納入風險管理：分散持股、設定停利點，並關注輝達、美光財報是否出現需求疑慮的早期訊號；博弈類股受惠預測市場監管的邏輯屬美股利基題材，台灣投資人可透過ETF間接參與。",
-      "title_idea": "『大空頭』本尊突襲放空輝達美光，卻偷偷買進博弈股大賺一筆",
-      "local_angle": "台灣記憶體、封測廠與輝達、美光供應鏈連動度高，Burry的空頭論點值得作為法說會提問參考，避免對AI基本面過度樂觀。"
+      "summary": "史上最大外國企業赴美 IPO，資金將投入 HBM 擴產，並被要求在美建新廠。",
+      "tw_stock_impact": "HBM 擴產利多台積電 CoWoS 先進封裝鏈、測試介面廠；但記憶體供給增加對台系模組廠報價是雙面刃",
+      "investment_insight": "記憶體是強週期產業，IPO 熱潮常出現在景氣高點附近；參與台鏈受惠股優於直接追高掛牌蜜月行情",
+      "title_idea": "募 265 億美元！SK Hynix 世紀 IPO，台股這幾檔跟著吃紅利",
+      "local_angle": "把「HBM 是什麼、台廠賺哪段」用一張供應鏈圖講清楚，散戶最缺這種地圖"
     },
     {
-      "title": "Burry加碼中國電商股，看好港股受惠南韓日本AI熱潮降溫",
+      "title": "地緣風險溢價行情：能源股與油輪航運股成短線資金避風港",
       "sources": [
-        {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/jd-baba-stocks-focus-michael-083133438.html"}
+        {
+          "name": "Intellectia",
+          "url": "https://intellectia.ai/blog/brent-crude-oil-price-surge-july-2026"
+        }
       ],
-      "summary": "Michael Burry近期加碼京東（JD）持股，並表示看好港股後市，理由是南韓記憶體與日本AI概念股熱潮降溫後，資金可能轉向估值相對便宜的香港中國科技股。",
-      "tw_stock_impact": "若資金真的從南韓記憶體與日本AI股撤出轉進港股，可能連帶排擠對台灣記憶體、IC設計股的資金動能，是觀察外資資金流向轉變的領先指標。",
-      "investment_insight": "可留意南韓記憶體大廠（SK海力士、三星）股價動能是否轉弱，作為判斷資金是否真的轉向中國/港股的先行訊號；台灣投資人若想跟進中國科技股輪動，可透過香港掛牌ETF小額參與，但需留意中國監管與地緣風險。",
-      "title_idea": "大空頭悄悄加碼京東，資金要從南韓AI股轉戰香港了？",
-      "local_angle": "台灣記憶體供應鏈（南亞科、華邦電）與南韓大廠競合關係密切，若資金流向如Burry所言轉向，台廠訂單與報價可能出現此消彼長效應。"
-    },
-    {
-      "title": "SpaceX閃電納入那斯達克100，被動資金估43億美元湧入",
-      "sources": [
-        {"name": "CNN Business", "url": "https://www.cnn.com/2026/07/07/economy/spacex-nasdaq-100-stocks"},
-        {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-joins-nasdaq-100-index-115116736.html"},
-        {"name": "Aciemind", "url": "https://aciemind.com/en/en/posts/taiwan-spacex-stocks-guide"}
-      ],
-      "summary": "SpaceX在IPO短短數週後就因那斯達克放寬指數門檻而納入那斯達克100指數，摩根大通估計將引動約43億美元的被動資金買盤；台灣供應鏈中的衛星零組件、砷化鎵晶圓代工等概念股也因此再度受到市場關注。",
-      "tw_stock_impact": "台灣衛星通訊供應鏈（如穩懋、啟碁、正文）常被視為SpaceX代理概念股，被動資金追蹤效應雖主要發生在美股，但可能透過評價聯動、法人報告帶動台廠股價的情緒行情。",
-      "investment_insight": "布局SpaceX概念股前應先確認個股實際對SpaceX的營收貢獻占比，避免僅憑「概念股」名號追高；被動資金帶來的買盤多為一次性效應，建議等指數化資金潮消化後再評估。",
-      "title_idea": "SpaceX才上市就殺入那斯達克100，台灣概念股跟著噴了？",
-      "local_angle": "台灣投資人熱衷追逐SpaceX概念股，但需分辨真正供應鏈廠商與純粹話題性個股的差異，避免淪為籌碼行情的最後一棒。"
-    },
-    {
-      "title": "美光砸2500億美元擴廠，AI記憶體需求熱度不減",
-      "sources": [
-        {"name": "ZeroHedge", "url": "https://www.zerohedge.com/news/2026-07-09/more-evidence-ai-boom-has-legs"},
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-07-09/us-stock-futures-today-ionis-levi-salesforce-simply-good-foods"}
-      ],
-      "summary": "美光科技宣布將美國新廠投資規模擴大至2500億美元以滿足AI帶動的記憶體需求，同一天Penguin Solutions公布優於預期的財報並上調財測，市場解讀為AI基礎建設支出熱潮尚未見頂的又一佐證。",
-      "tw_stock_impact": "美光擴大資本支出意味記憶體市況維持緊俏，對台灣記憶體模組廠、測試廠（如南亞科、華邦電、力積電）屬於正向訊號，有機會延續漲價循環的紅利。",
-      "investment_insight": "可持續追蹤DRAM、NAND現貨與合約價走勢，作為判斷記憶體循環是否持續的依據；若價格續揚，台灣記憶體概念股的營收動能可望隨之上修，適合作為中期布局標的。",
-      "title_idea": "美光豪砸2500億美元擴廠，記憶體超級循環還能撐多久？",
-      "local_angle": "台灣記憶體三雄（南亞科、華邦電、旺宏）長年跟隨美光報價循環，美光擴產訊息可作為觀察台廠訂單能見度與股價評價的重要指標。"
+      "summary": "油價週漲近 6% 帶動能源類股與油輪運價指數走強，資金從估值偏高的科技股外溢。",
+      "tw_stock_impact": "台股對應標的：塑化雙雄、裕民、新興等散裝油輪航運，短線動能題材",
+      "investment_insight": "風險溢價行情屬事件驅動，設定「事件降溫即出場」紀律；用石油 ETF 參與比選個股單純",
+      "title_idea": "科技股太貴怎麼辦？油價危機下的「舊經濟」避險名單",
+      "local_angle": "回顧 2022 年航運行情的教訓：事件行情的進出場紀律，台灣散戶最痛的一課"
     }
   ],
   "macro_observations": [
     {
-      "title": "Burry嗆馬斯克AI全民高收入計畫：革命會先發生",
+      "title": "通膨預期衝上近三年高點，Fed 主席 Warsh 國會證詞成下週最大變數",
       "sources": [
-        {"name": "IBTimes UK", "url": "https://www.ibtimes.co.uk/elon-musk-universal-high-income-ai-plan-criticism-1807364"},
-        {"name": "Benzinga", "url": "https://www.benzinga.com/markets/tech/26/07/60236453/michael-burry-hints-his-ai-bear-thesis-goes-beyond-tesla-and-nvidia-shorts"}
+        {
+          "name": "Charles Schwab",
+          "url": "https://www.schwab.com/learn/story/stock-market-update-open"
+        },
+        {
+          "name": "U.S. Bank",
+          "url": "https://www.usbank.com/investing/financial-perspectives/market-news/stock-market-under-trump.html"
+        }
       ],
-      "summary": "馬斯克在X上力推「全民高收入」願景，主張AI與機器人將創造巨大財富、讓政府得以發放高額基本收入、工作將變成選擇性；Michael Burry則公開反駁，直言在那之前「革命會先發生」，並質疑AI相關股票估值已嚴重脫離基本面。",
-      "tw_stock_impact": "這場辯論凸顯市場對AI敘事的兩極看法，若樂觀情緒占上風，台灣AI供應鏈估值可望維持高檔；但若如Burry所言泡沫提前破裂，台廠訂單與股價評價恐面臨同步修正風險。",
-      "investment_insight": "對於高度仰賴AI敘事的台股資產（如AI伺服器、散熱、機殼供應鏈），建議設定分批停利機制，同時關注輝達、超微等美股權值股的財報guidance是否出現保守化跡象，作為提早應對估值修正的訊號。",
-      "title_idea": "馬斯克畫大餅：AI讓你不用工作也有錢領，大空頭：先有革命吧",
-      "local_angle": "台灣AI供應鏈（伺服器、散熱、機殼）股價深受美股AI敘事牽動，這場多空辯論值得作為評估手中AI概念股風險部位的參考指標。"
+      "summary": "油價衝擊疊加通膨預期升溫，市場原本押注下半年多次降息的劇本開始動搖。",
+      "tw_stock_impact": "降息預期收斂＝美元轉強、外資匯出壓力，台股高估值電子股評價面首當其衝",
+      "investment_insight": "把「降息次數」當成儀表板：利率期貨定價每少一碼，高本益比成長股就該多一分謹慎",
+      "title_idea": "說好的降息呢？油價一把火燒掉 Fed 劇本，下半年行情重新定價",
+      "local_angle": "解釋美債殖利率→美元→外資動向→台股的傳導鏈，用一條線講懂總經"
     },
     {
-      "title": "黃金人民幣基建整合、台股延長交易時間喊卡",
+      "title": "Schwab 點名四大不確定性：Fed 政策、AI 資本支出、融資餘額高檔、日圓疲弱",
       "sources": [
-        {"name": "ZeroHedge", "url": "https://www.zerohedge.com/news/2026-07-09/gold-and-yuan-now-under-one-roof"},
-        {"name": "鉅亨網", "url": "https://news.cnyes.com/news/id/6528065"}
+        {
+          "name": "Charles Schwab",
+          "url": "https://www.schwab.com/learn/story/stock-market-update-open"
+        }
       ],
-      "summary": "中國近期整合黃金與人民幣相關基礎建設，加速推動人民幣國際化與去美元化布局；同一天台灣金管會表態，延長台股交易時間的提案「目前沒有規劃」暫無時間表，僅確定零股交易時間將提前至上午9點與整股同步開盤。",
-      "tw_stock_impact": "去美元化趨勢若持續發酵，可能推升黃金及相關資源類股評價；台灣交易時間維持現狀，代表台股流動性結構短期不會改變，投資人不必為「延長交易時間」的傳言預先調整策略。",
-      "investment_insight": "可留意黃金ETF、資源股作為對沖地緣政治與去美元化風險的部位；台股制度面而言，零股併入整股同步開盤（年底前上路）將提升零股流動性，適合小額投資人分批布局高價股。",
-      "title_idea": "中國悄悄把黃金和人民幣綁在一起，台股延長交易卻直接喊卡",
-      "local_angle": "台灣小資族常靠零股投資高價股（如台積電），零股同步開盤新制上路後買賣價差可望縮小，是實際攸關散戶交易體驗的政策改變。"
+      "summary": "券商提醒美股多頭背後的四個結構性風險，其中融資餘額（margin debt）處於歷史高位最受關注。",
+      "tw_stock_impact": "日圓疲弱牽動日股與台股的外資配置消長；融資餘額高檔意味回檔時賣壓會被槓桿放大",
+      "investment_insight": "多頭末段的特徵是「利多鈍化、槓桿升高」，檢查自己的持股是否經得起 10% 快速回檔",
+      "title_idea": "美股的四顆未爆彈：現在該貪婪還是恐懼？看這 4 個指標就知道",
+      "local_angle": "台股融資餘額同步在高檔，用兩地數據對照講「槓桿風險」，比純喊多空有料"
     }
   ]
 }
