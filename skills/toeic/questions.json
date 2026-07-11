@@ -1,111 +1,111 @@
 {
-  "date": "2026-07-11",
+  "date": "2026-07-12",
   "p5": [
     {
-      "id": "2026-07-11-p5-0",
-      "tag": "假設語氣倒裝",
-      "pre": "",
-      "post": " the merger agreement been ratified by the board last quarter, the two firms would have consolidated their back-office operations by the end of the fiscal year.",
+      "id": "2026-07-12-p5-0",
+      "tag": "非限定關係子句",
+      "pre": "The board approved the proposed merger without further amendment, ",
+      "post": " surprised even the negotiating team.",
       "opts": [
-        "Had",
-        "Should",
-        "Were",
-        "Unless"
-      ],
-      "ans": 0,
-      "zh": "假使合併協議上一季已獲董事會批准，兩家公司原本可在本會計年度結束前完成後勤部門的整併。",
-      "why": "與過去事實相反的第三類假設語氣，省略 if 時須將助動詞 <b>Had</b> 倒裝至句首（Had + 主詞 + 過去分詞）。<b>Should</b> 用於對未來的假設、<b>Were</b> 用於 be 動詞的第二類假設，皆無法搭配過去完成式結構；<b>Unless</b> 是連接詞，需接完整子句且語意不符。"
-    },
-    {
-      "id": "2026-07-11-p5-1",
-      "tag": "分詞構句（被動）",
-      "pre": "",
-      "post": " to mounting regulatory scrutiny, the bank suspended its cross-border derivatives program pending the outcome of an internal audit.",
-      "opts": [
-        "Subjected",
-        "Subjecting",
-        "To subject",
-        "Subjection"
-      ],
-      "ans": 0,
-      "zh": "由於面臨日益升高的監管審查，該銀行暫停了跨境衍生性商品業務，靜候內部稽核結果出爐。",
-      "why": "分詞構句的主詞即主要子句主詞 the bank，而銀行是「被置於」審查之下（be subjected to），語意為被動，須用過去分詞 <b>Subjected</b>，相當於 Because it was subjected to...。<b>Subjecting</b> 為主動語意不符；不定詞與名詞在此無法構成分詞構句。"
-    },
-    {
-      "id": "2026-07-11-p5-2",
-      "tag": "讓步介系詞",
-      "pre": "",
-      "post": " repeated assurances from the vendor, the procurement committee remained unconvinced that the revised delivery schedule could be honored.",
-      "opts": [
-        "Notwithstanding",
-        "Nevertheless",
-        "Whereas",
-        "Albeit"
-      ],
-      "ans": 0,
-      "zh": "儘管供應商一再保證，採購委員會仍不相信修訂後的交貨時程能夠兌現。",
-      "why": "空格後接名詞片語 repeated assurances，須用介系詞；<b>Notwithstanding</b> 為正式書面用語，等同 despite／in spite of。<b>Nevertheless</b> 是副詞不能直接接名詞；<b>Whereas</b> 是連接詞須接完整子句；<b>Albeit</b> 慣用上接形容詞或副詞片語（albeit briefly），不接一般名詞片語。"
-    },
-    {
-      "id": "2026-07-11-p5-3",
-      "tag": "名詞子句",
-      "pre": "The arbitration panel must first determine ",
-      "post": " the contractor is entitled to compensation for delays attributable to force majeure.",
-      "opts": [
-        "whether",
+        "which",
         "that",
         "what",
-        "which"
+        "who"
       ],
       "ans": 0,
-      "zh": "仲裁庭必須先行裁定，承包商是否有權就可歸因於不可抗力的延誤取得補償。",
-      "why": "determine 之後接名詞子句作受詞，且「裁定」的對象是尚無定論的二選一問題（有權或無權），須用表「是否」的 <b>whether</b>。<b>that</b> 引導的是既定事實，與「有待裁定」語意矛盾；<b>what</b>／<b>which</b> 須在子句中擔任主詞或受詞等成分，但本句子句結構已完整，無缺空位。"
+      "zh": "董事會未經進一步修訂便通過了此項合併提案，這一點連談判團隊本身都感到意外。",
+      "why": "逗號後的子句是對「前面整個事件」的補充說明，而非修飾單一名詞，須用非限定關係代名詞 <b>which</b> 指代整句。<b>that</b> 不可用於逗號後的非限定用法；<b>what</b> 本身已含先行詞、不可再接先行詞；<b>who</b> 只能指人，不能指代前述事件。"
     },
     {
-      "id": "2026-07-11-p5-4",
-      "tag": "否定副詞倒裝",
-      "pre": "Rarely ",
-      "post": " so comprehensive an overhaul of its compliance framework in so short a span as the brokerage undertook this spring.",
+      "id": "2026-07-12-p5-1",
+      "tag": "進階動詞語意辨別",
+      "pre": "The confidentiality clause explicitly ",
+      "post": " any disclosure of the settlement terms to third parties.",
       "opts": [
-        "has the industry witnessed",
-        "the industry has witnessed",
-        "the industry witnessed",
-        "did the industry witnessed"
+        "precludes",
+        "precedes",
+        "proceeds",
+        "presides"
       ],
       "ans": 0,
-      "zh": "業界鮮少在如此短的期間內，見證如同這家券商今年春天所推動的這般全面的法遵制度改革。",
-      "why": "否定副詞 <b>Rarely</b> 置於句首時，主詞與助動詞必須倒裝，形成「Rarely + 助動詞 + 主詞 + 動詞」；描述至今為止的經驗用現在完成式，故選 <b>has the industry witnessed</b>。(B)(C) 未倒裝即不合法；(D) did 之後應接原形動詞 witness，witnessed 為動詞形式錯誤。"
+      "zh": "保密條款明確排除了向第三方揭露和解條款內容的可能性。",
+      "why": "<b>precludes</b>（排除、杜絕……的可能性）後接名詞片語，語意為「使某事不可能發生」，與「條款禁止揭露」語意相符。<b>precedes</b> 意為「在……之前」、<b>proceeds</b> 意為「進行」、<b>presides</b> 意為「主持」，皆與語境不符。"
+    },
+    {
+      "id": "2026-07-12-p5-2",
+      "tag": "比較結構",
+      "pre": "",
+      "post": " the litigation drags on, the more reluctant investors will be to commit additional capital.",
+      "opts": [
+        "The longer",
+        "The long",
+        "Longer",
+        "As long as"
+      ],
+      "ans": 0,
+      "zh": "訴訟拖得愈久，投資人就愈不願意投入額外的資金。",
+      "why": "「the + 比較級……, the + 比較級……」為相關比較句型，表示兩件事程度同步變化，空格須為比較級 <b>The longer</b>。<b>The long</b> 非比較級形式；<b>Longer</b> 缺少定冠詞 the，不符此句型固定結構；<b>As long as</b>（只要）為條件連接詞，會改變句意且無法與後半的 the more 呼應。"
+    },
+    {
+      "id": "2026-07-12-p5-3",
+      "tag": "獨立分詞構句",
+      "pre": "",
+      "post": ", the acquiring company proceeded to integrate the target's supply chain within the agreed ninety-day window.",
+      "opts": [
+        "Regulatory approval having been secured",
+        "Regulatory approval secured being",
+        "Having secured regulatory approval, it",
+        "Regulatory approval was secured"
+      ],
+      "ans": 0,
+      "zh": "在取得監管核准後，收購方隨即著手在協議的九十天期限內整合目標公司的供應鏈。",
+      "why": "獨立分詞構句（Absolute Construction）本身自帶主詞，且此主詞（regulatory approval）與主要子句主詞（the acquiring company）不同；核准是「被取得」，須用完成式被動分詞 <b>Regulatory approval having been secured</b>。(B) 詞序錯誤；(C) 分詞構句後又冗贅加上主詞 it，文法不通；(D) 為完整子句，與主要子句直接以逗號相連會形成連寫句（comma splice）。"
+    },
+    {
+      "id": "2026-07-12-p5-4",
+      "tag": "假設語氣（祈使動詞子句）",
+      "pre": "The compliance officer insisted that the flagged transaction ",
+      "post": " before quarter-end, regardless of the client's objections.",
+      "opts": [
+        "be reported",
+        "is reported",
+        "was reported",
+        "reports"
+      ],
+      "ans": 0,
+      "zh": "法遵主管堅持要求，無論客戶如何反對，都必須在本季結束前呈報這筆列管交易。",
+      "why": "當 insist 表示「堅持要求」（而非單純陳述事實）時，其後 that 子句須用祈使動詞（虛擬語氣）原形，不隨人稱或時態變化，故選 <b>be reported</b>。句尾 regardless of the client's objections 顯示此為強制要求而非單純陳述，(B)(C)(D) 均為一般直述語態，不符祈使語氣的固定用法。"
     }
   ],
   "p6": {
-    "id": "2026-07-11-p6",
-    "title": "MEMO: Migration to the New Expense Reimbursement Platform",
+    "id": "2026-07-12-p6",
+    "title": "MEMO: Revised Client Data Retention Policy",
     "seg": [
       [
-        "To all department heads: Effective 1 August, all travel and entertainment claims ",
+        "To all account managers: Beginning 15 August, all client records currently stored on the legacy archive server ",
         {
           "b": 0
         },
-        " to the company's new expense platform, ExpenseHub, which consolidates submission, approval, and audit functions within a single interface."
+        " to the newly certified encrypted repository, in accordance with the data-retention guidelines recently issued by the regulator."
       ],
       [
         {
           "b": 1
         },
-        ", employees should continue to file claims through the legacy portal; any receipts dated after 31 July must, however, be retained for submission once the new system goes live."
+        " account managers need not take any manual action; the migration will run automatically overnight across three consecutive weekends."
       ],
       [
-        "Please note that expenses ",
+        "Please note that any records ",
         {
           "b": 2
         },
-        " prior to the cutover date remain reimbursable under the current policy, provided they are submitted within ninety days of the transaction."
+        " after the cutover date will be subject to the new sixty-day minimum retention rule, superseding the previous thirty-day threshold."
       ],
       [
         {
           "b": 3
         },
-        " Questions regarding the transition may be directed to the Finance Service Desk."
+        " Any questions about the new retention thresholds should be directed to the Data Governance team before the first migration weekend."
       ]
     ],
     "blanks": [
@@ -113,53 +113,53 @@
         "tag": "時態語態",
         "col1": true,
         "opts": [
-          "will be migrated",
-          "will migrate",
-          "have migrated",
-          "are migrating"
+          "will be transferred",
+          "will transfer",
+          "have transferred",
+          "are transferring"
         ],
         "ans": 0,
-        "zh": "致各部門主管：自 8 月 1 日起，所有差旅與交際費用申報「將被移轉」至公司新的費用平台 ExpenseHub，該平台將申報、簽核與稽核功能整合於單一介面。",
-        "why": "主詞 claims（申報單）是「被移轉」的對象，語意為被動；搭配 Effective 1 August 表未來生效時點，須用未來式被動語態 <b>will be migrated</b>。其餘選項皆為主動語態，申報單無法自行移轉，語意不通。"
+        "zh": "致各客戶經理：自 8 月 15 日起，現存於舊版封存伺服器上的所有客戶紀錄「將被移轉」至新認證的加密儲存庫，以符合主管機關近期發布的資料保留規範。",
+        "why": "主詞 records（紀錄）是「被移轉」的對象，語意為被動；搭配 Beginning 15 August 表未來生效時點，須用未來式被動語態 <b>will be transferred</b>。其餘選項皆為主動語態，紀錄無法自行移轉，語意不通。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
         "opts": [
-          "In the interim",
-          "Consequently",
-          "By contrast",
-          "Notwithstanding"
+          "Accordingly,",
+          "In addition,",
+          "By comparison,",
+          "Even so,"
         ],
         "ans": 0,
-        "zh": "「在此過渡期間」，同仁應繼續透過舊系統入口申報；惟 7 月 31 日之後開立的單據務必保留，待新系統上線後再行提交。",
-        "why": "上文說 8 月 1 日切換新平台，本句講的是切換前的過渡安排，語意上需要「在此期間」的承接詞，故選 <b>In the interim</b>。<b>Consequently</b>（因此）表因果、<b>By contrast</b>（相較之下）表對比，皆不符語境；<b>Notwithstanding</b> 為介系詞／副詞，用法與語意均不合。"
+        "zh": "「因此」，客戶經理無需採取任何人工作業；遷移程序將於連續三個週末的夜間自動執行。",
+        "why": "前句說明遷移將自動進行，本句「無需人工操作」是其直接結果，須用表因果承接的 <b>Accordingly</b>。<b>In addition</b>（此外）表補充、<b>By comparison</b>（相較之下）表對比、<b>Even so</b>（即便如此）表讓步，皆與前後句的因果關係不符。"
       },
       {
         "tag": "詞彙語意",
         "col1": true,
         "opts": [
-          "incurred",
-          "occurred",
-          "expended",
-          "transpired"
+          "compiled",
+          "conceived",
+          "convened",
+          "conceded"
         ],
         "ans": 0,
-        "zh": "請注意：於切換日之前「發生」的費用，仍依現行政策辦理核銷，惟須於交易日起九十日內提交申請。",
-        "why": "「發生費用」的固定搭配是 <b>incur expenses</b>，此處為過去分詞片語 expenses incurred...（被產生的費用）修飾名詞。<b>occurred</b>／<b>transpired</b> 為不及物動詞，不能構成被動修飾；<b>expended</b> 意為「被花掉」，與「產生費用而待核銷」的語意有出入，且慣用上不與 expenses 搭配。"
+        "zh": "請注意，切換日之後「彙整」的任何紀錄，將適用新的六十天最低保留規定，取代先前的三十天門檻。",
+        "why": "「彙整紀錄」的慣用搭配是 records compiled，<b>compiled</b> 意為蒐集彙整成冊，語意與搭配對象皆正確。<b>conceived</b>（構思，通常用於想法而非紀錄）、<b>convened</b>（召集會議）、<b>conceded</b>（讓步、承認）皆與「紀錄」語意不搭。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "A series of thirty-minute training webinars will be held during the last week of July, and attendance at one session is strongly encouraged.",
-          "The company's quarterly earnings will be announced at the annual shareholders' meeting next month.",
-          "Employees who fail to submit timesheets will forfeit their parking privileges immediately.",
-          "The legacy portal was originally commissioned in 2012 at considerable expense to the department."
+          "A brief FAQ document outlining the revised retention periods has been posted to the compliance intranet page.",
+          "The company's annual data protection audit will take place in October.",
+          "Employees who violate the retention policy will face immediate termination.",
+          "The legacy archive server was first installed in 2009 and has required frequent maintenance since."
         ],
         "ans": 0,
-        "zh": "「7 月最後一週將舉辦一系列 30 分鐘的線上教育訓練，強烈建議每位同仁擇一場次參加。」轉換相關問題可洽財務服務台。",
-        "why": "結尾段落功能是「行動呼籲＋協助窗口」，插入句須與系統轉換直接相關且承接後句的服務台資訊，<b>教育訓練場次公告</b>最符合語篇邏輯。(B) 財報公告、(C) 工時表與停車權益皆偏離主題；(D) 舊系統的歷史成本與收尾段落的功能不符。"
+        "zh": "「合規內部網站已張貼一份簡要 FAQ，說明新版保留期限規定。」有關新保留門檻的任何問題，請於首個遷移週末前洽資料治理團隊。",
+        "why": "結尾段落的功能是提供自助資源並銜接「若有疑問請洽詢」，插入句須與此邏輯直接相關，<b>FAQ 文件公告</b>最為切題。(B) 年度稽核時間、(C) 違規懲處、(D) 舊伺服器的建置歷史皆偏離本段主旨。"
       }
     ]
   }
