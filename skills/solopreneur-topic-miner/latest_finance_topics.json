@@ -1,119 +1,117 @@
 {
-  "date": "2026-07-10",
+  "date": "2026-07-11",
   "market_shocks": [
     {
-      "title": "美股「只剩 AI 在漲」：S&P 500 收 7543 創高，但 11 大類股竟有 9 類下跌",
+      "title": "麥可貝瑞放空輝達、特斯拉，警告半導體指數「終局的開始」",
       "sources": [
-        {
-          "name": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-july-10-075400187.html"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/07/09/stock-market-today-live-updates.html"
-        }
+        {"name": "Benzinga", "url": "https://www.benzinga.com/markets/tech/26/07/60207524/big-short-investor-michael-burry-reveals-tesla-nvidia-shorts-says-chip-boom-is-beginning-of-the-end"},
+        {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/watch-nvda-stock-investors-michael-155307090.html"}
       ],
-      "summary": "S&P 500 漲 0.8%、那斯達克靠 AI 巨頭漲 1.3%，但原物料、金融、非必需消費類股分別重挫 2.6%、1.9%、1.8%，漲勢極度集中。",
-      "tw_stock_impact": "AI 領漲對台積電、AI 供應鏈 ADR 連動有利，但美股廣度惡化是回檔前兆訊號，電子以外類股承壓",
-      "investment_insight": "指數創高≠雨露均霑，用等權重指數（RSP）對照市值加權可檢視漲勢健康度；集中度過高時分批減碼追高部位",
-      "title_idea": "美股創新高卻有 9 成類股在跌？「AI 獨撐」行情的危險訊號",
-      "local_angle": "台股同樣「電子一枝獨秀」，可對照台灣 50 與櫃買指數的背離，講給存股族聽"
+      "summary": "電影《大賣空》原型投資人麥可貝瑞近日揭露放空輝達（進場價198.09美元）與特斯拉（416.22美元）的部位，並點名費城半導體指數（SOXX）本益比過高，直言「這是終局的開始」，市場譁然。",
+      "tw_stock_impact": "輝達與特斯拉是台股半導體供應鏈（台積電、日月光等）的最大下游客戶，若AI晶片股遭大戶做空引爆估值修正，台廠訂單能見度與股價可能同步承壓。",
+      "investment_insight": "對追高AI/半導體類股的投資人建議設定停利停損點，並關注SOXX指數本益比與客戶集中度風險，不宜All-in單一族群。",
+      "title_idea": "「大賣空」本尊出手放空輝達！半導體末日論炸鍋",
+      "local_angle": "台積電身為輝達最大代工夥伴，若這波做空引發AI股修正，台股權值股恐首當其衝，存股族該不該現在減碼？"
     },
     {
-      "title": "荷莫茲海峽戰火重燃：布蘭特原油站上 76 美元、單週漲近 6%",
+      "title": "Saylor旗下Strategy史上最大拋售：2.16億美元比特幣換股息",
       "sources": [
-        {
-          "name": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-09/latest-oil-market-news-and-analysis-for-july-10"
-        },
-        {
-          "name": "NBC News",
-          "url": "https://www.nbcnews.com/business/markets/oil-prices-strait-hormuz-chip-stocks-rcna353328"
-        }
+        {"name": "ZeroHedge", "url": "https://www.zerohedge.com/crypto/saylors-strategy-sells-3588-bitcoin-cover-preferred-dividends"},
+        {"name": "Cryptopolitan", "url": "https://www.cryptopolitan.com/saylors-strategy-sells-3588-bitcoin-for-216m/"}
       ],
-      "summary": "美伊互襲延宕油輪復航，全球五分之一原油運量卡在荷莫茲海峽，油價風險溢價再起。",
-      "tw_stock_impact": "塑化、航運（油輪運價）短線受惠；航空、用電大戶成本承壓，台幣輸入性通膨壓力升溫",
-      "investment_insight": "地緣油價行情來得快去得也快，賺價差用 ETF 或期貨紀律停利，別追高持有現貨型能源股當長線",
-      "title_idea": "油價又要噴了？荷莫茲海峽危機 2.0，台灣人加油和投資都該知道的事",
-      "local_angle": "從中油浮動油價公式切入，算給觀眾看「布蘭特漲 6%，下週加油多花多少」"
+      "summary": "麥可塞勒旗下Strategy公司於7月6日申報以2.16億美元賣出3,588枚比特幣，用以支付四檔特別股股息，是公司史上最大單次比特幣處分紀錄，象徵「只買不賣」神話出現裂痕。",
+      "tw_stock_impact": "比特幣資產型公司若開始被迫拋幣，可能引發加密貨幣市場連鎖賣壓，間接影響台灣投資人透過複委託持有的MSTR部位與比特幣ETF。",
+      "investment_insight": "持有MSTR或比特幣槓桿部位者應留意「股息義務→被迫賣幣」的循環風險，槓桿式比特幣代理股波動度可能被低估。",
+      "title_idea": "比特幣信仰崩了？Saylor親手賣幣付股息",
+      "local_angle": "台灣越來越多投資人透過複委託買進MSTR或比特幣ETF，這是檢視「比特幣永不賣」神話破功的第一手警訊。"
     },
     {
-      "title": "Q2 財報季開局不穩：PepsiCo 打頭陣令市場失望，Delta 同日登場",
+      "title": "颱風巴威攪局，台積電6月營收延至7/13公布",
       "sources": [
-        {
-          "name": "Charles Schwab",
-          "url": "https://www.schwab.com/learn/story/stock-market-update-open"
-        }
+        {"name": "工商時報", "url": "https://www.ctee.com.tw/news/20260710700774-430201"},
+        {"name": "財報狗", "url": "https://statementdog.com/news/17069"}
       ],
-      "summary": "百事財報未達預期揭開財報季序幕，市場緊盯消費與航空業指引驗證經濟降溫程度。",
-      "tw_stock_impact": "美國消費動能若轉弱，台灣出口電子消費性產品（PC、手機鏈）下半年旺季預期恐下修",
-      "investment_insight": "財報季首週看「指引」比看 EPS 重要，消費龍頭下修指引往往是景氣循環股的領先賣出訊號",
-      "title_idea": "財報季第一槍就啞火！百事失望開局，暗示美國消費者開始縮手？",
-      "local_angle": "連結台灣「毛三到四」代工廠的旺季效應，讓電子股股東知道美國消費數據為何重要"
+      "summary": "受颱風巴威影響全台多縣市停班停課，台積電原定7月10日公布的6月合併營收延至7月13日下午1時30分發布，法人推估6月營收上看新台幣4,400億元、有機會創單月新高。",
+      "tw_stock_impact": "台積電是台股權王，營收公布時程異動易牽動大盤情緒與外資布局節奏，7/13數字若優於預期，可能為7/16法說會前的股價鋪墊。",
+      "investment_insight": "建議投資人留意7/13盤後數字與7/16法說會財測，颱風延後公布期間股價震盪機率提高，短線交易者可留意選擇權隱含波動率變化。",
+      "title_idea": "颱風延誤開獎！台積電營收懸念留到下週一",
+      "local_angle": "對持有台積電或0050的台灣投資人來說，這是本週最直接攸關身家的懸念，7/13中午前務必留意公告。"
+    },
+    {
+      "title": "外資6月狂砍台股6018億元，創史上第二大單月賣超",
+      "sources": [
+        {"name": "三立新聞網", "url": "https://www.setn.com/news/1867165"},
+        {"name": "今周刊", "url": "https://www.businesstoday.com.tw/article/category/183008/post/202606300010/"}
+      ],
+      "summary": "外資6月單月賣超台股達新台幣6,017.96億元，創史上第二大紀錄，僅次於今年3月的9,682億元；其中凱基金、群創、力積電遭砍最兇，加權指數一度重挫1,683點、失守4萬5千點關卡。",
+      "tw_stock_impact": "外資是台股籌碼結構的關鍵變數，若賣超趨勢延續至7月，個股股價恐持續劇烈震盪，尤其是外資持股比重高的權值股與AI供應鏈個股。",
+      "investment_insight": "投資人可觀察投信是否持續進場承接（6月投信買超199億元），作為判斷主力籌碼是否落底的指標，留意個股是否出現「外資倒、內資撐」的價量背離。",
+      "title_idea": "史上第二大賣超炸出來！外資狂殺6千億到底在怕什麼",
+      "local_angle": "台股上半年狂飆1.7萬點後，外資獲利了結是否代表多頭已近尾聲，是所有存股族最想知道的答案。"
     }
   ],
   "investment_opportunities": [
     {
-      "title": "SK Hynix 美股 IPO 募 265 億美元創紀錄，AI 記憶體軍備賽資本戰開打",
+      "title": "外媒喊台積電「嚴重被低估」，法人估18個月後恐爆漲",
       "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/"
-        }
+        {"name": "Yahoo奇摩股市", "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB-%E8%82%A1%E5%83%B9%E5%9A%B4%E9%87%8D%E8%A2%AB%E4%BD%8E%E4%BC%B0-%E5%A4%96%E5%AA%92-18%E5%80%8B%E6%9C%88%E5%BE%8C%E6%81%90%E7%88%86%E6%BC%B2-022500168.html"},
+        {"name": "Yahoo奇摩股市", "url": "https://tw.stock.yahoo.com/news/7-16%E5%BE%8C%E8%82%A1%E5%83%B9%E8%A6%81%E5%99%B4%E4%BA%86-%E5%A4%96%E5%AA%92%E9%BB%9E%E5%90%8D-%E5%8F%B0%E7%A9%8D%E9%9B%BB-%E6%8A%95%E8%B3%87%E9%A6%96%E9%81%B8-111900034.html"}
       ],
-      "summary": "史上最大外國企業赴美 IPO，資金將投入 HBM 擴產，並被要求在美建新廠。",
-      "tw_stock_impact": "HBM 擴產利多台積電 CoWoS 先進封裝鏈、測試介面廠；但記憶體供給增加對台系模組廠報價是雙面刃",
-      "investment_insight": "記憶體是強週期產業，IPO 熱潮常出現在景氣高點附近；參與台鏈受惠股優於直接追高掛牌蜜月行情",
-      "title_idea": "募 265 億美元！SK Hynix 世紀 IPO，台股這幾檔跟著吃紅利",
-      "local_angle": "把「HBM 是什麼、台廠賺哪段」用一張供應鏈圖講清楚，散戶最缺這種地圖"
+      "summary": "外媒點名台積電為AI供應鏈投資首選，認為目前股價「嚴重被低估」，預估18個月後可望大幅走高；市場現正緊盯7月16日第二季法說會，追蹤中17位分析師有13位喊「強烈買進」，平均目標價450.46美元。",
+      "tw_stock_impact": "台積電權重占大盤逾3成，外媒喊多與法人樂觀評等可能提振買氣，是下半年台股能否挑戰新高的關鍵指標股。",
+      "investment_insight": "可將7/13營收與7/16法說會列為進出場參考點，若財測優於預期且法人上修目標價，回檔可視為分批布局機會，但需留意先前外資已大幅減碼的籌碼壓力。",
+      "title_idea": "外媒喊「嚴重低估」！台積電法說會前的最後上車機會？",
+      "local_angle": "幾乎人手一張台積電或0050的台灣投資人，最關心的就是這波外媒喊多能否應驗，以及法說會是否有驚喜財測。"
     },
     {
-      "title": "地緣風險溢價行情：能源股與油輪航運股成短線資金避風港",
+      "title": "SK海力士掛牌Nasdaq募資265億美元，AI記憶體概念股行情延燒",
       "sources": [
-        {
-          "name": "Intellectia",
-          "url": "https://intellectia.ai/blog/brent-crude-oil-price-surge-july-2026"
-        }
+        {"name": "CNBC", "url": "https://www.cnbc.com/2026/06/24/sk-hynix-nasdaq-adr-listing-south-korea.html"},
+        {"name": "Fortune", "url": "https://fortune.com/2026/07/05/sk-hynix-stock-us-listing-nasdaq-ai-boom-bust-memory-chip-shortage/"}
       ],
-      "summary": "油價週漲近 6% 帶動能源類股與油輪運價指數走強，資金從估值偏高的科技股外溢。",
-      "tw_stock_impact": "台股對應標的：塑化雙雄、裕民、新興等散裝油輪航運，短線動能題材",
-      "investment_insight": "風險溢價行情屬事件驅動，設定「事件降溫即出場」紀律；用石油 ETF 參與比選個股單純",
-      "title_idea": "科技股太貴怎麼辦？油價危機下的「舊經濟」避險名單",
-      "local_angle": "回顧 2022 年航運行情的教訓：事件行情的進出場紀律，台灣散戶最痛的一課"
+      "summary": "南韓記憶體大廠SK海力士7月10日在Nasdaq掛牌首日暴漲逾13%，募資265億美元創外國企業美股上市規模紀錄，凸顯AI伺服器對高頻寬記憶體（HBM）需求持續吃緊，市場解讀為AI熱潮是否過熱的重要風向球。",
+      "tw_stock_impact": "SK海力士掛牌熱度可能外溢至台灣記憶體與矽晶圓概念股（如南亞科、華邦電、環球晶、合晶等），帶動相關類股評價同步上修。",
+      "investment_insight": "投資人可關注台灣記憶體供應鏈個股是否出現補漲行情，但須留意HBM產能開出後可能出現的產業循環反轉風險，不宜追高。",
+      "title_idea": "SK海力士暴漲13%！AI記憶體概念股是下一個台積電？",
+      "local_angle": "台灣的南亞科、華邦電等記憶體概念股常被視為「小SK海力士」，這次美股掛牌熱潮可能成為台股補漲的下一個題材。"
+    },
+    {
+      "title": "AI股本益比飆上40倍，下半年資金轉向金融、高股息ETF、重電軍工",
+      "sources": [
+        {"name": "今周刊", "url": "https://www.businesstoday.com.tw/article/category/183008/post/202606300010/"},
+        {"name": "豐雲學堂", "url": "https://www.sinotrade.com.tw/richclub/hotstock/2026-%E4%B8%8B%E5%8D%8A%E5%B9%B4%E9%96%8B%E5%B1%80%E9%9C%87%E7%9B%AA-%E5%8F%B0%E7%BE%8E%E8%82%A1%E6%8A%95%E8%B3%87%E4%BA%BA-6-%E5%88%B0-7-%E6%9C%88%E5%BF%85%E7%9C%8B%E7%9A%84-8-%E5%A4%A7%E7%B8%BD%E7%B6%93%E4%BA%8B%E4%BB%B6-%E8%82%A1%E5%B8%82%E8%A9%B1%E9%A1%8C-6a2a2c51ab26abbf4c8173d2"}
+      ],
+      "summary": "台股上半年在AI與HPC題材帶動下大漲逾56%，但AI股本益比已從10倍飆升至40倍，市場人士認為下半年資金將轉向評價相對便宜的金融股、高股息ETF與政策驅動的重電、軍工、航運等補漲題材。",
+      "tw_stock_impact": "對於錯過AI股行情的一般投資人，下半年類股輪動可能提供新的進場機會，尤其是高股息ETF長期是台灣存股族的最愛標的。",
+      "investment_insight": "可分散配置至評價相對便宜的傳產、金融、高股息族群，降低對單一AI題材的過度曝險，並留意政策面（如國防預算、電網升級）帶來的長線題材。",
+      "title_idea": "AI股本益比飆到40倍！下半年資金悄悄轉向這三大族群",
+      "local_angle": "存股族最愛的高股息ETF被點名為下半年輪動主流，是台灣一般散戶最容易參與的資金風向題材。"
     }
   ],
   "macro_observations": [
     {
-      "title": "通膨預期衝上近三年高點，Fed 主席 Warsh 國會證詞成下週最大變數",
+      "title": "美國撤銷伊朗石油豁免，荷莫茲海峽油輪遇襲牽動油價",
       "sources": [
-        {
-          "name": "Charles Schwab",
-          "url": "https://www.schwab.com/learn/story/stock-market-update-open"
-        },
-        {
-          "name": "U.S. Bank",
-          "url": "https://www.usbank.com/investing/financial-perspectives/market-news/stock-market-under-trump.html"
-        }
+        {"name": "Axios", "url": "https://www.axios.com/2026/07/07/us-revokes-iran-oil-waivers-hormuz-strait-attacks"},
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-07-07/us-revokes-waiver-allowing-iran-oil-sales-after-tanker-attacks"}
       ],
-      "summary": "油價衝擊疊加通膨預期升溫，市場原本押注下半年多次降息的劇本開始動搖。",
-      "tw_stock_impact": "降息預期收斂＝美元轉強、外資匯出壓力，台股高估值電子股評價面首當其衝",
-      "investment_insight": "把「降息次數」當成儀表板：利率期貨定價每少一碼，高本益比成長股就該多一分謹慎",
-      "title_idea": "說好的降息呢？油價一把火燒掉 Fed 劇本，下半年行情重新定價",
-      "local_angle": "解釋美債殖利率→美元→外資動向→台股的傳導鏈，用一條線講懂總經"
+      "summary": "美國財政部7月7日撤銷原允許伊朗出口原油的臨時豁免令，起因是荷莫茲海峽近日再度傳出油輪遭不明飛行物攻擊，沙烏地與卡達籍油輪均受波及，美方同時對伊朗境內80多處目標展開新一輪軍事打擊。",
+      "tw_stock_impact": "台灣能源高度仰賴進口，若荷莫茲海峽情勢持續升溫推升油價與運費，將直接墊高台灣通膨與企業成本，航運、塑化類股股價恐劇烈波動。",
+      "investment_insight": "建議投資人留意布蘭特原油走勢與航運類股評價變化，地緣風險升溫期間可考慮增持能源或原物料相關避險部位。",
+      "title_idea": "荷莫茲海峽又出事！美國動真格撤銷伊朗石油豁免",
+      "local_angle": "台灣能源近全數仰賴進口，荷莫茲海峽若真的爆發封鎖或衝突擴大，對台灣物價與電價的衝擊將比其他國家更直接。"
     },
     {
-      "title": "Schwab 點名四大不確定性：Fed 政策、AI 資本支出、融資餘額高檔、日圓疲弱",
+      "title": "Fed主席華許7/14首度國會作證，CPI公布90分鐘後登場",
       "sources": [
-        {
-          "name": "Charles Schwab",
-          "url": "https://www.schwab.com/learn/story/stock-market-update-open"
-        }
+        {"name": "CNBC", "url": "https://www.cnbc.com/2026/07/01/warsh-faces-multiple-alternative-inflation-signs-as-fed-charts-new-course.html"},
+        {"name": "Kiplinger", "url": "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar"}
       ],
-      "summary": "券商提醒美股多頭背後的四個結構性風險，其中融資餘額（margin debt）處於歷史高位最受關注。",
-      "tw_stock_impact": "日圓疲弱牽動日股與台股的外資配置消長；融資餘額高檔意味回檔時賣壓會被槓桿放大",
-      "investment_insight": "多頭末段的特徵是「利多鈍化、槓桿升高」，檢查自己的持股是否經得起 10% 快速回檔",
-      "title_idea": "美股的四顆未爆彈：現在該貪婪還是恐懼？看這 4 個指標就知道",
-      "local_angle": "台股融資餘額同步在高檔，用兩地數據對照講「槓桿風險」，比純喊多空有料"
+      "summary": "聯準會新任主席凱文華許將於7月14日在眾議院金融服務委員會首度作證，恰好在6月CPI數據公布後僅90分鐘登場，市場預期他將被國會議員就通膨與升息路徑窮追猛打，10年期公債殖利率逼近5%的風險也成為焦點。",
+      "tw_stock_impact": "美債殖利率若因鷹派表態衝上5%，將推升美元走強與新興市場資金外流壓力，台股外資買盤動能恐進一步受抑制，連帶影響台幣匯率與出口類股獲利。",
+      "investment_insight": "建議投資人在7/14-15華許作證前後留意波動加大，可透過縮小持股部位或增加現金部位因應短線不確定性，並關注會後市場對降息機率的重新定價。",
+      "title_idea": "新科Fed主席首秀就被CPI架著打！殖利率破5%在即",
+      "local_angle": "台幣匯率與台股外資動向高度連動美債殖利率，華許這場作證恐怕比想像中更牽動台灣投資人的荷包。"
     }
   ]
 }
