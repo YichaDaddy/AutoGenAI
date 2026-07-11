@@ -1,131 +1,53 @@
 {
-  "date": "2026-07-10",
+  "date": "2026-07-11",
   "big_events": [
     {
-      "title": "Apple 正式控告 OpenAI 竊取商業機密，矛頭指向前首席硬體長 Tang Tan",
+      "title": "蘋果 iOS 27 公測將至，Siri 首度開放選用 Claude、Gemini 等第三方 AI",
       "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/"
-        }
+        {"name": "Forbes", "url": "https://www.forbes.com/sites/davidphelan/2026/07/11/apple-ios-27-release-date-when-you-can-install-iphones-new-software---public-beta-near/"}
       ],
-      "summary": "Apple 指控 OpenAI 挖角高層並不當取得機密資料，AI 硬體大戰從產品面升級為法律戰。",
-      "audience": "關注 AI 產業動態與蘋果生態系的科技上班族",
-      "pain_point": "看得懂新聞標題，卻不清楚訴訟背後的 AI 硬體卡位戰對消費者與從業者的實際影響",
-      "title_idea": "蘋果告上 OpenAI！挖角、機密、AI 硬體——這場世紀訴訟在搶什麼？",
-      "local_angle": "英文法律新聞門檻高，中文圈尚無白話拆解，搶做「訴訟背景＋雙方籌碼」懶人包紅利"
-    },
-    {
-      "title": "SK Hynix 美股 IPO 募資 265 億美元，寫下史上最大外國企業 IPO 紀錄",
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/"
-        }
-      ],
-      "summary": "AI 記憶體龍頭赴美掛牌創紀錄，並被施壓在美國新建晶圓廠支援 AI 基礎建設。",
-      "audience": "同時追 AI 產業與半導體投資題材的職場族",
-      "pain_point": "知道 HBM／記憶體很重要，但說不清 SK Hynix、三星、美光的競局與台廠位置",
-      "title_idea": "史上最大外企 IPO！SK Hynix 募 265 億美元，AI 記憶體軍備賽白熱化",
-      "local_angle": "以台灣人熟悉的台積電赴美設廠敘事對照，解讀「AI 算力在地化」的地緣政治壓力"
+      "summary": "iOS 27公測將近，Siri首次可切換Claude、Gemini取代ChatGPT",
+      "audience": "用 iPhone 處理公務的上班族、AI 效率工具愛好者",
+      "pain_point": "過去 Siri 只能綁定 ChatGPT，用戶就算已付費訂閱 Claude 或 Gemini 也無法讓 Siri 呼叫，公務與私人習慣的 AI 工具切不開",
+      "title_idea": "iOS 27要來了！Siri終於能換腦袋：一次搞懂怎麼把Siri設成Claude或Gemini",
+      "local_angle": "台灣 iPhone 使用率高，公測一釋出就搶先教「Siri 換 AI 供應商」設定教學，比中文科技媒體的翻譯報導快一步"
     }
   ],
   "tool_updates": [
     {
-      "title": "Instagram 負責人 Mosseri：用戶可自行關閉 AI 內容推薦，但平台不會主動過濾",
+      "title": "無鏡頭智慧眼鏡 Even Realities G2：主打生產力而非錄影",
       "sources": [
-        {
-          "name": "The Verge",
-          "url": "https://www.theverge.com/tech/963961/instagram-adam-mosseri-ai-feed-filters"
-        }
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/11/smart-glasses-without-a-camera-even-realities-bets-productivity-beats-recording-everyone/"}
       ],
-      "summary": "IG 選擇「標示而非封鎖」AI 生成內容，把要不要看 AI 內容的決定權交給用戶。",
-      "audience": "經營 IG 的創作者與小編",
-      "pain_point": "擔心 AI 洗版稀釋自然觸及，不知道演算法將如何對待 AI 與真人內容",
-      "title_idea": "IG 官方說話了：AI 內容不會被封殺！創作者現在該調整的 3 件事",
-      "local_angle": "設定教學＋觸及策略解讀，中文圈尚無第一手整理，適合搶快"
+      "summary": "Even G2無鏡頭無喇叭，靠AI助理Conversate輔助辦公提詞",
+      "audience": "常開會、重視隱私、對穿戴式 AI 裝置好奇的效率玩家",
+      "pain_point": "市售智慧眼鏡多主打錄影惹隱私爭議，開會或社交場合不敢戴，也怕AI裝置外型太招搖引人側目",
+      "title_idea": "沒有鏡頭的AI眼鏡：Even Realities G2怎麼讓開會、抄筆記更有效率",
+      "local_angle": "台灣尚未正式開賣，可做海外購入開箱／評測前瞻，搶佔遠距工作者與科技愛好者的資訊差紅利"
     },
     {
-      "title": "Meta 推出新推理模型與 Meta Model API，價格僅 OpenAI／Anthropic 約四分之一",
+      "title": "Claude Code v2.1.207：企業雲端環境免設定即開啟 Auto Mode，預設升級 Opus 4.8",
       "sources": [
-        {
-          "name": "CGTN",
-          "url": "https://news.cgtn.com/news/2026-07-10/OpenAI-unveils-super-app-as-rivalry-with-Anthropic-intensifies-1OF7nrvaglG/p.html"
-        }
+        {"name": "DevelopersIO", "url": "https://dev.classmethod.jp/en/articles/20260711-cc-updates-v2-1-207/"}
       ],
-      "summary": "新模型驅動 Meta AI「Thinking」模式，API 定價每百萬 tokens 輸入 1.25／輸出 4.25 美元。",
-      "audience": "串接 AI API 的獨立開發者與工具型創作者",
-      "pain_point": "模型 API 成本吃掉毛利，想找便宜替代方案又怕品質不穩",
-      "title_idea": "只要 1/4 價格！Meta 低價推理模型 API 實測：真能取代 GPT 和 Claude？",
-      "local_angle": "以中文任務實測比較三家 API 成本與品質，做「省錢方案」評測缺口"
+      "summary": "Claude Code在AWS/GCP企業環境免設定就能用Auto Mode",
+      "audience": "用 Claude Code 處理文件、自動化流程的技術型上班族與獨立開發者",
+      "pain_point": "過去要自行設定環境變數才能啟用Auto Mode，操作門檻高，企業版更新資訊又分散難追蹤",
+      "title_idea": "免設定！Claude Code企業雲端環境自動升級Auto Mode，AI辦公自動化再進化",
+      "local_angle": "台灣企業導入 AWS／GCP 做 AI 辦公自動化的比例漸增，可搶先整理此次更新對 IT 與流程自動化團隊的實際影響"
     }
   ],
   "trends": [
     {
-      "title": "太陽能公司 Sunrun 試辦「家庭 AI 算力節點」：付錢請用戶把機房搬回家",
+      "title": "「這週AI代理開始真正把工作做完」：Agentic Workflow Automation 從展示走向交件",
       "sources": [
-        {
-          "name": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/963930/sunrun-distributed-ai-data-center"
-        }
+        {"name": "Asanify", "url": "https://asanify.com/blog/news/agentic-workflow-automation-july-11-2026/"}
       ],
-      "summary": "Sunrun 將 AI 運算節點裝進用戶家中，結合屋頂太陽能付費借算力，測試分散式資料中心模式。",
-      "audience": "關注 AI 基礎建設與被動收入題材的觀眾",
-      "pain_point": "資料中心蓋不動、電力吃緊的新聞天天有，卻少有人講「一般人能參與什麼」",
-      "title_idea": "把 AI 機房搬進你家還付你錢？美國太陽能巨頭的分散式算力實驗",
-      "local_angle": "延伸討論台灣電價與屋頂光電情境，「在家挖 AI」的可行性想像題材新鮮"
-    },
-    {
-      "title": "AI 辦公「超級 App」大戰白熱化：ChatGPT Work 對決 Claude Cowork",
-      "sources": [
-        {
-          "name": "CGTN",
-          "url": "https://news.cgtn.com/news/2026-07-10/OpenAI-unveils-super-app-as-rivalry-with-Anthropic-intensifies-1OF7nrvaglG/p.html"
-        }
-      ],
-      "summary": "外媒定調 OpenAI 與 Anthropic 的競爭進入「代理型辦公平台」階段，文件、簡報、網站一站生成。",
-      "audience": "想用 AI 提升辦公效率的上班族",
-      "pain_point": "工具更新太快，不知道該押哪個平台建立工作流",
-      "title_idea": "別再問用哪個 AI 了！ChatGPT Work vs Claude Cowork 上班族選邊指南",
-      "local_angle": "以台灣常見辦公情境（中文報告、簡報、Excel）實測兩大平台，本地化評測缺口大"
-    }
-  ],
-  "source_coverage": [
-    {
-      "source": "TechCrunch AI 分類頁",
-      "status": "success",
-      "count": 2,
-      "note": "WebFetch 直讀成功，URL 含 /2026/07/10/ 者共 2 篇（Apple 告 OpenAI、SK Hynix IPO），皆已收錄"
-    },
-    {
-      "source": "The Verge AI",
-      "status": "partial",
-      "count": 2,
-      "note": "直接 WebFetch 被封鎖，改經 FutureTools News 與 WebSearch 交叉取得 2 篇 7/10 文章（Sunrun、Instagram），URL 已核實"
-    },
-    {
-      "source": "FutureTools.io News",
-      "status": "success",
-      "count": 4,
-      "note": "WebFetch 成功，7/10 條目 4 則（含 Matt Wolfe 週報影片，屬一週回顧未單獨成條）"
-    },
-    {
-      "source": "WebSearch（OpenAI/Anthropic/Google 官方動態）",
-      "status": "success",
-      "count": 1,
-      "note": "CGTN 2026-07-10 報導 OpenAI 超級 App 與 Meta 新模型定價；ChatGPT Work/GPT-5.6 主體已收錄於 7/9 日報，本日僅取增量角度"
-    },
-    {
-      "source": "YouTube 六頻道",
-      "status": "failed",
-      "count": 0,
-      "note": "本次補跑未逐一檢查各頻道 7/10 上傳清單，僅由 FutureTools 間接取得 Matt Wolfe 一則，如實標記未覆蓋"
-    },
-    {
-      "source": "X/Twitter 關鍵帳號",
-      "status": "failed",
-      "count": 0,
-      "note": "本次補跑未執行 X 帳號搜尋，如實標記未覆蓋"
+      "summary": "AI代理不再只回答問題，開始自己完成整份工作交件",
+      "audience": "想導入AI自動化流程、但擔心失控的中小企業主管與行政人員",
+      "pain_point": "不知道怎麼安全地把重複性工作交給AI代理處理，擔心資料外洩、誤發文件或流程失控",
+      "title_idea": "AI開始『自己把事情做完』：上班族該怎麼安全放手交給AI代理？",
+      "local_angle": "華語圈多還停留在「AI會不會取代工作」的討論，可搶先分享『設計人工核准關卡』的實戰SOP做差異化切角"
     }
   ]
 }

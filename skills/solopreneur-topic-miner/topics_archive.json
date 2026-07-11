@@ -1,5 +1,70 @@
 [
   {
+    "date": "2026-07-11",
+    "big_events": [
+      {
+        "title": "蘋果 iOS 27 公測將至，Siri 首度開放選用 Claude、Gemini 等第三方 AI",
+        "sources": [
+          {
+            "name": "Forbes",
+            "url": "https://www.forbes.com/sites/davidphelan/2026/07/11/apple-ios-27-release-date-when-you-can-install-iphones-new-software---public-beta-near/"
+          }
+        ],
+        "summary": "iOS 27公測將近，Siri首次可切換Claude、Gemini取代ChatGPT",
+        "audience": "用 iPhone 處理公務的上班族、AI 效率工具愛好者",
+        "pain_point": "過去 Siri 只能綁定 ChatGPT，用戶就算已付費訂閱 Claude 或 Gemini 也無法讓 Siri 呼叫，公務與私人習慣的 AI 工具切不開",
+        "title_idea": "iOS 27要來了！Siri終於能換腦袋：一次搞懂怎麼把Siri設成Claude或Gemini",
+        "local_angle": "台灣 iPhone 使用率高，公測一釋出就搶先教「Siri 換 AI 供應商」設定教學，比中文科技媒體的翻譯報導快一步"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "無鏡頭智慧眼鏡 Even Realities G2：主打生產力而非錄影",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/11/smart-glasses-without-a-camera-even-realities-bets-productivity-beats-recording-everyone/"
+          }
+        ],
+        "summary": "Even G2無鏡頭無喇叭，靠AI助理Conversate輔助辦公提詞",
+        "audience": "常開會、重視隱私、對穿戴式 AI 裝置好奇的效率玩家",
+        "pain_point": "市售智慧眼鏡多主打錄影惹隱私爭議，開會或社交場合不敢戴，也怕AI裝置外型太招搖引人側目",
+        "title_idea": "沒有鏡頭的AI眼鏡：Even Realities G2怎麼讓開會、抄筆記更有效率",
+        "local_angle": "台灣尚未正式開賣，可做海外購入開箱／評測前瞻，搶佔遠距工作者與科技愛好者的資訊差紅利"
+      },
+      {
+        "title": "Claude Code v2.1.207：企業雲端環境免設定即開啟 Auto Mode，預設升級 Opus 4.8",
+        "sources": [
+          {
+            "name": "DevelopersIO",
+            "url": "https://dev.classmethod.jp/en/articles/20260711-cc-updates-v2-1-207/"
+          }
+        ],
+        "summary": "Claude Code在AWS/GCP企業環境免設定就能用Auto Mode",
+        "audience": "用 Claude Code 處理文件、自動化流程的技術型上班族與獨立開發者",
+        "pain_point": "過去要自行設定環境變數才能啟用Auto Mode，操作門檻高，企業版更新資訊又分散難追蹤",
+        "title_idea": "免設定！Claude Code企業雲端環境自動升級Auto Mode，AI辦公自動化再進化",
+        "local_angle": "台灣企業導入 AWS／GCP 做 AI 辦公自動化的比例漸增，可搶先整理此次更新對 IT 與流程自動化團隊的實際影響"
+      }
+    ],
+    "trends": [
+      {
+        "title": "「這週AI代理開始真正把工作做完」：Agentic Workflow Automation 從展示走向交件",
+        "sources": [
+          {
+            "name": "Asanify",
+            "url": "https://asanify.com/blog/news/agentic-workflow-automation-july-11-2026/"
+          }
+        ],
+        "summary": "AI代理不再只回答問題，開始自己完成整份工作交件",
+        "audience": "想導入AI自動化流程、但擔心失控的中小企業主管與行政人員",
+        "pain_point": "不知道怎麼安全地把重複性工作交給AI代理處理，擔心資料外洩、誤發文件或流程失控",
+        "title_idea": "AI開始『自己把事情做完』：上班族該怎麼安全放手交給AI代理？",
+        "local_angle": "華語圈多還停留在「AI會不會取代工作」的討論，可搶先分享『設計人工核准關卡』的實戰SOP做差異化切角"
+      }
+    ]
+  },
+  {
     "date": "2026-07-10",
     "big_events": [
       {
@@ -946,169 +1011,6 @@
         "pain_point": "AI代理/智能體工具規範變化太快,難以判斷該押注哪個平台或政策風向",
         "title_idea": "同一天,中美都在「管」AI代理:阿里禁用Claude Code、北京勒令豆包千問下架智能體",
         "local_angle": "可延伸討論台灣企業若同時使用中美AI工具,該如何準備應對雙邊政策風險的「兩手策略」"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-03",
-    "big_events": [
-      {
-        "title": "OpenAI 提議讓美國政府持有 5% 股權,仿阿拉斯加模式全民分潤",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/"
-          },
-          {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/07/02/openai-proposes-us-government-own-5percent-stake-to-address-political-blowback.html"
-          },
-          {
-            "name": "The Japan Times",
-            "url": "https://www.japantimes.co.jp/business/2026/07/03/openai-us-government-stake/"
-          }
-        ],
-        "summary": "OpenAI提議政府持股5%,仿阿拉斯加主權基金分潤全民",
-        "audience": "關注AI產業趨勢與職場AI政策的上班族、內容創作者",
-        "pain_point": "民眾擔心AI巨頭獨占獲利、政策走向影響未來工作與納稅",
-        "title_idea": "OpenAI要把5%股份送美國政府?這波「AI全民分紅」是真的還是公關操作",
-        "local_angle": "台灣讀者可延伸討論若台灣推動AI主權基金或全民分潤機制的可行性,並比較各國AI監理走向"
-      },
-      {
-        "title": "白宮與OpenAI、Google、Anthropic協商「自願式AI模型發布標準」",
-        "sources": [
-          {
-            "name": "Yahoo Finance (轉載FT報導)",
-            "url": "https://finance.yahoo.com/technology/ai/articles/us-talks-ai-companies-voluntary-001646707.html"
-          },
-          {
-            "name": "Business Standard",
-            "url": "https://www.business-standard.com/world-news/us-govt-in-advanced-talks-with-ai-companies-for-voluntary-model-standards-126070200121_1.html"
-          }
-        ],
-        "summary": "美國政府擬與三大AI廠訂自願式模型發布審查標準",
-        "audience": "使用ChatGPT、Gemini、Claude進行企業內容產出的中小企業主與行銷人員",
-        "pain_point": "不確定未來新模型上市會不會因監管延遲或功能受限,打亂工作流程規劃",
-        "title_idea": "白宮要幫AI模型「上市前健檢」?新規範可能怎麼影響你每天用的ChatGPT",
-        "local_angle": "提醒台灣用戶留意美國新模型若因審查延遲發布,可能連動影響台灣用戶搶先體驗新功能的時程"
-      },
-      {
-        "title": "微軟成立25億美元「Frontier Company」,招募6000人專攻企業AI落地",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/"
-          },
-          {
-            "name": "TechWireAsia",
-            "url": "https://techwireasia.com/2026/07/microsoft-frontier-company-enterprise-ai-deployments/"
-          }
-        ],
-        "summary": "微軟砸25億美元、招募6000人專攻企業導入AI落地",
-        "audience": "企業IT主管、數位轉型顧問、中小企業老闆",
-        "pain_point": "企業想導入AI卻不知從何下手、缺乏落地執行的人力與方法",
-        "title_idea": "微軟砸重本組「AI特種部隊」:企業導入AI卡關,這次巨頭直接幫你做",
-        "local_angle": "可對照台灣中小企業導入AI常見的預算與人力痛點,分析是否有本地顧問服務能借鏡此模式"
-      },
-      {
-        "title": "Anthropic洽談三星代工2奈米客製化AI晶片",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/"
-          },
-          {
-            "name": "Bloomberg",
-            "url": "https://www.bloomberg.com/news/articles/2026-07-02/anthropic-in-talks-with-samsung-for-custom-ai-chip-information-mr3l34t4"
-          },
-          {
-            "name": "The Korea Herald",
-            "url": "https://www.koreaherald.com/article/10797311"
-          }
-        ],
-        "summary": "Anthropic洽談三星代工自研AI晶片,拚降低算力成本",
-        "audience": "關注AI基礎建設與投資趨勢的科技愛好者、產業分析型自媒體",
-        "pain_point": "讀者難以理解晶片自研對Claude等服務未來價格與效能的實際影響",
-        "title_idea": "Claude背後的晶片戰:Anthropic找三星代工,想解決什麼問題?",
-        "local_angle": "連結台灣半導體供應鏈與台積電競爭格局,適合科技類創作者做「AI晶片戰爭如何影響台灣供應鏈」延伸報導"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "AI瀏覽器大戰白熱化:Comet、Atlas、Dia、Neon全面比較",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/03/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/"
-          }
-        ],
-        "summary": "TechCrunch整理2026年主流AI瀏覽器與其自動化功能",
-        "audience": "想用AI瀏覽器提升工作效率的上班族、自由工作者",
-        "pain_point": "AI瀏覽器選擇太多,不知道哪款真正能幫忙處理郵件、排程、購物等瑣事",
-        "title_idea": "2026瀏覽器大戰:Comet、Atlas、Dia到底該裝哪一個?一次搞懂差異",
-        "local_angle": "可製作中文對照表,標示各瀏覽器在台灣的語言支援與是否能串接LINE、蝦皮等在地服務"
-      },
-      {
-        "title": "TechCrunch推出「AI名詞完全指南」白話解釋AGI、幻覺等術語",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/"
-          }
-        ],
-        "summary": "TechCrunch發布AI術語白話文詞典,解釋AGI、幻覺等常見詞",
-        "audience": "剛開始接觸AI工具、常被術語搞混的職場新手",
-        "pain_point": "看不懂同事或新聞常提到的AI術語(如幻覺、AGI、微調),不敢發問",
-        "title_idea": "同事又在聊AGI、幻覺、微調?一次看懂上班族最常聽到的AI名詞",
-        "local_angle": "可翻譯成台灣職場常見情境對話,搭配本地時事案例(如AI客服出包)做成懶人包貼文"
-      },
-      {
-        "title": "OpenClaw被用來自動化交友與生活瑣事,實測AI代理應用場景",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/02/yep-were-using-openclaw-to-date-now/"
-          }
-        ],
-        "summary": "用戶用OpenClaw自動追蹤賽事、產出社群貼文、規劃約會行程",
-        "audience": "對AI agent自動化生活或行銷有興趣的個人品牌經營者、行銷小編",
-        "pain_point": "知道AI agent很強,但不知道具體能自動化哪些生活或行銷瑣事",
-        "title_idea": "有人已經用AI代理「自動追劇約會」了!5個OpenClaw真實應用場景拆解",
-        "local_angle": "可改編成台灣情境教學,例如用AI agent自動整理約會餐廳口袋名單、規劃週末行程"
-      }
-    ],
-    "trends": [
-      {
-        "title": "AI巨頭與政府關係加深,「監理即合作」成產業新常態",
-        "sources": [
-          {
-            "name": "Yahoo Finance (轉載FT報導)",
-            "url": "https://finance.yahoo.com/technology/ai/articles/us-talks-ai-companies-voluntary-001646707.html"
-          },
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/"
-          }
-        ],
-        "summary": "政府入股與模型上市審查同步發生,AI監理典範正在轉移",
-        "audience": "關心科技政策走向的內容創作者、財經自媒體經營者",
-        "pain_point": "讀者難以判斷這些政策消息對自己日常使用的AI工具會有什麼實際影響",
-        "title_idea": "從「監管」到「入股」:2026下半年AI產業與政府關係怎麼變了?",
-        "local_angle": "可延伸討論台灣政府AI治理政策是否會參考美國模式,吸引關心政策走向的讀者"
-      },
-      {
-        "title": "Meta坦承AI代理進展不如預期,產業炒作出現降溫訊號",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/"
-          }
-        ],
-        "summary": "祖克柏向員工坦言AI代理發展落後預期,千億資本支出未見等值回報",
-        "audience": "猶豫是否該投入時間學習或導入AI agent工具的上班族與企業主",
-        "pain_point": "擔心花時間學AI agent工具,結果技術還不成熟、白忙一場",
-        "title_idea": "連Meta都說AI代理「進度落後」,現在還要跟風導入AI agent嗎?",
-        "local_angle": "提醒台灣讀者理性看待AI agent炒作,建議先從小範圍工作流程試用,而非貿然全面導入"
       }
     ]
   }
