@@ -2296,7 +2296,7 @@ fetch('stocks.json?'+Date.now())
   }
 
   // ── 月曆 ────────────────────────────────────
-  var view={y:2026,m:5}; // 0-based month, 預設六月
+  var view={y:today.getFullYear(),m:today.getMonth()}; // 預設當月，跟著實際日期走
   function legendHTML(){return '<div class="mmc-leg">'+
     '<span><i style="background:rgba(244,200,74,.7)"></i>品質課</span>'+
     '<span><i style="background:rgba(28,27,25,.12)"></i>輕鬆跑</span>'+
