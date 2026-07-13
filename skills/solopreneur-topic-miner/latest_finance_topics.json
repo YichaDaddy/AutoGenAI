@@ -1,107 +1,128 @@
 {
-  "date": "2026-07-12",
+  "date": "2026-07-13",
   "market_shocks": [
     {
-      "title": "OpenAI 秘密申請 IPO：估值 7300 億美元，規模將輾壓史上所有科技上市案",
+      "title": "SK海力士單日暴跌15%創史上最大跌幅，三星重挫逾10%引爆韓股熔斷",
       "sources": [
-        {
-          "name": "BuildFastWithAI（7/12 日報）",
-          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026"
-        }
+        {"name": "鉅亨網", "url": "https://news.cnyes.com/news/id/6532270"},
+        {"name": "CNBC", "url": "https://www.cnbc.com/2026/07/13/sk-hynix-shares-fall-after-stellar-nasdaq-debut.html"},
+        {"name": "聯合新聞網", "url": "https://udn.com/news/story/7251/9624178"}
       ],
-      "summary": "高盛、摩根士丹利操刀，最快 9 月掛牌；但 Apple 訴訟纏身＋對手營收超車，定價面臨兩大逆風。",
-      "tw_stock_impact": "巨型 IPO 將抽走市場資金動能，AI 概念股短線恐面臨「賣舊買新」的資金排擠效應",
-      "investment_insight": "巨型 IPO 常是市場情緒高點指標；回顧 Alibaba 2014、Saudi Aramco 2019 掛牌後行情，蜜月期追高勝率不佳",
-      "title_idea": "7300 億美元的世紀 IPO！OpenAI 上市是 AI 行情的加速器，還是到頂訊號？",
-      "local_angle": "用「阿里巴巴上市那年發生什麼事」的歷史對照，提醒台灣複委託族冷靜"
+      "summary": "SK海力士在美股掛牌僅一週後，首爾股價單日崩跌逾12%（收盤創史上最大單日跌幅），三星電子同步重挫逾10%，南韓Kospi指數暴跌近9%觸發熔斷機制。市場擔憂AI記憶體行情漲多後估值過熱，賣壓迅速蔓延至台股記憶體族群。",
+      "tw_stock_impact": "南亞科、華邦電等台股記憶體概念股同步開高走低，跌幅一度達3~5%，反映AI供應鏈連動性極高，韓股風吹草動即牽動台股情緒。",
+      "investment_insight": "短線應留意記憶體類股波動放大，若基本面（DRAM漲價、AI需求）未變，回檔可視為分批布局點，但需嚴設停損避開恐慌性殺盤。",
+      "title_idea": "一天蒸發千億美元！AI記憶體股為何突然全面崩盤？",
+      "local_angle": "台灣投資人手上若有南亞科、華邦電，這波韓股熔斷是短期恐慌還是超級循環反轉的警訊？"
     },
     {
-      "title": "AI 雙雄營收逆轉：Anthropic 年化 470 億美元 vs OpenAI 250-330 億",
+      "title": "川普宣布重啟荷姆茲海峽封鎖，原油狂飆9%創六年最大單日漲幅",
       "sources": [
-        {
-          "name": "BuildFastWithAI（7/12 日報）",
-          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026"
-        }
+        {"name": "CNBC", "url": "https://www.cnbc.com/2026/07/12/oil-price-strait-hormuz-iran-trump-tanker.html"},
+        {"name": "NPR", "url": "https://www.npr.org/2026/07/13/nx-s1-5891746/us-iran-strait-of-hormuz-updates"},
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-07-13/us-stock-futures-fall-as-mideast-tensions-flare-anew-oil-climbs"}
       ],
-      "summary": "企業級市場成勝負手，Anthropic 靠 to B 策略營收超車，直接衝擊 OpenAI 的 IPO 估值敘事。",
-      "tw_stock_impact": "AI 應用層競爭白熱化＝算力需求持續，台積電、AI 伺服器鏈的基本面邏輯不變",
-      "investment_insight": "投資 AI 賣鏟人（晶片、雲端、電力）比押注應用層贏家更能迴避座次輪替風險",
-      "title_idea": "ChatGPT 輸了？Anthropic 營收悄悄超車，AI 投資邏輯要改寫",
-      "local_angle": "把「賣鏟人策略」翻成台股語言：與其猜誰贏，不如抱供應鏈"
+      "summary": "美國總統川普宣布重新對通過荷姆茲海峽的伊朗船隻實施封鎖，並對其他國家貨物課徵20%通行費，布蘭特原油單日飆漲逾9%至每桶83美元，創下自2020年以來最佳單日表現。美股道瓊、標普500、那斯達克同步走跌。",
+      "tw_stock_impact": "原油與航運成本上升將推高台灣進口能源與塑化原料成本，也可能墊高全球通膨預期，間接影響台股資金面與外資風險偏好。",
+      "investment_insight": "地緣政治溢價回歸，能源、航運類股短線有題材支撐，但需留意若戰事降溫將出現快速獲利了結賣壓，不宜追高。",
+      "title_idea": "川普一句話油價暴漲9%！全球股市為何應聲重挫？",
+      "local_angle": "油價飆漲對台灣進口能源成本與電價壓力有直接影響，也牽動台塑、中油相關概念股表現。"
     },
     {
-      "title": "人形機器人 IPO 潮：Agility SPAC 估值 25 億美元、Unitree 上海過會、Tesla 改線量產 Optimus",
+      "title": "馬斯克身家一夕蒸發380億美元，跌破9000億美元大關",
       "sources": [
-        {
-          "name": "BuildFastWithAI（7/12 日報）",
-          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026"
-        }
+        {"name": "Forbes", "url": "https://www.forbes.com/sites/tylerroush/2026/07/13/elon-musks-fortune-falls-below-900-billion-as-spacex-slide-worsens/"}
       ],
-      "summary": "三大指標案同週推進，但外媒點名「無一證明規模化經濟」，題材與基本面的落差擴大。",
-      "tw_stock_impact": "台灣機器人概念股（上銀、和大、所羅門等）將隨題材波動，注意本夢比行情的追高風險",
-      "investment_insight": "SPAC 上市＋未證明獲利模式＝高風險組合；參與題材用小部位、設停損，別當存股",
-      "title_idea": "機器人概念股要噴了？三大 IPO 案背後，先看懂「本夢比」的遊戲規則",
-      "local_angle": "整理台灣機器人供應鏈受惠順序與估值現況，給散戶一張風險地圖"
+      "summary": "馬斯克身家在SpaceX股價持續下跌下跌破9000億美元，單日蒸發約380億美元，最新身家為879.3億美元。SpaceX股價週一下跌3.8%，已逼近其135美元的IPO發行價，特斯拉同步下跌3%，儘管華爾街分析師普遍仍看多SpaceX後市。",
+      "tw_stock_impact": "馬斯克旗下企業（特斯拉、SpaceX）為台廠供應鏈重要客戶，其股價劇烈波動反映市場對高估值科技股的信心動搖，可能連帶影響台灣電動車與衛星供應鏈類股評價情緒。",
+      "investment_insight": "明星科技股從高點回落超過35%顯示市場對「超級富豪光環股」的估值修正才剛開始，投資人應區分基本面與市場情緒炒作的差異。",
+      "title_idea": "全球首富一個月蒸發5000億美元！馬斯克神話正在破滅？",
+      "local_angle": "特斯拉、SpaceX供應鏈概念股在台廠中不少，馬斯克身家暴跌是否預告相關訂單能見度轉弱？"
+    },
+    {
+      "title": "貝瑞再度示警AI泡沫：輝達晶片獲利恐是「灌水」假象",
+      "sources": [
+        {"name": "GuruFocus", "url": "https://www.gurufocus.com/news/8955673/michael-burry-warns-of-ai-market-bubble-risks"}
+      ],
+      "summary": "「大賣空」原型人物麥克・貝瑞再度警告AI投資熱潮恐是泡沫，直指輝達GPU實際使用壽命可能僅2~3年，遠低於微軟等科技巨頭認列的4~6年折舊年限，意味著目前科技巨頭申報的獲利可能被會計手法灌水，掩蓋AI資本支出報酬率正在下滑的事實。",
+      "tw_stock_impact": "若全球雲端巨頭下修GPU折舊年限、資本支出轉趨保守，台積電、輝達供應鏈訂單能見度恐受衝擊，需密切觀察後續法說會釋出的資本支出展望。",
+      "investment_insight": "貝瑞的論點聚焦「會計認列」而非「需求消失」，投資人可持續追蹤各雲端業者資本支出年增率與折舊政策變化，作為判斷AI循環是否見頂的先行指標。",
+      "title_idea": "「大賣空」貝瑞爆料：輝達獲利數字根本是假的？",
+      "local_angle": "台積電是輝達最大代工夥伴，若AI資本支出真的降溫，對台灣半導體訂單將是直接衝擊，投資人不能只看營收數字。"
     }
   ],
   "investment_opportunities": [
     {
-      "title": "美國把 UAE 重分類為 A:5：先進 AI 晶片免許可輸出，中東算力商機解鎖",
+      "title": "台積電6月營收飆4426.8億元創新高，年增67.9%逆勢對比海力士暴跌",
       "sources": [
-        {
-          "name": "BuildFastWithAI（7/12 日報）",
-          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026"
-        }
+        {"name": "中央社", "url": "https://www.cna.com.tw/news/afe/202607130134.aspx"},
+        {"name": "科技新報", "url": "https://finance.technews.tw/2026/07/13/tsmcs-june-revenue-hit-a-record-high-of-nt442-68-billion"},
+        {"name": "鉅亨網", "url": "https://news.cnyes.com/news/id/6532244"}
       ],
-      "summary": "美國商務部鬆綁對阿聯出口管制，移除美系晶片商與波灣算力建設之間的監管摩擦。",
-      "tw_stock_impact": "中東主權基金資料中心大單可期，台積電先進製程與台系 AI 伺服器代工（緯創、廣達）受惠出海口再擴大",
-      "investment_insight": "出口管制鬆綁是政策面利多，關注後續訂單落地節奏而非一次性消息行情",
-      "title_idea": "中東土豪的 AI 軍備賽開綠燈！美國鬆綁晶片出口，台鏈吃得到哪些單？",
-      "local_angle": "從緯創、廣達中東佈局新聞回推「誰先卡位」，比空談概念股實在"
+      "summary": "台積電公布6月合併營收達新台幣4426.8億元，月增6.2%、年增67.9%，改寫歷史新高，上半年累計營收突破2.4兆元、年增35.6%，第二季營收更超越財測高標，打破過去四年6月營收季節性走弱的慣例。同日南韓SK海力士股價卻暴跌逾12%，形成強烈對比。",
+      "tw_stock_impact": "台積電營收動能顯示先進製程需求依然強勁，與韓系記憶體股的恐慌性拋售形成分歧，凸顯AI供應鏈內部「代工龍頭 vs 記憶體」的估值分化。",
+      "investment_insight": "在AI股同步重挫的日子裡，基本面持續創高的台積電反而提供了「亂中取靜」的相對防禦標的，投資人可趁市場恐慌情緒中觀察其股價是否出現非理性錯殺的加碼機會。",
+      "title_idea": "海力士崩盤同一天，台積電營收卻噴出新高！差別在哪？",
+      "local_angle": "台積電是台股權值最重的成分股，其營收表現直接牽動大盤與0050等ETF淨值，是台灣投資人最該關注的基本面指標。"
     },
     {
-      "title": "Meta 宣示 2027 年算力翻倍、砸 100 億美元蓋艾伯塔資料中心",
+      "title": "台積電全面調漲晶圓代工報價5~10%，通知輝達、蘋果、超微買單",
       "sources": [
-        {
-          "name": "BuildFastWithAI（7/12 日報）",
-          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026"
-        }
+        {"name": "新浪財經", "url": "https://finance.sina.com.cn/tech/discovery/2026-07-13/doc-inihrxax7516722.shtml"}
       ],
-      "summary": "Meta 內部備忘錄曝光算力倍增計畫，並刻意分散供應商以增加議價籌碼，Iris 自研晶片 9 月投產。",
-      "tw_stock_impact": "台積電（Iris 代工）、散熱、電源、重電基建鏈長線需求能見度再拉高",
-      "investment_insight": "四大 CSP 資本支出是 AI 硬體股的先行指標，Meta 加碼進一步確認 2027 需求，可留意回檔佈局點",
-      "title_idea": "Meta 要把算力翻倍！100 億美元資料中心計畫，台股受惠名單一次看",
-      "local_angle": "把 CSP 資本支出數據做成追蹤表，教觀眾自己驗證「AI 需求還在不在」"
+      "summary": "台積電近期通知輝達、蘋果、超微等主要客戶，將全面調漲7奈米及以下先進製程晶圓報價，漲幅約5%至10%，並傳出下半年將再對3奈米製程加碼漲價，最高達15%。市場預期此波漲價將為台積電下半年毛利率帶來顯著挹注。",
+      "tw_stock_impact": "台積電作為台股權重最大成分股，代工報價全面調漲直接反映在毛利率與獲利預估上，牽動法人對台積電目標價的上修動作，亦可能帶動上游材料、設備供應鏈類股評價。",
+      "investment_insight": "漲價循環通常領先反映在毛利率而非營收成長率，投資人可留意台積電後續法說會對毛利率展望的說法，作為評估漲價效益是否已充分反映在股價的依據。",
+      "title_idea": "輝達、蘋果都得乖乖買單！台積電漲價底氣哪裡來？",
+      "local_angle": "晶圓代工漲價是台灣半導體供應鏈少見的「賣方市場」訊號，直接關係到台積電及其設備、材料供應商的獲利成長空間。"
+    },
+    {
+      "title": "SK海力士拖累記憶體股重挫，南亞科盤中翻黑但法人續喊多DRAM超級循環",
+      "sources": [
+        {"name": "聯合新聞網", "url": "https://udn.com/news/story/7251/9624178"},
+        {"name": "鉅亨網", "url": "https://news.cnyes.com/news/id/6532270"}
+      ],
+      "summary": "受惠亮眼財報，南亞科盤中一度勁揚逾7%至466.5元，但隨SK海力士在韓股重挫逾12%，南亞科股價翻黑，華邦電同步走弱。儘管股價劇烈震盪，南亞科毛利率仍飆升至79.5%的高水準。",
+      "tw_stock_impact": "南亞科、華邦電是台股記憶體超級循環的直接受惠者，短線股價雖隨國際同業劇烈波動，但毛利率數字顯示產業基本面尚未反轉。",
+      "investment_insight": "當個股基本面（毛利率創高）與股價表現（隨海外同業重挫翻黑）出現背離時，往往是判斷「情緒殺盤」還是「基本面轉壞」的關鍵時刻，建議緊盯後續DRAM現貨價與法說會展望。",
+      "title_idea": "毛利率飆近8成、股價卻慘遭錯殺！南亞科這次是機會還是陷阱？",
+      "local_angle": "南亞科、華邦電是台灣散戶最愛的記憶體概念股，這波隨韓股連動的重挫，是超級循環中的正常回檔還是反轉起點，是台灣投資人最關心的問題。"
+    },
+    {
+      "title": "貝瑞悄悄轉向：逆勢加碼運彩股Flutter、DraftKings避開AI擁擠交易",
+      "sources": [
+        {"name": "24/7 Wall St.", "url": "https://247wallst.com/investing/2026/07/13/michael-burry-just-made-big-bets-on-sports-betting-stocks-why-the-odds-are-on-his-side/"},
+        {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-just-made-big-133115620.html"}
+      ],
+      "summary": "在放空AI股同時，麥克・貝瑞近期加碼布局運彩類股，持倉配置60%於Flutter Entertainment（FanDuel母公司）、40%於DraftKings，被視為刻意避開擁擠的AI交易、尋找低估值防禦性成長標的的操作。",
+      "tw_stock_impact": "此消息與台股直接關聯度低，但反映全球資金正在尋找「非AI」的另類成長題材，可作為觀察資金是否加速從AI概念股輪動出場的訊號之一。",
+      "investment_insight": "當知名放空大師同時做多某類股時，往往代表該產業估值相對低檔且現金流穩健，投資人可將此視為分散單一AI主題曝險、尋找非相關性資產的參考案例，而非直接複製交易。",
+      "title_idea": "大賣空傳奇棄AI轉戰運彩股，葫蘆裡賣什麼藥？",
+      "local_angle": "台灣投資人重壓AI供應鏈之際，貝瑞的操作提醒大家：資產配置不該只押注單一熱門主題，分散是降低系統性風險的關鍵。"
     }
   ],
   "macro_observations": [
     {
-      "title": "Fed 首設 AI 任務小組，找來 a16z 創辦人 Andreessen 共同主持",
+      "title": "Fed官員沃勒示警7月恐升息，市場升息機率升至4~5成",
       "sources": [
-        {
-          "name": "BuildFastWithAI（7/12 日報）",
-          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026"
-        }
+        {"name": "CNBC", "url": "https://www.cnbc.com/2026/07/13/waller-says-fed-shouldnt-fight-the-last-war-on-inflation-but-warns-hikes-still-possible.html"},
+        {"name": "CNBC", "url": "https://www.cnbc.com/2026/07/13/-a-july-rate-hike-from-the-fed-the-odds-are-rising.html"}
       ],
-      "summary": "聯準會首度成立專責架構研究 AI 對勞動市場與生產力的衝擊，惟 Andreessen 的 AI 持股引發利益衝突質疑。",
-      "tw_stock_impact": "央行開始把 AI 納入政策框架＝AI 對通膨與就業的影響將影響利率路徑，牽動台股資金面",
-      "investment_insight": "留意 Fed 後續 AI 相關研究報告，「AI 生產力紅利壓通膨」若成主流論述，將是股市的長多劇本",
-      "title_idea": "Fed 都開始研究 AI 了！央行眼中的 AI：是通膨解藥還是失業炸彈？",
-      "local_angle": "連結台灣主計處就業數據，討論 AI 對台灣服務業與科技業就業的實際影響"
+      "summary": "美國聯準會理事沃勒表示，目前通膨已取代就業市場成為主要風險，若本週公布的6月核心通膨數據持續偏熱，Fed可能需要在7月底FOMC會議上考慮升息。市場目前對7月升息的定價機率已升至約4至5成。",
+      "tw_stock_impact": "若Fed意外轉向升息，美元走強、資金回流美國的機率提高，可能對新興市場資金動能與台幣匯率造成壓力，間接影響外資對台股的配置意願。",
+      "investment_insight": "7月14日公布的CPI數據是判斷Fed是否升息的關鍵指標，投資人應提前留意數據公布前後市場波動度放大的風險，避免在利率決策前重壓單一方向。",
+      "title_idea": "Fed官員突然喊「該升息了」，市場措手不及？",
+      "local_angle": "美元升息預期升溫向來牽動台幣匯率與外資動向，是台灣進出口業者與存股族都該留意的總經風向球。"
     },
     {
-      "title": "算力租賃經濟學：Anthropic 月付 12.5 億美元租用 Colossus，自建與租用的成本大戰",
+      "title": "AI晶片股集體重估：從輝達到台積電、三星、海力士，一天蒸發數十兆元市值",
       "sources": [
-        {
-          "name": "BuildFastWithAI（7/12 日報）",
-          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026"
-        }
+        {"name": "自由財經", "url": "https://ec.ltn.com.tw/article/breakingnews/5503850"}
       ],
-      "summary": "頂級 AI 實驗室的算力月租金額曝光；SambaNova 完成 10 億美元 F 輪，挑戰超大集群租賃模式。",
-      "tw_stock_impact": "不論自建或租用，晶片與資料中心硬體都是必要支出，台積電與伺服器鏈是中立受惠者",
-      "investment_insight": "AI 公司毛利被算力成本壓縮是共同風險，評價 AI 應用股時要把算力租金當「新房租」看待",
-      "title_idea": "一個月燒 12.5 億美元租算力！AI 公司的帳本，藏著下一波贏家線索",
-      "local_angle": "用「開店租金vs買店面」比喻算力自建與租用，把硬核成本結構講成人話"
+      "summary": "隨著SK海力士歷史性崩跌引爆亞股AI概念股全面重估，從輝達、台積電到三星電子、SK海力士，AI供應鏈相關個股單日市值蒸發合計高達數十兆元，市場開始重新檢視這波AI資本支出熱潮是否已透支未來成長預期。",
+      "tw_stock_impact": "台灣的AI硬體供應鏈（半導體、伺服器、散熱、記憶體模組）評價與韓系、美系同業高度連動，一旦國際同業重挫，台股相關類股容易遭到系統性錯殺。",
+      "investment_insight": "AI供應鏈個股評價已進入「用實質獲利驗證」階段，單純的題材式想像空間正在收斂，投資人應優先檢視個股本益成長比（PEG）與訂單能見度，而非僅追逐族群齊漲齊跌的短線行情。",
+      "title_idea": "一天蒸發數十兆！AI股神話是不是正在破滅？",
+      "local_angle": "台灣有大量個股被歸類為「AI概念股」，這波全球AI股重估提醒投資人：族群狂熱退潮後，能留下的是真正有訂單、有獲利的公司。"
     }
   ]
 }

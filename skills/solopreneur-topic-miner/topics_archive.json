@@ -1,5 +1,138 @@
 [
   {
+    "date": "2026-07-13",
+    "big_events": [
+      {
+        "title": "微軟執行長警告：企業用AI等於「付兩次錢」",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/"
+          }
+        ],
+        "summary": "Nadella指企業用AI等於用金錢與機密知識雙重付費",
+        "audience": "使用AI工具處理公司業務資料的上班族與IT、資安主管",
+        "pain_point": "每天用ChatGPT、Copilot處理公司資料，卻沒意識到自家know-how可能正被模型「蒸餾」學走",
+        "title_idea": "你以為只付了訂閱費？微軟執行長揭露用AI工作的隱藏代價",
+        "local_angle": "可延伸討論台灣企業導入Copilot、ChatGPT等工具時的資安政策，提醒讀者留意公司機密外流風險，並比較台灣企業資安意識與國際討論的落差"
+      },
+      {
+        "title": "Anthropic二度延長Claude Fable 5免費期限，硬扛OpenAI新模型攻勢",
+        "sources": [
+          {
+            "name": "Forbes",
+            "url": "https://www.forbes.com/sites/tylerroush/2026/07/13/ai-model-wars-anthropic-extends-fable-access-again-after-openais-sol-release/"
+          }
+        ],
+        "summary": "OpenAI推出GPT-5.6 Sol後，Anthropic再次延長頂級模型免費使用期",
+        "audience": "想省錢但持續追蹤最新AI模型的上班族與自由工作者",
+        "pain_point": "不清楚現在哪個AI模型最強、免費用到什麼時候，容易錯過限時免費資源",
+        "title_idea": "免費用到7/19！Claude最強模型延長開放，上班族該怎麼把握",
+        "local_angle": "適合寫成「本週AI模型戰況」系列文章，教讀者把握免費期做效率工具實測與心得分享，帶動點擊與訂閱誘因"
+      },
+      {
+        "title": "Google Gemini 3.5 Pro傳延後至7/17登場，據稱因架構全面重建",
+        "sources": [
+          {
+            "name": "Tech Times",
+            "url": "https://www.techtimes.com/articles/320308/20260713/gemini-35-pro-targets-july-17-after-full-rebuild-every-spec-remains-unconfirmed.htm"
+          }
+        ],
+        "summary": "傳聞中200萬字元上下文的新模型延後發布，細節尚未經Google官方證實",
+        "audience": "關注AI模型更新、想搶先體驗新工具的科技愛好者與內容創作者",
+        "pain_point": "資訊來源分散且真偽不明，不確定該等待新模型還是先用現有工具解決工作需求",
+        "title_idea": "Google最強AI模型又延期？Gemini 3.5 Pro延期消息整理與查證",
+        "local_angle": "提醒讀者這是外流消息、非官方證實，可做成「新聞查證」類型內容建立信任感，並預告上線後對台灣用戶可能的影響"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "Waze上線Gemini語音對話功能，可用自然語言回報路況、開啟機車模式",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/13/waze-adds-new-ai-powered-features-and-customization-updates/"
+          },
+          {
+            "name": "Google Blog",
+            "url": "https://blog.google/waze/waze-updates-gemini-motorcycle-mode/"
+          }
+        ],
+        "summary": "Waze新增Gemini對話式回報、機車模式與語音搜尋目的地等功能",
+        "audience": "通勤族、機車族與日常使用導航APP的上班族",
+        "pain_point": "開車或騎車途中手動回報路況、搜尋地點既不方便又危險",
+        "title_idea": "開車也能跟AI聊天？Waze新功能讓你用講的回報路況",
+        "local_angle": "可比較台灣導航APP（Google地圖、Waze）在地化程度，實測新功能操作步驟做成教學文"
+      },
+      {
+        "title": "GPT-5.6流量暴衝，OpenAI緊急解除ChatGPT Work與Codex使用上限",
+        "sources": [
+          {
+            "name": "Windows Report",
+            "url": "https://windowsreport.com/gpt-5-6-traffic-surge-pushes-openai-to-reset-chatgpt-usage-limits/"
+          },
+          {
+            "name": "Dataconomy",
+            "url": "https://dataconomy.com/2026/07/13/openai-lifts-gpt-5-6-sol-usage-limits-temporarily/"
+          }
+        ],
+        "summary": "因用量暴增至歷史新高，OpenAI暫時取消5小時使用限制",
+        "audience": "ChatGPT Plus、Business付費用戶與依賴Codex寫程式的上班族",
+        "pain_point": "平常工作用到一半就卡使用上限，得等好幾小時才能繼續",
+        "title_idea": "現在用ChatGPT不受限！OpenAI暫時解鎖5小時使用上限完整說明",
+        "local_angle": "教讀者把握這波暫時解鎖期做「一次性大量產出」實測攻略，例如批次整理資料、生成大量內容"
+      }
+    ],
+    "trends": [
+      {
+        "title": "Anthropic為印度市場推出在地化定價，全球AI大廠搶進新興市場",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us/"
+          }
+        ],
+        "summary": "印度為Claude全球第二大市場，Anthropic調整定價策略搶市占",
+        "audience": "對AI產業商業模式、國際擴張策略有興趣的內容創作者與經營者",
+        "pain_point": "想了解國際AI大廠如何因地制宜訂價，做為自己產品或內容定價策略的參考",
+        "title_idea": "AI巨頭搶新興市場：從印度在地化定價看AI產業下一步",
+        "local_angle": "可延伸討論台灣、華語圈用戶是否也該期待類似的在地化定價或優惠方案，比較各家AI訂閱在亞洲市場的策略差異"
+      }
+    ],
+    "source_coverage": [
+      {
+        "source": "TechCrunch AI 分類頁",
+        "status": "failed",
+        "count": 0,
+        "note": "直接 WebFetch 被 403 封鎖；改用 WebSearch 找出 techcrunch.com/2026/07/13/ 開頭的文章，確認 4 篇符合日期並可用於本次選題（Nadella警告、Waze、Anthropic印度定價，另有多篇因涉政治/訴訟/人事而排除）"
+      },
+      {
+        "source": "FutureTools.io/news",
+        "status": "failed",
+        "count": 0,
+        "note": "直接 WebFetch 被 403 封鎖，且未找到可交叉驗證的替代來源，本次未收錄任何 FutureTools 項目"
+      },
+      {
+        "source": "The Verge AI",
+        "status": "failed",
+        "count": 0,
+        "note": "直接 WebFetch 失敗（無法連線），未找到 7/13 獨家 AI 文章"
+      },
+      {
+        "source": "WebSearch（OpenAI/Anthropic/Google DeepMind/Meta 7/13 新聞）",
+        "status": "success",
+        "count": 3,
+        "note": "確認 Anthropic Fable 5 二度延長（Forbes）、Anthropic 印度定價（TechCrunch）、OpenAI GPT-5.6 Sol 流量暴衝解除限制（Windows Report + Dataconomy）皆為 7/13 當日文章；GPT-Live、GPT-5.6 GA、Project Glasswing 擴大、J-Space 研究等重大新聞經查證實際發布於 7/6-7/9，非 7/13，故未收錄，避免灌水"
+      },
+      {
+        "source": "WebSearch（Gemini 3.5 Pro 動態）",
+        "status": "success",
+        "count": 1,
+        "note": "Tech Times 7/13 文章確認為外流消息、非官方證實，仍因話題熱度收錄但已於 local_angle 註明需查證"
+      }
+    ]
+  },
+  {
     "date": "2026-07-12",
     "big_events": [
       {
@@ -846,163 +979,6 @@
         "pain_point": "公司AI相關支出持續攀升，不知道該全部依賴大廠模型還是混搭省成本",
         "title_idea": "連微軟都在『AI降成本』？企業導入AI的省錢新招",
         "local_angle": "台灣企業導入AI常只看功能不看成本結構，可做「多模型混搭省錢」的企業導入教學"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-05",
-    "big_events": [
-      {
-        "title": "AI效率實測:Bending Spoons那斯達克上市,90%程式碼由AI生成,人均營收兩年翻倍",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/05/what-is-bending-spoons-everything-to-know-about-aols-acquirer/"
-          }
-        ],
-        "summary": "義大利科技公司上市,AI讓人均營收兩年翻倍",
-        "audience": "想向老闆證明AI能提升團隊產出的中階主管、對「AI+效率」案例有興趣的職場上班族",
-        "pain_point": "想推動公司導入AI卻缺乏具體數字說服老闆或客戶,只能空口說「AI很有用」",
-        "title_idea": "AI幫公司賺更多錢的真實案例:這家上市公司靠AI把人均營收翻倍,程式碼九成讓AI寫",
-        "local_angle": "這是歐美真實IPO財報數字,華語圈還沒人用這組數據做「AI真的能省錢」的說服素材,適合做成給老闆看的懶人包簡報"
-      },
-      {
-        "title": "Anthropic共同創辦人示警:AI已讓公司不再需要「新鮮人工程師」,恐引爆全產業經濟震盪",
-        "sources": [
-          {
-            "name": "The Decoder",
-            "url": "https://the-decoder.com/anthropic-doesnt-need-junior-engineers-anymore-thanks-to-ai-and-warns-of-an-economic-shock-when-other-industries-follow/"
-          }
-        ],
-        "summary": "Anthropic坦言AI讓新人職缺消失,警告經濟衝擊將擴散",
-        "audience": "剛出社會的新鮮人、擔心被AI取代的基層上班族、企業HR與管理職",
-        "pain_point": "對「AI會不會讓我找不到工作」感到焦慮,卻不知道該如何提前因應",
-        "title_idea": "連Anthropic自己都說:新鮮人工程師快沒了!AI正在淘汰的是這種人才",
-        "local_angle": "這是海外AI龍頭公司內部人士的第一手警告,華語圈多半只聊「AI會取代誰」的空泛預測,可做成「如何避免成為被淘汰那群人」的實用選題"
-      },
-      {
-        "title": "微軟砸25億美元成立新公司Frontier,派6000名AI工程師直接進駐企業客戶",
-        "sources": [
-          {
-            "name": "WinBuzzer",
-            "url": "https://winbuzzer.com/2026/07/05/microsoft-introduces-frontier-company-for-enterprise-ai-xcxwbn/"
-          },
-          {
-            "name": "The Decoder",
-            "url": "https://the-decoder.com/microsoft-launches-2-5-billion-frontier-company-to-embed-6000-ai-engineers-inside-enterprise-clients/"
-          }
-        ],
-        "summary": "微軟成立專責企業AI導入新公司,重金派工程師進駐客戶",
-        "audience": "中小企業主、想承接企業AI導入顧問案的自由工作者與顧問",
-        "pain_point": "想幫公司或客戶導入AI卻不知道從何開始,缺乏「別人怎麼做」的具體案例",
-        "title_idea": "微軟砸25億元教你怎麼幫企業導入AI:這是最新的「AI顧問」商業模式範本",
-        "local_angle": "海外已出現「AI導入顧問」這門新生意的巨頭範本,華語圈AI顧問接案市場才剛起步,可拿這套做法包裝成中小企業能用的簡化版服務"
-      },
-      {
-        "title": "2026上半年AI投資狂潮:近90家新創跨過10億美元獨角獸門檻",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/05/almost-40-new-unicorns-have-been-minted-so-far-this-year-here-they-are/"
-          }
-        ],
-        "summary": "AI熱潮帶動今年新增近90家獨角獸新創",
-        "audience": "想了解創投風向、尋找AI創業題材的個人創業者與自由工作者",
-        "pain_point": "不知道現在資金都往哪些AI題材流動,擔心錯過市場趨勢",
-        "title_idea": "2026上半年獨角獸榜單曝光:這些AI新創到底在做什麼賺錢?",
-        "local_angle": "榜單裡的商業模式(AI工作空間、晶片設計、財富管理等)多數華語圈還沒人整理分析,適合做成「歐美獨角獸在幹嘛」系列選題"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "開源工具pxpipe把文字轉成PNG圖片,讓Claude Code、GPT-5.6的token費用省下最多70%",
-        "sources": [
-          {
-            "name": "WinBuzzer",
-            "url": "https://winbuzzer.com/2026/07/05/pxpipe-proxy-claims-fable-cost-cuts-through-code-images-xcxwbn/"
-          },
-          {
-            "name": "The Decoder",
-            "url": "https://the-decoder.com/open-source-tool-pxpipe-hides-text-in-pngs-to-cut-claude-code-and-fable-5-token-costs-up-to-70/"
-          }
-        ],
-        "summary": "開源代理工具用圖片代替文字,大砍AI用量費用",
-        "audience": "每天大量使用Claude Code、ChatGPT的AI效率工具重度使用者、需控管AI訂閱與API費用的職場人士",
-        "pain_point": "AI工具用得越多帳單越可怕,想省錢卻不知道有什麼技巧",
-        "title_idea": "省下70%AI費用的省錢神技:把你的提示詞「拍成照片」給AI看",
-        "local_angle": "這是純技術性省錢技巧,操作步驟明確、容易做成教學影片,華語圈AI工具教學頻道還沒人翻譯介紹這個開源專案,是搶先做教學的好機會"
-      },
-      {
-        "title": "馬斯克宣布Grok Imagine開發「完工」,xAI影像影片生成功能正式到位",
-        "sources": [
-          {
-            "name": "Basenor",
-            "url": "https://www.basenor.com/blogs/news/grok-imagine-is-done-xai-completes-image-generation-feature"
-          }
-        ],
-        "summary": "馬斯克發文宣布Grok圖片影片生成功能開發完成",
-        "audience": "內容創作者、想用AI快速產出短影音素材的自媒體經營者",
-        "pain_point": "想找免費或平價的AI影像影片生成工具,卻不確定哪個平台功能最完整最新",
-        "title_idea": "Grok Imagine正式完工!藏在X App裡的免費AI影片生成器你用過了嗎",
-        "local_angle": "Grok Imagine深度整合在X/Twitter App裡,目前華語圈教學內容仍偏少,適合做「如何用Grok Imagine免費做短影音」的實測教學"
-      },
-      {
-        "title": "Google員工用Claude Code+Fable 5,短短幾小時把2003年老遊戲原生移植到iOS",
-        "sources": [
-          {
-            "name": "The Decoder",
-            "url": "https://the-decoder.com/claude-code-and-fable-5-ported-the-2003-pc-game-command-conquer-to-native-ios-in-a-few-hours/"
-          }
-        ],
-        "summary": "開發者用AI編碼工具幾小時完成老遊戲iOS移植",
-        "audience": "對AI輔助寫程式(vibe coding)有興趣的職場上班族、想側面驗證AI編碼能力的技術愛好者",
-        "pain_point": "不確定AI編碼工具到底能做到什麼程度,缺乏具體有畫面感的案例說服自己或團隊嘗試",
-        "title_idea": "Google員工實測:AI編碼工具幾小時搞定20年前老遊戲移植,強到離譜",
-        "local_angle": "這種「跟著做就有感」的AI編碼案例最適合做成教學型內容,華語圈vibe coding教學仍以簡單網頁App為主,尚未有人示範這類老遊戲移植題材"
-      }
-    ],
-    "trends": [
-      {
-        "title": "亞馬遜Mechanical Turk停止開放新用戶申請,AI正式終結人力群眾外包時代",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/"
-          }
-        ],
-        "summary": "AI取代人工標註,亞馬遜關閉群眾外包新用戶入口",
-        "audience": "從事資料標註或線上零工的接案族、關注AI取代人力工作趨勢的職場上班族",
-        "pain_point": "過去靠零工平台賺外快的管道正在消失,想知道AI時代還有哪些新的接案或變現機會",
-        "title_idea": "紅極一時的「人工外包」平台走入歷史!AI時代該轉往哪些新型態接案機會",
-        "local_angle": "這是「舊商業模式被AI淘汰」的鮮明案例,可延伸做「零工經濟在AI時代如何轉型」的選題,提醒讀者關注AI訓練師、prompt優化師等新興接案機會"
-      },
-      {
-        "title": "Mistral執行長公開警告:把公司命脈押在「封閉AI模型」上,等於把商業機密雙手奉上",
-        "sources": [
-          {
-            "name": "The Decoder",
-            "url": "https://the-decoder.com/mistral-ceo-mensch-says-proprietary-ai-models-give-labs-a-front-row-seat-to-your-business-processes/"
-          }
-        ],
-        "summary": "Mistral創辦人示警企業別過度依賴封閉AI模型",
-        "audience": "用AI工具處理公司機密資料的中小企業主、對資料隱私敏感的職場上班族",
-        "pain_point": "大量把公司內部資料丟給ChatGPT、Claude等工具,卻沒想過資料主權與隱私風險",
-        "title_idea": "你的AI對話紀錄,其實正在被拿去看穿你公司的商業機密?",
-        "local_angle": "台灣中小企業普遍還沒意識到「AI資料主權」議題,可做成「企業用AI該注意的資料風險」科普選題,同時帶出開源或自架AI模型的替代方案"
-      },
-      {
-        "title": "德國法院判決:Google要為AI Overviews的錯誤答案負全責,AI摘要恐衝擊創作者流量生態",
-        "sources": [
-          {
-            "name": "The Decoder",
-            "url": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/"
-          }
-        ],
-        "summary": "德國法院裁定Google需為AI摘要錯誤內容負責",
-        "audience": "靠SEO或Google流量維生的內容創作者、部落客、自媒體經營者",
-        "pain_point": "擔心Google AI Overviews直接摘要走讀者、流量被搶走,卻不清楚背後的法律與商業意涵",
-        "title_idea": "Google AI摘要搶走你的流量?這場德國官司判決可能改變一切",
-        "local_angle": "這起判決可能牽動全球Google處理AI摘要的方式,對仰賴SEO流量的華語創作者有直接影響,是少見還沒被華語媒體深度分析的AI搜尋摘要法律風險議題"
       }
     ]
   }
