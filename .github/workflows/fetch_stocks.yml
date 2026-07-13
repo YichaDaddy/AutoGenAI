@@ -1,12 +1,12 @@
 name: Fetch Stock Data
 
 on:
-  schedule:
-    # Taiwan market hours: Mon-Fri 09:00-13:30 CST = 01:00-05:30 UTC
-    # Run every 15 min during TW market hours
-    - cron: '*/15 1-5 * * 1-5'
-    # US market: Mon-Fri 09:30-16:00 EST = 14:30-21:00 UTC
-    - cron: '*/15 14-21 * * 1-5'
+  # 2026-07-13 停用自動排程：股價推送多次與每日日報排程（22:00 UTC）撞車，
+  # 導致日報 push main 失敗（6/30、7/6、7/10 皆有實證）。使用者確認股價功能
+  # 使用率低、後續將整塊替換，故僅保留手動觸發。
+  # schedule:
+  #   - cron: '*/15 1-5 * * 1-5'
+  #   - cron: '*/15 14-21 * * 1-5'
   workflow_dispatch:   # allow manual trigger
 
 permissions:
