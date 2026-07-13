@@ -1,5 +1,138 @@
 [
   {
+    "date": "2026-07-12",
+    "big_events": [
+      {
+        "title": "OpenAI 秘密提交 IPO 申請：估值 7300 億美元、最快 9 月掛牌，將成史上最大科技 IPO",
+        "sources": [
+          {
+            "name": "BuildFastWithAI（7/12 日報）",
+            "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026"
+          },
+          {
+            "name": "LLM Stats",
+            "url": "https://llm-stats.com/llm-updates"
+          }
+        ],
+        "summary": "OpenAI 委託高盛與摩根士丹利準備機密 IPO 文件，目標 9 月掛牌；Apple 訴訟與 Anthropic 營收超車成兩大變數。",
+        "audience": "關注 AI 產業與美股的職場投資族",
+        "pain_point": "知道 OpenAI 要上市，但不清楚估值邏輯、時程與散戶能不能參與",
+        "title_idea": "7300 億美元！OpenAI 秘密申請 IPO：史上最大科技上市案，散戶該興奮還是警惕？",
+        "local_angle": "從台灣券商複委託角度講「上市第一天該不該追」，並回顧歷來巨型 IPO 蜜月行情數據"
+      },
+      {
+        "title": "Anthropic 年化營收約 470 億美元「超車」OpenAI，AI 雙雄座次逆轉",
+        "sources": [
+          {
+            "name": "BuildFastWithAI（7/12 日報）",
+            "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026"
+          }
+        ],
+        "summary": "Anthropic 年化營收約 470 億美元，高於 OpenAI 2026 年預估的 250-330 億美元，企業市場策略見效。",
+        "audience": "AI 工具重度使用者與科技股投資人",
+        "pain_point": "以為 ChatGPT 名氣大＝賺最多，看不懂企業級 AI 市場的真實版圖",
+        "title_idea": "名氣不等於營收！Anthropic 悄悄超車 OpenAI，企業 AI 市場變天了",
+        "local_angle": "對照台灣企業導入 Claude／ChatGPT 的實際案例，講「to B 比 to C 值錢」的商業邏輯"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "OpenAI 進軍家庭場景：ChatGPT 推家庭功能佈局，鎖定親子與家戶共用",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/"
+          }
+        ],
+        "summary": "OpenAI 押注家庭用戶，讓 ChatGPT 從個人工具走向家戶共用場景，深化日常滲透。",
+        "audience": "家有學齡子女的上班族父母",
+        "pain_point": "想讓小孩用 AI 學習又怕內容失控，缺乏家長控管的具體做法",
+        "title_idea": "ChatGPT 要進你家了！家庭版功能解析：小孩用 AI，家長該設哪些防線？",
+        "local_angle": "結合台灣家長最在意的課業應用與內容分級，做「AI 家庭使用守則」教學"
+      },
+      {
+        "title": "Meta 發表 Muse Spark 1.1：主打自主代理與軟體開發，可協調多個子代理跑長任務",
+        "sources": [
+          {
+            "name": "BuildFastWithAI（7/12 日報）",
+            "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026"
+          },
+          {
+            "name": "LLM Stats",
+            "url": "https://llm-stats.com/llm-updates"
+          }
+        ],
+        "summary": "Meta 新模型鎖定 agentic 場景：自主代理、工具使用與長時任務，直接對打 GPT-5.6 與 Claude。",
+        "audience": "用 AI 寫程式、做自動化的開發者與效率玩家",
+        "pain_point": "多代理協作工具選擇爆炸，缺乏「哪家長任務最穩」的實測依據",
+        "title_idea": "Meta 也出代理模型了！Muse Spark 1.1 實測：多代理協作誰最不會斷線？",
+        "local_angle": "以中文長文件處理與台灣常見工作流實測，填補中文評測空缺"
+      }
+    ],
+    "trends": [
+      {
+        "title": "人形機器人 IPO 週：Agility 25 億美元 SPAC、Unitree 上海過會、Tesla 改產線衝 Optimus",
+        "sources": [
+          {
+            "name": "BuildFastWithAI（7/12 日報）",
+            "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026"
+          }
+        ],
+        "summary": "三家人形機器人指標企業同週推進上市或量產，但皆未證明規模化經濟效益。",
+        "audience": "追科技趨勢題材的投資與科普觀眾",
+        "pain_point": "機器人題材熱但看不懂「誰在講故事、誰有真出貨」",
+        "title_idea": "人形機器人上市潮來了！三家指標公司大 PK：誰是真量產、誰在燒錢圓夢？",
+        "local_angle": "盤點台灣機器人供應鏈（減速機、感測、組裝）位置，把海外熱潮接回台股語境"
+      },
+      {
+        "title": "Anthropic 推「Claude Corps」：12 個月有薪培訓計畫，把 AI 人才送進非營利組織",
+        "sources": [
+          {
+            "name": "BuildFastWithAI（7/12 日報）",
+            "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026"
+          }
+        ],
+        "summary": "付費 fellowship 培養 AI 專業者進駐 NPO，開創「AI 人才公共化」的新模式。",
+        "audience": "想轉職 AI 領域的上班族與 NPO 工作者",
+        "pain_point": "想入行 AI 卻沒有工程背景，找不到非技術路徑的切入點",
+        "title_idea": "不會寫程式也能進 AI 業？Anthropic 開了一條新路：領薪水邊做公益邊學 AI",
+        "local_angle": "延伸盤點台灣的 AI 培訓／轉職資源，做「非工程師的 AI 職涯地圖」"
+      }
+    ],
+    "source_coverage": [
+      {
+        "source": "TechCrunch AI 分類頁",
+        "status": "success",
+        "count": 1,
+        "note": "WebFetch 成功；7/12（週日）無新文章，收錄 7/11 一篇（OpenAI 家庭功能），URL 已核實"
+      },
+      {
+        "source": "WebSearch（AI news 2026-07-12）",
+        "status": "success",
+        "count": 6,
+        "note": "以 BuildFastWithAI 7/12 當日日報為主來源交叉 LLM Stats，逐條核對事件日期，僅取 7/11-7/12 週末新聞，上週已報導者（Apple 訴訟、SK Hynix、GPT-5.6）不重複收錄"
+      },
+      {
+        "source": "The Verge AI",
+        "status": "failed",
+        "count": 0,
+        "note": "直接 WebFetch 被封鎖，週末經 WebSearch 未發現 7/12 獨家 AI 文章"
+      },
+      {
+        "source": "YouTube 六頻道",
+        "status": "failed",
+        "count": 0,
+        "note": "本次補跑未逐一檢查頻道上傳清單，如實標記未覆蓋"
+      },
+      {
+        "source": "X/Twitter 關鍵帳號",
+        "status": "failed",
+        "count": 0,
+        "note": "本次補跑未執行 X 帳號搜尋，如實標記未覆蓋"
+      }
+    ]
+  },
+  {
     "date": "2026-07-11",
     "big_events": [
       {
@@ -870,147 +1003,6 @@
         "pain_point": "擔心Google AI Overviews直接摘要走讀者、流量被搶走,卻不清楚背後的法律與商業意涵",
         "title_idea": "Google AI摘要搶走你的流量?這場德國官司判決可能改變一切",
         "local_angle": "這起判決可能牽動全球Google處理AI摘要的方式,對仰賴SEO流量的華語創作者有直接影響,是少見還沒被華語媒體深度分析的AI搜尋摘要法律風險議題"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-04",
-    "big_events": [
-      {
-        "title": "解封法庭郵件曝光:五角大廈曾要求Anthropic開放自主武器換取合約",
-        "sources": [
-          {
-            "name": "Tech Times",
-            "url": "https://www.techtimes.com/articles/319713/20260704/pentagon-blacklisted-anthropic-over-autonomous-weapons-limits-emails-reveal-very-close-talks.htm"
-          }
-        ],
-        "summary": "解封法庭郵件顯示五角大廈曾逼Anthropic鬆綁自主武器限制",
-        "audience": "關注AI倫理與國防科技議題的科技媒體工作者、企業AI治理顧問",
-        "pain_point": "讀者難以判斷Claude背後的安全承諾是否可信,擔心AI巨頭在商業壓力下讓步原則",
-        "title_idea": "五角大廈想要「聽話的AI」?解密郵件揭Anthropic拒絕開發自主武器的真實談判",
-        "local_angle": "可延伸討論台灣國防與AI結合的倫理界線,並比較台灣廠商若面對類似壓力該如何自處"
-      },
-      {
-        "title": "阿里巴巴全面禁用Claude Code,指控暗藏「監控代碼」",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/"
-          },
-          {
-            "name": "South China Morning Post",
-            "url": "https://www.scmp.com/tech/big-tech/article/3359375/alibaba-bans-staff-using-claude-code-over-anthropic-spyware-concerns"
-          }
-        ],
-        "summary": "阿里巴巴禁員工用Claude Code,稱其暗藏偷測中國用戶機制",
-        "audience": "使用AI程式助手開發的工程師、關注中美AI供應鏈對立的科技評論者",
-        "pain_point": "開發者擔心跨國AI工具背後藏有政治風險或隱私監控,不知道該不該繼續依賴",
-        "title_idea": "Claude Code被抓「偷看時區」?阿里巴巴宣布7月10日全面禁用,改推自家工具",
-        "local_angle": "提醒台灣工程師留意跨境AI工具的資安爭議,可對照台灣企業導入國外AI編程工具時的資安盤點清單"
-      },
-      {
-        "title": "中國新規上路,豆包、通義千問智能體功能7月15日集體下架",
-        "sources": [
-          {
-            "name": "Tech Times",
-            "url": "https://www.techtimes.com/articles/319703/20260704/china-ai-companion-law-arrives-july-15-doubao-qwen-agent-data-will-deleted.htm"
-          },
-          {
-            "name": "東方財富網",
-            "url": "https://wap.eastmoney.com/a/202607043794195277.html"
-          }
-        ],
-        "summary": "陸方AI擬人化新規上路,豆包、千問智能體功能同步下架",
-        "audience": "研究兩岸AI監理差異的內容創作者、對AI虛擬陪伴應用有興趣的產品經理",
-        "pain_point": "使用者累積的AI智能體對話與人設資料可能一夕消失,企業也難預判監管紅線在哪",
-        "title_idea": "陸版AI管制來了!豆包、千問智能體7月15日集體熄燈,用戶資料說刪就刪",
-        "local_angle": "可對比台灣目前對AI虛擬陪伴/聊天機器人尚無專法規範的現況,提醒創作者提前思考資料保存與用戶告知機制"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "美團開源LongCat-2.0:1.6兆參數模型跑贏GPT-5.5,全靠中國自製晶片訓練",
-        "sources": [
-          {
-            "name": "VentureBeat",
-            "url": "https://venturebeat.com/technology/meituan-open-sources-longcat-2-0-the-1-6t-near-frontier-agentic-coding-model-thats-been-leading-openrouter-trained-entirely-on-chinese-chips"
-          },
-          {
-            "name": "Cryptopolitan",
-            "url": "https://www.cryptopolitan.com/meituan-longcat-2-0-ai-model-chinese-chips/"
-          }
-        ],
-        "summary": "美團開源1.6兆參數LongCat-2.0,程式能力超車GPT-5.5",
-        "audience": "想找便宜好用寫程式AI的自由工作者、關注開源模型可否取代付費訂閱的技術型創作者",
-        "pain_point": "訂閱多個AI寫程式工具成本越來越高,想知道免費開源模型是否已經夠用",
-        "title_idea": "免費又比GPT-5.5強?美團神秘模型LongCat-2.0正式開源,程式高手實測心得搶先看",
-        "local_angle": "可製作「開源模型 vs 訂閱制AI」費用試算表,提醒讀者留意中國模型的資料傳輸與合規疑慮再評估是否導入工作流程"
-      },
-      {
-        "title": "Google拍7月4日獨立紀念日廣告,示範Gemini幫國父「腦力激盪」寫獨立宣言",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/"
-          }
-        ],
-        "summary": "Google推出趣味廣告,展示Gemini「幫我視覺化」與會議記錄功能",
-        "audience": "常需要開會記錄、腦力激盪發想文案的行政人員、行銷企劃",
-        "pain_point": "開會常常抓不到重點、想不出創意方向,卻不知道AI工具實際能怎麼幫忙",
-        "title_idea": "連國父開會都靠AI?Google廣告示範Gemini怎麼幫你「畫重點」又「想點子」",
-        "local_angle": "可轉化成台灣職場情境教學,示範用Gemini做會議記錄整理、腦力激盪發想的實際操作步驟"
-      },
-      {
-        "title": "TechCrunch出手解說Mistral AI:歐洲版OpenAI的競爭實力大公開",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/"
-          }
-        ],
-        "summary": "TechCrunch整理Mistral AI背景、產品線與歐洲AI主權布局",
-        "audience": "只知道ChatGPT、Gemini,想拓展AI工具選項的職場AI初學者",
-        "pain_point": "市面AI工具太多,不知道除了ChatGPT、Claude還有哪些替代選擇值得認識",
-        "title_idea": "除了ChatGPT,你還認識Mistral嗎?一次搞懂這家歐洲AI黑馬在做什麼",
-        "local_angle": "可製作台灣讀者版「AI工具地圖」,標示Mistral相關產品目前在台灣的可用性與中文支援程度"
-      }
-    ],
-    "trends": [
-      {
-        "title": "好萊塢片廠控告Midjourney侵權,卻被要求交出自家AI使用內幕",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/"
-          },
-          {
-            "name": "Variety",
-            "url": "https://variety.com/2026/film/news/midjourney-studios-ai-copyright-discovery-1236800902/"
-          }
-        ],
-        "summary": "Midjourney反訴要求控告它的片廠公開內部AI使用紀錄",
-        "audience": "使用AI繪圖工具產出商業內容的自媒體、平面設計接案者",
-        "pain_point": "不確定用AI生成的素材是否有侵權風險,也不知道大公司內部其實怎麼用AI",
-        "title_idea": "告別人用AI侵權,自己卻偷偷用?迪士尼、華納被Midjourney反將一軍的內幕",
-        "local_angle": "提醒台灣內容創作者留意使用AI繪圖工具的著作權風險,建議建立素材來源紀錄以防未來糾紛"
-      },
-      {
-        "title": "從矽谷到北京:AI代理工具同步被政府與企業「收緊」成新常態",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/"
-          },
-          {
-            "name": "Tech Times",
-            "url": "https://www.techtimes.com/articles/319703/20260704/china-ai-companion-law-arrives-july-15-doubao-qwen-agent-data-will-deleted.htm"
-          }
-        ],
-        "summary": "同一天內,中美企業與政府都在收緊AI代理工具的使用權限",
-        "audience": "關注中美AI監理走向的財經自媒體、企業數位轉型決策者",
-        "pain_point": "AI代理/智能體工具規範變化太快,難以判斷該押注哪個平台或政策風向",
-        "title_idea": "同一天,中美都在「管」AI代理:阿里禁用Claude Code、北京勒令豆包千問下架智能體",
-        "local_angle": "可延伸討論台灣企業若同時使用中美AI工具,該如何準備應對雙邊政策風險的「兩手策略」"
       }
     ]
   }

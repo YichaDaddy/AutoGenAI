@@ -1,5 +1,112 @@
 [
   {
+    "date": "2026-07-12",
+    "market_shocks": [
+      {
+        "title": "OpenAI 秘密申請 IPO：估值 7300 億美元，規模將輾壓史上所有科技上市案",
+        "sources": [
+          {
+            "name": "BuildFastWithAI（7/12 日報）",
+            "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026"
+          }
+        ],
+        "summary": "高盛、摩根士丹利操刀，最快 9 月掛牌；但 Apple 訴訟纏身＋對手營收超車，定價面臨兩大逆風。",
+        "tw_stock_impact": "巨型 IPO 將抽走市場資金動能，AI 概念股短線恐面臨「賣舊買新」的資金排擠效應",
+        "investment_insight": "巨型 IPO 常是市場情緒高點指標；回顧 Alibaba 2014、Saudi Aramco 2019 掛牌後行情，蜜月期追高勝率不佳",
+        "title_idea": "7300 億美元的世紀 IPO！OpenAI 上市是 AI 行情的加速器，還是到頂訊號？",
+        "local_angle": "用「阿里巴巴上市那年發生什麼事」的歷史對照，提醒台灣複委託族冷靜"
+      },
+      {
+        "title": "AI 雙雄營收逆轉：Anthropic 年化 470 億美元 vs OpenAI 250-330 億",
+        "sources": [
+          {
+            "name": "BuildFastWithAI（7/12 日報）",
+            "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026"
+          }
+        ],
+        "summary": "企業級市場成勝負手，Anthropic 靠 to B 策略營收超車，直接衝擊 OpenAI 的 IPO 估值敘事。",
+        "tw_stock_impact": "AI 應用層競爭白熱化＝算力需求持續，台積電、AI 伺服器鏈的基本面邏輯不變",
+        "investment_insight": "投資 AI 賣鏟人（晶片、雲端、電力）比押注應用層贏家更能迴避座次輪替風險",
+        "title_idea": "ChatGPT 輸了？Anthropic 營收悄悄超車，AI 投資邏輯要改寫",
+        "local_angle": "把「賣鏟人策略」翻成台股語言：與其猜誰贏，不如抱供應鏈"
+      },
+      {
+        "title": "人形機器人 IPO 潮：Agility SPAC 估值 25 億美元、Unitree 上海過會、Tesla 改線量產 Optimus",
+        "sources": [
+          {
+            "name": "BuildFastWithAI（7/12 日報）",
+            "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026"
+          }
+        ],
+        "summary": "三大指標案同週推進，但外媒點名「無一證明規模化經濟」，題材與基本面的落差擴大。",
+        "tw_stock_impact": "台灣機器人概念股（上銀、和大、所羅門等）將隨題材波動，注意本夢比行情的追高風險",
+        "investment_insight": "SPAC 上市＋未證明獲利模式＝高風險組合；參與題材用小部位、設停損，別當存股",
+        "title_idea": "機器人概念股要噴了？三大 IPO 案背後，先看懂「本夢比」的遊戲規則",
+        "local_angle": "整理台灣機器人供應鏈受惠順序與估值現況，給散戶一張風險地圖"
+      }
+    ],
+    "investment_opportunities": [
+      {
+        "title": "美國把 UAE 重分類為 A:5：先進 AI 晶片免許可輸出，中東算力商機解鎖",
+        "sources": [
+          {
+            "name": "BuildFastWithAI（7/12 日報）",
+            "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026"
+          }
+        ],
+        "summary": "美國商務部鬆綁對阿聯出口管制，移除美系晶片商與波灣算力建設之間的監管摩擦。",
+        "tw_stock_impact": "中東主權基金資料中心大單可期，台積電先進製程與台系 AI 伺服器代工（緯創、廣達）受惠出海口再擴大",
+        "investment_insight": "出口管制鬆綁是政策面利多，關注後續訂單落地節奏而非一次性消息行情",
+        "title_idea": "中東土豪的 AI 軍備賽開綠燈！美國鬆綁晶片出口，台鏈吃得到哪些單？",
+        "local_angle": "從緯創、廣達中東佈局新聞回推「誰先卡位」，比空談概念股實在"
+      },
+      {
+        "title": "Meta 宣示 2027 年算力翻倍、砸 100 億美元蓋艾伯塔資料中心",
+        "sources": [
+          {
+            "name": "BuildFastWithAI（7/12 日報）",
+            "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026"
+          }
+        ],
+        "summary": "Meta 內部備忘錄曝光算力倍增計畫，並刻意分散供應商以增加議價籌碼，Iris 自研晶片 9 月投產。",
+        "tw_stock_impact": "台積電（Iris 代工）、散熱、電源、重電基建鏈長線需求能見度再拉高",
+        "investment_insight": "四大 CSP 資本支出是 AI 硬體股的先行指標，Meta 加碼進一步確認 2027 需求，可留意回檔佈局點",
+        "title_idea": "Meta 要把算力翻倍！100 億美元資料中心計畫，台股受惠名單一次看",
+        "local_angle": "把 CSP 資本支出數據做成追蹤表，教觀眾自己驗證「AI 需求還在不在」"
+      }
+    ],
+    "macro_observations": [
+      {
+        "title": "Fed 首設 AI 任務小組，找來 a16z 創辦人 Andreessen 共同主持",
+        "sources": [
+          {
+            "name": "BuildFastWithAI（7/12 日報）",
+            "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026"
+          }
+        ],
+        "summary": "聯準會首度成立專責架構研究 AI 對勞動市場與生產力的衝擊，惟 Andreessen 的 AI 持股引發利益衝突質疑。",
+        "tw_stock_impact": "央行開始把 AI 納入政策框架＝AI 對通膨與就業的影響將影響利率路徑，牽動台股資金面",
+        "investment_insight": "留意 Fed 後續 AI 相關研究報告，「AI 生產力紅利壓通膨」若成主流論述，將是股市的長多劇本",
+        "title_idea": "Fed 都開始研究 AI 了！央行眼中的 AI：是通膨解藥還是失業炸彈？",
+        "local_angle": "連結台灣主計處就業數據，討論 AI 對台灣服務業與科技業就業的實際影響"
+      },
+      {
+        "title": "算力租賃經濟學：Anthropic 月付 12.5 億美元租用 Colossus，自建與租用的成本大戰",
+        "sources": [
+          {
+            "name": "BuildFastWithAI（7/12 日報）",
+            "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026"
+          }
+        ],
+        "summary": "頂級 AI 實驗室的算力月租金額曝光；SambaNova 完成 10 億美元 F 輪，挑戰超大集群租賃模式。",
+        "tw_stock_impact": "不論自建或租用，晶片與資料中心硬體都是必要支出，台積電與伺服器鏈是中立受惠者",
+        "investment_insight": "AI 公司毛利被算力成本壓縮是共同風險，評價 AI 應用股時要把算力租金當「新房租」看待",
+        "title_idea": "一個月燒 12.5 億美元租算力！AI 公司的帳本，藏著下一波贏家線索",
+        "local_angle": "用「開店租金vs買店面」比喻算力自建與租用，把硬核成本結構講成人話"
+      }
+    ]
+  },
+  {
     "date": "2026-07-11",
     "market_shocks": [
       {
@@ -994,159 +1101,6 @@
         "investment_insight": "可將美國房貸利率與美債殖利率走勢納入資產配置的領先觀察指標，若利率持續走升，建議適度增加短天期美元資產與防禦性部位，並留意台灣壽險股在利率波動下的淨值變化。",
         "title_idea": "美國人買房利率嚇壞了！一週跳升23點，6字頭利率回來了",
         "local_angle": "台灣壽險業與退休基金持有大量美債與美元資產，美國房貸利率快速上升反映的殖利率走勢，將直接牽動台灣機構投資人的匯兌與債券評價損益。"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-04",
-    "market_shocks": [
-      {
-        "title": "AI吃電怪獸逼爆美國電網！國慶連假電價狂飆逾243%",
-        "sources": [
-          {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/07/03/power-grid-independence-day-weekend.html"
-          },
-          {
-            "name": "ZeroHedge",
-            "url": "https://www.zerohedge.com/weather/heat-dome-threatens-americas-250th-birthday-power-grid-crisis-continues"
-          }
-        ],
-        "summary": "熱浪疊加AI資料中心用電暴增，美國最大電網PJM在建國250週年國慶連假期間持續發布緊急減載令，批發電價一度較去年同期飆漲逾243%、部分時段每度突破2000美元，用電量逼近2006年歷史高峰，凸顯AI基礎設施的電力缺口已從技術議題升級為系統性風險，這股緊張態勢延續整個7月4日連假。",
-        "tw_stock_impact": "台灣同樣面臨台積電先進封裝與資料中心用電需求快速攀升的電網壓力，美國案例會放大市場對台灣供電穩定性、電價上漲與限電風險的擔憂，衝擊電力設備、儲能與機房散熱概念股評價。",
-        "investment_insight": "可留意台達電、中興電、士電等電力設備與儲能供應鏈，以及雙鴻、健策等散熱概念股，作為AI用電需求外溢的間接受惠標的；同時追蹤電價上漲對高耗能傳產成本結構的壓力。",
-        "title_idea": "電網要爆了！AI比你想的更耗電，美國國慶連假電價狂飆243%",
-        "local_angle": "台灣正在辯論台積電擴廠與資料中心會不會排擠民生用電，美國電網瀕臨崩潰的畫面，正是台灣未來可能面對的預演，值得電力概念股投資人提前關注。"
-      },
-      {
-        "title": "記憶體鬼故事重演？陸廠示警疊加海外空頭，台廠三雄本週承壓",
-        "sources": [
-          {
-            "name": "鉅亨網",
-            "url": "https://news.cnyes.com/news/id/6522281"
-          },
-          {
-            "name": "BigGo財經",
-            "url": "https://finance.biggo.com.tw/news/980b1e5d-2f8b-4fce-a2fb-2f98fff7b7d6"
-          }
-        ],
-        "summary": "鉅亨網週末版「本週大事回顧」點名，中國記憶體龍頭兆易創新公告示警產品價格已處歷史高檔、缺乏終端需求支撐，加上國際空頭近期加碼放空美光等AI晶片股的訊號交織，讓台股記憶體三雄南亞科、華邦電、旺宏本週股價劇烈震盪、外資單日賣超逾10萬張。",
-        "tw_stock_impact": "南亞科、華邦電、旺宏、力積電等記憶體概念股評價本週明顯修正，反映市場對記憶體超級循環是否提前見頂的分歧擴大，也牽動00939、00940等AI主題ETF淨值波動。",
-        "investment_insight": "若DRAM/HBM供需吃緊的基本面未變，短線回檔可視為長線布局機會；但建議分批進場並嚴設停損，並持續追蹤下一季法說會財測是否印證或推翻示警論點，避免追高。",
-        "title_idea": "大空頭又出手！記憶體鬼故事捲土重來，南亞科華邦電慘遭團滅？",
-        "local_angle": "南亞科、華邦電是台股資金重壓的AI概念股，任何海外空頭或陸廠示警訊號都會立刻反映在台股盤面，本土投資人需判斷這是健康回檔還是循環轉折。"
-      },
-      {
-        "title": "美國建國250年負債破39.7兆美元，每天多欠4.3億美元",
-        "sources": [
-          {
-            "name": "Newsweek",
-            "url": "https://www.newsweek.com/from-71-million-to-39-trillion-u-s-national-debts-250-year-climb-12084747"
-          },
-          {
-            "name": "US Debt Clock",
-            "url": "https://www.us-debt-clock.com/data/debt-by-year"
-          }
-        ],
-        "summary": "美國在獨立宣言簽署250週年的7月4日當天，國家債務累積達39.72兆美元，換算下來相當於過去250年來平均每天舉債約4.3億美元；財政部同時預告第三季將再借6710億美元，凸顯財政擴張速度未見收斂，成為250歲生日最諷刺的數字紀錄。",
-        "tw_stock_impact": "美債規模持續膨脹強化市場對美國財政赤字與長債殖利率上行的擔憂，若殖利率走升，將牽動新台幣匯率、外資資金成本與台股本益比評價，衝擊金融股與壽險業債券帳上損益。",
-        "investment_insight": "可將美債殖利率走勢列為資金風向指標，適度增加防禦性資產（如美元短債、黃金）配置，分散單一市場財政風險，並留意台灣壽險業美債曝險是否受波動放大。",
-        "title_idea": "美國生日快樂，順便欠了39.7兆美元！這筆帳最後誰來還？",
-        "local_angle": "台灣壽險業與退休基金持有大量美債，美國財政壓力若推升殖利率波動，將直接影響台灣機構投資人的帳上損益與匯兌風險。"
-      }
-    ],
-    "investment_opportunities": [
-      {
-        "title": "川普兒童投資帳戶7月4日上線，600萬帳戶自動買進S&P 500",
-        "sources": [
-          {
-            "name": "CNN Business",
-            "url": "https://www.cnn.com/2026/07/04/business/trump-accounts-faq"
-          },
-          {
-            "name": "24/7 Wall St",
-            "url": "https://247wallst.com/personal-finance/2026/07/03/trump-accounts-auto-buy-spym-on-july-4-heres-the-etf-nobodys-heard-of/"
-          }
-        ],
-        "summary": "美國「川普帳戶」（Trump Accounts）於7月4日正式啟用，目前已開立超過600萬個兒童投資帳戶，符合資格的新生兒可獲政府一次性1000美元注資，帳戶預設投資標的為追蹤S&P 500的SPYM ETF，並由Robinhood打造專屬App管理，形成長期穩定的被動資金流入。",
-        "tw_stock_impact": "數百萬帳戶長期定期買進S&P 500將為美股帶來持續性的被動資金支撐，間接墊高台積電ADR、費城半導體指數成分股等台廠客戶所在指數的估值基礎，也可能刺激台灣跟進討論兒童理財政策。",
-        "investment_insight": "可留意受惠於被動資金流入的美股大型指數ETF與Robinhood（HOOD）等基礎設施受益股；台灣投資人也可思考仿效此模式，為子女早期定期定額布局全球指數型ETF。",
-        "title_idea": "川普送你孩子1000美元！這個帳戶美股媽媽都在搶開",
-        "local_angle": "台灣家長熟悉的「零用錢投資」概念在美國正式制度化，可作為台灣討論兒童財商教育與長期投資規劃的參考範本。"
-      },
-      {
-        "title": "台灣《虛擬資產服務法》三讀過關，本週登上金融政策焦點",
-        "sources": [
-          {
-            "name": "鉅亨網",
-            "url": "https://news.cnyes.com/news/id/6520420"
-          },
-          {
-            "name": "中央社",
-            "url": "https://www.cna.com.tw/news/aipl/202606300063.aspx"
-          }
-        ],
-        "summary": "立法院三讀通過台灣首部《虛擬資產服務法》，明定業者須取得金管會許可、穩定幣須十足準備金並存放境內，操縱市場最重可處10年徒刑；此事在鉅亨網7月4日發布的「本週大事回顧」中被列為本週三大焦點之一，金管會目標2027年第一季前完成9部子法上路。",
-        "tw_stock_impact": "法規明確化有助合規虛擬資產業者（如交易所、託管服務商）取得市場信任，相關概念股與已插旗虛擬資產業務的金融科技業者，可望受惠於制度紅利與資金正名化。",
-        "investment_insight": "留意具備先行申請許可優勢的本土交易所與金融科技公司，以及可能受託發行穩定幣的銀行體系，作為法規元年的潛在受惠標的；但子法尚未到位，短期仍以觀察為主，不宜過早重押。",
-        "title_idea": "台灣加密貨幣元年來了！三讀通過後，這些業者笑了",
-        "local_angle": "台灣終於補上虛擬資產監理缺口，對照美國、香港等地的監管進度，本土投資人可趁機盤點手上交易所與資產是否符合未來合規要求。"
-      },
-      {
-        "title": "勞退基金5月大賺586億！AI狂潮讓勞工分紅創新高",
-        "sources": [
-          {
-            "name": "鉅亨網",
-            "url": "https://news.cnyes.com/news/id/6518554"
-          },
-          {
-            "name": "中央社",
-            "url": "https://www.cna.com.tw/news/ahel/202607010058.aspx"
-          }
-        ],
-        "summary": "勞動基金運用局公布，截至5月底整體勞動基金規模達8.61兆元，前5月收益率飆27.7%，其中5月單月大賺586億元；新制勞退基金前5月替1310萬勞工平均分紅11.1萬元創歷史新高，主因是全球AI與大型科技股大漲，此績效同樣被收錄在7月4日發布的本週財經大事回顧中。",
-        "tw_stock_impact": "勞退基金作為台股與美股的長期機構資金，其重壓AI科技股的操作策略等同為台灣散戶提供最直接的成功範例，也顯示官方資金對AI趨勢的高度信心，有助支撐相關權值股信心面。",
-        "investment_insight": "散戶可參考勞退基金的資產配置邏輯，透過定期定額布局全球科技/AI主題ETF，分享AI成長趨勢紅利，同時留意集中度過高帶來的循環風險，避免全押單一主題。",
-        "title_idea": "官方認證！勞退基金押AI大賺586億，你的退休金也搭上了嗎？",
-        "local_angle": "每位台灣勞工都是這波勞退基金收益的直接受益人，了解基金操作邏輯有助評估自己是否該加碼同類主題投資。"
-      }
-    ],
-    "macro_observations": [
-      {
-        "title": "川普對歐盟關稅最後期限就在7月4日，車用關稅恐跳升至25%",
-        "sources": [
-          {
-            "name": "Al Jazeera",
-            "url": "https://www.aljazeera.com/amp/economy/2026/5/7/trump-sets-july-4-deadline-for-eu-tariff-hike-decision"
-          },
-          {
-            "name": "Baker Botts Tariff Tracker",
-            "url": "https://ourtake.bakerbotts.com/post/102n7tq/trump-tariff-tracker-july-2-2026"
-          }
-        ],
-        "summary": "川普將美國建國250週年的7月4日設為歐盟履行貿易協議承諾的最後期限，要求歐盟同步將關稅降至零，否則美國將把歐盟汽車及卡車關稅由15%大幅上調至25%，成為近期全球貿易緊張情勢的最新變數。",
-        "tw_stock_impact": "若美歐關稅戰重燃，將牽動全球供應鏈與貿易情緒，衝擊台灣以出口為導向的汽車零組件、工具機供應鏈信心，同時讓市場重新檢視台灣已談定的15%關稅優惠是否穩固、是否會被要求加碼讓步。",
-        "investment_insight": "建議追蹤7月4日後美歐後續談判進展，若情勢升溫可留意避險資產與內需股；台灣供應鏈廠商則應留意對歐出口美系車廠客戶端訂單變化，作為調整持股的參考。",
-        "title_idea": "倒數計時！川普對歐盟關稅大限就在國慶日，汽車關稅大戰一觸即發",
-        "local_angle": "台灣才剛與美國談定15%關稅待遇，川普對歐盟的強硬態度提醒台灣廠商，貿易協議的執行細節與後續稽核同樣關鍵,不能掉以輕心。"
-      },
-      {
-        "title": "新任聯準會主席沃許鴿派發聲，比特幣國慶連假撐在6.3萬美元",
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "url": "https://www.coindesk.com/markets/2026/07/02/bitcoin-zooms-above-usd61-000-as-inflation-fears-soften"
-          },
-          {
-            "name": "Convex",
-            "url": "https://convextrade.com/metrics/btc"
-          }
-        ],
-        "summary": "新任聯準會主席Kevin Warsh近期發言暗示通膨風險已趨緩，市場解讀為偏鴿信號，帶動比特幣回升站上6.1萬美元；截至7月4日美股因國慶連假休市期間，比特幣持穩於約6.3萬美元附近，波動有限，顯示風險資產尚在消化新主席政策風向。",
-        "tw_stock_impact": "若聯準會確立偏鴿路線，將降低市場對進一步緊縮的擔憂，有利台股與新興市場資金面；台灣投資人可觀察美元指數與新台幣匯率是否隨聯準會態度轉向而出現變化，牽動出口權值股匯兌損益。",
-        "investment_insight": "可留意聯準會後續會議紀要與Warsh公開講話，作為判斷降息時點的指標；比特幣連假期間波動收斂，顯示市場尚在等待更明確的政策訊號，追高或殺低都不宜過早。",
-        "title_idea": "鮑爾接班人一開口，比特幣連假不跌反穩！降息訊號來了？",
-        "local_angle": "聯準會主席換人後的政策風向，直接牽動新台幣兌美元走勢與外資對台股的資金配置，是下半年台灣投資人必須緊盯的變數。"
       }
     ]
   }

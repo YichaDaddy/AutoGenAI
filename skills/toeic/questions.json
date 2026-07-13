@@ -1,111 +1,111 @@
 {
-  "date": "2026-07-12",
+  "date": "2026-07-13",
   "p5": [
     {
-      "id": "2026-07-12-p5-0",
+      "id": "2026-07-13-p5-0",
+      "tag": "Only 開頭倒裝",
+      "pre": "Only after the external auditors had reconciled every outstanding discrepancy ",
+      "post": " the quarterly statements released to shareholders.",
+      "opts": [
+        "were",
+        "did",
+        "have",
+        "was"
+      ],
+      "ans": 0,
+      "zh": "直到外部稽核人員核銷所有未解決的差異之後，季度財務報表才對股東發布。",
+      "why": "「Only + 副詞子句」置於句首時，主要子句須倒裝。本句為被動語態（報表「被發布」），倒裝時 be 動詞直接移到主詞前：<b>were</b> the statements released。主詞 statements 為複數，(D) was 單複數不一致；(B) did 之後須接原形動詞（release），與 released 矛盾；(C) have 缺過去分詞結構且時態不符。"
+    },
+    {
+      "id": "2026-07-13-p5-1",
+      "tag": "動名詞受詞",
+      "pre": "Citing unresolved security concerns, the committee recommended ",
+      "post": " the vendor's contract pending a comprehensive third-party assessment.",
+      "opts": [
+        "suspending",
+        "to suspend",
+        "suspended",
+        "suspension of"
+      ],
+      "ans": 0,
+      "zh": "基於尚未解決的資安疑慮，委員會建議暫停該供應商的合約，靜候完整的第三方評估。",
+      "why": "<b>recommend</b> 屬於後接<b>動名詞</b>作受詞的動詞（同 suggest、consider、avoid），故選 suspending。不定詞 to suspend 不合此動詞的固定用法；suspended 為過去式／過去分詞無法作受詞；suspension of 雖為名詞結構，但後方已有受詞 the vendor's contract，會造成重複。"
+    },
+    {
+      "id": "2026-07-13-p5-2",
       "tag": "非限定關係子句",
-      "pre": "The board approved the proposed merger without further amendment, ",
-      "post": " surprised even the negotiating team.",
+      "pre": "The prospectus discloses several contingent liabilities, none of ",
+      "post": " is expected to materially affect the final offering price.",
       "opts": [
         "which",
-        "that",
-        "what",
-        "who"
+        "them",
+        "whose",
+        "that"
       ],
       "ans": 0,
-      "zh": "董事會未經進一步修訂便通過了此項合併提案，這一點連談判團隊本身都感到意外。",
-      "why": "逗號後的子句是對「前面整個事件」的補充說明，而非修飾單一名詞，須用非限定關係代名詞 <b>which</b> 指代整句。<b>that</b> 不可用於逗號後的非限定用法；<b>what</b> 本身已含先行詞、不可再接先行詞；<b>who</b> 只能指人，不能指代前述事件。"
+      "zh": "公開說明書揭露了數項或有負債，其中沒有任何一項預期會對最終發行價格造成重大影響。",
+      "why": "逗號後的「none of ___」需要一個能連接兩個子句的關係代名詞，指涉前述 contingent liabilities，故用 <b>which</b>（數量詞 + of which 的非限定用法）。<b>them</b> 是人稱代名詞，無連接功能，會形成兩個獨立子句的逗號謬誤；<b>that</b> 不能用於非限定（逗號後）關係子句；<b>whose</b> 表所有格，語意不符。"
     },
     {
-      "id": "2026-07-12-p5-1",
-      "tag": "進階動詞語意辨別",
-      "pre": "The confidentiality clause explicitly ",
-      "post": " any disclosure of the settlement terms to third parties.",
+      "id": "2026-07-13-p5-3",
+      "tag": "意志動詞假設語氣",
+      "pre": "The regulator stipulated that the exchange ",
+      "post": " its clearing procedures before resuming after-hours trading.",
       "opts": [
-        "precludes",
-        "precedes",
-        "proceeds",
-        "presides"
+        "overhaul",
+        "overhauls",
+        "overhauled",
+        "would overhaul"
       ],
       "ans": 0,
-      "zh": "保密條款明確排除了向第三方揭露和解條款內容的可能性。",
-      "why": "<b>precludes</b>（排除、杜絕……的可能性）後接名詞片語，語意為「使某事不可能發生」，與「條款禁止揭露」語意相符。<b>precedes</b> 意為「在……之前」、<b>proceeds</b> 意為「進行」、<b>presides</b> 意為「主持」，皆與語境不符。"
+      "zh": "監管機關規定，該交易所必須先全面翻修其結算程序，方可恢復盤後交易。",
+      "why": "<b>stipulate</b>（規定）屬意志動詞，其後的 that 子句採假設語氣現在式，動詞一律用<b>原形</b>（美式用法，= should overhaul 省略 should），不受主詞單複數影響，故選 overhaul。同類動詞還有 demand、require、insist、propose。(B)(C)(D) 皆為一般直述時態，不符合意志動詞的子句規則。"
     },
     {
-      "id": "2026-07-12-p5-2",
-      "tag": "比較結構",
-      "pre": "",
-      "post": " the litigation drags on, the more reluctant investors will be to commit additional capital.",
+      "id": "2026-07-13-p5-4",
+      "tag": "副詞子句縮減",
+      "pre": "While broadly ",
+      "post": " with the board's rationale for the share buyback, the CFO cautioned against announcing the program prematurely.",
       "opts": [
-        "The longer",
-        "The long",
-        "Longer",
-        "As long as"
+        "concurring",
+        "concurred",
+        "concurrence",
+        "to concur"
       ],
       "ans": 0,
-      "zh": "訴訟拖得愈久，投資人就愈不願意投入額外的資金。",
-      "why": "「the + 比較級……, the + 比較級……」為相關比較句型，表示兩件事程度同步變化，空格須為比較級 <b>The longer</b>。<b>The long</b> 非比較級形式；<b>Longer</b> 缺少定冠詞 the，不符此句型固定結構；<b>As long as</b>（只要）為條件連接詞，會改變句意且無法與後半的 the more 呼應。"
-    },
-    {
-      "id": "2026-07-12-p5-3",
-      "tag": "獨立分詞構句",
-      "pre": "",
-      "post": ", the acquiring company proceeded to integrate the target's supply chain within the agreed ninety-day window.",
-      "opts": [
-        "Regulatory approval having been secured",
-        "Regulatory approval secured being",
-        "Having secured regulatory approval, it",
-        "Regulatory approval was secured"
-      ],
-      "ans": 0,
-      "zh": "在取得監管核准後，收購方隨即著手在協議的九十天期限內整合目標公司的供應鏈。",
-      "why": "獨立分詞構句（Absolute Construction）本身自帶主詞，且此主詞（regulatory approval）與主要子句主詞（the acquiring company）不同；核准是「被取得」，須用完成式被動分詞 <b>Regulatory approval having been secured</b>。(B) 詞序錯誤；(C) 分詞構句後又冗贅加上主詞 it，文法不通；(D) 為完整子句，與主要子句直接以逗號相連會形成連寫句（comma splice）。"
-    },
-    {
-      "id": "2026-07-12-p5-4",
-      "tag": "假設語氣（祈使動詞子句）",
-      "pre": "The compliance officer insisted that the flagged transaction ",
-      "post": " before quarter-end, regardless of the client's objections.",
-      "opts": [
-        "be reported",
-        "is reported",
-        "was reported",
-        "reports"
-      ],
-      "ans": 0,
-      "zh": "法遵主管堅持要求，無論客戶如何反對，都必須在本季結束前呈報這筆列管交易。",
-      "why": "當 insist 表示「堅持要求」（而非單純陳述事實）時，其後 that 子句須用祈使動詞（虛擬語氣）原形，不隨人稱或時態變化，故選 <b>be reported</b>。句尾 regardless of the client's objections 顯示此為強制要求而非單純陳述，(B)(C)(D) 均為一般直述語態，不符祈使語氣的固定用法。"
+      "zh": "儘管大致認同董事會實施庫藏股的理由，財務長仍提醒不宜過早宣布該計畫。",
+      "why": "副詞子句縮減：While she was concurring... 省略主詞與 be 動詞後，保留現在分詞 <b>concurring</b>（concur 為不及物動詞，與主要子句主詞 the CFO 為主動關係）。<b>concurred</b> 過去分詞暗示被動，但 concur 無被動用法；名詞 <b>concurrence</b> 與不定詞 <b>to concur</b> 皆無法直接接在 While 之後構成縮減子句。"
     }
   ],
   "p6": {
-    "id": "2026-07-12-p6",
-    "title": "MEMO: Revised Client Data Retention Policy",
+    "id": "2026-07-13-p6",
+    "title": "NOTICE TO SUPPLIERS: Revised Invoicing Requirements",
     "seg": [
       [
-        "To all account managers: Beginning 15 August, all client records currently stored on the legacy archive server ",
+        "Dear valued suppliers: Beginning 1 September, invoices submitted without a valid purchase-order number ",
         {
           "b": 0
         },
-        " to the newly certified encrypted repository, in accordance with the data-retention guidelines recently issued by the regulator."
+        " automatically for correction, a step that may delay settlement by up to ten business days."
       ],
       [
         {
           "b": 1
         },
-        " account managers need not take any manual action; the migration will run automatically overnight across three consecutive weekends."
+        ", we strongly encourage all vendors to verify that their billing contacts and remittance details are current in the supplier portal before the new rule takes effect."
       ],
       [
-        "Please note that any records ",
+        "Invoices ",
         {
           "b": 2
         },
-        " after the cutover date will be subject to the new sixty-day minimum retention rule, superseding the previous thirty-day threshold."
+        " with the correct supporting documentation will continue to be settled within thirty days of receipt, in accordance with our standard payment terms."
       ],
       [
         {
           "b": 3
         },
-        " Any questions about the new retention thresholds should be directed to the Data Governance team before the first migration weekend."
+        " We appreciate your cooperation in ensuring a smooth transition."
       ]
     ],
     "blanks": [
@@ -113,53 +113,53 @@
         "tag": "時態語態",
         "col1": true,
         "opts": [
-          "will be transferred",
-          "will transfer",
-          "have transferred",
-          "are transferring"
+          "will be returned",
+          "will return",
+          "are returning",
+          "have returned"
         ],
         "ans": 0,
-        "zh": "致各客戶經理：自 8 月 15 日起，現存於舊版封存伺服器上的所有客戶紀錄「將被移轉」至新認證的加密儲存庫，以符合主管機關近期發布的資料保留規範。",
-        "why": "主詞 records（紀錄）是「被移轉」的對象，語意為被動；搭配 Beginning 15 August 表未來生效時點，須用未來式被動語態 <b>will be transferred</b>。其餘選項皆為主動語態，紀錄無法自行移轉，語意不通。"
+        "zh": "各位尊敬的供應商：自 9 月 1 日起，未附有效採購單號的發票「將被自動退回」補正，此程序可能使付款延遲最多十個工作天。",
+        "why": "主詞 invoices（發票）是「被退回」的對象，須用被動語態；搭配 Beginning 1 September 的未來生效時點，選未來式被動 <b>will be returned</b>。其餘三個選項皆為主動語態——發票不會自己退回自己，語意不通。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
         "opts": [
-          "Accordingly,",
-          "In addition,",
-          "By comparison,",
-          "Even so,"
+          "Accordingly",
+          "Conversely",
+          "In retrospect",
+          "Regardless"
         ],
         "ans": 0,
-        "zh": "「因此」，客戶經理無需採取任何人工作業；遷移程序將於連續三個週末的夜間自動執行。",
-        "why": "前句說明遷移將自動進行，本句「無需人工操作」是其直接結果，須用表因果承接的 <b>Accordingly</b>。<b>In addition</b>（此外）表補充、<b>By comparison</b>（相較之下）表對比、<b>Even so</b>（即便如此）表讓步，皆與前後句的因果關係不符。"
+        "zh": "「因此」，我們強烈建議所有廠商在新規定生效前，先至供應商入口網站確認貴公司的帳務聯絡人與匯款資料均為最新狀態。",
+        "why": "前句說明新規定將導致退件與延遲付款，本句提出「事先確認資料」的因應建議，兩句為<b>因果承接</b>關係，故選 <b>Accordingly</b>（因此、據此）。<b>Conversely</b>（相反地）表對比、<b>In retrospect</b>（回顧起來）指過去、<b>Regardless</b>（無論如何）表讓步，皆與語境不合。"
       },
       {
         "tag": "詞彙語意",
         "col1": true,
         "opts": [
-          "compiled",
-          "conceived",
-          "convened",
-          "conceded"
+          "furnished",
+          "dispatched",
+          "alleged",
+          "incurred"
         ],
         "ans": 0,
-        "zh": "請注意，切換日之後「彙整」的任何紀錄，將適用新的六十天最低保留規定，取代先前的三十天門檻。",
-        "why": "「彙整紀錄」的慣用搭配是 records compiled，<b>compiled</b> 意為蒐集彙整成冊，語意與搭配對象皆正確。<b>conceived</b>（構思，通常用於想法而非紀錄）、<b>convened</b>（召集會議）、<b>conceded</b>（讓步、承認）皆與「紀錄」語意不搭。"
+        "zh": "「檢附」正確佐證文件的發票，仍將依本公司標準付款條件，於收件後三十日內完成付款。",
+        "why": "「附上／備妥文件」的正式搭配是 <b>furnish A with B</b>，此處為過去分詞片語 invoices furnished with...（附有文件的發票）修飾主詞。<b>dispatched</b>（寄出）不與 with 文件搭配表「檢附」；<b>alleged</b>（宣稱的）語意無關；<b>incurred</b> 用於「產生費用」（expenses incurred），主詞不符。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "A brief FAQ document outlining the revised retention periods has been posted to the compliance intranet page.",
-          "The company's annual data protection audit will take place in October.",
-          "Employees who violate the retention policy will face immediate termination.",
-          "The legacy archive server was first installed in 2009 and has required frequent maintenance since."
+          "A step-by-step guide to the new invoicing workflow, together with answers to frequently asked questions, has been posted in the supplier portal.",
+          "Our marketing division will unveil a rebranded corporate identity across all social channels next month.",
+          "Suppliers who exceed their annual sales targets will be invited to the year-end appreciation gala.",
+          "The finance department relocated to the fourth floor of the headquarters building earlier this year."
         ],
         "ans": 0,
-        "zh": "「合規內部網站已張貼一份簡要 FAQ，說明新版保留期限規定。」有關新保留門檻的任何問題，請於首個遷移週末前洽資料治理團隊。",
-        "why": "結尾段落的功能是提供自助資源並銜接「若有疑問請洽詢」，插入句須與此邏輯直接相關，<b>FAQ 文件公告</b>最為切題。(B) 年度稽核時間、(C) 違規懲處、(D) 舊伺服器的建置歷史皆偏離本段主旨。"
+        "zh": "「新版發票作業流程的逐步指南及常見問題解答，已公告於供應商入口網站。」感謝您的配合，讓本次轉換順利完成。",
+        "why": "結尾段的功能是<b>提供協助資源＋感謝配合</b>，插入句須與發票新制直接相關，並自然銜接後句的致謝，故「操作指南已上線」最符合語篇邏輯。(B) 品牌改版、(C) 業績表揚、(D) 部門搬遷皆偏離「發票新制」主題，與前後文無關。"
       }
     ]
   }
