@@ -579,6 +579,8 @@ a{color:inherit;text-decoration:none}
 .mm-metric .k{font-size:10px;color:var(--ink-faint);margin-top:2px}
 .mm-eval{font-size:12.5px;line-height:1.7;color:var(--ink-soft);border-left:3px solid var(--accent);background:var(--card-soft);border-radius:0 8px 8px 0;padding:10px 13px}
 .mm-eval b{color:var(--ink)}
+.mm-coach{margin-top:8px;font-size:12.5px;line-height:1.7;color:var(--ink-soft);border-left:3px solid var(--accent-deep);background:var(--card-soft);border-radius:0 8px 8px 0;padding:10px 13px}
+.mm-coach .mc-tag{display:block;font-size:11px;font-weight:700;letter-spacing:.4px;color:var(--gold-ink);margin-bottom:4px}
 @media(max-width:760px){
   .mm-hero{grid-template-columns:1fr;gap:16px}
   .mm-hero-r{border-left:0;border-top:1px solid var(--line);padding-left:0;padding-top:16px}
@@ -2213,6 +2215,7 @@ fetch('stocks.json?'+Date.now())
   function normRuns(o){var out={};for(var k in o){out[k]=Array.isArray(o[k])?o[k]:[o[k]];}return out;}
   function dayAgg(list){var km=0,hot=false;for(var i=0;i<list.length;i++){km+=list[i].km;if(list[i].wx&&list[i].wx.feel>=27)hot=true;}return{km:Math.round(km*10)/10,hot:hot,n:list.length};}
   var RUNS=normRuns(RUNS_FALLBACK);
+  var COACH={};
 
   // ── 七週課表（逐日）─────────────────────────
   function S(c,l,seg,cool,hot){return{c:c,l:l,seg:seg,cool:cool,hot:hot};}
@@ -2361,6 +2364,7 @@ fetch('stocks.json?'+Date.now())
       var lab=list.length>1?((r.time||('第'+(i+1)+'趟'))+' · 實際跑步'):(dateLab+' · 實際跑步');
       return singleRunHTML(r,key,lab);
     }).join('');
+    if(COACH[key])out+='<div class="mm-coach"><span class="mc-tag">🏅 教練點評</span>'+COACH[key]+'</div>';
     return out;
   }
   function planPopHTML(key){
@@ -2434,6 +2438,9 @@ fetch('stocks.json?'+Date.now())
     var box=document.getElementById('mm-body');if(!box)return;
     if(dataLoaded){draw();return;}
     box.innerHTML='<div class="mm-loading">載入 Strava 跑步資料…</div>';
+    fetch('coach.json?'+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(j){
+      if(j&&j.comments)COACH=j.comments;
+    }).catch(function(){});
     fetch('marathon.json?'+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(j){
       if(j&&j.runs&&Object.keys(j.runs).length)RUNS=normRuns(j.runs);
       dataLoaded=true;draw();

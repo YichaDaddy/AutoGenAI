@@ -9,6 +9,7 @@ on:
       - 'overtime.html'
       - 'v3/index.html'
       - 'v3/marathon.json'
+      - 'v3/coach.json'
       - 'v3/stocks.json'
       - 'skills/solopreneur-topic-miner/finance_archive.json'
       - 'skills/solopreneur-topic-miner/topics_archive.json'
@@ -49,6 +50,7 @@ jobs:
           cp -f overtime.html gh-pages-dir/overtime.html 2>/dev/null || echo "no overtime.html yet"
           cp v3/index.html gh-pages-dir/v3/index.html
           cp -f v3/marathon.json gh-pages-dir/v3/marathon.json 2>/dev/null || echo "no marathon.json yet"
+          cp -f v3/coach.json gh-pages-dir/v3/coach.json 2>/dev/null || echo "no coach.json yet"
           cp -f v3/stocks.json gh-pages-dir/v3/stocks.json 2>/dev/null || echo "no stocks.json yet"
           mkdir -p gh-pages-dir/skills/solopreneur-topic-miner gh-pages-dir/skills/toeic
           cp -f skills/solopreneur-topic-miner/finance_archive.json gh-pages-dir/skills/solopreneur-topic-miner/finance_archive.json 2>/dev/null || echo "no finance_archive.json yet"
@@ -65,7 +67,7 @@ jobs:
           git config user.email "bot@users.noreply.github.com"
           git rm -r --cached --ignore-unmatch v2 >/dev/null 2>&1 || true
           rm -rf v2
-          git add index.html daily_topic_dashboard.html overtime.html v3/index.html v3/marathon.json v3/stocks.json \
+          git add index.html daily_topic_dashboard.html overtime.html v3/index.html v3/marathon.json v3/coach.json v3/stocks.json \
             skills/solopreneur-topic-miner/finance_archive.json \
             skills/solopreneur-topic-miner/topics_archive.json \
             skills/solopreneur-topic-miner/latest_finance_topics.json \
