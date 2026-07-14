@@ -1,109 +1,109 @@
 {
-  "date": "2026-07-13",
+  "date": "2026-07-14",
   "big_events": [
     {
-      "title": "微軟執行長警告：企業用AI等於「付兩次錢」",
+      "title": "蘋果iOS 27公測開放全新Siri AI，近25億台裝置適用",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/"}
       ],
-      "summary": "Nadella指企業用AI等於用金錢與機密知識雙重付費",
-      "audience": "使用AI工具處理公司業務資料的上班族與IT、資安主管",
-      "pain_point": "每天用ChatGPT、Copilot處理公司資料，卻沒意識到自家know-how可能正被模型「蒸餾」學走",
-      "title_idea": "你以為只付了訂閱費？微軟執行長揭露用AI工作的隱藏代價",
-      "local_angle": "可延伸討論台灣企業導入Copilot、ChatGPT等工具時的資安政策，提醒讀者留意公司機密外流風險，並比較台灣企業資安意識與國際討論的落差"
+      "summary": "新版Siri能讀信件、總結對話並回答生活問題",
+      "audience": "用iPhone處理工作雜務的上班族與自雇者",
+      "pain_point": "手機內建助理不夠聰明，查資料、排行程仍要自己動手",
+      "title_idea": "iPhone語音助理大改版！新Siri能幫你做哪些工作雜事？",
+      "local_angle": "台灣iPhone普及率高，公測後續預期開放繁中，可預告排程、翻譯、查資訊等在地使用情境"
     },
     {
-      "title": "Anthropic二度延長Claude Fable 5免費期限，硬扛OpenAI新模型攻勢",
+      "title": "DeepSeek傳談判募資15億美元，估值713億美元並籌備掛牌",
       "sources": [
-        {"name": "Forbes", "url": "https://www.forbes.com/sites/tylerroush/2026/07/13/ai-model-wars-anthropic-extends-fable-access-again-after-openais-sol-release/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/14/deepseek-reportedly-in-talks-to-raise-1-5b-then-ipo/"}
       ],
-      "summary": "OpenAI推出GPT-5.6 Sol後，Anthropic再次延長頂級模型免費使用期",
-      "audience": "想省錢但持續追蹤最新AI模型的上班族與自由工作者",
-      "pain_point": "不清楚現在哪個AI模型最強、免費用到什麼時候，容易錯過限時免費資源",
-      "title_idea": "免費用到7/19！Claude最強模型延長開放，上班族該怎麼把握",
-      "local_angle": "適合寫成「本週AI模型戰況」系列文章，教讀者把握免費期做效率工具實測與心得分享，帶動點擊與訂閱誘因"
+      "summary": "陸系開源AI龍頭DeepSeek擬募資後上市",
+      "audience": "關注AI成本與開源模型的自雇者、技術決策者",
+      "pain_point": "不確定該選昂貴的閉源模型還是便宜的開源替代品",
+      "title_idea": "DeepSeek估值破700億美元！開源AI會不會更便宜好用？",
+      "local_angle": "台灣企業評估AI導入成本時，開源模型的價格競爭力是重要參考指標"
     },
     {
-      "title": "Google Gemini 3.5 Pro傳延後至7/17登場，據稱因架構全面重建",
+      "title": "Anthropic推出Claude for Teachers，K-12教師免費用進階功能",
       "sources": [
-        {"name": "Tech Times", "url": "https://www.techtimes.com/articles/320308/20260713/gemini-35-pro-targets-july-17-after-full-rebuild-every-spec-remains-unconfirmed.htm"}
+        {"name": "Anthropic", "url": "https://www.anthropic.com/news/claude-for-teachers"},
+        {"name": "Chalkbeat", "url": "https://www.chalkbeat.org/2026/07/14/anthropic-launches-claude-for-teachers-as-ai-companies-battle-for-classrooms/"}
       ],
-      "summary": "傳聞中200萬字元上下文的新模型延後發布，細節尚未經Google官方證實",
-      "audience": "關注AI模型更新、想搶先體驗新工具的科技愛好者與內容創作者",
-      "pain_point": "資訊來源分散且真偽不明，不確定該等待新模型還是先用現有工具解決工作需求",
-      "title_idea": "Google最強AI模型又延期？Gemini 3.5 Pro延期消息整理與查證",
-      "local_angle": "提醒讀者這是外流消息、非官方證實，可做成「新聞查證」類型內容建立信任感，並預告上線後對台灣用戶可能的影響"
+      "summary": "Claude免費開放美國中小學教師使用",
+      "audience": "企業教育訓練部門、以及家有學童的上班族",
+      "pain_point": "不清楚AI大廠如何針對特定產業客製化工具，容易錯過導入時機",
+      "title_idea": "連老師都在用Claude了，你的產業專屬AI工具在哪裡？",
+      "local_angle": "台灣補教與企業內訓市場可觀察，這類「產業別AI助理」模式是否會跟進在地化"
+    },
+    {
+      "title": "紐約州暫停核准所有新資料中心建案",
+      "sources": [
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers/"}
+      ],
+      "summary": "首州祭出行政令喊停AI資料中心擴建",
+      "audience": "使用雲端AI工具、擔心服務漲價或降速的上班族",
+      "pain_point": "AI工具背後的雲端算力成本波動，可能反映到訂閱費用上",
+      "title_idea": "AI資料中心被喊停！未來你的AI工具訂閱費會變貴嗎？",
+      "local_angle": "台灣同樣面臨資料中心用電爭議，可對照討論本地半導體、雲端產業的類似壓力"
     }
   ],
   "tool_updates": [
     {
-      "title": "Waze上線Gemini語音對話功能，可用自然語言回報路況、開啟機車模式",
+      "title": "Superhuman推出新版AI自動草擬回信功能",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/13/waze-adds-new-ai-powered-features-and-customization-updates/"},
-        {"name": "Google Blog", "url": "https://blog.google/waze/waze-updates-gemini-motorcycle-mode/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/14/superhumans-new-auto-draft-feature-almost-makes-me-like-ai-replies/"}
       ],
-      "summary": "Waze新增Gemini對話式回報、機車模式與語音搜尋目的地等功能",
-      "audience": "通勤族、機車族與日常使用導航APP的上班族",
-      "pain_point": "開車或騎車途中手動回報路況、搜尋地點既不方便又危險",
-      "title_idea": "開車也能跟AI聊天？Waze新功能讓你用講的回報路況",
-      "local_angle": "可比較台灣導航APP（Google地圖、Waze）在地化程度，實測新功能操作步驟做成教學文"
+      "summary": "AI自動幫你寫好回信草稿，免動手打字",
+      "audience": "每天要回大量Email的業務、行政、客服人員",
+      "pain_point": "收件匣塞滿待回信件，回覆語氣生硬又耗時",
+      "title_idea": "Email回信免動手！這款AI工具自動幫你寫好草稿",
+      "local_angle": "可對照台灣常用Outlook、Gmail中文書信禮貌用語，示範如何設定AI自動草稿"
     },
     {
-      "title": "GPT-5.6流量暴衝，OpenAI緊急解除ChatGPT Work與Codex使用上限",
+      "title": "Claude Code釋出v2.1.208更新，新增螢幕報讀模式與40多項修復",
       "sources": [
-        {"name": "Windows Report", "url": "https://windowsreport.com/gpt-5-6-traffic-surge-pushes-openai-to-reset-chatgpt-usage-limits/"},
-        {"name": "Dataconomy", "url": "https://dataconomy.com/2026/07/13/openai-lifts-gpt-5-6-sol-usage-limits-temporarily/"}
+        {"name": "Claude Code Changelog", "url": "https://code.claude.com/docs/en/changelog"}
       ],
-      "summary": "因用量暴增至歷史新高，OpenAI暫時取消5小時使用限制",
-      "audience": "ChatGPT Plus、Business付費用戶與依賴Codex寫程式的上班族",
-      "pain_point": "平常工作用到一半就卡使用上限，得等好幾小時才能繼續",
-      "title_idea": "現在用ChatGPT不受限！OpenAI暫時解鎖5小時使用上限完整說明",
-      "local_angle": "教讀者把握這波暫時解鎖期做「一次性大量產出」實測攻略，例如批次整理資料、生成大量內容"
+      "summary": "Claude Code一次修復40多項問題並加無障礙功能",
+      "audience": "用AI編碼工具寫程式、做自動化的接案者與工程師",
+      "pain_point": "AI編碼工具版本頻繁更新，功能異動追不上，影響工作流程",
+      "title_idea": "Claude Code再更新！這次修了哪些卡關已久的小毛病？",
+      "local_angle": "台灣接案工程師、SOHO族常用Claude Code做自動化流程，更新細節直接影響日常操作習慣"
+    },
+    {
+      "title": "Google圖片改版仿Pinterest，並加入AI生圖功能",
+      "sources": [
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/14/google-images-gets-a-pinterest-like-redesign-focused-on-discovery/"}
+      ],
+      "summary": "Google圖片搜尋可直接用AI生成客製圖片",
+      "audience": "需要快速產出簡報、社群貼文配圖的行銷、企劃人員",
+      "pain_point": "找素材圖片費時，又擔心版權問題",
+      "title_idea": "找圖不用再東翻西找！Google搜尋內建AI生圖新玩法",
+      "local_angle": "台灣中小企業行銷人力有限，可示範用Google內建AI生圖取代額外訂閱設計工具"
     }
   ],
   "trends": [
     {
-      "title": "Anthropic為印度市場推出在地化定價，全球AI大廠搶進新興市場",
+      "title": "AI新創Reflection與Nebius簽10億美元運算合約",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/14/reflection-inks-1b-compute-deal-with-nebius/"}
       ],
-      "summary": "印度為Claude全球第二大市場，Anthropic調整定價策略搶市占",
-      "audience": "對AI產業商業模式、國際擴張策略有興趣的內容創作者與經營者",
-      "pain_point": "想了解國際AI大廠如何因地制宜訂價，做為自己產品或內容定價策略的參考",
-      "title_idea": "AI巨頭搶新興市場：從印度在地化定價看AI產業下一步",
-      "local_angle": "可延伸討論台灣、華語圈用戶是否也該期待類似的在地化定價或優惠方案，比較各家AI訂閱在亞洲市場的策略差異"
-    }
-  ],
-  "source_coverage": [
-    {
-      "source": "TechCrunch AI 分類頁",
-      "status": "failed",
-      "count": 0,
-      "note": "直接 WebFetch 被 403 封鎖；改用 WebSearch 找出 techcrunch.com/2026/07/13/ 開頭的文章，確認 4 篇符合日期並可用於本次選題（Nadella警告、Waze、Anthropic印度定價，另有多篇因涉政治/訴訟/人事而排除）"
+      "summary": "二線AI新創也砸重金搶算力資源",
+      "audience": "關注AI產業資金動向的自雇者、投資型上班族",
+      "pain_point": "算力軍備競賽持續升溫，不確定未來AI工具會更貴還是更普及",
+      "title_idea": "連二線AI新創都砸10億美元搶算力，代表什麼信號？",
+      "local_angle": "可延伸討論台灣半導體供應鏈在這波算力競賽中扮演的角色"
     },
     {
-      "source": "FutureTools.io/news",
-      "status": "failed",
-      "count": 0,
-      "note": "直接 WebFetch 被 403 封鎖，且未找到可交叉驗證的替代來源，本次未收錄任何 FutureTools 項目"
-    },
-    {
-      "source": "The Verge AI",
-      "status": "failed",
-      "count": 0,
-      "note": "直接 WebFetch 失敗（無法連線），未找到 7/13 獨家 AI 文章"
-    },
-    {
-      "source": "WebSearch（OpenAI/Anthropic/Google DeepMind/Meta 7/13 新聞）",
-      "status": "success",
-      "count": 3,
-      "note": "確認 Anthropic Fable 5 二度延長（Forbes）、Anthropic 印度定價（TechCrunch）、OpenAI GPT-5.6 Sol 流量暴衝解除限制（Windows Report + Dataconomy）皆為 7/13 當日文章；GPT-Live、GPT-5.6 GA、Project Glasswing 擴大、J-Space 研究等重大新聞經查證實際發布於 7/6-7/9，非 7/13，故未收錄，避免灌水"
-    },
-    {
-      "source": "WebSearch（Gemini 3.5 Pro 動態）",
-      "status": "success",
-      "count": 1,
-      "note": "Tech Times 7/13 文章確認為外流消息、非官方證實，仍因話題熱度收錄但已於 local_angle 註明需查證"
+      "title": "美國聯邦能源監管委員會鬆綁資料中心併網規則",
+      "sources": [
+        {"name": "The Hill", "url": "https://thehill.com/policy/energy-environment/5931287-ai-data-centers-grid-operators-ferc/"}
+      ],
+      "summary": "聯邦加速AI資料中心接電審批流程",
+      "audience": "關注AI基礎建設與雲端服務穩定性的科技工作者",
+      "pain_point": "地方州喊停、聯邦卻加速，政策方向不明恐影響AI服務規劃",
+      "title_idea": "一邊喊停、一邊加速——美國AI資料中心政策為何自相矛盾？",
+      "local_angle": "台灣同樣面對電力供應與AI、半導體用電需求的拉鋸，可作為政策比較案例"
     }
   ]
 }
