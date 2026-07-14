@@ -1,117 +1,117 @@
 {
-  "date": "2026-07-14",
+  "date": "2026-07-15",
   "p5": [
     {
-      "id": "2026-07-14-p5-0",
-      "tag": "省略 if 的條件句倒裝",
-      "pre": "Were the arbitration panel to find in favor of the plaintiff, the defendant ",
-      "post": " liable for the full amount of damages sought.",
-      "opts": ["would be", "will be", "were", "had been"],
+      "id": "2026-07-15-p5-0",
+      "tag": "非限定關係子句",
+      "pre": "The merger agreement, ",
+      "post": " finalized only after eighteen months of contentious negotiation, ultimately failed to secure regulatory approval in the European Union.",
+      "opts": ["which was", "that was", "who was", "what was"],
       "ans": 0,
-      "zh": "若仲裁庭判決原告勝訴，被告將須對訴求的全部損害賠償負責。",
-      "why": "「Were + 主詞 + to V」是省略 if 的條件句倒裝（等同 If the panel were to find...），屬與未來事實相反的假設語氣，主要子句須用 <b>would + 原形動詞</b>。will be 為直說語氣，與假設語氣不符；were 缺乏助動詞，無法構成完整動詞；had been 為過去完成式，時態邏輯錯誤。"
+      "zh": "這份合併協議——歷經十八個月激烈協商才終於拍板——最終未能取得歐盟的監管核准。",
+      "why": "非限定關係子句（以逗號分隔，用來補充說明而非限定先行詞）只能用 <b>which</b> 引導，不可用 that；先行詞為物（agreement），不可用 who；what 本身已內含先行詞意涵，不能再接一個明確的先行詞，文法上不通。"
     },
     {
-      "id": "2026-07-14-p5-1",
-      "tag": "分詞構句（被動）",
+      "id": "2026-07-15-p5-1",
+      "tag": "名詞子句（Whether...or）",
       "pre": "",
-      "post": " by three separate credit-rating agencies within a single quarter, the bond issuance faced unprecedented scrutiny from institutional investors.",
-      "opts": ["Downgraded", "Downgrading", "Having downgraded", "To downgrade"],
+      "post": " the board will approve the proposed spin-off or shelve it indefinitely is a question that has divided shareholders for months.",
+      "opts": ["Whether", "That", "What", "If"],
       "ans": 0,
-      "zh": "由於在單一季度內遭三家信評機構同時調降評等，此次債券發行面臨機構投資人前所未有的嚴格審視。",
-      "why": "分詞構句須與主要子句主詞（the bond issuance）的邏輯關係一致；債券是「被調降」評等，屬被動關係，故用過去分詞 <b>Downgraded</b>。Downgrading 為主動語意（調降別人），與主詞矛盾；Having downgraded 亦為主動完成式；To downgrade 為不定詞，不能構成表原因的分詞構句。"
+      "zh": "董事會究竟會核准此項分拆計畫，或是無限期擱置，這個問題已讓股東們爭論數月。",
+      "why": "<b>Whether A or B</b> 為固定名詞子句結構，表「是A或是B」的不確定性，且可置於句首作主詞。That 不能與 or 搭配表選擇；What 需含有先行詞意義，與句意不符；If 雖可表「是否」，但正式文法中僅用於受詞子句，不可置於句首作主詞子句。"
     },
     {
-      "id": "2026-07-14-p5-2",
-      "tag": "讓步介系詞",
+      "id": "2026-07-15-p5-2",
+      "tag": "分詞構句（完成式，表動作先後）",
       "pre": "",
-      "post": " mounting regulatory pressure from three continents, the conglomerate refused to divest its underperforming subsidiaries.",
-      "opts": ["Notwithstanding", "Provided that", "In light of", "As a result of"],
+      "post": " significant losses in its overseas ventures for the third consecutive quarter, the company opted to suspend its dividend and freeze all discretionary spending.",
+      "opts": ["Having sustained", "Sustaining", "To sustain", "Sustained"],
       "ans": 0,
-      "zh": "儘管來自三大洲、日益加劇的監管壓力，該企業集團仍拒絕出售其表現不佳的子公司。",
-      "why": "<b>Notwithstanding</b>（儘管、雖然）是正式的讓步介系詞，後接名詞片語，語意與後方「refused」所形成的轉折相符。Provided that 意為「只要」，須接子句而非名詞片語；In light of（有鑑於）與 As a result of（由於）皆表因果順接，與句意的讓步邏輯矛盾。"
+      "zh": "由於旗下海外業務已連續第三季蒙受重大虧損，該公司決定暫停股利發放，並凍結所有非必要支出。",
+      "why": "分詞構句所表達的動作發生在主要子句之前（先虧損，才決定暫停股利），須用完成式主動分詞 <b>Having sustained</b>，凸顯時間先後。Sustaining 僅表同時發生；To sustain 為不定詞，語意變成「目的」，邏輯不通；Sustained 為過去分詞，語態被動，但公司是虧損的承受者而非被承受對象，語態不符。"
     },
     {
-      "id": "2026-07-14-p5-3",
+      "id": "2026-07-15-p5-3",
       "tag": "進階動詞語意辨別",
-      "pre": "Rather than easing tensions, the central bank's abrupt rate hike only served to ",
-      "post": " investor anxiety across emerging markets.",
-      "opts": ["exacerbate", "mitigate", "alleviate", "eradicate"],
+      "pre": "Auditors discovered that several regional managers had systematically ",
+      "post": " the newly implemented expense-approval protocol by splitting invoices into amounts just below the mandatory review threshold.",
+      "opts": ["circumvented", "complied with", "endorsed", "clarified"],
       "ans": 0,
-      "zh": "央行的驟然升息非但沒有緩解緊張情勢，反而只是加劇了新興市場投資人的焦慮。",
-      "why": "由句首 \"Rather than easing tensions\"（並非緩解緊張）可知空格語意應與「緩解」相反，故選 <b>exacerbate</b>（使惡化、加劇）。mitigate 與 alleviate 皆為「緩解」之意，與句意的轉折邏輯相反；eradicate（根除）語意過重，通常用於徹底消滅疾病、貧窮等具體問題，不適用於「焦慮加劇」的情境。"
+      "zh": "稽核人員發現，數名區域經理透過將發票拆分成低於強制審查門檻的金額，系統性地「規避」了新實施的費用核准程序。",
+      "why": "<b>circumvent</b>（規避、繞過規定）精準對應「拆分發票以避開審查門檻」的行為。complied with（遵守）、endorsed（背書、支持）語意與「拆分規避」的動機相反；clarified（澄清）與句意無關。"
     },
     {
-      "id": "2026-07-14-p5-4",
-      "tag": "比較結構（the + 比較級, the + 比較級）",
+      "id": "2026-07-15-p5-4",
+      "tag": "假設語氣倒裝（與過去事實相反）",
       "pre": "",
-      "post": " the audit committee identifies the discrepancy, the more likely the board will be able to contain reputational damage before the earnings call.",
-      "opts": ["The sooner", "Sooner", "As soon as", "No sooner"],
+      "post": " the compliance team flagged the anomaly a week earlier, the firm might have avoided the regulatory fine altogether.",
+      "opts": ["Had", "If", "Should", "Were"],
       "ans": 0,
-      "zh": "稽核委員會越早發現此差異，董事會就越有可能在財報發布會前控制住聲譽損害。",
-      "why": "「The + 比較級..., the + 比較級...」為對等比例結構（越...就越...），前後兩子句都須以 <b>The + 比較級</b>起頭，故選 <b>The sooner</b>。Sooner 缺少定冠詞 The，不符此固定句型；As soon as（一...就...）與 No sooner...than（一...就...倒裝句型）皆為不同的時間子句結構，無法與後方 \"the more likely\" 搭配。"
+      "zh": "若合規團隊能提早一週察覺此異常，公司或許就能完全避開這次的監管罰款。",
+      "why": "此句為省略 if 的假設語氣倒裝，等同 If the compliance team had flagged...，屬與過去事實相反的假設；倒裝時 if 省略、<b>Had</b> 提前至句首，主詞後直接接過去分詞 flagged。If 須搭配 had flagged 構成完整過去完成式，此處缺少 had 則時態不符；Should 用於倒裝表「萬一」的未來假設，與過去語境不符；Were 僅用於 be 動詞的假設倒裝，無法與一般動詞 flagged 搭配。"
     }
   ],
   "p6": {
-    "id": "2026-07-14-p6",
-    "title": "MEMORANDUM: Migration to the New Vendor Management Portal",
+    "id": "2026-07-15-p6",
+    "title": "MEMORANDUM: New Data-Retention Policy Effective August 1",
     "seg": [
       [
-        "To all department heads: Beginning 1 October, purchase requisitions that continue to arrive as email attachments ",
+        "To all staff: Effective 1 August, customer records that have not been accessed in the preceding thirty-six months ",
         { "b": 0 },
-        " for manual re-entry into the system, a change expected to add several business days to the approval cycle."
+        " for permanent deletion under the company's revised data-retention policy, a measure intended to reduce the organization's exposure to future compliance liabilities."
       ],
       [
         { "b": 1 },
-        ", the finance office urges every department to complete the portal registration and confirm delegated-approver assignments before the cutover date."
+        ", employees who require continued access to specific records for active litigation or ongoing audits must submit a retention-hold request to the legal department no later than 15 July."
       ],
       [
-        "Requisitions that are properly ",
+        "Requests that are properly ",
         { "b": 2 },
-        " with digital signatures and cost-center codes will continue to receive priority routing under the standard five-business-day turnaround."
+        " by a case number and the name of the supervising attorney will be processed within five business days and will suspend deletion for the affected records."
       ],
       [
         { "b": 3 },
-        " Questions regarding portal access should be directed to the IT helpdesk."
+        " Employees with questions about which records qualify for a retention hold should contact the legal department directly."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["will be flagged", "flag", "are flagging", "have flagged"],
+        "opts": ["will be earmarked", "earmark", "are earmarking", "have earmarked"],
         "ans": 0,
-        "zh": "致各部門主管：自10月1日起，仍以電子郵件附件形式送達的請購單，「將被標記」需人工重新輸入系統，此變動預計將使核准流程多花費數個工作天。",
-        "why": "主詞 purchase requisitions（複數）是「被標記」的對象，須用被動語態；搭配 Beginning 1 October 的未來生效時點，選未來式被動 <b>will be flagged</b>。其餘三個選項皆為主動語態——請購單不會自己標記自己，語意不通，且時態或語態皆不符生效時點的邏輯。"
+        "zh": "致全體員工：自8月1日起，過去三十六個月內未曾被存取的客戶紀錄，「將被列入」永久刪除的預定名單，此舉係依據公司新修訂的資料保存政策，旨在降低組織未來面臨法遵風險的暴露程度。",
+        "why": "主詞 customer records 是「被列入」刪除名單的對象，須用被動語態；搭配 Effective 1 August 的未來生效時點，選未來式被動 <b>will be earmarked</b>。其餘三個選項皆為主動語態，與「紀錄被動地被列入」的邏輯不符。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["To that end", "Nevertheless", "By contrast", "In hindsight"],
+        "opts": ["Accordingly", "Conversely", "In retrospect", "Even so"],
         "ans": 0,
-        "zh": "「為此」，財務部門敦促各部門在轉換日期前完成入口網站註冊，並確認被授權核准人的指派名單。",
-        "why": "前句說明未使用入口網站將導致核准延遲，本句提出「完成註冊以避免延遲」的呼籲，兩句為<b>目的承接</b>關係，故選 <b>To that end</b>（為此、以達成該目的）。<b>Nevertheless</b>（然而）表轉折、<b>By contrast</b>（相較之下）表對比、<b>In hindsight</b>（事後看來）指回顧過去，皆與語境不合。"
+        "zh": "「因此」，若員工因進行中的訴訟或稽核而需持續存取特定紀錄，須於7月15日前向法務部門提出保留申請。",
+        "why": "前句說明逾期未存取的紀錄將被刪除，本句承接說明「因此」需要保留者應提出申請，兩句為<b>因果承接</b>關係，故選 <b>Accordingly</b>（因此、據此）。Conversely（相反地）表對比、In retrospect（事後回顧）指回顧過去、Even so（即便如此）表讓步，皆與語境的因果邏輯不合。"
       },
       {
         "tag": "詞彙語意",
         "col1": true,
-        "opts": ["annotated", "forwarded", "contested", "incurred"],
+        "opts": ["accompanied", "forwarded", "contested", "incurred"],
         "ans": 0,
-        "zh": "已妥善「標註」數位簽章與成本中心代碼的請購單，將依循標準五個工作天的流程獲得優先處理。",
-        "why": "<b>annotate A with B</b> 表示「在 A 上標註／附記 B 資訊」，符合「請購單標註數位簽章與成本中心代碼」的語境搭配。<b>forwarded</b>（轉呈）不與 with 搭配表達「標註」；<b>contested</b>（有爭議的）語意無關；<b>incurred</b>（產生，用於費用）搭配對象錯誤。"
+        "zh": "「檢附」案件編號及主責律師姓名的申請，將於五個工作天內處理完畢，並暫停刪除相關紀錄。",
+        "why": "<b>accompanied by</b> 表示「附有、隨附」，符合「申請書附上案件編號與律師姓名」的語境搭配。forwarded（轉呈）不用於表達「附上文件」；contested（有爭議的）語意無關；incurred（產生，多用於費用、債務）搭配對象錯誤。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "A recorded training session and step-by-step reference guide are now available on the corporate intranet.",
+          "A detailed FAQ and a searchable index of record categories are now posted on the corporate intranet.",
           "The company's annual shareholder meeting has been rescheduled to accommodate the holiday calendar.",
           "Employees who relocate to a new office will receive a moving stipend upon submission of receipts.",
           "The board of directors approved a modest increase in the quarterly dividend last week."
         ],
         "ans": 0,
-        "zh": "「一段錄製的教學課程及逐步操作指南，現已上架於公司內部網路。」若對入口網站的存取權限有任何疑問，請洽詢資訊部門服務台。",
-        "why": "段落主題為「新供應商管理入口網站上線」，此句提供教學資源，與後句「洽詢 IT 服務台」形成邏輯銜接（先自助查閱教學資源，若仍有疑問再洽詢服務台）。其餘選項（股東會、搬遷津貼、股利）皆與入口網站主題無關，與前後文脫節。"
+        "zh": "「一份詳細的常見問答集及可搜尋的紀錄類別索引，現已上架於公司內部網路。」對於哪些紀錄符合保留資格有疑問的員工，請直接洽詢法務部門。",
+        "why": "段落主題為「新資料保存政策上路」，此句提供自助查閱的FAQ資源，與後句「可直接洽詢法務部門」形成邏輯銜接（先查閱資源，若仍有疑問再洽詢）。其餘選項（股東會、搬遷津貼、股利）皆與資料保存政策主題無關，與前後文脫節。"
       }
     ]
   }
