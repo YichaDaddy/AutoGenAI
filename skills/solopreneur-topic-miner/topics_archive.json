@@ -1,5 +1,144 @@
 [
   {
+    "date": "2026-07-14",
+    "big_events": [
+      {
+        "title": "蘋果iOS 27公測開放全新Siri AI，近25億台裝置適用",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/"
+          }
+        ],
+        "summary": "新版Siri能讀信件、總結對話並回答生活問題",
+        "audience": "用iPhone處理工作雜務的上班族與自雇者",
+        "pain_point": "手機內建助理不夠聰明，查資料、排行程仍要自己動手",
+        "title_idea": "iPhone語音助理大改版！新Siri能幫你做哪些工作雜事？",
+        "local_angle": "台灣iPhone普及率高，公測後續預期開放繁中，可預告排程、翻譯、查資訊等在地使用情境"
+      },
+      {
+        "title": "DeepSeek傳談判募資15億美元，估值713億美元並籌備掛牌",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/14/deepseek-reportedly-in-talks-to-raise-1-5b-then-ipo/"
+          }
+        ],
+        "summary": "陸系開源AI龍頭DeepSeek擬募資後上市",
+        "audience": "關注AI成本與開源模型的自雇者、技術決策者",
+        "pain_point": "不確定該選昂貴的閉源模型還是便宜的開源替代品",
+        "title_idea": "DeepSeek估值破700億美元！開源AI會不會更便宜好用？",
+        "local_angle": "台灣企業評估AI導入成本時，開源模型的價格競爭力是重要參考指標"
+      },
+      {
+        "title": "Anthropic推出Claude for Teachers，K-12教師免費用進階功能",
+        "sources": [
+          {
+            "name": "Anthropic",
+            "url": "https://www.anthropic.com/news/claude-for-teachers"
+          },
+          {
+            "name": "Chalkbeat",
+            "url": "https://www.chalkbeat.org/2026/07/14/anthropic-launches-claude-for-teachers-as-ai-companies-battle-for-classrooms/"
+          }
+        ],
+        "summary": "Claude免費開放美國中小學教師使用",
+        "audience": "企業教育訓練部門、以及家有學童的上班族",
+        "pain_point": "不清楚AI大廠如何針對特定產業客製化工具，容易錯過導入時機",
+        "title_idea": "連老師都在用Claude了，你的產業專屬AI工具在哪裡？",
+        "local_angle": "台灣補教與企業內訓市場可觀察，這類「產業別AI助理」模式是否會跟進在地化"
+      },
+      {
+        "title": "紐約州暫停核准所有新資料中心建案",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers/"
+          }
+        ],
+        "summary": "首州祭出行政令喊停AI資料中心擴建",
+        "audience": "使用雲端AI工具、擔心服務漲價或降速的上班族",
+        "pain_point": "AI工具背後的雲端算力成本波動，可能反映到訂閱費用上",
+        "title_idea": "AI資料中心被喊停！未來你的AI工具訂閱費會變貴嗎？",
+        "local_angle": "台灣同樣面臨資料中心用電爭議，可對照討論本地半導體、雲端產業的類似壓力"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "Superhuman推出新版AI自動草擬回信功能",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/14/superhumans-new-auto-draft-feature-almost-makes-me-like-ai-replies/"
+          }
+        ],
+        "summary": "AI自動幫你寫好回信草稿，免動手打字",
+        "audience": "每天要回大量Email的業務、行政、客服人員",
+        "pain_point": "收件匣塞滿待回信件，回覆語氣生硬又耗時",
+        "title_idea": "Email回信免動手！這款AI工具自動幫你寫好草稿",
+        "local_angle": "可對照台灣常用Outlook、Gmail中文書信禮貌用語，示範如何設定AI自動草稿"
+      },
+      {
+        "title": "Claude Code釋出v2.1.208更新，新增螢幕報讀模式與40多項修復",
+        "sources": [
+          {
+            "name": "Claude Code Changelog",
+            "url": "https://code.claude.com/docs/en/changelog"
+          }
+        ],
+        "summary": "Claude Code一次修復40多項問題並加無障礙功能",
+        "audience": "用AI編碼工具寫程式、做自動化的接案者與工程師",
+        "pain_point": "AI編碼工具版本頻繁更新，功能異動追不上，影響工作流程",
+        "title_idea": "Claude Code再更新！這次修了哪些卡關已久的小毛病？",
+        "local_angle": "台灣接案工程師、SOHO族常用Claude Code做自動化流程，更新細節直接影響日常操作習慣"
+      },
+      {
+        "title": "Google圖片改版仿Pinterest，並加入AI生圖功能",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/14/google-images-gets-a-pinterest-like-redesign-focused-on-discovery/"
+          }
+        ],
+        "summary": "Google圖片搜尋可直接用AI生成客製圖片",
+        "audience": "需要快速產出簡報、社群貼文配圖的行銷、企劃人員",
+        "pain_point": "找素材圖片費時，又擔心版權問題",
+        "title_idea": "找圖不用再東翻西找！Google搜尋內建AI生圖新玩法",
+        "local_angle": "台灣中小企業行銷人力有限，可示範用Google內建AI生圖取代額外訂閱設計工具"
+      }
+    ],
+    "trends": [
+      {
+        "title": "AI新創Reflection與Nebius簽10億美元運算合約",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/14/reflection-inks-1b-compute-deal-with-nebius/"
+          }
+        ],
+        "summary": "二線AI新創也砸重金搶算力資源",
+        "audience": "關注AI產業資金動向的自雇者、投資型上班族",
+        "pain_point": "算力軍備競賽持續升溫，不確定未來AI工具會更貴還是更普及",
+        "title_idea": "連二線AI新創都砸10億美元搶算力，代表什麼信號？",
+        "local_angle": "可延伸討論台灣半導體供應鏈在這波算力競賽中扮演的角色"
+      },
+      {
+        "title": "美國聯邦能源監管委員會鬆綁資料中心併網規則",
+        "sources": [
+          {
+            "name": "The Hill",
+            "url": "https://thehill.com/policy/energy-environment/5931287-ai-data-centers-grid-operators-ferc/"
+          }
+        ],
+        "summary": "聯邦加速AI資料中心接電審批流程",
+        "audience": "關注AI基礎建設與雲端服務穩定性的科技工作者",
+        "pain_point": "地方州喊停、聯邦卻加速，政策方向不明恐影響AI服務規劃",
+        "title_idea": "一邊喊停、一邊加速——美國AI資料中心政策為何自相矛盾？",
+        "local_angle": "台灣同樣面對電力供應與AI、半導體用電需求的拉鋸，可作為政策比較案例"
+      }
+    ]
+  },
+  {
     "date": "2026-07-13",
     "big_events": [
       {
@@ -846,139 +985,6 @@
         "status": "partial_success",
         "count": 5,
         "note": "透過 WebSearch 交叉比對官方網站與多家科技媒體，確認 GPT-Live、Grok 4.5、UST×Anthropic合作、Google Drive Ask Gemini(Android)、Meta AI眼鏡安全機制等5則明確發生於2026-07-08；另查到 Microsoft Dynamics 365 Sales/Service Agent GA（實際為6/30）、中國AI模型市佔數據（CNBC實際為7/7）、Notion更新（實際為7/1）、Canva×Perplexity整合（實際為6月）等，經核實日期不符已排除，未納入"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-07",
-    "big_events": [
-      {
-        "title": "Meta 發表首款圖像生成模型 Muse Image，全面上線 Meta AI、Instagram、WhatsApp",
-        "sources": [
-          {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/07/07/meta-ai-muse-image.html"
-          },
-          {
-            "name": "Bloomberg",
-            "url": "https://www.bloomberg.com/news/articles/2026-07-07/meta-debuts-new-ai-image-generation-model-inside-chatbot-instagram"
-          }
-        ],
-        "summary": "Meta發表AI繪圖模型Muse Image，用照片生成客製圖片",
-        "audience": "經營社群、需要大量產出行銷圖文的上班族小編",
-        "pain_point": "不會用複雜繪圖軟體，也找不到便宜又能保留人像特徵的AI繪圖工具",
-        "title_idea": "Meta也做AI繪圖了！一張自拍變文藝復興油畫，Muse Image實測",
-        "local_angle": "目前僅部分地區免費開放，台灣尚未見中文教學，可搶先做實測影片佔資訊差"
-      },
-      {
-        "title": "TechCrunch分析：開源AI崛起，Anthropic市占地位尚未真正被撼動",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/"
-          }
-        ],
-        "summary": "分析指出開源AI崛起，尚未撼動Anthropic龍頭地位",
-        "audience": "有在比較、選用不同AI模型（含開源）處理工作的上班族與獨立開發者",
-        "pain_point": "不確定該用昂貴的頂級模型還是便宜的開源模型，怕選錯浪費預算",
-        "title_idea": "開源AI這麼便宜，為什麼企業還是離不開Claude/GPT？一篇看懂",
-        "local_angle": "台灣中小企業、自由工作者常糾結AI工具選型，可做「怎麼選模型才划算」的實用整理"
-      },
-      {
-        "title": "美企因成本壓力轉用中國開源AI模型，OpenRouter數據顯示佔比最高達46%",
-        "sources": [
-          {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html"
-          }
-        ],
-        "summary": "OpenAI、Anthropic漲價，美企轉用便宜六至九成的中國模型",
-        "audience": "中小企業主、獨立開發者、需控管AI使用成本的上班族",
-        "pain_point": "AI工具月費越來越貴，不知道有沒有更便宜但堪用的替代方案",
-        "title_idea": "貴鬆鬆的ChatGPT/Claude用不起？中國開源AI模型正悄悄變主流",
-        "local_angle": "海外已在討論成本替代方案，中文圈很少人整理「便宜AI模型」選型指南，可搶先做"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "Claude Cowork 擴展至手機與網頁版，Max用戶可離線交辦任務",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/"
-          },
-          {
-            "name": "VentureBeat",
-            "url": "https://venturebeat.com/technology/anthropic-brings-claude-cowork-to-mobile-and-web-as-usage-data-shows-most-users-arent-coding"
-          },
-          {
-            "name": "9to5Mac",
-            "url": "https://9to5mac.com/2026/07/07/anthropic-expanding-claude-cowork-to-mobile-and-web-details-here/"
-          }
-        ],
-        "summary": "Anthropic開放Cowork手機/網頁版，任務可離線背景執行",
-        "audience": "用AI代辦雜務、需要隨時掌握工作進度的上班族與主管",
-        "pain_point": "交辦AI任務後得留著電腦開機盯著，出門在外沒辦法追蹤進度",
-        "title_idea": "出門也能盯AI幫你做事！Claude Cowork手機版實測",
-        "local_angle": "3家海外媒體報導，屬Max方案搶先體驗，中文圈還沒人做手機端實測教學"
-      },
-      {
-        "title": "Claude Fable 5 訂閱免費額度到期，明起改採外加usage credits計費",
-        "sources": [
-          {
-            "name": "Tech Times",
-            "url": "https://www.techtimes.com/articles/319864/20260707/claude-fable-5-drops-subscriptions-tonight-enable-credits-lose-access.htm"
-          }
-        ],
-        "summary": "Fable 5訂閱免費額度到期，明起改收usage credits",
-        "audience": "用Claude Pro/Max處理工作、依賴Fable 5高階功能的上班族",
-        "pain_point": "隔天起可能突然用不了最強模型，又不清楚該不該加開usage credits、會不會爆花費",
-        "title_idea": "明天起Claude最強模型要多收費！3分鐘看懂該不該開usage credits",
-        "local_angle": "海外用戶正在討論因應策略，中文圈幾乎沒人整理判斷教學，時效性極高（僅剩今日）"
-      },
-      {
-        "title": "Figma 收購 vibe-coding 新創 Bud（原Orchids），原服務7/18關閉",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/07/figma-acquires-team-behind-a-vibe-coding-app/"
-          }
-        ],
-        "summary": "Figma收購vibe coding新創Bud，原服務7/18關閉",
-        "audience": "有用AI vibe coding工具做原型、自動化的自由工作者、小型團隊",
-        "pain_point": "手上專案要在期限前搬遷，不清楚資料能不能救、有哪些替代工具",
-        "title_idea": "又一款AI開發工具要關站！7/18前你的專案得搬家，備份教學一次看懂",
-        "local_angle": "關站消息剛出，華語圈幾乎沒人討論遷移方案，可搶時效做「資料搬家」教學影片"
-      }
-    ],
-    "trends": [
-      {
-        "title": "AI法律新創Norm完成1.2億美元募資，估值達10億美元躋身獨角獸",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/07/ai-law-startup-norm-raises-120m-hits-unicorn-valuation/"
-          }
-        ],
-        "summary": "AI法律新創Norm募資1.2億美元，晉升獨角獸",
-        "audience": "想切入垂直領域AI SaaS的獨立開發者、優化內部流程的上班族",
-        "pain_point": "不知道AI在專業服務（法律、合約）領域還有哪些具體可複製的商業模式",
-        "title_idea": "又一家AI獨角獸誕生！這家公司靠『AI審合約』估值破10億美元",
-        "local_angle": "台灣/華語圈法律科技+AI應用案例極少人整理，可做商業模式拆解型內容"
-      },
-      {
-        "title": "微軟加碼使用自家AI模型，降低對OpenAI、Anthropic依賴以節省成本",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/"
-          }
-        ],
-        "summary": "微軟加碼自家模型，降低對OpenAI/Anthropic依賴",
-        "audience": "企業內部評估AI導入成本的上班族、IT與採購決策者",
-        "pain_point": "公司AI相關支出持續攀升，不知道該全部依賴大廠模型還是混搭省成本",
-        "title_idea": "連微軟都在『AI降成本』？企業導入AI的省錢新招",
-        "local_angle": "台灣企業導入AI常只看功能不看成本結構，可做「多模型混搭省錢」的企業導入教學"
       }
     ]
   }
