@@ -1,5 +1,134 @@
 [
   {
+    "date": "2026-07-15",
+    "big_events": [
+      {
+        "title": "Mira Murati的Thinking Machines發表首個開源模型Inkling，主打客製化而非硬拼榜單",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/"
+          },
+          {
+            "name": "Fortune",
+            "url": "https://fortune.com/2026/07/15/what-is-mira-murati-thinking-machines-first-ai-model-inkling/"
+          }
+        ],
+        "summary": "前OpenAI CTO創辦公司釋出可自訂開源模型Inkling",
+        "audience": "想了解開源AI選項、評估自建客製模型的企業IT與技術主管",
+        "pain_point": "閉源大廠模型改版快、費用不透明，企業想要能掌控與微調的替代方案",
+        "title_idea": "OpenAI前CTO出手了！開源模型Inkling能為你的企業做什麼客製化？",
+        "local_angle": "台灣中大型企業評估AI導入時常卡在「資料能不能留在自己手上」，Inkling開源可微調的特性正好呼應這個顧慮"
+      },
+      {
+        "title": "Apple Intelligence獲中國批准上線，攜手阿里巴巴Qwen AI模型",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/"
+          }
+        ],
+        "summary": "中國網信辦核准蘋果整合阿里Qwen模型的AI服務",
+        "audience": "使用iPhone、關注蘋果AI功能何時開放在地化的上班族",
+        "pain_point": "蘋果AI功能在不同市場開放時程不一，常常「別人有我沒有」",
+        "title_idea": "Siri不是用ChatGPT？蘋果在中國找阿里巴巴合作背後的策略",
+        "local_angle": "可延伸討論台灣iPhone用戶未來會用到哪家模型（OpenAI／Google／在地業者），以及兩岸AI供應鏈分流的影響"
+      },
+      {
+        "title": "中國「擬人化AI」新規上路，字節跳動豆包、阿里Qwen緊急關閉AI夥伴功能",
+        "sources": [
+          {
+            "name": "South China Morning Post",
+            "url": "https://www.scmp.com/tech/big-tech/article/3359482/bytedance-and-alibaba-disable-humanlike-ai-custom-agents-new-rules-loom"
+          },
+          {
+            "name": "Decrypt",
+            "url": "https://decrypt.co/372873/bytedance-alibaba-agent-features-china-cracks-down-humanlike-ai"
+          }
+        ],
+        "summary": "中國新法上路，逼兩大AI應用關閉類人陪伴功能",
+        "audience": "使用AI聊天陪伴功能、或評估AI產品法規風險的行銷與產品從業者",
+        "pain_point": "習慣的AI功能可能因政策一夕消失，資料留存規則也讓人措手不及",
+        "title_idea": "用到一半AI夥伴消失？中國新規讓豆包、Qwen緊急關機的啟示",
+        "local_angle": "台灣尚未有類似「擬人化AI」專法，可預告性提醒創作者與企業，情感陪伴類AI產品未來可能面臨的監理走向"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "訴訟正激烈，OpenAI仍推出230美元Codex專屬鍵盤",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/"
+          }
+        ],
+        "summary": "OpenAI首度跨入硬體，推出搭配Codex的230美元鍵盤",
+        "audience": "重度使用AI寫程式工具Codex的接案工程師與開發團隊",
+        "pain_point": "用AI編碼工具時常要切換視窗、記快捷鍵，操作不夠流暢",
+        "title_idea": "OpenAI出鍵盤了！230美元買的到底是效率還是噱頭？",
+        "local_angle": "台灣接案工程師與新創團隊可觀察此硬體是否有代購／海外購管道，作為選配週邊工具的參考"
+      },
+      {
+        "title": "印度AI寫程式新創Emergent募資1.3億美元，上線一年多就晉升獨角獸",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch/"
+          }
+        ],
+        "summary": "AI編碼新創Emergent完成C輪募資，估值半年翻五倍",
+        "audience": "想用自然語言快速做出網站、App的非工程背景上班族與小老闆",
+        "pain_point": "有想法卻不會寫程式，外包開發又貴又慢",
+        "title_idea": "不會寫程式也能做App？這家新創半年估值翻5倍的秘密",
+        "local_angle": "可對照台灣中小企業「想做App卻沒工程師」的痛點，示範用類似工具自己動手做雛型"
+      },
+      {
+        "title": "GitHub Copilot CLI補上代理安全漏洞，規劃模式不再能偷改檔案",
+        "sources": [
+          {
+            "name": "Tech Times",
+            "url": "https://www.techtimes.com/articles/320560/20260715/github-copilot-cli-closes-agentic-loophole-plan-mode-can-no-longer-edit-your-files.htm"
+          }
+        ],
+        "summary": "Copilot CLI修補規劃模式可竄改檔案的安全漏洞",
+        "audience": "用AI代理工具寫程式、跑自動化腳本的工程師與技術型上班族",
+        "pain_point": "AI代理權限沒管好，可能在「只是規劃」階段就誤改重要檔案",
+        "title_idea": "你的AI代理權限管好了嗎？GitHub Copilot這次補的洞要注意",
+        "local_angle": "可提醒台灣使用Claude Code、Copilot等AI代理工具的用戶，重新檢查自己專案的權限與沙盒設定"
+      }
+    ],
+    "trends": [
+      {
+        "title": "網際網路先驅Vint Cerf著手規劃AI代理的身分識別架構",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/15/vint-cerf-is-working-on-a-plan-to-unleash-ai-agents-on-the-open-internet/"
+          }
+        ],
+        "summary": "離開Google的Cerf投入AI代理開放身分協議的制定",
+        "audience": "關注AI代理（AI Agent）發展、思考未來工作流程自動化的技術愛好者",
+        "pain_point": "AI代理越來越多，卻沒有統一方式驗證「這是誰派出來的AI」，資安風險難掌握",
+        "title_idea": "AI代理滿街跑，誰來證明它是「合法」的？網路教父的新計畫",
+        "local_angle": "台灣企業導入AI代理處理客服、採購前，可提前關注身分驗證標準，避免日後淪為詐騙工具的溫床"
+      },
+      {
+        "title": "微軟靠AI揪出破紀錄漏洞數量，本月修補570個資安缺陷",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai/"
+          }
+        ],
+        "summary": "微軟用AI協助找漏洞，單月修補570個資安缺陷創紀錄",
+        "audience": "負責公司IT資安、或需要說服主管導入AI工具的技術人員",
+        "pain_point": "資安漏洞修不完，人力抓漏速度跟不上系統複雜度",
+        "title_idea": "微軟用AI一次抓出570個漏洞，你的公司資安還在人工抓蟲嗎？",
+        "local_angle": "可作為說服台灣企業導入AI輔助資安檢測的實例，強調「連微軟都靠AI抓漏洞」的說服力"
+      }
+    ]
+  },
+  {
     "date": "2026-07-14",
     "big_events": [
       {
@@ -832,159 +961,6 @@
         "status": "failed",
         "count": 0,
         "note": "WebSearch 對 site:x.com 查詢多回傳較早期貼文，未找到可明確核實為 2026-07-09 的貼文內容，如實記錄為 0"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-08",
-    "big_events": [
-      {
-        "title": "OpenAI 全面推出 GPT-Live 語音模型，ChatGPT 語音對話更自然",
-        "sources": [
-          {
-            "name": "OpenAI 官方",
-            "url": "https://openai.com/index/introducing-gpt-live/"
-          },
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/"
-          },
-          {
-            "name": "VentureBeat",
-            "url": "https://venturebeat.com/technology/openai-launches-gpt-live-a-full-duplex-voice-upgrade-that-lets-chatgpt-talk-more-like-a-person"
-          }
-        ],
-        "summary": "ChatGPT語音全雙工升級，可邊聽邊說、更像真人對話",
-        "audience": "常用 ChatGPT 語音助理處理工作、通勤學習的上班族",
-        "pain_point": "舊版語音助理常打斷對話、反應生硬，實用性低",
-        "title_idea": "ChatGPT終於會「聽你說話」了！GPT-Live全雙工語音實測",
-        "local_angle": "海外媒體已大篇幅報導功能亮點，但中文圈實測教學還很少，適合搶先做上手評測"
-      },
-      {
-        "title": "xAI宣布Grok 4.5比肩Opus等級，7月9日全面開放",
-        "sources": [
-          {
-            "name": "SpaceXAI／xAI 官方",
-            "url": "https://x.ai/news/grok-4-5"
-          },
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/"
-          }
-        ],
-        "summary": "Musk稱Grok 4.5效能追平Opus、速度更快、價格更低",
-        "audience": "關注AI模型選擇、想省成本的知識工作者",
-        "pain_point": "不確定該用哪個AI模型才划算，資訊分散難比較",
-        "title_idea": "Grok 4.5來勢洶洶：跟GPT、Claude比到底差在哪？",
-        "local_angle": "華語圈對Grok關注度仍低，可做「三大模型平價比較」搶佔資訊差"
-      },
-      {
-        "title": "UST與Anthropic策略合作，全球訓練2萬名員工使用Claude",
-        "sources": [
-          {
-            "name": "Morningstar／PR Newswire",
-            "url": "https://www.morningstar.com/news/pr-newswire/20260708io00270/ust-partners-with-anthropic-to-bring-claude-into-usts-platforms-engineering-and-operations-and-train-20000-ust-employees-globally"
-          }
-        ],
-        "summary": "企業級顧問公司大規模導入Claude，員工全面AI培訓",
-        "audience": "想了解企業如何導入AI、規劃內部教育訓練的職場人士／HR",
-        "pain_point": "公司想推AI但不知道怎麼大規模培訓員工上手",
-        "title_idea": "兩萬人怎麼一起學AI？看國際企業的Claude導入計畫",
-        "local_angle": "台灣企業AI導入案例多是零星嘗試，這種系統化培訓範本值得參考"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "Google Drive「問Gemini」完成Android App全面上線",
-        "sources": [
-          {
-            "name": "Google Workspace Updates",
-            "url": "https://workspaceupdates.googleblog.com/2026/06/ask-gemini-in-drive-now-available-on-mobile.html"
-          }
-        ],
-        "summary": "手機版Drive App可直接用Gemini深度查找、總結雲端文件",
-        "audience": "常用手機處理雲端文件、會議紀錄的上班族",
-        "pain_point": "手機上找資料、翻閱長文件很麻煩，效率低",
-        "title_idea": "手機版Google Drive也能問AI了！這樣用更省時間",
-        "local_angle": "功能剛完成全量推送，繁中教學幾乎是空白，適合搶第一波實測"
-      },
-      {
-        "title": "Meta為AI眼鏡加入防拆錄影燈機制，回應偷拍疑慮",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/08/meta-wants-its-ai-glasses-to-seem-less-creepy-its-ai-strategy-says-otherwise/"
-          }
-        ],
-        "summary": "錄影指示燈遭遮擋或破壞時，鏡頭將自動停用",
-        "audience": "對智慧眼鏡、穿戴式AI裝置有興趣的科技早期採用者",
-        "pain_point": "擔心AI眼鏡被拿來偷拍，不敢在公共場合配戴或靠近使用者",
-        "title_idea": "AI眼鏡被罵「偷拍神器」，Meta出的解法夠不夠？",
-        "local_angle": "智慧眼鏡尚未在台灣普及，先做隱私爭議懶人包卡位話題熱度"
-      },
-      {
-        "title": "法國新創ZML推出免費推論加速工具，開源模型可跨AI晶片運行",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips/"
-          }
-        ],
-        "summary": "免費軟體讓LLM能在Nvidia、AMD、TPU等晶片間靈活切換運算",
-        "audience": "自架AI工具、關心AI運算成本的獨立開發者與技術愛好者",
-        "pain_point": "不同AI晶片相容性差，自建AI服務常被單一供應商綁住、成本高",
-        "title_idea": "為什麼你的AI工具會變便宜？幕後推手是這家法國新創",
-        "local_angle": "屬於基礎建設話題，中文圈幾乎沒人講，可做成「AI成本下降」科普切角"
-      }
-    ],
-    "trends": [
-      {
-        "title": "Prime Intellect完成1.3億美元A輪，主打企業自建AI Agent",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/"
-          }
-        ],
-        "summary": "提供算力與工具，協助企業打造專屬AI代理人",
-        "audience": "想了解企業AI Agent趨勢的產品經理、企業內部IT／創新人員",
-        "pain_point": "想導入AI Agent卻不知從何開始，市面工具眾多難以選擇",
-        "title_idea": "企業也能養自己的AI員工？1.3億美元砸出的新賽道",
-        "local_angle": "AI Agent企業化是海外正熱的下一波紅利，台灣討論還停留在概念階段"
-      },
-      {
-        "title": "TechCrunch：AI新創營收成長速度持續加快，里程碑週期縮短",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/08/these-ai-startups-are-growing-revenue-at-faster-and-faster-rates/"
-          }
-        ],
-        "summary": "多家AI新創達成營收里程碑的時間比過去更短",
-        "audience": "關注AI創業、想評估AI副業／新創機會的自由工作者",
-        "pain_point": "不確定AI創業是不是還有機會，怕進場太晚",
-        "title_idea": "AI新創賺錢速度創新高，代表現在進場還不算晚？",
-        "local_angle": "提供具體成長數據佐證，可做「海外AI創業真實變現速度」選題，破解迷思"
-      }
-    ],
-    "source_coverage": [
-      {
-        "source": "TechCrunch AI",
-        "status": "success",
-        "count": 6,
-        "note": "直接 WebFetch 分類頁與單篇文章皆回傳 403 Forbidden，改以 WebSearch（site:techcrunch.com/2026/07/08）取得當日全部文章列表並逐篇核實日期"
-      },
-      {
-        "source": "FutureTools.io News",
-        "status": "failed",
-        "count": 0,
-        "note": "WebFetch 回傳 403 Forbidden，多次嘗試仍無法直讀頁面；WebSearch 亦未能定位到明確標註 2026-07-08 的項目，此來源當日無可採用內容"
-      },
-      {
-        "source": "OpenAI／Anthropic／Google／xAI／Meta 官方公告",
-        "status": "partial_success",
-        "count": 5,
-        "note": "透過 WebSearch 交叉比對官方網站與多家科技媒體，確認 GPT-Live、Grok 4.5、UST×Anthropic合作、Google Drive Ask Gemini(Android)、Meta AI眼鏡安全機制等5則明確發生於2026-07-08；另查到 Microsoft Dynamics 365 Sales/Service Agent GA（實際為6/30）、中國AI模型市佔數據（CNBC實際為7/7）、Notion更新（實際為7/1）、Canva×Perplexity整合（實際為6月）等，經核實日期不符已排除，未納入"
       }
     ]
   }
