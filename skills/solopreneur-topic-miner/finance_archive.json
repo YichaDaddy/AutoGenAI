@@ -1,5 +1,174 @@
 [
   {
+    "date": "2026-07-15",
+    "market_shocks": [
+      {
+        "title": "馬斯克身價跌破兆美元俱樂部！SpaceX股價連4日重挫、失守135美元發行價",
+        "sources": [
+          {
+            "name": "ZeroHedge",
+            "url": "https://www.zerohedge.com/markets/spacex-shares-fall-below-135-ipo-price-real-story-its-bonds"
+          },
+          {
+            "name": "TheStreet",
+            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-15-2026"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/07/15/stocks-making-the-biggest-moves-midday-spcx-aapl-pypl-cava-pgr-mu.html"
+          }
+        ],
+        "summary": "SpaceX股價連續第4個交易日下跌，7/15一度跌破135美元的IPO掛牌價，較6月15日軋空行情觸及的220美元高點已重挫約4成，市值從最高2.9兆美元蒸發至不足1.6兆美元，馬斯克個人身價也隨之跌破兆美元關卡。ZeroHedge指出，比股價更值得留意的是SpaceX公司債殖利率同步走高，顯示信用市場對其燒錢速度的疑慮升溫。",
+        "tw_stock_impact": "台灣「純SpaceX供應鏈概念股」昇達科（3491）同日遭台股盤中暫停交易，股價從高點2200元腰斬至1195元，公司緊急宣布將以逾新台幣17億元收購聚豐科技過半股權轉型自救，反映台廠對單一美系巨頭訂單過度依賴的風險正式引爆。",
+        "investment_insight": "持有低軌衛星、火箭零組件概念股的投資人應立即檢視個股對SpaceX訂單的營收依賴度，若集中度過高應優先調節；SpaceX股價若持續破發，恐引發台灣供應鏈類股的評價骨牌式修正。",
+        "title_idea": "首富也扛不住！馬斯克身價蒸發兆元，台版SpaceX概念股跟著腰斬",
+        "local_angle": "台灣不少投資人透過複委託搶進SpaceX，也有人重壓「太空概念股」昇達科；這次股價雙重重挫，是提醒兩地投資人同時檢視「題材熱度」與「訂單真實性」落差的最佳教材。"
+      },
+      {
+        "title": "台股上演逆襲！單日狂飆893點收復5日線，暴跌暴漲只隔一天",
+        "sources": [
+          {
+            "name": "鉅亨網",
+            "url": "https://news.cnyes.com/news/id/6535556"
+          }
+        ],
+        "summary": "歷經前一交易日的重挫，台股7/15開高走高，終場大漲893.64點（+2%），收在45,631.59點，重新站回5日均線，成交量收斂至9,840.81億元。台積電領軍電子權值股走揚，電子指數勁揚1.98%，記憶體、PCB族群同步反彈，塑化、生技類股同步走強，市場氣氛從恐慌急轉為搶反彈。",
+        "tw_stock_impact": "單日振幅逾兩千點的暴跌暴漲，顯示台股籌碼結構仍偏浮動，融資追繳與程式交易的助漲助跌效應被放大，投資人若前一天停損出場、隔天又追高買回，容易兩頭挨耳光。",
+        "investment_insight": "面對這種V型反轉行情，建議以分批、定額方式參與反彈，避免單日重壓；同時觀察隔天台積電法說會釋出的展望，作為判斷這波反彈是「一日行情」還是「趨勢反轉」的關鍵指標。",
+        "title_idea": "昨天崩盤、今天噴出！台股一日反差多大，你的心臟受得了嗎？",
+        "local_angle": "許多台灣存股族與當沖族才剛經歷前一天的恐慌性停損，隔天指數就狂飆近900點，這種極端震盪對散戶心理素質是一大考驗，也凸顯追高殺低的風險。"
+      },
+      {
+        "title": "美伊戰事升溫至第5天！川普揚言下一步炸電廠，全球風險資產緊繃",
+        "sources": [
+          {
+            "name": "ZeroHedge",
+            "url": "https://www.zerohedge.com/geopolitical/us-iran-exchange-heavy-strikes-5th-straight-day-trump-warns-hell-take-out-power-plants"
+          }
+        ],
+        "summary": "美國與伊朗的軍事衝突進入第5天，雙方互相發動猛烈攻擊，川普公開警告若伊朗不收手，下一波打擊目標將鎖定伊朗的發電廠等關鍵基礎設施，戰事有進一步升級並衝擊全球能源供應的風險。",
+        "tw_stock_impact": "地緣政治風險若持續延燒，將牽動國際油價與航運成本，衝擊台灣出口導向產業的毛利率，也可能透過通膨預期影響全球央行升息／降息路徑，間接壓抑台股資金行情。",
+        "investment_insight": "建議投資人持續追蹤荷莫茲海峽通行狀況與油價走勢，作為判斷這波地緣政治風險是否失控的領先指標；短線可用能源、航運類股做為部位避險，但需嚴設停損因應戰事快速降溫的可能。",
+        "title_idea": "戰爭不打折！川普放話炸電廠，下一波油價風暴要來了？",
+        "local_angle": "台灣是能源高度仰賴進口的島嶼經濟體，美伊戰事若擴大至攻擊發電廠等基礎設施，恐推升全球油價與台灣進口成本，直接牽動電價與出口廠商獲利，是每位投資人都該關注的風險。"
+      },
+      {
+        "title": "台股籌碼亮紅燈！外資連8天砍4000億、國巨半月爆3起違約交割",
+        "sources": [
+          {
+            "name": "鉅亨網",
+            "url": "https://news.cnyes.com/news/id/6534915"
+          }
+        ],
+        "summary": "鉅亨網盤前要聞指出，外資已連續8個交易日賣超台股，累計賣超金額達新台幣4000億元；同時千金股國巨（2327）近半個月內已爆出3起違約交割事件，凸顯部分投機籌碼在這波劇烈震盪中出現斷鏈。不過同日國泰金控公布上半年稅後大賺765億元，金融股基本面仍相對穩健。",
+        "tw_stock_impact": "外資連續大幅調節與個股違約交割頻傳，顯示這波台股行情籌碼面仍不穩定，短線波動恐持續放大；投資人若持有融資部位或籌碼集中度高的個股，須留意斷頭賣壓與流動性風險。",
+        "investment_insight": "建議降低融資槓桿、避開近期爆出違約交割疑慮的個股；可轉向獲利能見度高、法人籌碼相對穩定的金融龍頭股（如國泰金）逢低布局，以基本面取代題材面作為選股依據。",
+        "title_idea": "外資狂砍4000億、千金股連環爆雷！台股籌碼是不是出事了？",
+        "local_angle": "違約交割事件對台灣散戶而言是警訊——代表市場上有人融資追高卻付不出錢，這波籌碼混亂提醒投資人切勿盲目跟風追價高本益比個股。"
+      }
+    ],
+    "investment_opportunities": [
+      {
+        "title": "大空頭開炮兩巨頭：嗆PayPal併購價太低、斷言IBM崩盤是市場過度反應",
+        "sources": [
+          {
+            "name": "Michael Burry Substack",
+            "url": "https://michaeljburry.substack.com/p/short-thoughts-july-15-2026-pyplibmhcamore"
+          },
+          {
+            "name": "AOL",
+            "url": "https://www.aol.com/articles/michael-burry-shares-earnings-reports-163658000.html"
+          }
+        ],
+        "summary": "知名放空大師Michael Burry在7/15的最新筆記中，針對Stripe與Advent以每股60.5美元（總額530億美元）併購PayPal的提案表示「價格實在太低」，認為PayPal內在價值應落在75至115美元之間，預期收購方須加碼；同時他也對前一天暴跌25%的IBM發表看法，認為市場恐怕反應過度，建議觀察同業財報以判斷本次崩盤是否具產業普遍性。",
+        "tw_stock_impact": "Burry的評論同時涉及支付與科技兩大類股的估值錨點，對台灣投資人透過複委託持有PayPal或IBM的部位具有直接參考價值；IBM若真是「錯殺」，台廠伺服器供應鏈的悲觀情緒也可能隨之緩解。",
+        "investment_insight": "併購價格談判往往有拉鋸空間，若認同Burry對PayPal內在價值的估算，可留意後續是否有更高收購價出現；IBM部分則建議等待接下來幾週同業財報陸續公布後再判斷是否進場，避免在情緒最恐慌時追空或搶反彈。",
+        "title_idea": "大空頭又開嗆！Burry說PayPal賣太便宜、IBM崩盤是華爾街反應過度",
+        "local_angle": "許多台灣投資人透過複委託佈局美股科技股與支付股，Burry的逆向思考觀點提供了另一種評估併購價格合理性與判斷「錯殺股」的框架，值得作為選股參考。"
+      },
+      {
+        "title": "蘋果續創天價新高！傳獲准在中國上線生成式AI功能",
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/07/15/stocks-making-the-biggest-moves-midday-spcx-aapl-pypl-cava-pgr-mu.html"
+          },
+          {
+            "name": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-july-15-dow-sp-nasdaq-091813320.html"
+          }
+        ],
+        "summary": "美股7/15在降溫的通膨數據與ASML樂觀展望帶動下走高，蘋果股價續創歷史新高，市場傳出其生成式AI功能已獲准在中國上線，激勵股價單日再度走揚；那斯達克指數收漲0.62%至26,269.23點，標普500上漲0.38%至7,572.40點。",
+        "tw_stock_impact": "蘋果若真的成功在中國市場推出生成式AI功能，將牽動蘋果新一輪換機潮與AI晶片需求，對台灣蘋概股（鴻海、台積電、大立光等）的下半年訂單能見度是正向訊號。",
+        "investment_insight": "建議留意蘋果後續在中國市場的實際上線進度與用戶反應，作為判斷這波換機／AI服務營收成長是否能落地的依據；蘋概股可列入觀察名單，待訂單能見度更明確後再分批布局。",
+        "title_idea": "蘋果闖關中國AI成功？股價噴上歷史新高，蘋概股要跟著噴了嗎？",
+        "local_angle": "台灣蘋果供應鏈廠商眾多，蘋果在中國能否順利推出AI功能直接牽動這些台廠的訂單與獲利，是台灣科技股投資人必須持續追蹤的重要變數。"
+      },
+      {
+        "title": "多頭滿血復活！主動式台股ETF 00995A暴衝逾4% 資金搶進權值股",
+        "sources": [
+          {
+            "name": "鉅亨網",
+            "url": "https://news.cnyes.com/news/id/6535387"
+          }
+        ],
+        "summary": "隨著台股7/15強力反彈，主動式台股ETF 00995A領軍衝鋒，單日大漲逾4%，成為市場資金回流權值股的指標之一，法人解讀資金正從恐慌性殺出轉為挑選具訂單能見度的權值標的進場卡位，市場並期待隔天登場的台積電法說會。",
+        "tw_stock_impact": "主動式ETF單日大漲反映機構資金已開始逢低承接權值股，若台積電法說會展望正面，有機會帶動更多資金回流台股大型權值股，形成「先知先覺者提前布局」的效應。",
+        "investment_insight": "定期定額投資人可觀察此類主動式台股ETF的持股變化，作為判斷法人資金流向的參考指標；建議在台積電法說會公布展望後，再決定是否加碼權值股部位，避免在法說會前追高卡位。",
+        "title_idea": "暴跌隔天資金狂掃這檔ETF！法人是不是提前知道台積電法說要噴？",
+        "local_angle": "對於習慣定期定額投資台股ETF的台灣散戶而言，主動式ETF單日暴衝可作為觀察聰明資金動向的指標，也是判斷這波反彈能否延續的重要線索。"
+      }
+    ],
+    "macro_observations": [
+      {
+        "title": "財長貝森特談黃金本位惹議！美財政部將鑄建國250週年金幣",
+        "sources": [
+          {
+            "name": "ZeroHedge",
+            "url": "https://www.zerohedge.com/news/2026-07-15/treasury-secretary-talking-about-gold-pay-attention"
+          },
+          {
+            "name": "ZeroHedge",
+            "url": "https://www.zerohedge.com/commodities/fort-knox-standoff-bessent-says-all-gold-there-says-we-used-be-backed-it"
+          }
+        ],
+        "summary": "美國財政部長貝森特（Bessent）7/15公開談論黃金議題，強調諾克斯堡（Fort Knox）的黃金儲備「都還在」，並提及美國「過去曾以黃金作為貨幣支撐」；同時財政部宣布將鑄造紀念建國250週年、印有川普肖像的新版1美元金幣，市場解讀此舉恐是為未來討論黃金與美元關係鋪路。",
+        "tw_stock_impact": "財長罕見公開談論黃金本位議題，容易被市場解讀為對美元信心的間接示警，可能推升黃金避險需求並影響美元匯率，間接牽動台灣出口廠商的匯兌損益與新台幣走勢。",
+        "investment_insight": "建議投資人留意金價與美元指數的連動變化，若市場持續解讀為美元信任危機訊號，可適度提高貴金屬或抗通膨資產的配置比重，作為投資組合的避險工具。",
+        "title_idea": "財長突然聊起黃金本位？華爾街緊張了：這是美元信心出問題的訊號嗎？",
+        "local_angle": "新台幣匯率與美元走勢息息相關，若美元因黃金本位爭議走弱，台灣出口廠商的匯兌收益與進口成本都會受到牽動，投資人應提前留意匯率避險策略。"
+      },
+      {
+        "title": "美國6月PPI意外降溫！激勵美股走揚 Fed七月按兵不動機率達84.5%",
+        "sources": [
+          {
+            "name": "Yahoo Finance",
+            "url": "https://sg.finance.yahoo.com/news/stock-market-news-july-15-111400318.html"
+          }
+        ],
+        "summary": "美國公布的6月躉售物價指數（PPI）降溫幅度超出市場預期，加上晶片設備大廠ASML釋出樂觀展望，共同帶動美股7/15走高。市場消化通膨降溫數據後，交易員押注聯準會7月維持利率在3.50%至3.75%不變的機率升至84.5%。",
+        "tw_stock_impact": "通膨數據降溫強化「不升息、可能降息」的市場預期，有助於緩解台股資金外流壓力，但實際成效仍需視聯準會7月會議後的實質決策與後續發言而定。",
+        "investment_insight": "建議投資人持續追蹤7月底聯準會利率決策會議，若確立按兵不動甚至釋出鴿派訊號，對成長股、高本益比的AI概念股評價將是正向支撐；短線不宜過度追價，等會議結果明朗後再決定加碼時點。",
+        "title_idea": "物價終於降溫了！Fed按兵不動機率飆到84.5%，資金派對還能延續多久？",
+        "local_angle": "美國利率政策向來是台股外資動向的重要指標，聯準會若確定暫停升息，可望帶動外資資金回流新興市場，是台灣投資人評估後市資金行情的重要參考。"
+      },
+      {
+        "title": "Strategy加碼4.67億美元現金卻不買比特幣 渣打示警Saylor轉型訊息模糊",
+        "sources": [
+          {
+            "name": "ZeroHedge",
+            "url": "https://www.zerohedge.com/crypto/strategy-adds-467-million-cash-no-bitcoin-stanchart-warns-saylor-needs-clarity-pivot-message"
+          }
+        ],
+        "summary": "由Michael Saylor主導、長期以「囤幣」策略聞名的Strategy公司公布最新持倉，本次僅增持4.67億美元現金部位、並未加碼比特幣，罕見打破過去持續買幣的慣例。渣打銀行分析師示警，Saylor若要說服投資人相信公司策略轉型的合理性，必須提供更清晰的溝通訊息，否則恐動搖市場信心。",
+        "tw_stock_impact": "作為全球比特幣「企業囤幣」策略的指標公司，Strategy的操作轉向可能被市場解讀為對加密貨幣後市轉趨保守，間接影響台灣投資人對比特幣相關概念股與ETF的資金情緒。",
+        "investment_insight": "持有比特幣相關資產或概念股的投資人，應留意Strategy後續是否進一步說明策略轉型方向；若企業囤幣龍頭轉趨保守，加密貨幣市場的機構買盤動能恐面臨降溫風險，建議適度控制部位。",
+        "title_idea": "囤幣狂人突然不買比特幣了？渣打銀行示警：Saylor要說清楚在想什麼",
+        "local_angle": "台灣不少投資人透過複委託或加密貨幣交易所間接參與比特幣相關資產，企業囤幣指標公司的動向轉變，是判斷這波比特幣行情是否降溫的重要觀察指標。"
+      }
+    ]
+  },
+  {
     "date": "2026-07-14",
     "market_shocks": [
       {
@@ -922,187 +1091,6 @@
         "investment_insight": "可留意黃金ETF、資源股作為對沖地緣政治與去美元化風險的部位；台股制度面而言，零股併入整股同步開盤（年底前上路）將提升零股流動性，適合小額投資人分批布局高價股。",
         "title_idea": "中國悄悄把黃金和人民幣綁在一起，台股延長交易卻直接喊卡",
         "local_angle": "台灣小資族常靠零股投資高價股（如台積電），零股同步開盤新制上路後買賣價差可望縮小，是實際攸關散戶交易體驗的政策改變。"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-08",
-    "market_shocks": [
-      {
-        "title": "川普宣布美伊停火「已經結束」 原油狂飆逾5% 道瓊重挫576點",
-        "sources": [
-          {
-            "name": "Bloomberg",
-            "url": "https://www.bloomberg.com/news/articles/2026-07-07/oil-jumps-on-iran-attack-asian-stocks-set-to-drop-markets-wrap"
-          },
-          {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/07/07/stock-market-today-live-updates.html"
-          },
-          {
-            "name": "ZeroHedge",
-            "url": "https://www.zerohedge.com/geopolitical/theyre-scum-trump-says-us-iran-ceasefire-over-sending-oil-higher"
-          }
-        ],
-        "summary": "川普在北約峰會上宣布與伊朗的停火協議「已經結束」，稱對方是「人渣」，美軍前一晚對伊朗發動「一系列強力打擊」。布蘭特原油單日暴漲逾5%站上78美元，道瓊重挫576點（-1.09%），那斯達克逆勢小漲0.2%。",
-        "tw_stock_impact": "地緣風險升溫將推升台灣進口能源成本、衝擊航運與航空類股，台積電等權值股恐隨美股AI類股連動；台幣避險需求可能升高。",
-        "investment_insight": "短線應留意地緣衝突對能源與運輸成本的傳導效應，可分散配置抗通膨資產（能源、原物料ETF），並對高波動科技股維持謹慎部位。",
-        "title_idea": "「他們是人渣！」川普一句話讓原油噴出、道瓊崩576點",
-        "local_angle": "台灣高度仰賴能源進口，原油噴出直接推升電價與物價壓力，也牽動台幣兌美元走勢，值得追蹤中油、台塑化等能源類股反應。"
-      },
-      {
-        "title": "SK海力士294億美元那斯達克掛牌創紀錄 三星財報未達標點燃記憶體熊市疑慮",
-        "sources": [
-          {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/06/24/sk-hynix-nasdaq-adr-listing-south-korea.html"
-          },
-          {
-            "name": "Yahoo Finance",
-            "url": "https://finance.yahoo.com/markets/article/sk-hynix-seeks-28-billion-in-us-ipo-listing-as-memory-maker-rides-ai-wave-132016294.html"
-          }
-        ],
-        "summary": "南韓SK海力士規劃7月10日在那斯達克以ADR形式掛牌，募資規模上看294億美元，將成史上第二大美股籌資案（僅次於SpaceX）。同時三星電子財報未達預期，市場開始擔憂AI帶動的記憶體榮景是否已見頂，南韓股市因而重挫至熊市邊緣。",
-        "tw_stock_impact": "SK海力士與三星是台廠（南亞科、華邦電）及封測供應鏈的直接對手，記憶體價格與HBM需求若降溫，將牽動台灣記憶體與半導體設備類股評價。",
-        "investment_insight": "記憶體族群評價已大幅反映AI樂觀情緒，建議留意SK海力士掛牌後股價表現作為記憶體循環領先指標，逢高分批減碼、避免追高南亞科等連動股。",
-        "title_idea": "294億美元怪物級掛牌！SK海力士衝那斯達克、三星卻先跌破警戒線",
-        "local_angle": "台灣記憶體與矽智財供應鏈與南韓廠商競合關係緊密，SK海力士掛牌熱度可作為觀察台灣記憶體類股資金動向的先行指標。"
-      },
-      {
-        "title": "Rivian無預警拋售7500萬股 股價單日暴跌18%",
-        "sources": [
-          {
-            "name": "Yahoo Finance",
-            "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-wednedsay-july-8-230111117.html"
-          }
-        ],
-        "summary": "電動車新創Rivian無預警宣布將出售7,500萬股A類普通股進行增資，消息一出股價當日重挫18.1%，凸顯電動車新創在資本市場對稀釋股權仍極度敏感。",
-        "tw_stock_impact": "電動車供應鏈（如台灣的電池材料、電控相關廠商）情緒可能受挫，但影響多為間接、短期波動。",
-        "investment_insight": "增資稀釋是新創車廠常見的燒錢警訊，投資人應檢視公司現金燃燒速度與量產進度，避免單押尚未轉盈的電動車新創股。",
-        "title_idea": "一天蒸發18%！Rivian無預警灑7500萬股股票嚇壞市場",
-        "local_angle": "提醒關注台灣電動車供應鏈廠商（如貿聯、和大等）是否有類似客戶端資本市場波動風險傳導。"
-      },
-      {
-        "title": "剛納入那斯達克100就跌！SpaceX股價連兩日下滑 馬斯克身價跌破1兆美元",
-        "sources": [
-          {
-            "name": "Fortune",
-            "url": "https://fortune.com/2026/07/03/elon-musk-cant-sell-spacex-stock-for-year/"
-          },
-          {
-            "name": "Yahoo Finance",
-            "url": "https://finance.yahoo.com/video/spacex-join-nasdaq-100-wall-140000776.html"
-          }
-        ],
-        "summary": "SpaceX在完成史上最大IPO、募資約860億美元後不久即被納入那斯達克100指數，但股價掛牌後卻連兩個交易日下滑至148美元，馬斯克身家隨SpaceX及特斯拉股價回落跌破1兆美元大關。",
-        "tw_stock_impact": "SpaceX供應鏈及台灣衛星通訊、太空零組件概念股短線情緒面可能受牽動，但基本面影響有限。",
-        "investment_insight": "新股掛牌蜜月期消退是常態，追高剛上市的超級IPO股須留意鎖股解禁時程與估值是否過度透支未來成長。",
-        "title_idea": "全球首位「兆萬富翁」頭銜還沒坐熱就掉了！SpaceX掛牌變臉股價連跌",
-        "local_angle": "台灣太空與衛星通訊供應鏈廠商常被拿來與SpaceX類比評價，此次股價回檔可作為評估這類台股本益比是否過熱的參考。"
-      }
-    ],
-    "investment_opportunities": [
-      {
-        "title": "「大空頭」原型伯瑞放空輝達、美光同時卻重壓博弈股DraftKings",
-        "sources": [
-          {
-            "name": "StreetInsider",
-            "url": "https://www.streetinsider.com/Hedge+Funds/Michael+Burry+Says+He+Bought+Shares+Of+Draftkings,+Flutter/26747000.html"
-          },
-          {
-            "name": "The Motley Fool",
-            "url": "https://www.fool.com/investing/2026/07/04/big-short-investor-michael-burry-is-now-betting-ag/"
-          }
-        ],
-        "summary": "電影《大賣空》原型人物Michael Burry在其Substack「Cassandra Unchained」透露，一邊放空美光、輝達等AI晶片股，一邊卻買進線上博弈龍頭DraftKings與Flutter，並加碼中國電商京東，形成罕見的「一邊看空AI泡沫、一邊押注博弈股體質改善」槓鈴式操作。",
-        "tw_stock_impact": "若AI晶片股評價修正，台積電、台廠AI伺服器供應鏈評價恐同步承壓；但博弈股與台股連動性低，主要作為國際資金風向指標參考。",
-        "investment_insight": "伯瑞的操作提醒投資人AI概念股估值已偏高，可考慮適度分散至非AI、體質轉佳的傳統產業股，並密切關注輝達、美光財報是否驗證他的看空邏輯。",
-        "title_idea": "大賣空本尊出手：放空輝達美光、卻重壓賭博股，葫蘆裡賣什麼藥？",
-        "local_angle": "台灣投資人高度集中在台積電及AI供應鏈，伯瑞放空AI晶片股的訊號值得作為檢視個人投資組合過度集中風險的警示燈。"
-      },
-      {
-        "title": "蘋果攜手博通砸300億美元 美國製造150億顆晶片創最大在地投資",
-        "sources": [
-          {
-            "name": "Yahoo Finance",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-july-8-095100764.html"
-          }
-        ],
-        "summary": "蘋果宣布擴大與晶片廠博通的多年期合作，金額預計超過300億美元，將在美國生產逾150億顆晶片，並加碼15億美元擴建博通位於科羅拉多州Fort Collins的廠房，是蘋果迄今最大規模的美國製造承諾。",
-        "tw_stock_impact": "蘋果供應鏈「去台化/去中化」及美國在地製造趨勢若持續擴大，台灣封測、晶圓代工業者需留意訂單分散風險，但短期台積電先進製程仍難以取代。",
-        "investment_insight": "可留意博通及美系半導體設備商後續資本支出，同時關注台積電美國亞利桑那廠產能規劃是否因蘋果動作加速，作為評估台廠訂單移轉速度的指標。",
-        "title_idea": "蘋果加碼美國晶片300億美元！台灣供應鏈是助攻還是被邊緣化？",
-        "local_angle": "蘋果持續加碼美國在地晶片製造，台灣投資人應關注這是否只是分散布局、還是長期削弱台灣半導體代工地位的訊號。"
-      },
-      {
-        "title": "AI伺服器訂單發威！緯創、緯穎6月營收雙雙創高 上半年大增近倍",
-        "sources": [
-          {
-            "name": "Newtalk新聞",
-            "url": "https://newtalk.tw/news/view/2026-07-08/1045989"
-          },
-          {
-            "name": "TechNews科技新報",
-            "url": "https://finance.technews.tw/2026/07/08/wistron-3231-202606-financial-report/"
-          }
-        ],
-        "summary": "緯創6月合併營收達3,218.22億元，月增10.9%、年增53.8%，創歷史次高，上半年累計營收年增94%；同集團的緯穎6月營收也重返千億元大關，上半年大增41.71%，高盛並看好其ASIC AI伺服器出貨放量。",
-        "tw_stock_impact": "兩檔均為台股AI伺服器供應鏈指標股，營收表現直接反映全球AI資本支出熱潮延續，對台股權值及ETF成分股具正面支撐。",
-        "investment_insight": "AI伺服器供應鏈營收動能仍強勁，可留意緯創、緯穎後續法說會展望及客戶集中度，逢拉回可分批布局，但需注意評價是否已提前反映樂觀預期。",
-        "title_idea": "營收暴衝94%！緯創、緯穎用數字證明AI伺服器熱潮還沒退燒",
-        "local_angle": "對台灣投資人而言，這是驗證「護國群山」AI伺服器供應鏈基本面是否真能撐住高本益比的第一手數據。"
-      }
-    ],
-    "macro_observations": [
-      {
-        "title": "聯準會會議紀錄暗示2027年前不降息 伊朗戰事推升升息機率衝上85%",
-        "sources": [
-          {
-            "name": "Forbes",
-            "url": "https://www.forbes.com/sites/tylerroush/2026/07/08/fed-minutes-signal-no-interest-rate-cuts-until-2027-as-renewed-iran-conflict-spikes-rate-hike-odds/"
-          }
-        ],
-        "summary": "聯準會最新會議紀錄顯示2027年前不太可能降息，隨著美伊衝突推升油價、通膨疑慮再起，市場預期12月升息機率一度衝上85.3%，核心通膨年增率已升至近三年最快的3.4%。",
-        "tw_stock_impact": "若聯準會轉向升息，美元走強、資金成本上升，將壓抑台股估值並加大新興市場資金外流壓力，台幣匯率也可能承壓走弱。",
-        "investment_insight": "降息行情可能延後甚至逆轉，建議投資人重新檢視高槓桿、高本益比部位的利率敏感度，並增加現金水位以因應波動加劇。",
-        "title_idea": "降息夢碎！聯準會暗示不降反可能升息 升息機率飆破8成",
-        "local_angle": "台灣出口型企業與科技股高度仰賴國際資金行情，聯準會轉鷹派將直接牽動外資對台股的資金配置意願。"
-      },
-      {
-        "title": "台股千金股明年改「1元一跳」 央行示警融資槓桿與銀行資金流向",
-        "sources": [
-          {
-            "name": "聯合新聞網",
-            "url": "https://udn.com/news/story/7251/9615017"
-          },
-          {
-            "name": "中時新聞網",
-            "url": "https://www.chinatimes.com/realtimenews/20260708003853-260410"
-          }
-        ],
-        "summary": "證交所研議明年中將千元以上高價股（千金股）最小升降單位全面改為「1元一跳」，不分整股零股同步實施；同一時間央行也表態將密切關注股市融資槓桿及銀行資金流入股市的情形，提醒銀行留意信用擴張風險。",
-        "tw_stock_impact": "對台積電、大立光等千金股而言，升降單位縮小將降低買賣價差、提升成交效率，但央行示警融資風險意味主管機關對股市過熱已提高警覺。",
-        "investment_insight": "融資餘額若持續攀升伴隨央行示警，通常是市場情緒過熱的訊號，建議投資人控管信用交易槓桿比例，留意政策面是否進一步緊縮銀根。",
-        "title_idea": "千金股要「1元一跳」了！央行同步喊話：小心融資槓桿玩過火",
-        "local_angle": "這兩則消息都是台灣自家市場結構與資金監理的第一手變化，直接影響散戶下單策略與槓桿部位風險控管。"
-      },
-      {
-        "title": "反常現象！伊朗戰事升溫 白銀跌破60美元、比特幣同步走弱",
-        "sources": [
-          {
-            "name": "Yahoo Finance",
-            "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-wednesday-july-8-2026-silver-slips-below-60-once-again-following-airstrikes-124322997.html"
-          },
-          {
-            "name": "Yahoo Finance",
-            "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-july-8-2026-crypto-prices-down-following-us-iran-strikes-130336886.html"
-          }
-        ],
-        "summary": "儘管美伊軍事衝突升溫、原油價格大漲，傳統避險資產白銀卻跌破60美元、比特幣與以太幣也雙雙走跌，顯示這波地緣風險下資金並未如過往流向貴金屬與加密貨幣避險，而是集中湧向原油與美元資產。",
-        "tw_stock_impact": "若資金持續偏好原油與美元而非傳統避險資產，台灣投資人透過黃金、比特幣ETF避險的效果可能不如預期，需重新評估避險工具組合。",
-        "investment_insight": "這種「原油漲、貴金屬與加密貨幣跌」的反常組合值得留意，可能反映市場正優先消化通膨與升息風險而非單純地緣避險，資產配置應更重視利率敏感度而非傳統避險邏輯。",
-        "title_idea": "打仗了金銀卻不漲？比特幣白銀同步走弱的反常訊號",
-        "local_angle": "台灣有大量投資人透過複委託或ETF佈局黃金與加密貨幣做為資產配置一環，此次避險失靈現象值得作為重新檢視避險策略的案例。"
       }
     ]
   }

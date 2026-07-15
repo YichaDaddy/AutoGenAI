@@ -1,109 +1,99 @@
 {
-  "date": "2026-07-14",
+  "date": "2026-07-15",
   "big_events": [
     {
-      "title": "蘋果iOS 27公測開放全新Siri AI，近25億台裝置適用",
+      "title": "Mira Murati的Thinking Machines發表首個開源模型Inkling，主打客製化而非硬拼榜單",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/"},
+        {"name": "Fortune", "url": "https://fortune.com/2026/07/15/what-is-mira-murati-thinking-machines-first-ai-model-inkling/"}
       ],
-      "summary": "新版Siri能讀信件、總結對話並回答生活問題",
-      "audience": "用iPhone處理工作雜務的上班族與自雇者",
-      "pain_point": "手機內建助理不夠聰明，查資料、排行程仍要自己動手",
-      "title_idea": "iPhone語音助理大改版！新Siri能幫你做哪些工作雜事？",
-      "local_angle": "台灣iPhone普及率高，公測後續預期開放繁中，可預告排程、翻譯、查資訊等在地使用情境"
+      "summary": "前OpenAI CTO創辦公司釋出可自訂開源模型Inkling",
+      "audience": "想了解開源AI選項、評估自建客製模型的企業IT與技術主管",
+      "pain_point": "閉源大廠模型改版快、費用不透明，企業想要能掌控與微調的替代方案",
+      "title_idea": "OpenAI前CTO出手了！開源模型Inkling能為你的企業做什麼客製化？",
+      "local_angle": "台灣中大型企業評估AI導入時常卡在「資料能不能留在自己手上」，Inkling開源可微調的特性正好呼應這個顧慮"
     },
     {
-      "title": "DeepSeek傳談判募資15億美元，估值713億美元並籌備掛牌",
+      "title": "Apple Intelligence獲中國批准上線，攜手阿里巴巴Qwen AI模型",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/14/deepseek-reportedly-in-talks-to-raise-1-5b-then-ipo/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/"}
       ],
-      "summary": "陸系開源AI龍頭DeepSeek擬募資後上市",
-      "audience": "關注AI成本與開源模型的自雇者、技術決策者",
-      "pain_point": "不確定該選昂貴的閉源模型還是便宜的開源替代品",
-      "title_idea": "DeepSeek估值破700億美元！開源AI會不會更便宜好用？",
-      "local_angle": "台灣企業評估AI導入成本時，開源模型的價格競爭力是重要參考指標"
+      "summary": "中國網信辦核准蘋果整合阿里Qwen模型的AI服務",
+      "audience": "使用iPhone、關注蘋果AI功能何時開放在地化的上班族",
+      "pain_point": "蘋果AI功能在不同市場開放時程不一，常常「別人有我沒有」",
+      "title_idea": "Siri不是用ChatGPT？蘋果在中國找阿里巴巴合作背後的策略",
+      "local_angle": "可延伸討論台灣iPhone用戶未來會用到哪家模型（OpenAI／Google／在地業者），以及兩岸AI供應鏈分流的影響"
     },
     {
-      "title": "Anthropic推出Claude for Teachers，K-12教師免費用進階功能",
+      "title": "中國「擬人化AI」新規上路，字節跳動豆包、阿里Qwen緊急關閉AI夥伴功能",
       "sources": [
-        {"name": "Anthropic", "url": "https://www.anthropic.com/news/claude-for-teachers"},
-        {"name": "Chalkbeat", "url": "https://www.chalkbeat.org/2026/07/14/anthropic-launches-claude-for-teachers-as-ai-companies-battle-for-classrooms/"}
+        {"name": "South China Morning Post", "url": "https://www.scmp.com/tech/big-tech/article/3359482/bytedance-and-alibaba-disable-humanlike-ai-custom-agents-new-rules-loom"},
+        {"name": "Decrypt", "url": "https://decrypt.co/372873/bytedance-alibaba-agent-features-china-cracks-down-humanlike-ai"}
       ],
-      "summary": "Claude免費開放美國中小學教師使用",
-      "audience": "企業教育訓練部門、以及家有學童的上班族",
-      "pain_point": "不清楚AI大廠如何針對特定產業客製化工具，容易錯過導入時機",
-      "title_idea": "連老師都在用Claude了，你的產業專屬AI工具在哪裡？",
-      "local_angle": "台灣補教與企業內訓市場可觀察，這類「產業別AI助理」模式是否會跟進在地化"
-    },
-    {
-      "title": "紐約州暫停核准所有新資料中心建案",
-      "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers/"}
-      ],
-      "summary": "首州祭出行政令喊停AI資料中心擴建",
-      "audience": "使用雲端AI工具、擔心服務漲價或降速的上班族",
-      "pain_point": "AI工具背後的雲端算力成本波動，可能反映到訂閱費用上",
-      "title_idea": "AI資料中心被喊停！未來你的AI工具訂閱費會變貴嗎？",
-      "local_angle": "台灣同樣面臨資料中心用電爭議，可對照討論本地半導體、雲端產業的類似壓力"
+      "summary": "中國新法上路，逼兩大AI應用關閉類人陪伴功能",
+      "audience": "使用AI聊天陪伴功能、或評估AI產品法規風險的行銷與產品從業者",
+      "pain_point": "習慣的AI功能可能因政策一夕消失，資料留存規則也讓人措手不及",
+      "title_idea": "用到一半AI夥伴消失？中國新規讓豆包、Qwen緊急關機的啟示",
+      "local_angle": "台灣尚未有類似「擬人化AI」專法，可預告性提醒創作者與企業，情感陪伴類AI產品未來可能面臨的監理走向"
     }
   ],
   "tool_updates": [
     {
-      "title": "Superhuman推出新版AI自動草擬回信功能",
+      "title": "訴訟正激烈，OpenAI仍推出230美元Codex專屬鍵盤",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/14/superhumans-new-auto-draft-feature-almost-makes-me-like-ai-replies/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/"}
       ],
-      "summary": "AI自動幫你寫好回信草稿，免動手打字",
-      "audience": "每天要回大量Email的業務、行政、客服人員",
-      "pain_point": "收件匣塞滿待回信件，回覆語氣生硬又耗時",
-      "title_idea": "Email回信免動手！這款AI工具自動幫你寫好草稿",
-      "local_angle": "可對照台灣常用Outlook、Gmail中文書信禮貌用語，示範如何設定AI自動草稿"
+      "summary": "OpenAI首度跨入硬體，推出搭配Codex的230美元鍵盤",
+      "audience": "重度使用AI寫程式工具Codex的接案工程師與開發團隊",
+      "pain_point": "用AI編碼工具時常要切換視窗、記快捷鍵，操作不夠流暢",
+      "title_idea": "OpenAI出鍵盤了！230美元買的到底是效率還是噱頭？",
+      "local_angle": "台灣接案工程師與新創團隊可觀察此硬體是否有代購／海外購管道，作為選配週邊工具的參考"
     },
     {
-      "title": "Claude Code釋出v2.1.208更新，新增螢幕報讀模式與40多項修復",
+      "title": "印度AI寫程式新創Emergent募資1.3億美元，上線一年多就晉升獨角獸",
       "sources": [
-        {"name": "Claude Code Changelog", "url": "https://code.claude.com/docs/en/changelog"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch/"}
       ],
-      "summary": "Claude Code一次修復40多項問題並加無障礙功能",
-      "audience": "用AI編碼工具寫程式、做自動化的接案者與工程師",
-      "pain_point": "AI編碼工具版本頻繁更新，功能異動追不上，影響工作流程",
-      "title_idea": "Claude Code再更新！這次修了哪些卡關已久的小毛病？",
-      "local_angle": "台灣接案工程師、SOHO族常用Claude Code做自動化流程，更新細節直接影響日常操作習慣"
+      "summary": "AI編碼新創Emergent完成C輪募資，估值半年翻五倍",
+      "audience": "想用自然語言快速做出網站、App的非工程背景上班族與小老闆",
+      "pain_point": "有想法卻不會寫程式，外包開發又貴又慢",
+      "title_idea": "不會寫程式也能做App？這家新創半年估值翻5倍的秘密",
+      "local_angle": "可對照台灣中小企業「想做App卻沒工程師」的痛點，示範用類似工具自己動手做雛型"
     },
     {
-      "title": "Google圖片改版仿Pinterest，並加入AI生圖功能",
+      "title": "GitHub Copilot CLI補上代理安全漏洞，規劃模式不再能偷改檔案",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/14/google-images-gets-a-pinterest-like-redesign-focused-on-discovery/"}
+        {"name": "Tech Times", "url": "https://www.techtimes.com/articles/320560/20260715/github-copilot-cli-closes-agentic-loophole-plan-mode-can-no-longer-edit-your-files.htm"}
       ],
-      "summary": "Google圖片搜尋可直接用AI生成客製圖片",
-      "audience": "需要快速產出簡報、社群貼文配圖的行銷、企劃人員",
-      "pain_point": "找素材圖片費時，又擔心版權問題",
-      "title_idea": "找圖不用再東翻西找！Google搜尋內建AI生圖新玩法",
-      "local_angle": "台灣中小企業行銷人力有限，可示範用Google內建AI生圖取代額外訂閱設計工具"
+      "summary": "Copilot CLI修補規劃模式可竄改檔案的安全漏洞",
+      "audience": "用AI代理工具寫程式、跑自動化腳本的工程師與技術型上班族",
+      "pain_point": "AI代理權限沒管好，可能在「只是規劃」階段就誤改重要檔案",
+      "title_idea": "你的AI代理權限管好了嗎？GitHub Copilot這次補的洞要注意",
+      "local_angle": "可提醒台灣使用Claude Code、Copilot等AI代理工具的用戶，重新檢查自己專案的權限與沙盒設定"
     }
   ],
   "trends": [
     {
-      "title": "AI新創Reflection與Nebius簽10億美元運算合約",
+      "title": "網際網路先驅Vint Cerf著手規劃AI代理的身分識別架構",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/14/reflection-inks-1b-compute-deal-with-nebius/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/15/vint-cerf-is-working-on-a-plan-to-unleash-ai-agents-on-the-open-internet/"}
       ],
-      "summary": "二線AI新創也砸重金搶算力資源",
-      "audience": "關注AI產業資金動向的自雇者、投資型上班族",
-      "pain_point": "算力軍備競賽持續升溫，不確定未來AI工具會更貴還是更普及",
-      "title_idea": "連二線AI新創都砸10億美元搶算力，代表什麼信號？",
-      "local_angle": "可延伸討論台灣半導體供應鏈在這波算力競賽中扮演的角色"
+      "summary": "離開Google的Cerf投入AI代理開放身分協議的制定",
+      "audience": "關注AI代理（AI Agent）發展、思考未來工作流程自動化的技術愛好者",
+      "pain_point": "AI代理越來越多，卻沒有統一方式驗證「這是誰派出來的AI」，資安風險難掌握",
+      "title_idea": "AI代理滿街跑，誰來證明它是「合法」的？網路教父的新計畫",
+      "local_angle": "台灣企業導入AI代理處理客服、採購前，可提前關注身分驗證標準，避免日後淪為詐騙工具的溫床"
     },
     {
-      "title": "美國聯邦能源監管委員會鬆綁資料中心併網規則",
+      "title": "微軟靠AI揪出破紀錄漏洞數量，本月修補570個資安缺陷",
       "sources": [
-        {"name": "The Hill", "url": "https://thehill.com/policy/energy-environment/5931287-ai-data-centers-grid-operators-ferc/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai/"}
       ],
-      "summary": "聯邦加速AI資料中心接電審批流程",
-      "audience": "關注AI基礎建設與雲端服務穩定性的科技工作者",
-      "pain_point": "地方州喊停、聯邦卻加速，政策方向不明恐影響AI服務規劃",
-      "title_idea": "一邊喊停、一邊加速——美國AI資料中心政策為何自相矛盾？",
-      "local_angle": "台灣同樣面對電力供應與AI、半導體用電需求的拉鋸，可作為政策比較案例"
+      "summary": "微軟用AI協助找漏洞，單月修補570個資安缺陷創紀錄",
+      "audience": "負責公司IT資安、或需要說服主管導入AI工具的技術人員",
+      "pain_point": "資安漏洞修不完，人力抓漏速度跟不上系統複雜度",
+      "title_idea": "微軟用AI一次抓出570個漏洞，你的公司資安還在人工抓蟲嗎？",
+      "local_angle": "可作為說服台灣企業導入AI輔助資安檢測的實例，強調「連微軟都靠AI抓漏洞」的說服力"
     }
   ]
 }

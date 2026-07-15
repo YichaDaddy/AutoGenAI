@@ -1,117 +1,117 @@
 {
-  "date": "2026-07-15",
+  "date": "2026-07-16",
   "p5": [
     {
-      "id": "2026-07-15-p5-0",
-      "tag": "非限定關係子句",
-      "pre": "The merger agreement, ",
-      "post": " finalized only after eighteen months of contentious negotiation, ultimately failed to secure regulatory approval in the European Union.",
-      "opts": ["which was", "that was", "who was", "what was"],
-      "ans": 0,
-      "zh": "這份合併協議——歷經十八個月激烈協商才終於拍板——最終未能取得歐盟的監管核准。",
-      "why": "非限定關係子句（以逗號分隔，用來補充說明而非限定先行詞）只能用 <b>which</b> 引導，不可用 that；先行詞為物（agreement），不可用 who；what 本身已內含先行詞意涵，不能再接一個明確的先行詞，文法上不通。"
-    },
-    {
-      "id": "2026-07-15-p5-1",
-      "tag": "名詞子句（Whether...or）",
+      "id": "2026-07-16-p5-0",
+      "tag": "讓步介系詞",
       "pre": "",
-      "post": " the board will approve the proposed spin-off or shelve it indefinitely is a question that has divided shareholders for months.",
-      "opts": ["Whether", "That", "What", "If"],
+      "post": " the substantial capital investment required, the board unanimously approved the plant's automation initiative, citing long-term labor cost savings expected to offset the initial outlay within four years.",
+      "opts": ["Notwithstanding", "Provided that", "Insofar as", "Given that"],
       "ans": 0,
-      "zh": "董事會究竟會核准此項分拆計畫，或是無限期擱置，這個問題已讓股東們爭論數月。",
-      "why": "<b>Whether A or B</b> 為固定名詞子句結構，表「是A或是B」的不確定性，且可置於句首作主詞。That 不能與 or 搭配表選擇；What 需含有先行詞意義，與句意不符；If 雖可表「是否」，但正式文法中僅用於受詞子句，不可置於句首作主詞子句。"
+      "zh": "儘管所需資本支出相當龐大，董事會仍一致核准了該廠的自動化計畫，並指出長期人力成本的節省將可在四年內打平初期支出。",
+      "why": "空格後直接接名詞片語（the substantial capital investment required），必須用能單獨接名詞的介系詞 <b>Notwithstanding</b>（儘管，表讓步）。Provided that、Insofar as、Given that 皆為連接詞，須接完整子句（主詞+動詞），無法直接接名詞片語，文法不通。"
     },
     {
-      "id": "2026-07-15-p5-2",
-      "tag": "分詞構句（完成式，表動作先後）",
+      "id": "2026-07-16-p5-1",
+      "tag": "比較結構（雙重比較級）",
       "pre": "",
-      "post": " significant losses in its overseas ventures for the third consecutive quarter, the company opted to suspend its dividend and freeze all discretionary spending.",
-      "opts": ["Having sustained", "Sustaining", "To sustain", "Sustained"],
+      "post": " the regulatory environment becomes, the more resources compliance departments must allocate simply to keep pace with reporting requirements that shift from one quarter to the next.",
+      "opts": ["The more stringent", "The stringent", "More stringent", "As stringent"],
       "ans": 0,
-      "zh": "由於旗下海外業務已連續第三季蒙受重大虧損，該公司決定暫停股利發放，並凍結所有非必要支出。",
-      "why": "分詞構句所表達的動作發生在主要子句之前（先虧損，才決定暫停股利），須用完成式主動分詞 <b>Having sustained</b>，凸顯時間先後。Sustaining 僅表同時發生；To sustain 為不定詞，語意變成「目的」，邏輯不通；Sustained 為過去分詞，語態被動，但公司是虧損的承受者而非被承受對象，語態不符。"
+      "zh": "法規環境變得愈嚴格，法遵部門就必須投入愈多資源，才能跟上逐季變動的申報要求。",
+      "why": "「the + 比較級, the + 比較級」為固定的雙重比較結構，表示兩件事同步消長，故空格須用 <b>The more stringent</b>。The stringent 缺少比較級 more；More stringent 缺少句首必要的 The；As stringent 為同等比較（as...as），與句意「愈來愈嚴格」的遞增邏輯不符。"
     },
     {
-      "id": "2026-07-15-p5-3",
-      "tag": "進階動詞語意辨別",
-      "pre": "Auditors discovered that several regional managers had systematically ",
-      "post": " the newly implemented expense-approval protocol by splitting invoices into amounts just below the mandatory review threshold.",
-      "opts": ["circumvented", "complied with", "endorsed", "clarified"],
-      "ans": 0,
-      "zh": "稽核人員發現，數名區域經理透過將發票拆分成低於強制審查門檻的金額，系統性地「規避」了新實施的費用核准程序。",
-      "why": "<b>circumvent</b>（規避、繞過規定）精準對應「拆分發票以避開審查門檻」的行為。complied with（遵守）、endorsed（背書、支持）語意與「拆分規避」的動機相反；clarified（澄清）與句意無關。"
-    },
-    {
-      "id": "2026-07-15-p5-4",
-      "tag": "假設語氣倒裝（與過去事實相反）",
+      "id": "2026-07-16-p5-2",
+      "tag": "分詞構句（被動，表狀態）",
       "pre": "",
-      "post": " the compliance team flagged the anomaly a week earlier, the firm might have avoided the regulatory fine altogether.",
-      "opts": ["Had", "If", "Should", "Were"],
+      "post": " primarily to streamline cross-border settlements, the new clearing protocol nonetheless introduced a reconciliation delay that several member banks found unacceptable.",
+      "opts": ["Designed", "Designing", "Having designed", "Design"],
       "ans": 0,
-      "zh": "若合規團隊能提早一週察覺此異常，公司或許就能完全避開這次的監管罰款。",
-      "why": "此句為省略 if 的假設語氣倒裝，等同 If the compliance team had flagged...，屬與過去事實相反的假設；倒裝時 if 省略、<b>Had</b> 提前至句首，主詞後直接接過去分詞 flagged。If 須搭配 had flagged 構成完整過去完成式，此處缺少 had 則時態不符；Should 用於倒裝表「萬一」的未來假設，與過去語境不符；Were 僅用於 be 動詞的假設倒裝，無法與一般動詞 flagged 搭配。"
+      "zh": "這套新的清算協議雖然主要是為了簡化跨境交易的結算而設計，卻仍引進了讓部分會員銀行無法接受的對帳延遲。",
+      "why": "分詞構句的邏輯主詞是 the new clearing protocol（協議是被設計出來的，而非主動設計者），須用被動過去分詞 <b>Designed</b>。Designing 為主動語態，語意變成「協議在設計...」，邏輯不通；Having designed 為完成式主動，語態與邏輯皆不符；Design 為原形動詞，不能單獨作分詞構句使用。"
+    },
+    {
+      "id": "2026-07-16-p5-3",
+      "tag": "非限定關係子句（所有格）",
+      "pre": "The vendor, ",
+      "post": " contract had already lapsed by the time the audit began, continued to bill the company for services that were never formally authorized.",
+      "opts": ["whose", "which", "that", "who"],
+      "ans": 0,
+      "zh": "該供應商——其合約早在稽核開始前便已到期——卻仍持續向公司請款，收取從未經正式核准的服務費用。",
+      "why": "空格後直接接名詞 contract，表示「該供應商的合約」，須用所有格關係代名詞 <b>whose</b>。which、that 皆非所有格形式，不能直接接名詞表示所屬關係；who 為主格關係代名詞，同樣不能直接接名詞。"
+    },
+    {
+      "id": "2026-07-16-p5-4",
+      "tag": "進階動詞語意辨別（片語動詞搭配）",
+      "pre": "Rather than addressing the root cause of the shortfall, the interim report merely ",
+      "post": " over the operational inefficiencies that had plagued the division for years.",
+      "opts": ["glossed", "dwelled", "elaborated", "capitalized"],
+      "ans": 0,
+      "zh": "這份期中報告並未處理短缺問題的根本原因，只是輕描淡寫地帶過該部門多年來深陷的營運效率問題。",
+      "why": "<b>gloss over</b>（輕描淡寫帶過、迴避深入探討）精準對應「未處理根本原因、只是表面帶過」的語境，且與後面的介系詞 over 構成固定片語動詞。dwell on（糾結於、詳述）、elaborate on（詳細闡述）、capitalize on（藉…獲利）皆固定搭配介系詞 on 而非 over，語意也與「輕描淡寫」相反或無關。"
     }
   ],
   "p6": {
-    "id": "2026-07-15-p6",
-    "title": "MEMORANDUM: New Data-Retention Policy Effective August 1",
+    "id": "2026-07-16-p6",
+    "title": "MEMORANDUM: Updated Equipment Reimbursement Policy Effective September 1",
     "seg": [
       [
-        "To all staff: Effective 1 August, customer records that have not been accessed in the preceding thirty-six months ",
+        "To all remote and hybrid staff: Beginning 1 September, any reimbursement request that exceeds NT$15,000 per calendar year ",
         { "b": 0 },
-        " for permanent deletion under the company's revised data-retention policy, a measure intended to reduce the organization's exposure to future compliance liabilities."
+        " prior written approval from a direct supervisor before the purchase is made, a change intended to align departmental spending with the finance team's revised forecasting model."
       ],
       [
         { "b": 1 },
-        ", employees who require continued access to specific records for active litigation or ongoing audits must submit a retention-hold request to the legal department no later than 15 July."
+        ", employees who submit requests without prior approval will be reimbursed only up to the NT$15,000 threshold, with any excess amount treated as a personal expense."
       ],
       [
         "Requests that are properly ",
         { "b": 2 },
-        " by a case number and the name of the supervising attorney will be processed within five business days and will suspend deletion for the affected records."
+        " by an itemized receipt and a brief justification of business need will be processed within five business days of submission."
       ],
       [
         { "b": 3 },
-        " Employees with questions about which records qualify for a retention hold should contact the legal department directly."
+        " Employees who have questions about which purchases qualify under the revised policy should contact their department's finance liaison directly."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["will be earmarked", "earmark", "are earmarking", "have earmarked"],
+        "opts": ["will require", "requires", "is requiring", "has required"],
         "ans": 0,
-        "zh": "致全體員工：自8月1日起，過去三十六個月內未曾被存取的客戶紀錄，「將被列入」永久刪除的預定名單，此舉係依據公司新修訂的資料保存政策，旨在降低組織未來面臨法遵風險的暴露程度。",
-        "why": "主詞 customer records 是「被列入」刪除名單的對象，須用被動語態；搭配 Effective 1 August 的未來生效時點，選未來式被動 <b>will be earmarked</b>。其餘三個選項皆為主動語態，與「紀錄被動地被列入」的邏輯不符。"
+        "zh": "自9月1日起，凡當年度累計超過新台幣1萬5千元的設備核銷申請，在採購前須先取得直屬主管的書面核准，此變動旨在讓部門支出與財務團隊修訂後的預測模型一致。",
+        "why": "「Beginning 1 September」點出政策於未來生效，須用未來式 <b>will require</b>。requires 為現在式，與尚未生效的未來時點不符；is requiring 為現在進行式，不用於描述規定生效；has required 為現在完成式，暗示規定已實施過，與「9月1日起」的未來語境矛盾。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["Accordingly", "Conversely", "In retrospect", "Even so"],
+        "opts": ["Consequently", "Nevertheless", "For instance", "In hindsight"],
         "ans": 0,
-        "zh": "「因此」，若員工因進行中的訴訟或稽核而需持續存取特定紀錄，須於7月15日前向法務部門提出保留申請。",
-        "why": "前句說明逾期未存取的紀錄將被刪除，本句承接說明「因此」需要保留者應提出申請，兩句為<b>因果承接</b>關係，故選 <b>Accordingly</b>（因此、據此）。Conversely（相反地）表對比、In retrospect（事後回顧）指回顧過去、Even so（即便如此）表讓步，皆與語境的因果邏輯不合。"
+        "zh": "因此，未事先取得核准便提出申請的員工，僅能獲得最高新台幣1萬5千元門檻內的核銷金額，超出部分將視為個人支出。",
+        "why": "前句說明超過門檻須先核准的新規定，本句承接說明「因此」未事先核准者僅能核銷至門檻金額，兩句為因果承接關係，故選 <b>Consequently</b>。Nevertheless（然而）表轉折對比；For instance（例如）表舉例；In hindsight（事後回顧）表回顧過去，皆與此處的因果邏輯不合。"
       },
       {
         "tag": "詞彙語意",
         "col1": true,
-        "opts": ["accompanied", "forwarded", "contested", "incurred"],
+        "opts": ["substantiated", "reimbursed", "anticipated", "delegated"],
         "ans": 0,
-        "zh": "「檢附」案件編號及主責律師姓名的申請，將於五個工作天內處理完畢，並暫停刪除相關紀錄。",
-        "why": "<b>accompanied by</b> 表示「附有、隨附」，符合「申請書附上案件編號與律師姓名」的語境搭配。forwarded（轉呈）不用於表達「附上文件」；contested（有爭議的）語意無關；incurred（產生，多用於費用、債務）搭配對象錯誤。"
+        "zh": "凡附有明細收據及簡要業務需求說明佐證的申請，將於送出後五個工作天內完成處理。",
+        "why": "<b>substantiated by</b> 表示「有…作為佐證、證明屬實」，符合「申請書附上收據與說明以佐證核銷需求」的語境。reimbursed（被核銷）語意重複且邏輯顛倒（尚未核銷就先要求佐證）；anticipated（被預期）、delegated（被委派）語意皆與此處不符。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "A detailed FAQ and a searchable index of record categories are now posted on the corporate intranet.",
-          "The company's annual shareholder meeting has been rescheduled to accommodate the holiday calendar.",
-          "Employees who relocate to a new office will receive a moving stipend upon submission of receipts.",
-          "The board of directors approved a modest increase in the quarterly dividend last week."
+          "A complete list of eligible equipment categories and current price caps is now available on the internal HR portal.",
+          "The company's fourth-quarter town hall has been moved to a larger venue to accommodate increased attendance.",
+          "Employees relocating to a new office will receive a moving stipend upon submission of receipts.",
+          "The finance department successfully closed the books for the third quarter two days ahead of schedule."
         ],
         "ans": 0,
-        "zh": "「一份詳細的常見問答集及可搜尋的紀錄類別索引，現已上架於公司內部網路。」對於哪些紀錄符合保留資格有疑問的員工，請直接洽詢法務部門。",
-        "why": "段落主題為「新資料保存政策上路」，此句提供自助查閱的FAQ資源，與後句「可直接洽詢法務部門」形成邏輯銜接（先查閱資源，若仍有疑問再洽詢）。其餘選項（股東會、搬遷津貼、股利）皆與資料保存政策主題無關，與前後文脫節。"
+        "zh": "一份完整的合格設備類別清單及目前的金額上限，現已公布於公司內部人資入口網站。對於哪些採購項目符合新政策核銷資格有疑問的員工，請直接聯繫所屬部門的財務窗口。",
+        "why": "段落主題為「設備核銷政策更新」，此句提供可自助查閱的清單資源，與後句「若有疑問可聯繫財務窗口」形成邏輯銜接（先查閱清單，仍有疑問再洽詢）。其餘選項（年終大會場地、搬遷津貼、第三季結帳進度）皆與設備核銷政策主題無關，與前後文脫節。"
       }
     ]
   }
