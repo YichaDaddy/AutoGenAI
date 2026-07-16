@@ -1,99 +1,109 @@
 {
-  "date": "2026-07-15",
+  "date": "2026-07-16",
   "big_events": [
     {
-      "title": "Mira Murati的Thinking Machines發表首個開源模型Inkling，主打客製化而非硬拼榜單",
+      "title": "OpenAI、Anthropic、Google三巨頭罕見同調，公開支持AI模型上市前外部審查",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/"},
-        {"name": "Fortune", "url": "https://fortune.com/2026/07/15/what-is-mira-murati-thinking-machines-first-ai-model-inkling/"}
+        {"name": "Axios", "url": "https://www.axios.com/2026/07/16/ai-regulations-openai-anthropic-google"}
       ],
-      "summary": "前OpenAI CTO創辦公司釋出可自訂開源模型Inkling",
-      "audience": "想了解開源AI選項、評估自建客製模型的企業IT與技術主管",
-      "pain_point": "閉源大廠模型改版快、費用不透明，企業想要能掌控與微調的替代方案",
-      "title_idea": "OpenAI前CTO出手了！開源模型Inkling能為你的企業做什麼客製化？",
-      "local_angle": "台灣中大型企業評估AI導入時常卡在「資料能不能留在自己手上」，Inkling開源可微調的特性正好呼應這個顧慮"
+      "summary": "三大AI實驗室CEO首度書面同調，支持前沿模型外部審查",
+      "audience": "關注AI工具穩定性與合規風險的企業導入決策者與上班族",
+      "pain_point": "AI法規變動快，不知道現在導入的工具之後會不會被監管卡住",
+      "title_idea": "三大AI巨頭居然站同一陣線？外部審查將怎麼改變你用的AI工具",
+      "local_angle": "台灣尚無前沿AI專法，可將三巨頭主張對照台灣AI基本法草案，做成上班族看得懂的監管懶人包"
     },
     {
-      "title": "Apple Intelligence獲中國批准上線，攜手阿里巴巴Qwen AI模型",
+      "title": "Anthropic與黑石合資的Ode正式亮相，15億美元AI導入服務公司開張",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/"}
+        {"name": "Technology.org", "url": "https://www.technology.org/2026/07/16/ode-with-anthropic-blackstone-ai-implementation/"}
       ],
-      "summary": "中國網信辦核准蘋果整合阿里Qwen模型的AI服務",
-      "audience": "使用iPhone、關注蘋果AI功能何時開放在地化的上班族",
-      "pain_point": "蘋果AI功能在不同市場開放時程不一，常常「別人有我沒有」",
-      "title_idea": "Siri不是用ChatGPT？蘋果在中國找阿里巴巴合作背後的策略",
-      "local_angle": "可延伸討論台灣iPhone用戶未來會用到哪家模型（OpenAI／Google／在地業者），以及兩岸AI供應鏈分流的影響"
+      "summary": "Anthropic攜黑石成立Ode，派工程師進駐企業導入Claude",
+      "audience": "想推動公司導入AI、卻不知從何下手的中階主管與幕僚",
+      "pain_point": "買了AI工具卻沒人會導入，傳統顧問公司又貴又不夠懂技術",
+      "title_idea": "Anthropic不只賣模型，還派工程師進你公司！Ode想吃下AI導入市場",
+      "local_angle": "台灣中小企業「想導入AI沒人手」問題更嚴重，可分析Ode模式並盤點台灣本地的類似導入服務選項"
     },
     {
-      "title": "中國「擬人化AI」新規上路，字節跳動豆包、阿里Qwen緊急關閉AI夥伴功能",
+      "title": "Meta AI新增家長警示：青少年與聊天機器人談自傷會通知父母",
       "sources": [
-        {"name": "South China Morning Post", "url": "https://www.scmp.com/tech/big-tech/article/3359482/bytedance-and-alibaba-disable-humanlike-ai-custom-agents-new-rules-loom"},
-        {"name": "Decrypt", "url": "https://decrypt.co/372873/bytedance-alibaba-agent-features-china-cracks-down-humanlike-ai"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/16/meta-now-alerts-parents-if-their-teen-discussed-suicide-or-self-harm-with-its-ai-chatbot/"}
       ],
-      "summary": "中國新法上路，逼兩大AI應用關閉類人陪伴功能",
-      "audience": "使用AI聊天陪伴功能、或評估AI產品法規風險的行銷與產品從業者",
-      "pain_point": "習慣的AI功能可能因政策一夕消失，資料留存規則也讓人措手不及",
-      "title_idea": "用到一半AI夥伴消失？中國新規讓豆包、Qwen緊急關機的啟示",
-      "local_angle": "台灣尚未有類似「擬人化AI」專法，可預告性提醒創作者與企業，情感陪伴類AI產品未來可能面臨的監理走向"
+      "summary": "Meta推家長通知機制，並研擬高風險對話直通緊急服務",
+      "audience": "家有青少年、擔心孩子過度依賴AI聊天的上班族父母",
+      "pain_point": "孩子跟AI聊了什麼完全不透明，出事了家長往往最後一個知道",
+      "title_idea": "孩子跟AI說了什麼你知道嗎？Meta這個新功能台灣家長必看",
+      "local_angle": "台灣家長多活在LINE生態圈，可整理各家AI聊天工具的家長監護設定教學，搶親子科技安全題材"
     }
   ],
   "tool_updates": [
     {
-      "title": "訴訟正激烈，OpenAI仍推出230美元Codex專屬鍵盤",
+      "title": "Google搜尋AI Mode開放串接Canva、YouTube等App，對話中直接操作",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/"}
       ],
-      "summary": "OpenAI首度跨入硬體，推出搭配Codex的230美元鍵盤",
-      "audience": "重度使用AI寫程式工具Codex的接案工程師與開發團隊",
-      "pain_point": "用AI編碼工具時常要切換視窗、記快捷鍵，操作不夠流暢",
-      "title_idea": "OpenAI出鍵盤了！230美元買的到底是效率還是噱頭？",
-      "local_angle": "台灣接案工程師與新創團隊可觀察此硬體是否有代購／海外購管道，作為選配週邊工具的參考"
+      "summary": "AI Mode可連結Instacart、Canva等應用，邊搜尋邊完成任務",
+      "audience": "每天用Google搜尋找資料、做簡報素材的職場上班族",
+      "pain_point": "查資料、開工具要在十幾個分頁間切換，工作流程超零碎",
+      "title_idea": "Google搜尋變成工作台！AI Mode串接App實測：少開一半分頁",
+      "local_angle": "功能先在美國上線、台灣尚未開放，可搶先做英文介面教學，並示範台灣可用的替代工作流"
     },
     {
-      "title": "印度AI寫程式新創Emergent募資1.3億美元，上線一年多就晉升獨角獸",
+      "title": "Google Vids推自製AI分身：上傳自拍與聲音，影片主角就是你",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/"}
       ],
-      "summary": "AI編碼新創Emergent完成C輪募資，估值半年翻五倍",
-      "audience": "想用自然語言快速做出網站、App的非工程背景上班族與小老闆",
-      "pain_point": "有想法卻不會寫程式，外包開發又貴又慢",
-      "title_idea": "不會寫程式也能做App？這家新創半年估值翻5倍的秘密",
-      "local_angle": "可對照台灣中小企業「想做App卻沒工程師」的痛點，示範用類似工具自己動手做雛型"
+      "summary": "Google Vids可用自拍照與錄音生成專屬數位分身影片",
+      "audience": "要做教育訓練、產品說明影片卻不敢入鏡的上班族與內部講師",
+      "pain_point": "拍影片要化妝、打光、重錄好幾次，時間成本高到不想做",
+      "title_idea": "不用入鏡也能出影片！Google Vids數位分身完整教學",
+      "local_angle": "繁中教學幾乎空白，可實測中文語音分身效果，做「台灣職場教育訓練」情境示範搶教學紅利"
     },
     {
-      "title": "GitHub Copilot CLI補上代理安全漏洞，規劃模式不再能偷改檔案",
+      "title": "Roblox手機App推AI造遊戲功能Build，打字就能生成遊戲",
       "sources": [
-        {"name": "Tech Times", "url": "https://www.techtimes.com/articles/320560/20260715/github-copilot-cli-closes-agentic-loophole-plan-mode-can-no-longer-edit-your-files.htm"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/"}
       ],
-      "summary": "Copilot CLI修補規劃模式可竄改檔案的安全漏洞",
-      "audience": "用AI代理工具寫程式、跑自動化腳本的工程師與技術型上班族",
-      "pain_point": "AI代理權限沒管好，可能在「只是規劃」階段就誤改重要檔案",
-      "title_idea": "你的AI代理權限管好了嗎？GitHub Copilot這次補的洞要注意",
-      "local_angle": "可提醒台灣使用Claude Code、Copilot等AI代理工具的用戶，重新檢查自己專案的權限與沙盒設定"
+      "summary": "Roblox新功能Build讓用戶用文字提示在手機做出遊戲",
+      "audience": "想帶孩子接觸AI創作、或想研究UGC變現的斜槓上班族",
+      "pain_point": "想做遊戲或互動內容，但完全不會寫程式也沒時間學",
+      "title_idea": "小學生都能做遊戲了！Roblox AI新功能Build上手實測",
+      "local_angle": "台灣Roblox家長社群龐大但中文實測稀缺，可同時切親子共學與創作者分潤兩個角度"
     }
   ],
   "trends": [
     {
-      "title": "網際網路先驅Vint Cerf著手規劃AI代理的身分識別架構",
+      "title": "Google傳砍掉重練Gemini 3.5 Pro，最快7月17日登場",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/15/vint-cerf-is-working-on-a-plan-to-unleash-ai-agents-on-the-open-internet/"}
+        {"name": "AIToolsRecap", "url": "https://aitoolsrecap.com/Blog/ai-news-july-16-2026"},
+        {"name": "AIToolsRecap", "url": "https://aitoolsrecap.com/Blog/gemini-3-5-pro-rebuild-architecture-launch-july-17-2026"}
       ],
-      "summary": "離開Google的Cerf投入AI代理開放身分協議的制定",
-      "audience": "關注AI代理（AI Agent）發展、思考未來工作流程自動化的技術愛好者",
-      "pain_point": "AI代理越來越多，卻沒有統一方式驗證「這是誰派出來的AI」，資安風險難掌握",
-      "title_idea": "AI代理滿街跑，誰來證明它是「合法」的？網路教父的新計畫",
-      "local_angle": "台灣企業導入AI代理處理客服、採購前，可提前關注身分驗證標準，避免日後淪為詐騙工具的溫床"
+      "summary": "傳Gemini 3.5 Pro整個重建，主打200萬token與深度推理",
+      "audience": "在ChatGPT與Gemini之間選邊站的職場AI重度使用者",
+      "pain_point": "模型更新太快，剛摸熟一套工作流又要重新評估工具",
+      "title_idea": "Gemini 3.5 Pro明天見？Google「砍掉重練」背後的三個訊號",
+      "local_angle": "若如期發布可搶24小時內出繁中實測，聚焦台灣上班族日常任務：會議記錄、Excel、簡報生成"
     },
     {
-      "title": "微軟靠AI揪出破紀錄漏洞數量，本月修補570個資安缺陷",
+      "title": "前Ultrahuman硬體副總募資550萬美元，打造「指揮AI代理」的隨身裝置",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/16/ultrahumans-former-hardware-vp-raises-5-5m-for-devices-that-control-ai-agents-not-just-record-you/"}
       ],
-      "summary": "微軟用AI協助找漏洞，單月修補570個資安缺陷創紀錄",
-      "audience": "負責公司IT資安、或需要說服主管導入AI工具的技術人員",
-      "pain_point": "資安漏洞修不完，人力抓漏速度跟不上系統複雜度",
-      "title_idea": "微軟用AI一次抓出570個漏洞，你的公司資安還在人工抓蟲嗎？",
-      "local_angle": "可作為說服台灣企業導入AI輔助資安檢測的實例，強調「連微軟都靠AI抓漏洞」的說服力"
+      "summary": "新創Aina獲550萬美元，開發能控制AI代理的穿戴裝置",
+      "audience": "關注AI代理與穿戴新硬體的科技嘗鮮型上班族",
+      "pain_point": "AI代理愈來愈多，但都關在App裡，離開螢幕就使喚不動",
+      "title_idea": "AI硬體下一步不是錄音、是下指令？Aina想做AI代理的遙控器",
+      "local_angle": "AI Pin類硬體在台討論度回溫，可盤點「控制型」與「記錄型」兩條AI硬體路線給台灣讀者"
+    },
+    {
+      "title": "AMI Labs創辦人拒用AGI、超智慧等詞：AI該談實用而非神話",
+      "sources": [
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence/"}
+      ],
+      "summary": "LeBrun受訪拒稱自家AI為AGI，主張聚焦實際用途",
+      "audience": "被AGI話術轟炸、想務實評估AI工具的職場決策者",
+      "pain_point": "廠商行銷詞彙滿天飛，分不清哪些功能是真的用得上",
+      "title_idea": "別再被AGI唬住！AI創辦人親口說：先問這工具幫你省幾小時",
+      "local_angle": "台灣企業簡報也常濫用AGI詞彙，可做「AI行銷術語拆解」系列首篇，建立務實派人設"
     }
   ]
 }
