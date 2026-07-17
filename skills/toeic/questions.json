@@ -1,117 +1,117 @@
 {
-  "date": "2026-07-17",
+  "date": "2026-07-18",
   "p5": [
     {
-      "id": "2026-07-17-p5-0",
-      "tag": "假設語氣倒裝（Should 表萬一）",
+      "id": "2026-07-18-p5-0",
+      "tag": "假設語氣倒裝（Were... to）",
       "pre": "",
-      "post": " any discrepancy arise between the figures reported in the prospectus and those in the audited statements, underwriters are contractually obligated to notify the securities commission within two business days.",
-      "opts": ["Should", "Would", "Unless", "Whereas"],
+      "post": " the central bank to raise its benchmark rate by more than fifty basis points, highly leveraged property developers would face an immediate refinancing crisis.",
+      "opts": ["Were", "Should", "Had", "Would"],
       "ans": 0,
-      "zh": "萬一公開說明書所載數字與經審計報表出現任何不一致，承銷商依約須於兩個營業日內通報證券主管機關。",
-      "why": "此為省略 if 的假設語氣倒裝：If any discrepancy should arise → <b>Should</b> any discrepancy arise，表「萬一發生」的未來假設，後接原形動詞 arise。Would 無此倒裝用法；Unless（除非）與 Whereas（然而）皆為連接詞，後須接直述語序的完整子句，且 arise 未加 s（第三人稱單數），文法不合。"
+      "zh": "倘若央行將基準利率調升超過五十個基點，高度槓桿的房地產開發商將立即面臨再融資危機。",
+      "why": "此為與現在／未來事實相反程度較高的假設倒裝：If the central bank were to raise... → <b>Were</b> the central bank to raise...，「Were + 主詞 + to + 原形動詞」為固定結構。Should 倒裝後直接接原形動詞（Should the bank raise），不與 to 連用；Had 倒裝須接過去分詞表過去假設；Would 無倒裝條件句用法。"
     },
     {
-      "id": "2026-07-17-p5-1",
-      "tag": "否定副詞倒裝",
+      "id": "2026-07-18-p5-1",
+      "tag": "讓步連接詞（Much as）",
       "pre": "",
-      "post": " had the acquisition been announced than activist shareholders began petitioning the board to renegotiate the exchange ratio.",
-      "opts": ["No sooner", "Hardly ever", "Not until", "Only when"],
+      "post": " the committee admired the consultant's ambitious restructuring blueprint, it ultimately concluded that the projected savings rested on assumptions too optimistic to defend before the board.",
+      "opts": ["Much as", "So that", "Now that", "In case"],
       "ans": 0,
-      "zh": "收購案才剛宣布，維權股東便立即開始向董事會請願，要求重新協商換股比例。",
-      "why": "<b>No sooner... than...</b> 為固定倒裝結構，表「一…就…」，前半句用過去完成式倒裝（had the acquisition been announced），後半句以 than 銜接過去式。Hardly ever（幾乎不曾）不與 than 搭配；Not until 與 Only when 須搭配主句倒裝且用 when/that 類邏輯銜接，皆不能與 than 連用。"
+      "zh": "儘管委員會相當欣賞顧問那份雄心勃勃的重整藍圖，最終仍認定其預估的成本節省，是建立在過於樂觀、難以在董事會前站得住腳的假設之上。",
+      "why": "<b>Much as</b>（儘管、雖然…但）為正式書面的讓步連接詞，引導「雖然欣賞、但仍否決」的轉折語意。So that（以便）表目的；Now that（既然）表原因；In case（以防）表預防，皆與前後句的讓步對比邏輯不符。"
     },
     {
-      "id": "2026-07-17-p5-2",
-      "tag": "名詞子句（What 作主詞）",
-      "pre": "",
-      "post": " distinguishes the firm's advisory practice from that of its competitors is its willingness to decline engagements that pose even a remote conflict of interest.",
-      "opts": ["What", "That", "Which", "Whether"],
+      "id": "2026-07-18-p5-2",
+      "tag": "介系詞＋關係代名詞（whereby）",
+      "pre": "The two firms signed a cross-licensing arrangement ",
+      "post": " each party may incorporate the other's patented battery technology into its own product lines without incurring royalty obligations.",
+      "opts": ["whereby", "wherein it", "which", "whose"],
       "ans": 0,
-      "zh": "該公司顧問業務之所以有別於同業，在於其願意婉拒任何可能涉及利益衝突的委任案，即便衝突機率微乎其微。",
-      "why": "空格引導的名詞子句缺乏主詞且需內含先行詞意涵（「…的那件事」），故用 <b>What</b>（= the thing that）作子句主詞。That 引導名詞子句時子句須結構完整，此處缺主詞；Which 用於疑問或關係子句，需明確先行詞；Whether 表「是否」，與句意不符。"
+      "zh": "兩家公司簽署了一項交叉授權協議，據此，任一方均可將對方的專利電池技術納入自家產品線，而無須負擔權利金義務。",
+      "why": "<b>whereby</b>（= by which，據此、藉此機制）用於描述協議、制度運作方式，後接完整子句，最符合「協議規定雙方如何運作」的語境。wherein it 多餘且指涉混亂；which 作主詞或受詞時子句結構不合（後方子句已有完整主詞 each party）；whose 為所有格，須直接接名詞。"
     },
     {
-      "id": "2026-07-17-p5-3",
+      "id": "2026-07-18-p5-3",
       "tag": "進階動詞語意辨別",
-      "pre": "In its filing, the company ",
-      "post": " the projected synergies to aggressive procurement consolidation rather than to workforce reductions, a characterization several analysts publicly questioned.",
-      "opts": ["attributed", "allocated", "administered", "accustomed"],
+      "pre": "The confidentiality clause expressly ",
+      "post": " former executives from disclosing pricing strategies to competitors for a period of five years following their departure.",
+      "opts": ["precludes", "withholds", "deters", "exempts"],
       "ans": 0,
-      "zh": "該公司在申報文件中，將預估綜效「歸因於」激進的採購整合，而非人力縮減——多位分析師公開質疑此種說法。",
-      "why": "<b>attribute A to B</b>（將A歸因於B）精準對應「綜效來自採購整合而非裁員」的因果歸屬語境。allocate to（分配給）用於資源配置而非因果說明；administer（管理、執行）不與 to 構成此結構；be accustomed to（習慣於）為形容詞用法，主動語態不通。"
+      "zh": "該保密條款明文「禁止」前高階主管於離職後五年內向競爭對手揭露定價策略。",
+      "why": "<b>preclude sb from V-ing</b>（依規定禁止、排除某人做某事）為正式法律用語，精準對應保密條款的約束語境。withhold（扣留）受詞應為被扣留之物而非人＋from；deter（嚇阻）語意偏「使不敢」而非法律禁止，且多用 deter sb from；exempt sb from（豁免）語意恰好相反，變成「免除揭露義務」，邏輯不通。"
     },
     {
-      "id": "2026-07-17-p5-4",
-      "tag": "平行結構（對等連接詞）",
-      "pre": "The restructuring plan calls not only for divesting underperforming retail assets ",
-      "post": " for redeploying the proceeds into the higher-margin logistics division over the next three fiscal years.",
-      "opts": ["but also", "as well", "and so", "rather than"],
+      "id": "2026-07-18-p5-4",
+      "tag": "未來完成式",
+      "pre": "By the time the new accounting standard takes effect next January, the firm ",
+      "post": " all legacy contracts to the revised revenue-recognition framework, according to the implementation timeline filed with regulators.",
+      "opts": ["will have migrated", "has migrated", "will migrate", "had migrated"],
       "ans": 0,
-      "zh": "這項重整計畫不僅要求出售表現不佳的零售資產，還要求在未來三個會計年度內，將所得資金重新投入利潤率較高的物流部門。",
-      "why": "前文的 not only 必須與 <b>but also</b> 構成固定對等結構「not only A but also B」，且 A、B 兩側皆為 for + 動名詞的平行形式。as well 須置於句尾且不與 not only 搭配；and so（因此）邏輯不符；rather than（而非）表排除，與 not only 的「兩者皆是」語意矛盾。"
+      "zh": "根據向主管機關申報的導入時程，到明年一月新會計準則生效時，該公司「將已完成」所有舊合約向修訂後收入認列架構的轉換。",
+      "why": "「By the time + 未來時點」表示動作將在該未來時點之前完成，須用未來完成式 <b>will have migrated</b>。has migrated 為現在完成式，與未來時點矛盾；will migrate 僅表未來會做，無法表達「屆時已完成」；had migrated 為過去完成式，用於過去語境。"
     }
   ],
   "p6": {
-    "id": "2026-07-17-p6",
-    "title": "NOTICE: Consolidation of Regional Customer Service Centers",
+    "id": "2026-07-18-p6",
+    "title": "ANNOUNCEMENT: Revised Pricing Schedule for Component Supply Contracts",
     "seg": [
       [
-        "Dear valued clients: As part of our ongoing effort to shorten response times, our three regional customer service centers ",
+        "Dear procurement partners: Owing to sustained increases in raw material and freight costs, the unit prices listed in Appendix B of your supply agreements ",
         { "b": 0 },
-        " into a single integrated support hub located in Taoyuan, with the transition scheduled for completion by 30 September."
+        " by an average of 4.8 percent, effective for all purchase orders placed on or after 1 October."
       ],
       [
         { "b": 1 },
-        ", all existing service hotlines will remain operational throughout the transition period, and no action is required on your part to retain access to support."
+        ", orders confirmed before that date will be honored at current prices, provided that requested delivery falls within ninety days of order confirmation."
       ],
       [
-        "Clients whose service contracts contain provisions ",
+        "Partners whose annual purchase volumes ",
         { "b": 2 },
-        " to a specific regional center will receive amended terms by registered mail no later than 15 August."
+        " the thresholds specified in their framework agreements will remain eligible for the existing volume rebate program, which is unaffected by this adjustment."
       ],
       [
         { "b": 3 },
-        " We appreciate your patience as we complete this consolidation and remain committed to delivering faster, more consistent support."
+        " Our account managers will contact each partner individually over the coming weeks to review the revised schedule in detail."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["will be merged", "merge", "have merged", "are merging themselves"],
+        "opts": ["will be adjusted", "adjust", "have adjusted", "are adjusting"],
         "ans": 0,
-        "zh": "親愛的客戶：為持續縮短回應時間，本公司三個區域客服中心「將被整併」為單一整合支援中心，地點設於桃園，預定於9月30日前完成轉換。",
-        "why": "主詞 customer service centers 是「被整併」的對象，須用被動語態；搭配「scheduled for completion by 30 September」的未來時程，選未來式被動 <b>will be merged</b>。merge 與 have merged 為主動語態且時態不符；are merging themselves 的反身用法在此語境不自然且不合商務文體。"
+        "zh": "親愛的採購夥伴：由於原物料與運費成本持續上漲，貴我雙方供應合約附錄B所列之單價「將被調整」，平均調幅為4.8%，適用於10月1日（含）以後成立的所有採購訂單。",
+        "why": "主詞 the unit prices 是「被調整」的對象，須用被動語態；搭配「effective for orders on or after 1 October」的未來生效時點，選未來式被動 <b>will be adjusted</b>。其餘選項皆為主動語態，價格不會自行調整，邏輯與文法均不合。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["In the meantime", "On the contrary", "As a last resort", "By comparison"],
+        "opts": ["However", "Furthermore", "As a result", "Similarly"],
         "ans": 0,
-        "zh": "「在此期間」，所有現行服務專線於轉換期間將維持正常運作，您無須採取任何行動即可繼續獲得支援服務。",
-        "why": "前句宣布9月底完成整併，本句說明過渡期間的安排，時間上為「整併完成前的這段期間」，故選 <b>In the meantime</b>（在此期間）。On the contrary（正相反）表反駁；As a last resort（作為最後手段）表不得已；By comparison（相較之下）表對比，皆與此處的時間銜接邏輯不符。"
+        "zh": "「不過」，於該日期前確認的訂單仍將依現行價格履行，惟指定交期須落在訂單確認後九十日內。",
+        "why": "前句宣布10月起漲價，本句說明「之前確認的訂單維持原價」，屬於例外／對比關係，故選 <b>However</b>（不過）。Furthermore（此外）表遞進；As a result（因此）表因果；Similarly（同樣地）表類比，皆無法呈現「漲價 vs. 維持原價」的轉折。"
       },
       {
         "tag": "詞彙語意",
         "col1": true,
-        "opts": ["tied", "opposed", "entitled", "subjected"],
+        "opts": ["exceed", "dismiss", "concede", "prolong"],
         "ans": 0,
-        "zh": "服務合約中載有「綁定」特定區域中心條款的客戶，將於8月15日前收到以掛號寄出的修訂條款。",
-        "why": "<b>tied to</b>（綁定於、與…連結）符合「合約條款指定特定區域中心」的語境。opposed to（反對）語意不符；entitled to（有權享有）雖搭配 to 但語意變成「有權獲得區域中心」，邏輯不通；subjected to（遭受）多用於負面處置，與中性的合約指定語境不合。"
+        "zh": "年度採購量「超過」架構協議所定門檻的夥伴，仍可繼續適用現行數量回饋方案，該方案不受此次調價影響。",
+        "why": "<b>exceed</b>（超過）搭配 thresholds（門檻）為固定商務用語，「採購量超過門檻→享回饋」邏輯通順。dismiss（駁回）、concede（讓步承認）、prolong（延長）語意皆與「數量與門檻的比較」無關，搭配不成立。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "A step-by-step transition guide, including updated contact channels, is available for download on our support portal.",
-          "Our annual client appreciation banquet will be held at the Grand Ballroom in early December.",
-          "Applicants who pass the initial screening will be invited to a panel interview next month.",
-          "The Taoyuan facility recently received an award for its energy-efficient building design."
+          "A comparison table summarizing current and revised prices for each component category is enclosed with this notice.",
+          "The company cafeteria will introduce an expanded vegetarian menu beginning next month.",
+          "Candidates selected for the graduate program will be notified by email in early September.",
+          "Our headquarters lobby renovation is expected to conclude ahead of schedule."
         ],
         "ans": 0,
-        "zh": "「一份逐步說明的轉換指南（含更新後的聯絡管道）已可於本公司支援入口網站下載。」感謝您在整併期間的耐心配合，我們將持續致力於提供更快速、更一致的支援服務。",
-        "why": "段落主題為「客服中心整併過渡安排」，此句提供轉換指南的自助資源，與結尾「感謝耐心配合」自然銜接。其餘選項（年終晚宴、面試通知、節能建築獎）皆與客服整併主題無關，插入後與前後文脫節。"
+        "zh": "「隨函附上一份對照表，彙整各零組件類別的現行與修訂價格。」我們的客戶經理將於未來數週內逐一與各夥伴聯繫，詳細說明修訂後的價格表。",
+        "why": "段落主題為「供應合約調價通知」，此句提供價格對照表作為輔助資料，與後句「客戶經理將逐一說明」自然銜接（先看附表，再由專人說明）。其餘選項（員工餐廳菜單、儲備幹部通知、總部大廳整修）皆與調價主題無關，插入後語意斷裂。"
       }
     ]
   }

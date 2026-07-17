@@ -1,109 +1,124 @@
 {
-  "date": "2026-07-16",
+  "date": "2026-07-17",
   "big_events": [
     {
-      "title": "OpenAI、Anthropic、Google三巨頭罕見同調，公開支持AI模型上市前外部審查",
+      "title": "Moonshot發布Kimi K3:2.8兆參數史上最大開源模型,市場重演DeepSeek震撼",
       "sources": [
-        {"name": "Axios", "url": "https://www.axios.com/2026/07/16/ai-regulations-openai-anthropic-google"}
+        {"name": "Axios", "url": "https://www.axios.com/2026/07/17/china-ai-kimi-k3-open-source-anthropic-opus"},
+        {"name": "Fortune", "url": "https://fortune.com/2026/07/17/china-moonshot-kimi-k3-markets-china-ai/"},
+        {"name": "Tom's Hardware", "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-releases-2-8-trillion-parameter-kimi-k3"}
       ],
-      "summary": "三大AI實驗室CEO首度書面同調，支持前沿模型外部審查",
-      "audience": "關注AI工具穩定性與合規風險的企業導入決策者與上班族",
-      "pain_point": "AI法規變動快，不知道現在導入的工具之後會不會被監管卡住",
-      "title_idea": "三大AI巨頭居然站同一陣線？外部審查將怎麼改變你用的AI工具",
-      "local_angle": "台灣尚無前沿AI專法，可將三巨頭主張對照台灣AI基本法草案，做成上班族看得懂的監管懶人包"
+      "summary": "Kimi K3登場:2.8兆參數、百萬token,API已上線,權重7/27釋出",
+      "audience": "想找免費或低成本ChatGPT替代方案的職場AI使用者",
+      "pain_point": "訂閱制AI工具月費越疊越貴,想省錢又怕開源模型不夠力",
+      "title_idea": "中國最強開源模型Kimi K3來了!它能取代你的ChatGPT訂閱嗎?",
+      "local_angle": "繁中圈對Kimi認知度仍低,可搶先實測中文辦公任務表現,同時整理資安疑慮與適用場景給台灣上班族"
     },
     {
-      "title": "Anthropic與黑石合資的Ode正式亮相，15億美元AI導入服務公司開張",
+      "title": "Patreon不再好言相勸,聯手Cloudflare直接封鎖AI訓練爬蟲",
       "sources": [
-        {"name": "Technology.org", "url": "https://www.technology.org/2026/07/16/ode-with-anthropic-blackstone-ai-implementation/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/"}
       ],
-      "summary": "Anthropic攜黑石成立Ode，派工程師進駐企業導入Claude",
-      "audience": "想推動公司導入AI、卻不知從何下手的中階主管與幕僚",
-      "pain_point": "買了AI工具卻沒人會導入，傳統顧問公司又貴又不夠懂技術",
-      "title_idea": "Anthropic不只賣模型，還派工程師進你公司！Ode想吃下AI導入市場",
-      "local_angle": "台灣中小企業「想導入AI沒人手」問題更嚴重，可分析Ode模式並盤點台灣本地的類似導入服務選項"
+      "summary": "Patreon改用Cloudflare直接擋AI爬蟲,保護創作者內容",
+      "audience": "經營副業內容、擔心作品被AI白嫖的斜槓上班族與創作者",
+      "pain_point": "辛苦產出的內容被AI公司免費抓去訓練,連說不的權利都沒有",
+      "title_idea": "你的內容正在被AI白吃白喝?Patreon開第一槍,創作者自保三招",
+      "local_angle": "台灣創作者多用方格子、Portaly等平台,可盤點各平台反爬蟲政策差異,做一份創作者自保指南"
     },
     {
-      "title": "Meta AI新增家長警示：青少年與聊天機器人談自傷會通知父母",
+      "title": "AI資金風向轉了:GPU金主改押推理晶片,General Compute獲4億美元貸款",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/16/meta-now-alerts-parents-if-their-teen-discussed-suicide-or-self-harm-with-its-ai-chatbot/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal/"}
       ],
-      "summary": "Meta推家長通知機制，並研擬高風險對話直通緊急服務",
-      "audience": "家有青少年、擔心孩子過度依賴AI聊天的上班族父母",
-      "pain_point": "孩子跟AI聊了什麼完全不透明，出事了家長往往最後一個知道",
-      "title_idea": "孩子跟AI說了什麼你知道嗎？Meta這個新功能台灣家長必看",
-      "local_angle": "台灣家長多活在LINE生態圈，可整理各家AI聊天工具的家長監護設定教學，搶親子科技安全題材"
+      "summary": "Upper90借出4億美元,首例以推理專用晶片作為抵押品",
+      "audience": "關注AI產業走向、想判斷工具價格趨勢的職場決策者",
+      "pain_point": "AI工具訂閱費居高不下,看不懂成本結構何時才會鬆動",
+      "title_idea": "AI熱錢轉向「推理」!這筆4億美元交易,預告你的AI帳單要變便宜?",
+      "local_angle": "推理晶片供應鏈與台灣半導體高度相關,可用上班族聽得懂的語言解釋訓練vs推理,順帶點出台廠機會"
+    },
+    {
+      "title": "Agility Robotics進駐特斯拉後院,6萬平方呎人形機器人訓練基地開張",
+      "sources": [
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/"}
+      ],
+      "summary": "Agility在Fremont設訓練場,與Tesla Optimus正面對決",
+      "audience": "關注自動化取代議題的製造、物流與營運端上班族",
+      "pain_point": "人形機器人進工廠的時程真假難辨,不知道自己的工作何時受影響",
+      "title_idea": "把訓練場開到特斯拉隔壁!人形機器人大戰2026下半場三大看點",
+      "local_angle": "台灣供應鏈(減速機、感測器、代工)吃到人形機器人紅利,可同時經營概念股與職涯影響兩種視角"
     }
   ],
   "tool_updates": [
     {
-      "title": "Google搜尋AI Mode開放串接Canva、YouTube等App，對話中直接操作",
+      "title": "Claude Cowork全面上雲:網頁、手機都能用,官方數據曝9成用途不是寫程式",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/"}
+        {"name": "VentureBeat", "url": "https://venturebeat.com/technology/anthropic-brings-claude-cowork-to-mobile-and-web-as-usage-data-shows-most-users-arent-coding"},
+        {"name": "Yahoo Tech", "url": "https://tech.yahoo.com/ai/claude/articles/anthropics-claude-cowork-heads-cloud-160003851.html"}
       ],
-      "summary": "AI Mode可連結Instacart、Canva等應用，邊搜尋邊完成任務",
-      "audience": "每天用Google搜尋找資料、做簡報素材的職場上班族",
-      "pain_point": "查資料、開工具要在十幾個分頁間切換，工作流程超零碎",
-      "title_idea": "Google搜尋變成工作台！AI Mode串接App實測：少開一半分頁",
-      "local_angle": "功能先在美國上線、台灣尚未開放，可搶先做英文介面教學，並示範台灣可用的替代工作流"
+      "summary": "Cowork擴至網頁與行動版,90%使用場景為非開發辦公任務",
+      "audience": "想讓AI代理幫忙跑雜事、不會寫程式的一般上班族",
+      "pain_point": "聽說AI代理很強,但以為只有工程師用得起來,不知從何入門",
+      "title_idea": "9成的人用Claude Cowork不是在寫程式!上班族最該學的5種用法",
+      "local_angle": "Cowork繁中教學稀缺,可實測行政雜務自動化情境:報帳、會議紀錄、週報,搶第一波教學紅利"
     },
     {
-      "title": "Google Vids推自製AI分身：上傳自拍與聲音，影片主角就是你",
+      "title": "Brex開源CrabTrap:讓LLM當裁判,即時放行或攔截AI代理的每個動作",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/"}
+        {"name": "VentureBeat", "url": "https://venturebeat.com/orchestration/brex-built-its-ai-agent-policy-by-watching-what-agents-actually-do-not-by-writing-rules-first"}
       ],
-      "summary": "Google Vids可用自拍照與錄音生成專屬數位分身影片",
-      "audience": "要做教育訓練、產品說明影片卻不敢入鏡的上班族與內部講師",
-      "pain_point": "拍影片要化妝、打光、重錄好幾次，時間成本高到不想做",
-      "title_idea": "不用入鏡也能出影片！Google Vids數位分身完整教學",
-      "local_angle": "繁中教學幾乎空白，可實測中文語音分身效果，做「台灣職場教育訓練」情境示範搶教學紅利"
+      "summary": "CrabTrap攔截代理網路行為,由LLM判官依政策決定放行",
+      "audience": "公司開始導入AI代理、擔心失控風險的IT與管理職上班族",
+      "pain_point": "老闆要導入AI代理,卻沒人說得清楚要怎麼管才不會出事",
+      "title_idea": "AI代理在公司亂跑怎麼辦?Brex的做法:先看它做什麼,再立規矩",
+      "local_angle": "台灣企業AI治理討論多停在「禁不禁用」,可引介「先觀察再立規」的實務框架做出內容差異化"
     },
     {
-      "title": "Roblox手機App推AI造遊戲功能Build，打字就能生成遊戲",
+      "title": "Capital One開源VulnHunter:用攻擊者視角找漏洞的AI資安代理",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/"}
+        {"name": "VentureBeat", "url": "https://venturebeat.com/technology/capital-one-releases-vulnhunter-an-open-source-ai-tool-that-finds-software-flaws-before-hackers-do"},
+        {"name": "Capital One Tech", "url": "https://www.capitalone.com/tech/open-source/announcing-vulnhunter/"}
       ],
-      "summary": "Roblox新功能Build讓用戶用文字提示在手機做出遊戲",
-      "audience": "想帶孩子接觸AI創作、或想研究UGC變現的斜槓上班族",
-      "pain_point": "想做遊戲或互動內容，但完全不會寫程式也沒時間學",
-      "title_idea": "小學生都能做遊戲了！Roblox AI新功能Build上手實測",
-      "local_angle": "台灣Roblox家長社群龐大但中文實測稀缺，可同時切親子共學與創作者分潤兩個角度"
+      "summary": "VulnHunter模擬駭客路徑掃描原始碼,找漏洞並提修補建議",
+      "audience": "兼管資安、開始用AI寫程式的IT部門上班族與開發者",
+      "pain_point": "AI幫忙寫的程式越來越多,漏洞檢查卻還靠人工,心裡毛毛的",
+      "title_idea": "銀行等級的免費資安AI!VulnHunter幫你在駭客之前找到漏洞",
+      "local_angle": "工具在Claude Code環境運行,可針對台灣中小企業常見技術棧做繁中安裝與實測教學"
     }
   ],
   "trends": [
     {
-      "title": "Google傳砍掉重練Gemini 3.5 Pro，最快7月17日登場",
+      "title": "Gemini 3.5 Pro發布日到期卻沒現身,Google傳改推3.6 Flash補位",
       "sources": [
-        {"name": "AIToolsRecap", "url": "https://aitoolsrecap.com/Blog/ai-news-july-16-2026"},
-        {"name": "AIToolsRecap", "url": "https://aitoolsrecap.com/Blog/gemini-3-5-pro-rebuild-architecture-launch-july-17-2026"}
+        {"name": "BuildFastWithAI", "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-17-2026"},
+        {"name": "Tech Times", "url": "https://www.techtimes.com/articles/320736/20260716/rebuilt-gemini-35-pro-misses-third-deadline-google-eyes-stopgap-release.htm"}
       ],
-      "summary": "傳Gemini 3.5 Pro整個重建，主打200萬token與深度推理",
-      "audience": "在ChatGPT與Gemini之間選邊站的職場AI重度使用者",
-      "pain_point": "模型更新太快，剛摸熟一套工作流又要重新評估工具",
-      "title_idea": "Gemini 3.5 Pro明天見？Google「砍掉重練」背後的三個訊號",
-      "local_angle": "若如期發布可搶24小時內出繁中實測，聚焦台灣上班族日常任務：會議記錄、Excel、簡報生成"
+      "summary": "傳言的7/17發布未發生,已三度跳票,傳先推Flash過渡版",
+      "audience": "等Gemini 3.5 Pro再決定要不要換工具的職場AI使用者",
+      "pain_point": "等新模型等到工作流卡住,不知該現在換方案還是再等等",
+      "title_idea": "說好的Gemini 3.5 Pro呢?Google三連跳票,上班族現在該怎麼選",
+      "local_angle": "可做「不等Gemini的替代方案」實用文,對比GPT-5.6與Claude在繁中辦公情境的表現"
     },
     {
-      "title": "前Ultrahuman硬體副總募資550萬美元，打造「指揮AI代理」的隨身裝置",
+      "title": "AI搶走記憶體產能,印度手機市場率先漲價,3C漲價潮恐全球連鎖",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/16/ultrahumans-former-hardware-vp-raises-5-5m-for-devices-that-control-ai-agents-not-just-record-you/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/17/ai-driven-memory-crunch-jolts-indias-smartphone-market/"}
       ],
-      "summary": "新創Aina獲550萬美元，開發能控制AI代理的穿戴裝置",
-      "audience": "關注AI代理與穿戴新硬體的科技嘗鮮型上班族",
-      "pain_point": "AI代理愈來愈多，但都關在App裡，離開螢幕就使喚不動",
-      "title_idea": "AI硬體下一步不是錄音、是下指令？Aina想做AI代理的遙控器",
-      "local_angle": "AI Pin類硬體在台討論度回溫，可盤點「控制型」與「記錄型」兩條AI硬體路線給台灣讀者"
+      "summary": "記憶體轉產HBM供AI,手機成本上升,印度市場已現漲價",
+      "audience": "近期打算換手機、筆電的精打細算上班族",
+      "pain_point": "3C越來越貴,不知道該趁現在買還是再觀望",
+      "title_idea": "AI害你手機變貴?記憶體大缺貨,2026下半年3C購買攻略",
+      "local_angle": "台灣是記憶體與代工重鎮,可同時談消費者採買時機與台廠受惠兩個面向,貼近在地讀者"
     },
     {
-      "title": "AMI Labs創辦人拒用AGI、超智慧等詞：AI該談實用而非神話",
+      "title": "LinkedIn、Walmart齊聲:拖慢AI代理的不是模型,是老舊企業系統",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence/"}
+        {"name": "VentureBeat", "url": "https://venturebeat.com/data/agents-think-in-milliseconds-legacy-infrastructure-doesnt-linkedin-walmart-and-zendesk-shared-how-they-closed-the-gap-at-vb-transform-2026"}
       ],
-      "summary": "LeBrun受訪拒稱自家AI為AGI，主張聚焦實際用途",
-      "audience": "被AGI話術轟炸、想務實評估AI工具的職場決策者",
-      "pain_point": "廠商行銷詞彙滿天飛，分不清哪些功能是真的用得上",
-      "title_idea": "別再被AGI唬住！AI創辦人親口說：先問這工具幫你省幾小時",
-      "local_angle": "台灣企業簡報也常濫用AGI詞彙，可做「AI行銷術語拆解」系列首篇，建立務實派人設"
+      "summary": "VB Transform共識:代理毫秒思考,企業老系統才是瓶頸",
+      "audience": "在公司推AI專案卻頻頻卡關的中階主管與轉型負責人",
+      "pain_point": "買了最強模型,流程還是慢,找不到問題到底出在哪",
+      "title_idea": "AI導入卡關別怪模型!LinkedIn、Walmart揭真正兇手:老系統",
+      "local_angle": "台灣中小企業系統老舊問題更普遍,可整理「導入AI代理前的基礎盤點清單」做成實用內容"
     }
   ]
 }
