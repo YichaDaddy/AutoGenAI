@@ -1,5 +1,210 @@
 [
   {
+    "date": "2026-07-17",
+    "market_shocks": [
+      {
+        "title": "台股717慘案！狂殺2,953點創史上最大跌點，135檔跌停、台積電崩7.29%",
+        "sources": [
+          {
+            "name": "中時新聞網",
+            "url": "https://www.chinatimes.com/realtimenews/20260717002506-260410"
+          },
+          {
+            "name": "聯合新聞網",
+            "url": "https://udn.com/news/story/7251/9634167"
+          },
+          {
+            "name": "Yahoo奇摩新聞",
+            "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E9%87%8D%E6%8C%AB2953%E9%BB%9E%E6%94%B642671%E9%BB%9E-%E5%89%B5%E7%9B%A4%E4%B8%AD%E5%8F%8A%E6%94%B6%E7%9B%A4%E6%9C%80%E5%A4%A7%E8%B7%8C%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%B7%8C180%E5%85%83-010246318.html"
+          }
+        ],
+        "summary": "台股7/17跳空開低一路殺到底，加權指數終場暴跌2,953.71點收42,671.27點、跌幅6.47%，同時改寫盤中與收盤史上最大跌點紀錄，成交值約1.21兆元。台積電重挫180元收2,290元、跌幅7.29%，聯電、國巨、聯發科與南亞科、華邦電、力積電等記憶體股全面跌停，全市場約135檔亮燈跌停。導火線是美股晶片股連日重挫、海力士ADR崩跌13%，加上台積電法說會宣布在亞利桑那加碼投資1,000億美元，引發市場對短期毛利率被稀釋的疑慮。",
+        "tw_stock_impact": "指數一天跌掉季線並失守43,000點關卡，7/14以來「暴跌、暴漲、巨震、再崩盤」的走勢徹底摧毀短線多頭結構，融資斷頭與跌停鎖死的流動性風險成為下週開盤最大變數。",
+        "investment_insight": "史上最大跌點出現在基本面最強的財報週，說明這是估值與籌碼問題而非景氣問題；此時最忌槓桿凹單與盲目摸底，建議先確認跌停股打開、量能收斂止穩後，再分批布局現金流健康的權值股，並保留至少三成現金應對第二波下殺。",
+        "title_idea": "台股史上最大跌點2,953點全紀錄！最強財報週為何變成717慘案？",
+        "local_angle": "這是每個台灣股民都親身經歷的歷史時刻，「假日公園又客滿了」成為股民自嘲金句；從當沖族到存股族全部被捲入，盤點災情與歷年股災比較是全民關注的話題。"
+      },
+      {
+        "title": "記憶體神話一週崩壞！SK海力士暴跌15%史上最慘，費半正式陷入熊市",
+        "sources": [
+          {
+            "name": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/article/micron-samsung-sk-hynix-just-dragged-memory-stocks-into-a-bear-market-154549356.html"
+          },
+          {
+            "name": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/global-semiconductor-stocks-slide-record-104819847.html"
+          },
+          {
+            "name": "TheStreet",
+            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-17-2026"
+          }
+        ],
+        "summary": "SK海力士7/17在韓股暴跌逾15%，創公司史上最大單日跌幅，距離上週才風光完成的那斯達克掛牌僅一週；美光、三星、SK海力士與記憶體ETF全數從近期高點回落逾20%，正式進入熊市，費城半導體指數同步落入熊市區間。統計自6/25以來，半導體類股市值已蒸發約1.5兆美元，而三星財報其實繳出約590億美元營業利益的超強數字——「利多不漲反殺」讓賣壓更顯沉重。",
+        "tw_stock_impact": "台股記憶體族群7/17已直接反映——南亞科、華邦電、力積電集體跌停；記憶體是這波台股行情的主升攻擊手，全球同族群進入熊市意味台股反彈時這個族群的彈性與風險都會最大。",
+        "investment_insight": "「財報超強、股價腰斬式修正」是典型的擁擠交易平倉，不是產業反轉；記憶體供需緊俏到2027年的結構未變，但技術面熊市確立後，反彈通常分多波打底，建議把SK海力士與美光的止穩訊號當作台股記憶體股的進場前提，而非搶第一波反彈。",
+        "title_idea": "一週從天堂到地獄！SK海力士掛牌即巔峰暴跌15%，記憶體行情死了嗎？",
+        "local_angle": "南亞科、華邦電、力積電是台灣散戶今年參與度最高的族群之一，很多人在高檔重倉；用國際記憶體巨頭的走勢判斷台股族群何時止跌，是套牢者現在最需要的分析。"
+      },
+      {
+        "title": "Netflix獲利達標股價卻崩10%破52週新低！財測不如預期嚇跑投資人",
+        "sources": [
+          {
+            "name": "Fortune",
+            "url": "https://fortune.com/2026/07/17/netflix-stock-hit-52-week-low-after-earnings-analysts-say-investors-missing-big-picture-cfo/"
+          },
+          {
+            "name": "The Motley Fool",
+            "url": "https://www.fool.com/investing/2026/07/17/netflix-beat-estimates-but-the-stock-dropped/"
+          },
+          {
+            "name": "Invezz",
+            "url": "https://invezz.com/news/2026/07/17/netflix-stock-plunges-9-after-earnings-why-more-downside-may-be-ahead/"
+          }
+        ],
+        "summary": "Netflix公布第二季財報，EPS 0.80美元小幅優於預期，但營收125.6億美元略低於市場共識的126億美元，第三季營收與獲利指引雙雙不如預期，營收成長率將放緩至2023年底以來最弱，股價7/17早盤重挫逾10%、創52週新低。公司同時宣布觀看數據報告從2027年起改為一年只公布一次，被市場解讀為對用戶參與度心虛，加深「串流龍頭輸給YouTube與TikTok搶眼球大戰」的疑慮。",
+        "tw_stock_impact": "Netflix是美股財報季首批重量級科技股，「達標仍被殺」延續了本週台積電、三星「好財報壞反應」的模式，顯示美股高位階下市場只獎勵完美、懲罰一切瑕疵，台股電子股財報行情須以同樣嚴格的標準檢視。",
+        "investment_insight": "本季美股的交易主軸已從「財報好不好」變成「預期夠不夠滿」；持有美股科技股者應檢視手中持股的隱含預期，財報前用選擇權或減碼控制事件風險，而非賭財報開獎。",
+        "title_idea": "賺錢也要被殺！Netflix暴跌10%給全球投資人的一堂「預期管理課」",
+        "local_angle": "台灣投資人透過複委託與美股ETF大量持有科技巨頭，Netflix示範了在高估值市場「達標不等於過關」，這對正要迎接台股法說旺季的投資人是最即時的風險教育。"
+      },
+      {
+        "title": "中國月之暗面發布Kimi K3！號稱全球最大開源模型，嚇殺美股晶片股",
+        "sources": [
+          {
+            "name": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-july-17-dow-sp-500-nasdaq-092345307.html"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/07/16/stock-market-today-live-updates.html"
+          }
+        ],
+        "summary": "中國AI新創月之暗面（Moonshot AI）7/17發布開源模型Kimi K3，自稱是全球規模最大的開放模型、能力直逼美國頂尖前沿模型，市場擔憂重演年初DeepSeek式的「低成本追平」衝擊，美股晶片股早盤再遭猛烈賣壓，費半朝距高點20%的熊市門檻探底。當日美股三大指數全數收黑，道瓊跌406.55點收52,146.42點，標普500跌1.01%，那斯達克跌1.4%，週線標普跌約1.6%、那斯達克重挫2.9%。",
+        "tw_stock_impact": "「中國開源模型追上來了」的敘事直接打擊高階算力軍備競賽的必要性預期，而台股AI供應鏈的估值正建立在這場軍備競賽之上；Kimi K3是壓垮本已脆弱的台股AI信心的最後一根稻草之一。",
+        "investment_insight": "DeepSeek時刻的歷史經驗是：恐慌殺盤後市場會重新發現「模型變便宜反而推升推理算力總需求」；短線避開估值最貴的AI晶片股，但若因此出現恐慌性錯殺，反而是檢視算力受惠股長線部位的機會。",
+        "title_idea": "DeepSeek 2.0時刻來了？Kimi K3一夜嚇跌全球晶片股的真相",
+        "local_angle": "台積電、聯發科與AI伺服器鏈的長線邏輯全繫於美中AI競賽持續燒錢，中國開源模型每逼近一步，台股AI估值就要重新算一次，這是台灣投資人不能只看熱鬧的科技新聞。"
+      }
+    ],
+    "investment_opportunities": [
+      {
+        "title": "大空頭Burry罕見翻多喊買！「韓日晶片褪色時，香港便宜股正是時候」",
+        "sources": [
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-07-17/michael-burry-says-good-time-to-chase-hong-kong-stock-bargains"
+          },
+          {
+            "name": "Blockonomi",
+            "url": "https://blockonomi.com/michael-burry-targets-hong-kong-tech-giants-after-historic-market-divergence/"
+          }
+        ],
+        "summary": "以放空AI股聞名的《大賣空》主角Michael Burry於7/17（週五）在X發文表示，「現在是到香港找便宜股票的特別好時機——當韓國、日本與費半（Soxx）的光環褪去時，這些股票應該會有好表現」。他不只出一張嘴：旗下Scion資產管理本月已加碼中國電商京東（JD.com）持股，與其放空輝達、特斯拉、應材與SOXX ETF的部位形成完整的「空AI、多中港」對沖組合。",
+        "tw_stock_impact": "Burry的論述等於直接把台韓半導體放在「資金流出方」，若「棄AI晶片、買低估值中港股」成為機構共識，外資持股比重高的台股權值股將面臨資產再配置的抽資壓力。",
+        "investment_insight": "不必照抄Burry的單，但要理解他的框架：資金終會從極端擁擠的高估值流向被遺忘的低估值；台股投資人可藉港股通ETF或恒生科技ETF建立小部位對沖台股AI持倉，也可在台股內部尋找同樣邏輯的低基期價值股。",
+        "title_idea": "放空輝達的男人叫你買香港！Burry「空AI多中港」佈局全解析",
+        "local_angle": "台灣投資人重押台股AI與美股晶片，恰好站在Burry交易的對面；理解這位史上最著名空頭的完整佈局，是檢查自己持股風險最便宜的方式。"
+      },
+      {
+        "title": "科技股血流成河、能源股逆勢突圍！油價週漲13%站上81美元",
+        "sources": [
+          {
+            "name": "TheStreet",
+            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-17-2026"
+          },
+          {
+            "name": "ZeroHedge",
+            "url": "https://www.zerohedge.com/news/2026-07-17/war-and-rotation"
+          }
+        ],
+        "summary": "中東衝突持續升溫下，美國原油期貨7/17再漲2.77%收81.14美元，五個交易日累計大漲13.44%，能源股成為當日科技股殺盤中逆勢上漲的少數族群。ZeroHedge以「戰爭與輪動」形容當前行情：資金一邊逃離高估值AI科技股，一邊湧向能源等實體資產類股，防禦性輪動的輪廓越來越清晰。",
+        "tw_stock_impact": "資金輪動邏輯在台股同樣適用——電子股佔台股權重過高，塑化、油氣運輸與綠能等非電族群反而可能成為崩盤後資金的避風港；但油價上漲同時墊高台灣進口能源成本，對電價與中下游毛利是雙面刃。",
+        "investment_insight": "與其在AI股裡凹單等反彈，不如順著輪動調整組合：增持能源相關資產（美股能源ETF、台股油氣與重電族群）作為地緣風險的天然對沖；只要荷莫茲情勢未解，回檔的能源部位都有基本面撐腰。",
+        "title_idea": "聰明錢正在大搬家！科技股崩盤這一週，為什麼能源股偷偷創高？",
+        "local_angle": "台灣散戶組合幾乎清一色電子股，這波「戰爭與輪動」行情正好暴露單一產業重壓的脆弱性，用能源部位做組合保險是最容易上手的第一步。"
+      },
+      {
+        "title": "Meta洽談出租算力給Anthropic！百億美元大單證明AI算力仍供不應求",
+        "sources": [
+          {
+            "name": "ZeroHedge",
+            "url": "https://www.zerohedge.com/ai/meta-eyes-10-billion-deal-lease-ai-computing-power-anthropic"
+          },
+          {
+            "name": "Quartz",
+            "url": "https://qz.com/anthropic-meta-computing-power-lease-deal-071726"
+          },
+          {
+            "name": "TNW",
+            "url": "https://thenextweb.com/news/anthropic-meta-10-billion-compute-deal-talks"
+          }
+        ],
+        "summary": "外媒7/17報導，Anthropic正與Meta洽談租用其算力，合約規模兩年最高可達100億美元、按月付款；交易由Anthropic在6月主動提案，Meta正在評估。Meta今年資本支出上看1,450億美元，出租算力可直接回應投資人對AI燒錢的質疑；此前Anthropic已在5月與SpaceX簽下三年450億美元的算力合約，顯示頂級AI實驗室的算力需求依然遠大於自建供給。",
+        "tw_stock_impact": "在晶片股崩盤的一週，這是「算力需求依然真實」的最有力反證——Meta的GPU集群與資料中心全部來自台系供應鏈，算力出租生意若成形，等於巨頭資本支出多了一個變現出口，燒錢可持續性提高。",
+        "investment_insight": "市場正在殺「AI變現不了」的估值，但算力租賃市場的成形正是變現模式的答案；恐慌盤中可留意AI伺服器代工與散熱、電源等實質出貨股，用「巨頭算力合約」而非股價動能作為加減碼依據。",
+        "title_idea": "崩盤中藏著百億美元大單！Meta出租算力給Anthropic，打臉AI泡沫論？",
+        "local_angle": "廣達、鴻海、緯穎的訂單本質上就是Meta們的資本支出，台灣投資人與其猜行情，不如盯緊這類算力合約——它們才是台股AI供應鏈明年營收的先行指標。"
+      },
+      {
+        "title": "崩盤日散戶不逃反買！台積電零股爆量搶進，專家卻警告「別急著摸底」",
+        "sources": [
+          {
+            "name": "壹蘋新聞網",
+            "url": "https://news.nextapple.com/finance/20260717/8E6F615D0AF687B6F3C44404B784CFE4"
+          },
+          {
+            "name": "今周刊",
+            "url": "https://www.businesstoday.com.tw/article/category/183008/post/202607170020/"
+          }
+        ],
+        "summary": "台股7/17崩跌2,953點的歷史性殺盤中，台積電零股交易反而爆出大量，散戶趁股價殺到2,290元進場撿便宜的力道明顯。台積電前一日才公布單季EPS 27.25元、毛利率67.7%雙創新高的財報，「基本面最強、股價跳樓大拍賣」的矛盾組合吸引存股族進場；但今周刊引述專家警告，指數單日跌破季線、國際情勢未明，此時不宜急著摸底。",
+        "tw_stock_impact": "零股爆量顯示台灣散戶對台積電的信仰仍在，這股買盤是崩盤中最重要的穩定力量；但若後續仍有系統性賣壓，零股買盤的承接力道有限，需觀察外資動向是否翻多。",
+        "investment_insight": "用「分批、零股、不加槓桿」的方式在恐慌中累積龍頭股，是散戶少數能執行的正期望值策略；關鍵是紀律——預先設定加碼價位表（例如每跌5%買一份），而不是憑感覺一次全押，並接受買了之後可能繼續跌的心理準備。",
+        "title_idea": "股災中的信仰充值！台積電2,290元之亂：零股搶進的人是勇者還是韭菜？",
+        "local_angle": "「台積電跌到多少你敢買？」是7/17全台股民的靈魂拷問；零股功能讓小資族也能參與這場歷史性的接刀行動，正反雙方的論戰本身就是最有共鳴的題材。"
+      }
+    ],
+    "macro_observations": [
+      {
+        "title": "史上最大跌點金管會僅回應「反映國際情勢」，國安基金5月才出清該再進場？",
+        "sources": [
+          {
+            "name": "自由財經",
+            "url": "https://ec.ltn.com.tw/article/breakingnews/5509125"
+          },
+          {
+            "name": "聯合新聞網",
+            "url": "https://udn.com/news/story/7251/9634865"
+          },
+          {
+            "name": "TVBS新聞網",
+            "url": "https://news.tvbs.com.tw/money/3260284"
+          }
+        ],
+        "summary": "面對台股史上最大單日跌點，金管會7/17表示台股主要反映國際情勢，將密切注意市場變化，並請證交所與櫃買中心掌握國際金融市場動態，但未立即宣布穩定措施或啟動國安基金。值得注意的是，國安基金第9次護盤才在5/6全數出清，投入122.5億元、淨賺99.32億元、報酬率81.08%創歷史最佳，如今出場僅兩個多月就再遇股災，是否二度進場成為市場焦點。",
+        "tw_stock_impact": "官方「先觀察、不進場」的表態意味短線護盤買力不能指望政策，市場須自行尋底；但國安基金空手且銀彈充足，反而是後市的潛在底牌，一旦宣布進場歷來都是波段底部訊號。",
+        "investment_insight": "國安基金歷次進場都出現在恐慌極點且事後證明有效，投資人可把「政策訊號」納入抄底檢查清單：金管會升級措施（限空令）、國安基金召開臨時會議等訊號出現前，用小部位試單即可，訊號出現後再放大部位。",
+        "title_idea": "國安基金剛賺99億出場就遇史上最大崩盤！政府這次會不會再出手？",
+        "local_angle": "國安基金是台股獨有的政策底機制，歷次進出場時點與績效是台灣投資人判斷「政府認證的底部」最實用的在地指標，此刻全民都在等這一手。"
+      },
+      {
+        "title": "SpaceX跌破發行價9%、市值蒸發44%！2兆美元IPO抽血效應成美股照妖鏡",
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/07/17/retail-and-wall-street-are-underwater-on-spacex-but-not-going-down-without-a-fight.html"
+          }
+        ],
+        "summary": "SpaceX股價7/17再跌5.5%、盤中低點122.12美元，較135美元的發行價低約9%，距離掛牌後225.64美元的盤中高點已重挫44%，並創連續十日下跌。CNBC指出，從散戶到華爾街全數套牢，但多頭並未棄守——選擇權市場逾半的put權利金為賣出部位，成交量前十大交易有九筆偏多。空頭則主張，這場注入市場的2兆美元級市值IPO，本身就是美股流動性無法消化的抽血源頭。",
+        "tw_stock_impact": "SpaceX的估值崩塌壓制台系低軌衛星供應鏈的評價修復，而「巨型IPO抽乾市場資金」的論述若成立，對已在高檔的全球股市是持續性的流動性利空，台股也難以置身事外。",
+        "investment_insight": "SpaceX是觀察本輪「明星資產去泡沫」的最佳樣本：破發+連跌+選擇權多空對決，代表籌碼仍在激烈換手、底部未成形；在其止穩前，對高估值題材股（太空、AI、IPO新股）都應維持保守，把「SpaceX止跌」當作風險偏好回暖的領先指標。",
+        "title_idea": "全世界都套在馬斯克手上！SpaceX破發44%背後，美股的錢被抽乾了？",
+        "local_angle": "6月才靠複委託搶進SpaceX的台灣投資人如今全數套牢，這檔全民瘋搶的明星IPO成為檢討「蜜月行情信仰」與市場流動性的最佳在地教材。"
+      }
+    ]
+  },
+  {
     "date": "2026-07-16",
     "market_shocks": [
       {
@@ -974,125 +1179,6 @@
         "investment_insight": "建議投資人在7/14-15華許作證前後留意波動加大，可透過縮小持股部位或增加現金部位因應短線不確定性，並關注會後市場對降息機率的重新定價。",
         "title_idea": "新科Fed主席首秀就被CPI架著打！殖利率破5%在即",
         "local_angle": "台幣匯率與台股外資動向高度連動美債殖利率，華許這場作證恐怕比想像中更牽動台灣投資人的荷包。"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-10",
-    "market_shocks": [
-      {
-        "title": "美股「只剩 AI 在漲」：S&P 500 收 7543 創高，但 11 大類股竟有 9 類下跌",
-        "sources": [
-          {
-            "name": "Yahoo Finance",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-july-10-075400187.html"
-          },
-          {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/07/09/stock-market-today-live-updates.html"
-          }
-        ],
-        "summary": "S&P 500 漲 0.8%、那斯達克靠 AI 巨頭漲 1.3%，但原物料、金融、非必需消費類股分別重挫 2.6%、1.9%、1.8%，漲勢極度集中。",
-        "tw_stock_impact": "AI 領漲對台積電、AI 供應鏈 ADR 連動有利，但美股廣度惡化是回檔前兆訊號，電子以外類股承壓",
-        "investment_insight": "指數創高≠雨露均霑，用等權重指數（RSP）對照市值加權可檢視漲勢健康度；集中度過高時分批減碼追高部位",
-        "title_idea": "美股創新高卻有 9 成類股在跌？「AI 獨撐」行情的危險訊號",
-        "local_angle": "台股同樣「電子一枝獨秀」，可對照台灣 50 與櫃買指數的背離，講給存股族聽"
-      },
-      {
-        "title": "荷莫茲海峽戰火重燃：布蘭特原油站上 76 美元、單週漲近 6%",
-        "sources": [
-          {
-            "name": "Bloomberg",
-            "url": "https://www.bloomberg.com/news/articles/2026-07-09/latest-oil-market-news-and-analysis-for-july-10"
-          },
-          {
-            "name": "NBC News",
-            "url": "https://www.nbcnews.com/business/markets/oil-prices-strait-hormuz-chip-stocks-rcna353328"
-          }
-        ],
-        "summary": "美伊互襲延宕油輪復航，全球五分之一原油運量卡在荷莫茲海峽，油價風險溢價再起。",
-        "tw_stock_impact": "塑化、航運（油輪運價）短線受惠；航空、用電大戶成本承壓，台幣輸入性通膨壓力升溫",
-        "investment_insight": "地緣油價行情來得快去得也快，賺價差用 ETF 或期貨紀律停利，別追高持有現貨型能源股當長線",
-        "title_idea": "油價又要噴了？荷莫茲海峽危機 2.0，台灣人加油和投資都該知道的事",
-        "local_angle": "從中油浮動油價公式切入，算給觀眾看「布蘭特漲 6%，下週加油多花多少」"
-      },
-      {
-        "title": "Q2 財報季開局不穩：PepsiCo 打頭陣令市場失望，Delta 同日登場",
-        "sources": [
-          {
-            "name": "Charles Schwab",
-            "url": "https://www.schwab.com/learn/story/stock-market-update-open"
-          }
-        ],
-        "summary": "百事財報未達預期揭開財報季序幕，市場緊盯消費與航空業指引驗證經濟降溫程度。",
-        "tw_stock_impact": "美國消費動能若轉弱，台灣出口電子消費性產品（PC、手機鏈）下半年旺季預期恐下修",
-        "investment_insight": "財報季首週看「指引」比看 EPS 重要，消費龍頭下修指引往往是景氣循環股的領先賣出訊號",
-        "title_idea": "財報季第一槍就啞火！百事失望開局，暗示美國消費者開始縮手？",
-        "local_angle": "連結台灣「毛三到四」代工廠的旺季效應，讓電子股股東知道美國消費數據為何重要"
-      }
-    ],
-    "investment_opportunities": [
-      {
-        "title": "SK Hynix 美股 IPO 募 265 億美元創紀錄，AI 記憶體軍備賽資本戰開打",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/"
-          }
-        ],
-        "summary": "史上最大外國企業赴美 IPO，資金將投入 HBM 擴產，並被要求在美建新廠。",
-        "tw_stock_impact": "HBM 擴產利多台積電 CoWoS 先進封裝鏈、測試介面廠；但記憶體供給增加對台系模組廠報價是雙面刃",
-        "investment_insight": "記憶體是強週期產業，IPO 熱潮常出現在景氣高點附近；參與台鏈受惠股優於直接追高掛牌蜜月行情",
-        "title_idea": "募 265 億美元！SK Hynix 世紀 IPO，台股這幾檔跟著吃紅利",
-        "local_angle": "把「HBM 是什麼、台廠賺哪段」用一張供應鏈圖講清楚，散戶最缺這種地圖"
-      },
-      {
-        "title": "地緣風險溢價行情：能源股與油輪航運股成短線資金避風港",
-        "sources": [
-          {
-            "name": "Intellectia",
-            "url": "https://intellectia.ai/blog/brent-crude-oil-price-surge-july-2026"
-          }
-        ],
-        "summary": "油價週漲近 6% 帶動能源類股與油輪運價指數走強，資金從估值偏高的科技股外溢。",
-        "tw_stock_impact": "台股對應標的：塑化雙雄、裕民、新興等散裝油輪航運，短線動能題材",
-        "investment_insight": "風險溢價行情屬事件驅動，設定「事件降溫即出場」紀律；用石油 ETF 參與比選個股單純",
-        "title_idea": "科技股太貴怎麼辦？油價危機下的「舊經濟」避險名單",
-        "local_angle": "回顧 2022 年航運行情的教訓：事件行情的進出場紀律，台灣散戶最痛的一課"
-      }
-    ],
-    "macro_observations": [
-      {
-        "title": "通膨預期衝上近三年高點，Fed 主席 Warsh 國會證詞成下週最大變數",
-        "sources": [
-          {
-            "name": "Charles Schwab",
-            "url": "https://www.schwab.com/learn/story/stock-market-update-open"
-          },
-          {
-            "name": "U.S. Bank",
-            "url": "https://www.usbank.com/investing/financial-perspectives/market-news/stock-market-under-trump.html"
-          }
-        ],
-        "summary": "油價衝擊疊加通膨預期升溫，市場原本押注下半年多次降息的劇本開始動搖。",
-        "tw_stock_impact": "降息預期收斂＝美元轉強、外資匯出壓力，台股高估值電子股評價面首當其衝",
-        "investment_insight": "把「降息次數」當成儀表板：利率期貨定價每少一碼，高本益比成長股就該多一分謹慎",
-        "title_idea": "說好的降息呢？油價一把火燒掉 Fed 劇本，下半年行情重新定價",
-        "local_angle": "解釋美債殖利率→美元→外資動向→台股的傳導鏈，用一條線講懂總經"
-      },
-      {
-        "title": "Schwab 點名四大不確定性：Fed 政策、AI 資本支出、融資餘額高檔、日圓疲弱",
-        "sources": [
-          {
-            "name": "Charles Schwab",
-            "url": "https://www.schwab.com/learn/story/stock-market-update-open"
-          }
-        ],
-        "summary": "券商提醒美股多頭背後的四個結構性風險，其中融資餘額（margin debt）處於歷史高位最受關注。",
-        "tw_stock_impact": "日圓疲弱牽動日股與台股的外資配置消長；融資餘額高檔意味回檔時賣壓會被槓桿放大",
-        "investment_insight": "多頭末段的特徵是「利多鈍化、槓桿升高」，檢查自己的持股是否經得起 10% 快速回檔",
-        "title_idea": "美股的四顆未爆彈：現在該貪婪還是恐懼？看這 4 個指標就知道",
-        "local_angle": "台股融資餘額同步在高檔，用兩地數據對照講「槓桿風險」，比純喊多空有料"
       }
     ]
   }
