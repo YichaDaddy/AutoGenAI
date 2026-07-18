@@ -1,124 +1,104 @@
 {
-  "date": "2026-07-17",
+  "date": "2026-07-18",
   "big_events": [
     {
-      "title": "Moonshot發布Kimi K3:2.8兆參數史上最大開源模型,市場重演DeepSeek震撼",
+      "title": "Claude Fable 5訂閱大限拍板:7/20起常駐Max與Team Premium,Pro改點數計費",
       "sources": [
-        {"name": "Axios", "url": "https://www.axios.com/2026/07/17/china-ai-kimi-k3-open-source-anthropic-opus"},
-        {"name": "Fortune", "url": "https://fortune.com/2026/07/17/china-moonshot-kimi-k3-markets-china-ai/"},
-        {"name": "Tom's Hardware", "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-releases-2-8-trillion-parameter-kimi-k3"}
+        {"name": "Tech Times", "url": "https://www.techtimes.com/articles/320905/20260718/claude-fable-5-ends-subscription-limbo-permanent-max-credits-only-pro.htm"},
+        {"name": "Simon Willison", "url": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/"},
+        {"name": "The Decoder", "url": "https://the-decoder.com/anthropic-slashes-claude-fable-5-limits-in-max-and-team-premium-and-pushes-pro-users-toward-api-pricing/"}
       ],
-      "summary": "Kimi K3登場:2.8兆參數、百萬token,API已上線,權重7/27釋出",
-      "audience": "想找免費或低成本ChatGPT替代方案的職場AI使用者",
-      "pain_point": "訂閱制AI工具月費越疊越貴,想省錢又怕開源模型不夠力",
-      "title_idea": "中國最強開源模型Kimi K3來了!它能取代你的ChatGPT訂閱嗎?",
-      "local_angle": "繁中圈對Kimi認知度仍低,可搶先實測中文辦公任務表現,同時整理資安疑慮與適用場景給台灣上班族"
+      "summary": "Fable 5結束限時開放:入Max/Team Premium佔50%限額,Pro僅獲百元美金點數",
+      "audience": "依賴Claude工作、正猶豫要不要升級Max的職場AI重度使用者",
+      "pain_point": "頂級模型一下免費一下收費,不知道該升級、續訂還是換工具",
+      "title_idea": "Fable 5塵埃落定!7/20起Claude方案怎麼選?Max、Pro差異一次算清",
+      "local_angle": "繁中圈教學多停在限時開放階段,可搶先做「新制費用試算+方案決策指南」,幫上班族算出最省的選擇"
     },
     {
-      "title": "Patreon不再好言相勸,聯手Cloudflare直接封鎖AI訓練爬蟲",
+      "title": "AGIBOT在WAIC一口氣發表四款機器人,A3 Ultra獲鎮展之寶並喊出全球出口",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/"}
+        {"name": "Tech Times", "url": "https://www.techtimes.com/articles/320899/20260718/agibot-debuts-four-robots-waic-2026-global-export-push-meets-chinas-spy-law-obligation.htm"},
+        {"name": "AGIBOT官方", "url": "https://www.agibot.com/article/231/detail/85.html"}
       ],
-      "summary": "Patreon改用Cloudflare直接擋AI爬蟲,保護創作者內容",
-      "audience": "經營副業內容、擔心作品被AI白嫖的斜槓上班族與創作者",
-      "pain_point": "辛苦產出的內容被AI公司免費抓去訓練,連說不的權利都沒有",
-      "title_idea": "你的內容正在被AI白吃白喝?Patreon開第一槍,創作者自保三招",
-      "local_angle": "台灣創作者多用方格子、Portaly等平台,可盤點各平台反爬蟲政策差異,做一份創作者自保指南"
+      "summary": "週六WAIC上AGIBOT齊發A3 Ultra等四款機器人,逾30台現場運行",
+      "audience": "關注自動化取代議題的製造、物流與服務業上班族",
+      "pain_point": "人形機器人量產出海加速,不確定自己的工作何時受衝擊",
+      "title_idea": "中國機器人軍團殺向全球!WAIC四款新機齊發,哪些工作先被盯上?",
+      "local_angle": "可同時經營台灣供應鏈受惠(減速機、感測器)與中國間諜法資安疑慮兩種視角,在地關注度高"
     },
     {
-      "title": "AI資金風向轉了:GPU金主改押推理晶片,General Compute獲4億美元貸款",
+      "title": "Andrew Ng站台!Sabre聯手Vocal Bridge辦400人語音AI旅遊黑客松",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal/"}
+        {"name": "Sabre Newsroom", "url": "https://www.sabre.com/resources/newsroom/sabre-opens-travel-infrastructure-to-silicon-valley-developers-building-the-next-ai-agents-at-bay-area-hackathon/"},
+        {"name": "Stock Titan", "url": "https://www.stocktitan.net/news/SABR/sabre-opens-travel-infrastructure-to-silicon-valley-developers-zuql7atjrtui.html"}
       ],
-      "summary": "Upper90借出4億美元,首例以推理專用晶片作為抵押品",
-      "audience": "關注AI產業走向、想判斷工具價格趨勢的職場決策者",
-      "pain_point": "AI工具訂閱費居高不下,看不懂成本結構何時才會鬆動",
-      "title_idea": "AI熱錢轉向「推理」!這筆4億美元交易,預告你的AI帳單要變便宜?",
-      "local_angle": "推理晶片供應鏈與台灣半導體高度相關,可用上班族聽得懂的語言解釋訓練vs推理,順帶點出台廠機會"
-    },
-    {
-      "title": "Agility Robotics進駐特斯拉後院,6萬平方呎人形機器人訓練基地開張",
-      "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/"}
-      ],
-      "summary": "Agility在Fremont設訓練場,與Tesla Optimus正面對決",
-      "audience": "關注自動化取代議題的製造、物流與營運端上班族",
-      "pain_point": "人形機器人進工廠的時程真假難辨,不知道自己的工作何時受影響",
-      "title_idea": "把訓練場開到特斯拉隔壁!人形機器人大戰2026下半場三大看點",
-      "local_angle": "台灣供應鏈(減速機、感測器、代工)吃到人形機器人紅利,可同時經營概念股與職涯影響兩種視角"
+      "summary": "7/18於電腦歷史博物館登場,用Sabre Agentic API與MCP打造語音訂票代理",
+      "audience": "常出差訂票、好奇AI代理能否代勞的商務上班族",
+      "pain_point": "訂機票、旅館、行程要開一堆App,比價填資料耗掉大半天",
+      "title_idea": "一句話訂完整趟出差?美國航空、PayPal都下場的語音AI實驗",
+      "local_angle": "語音AI代理+MCP訂票在繁中圈幾乎沒有內容,可拆解「AI自動訂票」離台灣用戶還有多遠"
     }
   ],
   "tool_updates": [
     {
-      "title": "Claude Cowork全面上雲:網頁、手機都能用,官方數據曝9成用途不是寫程式",
+      "title": "ChatGPT桌面版救火更新:Chat與Work合併Recents,Work對話跨裝置同步",
       "sources": [
-        {"name": "VentureBeat", "url": "https://venturebeat.com/technology/anthropic-brings-claude-cowork-to-mobile-and-web-as-usage-data-shows-most-users-arent-coding"},
-        {"name": "Yahoo Tech", "url": "https://tech.yahoo.com/ai/claude/articles/anthropics-claude-cowork-heads-cloud-160003851.html"}
+        {"name": "Releasebot", "url": "https://releasebot.io/updates/openai/chatgpt"},
+        {"name": "OpenAI Release Notes", "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"},
+        {"name": "Windows News", "url": "https://windowsnews.ai/article/openai-pushes-critical-fix-to-chatgpt-windows-app-work-chats-now-sync-across-devices.439203"}
       ],
-      "summary": "Cowork擴至網頁與行動版,90%使用場景為非開發辦公任務",
-      "audience": "想讓AI代理幫忙跑雜事、不會寫程式的一般上班族",
-      "pain_point": "聽說AI代理很強,但以為只有工程師用得起來,不知從何入門",
-      "title_idea": "9成的人用Claude Cowork不是在寫程式!上班族最該學的5種用法",
-      "local_angle": "Cowork繁中教學稀缺,可實測行政雜務自動化情境:報帳、會議紀錄、週報,搶第一波教學紅利"
+      "summary": "改版挨轟後修正:對話與Projects回歸側欄,Work紀錄雲端同步全面開放",
+      "audience": "每天用ChatGPT桌面版辦公、被新介面搞到找不到對話的上班族",
+      "pain_point": "改版後歷史對話與專案散落各處,電腦和手機進度接不起來",
+      "title_idea": "ChatGPT桌面版終於改回來了!5個新設定讓工作對話不再失蹤",
+      "local_angle": "繁中教學多停留在舊介面,可搶先出「Chat/Work分流+跨裝置同步」設定教學補資訊差"
     },
     {
-      "title": "Brex開源CrabTrap:讓LLM當裁判,即時放行或攔截AI代理的每個動作",
+      "title": "Google搜尋AI Mode接上Canva、YouTube Music、Instacart,開口就能派工",
       "sources": [
-        {"name": "VentureBeat", "url": "https://venturebeat.com/orchestration/brex-built-its-ai-agent-policy-by-watching-what-agents-actually-do-not-by-writing-rules-first"}
+        {"name": "WinBuzzer", "url": "https://winbuzzer.com/2026/07/18/google-search-ai-mode-adds-tasks-through-three-connected-app-xcxwbn/"},
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/"}
       ],
-      "summary": "CrabTrap攔截代理網路行為,由LLM判官依政策決定放行",
-      "audience": "公司開始導入AI代理、擔心失控風險的IT與管理職上班族",
-      "pain_point": "老闆要導入AI代理,卻沒人說得清楚要怎麼管才不會出事",
-      "title_idea": "AI代理在公司亂跑怎麼辦?Brex的做法:先看它做什麼,再立規矩",
-      "local_angle": "台灣企業AI治理討論多停在「禁不禁用」,可引介「先觀察再立規」的實務框架做出內容差異化"
+      "summary": "AI Mode可連結指定App代辦任務,結帳仍由用戶把關,美國陸續開放",
+      "audience": "習慣用Google搜尋、想少開幾個App完成雜事的一般上班族",
+      "pain_point": "AI聊天歸聊天,實際做事還是得自己切換App動手",
+      "title_idea": "Google搜尋直接幫你做圖、排歌單、買菜?AI Mode代辦功能解析",
+      "local_angle": "功能目前限美國,可先做「AI Mode能代辦什麼+台灣何時輪到」前瞻文,卡位教學紅利"
     },
     {
-      "title": "Capital One開源VulnHunter:用攻擊者視角找漏洞的AI資安代理",
+      "title": "Kimi K3上線即衝一波:Zyloo於7/18限時7小時免費開放",
       "sources": [
-        {"name": "VentureBeat", "url": "https://venturebeat.com/technology/capital-one-releases-vulnhunter-an-open-source-ai-tool-that-finds-software-flaws-before-hackers-do"},
-        {"name": "Capital One Tech", "url": "https://www.capitalone.com/tech/open-source/announcing-vulnhunter/"}
+        {"name": "Tony Reviews Things", "url": "https://www.tonyreviewsthings.com/kimi-k3-free-zyloo-july-18-2026/"}
       ],
-      "summary": "VulnHunter模擬駭客路徑掃描原始碼,找漏洞並提修補建議",
-      "audience": "兼管資安、開始用AI寫程式的IT部門上班族與開發者",
-      "pain_point": "AI幫忙寫的程式越來越多,漏洞檢查卻還靠人工,心裡毛毛的",
-      "title_idea": "銀行等級的免費資安AI!VulnHunter幫你在駭客之前找到漏洞",
-      "local_angle": "工具在Claude Code環境運行,可針對台灣中小企業常見技術棧做繁中安裝與實測教學"
+      "summary": "推理平台Zyloo開放K3限免7小時,各時區起跑時間不同",
+      "audience": "想零成本試玩最強開源模型的嘗鮮型職場AI使用者",
+      "pain_point": "K3討論度爆棚但推理費用不便宜,想試又怕花冤枉錢",
+      "title_idea": "最強開源模型Kimi K3免費試用攻略:辦公任務實測值不值得?",
+      "local_angle": "限免活動繁中圈幾乎無人報導,可做「怎麼用+中文辦公實測」快訊,搶時效與教學雙重紅利"
     }
   ],
   "trends": [
     {
-      "title": "Gemini 3.5 Pro發布日到期卻沒現身,Google傳改推3.6 Flash補位",
+      "title": "威斯康辛郡府盤點發現:全郡真正需要AI的只有20人,授權費現省62%",
       "sources": [
-        {"name": "BuildFastWithAI", "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-17-2026"},
-        {"name": "Tech Times", "url": "https://www.techtimes.com/articles/320736/20260716/rebuilt-gemini-35-pro-misses-third-deadline-google-eyes-stopgap-release.htm"}
+        {"name": "Windows News", "url": "https://windowsnews.ai/article/how-a-wisconsin-county-saved-thousands-by-realizing-only-20-employees-actually-need-ai.439213"}
       ],
-      "summary": "傳言的7/17發布未發生,已三度跳票,傳先推Flash過渡版",
-      "audience": "等Gemini 3.5 Pro再決定要不要換工具的職場AI使用者",
-      "pain_point": "等新模型等到工作流卡住,不知該現在換方案還是再等等",
-      "title_idea": "說好的Gemini 3.5 Pro呢?Google三連跳票,上班族現在該怎麼選",
-      "local_angle": "可做「不等Gemini的替代方案」實用文,對比GPT-5.6與Claude在繁中辦公情境的表現"
+      "summary": "Shawano郡棄全員授權改按實際使用者計費,AI訂閱費砍逾六成",
+      "audience": "負責採購AI工具、被要求證明ROI的IT與行政管理職上班族",
+      "pain_point": "公司全員導入AI卻沒幾個人用,預算被質疑時拿不出數據",
+      "title_idea": "全公司買AI,結果只有20人在用?導入前先做這件事省下六成錢",
+      "local_angle": "台灣中小企業正跟風採購AI授權,可製作「AI授權盤點SOP」實用範本,切中老闆的預算焦慮"
     },
     {
-      "title": "AI搶走記憶體產能,印度手機市場率先漲價,3C漲價潮恐全球連鎖",
+      "title": "Sakana AI量化「生物稅」:類腦學習首次攻克卷積網路,免反向傳播再進一步",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/17/ai-driven-memory-crunch-jolts-indias-smartphone-market/"}
+        {"name": "Tech Times", "url": "https://www.techtimes.com/articles/320902/20260718/brain-like-learning-rule-cracks-convolutional-networks-sakana-ai-measures-biology-tax.htm"}
       ],
-      "summary": "記憶體轉產HBM供AI,手機成本上升,印度市場已現漲價",
-      "audience": "近期打算換手機、筆電的精打細算上班族",
-      "pain_point": "3C越來越貴,不知道該趁現在買還是再觀望",
-      "title_idea": "AI害你手機變貴?記憶體大缺貨,2026下半年3C購買攻略",
-      "local_angle": "台灣是記憶體與代工重鎮,可同時談消費者採買時機與台廠受惠兩個面向,貼近在地讀者"
-    },
-    {
-      "title": "LinkedIn、Walmart齊聲:拖慢AI代理的不是模型,是老舊企業系統",
-      "sources": [
-        {"name": "VentureBeat", "url": "https://venturebeat.com/data/agents-think-in-milliseconds-legacy-infrastructure-doesnt-linkedin-walmart-and-zendesk-shared-how-they-closed-the-gap-at-vb-transform-2026"}
-      ],
-      "summary": "VB Transform共識:代理毫秒思考,企業老系統才是瓶頸",
-      "audience": "在公司推AI專案卻頻頻卡關的中階主管與轉型負責人",
-      "pain_point": "買了最強模型,流程還是慢,找不到問題到底出在哪",
-      "title_idea": "AI導入卡關別怪模型!LinkedIn、Walmart揭真正兇手:老系統",
-      "local_angle": "台灣中小企業系統老舊問題更普遍,可整理「導入AI代理前的基礎盤點清單」做成實用內容"
+      "summary": "生物可行學習規則在CNN達96.7%正確率,量化與反向傳播的差距",
+      "audience": "想判斷AI成本走向的科技關注型上班族與內容創作者",
+      "pain_point": "AI訓練成本高漲推升訂閱價,看不懂哪些技術可能翻轉局面",
+      "title_idea": "AI學習方式要變天?Sakana用「類腦訓練」挑戰30年老規則",
+      "local_angle": "硬核研究少有繁中白話版,可用上班族語言拆解「訓練變便宜=工具變便宜」的因果鏈做出差異化"
     }
   ]
 }
