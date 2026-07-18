@@ -1,117 +1,117 @@
 {
-  "date": "2026-07-18",
+  "date": "2026-07-19",
   "p5": [
     {
-      "id": "2026-07-18-p5-0",
-      "tag": "假設語氣倒裝（Were... to）",
+      "id": "2026-07-19-p5-0",
+      "tag": "混合假設語氣（過去假設＋現在結果）",
       "pre": "",
-      "post": " the central bank to raise its benchmark rate by more than fifty basis points, highly leveraged property developers would face an immediate refinancing crisis.",
-      "opts": ["Were", "Should", "Had", "Would"],
+      "post": " the conglomerate diversified its supplier base a decade ago, it would not now be so vulnerable to disruptions in a single overseas market.",
+      "opts": ["Had", "Should", "Were", "If only"],
       "ans": 0,
-      "zh": "倘若央行將基準利率調升超過五十個基點，高度槓桿的房地產開發商將立即面臨再融資危機。",
-      "why": "此為與現在／未來事實相反程度較高的假設倒裝：If the central bank were to raise... → <b>Were</b> the central bank to raise...，「Were + 主詞 + to + 原形動詞」為固定結構。Should 倒裝後直接接原形動詞（Should the bank raise），不與 to 連用；Had 倒裝須接過去分詞表過去假設；Would 無倒裝條件句用法。"
+      "zh": "倘若這家集團十年前便分散其供應商來源，如今就不至於如此容易受到單一海外市場動盪的衝擊。",
+      "why": "此為混合假設語氣：條件句與過去事實相反（十年前未分散），主句描述現在的結果（would not now be），條件句省略 if 後倒裝，<b>Had</b> 提前＋過去分詞 diversified。Should 倒裝表未來「萬一」；Were 倒裝用於 be 動詞或 were to 結構；If only（要是…就好了）為感嘆用法，其後不能構成此完整主從句結構。"
     },
     {
-      "id": "2026-07-18-p5-1",
-      "tag": "讓步連接詞（Much as）",
+      "id": "2026-07-19-p5-1",
+      "tag": "讓步倒裝（形容詞置首 + as）",
       "pre": "",
-      "post": " the committee admired the consultant's ambitious restructuring blueprint, it ultimately concluded that the projected savings rested on assumptions too optimistic to defend before the board.",
-      "opts": ["Much as", "So that", "Now that", "In case"],
+      "post": " the proposed timeline may appear, the engineering team maintains that phased delivery will keep every milestone within reach.",
+      "opts": ["Ambitious as", "As ambitious", "However ambitious that", "So ambitious"],
       "ans": 0,
-      "zh": "儘管委員會相當欣賞顧問那份雄心勃勃的重整藍圖，最終仍認定其預估的成本節省，是建立在過於樂觀、難以在董事會前站得住腳的假設之上。",
-      "why": "<b>Much as</b>（儘管、雖然…但）為正式書面的讓步連接詞，引導「雖然欣賞、但仍否決」的轉折語意。So that（以便）表目的；Now that（既然）表原因；In case（以防）表預防，皆與前後句的讓步對比邏輯不符。"
+      "zh": "儘管所提出的時程表看似野心勃勃，工程團隊仍堅稱分階段交付能確保每個里程碑如期達成。",
+      "why": "「<b>形容詞 + as</b> + 主詞 + 動詞」為正式讓步倒裝結構（= Though the timeline may appear ambitious）。As ambitious 開頭須構成 As ambitious as 的比較結構；However ambitious that 中的 that 多餘（正確為 However ambitious the timeline may appear）；So ambitious 開頭須搭配 that 子句表結果，與讓步語意不符。"
     },
     {
-      "id": "2026-07-18-p5-2",
-      "tag": "介系詞＋關係代名詞（whereby）",
-      "pre": "The two firms signed a cross-licensing arrangement ",
-      "post": " each party may incorporate the other's patented battery technology into its own product lines without incurring royalty obligations.",
-      "opts": ["whereby", "wherein it", "which", "whose"],
+      "id": "2026-07-19-p5-2",
+      "tag": "數量詞＋of whom（非限定關係子句）",
+      "pre": "The layoff plan affects roughly three hundred employees, ",
+      "post": " have been with the company for more than fifteen years and are entitled to enhanced severance packages.",
+      "opts": ["many of whom", "many of them", "whom many", "many of which"],
       "ans": 0,
-      "zh": "兩家公司簽署了一項交叉授權協議，據此，任一方均可將對方的專利電池技術納入自家產品線，而無須負擔權利金義務。",
-      "why": "<b>whereby</b>（= by which，據此、藉此機制）用於描述協議、制度運作方式，後接完整子句，最符合「協議規定雙方如何運作」的語境。wherein it 多餘且指涉混亂；which 作主詞或受詞時子句結構不合（後方子句已有完整主詞 each party）；whose 為所有格，須直接接名詞。"
+      "zh": "這項裁員計畫影響約三百名員工，其中許多人已在公司服務超過十五年，依規定可領取優惠資遣方案。",
+      "why": "兩個子句之間僅有逗號、無對等連接詞，須用關係代名詞連接：先行詞為人（employees），故用「數量詞 + of + <b>whom</b>」。many of them 為代名詞，需要 and 連接才成立；whom many 語序錯誤；many of which 的 which 用於事物，先行詞是人時不可用。"
     },
     {
-      "id": "2026-07-18-p5-3",
+      "id": "2026-07-19-p5-3",
       "tag": "進階動詞語意辨別",
-      "pre": "The confidentiality clause expressly ",
-      "post": " former executives from disclosing pricing strategies to competitors for a period of five years following their departure.",
-      "opts": ["precludes", "withholds", "deters", "exempts"],
+      "pre": "As a condition of the settlement, the founder ",
+      "post": " all claims to the disputed trademark portfolio, clearing the way for the acquirer to rebrand the product line globally.",
+      "opts": ["relinquished", "retained", "arbitrated", "notarized"],
       "ans": 0,
-      "zh": "該保密條款明文「禁止」前高階主管於離職後五年內向競爭對手揭露定價策略。",
-      "why": "<b>preclude sb from V-ing</b>（依規定禁止、排除某人做某事）為正式法律用語，精準對應保密條款的約束語境。withhold（扣留）受詞應為被扣留之物而非人＋from；deter（嚇阻）語意偏「使不敢」而非法律禁止，且多用 deter sb from；exempt sb from（豁免）語意恰好相反，變成「免除揭露義務」，邏輯不通。"
+      "zh": "作為和解條件之一，創辦人「放棄」了對爭議商標組合的一切主張，為收購方在全球重塑該產品線品牌鋪平道路。",
+      "why": "<b>relinquish</b>（正式放棄權利、主張）精準對應「和解後讓出商標主張、讓收購方得以改名」的語境。retained（保留）語意恰好相反，與後文「清除障礙」矛盾；arbitrated（仲裁）的主詞應為仲裁者而非當事人；notarized（公證）的受詞應為文件，與 claims 搭配不當。"
     },
     {
-      "id": "2026-07-18-p5-4",
-      "tag": "未來完成式",
-      "pre": "By the time the new accounting standard takes effect next January, the firm ",
-      "post": " all legacy contracts to the revised revenue-recognition framework, according to the implementation timeline filed with regulators.",
-      "opts": ["will have migrated", "has migrated", "will migrate", "had migrated"],
+      "id": "2026-07-19-p5-4",
+      "tag": "強制性假設語氣（It is imperative that）",
+      "pre": "Given the severity of the audit findings, it is imperative that the subsidiary ",
+      "post": " its internal controls before the parent company files its consolidated annual report.",
+      "opts": ["overhaul", "overhauls", "overhauled", "will overhaul"],
       "ans": 0,
-      "zh": "根據向主管機關申報的導入時程，到明年一月新會計準則生效時，該公司「將已完成」所有舊合約向修訂後收入認列架構的轉換。",
-      "why": "「By the time + 未來時點」表示動作將在該未來時點之前完成，須用未來完成式 <b>will have migrated</b>。has migrated 為現在完成式，與未來時點矛盾；will migrate 僅表未來會做，無法表達「屆時已完成」；had migrated 為過去完成式，用於過去語境。"
+      "zh": "鑑於稽核發現的嚴重性，該子公司務必在母公司提交合併年報之前，徹底翻修其內部控制制度。",
+      "why": "It is imperative／essential／crucial that 之後的子句須用<b>原形動詞</b>（假設語氣現在式，= should overhaul 省略 should），故選 <b>overhaul</b>，即使主詞為第三人稱單數也不加 s。overhauls 誤用直述語氣；overhauled 時態錯誤；will overhaul 與強制性假設語氣的固定用法不合。"
     }
   ],
   "p6": {
-    "id": "2026-07-18-p6",
-    "title": "ANNOUNCEMENT: Revised Pricing Schedule for Component Supply Contracts",
+    "id": "2026-07-19-p6",
+    "title": "MEMO: Mandatory Use of the Centralized Travel Booking Platform",
     "seg": [
       [
-        "Dear procurement partners: Owing to sustained increases in raw material and freight costs, the unit prices listed in Appendix B of your supply agreements ",
+        "To all department heads: Effective 1 November, all business travel arrangements, including airfare, lodging, and rail tickets, ",
         { "b": 0 },
-        " by an average of 4.8 percent, effective for all purchase orders placed on or after 1 October."
+        " through the company's centralized booking platform, replacing the current practice of reimbursing individually arranged itineraries."
       ],
       [
         { "b": 1 },
-        ", orders confirmed before that date will be honored at current prices, provided that requested delivery falls within ninety days of order confirmation."
+        ", bookings made outside the platform after that date will not qualify for reimbursement except in documented emergencies approved by a division director."
       ],
       [
-        "Partners whose annual purchase volumes ",
+        "The platform automatically applies our negotiated corporate rates, which are ",
         { "b": 2 },
-        " the thresholds specified in their framework agreements will remain eligible for the existing volume rebate program, which is unaffected by this adjustment."
+        " lower than publicly available fares, and consolidates all travel data for quarterly budget reviews."
       ],
       [
         { "b": 3 },
-        " Our account managers will contact each partner individually over the coming weeks to review the revised schedule in detail."
+        " Department heads should ensure that every frequent traveler on their team completes the tutorial before the effective date."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["will be adjusted", "adjust", "have adjusted", "are adjusting"],
+        "opts": ["must be made", "must make", "have been made", "are making"],
         "ans": 0,
-        "zh": "親愛的採購夥伴：由於原物料與運費成本持續上漲，貴我雙方供應合約附錄B所列之單價「將被調整」，平均調幅為4.8%，適用於10月1日（含）以後成立的所有採購訂單。",
-        "why": "主詞 the unit prices 是「被調整」的對象，須用被動語態；搭配「effective for orders on or after 1 October」的未來生效時點，選未來式被動 <b>will be adjusted</b>。其餘選項皆為主動語態，價格不會自行調整，邏輯與文法均不合。"
+        "zh": "致各部門主管：自11月1日起，所有商務差旅安排（含機票、住宿與火車票）「均須透過」公司集中訂購平台完成，取代現行由員工自行安排後核銷的做法。",
+        "why": "主詞 all business travel arrangements 是「被完成」的對象，須用被動語態；搭配政策強制性，選 <b>must be made</b>。must make 為主動語態，差旅安排不會自己訂票；have been made 為現在完成式，與11月才生效的未來規定矛盾；are making 主動進行式，文法與邏輯皆不合。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["However", "Furthermore", "As a result", "Similarly"],
+        "opts": ["Accordingly", "In contrast", "Incidentally", "Nonetheless"],
         "ans": 0,
-        "zh": "「不過」，於該日期前確認的訂單仍將依現行價格履行，惟指定交期須落在訂單確認後九十日內。",
-        "why": "前句宣布10月起漲價，本句說明「之前確認的訂單維持原價」，屬於例外／對比關係，故選 <b>However</b>（不過）。Furthermore（此外）表遞進；As a result（因此）表因果；Similarly（同樣地）表類比，皆無法呈現「漲價 vs. 維持原價」的轉折。"
+        "zh": "「因此」，該日之後於平台以外完成的訂購將不予核銷，惟經事業部總監核准之有紀錄緊急情況除外。",
+        "why": "前句宣布一律須經平台訂購，本句承接說明「因此」平台外訂購不予核銷，兩句為因果承接，故選 <b>Accordingly</b>。In contrast（相較之下）表對比；Incidentally（順帶一提）引出離題補充；Nonetheless（儘管如此）表讓步轉折，皆與此處因果邏輯不符。"
       },
       {
-        "tag": "詞彙語意",
+        "tag": "詞彙語意（副詞）",
         "col1": true,
-        "opts": ["exceed", "dismiss", "concede", "prolong"],
+        "opts": ["substantially", "scarcely", "formerly", "alternately"],
         "ans": 0,
-        "zh": "年度採購量「超過」架構協議所定門檻的夥伴，仍可繼續適用現行數量回饋方案，該方案不受此次調價影響。",
-        "why": "<b>exceed</b>（超過）搭配 thresholds（門檻）為固定商務用語，「採購量超過門檻→享回饋」邏輯通順。dismiss（駁回）、concede（讓步承認）、prolong（延長）語意皆與「數量與門檻的比較」無關，搭配不成立。"
+        "zh": "平台會自動套用本公司議定的企業費率，此費率「大幅」低於公開票價，並彙整所有差旅資料供季度預算檢討使用。",
+        "why": "<b>substantially</b>（大幅地）修飾 lower，強調企業議價的折扣幅度，符合推廣平台優勢的語境。scarcely（幾乎不）語意變成「幾乎沒有比較便宜」，與說服採用的目的矛盾；formerly（以前）表時間；alternately（交替地）表輪流，皆無法修飾比較級表達程度。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "A comparison table summarizing current and revised prices for each component category is enclosed with this notice.",
-          "The company cafeteria will introduce an expanded vegetarian menu beginning next month.",
-          "Candidates selected for the graduate program will be notified by email in early September.",
-          "Our headquarters lobby renovation is expected to conclude ahead of schedule."
+          "A fifteen-minute interactive tutorial covering platform registration and booking procedures is available on the intranet.",
+          "The annual charity fun run will take place at Riverside Park on the first Saturday of December.",
+          "Candidates who reach the final interview stage will receive travel reimbursement for their visit.",
+          "Last quarter's marketing campaign exceeded its lead-generation target by nearly forty percent."
         ],
         "ans": 0,
-        "zh": "「隨函附上一份對照表，彙整各零組件類別的現行與修訂價格。」我們的客戶經理將於未來數週內逐一與各夥伴聯繫，詳細說明修訂後的價格表。",
-        "why": "段落主題為「供應合約調價通知」，此句提供價格對照表作為輔助資料，與後句「客戶經理將逐一說明」自然銜接（先看附表，再由專人說明）。其餘選項（員工餐廳菜單、儲備幹部通知、總部大廳整修）皆與調價主題無關，插入後語意斷裂。"
+        "zh": "「一段十五分鐘的互動式教學（涵蓋平台註冊與訂購流程）已上架於公司內部網路。」各部門主管應確保團隊中每位經常出差的同仁於生效日前完成該教學。",
+        "why": "段落主題為「差旅平台強制上線」，此句介紹教學資源，與後句「主管應確保頻繁出差者完成 the tutorial」直接呼應（the tutorial 指涉此句提及的教學）。其餘選項（公益路跑、面試者交通補助、行銷成效）皆與差旅政策無關，且無法解釋後句的定冠詞指涉。"
       }
     ]
   }
