@@ -1,5 +1,154 @@
 [
   {
+    "date": "2026-07-18",
+    "big_events": [
+      {
+        "title": "Claude Fable 5訂閱大限拍板:7/20起常駐Max與Team Premium,Pro改點數計費",
+        "sources": [
+          {
+            "name": "Tech Times",
+            "url": "https://www.techtimes.com/articles/320905/20260718/claude-fable-5-ends-subscription-limbo-permanent-max-credits-only-pro.htm"
+          },
+          {
+            "name": "Simon Willison",
+            "url": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/"
+          },
+          {
+            "name": "The Decoder",
+            "url": "https://the-decoder.com/anthropic-slashes-claude-fable-5-limits-in-max-and-team-premium-and-pushes-pro-users-toward-api-pricing/"
+          }
+        ],
+        "summary": "Fable 5結束限時開放:入Max/Team Premium佔50%限額,Pro僅獲百元美金點數",
+        "audience": "依賴Claude工作、正猶豫要不要升級Max的職場AI重度使用者",
+        "pain_point": "頂級模型一下免費一下收費,不知道該升級、續訂還是換工具",
+        "title_idea": "Fable 5塵埃落定!7/20起Claude方案怎麼選?Max、Pro差異一次算清",
+        "local_angle": "繁中圈教學多停在限時開放階段,可搶先做「新制費用試算+方案決策指南」,幫上班族算出最省的選擇"
+      },
+      {
+        "title": "AGIBOT在WAIC一口氣發表四款機器人,A3 Ultra獲鎮展之寶並喊出全球出口",
+        "sources": [
+          {
+            "name": "Tech Times",
+            "url": "https://www.techtimes.com/articles/320899/20260718/agibot-debuts-four-robots-waic-2026-global-export-push-meets-chinas-spy-law-obligation.htm"
+          },
+          {
+            "name": "AGIBOT官方",
+            "url": "https://www.agibot.com/article/231/detail/85.html"
+          }
+        ],
+        "summary": "週六WAIC上AGIBOT齊發A3 Ultra等四款機器人,逾30台現場運行",
+        "audience": "關注自動化取代議題的製造、物流與服務業上班族",
+        "pain_point": "人形機器人量產出海加速,不確定自己的工作何時受衝擊",
+        "title_idea": "中國機器人軍團殺向全球!WAIC四款新機齊發,哪些工作先被盯上?",
+        "local_angle": "可同時經營台灣供應鏈受惠(減速機、感測器)與中國間諜法資安疑慮兩種視角,在地關注度高"
+      },
+      {
+        "title": "Andrew Ng站台!Sabre聯手Vocal Bridge辦400人語音AI旅遊黑客松",
+        "sources": [
+          {
+            "name": "Sabre Newsroom",
+            "url": "https://www.sabre.com/resources/newsroom/sabre-opens-travel-infrastructure-to-silicon-valley-developers-building-the-next-ai-agents-at-bay-area-hackathon/"
+          },
+          {
+            "name": "Stock Titan",
+            "url": "https://www.stocktitan.net/news/SABR/sabre-opens-travel-infrastructure-to-silicon-valley-developers-zuql7atjrtui.html"
+          }
+        ],
+        "summary": "7/18於電腦歷史博物館登場,用Sabre Agentic API與MCP打造語音訂票代理",
+        "audience": "常出差訂票、好奇AI代理能否代勞的商務上班族",
+        "pain_point": "訂機票、旅館、行程要開一堆App,比價填資料耗掉大半天",
+        "title_idea": "一句話訂完整趟出差?美國航空、PayPal都下場的語音AI實驗",
+        "local_angle": "語音AI代理+MCP訂票在繁中圈幾乎沒有內容,可拆解「AI自動訂票」離台灣用戶還有多遠"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "ChatGPT桌面版救火更新:Chat與Work合併Recents,Work對話跨裝置同步",
+        "sources": [
+          {
+            "name": "Releasebot",
+            "url": "https://releasebot.io/updates/openai/chatgpt"
+          },
+          {
+            "name": "OpenAI Release Notes",
+            "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+          },
+          {
+            "name": "Windows News",
+            "url": "https://windowsnews.ai/article/openai-pushes-critical-fix-to-chatgpt-windows-app-work-chats-now-sync-across-devices.439203"
+          }
+        ],
+        "summary": "改版挨轟後修正:對話與Projects回歸側欄,Work紀錄雲端同步全面開放",
+        "audience": "每天用ChatGPT桌面版辦公、被新介面搞到找不到對話的上班族",
+        "pain_point": "改版後歷史對話與專案散落各處,電腦和手機進度接不起來",
+        "title_idea": "ChatGPT桌面版終於改回來了!5個新設定讓工作對話不再失蹤",
+        "local_angle": "繁中教學多停留在舊介面,可搶先出「Chat/Work分流+跨裝置同步」設定教學補資訊差"
+      },
+      {
+        "title": "Google搜尋AI Mode接上Canva、YouTube Music、Instacart,開口就能派工",
+        "sources": [
+          {
+            "name": "WinBuzzer",
+            "url": "https://winbuzzer.com/2026/07/18/google-search-ai-mode-adds-tasks-through-three-connected-app-xcxwbn/"
+          },
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/"
+          }
+        ],
+        "summary": "AI Mode可連結指定App代辦任務,結帳仍由用戶把關,美國陸續開放",
+        "audience": "習慣用Google搜尋、想少開幾個App完成雜事的一般上班族",
+        "pain_point": "AI聊天歸聊天,實際做事還是得自己切換App動手",
+        "title_idea": "Google搜尋直接幫你做圖、排歌單、買菜?AI Mode代辦功能解析",
+        "local_angle": "功能目前限美國,可先做「AI Mode能代辦什麼+台灣何時輪到」前瞻文,卡位教學紅利"
+      },
+      {
+        "title": "Kimi K3上線即衝一波:Zyloo於7/18限時7小時免費開放",
+        "sources": [
+          {
+            "name": "Tony Reviews Things",
+            "url": "https://www.tonyreviewsthings.com/kimi-k3-free-zyloo-july-18-2026/"
+          }
+        ],
+        "summary": "推理平台Zyloo開放K3限免7小時,各時區起跑時間不同",
+        "audience": "想零成本試玩最強開源模型的嘗鮮型職場AI使用者",
+        "pain_point": "K3討論度爆棚但推理費用不便宜,想試又怕花冤枉錢",
+        "title_idea": "最強開源模型Kimi K3免費試用攻略:辦公任務實測值不值得?",
+        "local_angle": "限免活動繁中圈幾乎無人報導,可做「怎麼用+中文辦公實測」快訊,搶時效與教學雙重紅利"
+      }
+    ],
+    "trends": [
+      {
+        "title": "威斯康辛郡府盤點發現:全郡真正需要AI的只有20人,授權費現省62%",
+        "sources": [
+          {
+            "name": "Windows News",
+            "url": "https://windowsnews.ai/article/how-a-wisconsin-county-saved-thousands-by-realizing-only-20-employees-actually-need-ai.439213"
+          }
+        ],
+        "summary": "Shawano郡棄全員授權改按實際使用者計費,AI訂閱費砍逾六成",
+        "audience": "負責採購AI工具、被要求證明ROI的IT與行政管理職上班族",
+        "pain_point": "公司全員導入AI卻沒幾個人用,預算被質疑時拿不出數據",
+        "title_idea": "全公司買AI,結果只有20人在用?導入前先做這件事省下六成錢",
+        "local_angle": "台灣中小企業正跟風採購AI授權,可製作「AI授權盤點SOP」實用範本,切中老闆的預算焦慮"
+      },
+      {
+        "title": "Sakana AI量化「生物稅」:類腦學習首次攻克卷積網路,免反向傳播再進一步",
+        "sources": [
+          {
+            "name": "Tech Times",
+            "url": "https://www.techtimes.com/articles/320902/20260718/brain-like-learning-rule-cracks-convolutional-networks-sakana-ai-measures-biology-tax.htm"
+          }
+        ],
+        "summary": "生物可行學習規則在CNN達96.7%正確率,量化與反向傳播的差距",
+        "audience": "想判斷AI成本走向的科技關注型上班族與內容創作者",
+        "pain_point": "AI訓練成本高漲推升訂閱價,看不懂哪些技術可能翻轉局面",
+        "title_idea": "AI學習方式要變天?Sakana用「類腦訓練」挑戰30年老規則",
+        "local_angle": "硬核研究少有繁中白話版,可用上班族語言拆解「訓練變便宜=工具變便宜」的因果鏈做出差異化"
+      }
+    ]
+  },
+  {
     "date": "2026-07-17",
     "big_events": [
       {
@@ -838,71 +987,6 @@
         "status": "failed",
         "count": 0,
         "note": "本次補跑未執行 X 帳號搜尋，如實標記未覆蓋"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-11",
-    "big_events": [
-      {
-        "title": "蘋果 iOS 27 公測將至，Siri 首度開放選用 Claude、Gemini 等第三方 AI",
-        "sources": [
-          {
-            "name": "Forbes",
-            "url": "https://www.forbes.com/sites/davidphelan/2026/07/11/apple-ios-27-release-date-when-you-can-install-iphones-new-software---public-beta-near/"
-          }
-        ],
-        "summary": "iOS 27公測將近，Siri首次可切換Claude、Gemini取代ChatGPT",
-        "audience": "用 iPhone 處理公務的上班族、AI 效率工具愛好者",
-        "pain_point": "過去 Siri 只能綁定 ChatGPT，用戶就算已付費訂閱 Claude 或 Gemini 也無法讓 Siri 呼叫，公務與私人習慣的 AI 工具切不開",
-        "title_idea": "iOS 27要來了！Siri終於能換腦袋：一次搞懂怎麼把Siri設成Claude或Gemini",
-        "local_angle": "台灣 iPhone 使用率高，公測一釋出就搶先教「Siri 換 AI 供應商」設定教學，比中文科技媒體的翻譯報導快一步"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "無鏡頭智慧眼鏡 Even Realities G2：主打生產力而非錄影",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/11/smart-glasses-without-a-camera-even-realities-bets-productivity-beats-recording-everyone/"
-          }
-        ],
-        "summary": "Even G2無鏡頭無喇叭，靠AI助理Conversate輔助辦公提詞",
-        "audience": "常開會、重視隱私、對穿戴式 AI 裝置好奇的效率玩家",
-        "pain_point": "市售智慧眼鏡多主打錄影惹隱私爭議，開會或社交場合不敢戴，也怕AI裝置外型太招搖引人側目",
-        "title_idea": "沒有鏡頭的AI眼鏡：Even Realities G2怎麼讓開會、抄筆記更有效率",
-        "local_angle": "台灣尚未正式開賣，可做海外購入開箱／評測前瞻，搶佔遠距工作者與科技愛好者的資訊差紅利"
-      },
-      {
-        "title": "Claude Code v2.1.207：企業雲端環境免設定即開啟 Auto Mode，預設升級 Opus 4.8",
-        "sources": [
-          {
-            "name": "DevelopersIO",
-            "url": "https://dev.classmethod.jp/en/articles/20260711-cc-updates-v2-1-207/"
-          }
-        ],
-        "summary": "Claude Code在AWS/GCP企業環境免設定就能用Auto Mode",
-        "audience": "用 Claude Code 處理文件、自動化流程的技術型上班族與獨立開發者",
-        "pain_point": "過去要自行設定環境變數才能啟用Auto Mode，操作門檻高，企業版更新資訊又分散難追蹤",
-        "title_idea": "免設定！Claude Code企業雲端環境自動升級Auto Mode，AI辦公自動化再進化",
-        "local_angle": "台灣企業導入 AWS／GCP 做 AI 辦公自動化的比例漸增，可搶先整理此次更新對 IT 與流程自動化團隊的實際影響"
-      }
-    ],
-    "trends": [
-      {
-        "title": "「這週AI代理開始真正把工作做完」：Agentic Workflow Automation 從展示走向交件",
-        "sources": [
-          {
-            "name": "Asanify",
-            "url": "https://asanify.com/blog/news/agentic-workflow-automation-july-11-2026/"
-          }
-        ],
-        "summary": "AI代理不再只回答問題，開始自己完成整份工作交件",
-        "audience": "想導入AI自動化流程、但擔心失控的中小企業主管與行政人員",
-        "pain_point": "不知道怎麼安全地把重複性工作交給AI代理處理，擔心資料外洩、誤發文件或流程失控",
-        "title_idea": "AI開始『自己把事情做完』：上班族該怎麼安全放手交給AI代理？",
-        "local_angle": "華語圈多還停留在「AI會不會取代工作」的討論，可搶先分享『設計人工核准關卡』的實戰SOP做差異化切角"
       }
     ]
   }
