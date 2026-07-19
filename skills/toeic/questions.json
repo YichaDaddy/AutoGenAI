@@ -1,117 +1,117 @@
 {
-  "date": "2026-07-19",
+  "date": "2026-07-20",
   "p5": [
     {
-      "id": "2026-07-19-p5-0",
-      "tag": "混合假設語氣（過去假設＋現在結果）",
+      "id": "2026-07-20-p5-0",
+      "tag": "Only 副詞片語開頭倒裝",
       "pre": "",
-      "post": " the conglomerate diversified its supplier base a decade ago, it would not now be so vulnerable to disruptions in a single overseas market.",
-      "opts": ["Had", "Should", "Were", "If only"],
+      "post": " by consolidating its seven regional warehouses into two automated distribution hubs can the retailer hope to restore its operating margin to pre-pandemic levels.",
+      "opts": ["Only", "Just", "Merely", "Solely"],
       "ans": 0,
-      "zh": "倘若這家集團十年前便分散其供應商來源，如今就不至於如此容易受到單一海外市場動盪的衝擊。",
-      "why": "此為混合假設語氣：條件句與過去事實相反（十年前未分散），主句描述現在的結果（would not now be），條件句省略 if 後倒裝，<b>Had</b> 提前＋過去分詞 diversified。Should 倒裝表未來「萬一」；Were 倒裝用於 be 動詞或 were to 結構；If only（要是…就好了）為感嘆用法，其後不能構成此完整主從句結構。"
+      "zh": "唯有將旗下七座區域倉庫整併為兩座自動化配送中心，這家零售商才有望讓營業利益率回到疫情前的水準。",
+      "why": "「<b>Only</b> + 副詞片語」置於句首時，主句須倒裝（can the retailer hope），此為固定的強調結構。Just、Merely、Solely 雖然語意相近，但置於句首時皆不能觸發倒裝句型，與後方 can the retailer 的倒裝語序不相容，只有 Only 具備此文法功能。"
     },
     {
-      "id": "2026-07-19-p5-1",
-      "tag": "讓步倒裝（形容詞置首 + as）",
+      "id": "2026-07-20-p5-1",
+      "tag": "介系詞＋which（at which point）",
+      "pre": "The escrow funds will be released once both regulators sign off on the transfer, ",
+      "post": " ownership of the intellectual property formally passes to the acquiring entity.",
+      "opts": ["at which point", "in that case", "on the contrary", "by the way"],
+      "ans": 0,
+      "zh": "待兩地監管機關皆核准移轉後，履約保證金即予撥付，「屆時」智慧財產權將正式移轉予收購方。",
+      "why": "<b>at which point</b>（屆時、在那個時間點）為「介系詞＋關係代名詞」結構，以非限定方式承接前句描述的時點，並引導完整子句，是唯一能同時連接兩個子句的選項。in that case、on the contrary、by the way 皆為獨立轉折語，其前須用分號或句號，僅用逗號連接會形成逗號謬誤（comma splice）。"
+    },
+    {
+      "id": "2026-07-20-p5-2",
+      "tag": "進階形容詞搭配（commensurate with）",
+      "pre": "The consultancy insists that partner compensation remain ",
+      "post": " the revenue each practice group actually generates, rather than being tied to seniority alone.",
+      "opts": ["commensurate with", "attributable for", "coincident to", "proportionate on"],
+      "ans": 0,
+      "zh": "該顧問公司堅持，合夥人的酬勞應與各業務小組實際創造的營收「相稱」，而非僅依年資敘薪。",
+      "why": "<b>commensurate with</b>（與…相稱、成比例）為固定搭配，精準對應「薪酬對應實際營收貢獻」的語境。attributable 須搭配 to（歸因於）且語意不符；coincident 搭配 with（同時發生）而非 to；proportionate 須搭配 to（與…成比例），搭配 on 為錯誤介系詞。"
+    },
+    {
+      "id": "2026-07-20-p5-3",
+      "tag": "動名詞慣用（with a view to）",
+      "pre": "The board authorized a comprehensive review of the pension scheme with a view to ",
+      "post": " the funding gap before the next actuarial valuation is published.",
+      "opts": ["narrowing", "narrow", "be narrowed", "having narrowed"],
+      "ans": 0,
+      "zh": "董事會授權對退休金制度進行全面檢視，目的在於趕在下一次精算評估發布前「縮小」資金缺口。",
+      "why": "<b>with a view to + V-ing</b>（目的在於）為固定慣用語，其中 to 是介系詞而非不定詞記號，後方必須接動名詞 <b>narrowing</b>。narrow 原形動詞誤把 to 當不定詞；be narrowed 形式錯誤且語態不合；having narrowed 完成式動名詞表「已完成」，與「尚待達成的目標」語意矛盾。"
+    },
+    {
+      "id": "2026-07-20-p5-4",
+      "tag": "獨立分詞構句（With + 受詞 + 分詞）",
       "pre": "",
-      "post": " the proposed timeline may appear, the engineering team maintains that phased delivery will keep every milestone within reach.",
-      "opts": ["Ambitious as", "As ambitious", "However ambitious that", "So ambitious"],
+      "post": " demand for data-center capacity outpacing supply across the region, colocation providers have begun auctioning rack space to the highest bidder.",
+      "opts": ["With", "While", "Despite", "Since"],
       "ans": 0,
-      "zh": "儘管所提出的時程表看似野心勃勃，工程團隊仍堅稱分階段交付能確保每個里程碑如期達成。",
-      "why": "「<b>形容詞 + as</b> + 主詞 + 動詞」為正式讓步倒裝結構（= Though the timeline may appear ambitious）。As ambitious 開頭須構成 As ambitious as 的比較結構；However ambitious that 中的 that 多餘（正確為 However ambitious the timeline may appear）；So ambitious 開頭須搭配 that 子句表結果，與讓步語意不符。"
-    },
-    {
-      "id": "2026-07-19-p5-2",
-      "tag": "數量詞＋of whom（非限定關係子句）",
-      "pre": "The layoff plan affects roughly three hundred employees, ",
-      "post": " have been with the company for more than fifteen years and are entitled to enhanced severance packages.",
-      "opts": ["many of whom", "many of them", "whom many", "many of which"],
-      "ans": 0,
-      "zh": "這項裁員計畫影響約三百名員工，其中許多人已在公司服務超過十五年，依規定可領取優惠資遣方案。",
-      "why": "兩個子句之間僅有逗號、無對等連接詞，須用關係代名詞連接：先行詞為人（employees），故用「數量詞 + of + <b>whom</b>」。many of them 為代名詞，需要 and 連接才成立；whom many 語序錯誤；many of which 的 which 用於事物，先行詞是人時不可用。"
-    },
-    {
-      "id": "2026-07-19-p5-3",
-      "tag": "進階動詞語意辨別",
-      "pre": "As a condition of the settlement, the founder ",
-      "post": " all claims to the disputed trademark portfolio, clearing the way for the acquirer to rebrand the product line globally.",
-      "opts": ["relinquished", "retained", "arbitrated", "notarized"],
-      "ans": 0,
-      "zh": "作為和解條件之一，創辦人「放棄」了對爭議商標組合的一切主張，為收購方在全球重塑該產品線品牌鋪平道路。",
-      "why": "<b>relinquish</b>（正式放棄權利、主張）精準對應「和解後讓出商標主張、讓收購方得以改名」的語境。retained（保留）語意恰好相反，與後文「清除障礙」矛盾；arbitrated（仲裁）的主詞應為仲裁者而非當事人；notarized（公證）的受詞應為文件，與 claims 搭配不當。"
-    },
-    {
-      "id": "2026-07-19-p5-4",
-      "tag": "強制性假設語氣（It is imperative that）",
-      "pre": "Given the severity of the audit findings, it is imperative that the subsidiary ",
-      "post": " its internal controls before the parent company files its consolidated annual report.",
-      "opts": ["overhaul", "overhauls", "overhauled", "will overhaul"],
-      "ans": 0,
-      "zh": "鑑於稽核發現的嚴重性，該子公司務必在母公司提交合併年報之前，徹底翻修其內部控制制度。",
-      "why": "It is imperative／essential／crucial that 之後的子句須用<b>原形動詞</b>（假設語氣現在式，= should overhaul 省略 should），故選 <b>overhaul</b>，即使主詞為第三人稱單數也不加 s。overhauls 誤用直述語氣；overhauled 時態錯誤；will overhaul 與強制性假設語氣的固定用法不合。"
+      "zh": "隨著區域內資料中心容量的需求成長超越供給，主機代管業者已開始將機櫃空間以競標方式售予出價最高者。",
+      "why": "「<b>With</b> + 受詞 + 現在分詞」為獨立分詞構句（with demand outpacing supply = 隨著需求超越供給），表伴隨的背景狀態。While 與 Since 為連接詞，後須接含限定動詞的完整子句（demand outpaces），不能直接接分詞結構；Despite 為介系詞，後接名詞時語意變成「儘管有需求超越供給」，與後文因果邏輯矛盾。"
     }
   ],
   "p6": {
-    "id": "2026-07-19-p6",
-    "title": "MEMO: Mandatory Use of the Centralized Travel Booking Platform",
+    "id": "2026-07-20-p6",
+    "title": "NOTICE: Voluntary Recall of Model HX-30 Desk Fans",
     "seg": [
       [
-        "To all department heads: Effective 1 November, all business travel arrangements, including airfare, lodging, and rail tickets, ",
+        "Dear customers: In cooperation with the Consumer Product Safety Bureau, Meridian Appliances ",
         { "b": 0 },
-        " through the company's centralized booking platform, replacing the current practice of reimbursing individually arranged itineraries."
+        " a voluntary recall of Model HX-30 desk fans manufactured between January and April of this year, following isolated reports of overheating in the motor housing."
       ],
       [
         { "b": 1 },
-        ", bookings made outside the platform after that date will not qualify for reimbursement except in documented emergencies approved by a division director."
+        ", no injuries have been reported to date, and units manufactured outside the stated window are not affected by this action."
       ],
       [
-        "The platform automatically applies our negotiated corporate rates, which are ",
+        "Customers may verify whether their unit falls within the recall by checking the serial number ",
         { "b": 2 },
-        " lower than publicly available fares, and consolidates all travel data for quarterly budget reviews."
+        " on the base of the product against the range published on our website."
       ],
       [
         { "b": 3 },
-        " Department heads should ensure that every frequent traveler on their team completes the tutorial before the effective date."
+        " Affected customers who complete the online form will receive a prepaid shipping label and a full refund or replacement within fourteen business days."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["must be made", "must make", "have been made", "are making"],
+        "opts": ["is initiating", "was initiated", "initiates itself", "has been initiating"],
         "ans": 0,
-        "zh": "致各部門主管：自11月1日起，所有商務差旅安排（含機票、住宿與火車票）「均須透過」公司集中訂購平台完成，取代現行由員工自行安排後核銷的做法。",
-        "why": "主詞 all business travel arrangements 是「被完成」的對象，須用被動語態；搭配政策強制性，選 <b>must be made</b>。must make 為主動語態，差旅安排不會自己訂票；have been made 為現在完成式，與11月才生效的未來規定矛盾；are making 主動進行式，文法與邏輯皆不合。"
+        "zh": "親愛的顧客：在與消費品安全局的合作下，Meridian家電「正式啟動」對今年1月至4月間製造之HX-30型桌扇的自主性召回，起因是接獲數起馬達外殼過熱的個別通報。",
+        "why": "主詞 Meridian Appliances 為召回行動的發起者，須用主動語態；公告當下宣布正在展開的行動，用現在進行式 <b>is initiating</b> 最自然。was initiated 為被動且時態錯置（公司不是被啟動的對象）；initiates itself 反身用法不通；has been initiating 完成進行式暗示持續已久，與「即日宣布」的公告語境不符。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["Accordingly", "In contrast", "Incidentally", "Nonetheless"],
+        "opts": ["Fortunately", "Consequently", "In other words", "Meanwhile"],
         "ans": 0,
-        "zh": "「因此」，該日之後於平台以外完成的訂購將不予核銷，惟經事業部總監核准之有紀錄緊急情況除外。",
-        "why": "前句宣布一律須經平台訂購，本句承接說明「因此」平台外訂購不予核銷，兩句為因果承接，故選 <b>Accordingly</b>。In contrast（相較之下）表對比；Incidentally（順帶一提）引出離題補充；Nonetheless（儘管如此）表讓步轉折，皆與此處因果邏輯不符。"
+        "zh": "「所幸」，截至目前尚無任何人員受傷的通報，且於上述期間以外製造的產品不在本次召回範圍內。",
+        "why": "前句說明召回起因（過熱通報），本句傳達「無人受傷」的正面訊息以安撫顧客，故選 <b>Fortunately</b>（所幸）。Consequently（因此）表因果，但「無人受傷」並非召回的結果；In other words（換言之）表改述；Meanwhile（同時）表平行事件，皆與此處「壞消息中帶出好消息」的語氣不符。"
       },
       {
-        "tag": "詞彙語意（副詞）",
+        "tag": "詞彙語意（分詞）",
         "col1": true,
-        "opts": ["substantially", "scarcely", "formerly", "alternately"],
+        "opts": ["embossed", "dispatched", "convened", "reimbursed"],
         "ans": 0,
-        "zh": "平台會自動套用本公司議定的企業費率，此費率「大幅」低於公開票價，並彙整所有差旅資料供季度預算檢討使用。",
-        "why": "<b>substantially</b>（大幅地）修飾 lower，強調企業議價的折扣幅度，符合推廣平台優勢的語境。scarcely（幾乎不）語意變成「幾乎沒有比較便宜」，與說服採用的目的矛盾；formerly（以前）表時間；alternately（交替地）表輪流，皆無法修飾比較級表達程度。"
+        "zh": "顧客可核對產品底座上「壓印」的序號，與本公司網站公布的召回序號區間比對，即可確認自己的產品是否屬於召回範圍。",
+        "why": "<b>embossed</b>（壓印、浮刻於表面）精準描述序號標示在產品底座上的方式，為過去分詞修飾 the serial number。dispatched（寄送）用於貨物運送；convened（召集）用於會議；reimbursed（核銷退款）用於費用，三者皆無法與「底座上的序號」搭配。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "A fifteen-minute interactive tutorial covering platform registration and booking procedures is available on the intranet.",
-          "The annual charity fun run will take place at Riverside Park on the first Saturday of December.",
-          "Candidates who reach the final interview stage will receive travel reimbursement for their visit.",
-          "Last quarter's marketing campaign exceeded its lead-generation target by nearly forty percent."
+          "Units confirmed to be affected should be unplugged immediately and taken out of service pending return.",
+          "Our spring product showcase attracted a record number of trade visitors this year.",
+          "Employees interested in the wellness program may register through the HR portal.",
+          "The company's quarterly dividend will be paid to shareholders of record on August 10."
         ],
         "ans": 0,
-        "zh": "「一段十五分鐘的互動式教學（涵蓋平台註冊與訂購流程）已上架於公司內部網路。」各部門主管應確保團隊中每位經常出差的同仁於生效日前完成該教學。",
-        "why": "段落主題為「差旅平台強制上線」，此句介紹教學資源，與後句「主管應確保頻繁出差者完成 the tutorial」直接呼應（the tutorial 指涉此句提及的教學）。其餘選項（公益路跑、面試者交通補助、行銷成效）皆與差旅政策無關，且無法解釋後句的定冠詞指涉。"
+        "zh": "「經確認屬於召回範圍的產品，應立即拔除電源並停止使用，等待退回。」受影響的顧客填妥線上表單後，將於十四個工作天內收到預付運費標籤，並獲得全額退款或換貨。",
+        "why": "段落主題為「召回作業的顧客行動指引」，此句銜接前段「確認序號」與後句「填表退貨」，補上關鍵的安全指示（停用產品），邏輯順序完整：確認→停用→退回。其餘選項（產品展、員工健康方案、股利發放）皆與召回公告無關，插入後語意斷裂。"
       }
     ]
   }

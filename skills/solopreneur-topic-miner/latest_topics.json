@@ -1,104 +1,121 @@
 {
-  "date": "2026-07-18",
+  "date": "2026-07-19",
   "big_events": [
     {
-      "title": "Claude Fable 5訂閱大限拍板:7/20起常駐Max與Team Premium,Pro改點數計費",
+      "title": "阿里Qwen 3.8亮相:2.4兆參數自稱「僅次Fable 5」,劍指Kimi K3",
       "sources": [
-        {"name": "Tech Times", "url": "https://www.techtimes.com/articles/320905/20260718/claude-fable-5-ends-subscription-limbo-permanent-max-credits-only-pro.htm"},
-        {"name": "Simon Willison", "url": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/"},
-        {"name": "The Decoder", "url": "https://the-decoder.com/anthropic-slashes-claude-fable-5-limits-in-max-and-team-premium-and-pushes-pro-users-toward-api-pricing/"}
+        {"name": "The Decoder", "url": "https://the-decoder.com/alibabas-qwen-takes-on-kimi-k3-with-open-weight-qwen-3-8-says-model-is-second-only-to-fable-5/"},
+        {"name": "OfficeChai", "url": "https://officechai.com/ai/alibaba-qwen-3-8/"},
+        {"name": "Techsy", "url": "https://techsy.io/en/blog/qwen-3-8"}
       ],
-      "summary": "Fable 5結束限時開放:入Max/Team Premium佔50%限額,Pro僅獲百元美金點數",
-      "audience": "依賴Claude工作、正猶豫要不要升級Max的職場AI重度使用者",
-      "pain_point": "頂級模型一下免費一下收費,不知道該升級、續訂還是換工具",
-      "title_idea": "Fable 5塵埃落定!7/20起Claude方案怎麼選?Max、Pro差異一次算清",
-      "local_angle": "繁中圈教學多停在限時開放階段,可搶先做「新制費用試算+方案決策指南」,幫上班族算出最省的選擇"
+      "summary": "阿里發表2.4兆參數多模態旗艦,宣稱直逼頂級模型,權重將開源但未給日期",
+      "audience": "想用低成本模型處理文件、簡報與資料的職場AI省錢派",
+      "pain_point": "頂級模型訂閱越來越貴,開源替代品又多到不知道選哪家",
+      "title_idea": "比Kimi更狂?阿里Qwen 3.8自稱全球第二,上班族用得到嗎?",
+      "local_angle": "中國開源模型大戰繁中圈多半只報Kimi,可搶做「Qwen 3.8 vs K3」規格比較與辦公實測卡位"
     },
     {
-      "title": "AGIBOT在WAIC一口氣發表四款機器人,A3 Ultra獲鎮展之寶並喊出全球出口",
+      "title": "GPT-5.6 Sol爆刪檔事故:誤刪用戶硬碟與生產資料庫,OpenAI早有6.3倍警訊",
       "sources": [
-        {"name": "Tech Times", "url": "https://www.techtimes.com/articles/320899/20260718/agibot-debuts-four-robots-waic-2026-global-export-push-meets-chinas-spy-law-obligation.htm"},
-        {"name": "AGIBOT官方", "url": "https://www.agibot.com/article/231/detail/85.html"}
+        {"name": "Tech Times", "url": "https://www.techtimes.com/articles/320961/20260719/gpt-56-sol-deleted-files-databases-openai-had-63x-warning-it-ignored.htm"}
       ],
-      "summary": "週六WAIC上AGIBOT齊發A3 Ultra等四款機器人,逾30台現場運行",
-      "audience": "關注自動化取代議題的製造、物流與服務業上班族",
-      "pain_point": "人形機器人量產出海加速,不確定自己的工作何時受衝擊",
-      "title_idea": "中國機器人軍團殺向全球!WAIC四款新機齊發,哪些工作先被盯上?",
-      "local_angle": "可同時經營台灣供應鏈受惠(減速機、感測器)與中國間諜法資安疑慮兩種視角,在地關注度高"
+      "summary": "Sol代理誤刪投資人家目錄與工程師正式資料庫,內部安全警訊遭忽視",
+      "audience": "把AI代理接進公司檔案、資料庫做自動化的職場使用者",
+      "pain_point": "AI代理權限越開越大,一次失誤就可能毀掉整個專案資料",
+      "title_idea": "AI幫你做事也幫你刪庫?GPT-5.6刪檔事件教上班族的3道防線",
+      "local_angle": "繁中圈還在教怎麼用AI代理,少有人教「權限控管+備份SOP」,可做風險教學建立差異化"
     },
     {
-      "title": "Andrew Ng站台!Sabre聯手Vocal Bridge辦400人語音AI旅遊黑客松",
+      "title": "Mira Murati新作登場:Thinking Machines發表975B開放權重模型Inkling",
       "sources": [
-        {"name": "Sabre Newsroom", "url": "https://www.sabre.com/resources/newsroom/sabre-opens-travel-infrastructure-to-silicon-valley-developers-building-the-next-ai-agents-at-bay-area-hackathon/"},
-        {"name": "Stock Titan", "url": "https://www.stocktitan.net/news/SABR/sabre-opens-travel-infrastructure-to-silicon-valley-developers-zuql7atjrtui.html"}
+        {"name": "WinBuzzer", "url": "https://winbuzzer.com/2026/07/19/thinking-machines-lab-launches-deepseek-inspired-inkling-xcxwbn/"}
       ],
-      "summary": "7/18於電腦歷史博物館登場,用Sabre Agentic API與MCP打造語音訂票代理",
-      "audience": "常出差訂票、好奇AI代理能否代勞的商務上班族",
-      "pain_point": "訂機票、旅館、行程要開一堆App,比價填資料耗掉大半天",
-      "title_idea": "一句話訂完整趟出差?美國航空、PayPal都下場的語音AI實驗",
-      "local_angle": "語音AI代理+MCP訂票在繁中圈幾乎沒有內容,可拆解「AI自動訂票」離台灣用戶還有多遠"
+      "summary": "Inkling採DeepSeek式架構,975B參數開放權重,需約2TB GPU,跑分評價兩極",
+      "audience": "追蹤明星AI新創動向、評估開源模型的科技敏感型上班族",
+      "pain_point": "開源模型一週一款,分不清哪些是真突破、哪些只是蹭熱度",
+      "title_idea": "OpenAI前CTO的第一張成績單:Inkling 975B是驚喜還是失望?",
+      "local_angle": "Murati在繁中圈知名度高但深度報導少,可做「明星新創首發模型」解讀文吃資訊差"
+    },
+    {
+      "title": "日媒定調:Kimi K3改寫「美國穩贏」劇本,中國開源模型逼近頂尖",
+      "sources": [
+        {"name": "The Japan Times", "url": "https://www.japantimes.co.jp/business/2026/07/19/tech/moonshot-kimi-us-china/"}
+      ],
+      "summary": "K3衝上多項排行榜前段班,美中AI差距認知被顛覆,市場連帶震盪",
+      "audience": "關心AI工具怎麼選、科技趨勢怎麼走的一般上班族",
+      "pain_point": "模型排行榜每週洗牌,不知道該押注哪個生態系投入學習",
+      "title_idea": "美國領先神話動搖?Kimi K3之後,上班族選AI工具的新邏輯",
+      "local_angle": "台灣讀者對美中AI競爭敏感度高,可從供應鏈震盪與工具選擇雙視角做認知翻轉整理,繁中少人做"
     }
   ],
   "tool_updates": [
     {
-      "title": "ChatGPT桌面版救火更新:Chat與Work合併Recents,Work對話跨裝置同步",
+      "title": "Sakana AI宣布Fugu協作平台將接入Nvidia Nemotron專家模型",
       "sources": [
-        {"name": "Releasebot", "url": "https://releasebot.io/updates/openai/chatgpt"},
-        {"name": "OpenAI Release Notes", "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"},
-        {"name": "Windows News", "url": "https://windowsnews.ai/article/openai-pushes-critical-fix-to-chatgpt-windows-app-work-chats-now-sync-across-devices.439203"}
+        {"name": "WinBuzzer", "url": "https://winbuzzer.com/2026/07/19/sakana-ai-has-outlined-plans-to-add-nvidia-nemotron-specialists-to-its-fugu-ai-orchestration-platform-xcxwbn/"}
       ],
-      "summary": "改版挨轟後修正:對話與Projects回歸側欄,Work紀錄雲端同步全面開放",
-      "audience": "每天用ChatGPT桌面版辦公、被新介面搞到找不到對話的上班族",
-      "pain_point": "改版後歷史對話與專案散落各處,電腦和手機進度接不起來",
-      "title_idea": "ChatGPT桌面版終於改回來了!5個新設定讓工作對話不再失蹤",
-      "local_angle": "繁中教學多停留在舊介面,可搶先出「Chat/Work分流+跨裝置同步」設定教學補資訊差"
+      "summary": "多模型編排平台Fugu納入Nemotron專才模型,任務自動派給最適合的AI",
+      "audience": "同時訂閱多個AI工具、煩惱任務怎麼分工的效率控上班族",
+      "pain_point": "每個模型強項不同,手動切換又累又常選錯工具",
+      "title_idea": "AI界的派工主管?Sakana Fugu讓多模型自動分工的玩法解析",
+      "local_angle": "「模型編排」概念繁中圈幾乎沒人白話解釋,可用辦公情境示範搶首發教學紅利"
     },
     {
-      "title": "Google搜尋AI Mode接上Canva、YouTube Music、Instacart,開口就能派工",
+      "title": "Patreon開鍘AI爬蟲:封鎖訓練抓取、保留搜尋導流",
       "sources": [
-        {"name": "WinBuzzer", "url": "https://winbuzzer.com/2026/07/18/google-search-ai-mode-adds-tasks-through-three-connected-app-xcxwbn/"},
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/"}
+        {"name": "WinBuzzer", "url": "https://winbuzzer.com/2026/07/19/patreon-says-it-has-begun-blocking-ai-training-crawlers-xcxwbn/"}
       ],
-      "summary": "AI Mode可連結指定App代辦任務,結帳仍由用戶把關,美國陸續開放",
-      "audience": "習慣用Google搜尋、想少開幾個App完成雜事的一般上班族",
-      "pain_point": "AI聊天歸聊天,實際做事還是得自己切換App動手",
-      "title_idea": "Google搜尋直接幫你做圖、排歌單、買菜?AI Mode代辦功能解析",
-      "local_angle": "功能目前限美國,可先做「AI Mode能代辦什麼+台灣何時輪到」前瞻文,卡位教學紅利"
+      "summary": "Patreon開始阻擋AI訓練爬蟲,同時保留搜尋引擎索引替創作者導流",
+      "audience": "經營訂閱制內容、擔心作品被拿去餵AI的創作者與斜槓上班族",
+      "pain_point": "辛苦產出的付費內容被AI免費吃掉,平台卻遲遲不表態",
+      "title_idea": "你的訂閱內容被AI偷學了嗎?Patreon反爬蟲新政策一次看懂",
+      "local_angle": "可延伸盤點方格子、Portaly等台灣創作平台「有沒有擋AI爬蟲」,做在地版查核文"
     },
     {
-      "title": "Kimi K3上線即衝一波:Zyloo於7/18限時7小時免費開放",
+      "title": "口袋裡的離線AI:非營利Current AI推Suno Sutra,22種語言免網路",
       "sources": [
-        {"name": "Tony Reviews Things", "url": "https://www.tonyreviewsthings.com/kimi-k3-free-zyloo-july-18-2026/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/"}
       ],
-      "summary": "推理平台Zyloo開放K3限免7小時,各時區起跑時間不同",
-      "audience": "想零成本試玩最強開源模型的嘗鮮型職場AI使用者",
-      "pain_point": "K3討論度爆棚但推理費用不便宜,想試又怕花冤枉錢",
-      "title_idea": "最強開源模型Kimi K3免費試用攻略:辦公任務實測值不值得?",
-      "local_angle": "限免活動繁中圈幾乎無人報導,可做「怎麼用+中文辦公實測」快訊,搶時效與教學雙重紅利"
+      "summary": "獲4億美元資助的Current AI推離線AI裝置,目標打造人人可用的公共AI",
+      "audience": "受夠訂閱費、對離線與隱私需求高的小資上班族",
+      "pain_point": "AI工具全綁訂閱與雲端,斷網就沒轍,隱私也沒人照顧",
+      "title_idea": "不用網路、不用訂閱的AI來了?4億美元打造的「公共AI」是什麼",
+      "local_angle": "「AI公共建設」議題繁中圈冷門,可討論繁中語系會不會被納入,做前瞻觀點文"
     }
   ],
   "trends": [
     {
-      "title": "威斯康辛郡府盤點發現:全郡真正需要AI的只有20人,授權費現省62%",
+      "title": "AISI實測:開放權重模型網安實力只落後頂級封閉模型4個月",
       "sources": [
-        {"name": "Windows News", "url": "https://windowsnews.ai/article/how-a-wisconsin-county-saved-thousands-by-realizing-only-20-employees-actually-need-ai.439213"}
+        {"name": "Tech Times", "url": "https://www.techtimes.com/articles/320960/20260719/open-weight-ai-models-now-match-frontier-cyber-skill-four-months-prior-aisi-finds.htm"}
       ],
-      "summary": "Shawano郡棄全員授權改按實際使用者計費,AI訂閱費砍逾六成",
-      "audience": "負責採購AI工具、被要求證明ROI的IT與行政管理職上班族",
-      "pain_point": "公司全員導入AI卻沒幾個人用,預算被質疑時拿不出數據",
-      "title_idea": "全公司買AI,結果只有20人在用?導入前先做這件事省下六成錢",
-      "local_angle": "台灣中小企業正跟風採購AI授權,可製作「AI授權盤點SOP」實用範本,切中老闆的預算焦慮"
+      "summary": "開源模型追趕加速,與封閉頂級系統差距從半年以上縮至4到10個月",
+      "audience": "評估要不要從付費模型轉開源方案的IT與資安相關上班族",
+      "pain_point": "付費模型貴、開源怕不夠力,一直缺客觀的差距數據",
+      "title_idea": "免費模型還落後多少?官方數據說只差4個月,訂閱費該省了嗎",
+      "local_angle": "可結合Kimi、Qwen開源潮做「2026下半年開源取代訂閱」決策指南,繁中少見數據派整理"
     },
     {
-      "title": "Sakana AI量化「生物稅」:類腦學習首次攻克卷積網路,免反向傳播再進一步",
+      "title": "Verizon九個月砍1.66萬職位,AI已自動處理85%網路問題",
       "sources": [
-        {"name": "Tech Times", "url": "https://www.techtimes.com/articles/320902/20260718/brain-like-learning-rule-cracks-convolutional-networks-sakana-ai-measures-biology-tax.htm"}
+        {"name": "Tech Times", "url": "https://www.techtimes.com/articles/320972/20260719/verizon-cuts-16600-jobs-nine-months-its-ai-stack-nears-completion.htm"}
       ],
-      "summary": "生物可行學習規則在CNN達96.7%正確率,量化與反向傳播的差距",
-      "audience": "想判斷AI成本走向的科技關注型上班族與內容創作者",
-      "pain_point": "AI訓練成本高漲推升訂閱價,看不懂哪些技術可能翻轉局面",
-      "title_idea": "AI學習方式要變天?Sakana用「類腦訓練」挑戰30年老規則",
-      "local_angle": "硬核研究少有繁中白話版,可用上班族語言拆解「訓練變便宜=工具變便宜」的因果鏈做出差異化"
+      "summary": "AI維運體系接近完工,電信巨頭連三波瘦身,官方否認裁員與AI直接相關",
+      "audience": "擔心後台、客服、維運職位被AI取代的職場工作者",
+      "pain_point": "公司導入AI後組織一直精簡,不知道自己是不是下一個",
+      "title_idea": "AI上線、萬人下車?從Verizon裁員看哪些職能要提前轉型",
+      "local_angle": "台灣電信與客服產業結構類似,可對照本土場景做「AI時代轉型自保清單」實用文"
+    },
+    {
+      "title": "外流程式碼起底Suno:音樂AI疑大規模爬取線上歌曲與歌詞訓練",
+      "sources": [
+        {"name": "WinBuzzer", "url": "https://winbuzzer.com/2026/07/19/hacked-code-maps-sunos-alleged-music-scraping-pipeline-xcxwbn/"}
+      ],
+      "summary": "404 Media取得外流程式碼,揭Suno疑似系統性抓取音樂平台內容",
+      "audience": "用AI做配樂、Podcast與影片背景音樂的內容創作者",
+      "pain_point": "AI生成音樂的版權地雷不明,拿來商用到底安不安全",
+      "title_idea": "AI音樂的原罪曝光?Suno爬蟲風波後,創作者商用前必查3件事",
+      "local_angle": "繁中圈AI音樂教學多、談版權風險少,可做「商用安全檢查清單」建立專業信任感"
     }
   ]
 }
