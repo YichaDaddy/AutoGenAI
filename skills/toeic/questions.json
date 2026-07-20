@@ -1,117 +1,118 @@
 {
-  "date": "2026-07-20",
+  "date": "2026-07-21",
   "p5": [
     {
-      "id": "2026-07-20-p5-0",
-      "tag": "Only 副詞片語開頭倒裝",
+      "id": "2026-07-21-p5-0",
+      "tag": "否定片語開頭倒裝（Under no circumstances）",
       "pre": "",
-      "post": " by consolidating its seven regional warehouses into two automated distribution hubs can the retailer hope to restore its operating margin to pre-pandemic levels.",
-      "opts": ["Only", "Just", "Merely", "Solely"],
+      "post": " are traders permitted to execute client orders through personal accounts, a prohibition reiterated in the latest compliance handbook.",
+      "opts": ["Under no circumstances", "In any circumstances", "By all means", "Without exception"],
       "ans": 0,
-      "zh": "唯有將旗下七座區域倉庫整併為兩座自動化配送中心，這家零售商才有望讓營業利益率回到疫情前的水準。",
-      "why": "「<b>Only</b> + 副詞片語」置於句首時，主句須倒裝（can the retailer hope），此為固定的強調結構。Just、Merely、Solely 雖然語意相近，但置於句首時皆不能觸發倒裝句型，與後方 can the retailer 的倒裝語序不相容，只有 Only 具備此文法功能。"
+      "zh": "交易員在任何情況下都不得透過個人帳戶執行客戶委託單——最新版法遵手冊再次重申此項禁令。",
+      "why": "否定副詞片語 <b>Under no circumstances</b> 置於句首時，主句必須倒裝（are traders permitted），語意與倒裝語序完全吻合。In any circumstances 非否定開頭，不觸發倒裝；By all means（當然可以）語意相反；Without exception 雖表「無例外」，置句首時不觸發倒裝句型，與後方語序不合。"
     },
     {
-      "id": "2026-07-20-p5-1",
-      "tag": "介系詞＋which（at which point）",
-      "pre": "The escrow funds will be released once both regulators sign off on the transfer, ",
-      "post": " ownership of the intellectual property formally passes to the acquiring entity.",
-      "opts": ["at which point", "in that case", "on the contrary", "by the way"],
+      "id": "2026-07-21-p5-1",
+      "tag": "lest + 原形動詞（假設語氣）",
+      "pre": "The underwriters demanded stricter covenants ",
+      "post": " the borrower take on additional debt that could jeopardize the seniority of existing bondholders.",
+      "opts": ["lest", "unless", "provided", "whereas"],
       "ans": 0,
-      "zh": "待兩地監管機關皆核准移轉後，履約保證金即予撥付，「屆時」智慧財產權將正式移轉予收購方。",
-      "why": "<b>at which point</b>（屆時、在那個時間點）為「介系詞＋關係代名詞」結構，以非限定方式承接前句描述的時點，並引導完整子句，是唯一能同時連接兩個子句的選項。in that case、on the contrary、by the way 皆為獨立轉折語，其前須用分號或句號，僅用逗號連接會形成逗號謬誤（comma splice）。"
+      "zh": "承銷商要求訂立更嚴格的約款，「以免」借款人另舉新債，危及既有債券持有人的受償順位。",
+      "why": "<b>lest</b>（以免、唯恐）為正式書面連接詞，其子句須用假設語氣原形動詞（the borrower <b>take</b>，而非 takes），本句的原形 take 正是解題關鍵。unless（除非）、provided（倘若）之後皆須接直述語氣（takes）；whereas（然而）表對比，語意與文法皆不合。"
     },
     {
-      "id": "2026-07-20-p5-2",
-      "tag": "進階形容詞搭配（commensurate with）",
-      "pre": "The consultancy insists that partner compensation remain ",
-      "post": " the revenue each practice group actually generates, rather than being tied to seniority alone.",
-      "opts": ["commensurate with", "attributable for", "coincident to", "proportionate on"],
+      "id": "2026-07-21-p5-2",
+      "tag": "the extent to which（名詞子句）",
+      "pre": "The stress-test results will reveal ",
+      "post": " regional lenders remain exposed to commercial real estate, information regulators intend to publish in aggregate form.",
+      "opts": ["the extent to which", "the extent of which", "which extent that", "to what extent that"],
       "ans": 0,
-      "zh": "該顧問公司堅持，合夥人的酬勞應與各業務小組實際創造的營收「相稱」，而非僅依年資敘薪。",
-      "why": "<b>commensurate with</b>（與…相稱、成比例）為固定搭配，精準對應「薪酬對應實際營收貢獻」的語境。attributable 須搭配 to（歸因於）且語意不符；coincident 搭配 with（同時發生）而非 to；proportionate 須搭配 to（與…成比例），搭配 on 為錯誤介系詞。"
+      "zh": "壓力測試結果將揭示區域型銀行對商用不動產的曝險「程度」，監管機關擬以彙總形式公布這項資訊。",
+      "why": "<b>the extent to which</b>＋完整子句（= how much）為固定名詞子句結構，作 reveal 的受詞。the extent of which 為非限定關係子句用法，需先行詞且不能引導受詞子句；which extent that 與 to what extent that 均為多餘 that 的錯誤混搭（to what extent 可直接引導子句，但不加 that）。"
     },
     {
-      "id": "2026-07-20-p5-3",
-      "tag": "動名詞慣用（with a view to）",
-      "pre": "The board authorized a comprehensive review of the pension scheme with a view to ",
-      "post": " the funding gap before the next actuarial valuation is published.",
-      "opts": ["narrowing", "narrow", "be narrowed", "having narrowed"],
+      "id": "2026-07-21-p5-3",
+      "tag": "進階動詞語意辨別",
+      "pre": "Under the master service agreement, the contractor agrees to ",
+      "post": " the client against any third-party claims arising from defects in workmanship or materials.",
+      "opts": ["indemnify", "reimburse", "compensate for", "underwrite"],
       "ans": 0,
-      "zh": "董事會授權對退休金制度進行全面檢視，目的在於趕在下一次精算評估發布前「縮小」資金缺口。",
-      "why": "<b>with a view to + V-ing</b>（目的在於）為固定慣用語，其中 to 是介系詞而非不定詞記號，後方必須接動名詞 <b>narrowing</b>。narrow 原形動詞誤把 to 當不定詞；be narrowed 形式錯誤且語態不合；having narrowed 完成式動名詞表「已完成」，與「尚待達成的目標」語意矛盾。"
+      "zh": "依主服務契約，承攬商同意就工藝或材料瑕疵所生的任何第三方求償，對客戶負「補償擔保」之責。",
+      "why": "<b>indemnify sb against sth</b>（就…對某人負補償擔保責任）為標準契約用語，與 against 的搭配是解題關鍵。reimburse（核銷返還）搭配 for；compensate 須直接接受詞再接 for，選項中多餘的 for 使結構錯誤；underwrite（承保、包銷）不與 against 搭配，語意亦偏保險承保而非契約補償。"
     },
     {
-      "id": "2026-07-20-p5-4",
-      "tag": "獨立分詞構句（With + 受詞 + 分詞）",
-      "pre": "",
-      "post": " demand for data-center capacity outpacing supply across the region, colocation providers have begun auctioning rack space to the highest bidder.",
-      "opts": ["With", "While", "Despite", "Since"],
+      "id": "2026-07-21-p5-4",
+      "tag": "so too + 倒裝（附和結構）",
+      "pre": "Just as manufacturing migrated toward automation in the previous decade, ",
+      "post": " professional services now shifting routine analysis to machine-learning systems.",
+      "opts": ["so too are", "so too do", "as are", "such are"],
       "ans": 0,
-      "zh": "隨著區域內資料中心容量的需求成長超越供給，主機代管業者已開始將機櫃空間以競標方式售予出價最高者。",
-      "why": "「<b>With</b> + 受詞 + 現在分詞」為獨立分詞構句（with demand outpacing supply = 隨著需求超越供給），表伴隨的背景狀態。While 與 Since 為連接詞，後須接含限定動詞的完整子句（demand outpaces），不能直接接分詞結構；Despite 為介系詞，後接名詞時語意變成「儘管有需求超越供給」，與後文因果邏輯矛盾。"
+      "zh": "正如製造業在過去十年逐步走向自動化，專業服務業如今「同樣」正把例行分析工作移轉給機器學習系統。",
+      "why": "「Just as..., <b>so too</b> + 倒裝」為表「同樣地」的正式對應結構；後半主詞 professional services 搭配現在進行式 shifting，須用 be 動詞 <b>are</b> 構成 are...shifting。so too do 之後應接原形動詞而非分詞；as are 缺少 too 的呼應且結構不完整；such are 用於「如此…」的倒裝，與句意不符。"
     }
   ],
   "p6": {
-    "id": "2026-07-20-p6",
-    "title": "NOTICE: Voluntary Recall of Model HX-30 Desk Fans",
+    "id": "2026-07-21-p6",
+    "title": "MEMO: Headquarters Relocation to the Riverside Business District",
     "seg": [
       [
-        "Dear customers: In cooperation with the Consumer Product Safety Bureau, Meridian Appliances ",
+        "To all staff: We are pleased to announce that our headquarters ",
         { "b": 0 },
-        " a voluntary recall of Model HX-30 desk fans manufactured between January and April of this year, following isolated reports of overheating in the motor housing."
+        " to the Riverside Business District over the last weekend of October, consolidating four floors of leased space into a purpose-built campus with double the meeting capacity."
       ],
       [
         { "b": 1 },
-        ", no injuries have been reported to date, and units manufactured outside the stated window are not affected by this action."
+        ", all employees should plan to work remotely on the Friday and Monday surrounding the move, as network and telephone services will be migrated during that window."
       ],
       [
-        "Customers may verify whether their unit falls within the recall by checking the serial number ",
+        "Workstations will be assigned under the new neighborhood seating model, details of which were ",
         { "b": 2 },
-        " on the base of the product against the range published on our website."
+        " at last month's town hall and are available on the intranet.",
+        ""
       ],
       [
         { "b": 3 },
-        " Affected customers who complete the online form will receive a prepaid shipping label and a full refund or replacement within fourteen business days."
+        " Facilities staff will be stationed on every floor during the first week to help everyone settle in quickly."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["is initiating", "was initiated", "initiates itself", "has been initiating"],
+        "opts": ["will be relocated", "relocates", "has relocated", "is relocating itself"],
         "ans": 0,
-        "zh": "親愛的顧客：在與消費品安全局的合作下，Meridian家電「正式啟動」對今年1月至4月間製造之HX-30型桌扇的自主性召回，起因是接獲數起馬達外殼過熱的個別通報。",
-        "why": "主詞 Meridian Appliances 為召回行動的發起者，須用主動語態；公告當下宣布正在展開的行動，用現在進行式 <b>is initiating</b> 最自然。was initiated 為被動且時態錯置（公司不是被啟動的對象）；initiates itself 反身用法不通；has been initiating 完成進行式暗示持續已久，與「即日宣布」的公告語境不符。"
+        "zh": "致全體同仁：我們很高興宣布，總部「將於」十月最後一個週末「遷至」河濱商業區，把原本分租四層樓的辦公空間，整併為一座量身打造、會議空間加倍的園區。",
+        "why": "主詞 our headquarters 是「被搬遷」的對象，須用被動語態；十月底才發生，須用未來式，故選 <b>will be relocated</b>。relocates 現在式主動與未來時點矛盾；has relocated 完成式表已搬完，與公告預告的語境不符；is relocating itself 反身用法生硬不自然。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["Fortunately", "Consequently", "In other words", "Meanwhile"],
+        "opts": ["In preparation", "By contrast", "As a rule", "In retrospect"],
         "ans": 0,
-        "zh": "「所幸」，截至目前尚無任何人員受傷的通報，且於上述期間以外製造的產品不在本次召回範圍內。",
-        "why": "前句說明召回起因（過熱通報），本句傳達「無人受傷」的正面訊息以安撫顧客，故選 <b>Fortunately</b>（所幸）。Consequently（因此）表因果，但「無人受傷」並非召回的結果；In other words（換言之）表改述；Meanwhile（同時）表平行事件，皆與此處「壞消息中帶出好消息」的語氣不符。"
+        "zh": "「為配合搬遷準備」，全體同仁應規劃於搬遷前後的週五與週一遠距工作，因為網路與電話服務將於該期間進行移轉。",
+        "why": "前句宣布搬遷時程，本句說明員工應「為此預作安排」，故選 <b>In preparation</b>（作為準備）。By contrast（相較之下）表對比；As a rule（通常而言）表慣例；In retrospect（回顧起來）表事後檢討，皆與「搬遷前的預備措施」語境不符。"
       },
       {
-        "tag": "詞彙語意（分詞）",
+        "tag": "詞彙語意",
         "col1": true,
-        "opts": ["embossed", "dispatched", "convened", "reimbursed"],
+        "opts": ["unveiled", "dismantled", "adjourned", "audited"],
         "ans": 0,
-        "zh": "顧客可核對產品底座上「壓印」的序號，與本公司網站公布的召回序號區間比對，即可確認自己的產品是否屬於召回範圍。",
-        "why": "<b>embossed</b>（壓印、浮刻於表面）精準描述序號標示在產品底座上的方式，為過去分詞修飾 the serial number。dispatched（寄送）用於貨物運送；convened（召集）用於會議；reimbursed（核銷退款）用於費用，三者皆無法與「底座上的序號」搭配。"
+        "zh": "工作座位將依新的「鄰里式座位模式」分配，其細節已於上月的全員大會上「公布」，並可於內部網路查閱。",
+        "why": "<b>unveiled</b>（首次公布、揭曉）精準對應「新座位模式細節在全員大會上首度說明」的語境。dismantled（拆除）語意相反；adjourned（休會）主詞應為會議本身；audited（稽核）與「公布細節」無關，搭配皆不成立。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Units confirmed to be affected should be unplugged immediately and taken out of service pending return.",
-          "Our spring product showcase attracted a record number of trade visitors this year.",
-          "Employees interested in the wellness program may register through the HR portal.",
-          "The company's quarterly dividend will be paid to shareholders of record on August 10."
+          "Packing crates and labels will be delivered to each team by mid-October, along with step-by-step packing instructions.",
+          "The annual performance review cycle will open in the second week of November.",
+          "Congratulations to the sales division for exceeding its half-year target.",
+          "Visitor parking rates at the current building will increase slightly next quarter."
         ],
         "ans": 0,
-        "zh": "「經確認屬於召回範圍的產品，應立即拔除電源並停止使用，等待退回。」受影響的顧客填妥線上表單後，將於十四個工作天內收到預付運費標籤，並獲得全額退款或換貨。",
-        "why": "段落主題為「召回作業的顧客行動指引」，此句銜接前段「確認序號」與後句「填表退貨」，補上關鍵的安全指示（停用產品），邏輯順序完整：確認→停用→退回。其餘選項（產品展、員工健康方案、股利發放）皆與召回公告無關，插入後語意斷裂。"
+        "zh": "「打包用的貨箱與標籤將於十月中旬前發放給各團隊，並附上逐步打包指引。」搬遷後第一週，總務同仁將駐點各樓層，協助大家儘快安頓。",
+        "why": "段落主題為「總部搬遷安排」，此句補上搬遷前的實際打包配套，與後句「搬遷後第一週總務駐點協助」形成「搬遷前→搬遷後」的完整流程銜接。其餘選項（績效考核、業績祝賀、訪客停車費）皆與搬遷主題無關，插入後語意斷裂。"
       }
     ]
   }
