@@ -1,121 +1,112 @@
 {
-  "date": "2026-07-19",
+  "date": "2026-07-20",
   "big_events": [
     {
-      "title": "阿里Qwen 3.8亮相:2.4兆參數自稱「僅次Fable 5」,劍指Kimi K3",
+      "title": "Kimi K3紅到當機:Moonshot ARR衝3億美元、暫停新訂閱,傳半年內港股IPO",
       "sources": [
-        {"name": "The Decoder", "url": "https://the-decoder.com/alibabas-qwen-takes-on-kimi-k3-with-open-weight-qwen-3-8-says-model-is-second-only-to-fable-5/"},
-        {"name": "OfficeChai", "url": "https://officechai.com/ai/alibaba-qwen-3-8/"},
-        {"name": "Techsy", "url": "https://techsy.io/en/blog/qwen-3-8"}
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-07-20/chinese-ai-sensation-moonshot-s-gamble-on-big-models-pays-off"},
+        {"name": "CoinDesk", "url": "https://www.coindesk.com/tech/2026/07/20/moonshot-ai-ipo-push-follows-kimi-alibaba-ai-releases-that-shook-bitcoin"},
+        {"name": "ChinaTechNews", "url": "https://www.chinatechnews.com/2026/07/20/125954-moonshot-is-creating-new-winners-and-losers-in-the-ai-trade"}
       ],
-      "summary": "阿里發表2.4兆參數多模態旗艦,宣稱直逼頂級模型,權重將開源但未給日期",
-      "audience": "想用低成本模型處理文件、簡報與資料的職場AI省錢派",
-      "pain_point": "頂級模型訂閱越來越貴,開源替代品又多到不知道選哪家",
-      "title_idea": "比Kimi更狂?阿里Qwen 3.8自稱全球第二,上班族用得到嗎?",
-      "local_angle": "中國開源模型大戰繁中圈多半只報Kimi,可搶做「Qwen 3.8 vs K3」規格比較與辦公實測卡位"
+      "summary": "K3需求爆量迫使暫停新訂閱,Moonshot尋求股東同意赴港上市,估值上看300億美元",
+      "audience": "正在觀望要不要入手Kimi、比較各家AI訂閱的職場嘗鮮派",
+      "pain_point": "熱門AI工具說停就停售,想跟上話題卻連訂閱入口都排不到",
+      "title_idea": "紅到不讓你付錢?Kimi K3暫停訂閱背後,上班族該搶還是該等",
+      "local_angle": "繁中圈多報K3跑分,少有人追「訂閱暫停+IPO」的商業面,可做「現在還進得去嗎」實用指南搶時效"
     },
     {
-      "title": "GPT-5.6 Sol爆刪檔事故:誤刪用戶硬碟與生產資料庫,OpenAI早有6.3倍警訊",
+      "title": "TechCrunch長文:OpenAI遊說美政府「管制開放權重模型」,K3掀路線之戰",
       "sources": [
-        {"name": "Tech Times", "url": "https://www.techtimes.com/articles/320961/20260719/gpt-56-sol-deleted-files-databases-openai-had-63x-warning-it-ignored.htm"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/20/openai-is-scared-of-open-weight-models-should-the-us-be/"}
       ],
-      "summary": "Sol代理誤刪投資人家目錄與工程師正式資料庫,內部安全警訊遭忽視",
-      "audience": "把AI代理接進公司檔案、資料庫做自動化的職場使用者",
-      "pain_point": "AI代理權限越開越大,一次失誤就可能毀掉整個專案資料",
-      "title_idea": "AI幫你做事也幫你刪庫?GPT-5.6刪檔事件教上班族的3道防線",
-      "local_angle": "繁中圈還在教怎麼用AI代理,少有人教「權限控管+備份SOP」,可做風險教學建立差異化"
+      "summary": "K3登頂編碼榜後,OpenAI高層主張對開放權重模型製造監管恐懼,引發論戰",
+      "audience": "在免費開源與付費訂閱之間搖擺的精打細算上班族",
+      "pain_point": "開源模型越來越強,卻不確定會不會哪天被政策卡住、白學一場",
+      "title_idea": "OpenAI在怕什麼?從一篇檄文看懂開源AI為何讓巨頭坐不住",
+      "local_angle": "「開放權重vs封閉模型」論戰繁中圈少有白話整理,可用上班族工具選擇視角切入吃資訊差"
     },
     {
-      "title": "Mira Murati新作登場:Thinking Machines發表975B開放權重模型Inkling",
+      "title": "Gemini 3.5 Pro三度跳票:7/17目標日靜悄悄過去,Google只端出Flash",
       "sources": [
-        {"name": "WinBuzzer", "url": "https://winbuzzer.com/2026/07/19/thinking-machines-lab-launches-deepseek-inspired-inkling-xcxwbn/"}
+        {"name": "BuildFastWithAI", "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-20-2026-16-biggest-stories"},
+        {"name": "TechTimes", "url": "https://www.techtimes.com/articles/320736/20260716/rebuilt-gemini-35-pro-misses-third-deadline-google-eyes-stopgap-release.htm"}
       ],
-      "summary": "Inkling採DeepSeek式架構,975B參數開放權重,需約2TB GPU,跑分評價兩極",
-      "audience": "追蹤明星AI新創動向、評估開源模型的科技敏感型上班族",
-      "pain_point": "開源模型一週一款,分不清哪些是真突破、哪些只是蹭熱度",
-      "title_idea": "OpenAI前CTO的第一張成績單:Inkling 975B是驚喜還是失望?",
-      "local_angle": "Murati在繁中圈知名度高但深度報導少,可做「明星新創首發模型」解讀文吃資訊差"
-    },
-    {
-      "title": "日媒定調:Kimi K3改寫「美國穩贏」劇本,中國開源模型逼近頂尖",
-      "sources": [
-        {"name": "The Japan Times", "url": "https://www.japantimes.co.jp/business/2026/07/19/tech/moonshot-kimi-us-china/"}
-      ],
-      "summary": "K3衝上多項排行榜前段班,美中AI差距認知被顛覆,市場連帶震盪",
-      "audience": "關心AI工具怎麼選、科技趨勢怎麼走的一般上班族",
-      "pain_point": "模型排行榜每週洗牌,不知道該押注哪個生態系投入學習",
-      "title_idea": "美國領先神話動搖?Kimi K3之後,上班族選AI工具的新邏輯",
-      "local_angle": "台灣讀者對美中AI競爭敏感度高,可從供應鏈震盪與工具選擇雙視角做認知翻轉整理,繁中少人做"
+      "summary": "傳聞的7/17發布日落空,API仍只有3.5 Flash與3.1 Pro預覽,旗艦持續難產",
+      "audience": "等Gemini旗艦更新再決定訂閱去留的Google全家桶用戶",
+      "pain_point": "對手一週一更,自己押注的平台旗艦一延再延,不知道要不要跳槽",
+      "title_idea": "等不到的Gemini 3.5 Pro:三度跳票後,Google用戶的3個備案",
+      "local_angle": "繁中圈多在轉發跳票消息,可反向做「等待期怎麼用3.5 Flash撐場」教學,實用度更高"
     }
   ],
   "tool_updates": [
     {
-      "title": "Sakana AI宣布Fugu協作平台將接入Nvidia Nemotron專家模型",
+      "title": "Claude Fable 5計費今日正式分家:Max方案內含,Pro改按量付費",
       "sources": [
-        {"name": "WinBuzzer", "url": "https://winbuzzer.com/2026/07/19/sakana-ai-has-outlined-plans-to-add-nvidia-nemotron-specialists-to-its-fugu-ai-orchestration-platform-xcxwbn/"}
+        {"name": "TechTimes", "url": "https://www.techtimes.com/articles/320999/20260720/claude-fable-5-billing-splits-today-max-gets-it-free-pro-pays-per-token.htm"}
       ],
-      "summary": "多模型編排平台Fugu納入Nemotron專才模型,任務自動派給最適合的AI",
-      "audience": "同時訂閱多個AI工具、煩惱任務怎麼分工的效率控上班族",
-      "pain_point": "每個模型強項不同,手動切換又累又常選錯工具",
-      "title_idea": "AI界的派工主管?Sakana Fugu讓多模型自動分工的玩法解析",
-      "local_angle": "「模型編排」概念繁中圈幾乎沒人白話解釋,可用辦公情境示範搶首發教學紅利"
+      "summary": "7/20起Max與Team Premium保留Fable 5(50%額度),Pro用戶轉為每百萬token計費",
+      "audience": "訂閱Claude Pro、常用旗艦模型跑重活的職場重度使用者",
+      "pain_point": "方案規則說改就改,不搞懂新計費方式,月底帳單可能直接爆表",
+      "title_idea": "今天起Claude收費大變!Pro用戶不搞懂這3點,帳單多一倍",
+      "local_angle": "計費新制當天生效,繁中圈幾乎沒有完整解讀,可搶做「該升Max還是省著用」決策文"
     },
     {
-      "title": "Patreon開鍘AI爬蟲:封鎖訓練抓取、保留搜尋導流",
+      "title": "阿里Qwen 3.8 Max預覽版開放試用:2.4兆參數旗艦先上編碼平台",
       "sources": [
-        {"name": "WinBuzzer", "url": "https://winbuzzer.com/2026/07/19/patreon-says-it-has-begun-blocking-ai-training-crawlers-xcxwbn/"}
+        {"name": "Tech Startups", "url": "https://techstartups.com/2026/07/20/top-tech-news-today-july-20-2026-alibaba-bezos-blackstone-google-moonshot-ai-nvidia-samsung-more/"},
+        {"name": "CGTN", "url": "https://news.cgtn.com/news/2026-07-20/Alibaba-Moonshot-launches-mark-new-phase-in-China-s-AI-race-1OWbBvdkH28/p.html"}
       ],
-      "summary": "Patreon開始阻擋AI訓練爬蟲,同時保留搜尋引擎索引替創作者導流",
-      "audience": "經營訂閱制內容、擔心作品被拿去餵AI的創作者與斜槓上班族",
-      "pain_point": "辛苦產出的付費內容被AI免費吃掉,平台卻遲遲不表態",
-      "title_idea": "你的訂閱內容被AI偷學了嗎?Patreon反爬蟲新政策一次看懂",
-      "local_angle": "可延伸盤點方格子、Portaly等台灣創作平台「有沒有擋AI爬蟲」,做在地版查核文"
+      "summary": "昨日發表的Qwen 3.8 Max已可在阿里編碼平台試用,開放權重版本仍待釋出",
+      "audience": "想搶先試新模型寫程式、跑自動化的技術型上班族",
+      "pain_point": "新模型發表會吹很大,實際好不好用只能等別人測,慢一步就沒紅利",
+      "title_idea": "自稱僅次Fable 5的Qwen 3.8 Max能用了!免費試玩入口與首測",
+      "local_angle": "預覽入口剛開,繁中圈還沒有實測文,可搶做辦公與程式場景的第一手體驗"
     },
     {
-      "title": "口袋裡的離線AI:非營利Current AI推Suno Sutra,22種語言免網路",
+      "title": "Adobe相機App玩新招:Project Indigo用AI當你的攝影教練",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/20/adobe-camera-apps-new-feature-will-critique-your-photos-using-ai/"}
       ],
-      "summary": "獲4億美元資助的Current AI推離線AI裝置,目標打造人人可用的公共AI",
-      "audience": "受夠訂閱費、對離線與隱私需求高的小資上班族",
-      "pain_point": "AI工具全綁訂閱與雲端,斷網就沒轍,隱私也沒人照顧",
-      "title_idea": "不用網路、不用訂閱的AI來了?4億美元打造的「公共AI」是什麼",
-      "local_angle": "「AI公共建設」議題繁中圈冷門,可討論繁中語系會不會被納入,做前瞻觀點文"
+      "summary": "Adobe實驗性iOS相機App新增AI功能,可分析並點評用戶拍攝的照片",
+      "audience": "常拍產品照、社群圖的行銷與自媒體兼職上班族",
+      "pain_point": "照片拍完不知道問題在哪,想進步卻沒人給具體建議",
+      "title_idea": "Adobe免費AI攝影教練上線:照片哪裡拍壞了,它直接講給你聽",
+      "local_angle": "Project Indigo在繁中圈聲量極低,可做「AI點評照片」實測與社群圖優化教學搶首發"
     }
   ],
   "trends": [
     {
-      "title": "AISI實測:開放權重模型網安實力只落後頂級封閉模型4個月",
+      "title": "開源雙重磅倒數:DeepSeek V4傳7/24登場,Kimi K3權重7/27開放下載",
       "sources": [
-        {"name": "Tech Times", "url": "https://www.techtimes.com/articles/320960/20260719/open-weight-ai-models-now-match-frontier-cyber-skill-four-months-prior-aisi-finds.htm"}
+        {"name": "BuildFastWithAI", "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-20-2026-16-biggest-stories"}
       ],
-      "summary": "開源模型追趕加速,與封閉頂級系統差距從半年以上縮至4到10個月",
-      "audience": "評估要不要從付費模型轉開源方案的IT與資安相關上班族",
-      "pain_point": "付費模型貴、開源怕不夠力,一直缺客觀的差距數據",
-      "title_idea": "免費模型還落後多少?官方數據說只差4個月,訂閱費該省了嗎",
-      "local_angle": "可結合Kimi、Qwen開源潮做「2026下半年開源取代訂閱」決策指南,繁中少見數據派整理"
+      "summary": "本週兩大中國開源動作接力,DeepSeek V4與K3開放權重都排在未來七天",
+      "audience": "想用免費模型省訂閱費、觀望開源生態的務實派上班族",
+      "pain_point": "開源模型更新太快,不知道該等哪一款、什麼時機入場最划算",
+      "title_idea": "這週AI圈兩顆炸彈:DeepSeek V4與K3開源,免費仔的機會來了?",
+      "local_angle": "可搶在發布前做「開源週行事曆+觀戰指南」,發布當天再接實測,吃兩波流量"
     },
     {
-      "title": "Verizon九個月砍1.66萬職位,AI已自動處理85%網路問題",
+      "title": "Alphabet、Tesla、Intel本週財報,被視為AI資本支出的第一場大考",
       "sources": [
-        {"name": "Tech Times", "url": "https://www.techtimes.com/articles/320972/20260719/verizon-cuts-16600-jobs-nine-months-its-ai-stack-nears-completion.htm"}
+        {"name": "TechTimes", "url": "https://www.techtimes.com/articles/321101/20260720/alphabet-tesla-intel-earnings-are-first-real-test-ai-capex-scale.htm"}
       ],
-      "summary": "AI維運體系接近完工,電信巨頭連三波瘦身,官方否認裁員與AI直接相關",
-      "audience": "擔心後台、客服、維運職位被AI取代的職場工作者",
-      "pain_point": "公司導入AI後組織一直精簡,不知道自己是不是下一個",
-      "title_idea": "AI上線、萬人下車?從Verizon裁員看哪些職能要提前轉型",
-      "local_angle": "台灣電信與客服產業結構類似,可對照本土場景做「AI時代轉型自保清單」實用文"
+      "summary": "Alphabet自由現金流因AI支出年減47%,市場緊盯燒錢換成長是否撐得住",
+      "audience": "關心AI熱潮會不會退燒、工具會不會漲價的一般上班族",
+      "pain_point": "AI公司瘋狂燒錢,擔心羊毛出在羊身上,訂閱費遲早跟著漲",
+      "title_idea": "AI燒錢燒到現金流腰斬?從Google財報看你的訂閱費會不會漲",
+      "local_angle": "可連結台積電供應鏈視角與「使用者端漲價風險」,做繁中少見的用戶本位財報解讀"
     },
     {
-      "title": "外流程式碼起底Suno:音樂AI疑大規模爬取線上歌曲與歌詞訓練",
+      "title": "推理加速成新戰場:新創Infinity獲OpenAI與Anthropic研究員注資1500萬美元",
       "sources": [
-        {"name": "WinBuzzer", "url": "https://winbuzzer.com/2026/07/19/hacked-code-maps-sunos-alleged-music-scraping-pipeline-xcxwbn/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/20/inference-startup-infinity-raises-15m-from-touring-capital-openai-and-athropic-researchers/"}
       ],
-      "summary": "404 Media取得外流程式碼,揭Suno疑似系統性抓取音樂平台內容",
-      "audience": "用AI做配樂、Podcast與影片背景音樂的內容創作者",
-      "pain_point": "AI生成音樂的版權地雷不明,拿來商用到底安不安全",
-      "title_idea": "AI音樂的原罪曝光?Suno爬蟲風波後,創作者商用前必查3件事",
-      "local_angle": "繁中圈AI音樂教學多、談版權風險少,可做「商用安全檢查清單」建立專業信任感"
+      "summary": "AI推理基建新創Infinity以1億美元估值完成募資,兩大實驗室研究員都入股",
+      "audience": "在意AI回應速度與成本、追蹤產業風向的科技敏感型上班族",
+      "pain_point": "模型越強回應越慢越貴,不知道「又快又便宜」的AI什麼時候輪到自己用",
+      "title_idea": "連OpenAI、Anthropic的人都掏錢投:推理加速為何是下個金礦?",
+      "local_angle": "「inference成本戰」繁中圈幾乎沒人科普,可用「為什麼你的AI變快變便宜」白話切入建立專業感"
     }
   ]
 }
