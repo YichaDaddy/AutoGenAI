@@ -1,117 +1,117 @@
 {
-  "date": "2026-07-22",
+  "date": "2026-07-23",
   "p5": [
     {
-      "id": "2026-07-22-p5-0",
-      "tag": "假設語氣（But for + 名詞）",
+      "id": "2026-07-23-p5-0",
+      "tag": "Not until 倒裝",
       "pre": "",
-      "post": " the emergency credit facility extended by the consortium of lenders, the airline would have been forced into receivership during the fuel-price spike.",
-      "opts": ["But for", "Except", "Owing to", "In spite of"],
+      "post": " the forensic accountants traced the offshore transfers did the full scale of the embezzlement scheme become apparent to the audit committee.",
+      "opts": ["Not until", "Only after that", "No sooner than", "Until"],
       "ans": 0,
-      "zh": "「若非」貸款銀行團提供的緊急信用額度，這家航空公司早在燃油價格飆漲期間就被迫進入破產管理程序了。",
-      "why": "<b>But for</b> + 名詞（= If it had not been for，若非）為與過去事實相反的假設語氣慣用結構，與主句的 would have been forced 完美呼應。Except（除了）不能引導假設條件；Owing to（由於）表原因，語意變成「因為有信用額度所以破產」，邏輯矛盾；In spite of（儘管）表讓步，同樣與句意不合。"
+      "zh": "「直到」鑑識會計師追查出這些境外匯款的流向，稽核委員會才驚覺這樁侵占案的完整規模。",
+      "why": "<b>Not until</b> + 子句置於句首時，主句須倒裝（did the full scale... become），為固定強調結構。Only after that 中的 that 使結構破碎（Only after 可直接接子句，不加 that）；No sooner than 語序錯誤（正確為 No sooner had... than）；Until 開頭的直述句不觸發倒裝，與主句的 did 倒裝語序矛盾。"
     },
     {
-      "id": "2026-07-22-p5-1",
-      "tag": "Little did 倒裝",
+      "id": "2026-07-23-p5-1",
+      "tag": "however + 形容詞讓步子句",
       "pre": "",
-      "post": " the analysts anticipate that the routine filing would disclose a related-party transaction large enough to trigger a full regulatory inquiry.",
-      "opts": ["Little did", "Hardly", "Seldom have", "Rarely do"],
+      "post": " compelling the revenue projections may appear, the credit committee will not approve the loan without independently audited historical statements.",
+      "opts": ["However", "Whatever", "No matter", "Despite"],
       "ans": 0,
-      "zh": "分析師們「萬萬沒有料到」，這份例行申報文件竟會揭露一筆規模大到足以引發全面監管調查的關係人交易。",
-      "why": "<b>Little did</b> + 主詞 + 原形動詞為固定倒裝結構，表「萬萬沒想到」，過去式助動詞 did 與後文語境（例行申報後來引發調查）的過去時態一致。Hardly 單獨置句首須搭配完成式倒裝（Hardly had...when）；Seldom have 與 Rarely do 的時態（現在完成式／現在式）皆與過去事件的敘述矛盾。"
+      "zh": "無論營收預測看起來多麼吸引人，授信委員會在取得經獨立審計的歷史財報之前，都不會核准這筆貸款。",
+      "why": "<b>However</b> + 形容詞 + 主詞 + 動詞（However compelling the projections may appear）為正式讓步結構，表「無論多麼…」。Whatever 後接名詞而非形容詞；No matter 須寫成 No matter how 才能接形容詞；Despite 為介系詞，後須接名詞片語，不能直接接「形容詞＋子句」結構。"
     },
     {
-      "id": "2026-07-22-p5-2",
-      "tag": "複合關係形容詞（whichever）",
-      "pre": "The procurement committee will award the maintenance contract to ",
-      "post": " vendor demonstrates the shortest verified response time during the ninety-day pilot phase.",
-      "opts": ["whichever", "whatever of", "whomever", "either"],
+      "id": "2026-07-23-p5-2",
+      "tag": "同位語 that 子句＋假設語氣",
+      "pre": "The purchase agreement includes the stipulation that the deposit ",
+      "post": " in escrow until all zoning permits have been secured by the developer.",
+      "opts": ["be held", "is held", "will be held", "has been held"],
       "ans": 0,
-      "zh": "採購委員會將把維護合約授予在九十天試行期內，展現出最短且經驗證回應時間的「任何一家」供應商。",
-      "why": "<b>whichever</b> 作複合關係形容詞，直接修飾名詞 vendor 並引導名詞子句（= any vendor that...），同時充當介系詞 to 的受詞子句。whatever of 結構錯誤；whomever 為受格代名詞，不能直接修飾名詞且在子句中應作主詞（須用 whoever）；either 須搭配 of 或已知的兩者選一，無法引導子句。"
+      "zh": "買賣契約中載有一項約定條款：訂金「應予」保管於履約保證專戶，直到開發商取得所有土地使用分區許可為止。",
+      "why": "stipulation（約定條款）、requirement、demand 等名詞之後的同位語 that 子句須用假設語氣原形動詞（= should be held 省略 should），故選 <b>be held</b>，此為契約與正式書面英文的固定用法。is held、will be held、has been held 皆為直述語氣，不符合「規定、要求」類名詞後接假設語氣的文法規則。"
     },
     {
-      "id": "2026-07-22-p5-3",
+      "id": "2026-07-23-p5-3",
       "tag": "進階動詞語意辨別",
-      "pre": "Once ratified by both boards, the amended shareholders' agreement will ",
-      "post": " all prior memoranda of understanding governing voting rights and board representation.",
-      "opts": ["supersede", "consolidate", "notarize", "surpass"],
+      "pre": "In light of the system outage, the landlord agreed to ",
+      "post": " the thirty-day notice requirement and allow affected tenants to terminate their leases immediately.",
+      "opts": ["waive", "forfeit", "renounce", "exempt"],
       "ans": 0,
-      "zh": "一經兩家董事會批准，修訂後的股東協議將「取代」先前所有規範表決權與董事席次的合作備忘錄。",
-      "why": "<b>supersede</b>（取代並使先前文件失效）為契約條款標準用語，精準對應「新協議生效後舊備忘錄作廢」的法律語境。consolidate（整併）語意為合而為一而非取代失效；notarize（公證）主詞應為公證人；surpass（超越）用於程度、表現的比較，不用於文件效力的取代。"
+      "zh": "鑑於系統中斷事故，房東同意「免除」三十天預告期的規定，允許受影響的承租人立即終止租約。",
+      "why": "<b>waive</b>（主動放棄行使、免除規定）精準對應「房東放棄要求三十天預告期」的語境，waive a requirement 為固定搭配。forfeit（因違規而喪失）帶被動懲罰意味；renounce（正式宣告放棄信仰、權位）語域過重；exempt 的結構為 exempt sb from sth（免除某人義務），受詞應為人而非規定本身。"
     },
     {
-      "id": "2026-07-22-p5-4",
-      "tag": "That 引導主詞子句",
-      "pre": "",
-      "post": " the merger closed at all, given three antitrust objections and a hostile counterbid, is a testament to the negotiating team's persistence.",
-      "opts": ["That", "What", "Which", "Because"],
+      "id": "2026-07-23-p5-4",
+      "tag": "no less... than 比較結構",
+      "pre": "The arbitration clause in the side letter is ",
+      "post": " the one in the master agreement, despite its considerably more informal drafting style.",
+      "opts": ["no less binding than", "not binding less than", "no more binding as", "less binding not than"],
       "ans": 0,
-      "zh": "在面臨三項反壟斷異議與一樁敵意競購的情況下，這樁合併案「竟然能夠」完成交割，正是談判團隊堅持不懈的明證。",
-      "why": "<b>That</b> 引導的主詞子句（That the merger closed at all）內部結構完整（主詞 the merger＋動詞 closed），指「合併完成交割這件事」。What 引導主詞子句時子句須缺主詞或受詞；Which 不能引導主詞子句；Because 子句作主詞為非正式且不合文法的用法，正式書面須用 That。"
+      "zh": "附函中的仲裁條款，儘管行文風格明顯較為非正式，其法律拘束力「絲毫不亞於」主約中的條款。",
+      "why": "<b>no less + 形容詞 + than</b>（絲毫不亞於）為正式比較結構，強調兩者同樣具有拘束力，與 despite 引導的讓步（行文較不正式）形成語意呼應。not binding less than 與 less binding not than 語序皆錯誤；no more binding as 混用了 as...as 與 more...than 兩種結構，文法不成立。"
     }
   ],
   "p6": {
-    "id": "2026-07-22-p6",
-    "title": "REMINDER: Annual Cybersecurity Awareness Certification Due August 31",
+    "id": "2026-07-23-p6",
+    "title": "NOTICE: Annual Physical Inventory Count — Warehouse Operations Suspended",
     "seg": [
       [
-        "To all employees: In accordance with our information-security policy, the annual cybersecurity awareness certification ",
+        "To all department heads and warehouse staff: The annual physical inventory count ",
         { "b": 0 },
-        " by every employee, including contractors and part-time staff, no later than 31 August."
+        " at all three distribution centers from Friday 28 August through Sunday 30 August, during which time no goods may be received, picked, or shipped."
       ],
       [
         { "b": 1 },
-        ", system access for anyone who has not completed the certification by that date will be suspended automatically until the requirement is met."
+        ", customer-facing teams should advise clients this week that orders placed after Wednesday 26 August will not leave our facilities until Monday 31 August at the earliest."
       ],
       [
-        "This year's curriculum places particular emphasis on recognizing credential-phishing attempts, which remain the most ",
+        "Count teams will work in pairs, with one member counting and the other independently ",
         { "b": 2 },
-        " attack vector observed against our industry over the past twelve months."
+        " each tally against the warehouse management system before discrepancies are escalated."
       ],
       [
         { "b": 3 },
-        " Managers can track their team's completion status in real time through the compliance dashboard."
+        " Final reconciled figures will be submitted to the finance department by 4 September for year-end reporting."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["must be completed", "must complete", "has completed", "is completing"],
+        "opts": ["will be conducted", "conducts", "was conducted", "is conducting"],
         "ans": 0,
-        "zh": "致全體同仁：依據本公司資訊安全政策，年度資安意識認證「必須」由每位員工（含約聘與兼職人員）於8月31日前「完成」。",
-        "why": "主詞 the certification 是「被完成」的對象，須用被動語態，搭配政策強制性選 <b>must be completed</b>。must complete 為主動語態，認證不會自己完成任何事；has completed 與 is completing 同樣是主動語態且缺乏「規定要求」的情態語意，文法與語境皆不合。"
+        "zh": "致各部門主管與倉儲同仁：年度實地盤點「將於」8月28日（週五）至8月30日（週日）在三座配送中心「舉行」，期間不得收貨、揀貨或出貨。",
+        "why": "主詞 the annual physical inventory count 是「被執行」的活動，須用被動語態；8月底才進行，須用未來式，故選 <b>will be conducted</b>。conducts 與 is conducting 為主動語態，盤點不會自行執行；was conducted 為過去式被動，與未來時程矛盾。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["Please note that", "On the other hand", "To that end", "By way of example"],
+        "opts": ["With this in mind", "Be that as it may", "To the contrary", "As luck would have it"],
         "ans": 0,
-        "zh": "「請注意」，凡於期限前未完成認證者，其系統存取權限將自動停用，直到完成認證為止。",
-        "why": "本句是對「未完成認證的後果」提出警示，用 <b>Please note that</b>（請注意）引導最為自然，符合公告的提醒語氣。On the other hand（另一方面）表對比；To that end（為達此目的）表目的承接，但停權是後果而非達成認證的手段；By way of example（舉例來說）表舉例，皆與警示語境不符。"
+        "zh": "「有鑑於此」，面對客戶的團隊應於本週告知客戶：8月26日（週三）之後成立的訂單，最快須待8月31日（週一）才會出貨。",
+        "why": "前句說明盤點期間暫停出貨，本句要求客服團隊「基於這項安排」預先通知客戶，故選 <b>With this in mind</b>（有鑑於此）。Be that as it may（即便如此）表讓步；To the contrary（恰恰相反）表反駁；As luck would have it（碰巧）表偶然，皆與「依據前述安排採取行動」的邏輯不符。"
       },
       {
-        "tag": "詞彙語意（形容詞）",
+        "tag": "詞彙語意（分詞）",
         "col1": true,
-        "opts": ["prevalent", "obsolete", "lucrative", "voluntary"],
+        "opts": ["verifying", "dispatching", "auditing themselves", "estimating"],
         "ans": 0,
-        "zh": "今年的課程特別著重於辨識帳號釣魚攻擊——這是過去十二個月內，我們產業所觀察到最「猖獗」的攻擊手法。",
-        "why": "<b>prevalent</b>（盛行的、普遍存在的）修飾 attack vector，符合「過去一年最常見攻擊手法」的資安語境。obsolete（過時的）語意相反，過時的手法不需特別加強訓練；lucrative（有利可圖的）多形容生意或市場；voluntary（自願的）與攻擊手法搭配不通。"
+        "zh": "盤點小組將兩人一組作業：一人負責清點，另一人獨立「核對」每筆盤點數字與倉儲管理系統的紀錄，差異數才會往上呈報。",
+        "why": "<b>verifying</b>（核對、驗證）精準描述第二位成員「將盤點結果與系統紀錄交叉核對」的職責，符合雙人互核的內控設計。dispatching（發貨）與盤點期間停止出貨矛盾；auditing themselves 反身用法錯誤且違背獨立核對原則；estimating（估算）與實地盤點要求精確清點的目的相反。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "The certification consists of three short modules and a final quiz, requiring roughly forty minutes in total.",
-          "The cafeteria will extend its breakfast hours starting next Monday.",
-          "Congratulations to this quarter's employee-referral award recipients.",
-          "Office supply orders placed after Thursday will be delivered the following week."
+          "Handheld scanners and pre-printed count sheets will be distributed at each site's briefing session on Thursday 27 August.",
+          "The staff badminton tournament finals have been rescheduled to mid-September.",
+          "Congratulations to the logistics team on achieving one full year without a lost-time incident.",
+          "The employee parking lot will be repaved during the first week of October."
         ],
         "ans": 0,
-        "zh": "「本認證包含三個簡短單元與一份總測驗，全程約需四十分鐘。」主管可透過法遵儀表板即時追蹤團隊的完成狀況。",
-        "why": "段落主題為「年度資安認證提醒」，此句補充認證的實際內容與所需時間，降低員工的完成門檻，並與後句「主管可追蹤完成狀況」自然銜接。其餘選項（餐廳時段、推薦獎、文具訂購）皆與資安認證無關，插入後語意斷裂。"
+        "zh": "「手持掃描器與預印盤點表將於8月27日（週四）各據點的行前說明會上發放。」最終核對完成的數字將於9月4日前送交財務部門，供年度結算申報使用。",
+        "why": "段落主題為「年度盤點作業安排」，此句補上盤點工具的發放時間與行前說明會，與前段「雙人盤點流程」及後句「數字送交財務」構成完整的作業時序。其餘選項（羽球賽、工安紀錄、停車場翻修）皆與盤點主題無關，插入後語意斷裂。"
       }
     ]
   }
