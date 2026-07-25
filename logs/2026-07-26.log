@@ -1,0 +1,17 @@
+=== Sun Jul 26 06:49:44 CST 2026 | Starting daily AI report ===
+Warning: no stdin data received in 3s, proceeding without it. If piping from a slow command, redirect stdin explicitly: < /dev/null to skip, or wait longer.
+Failed to authenticate. API Error: 401 OAuth access token has expired. Re-authenticate to continue.
+--- AI report finished at Sun Jul 26 06:49:50 CST 2026 ---
+=== Sun Jul 26 06:49:50 CST 2026 | Starting daily finance report ===
+Warning: no stdin data received in 3s, proceeding without it. If piping from a slow command, redirect stdin explicitly: < /dev/null to skip, or wait longer.
+Failed to authenticate. API Error: 401 OAuth access token has expired. Re-authenticate to continue.
+--- Finance report finished at Sun Jul 26 06:49:56 CST 2026 ---
+=== Sun Jul 26 06:49:56 CST 2026 | Generating daily quote ===
+Warning: no stdin data received in 3s, proceeding without it. If piping from a slow command, redirect stdin explicitly: < /dev/null to skip, or wait longer.
+Failed to authenticate. API Error: 401 OAuth access token has expired. Re-authenticate to continue.
+--- Daily quote finished at Sun Jul 26 06:50:03 CST 2026 ---
+=== Sun Jul 26 06:50:03 CST 2026 | Checking TOEIC questions ===
+Generating new TOEIC questions for 2026-07-26...
+Warning: no stdin data received in 3s, proceeding without it. If piping from a slow command, redirect stdin explicitly: < /dev/null to skip, or wait longer.
+Failed to authenticate. API Error: 401 OAuth access token has expired. Re-authenticate to continue.
+--- TOEIC generation finished at Sun Jul 26 06:50:09 CST 2026 ---
