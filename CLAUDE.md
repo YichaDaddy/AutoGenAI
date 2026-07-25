@@ -27,3 +27,35 @@
 
 修改或新增 `v3/index.html` 的 UI/UX 之前，先讀 `skills/frontend-design/DASHBOARD_CONVENTIONS.md`——
 裡面記錄了已經鎖定的配色/圓角/陰影系統，以及和用戶討論定案的互動習慣（opt-in 而非自動判斷、延後揭曉答案、輔助資訊預設收合、跨裝置同步尊重既有進度等）。新功能應該融入既有視覺語言，不要另起一套。
+
+## 自動化排程與系統故障診斷 CheckList
+
+排查「日報停更」或「自動化排程失效」時，必須嚴格遵守以下驗證順序，切勿憑單一本機測試結果做結論：
+
+1. **先確認真實的數據管線 (Data Pipeline)**：
+   - 檢查 Git Commit 作者（7 月起日報主要由雲端 Routine 執行，Commit Author 為 `Claude <noreply@anthropic.com>`）。
+   - 本機 `run_daily.sh` / `launchd` 檔為已退役的備援路徑，非主要運作管線。
+
+2. **時間軸與日誌交叉比對 (歷史數據鏈驗證)**：
+   - 務必先比對 `logs/` 目錄的歷史日誌檔案時間。若發現數週完全沒有本機日誌但 Git 依然每日有 commit，代表本機路徑早已未在使用。
+   - **嚴禁將手動測試本機舊腳本拋出的錯誤 (如 401 OAuth token expired) 誤診為雲端停更的原因**。
+
+3. **雲端 Routine 中斷的正確處置**：
+   - 若 GitHub 近期沒有新 commit，主因是雲端 Routine 停擺，應引導至 Claude 控制台重新啟動/觸發雲端 Routine，毋須更動本機已停用的 `launchd` 設定。
+
+
+## 自動化排程與系統故障診斷 CheckList
+
+排查「日報停更」或「自動化排程失效」時，必須嚴格遵守以下驗證順序，切勿憑單一本機測試結果做結論：
+
+1. **先確認真實的數據管線 (Data Pipeline)**：
+   - 檢查 Git Commit 作者（7 月起日報主要由雲端 Routine 執行，Commit Author 為 `Claude <noreply@anthropic.com>`）。
+   - 本機 `run_daily.sh` / `launchd` 檔為已退役的備援路徑，非主要運作管線。
+
+2. **時間軸與日誌交叉比對 (歷史數據鏈驗證)**：
+   - 務必先比對 `logs/` 目錄的歷史日誌檔案時間。若發現數週完全沒有本機日誌但 Git 依然每日有 commit，代表本機路徑早已未在使用。
+   - **嚴禁將手動測試本機舊腳本拋出的錯誤 (如 401 OAuth token expired) 誤診為雲端停更的原因**。
+
+3. **雲端 Routine 中斷的正確處置**：
+   - 若 GitHub 近期沒有新 commit，主因是雲端 Routine 停擺，應引導至 Claude 控制台重新啟動/觸發雲端 Routine，毋須更動本機已停用的 `launchd` 設定。
+
