@@ -1,117 +1,117 @@
 {
-  "date": "2026-07-26",
+  "date": "2026-07-27",
   "p5": [
     {
-      "id": "2026-07-26-p5-0",
-      "tag": "So + 形容詞倒裝",
+      "id": "2026-07-27-p5-0",
+      "tag": "假設語氣（Suppose/Supposing 引導）",
       "pre": "",
-      "post": " was the disruption to the settlement system that the exchange extended trading reconciliation deadlines for three consecutive sessions.",
-      "opts": ["So severe", "Such severe", "Very severe", "As severe"],
+      "post": " the counterparty were to declare insolvency before the settlement date, the clearing house would still guarantee full payment to the non-defaulting party.",
+      "opts": ["Suppose", "Supposed", "Supposing that if", "As supposed"],
       "ans": 0,
-      "zh": "結算系統受到的干擾「如此嚴重」，以致交易所連續三個交易日延長了交易對帳的截止時間。",
-      "why": "「<b>So + 形容詞</b> + be動詞 + 主詞 + that...」為強調程度的倒裝結構（= The disruption was so severe that...）。Such 須接名詞（Such was the disruption that...），接形容詞+單獨 be 倒裝不合文法；Very severe 與 As severe 皆不能觸發倒裝，也無法與後方 that 子句構成「如此…以致」結構。"
+      "zh": "「假設」交易對手在結算日之前宣告破產，結算所仍將對未違約的一方保證全額給付。",
+      "why": "<b>Suppose</b>（= If，假設）為正式書面中可獨立引導假設語氣子句的連接詞，後接 were to（表較不可能的未來假設）。Supposed 為過去分詞形容詞，不能引導子句；Supposing that if 疊床架屋，that 與 if 重複；As supposed 語意與結構皆不通。"
     },
     {
-      "id": "2026-07-26-p5-1",
-      "tag": "完成式否定分詞構句",
+      "id": "2026-07-27-p5-1",
+      "tag": "分詞構句（獨立主格）",
       "pre": "",
-      "post": " a satisfactory response to two written inquiries, the pension regulator escalated the matter to a formal enforcement action.",
-      "opts": ["Not having received", "Not receiving", "Having not received", "Without received"],
+      "post": " unresolved, the two directors agreed to submit the valuation dispute to a neutral third-party appraiser.",
+      "opts": ["The negotiations having remained", "The negotiations remained", "Remaining the negotiations", "Having the negotiations remained"],
       "ans": 0,
-      "zh": "由於兩度發函詢問均未獲得滿意回覆，退休金監管機關遂將此案升級為正式的執法行動。",
-      "why": "分詞構句的否定詞須置於分詞之前，且「未獲回覆」發生在「升級執法」之前，須用完成式分詞：<b>Not having received</b>。Not receiving 缺少完成式，無法表達動作先後；Having not received 的否定詞位置錯誤（not 應在 having 之前）；Without received 文法錯誤（without 後須接動名詞 receiving）。"
+      "zh": "由於協商始終未能達成共識，兩位董事同意將這起估值爭議提交予中立的第三方鑑價人。",
+      "why": "此句主詞（negotiations）與主要子句主詞（two directors）不同，須用「獨立主格」分詞構句：名詞＋分詞。「協商未解決」發生在「同意提交鑑價」之前，須用完成式分詞 <b>The negotiations having remained</b>。The negotiations remained 為完整子句而非分詞構句，前後兩句間缺連接詞；Remaining the negotiations 與 Having the negotiations remained 語序皆錯誤。"
     },
     {
-      "id": "2026-07-26-p5-2",
-      "tag": "讓步介系詞（For all）",
+      "id": "2026-07-27-p5-2",
+      "tag": "強調句型（It is... that）",
       "pre": "",
-      "post": " its sophisticated hedging algorithms, the fund failed to anticipate the currency dislocation that followed the surprise rate decision.",
-      "opts": ["For all", "Except for", "Thanks to", "In view of"],
+      "post": " the manufacturing defect, rather than driver error, that investigators ultimately identified as the proximate cause of the recall.",
+      "opts": ["It was", "There was", "This was", "That was"],
       "ans": 0,
-      "zh": "「儘管擁有」精密的避險演算法，該基金仍未能預見這次意外利率決策後出現的匯率錯位。",
-      "why": "<b>For all</b> + 名詞（儘管有…）為正式讓步介系詞片語，與主句「仍然失敗」形成讓步對比。Except for（除了…之外）表排除；Thanks to（多虧）表正面歸因，與「失敗」的結果矛盾；In view of（有鑑於）表原因，語意變成「因為演算法精密所以失敗」，邏輯不通。"
+      "zh": "調查人員最終認定的直接肇因，「正是」製造瑕疵，而非駕駛失誤。",
+      "why": "<b>It is/was...that...</b> 為強調句型固定結構，用來強調被移到句首的成分（此處強調 the manufacturing defect）。There was 表存在句，語意不符；This was 與 That was 雖文法上可成立獨立句，但無法與句尾的 that investigators identified 構成強調句的呼應結構。"
     },
     {
-      "id": "2026-07-26-p5-3",
+      "id": "2026-07-27-p5-3",
       "tag": "進階動詞語意辨別",
-      "pre": "Under the consortium agreement, any losses arising from the joint venture shall be ",
-      "post": " among the members in proportion to their respective capital contributions.",
-      "opts": ["apportioned", "dispersed", "liquidated", "conceded"],
+      "pre": "The escrow agent is contractually obligated to ",
+      "post": " the funds only upon receipt of written confirmation from both parties that all closing conditions have been satisfied.",
+      "opts": ["disburse", "allocate", "circulate", "dispense with"],
       "ans": 0,
-      "zh": "依聯貸團協議，合資事業所生的任何虧損，應按各成員出資比例予以「分攤」。",
-      "why": "<b>apportion</b>（按比例分攤、分配）為法律與財務文件標準用語，與 among the members in proportion to 的搭配完全吻合。dispersed（驅散、使分散）不用於責任分配；liquidated（清算）語意為變現結束而非分攤；conceded（讓步承認）與虧損分配無關。"
+      "zh": "履約保證代理人依契約義務，僅能在收到雙方書面確認所有交割條件均已滿足後，「撥付」該筆款項。",
+      "why": "<b>disburse</b>（正式撥款、支付款項）為金融與法律文件描述資金釋出的標準用語，精準對應 escrow funds 的情境。allocate（分配、劃撥用途）語意偏配置而非實際撥付；circulate（流通、傳閱）用於文件或貨幣流通概念；dispense with（省去、免除）語意完全相反，變成「省略這筆款項」。"
     },
     {
-      "id": "2026-07-26-p5-4",
-      "tag": "關係副詞（in cases where）",
-      "pre": "The arbitration panel may award expedited relief in cases ",
-      "post": " delay would render the eventual judgment practically unenforceable.",
-      "opts": ["where", "which", "that", "whose"],
+      "id": "2026-07-27-p5-4",
+      "tag": "同級比較否定（not so much A as B）",
+      "pre": "The board's decision reflected ",
+      "post": " a lack of confidence in current management as a broader strategic pivot toward recurring-revenue business lines.",
+      "opts": ["not so much", "not as much as", "no less than", "not only"],
       "ans": 0,
-      "zh": "在延遲將導致最終裁決實際上無法執行的「情況下」，仲裁庭得裁定加速救濟。",
-      "why": "先行詞 cases（情況）後接完整子句（delay would render...），須用關係副詞 <b>where</b>（= in which），in cases where 為法律文書固定用法。which 與 that 為關係代名詞，須在子句中充當主詞或受詞，但子句結構已完整；whose 為所有格，後須直接接名詞。"
+      "zh": "董事會的這項決定，與其說是反映對現任管理層缺乏信心，「不如說」更是反映了公司朝向經常性收入業務轉型的更大策略布局。",
+      "why": "<b>not so much A as B</b>（與其說是A，不如說是B）為固定比較結構，強調 B 才是更貼切的解釋。not as much as 語序與用法錯誤（正確應為 not so much...as）；no less than（不亞於、多達）語意不符；not only 須搭配 but also，且不表達「與其說…不如說」的對比修正語意。"
     }
   ],
   "p6": {
-    "id": "2026-07-26-p6",
-    "title": "NOTICE: Building Access System Upgrade — New Badges Required",
+    "id": "2026-07-27-p6",
+    "title": "MEMO: New Expense-Report Approval Workflow Effective October 1",
     "seg": [
       [
-        "To all staff and resident contractors: The building's card-access system ",
+        "To all budget holders: Beginning 1 October, expense reports exceeding NT$50,000 ",
         { "b": 0 },
-        " to a contactless smart-badge platform over the weekend of 12–13 September, after which the current magnetic-stripe badges will no longer open any secured door."
+        " a second-level approval from the relevant division director before reimbursement can be processed, in addition to the existing direct-supervisor sign-off."
       ],
       [
         { "b": 1 },
-        ", all personnel must collect their new badges from the security office between 1 and 10 September, bringing a government-issued photo ID for identity verification."
+        ", the finance department anticipates that average processing time for large reports will lengthen from three to five business days during the initial rollout period."
       ],
       [
-        "Badge photographs taken more than five years ago are considered ",
+        "Budget holders are encouraged to submit high-value reports as early as possible and to ensure that all supporting documentation is ",
         { "b": 2 },
-        " and must be retaken at the security office at the time of collection, a process that adds roughly five minutes per person."
+        " attached at the time of submission, since incomplete filings will be returned rather than held in queue."
       ],
       [
         { "b": 3 },
-        " Visitors will continue to use the reception-desk kiosk, which is unaffected by this upgrade."
+        " A recorded walkthrough of the updated submission process is available on the finance intranet page."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["will be migrated", "migrates", "has migrated", "is migrating itself"],
+        "opts": ["will require", "require", "have required", "are requiring"],
         "ans": 0,
-        "zh": "致全體同仁與常駐承包商：大樓門禁卡系統「將於」9月12–13日週末「移轉」至非接觸式智慧識別證平台，屆時現行磁條識別證將無法再開啟任何管制門。",
-        "why": "主詞 the card-access system 是「被移轉」的對象，須用被動語態；9月中旬才進行，須用未來式，故選 <b>will be migrated</b>。migrates 現在式主動與未來時點矛盾；has migrated 表已完成，與公告預告語境不符；is migrating itself 反身用法生硬且不合商務文體。"
+        "zh": "致各預算主管：自10月1日起，超過新台幣5萬元的費用報告，除現行直屬主管簽核外，「將需」在核銷前另取得相關事業部總監的二階核准。",
+        "why": "「Beginning 1 October」點出規定於未來生效，須用未來式 <b>will require</b>。require 為現在式，與尚未生效的未來時點不符；have required 為現在完成式，暗示規定已實施過；are requiring 為現在進行式，皆不符合「10月起生效」的公告語境。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["To avoid disruption", "On the contrary", "As it happens", "In any event"],
+        "opts": ["As a result", "In hindsight", "By all accounts", "For that matter"],
         "ans": 0,
-        "zh": "「為避免出入受阻」，全體人員務必於9月1日至10日期間，攜帶政府核發的附照片身分證件，至警衛室領取新識別證並核驗身分。",
-        "why": "前句說明舊卡將於升級後失效，本句要求提前領取新卡，目的正是「避免屆時無法進出」，故選 <b>To avoid disruption</b>（為避免出入受阻）。On the contrary（正相反）表反駁；As it happens（碰巧）表巧合；In any event（無論如何）表讓步總結，皆與「預作準備以避免問題」的邏輯不符。"
+        "zh": "「因此」，財務部門預期在新制上路初期，大額報告的平均處理時間將由三個工作天延長至五個工作天。",
+        "why": "前句說明新增二階核准的規定，本句承接說明「因此」處理時間將因此拉長，兩句為因果承接，故選 <b>As a result</b>。In hindsight（事後回顧）表回顧過去；By all accounts（據各方說法）表引述評價；For that matter（就此而言）表補充延伸，皆與此處的因果邏輯不合。"
       },
       {
         "tag": "詞彙語意（形容詞）",
         "col1": true,
-        "opts": ["outdated", "redundant", "provisional", "counterfeit"],
+        "opts": ["properly", "reluctantly", "temporarily", "excessively"],
         "ans": 0,
-        "zh": "五年以上的識別證照片視為「過時」，領取新卡時須在警衛室重新拍攝，每人約多花五分鐘。",
-        "why": "<b>outdated</b>（過時的、不再反映現況的）精準對應「超過五年的照片已與本人現貌不符」的語境。redundant（多餘的）指重複不必要；provisional（暫時性的）指臨時安排；counterfeit（偽造的）指假冒文件，皆與「照片太舊需重拍」的語意不合。"
+        "zh": "各預算主管應盡早提交高金額報告，並確保送出時已「妥善」檢附所有佐證文件，因為文件不齊者將被退回而非留待補件。",
+        "why": "<b>properly</b>（妥善地、依規定地）修飾 attached，符合「文件須依規定完整檢附」的語境，且與後文「不齊者退回」形成邏輯呼應。reluctantly（不情願地）、temporarily（暫時地）、excessively（過度地）皆無法合理修飾「文件檢附」這個動作，語意不通。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Departments with shift workers may arrange group collection slots by emailing the security office in advance.",
-          "The rooftop garden will host a farmers' market on the last Friday of every month.",
-          "Quarterly fire-drill participation rates will be published in the next newsletter.",
-          "The parking garage's electric-vehicle chargers will double in number by December."
+          "A checklist of commonly required supporting documents by expense category has also been posted alongside the walkthrough.",
+          "The company picnic originally scheduled for October has been moved indoors due to weather concerns.",
+          "Employees celebrating a work anniversary this quarter will receive a small gift from HR.",
+          "The finance department's new hires will begin onboarding in the second week of October."
         ],
         "ans": 0,
-        "zh": "「輪班部門可事先致信警衛室，安排團體領卡時段。」訪客則維持使用接待櫃檯的訪客機，不受本次升級影響。",
-        "why": "段落主題為「識別證換發作業」，此句為輪班人員補充團體領卡的彈性安排，延續前段「領卡時段與流程」的主題，並與後句「訪客不受影響」共同收尾。其餘選項（農夫市集、消防演練、充電樁）皆與門禁升級無關，插入後語意斷裂。"
+        "zh": "「一份依費用類別分類的常見所需佐證文件檢查清單，也已與教學影片一併公布。」感謝各位配合，共同讓新制上路更加順利。",
+        "why": "段落主題為「費用報告核准新制」，此句補充實用的檢查清單資源，與前句「教學影片已上架」直接呼應（alongside the walkthrough 指涉前句提及的影片）。其餘選項（野餐活動、周年禮物、新人到職）皆與費用核准流程無關，插入後語意斷裂。"
       }
     ]
   }
