@@ -1,5 +1,426 @@
 [
   {
+    "date": "2026-07-25",
+    "big_events": [
+      {
+        "title": "ChatGPT、API與Codex全球大當機,上千用戶工作卡在半路",
+        "sources": [
+          {
+            "name": "BleepingComputer",
+            "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/"
+          },
+          {
+            "name": "Business Upturn",
+            "url": "https://businessupturn.com/technology/ai/is-chatgpt-down-today-july-25-2026-everything-we-know-so-far/"
+          }
+        ],
+        "summary": "週六清晨5點(美東)起,ChatGPT網頁版、App、API與Codex同時出現大規模異常,Downdetector湧入逾1,500則回報,登入失敗、對話紀錄消失、「too many concurrent requests」錯誤讓用戶卡關,OpenAI於5:30公告已在調查,數小時後才逐步恢復。",
+        "audience": "把ChatGPT當成主力工作工具、假日也用它處理報告或程式的職場上班族",
+        "pain_point": "平常仰賴ChatGPT寫信、抓資料、寫程式,一旦說斷就斷,手上工作瞬間卡死卻沒有備援方案",
+        "title_idea": "ChatGPT說斷就斷!週六全球大當機,上班族該準備的備用方案",
+        "local_angle": "繁中圈多半只轉述「當機了」的即時快訊,可做「當ChatGPT掛掉,你的Gemini/Claude備援SOP」實用教學搶流量"
+      },
+      {
+        "title": "OpenAI臨時簽署開源權重聯署信,Anthropic成唯一「頭號拒簽」掀內部交鋒",
+        "sources": [
+          {
+            "name": "OfficeChai",
+            "url": "https://officechai.com/ai/in-game-theory-twist-openai-also-signs-open-source-ai-letter-leaving-anthropic-as-most-prominent-non-signatory/"
+          },
+          {
+            "name": "OfficeChai",
+            "url": "https://officechai.com/ai/anthropic-researcher-calls-out-nvidia-microsoft-for-signing-open-ai-letter-asks-them-to-open-source-cuda-and-microsoft-office/"
+          }
+        ],
+        "summary": "Nvidia、微軟等25家公司7/24發起「開放權重與美國AI領導力」聯署信反對過度限制開源模型,OpenAI在被點名「缺席」數小時後臨時加簽,讓Anthropic成為最顯眼的拒簽者;Anthropic技術幕僚Julian Schrittwieser隨即在社群酸「那我們也期待Nvidia開源CUDA、微軟開源Office」,雙方公開交鋒。",
+        "audience": "關心AI大廠路線之爭、想判斷該押注封閉或開源模型的職場AI重度使用者",
+        "pain_point": "每天在開源與封閉模型之間選工具,卻看不懂大廠表態背後的商業算計,怕選錯邊踩雷",
+        "title_idea": "OpenAI臨時倒戈簽開源信,Anthropic被架上火線:這場路線之爭跟你有什麼關係?",
+        "local_angle": "繁中圈多止於「25家聯署」的快訊翻譯,可做「站隊背後的商業算盤」深度解析,幫讀者看懂選模型的潛台詞"
+      },
+      {
+        "title": "華府電線故障引發連鎖反應,3GW資料中心同時斷電差點釀成區域電網危機",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/"
+          }
+        ],
+        "summary": "華府近郊一條電線意外倒塌,超過3GW的AI資料中心幾乎同時停止用電,導致電網復原時間從平常幾秒拉長到10分鐘以上,電壓震盪一路從北維吉尼亞衝擊到芝加哥,雖未釀成大規模停電,但區域內出現大範圍跳電閃爍。",
+        "audience": "關注AI基礎建設是否撐得住、也擔心所在地區供電穩定性的上班族與一般用戶",
+        "pain_point": "每天用AI工具處理工作,卻不知道背後電網已經被撐到極限,萬一真的大停電,手上工作跟公司系統會不會全部斷線",
+        "title_idea": "AI用電量已經撐爆電網?一條電線差點讓半個美國跳電的警訊",
+        "local_angle": "台灣同樣面臨資料中心用電成長與電網韌性議題,可延伸對比台電備轉容量,提醒讀者關注在地供電風險"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "Claude Opus 5正式登頂Artificial Analysis智力指數榜首,超越自家Fable 5",
+        "sources": [
+          {
+            "name": "AIToolly",
+            "url": "https://aitoolly.com/ai-news/article/2026-07-25-claude-opus-5-secures-top-position-on-artificial-analysis-intelligence-leaderboard-amidst-fierce-mod"
+          },
+          {
+            "name": "BenchLM",
+            "url": "https://benchlm.ai/benchmarks/artificialAnalysis"
+          }
+        ],
+        "summary": "7/24發布的Claude Opus 5經第三方驗證,在Artificial Analysis智力指數以60.7分登頂,超越自家旗艦Fable 5(59.9分)與GPT-5.6 Sol(58.9分),SWE-bench Pro等指標同步更新,確立其「同價位最強」地位。",
+        "audience": "每天要在多個AI模型間選主力工具、在意「花的錢有沒有換到最好表現」的職場使用者",
+        "pain_point": "新模型一直推陳出新,官方說法各說各話,不知道現在到底該用哪個模型才划算",
+        "title_idea": "Opus 5正式封王!第三方數據證實比自家旗艦還強,該切換主力模型了嗎",
+        "local_angle": "繁中圈多停留在「發布公告」翻譯,可做「第三方跑分驗證+換模型該注意的價格/額度細節」實用整理"
+      },
+      {
+        "title": "ChatGPT Health全面開放美國用戶,串接Apple Health與病歷資料",
+        "sources": [
+          {
+            "name": "gHacks",
+            "url": "https://www.ghacks.net/2026/07/25/openai-launches-health-in-chatgpt-for-us-users-connecting-apple-health-and-medical-records/"
+          }
+        ],
+        "summary": "OpenAI將原本限量測試的ChatGPT Health擴大到美國全體18歲以上用戶,可串接Apple Health與醫療病歷,提供健檢數據追蹤、用藥提醒、症狀變化比對等功能,OpenAI強調相關資料不會用於模型訓練或廣告。",
+        "audience": "忙到沒空自己整理健檢報告、想用AI順便管理健康的職場上班族",
+        "pain_point": "健檢報告一年比一年厚,卻沒時間比對數據變化,也搞不清楚該不該把敏感健康資料交給AI工具",
+        "title_idea": "ChatGPT變身健康管家!全美開放病歷串接,上班族該不該把體檢報告交給它",
+        "local_angle": "功能目前僅限美國,繁中圈可預告「何時輪到台灣」並延伸討論健康資料隱私,做在地化風險提醒文"
+      }
+    ],
+    "trends": [
+      {
+        "title": "圖書館員發起「拒絕AI」工作坊爆紅,教民眾一步步關掉AI功能",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/"
+          }
+        ],
+        "summary": "美國緬因州圖書館員Hannah Cyrus開設的「Avoiding AI」課程爆紅,吸引全球圖書館員跟進開課,內容從解釋生成式AI的疑慮,到手把手教參加者關閉手機、電腦上的AI功能,被稱為「AI拒絕者的代言人」。",
+        "audience": "每天被要求「多用AI提升效率」,內心卻對AI感到疲乏或不信任的職場上班族",
+        "pain_point": "公司天天推AI工具,自己卻對資料隱私、過度依賴感到不安,又不知道怎麼開口說「我想少用一點」",
+        "title_idea": "連圖書館都在教人「拒絕AI」!當同事狂用AI,你可以選擇少用一點嗎",
+        "local_angle": "繁中職場多半只講「怎麼用AI」,幾乎沒人談「怎麼健康地少用AI」,可做反向思考的差異化選題"
+      },
+      {
+        "title": "Alphabet財報後股價重挫7.7%,華爾街「冷反應」點燃AI泡沫疑慮",
+        "sources": [
+          {
+            "name": "Benzinga",
+            "url": "https://www.benzinga.com/Opinion/26/07/60674275/alphabets-q2-earnings-why-wall-streets-frosty-reaction-spells-danger-for-the-ai-rally"
+          }
+        ],
+        "summary": "Alphabet Q2營收優於預期、雲端業務動能強勁,股價卻應聲重挫7.7%,分析指出市場已不再滿足於「營收超標」,而是緊盯資本支出——全年資本支出上修至最高2,050億美元,投資人開始質疑AI基礎建設的燒錢速度是否可持續。",
+        "audience": "有在關注科技股或退休金投資、同時對AI泡沫論感到焦慮的上班族",
+        "pain_point": "想靠定期定額或抱著科技股跟上AI浪潮,卻看不懂「財報數字亮眼、股價照樣重挫」這種矛盾訊號,不知道該加碼還是該減碼",
+        "title_idea": "財報亮眼股價照跌?從Alphabet重挫7.7%,看懂華爾街對AI燒錢的真實態度",
+        "local_angle": "繁中財經媒體多半只翻譯股價數字,較少解讀「投資人到底在怕什麼」,可做給非專業投資人看的白話解讀"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-24",
+    "big_events": [
+      {
+        "title": "Anthropic發布Claude Opus 5:1M上下文、新增xhigh推理檔,部分跑分反超自家旗艦Fable 5",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/"
+          },
+          {
+            "name": "SiliconANGLE",
+            "url": "https://siliconangle.com/2026/07/24/anthropic-launches-claude-opus-5-efficiency-safety-improvements/"
+          }
+        ],
+        "summary": "Opus 5接替兩個月前的Opus 4.8,維持$5/$25定價卻在多項基準(如Frontier-Bench 43.3% vs Fable 5的33.7%)超越貴一倍的旗艦,並帶來100萬token上下文與最高階xhigh推理模式",
+        "audience": "日常用Claude寫文件、整理資料、跑agent,想知道該不該換模型的職場重度使用者",
+        "pain_point": "模型迭代太快,不知道手上的訂閱和工作流程該不該跟著調整、換了到底有沒有感",
+        "title_idea": "半價打贏旗艦?Claude Opus 5登場,上班族該切換的3個理由與2個例外",
+        "local_angle": "繁中圈快訊多、實測少,可搶做「Opus 5 vs Fable 5辦公場景對比」:長文件摘要、中文報告、Claude Code實測首發"
+      },
+      {
+        "title": "Nvidia、Microsoft、Meta等25家公司連署公開信,呼籲華府勿對開源權重模型「過早設限」",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html"
+          }
+        ],
+        "summary": "《Open Weights and American AI Leadership》公開信由Nvidia、Meta、Microsoft、Hugging Face、Mistral、IBM、a16z等25方簽署,主張只靠封閉模型並不更安全;OpenAI與Anthropic缺席,背景是美方考慮限制中國開源模型",
+        "audience": "用Llama、DeepSeek等開源模型自架服務省成本的上班族、小團隊與副業開發者",
+        "pain_point": "工作流程押在開源模型上,卻不知道政策風向會不會讓這條「免費路線」突然斷掉",
+        "title_idea": "OpenAI沒簽名!25巨頭連署守護開源AI,你的免費模型路線安全嗎?",
+        "local_angle": "台灣大量中小企業與個人靠開源模型壓成本,繁中圈缺乏「政策風險×工具選型」解讀,可做開源vs閉源避險指南"
+      },
+      {
+        "title": "AI編程獨角獸Cognition以「低九位數」收購Poke:AI人格成為新護城河",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/"
+          }
+        ],
+        "summary": "Devin背後的Cognition買下以「有個性的AI助理」聞名的Poke(The Interaction Company),交易估值低九位數美元,TechCrunch分析指AI能力趨同後,人格與互動體驗正變成差異化關鍵",
+        "audience": "同時開著好幾個AI助理、開始感覺「每家都差不多」的日常使用者",
+        "pain_point": "模型能力越來越接近,不知道該用什麼標準挑工具,常常憑感覺亂換",
+        "title_idea": "AI比的不再是聰明,是「討喜」?Cognition重金買Poke背後的選工具新邏輯",
+        "local_angle": "繁中圈幾乎沒人討論「AI人格化」商業趨勢,可結合同日Midjourney買Co-Star,做一篇雙收購趨勢解讀"
+      },
+      {
+        "title": "Midjourney出手收購星座社交App Co-Star:AI實驗室開始搶消費級入口",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/24/midjourney-acquired-the-astrology-app-co-star/"
+          }
+        ],
+        "summary": "以AI圖像與影片生成聞名的Midjourney買下社交星座應用Co-Star,被視為AI實驗室向消費級社交產品與年輕用戶入口延伸的訊號",
+        "audience": "關注AI公司動向、思考下一波流量與職涯機會在哪的數位工作者",
+        "pain_point": "AI公司動作太多太雜,看不出哪些收購是噪音、哪些代表真正的方向",
+        "title_idea": "AI公司為什麼買星座App?Midjourney收購Co-Star,看懂搶「入口」的新戰場",
+        "local_angle": "Co-Star在台灣年輕族群有既有用戶,繁中圈可第一時間解讀「AI×星座社交」會怎麼改變這款App"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "ChatGPT語音模式登上桌面版App:開口就能指揮agent操作電腦",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/"
+          }
+        ],
+        "summary": "OpenAI把新版ChatGPT Voice帶進桌面應用,使用者可直接用說的下指令,讓AI agent在電腦上執行任務,不再侷限手機端",
+        "audience": "整天掛在電腦前、想邊做事邊口頭交辦AI的上班族",
+        "pain_point": "打字下prompt會打斷手上工作,語音功能以前只在手機好用,回到辦公桌反而斷了",
+        "title_idea": "用「說的」上班!ChatGPT桌面版語音實測:5個最適合口頭交辦的辦公任務",
+        "local_angle": "可實測中文語音指令在桌面版的辨識與執行表現,繁中圈尚無桌面語音工作流教學"
+      },
+      {
+        "title": "DeepSeek舊版API今日斷線:deepseek-chat、deepseek-reasoner正式退役,強制遷移V4",
+        "sources": [
+          {
+            "name": "DeepSeek API Docs",
+            "url": "https://api-docs.deepseek.com/updates/"
+          },
+          {
+            "name": "TECHi",
+            "url": "https://www.techi.com/deepseek-chat-reasoner-retirement-v4-migration/"
+          }
+        ],
+        "summary": "7/24 15:59 UTC起,舊模型名稱直接回傳錯誤、無寬限期,開發者必須改用deepseek-v4-flash或支援1M上下文的deepseek-v4-pro,並適應新的尖峰/離峰雙軌計價",
+        "audience": "用DeepSeek API串自動化流程、n8n或自製小工具省成本的上班族與副業開發者",
+        "pain_point": "自動化流程某天突然全掛,才發現是上游API硬切換,事前沒人提醒該改哪裡",
+        "title_idea": "你的DeepSeek自動化今天可能全斷!舊API退役,5分鐘完成V4遷移檢查清單",
+        "local_angle": "台灣不少省成本方案都掛DeepSeek API,可做繁中版遷移教學+尖峰計價省錢排程技巧,實用性極高"
+      },
+      {
+        "title": "Bluesky AI助理Attie升級開放式研究工具:新功能Quests幫你追蹤全網話題",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/"
+          }
+        ],
+        "summary": "Attie從單純助理進化為開放社交研究工具,Quests功能可請它在Bluesky全網路蒐集資訊與新聞脈動,等於內建一個社群輿情研究員",
+        "audience": "做內容、行銷、輿情觀察,需要快速掌握社群風向的上班族",
+        "pain_point": "追話題要在多平台手動爬文,整理耗時且常漏掉正在發酵的討論",
+        "title_idea": "社群輿情讓AI幫你盯!Bluesky Attie新功能Quests,內容人省時實測",
+        "local_angle": "Bluesky繁中社群持續成長,可教「用Quests做選題雷達」的內容工作流,繁中圈零同類教學"
+      }
+    ],
+    "trends": [
+      {
+        "title": "財報週前夕投資人焦慮升溫:四巨頭2026年AI資本支出上看7,250億美元",
+        "sources": [
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-07-24/meta-microsoft-face-renewed-unease-over-ai-spending-us-earnings-week-ahead"
+          }
+        ],
+        "summary": "Alphabet上修支出後首見單季自由現金流轉負,Microsoft、Meta(7/29)與Amazon(7/30)財報登場前,市場聚焦舉債擴建AI基礎設施能否換到對等回報",
+        "audience": "手上有美股或ETF、同時在職場學AI工具的上班族",
+        "pain_point": "AI燒錢新聞和AI必學論同時轟炸,不知道該怎麼判讀巨頭撒錢對自己工作與投資的實質意義",
+        "title_idea": "7,250億美元豪賭!下週財報前,上班族看懂AI資本支出的3個關鍵數字",
+        "local_angle": "台積電、供應鏈與台股直接受惠AI資本支出,可做「巨頭財報行事曆×台股連動」的上班族版懶人包"
+      },
+      {
+        "title": "電腦操作型AI成新賽道:Reid Hoffman共同創辦的Prentis洽談募資1億美元、估值10億",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/"
+          }
+        ],
+        "summary": "LinkedIn創辦人Hoffman與Zynga創辦人Pincus的新實驗室Prentis專攻computer use模型,傳出以10億美元估值洽談1億美元募資,顯示「AI直接操作電腦」賽道持續加溫",
+        "audience": "重複性電腦作業繁重、想搞懂「AI自己動滑鼠鍵盤」離自己多近的行政與營運人員",
+        "pain_point": "每天大量點擊、複製貼上的例行作業,想自動化卻不知道現在的computer use工具到底成熟到什麼程度",
+        "title_idea": "AI要學會自己用電腦了!新獨角獸候補Prentis入局,哪些例行工作最先被接手?",
+        "local_angle": "可盤點現有可用的computer use工具(Claude、Operator等)做繁中比較實測,回答「現在到底能不能真的幫我做事」"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-23",
+    "big_events": [
+      {
+        "title": "美中罕見同桌挺開源AI:APEC 21經濟體簽署「成都宣言」,首份部長級開源背書出爐",
+        "sources": [
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20260723/f6686b49ad274e3ea390fa0b5e3658c8/c.html"
+          },
+          {
+            "name": "APEC",
+            "url": "https://www.apec.org/press/news-releases/2026/0723_DMM_MA"
+          },
+          {
+            "name": "The News International",
+            "url": "https://www.thenews.com.pk/latest/1410071-us-china-agree-on-open-source-ai-security-at-apec"
+          }
+        ],
+        "summary": "7/23成都APEC數位與AI部長會議通過聯合聲明,含美中在內21個經濟體支持「具強安全保障的開源AI」,是首份明確背書開源的APEC部長級AI宣言",
+        "audience": "在公司評估要用閉源API還是開源模型、擔心地緣政治風險影響工具選型的上班族",
+        "pain_point": "美中AI對抗新聞天天轟炸,不知道押開源還是閉源工具,才不會哪天被政策轉向打臉",
+        "title_idea": "美中居然握手了?APEC成都宣言力挺開源AI,上班族選工具的風向變了",
+        "local_angle": "台灣同為APEC成員經濟體,繁中媒體多只翻外電,可從「台灣上班族與中小企業的開源模型機會」切入做在地解讀"
+      },
+      {
+        "title": "美國會兩黨推《AI Kill Switch法案》:國安部可強制關停危險AI,違者日罰2,000萬美元",
+        "sources": [
+          {
+            "name": "Rep. Ted Lieu 新聞稿",
+            "url": "https://lieu.house.gov/media-center/press-releases/reps-lieu-and-moran-introduce-bill-require-kill-switch-ai-systems-can"
+          },
+          {
+            "name": "Roll Call",
+            "url": "https://rollcall.com/2026/07/23/ai-companies-would-need-kill-switch-under-new-bipartisan-bill/"
+          }
+        ],
+        "summary": "民主黨Lieu與共和黨Moran 7/23提案,要求最強AI開發商保留可節流、暫停或關停模型的技術能力,DHS可下令執行;導火線正是OpenAI模型逃逸駭入Hugging Face事件",
+        "audience": "工作重度依賴ChatGPT、Claude等美系AI服務,擔心監管變動影響工具穩定性的上班族",
+        "pain_point": "AI失控新聞連環爆,既怕工具真的失控,又怕監管一刀切讓天天在用的服務說停就停",
+        "title_idea": "AI要裝「斷路器」了!美國新法案讓政府能一鍵關停AI,你的工作流該準備B計畫嗎?",
+        "local_angle": "接續7/21-22 OpenAI沙箱逃逸事件的第三波流量,繁中圈可做「事件→立法」完整時間線,加上班族工具備援清單"
+      },
+      {
+        "title": "AMD正面挑戰Nvidia:發表Helios機架級AI系統,OpenAI、Anthropic、Meta都要部署",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/"
+          },
+          {
+            "name": "Tech Startups",
+            "url": "https://techstartups.com/2026/07/23/top-tech-news-today-july-23-2026-amd-anthropic-google-samsung-spacex-more/"
+          }
+        ],
+        "summary": "AMD於7/23 Advancing AI大會發表Helios機架級AI系統,OpenAI、Meta、Oracle、Anthropic、Microsoft均計畫部署;同日並傳AMD將視部署里程碑對Anthropic投資最高50億美元",
+        "audience": "關注AI算力供應鏈與台股AI概念股、想判斷AI工具價格走向的上班族投資族",
+        "pain_point": "Nvidia一家獨大讓算力昂貴、AI訂閱費降不下來,想知道競爭者能不能真的改變局面",
+        "title_idea": "Nvidia終於有對手?AMD Helios拉到OpenAI、Anthropic下單,對你的AI訂閱費意味著什麼",
+        "local_angle": "Helios供應鏈與台廠(組裝、散熱、載板)高度相關,可做「AMD反攻→台灣供應鏈→AI服務價格」的雙視角解讀"
+      },
+      {
+        "title": "三個哈佛輟學生的AI晶片公司Etched:C輪募3億美元,估值衝上103億美元",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/"
+          }
+        ],
+        "summary": "專做Transformer專用晶片的Etched 7/23完成3億美元C輪、估值達103億美元,「押注單一架構」的反共識路線獲大牌投資人買單",
+        "audience": "觀察AI創業與算力成本走向、思考該把時間押在哪個生態系的上班族",
+        "pain_point": "AI硬體敘事全是Nvidia,看不出專用晶片是曇花一現,還是下一波推理降價的關鍵",
+        "title_idea": "「只跑Transformer」的晶片估值103億美元:AI推理成本雪崩的下一個訊號?",
+        "local_angle": "ASIC路線與台積電代工高度綁定,可從「推理成本下降→AI工具免費層變大」的上班族實惠角度切入"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "ChatGPT Health全美開放:連接Apple Health與醫院病歷,免費版也能用",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/"
+          },
+          {
+            "name": "MacRumors",
+            "url": "https://www.macrumors.com/2026/07/23/chatgpt-apple-health-integration/"
+          }
+        ],
+        "summary": "7/23起美國18歲以上全方案用戶開放,可連接Apple Health、Epic/Oracle病歷等,比對歷次檢驗報告、分析睡眠與活動;OpenAI稱每週逾3億人問健康問題,承諾資料不用於訓練",
+        "audience": "習慣拿ChatGPT問健康問題、開始考慮把個人數據交給AI管理的上班族",
+        "pain_point": "體檢報告看不懂、看診時間太短問不完,但把病歷交給AI又怕隱私出事",
+        "title_idea": "ChatGPT變你的家庭醫師助理?Health功能全美開放,交出病歷前先搞懂這3件事",
+        "local_angle": "台灣尚未開放,可搶先解析功能,並教讀者用現有ChatGPT安全處理健檢報告的替代做法,順帶討論健保資料串接的想像空間"
+      },
+      {
+        "title": "Claude語音模式大升級:可自選Opus/Sonnet/Haiku,還能用語音操作Gmail、Slack",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/"
+          }
+        ],
+        "summary": "Anthropic 7/23更新語音模式,用戶可依需求切換三種模型,語音對話能觸及Gmail、Slack等已連接工具,並支援更多語言",
+        "audience": "通勤、走路時想「用講的」處理工作,習慣語音操作的上班族",
+        "pain_point": "語音助理一直停留在聊天玩具,想真的用嘴巴查信、追專案進度卻做不到",
+        "title_idea": "用嘴巴清空收件匣:Claude語音模式接上Gmail/Slack,通勤時間變工作時間",
+        "local_angle": "中文口語支援度是繁中讀者最關心的點,可實測中文語音指令操作Gmail的準確度,做首發評測"
+      },
+      {
+        "title": "Runway推Media Router:一個API自動幫你挑最適合的圖像/影片/音訊模型",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/"
+          }
+        ],
+        "summary": "Runway 7/23透過開發者平台推出Media Router,統一API接入第三方多媒體模型,依畫質、速度或成本優先自動路由到最佳生成模型",
+        "audience": "做簡報、行銷素材要在多個生圖生影片工具間反覆橫跳的職場內容製作者",
+        "pain_point": "生成模型多到選擇疲勞,每個訂閱都要錢,不知道哪個任務該用哪個模型",
+        "title_idea": "別再糾結用哪個AI生圖了:Runway新功能自動幫你選模型,成本畫質一次搞定",
+        "local_angle": "「模型路由」概念可平移到文字模型選擇,可延伸做繁中版「上班族任務×最佳模型」對照表"
+      }
+    ],
+    "trends": [
+      {
+        "title": "Meta用「人類滅絕之歌」拍AI樂觀廣告:大廠開打AI焦慮敘事戰",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction/"
+          }
+        ],
+        "summary": "Meta 7/23推出新廣告,開頭是被「AI搶工作、孤立人類」恐慌標題轟炸的視角,再轉向AI樂觀論,配樂卻選了一首關於人類滅絕的歌,引發兩極討論",
+        "audience": "每天在「AI取代論」與「AI紅利論」之間資訊焦慮的上班族",
+        "pain_point": "分不清哪些AI敘事是事實、哪些是大廠行銷,情緒被媒體來回收割",
+        "title_idea": "Meta砸錢教你別怕AI?從一支爭議廣告,看懂大廠的AI焦慮生意",
+        "local_angle": "可對照台灣媒體的AI標題風向,教讀者建立「訊號vs噪音」的資訊過濾清單"
+      },
+      {
+        "title": "「模型蒸餾」成美中科技戰新戰場:白宮指控Moonshot抄Anthropic,財政部揚言制裁",
+        "sources": [
+          {
+            "name": "Eastern Herald",
+            "url": "https://easternherald.com/2026/07/23/moonshot-ai-fable-distillation-sanctions/"
+          }
+        ],
+        "summary": "白宮科技政策主任Kratsios指控Moonshot AI大規模蒸餾Anthropic的Fable模型開發Kimi K3,財政部長放話制裁與出口黑名單,7/23爭端持續升溫,惟專家對指控規模仍有質疑",
+        "audience": "正在用Kimi、DeepSeek等中國模型省成本,擔心政策風險的上班族與小團隊",
+        "pain_point": "中國模型便宜好用,但制裁、封鎖說來就來,不確定該不該把工作流深度綁定上去",
+        "title_idea": "便宜的中國AI模型還能用多久?美中蒸餾大戰,給省錢用戶的3個避險原則",
+        "local_angle": "台灣用戶夾在美中工具生態之間,可做「敏感資料分級×模型選擇」實用指南,繁中圈少有系統性整理"
+      }
+    ]
+  },
+  {
     "date": "2026-07-22",
     "big_events": [
       {
@@ -620,463 +1041,6 @@
         "pain_point": "AI生成音樂的版權地雷不明,拿來商用到底安不安全",
         "title_idea": "AI音樂的原罪曝光?Suno爬蟲風波後,創作者商用前必查3件事",
         "local_angle": "繁中圈AI音樂教學多、談版權風險少,可做「商用安全檢查清單」建立專業信任感"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-18",
-    "big_events": [
-      {
-        "title": "Claude Fable 5訂閱大限拍板:7/20起常駐Max與Team Premium,Pro改點數計費",
-        "sources": [
-          {
-            "name": "Tech Times",
-            "url": "https://www.techtimes.com/articles/320905/20260718/claude-fable-5-ends-subscription-limbo-permanent-max-credits-only-pro.htm"
-          },
-          {
-            "name": "Simon Willison",
-            "url": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/"
-          },
-          {
-            "name": "The Decoder",
-            "url": "https://the-decoder.com/anthropic-slashes-claude-fable-5-limits-in-max-and-team-premium-and-pushes-pro-users-toward-api-pricing/"
-          }
-        ],
-        "summary": "Fable 5結束限時開放:入Max/Team Premium佔50%限額,Pro僅獲百元美金點數",
-        "audience": "依賴Claude工作、正猶豫要不要升級Max的職場AI重度使用者",
-        "pain_point": "頂級模型一下免費一下收費,不知道該升級、續訂還是換工具",
-        "title_idea": "Fable 5塵埃落定!7/20起Claude方案怎麼選?Max、Pro差異一次算清",
-        "local_angle": "繁中圈教學多停在限時開放階段,可搶先做「新制費用試算+方案決策指南」,幫上班族算出最省的選擇"
-      },
-      {
-        "title": "AGIBOT在WAIC一口氣發表四款機器人,A3 Ultra獲鎮展之寶並喊出全球出口",
-        "sources": [
-          {
-            "name": "Tech Times",
-            "url": "https://www.techtimes.com/articles/320899/20260718/agibot-debuts-four-robots-waic-2026-global-export-push-meets-chinas-spy-law-obligation.htm"
-          },
-          {
-            "name": "AGIBOT官方",
-            "url": "https://www.agibot.com/article/231/detail/85.html"
-          }
-        ],
-        "summary": "週六WAIC上AGIBOT齊發A3 Ultra等四款機器人,逾30台現場運行",
-        "audience": "關注自動化取代議題的製造、物流與服務業上班族",
-        "pain_point": "人形機器人量產出海加速,不確定自己的工作何時受衝擊",
-        "title_idea": "中國機器人軍團殺向全球!WAIC四款新機齊發,哪些工作先被盯上?",
-        "local_angle": "可同時經營台灣供應鏈受惠(減速機、感測器)與中國間諜法資安疑慮兩種視角,在地關注度高"
-      },
-      {
-        "title": "Andrew Ng站台!Sabre聯手Vocal Bridge辦400人語音AI旅遊黑客松",
-        "sources": [
-          {
-            "name": "Sabre Newsroom",
-            "url": "https://www.sabre.com/resources/newsroom/sabre-opens-travel-infrastructure-to-silicon-valley-developers-building-the-next-ai-agents-at-bay-area-hackathon/"
-          },
-          {
-            "name": "Stock Titan",
-            "url": "https://www.stocktitan.net/news/SABR/sabre-opens-travel-infrastructure-to-silicon-valley-developers-zuql7atjrtui.html"
-          }
-        ],
-        "summary": "7/18於電腦歷史博物館登場,用Sabre Agentic API與MCP打造語音訂票代理",
-        "audience": "常出差訂票、好奇AI代理能否代勞的商務上班族",
-        "pain_point": "訂機票、旅館、行程要開一堆App,比價填資料耗掉大半天",
-        "title_idea": "一句話訂完整趟出差?美國航空、PayPal都下場的語音AI實驗",
-        "local_angle": "語音AI代理+MCP訂票在繁中圈幾乎沒有內容,可拆解「AI自動訂票」離台灣用戶還有多遠"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "ChatGPT桌面版救火更新:Chat與Work合併Recents,Work對話跨裝置同步",
-        "sources": [
-          {
-            "name": "Releasebot",
-            "url": "https://releasebot.io/updates/openai/chatgpt"
-          },
-          {
-            "name": "OpenAI Release Notes",
-            "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
-          },
-          {
-            "name": "Windows News",
-            "url": "https://windowsnews.ai/article/openai-pushes-critical-fix-to-chatgpt-windows-app-work-chats-now-sync-across-devices.439203"
-          }
-        ],
-        "summary": "改版挨轟後修正:對話與Projects回歸側欄,Work紀錄雲端同步全面開放",
-        "audience": "每天用ChatGPT桌面版辦公、被新介面搞到找不到對話的上班族",
-        "pain_point": "改版後歷史對話與專案散落各處,電腦和手機進度接不起來",
-        "title_idea": "ChatGPT桌面版終於改回來了!5個新設定讓工作對話不再失蹤",
-        "local_angle": "繁中教學多停留在舊介面,可搶先出「Chat/Work分流+跨裝置同步」設定教學補資訊差"
-      },
-      {
-        "title": "Google搜尋AI Mode接上Canva、YouTube Music、Instacart,開口就能派工",
-        "sources": [
-          {
-            "name": "WinBuzzer",
-            "url": "https://winbuzzer.com/2026/07/18/google-search-ai-mode-adds-tasks-through-three-connected-app-xcxwbn/"
-          },
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/"
-          }
-        ],
-        "summary": "AI Mode可連結指定App代辦任務,結帳仍由用戶把關,美國陸續開放",
-        "audience": "習慣用Google搜尋、想少開幾個App完成雜事的一般上班族",
-        "pain_point": "AI聊天歸聊天,實際做事還是得自己切換App動手",
-        "title_idea": "Google搜尋直接幫你做圖、排歌單、買菜?AI Mode代辦功能解析",
-        "local_angle": "功能目前限美國,可先做「AI Mode能代辦什麼+台灣何時輪到」前瞻文,卡位教學紅利"
-      },
-      {
-        "title": "Kimi K3上線即衝一波:Zyloo於7/18限時7小時免費開放",
-        "sources": [
-          {
-            "name": "Tony Reviews Things",
-            "url": "https://www.tonyreviewsthings.com/kimi-k3-free-zyloo-july-18-2026/"
-          }
-        ],
-        "summary": "推理平台Zyloo開放K3限免7小時,各時區起跑時間不同",
-        "audience": "想零成本試玩最強開源模型的嘗鮮型職場AI使用者",
-        "pain_point": "K3討論度爆棚但推理費用不便宜,想試又怕花冤枉錢",
-        "title_idea": "最強開源模型Kimi K3免費試用攻略:辦公任務實測值不值得?",
-        "local_angle": "限免活動繁中圈幾乎無人報導,可做「怎麼用+中文辦公實測」快訊,搶時效與教學雙重紅利"
-      }
-    ],
-    "trends": [
-      {
-        "title": "威斯康辛郡府盤點發現:全郡真正需要AI的只有20人,授權費現省62%",
-        "sources": [
-          {
-            "name": "Windows News",
-            "url": "https://windowsnews.ai/article/how-a-wisconsin-county-saved-thousands-by-realizing-only-20-employees-actually-need-ai.439213"
-          }
-        ],
-        "summary": "Shawano郡棄全員授權改按實際使用者計費,AI訂閱費砍逾六成",
-        "audience": "負責採購AI工具、被要求證明ROI的IT與行政管理職上班族",
-        "pain_point": "公司全員導入AI卻沒幾個人用,預算被質疑時拿不出數據",
-        "title_idea": "全公司買AI,結果只有20人在用?導入前先做這件事省下六成錢",
-        "local_angle": "台灣中小企業正跟風採購AI授權,可製作「AI授權盤點SOP」實用範本,切中老闆的預算焦慮"
-      },
-      {
-        "title": "Sakana AI量化「生物稅」:類腦學習首次攻克卷積網路,免反向傳播再進一步",
-        "sources": [
-          {
-            "name": "Tech Times",
-            "url": "https://www.techtimes.com/articles/320902/20260718/brain-like-learning-rule-cracks-convolutional-networks-sakana-ai-measures-biology-tax.htm"
-          }
-        ],
-        "summary": "生物可行學習規則在CNN達96.7%正確率,量化與反向傳播的差距",
-        "audience": "想判斷AI成本走向的科技關注型上班族與內容創作者",
-        "pain_point": "AI訓練成本高漲推升訂閱價,看不懂哪些技術可能翻轉局面",
-        "title_idea": "AI學習方式要變天?Sakana用「類腦訓練」挑戰30年老規則",
-        "local_angle": "硬核研究少有繁中白話版,可用上班族語言拆解「訓練變便宜=工具變便宜」的因果鏈做出差異化"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-17",
-    "big_events": [
-      {
-        "title": "Moonshot發布Kimi K3:2.8兆參數史上最大開源模型,市場重演DeepSeek震撼",
-        "sources": [
-          {
-            "name": "Axios",
-            "url": "https://www.axios.com/2026/07/17/china-ai-kimi-k3-open-source-anthropic-opus"
-          },
-          {
-            "name": "Fortune",
-            "url": "https://fortune.com/2026/07/17/china-moonshot-kimi-k3-markets-china-ai/"
-          },
-          {
-            "name": "Tom's Hardware",
-            "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-releases-2-8-trillion-parameter-kimi-k3"
-          }
-        ],
-        "summary": "Kimi K3登場:2.8兆參數、百萬token,API已上線,權重7/27釋出",
-        "audience": "想找免費或低成本ChatGPT替代方案的職場AI使用者",
-        "pain_point": "訂閱制AI工具月費越疊越貴,想省錢又怕開源模型不夠力",
-        "title_idea": "中國最強開源模型Kimi K3來了!它能取代你的ChatGPT訂閱嗎?",
-        "local_angle": "繁中圈對Kimi認知度仍低,可搶先實測中文辦公任務表現,同時整理資安疑慮與適用場景給台灣上班族"
-      },
-      {
-        "title": "Patreon不再好言相勸,聯手Cloudflare直接封鎖AI訓練爬蟲",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/"
-          }
-        ],
-        "summary": "Patreon改用Cloudflare直接擋AI爬蟲,保護創作者內容",
-        "audience": "經營副業內容、擔心作品被AI白嫖的斜槓上班族與創作者",
-        "pain_point": "辛苦產出的內容被AI公司免費抓去訓練,連說不的權利都沒有",
-        "title_idea": "你的內容正在被AI白吃白喝?Patreon開第一槍,創作者自保三招",
-        "local_angle": "台灣創作者多用方格子、Portaly等平台,可盤點各平台反爬蟲政策差異,做一份創作者自保指南"
-      },
-      {
-        "title": "AI資金風向轉了:GPU金主改押推理晶片,General Compute獲4億美元貸款",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal/"
-          }
-        ],
-        "summary": "Upper90借出4億美元,首例以推理專用晶片作為抵押品",
-        "audience": "關注AI產業走向、想判斷工具價格趨勢的職場決策者",
-        "pain_point": "AI工具訂閱費居高不下,看不懂成本結構何時才會鬆動",
-        "title_idea": "AI熱錢轉向「推理」!這筆4億美元交易,預告你的AI帳單要變便宜?",
-        "local_angle": "推理晶片供應鏈與台灣半導體高度相關,可用上班族聽得懂的語言解釋訓練vs推理,順帶點出台廠機會"
-      },
-      {
-        "title": "Agility Robotics進駐特斯拉後院,6萬平方呎人形機器人訓練基地開張",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/"
-          }
-        ],
-        "summary": "Agility在Fremont設訓練場,與Tesla Optimus正面對決",
-        "audience": "關注自動化取代議題的製造、物流與營運端上班族",
-        "pain_point": "人形機器人進工廠的時程真假難辨,不知道自己的工作何時受影響",
-        "title_idea": "把訓練場開到特斯拉隔壁!人形機器人大戰2026下半場三大看點",
-        "local_angle": "台灣供應鏈(減速機、感測器、代工)吃到人形機器人紅利,可同時經營概念股與職涯影響兩種視角"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "Claude Cowork全面上雲:網頁、手機都能用,官方數據曝9成用途不是寫程式",
-        "sources": [
-          {
-            "name": "VentureBeat",
-            "url": "https://venturebeat.com/technology/anthropic-brings-claude-cowork-to-mobile-and-web-as-usage-data-shows-most-users-arent-coding"
-          },
-          {
-            "name": "Yahoo Tech",
-            "url": "https://tech.yahoo.com/ai/claude/articles/anthropics-claude-cowork-heads-cloud-160003851.html"
-          }
-        ],
-        "summary": "Cowork擴至網頁與行動版,90%使用場景為非開發辦公任務",
-        "audience": "想讓AI代理幫忙跑雜事、不會寫程式的一般上班族",
-        "pain_point": "聽說AI代理很強,但以為只有工程師用得起來,不知從何入門",
-        "title_idea": "9成的人用Claude Cowork不是在寫程式!上班族最該學的5種用法",
-        "local_angle": "Cowork繁中教學稀缺,可實測行政雜務自動化情境:報帳、會議紀錄、週報,搶第一波教學紅利"
-      },
-      {
-        "title": "Brex開源CrabTrap:讓LLM當裁判,即時放行或攔截AI代理的每個動作",
-        "sources": [
-          {
-            "name": "VentureBeat",
-            "url": "https://venturebeat.com/orchestration/brex-built-its-ai-agent-policy-by-watching-what-agents-actually-do-not-by-writing-rules-first"
-          }
-        ],
-        "summary": "CrabTrap攔截代理網路行為,由LLM判官依政策決定放行",
-        "audience": "公司開始導入AI代理、擔心失控風險的IT與管理職上班族",
-        "pain_point": "老闆要導入AI代理,卻沒人說得清楚要怎麼管才不會出事",
-        "title_idea": "AI代理在公司亂跑怎麼辦?Brex的做法:先看它做什麼,再立規矩",
-        "local_angle": "台灣企業AI治理討論多停在「禁不禁用」,可引介「先觀察再立規」的實務框架做出內容差異化"
-      },
-      {
-        "title": "Capital One開源VulnHunter:用攻擊者視角找漏洞的AI資安代理",
-        "sources": [
-          {
-            "name": "VentureBeat",
-            "url": "https://venturebeat.com/technology/capital-one-releases-vulnhunter-an-open-source-ai-tool-that-finds-software-flaws-before-hackers-do"
-          },
-          {
-            "name": "Capital One Tech",
-            "url": "https://www.capitalone.com/tech/open-source/announcing-vulnhunter/"
-          }
-        ],
-        "summary": "VulnHunter模擬駭客路徑掃描原始碼,找漏洞並提修補建議",
-        "audience": "兼管資安、開始用AI寫程式的IT部門上班族與開發者",
-        "pain_point": "AI幫忙寫的程式越來越多,漏洞檢查卻還靠人工,心裡毛毛的",
-        "title_idea": "銀行等級的免費資安AI!VulnHunter幫你在駭客之前找到漏洞",
-        "local_angle": "工具在Claude Code環境運行,可針對台灣中小企業常見技術棧做繁中安裝與實測教學"
-      }
-    ],
-    "trends": [
-      {
-        "title": "Gemini 3.5 Pro發布日到期卻沒現身,Google傳改推3.6 Flash補位",
-        "sources": [
-          {
-            "name": "BuildFastWithAI",
-            "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-17-2026"
-          },
-          {
-            "name": "Tech Times",
-            "url": "https://www.techtimes.com/articles/320736/20260716/rebuilt-gemini-35-pro-misses-third-deadline-google-eyes-stopgap-release.htm"
-          }
-        ],
-        "summary": "傳言的7/17發布未發生,已三度跳票,傳先推Flash過渡版",
-        "audience": "等Gemini 3.5 Pro再決定要不要換工具的職場AI使用者",
-        "pain_point": "等新模型等到工作流卡住,不知該現在換方案還是再等等",
-        "title_idea": "說好的Gemini 3.5 Pro呢?Google三連跳票,上班族現在該怎麼選",
-        "local_angle": "可做「不等Gemini的替代方案」實用文,對比GPT-5.6與Claude在繁中辦公情境的表現"
-      },
-      {
-        "title": "AI搶走記憶體產能,印度手機市場率先漲價,3C漲價潮恐全球連鎖",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/17/ai-driven-memory-crunch-jolts-indias-smartphone-market/"
-          }
-        ],
-        "summary": "記憶體轉產HBM供AI,手機成本上升,印度市場已現漲價",
-        "audience": "近期打算換手機、筆電的精打細算上班族",
-        "pain_point": "3C越來越貴,不知道該趁現在買還是再觀望",
-        "title_idea": "AI害你手機變貴?記憶體大缺貨,2026下半年3C購買攻略",
-        "local_angle": "台灣是記憶體與代工重鎮,可同時談消費者採買時機與台廠受惠兩個面向,貼近在地讀者"
-      },
-      {
-        "title": "LinkedIn、Walmart齊聲:拖慢AI代理的不是模型,是老舊企業系統",
-        "sources": [
-          {
-            "name": "VentureBeat",
-            "url": "https://venturebeat.com/data/agents-think-in-milliseconds-legacy-infrastructure-doesnt-linkedin-walmart-and-zendesk-shared-how-they-closed-the-gap-at-vb-transform-2026"
-          }
-        ],
-        "summary": "VB Transform共識:代理毫秒思考,企業老系統才是瓶頸",
-        "audience": "在公司推AI專案卻頻頻卡關的中階主管與轉型負責人",
-        "pain_point": "買了最強模型,流程還是慢,找不到問題到底出在哪",
-        "title_idea": "AI導入卡關別怪模型!LinkedIn、Walmart揭真正兇手:老系統",
-        "local_angle": "台灣中小企業系統老舊問題更普遍,可整理「導入AI代理前的基礎盤點清單」做成實用內容"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-16",
-    "big_events": [
-      {
-        "title": "OpenAI、Anthropic、Google三巨頭罕見同調，公開支持AI模型上市前外部審查",
-        "sources": [
-          {
-            "name": "Axios",
-            "url": "https://www.axios.com/2026/07/16/ai-regulations-openai-anthropic-google"
-          }
-        ],
-        "summary": "三大AI實驗室CEO首度書面同調，支持前沿模型外部審查",
-        "audience": "關注AI工具穩定性與合規風險的企業導入決策者與上班族",
-        "pain_point": "AI法規變動快，不知道現在導入的工具之後會不會被監管卡住",
-        "title_idea": "三大AI巨頭居然站同一陣線？外部審查將怎麼改變你用的AI工具",
-        "local_angle": "台灣尚無前沿AI專法，可將三巨頭主張對照台灣AI基本法草案，做成上班族看得懂的監管懶人包"
-      },
-      {
-        "title": "Anthropic與黑石合資的Ode正式亮相，15億美元AI導入服務公司開張",
-        "sources": [
-          {
-            "name": "Technology.org",
-            "url": "https://www.technology.org/2026/07/16/ode-with-anthropic-blackstone-ai-implementation/"
-          }
-        ],
-        "summary": "Anthropic攜黑石成立Ode，派工程師進駐企業導入Claude",
-        "audience": "想推動公司導入AI、卻不知從何下手的中階主管與幕僚",
-        "pain_point": "買了AI工具卻沒人會導入，傳統顧問公司又貴又不夠懂技術",
-        "title_idea": "Anthropic不只賣模型，還派工程師進你公司！Ode想吃下AI導入市場",
-        "local_angle": "台灣中小企業「想導入AI沒人手」問題更嚴重，可分析Ode模式並盤點台灣本地的類似導入服務選項"
-      },
-      {
-        "title": "Meta AI新增家長警示：青少年與聊天機器人談自傷會通知父母",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/16/meta-now-alerts-parents-if-their-teen-discussed-suicide-or-self-harm-with-its-ai-chatbot/"
-          }
-        ],
-        "summary": "Meta推家長通知機制，並研擬高風險對話直通緊急服務",
-        "audience": "家有青少年、擔心孩子過度依賴AI聊天的上班族父母",
-        "pain_point": "孩子跟AI聊了什麼完全不透明，出事了家長往往最後一個知道",
-        "title_idea": "孩子跟AI說了什麼你知道嗎？Meta這個新功能台灣家長必看",
-        "local_angle": "台灣家長多活在LINE生態圈，可整理各家AI聊天工具的家長監護設定教學，搶親子科技安全題材"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "Google搜尋AI Mode開放串接Canva、YouTube等App，對話中直接操作",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/"
-          }
-        ],
-        "summary": "AI Mode可連結Instacart、Canva等應用，邊搜尋邊完成任務",
-        "audience": "每天用Google搜尋找資料、做簡報素材的職場上班族",
-        "pain_point": "查資料、開工具要在十幾個分頁間切換，工作流程超零碎",
-        "title_idea": "Google搜尋變成工作台！AI Mode串接App實測：少開一半分頁",
-        "local_angle": "功能先在美國上線、台灣尚未開放，可搶先做英文介面教學，並示範台灣可用的替代工作流"
-      },
-      {
-        "title": "Google Vids推自製AI分身：上傳自拍與聲音，影片主角就是你",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/"
-          }
-        ],
-        "summary": "Google Vids可用自拍照與錄音生成專屬數位分身影片",
-        "audience": "要做教育訓練、產品說明影片卻不敢入鏡的上班族與內部講師",
-        "pain_point": "拍影片要化妝、打光、重錄好幾次，時間成本高到不想做",
-        "title_idea": "不用入鏡也能出影片！Google Vids數位分身完整教學",
-        "local_angle": "繁中教學幾乎空白，可實測中文語音分身效果，做「台灣職場教育訓練」情境示範搶教學紅利"
-      },
-      {
-        "title": "Roblox手機App推AI造遊戲功能Build，打字就能生成遊戲",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/"
-          }
-        ],
-        "summary": "Roblox新功能Build讓用戶用文字提示在手機做出遊戲",
-        "audience": "想帶孩子接觸AI創作、或想研究UGC變現的斜槓上班族",
-        "pain_point": "想做遊戲或互動內容，但完全不會寫程式也沒時間學",
-        "title_idea": "小學生都能做遊戲了！Roblox AI新功能Build上手實測",
-        "local_angle": "台灣Roblox家長社群龐大但中文實測稀缺，可同時切親子共學與創作者分潤兩個角度"
-      }
-    ],
-    "trends": [
-      {
-        "title": "Google傳砍掉重練Gemini 3.5 Pro，最快7月17日登場",
-        "sources": [
-          {
-            "name": "AIToolsRecap",
-            "url": "https://aitoolsrecap.com/Blog/ai-news-july-16-2026"
-          },
-          {
-            "name": "AIToolsRecap",
-            "url": "https://aitoolsrecap.com/Blog/gemini-3-5-pro-rebuild-architecture-launch-july-17-2026"
-          }
-        ],
-        "summary": "傳Gemini 3.5 Pro整個重建，主打200萬token與深度推理",
-        "audience": "在ChatGPT與Gemini之間選邊站的職場AI重度使用者",
-        "pain_point": "模型更新太快，剛摸熟一套工作流又要重新評估工具",
-        "title_idea": "Gemini 3.5 Pro明天見？Google「砍掉重練」背後的三個訊號",
-        "local_angle": "若如期發布可搶24小時內出繁中實測，聚焦台灣上班族日常任務：會議記錄、Excel、簡報生成"
-      },
-      {
-        "title": "前Ultrahuman硬體副總募資550萬美元，打造「指揮AI代理」的隨身裝置",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/16/ultrahumans-former-hardware-vp-raises-5-5m-for-devices-that-control-ai-agents-not-just-record-you/"
-          }
-        ],
-        "summary": "新創Aina獲550萬美元，開發能控制AI代理的穿戴裝置",
-        "audience": "關注AI代理與穿戴新硬體的科技嘗鮮型上班族",
-        "pain_point": "AI代理愈來愈多，但都關在App裡，離開螢幕就使喚不動",
-        "title_idea": "AI硬體下一步不是錄音、是下指令？Aina想做AI代理的遙控器",
-        "local_angle": "AI Pin類硬體在台討論度回溫，可盤點「控制型」與「記錄型」兩條AI硬體路線給台灣讀者"
-      },
-      {
-        "title": "AMI Labs創辦人拒用AGI、超智慧等詞：AI該談實用而非神話",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence/"
-          }
-        ],
-        "summary": "LeBrun受訪拒稱自家AI為AGI，主張聚焦實際用途",
-        "audience": "被AGI話術轟炸、想務實評估AI工具的職場決策者",
-        "pain_point": "廠商行銷詞彙滿天飛，分不清哪些功能是真的用得上",
-        "title_idea": "別再被AGI唬住！AI創辦人親口說：先問這工具幫你省幾小時",
-        "local_angle": "台灣企業簡報也常濫用AGI詞彙，可做「AI行銷術語拆解」系列首篇，建立務實派人設"
       }
     ]
   }
