@@ -1,117 +1,117 @@
 {
-  "date": "2026-07-27",
+  "date": "2026-07-28",
   "p5": [
     {
-      "id": "2026-07-27-p5-0",
-      "tag": "假設語氣（Suppose/Supposing 引導）",
+      "id": "2026-07-28-p5-0",
+      "tag": "假設語氣（If it were not for）",
       "pre": "",
-      "post": " the counterparty were to declare insolvency before the settlement date, the clearing house would still guarantee full payment to the non-defaulting party.",
-      "opts": ["Suppose", "Supposed", "Supposing that if", "As supposed"],
+      "post": " the whistleblower's decision to come forward, the accounting irregularities might never have surfaced before the annual audit.",
+      "opts": ["If it were not for", "Unless it were", "Were it for", "If it was for"],
       "ans": 0,
-      "zh": "「假設」交易對手在結算日之前宣告破產，結算所仍將對未違約的一方保證全額給付。",
-      "why": "<b>Suppose</b>（= If，假設）為正式書面中可獨立引導假設語氣子句的連接詞，後接 were to（表較不可能的未來假設）。Supposed 為過去分詞形容詞，不能引導子句；Supposing that if 疊床架屋，that 與 if 重複；As supposed 語意與結構皆不通。"
+      "zh": "「若非」這位吹哨者挺身而出，這起會計異常恐怕在年度稽核之前根本不會被揭發。",
+      "why": "<b>If it were not for</b>（若非、要不是）為與現在/過去事實相反的假設語氣固定結構，用於表達「若非某人事物存在，結果將會不同」。Unless it were 語序與慣用法錯誤；Were it for 為肯定倒裝，語意變成「若是為了」，與句意相反；If it was for 用直述語氣 was，與後文 might never have surfaced 的假設語氣不搭配。"
     },
     {
-      "id": "2026-07-27-p5-1",
-      "tag": "分詞構句（獨立主格）",
+      "id": "2026-07-28-p5-1",
+      "tag": "分詞構句（原因，主動）",
       "pre": "",
-      "post": " unresolved, the two directors agreed to submit the valuation dispute to a neutral third-party appraiser.",
-      "opts": ["The negotiations having remained", "The negotiations remained", "Remaining the negotiations", "Having the negotiations remained"],
+      "post": " that the merger would trigger antitrust scrutiny in three jurisdictions simultaneously, the legal team recommended a staggered filing strategy.",
+      "opts": ["Anticipating", "Anticipated", "To anticipate", "Having anticipated by"],
       "ans": 0,
-      "zh": "由於協商始終未能達成共識，兩位董事同意將這起估值爭議提交予中立的第三方鑑價人。",
-      "why": "此句主詞（negotiations）與主要子句主詞（two directors）不同，須用「獨立主格」分詞構句：名詞＋分詞。「協商未解決」發生在「同意提交鑑價」之前，須用完成式分詞 <b>The negotiations having remained</b>。The negotiations remained 為完整子句而非分詞構句，前後兩句間缺連接詞；Remaining the negotiations 與 Having the negotiations remained 語序皆錯誤。"
+      "zh": "由於「預見」這樁併購案將同時在三個司法管轄區引發反壟斷審查，法務團隊建議採取分階段申報的策略。",
+      "why": "分詞構句的邏輯主詞為 the legal team（法務團隊主動預見情況），須用主動現在分詞 <b>Anticipating</b>，表原因。Anticipated 為過去分詞，語態被動，與「團隊主動預見」的邏輯不符；To anticipate 為不定詞，語意變成「目的」而非原因；Having anticipated by 文法錯誤，anticipate 為及物動詞不與 by 連用。"
     },
     {
-      "id": "2026-07-27-p5-2",
-      "tag": "強調句型（It is... that）",
-      "pre": "",
-      "post": " the manufacturing defect, rather than driver error, that investigators ultimately identified as the proximate cause of the recall.",
-      "opts": ["It was", "There was", "This was", "That was"],
+      "id": "2026-07-28-p5-2",
+      "tag": "As 引導的比較子句省略",
+      "pre": "The revised covenant restricts dividend payouts more tightly than ",
+      "post": " under the original credit agreement, reflecting the lenders' heightened caution.",
+      "opts": ["did the prior version", "the prior version did it", "the prior version was", "the prior version has"],
       "ans": 0,
-      "zh": "調查人員最終認定的直接肇因，「正是」製造瑕疵，而非駕駛失誤。",
-      "why": "<b>It is/was...that...</b> 為強調句型固定結構，用來強調被移到句首的成分（此處強調 the manufacturing defect）。There was 表存在句，語意不符；This was 與 That was 雖文法上可成立獨立句，但無法與句尾的 that investigators identified 構成強調句的呼應結構。"
+      "zh": "修訂後的約款對股利發放的限制，比原始信貸協議下「舊版本所限制的」更為嚴格，反映出放款人日益提高的謹慎態度。",
+      "why": "比較句中為避免重複，後半句可用「助動詞＋主詞」倒裝取代完整動詞片語（= than the prior version restricted dividend payouts），故選 <b>did the prior version</b>。the prior version did it 多餘代名詞 it；the prior version was 與 has 皆與前句動詞 restricts（一般動詞）的時態助動詞不一致，應對應 did 而非 was/has。"
     },
     {
-      "id": "2026-07-27-p5-3",
+      "id": "2026-07-28-p5-3",
       "tag": "進階動詞語意辨別",
-      "pre": "The escrow agent is contractually obligated to ",
-      "post": " the funds only upon receipt of written confirmation from both parties that all closing conditions have been satisfied.",
-      "opts": ["disburse", "allocate", "circulate", "dispense with"],
+      "pre": "The compliance officer was authorized to ",
+      "post": " any transaction that appeared to circumvent the newly enacted sanctions regime, pending further review by legal counsel.",
+      "opts": ["freeze", "suspend", "postpone", "defer"],
       "ans": 0,
-      "zh": "履約保證代理人依契約義務，僅能在收到雙方書面確認所有交割條件均已滿足後，「撥付」該筆款項。",
-      "why": "<b>disburse</b>（正式撥款、支付款項）為金融與法律文件描述資金釋出的標準用語，精準對應 escrow funds 的情境。allocate（分配、劃撥用途）語意偏配置而非實際撥付；circulate（流通、傳閱）用於文件或貨幣流通概念；dispense with（省去、免除）語意完全相反，變成「省略這筆款項」。"
+      "zh": "法遵主管獲授權得對任何疑似規避新制裁規範的交易「凍結」，待法務顧問進一步審查。",
+      "why": "<b>freeze</b>（凍結資產或交易，使其暫時無法動用）為金融法遵領域描述立即阻斷可疑交易的標準用語。suspend（暫停某項活動或資格，如暫停帳戶使用權）語意較廣泛但不特指資金凍結；postpone 與 defer（皆表「延後」）用於延後某事發生的時間，而非阻斷已啟動的交易，語意不精準。"
     },
     {
-      "id": "2026-07-27-p5-4",
-      "tag": "同級比較否定（not so much A as B）",
-      "pre": "The board's decision reflected ",
-      "post": " a lack of confidence in current management as a broader strategic pivot toward recurring-revenue business lines.",
-      "opts": ["not so much", "not as much as", "no less than", "not only"],
+      "id": "2026-07-28-p5-4",
+      "tag": "介系詞片語作主詞補語（in question）",
+      "pre": "The shipment ",
+      "post": " departed the port of origin nearly six weeks before the bill of lading was issued, raising red flags for the customs auditors.",
+      "opts": ["in question", "in place", "in effect", "in kind"],
       "ans": 0,
-      "zh": "董事會的這項決定，與其說是反映對現任管理層缺乏信心，「不如說」更是反映了公司朝向經常性收入業務轉型的更大策略布局。",
-      "why": "<b>not so much A as B</b>（與其說是A，不如說是B）為固定比較結構，強調 B 才是更貼切的解釋。not as much as 語序與用法錯誤（正確應為 not so much...as）；no less than（不亞於、多達）語意不符；not only 須搭配 but also，且不表達「與其說…不如說」的對比修正語意。"
+      "zh": "「本案所涉的」這批貨物，在提單開立前近六週便已離開起運港，讓海關稽查人員產生高度警覺。",
+      "why": "<b>in question</b>（正在討論中的、本案所涉的）為固定片語，修飾前面的名詞 the shipment，指「當前討論/爭議中的這批貨物」。in place（就位、已生效）用於制度或安排；in effect（實際上、生效中）用於規則或事實上；in kind（以實物）表支付方式，皆無法用來修飾「正被稽查討論的貨物」這個語意。"
     }
   ],
   "p6": {
-    "id": "2026-07-27-p6",
-    "title": "MEMO: New Expense-Report Approval Workflow Effective October 1",
+    "id": "2026-07-28-p6",
+    "title": "MEMO: Interim Measures During the Payroll System Migration",
     "seg": [
       [
-        "To all budget holders: Beginning 1 October, expense reports exceeding NT$50,000 ",
+        "To all staff: Our payroll provider ",
         { "b": 0 },
-        " a second-level approval from the relevant division director before reimbursement can be processed, in addition to the existing direct-supervisor sign-off."
+        " over the coming three pay cycles from the legacy platform to a new cloud-based system, a transition intended to reduce processing errors and speed up year-end reporting."
       ],
       [
         { "b": 1 },
-        ", the finance department anticipates that average processing time for large reports will lengthen from three to five business days during the initial rollout period."
+        ", employees should expect their August and September pay stubs to display a temporary reference format until the new system is fully operational."
       ],
       [
-        "Budget holders are encouraged to submit high-value reports as early as possible and to ensure that all supporting documentation is ",
+        "Any employee who notices a discrepancy in gross pay, deductions, or tax withholding during this window should report it ",
         { "b": 2 },
-        " attached at the time of submission, since incomplete filings will be returned rather than held in queue."
+        " to the payroll help desk rather than waiting for the next cycle, so that corrections can be applied before the following payment date."
       ],
       [
         { "b": 3 },
-        " A recorded walkthrough of the updated submission process is available on the finance intranet page."
+        " A brief FAQ addressing the most common questions about the new pay-stub format has been posted on the HR intranet page."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["will require", "require", "have required", "are requiring"],
+        "opts": ["will be migrated", "migrates", "has been migrated", "is migrating"],
         "ans": 0,
-        "zh": "致各預算主管：自10月1日起，超過新台幣5萬元的費用報告，除現行直屬主管簽核外，「將需」在核銷前另取得相關事業部總監的二階核准。",
-        "why": "「Beginning 1 October」點出規定於未來生效，須用未來式 <b>will require</b>。require 為現在式，與尚未生效的未來時點不符；have required 為現在完成式，暗示規定已實施過；are requiring 為現在進行式，皆不符合「10月起生效」的公告語境。"
+        "zh": "致全體同仁：本公司薪資服務供應商，「將於」未來三個發薪週期內，把系統由舊平台「移轉」至新的雲端系統，此舉旨在減少處理錯誤並加快年度結算報表的產出。",
+        "why": "主詞 our payroll provider（此處指代 the payroll system／provider 所管理的系統）是被移轉的對象，且動作發生在「未來三個發薪週期」，須用未來式被動 <b>will be migrated</b>。migrates 為現在式主動，與被移轉的邏輯及未來時程皆不符；has been migrated 表已完成，與尚未開始的未來時程矛盾；is migrating 為主動進行式，語態不合。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["As a result", "In hindsight", "By all accounts", "For that matter"],
+        "opts": ["During this transition", "In hindsight", "On balance", "As a rule"],
         "ans": 0,
-        "zh": "「因此」，財務部門預期在新制上路初期，大額報告的平均處理時間將由三個工作天延長至五個工作天。",
-        "why": "前句說明新增二階核准的規定，本句承接說明「因此」處理時間將因此拉長，兩句為因果承接，故選 <b>As a result</b>。In hindsight（事後回顧）表回顧過去；By all accounts（據各方說法）表引述評價；For that matter（就此而言）表補充延伸，皆與此處的因果邏輯不合。"
+        "zh": "「在此過渡期間」，員工應預期8月與9月的薪資單將顯示暫時性的參照格式，直到新系統完全上線為止。",
+        "why": "前句宣布系統移轉的未來時程，本句說明「在這段轉換過程中」薪資單格式會暫時改變，時間範疇明確承接前句，故選 <b>During this transition</b>。In hindsight（事後回顧）表回顧過去；On balance（整體衡量）表權衡結論；As a rule（通常而言）表慣例，皆與此處的時間承接邏輯不符。"
       },
       {
-        "tag": "詞彙語意（形容詞）",
+        "tag": "詞彙語意（副詞）",
         "col1": true,
-        "opts": ["properly", "reluctantly", "temporarily", "excessively"],
+        "opts": ["promptly", "sparingly", "tentatively", "collectively"],
         "ans": 0,
-        "zh": "各預算主管應盡早提交高金額報告，並確保送出時已「妥善」檢附所有佐證文件，因為文件不齊者將被退回而非留待補件。",
-        "why": "<b>properly</b>（妥善地、依規定地）修飾 attached，符合「文件須依規定完整檢附」的語境，且與後文「不齊者退回」形成邏輯呼應。reluctantly（不情願地）、temporarily（暫時地）、excessively（過度地）皆無法合理修飾「文件檢附」這個動作，語意不通。"
+        "zh": "在此期間若有員工發現本薪、扣款或稅務代扣有任何出入，應「立即」向薪資服務台反映，而非等到下個週期，以便能在下次發薪日前完成更正。",
+        "why": "<b>promptly</b>（立即、迅速地）修飾 report，與後文「而非等到下個週期」的語境相呼應，強調應立即反映以便及時更正。sparingly（節制地、少量地）用於使用資源；tentatively（暫定地）用於安排計畫；collectively（集體地）表共同行動，皆與「盡快通報」的語意不符。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "A checklist of commonly required supporting documents by expense category has also been posted alongside the walkthrough.",
-          "The company picnic originally scheduled for October has been moved indoors due to weather concerns.",
-          "Employees celebrating a work anniversary this quarter will receive a small gift from HR.",
-          "The finance department's new hires will begin onboarding in the second week of October."
+          "A sample of the temporary pay-stub layout, with each field labeled, is attached to this memo for reference.",
+          "The company softball league will begin its fall season in early September.",
+          "Reserved parking spaces near the main entrance will be reassigned by lottery next month.",
+          "The annual employee satisfaction survey will open for responses in October."
         ],
         "ans": 0,
-        "zh": "「一份依費用類別分類的常見所需佐證文件檢查清單，也已與教學影片一併公布。」感謝各位配合，共同讓新制上路更加順利。",
-        "why": "段落主題為「費用報告核准新制」，此句補充實用的檢查清單資源，與前句「教學影片已上架」直接呼應（alongside the walkthrough 指涉前句提及的影片）。其餘選項（野餐活動、周年禮物、新人到職）皆與費用核准流程無關，插入後語意斷裂。"
+        "zh": "「本備忘錄隨附一份暫時性薪資單版面範本，並標示各欄位說明，供各位參考。」一份針對新版薪資單格式常見問題的簡短FAQ，也已公布於人資內部網路頁面。",
+        "why": "段落主題為「薪資系統移轉期間的臨時措施」，此句提供薪資單範本以利員工對照理解，與後句「FAQ已公布」共同構成完整的員工支援配套。其餘選項（壘球聯賽、停車位分配、員工滿意度調查）皆與薪資系統移轉無關，插入後與前後文脫節。"
       }
     ]
   }
