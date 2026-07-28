@@ -1,117 +1,117 @@
 {
-  "date": "2026-07-28",
+  "date": "2026-07-29",
   "p5": [
     {
-      "id": "2026-07-28-p5-0",
-      "tag": "假設語氣（If it were not for）",
+      "id": "2026-07-29-p5-0",
+      "tag": "假設語氣（As if/As though + 過去完成式）",
+      "pre": "The interim CEO addressed the restructuring plan ",
+      "post": " it had already secured unanimous board approval, though two directors had in fact abstained.",
+      "opts": ["as if", "even if", "as long as", "so that"],
+      "ans": 0,
+      "zh": "這位臨時執行長談起這項重整計畫時，「彷彿」該計畫早已獲得董事會一致核准——儘管實際上有兩位董事投了棄權票。",
+      "why": "<b>as if</b>（彷彿、好像）引導與事實相反的假設語氣子句，須搭配過去完成式 had secured 表達「與過去事實不符的假想」，並與後文「實際上有人棄權」形成對比。even if（即使）、as long as（只要）、so that（以便）皆為直述語氣連接詞，與過去完成式假設語氣的語意邏輯不合。"
+    },
+    {
+      "id": "2026-07-29-p5-1",
+      "tag": "分詞構句（附帶結果）",
+      "pre": "The central bank raised its policy rate by fifty basis points, ",
+      "post": " a sharp rally in the currency that caught most trading desks off guard.",
+      "opts": ["triggering", "triggered", "to trigger", "having triggered"],
+      "ans": 0,
+      "zh": "央行將政策利率調升五十個基點，「進而引發」該國貨幣大幅走揚，讓多數交易台措手不及。",
+      "why": "此分詞構句表達主要子句動作（升息）所直接導致的「附帶結果」（引發貨幣大漲），主動語態、與主要動作幾乎同時發生，須用現在分詞 <b>triggering</b>。triggered 為過去分詞，語態被動，主詞（升息這件事）是引發者而非被引發；to trigger 為不定詞，語意變成「目的」而非結果；having triggered 完成式暗示動作已先於主要子句完成，與「同步結果」的語意不符。"
+    },
+    {
+      "id": "2026-07-29-p5-2",
+      "tag": "倒裝（Not only... but also，主句倒裝）",
       "pre": "",
-      "post": " the whistleblower's decision to come forward, the accounting irregularities might never have surfaced before the annual audit.",
-      "opts": ["If it were not for", "Unless it were", "Were it for", "If it was for"],
+      "post": " did the internal audit uncover the misstatement, but it also revealed a pattern of overrides dating back three fiscal years.",
+      "opts": ["Not only", "Not until", "No longer", "Not merely"],
       "ans": 0,
-      "zh": "「若非」這位吹哨者挺身而出，這起會計異常恐怕在年度稽核之前根本不會被揭發。",
-      "why": "<b>If it were not for</b>（若非、要不是）為與現在/過去事實相反的假設語氣固定結構，用於表達「若非某人事物存在，結果將會不同」。Unless it were 語序與慣用法錯誤；Were it for 為肯定倒裝，語意變成「若是為了」，與句意相反；If it was for 用直述語氣 was，與後文 might never have surfaced 的假設語氣不搭配。"
+      "zh": "內部稽核「不僅」揭發了這項財報不實，「還」發現了一個可追溯至過去三個會計年度的一連串核准凌越模式。",
+      "why": "<b>Not only</b> 置於句首時，主句須倒裝（did the internal audit uncover），並與後方 but also 呼應，構成「不僅…還…」的遞進結構。Not until（直到…才）雖也觸發倒裝，但語意為「延遲發生」而非「不僅如此」，與 but also 的遞進邏輯不合；No longer（不再）與 Not merely（不僅僅）雖可觸發倒裝，但 No longer 語意不符，Not merely 通常搭配 but 而非 but also 且語域較不正式於此固定搭配。"
     },
     {
-      "id": "2026-07-28-p5-1",
-      "tag": "分詞構句（原因，主動）",
-      "pre": "",
-      "post": " that the merger would trigger antitrust scrutiny in three jurisdictions simultaneously, the legal team recommended a staggered filing strategy.",
-      "opts": ["Anticipating", "Anticipated", "To anticipate", "Having anticipated by"],
-      "ans": 0,
-      "zh": "由於「預見」這樁併購案將同時在三個司法管轄區引發反壟斷審查，法務團隊建議採取分階段申報的策略。",
-      "why": "分詞構句的邏輯主詞為 the legal team（法務團隊主動預見情況），須用主動現在分詞 <b>Anticipating</b>，表原因。Anticipated 為過去分詞，語態被動，與「團隊主動預見」的邏輯不符；To anticipate 為不定詞，語意變成「目的」而非原因；Having anticipated by 文法錯誤，anticipate 為及物動詞不與 by 連用。"
-    },
-    {
-      "id": "2026-07-28-p5-2",
-      "tag": "As 引導的比較子句省略",
-      "pre": "The revised covenant restricts dividend payouts more tightly than ",
-      "post": " under the original credit agreement, reflecting the lenders' heightened caution.",
-      "opts": ["did the prior version", "the prior version did it", "the prior version was", "the prior version has"],
-      "ans": 0,
-      "zh": "修訂後的約款對股利發放的限制，比原始信貸協議下「舊版本所限制的」更為嚴格，反映出放款人日益提高的謹慎態度。",
-      "why": "比較句中為避免重複，後半句可用「助動詞＋主詞」倒裝取代完整動詞片語（= than the prior version restricted dividend payouts），故選 <b>did the prior version</b>。the prior version did it 多餘代名詞 it；the prior version was 與 has 皆與前句動詞 restricts（一般動詞）的時態助動詞不一致，應對應 did 而非 was/has。"
-    },
-    {
-      "id": "2026-07-28-p5-3",
+      "id": "2026-07-29-p5-3",
       "tag": "進階動詞語意辨別",
-      "pre": "The compliance officer was authorized to ",
-      "post": " any transaction that appeared to circumvent the newly enacted sanctions regime, pending further review by legal counsel.",
-      "opts": ["freeze", "suspend", "postpone", "defer"],
+      "pre": "The regulator's preliminary findings ",
+      "post": " the bank of failing to maintain adequate liquidity buffers during the stress period in question.",
+      "opts": ["implicated", "indicted", "convicted", "prosecuted"],
       "ans": 0,
-      "zh": "法遵主管獲授權得對任何疑似規避新制裁規範的交易「凍結」，待法務顧問進一步審查。",
-      "why": "<b>freeze</b>（凍結資產或交易，使其暫時無法動用）為金融法遵領域描述立即阻斷可疑交易的標準用語。suspend（暫停某項活動或資格，如暫停帳戶使用權）語意較廣泛但不特指資金凍結；postpone 與 defer（皆表「延後」）用於延後某事發生的時間，而非阻斷已啟動的交易，語意不精準。"
+      "zh": "監管機關的初步調查結果，「指出」該銀行在爭議壓力測試期間未能維持足額的流動性緩衝。",
+      "why": "<b>implicate sb of/in sth</b>（指出某人涉及、暗示牽連某事）為調查報告階段常用語，語氣較為初步、尚未定罪。indict（正式起訴，屬司法程序用語，須搭配 for）、convict（判決有罪，須經審判定讞）、prosecute（提起公訴）三者皆屬正式司法程序後段用語，與「監管機關初步調查結果」的階段不符，且皆非慣用搭配 of。"
     },
     {
-      "id": "2026-07-28-p5-4",
-      "tag": "介系詞片語作主詞補語（in question）",
-      "pre": "The shipment ",
-      "post": " departed the port of origin nearly six weeks before the bill of lading was issued, raising red flags for the customs auditors.",
-      "opts": ["in question", "in place", "in effect", "in kind"],
+      "id": "2026-07-29-p5-4",
+      "tag": "let alone（更遑論）",
+      "pre": "The startup had not yet finalized its Series A term sheet, ",
+      "post": " secured the regulatory approvals necessary to launch in the European market.",
+      "opts": ["let alone", "much less than", "still less", "far from"],
       "ans": 0,
-      "zh": "「本案所涉的」這批貨物，在提單開立前近六週便已離開起運港，讓海關稽查人員產生高度警覺。",
-      "why": "<b>in question</b>（正在討論中的、本案所涉的）為固定片語，修飾前面的名詞 the shipment，指「當前討論/爭議中的這批貨物」。in place（就位、已生效）用於制度或安排；in effect（實際上、生效中）用於規則或事實上；in kind（以實物）表支付方式，皆無法用來修飾「正被稽查討論的貨物」這個語意。"
+      "zh": "這家新創公司連A輪募資條件書都尚未定案，「更遑論」取得進軍歐洲市場所需的監管核准。",
+      "why": "<b>let alone</b>（更不用說、更遑論）置於否定句之後，用來強調後面所述之事比前面已提及的更難達成，且後方直接接原形動詞片語 secured 對應前句動詞形式。much less than 多餘 than，正確用法應為 much less（不加 than）；still less 雖語意相近但通常用於書面且不與此處語序搭配；far from（遠非）語法上須接名詞/動名詞且語意結構不符「更遑論」的遞進對比。"
     }
   ],
   "p6": {
-    "id": "2026-07-28-p6",
-    "title": "MEMO: Interim Measures During the Payroll System Migration",
+    "id": "2026-07-29-p6",
+    "title": "NOTICE: Temporary Suspension of the Corporate Ride-Share Reimbursement Program",
     "seg": [
       [
-        "To all staff: Our payroll provider ",
+        "To all employees: Effective immediately, the corporate ride-share reimbursement program ",
         { "b": 0 },
-        " over the coming three pay cycles from the legacy platform to a new cloud-based system, a transition intended to reduce processing errors and speed up year-end reporting."
+        " pending a full review of vendor billing practices, following the discovery of systematic overcharging across several regional accounts."
       ],
       [
         { "b": 1 },
-        ", employees should expect their August and September pay stubs to display a temporary reference format until the new system is fully operational."
+        ", employees who have already submitted ride-share receipts for August will still be reimbursed under the prior policy, provided the receipts are received by the finance team no later than 15 September."
       ],
       [
-        "Any employee who notices a discrepancy in gross pay, deductions, or tax withholding during this window should report it ",
+        "Employees requiring transportation for client meetings or after-hours business travel should, in the meantime, ",
         { "b": 2 },
-        " to the payroll help desk rather than waiting for the next cycle, so that corrections can be applied before the following payment date."
+        " to the standard mileage reimbursement or the pre-approved taxi voucher program, both of which remain fully operational."
       ],
       [
         { "b": 3 },
-        " A brief FAQ addressing the most common questions about the new pay-stub format has been posted on the HR intranet page."
+        " We expect to communicate a revised ride-share policy, including a new vendor if applicable, within four to six weeks."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["will be migrated", "migrates", "has been migrated", "is migrating"],
+        "opts": ["has been suspended", "suspends", "is suspending", "will suspend"],
         "ans": 0,
-        "zh": "致全體同仁：本公司薪資服務供應商，「將於」未來三個發薪週期內，把系統由舊平台「移轉」至新的雲端系統，此舉旨在減少處理錯誤並加快年度結算報表的產出。",
-        "why": "主詞 our payroll provider（此處指代 the payroll system／provider 所管理的系統）是被移轉的對象，且動作發生在「未來三個發薪週期」，須用未來式被動 <b>will be migrated</b>。migrates 為現在式主動，與被移轉的邏輯及未來時程皆不符；has been migrated 表已完成，與尚未開始的未來時程矛盾；is migrating 為主動進行式，語態不合。"
+        "zh": "致全體同仁：即日起，本公司叫車服務核銷方案「已暫停」，待就多個區域帳戶發現的系統性超收問題完成廠商計費作業全面檢視後，再行恢復。",
+        "why": "主詞 the corporate ride-share reimbursement program 是「被暫停」的對象，且「Effective immediately」表示動作已經生效並延續至今，須用現在完成式被動 <b>has been suspended</b>。suspends 與 is suspending 皆為主動語態，方案不會自行暫停；will suspend 為未來式主動，與「即日起」已生效的語境矛盾。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["During this transition", "In hindsight", "On balance", "As a rule"],
-        "ans": 0,
-        "zh": "「在此過渡期間」，員工應預期8月與9月的薪資單將顯示暫時性的參照格式，直到新系統完全上線為止。",
-        "why": "前句宣布系統移轉的未來時程，本句說明「在這段轉換過程中」薪資單格式會暫時改變，時間範疇明確承接前句，故選 <b>During this transition</b>。In hindsight（事後回顧）表回顧過去；On balance（整體衡量）表權衡結論；As a rule（通常而言）表慣例，皆與此處的時間承接邏輯不符。"
+        "opts": ["In the interest of fairness", "In light of the foregoing", "As opposed to this", "Notwithstanding the above"],
+        "ans": 1,
+        "zh": "「基於上述情況」，已於8月提交叫車收據的員工，只要收據於9月15日前送達財務團隊，仍可依原方案獲得核銷。",
+        "why": "「the foregoing」（上述內容）明確指涉前一段所說明的暫停原因與情況，<b>In light of the foregoing</b>（基於上述情況）承接前段脈絡，說明因此對已送出收據者採取的過渡安排。In the interest of fairness（基於公平考量）語意可通但未緊扣「上述」的承接關係；As opposed to this（與此相對）表對比而非承接；Notwithstanding the above（儘管如上所述）表讓步轉折，與此處延續既有政策照顧既有申請人的邏輯不符。"
       },
       {
-        "tag": "詞彙語意（副詞）",
+        "tag": "詞彙語意（片語動詞）",
         "col1": true,
-        "opts": ["promptly", "sparingly", "tentatively", "collectively"],
+        "opts": ["revert", "resort", "refer", "return"],
         "ans": 0,
-        "zh": "在此期間若有員工發現本薪、扣款或稅務代扣有任何出入，應「立即」向薪資服務台反映，而非等到下個週期，以便能在下次發薪日前完成更正。",
-        "why": "<b>promptly</b>（立即、迅速地）修飾 report，與後文「而非等到下個週期」的語境相呼應，強調應立即反映以便及時更正。sparingly（節制地、少量地）用於使用資源；tentatively（暫定地）用於安排計畫；collectively（集體地）表共同行動，皆與「盡快通報」的語意不符。"
+        "zh": "在此期間需要因客戶會議或下班後商務差旅而用車的員工，應暫時「改回採用」標準里程核銷或事先核准的計程車券方案，這兩者目前仍正常運作。",
+        "why": "<b>revert to</b>（改回、恢復採用先前的方式）精準對應「暫時改用另一套既有的舊制度」的語境。resort to（訴諸於，通常用於不得已的手段，語氣較負面）語域不符正式公告；refer to（參閱、查閱）用於文件資料而非改用制度；return to（回到）雖語意相近，但商務文件中描述「改採替代方案」更慣用 revert to。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "A sample of the temporary pay-stub layout, with each field labeled, is attached to this memo for reference.",
-          "The company softball league will begin its fall season in early September.",
-          "Reserved parking spaces near the main entrance will be reassigned by lottery next month.",
-          "The annual employee satisfaction survey will open for responses in October."
+          "Managers should redirect any questions about interim transportation arrangements to their department's finance liaison.",
+          "The company's annual holiday party planning committee is now accepting volunteers.",
+          "New employee ID badges will be issued starting the second week of September.",
+          "The rooftop terrace will be closed for maintenance during the last week of August."
         ],
         "ans": 0,
-        "zh": "「本備忘錄隨附一份暫時性薪資單版面範本，並標示各欄位說明，供各位參考。」一份針對新版薪資單格式常見問題的簡短FAQ，也已公布於人資內部網路頁面。",
-        "why": "段落主題為「薪資系統移轉期間的臨時措施」，此句提供薪資單範本以利員工對照理解，與後句「FAQ已公布」共同構成完整的員工支援配套。其餘選項（壘球聯賽、停車位分配、員工滿意度調查）皆與薪資系統移轉無關，插入後與前後文脫節。"
+        "zh": "「主管若對過渡期間的交通安排有任何疑問，應轉介至所屬部門的財務窗口洽詢。」我們預計將在四到六週內公布修訂後的叫車政策，包括視情況更換的新廠商。",
+        "why": "段落主題為「叫車核銷方案暫停」，此句說明疑問的洽詢管道，與前段「過渡期間改採替代方案」及後句「即將公布新政策」自然銜接，構成完整的因應指引。其餘選項（尾牙志工、識別證、屋頂平台維修）皆與叫車方案暫停無關，插入後語意斷裂。"
       }
     ]
   }
