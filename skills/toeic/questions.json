@@ -1,117 +1,117 @@
 {
-  "date": "2026-07-29",
+  "date": "2026-07-30",
   "p5": [
     {
-      "id": "2026-07-29-p5-0",
-      "tag": "假設語氣（As if/As though + 過去完成式）",
-      "pre": "The interim CEO addressed the restructuring plan ",
-      "post": " it had already secured unanimous board approval, though two directors had in fact abstained.",
-      "opts": ["as if", "even if", "as long as", "so that"],
-      "ans": 0,
-      "zh": "這位臨時執行長談起這項重整計畫時，「彷彿」該計畫早已獲得董事會一致核准——儘管實際上有兩位董事投了棄權票。",
-      "why": "<b>as if</b>（彷彿、好像）引導與事實相反的假設語氣子句，須搭配過去完成式 had secured 表達「與過去事實不符的假想」，並與後文「實際上有人棄權」形成對比。even if（即使）、as long as（只要）、so that（以便）皆為直述語氣連接詞，與過去完成式假設語氣的語意邏輯不合。"
-    },
-    {
-      "id": "2026-07-29-p5-1",
-      "tag": "分詞構句（附帶結果）",
-      "pre": "The central bank raised its policy rate by fifty basis points, ",
-      "post": " a sharp rally in the currency that caught most trading desks off guard.",
-      "opts": ["triggering", "triggered", "to trigger", "having triggered"],
-      "ans": 0,
-      "zh": "央行將政策利率調升五十個基點，「進而引發」該國貨幣大幅走揚，讓多數交易台措手不及。",
-      "why": "此分詞構句表達主要子句動作（升息）所直接導致的「附帶結果」（引發貨幣大漲），主動語態、與主要動作幾乎同時發生，須用現在分詞 <b>triggering</b>。triggered 為過去分詞，語態被動，主詞（升息這件事）是引發者而非被引發；to trigger 為不定詞，語意變成「目的」而非結果；having triggered 完成式暗示動作已先於主要子句完成，與「同步結果」的語意不符。"
-    },
-    {
-      "id": "2026-07-29-p5-2",
-      "tag": "倒裝（Not only... but also，主句倒裝）",
+      "id": "2026-07-30-p5-0",
+      "tag": "假設語氣（were it not for 倒裝）",
       "pre": "",
-      "post": " did the internal audit uncover the misstatement, but it also revealed a pattern of overrides dating back three fiscal years.",
-      "opts": ["Not only", "Not until", "No longer", "Not merely"],
+      "post": " the sudden intervention of a strategic investor, the company would almost certainly have entered administration within the quarter.",
+      "opts": ["Were it not for", "If it is not for", "Was it not for", "If not for it"],
       "ans": 0,
-      "zh": "內部稽核「不僅」揭發了這項財報不實，「還」發現了一個可追溯至過去三個會計年度的一連串核准凌越模式。",
-      "why": "<b>Not only</b> 置於句首時，主句須倒裝（did the internal audit uncover），並與後方 but also 呼應，構成「不僅…還…」的遞進結構。Not until（直到…才）雖也觸發倒裝，但語意為「延遲發生」而非「不僅如此」，與 but also 的遞進邏輯不合；No longer（不再）與 Not merely（不僅僅）雖可觸發倒裝，但 No longer 語意不符，Not merely 通常搭配 but 而非 but also 且語域較不正式於此固定搭配。"
+      "zh": "「若非」一位策略投資人的臨時介入，這家公司幾乎肯定會在本季內進入破產管理程序。",
+      "why": "<b>Were it not for</b>（若非，倒裝形式）為 If it were not for 省略 if 後的倒裝，用於與現在事實相反的假設，並與主句 would have entered 呼應過去推測。If it is not for 為直述語氣現在式，時態不符；Was it not for 誤用過去式 was 而非假設語氣 were；If not for it 語序錯誤，it 應置於 for 之前作受詞。"
     },
     {
-      "id": "2026-07-29-p5-3",
+      "id": "2026-07-30-p5-1",
+      "tag": "分詞構句（時間先後，完成式被動）",
+      "pre": "",
+      "post": " unanimously by the credit committee, the loan restructuring proposal was forwarded to the board for final ratification.",
+      "opts": ["Having been approved", "Having approved", "Approving", "Approved by"],
+      "ans": 0,
+      "zh": "在信貸委員會一致核准「之後」，這項貸款重整提案便被轉呈董事會作最終批准。",
+      "why": "分詞構句的邏輯主詞為 the loan restructuring proposal（提案是被核准的對象），且「核准」發生在「轉呈董事會」之前，須用完成式被動分詞 <b>Having been approved</b>。Having approved 為完成式主動，語態不符（提案不會主動核准）；Approving 為現在分詞主動，時態與語態皆不符；Approved by 缺少必要的 having been 結構，且 by 之後應接動作執行者而非直接接副詞 unanimously。"
+    },
+    {
+      "id": "2026-07-30-p5-2",
+      "tag": "介系詞片語作後位修飾（beyond dispute）",
+      "pre": "The auditor's finding that revenue had been overstated remained ",
+      "post": " even after the company's outside counsel reviewed the underlying transaction records.",
+      "opts": ["beyond dispute", "beyond doubtful", "without disputing", "out of question"],
+      "ans": 0,
+      "zh": "即便該公司的外部法律顧問已審閱過相關交易紀錄，稽核人員關於營收虛報的認定，仍然「無可爭議」。",
+      "why": "<b>beyond dispute</b>（無可爭議、毋庸置疑）為固定片語，作主詞補語，修飾 remained 之後的狀態。beyond doubtful 文法錯誤（doubtful 為形容詞，不與 beyond 連用，應為 beyond doubt）；without disputing 缺乏對應語法角色，無法直接作主詞補語；out of question（不可能）與 out of the question 意義不同且此處語意不合，正確應表達「毫無疑問」而非「不可能」。"
+    },
+    {
+      "id": "2026-07-30-p5-3",
       "tag": "進階動詞語意辨別",
-      "pre": "The regulator's preliminary findings ",
-      "post": " the bank of failing to maintain adequate liquidity buffers during the stress period in question.",
-      "opts": ["implicated", "indicted", "convicted", "prosecuted"],
+      "pre": "The settlement agreement expressly stipulates that neither party shall ",
+      "post": " the terms of the dispute to any third party, including regulators, absent a valid legal compulsion to do so.",
+      "opts": ["divulge", "disclaim", "dispatch", "discredit"],
       "ans": 0,
-      "zh": "監管機關的初步調查結果，「指出」該銀行在爭議壓力測試期間未能維持足額的流動性緩衝。",
-      "why": "<b>implicate sb of/in sth</b>（指出某人涉及、暗示牽連某事）為調查報告階段常用語，語氣較為初步、尚未定罪。indict（正式起訴，屬司法程序用語，須搭配 for）、convict（判決有罪，須經審判定讞）、prosecute（提起公訴）三者皆屬正式司法程序後段用語，與「監管機關初步調查結果」的階段不符，且皆非慣用搭配 of。"
+      "zh": "和解協議明文規定，除非有合法的強制要求，否則任一方均不得向任何第三方（包括監管機關）「洩露」爭議條款內容。",
+      "why": "<b>divulge</b>（洩露機密資訊）精準對應「不得向第三方透露爭議內容」的保密條款語境。disclaim（否認、聲明放棄權利）語意不符；dispatch（派遣、迅速處理）與資訊揭露無關；discredit（使人不信任、抹黑）語意完全不同，皆無法與 the terms of the dispute 構成合理搭配。"
     },
     {
-      "id": "2026-07-29-p5-4",
-      "tag": "let alone（更遑論）",
-      "pre": "The startup had not yet finalized its Series A term sheet, ",
-      "post": " secured the regulatory approvals necessary to launch in the European market.",
-      "opts": ["let alone", "much less than", "still less", "far from"],
+      "id": "2026-07-30-p5-4",
+      "tag": "比較結構（the last + 不定詞，表最不可能）",
+      "pre": "Given her reputation for meticulous risk management, the chief investment officer was ",
+      "post": " to authorize a leveraged position of that magnitude without board sign-off.",
+      "opts": ["the last person", "the least person", "less than a person", "no person"],
       "ans": 0,
-      "zh": "這家新創公司連A輪募資條件書都尚未定案，「更遑論」取得進軍歐洲市場所需的監管核准。",
-      "why": "<b>let alone</b>（更不用說、更遑論）置於否定句之後，用來強調後面所述之事比前面已提及的更難達成，且後方直接接原形動詞片語 secured 對應前句動詞形式。much less than 多餘 than，正確用法應為 much less（不加 than）；still less 雖語意相近但通常用於書面且不與此處語序搭配；far from（遠非）語法上須接名詞/動名詞且語意結構不符「更遑論」的遞進對比。"
+      "zh": "鑑於這位投資長素以謹慎的風險管理著稱，她是「最不可能」在未經董事會同意下，授權如此規模的槓桿部位的人。",
+      "why": "<b>the last person to V</b>（最不可能做…的人）為固定慣用結構，用來強調某人極不可能做某事，與前文「以謹慎著稱」的語境完全吻合。the least person 不是慣用表達（least 通常修飾程度而非直接修飾 person 構成此固定語意）；less than a person 語意不通；no person 語意過於絕對且不構成此固定片語結構。"
     }
   ],
   "p6": {
-    "id": "2026-07-29-p6",
-    "title": "NOTICE: Temporary Suspension of the Corporate Ride-Share Reimbursement Program",
+    "id": "2026-07-30-p6",
+    "title": "MEMORANDUM: Interim Signing Authority During the CFO's Medical Leave",
     "seg": [
       [
-        "To all employees: Effective immediately, the corporate ride-share reimbursement program ",
+        "To all department heads: While our Chief Financial Officer is on medical leave, all payment approvals and contract signings exceeding NT$2,000,000 ",
         { "b": 0 },
-        " pending a full review of vendor billing practices, following the discovery of systematic overcharging across several regional accounts."
+        " to the Deputy CFO, who has been granted full interim signing authority effective this week."
       ],
       [
         { "b": 1 },
-        ", employees who have already submitted ride-share receipts for August will still be reimbursed under the prior policy, provided the receipts are received by the finance team no later than 15 September."
+        ", requests falling below that threshold should continue to follow the existing departmental approval chain without modification."
       ],
       [
-        "Employees requiring transportation for client meetings or after-hours business travel should, in the meantime, ",
+        "Any contract that was already pending the CFO's signature prior to her leave will be ",
         { "b": 2 },
-        " to the standard mileage reimbursement or the pre-approved taxi voucher program, both of which remain fully operational."
+        " for review by the Deputy CFO, who may request additional documentation before proceeding."
       ],
       [
         { "b": 3 },
-        " We expect to communicate a revised ride-share policy, including a new vendor if applicable, within four to six weeks."
+        " We anticipate that this interim arrangement will remain in place for approximately six to eight weeks, pending further updates from HR."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["has been suspended", "suspends", "is suspending", "will suspend"],
+        "opts": ["will be redirected", "redirect", "have redirected", "are redirecting"],
         "ans": 0,
-        "zh": "致全體同仁：即日起，本公司叫車服務核銷方案「已暫停」，待就多個區域帳戶發現的系統性超收問題完成廠商計費作業全面檢視後，再行恢復。",
-        "why": "主詞 the corporate ride-share reimbursement program 是「被暫停」的對象，且「Effective immediately」表示動作已經生效並延續至今，須用現在完成式被動 <b>has been suspended</b>。suspends 與 is suspending 皆為主動語態，方案不會自行暫停；will suspend 為未來式主動，與「即日起」已生效的語境矛盾。"
+        "zh": "致各部門主管：在本公司財務長休養期間，凡超過新台幣200萬元的付款核准與合約簽署，「將被轉呈」至副財務長，其自本週起已獲授予完整的臨時簽署權限。",
+        "why": "主詞 all payment approvals and contract signings 是「被轉呈」的對象，須用被動語態；搭配「effective this week」的近未來生效時點，選未來式被動 <b>will be redirected</b>。redirect 與 are redirecting 皆為主動語態，核准與簽署文件不會自行轉呈；have redirected 為現在完成式主動，語態與語境皆不符。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["In the interest of fairness", "In light of the foregoing", "As opposed to this", "Notwithstanding the above"],
-        "ans": 1,
-        "zh": "「基於上述情況」，已於8月提交叫車收據的員工，只要收據於9月15日前送達財務團隊，仍可依原方案獲得核銷。",
-        "why": "「the foregoing」（上述內容）明確指涉前一段所說明的暫停原因與情況，<b>In light of the foregoing</b>（基於上述情況）承接前段脈絡，說明因此對已送出收據者採取的過渡安排。In the interest of fairness（基於公平考量）語意可通但未緊扣「上述」的承接關係；As opposed to this（與此相對）表對比而非承接；Notwithstanding the above（儘管如上所述）表讓步轉折，與此處延續既有政策照顧既有申請人的邏輯不符。"
+        "opts": ["By contrast", "In consequence", "As previously noted", "Granted"],
+        "ans": 0,
+        "zh": "「相對地」，低於此門檻的申請案，仍應依現行部門核准流程辦理，不須變動。",
+        "why": "前句說明超過200萬元的案件須改由副財務長簽署，本句說明「相對地」低於門檻者維持原流程不變，兩句形成明確對比，故選 <b>By contrast</b>（相對地）。In consequence（因此）表因果；As previously noted（如先前所述）表引用先前內容，但此為新規定並非重述；Granted（誠然，表讓步）皆與此處單純的對比關係不符。"
       },
       {
-        "tag": "詞彙語意（片語動詞）",
+        "tag": "詞彙語意（分詞）",
         "col1": true,
-        "opts": ["revert", "resort", "refer", "return"],
+        "opts": ["forwarded", "withdrawn", "postponed", "waived"],
         "ans": 0,
-        "zh": "在此期間需要因客戶會議或下班後商務差旅而用車的員工，應暫時「改回採用」標準里程核銷或事先核准的計程車券方案，這兩者目前仍正常運作。",
-        "why": "<b>revert to</b>（改回、恢復採用先前的方式）精準對應「暫時改用另一套既有的舊制度」的語境。resort to（訴諸於，通常用於不得已的手段，語氣較負面）語域不符正式公告；refer to（參閱、查閱）用於文件資料而非改用制度；return to（回到）雖語意相近，但商務文件中描述「改採替代方案」更慣用 revert to。"
+        "zh": "任何在財務長休假前即已待其簽署的合約，將被「轉交」予副財務長審閱，副財務長於過程中可要求提供補充文件。",
+        "why": "<b>forwarded</b>（轉交、轉呈）精準描述「原本待財務長簽署的合約，現改交由副財務長處理」的動作。withdrawn（撤回）語意變成合約被取消；postponed（延後）僅表時間推遲，未說明交由何人處理；waived（豁免、放棄要求）語意與「轉交審閱」不符，皆無法呼應後文「副財務長可能要求補充文件」的處理流程。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Managers should redirect any questions about interim transportation arrangements to their department's finance liaison.",
-          "The company's annual holiday party planning committee is now accepting volunteers.",
-          "New employee ID badges will be issued starting the second week of September.",
-          "The rooftop terrace will be closed for maintenance during the last week of August."
+          "A complete list of documents typically required for signature review is attached for departments' reference.",
+          "The company's community volunteer day has been rescheduled to late September.",
+          "Employees are reminded to submit their annual leave requests before the year-end deadline.",
+          "The executive dining room will undergo minor renovations next month."
         ],
         "ans": 0,
-        "zh": "「主管若對過渡期間的交通安排有任何疑問，應轉介至所屬部門的財務窗口洽詢。」我們預計將在四到六週內公布修訂後的叫車政策，包括視情況更換的新廠商。",
-        "why": "段落主題為「叫車核銷方案暫停」，此句說明疑問的洽詢管道，與前段「過渡期間改採替代方案」及後句「即將公布新政策」自然銜接，構成完整的因應指引。其餘選項（尾牙志工、識別證、屋頂平台維修）皆與叫車方案暫停無關，插入後語意斷裂。"
+        "zh": "「一份審閱簽署時通常所需文件的完整清單，隨函附上供各部門參考。」我們預計這項過渡性安排將持續約六到八週，後續將依人資部門的更新另行通知。",
+        "why": "段落主題為「財務長休假期間的臨時簽署授權」，此句提供實用的所需文件清單，與前段「副財務長可能要求補充文件」直接呼應，幫助各部門提前準備。其餘選項（志工日、特休申請、行政餐廳整修）皆與臨時簽署授權主題無關，插入後語意斷裂。"
       }
     ]
   }
