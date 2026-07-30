@@ -1,117 +1,117 @@
 {
-  "date": "2026-07-30",
+  "date": "2026-07-31",
   "p5": [
     {
-      "id": "2026-07-30-p5-0",
-      "tag": "假設語氣（were it not for 倒裝）",
+      "id": "2026-07-31-p5-0",
+      "tag": "假設語氣（未來不太可能，Should S+V）",
       "pre": "",
-      "post": " the sudden intervention of a strategic investor, the company would almost certainly have entered administration within the quarter.",
-      "opts": ["Were it not for", "If it is not for", "Was it not for", "If not for it"],
+      "post": " the arbitral tribunal find in favor of the claimant, the respondent would be liable for damages exceeding twenty million dollars, plus accrued interest.",
+      "opts": ["Should", "If will", "Would", "Provided will"],
       "ans": 0,
-      "zh": "「若非」一位策略投資人的臨時介入，這家公司幾乎肯定會在本季內進入破產管理程序。",
-      "why": "<b>Were it not for</b>（若非，倒裝形式）為 If it were not for 省略 if 後的倒裝，用於與現在事實相反的假設，並與主句 would have entered 呼應過去推測。If it is not for 為直述語氣現在式，時態不符；Was it not for 誤用過去式 was 而非假設語氣 were；If not for it 語序錯誤，it 應置於 for 之前作受詞。"
+      "zh": "「萬一」仲裁庭最終裁定原告勝訴，被告將須負擔超過兩千萬美元的損害賠償，外加應計利息。",
+      "why": "<b>Should</b> + 主詞 + 原形動詞置於句首，為省略 if 的假設語氣倒裝（= If the tribunal should find...），表「萬一」發生機率較低的未來假設。If will 與 Provided will 文法錯誤（if/provided 子句中不可用未來式 will）；Would 為情態動詞，不能單獨引導條件子句。"
     },
     {
-      "id": "2026-07-30-p5-1",
-      "tag": "分詞構句（時間先後，完成式被動）",
+      "id": "2026-07-31-p5-1",
+      "tag": "分詞構句（讓步，儘管）",
       "pre": "",
-      "post": " unanimously by the credit committee, the loan restructuring proposal was forwarded to the board for final ratification.",
-      "opts": ["Having been approved", "Having approved", "Approving", "Approved by"],
+      "post": " repeatedly warned about the concentration risk in its loan portfolio, the regional bank continued to expand lending to a single overleveraged developer.",
+      "opts": ["Though warned", "Though warning", "Despite warned", "Warned though"],
       "ans": 0,
-      "zh": "在信貸委員會一致核准「之後」，這項貸款重整提案便被轉呈董事會作最終批准。",
-      "why": "分詞構句的邏輯主詞為 the loan restructuring proposal（提案是被核准的對象），且「核准」發生在「轉呈董事會」之前，須用完成式被動分詞 <b>Having been approved</b>。Having approved 為完成式主動，語態不符（提案不會主動核准）；Approving 為現在分詞主動，時態與語態皆不符；Approved by 缺少必要的 having been 結構，且 by 之後應接動作執行者而非直接接副詞 unanimously。"
+      "zh": "儘管一再被警告貸款組合過度集中的風險，這家區域銀行仍持續擴大對單一高槓桿開發商的放款。",
+      "why": "<b>Though warned</b> 為「Though it was repeatedly warned」的省略結構，保留連接詞 though 以明確表達讓步語意，並用過去分詞 warned（被動，銀行是被警告的對象）。Though warning 為主動分詞，語態不符（銀行不是警告的發出者）；Despite warned 文法錯誤（despite 為介系詞，後不可直接接過去分詞子句省略形式，須接動名詞或名詞）；Warned though 語序錯誤，though 應置於句首。"
     },
     {
-      "id": "2026-07-30-p5-2",
-      "tag": "介系詞片語作後位修飾（beyond dispute）",
-      "pre": "The auditor's finding that revenue had been overstated remained ",
-      "post": " even after the company's outside counsel reviewed the underlying transaction records.",
-      "opts": ["beyond dispute", "beyond doubtful", "without disputing", "out of question"],
+      "id": "2026-07-31-p5-2",
+      "tag": "關係子句（介系詞+which，正式書面）",
+      "pre": "The severance package includes a non-compete clause ",
+      "post": " the departing executive is barred from joining any direct competitor for a period of eighteen months.",
+      "opts": ["under which", "which under", "that", "with that"],
       "ans": 0,
-      "zh": "即便該公司的外部法律顧問已審閱過相關交易紀錄，稽核人員關於營收虛報的認定，仍然「無可爭議」。",
-      "why": "<b>beyond dispute</b>（無可爭議、毋庸置疑）為固定片語，作主詞補語，修飾 remained 之後的狀態。beyond doubtful 文法錯誤（doubtful 為形容詞，不與 beyond 連用，應為 beyond doubt）；without disputing 缺乏對應語法角色，無法直接作主詞補語；out of question（不可能）與 out of the question 意義不同且此處語意不合，正確應表達「毫無疑問」而非「不可能」。"
+      "zh": "這份資遣方案包含一項競業禁止條款，「依此條款」，離職高階主管在十八個月內不得加入任何直接競爭對手。",
+      "why": "<b>under which</b>（= under the clause，依此條款）為「介系詞＋關係代名詞」結構，用來承接先行詞 clause 並引導完整子句，語意精準（禁止規定「依據」此條款而生效）。which under 語序錯誤；that 不與介系詞連用置於子句外；with that 不是關係代名詞結構，無法承接先行詞並引導子句。"
     },
     {
-      "id": "2026-07-30-p5-3",
+      "id": "2026-07-31-p5-3",
       "tag": "進階動詞語意辨別",
-      "pre": "The settlement agreement expressly stipulates that neither party shall ",
-      "post": " the terms of the dispute to any third party, including regulators, absent a valid legal compulsion to do so.",
-      "opts": ["divulge", "disclaim", "dispatch", "discredit"],
+      "pre": "The audit committee recommended that the internal controls framework be ",
+      "post": " to ensure it adequately addresses risks arising from the recently acquired subsidiary's operations.",
+      "opts": ["overhauled", "overseen", "overlooked", "overridden"],
       "ans": 0,
-      "zh": "和解協議明文規定，除非有合法的強制要求，否則任一方均不得向任何第三方（包括監管機關）「洩露」爭議條款內容。",
-      "why": "<b>divulge</b>（洩露機密資訊）精準對應「不得向第三方透露爭議內容」的保密條款語境。disclaim（否認、聲明放棄權利）語意不符；dispatch（派遣、迅速處理）與資訊揭露無關；discredit（使人不信任、抹黑）語意完全不同，皆無法與 the terms of the dispute 構成合理搭配。"
+      "zh": "稽核委員會建議應「全面翻修」內部控制架構，以確保其能充分因應新併購子公司營運所衍生的風險。",
+      "why": "<b>overhaul</b>（全面翻修、徹底檢修制度或系統）精準對應「內控架構需大幅調整以因應新增風險」的語境。oversee（監督）語意僅止於監看而非改造；overlook（忽略、俯瞰）語意相反或不符；override（凌駕、否決）指推翻既有決定或規則，與「翻修架構」的建設性語意不同。"
     },
     {
-      "id": "2026-07-30-p5-4",
-      "tag": "比較結構（the last + 不定詞，表最不可能）",
-      "pre": "Given her reputation for meticulous risk management, the chief investment officer was ",
-      "post": " to authorize a leveraged position of that magnitude without board sign-off.",
-      "opts": ["the last person", "the least person", "less than a person", "no person"],
+      "id": "2026-07-31-p5-4",
+      "tag": "not... nor 倒裝（雙重否定連接）",
+      "pre": "The whistleblower policy protects employees who report suspected misconduct in good faith; ",
+      "post": " does it shield those who knowingly file fabricated complaints to harass a colleague.",
+      "opts": ["nor", "and", "so", "neither than"],
       "ans": 0,
-      "zh": "鑑於這位投資長素以謹慎的風險管理著稱，她是「最不可能」在未經董事會同意下，授權如此規模的槓桿部位的人。",
-      "why": "<b>the last person to V</b>（最不可能做…的人）為固定慣用結構，用來強調某人極不可能做某事，與前文「以謹慎著稱」的語境完全吻合。the least person 不是慣用表達（least 通常修飾程度而非直接修飾 person 構成此固定語意）；less than a person 語意不通；no person 語意過於絕對且不構成此固定片語結構。"
+      "zh": "吹哨者保護政策保障出於善意通報疑似不法行為的員工；「但同樣不」保護明知故意捏造投訴以騷擾同事者。",
+      "why": "分號後接否定意義的第二個子句時，須用 <b>nor</b> 並觸發倒裝（nor does it shield），表「也不…」，用以承接前句並否定第二種情況（保障善意通報者，但不保障惡意捏造者）。and 與 so 為肯定承接連接詞，與此處的否定語意不符；neither than 非固定搭配，neither 應搭配 nor 而非 than，且用法錯誤。"
     }
   ],
   "p6": {
-    "id": "2026-07-30-p6",
-    "title": "MEMORANDUM: Interim Signing Authority During the CFO's Medical Leave",
+    "id": "2026-07-31-p6",
+    "title": "MEMORANDUM: Updated Guidelines for External Speaking Engagements",
     "seg": [
       [
-        "To all department heads: While our Chief Financial Officer is on medical leave, all payment approvals and contract signings exceeding NT$2,000,000 ",
+        "To all employees: Any staff member who plans to speak publicly on behalf of the company, whether at an industry conference or in a media interview, ",
         { "b": 0 },
-        " to the Deputy CFO, who has been granted full interim signing authority effective this week."
+        " prior written approval from both their direct manager and the corporate communications team."
       ],
       [
         { "b": 1 },
-        ", requests falling below that threshold should continue to follow the existing departmental approval chain without modification."
+        ", employees who wish to speak in a purely personal capacity, without referencing their role or affiliation with the company, are not subject to this approval requirement."
       ],
       [
-        "Any contract that was already pending the CFO's signature prior to her leave will be ",
+        "Slides, talking points, or any materials intended for external distribution must be submitted for review ",
         { "b": 2 },
-        " for review by the Deputy CFO, who may request additional documentation before proceeding."
+        " five business days in advance to allow sufficient time for legal and communications feedback."
       ],
       [
         { "b": 3 },
-        " We anticipate that this interim arrangement will remain in place for approximately six to eight weeks, pending further updates from HR."
+        " A short guide covering common questions about the approval workflow is available on the corporate communications intranet page."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["will be redirected", "redirect", "have redirected", "are redirecting"],
+        "opts": ["must obtain", "must be obtained", "obtains", "is obtaining"],
         "ans": 0,
-        "zh": "致各部門主管：在本公司財務長休養期間，凡超過新台幣200萬元的付款核准與合約簽署，「將被轉呈」至副財務長，其自本週起已獲授予完整的臨時簽署權限。",
-        "why": "主詞 all payment approvals and contract signings 是「被轉呈」的對象，須用被動語態；搭配「effective this week」的近未來生效時點，選未來式被動 <b>will be redirected</b>。redirect 與 are redirecting 皆為主動語態，核准與簽署文件不會自行轉呈；have redirected 為現在完成式主動，語態與語境皆不符。"
+        "zh": "致全體員工：任何計畫代表公司公開發言的同仁——無論是在業界研討會或接受媒體採訪——「必須事先取得」直屬主管與企業溝通團隊的書面核准。",
+        "why": "主詞 any staff member 是「取得核准」這個動作的主動執行者，須用主動語態；搭配規定的強制性，選 <b>must obtain</b>。must be obtained 為被動語態，但此處主詞應主動去「取得」核准而非被核准所取得，語態不合；obtains 與 is obtaining 缺乏 must 表達的強制語氣，且與句意「規定要求」不符。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["By contrast", "In consequence", "As previously noted", "Granted"],
+        "opts": ["However", "Furthermore", "As a result", "In turn"],
         "ans": 0,
-        "zh": "「相對地」，低於此門檻的申請案，仍應依現行部門核准流程辦理，不須變動。",
-        "why": "前句說明超過200萬元的案件須改由副財務長簽署，本句說明「相對地」低於門檻者維持原流程不變，兩句形成明確對比，故選 <b>By contrast</b>（相對地）。In consequence（因此）表因果；As previously noted（如先前所述）表引用先前內容，但此為新規定並非重述；Granted（誠然，表讓步）皆與此處單純的對比關係不符。"
+        "zh": "「不過」，若員工僅以純粹個人身分發言，未提及其職務或與本公司的隸屬關係，則不受此核准規定限制。",
+        "why": "前句規定代表公司發言須經核准，本句說明「不過」純個人身分發言則為例外，兩句構成例外／對比關係，故選 <b>However</b>（不過）。Furthermore（此外）表遞進；As a result（因此）表因果；In turn（依次、轉而）表順序關係，皆無法呈現「原則 vs. 例外」的轉折邏輯。"
       },
       {
-        "tag": "詞彙語意（分詞）",
+        "tag": "詞彙語意（介系詞）",
         "col1": true,
-        "opts": ["forwarded", "withdrawn", "postponed", "waived"],
+        "opts": ["at least", "at most", "at large", "at length"],
         "ans": 0,
-        "zh": "任何在財務長休假前即已待其簽署的合約，將被「轉交」予副財務長審閱，副財務長於過程中可要求提供補充文件。",
-        "why": "<b>forwarded</b>（轉交、轉呈）精準描述「原本待財務長簽署的合約，現改交由副財務長處理」的動作。withdrawn（撤回）語意變成合約被取消；postponed（延後）僅表時間推遲，未說明交由何人處理；waived（豁免、放棄要求）語意與「轉交審閱」不符，皆無法呼應後文「副財務長可能要求補充文件」的處理流程。"
+        "zh": "任何預計對外發布的簡報、發言重點或相關資料，須「至少」於五個工作天前提交審查，以留有充分時間供法務與溝通團隊提供意見。",
+        "why": "<b>at least</b>（至少）修飾 five business days，表示「不得少於五個工作天」的最低期限要求，符合審查流程需要充裕時間的語境。at most（至多）語意恰好相反，變成「最多提前五天」，與「留足夠時間審查」的目的矛盾；at large（總體而言、逍遙法外）與 at length（詳細地、終於）皆無法修飾時間期限。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "A complete list of documents typically required for signature review is attached for departments' reference.",
-          "The company's community volunteer day has been rescheduled to late September.",
-          "Employees are reminded to submit their annual leave requests before the year-end deadline.",
-          "The executive dining room will undergo minor renovations next month."
+          "The approval request form, along with an estimated review timeline, is accessible through the corporate communications portal.",
+          "The company holiday schedule for the upcoming year has been posted on the HR intranet page.",
+          "Employees interested in the mentorship program should apply before the end of the quarter.",
+          "The building's rooftop solar panels were successfully activated last month."
         ],
         "ans": 0,
-        "zh": "「一份審閱簽署時通常所需文件的完整清單，隨函附上供各部門參考。」我們預計這項過渡性安排將持續約六到八週，後續將依人資部門的更新另行通知。",
-        "why": "段落主題為「財務長休假期間的臨時簽署授權」，此句提供實用的所需文件清單，與前段「副財務長可能要求補充文件」直接呼應，幫助各部門提前準備。其餘選項（志工日、特休申請、行政餐廳整修）皆與臨時簽署授權主題無關，插入後語意斷裂。"
+        "zh": "「核准申請表連同預估的審查時程，皆可透過企業溝通入口網站取得。」一份涵蓋核准流程常見問題的簡短指南，也已公布於企業溝通部門的內部網路頁面。",
+        "why": "段落主題為「對外發言核准流程」，此句提供申請表與時程的取得方式，與後句「常見問題指南已公布」共同構成完整的員工自助資源說明。其餘選項（假期行事曆、導師計畫、屋頂太陽能板）皆與對外發言核准主題無關，插入後語意斷裂。"
       }
     ]
   }
