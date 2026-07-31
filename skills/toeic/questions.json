@@ -1,117 +1,117 @@
 {
-  "date": "2026-07-31",
+  "date": "2026-08-01",
   "p5": [
     {
-      "id": "2026-07-31-p5-0",
-      "tag": "假設語氣（未來不太可能，Should S+V）",
+      "id": "2026-08-01-p5-0",
+      "tag": "假設語氣（過去未來式，would have + p.p.）",
       "pre": "",
-      "post": " the arbitral tribunal find in favor of the claimant, the respondent would be liable for damages exceeding twenty million dollars, plus accrued interest.",
-      "opts": ["Should", "If will", "Would", "Provided will"],
+      "post": " the underwriters conducted more rigorous due diligence, the prospectus would not have overstated the target's recurring revenue by nearly forty percent.",
+      "opts": ["Had", "If had", "Should have", "Would"],
       "ans": 0,
-      "zh": "「萬一」仲裁庭最終裁定原告勝訴，被告將須負擔超過兩千萬美元的損害賠償，外加應計利息。",
-      "why": "<b>Should</b> + 主詞 + 原形動詞置於句首，為省略 if 的假設語氣倒裝（= If the tribunal should find...），表「萬一」發生機率較低的未來假設。If will 與 Provided will 文法錯誤（if/provided 子句中不可用未來式 will）；Would 為情態動詞，不能單獨引導條件子句。"
+      "zh": "倘若承銷商當初執行更嚴謹的盡職調查，公開說明書就不會將標的公司的經常性收入誇大近四成。",
+      "why": "此為省略 if 的假設語氣倒裝，過去完成式主動須將 had 提前至句首：<b>Had</b> the underwriters conducted...（= If the underwriters had conducted），主句用 would not have overstated 對應與過去事實相反的假設。If had 語序錯誤（if 與倒裝不能並存，二擇一）；Should have 用於「早該做卻沒做」的責備語氣，非此處條件句結構；Would 為情態動詞，無法單獨引導條件子句。"
     },
     {
-      "id": "2026-07-31-p5-1",
-      "tag": "分詞構句（讓步，儘管）",
+      "id": "2026-08-01-p5-1",
+      "tag": "分詞構句（時間，同時發生）",
       "pre": "",
-      "post": " repeatedly warned about the concentration risk in its loan portfolio, the regional bank continued to expand lending to a single overleveraged developer.",
-      "opts": ["Though warned", "Though warning", "Despite warned", "Warned though"],
+      "post": " side by side with regulators throughout the investigation, the company avoided the punitive fines typically levied against firms that resist disclosure.",
+      "opts": ["Working", "Worked", "To work", "Having worked"],
       "ans": 0,
-      "zh": "儘管一再被警告貸款組合過度集中的風險，這家區域銀行仍持續擴大對單一高槓桿開發商的放款。",
-      "why": "<b>Though warned</b> 為「Though it was repeatedly warned」的省略結構，保留連接詞 though 以明確表達讓步語意，並用過去分詞 warned（被動，銀行是被警告的對象）。Though warning 為主動分詞，語態不符（銀行不是警告的發出者）；Despite warned 文法錯誤（despite 為介系詞，後不可直接接過去分詞子句省略形式，須接動名詞或名詞）；Warned though 語序錯誤，though 應置於句首。"
+      "zh": "由於整起調查過程中始終與監管機關「並肩合作」，該公司得以避開通常對抗拒揭露的企業所課處的懲罰性罰款。",
+      "why": "此分詞構句的邏輯主詞為 the company（公司主動配合），且「合作」與「避開罰款」在時間上為同步的背景狀態，須用主動現在分詞 <b>Working</b>。Worked 為過去分詞，語態被動，與「公司主動合作」的邏輯不符；To work 為不定詞，語意變成「目的」；Having worked 完成式暗示合作已先於避罰款完成，與「貫穿調查過程、同步發生」的語意不符。"
     },
     {
-      "id": "2026-07-31-p5-2",
-      "tag": "關係子句（介系詞+which，正式書面）",
-      "pre": "The severance package includes a non-compete clause ",
-      "post": " the departing executive is barred from joining any direct competitor for a period of eighteen months.",
-      "opts": ["under which", "which under", "that", "with that"],
+      "id": "2026-08-01-p5-2",
+      "tag": "同位語 that 子句（正式名詞＋假設語氣）",
+      "pre": "The court issued an injunction ",
+      "post": " the disputed shipment be held in a bonded warehouse pending resolution of the underlying ownership claim.",
+      "opts": ["that", "which", "in that", "so that"],
       "ans": 0,
-      "zh": "這份資遣方案包含一項競業禁止條款，「依此條款」，離職高階主管在十八個月內不得加入任何直接競爭對手。",
-      "why": "<b>under which</b>（= under the clause，依此條款）為「介系詞＋關係代名詞」結構，用來承接先行詞 clause 並引導完整子句，語意精準（禁止規定「依據」此條款而生效）。which under 語序錯誤；that 不與介系詞連用置於子句外；with that 不是關係代名詞結構，無法承接先行詞並引導子句。"
+      "zh": "法院發布一項禁制令，「規定」在標的所有權爭議解決之前，將涉爭貨物存放於保稅倉庫。",
+      "why": "injunction（禁制令）屬要求／命令類名詞，後接同位語子句時須用 <b>that</b> 引導，且子句動詞用假設語氣原形 be（= should be held）。which 為關係代名詞，不能引導同位語子句；in that（因為，理由連接詞）與 so that（以便，目的連接詞）皆與「說明禁制令內容」的同位語功能不符。"
     },
     {
-      "id": "2026-07-31-p5-3",
+      "id": "2026-08-01-p5-3",
       "tag": "進階動詞語意辨別",
-      "pre": "The audit committee recommended that the internal controls framework be ",
-      "post": " to ensure it adequately addresses risks arising from the recently acquired subsidiary's operations.",
-      "opts": ["overhauled", "overseen", "overlooked", "overridden"],
+      "pre": "The new whistleblower statute expressly ",
+      "post": " employers from retaliating against staff who report suspected securities fraud to federal regulators.",
+      "opts": ["prohibits", "restrains", "discourages", "refrains"],
       "ans": 0,
-      "zh": "稽核委員會建議應「全面翻修」內部控制架構，以確保其能充分因應新併購子公司營運所衍生的風險。",
-      "why": "<b>overhaul</b>（全面翻修、徹底檢修制度或系統）精準對應「內控架構需大幅調整以因應新增風險」的語境。oversee（監督）語意僅止於監看而非改造；overlook（忽略、俯瞰）語意相反或不符；override（凌駕、否決）指推翻既有決定或規則，與「翻修架構」的建設性語意不同。"
+      "zh": "這項新的吹哨者保護法明文「禁止」雇主對向聯邦監管機關通報疑似證券詐欺的員工採取報復行動。",
+      "why": "<b>prohibit sb from V-ing</b>（法律明文禁止某人做某事）為法規條文的標準用語，語氣具強制性，精準對應「法律明文禁止報復」的語境。restrain sb from（約束、克制某人）語氣較弱且通常用於行為當下的實際阻止而非法律明文禁令；discourage（勸阻、使卻步）語氣過於溫和；refrain（自我克制不做某事）為不及物動詞，主詞應為行為人自身而非法規。"
     },
     {
-      "id": "2026-07-31-p5-4",
-      "tag": "not... nor 倒裝（雙重否定連接）",
-      "pre": "The whistleblower policy protects employees who report suspected misconduct in good faith; ",
-      "post": " does it shield those who knowingly file fabricated complaints to harass a colleague.",
-      "opts": ["nor", "and", "so", "neither than"],
+      "id": "2026-08-01-p5-4",
+      "tag": "比較結構（the more..., the less...）",
+      "pre": "",
+      "post": " scrutiny the merger attracted from antitrust regulators, the less willing institutional investors became to commit fresh capital to the deal.",
+      "opts": ["The more", "More", "The most", "As more"],
       "ans": 0,
-      "zh": "吹哨者保護政策保障出於善意通報疑似不法行為的員工；「但同樣不」保護明知故意捏造投訴以騷擾同事者。",
-      "why": "分號後接否定意義的第二個子句時，須用 <b>nor</b> 並觸發倒裝（nor does it shield），表「也不…」，用以承接前句並否定第二種情況（保障善意通報者，但不保障惡意捏造者）。and 與 so 為肯定承接連接詞，與此處的否定語意不符；neither than 非固定搭配，neither 應搭配 nor 而非 than，且用法錯誤。"
+      "zh": "這樁併購案從反壟斷監管機關那裡招致的審查「愈」多，機構投資人願意為此案挹注新資金的意願就「愈」低。",
+      "why": "「the + 比較級, the + 比較級」為固定的雙重比較結構，表示兩件事同步消長，故空格須用 <b>The more</b> 搭配後方的 the less 形成呼應。More 缺少句首必要的 The；The most 為最高級，不符合此雙重比較結構；As more 的 as 用法與此固定結構不合，無法與後方 the less 呼應。"
     }
   ],
   "p6": {
-    "id": "2026-07-31-p6",
-    "title": "MEMORANDUM: Updated Guidelines for External Speaking Engagements",
+    "id": "2026-08-01-p6",
+    "title": "MEMORANDUM: August Building Access During Elevator Modernization",
     "seg": [
       [
-        "To all employees: Any staff member who plans to speak publicly on behalf of the company, whether at an industry conference or in a media interview, ",
+        "To all tenants: Starting 3 August, the west-wing elevator bank ",
         { "b": 0 },
-        " prior written approval from both their direct manager and the corporate communications team."
+        " modernized in three phases over the course of the month, with only one of the three cars remaining in service at any given time."
       ],
       [
         { "b": 1 },
-        ", employees who wish to speak in a purely personal capacity, without referencing their role or affiliation with the company, are not subject to this approval requirement."
+        ", tenants on floors 15 through 22 are strongly encouraged to use the east-wing elevators during peak morning and evening hours to avoid extended wait times."
       ],
       [
-        "Slides, talking points, or any materials intended for external distribution must be submitted for review ",
+        "Building management has arranged for the freight elevator to be ",
         { "b": 2 },
-        " five business days in advance to allow sufficient time for legal and communications feedback."
+        " for passenger use between 7:30 and 9:30 each morning to help alleviate congestion during the busiest period."
       ],
       [
         { "b": 3 },
-        " A short guide covering common questions about the approval workflow is available on the corporate communications intranet page."
+        " We appreciate your patience during this upgrade, which will improve reliability and reduce wait times once complete."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["must obtain", "must be obtained", "obtains", "is obtaining"],
+        "opts": ["will be modernized", "modernizes", "has modernized", "is modernizing itself"],
         "ans": 0,
-        "zh": "致全體員工：任何計畫代表公司公開發言的同仁——無論是在業界研討會或接受媒體採訪——「必須事先取得」直屬主管與企業溝通團隊的書面核准。",
-        "why": "主詞 any staff member 是「取得核准」這個動作的主動執行者，須用主動語態；搭配規定的強制性，選 <b>must obtain</b>。must be obtained 為被動語態，但此處主詞應主動去「取得」核准而非被核准所取得，語態不合；obtains 與 is obtaining 缺乏 must 表達的強制語氣，且與句意「規定要求」不符。"
+        "zh": "致全體租戶：自8月3日起，西翼電梯組「將分三階段」於本月內進行現代化更新，三部電梯屆時僅有一部維持正常運作。",
+        "why": "主詞 the west-wing elevator bank 是「被更新」的對象，須用被動語態；搭配「Starting 3 August」的未來生效時點，選未來式被動 <b>will be modernized</b>。modernizes 為現在式主動，電梯不會自行更新；has modernized 表已完成，與未來時程矛盾；is modernizing itself 反身用法不自然且語態不合。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["However", "Furthermore", "As a result", "In turn"],
+        "opts": ["In light of this", "On the other hand", "As it turned out", "For example"],
         "ans": 0,
-        "zh": "「不過」，若員工僅以純粹個人身分發言，未提及其職務或與本公司的隸屬關係，則不受此核准規定限制。",
-        "why": "前句規定代表公司發言須經核准，本句說明「不過」純個人身分發言則為例外，兩句構成例外／對比關係，故選 <b>However</b>（不過）。Furthermore（此外）表遞進；As a result（因此）表因果；In turn（依次、轉而）表順序關係，皆無法呈現「原則 vs. 例外」的轉折邏輯。"
+        "zh": "「有鑑於此」，強烈建議15樓至22樓的租戶於上下班尖峰時段改搭東翼電梯，以避免長時間等候。",
+        "why": "前句說明施工期間僅剩一部電梯運作，本句「基於此情況」建議租戶改道，兩句為因果承接關係，故選 <b>In light of this</b>（有鑑於此）。On the other hand（另一方面）表對比；As it turned out（結果證明）表事後回顧已發生之事；For example（例如）表舉例，皆與此處的因果建議邏輯不符。"
       },
       {
-        "tag": "詞彙語意（介系詞）",
+        "tag": "詞彙語意（分詞）",
         "col1": true,
-        "opts": ["at least", "at most", "at large", "at length"],
-        "ans": 0,
-        "zh": "任何預計對外發布的簡報、發言重點或相關資料，須「至少」於五個工作天前提交審查，以留有充分時間供法務與溝通團隊提供意見。",
-        "why": "<b>at least</b>（至少）修飾 five business days，表示「不得少於五個工作天」的最低期限要求，符合審查流程需要充裕時間的語境。at most（至多）語意恰好相反，變成「最多提前五天」，與「留足夠時間審查」的目的矛盾；at large（總體而言、逍遙法外）與 at length（詳細地、終於）皆無法修飾時間期限。"
+        "opts": ["repurposed", "restricted", "relocated", "reserved"],
+        "ans": 3,
+        "zh": "大樓管理處已安排，每日上午7:30至9:30期間，將貨梯「保留」供乘客使用，以緩解該時段最繁忙的擁擠狀況。",
+        "why": "<b>reserved for</b>（保留供…使用）精準對應「貨梯在特定時段專供乘客使用」的安排語境。repurposed（改作他用）語意過於強烈，暗示永久改變用途；restricted（限制使用）語意相反，變成限制乘客使用；relocated（搬遷位置）與「開放使用」的語境無關，皆無法呼應「協助疏解尖峰壅塞」的目的。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "The approval request form, along with an estimated review timeline, is accessible through the corporate communications portal.",
-          "The company holiday schedule for the upcoming year has been posted on the HR intranet page.",
-          "Employees interested in the mentorship program should apply before the end of the quarter.",
-          "The building's rooftop solar panels were successfully activated last month."
+          "A detailed phase-by-phase schedule, including which car will be out of service each week, is posted in every elevator lobby.",
+          "The building's rooftop garden will reopen to tenants in early September.",
+          "Tenants interested in additional storage space should contact the leasing office.",
+          "The annual fire drill will take place on the second Tuesday of August as usual."
         ],
         "ans": 0,
-        "zh": "「核准申請表連同預估的審查時程，皆可透過企業溝通入口網站取得。」一份涵蓋核准流程常見問題的簡短指南，也已公布於企業溝通部門的內部網路頁面。",
-        "why": "段落主題為「對外發言核准流程」，此句提供申請表與時程的取得方式，與後句「常見問題指南已公布」共同構成完整的員工自助資源說明。其餘選項（假期行事曆、導師計畫、屋頂太陽能板）皆與對外發言核准主題無關，插入後語意斷裂。"
+        "zh": "「一份詳細的分階段時程表，包含每週哪一部電梯將暫停服務，已張貼於各樓層電梯大廳。」感謝各位在此次升級期間的耐心配合，完工後將有效提升電梯可靠度並縮短候梯時間。",
+        "why": "段落主題為「電梯現代化施工期間的動線安排」，此句提供分階段時程表的張貼位置，讓租戶能事先掌握每週狀況，與前段「貨梯開放時段」及後句「感謝配合」自然銜接，構成完整的資訊揭露。其餘選項（屋頂花園、倉儲空間、消防演習）皆與電梯施工主題無關，插入後語意斷裂。"
       }
     ]
   }
