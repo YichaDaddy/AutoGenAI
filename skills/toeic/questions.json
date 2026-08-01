@@ -1,117 +1,117 @@
 {
-  "date": "2026-08-01",
+  "date": "2026-08-02",
   "p5": [
     {
-      "id": "2026-08-01-p5-0",
-      "tag": "假設語氣（過去未來式，would have + p.p.）",
+      "id": "2026-08-02-p5-0",
+      "tag": "假設語氣（過去，had it not been for 倒裝）",
       "pre": "",
-      "post": " the underwriters conducted more rigorous due diligence, the prospectus would not have overstated the target's recurring revenue by nearly forty percent.",
-      "opts": ["Had", "If had", "Should have", "Would"],
+      "post": " a last-minute waiver granted by the senior lender, the covenant breach would have triggered an automatic acceleration of the entire loan balance.",
+      "opts": ["Had it not been for", "Had it not been", "If it had not for", "Were it not been for"],
       "ans": 0,
-      "zh": "倘若承銷商當初執行更嚴謹的盡職調查，公開說明書就不會將標的公司的經常性收入誇大近四成。",
-      "why": "此為省略 if 的假設語氣倒裝，過去完成式主動須將 had 提前至句首：<b>Had</b> the underwriters conducted...（= If the underwriters had conducted），主句用 would not have overstated 對應與過去事實相反的假設。If had 語序錯誤（if 與倒裝不能並存，二擇一）；Should have 用於「早該做卻沒做」的責備語氣，非此處條件句結構；Would 為情態動詞，無法單獨引導條件子句。"
+      "zh": "若非資深放款人在最後一刻同意豁免，這起約款違反事件原本將觸發整筆貸款餘額的自動加速到期。",
+      "why": "<b>Had it not been for</b> 為省略 if 的倒裝假設語氣（= If it had not been for），用於與過去事實相反的假設，與主句 would have triggered 呼應。Had it not been 缺少必要的 for，無法接名詞片語；If it had not for 缺少 been，文法不完整；Were it not been for 誤將 Were 與 been 混用，不合文法。"
     },
     {
-      "id": "2026-08-01-p5-1",
-      "tag": "分詞構句（時間，同時發生）",
+      "id": "2026-08-02-p5-1",
+      "tag": "分詞構句（讓步，主動）",
       "pre": "",
-      "post": " side by side with regulators throughout the investigation, the company avoided the punitive fines typically levied against firms that resist disclosure.",
-      "opts": ["Working", "Worked", "To work", "Having worked"],
-      "ans": 0,
-      "zh": "由於整起調查過程中始終與監管機關「並肩合作」，該公司得以避開通常對抗拒揭露的企業所課處的懲罰性罰款。",
-      "why": "此分詞構句的邏輯主詞為 the company（公司主動配合），且「合作」與「避開罰款」在時間上為同步的背景狀態，須用主動現在分詞 <b>Working</b>。Worked 為過去分詞，語態被動，與「公司主動合作」的邏輯不符；To work 為不定詞，語意變成「目的」；Having worked 完成式暗示合作已先於避罰款完成，與「貫穿調查過程、同步發生」的語意不符。"
+      "post": " no formal complaint from any employee, the HR department nonetheless launched a proactive review of the department's overtime practices.",
+      "opts": ["Receiving", "Received", "Having received", "To receive"],
+      "ans": 2,
+      "zh": "儘管沒有收到任何員工的正式申訴，人資部門仍主動啟動了對該部門加班慣例的檢視。",
+      "why": "此分詞構句的邏輯主詞為 the HR department（人資部門是接收申訴的一方，接收本身雖無發生，但邏輯上仍以完成式分詞表達「先前狀態」，即『在啟動檢視之前，並未收到申訴』），時間上發生在主要子句動作之前，且為主動語態，故用完成式主動分詞 <b>Having received</b>（此處為否定：Having received no complaint = 沒有收到申訴便…）。Receiving 為現在分詞，僅表同時發生，未能凸顯「事前並無申訴」這個先於主要動作的狀態；Received 為過去分詞，語態被動，主詞邏輯不符（部門不是被接收的對象）；To receive 為不定詞表目的，語意不符。"
     },
     {
-      "id": "2026-08-01-p5-2",
-      "tag": "同位語 that 子句（正式名詞＋假設語氣）",
-      "pre": "The court issued an injunction ",
-      "post": " the disputed shipment be held in a bonded warehouse pending resolution of the underlying ownership claim.",
-      "opts": ["that", "which", "in that", "so that"],
+      "id": "2026-08-02-p5-2",
+      "tag": "關係子句（介系詞+whom，正式）",
+      "pre": "The panel interviewed three candidates, ",
+      "post": " only one possessed the specialized regulatory experience the position required.",
+      "opts": ["of whom", "whom of", "which of them", "whose"],
       "ans": 0,
-      "zh": "法院發布一項禁制令，「規定」在標的所有權爭議解決之前，將涉爭貨物存放於保稅倉庫。",
-      "why": "injunction（禁制令）屬要求／命令類名詞，後接同位語子句時須用 <b>that</b> 引導，且子句動詞用假設語氣原形 be（= should be held）。which 為關係代名詞，不能引導同位語子句；in that（因為，理由連接詞）與 so that（以便，目的連接詞）皆與「說明禁制令內容」的同位語功能不符。"
+      "zh": "評選小組面試了三位候選人，「其中僅有一位」具備該職位所需的專業法規經驗。",
+      "why": "先行詞為人（three candidates），且子句需表達「三人中的一人」，須用「數量詞 + of + <b>whom</b>」的正式關係子句結構。whom of 語序錯誤；which of them 中 which 用於事物、且 them 為代名詞不能作關係子句連接詞；whose 為所有格，須直接接名詞，與此處語意不符。"
     },
     {
-      "id": "2026-08-01-p5-3",
+      "id": "2026-08-02-p5-3",
       "tag": "進階動詞語意辨別",
-      "pre": "The new whistleblower statute expressly ",
-      "post": " employers from retaliating against staff who report suspected securities fraud to federal regulators.",
-      "opts": ["prohibits", "restrains", "discourages", "refrains"],
+      "pre": "The independent examiner was retained to ",
+      "post": " whether the valuation methodology applied by management was consistent with generally accepted accounting principles.",
+      "opts": ["ascertain", "assert", "advocate", "allocate"],
       "ans": 0,
-      "zh": "這項新的吹哨者保護法明文「禁止」雇主對向聯邦監管機關通報疑似證券詐欺的員工採取報復行動。",
-      "why": "<b>prohibit sb from V-ing</b>（法律明文禁止某人做某事）為法規條文的標準用語，語氣具強制性，精準對應「法律明文禁止報復」的語境。restrain sb from（約束、克制某人）語氣較弱且通常用於行為當下的實際阻止而非法律明文禁令；discourage（勸阻、使卻步）語氣過於溫和；refrain（自我克制不做某事）為不及物動詞，主詞應為行為人自身而非法規。"
+      "zh": "本公司聘請獨立查核人員，以「查明確認」管理階層所採用的評價方法是否符合一般公認會計原則。",
+      "why": "<b>ascertain</b>（透過查證、調查以確認事實）精準對應「聘請獨立人員查明某事是否屬實」的語境，後接 whether 名詞子句為固定搭配。assert（斷言、主張）語意變成單方面宣稱而非查證；advocate（倡導、支持）與查核工作無關；allocate（分配）語意完全不符。"
     },
     {
-      "id": "2026-08-01-p5-4",
-      "tag": "比較結構（the more..., the less...）",
+      "id": "2026-08-02-p5-4",
+      "tag": "倒裝（否定副詞片語 On no account）",
       "pre": "",
-      "post": " scrutiny the merger attracted from antitrust regulators, the less willing institutional investors became to commit fresh capital to the deal.",
-      "opts": ["The more", "More", "The most", "As more"],
+      "post": " should confidential client data be transmitted through unencrypted channels, regardless of the urgency of the request.",
+      "opts": ["On no account", "By no means possible", "In no way possibly", "At no time never"],
       "ans": 0,
-      "zh": "這樁併購案從反壟斷監管機關那裡招致的審查「愈」多，機構投資人願意為此案挹注新資金的意願就「愈」低。",
-      "why": "「the + 比較級, the + 比較級」為固定的雙重比較結構，表示兩件事同步消長，故空格須用 <b>The more</b> 搭配後方的 the less 形成呼應。More 缺少句首必要的 The；The most 為最高級，不符合此雙重比較結構；As more 的 as 用法與此固定結構不合，無法與後方 the less 呼應。"
+      "zh": "「在任何情況下都絕不可」透過未加密的管道傳輸機密客戶資料，無論該請求多麼緊急。",
+      "why": "<b>On no account</b>（絕不可、在任何情況下都不）為否定副詞片語，置於句首時觸發主句倒裝（should confidential client data be transmitted），語意強烈禁止。By no means possible 中 possible 為贅字且不構成固定倒裝片語；In no way possibly 同樣因贅字 possibly 而不成立；At no time never 為雙重否定的錯誤堆疊（never 多餘），文法不通。"
     }
   ],
   "p6": {
-    "id": "2026-08-01-p6",
-    "title": "MEMORANDUM: August Building Access During Elevator Modernization",
+    "id": "2026-08-02-p6",
+    "title": "NOTICE: Revised Procedure for Submitting Vendor Invoices",
     "seg": [
       [
-        "To all tenants: Starting 3 August, the west-wing elevator bank ",
+        "To all approved vendors: Effective 1 September, all invoices submitted to our accounts payable department ",
         { "b": 0 },
-        " modernized in three phases over the course of the month, with only one of the three cars remaining in service at any given time."
+        " through our new online vendor portal rather than by email, in order to reduce processing delays and duplicate payments."
       ],
       [
         { "b": 1 },
-        ", tenants on floors 15 through 22 are strongly encouraged to use the east-wing elevators during peak morning and evening hours to avoid extended wait times."
+        ", invoices emailed directly to accounts payable staff after that date will be returned unprocessed, and vendors will be asked to resubmit through the portal."
       ],
       [
-        "Building management has arranged for the freight elevator to be ",
+        "Vendors who have not yet registered for portal access should do so well ",
         { "b": 2 },
-        " for passenger use between 7:30 and 9:30 each morning to help alleviate congestion during the busiest period."
+        " the 1 September deadline, as account verification typically takes three to five business days to complete."
       ],
       [
         { "b": 3 },
-        " We appreciate your patience during this upgrade, which will improve reliability and reduce wait times once complete."
+        " A short video walkthrough of the portal's invoice-submission process is available on our vendor-relations webpage."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["will be modernized", "modernizes", "has modernized", "is modernizing itself"],
+        "opts": ["must be submitted", "must submit", "have submitted", "are submitting"],
         "ans": 0,
-        "zh": "致全體租戶：自8月3日起，西翼電梯組「將分三階段」於本月內進行現代化更新，三部電梯屆時僅有一部維持正常運作。",
-        "why": "主詞 the west-wing elevator bank 是「被更新」的對象，須用被動語態；搭配「Starting 3 August」的未來生效時點，選未來式被動 <b>will be modernized</b>。modernizes 為現在式主動，電梯不會自行更新；has modernized 表已完成，與未來時程矛盾；is modernizing itself 反身用法不自然且語態不合。"
+        "zh": "致所有核准供應商：自9月1日起，凡提交至本公司應付帳款部門的發票，「均須改為透過」全新的線上供應商入口網站提交，而非以電子郵件方式，以減少處理延遲與重複付款情形。",
+        "why": "主詞 all invoices 是「被提交」的對象，須用被動語態；搭配「Effective 1 September」的未來生效時點及規定的強制性，選 <b>must be submitted</b>。must submit 為主動語態，發票不會自行提交；have submitted 與 are submitting 皆為主動語態且時態與語境不符。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["In light of this", "On the other hand", "As it turned out", "For example"],
+        "opts": ["Accordingly", "Nevertheless", "By comparison", "In retrospect"],
         "ans": 0,
-        "zh": "「有鑑於此」，強烈建議15樓至22樓的租戶於上下班尖峰時段改搭東翼電梯，以避免長時間等候。",
-        "why": "前句說明施工期間僅剩一部電梯運作，本句「基於此情況」建議租戶改道，兩句為因果承接關係，故選 <b>In light of this</b>（有鑑於此）。On the other hand（另一方面）表對比；As it turned out（結果證明）表事後回顧已發生之事；For example（例如）表舉例，皆與此處的因果建議邏輯不符。"
+        "zh": "「因此」，該日期之後直接以電子郵件寄給應付帳款人員的發票，將不予處理並退回，供應商須改透過入口網站重新提交。",
+        "why": "前句規定發票須改由入口網站提交，本句說明「因此」以電子郵件寄送者將被退回，兩句為因果承接關係，故選 <b>Accordingly</b>（因此）。Nevertheless（儘管如此）表讓步轉折；By comparison（相較之下）表對比；In retrospect（事後回顧）表回顧過去，皆與此處的因果邏輯不符。"
       },
       {
-        "tag": "詞彙語意（分詞）",
+        "tag": "詞彙語意（介系詞）",
         "col1": true,
-        "opts": ["repurposed", "restricted", "relocated", "reserved"],
-        "ans": 3,
-        "zh": "大樓管理處已安排，每日上午7:30至9:30期間，將貨梯「保留」供乘客使用，以緩解該時段最繁忙的擁擠狀況。",
-        "why": "<b>reserved for</b>（保留供…使用）精準對應「貨梯在特定時段專供乘客使用」的安排語境。repurposed（改作他用）語意過於強烈，暗示永久改變用途；restricted（限制使用）語意相反，變成限制乘客使用；relocated（搬遷位置）與「開放使用」的語境無關，皆無法呼應「協助疏解尖峰壅塞」的目的。"
+        "opts": ["ahead of", "along with", "instead of", "regardless of"],
+        "ans": 0,
+        "zh": "尚未完成入口網站帳號註冊的供應商，應在9月1日截止日期「之前」及早辦理，因為帳號驗證作業通常需時三至五個工作天。",
+        "why": "<b>ahead of</b>（在…之前）修飾 the 1 September deadline，符合「及早於截止日前完成註冊」的語境，且與前文 well（充分地、及早地）自然搭配（well ahead of = 遠遠早於）。along with（與…一起）、instead of（取代）、regardless of（不論）皆無法表達「時間上早於截止日」的語意。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "A detailed phase-by-phase schedule, including which car will be out of service each week, is posted in every elevator lobby.",
-          "The building's rooftop garden will reopen to tenants in early September.",
-          "Tenants interested in additional storage space should contact the leasing office.",
-          "The annual fire drill will take place on the second Tuesday of August as usual."
+          "Vendors experiencing technical difficulties during registration may contact our support line for assistance.",
+          "Our annual vendor appreciation event will be held virtually this year in October.",
+          "Purchase orders exceeding NT$500,000 require dual authorization from the procurement director.",
+          "The accounts payable office will observe reduced hours during the year-end holiday period."
         ],
         "ans": 0,
-        "zh": "「一份詳細的分階段時程表，包含每週哪一部電梯將暫停服務，已張貼於各樓層電梯大廳。」感謝各位在此次升級期間的耐心配合，完工後將有效提升電梯可靠度並縮短候梯時間。",
-        "why": "段落主題為「電梯現代化施工期間的動線安排」，此句提供分階段時程表的張貼位置，讓租戶能事先掌握每週狀況，與前段「貨梯開放時段」及後句「感謝配合」自然銜接，構成完整的資訊揭露。其餘選項（屋頂花園、倉儲空間、消防演習）皆與電梯施工主題無關，插入後語意斷裂。"
+        "zh": "「供應商若於註冊過程中遇到技術問題，可洽詢我們的支援專線尋求協助。」一段簡短的入口網站發票提交流程操作影片，也已公布於本公司供應商關係網頁。",
+        "why": "段落主題為「發票提交流程改版」，此句提供技術問題的支援管道，與後句「操作影片已上架」共同構成完整的供應商協助資源，並自然銜接前段「及早完成註冊」的建議。其餘選項（供應商感恩活動、採購金額授權門檻、年末上班時間）皆與發票提交流程改版無關，插入後語意斷裂。"
       }
     ]
   }
