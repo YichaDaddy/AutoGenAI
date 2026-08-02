@@ -1,117 +1,117 @@
 {
-  "date": "2026-08-02",
+  "date": "2026-08-03",
   "p5": [
     {
-      "id": "2026-08-02-p5-0",
-      "tag": "假設語氣（過去，had it not been for 倒裝）",
+      "id": "2026-08-03-p5-0",
+      "tag": "假設語氣（現在，were to 表可能性極低）",
       "pre": "",
-      "post": " a last-minute waiver granted by the senior lender, the covenant breach would have triggered an automatic acceleration of the entire loan balance.",
-      "opts": ["Had it not been for", "Had it not been", "If it had not for", "Were it not been for"],
+      "post": " the joint venture partners were to deadlock on the annual budget for a third consecutive year, either party would be entitled to invoke the buy-sell provision.",
+      "opts": ["Were", "If were", "Should be", "Being"],
       "ans": 0,
-      "zh": "若非資深放款人在最後一刻同意豁免，這起約款違反事件原本將觸發整筆貸款餘額的自動加速到期。",
-      "why": "<b>Had it not been for</b> 為省略 if 的倒裝假設語氣（= If it had not been for），用於與過去事實相反的假設，與主句 would have triggered 呼應。Had it not been 缺少必要的 for，無法接名詞片語；If it had not for 缺少 been，文法不完整；Were it not been for 誤將 Were 與 been 混用，不合文法。"
+      "zh": "倘若合資雙方連續第三年在年度預算上陷入僵局，任一方均有權啟動買賣條款。",
+      "why": "此為 If the partners were to deadlock... 省略 if 後的倒裝，<b>Were</b> 提前至句首，構成「Were + 主詞 + to + 原形動詞」的固定假設語氣結構，表可能性極低的未來假設。If were 語序矛盾（if 與倒裝擇一使用）；Should be 之後須接原形動詞而非 to deadlock 結構，且語意與可能性程度不同；Being 為分詞，無法引導完整的條件子句。"
     },
     {
-      "id": "2026-08-02-p5-1",
-      "tag": "分詞構句（讓步，主動）",
-      "pre": "",
-      "post": " no formal complaint from any employee, the HR department nonetheless launched a proactive review of the department's overtime practices.",
-      "opts": ["Receiving", "Received", "Having received", "To receive"],
-      "ans": 2,
-      "zh": "儘管沒有收到任何員工的正式申訴，人資部門仍主動啟動了對該部門加班慣例的檢視。",
-      "why": "此分詞構句的邏輯主詞為 the HR department（人資部門是接收申訴的一方，接收本身雖無發生，但邏輯上仍以完成式分詞表達「先前狀態」，即『在啟動檢視之前，並未收到申訴』），時間上發生在主要子句動作之前，且為主動語態，故用完成式主動分詞 <b>Having received</b>（此處為否定：Having received no complaint = 沒有收到申訴便…）。Receiving 為現在分詞，僅表同時發生，未能凸顯「事前並無申訴」這個先於主要動作的狀態；Received 為過去分詞，語態被動，主詞邏輯不符（部門不是被接收的對象）；To receive 為不定詞表目的，語意不符。"
-    },
-    {
-      "id": "2026-08-02-p5-2",
-      "tag": "關係子句（介系詞+whom，正式）",
-      "pre": "The panel interviewed three candidates, ",
-      "post": " only one possessed the specialized regulatory experience the position required.",
-      "opts": ["of whom", "whom of", "which of them", "whose"],
+      "id": "2026-08-03-p5-1",
+      "tag": "分詞構句（附帶結果，被動）",
+      "pre": "The regulator imposed a consent order on the exchange, ",
+      "post": " to enhanced reporting requirements for the next eighteen months.",
+      "opts": ["subjecting it", "subjected it", "subjected", "to subject it"],
       "ans": 0,
-      "zh": "評選小組面試了三位候選人，「其中僅有一位」具備該職位所需的專業法規經驗。",
-      "why": "先行詞為人（three candidates），且子句需表達「三人中的一人」，須用「數量詞 + of + <b>whom</b>」的正式關係子句結構。whom of 語序錯誤；which of them 中 which 用於事物、且 them 為代名詞不能作關係子句連接詞；whose 為所有格，須直接接名詞，與此處語意不符。"
+      "zh": "監管機關對該交易所發布同意令，「使其」在未來十八個月內須遵循更嚴格的申報要求。",
+      "why": "此分詞構句表達主要動作（發布同意令）所直接導致的附帶結果，邏輯主詞為 the regulator（監管機關是使交易所受制於新規定的一方），須用主動現在分詞加受詞 <b>subjecting it</b>（subject sb/sth to sth，使…受制於…）。subjected it 與 subjected 皆為過去分詞，語態被動、與「監管機關主動使其受制」的邏輯不符；to subject it 為不定詞，表目的而非結果。"
     },
     {
-      "id": "2026-08-02-p5-3",
+      "id": "2026-08-03-p5-2",
+      "tag": "非限定關係子句（介系詞+which，正式）",
+      "pre": "The parties entered into a standstill agreement, ",
+      "post": " neither side may pursue litigation for a period of ninety days while settlement discussions continue.",
+      "opts": ["during which", "which during", "while which", "that during"],
+      "ans": 0,
+      "zh": "雙方簽訂了一項暫緩協議，「在此期間」，任一方均不得提起訴訟，為期九十天，以便和解協商得以持續進行。",
+      "why": "<b>during which</b>（= during that period，在此期間）為「介系詞＋關係代名詞」結構，以非限定方式承接前句所述的協議期間，並引導完整子句。which during 語序錯誤；while which 混用連接詞 while 與關係代名詞 which，結構矛盾；that during 同樣語序錯誤且 that 不與介系詞連用置於子句外。"
+    },
+    {
+      "id": "2026-08-03-p5-3",
       "tag": "進階動詞語意辨別",
-      "pre": "The independent examiner was retained to ",
-      "post": " whether the valuation methodology applied by management was consistent with generally accepted accounting principles.",
-      "opts": ["ascertain", "assert", "advocate", "allocate"],
+      "pre": "The trustee is obligated to ",
+      "post": " the beneficiaries' interests above any conflicting personal or institutional considerations when administering the estate.",
+      "opts": ["elevate", "delegate", "designate", "denote"],
       "ans": 0,
-      "zh": "本公司聘請獨立查核人員，以「查明確認」管理階層所採用的評價方法是否符合一般公認會計原則。",
-      "why": "<b>ascertain</b>（透過查證、調查以確認事實）精準對應「聘請獨立人員查明某事是否屬實」的語境，後接 whether 名詞子句為固定搭配。assert（斷言、主張）語意變成單方面宣稱而非查證；advocate（倡導、支持）與查核工作無關；allocate（分配）語意完全不符。"
+      "zh": "受託人在管理遺產事務時，有義務將受益人的利益「置於」其他相衝突的個人或機構考量「之上」（即優先考量）。",
+      "why": "<b>elevate A above B</b>（將A置於B之上、使A優先於B）精準對應「受益人利益優先於其他考量」的受託義務語境。delegate（授權、委派職責）語意不符；designate（指定人選或用途）與「利益優先順序」無關；denote（表示、意指，用於符號或語意）同樣搭配不成立。"
     },
     {
-      "id": "2026-08-02-p5-4",
-      "tag": "倒裝（否定副詞片語 On no account）",
+      "id": "2026-08-03-p5-4",
+      "tag": "比較結構（no sooner...than，過去完成式）",
       "pre": "",
-      "post": " should confidential client data be transmitted through unencrypted channels, regardless of the urgency of the request.",
-      "opts": ["On no account", "By no means possible", "In no way possibly", "At no time never"],
+      "post": " the acquisition closed than three senior executives from the target company announced their resignations.",
+      "opts": ["No sooner had", "No sooner did", "Hardly did", "Scarcely was"],
       "ans": 0,
-      "zh": "「在任何情況下都絕不可」透過未加密的管道傳輸機密客戶資料，無論該請求多麼緊急。",
-      "why": "<b>On no account</b>（絕不可、在任何情況下都不）為否定副詞片語，置於句首時觸發主句倒裝（should confidential client data be transmitted），語意強烈禁止。By no means possible 中 possible 為贅字且不構成固定倒裝片語；In no way possibly 同樣因贅字 possibly 而不成立；At no time never 為雙重否定的錯誤堆疊（never 多餘），文法不通。"
+      "zh": "併購案「才剛」完成交割，被併購公司的三位高階主管「便」立即宣布辭職。",
+      "why": "<b>No sooner had</b> + 主詞 + 過去分詞 + than... 為固定倒裝結構，表「一…就…」，前半句須用過去完成式（had closed）並與 than 搭配。No sooner did 之後須接原形動詞（did the acquisition close），此處主詞後方為 closed 已是過去式動詞而非原形，故與 did 的倒裝結構不合；Hardly did 語法上須搭配 when 而非 than；Scarcely was 用於 be 動詞倒裝，與此處一般動詞 closed 不合。"
     }
   ],
   "p6": {
-    "id": "2026-08-02-p6",
-    "title": "NOTICE: Revised Procedure for Submitting Vendor Invoices",
+    "id": "2026-08-03-p6",
+    "title": "MEMORANDUM: Consolidation of Regional Sales Offices",
     "seg": [
       [
-        "To all approved vendors: Effective 1 September, all invoices submitted to our accounts payable department ",
+        "To all sales staff: As part of our ongoing cost-optimization initiative, the three regional sales offices in the northern district ",
         { "b": 0 },
-        " through our new online vendor portal rather than by email, in order to reduce processing delays and duplicate payments."
+        " into a single hub location by the end of the fourth quarter, with staff transitioning to a hybrid work arrangement thereafter."
       ],
       [
         { "b": 1 },
-        ", invoices emailed directly to accounts payable staff after that date will be returned unprocessed, and vendors will be asked to resubmit through the portal."
+        ", employees currently based at the two offices slated for closure will retain their existing compensation and benefits packages throughout the transition."
       ],
       [
-        "Vendors who have not yet registered for portal access should do so well ",
+        "Staff whose daily commute to the new hub would exceed ninety minutes each way may apply for a temporary remote-work ",
         { "b": 2 },
-        " the 1 September deadline, as account verification typically takes three to five business days to complete."
+        ", subject to approval from their regional director."
       ],
       [
         { "b": 3 },
-        " A short video walkthrough of the portal's invoice-submission process is available on our vendor-relations webpage."
+        " A dedicated relocation support line has been set up to answer individual questions about the transition timeline."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["must be submitted", "must submit", "have submitted", "are submitting"],
+        "opts": ["will be consolidated", "consolidate", "have consolidated", "are consolidating"],
         "ans": 0,
-        "zh": "致所有核准供應商：自9月1日起，凡提交至本公司應付帳款部門的發票，「均須改為透過」全新的線上供應商入口網站提交，而非以電子郵件方式，以減少處理延遲與重複付款情形。",
-        "why": "主詞 all invoices 是「被提交」的對象，須用被動語態；搭配「Effective 1 September」的未來生效時點及規定的強制性，選 <b>must be submitted</b>。must submit 為主動語態，發票不會自行提交；have submitted 與 are submitting 皆為主動語態且時態與語境不符。"
+        "zh": "致全體業務同仁：作為本公司持續推動成本優化計畫的一環，北區三個地方業務辦公室「將被整併」為單一樞紐據點，時程訂於第四季結束前完成，之後同仁將轉為混合辦公模式。",
+        "why": "主詞 the three regional sales offices 是「被整併」的對象，須用被動語態；搭配「by the end of the fourth quarter」的未來完成時點，選未來式被動 <b>will be consolidated</b>。consolidate 與 are consolidating 皆為主動語態，辦公室不會自行整併；have consolidated 為現在完成式主動，時態與語態皆不合。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["Accordingly", "Nevertheless", "By comparison", "In retrospect"],
+        "opts": ["In the meantime", "On the whole", "As a matter of fact", "In any case"],
         "ans": 0,
-        "zh": "「因此」，該日期之後直接以電子郵件寄給應付帳款人員的發票，將不予處理並退回，供應商須改透過入口網站重新提交。",
-        "why": "前句規定發票須改由入口網站提交，本句說明「因此」以電子郵件寄送者將被退回，兩句為因果承接關係，故選 <b>Accordingly</b>（因此）。Nevertheless（儘管如此）表讓步轉折；By comparison（相較之下）表對比；In retrospect（事後回顧）表回顧過去，皆與此處的因果邏輯不符。"
+        "zh": "「在此過渡期間」，目前任職於兩間即將關閉辦公室的員工，於轉換過程中將維持現有的薪資與福利方案。",
+        "why": "前句宣布第四季底前完成整併的未來時程，本句說明「在此期間（整併完成前）」員工待遇維持不變，時間上承接前句的過渡期，故選 <b>In the meantime</b>（在此期間）。On the whole（整體而言）表總結；As a matter of fact（事實上）表補充說明；In any case（無論如何）表總結性讓步，皆與此處的時間承接邏輯不符。"
       },
       {
-        "tag": "詞彙語意（介系詞）",
+        "tag": "詞彙語意（名詞）",
         "col1": true,
-        "opts": ["ahead of", "along with", "instead of", "regardless of"],
+        "opts": ["arrangement", "assignment", "adjustment", "accommodation"],
         "ans": 0,
-        "zh": "尚未完成入口網站帳號註冊的供應商，應在9月1日截止日期「之前」及早辦理，因為帳號驗證作業通常需時三至五個工作天。",
-        "why": "<b>ahead of</b>（在…之前）修飾 the 1 September deadline，符合「及早於截止日前完成註冊」的語境，且與前文 well（充分地、及早地）自然搭配（well ahead of = 遠遠早於）。along with（與…一起）、instead of（取代）、regardless of（不論）皆無法表達「時間上早於截止日」的語意。"
+        "zh": "每日通勤至新樞紐據點單趟超過九十分鐘的同仁，可申請暫時性的遠距工作「安排」，惟須經所屬區域總監核准。",
+        "why": "<b>arrangement</b>（安排、配置方式）與 remote-work 搭配為固定用語（remote-work arrangement，遠距工作安排），符合描述工作模式調整的語境。assignment（指派的任務）指工作內容而非工作模式；adjustment（調整）語意過於籠統；accommodation（住宿、通融）雖有「通融」引申義，但不與 remote-work 構成慣用搭配。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Vendors experiencing technical difficulties during registration may contact our support line for assistance.",
-          "Our annual vendor appreciation event will be held virtually this year in October.",
-          "Purchase orders exceeding NT$500,000 require dual authorization from the procurement director.",
-          "The accounts payable office will observe reduced hours during the year-end holiday period."
+          "Floor plans and seating assignments for the new hub location will be shared with staff by mid-September.",
+          "The company's annual awards banquet has been moved to a larger venue this year.",
+          "Employees are reminded that expense reports must be submitted within thirty days of purchase.",
+          "The parking garage adjacent to the current offices will close for renovation next spring."
         ],
         "ans": 0,
-        "zh": "「供應商若於註冊過程中遇到技術問題，可洽詢我們的支援專線尋求協助。」一段簡短的入口網站發票提交流程操作影片，也已公布於本公司供應商關係網頁。",
-        "why": "段落主題為「發票提交流程改版」，此句提供技術問題的支援管道，與後句「操作影片已上架」共同構成完整的供應商協助資源，並自然銜接前段「及早完成註冊」的建議。其餘選項（供應商感恩活動、採購金額授權門檻、年末上班時間）皆與發票提交流程改版無關，插入後語意斷裂。"
+        "zh": "「新樞紐據點的樓層配置圖與座位分配，將於9月中旬前提供給同仁。」我們也設有專線協助大家釐清整併時程的相關疑問。",
+        "why": "段落主題為「業務辦公室整併安排」，此句提供新據點的具體配置資訊，與後句「專線協助釐清疑問」共同構成完整的員工過渡支援說明。其餘選項（年度頒獎晚宴、費用核銷提醒、停車場整修）皆與辦公室整併主題無關，插入後語意斷裂。"
       }
     ]
   }
