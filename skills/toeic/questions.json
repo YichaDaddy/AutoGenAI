@@ -1,117 +1,117 @@
 {
-  "date": "2026-08-03",
+  "date": "2026-08-04",
   "p5": [
     {
-      "id": "2026-08-03-p5-0",
-      "tag": "假設語氣（現在，were to 表可能性極低）",
+      "id": "2026-08-04-p5-0",
+      "tag": "假設語氣（as if + 過去式，與現在事實相反）",
+      "pre": "The interim manager addressed the layoffs ",
+      "post": " nothing unusual, deliberately downplaying the scale of the reduction to the remaining staff.",
+      "opts": ["as if it were", "as if it was", "even if it were", "as though being"],
+      "ans": 0,
+      "zh": "這位臨時主管談起這波裁員時，「彷彿」這只是稀鬆平常之事，刻意向留任員工淡化此次縮編的規模。",
+      "why": "<b>as if it were</b> 為與現在事實相反的假設語氣，不論主詞為單複數，be 動詞一律用 <b>were</b>，表達「談起裁員的樣子彷彿（其實並非）稀鬆平常」的落差語氣。as if it was 誤用直述語氣 was，未能表達「與事實不符」的假想；even if it were（即使）表讓步條件而非「彷彿」的比擬語氣；as though being 為分詞構句用法，無法直接接名詞片語構成完整子句。"
+    },
+    {
+      "id": "2026-08-04-p5-1",
+      "tag": "分詞構句（原因，被動）",
       "pre": "",
-      "post": " the joint venture partners were to deadlock on the annual budget for a third consecutive year, either party would be entitled to invoke the buy-sell provision.",
-      "opts": ["Were", "If were", "Should be", "Being"],
+      "post": " from the merger talks without explanation, the smaller firm's shareholders demanded an emergency briefing from the board.",
+      "opts": ["Excluded", "Excluding", "Having excluded", "To exclude"],
       "ans": 0,
-      "zh": "倘若合資雙方連續第三年在年度預算上陷入僵局，任一方均有權啟動買賣條款。",
-      "why": "此為 If the partners were to deadlock... 省略 if 後的倒裝，<b>Were</b> 提前至句首，構成「Were + 主詞 + to + 原形動詞」的固定假設語氣結構，表可能性極低的未來假設。If were 語序矛盾（if 與倒裝擇一使用）；Should be 之後須接原形動詞而非 to deadlock 結構，且語意與可能性程度不同；Being 為分詞，無法引導完整的條件子句。"
+      "zh": "由於在毫無解釋的情況下被排除於併購談判之外，這家較小公司的股東要求董事會召開緊急說明會。",
+      "why": "此分詞構句的邏輯主詞為 the smaller firm（該公司是被排除在談判之外的一方），須用被動過去分詞 <b>Excluded</b> 表原因。Excluding 為主動現在分詞，語態不符（公司不是主動排除他人的一方）；Having excluded 為完成式主動，語態同樣不合；To exclude 為不定詞，語意變成「目的」而非原因。"
     },
     {
-      "id": "2026-08-03-p5-1",
-      "tag": "分詞構句（附帶結果，被動）",
-      "pre": "The regulator imposed a consent order on the exchange, ",
-      "post": " to enhanced reporting requirements for the next eighteen months.",
-      "opts": ["subjecting it", "subjected it", "subjected", "to subject it"],
+      "id": "2026-08-04-p5-2",
+      "tag": "同位語子句（rumor 後接 that，非關係子句）",
+      "pre": "Trading in the stock was halted after a rumor spread ",
+      "post": " the CEO had been secretly negotiating a sale of his controlling stake to a rival conglomerate.",
+      "opts": ["that", "which", "of which", "as"],
       "ans": 0,
-      "zh": "監管機關對該交易所發布同意令，「使其」在未來十八個月內須遵循更嚴格的申報要求。",
-      "why": "此分詞構句表達主要動作（發布同意令）所直接導致的附帶結果，邏輯主詞為 the regulator（監管機關是使交易所受制於新規定的一方），須用主動現在分詞加受詞 <b>subjecting it</b>（subject sb/sth to sth，使…受制於…）。subjected it 與 subjected 皆為過去分詞，語態被動、與「監管機關主動使其受制」的邏輯不符；to subject it 為不定詞，表目的而非結果。"
+      "zh": "有謠言傳出，指稱執行長已私下與一家競爭企業集團洽談出售其控股股份，該股票交易因此遭到停牌。",
+      "why": "rumor（謠言）為抽象名詞，後方子句用以說明謠言的具體內容時，須用同位語 <b>that</b> 子句（= the rumor that + 完整子句）。which 為關係代名詞，須在子句中擔任主詞或受詞，但此子句結構已完整；of which 同樣是關係代名詞用法，不符同位語功能；as（如同、依據）語意與句構皆不合。"
     },
     {
-      "id": "2026-08-03-p5-2",
-      "tag": "非限定關係子句（介系詞+which，正式）",
-      "pre": "The parties entered into a standstill agreement, ",
-      "post": " neither side may pursue litigation for a period of ninety days while settlement discussions continue.",
-      "opts": ["during which", "which during", "while which", "that during"],
-      "ans": 0,
-      "zh": "雙方簽訂了一項暫緩協議，「在此期間」，任一方均不得提起訴訟，為期九十天，以便和解協商得以持續進行。",
-      "why": "<b>during which</b>（= during that period，在此期間）為「介系詞＋關係代名詞」結構，以非限定方式承接前句所述的協議期間，並引導完整子句。which during 語序錯誤；while which 混用連接詞 while 與關係代名詞 which，結構矛盾；that during 同樣語序錯誤且 that 不與介系詞連用置於子句外。"
-    },
-    {
-      "id": "2026-08-03-p5-3",
+      "id": "2026-08-04-p5-3",
       "tag": "進階動詞語意辨別",
-      "pre": "The trustee is obligated to ",
-      "post": " the beneficiaries' interests above any conflicting personal or institutional considerations when administering the estate.",
-      "opts": ["elevate", "delegate", "designate", "denote"],
+      "pre": "The settlement requires the defendant to ",
+      "post": " all proceeds derived from the infringing use of the plaintiff's trademark, dating back to the original filing date.",
+      "opts": ["disgorge", "dispose of", "discount", "discharge"],
       "ans": 0,
-      "zh": "受託人在管理遺產事務時，有義務將受益人的利益「置於」其他相衝突的個人或機構考量「之上」（即優先考量）。",
-      "why": "<b>elevate A above B</b>（將A置於B之上、使A優先於B）精準對應「受益人利益優先於其他考量」的受託義務語境。delegate（授權、委派職責）語意不符；designate（指定人選或用途）與「利益優先順序」無關；denote（表示、意指，用於符號或語意）同樣搭配不成立。"
+      "zh": "和解協議要求被告「繳回」所有因侵害原告商標所獲得的不法收益，追溯至原始申請日。",
+      "why": "<b>disgorge</b>（吐出、被迫繳回不當得利）為法律用語，精準對應「繳回侵權所得利益」的語境。dispose of（處置、處分掉）語意偏向丟棄或出售而非繳回獲利；discount（打折、貼現）與此語境無關；discharge（履行義務、清償債務）雖與義務相關，但不特指「繳回不當得利」，搭配 proceeds 不夠精準。"
     },
     {
-      "id": "2026-08-03-p5-4",
-      "tag": "比較結構（no sooner...than，過去完成式）",
+      "id": "2026-08-04-p5-4",
+      "tag": "倒裝（Such + be動詞 + 主詞 + that）",
       "pre": "",
-      "post": " the acquisition closed than three senior executives from the target company announced their resignations.",
-      "opts": ["No sooner had", "No sooner did", "Hardly did", "Scarcely was"],
+      "post": " the market's appetite for the bond offering that the underwriters increased the issue size by fifty percent within hours of opening the order book.",
+      "opts": ["Such was", "So was", "That was", "Such is"],
       "ans": 0,
-      "zh": "併購案「才剛」完成交割，被併購公司的三位高階主管「便」立即宣布辭職。",
-      "why": "<b>No sooner had</b> + 主詞 + 過去分詞 + than... 為固定倒裝結構，表「一…就…」，前半句須用過去完成式（had closed）並與 than 搭配。No sooner did 之後須接原形動詞（did the acquisition close），此處主詞後方為 closed 已是過去式動詞而非原形，故與 did 的倒裝結構不合；Hardly did 語法上須搭配 when 而非 than；Scarcely was 用於 be 動詞倒裝，與此處一般動詞 closed 不合。"
+      "zh": "市場對這檔債券發行的需求「如此強烈」，以致承銷商在開放認購簿後短短數小時內，便將發行規模擴大了百分之五十。",
+      "why": "<b>Such was</b> + 主詞 + that... 為表程度的倒裝強調結構（= The market's appetite was such that...），Such 直接修飾其後的名詞 the market's appetite，並與 that 引導的結果子句呼應。So was 須改為 So great was the market's appetite that...（so 須先接形容詞才能倒裝）；That was 不構成此固定強調結構；Such is 為現在式，與句中過去式事件（increased）的時態不符。"
     }
   ],
   "p6": {
-    "id": "2026-08-03-p6",
-    "title": "MEMORANDUM: Consolidation of Regional Sales Offices",
+    "id": "2026-08-04-p6",
+    "title": "MEMORANDUM: Transition to Electronic Signatures for Internal Approvals",
     "seg": [
       [
-        "To all sales staff: As part of our ongoing cost-optimization initiative, the three regional sales offices in the northern district ",
+        "To all department heads: Beginning 1 October, all internal approval documents that currently require a wet-ink signature ",
         { "b": 0 },
-        " into a single hub location by the end of the fourth quarter, with staff transitioning to a hybrid work arrangement thereafter."
+        " to accept electronic signatures processed through our new digital-approval platform."
       ],
       [
         { "b": 1 },
-        ", employees currently based at the two offices slated for closure will retain their existing compensation and benefits packages throughout the transition."
+        ", certain external-facing legal documents, including real estate contracts and notarized filings, will remain subject to the existing wet-ink requirement."
       ],
       [
-        "Staff whose daily commute to the new hub would exceed ninety minutes each way may apply for a temporary remote-work ",
+        "Department heads should ensure that every employee with signing authority completes the platform registration process ",
         { "b": 2 },
-        ", subject to approval from their regional director."
+        " the end of September to avoid any disruption to approval workflows."
       ],
       [
         { "b": 3 },
-        " A dedicated relocation support line has been set up to answer individual questions about the transition timeline."
+        " IT support will hold daily drop-in sessions throughout September to assist employees with the registration process."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["will be consolidated", "consolidate", "have consolidated", "are consolidating"],
+        "opts": ["will be updated", "update", "have updated", "are updating"],
         "ans": 0,
-        "zh": "致全體業務同仁：作為本公司持續推動成本優化計畫的一環，北區三個地方業務辦公室「將被整併」為單一樞紐據點，時程訂於第四季結束前完成，之後同仁將轉為混合辦公模式。",
-        "why": "主詞 the three regional sales offices 是「被整併」的對象，須用被動語態；搭配「by the end of the fourth quarter」的未來完成時點，選未來式被動 <b>will be consolidated</b>。consolidate 與 are consolidating 皆為主動語態，辦公室不會自行整併；have consolidated 為現在完成式主動，時態與語態皆不合。"
+        "zh": "致各部門主管：自10月1日起，所有目前須經濕墨簽名的內部核准文件，「將被更新」，改為可接受透過本公司新電子核准平台處理的電子簽名。",
+        "why": "主詞 all internal approval documents 是「被更新規則」的對象，須用被動語態；搭配「Beginning 1 October」的未來生效時點，選未來式被動 <b>will be updated</b>。update 與 are updating 皆為主動語態，文件規則不會自行更新；have updated 為現在完成式主動，時態與語態皆不合。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["In the meantime", "On the whole", "As a matter of fact", "In any case"],
+        "opts": ["However", "As a result", "In addition", "That said"],
         "ans": 0,
-        "zh": "「在此過渡期間」，目前任職於兩間即將關閉辦公室的員工，於轉換過程中將維持現有的薪資與福利方案。",
-        "why": "前句宣布第四季底前完成整併的未來時程，本句說明「在此期間（整併完成前）」員工待遇維持不變，時間上承接前句的過渡期，故選 <b>In the meantime</b>（在此期間）。On the whole（整體而言）表總結；As a matter of fact（事實上）表補充說明；In any case（無論如何）表總結性讓步，皆與此處的時間承接邏輯不符。"
+        "zh": "「不過」，某些對外的法律文件，包括不動產合約與經公證的申報文件，仍須依現行規定使用濕墨簽名。",
+        "why": "前句宣布內部文件改用電子簽名，本句說明「不過」特定對外法律文件仍為例外，兩句構成原則與例外的對比關係，故選 <b>However</b>（不過）。As a result（因此）表因果；In addition（此外）表遞進補充；That said（話雖如此）雖語意相近但通常用於口語轉折，正式書面公告更常見 However，且此處純粹對比而非讓步後總結。"
       },
       {
-        "tag": "詞彙語意（名詞）",
+        "tag": "詞彙語意（介系詞）",
         "col1": true,
-        "opts": ["arrangement", "assignment", "adjustment", "accommodation"],
+        "opts": ["prior to", "in place of", "on behalf of", "with regard to"],
         "ans": 0,
-        "zh": "每日通勤至新樞紐據點單趟超過九十分鐘的同仁，可申請暫時性的遠距工作「安排」，惟須經所屬區域總監核准。",
-        "why": "<b>arrangement</b>（安排、配置方式）與 remote-work 搭配為固定用語（remote-work arrangement，遠距工作安排），符合描述工作模式調整的語境。assignment（指派的任務）指工作內容而非工作模式；adjustment（調整）語意過於籠統；accommodation（住宿、通融）雖有「通融」引申義，但不與 remote-work 構成慣用搭配。"
+        "zh": "各部門主管應確保每位擁有簽署權限的同仁，於9月底「之前」完成平台註冊，以避免核准流程受到影響。",
+        "why": "<b>prior to</b>（在…之前）修飾 the end of September，符合「須在截止日期前完成註冊」的時間語境。in place of（取代）、on behalf of（代表）、with regard to（關於）皆與時間先後的語意無關，無法合理修飾此處的期限。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Floor plans and seating assignments for the new hub location will be shared with staff by mid-September.",
-          "The company's annual awards banquet has been moved to a larger venue this year.",
-          "Employees are reminded that expense reports must be submitted within thirty days of purchase.",
-          "The parking garage adjacent to the current offices will close for renovation next spring."
+          "Step-by-step registration instructions, along with a list of frequently asked questions, are posted on the IT intranet page.",
+          "The company's annual charity golf tournament will take place in early October this year.",
+          "Employees are reminded to update their emergency contact information before the year ends.",
+          "The executive parking area will be repainted during the last weekend of September."
         ],
         "ans": 0,
-        "zh": "「新樞紐據點的樓層配置圖與座位分配，將於9月中旬前提供給同仁。」我們也設有專線協助大家釐清整併時程的相關疑問。",
-        "why": "段落主題為「業務辦公室整併安排」，此句提供新據點的具體配置資訊，與後句「專線協助釐清疑問」共同構成完整的員工過渡支援說明。其餘選項（年度頒獎晚宴、費用核銷提醒、停車場整修）皆與辦公室整併主題無關，插入後語意斷裂。"
+        "zh": "「逐步註冊操作說明，連同一份常見問題清單，已公布於資訊部門的內部網路頁面。」資訊部門將於整個9月期間，每日開放諮詢時段，協助同仁完成註冊流程。",
+        "why": "段落主題為「電子簽名平台轉換」，此句提供註冊操作說明的取得方式，與後句「資訊部門每日開放諮詢」共同構成完整的員工支援配套。其餘選項（高爾夫慈善賽、緊急聯絡資訊更新、主管停車場油漆）皆與電子簽名轉換主題無關，插入後語意斷裂。"
       }
     ]
   }
