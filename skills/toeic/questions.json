@@ -1,117 +1,117 @@
 {
-  "date": "2026-08-04",
+  "date": "2026-08-05",
   "p5": [
     {
-      "id": "2026-08-04-p5-0",
-      "tag": "假設語氣（as if + 過去式，與現在事實相反）",
-      "pre": "The interim manager addressed the layoffs ",
-      "post": " nothing unusual, deliberately downplaying the scale of the reduction to the remaining staff.",
-      "opts": ["as if it were", "as if it was", "even if it were", "as though being"],
+      "id": "2026-08-05-p5-0",
+      "tag": "假設語氣（but that，若非）",
+      "pre": "The claimant would have recovered full damages ",
+      "post": " the statute of limitations had already run on two of the three causes of action.",
+      "opts": ["but that", "except", "unless that", "otherwise"],
       "ans": 0,
-      "zh": "這位臨時主管談起這波裁員時，「彷彿」這只是稀鬆平常之事，刻意向留任員工淡化此次縮編的規模。",
-      "why": "<b>as if it were</b> 為與現在事實相反的假設語氣，不論主詞為單複數，be 動詞一律用 <b>were</b>，表達「談起裁員的樣子彷彿（其實並非）稀鬆平常」的落差語氣。as if it was 誤用直述語氣 was，未能表達「與事實不符」的假想；even if it were（即使）表讓步條件而非「彷彿」的比擬語氣；as though being 為分詞構句用法，無法直接接名詞片語構成完整子句。"
+      "zh": "原告原本可獲得全額損害賠償，「若非」三項訴因中有兩項的追訴時效已經屆滿。",
+      "why": "<b>but that</b>（若非、要不是，正式書面用法）引導與過去事實相反的假設子句，語意等同 if it had not been that，與主句 would have recovered 呼應。except 之後通常須接名詞、介系詞片語或 that 子句作「除了」之意，語意與此處「若非」的假設邏輯不符；unless that 為錯誤堆疊（unless 本身已含「除非」，不須再加 that）；otherwise 為副詞，不能引導從屬子句。"
     },
     {
-      "id": "2026-08-04-p5-1",
-      "tag": "分詞構句（原因，被動）",
+      "id": "2026-08-05-p5-1",
+      "tag": "分詞構句（同時發生，主動）",
       "pre": "",
-      "post": " from the merger talks without explanation, the smaller firm's shareholders demanded an emergency briefing from the board.",
-      "opts": ["Excluded", "Excluding", "Having excluded", "To exclude"],
+      "post": " heavily on a single overseas supplier for a critical component, the manufacturer found itself unable to fulfill orders when the supplier's factory flooded.",
+      "opts": ["Relying", "Relied", "To rely", "Having relied"],
       "ans": 0,
-      "zh": "由於在毫無解釋的情況下被排除於併購談判之外，這家較小公司的股東要求董事會召開緊急說明會。",
-      "why": "此分詞構句的邏輯主詞為 the smaller firm（該公司是被排除在談判之外的一方），須用被動過去分詞 <b>Excluded</b> 表原因。Excluding 為主動現在分詞，語態不符（公司不是主動排除他人的一方）；Having excluded 為完成式主動，語態同樣不合；To exclude 為不定詞，語意變成「目的」而非原因。"
+      "zh": "由於長期高度依賴單一海外供應商供應關鍵零件，這家製造商在該供應商工廠淹水時，發現自己無法履行訂單。",
+      "why": "此分詞構句的邏輯主詞為 the manufacturer（製造商是依賴的一方），且「依賴」為一種持續的背景狀態，與主要子句動作同時存在，須用主動現在分詞 <b>Relying</b>。Relied 為過去分詞，語態被動，與「製造商主動依賴」的邏輯不符；To rely 為不定詞表目的，語意不合；Having relied 完成式暗示動作已先於主要子句完成，但此處依賴狀態是持續背景而非先前已結束的動作，故不適用。"
     },
     {
-      "id": "2026-08-04-p5-2",
-      "tag": "同位語子句（rumor 後接 that，非關係子句）",
-      "pre": "Trading in the stock was halted after a rumor spread ",
-      "post": " the CEO had been secretly negotiating a sale of his controlling stake to a rival conglomerate.",
-      "opts": ["that", "which", "of which", "as"],
+      "id": "2026-08-05-p5-2",
+      "tag": "關係子句（介系詞+which，正式，表方式）",
+      "pre": "The escrow arrangement establishes a mechanism ",
+      "post": " disputed funds can be held in a neutral account pending resolution of the underlying claim.",
+      "opts": ["whereby", "wherein it", "which", "by whom"],
       "ans": 0,
-      "zh": "有謠言傳出，指稱執行長已私下與一家競爭企業集團洽談出售其控股股份，該股票交易因此遭到停牌。",
-      "why": "rumor（謠言）為抽象名詞，後方子句用以說明謠言的具體內容時，須用同位語 <b>that</b> 子句（= the rumor that + 完整子句）。which 為關係代名詞，須在子句中擔任主詞或受詞，但此子句結構已完整；of which 同樣是關係代名詞用法，不符同位語功能；as（如同、依據）語意與句構皆不合。"
+      "zh": "這項履約保證安排建立了一套機制，「藉此」爭議款項得以存放於中立帳戶，直到相關求償獲得解決為止。",
+      "why": "<b>whereby</b>（= by which，藉此、據此）用於描述機制、制度的運作方式，後接完整子句，精準對應「透過此機制使…得以進行」的語境。wherein it 中的 it 為多餘代名詞，指涉混亂；which 作關係代名詞時須在子句中擔任主詞或受詞，但此子句結構已完整；by whom 用於先行詞為人的情況，此處先行詞為 mechanism（機制），不適用。"
     },
     {
-      "id": "2026-08-04-p5-3",
+      "id": "2026-08-05-p5-3",
       "tag": "進階動詞語意辨別",
-      "pre": "The settlement requires the defendant to ",
-      "post": " all proceeds derived from the infringing use of the plaintiff's trademark, dating back to the original filing date.",
-      "opts": ["disgorge", "dispose of", "discount", "discharge"],
+      "pre": "The compliance manual expressly ",
+      "post": " employees from accepting gifts valued in excess of one hundred dollars from any current or prospective vendor.",
+      "opts": ["bars", "bans", "blocks", "boycotts"],
       "ans": 0,
-      "zh": "和解協議要求被告「繳回」所有因侵害原告商標所獲得的不法收益，追溯至原始申請日。",
-      "why": "<b>disgorge</b>（吐出、被迫繳回不當得利）為法律用語，精準對應「繳回侵權所得利益」的語境。dispose of（處置、處分掉）語意偏向丟棄或出售而非繳回獲利；discount（打折、貼現）與此語境無關；discharge（履行義務、清償債務）雖與義務相關，但不特指「繳回不當得利」，搭配 proceeds 不夠精準。"
+      "zh": "法遵手冊明文「禁止」員工收受任何現任或潛在供應商所贈、價值超過一百美元的禮品。",
+      "why": "<b>bar sb from V-ing</b>（明文禁止某人做某事）為正式規章條文的標準句型，精準對應「手冊明文禁止員工接受禮品」的語境。ban 通常搭配受詞為行為本身（ban gift-giving）或搭配 from 但語域較適用於法律／政策全面禁止而非個人行為規範，於此語境稍嫌不精確；block（阻擋、封鎖）多用於具體物理或系統性阻擋；boycott（抵制）指集體拒絕往來，與「規範個人收禮行為」的語境不符。"
     },
     {
-      "id": "2026-08-04-p5-4",
-      "tag": "倒裝（Such + be動詞 + 主詞 + that）",
-      "pre": "",
-      "post": " the market's appetite for the bond offering that the underwriters increased the issue size by fifty percent within hours of opening the order book.",
-      "opts": ["Such was", "So was", "That was", "Such is"],
+      "id": "2026-08-05-p5-4",
+      "tag": "比較結構（if anything，反而）",
+      "pre": "The new disclosure requirements have not simplified the filing process; ",
+      "post": " they have introduced additional layers of documentation that smaller filers find burdensome.",
+      "opts": ["if anything", "even so", "for one thing", "in effect"],
       "ans": 0,
-      "zh": "市場對這檔債券發行的需求「如此強烈」，以致承銷商在開放認購簿後短短數小時內，便將發行規模擴大了百分之五十。",
-      "why": "<b>Such was</b> + 主詞 + that... 為表程度的倒裝強調結構（= The market's appetite was such that...），Such 直接修飾其後的名詞 the market's appetite，並與 that 引導的結果子句呼應。So was 須改為 So great was the market's appetite that...（so 須先接形容詞才能倒裝）；That was 不構成此固定強調結構；Such is 為現在式，與句中過去式事件（increased）的時態不符。"
+      "zh": "這些新的揭露規定並未簡化申報流程；「恰恰相反」，它們反而增添了讓中小型申報者感到繁重的額外文件層級。",
+      "why": "<b>if anything</b>（如果說有什麼不同的話、反而）用於修正或強化前句的否定陳述，表達「非但沒有…反而…」的語意轉折，與前句「並未簡化」和後句「反而增加文件」的邏輯完全吻合。even so（即便如此）表讓步；for one thing（其中一個原因是）用於列舉理由；in effect（實際上、事實上）表總結性重申，皆無法精準呈現「不僅沒有，反而更糟」的強化轉折語氣。"
     }
   ],
   "p6": {
-    "id": "2026-08-04-p6",
-    "title": "MEMORANDUM: Transition to Electronic Signatures for Internal Approvals",
+    "id": "2026-08-05-p6",
+    "title": "MEMORANDUM: New Guidelines for Client Gift Acceptance",
     "seg": [
       [
-        "To all department heads: Beginning 1 October, all internal approval documents that currently require a wet-ink signature ",
+        "To all client-facing staff: In response to recent audit findings, our gift-acceptance policy ",
         { "b": 0 },
-        " to accept electronic signatures processed through our new digital-approval platform."
+        " to require written pre-approval for any client gift valued at fifty dollars or more, effective 1 September."
       ],
       [
         { "b": 1 },
-        ", certain external-facing legal documents, including real estate contracts and notarized filings, will remain subject to the existing wet-ink requirement."
+        ", gifts valued under fifty dollars, such as branded pens or holiday cards, may continue to be accepted without prior approval, though they should still be logged in the shared gift registry."
       ],
       [
-        "Department heads should ensure that every employee with signing authority completes the platform registration process ",
+        "Employees who are uncertain whether a particular gift falls within the reportable ",
         { "b": 2 },
-        " the end of September to avoid any disruption to approval workflows."
+        " should consult their department's compliance liaison before accepting it."
       ],
       [
         { "b": 3 },
-        " IT support will hold daily drop-in sessions throughout September to assist employees with the registration process."
+        " A quick-reference chart summarizing the approval thresholds is posted on the compliance intranet page."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["will be updated", "update", "have updated", "are updating"],
+        "opts": ["has been revised", "revises", "is revising", "will revise"],
         "ans": 0,
-        "zh": "致各部門主管：自10月1日起，所有目前須經濕墨簽名的內部核准文件，「將被更新」，改為可接受透過本公司新電子核准平台處理的電子簽名。",
-        "why": "主詞 all internal approval documents 是「被更新規則」的對象，須用被動語態；搭配「Beginning 1 October」的未來生效時點，選未來式被動 <b>will be updated</b>。update 與 are updating 皆為主動語態，文件規則不會自行更新；have updated 為現在完成式主動，時態與語態皆不合。"
+        "zh": "致所有與客戶接觸的同仁：因應近期稽核結果，本公司禮品接受政策「已修訂」，自9月1日起，凡收受價值五十美元以上的客戶禮品，須先取得書面核准。",
+        "why": "主詞 our gift-acceptance policy 是「被修訂」的對象，須用被動語態；「In response to recent audit findings」暗示修訂已因應稽核結果而完成，並延續至9月1日生效，故選現在完成式被動 <b>has been revised</b>。revises 與 is revising 皆為主動語態，政策不會自行修訂；will revise 為未來式主動，與「已因應稽核完成修訂」的語境不符。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["However", "As a result", "In addition", "That said"],
+        "opts": ["By contrast", "As a consequence", "In the same vein", "To that effect"],
         "ans": 0,
-        "zh": "「不過」，某些對外的法律文件，包括不動產合約與經公證的申報文件，仍須依現行規定使用濕墨簽名。",
-        "why": "前句宣布內部文件改用電子簽名，本句說明「不過」特定對外法律文件仍為例外，兩句構成原則與例外的對比關係，故選 <b>However</b>（不過）。As a result（因此）表因果；In addition（此外）表遞進補充；That said（話雖如此）雖語意相近但通常用於口語轉折，正式書面公告更常見 However，且此處純粹對比而非讓步後總結。"
+        "zh": "「相對地」，價值低於五十美元的禮品，例如印有商標的原子筆或節日賀卡，仍可在無須事先核准的情況下收受，惟仍應登錄於共用禮品登記表中。",
+        "why": "前句規定五十美元以上禮品須經核准，本句說明「相對地」低於五十美元者則為例外，兩句構成明確對比，故選 <b>By contrast</b>（相對地）。As a consequence（因此）表因果；In the same vein（同樣地）表類比延續而非對比；To that effect（以此為目的、大意如此）用於總結先前所述內容，皆與此處的對比邏輯不符。"
       },
       {
-        "tag": "詞彙語意（介系詞）",
+        "tag": "詞彙語意（形容詞）",
         "col1": true,
-        "opts": ["prior to", "in place of", "on behalf of", "with regard to"],
+        "opts": ["threshold", "thoroughfare", "throughput", "thumbnail"],
         "ans": 0,
-        "zh": "各部門主管應確保每位擁有簽署權限的同仁，於9月底「之前」完成平台註冊，以避免核准流程受到影響。",
-        "why": "<b>prior to</b>（在…之前）修飾 the end of September，符合「須在截止日期前完成註冊」的時間語境。in place of（取代）、on behalf of（代表）、with regard to（關於）皆與時間先後的語意無關，無法合理修飾此處的期限。"
+        "zh": "同仁若不確定某項禮品是否落入須申報的「門檻」範圍，應在收受前先諮詢所屬部門的法遵窗口。",
+        "why": "<b>threshold</b>（門檻、臨界值）修飾 reportable，指「達到須申報標準的門檻」，符合前文「五十美元」核准門檻的語境呼應。thoroughfare（通衢大道）、throughput（產出量、吞吐量）、thumbnail（縮圖）三者語意皆與「申報門檻」的規範情境完全無關。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Step-by-step registration instructions, along with a list of frequently asked questions, are posted on the IT intranet page.",
-          "The company's annual charity golf tournament will take place in early October this year.",
-          "Employees are reminded to update their emergency contact information before the year ends.",
-          "The executive parking area will be repainted during the last weekend of September."
+          "The gift registry log can be accessed and updated directly through the compliance portal.",
+          "The company's holiday party planning committee will begin meeting in October.",
+          "Employees are reminded to submit expense reports within thirty days of purchase.",
+          "The office coffee machine will be replaced with a newer model next week."
         ],
         "ans": 0,
-        "zh": "「逐步註冊操作說明，連同一份常見問題清單，已公布於資訊部門的內部網路頁面。」資訊部門將於整個9月期間，每日開放諮詢時段，協助同仁完成註冊流程。",
-        "why": "段落主題為「電子簽名平台轉換」，此句提供註冊操作說明的取得方式，與後句「資訊部門每日開放諮詢」共同構成完整的員工支援配套。其餘選項（高爾夫慈善賽、緊急聯絡資訊更新、主管停車場油漆）皆與電子簽名轉換主題無關，插入後語意斷裂。"
+        "zh": "「禮品登記表可直接透過法遵入口網站查閱與更新。」一份彙整核准門檻的快速參考表，也已公布於法遵部門的內部網路頁面。",
+        "why": "段落主題為「客戶禮品接受新規定」，此句說明禮品登記表的查閱與更新方式，緊扣前段提及的「共用禮品登記表」，並與後句「快速參考表已公布」共同構成完整的操作指引。其餘選項（尾牙籌備委員會、費用核銷提醒、咖啡機更換）皆與禮品接受政策無關，插入後語意斷裂。"
       }
     ]
   }
