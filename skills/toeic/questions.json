@@ -1,117 +1,117 @@
 {
-  "date": "2026-08-05",
+  "date": "2026-08-06",
   "p5": [
     {
-      "id": "2026-08-05-p5-0",
-      "tag": "假設語氣（but that，若非）",
-      "pre": "The claimant would have recovered full damages ",
-      "post": " the statute of limitations had already run on two of the three causes of action.",
-      "opts": ["but that", "except", "unless that", "otherwise"],
-      "ans": 0,
-      "zh": "原告原本可獲得全額損害賠償，「若非」三項訴因中有兩項的追訴時效已經屆滿。",
-      "why": "<b>but that</b>（若非、要不是，正式書面用法）引導與過去事實相反的假設子句，語意等同 if it had not been that，與主句 would have recovered 呼應。except 之後通常須接名詞、介系詞片語或 that 子句作「除了」之意，語意與此處「若非」的假設邏輯不符；unless that 為錯誤堆疊（unless 本身已含「除非」，不須再加 that）；otherwise 為副詞，不能引導從屬子句。"
-    },
-    {
-      "id": "2026-08-05-p5-1",
-      "tag": "分詞構句（同時發生，主動）",
+      "id": "2026-08-06-p5-0",
+      "tag": "假設語氣（過去，倒裝＋比較級結果子句）",
       "pre": "",
-      "post": " heavily on a single overseas supplier for a critical component, the manufacturer found itself unable to fulfill orders when the supplier's factory flooded.",
-      "opts": ["Relying", "Relied", "To rely", "Having relied"],
+      "post": " the board acted on the whistleblower's report a year earlier, the shareholders would have been spared the bulk of the resulting litigation costs.",
+      "opts": ["Had", "If had", "Would have", "Should"],
       "ans": 0,
-      "zh": "由於長期高度依賴單一海外供應商供應關鍵零件，這家製造商在該供應商工廠淹水時，發現自己無法履行訂單。",
-      "why": "此分詞構句的邏輯主詞為 the manufacturer（製造商是依賴的一方），且「依賴」為一種持續的背景狀態，與主要子句動作同時存在，須用主動現在分詞 <b>Relying</b>。Relied 為過去分詞，語態被動，與「製造商主動依賴」的邏輯不符；To rely 為不定詞表目的，語意不合；Having relied 完成式暗示動作已先於主要子句完成，但此處依賴狀態是持續背景而非先前已結束的動作，故不適用。"
+      "zh": "倘若董事會能提早一年針對吹哨者的報告採取行動，股東原本可以省下絕大部分因此產生的訴訟費用。",
+      "why": "此為省略 if 的假設語氣倒裝，過去完成式主動須將 <b>Had</b> 提前至句首（= If the board had acted），主句用 would have been spared 對應與過去事實相反的假設。If had 語序矛盾（if 與倒裝擇一使用，不可並存）；Would have 為情態助動詞片語，無法單獨引導條件子句；Should 倒裝後應接原形動詞（Should the board act），與此處過去完成式的時態不符。"
     },
     {
-      "id": "2026-08-05-p5-2",
-      "tag": "關係子句（介系詞+which，正式，表方式）",
-      "pre": "The escrow arrangement establishes a mechanism ",
-      "post": " disputed funds can be held in a neutral account pending resolution of the underlying claim.",
-      "opts": ["whereby", "wherein it", "which", "by whom"],
+      "id": "2026-08-06-p5-1",
+      "tag": "分詞構句（讓步，完成式被動）",
+      "pre": "",
+      "post": " twice by outside counsel, the indemnification clause still contained an ambiguity that later triggered a costly dispute.",
+      "opts": ["Having been reviewed", "Having reviewed", "Reviewed", "To have reviewed"],
       "ans": 0,
-      "zh": "這項履約保證安排建立了一套機制，「藉此」爭議款項得以存放於中立帳戶，直到相關求償獲得解決為止。",
-      "why": "<b>whereby</b>（= by which，藉此、據此）用於描述機制、制度的運作方式，後接完整子句，精準對應「透過此機制使…得以進行」的語境。wherein it 中的 it 為多餘代名詞，指涉混亂；which 作關係代名詞時須在子句中擔任主詞或受詞，但此子句結構已完整；by whom 用於先行詞為人的情況，此處先行詞為 mechanism（機制），不適用。"
+      "zh": "儘管已「經」外部法律顧問審閱兩次，這項補償條款仍存在一處歧義，日後引發了一場代價高昂的爭議。",
+      "why": "此分詞構句的邏輯主詞為 the indemnification clause（條款是被審閱的對象），且「審閱」發生在「仍存在歧義」之前，須用完成式被動分詞 <b>Having been reviewed</b>，凸顯「儘管先前已審閱兩次」的讓步語氣與時間先後。Having reviewed 為完成式主動，語態不符（條款不是主動審閱者）；Reviewed 單純過去分詞缺乏完成式時間層次，較適合表同時發生的被動狀態而非強調「先前已完成」；To have reviewed 為完成式不定詞，不能引導分詞構句。"
     },
     {
-      "id": "2026-08-05-p5-3",
+      "id": "2026-08-06-p5-2",
+      "tag": "非限定關係子句（whose，先行詞為公司）",
+      "pre": "The acquirer targeted a mid-sized logistics firm, ",
+      "post": " fleet of delivery vehicles would complement its existing last-mile distribution network.",
+      "opts": ["whose", "which its", "of which", "that its"],
+      "ans": 0,
+      "zh": "收購方鎖定了一家中型物流公司，「其」車隊將能補強收購方現有的最後一哩配送網絡。",
+      "why": "先行詞為物（firm），但子句需表達「該公司的車隊」此一所屬關係，須用所有格關係代名詞 <b>whose</b>，直接接名詞 fleet。which its 為關係代名詞與所有格代名詞的錯誤並列；of which 須改寫為 the fleet of which，語序與此處不符；that its 中 that 不能表所有格，且與 its 重複指涉，文法不通。"
+    },
+    {
+      "id": "2026-08-06-p5-3",
       "tag": "進階動詞語意辨別",
-      "pre": "The compliance manual expressly ",
-      "post": " employees from accepting gifts valued in excess of one hundred dollars from any current or prospective vendor.",
-      "opts": ["bars", "bans", "blocks", "boycotts"],
+      "pre": "The compliance team was tasked with ",
+      "post": " every vendor contract signed within the past three years to confirm none contained undisclosed exclusivity provisions.",
+      "opts": ["combing through", "browsing through", "flipping through", "skimming through"],
       "ans": 0,
-      "zh": "法遵手冊明文「禁止」員工收受任何現任或潛在供應商所贈、價值超過一百美元的禮品。",
-      "why": "<b>bar sb from V-ing</b>（明文禁止某人做某事）為正式規章條文的標準句型，精準對應「手冊明文禁止員工接受禮品」的語境。ban 通常搭配受詞為行為本身（ban gift-giving）或搭配 from 但語域較適用於法律／政策全面禁止而非個人行為規範，於此語境稍嫌不精確；block（阻擋、封鎖）多用於具體物理或系統性阻擋；boycott（抵制）指集體拒絕往來，與「規範個人收禮行為」的語境不符。"
+      "zh": "法遵團隊被指派須「徹底梳理」過去三年內簽署的每一份供應商合約，以確認其中未藏有未揭露的排他性條款。",
+      "why": "<b>comb through</b>（逐一仔細梳理、地毯式搜查）強調徹底、不放過任何細節的搜尋方式，精準對應「逐份合約確認有無隱藏條款」的謹慎稽核語境。browse through（隨意瀏覽）、flip through（快速翻閱）、skim through（略讀、粗略瀏覽）三者皆表達「快速、非徹底」的閱讀方式，與「須確認無遺漏」的稽核要求語意相反。"
     },
     {
-      "id": "2026-08-05-p5-4",
-      "tag": "比較結構（if anything，反而）",
-      "pre": "The new disclosure requirements have not simplified the filing process; ",
-      "post": " they have introduced additional layers of documentation that smaller filers find burdensome.",
-      "opts": ["if anything", "even so", "for one thing", "in effect"],
+      "id": "2026-08-06-p5-4",
+      "tag": "比較結構（none the less，儘管如此仍…）",
+      "pre": "The pilot program produced disappointing early results; the executive committee ",
+      "post": " decided to extend funding for a second phase, citing the long-term strategic value.",
+      "opts": ["none the less", "none the more", "all the less", "much the same"],
       "ans": 0,
-      "zh": "這些新的揭露規定並未簡化申報流程；「恰恰相反」，它們反而增添了讓中小型申報者感到繁重的額外文件層級。",
-      "why": "<b>if anything</b>（如果說有什麼不同的話、反而）用於修正或強化前句的否定陳述，表達「非但沒有…反而…」的語意轉折，與前句「並未簡化」和後句「反而增加文件」的邏輯完全吻合。even so（即便如此）表讓步；for one thing（其中一個原因是）用於列舉理由；in effect（實際上、事實上）表總結性重申，皆無法精準呈現「不僅沒有，反而更糟」的強化轉折語氣。"
+      "zh": "這項試辦計畫初期成果令人失望；儘管如此，執行委員會「仍然」決定為第二階段延長資助，理由是其長期策略價值。",
+      "why": "<b>none the less</b>（= nevertheless，儘管如此仍然）用於在前述負面事實之後，表達「結果並未因此而改變」的轉折語氣，與前句「初期成果令人失望」及後句「仍決定延長資助」的邏輯完全吻合。none the more（並不因此更加…）與 all the less（因此更不…）皆表達與句意相反的遞減語氣；much the same（大致相同）用於描述相似程度，與此處的讓步轉折無關。"
     }
   ],
   "p6": {
-    "id": "2026-08-05-p6",
-    "title": "MEMORANDUM: New Guidelines for Client Gift Acceptance",
+    "id": "2026-08-06-p6",
+    "title": "MEMORANDUM: New Procedure for Reporting Workplace Safety Concerns",
     "seg": [
       [
-        "To all client-facing staff: In response to recent audit findings, our gift-acceptance policy ",
+        "To all facility staff: Effective immediately, all workplace safety concerns ",
         { "b": 0 },
-        " to require written pre-approval for any client gift valued at fifty dollars or more, effective 1 September."
+        " through the new digital incident-reporting system rather than being communicated verbally to shift supervisors."
       ],
       [
         { "b": 1 },
-        ", gifts valued under fifty dollars, such as branded pens or holiday cards, may continue to be accepted without prior approval, though they should still be logged in the shared gift registry."
+        ", supervisors are still expected to address any immediately hazardous condition on the spot, with the digital report to be filed as soon as practicable afterward."
       ],
       [
-        "Employees who are uncertain whether a particular gift falls within the reportable ",
+        "Reports that involve equipment malfunction should be ",
         { "b": 2 },
-        " should consult their department's compliance liaison before accepting it."
+        " with the affected equipment's asset tag number to allow maintenance staff to locate it quickly."
       ],
       [
         { "b": 3 },
-        " A quick-reference chart summarizing the approval thresholds is posted on the compliance intranet page."
+        " A short training video demonstrating the new reporting system is available on the facility intranet page."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["has been revised", "revises", "is revising", "will revise"],
+        "opts": ["must be submitted", "must submit", "have submitted", "are submitting"],
         "ans": 0,
-        "zh": "致所有與客戶接觸的同仁：因應近期稽核結果，本公司禮品接受政策「已修訂」，自9月1日起，凡收受價值五十美元以上的客戶禮品，須先取得書面核准。",
-        "why": "主詞 our gift-acceptance policy 是「被修訂」的對象，須用被動語態；「In response to recent audit findings」暗示修訂已因應稽核結果而完成，並延續至9月1日生效，故選現在完成式被動 <b>has been revised</b>。revises 與 is revising 皆為主動語態，政策不會自行修訂；will revise 為未來式主動，與「已因應稽核完成修訂」的語境不符。"
+        "zh": "致全體廠區同仁：即日起，所有職場安全疑慮「均須提交」，透過全新的數位事故通報系統，而非以口頭方式向輪班主管反映。",
+        "why": "主詞 all workplace safety concerns 是「被提交」的對象，須用被動語態；搭配規定的強制性，選 <b>must be submitted</b>。must submit 為主動語態，安全疑慮不會自行提交；have submitted 與 are submitting 皆為主動語態且缺乏 must 所表達的強制語氣，與規定語境不符。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["By contrast", "As a consequence", "In the same vein", "To that effect"],
+        "opts": ["That said", "As a result", "In other words", "By the same token"],
         "ans": 0,
-        "zh": "「相對地」，價值低於五十美元的禮品，例如印有商標的原子筆或節日賀卡，仍可在無須事先核准的情況下收受，惟仍應登錄於共用禮品登記表中。",
-        "why": "前句規定五十美元以上禮品須經核准，本句說明「相對地」低於五十美元者則為例外，兩句構成明確對比，故選 <b>By contrast</b>（相對地）。As a consequence（因此）表因果；In the same vein（同樣地）表類比延續而非對比；To that effect（以此為目的、大意如此）用於總結先前所述內容，皆與此處的對比邏輯不符。"
+        "zh": "「話雖如此」，主管仍應立即處理現場任何具立即危害性的狀況，數位報告則可於事後盡速補行填寫。",
+        "why": "前句規定安全疑慮須改由數位系統通報，本句說明「話雖如此」，主管仍須即時處理緊急危害，兩句構成「原則之外仍有例外處置」的轉折關係，故選 <b>That said</b>（話雖如此）。As a result（因此）表因果；In other words（換言之）表改述；By the same token（同理）表類比延伸，皆與此處的例外轉折邏輯不符。"
       },
       {
-        "tag": "詞彙語意（形容詞）",
+        "tag": "詞彙語意（分詞）",
         "col1": true,
-        "opts": ["threshold", "thoroughfare", "throughput", "thumbnail"],
+        "opts": ["accompanied", "compensated", "compromised", "complemented"],
         "ans": 0,
-        "zh": "同仁若不確定某項禮品是否落入須申報的「門檻」範圍，應在收受前先諮詢所屬部門的法遵窗口。",
-        "why": "<b>threshold</b>（門檻、臨界值）修飾 reportable，指「達到須申報標準的門檻」，符合前文「五十美元」核准門檻的語境呼應。thoroughfare（通衢大道）、throughput（產出量、吞吐量）、thumbnail（縮圖）三者語意皆與「申報門檻」的規範情境完全無關。"
+        "zh": "涉及設備故障的報告，應「附上」受影響設備的資產標籤編號，以便維修人員能迅速找到該設備。",
+        "why": "<b>accompanied by</b>（附有、隨附）表示「報告書附上資產編號」，符合「提交報告時一併檢附識別資訊」的語境。compensated（獲得補償）、compromised（受妥協、遭破壞）、complemented（互補）三者語意皆與「報告附上編號」的搭配需求不符。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "The gift registry log can be accessed and updated directly through the compliance portal.",
-          "The company's holiday party planning committee will begin meeting in October.",
-          "Employees are reminded to submit expense reports within thirty days of purchase.",
-          "The office coffee machine will be replaced with a newer model next week."
+          "The reporting system automatically assigns a tracking number so employees can follow up on the status of their submission.",
+          "The facility's annual safety awards will be presented at the December all-staff meeting.",
+          "Employees are reminded that the cafeteria will be closed for renovation next week.",
+          "New employee orientation sessions will be held every Monday morning."
         ],
         "ans": 0,
-        "zh": "「禮品登記表可直接透過法遵入口網站查閱與更新。」一份彙整核准門檻的快速參考表，也已公布於法遵部門的內部網路頁面。",
-        "why": "段落主題為「客戶禮品接受新規定」，此句說明禮品登記表的查閱與更新方式，緊扣前段提及的「共用禮品登記表」，並與後句「快速參考表已公布」共同構成完整的操作指引。其餘選項（尾牙籌備委員會、費用核銷提醒、咖啡機更換）皆與禮品接受政策無關，插入後語意斷裂。"
+        "zh": "「該通報系統會自動配發追蹤編號，讓員工得以追蹤其提交報告的處理狀況。」一段展示新通報系統操作方式的簡短教學影片，已上架於廠區內部網路頁面。",
+        "why": "段落主題為「職場安全疑慮通報新程序」，此句說明系統自動配發追蹤編號的功能，讓員工掌握後續進度，與後句「教學影片已上架」共同構成完整的系統使用說明。其餘選項（安全獎項頒發、餐廳整修、新人訓練）皆與安全通報程序無關，插入後語意斷裂。"
       }
     ]
   }
