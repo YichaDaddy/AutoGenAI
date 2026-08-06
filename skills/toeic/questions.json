@@ -1,117 +1,117 @@
 {
-  "date": "2026-08-06",
+  "date": "2026-08-07",
   "p5": [
     {
-      "id": "2026-08-06-p5-0",
-      "tag": "假設語氣（過去，倒裝＋比較級結果子句）",
+      "id": "2026-08-07-p5-0",
+      "tag": "假設語氣（過去未來，would 表委婉推測）",
       "pre": "",
-      "post": " the board acted on the whistleblower's report a year earlier, the shareholders would have been spared the bulk of the resulting litigation costs.",
-      "opts": ["Had", "If had", "Would have", "Should"],
+      "post": " the parties unable to reach agreement on valuation, the arbitration clause provides that a neutral appraiser would be appointed to issue a binding determination.",
+      "opts": ["Were", "If were", "Being", "Should"],
       "ans": 0,
-      "zh": "倘若董事會能提早一年針對吹哨者的報告採取行動，股東原本可以省下絕大部分因此產生的訴訟費用。",
-      "why": "此為省略 if 的假設語氣倒裝，過去完成式主動須將 <b>Had</b> 提前至句首（= If the board had acted），主句用 would have been spared 對應與過去事實相反的假設。If had 語序矛盾（if 與倒裝擇一使用，不可並存）；Would have 為情態助動詞片語，無法單獨引導條件子句；Should 倒裝後應接原形動詞（Should the board act），與此處過去完成式的時態不符。"
+      "zh": "倘若雙方無法就估值達成共識，仲裁條款規定將指派一名中立鑑價人做出具拘束力的裁定。",
+      "why": "此為 If the parties were unable... 省略 if 後的倒裝，<b>Were</b> 提前至句首，構成表可能性的條件子句（Were + 主詞 + 形容詞/過去分詞）。If were 語序矛盾；Being 為分詞，無法引導完整條件子句；Should 倒裝後須接原形動詞（Should the parties be unable），而非直接接形容詞 unable，故不符合此句結構。"
     },
     {
-      "id": "2026-08-06-p5-1",
-      "tag": "分詞構句（讓步，完成式被動）",
+      "id": "2026-08-07-p5-1",
+      "tag": "分詞構句（原因，被動，完成式）",
       "pre": "",
-      "post": " twice by outside counsel, the indemnification clause still contained an ambiguity that later triggered a costly dispute.",
-      "opts": ["Having been reviewed", "Having reviewed", "Reviewed", "To have reviewed"],
+      "post": " by three separate credit-rating downgrades within a single quarter, the company's board convened an emergency session to reassess its capital structure.",
+      "opts": ["Blindsided", "Blindsiding", "Having blindsided", "To be blindsided"],
       "ans": 0,
-      "zh": "儘管已「經」外部法律顧問審閱兩次，這項補償條款仍存在一處歧義，日後引發了一場代價高昂的爭議。",
-      "why": "此分詞構句的邏輯主詞為 the indemnification clause（條款是被審閱的對象），且「審閱」發生在「仍存在歧義」之前，須用完成式被動分詞 <b>Having been reviewed</b>，凸顯「儘管先前已審閱兩次」的讓步語氣與時間先後。Having reviewed 為完成式主動，語態不符（條款不是主動審閱者）；Reviewed 單純過去分詞缺乏完成式時間層次，較適合表同時發生的被動狀態而非強調「先前已完成」；To have reviewed 為完成式不定詞，不能引導分詞構句。"
+      "zh": "由於在單一季度內連續遭遇三次信用評等調降的意外打擊，該公司董事會召開緊急會議，重新評估其資本結構。",
+      "why": "此分詞構句的邏輯主詞為 the company（公司是被意外打擊的一方），須用被動過去分詞 <b>Blindsided</b> 表原因。Blindsiding 為主動現在分詞，語態不符（公司不是主動打擊他人的一方）；Having blindsided 為完成式主動，語態同樣不合；To be blindsided 為被動不定詞，表目的而非原因，語意不符。"
     },
     {
-      "id": "2026-08-06-p5-2",
-      "tag": "非限定關係子句（whose，先行詞為公司）",
-      "pre": "The acquirer targeted a mid-sized logistics firm, ",
-      "post": " fleet of delivery vehicles would complement its existing last-mile distribution network.",
-      "opts": ["whose", "which its", "of which", "that its"],
+      "id": "2026-08-07-p5-2",
+      "tag": "同位語子句（allegation 後接 that）",
+      "pre": "The board dismissed the allegation ",
+      "post": " the CFO had personally authorized the improper transfer, citing a lack of corroborating documentation.",
+      "opts": ["that", "which", "of which", "as to"],
       "ans": 0,
-      "zh": "收購方鎖定了一家中型物流公司，「其」車隊將能補強收購方現有的最後一哩配送網絡。",
-      "why": "先行詞為物（firm），但子句需表達「該公司的車隊」此一所屬關係，須用所有格關係代名詞 <b>whose</b>，直接接名詞 fleet。which its 為關係代名詞與所有格代名詞的錯誤並列；of which 須改寫為 the fleet of which，語序與此處不符；that its 中 that 不能表所有格，且與 its 重複指涉，文法不通。"
+      "zh": "董事會以缺乏佐證文件為由，駁回了「執行長曾親自核准不當轉帳」此一指控。",
+      "why": "allegation（指控）為抽象名詞，後方子句用以說明指控的具體內容時，須用同位語 <b>that</b> 子句。which 為關係代名詞，須在子句中擔任主詞或受詞，但此子句結構已完整；of which 同樣是關係代名詞用法，不符同位語功能；as to（關於）為介系詞片語，後須接名詞而非完整子句。"
     },
     {
-      "id": "2026-08-06-p5-3",
+      "id": "2026-08-07-p5-3",
       "tag": "進階動詞語意辨別",
-      "pre": "The compliance team was tasked with ",
-      "post": " every vendor contract signed within the past three years to confirm none contained undisclosed exclusivity provisions.",
-      "opts": ["combing through", "browsing through", "flipping through", "skimming through"],
+      "pre": "The receiver was appointed to ",
+      "post": " the insolvent company's remaining assets in a manner that maximizes recovery for unsecured creditors.",
+      "opts": ["liquidate", "allocate", "consolidate", "delegate"],
       "ans": 0,
-      "zh": "法遵團隊被指派須「徹底梳理」過去三年內簽署的每一份供應商合約，以確認其中未藏有未揭露的排他性條款。",
-      "why": "<b>comb through</b>（逐一仔細梳理、地毯式搜查）強調徹底、不放過任何細節的搜尋方式，精準對應「逐份合約確認有無隱藏條款」的謹慎稽核語境。browse through（隨意瀏覽）、flip through（快速翻閱）、skim through（略讀、粗略瀏覽）三者皆表達「快速、非徹底」的閱讀方式，與「須確認無遺漏」的稽核要求語意相反。"
+      "zh": "破產管理人受指派「清算」這家無力清償公司的剩餘資產，以求無擔保債權人的求償金額能達到最大化。",
+      "why": "<b>liquidate</b>（清算資產、將資產變現以償還債務）為破產程序的標準用語，精準對應「處分公司剩餘資產以償還債權人」的語境。allocate（分配用途）語意偏配置而非變現清算；consolidate（整併）指合而為一，與清算變現無關；delegate（授權、委派）語意完全不符。"
     },
     {
-      "id": "2026-08-06-p5-4",
-      "tag": "比較結構（none the less，儘管如此仍…）",
-      "pre": "The pilot program produced disappointing early results; the executive committee ",
-      "post": " decided to extend funding for a second phase, citing the long-term strategic value.",
-      "opts": ["none the less", "none the more", "all the less", "much the same"],
+      "id": "2026-08-07-p5-4",
+      "tag": "比較結構（if not more so，甚至猶有過之）",
+      "pre": "The subsidiary's exposure to currency risk proved just as significant, ",
+      "post": " than the parent company's, prompting a joint review of the group's hedging strategy.",
+      "opts": ["if not more so", "if not more", "even more so", "no more than"],
       "ans": 0,
-      "zh": "這項試辦計畫初期成果令人失望；儘管如此，執行委員會「仍然」決定為第二階段延長資助，理由是其長期策略價值。",
-      "why": "<b>none the less</b>（= nevertheless，儘管如此仍然）用於在前述負面事實之後，表達「結果並未因此而改變」的轉折語氣，與前句「初期成果令人失望」及後句「仍決定延長資助」的邏輯完全吻合。none the more（並不因此更加…）與 all the less（因此更不…）皆表達與句意相反的遞減語氣；much the same（大致相同）用於描述相似程度，與此處的讓步轉折無關。"
+      "zh": "子公司所承受的匯率風險證實同樣重大，「甚至猶有過之」，遠超過母公司，促使集團展開避險策略的聯合檢討。",
+      "why": "<b>if not more so</b>（如果不是更嚴重的話，即猶有過之）為固定插入語，用於在肯定「同樣程度」之後，進一步暗示「甚至更甚」，常見於 just as... if not more so, than... 的正式書面結構。if not more 缺少代表前述性質的 so，句構不完整；even more so 表「甚至更…」但不能與 just as 及 than 構成此固定插入語序；no more than（不超過、僅僅）語意與此處「猶有過之」的強調相反。"
     }
   ],
   "p6": {
-    "id": "2026-08-06-p6",
-    "title": "MEMORANDUM: New Procedure for Reporting Workplace Safety Concerns",
+    "id": "2026-08-07-p6",
+    "title": "MEMORANDUM: Revised Overtime Pre-Approval Requirements",
     "seg": [
       [
-        "To all facility staff: Effective immediately, all workplace safety concerns ",
+        "To all hourly employees and their supervisors: Beginning 1 September, any overtime work exceeding two hours in a single shift ",
         { "b": 0 },
-        " through the new digital incident-reporting system rather than being communicated verbally to shift supervisors."
+        " prior written approval from a direct supervisor, submitted through the updated timekeeping system."
       ],
       [
         { "b": 1 },
-        ", supervisors are still expected to address any immediately hazardous condition on the spot, with the digital report to be filed as soon as practicable afterward."
+        ", overtime arising from a genuine operational emergency, such as an equipment failure requiring immediate attention, may be approved retroactively provided the request is filed within twenty-four hours."
       ],
       [
-        "Reports that involve equipment malfunction should be ",
+        "Supervisors are reminded that repeated retroactive approvals for the same recurring issue will be treated as evidence of inadequate ",
         { "b": 2 },
-        " with the affected equipment's asset tag number to allow maintenance staff to locate it quickly."
+        " planning and may be escalated to departmental management."
       ],
       [
         { "b": 3 },
-        " A short training video demonstrating the new reporting system is available on the facility intranet page."
+        " Questions about the new approval workflow should be directed to the payroll help desk."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["must be submitted", "must submit", "have submitted", "are submitting"],
+        "opts": ["will require", "requires", "has required", "are requiring"],
         "ans": 0,
-        "zh": "致全體廠區同仁：即日起，所有職場安全疑慮「均須提交」，透過全新的數位事故通報系統，而非以口頭方式向輪班主管反映。",
-        "why": "主詞 all workplace safety concerns 是「被提交」的對象，須用被動語態；搭配規定的強制性，選 <b>must be submitted</b>。must submit 為主動語態，安全疑慮不會自行提交；have submitted 與 are submitting 皆為主動語態且缺乏 must 所表達的強制語氣，與規定語境不符。"
+        "zh": "致所有時薪員工及其主管：自9月1日起，凡單一輪班超過兩小時的加班，「均須」透過更新後的計時系統，事先取得直屬主管的書面核准。",
+        "why": "主詞 any overtime work 為主動要求核准的一方，須搭配未來生效時點「Beginning 1 September」，選未來式 <b>will require</b>。requires 為現在式，與尚未生效的未來時點不符；has required 表已發生過的要求，與未來規定矛盾；are requiring 為現在進行式，同樣不符合公告未來生效的語境。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["That said", "As a result", "In other words", "By the same token"],
+        "opts": ["As an exception", "In the same way", "As previously stated", "By all means"],
         "ans": 0,
-        "zh": "「話雖如此」，主管仍應立即處理現場任何具立即危害性的狀況，數位報告則可於事後盡速補行填寫。",
-        "why": "前句規定安全疑慮須改由數位系統通報，本句說明「話雖如此」，主管仍須即時處理緊急危害，兩句構成「原則之外仍有例外處置」的轉折關係，故選 <b>That said</b>（話雖如此）。As a result（因此）表因果；In other words（換言之）表改述；By the same token（同理）表類比延伸，皆與此處的例外轉折邏輯不符。"
+        "zh": "「作為例外」，因真正的營運緊急狀況（例如需立即處理的設備故障）而產生的加班，只要於二十四小時內提出申請，仍可獲得事後追認核准。",
+        "why": "前句規定加班須事先核准，本句說明「作為例外」，緊急狀況可事後追認，兩句構成原則與例外的關係，故選 <b>As an exception</b>（作為例外）。In the same way（以同樣方式）表類比；As previously stated（如先前所述）表引用先前內容，但此為新規定的例外說明而非重述；By all means（當然可以）語意不合此處正式規範語境。"
       },
       {
-        "tag": "詞彙語意（分詞）",
+        "tag": "詞彙語意（名詞）",
         "col1": true,
-        "opts": ["accompanied", "compensated", "compromised", "complemented"],
+        "opts": ["staffing", "storage", "shipping", "signage"],
         "ans": 0,
-        "zh": "涉及設備故障的報告，應「附上」受影響設備的資產標籤編號，以便維修人員能迅速找到該設備。",
-        "why": "<b>accompanied by</b>（附有、隨附）表示「報告書附上資產編號」，符合「提交報告時一併檢附識別資訊」的語境。compensated（獲得補償）、compromised（受妥協、遭破壞）、complemented（互補）三者語意皆與「報告附上編號」的搭配需求不符。"
+        "zh": "主管應留意，若同一類重複發生的問題持續以事後追認方式核准加班，將被視為「人力配置」規劃不當的證據，並可能上報至部門管理層。",
+        "why": "<b>staffing</b>（人力配置）修飾 planning，指「人力調度規劃不當導致頻繁加班」，符合「重複加班反映排班規劃問題」的管理語境。storage（倉儲）、shipping（運送）、signage（標示牌）三者語意皆與「加班核准」及「人力規劃」的主題完全無關。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "The reporting system automatically assigns a tracking number so employees can follow up on the status of their submission.",
-          "The facility's annual safety awards will be presented at the December all-staff meeting.",
-          "Employees are reminded that the cafeteria will be closed for renovation next week.",
-          "New employee orientation sessions will be held every Monday morning."
+          "A step-by-step guide to submitting both standard and retroactive overtime requests is available on the payroll intranet page.",
+          "The company's quarterly town hall will be held virtually this September.",
+          "Employees are reminded to update their direct-deposit information before the next pay cycle.",
+          "The break room on the third floor will be closed for renovation next week."
         ],
         "ans": 0,
-        "zh": "「該通報系統會自動配發追蹤編號，讓員工得以追蹤其提交報告的處理狀況。」一段展示新通報系統操作方式的簡短教學影片，已上架於廠區內部網路頁面。",
-        "why": "段落主題為「職場安全疑慮通報新程序」，此句說明系統自動配發追蹤編號的功能，讓員工掌握後續進度，與後句「教學影片已上架」共同構成完整的系統使用說明。其餘選項（安全獎項頒發、餐廳整修、新人訓練）皆與安全通報程序無關，插入後語意斷裂。"
+        "zh": "「一份逐步說明如何提交一般加班申請與事後追認申請的操作指南，已公布於薪資部門的內部網路頁面。」有關新核准流程的相關問題，請洽薪資服務台。",
+        "why": "段落主題為「加班事先核准新規定」，此句提供操作指南的取得方式，與後句「相關問題請洽薪資服務台」共同構成完整的員工操作支援說明。其餘選項（季度說明會、直接存款更新、休息室整修）皆與加班核准規定無關，插入後語意斷裂。"
       }
     ]
   }
