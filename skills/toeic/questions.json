@@ -1,117 +1,117 @@
 {
-  "date": "2026-08-07",
+  "date": "2026-08-08",
   "p5": [
     {
-      "id": "2026-08-07-p5-0",
-      "tag": "假設語氣（過去未來，would 表委婉推測）",
+      "id": "2026-08-08-p5-0",
+      "tag": "假設語氣（過去完成式，未省略 if）",
       "pre": "",
-      "post": " the parties unable to reach agreement on valuation, the arbitration clause provides that a neutral appraiser would be appointed to issue a binding determination.",
-      "opts": ["Were", "If were", "Being", "Should"],
+      "post": " the underwriting team conducted a more rigorous stress test, the fund's exposure to the defaulted municipal bonds might have been flagged months before the downgrade.",
+      "opts": ["Had", "If", "Should", "Were"],
       "ans": 0,
-      "zh": "倘若雙方無法就估值達成共識，仲裁條款規定將指派一名中立鑑價人做出具拘束力的裁定。",
-      "why": "此為 If the parties were unable... 省略 if 後的倒裝，<b>Were</b> 提前至句首，構成表可能性的條件子句（Were + 主詞 + 形容詞/過去分詞）。If were 語序矛盾；Being 為分詞，無法引導完整條件子句；Should 倒裝後須接原形動詞（Should the parties be unable），而非直接接形容詞 unable，故不符合此句結構。"
+      "zh": "倘若承銷團隊當初執行更嚴謹的壓力測試，該基金對這些已違約市政債的曝險部位，原本可能在信評調降前數月就被揭露。",
+      "why": "此為省略 if 的假設語氣倒裝，過去完成式主動須將 <b>Had</b> 提前至句首（= If the underwriting team had conducted），與主句 might have been flagged 呼應與過去事實相反的假設。If 若保留則不可倒裝，且此處已省略 if，句首直接用 Had；Should 倒裝後須接原形動詞（Should the team conduct），與此處過去完成式時態不符；Were 用於 be 動詞或 were to 的假設倒裝，不適用於一般動詞 conducted。"
     },
     {
-      "id": "2026-08-07-p5-1",
-      "tag": "分詞構句（原因，被動，完成式）",
+      "id": "2026-08-08-p5-1",
+      "tag": "分詞構句（讓步，主動，時間先於主要子句）",
       "pre": "",
-      "post": " by three separate credit-rating downgrades within a single quarter, the company's board convened an emergency session to reassess its capital structure.",
-      "opts": ["Blindsided", "Blindsiding", "Having blindsided", "To be blindsided"],
+      "post": " numerous red flags during the initial screening, the loan officer nonetheless recommended approval, citing pressure to meet quarterly origination targets.",
+      "opts": ["Having noted", "Noting", "Noted", "To note"],
       "ans": 0,
-      "zh": "由於在單一季度內連續遭遇三次信用評等調降的意外打擊，該公司董事會召開緊急會議，重新評估其資本結構。",
-      "why": "此分詞構句的邏輯主詞為 the company（公司是被意外打擊的一方），須用被動過去分詞 <b>Blindsided</b> 表原因。Blindsiding 為主動現在分詞，語態不符（公司不是主動打擊他人的一方）；Having blindsided 為完成式主動，語態同樣不合；To be blindsided 為被動不定詞，表目的而非原因，語意不符。"
+      "zh": "儘管在初步審查階段已注意到多項警訊，這位貸款專員仍建議核准，理由是須應付季度放款業績壓力。",
+      "why": "此分詞構句的邏輯主詞為 the loan officer（貸款專員是注意到警訊的一方），且「注意到警訊」發生在「建議核准」之前，須用完成式主動分詞 <b>Having noted</b>，凸顯時間先後與讓步語氣。Noting 為現在分詞，僅表同時發生，未能凸顯「先前已注意到」的時間層次；Noted 為過去分詞，語態被動，與「專員主動注意到」的邏輯不符；To note 為不定詞表目的，語意不合。"
     },
     {
-      "id": "2026-08-07-p5-2",
-      "tag": "同位語子句（allegation 後接 that）",
-      "pre": "The board dismissed the allegation ",
-      "post": " the CFO had personally authorized the improper transfer, citing a lack of corroborating documentation.",
-      "opts": ["that", "which", "of which", "as to"],
+      "id": "2026-08-08-p5-2",
+      "tag": "非限定關係子句（介系詞+which，表結果）",
+      "pre": "The merger agreement contained a material adverse change clause, ",
+      "post": " the acquirer could withdraw from the transaction without penalty if the target's revenue declined by more than fifteen percent.",
+      "opts": ["under which", "which under", "that under", "by whom"],
       "ans": 0,
-      "zh": "董事會以缺乏佐證文件為由，駁回了「執行長曾親自核准不當轉帳」此一指控。",
-      "why": "allegation（指控）為抽象名詞，後方子句用以說明指控的具體內容時，須用同位語 <b>that</b> 子句。which 為關係代名詞，須在子句中擔任主詞或受詞，但此子句結構已完整；of which 同樣是關係代名詞用法，不符同位語功能；as to（關於）為介系詞片語，後須接名詞而非完整子句。"
+      "zh": "這份併購協議中訂有一項重大不利變化條款，「依此條款」，若標的公司營收下滑超過百分之十五，收購方得無須負擔違約金而退出交易。",
+      "why": "<b>under which</b>（= under that clause，依此條款）為「介系詞＋關係代名詞」結構，以非限定方式承接前句所述的條款，並引導完整子句。which under 語序錯誤；that under 同樣語序錯誤且 that 不與介系詞連用置於子句外；by whom 用於先行詞為人的情況，此處先行詞為 clause（條款），不適用。"
     },
     {
-      "id": "2026-08-07-p5-3",
+      "id": "2026-08-08-p5-3",
       "tag": "進階動詞語意辨別",
-      "pre": "The receiver was appointed to ",
-      "post": " the insolvent company's remaining assets in a manner that maximizes recovery for unsecured creditors.",
-      "opts": ["liquidate", "allocate", "consolidate", "delegate"],
+      "pre": "The audit report noted that management had systematically ",
+      "post": " maintenance expenditures as capital improvements in order to inflate reported operating margins.",
+      "opts": ["mischaracterized", "misplaced", "mismanaged", "miscalculated"],
       "ans": 0,
-      "zh": "破產管理人受指派「清算」這家無力清償公司的剩餘資產，以求無擔保債權人的求償金額能達到最大化。",
-      "why": "<b>liquidate</b>（清算資產、將資產變現以償還債務）為破產程序的標準用語，精準對應「處分公司剩餘資產以償還債權人」的語境。allocate（分配用途）語意偏配置而非變現清算；consolidate（整併）指合而為一，與清算變現無關；delegate（授權、委派）語意完全不符。"
+      "zh": "稽核報告指出，管理階層有計畫地將維修支出「錯誤歸類」為資本性支出，藉此虛增所申報的營業利潤率。",
+      "why": "<b>mischaracterize A as B</b>（將A錯誤定性/歸類為B）精準對應「刻意將維修費用誤列為資本支出」的會計舞弊語境。misplace（放錯位置、遺失）用於實體物品；mismanage（管理不當）語意偏經營疏失而非分類錯誤；miscalculate（計算錯誤）指數字運算失誤，與「刻意歸類」的故意性語意不符。"
     },
     {
-      "id": "2026-08-07-p5-4",
-      "tag": "比較結構（if not more so，甚至猶有過之）",
-      "pre": "The subsidiary's exposure to currency risk proved just as significant, ",
-      "post": " than the parent company's, prompting a joint review of the group's hedging strategy.",
-      "opts": ["if not more so", "if not more", "even more so", "no more than"],
+      "id": "2026-08-08-p5-4",
+      "tag": "比較結構（far from + 動名詞，遠非）",
+      "pre": "The revised compliance program, ",
+      "post": " reducing regulatory scrutiny, has instead attracted a formal inquiry into the firm's reporting practices.",
+      "opts": ["far from", "rather than", "instead of", "other than"],
       "ans": 0,
-      "zh": "子公司所承受的匯率風險證實同樣重大，「甚至猶有過之」，遠超過母公司，促使集團展開避險策略的聯合檢討。",
-      "why": "<b>if not more so</b>（如果不是更嚴重的話，即猶有過之）為固定插入語，用於在肯定「同樣程度」之後，進一步暗示「甚至更甚」，常見於 just as... if not more so, than... 的正式書面結構。if not more 缺少代表前述性質的 so，句構不完整；even more so 表「甚至更…」但不能與 just as 及 than 構成此固定插入語序；no more than（不超過、僅僅）語意與此處「猶有過之」的強調相反。"
+      "zh": "這套經過修訂的法遵計畫，「非但沒有」降低監管審查，反而招致對本公司申報作業的正式調查。",
+      "why": "<b>far from V-ing</b>（遠非、非但沒有）用於強調結果與預期完全相反，後方常接 instead 呼應此轉折，語氣比單純否定更強烈。rather than 與 instead of 雖也表「而非」，但通常用於並列兩個選項或替代關係，語氣較平實，不若 far from 強調「事與願違」的反差；other than（除了…之外）語意與此處的強烈反差轉折不符。"
     }
   ],
   "p6": {
-    "id": "2026-08-07-p6",
-    "title": "MEMORANDUM: Revised Overtime Pre-Approval Requirements",
+    "id": "2026-08-08-p6",
+    "title": "MEMORANDUM: Updated Guidelines for Remote Equipment Returns",
     "seg": [
       [
-        "To all hourly employees and their supervisors: Beginning 1 September, any overtime work exceeding two hours in a single shift ",
+        "To all remote and hybrid employees: For any employee separating from the company, all company-issued equipment, including laptops, monitors, and mobile devices, ",
         { "b": 0 },
-        " prior written approval from a direct supervisor, submitted through the updated timekeeping system."
+        " to the IT department within ten business days of the employee's final day."
       ],
       [
         { "b": 1 },
-        ", overtime arising from a genuine operational emergency, such as an equipment failure requiring immediate attention, may be approved retroactively provided the request is filed within twenty-four hours."
+        ", employees relocating to a different remote work arrangement within the company are not required to return equipment, provided their new role continues to qualify for remote-work provisioning."
       ],
       [
-        "Supervisors are reminded that repeated retroactive approvals for the same recurring issue will be treated as evidence of inadequate ",
+        "Employees who anticipate difficulty meeting the ten-day deadline due to shipping constraints should ",
         { "b": 2 },
-        " planning and may be escalated to departmental management."
+        " an extension with the IT help desk before the deadline passes, rather than after."
       ],
       [
         { "b": 3 },
-        " Questions about the new approval workflow should be directed to the payroll help desk."
+        " A prepaid shipping label and packing instructions will be emailed automatically once a return is initiated in the equipment portal."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["will require", "requires", "has required", "are requiring"],
+        "opts": ["must be returned", "must return", "have returned", "are returning"],
         "ans": 0,
-        "zh": "致所有時薪員工及其主管：自9月1日起，凡單一輪班超過兩小時的加班，「均須」透過更新後的計時系統，事先取得直屬主管的書面核准。",
-        "why": "主詞 any overtime work 為主動要求核准的一方，須搭配未來生效時點「Beginning 1 September」，選未來式 <b>will require</b>。requires 為現在式，與尚未生效的未來時點不符；has required 表已發生過的要求，與未來規定矛盾；are requiring 為現在進行式，同樣不符合公告未來生效的語境。"
+        "zh": "致所有遠距與混合辦公同仁：任何離職員工，所有公司配發的設備（包括筆記型電腦、螢幕與行動裝置），「均須於」離職最後一日起十個工作天內，交還資訊部門。",
+        "why": "主詞 all company-issued equipment 是「被歸還」的對象，須用被動語態；搭配規定的強制性，選 <b>must be returned</b>。must return 為主動語態，設備不會自行歸還；have returned 與 are returning 皆為主動語態且缺乏 must 所表達的強制語氣，與規定語境不符。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["As an exception", "In the same way", "As previously stated", "By all means"],
+        "opts": ["However", "As a result", "In the same vein", "To that end"],
         "ans": 0,
-        "zh": "「作為例外」，因真正的營運緊急狀況（例如需立即處理的設備故障）而產生的加班，只要於二十四小時內提出申請，仍可獲得事後追認核准。",
-        "why": "前句規定加班須事先核准，本句說明「作為例外」，緊急狀況可事後追認，兩句構成原則與例外的關係，故選 <b>As an exception</b>（作為例外）。In the same way（以同樣方式）表類比；As previously stated（如先前所述）表引用先前內容，但此為新規定的例外說明而非重述；By all means（當然可以）語意不合此處正式規範語境。"
+        "zh": "「不過」，若員工僅是在公司內部轉調至不同的遠距工作安排，只要新職務仍符合遠距辦公配發資格，則無須歸還設備。",
+        "why": "前句規定離職者須歸還設備，本句說明「不過」內部轉調者為例外，兩句構成原則與例外的對比關係，故選 <b>However</b>（不過）。As a result（因此）表因果；In the same vein（同樣地）表類比延續；To that end（以此為目的）表承接目的，皆與此處的對比邏輯不符。"
       },
       {
-        "tag": "詞彙語意（名詞）",
+        "tag": "詞彙語意（片語動詞）",
         "col1": true,
-        "opts": ["staffing", "storage", "shipping", "signage"],
+        "opts": ["request", "reject", "resign", "resume"],
         "ans": 0,
-        "zh": "主管應留意，若同一類重複發生的問題持續以事後追認方式核准加班，將被視為「人力配置」規劃不當的證據，並可能上報至部門管理層。",
-        "why": "<b>staffing</b>（人力配置）修飾 planning，指「人力調度規劃不當導致頻繁加班」，符合「重複加班反映排班規劃問題」的管理語境。storage（倉儲）、shipping（運送）、signage（標示牌）三者語意皆與「加班核准」及「人力規劃」的主題完全無關。"
+        "zh": "若員工預期因運送限制而難以在十天期限內完成歸還，應在期限屆滿「之前」（而非之後）向資訊服務台「申請」展延。",
+        "why": "<b>request an extension</b>（申請展延）為固定搭配，精準對應「向服務台提出延期申請」的語境，且與後文「而非期限過後」的時間對比相呼應。reject（拒絕）、resign（辭職）、resume（恢復）三者語意皆與「申請展延期限」的情境完全無關。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "A step-by-step guide to submitting both standard and retroactive overtime requests is available on the payroll intranet page.",
-          "The company's quarterly town hall will be held virtually this September.",
-          "Employees are reminded to update their direct-deposit information before the next pay cycle.",
-          "The break room on the third floor will be closed for renovation next week."
+          "Employees should retain the original packaging where possible to simplify the return process.",
+          "The company's annual equipment inventory audit will take place in November.",
+          "New hires will receive their equipment within the first week of employment.",
+          "The IT department's office hours will be extended during the holiday season."
         ],
         "ans": 0,
-        "zh": "「一份逐步說明如何提交一般加班申請與事後追認申請的操作指南，已公布於薪資部門的內部網路頁面。」有關新核准流程的相關問題，請洽薪資服務台。",
-        "why": "段落主題為「加班事先核准新規定」，此句提供操作指南的取得方式，與後句「相關問題請洽薪資服務台」共同構成完整的員工操作支援說明。其餘選項（季度說明會、直接存款更新、休息室整修）皆與加班核准規定無關，插入後語意斷裂。"
+        "zh": "「員工應盡可能保留原始包裝，以簡化歸還流程。」一旦在設備歸還入口網站啟動歸還程序，系統將自動以電子郵件寄送預付運費標籤與包裝說明。",
+        "why": "段落主題為「遠距設備歸還規定」，此句提供實用建議（保留原包裝），與後句「啟動歸還程序後自動寄送運費標籤與包裝說明」直接呼應，構成完整的歸還操作指引。其餘選項（年度設備盤點、新人到職配發、假期服務時間）皆與設備歸還流程無關，插入後語意斷裂。"
       }
     ]
   }
