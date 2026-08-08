@@ -1,117 +1,117 @@
 {
-  "date": "2026-08-08",
+  "date": "2026-08-09",
   "p5": [
     {
-      "id": "2026-08-08-p5-0",
-      "tag": "假設語氣（過去完成式，未省略 if）",
+      "id": "2026-08-09-p5-0",
+      "tag": "假設語氣（過去，主句省略 would have）",
       "pre": "",
-      "post": " the underwriting team conducted a more rigorous stress test, the fund's exposure to the defaulted municipal bonds might have been flagged months before the downgrade.",
-      "opts": ["Had", "If", "Should", "Were"],
+      "post": " the appraiser applied a more conservative discount rate, the estate's reported value—and the resulting tax liability—would have been substantially higher.",
+      "opts": ["Had", "Should", "If", "Were"],
       "ans": 0,
-      "zh": "倘若承銷團隊當初執行更嚴謹的壓力測試，該基金對這些已違約市政債的曝險部位，原本可能在信評調降前數月就被揭露。",
-      "why": "此為省略 if 的假設語氣倒裝，過去完成式主動須將 <b>Had</b> 提前至句首（= If the underwriting team had conducted），與主句 might have been flagged 呼應與過去事實相反的假設。If 若保留則不可倒裝，且此處已省略 if，句首直接用 Had；Should 倒裝後須接原形動詞（Should the team conduct），與此處過去完成式時態不符；Were 用於 be 動詞或 were to 的假設倒裝，不適用於一般動詞 conducted。"
+      "zh": "倘若鑑價人採用較為保守的折現率，這筆遺產所申報的價值——以及隨之而來的稅負——原本會大幅提高。",
+      "why": "此為省略 if 的假設語氣倒裝，過去完成式主動須將 <b>Had</b> 提前至句首（= If the appraiser had applied），與主句 would have been 呼應與過去事實相反的假設。Should 倒裝後須接原形動詞（Should the appraiser apply），與此處過去完成式時態不符；If 若保留則不可倒裝（此處已省略 if）；Were 用於 be 動詞或 were to 的假設倒裝，不適用於一般動詞 applied。"
     },
     {
-      "id": "2026-08-08-p5-1",
-      "tag": "分詞構句（讓步，主動，時間先於主要子句）",
-      "pre": "",
-      "post": " numerous red flags during the initial screening, the loan officer nonetheless recommended approval, citing pressure to meet quarterly origination targets.",
-      "opts": ["Having noted", "Noting", "Noted", "To note"],
+      "id": "2026-08-09-p5-1",
+      "tag": "分詞構句（結果，主動）",
+      "pre": "The regulator revoked the firm's operating license, ",
+      "post": " roughly four hundred employees out of work with little advance notice.",
+      "opts": ["leaving", "left", "having left", "to leave"],
       "ans": 0,
-      "zh": "儘管在初步審查階段已注意到多項警訊，這位貸款專員仍建議核准，理由是須應付季度放款業績壓力。",
-      "why": "此分詞構句的邏輯主詞為 the loan officer（貸款專員是注意到警訊的一方），且「注意到警訊」發生在「建議核准」之前，須用完成式主動分詞 <b>Having noted</b>，凸顯時間先後與讓步語氣。Noting 為現在分詞，僅表同時發生，未能凸顯「先前已注意到」的時間層次；Noted 為過去分詞，語態被動，與「專員主動注意到」的邏輯不符；To note 為不定詞表目的，語意不合。"
+      "zh": "監管機關撤銷了該公司的營業執照，「使得」約四百名員工在幾乎沒有事先通知的情況下頓時失業。",
+      "why": "此分詞構句表達主要子句動作（撤照）所直接導致的附帶結果（員工失業），邏輯主詞為 the regulator（監管機關是造成此結果的一方），語態主動、與主要動作幾乎同時發生，須用現在分詞 <b>leaving</b>。left 為過去分詞，語態被動，與「監管機關主動造成此結果」的邏輯不符；having left 完成式暗示動作已先於主要子句完成，與「同步結果」的語意不符；to leave 為不定詞，表目的而非結果。"
     },
     {
-      "id": "2026-08-08-p5-2",
-      "tag": "非限定關係子句（介系詞+which，表結果）",
-      "pre": "The merger agreement contained a material adverse change clause, ",
-      "post": " the acquirer could withdraw from the transaction without penalty if the target's revenue declined by more than fifteen percent.",
-      "opts": ["under which", "which under", "that under", "by whom"],
+      "id": "2026-08-09-p5-2",
+      "tag": "同位語子句（stipulation 後接 that）",
+      "pre": "The franchise agreement includes a stipulation ",
+      "post": " the franchisee may not operate a competing business within a ten-mile radius for two years following termination.",
+      "opts": ["that", "which", "of which", "as to"],
       "ans": 0,
-      "zh": "這份併購協議中訂有一項重大不利變化條款，「依此條款」，若標的公司營收下滑超過百分之十五，收購方得無須負擔違約金而退出交易。",
-      "why": "<b>under which</b>（= under that clause，依此條款）為「介系詞＋關係代名詞」結構，以非限定方式承接前句所述的條款，並引導完整子句。which under 語序錯誤；that under 同樣語序錯誤且 that 不與介系詞連用置於子句外；by whom 用於先行詞為人的情況，此處先行詞為 clause（條款），不適用。"
+      "zh": "這份加盟協議中訂有一項規定，「即」加盟主於合約終止後兩年內，不得於方圓十英里範圍內經營競爭事業。",
+      "why": "stipulation（明文規定條款）為抽象名詞，後方子句用以說明規定的具體內容時，須用同位語 <b>that</b> 子句。which 為關係代名詞，須在子句中擔任主詞或受詞，但此子句結構已完整；of which 同樣是關係代名詞用法，不符同位語功能；as to（關於）為介系詞片語，後須接名詞而非完整子句。"
     },
     {
-      "id": "2026-08-08-p5-3",
+      "id": "2026-08-09-p5-3",
       "tag": "進階動詞語意辨別",
-      "pre": "The audit report noted that management had systematically ",
-      "post": " maintenance expenditures as capital improvements in order to inflate reported operating margins.",
-      "opts": ["mischaracterized", "misplaced", "mismanaged", "miscalculated"],
+      "pre": "The new whistleblower provisions are designed to ",
+      "post": " employees who report suspected fraud from being demoted, reassigned, or otherwise penalized by their employer.",
+      "opts": ["shield", "shelter", "screen", "shade"],
       "ans": 0,
-      "zh": "稽核報告指出，管理階層有計畫地將維修支出「錯誤歸類」為資本性支出，藉此虛增所申報的營業利潤率。",
-      "why": "<b>mischaracterize A as B</b>（將A錯誤定性/歸類為B）精準對應「刻意將維修費用誤列為資本支出」的會計舞弊語境。misplace（放錯位置、遺失）用於實體物品；mismanage（管理不當）語意偏經營疏失而非分類錯誤；miscalculate（計算錯誤）指數字運算失誤，與「刻意歸類」的故意性語意不符。"
+      "zh": "這項新的吹哨者保護條款旨在「保護」通報疑似詐欺行為的員工，使其免於遭雇主降職、調職或其他形式的懲處。",
+      "why": "<b>shield sb from sth</b>（保護某人免受某事之害）為正式法律用語，精準對應「條款保護通報者免於報復」的語境。shelter（庇護，多用於實體避難所或情感上的保護）搭配 from 時語域較偏日常；screen（篩選、遮蔽）指過濾或阻擋視線；shade（遮蔭）指遮擋陽光，三者皆與「法律保護免受職場報復」的語境不符。"
     },
     {
-      "id": "2026-08-08-p5-4",
-      "tag": "比較結構（far from + 動名詞，遠非）",
-      "pre": "The revised compliance program, ",
-      "post": " reducing regulatory scrutiny, has instead attracted a formal inquiry into the firm's reporting practices.",
-      "opts": ["far from", "rather than", "instead of", "other than"],
+      "id": "2026-08-09-p5-4",
+      "tag": "比較結構（to say nothing of，更遑論）",
+      "pre": "The proposed merger would face intense antitrust scrutiny in the United States, ",
+      "post": " the additional regulatory hurdles it would encounter in the European Union and United Kingdom.",
+      "opts": ["to say nothing of", "not to say", "needless to say", "that is to say"],
       "ans": 0,
-      "zh": "這套經過修訂的法遵計畫，「非但沒有」降低監管審查，反而招致對本公司申報作業的正式調查。",
-      "why": "<b>far from V-ing</b>（遠非、非但沒有）用於強調結果與預期完全相反，後方常接 instead 呼應此轉折，語氣比單純否定更強烈。rather than 與 instead of 雖也表「而非」，但通常用於並列兩個選項或替代關係，語氣較平實，不若 far from 強調「事與願違」的反差；other than（除了…之外）語意與此處的強烈反差轉折不符。"
+      "zh": "這樁擬議中的併購案將在美國面臨嚴格的反壟斷審查，「更遑論」它在歐盟與英國還須面對的額外監管障礙。",
+      "why": "<b>to say nothing of</b>（更不用說、更遑論）用於在列舉一項已然嚴峻的事實後，補充另一項同樣或更值得關注之事，強調「甚至還沒提到…」的遞進語氣。not to say（甚至可以說是）用於加強語氣但語意不同；needless to say（不用說也知道）通常獨立成句或置於句首；that is to say（也就是說）用於換句話說重述，三者語法或語意皆與此處「更遑論」的遞進結構不符。"
     }
   ],
   "p6": {
-    "id": "2026-08-08-p6",
-    "title": "MEMORANDUM: Updated Guidelines for Remote Equipment Returns",
+    "id": "2026-08-09-p6",
+    "title": "MEMORANDUM: Updated Procedure for Requesting Reference Letters",
     "seg": [
       [
-        "To all remote and hybrid employees: For any employee separating from the company, all company-issued equipment, including laptops, monitors, and mobile devices, ",
+        "To all current and former employees: Effective 1 October, all requests for employment reference letters ",
         { "b": 0 },
-        " to the IT department within ten business days of the employee's final day."
+        " through the HR self-service portal rather than by directly contacting a former manager or colleague."
       ],
       [
         { "b": 1 },
-        ", employees relocating to a different remote work arrangement within the company are not required to return equipment, provided their new role continues to qualify for remote-work provisioning."
+        ", employees who left the company more than five years ago should contact the HR archive team directly, as records older than five years are not accessible through the standard portal."
       ],
       [
-        "Employees who anticipate difficulty meeting the ten-day deadline due to shipping constraints should ",
+        "Requesters should allow at least five business days for processing, particularly if the reference letter must be ",
         { "b": 2 },
-        " an extension with the IT help desk before the deadline passes, rather than after."
+        " to a specific format required by a licensing board or government agency."
       ],
       [
         { "b": 3 },
-        " A prepaid shipping label and packing instructions will be emailed automatically once a return is initiated in the equipment portal."
+        " A sample reference letter template is available for download on the HR self-service portal."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["must be returned", "must return", "have returned", "are returning"],
+        "opts": ["must be submitted", "must submit", "have submitted", "are submitting"],
         "ans": 0,
-        "zh": "致所有遠距與混合辦公同仁：任何離職員工，所有公司配發的設備（包括筆記型電腦、螢幕與行動裝置），「均須於」離職最後一日起十個工作天內，交還資訊部門。",
-        "why": "主詞 all company-issued equipment 是「被歸還」的對象，須用被動語態；搭配規定的強制性，選 <b>must be returned</b>。must return 為主動語態，設備不會自行歸還；have returned 與 are returning 皆為主動語態且缺乏 must 所表達的強制語氣，與規定語境不符。"
+        "zh": "致所有現任與離職員工：自10月1日起，所有在職證明或推薦信的申請，「均須」透過人資自助入口網站提出，而非直接聯繫前主管或同事。",
+        "why": "主詞 all requests 是「被提交」的對象，須用被動語態；搭配規定的強制性，選 <b>must be submitted</b>。must submit 為主動語態，申請案不會自行提交；have submitted 與 are submitting 皆為主動語態且缺乏 must 所表達的強制語氣，與規定語境不符。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["However", "As a result", "In the same vein", "To that end"],
+        "opts": ["As an exception", "In the same vein", "As previously stated", "To that end"],
         "ans": 0,
-        "zh": "「不過」，若員工僅是在公司內部轉調至不同的遠距工作安排，只要新職務仍符合遠距辦公配發資格，則無須歸還設備。",
-        "why": "前句規定離職者須歸還設備，本句說明「不過」內部轉調者為例外，兩句構成原則與例外的對比關係，故選 <b>However</b>（不過）。As a result（因此）表因果；In the same vein（同樣地）表類比延續；To that end（以此為目的）表承接目的，皆與此處的對比邏輯不符。"
+        "zh": "「作為例外」，離職超過五年的員工應直接聯繫人資檔案團隊，因為五年以上的紀錄無法透過標準入口網站取得。",
+        "why": "前句規定一律透過入口網站申請，本句說明「作為例外」，離職五年以上者須另循管道，兩句構成原則與例外的關係，故選 <b>As an exception</b>（作為例外）。In the same vein（同樣地）表類比延續；As previously stated（如先前所述）表引用先前內容，但此為新規定的例外說明而非重述；To that end（以此為目的）表承接目的，皆與此處的例外邏輯不符。"
       },
       {
-        "tag": "詞彙語意（片語動詞）",
+        "tag": "詞彙語意（動詞）",
         "col1": true,
-        "opts": ["request", "reject", "resign", "resume"],
+        "opts": ["tailored", "tolerated", "translated", "transmitted"],
         "ans": 0,
-        "zh": "若員工預期因運送限制而難以在十天期限內完成歸還，應在期限屆滿「之前」（而非之後）向資訊服務台「申請」展延。",
-        "why": "<b>request an extension</b>（申請展延）為固定搭配，精準對應「向服務台提出延期申請」的語境，且與後文「而非期限過後」的時間對比相呼應。reject（拒絕）、resign（辭職）、resume（恢復）三者語意皆與「申請展延期限」的情境完全無關。"
+        "zh": "申請人應預留至少五個工作天供處理，特別是當推薦信須「量身訂做」以符合特定發照機構或政府單位所要求的格式時。",
+        "why": "<b>tailor sth to sth</b>（依需求量身訂做、客製化）精準對應「推薦信須依特定格式要求調整內容」的語境。tolerated（被容忍）、translated（被翻譯）、transmitted（被傳送）三者語意皆與「依特定格式客製化調整」的情境不符。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Employees should retain the original packaging where possible to simplify the return process.",
-          "The company's annual equipment inventory audit will take place in November.",
-          "New hires will receive their equipment within the first week of employment.",
-          "The IT department's office hours will be extended during the holiday season."
+          "A checklist of information typically required to complete a reference request, such as job title and dates of employment, is also provided on the portal.",
+          "The company's annual employee survey will open for responses in November.",
+          "Employees are reminded to complete their compliance training before the end of the quarter.",
+          "The HR department's office will be relocated to the fourth floor next month."
         ],
         "ans": 0,
-        "zh": "「員工應盡可能保留原始包裝，以簡化歸還流程。」一旦在設備歸還入口網站啟動歸還程序，系統將自動以電子郵件寄送預付運費標籤與包裝說明。",
-        "why": "段落主題為「遠距設備歸還規定」，此句提供實用建議（保留原包裝），與後句「啟動歸還程序後自動寄送運費標籤與包裝說明」直接呼應，構成完整的歸還操作指引。其餘選項（年度設備盤點、新人到職配發、假期服務時間）皆與設備歸還流程無關，插入後語意斷裂。"
+        "zh": "「一份完成推薦信申請通常所需資訊的檢查清單（例如職稱與在職期間），也已提供於入口網站上。」一份推薦信範本，供各位下載參考。",
+        "why": "段落主題為「推薦信申請新流程」，此句提供申請所需資訊的檢查清單，與後句「範本供下載參考」共同構成完整的自助申請資源說明。其餘選項（年度員工調查、法遵訓練提醒、人資部門搬遷）皆與推薦信申請流程無關，插入後語意斷裂。"
       }
     ]
   }
