@@ -1,5 +1,49 @@
 [
   {
+    "date": "2026-08-09",
+    "big_events": [
+      {
+        "title": "OpenAI旗下AI瀏覽器Atlas今日(8/9)正式關閉,瀏覽器代理功能併入ChatGPT與Codex",
+        "sources": [
+          {
+            "name": "OpenAI Help Center",
+            "url": "https://help.openai.com/en/articles/20001371-evolving-atlas-into-chatgpt-for-browser-based-agentic-work"
+          },
+          {
+            "name": "Tech Edition",
+            "url": "https://www.techedt.com/chatgpt-atlas-to-shut-down-on-9-august-as-openai-moves-browser-features-into-chatgpt"
+          }
+        ],
+        "summary": "OpenAI於2025年10月21日推出的macOS優先AI瀏覽器「ChatGPT Atlas」,主打『直接和瀏覽器對話』的代理式瀏覽體驗,在上線不到10個月後於2026年8月9日正式停止運作。OpenAI表示要將原本Atlas的瀏覽器代理能力,整合進ChatGPT桌面版App、Chrome擴充功能與Codex之中,不再另外維護獨立瀏覽器產品。官方在關閉前提供約30天的搬遷期,提醒用戶書籤、瀏覽紀錄、已儲存密碼與Cookie都不會自動轉移,需自行將書籤匯出成HTML檔案、把密碼與Cookie匯出至ChatGPT桌面版或Chrome;不過ChatGPT對話紀錄與Atlas是分開儲存,不受影響會持續保留。",
+        "audience": "職場上班族中曾用ChatGPT Atlas瀏覽器處理網頁研究、線上代辦事項、跨頁面資料蒐集的人,以及正評估是否採用AI瀏覽器工具的辦公室工作者",
+        "pain_point": "花時間建立的書籤、瀏覽紀錄、登入資訊隨產品關閉可能一夕消失,若沒在期限前備份與搬遷,等於要重新建立一套工作流程;也凸顯追逐熱門AI新工具的風險——上線不到一年就可能收掉",
+        "title_idea": "才用不到10個月就收掉!OpenAI Atlas瀏覽器8/9熄燈,上班族的資料搬家清單",
+        "local_angle": "可製作「AI瀏覽器工具關閉應變指南」,列出Atlas用戶現在就該做的資料備份步驟(書籤匯出HTML、密碼/Cookie匯出到ChatGPT桌面版),並提醒台灣讀者評估其他AI瀏覽器工具(如Perplexity Comet)時,把廠商產品週期不穩定的風險一併納入考量"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "Anthropic宣布Claude Code『自動模式』8/14起成Pro/Max/Team預設,外媒8/9持續追蹤安全爭議",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/"
+          },
+          {
+            "name": "Claude by Anthropic 官方部落格",
+            "url": "https://claude.com/blog/auto-mode-default-in-claude-code"
+          }
+        ],
+        "summary": "Anthropic已於8月7日在官方部落格宣布,自8月14日起,Claude Code在Pro、Max、Team方案上的新對話將預設開啟「自動模式(Auto Mode)」:不再對每個指令逐一跳出人工核准提示,而是讓所有動作先經過分類器篩選,只有被判定為『不可逆、破壞性、或指向工作環境外』的操作才會被攔下或轉為徵求許可,Enterprise方案則仍需自行選擇開啟。支持此決策的研究數據顯示,在1053位付費用戶的對照測試中,人工使用者僅能攔截13.6%被刻意植入的危險指令,自動模式的分類器卻能攔下89%。這則消息8月9日持續被TechCrunch、Cryptonomist等外媒報導與討論,也引發開發者社群對『AI自主執行範圍該收緊還是放寬』的辯論。",
+        "audience": "使用Claude Code處理程式開發、自動化流程的職場上班族,尤其是研發團隊主管與需評估AI代理權限風險的IT管理者",
+        "pain_point": "過去逐一核准指令雖然安全感較高但拖慢開發節奏,如今預設開啟自動模式雖提升效率,團隊管理者卻要重新盤點『哪些操作真的要人盯』,一旦權限範圍沒設定好,恐有非預期的破壞性操作發生",
+        "title_idea": "Claude Code不再『每步都要問』:8/14起自動模式成預設,你的團隊準備好了嗎",
+        "local_angle": "可製作「Claude Code自動模式安全設定指南」,教台灣中小型研發團隊在8/14生效前,先盤點哪些專案目錄或操作需額外設定核准關卡,避免自動模式上線後出現非預期的檔案異動或外部操作"
+      }
+    ],
+    "trends": []
+  },
+  {
     "date": "2026-08-08",
     "big_events": [],
     "tool_updates": [
@@ -870,48 +914,5 @@
         "local_angle": "可整理「向主管爭取AI工具預算的說帖範本」,引用美國國會與上市公司實際採購數字與財報成長數據,幫助台灣上班族用具體案例說服公司投資AI效率工具"
       }
     ]
-  },
-  {
-    "date": "2026-08-02",
-    "big_events": [
-      {
-        "title": "歐盟《AI法案》8/2正式進入強制執行階段:聊天機器人須「自首」是AI,違規最重罰全球營收3%",
-        "sources": [
-          {
-            "name": "European Commission",
-            "url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august"
-          },
-          {
-            "name": "Euronews",
-            "url": "https://www.euronews.com/my-europe/2026/08/02/eu-rules-on-ai-models-become-enforceable-whats-going-to-change"
-          }
-        ],
-        "summary": "8/2起,歐盟《人工智慧法案》(AI Act)正式進入強制執行階段,歐盟委員會AI辦公室與各會員國主管機關同步取得對通用型AI(GPAI)模型的正式執法權;同時,第50條的透明度新規也同步生效——聊天機器人等互動式AI系統須明確告知使用者「正在與AI互動,而非真人」,深偽(deepfake)影像與AI生成或竄改的內容都必須加註可辨識標籤,並附上機器可讀的浮水印以利偵測。GPAI模型的義務雖自2025年8/2起已具法律效力,但當時歐盟AI辦公室並無正式裁罰權;如今裁罰機制正式上路,可要求業者提交技術文件、進行模型評估、下令改正,甚至限制或下架違規模型,罰鍰最高可達企業全球年營業額3%或1500萬歐元(以較高者為準),違反禁止性AI應用的罰則甚至上看7%或3500萬歐元。目前OpenAI、Google、Microsoft、Anthropic、Amazon與Mistral皆已簽署自願性《GPAI行為準則》配合,但Meta公開拒絕簽署。分析指出,這波監管的「布魯塞爾效應」正促使多家美國科技巨頭將歐盟合規標準延伸到全球產品線,以避免同時維護多套系統。",
-        "audience": "職場上班族(尤其是會用ChatGPT、Gemini等工具生成圖片、簡報或行銷內容,或任職於需與歐盟客戶往來公司的族群)",
-        "pain_point": "常用AI工具產生圖片、文案交差,卻不知道這些內容現在起可能被要求強制標示「AI生成」,擔心自己或公司無意間踩到新法紅線",
-        "title_idea": "歐盟AI法案8/2起「動真格」:你每天在用的ChatGPT、Gemini,現在起要主動「自首」是AI",
-        "local_angle": "可做「歐盟新規對台灣接歐洲訂單/客戶企業的影響」延伸報導,提醒常用AI工具產出對歐業務內容(行銷素材、簡報等)的上班族留意標示義務——即便公司總部不在歐盟,只要服務觸及歐盟用戶仍可能受規範"
-      },
-      {
-        "title": "加州跟進歐盟同步出手:《AI透明法》8/2生效,成全美首個強制AI內容「打浮水印」的州",
-        "sources": [
-          {
-            "name": "Fox40 / Inside California Politics",
-            "url": "https://fox40.com/inside-california-politics/new-california-law-will-require-ai-content-labels/"
-          },
-          {
-            "name": "California Legislative Information (AB-853 官方法條)",
-            "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB853"
-          }
-        ],
-        "summary": "加州《AI透明法》(SB 942,經AB 853修正延後生效日)於8/2正式生效,加州成為全美第一個強制要求生成式AI業者為內容打上「來源標籤」的州。凡在加州擁有超過100萬月活躍用戶的生成式AI業者(涵蓋OpenAI、Google、Meta等大型業者)都必須提供免費的AI內容偵測工具,讓任何人可查核一段圖片、影片或音訊是否由該系統生成;同時要讓使用者可自由選擇替AI生成內容加上「可見標籤」,並在圖片、影片、音訊中嵌入使用者難以移除的「隱藏浮水印」(latent disclosure),記錄內容的AI來源與竄改紀錄。法案生效日特地選在8/2,就是為了與歐盟AI法案的透明度新規同步上路,顯示美國各州與歐盟的AI監管節奏正逐漸對齊。違規者由加州檢察總長執法,每起違規、每日均可獨立計罰,最重可處5000美元罰鍰。",
-        "audience": "會用AI工具生成圖片、影片、語音等內容並用於工作簡報、社群貼文或作品集的職場上班族與內容創作者",
-        "pain_point": "用AI生成的圖片、影片常直接拿來用在工作簡報或社群貼文上,卻不知道之後平台或工具可能會強制加註「AI生成」標籤,不確定會不會影響內容的專業感或可信度",
-        "title_idea": "加州出手了!8/2起AI生成的圖片影片都要「按指紋」,你上傳的內容藏得住嗎",
-        "local_angle": "可對照歐盟AI法案同步上路的巧合,做「全球AI監管開始同步收緊」整理報導,提醒台灣使用ChatGPT、Gemini等國際AI工具產出內容的上班族,未來上傳的AI生成內容可能都會被自動標記,進而影響求職作品集、行銷素材的呈現方式"
-      }
-    ],
-    "tool_updates": [],
-    "trends": []
   }
 ]

@@ -1,117 +1,117 @@
 {
-  "date": "2026-08-09",
+  "date": "2026-08-10",
   "p5": [
     {
-      "id": "2026-08-09-p5-0",
-      "tag": "假設語氣（過去，主句省略 would have）",
+      "id": "2026-08-10-p5-0",
+      "tag": "假設語氣（過去，主句用 could have）",
       "pre": "",
-      "post": " the appraiser applied a more conservative discount rate, the estate's reported value—and the resulting tax liability—would have been substantially higher.",
-      "opts": ["Had", "Should", "If", "Were"],
+      "post": " the parties incorporated a severability clause, the entire agreement could have been rendered void by the single unenforceable provision.",
+      "opts": ["Had", "Unless", "If not", "Would"],
       "ans": 0,
-      "zh": "倘若鑑價人採用較為保守的折現率，這筆遺產所申報的價值——以及隨之而來的稅負——原本會大幅提高。",
-      "why": "此為省略 if 的假設語氣倒裝，過去完成式主動須將 <b>Had</b> 提前至句首（= If the appraiser had applied），與主句 would have been 呼應與過去事實相反的假設。Should 倒裝後須接原形動詞（Should the appraiser apply），與此處過去完成式時態不符；If 若保留則不可倒裝（此處已省略 if）；Were 用於 be 動詞或 were to 的假設倒裝，不適用於一般動詞 applied。"
+      "zh": "倘若雙方當初納入可分割性條款，這份協議原本可能因單一無法強制執行的條款，而導致整份協議無效。",
+      "why": "此為省略 if 的假設語氣倒裝，過去完成式主動須將 <b>Had</b> 提前至句首（= If the parties had incorporated），與主句 could have been rendered 呼應與過去事實相反的假設。Unless（除非）語意變成「除非雙方納入條款，整份協議才會失效」，邏輯與原句相反；If not 語意不完整，缺少對應的動詞片語；Would 為情態助動詞，無法單獨引導條件子句。"
     },
     {
-      "id": "2026-08-09-p5-1",
-      "tag": "分詞構句（結果，主動）",
-      "pre": "The regulator revoked the firm's operating license, ",
-      "post": " roughly four hundred employees out of work with little advance notice.",
-      "opts": ["leaving", "left", "having left", "to leave"],
+      "id": "2026-08-10-p5-1",
+      "tag": "分詞構句（讓步，被動）",
+      "pre": "",
+      "post": " with detailed instructions on proper disposal, the hazardous material was nonetheless dumped in a storm drain by an untrained subcontractor.",
+      "opts": ["Labeled", "Labeling", "Having labeled", "To be labeled"],
       "ans": 0,
-      "zh": "監管機關撤銷了該公司的營業執照，「使得」約四百名員工在幾乎沒有事先通知的情況下頓時失業。",
-      "why": "此分詞構句表達主要子句動作（撤照）所直接導致的附帶結果（員工失業），邏輯主詞為 the regulator（監管機關是造成此結果的一方），語態主動、與主要動作幾乎同時發生，須用現在分詞 <b>leaving</b>。left 為過去分詞，語態被動，與「監管機關主動造成此結果」的邏輯不符；having left 完成式暗示動作已先於主要子句完成，與「同步結果」的語意不符；to leave 為不定詞，表目的而非結果。"
+      "zh": "儘管已清楚標示妥善的處置說明，這批危險物質仍被未受訓的分包商倒入雨水下水道。",
+      "why": "此分詞構句的邏輯主詞為 the hazardous material（危險物質是被標示的對象），須用被動過去分詞 <b>Labeled</b> 表讓步。Labeling 為主動現在分詞，語態不符（物質不會主動標示自己）；Having labeled 為完成式主動，語態同樣不合；To be labeled 為被動不定詞，表未來或目的而非已完成的讓步狀態，語意不符。"
     },
     {
-      "id": "2026-08-09-p5-2",
-      "tag": "同位語子句（stipulation 後接 that）",
-      "pre": "The franchise agreement includes a stipulation ",
-      "post": " the franchisee may not operate a competing business within a ten-mile radius for two years following termination.",
-      "opts": ["that", "which", "of which", "as to"],
+      "id": "2026-08-10-p5-2",
+      "tag": "同位語子句（premise 後接 that）",
+      "pre": "The valuation model rests on the premise ",
+      "post": " projected cash flows will grow at a constant rate in perpetuity, an assumption several analysts have publicly challenged.",
+      "opts": ["that", "which", "of which", "in which"],
       "ans": 0,
-      "zh": "這份加盟協議中訂有一項規定，「即」加盟主於合約終止後兩年內，不得於方圓十英里範圍內經營競爭事業。",
-      "why": "stipulation（明文規定條款）為抽象名詞，後方子句用以說明規定的具體內容時，須用同位語 <b>that</b> 子句。which 為關係代名詞，須在子句中擔任主詞或受詞，但此子句結構已完整；of which 同樣是關係代名詞用法，不符同位語功能；as to（關於）為介系詞片語，後須接名詞而非完整子句。"
+      "zh": "這套估值模型建立在一項前提之上，「即」預估現金流將以固定成長率永續成長——這項假設已遭多位分析師公開質疑。",
+      "why": "premise（前提、假設）為抽象名詞，後方子句用以說明前提的具體內容時，須用同位語 <b>that</b> 子句。which 為關係代名詞，須在子句中擔任主詞或受詞，但此子句結構已完整；of which 與 in which 同樣是關係代名詞用法，不符同位語功能。"
     },
     {
-      "id": "2026-08-09-p5-3",
+      "id": "2026-08-10-p5-3",
       "tag": "進階動詞語意辨別",
-      "pre": "The new whistleblower provisions are designed to ",
-      "post": " employees who report suspected fraud from being demoted, reassigned, or otherwise penalized by their employer.",
-      "opts": ["shield", "shelter", "screen", "shade"],
+      "pre": "The settlement agreement requires the defendant to ",
+      "post": " to a permanent injunction prohibiting any further use of the plaintiff's proprietary formula.",
+      "opts": ["consent", "concede", "condone", "confer"],
       "ans": 0,
-      "zh": "這項新的吹哨者保護條款旨在「保護」通報疑似詐欺行為的員工，使其免於遭雇主降職、調職或其他形式的懲處。",
-      "why": "<b>shield sb from sth</b>（保護某人免受某事之害）為正式法律用語，精準對應「條款保護通報者免於報復」的語境。shelter（庇護，多用於實體避難所或情感上的保護）搭配 from 時語域較偏日常；screen（篩選、遮蔽）指過濾或阻擋視線；shade（遮蔭）指遮擋陽光，三者皆與「法律保護免受職場報復」的語境不符。"
+      "zh": "和解協議要求被告「同意」接受一項永久禁制令，禁止其進一步使用原告的專屬配方。",
+      "why": "<b>consent to</b>（正式同意、應允）為法律文件中表達「當事人同意接受某項安排」的標準用語。concede（讓步承認某事屬實，通常搭配 that 子句而非 to）語意偏向承認事實而非同意接受安排；condone（縱容、默許不當行為）語意帶負面色彩，與此處中性的同意接受不符；confer（授予權力，或搭配 with 表商討）語意與此處不合。"
     },
     {
-      "id": "2026-08-09-p5-4",
-      "tag": "比較結構（to say nothing of，更遑論）",
-      "pre": "The proposed merger would face intense antitrust scrutiny in the United States, ",
-      "post": " the additional regulatory hurdles it would encounter in the European Union and United Kingdom.",
-      "opts": ["to say nothing of", "not to say", "needless to say", "that is to say"],
+      "id": "2026-08-10-p5-4",
+      "tag": "比較結構（all the more，反而更加）",
+      "pre": "Because the whistleblower risked her career to come forward, her testimony carried ",
+      "post": " weight with the jury than it might have otherwise.",
+      "opts": ["all the more", "the much more", "so much more", "all more"],
       "ans": 0,
-      "zh": "這樁擬議中的併購案將在美國面臨嚴格的反壟斷審查，「更遑論」它在歐盟與英國還須面對的額外監管障礙。",
-      "why": "<b>to say nothing of</b>（更不用說、更遑論）用於在列舉一項已然嚴峻的事實後，補充另一項同樣或更值得關注之事，強調「甚至還沒提到…」的遞進語氣。not to say（甚至可以說是）用於加強語氣但語意不同；needless to say（不用說也知道）通常獨立成句或置於句首；that is to say（也就是說）用於換句話說重述，三者語法或語意皆與此處「更遑論」的遞進結構不符。"
+      "zh": "正因為這位吹哨者甘冒斷送職涯的風險挺身而出，她的證詞在陪審團心中，「反而更具」份量，遠超過一般情況下可能有的效果。",
+      "why": "<b>all the more</b> + 名詞/形容詞 + than（反而更加…）為固定強調結構，常見於 because/since 引導的原因子句之後，表示該原因使某事物的程度「更進一步加強」。the much more 語序錯誤（much 不能置於 the 與 more 之間修飾此結構）；so much more 雖語意相近但通常不與 all 的強調語氣並用於此固定搭配；all more 缺少必要的 the，文法不完整。"
     }
   ],
   "p6": {
-    "id": "2026-08-09-p6",
-    "title": "MEMORANDUM: Updated Procedure for Requesting Reference Letters",
+    "id": "2026-08-10-p6",
+    "title": "MEMORANDUM: New Guidelines for Client Entertainment Expenses",
     "seg": [
       [
-        "To all current and former employees: Effective 1 October, all requests for employment reference letters ",
+        "To all client-facing staff: Effective 1 October, all client entertainment expenses exceeding two hundred dollars per attendee ",
         { "b": 0 },
-        " through the HR self-service portal rather than by directly contacting a former manager or colleague."
+        " pre-approval from a department director before the expense is incurred, not merely at the time of reimbursement submission."
       ],
       [
         { "b": 1 },
-        ", employees who left the company more than five years ago should contact the HR archive team directly, as records older than five years are not accessible through the standard portal."
+        ", expenses falling below that threshold may continue to be submitted for standard reimbursement without prior approval, subject to existing documentation requirements."
       ],
       [
-        "Requesters should allow at least five business days for processing, particularly if the reference letter must be ",
+        "Employees seeking pre-approval should submit a brief description of the business purpose, expected attendees, and estimated cost, allowing directors sufficient time to ",
         { "b": 2 },
-        " to a specific format required by a licensing board or government agency."
+        " the request before the scheduled event."
       ],
       [
         { "b": 3 },
-        " A sample reference letter template is available for download on the HR self-service portal."
+        " A pre-approval request form, along with examples of qualifying business purposes, is available on the finance intranet page."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["must be submitted", "must submit", "have submitted", "are submitting"],
+        "opts": ["will require", "requires", "has required", "are requiring"],
         "ans": 0,
-        "zh": "致所有現任與離職員工：自10月1日起，所有在職證明或推薦信的申請，「均須」透過人資自助入口網站提出，而非直接聯繫前主管或同事。",
-        "why": "主詞 all requests 是「被提交」的對象，須用被動語態；搭配規定的強制性，選 <b>must be submitted</b>。must submit 為主動語態，申請案不會自行提交；have submitted 與 are submitting 皆為主動語態且缺乏 must 所表達的強制語氣，與規定語境不符。"
+        "zh": "致所有與客戶接觸的同仁：自10月1日起，凡每位出席者超過兩百美元的客戶招待費用，「均須」在費用實際發生前，而非僅於核銷申請時，取得部門總監的事先核准。",
+        "why": "主詞 all client entertainment expenses 為主動要求核准的一方，須搭配未來生效時點「Effective 1 October」，選未來式 <b>will require</b>。requires 為現在式，與尚未生效的未來時點不符；has required 表已發生過的要求，與未來規定矛盾；are requiring 為現在進行式，同樣不符合公告未來生效的語境。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["As an exception", "In the same vein", "As previously stated", "To that end"],
+        "opts": ["By contrast", "As a consequence", "In the same vein", "To that end"],
         "ans": 0,
-        "zh": "「作為例外」，離職超過五年的員工應直接聯繫人資檔案團隊，因為五年以上的紀錄無法透過標準入口網站取得。",
-        "why": "前句規定一律透過入口網站申請，本句說明「作為例外」，離職五年以上者須另循管道，兩句構成原則與例外的關係，故選 <b>As an exception</b>（作為例外）。In the same vein（同樣地）表類比延續；As previously stated（如先前所述）表引用先前內容，但此為新規定的例外說明而非重述；To that end（以此為目的）表承接目的，皆與此處的例外邏輯不符。"
+        "zh": "「相對地」，低於此門檻的費用，仍可依現行文件規定，以標準核銷方式提交，無須事先核准。",
+        "why": "前句規定超過門檻的費用須事先核准，本句說明「相對地」低於門檻者則為例外，兩句構成明確對比，故選 <b>By contrast</b>（相對地）。As a consequence（因此）表因果；In the same vein（同樣地）表類比延續；To that end（以此為目的）表承接目的，皆與此處的對比邏輯不符。"
       },
       {
         "tag": "詞彙語意（動詞）",
         "col1": true,
-        "opts": ["tailored", "tolerated", "translated", "transmitted"],
+        "opts": ["evaluate", "eliminate", "elevate", "elicit"],
         "ans": 0,
-        "zh": "申請人應預留至少五個工作天供處理，特別是當推薦信須「量身訂做」以符合特定發照機構或政府單位所要求的格式時。",
-        "why": "<b>tailor sth to sth</b>（依需求量身訂做、客製化）精準對應「推薦信須依特定格式要求調整內容」的語境。tolerated（被容忍）、translated（被翻譯）、transmitted（被傳送）三者語意皆與「依特定格式客製化調整」的情境不符。"
+        "zh": "希望取得事先核准的員工，應提交簡要的業務目的說明、預期出席者與預估費用，讓總監有充分時間在活動舉行前「評估」該項申請。",
+        "why": "<b>evaluate</b>（評估、審核）修飾 the request，符合「總監審核核准申請」的語境。eliminate（消除、剔除）、elevate（提升、拉高層級）、elicit（引出、誘出反應）三者語意皆與「審核申請」的動作不符。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "A checklist of information typically required to complete a reference request, such as job title and dates of employment, is also provided on the portal.",
-          "The company's annual employee survey will open for responses in November.",
-          "Employees are reminded to complete their compliance training before the end of the quarter.",
-          "The HR department's office will be relocated to the fourth floor next month."
+          "Typical processing time for a pre-approval request is two to three business days.",
+          "The company's holiday office party will be held virtually again this year.",
+          "Employees are reminded to submit expense reports within thirty days of purchase.",
+          "The finance department's phone extension has changed as of this month."
         ],
         "ans": 0,
-        "zh": "「一份完成推薦信申請通常所需資訊的檢查清單（例如職稱與在職期間），也已提供於入口網站上。」一份推薦信範本，供各位下載參考。",
-        "why": "段落主題為「推薦信申請新流程」，此句提供申請所需資訊的檢查清單，與後句「範本供下載參考」共同構成完整的自助申請資源說明。其餘選項（年度員工調查、法遵訓練提醒、人資部門搬遷）皆與推薦信申請流程無關，插入後語意斷裂。"
+        "zh": "「事先核准申請的一般處理時間為兩到三個工作天。」一份事先核准申請表，連同符合資格之業務目的範例，皆可於財務部門內部網路頁面取得。",
+        "why": "段落主題為「客戶招待費用事先核准新規定」，此句補充申請的一般處理時間，讓員工能合理安排申請時程，與後句「申請表已提供於內部網路」共同構成完整的操作指引。其餘選項（假日派對、費用核銷提醒、電話分機變更）皆與客戶招待費用核准規定無關，插入後語意斷裂。"
       }
     ]
   }
