@@ -1,17 +1,31 @@
 {
-  "date": "2026-08-08",
-  "big_events": [],
+  "date": "2026-08-09",
+  "big_events": [
+    {
+      "title": "OpenAI旗下AI瀏覽器Atlas今日(8/9)正式關閉,瀏覽器代理功能併入ChatGPT與Codex",
+      "sources": [
+        {"name": "OpenAI Help Center", "url": "https://help.openai.com/en/articles/20001371-evolving-atlas-into-chatgpt-for-browser-based-agentic-work"},
+        {"name": "Tech Edition", "url": "https://www.techedt.com/chatgpt-atlas-to-shut-down-on-9-august-as-openai-moves-browser-features-into-chatgpt"}
+      ],
+      "summary": "OpenAI於2025年10月21日推出的macOS優先AI瀏覽器「ChatGPT Atlas」,主打『直接和瀏覽器對話』的代理式瀏覽體驗,在上線不到10個月後於2026年8月9日正式停止運作。OpenAI表示要將原本Atlas的瀏覽器代理能力,整合進ChatGPT桌面版App、Chrome擴充功能與Codex之中,不再另外維護獨立瀏覽器產品。官方在關閉前提供約30天的搬遷期,提醒用戶書籤、瀏覽紀錄、已儲存密碼與Cookie都不會自動轉移,需自行將書籤匯出成HTML檔案、把密碼與Cookie匯出至ChatGPT桌面版或Chrome;不過ChatGPT對話紀錄與Atlas是分開儲存,不受影響會持續保留。",
+      "audience": "職場上班族中曾用ChatGPT Atlas瀏覽器處理網頁研究、線上代辦事項、跨頁面資料蒐集的人,以及正評估是否採用AI瀏覽器工具的辦公室工作者",
+      "pain_point": "花時間建立的書籤、瀏覽紀錄、登入資訊隨產品關閉可能一夕消失,若沒在期限前備份與搬遷,等於要重新建立一套工作流程;也凸顯追逐熱門AI新工具的風險——上線不到一年就可能收掉",
+      "title_idea": "才用不到10個月就收掉!OpenAI Atlas瀏覽器8/9熄燈,上班族的資料搬家清單",
+      "local_angle": "可製作「AI瀏覽器工具關閉應變指南」,列出Atlas用戶現在就該做的資料備份步驟(書籤匯出HTML、密碼/Cookie匯出到ChatGPT桌面版),並提醒台灣讀者評估其他AI瀏覽器工具(如Perplexity Comet)時,把廠商產品週期不穩定的風險一併納入考量"
+    }
+  ],
   "tool_updates": [
     {
-      "title": "Claude Code週六連兩版更新:新增閘道用量上限提醒、跨機器對話可直接『點名』啟動",
+      "title": "Anthropic宣布Claude Code『自動模式』8/14起成Pro/Max/Team預設,外媒8/9持續追蹤安全爭議",
       "sources": [
-        {"name": "Anthropic Claude Code Changelog", "url": "https://code.claude.com/docs/en/changelog"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/"},
+        {"name": "Claude by Anthropic 官方部落格", "url": "https://claude.com/blog/auto-mode-default-in-claude-code"}
       ],
-      "summary": "Anthropic於8/8釋出Claude Code v2.1.225與v2.1.226兩個版本更新。v2.1.225新增『閘道用量上限(gateway spend-limit)』提醒功能,當團隊用量觸及管理員設定的上限時,系統會直接告知上限金額、重置時間與管理員留言;針對未授信目錄新增『工作區信任提示』,行為與一般claude指令一致;Remote Control(遠端遙控)功能也升級,從Claude App傳來的照片可直接讓Claude『看到』,不用再另外呼叫工具讀取檔案,且可透過SendMessage直接以名稱『點名』啟動與其他機器上工作階段的對話,而非只能被動回覆。同時修復了多項錯誤,包括長時間使用後OAuth權杖過期導致headless工作階段中斷、macOS上MCP OAuth因鑰匙圈讀取逾時而出現一連串401錯誤、自動模式誤將安全過濾器拒絕計入連續中斷次數等問題。緊接著推出的v2.1.226則以錯誤修復與穩定性改善為主。",
-      "audience": "職場上班族中使用Claude Code處理程式開發、跨機器自動化流程或帶領研發團隊的人,尤其是企業IT與RD主管",
-      "pain_point": "團隊共用Claude Code閘道時常常搞不清楚額度用到哪、誰超標,也擔心遠端工作階段接不上話、要一直等對方先傳訊息才能互動,浪費排查問題的時間",
-      "title_idea": "Claude Code週六悄悄更新兩個版本:用量上限終於有提醒,遠端工作階段可以『主動點名』",
-      "local_angle": "可整理『Claude Code團隊版用量控管實用技巧』,說明閘道用量提醒與跨機器SendMessage點名功能,如何協助台灣中小型研發團隊避免額度爆表、加快跨裝置協作除錯的速度"
+      "summary": "Anthropic已於8月7日在官方部落格宣布,自8月14日起,Claude Code在Pro、Max、Team方案上的新對話將預設開啟「自動模式(Auto Mode)」:不再對每個指令逐一跳出人工核准提示,而是讓所有動作先經過分類器篩選,只有被判定為『不可逆、破壞性、或指向工作環境外』的操作才會被攔下或轉為徵求許可,Enterprise方案則仍需自行選擇開啟。支持此決策的研究數據顯示,在1053位付費用戶的對照測試中,人工使用者僅能攔截13.6%被刻意植入的危險指令,自動模式的分類器卻能攔下89%。這則消息8月9日持續被TechCrunch、Cryptonomist等外媒報導與討論,也引發開發者社群對『AI自主執行範圍該收緊還是放寬』的辯論。",
+      "audience": "使用Claude Code處理程式開發、自動化流程的職場上班族,尤其是研發團隊主管與需評估AI代理權限風險的IT管理者",
+      "pain_point": "過去逐一核准指令雖然安全感較高但拖慢開發節奏,如今預設開啟自動模式雖提升效率,團隊管理者卻要重新盤點『哪些操作真的要人盯』,一旦權限範圍沒設定好,恐有非預期的破壞性操作發生",
+      "title_idea": "Claude Code不再『每步都要問』:8/14起自動模式成預設,你的團隊準備好了嗎",
+      "local_angle": "可製作「Claude Code自動模式安全設定指南」,教台灣中小型研發團隊在8/14生效前,先盤點哪些專案目錄或操作需額外設定核准關卡,避免自動模式上線後出現非預期的檔案異動或外部操作"
     }
   ],
   "trends": []
