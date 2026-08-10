@@ -1,118 +1,118 @@
 {
-  "date": "2026-08-10",
+  "date": "2026-08-11",
   "p5": [
     {
-      "id": "2026-08-10-p5-0",
-      "tag": "假設語氣（過去，主句用 could have）",
-      "pre": "",
-      "post": " the parties incorporated a severability clause, the entire agreement could have been rendered void by the single unenforceable provision.",
-      "opts": ["Had", "Unless", "If not", "Would"],
+      "id": "2026-08-11-p5-0",
+      "tag": "倒裝句（Not only...but also）",
+      "pre": "Not only ",
+      "post": " the merger fail to generate the projected synergies, but it also triggered a costly wave of litigation from minority shareholders.",
+      "opts": ["did", "had", "has", "was"],
       "ans": 0,
-      "zh": "倘若雙方當初納入可分割性條款，這份協議原本可能因單一無法強制執行的條款，而導致整份協議無效。",
-      "why": "此為省略 if 的假設語氣倒裝，過去完成式主動須將 <b>Had</b> 提前至句首（= If the parties had incorporated），與主句 could have been rendered 呼應與過去事實相反的假設。Unless（除非）語意變成「除非雙方納入條款，整份協議才會失效」，邏輯與原句相反；If not 語意不完整，缺少對應的動詞片語；Would 為情態助動詞，無法單獨引導條件子句。"
+      "zh": "這場併購「不僅」未能產生預期的綜效，「而且」還引發了一波代價高昂的少數股東訴訟。",
+      "why": "Not only 置於句首表強調時，主要子句須倒裝，且依主句時態（過去式 triggered）判斷，前段動詞 fail 須以助動詞 <b>did</b> 倒裝（did...fail），構成 Not only did...but also 的對等結構。had 需搭配過去完成式的過去分詞，但此處是原形動詞 fail，時態不符；has 為現在完成式助動詞，與過去式主句不一致；was 為 be 動詞，無法搭配原形動詞 fail。"
     },
     {
-      "id": "2026-08-10-p5-1",
-      "tag": "分詞構句（讓步，被動）",
-      "pre": "",
-      "post": " with detailed instructions on proper disposal, the hazardous material was nonetheless dumped in a storm drain by an untrained subcontractor.",
-      "opts": ["Labeled", "Labeling", "Having labeled", "To be labeled"],
+      "id": "2026-08-11-p5-1",
+      "tag": "假設語氣（動詞衍生子句 stipulate that）",
+      "pre": "The arbitration clause stipulates that any dispute ",
+      "post": " resolved through binding arbitration rather than litigation.",
+      "opts": ["be", "is", "will be", "being"],
       "ans": 0,
-      "zh": "儘管已清楚標示妥善的處置說明，這批危險物質仍被未受訓的分包商倒入雨水下水道。",
-      "why": "此分詞構句的邏輯主詞為 the hazardous material（危險物質是被標示的對象），須用被動過去分詞 <b>Labeled</b> 表讓步。Labeling 為主動現在分詞，語態不符（物質不會主動標示自己）；Having labeled 為完成式主動，語態同樣不合；To be labeled 為被動不定詞，表未來或目的而非已完成的讓步狀態，語意不符。"
+      "zh": "仲裁條款規定，任何爭議「均應」透過具拘束力的仲裁解決，而非訴諸訴訟。",
+      "why": "stipulate that（規定、明訂）屬於要求／規定類動詞，其後的 that 子句須用「假設語氣」（原形動詞），不受主詞單複數或時態影響，故被動語態原形為 <b>be</b> resolved。is 為現在式直述語氣，不符合假設語氣規則；will be 為未來式，同樣不符；being 為動名詞形式，無法作為子句的主要動詞。"
     },
     {
-      "id": "2026-08-10-p5-2",
-      "tag": "同位語子句（premise 後接 that）",
-      "pre": "The valuation model rests on the premise ",
-      "post": " projected cash flows will grow at a constant rate in perpetuity, an assumption several analysts have publicly challenged.",
-      "opts": ["that", "which", "of which", "in which"],
+      "id": "2026-08-11-p5-2",
+      "tag": "分裂句（It was not until...that）",
+      "pre": "It was not until the auditors cross-referenced the subsidiary's ledgers ",
+      "post": " discrepancies of nearly two million dollars came to light.",
+      "opts": ["that", "when", "which", "then"],
       "ans": 0,
-      "zh": "這套估值模型建立在一項前提之上，「即」預估現金流將以固定成長率永續成長——這項假設已遭多位分析師公開質疑。",
-      "why": "premise（前提、假設）為抽象名詞，後方子句用以說明前提的具體內容時，須用同位語 <b>that</b> 子句。which 為關係代名詞，須在子句中擔任主詞或受詞，但此子句結構已完整；of which 與 in which 同樣是關係代名詞用法，不符同位語功能。"
+      "zh": "「直到」查帳人員交叉比對子公司的帳冊之後，「才」發現近兩百萬美元的差額。",
+      "why": "It was not until + 時間／事件子句 + <b>that</b> + 主要子句，為強調「直到某事發生才…」的固定分裂句（cleft sentence）結構，that 後面接完整的主要子句。when 和 which 為關係詞，無法承接此處已完整的獨立子句；then 為副詞，不能連接兩個子句。"
     },
     {
-      "id": "2026-08-10-p5-3",
-      "tag": "進階動詞語意辨別",
-      "pre": "The settlement agreement requires the defendant to ",
-      "post": " to a permanent injunction prohibiting any further use of the plaintiff's proprietary formula.",
-      "opts": ["consent", "concede", "condone", "confer"],
+      "id": "2026-08-11-p5-3",
+      "tag": "進階動詞語意辨別（近義詞區辨）",
+      "pre": "By failing to file the objection within the statutory period, the company effectively ",
+      "post": " its right to contest the arbitration award.",
+      "opts": ["forfeited", "forwent", "waived", "relinquished"],
       "ans": 0,
-      "zh": "和解協議要求被告「同意」接受一項永久禁制令，禁止其進一步使用原告的專屬配方。",
-      "why": "<b>consent to</b>（正式同意、應允）為法律文件中表達「當事人同意接受某項安排」的標準用語。concede（讓步承認某事屬實，通常搭配 that 子句而非 to）語意偏向承認事實而非同意接受安排；condone（縱容、默許不當行為）語意帶負面色彩，與此處中性的同意接受不符；confer（授予權力，或搭配 with 表商討）語意與此處不合。"
+      "zh": "由於未能在法定期限內提出異議，該公司「等同自動喪失」了對仲裁裁決提出異議的權利。",
+      "why": "<b>forfeit</b>（因未履行義務或違反規定而「自動喪失」權利）精準對應「因未在期限內行動」而導致權利喪失的因果邏輯。waive 與 relinquish 皆指「主動、自願放棄」，語意上暗示了刻意的選擇，與「因疏失而喪失」的被動語境矛盾；forgo（forwent 為其過去式）指「主動選擇不去做／不擁有某事」，同樣帶有主動性，不符合此處因疏忽而自動喪失權利的語境。"
     },
     {
-      "id": "2026-08-10-p5-4",
-      "tag": "比較結構（all the more，反而更加）",
-      "pre": "Because the whistleblower risked her career to come forward, her testimony carried ",
-      "post": " weight with the jury than it might have otherwise.",
-      "opts": ["all the more", "the much more", "so much more", "all more"],
+      "id": "2026-08-11-p5-4",
+      "tag": "倒裝句（No sooner...than，過去完成式）",
+      "pre": "No sooner ",
+      "post": " the CEO announced the layoffs than the company's stock price plunged nearly twelve percent in after-hours trading.",
+      "opts": ["had", "did", "has", "was"],
       "ans": 0,
-      "zh": "正因為這位吹哨者甘冒斷送職涯的風險挺身而出，她的證詞在陪審團心中，「反而更具」份量，遠超過一般情況下可能有的效果。",
-      "why": "<b>all the more</b> + 名詞/形容詞 + than（反而更加…）為固定強調結構，常見於 because/since 引導的原因子句之後，表示該原因使某事物的程度「更進一步加強」。the much more 語序錯誤（much 不能置於 the 與 more 之間修飾此結構）；so much more 雖語意相近但通常不與 all 的強調語氣並用於此固定搭配；all more 缺少必要的 the，文法不完整。"
+      "zh": "執行長才剛宣布裁員消息，公司股價「隨即」在盤後交易重挫近百分之十二。",
+      "why": "No sooner had + 主詞 + 過去分詞 + than + 過去式子句，為表示「一…就…」的固定倒裝句型，前段須用過去完成式，故選 <b>had</b>（had announced 的倒裝形式）。did 為過去式助動詞，通常搭配 hardly/scarcely...when 而非 no sooner...than 的完成式規則；has 為現在完成式，時態層次與主句的過去式不呼應；was 為 be 動詞，無法搭配過去分詞 announced 構成主動語態。"
     }
   ],
   "p6": {
-    "id": "2026-08-10-p6",
-    "title": "MEMORANDUM: New Guidelines for Client Entertainment Expenses",
+    "id": "2026-08-11-p6",
+    "title": "NOTICE: Revisions to the Company's Data Retention Policy",
     "seg": [
       [
-        "To all client-facing staff: Effective 1 October, all client entertainment expenses exceeding two hundred dollars per attendee ",
+        "To all department heads: In compliance with recent amendments to data protection regulations, the retention period for archived client records ",
         { "b": 0 },
-        " pre-approval from a department director before the expense is incurred, not merely at the time of reimbursement submission."
+        " from seven years to ten years, effective the first of next month."
       ],
       [
         { "b": 1 },
-        ", expenses falling below that threshold may continue to be submitted for standard reimbursement without prior approval, subject to existing documentation requirements."
+        ", records that have already exceeded the newly extended retention window will be scheduled for secure destruction according to the existing disposal protocol."
       ],
       [
-        "Employees seeking pre-approval should submit a brief description of the business purpose, expected attendees, and estimated cost, allowing directors sufficient time to ",
+        "Department heads are asked to ",
         { "b": 2 },
-        " the request before the scheduled event."
+        " their teams of this change and to confirm that all archived files are correctly labeled with their original creation date before the new schedule takes effect."
       ],
       [
         { "b": 3 },
-        " A pre-approval request form, along with examples of qualifying business purposes, is available on the finance intranet page."
+        " A dedicated FAQ document addressing common questions about the revised policy has been posted to the compliance intranet page."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["will require", "requires", "has required", "are requiring"],
+        "opts": ["will be extended", "extends", "has extended", "is extending"],
         "ans": 0,
-        "zh": "致所有與客戶接觸的同仁：自10月1日起，凡每位出席者超過兩百美元的客戶招待費用，「均須」在費用實際發生前，而非僅於核銷申請時，取得部門總監的事先核准。",
-        "why": "主詞 all client entertainment expenses 為主動要求核准的一方，須搭配未來生效時點「Effective 1 October」，選未來式 <b>will require</b>。requires 為現在式，與尚未生效的未來時點不符；has required 表已發生過的要求，與未來規定矛盾；are requiring 為現在進行式，同樣不符合公告未來生效的語境。"
+        "zh": "致所有部門主管：為配合近期資料保護法規的修訂，客戶歸檔資料的保存期限「將」自七年延長至十年，自下個月一日起生效。",
+        "why": "資料保存期限是被延長的對象，且句尾明訂未來生效時點「effective the first of next month」，故須用未來式被動 <b>will be extended</b>。extends 為現在式主動，主客關係與時態皆不符；has extended 為現在完成式主動，暗示已完成而非未來生效；is extending 為現在進行式主動，同樣不符合被動及未來時態的要求。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["By contrast", "As a consequence", "In the same vein", "To that end"],
+        "opts": ["Nonetheless", "In addition", "For example", "As a result"],
         "ans": 0,
-        "zh": "「相對地」，低於此門檻的費用，仍可依現行文件規定，以標準核銷方式提交，無須事先核准。",
-        "why": "前句規定超過門檻的費用須事先核准，本句說明「相對地」低於門檻者則為例外，兩句構成明確對比，故選 <b>By contrast</b>（相對地）。As a consequence（因此）表因果；In the same vein（同樣地）表類比延續；To that end（以此為目的）表承接目的，皆與此處的對比邏輯不符。"
+        "zh": "「儘管如此」，凡已超過此次延長後新保存期限的資料，仍將依現行銷毀流程排定進行安全銷毀。",
+        "why": "前句宣布保存期限「延長」，本句卻說明已超過（就算延長後）期限的舊資料仍要銷毀，兩句語意形成讓步／對比關係，故選 <b>Nonetheless</b>（儘管如此）。In addition（此外）表補充而非對比；For example（例如）表舉例；As a result（因此）表因果，皆與此處「延長政策之下仍有例外」的讓步邏輯不符。"
       },
       {
-        "tag": "詞彙語意（動詞）",
+        "tag": "詞彙語意（易混淆字）",
         "col1": true,
-        "opts": ["evaluate", "eliminate", "elevate", "elicit"],
+        "opts": ["apprise", "appraise", "apprehend", "appropriate"],
         "ans": 0,
-        "zh": "希望取得事先核准的員工，應提交簡要的業務目的說明、預期出席者與預估費用，讓總監有充分時間在活動舉行前「評估」該項申請。",
-        "why": "<b>evaluate</b>（評估、審核）修飾 the request，符合「總監審核核准申請」的語境。eliminate（消除、剔除）、elevate（提升、拉高層級）、elicit（引出、誘出反應）三者語意皆與「審核申請」的動作不符。"
+        "zh": "各部門主管須「告知」所屬團隊此項變更，並在新時程生效前確認所有歸檔檔案皆正確標示原始建檔日期。",
+        "why": "<b>apprise...of</b>（告知、通知某人某事）為固定搭配，符合「主管告知團隊此變更」的語境。appraise（評估、鑑價）拼寫相近但語意完全不同，是常見混淆詞；apprehend（逮捕，或理解）語意不符；appropriate（作動詞時指「挪用、佔用」）與此處語境無關。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Typical processing time for a pre-approval request is two to three business days.",
-          "The company's holiday office party will be held virtually again this year.",
-          "Employees are reminded to submit expense reports within thirty days of purchase.",
-          "The finance department's phone extension has changed as of this month."
+          "Questions regarding specific record categories should be directed to the Compliance Office.",
+          "The company picnic has been rescheduled to accommodate the weather forecast.",
+          "All employees must complete the annual ethics training by the end of the quarter.",
+          "The parking garage will be closed for maintenance next Tuesday."
         ],
         "ans": 0,
-        "zh": "「事先核准申請的一般處理時間為兩到三個工作天。」一份事先核准申請表，連同符合資格之業務目的範例，皆可於財務部門內部網路頁面取得。",
-        "why": "段落主題為「客戶招待費用事先核准新規定」，此句補充申請的一般處理時間，讓員工能合理安排申請時程，與後句「申請表已提供於內部網路」共同構成完整的操作指引。其餘選項（假日派對、費用核銷提醒、電話分機變更）皆與客戶招待費用核准規定無關，插入後語意斷裂。"
-      }
+        "zh": "「有關特定資料類別的問題，應洽詢法遵辦公室。」一份針對此次政策修訂常見問題的專屬 FAQ 文件，已張貼於法遵內部網路頁面。",
+        "why": "段落主題為「資料保存政策修訂通知」，此句承接前文的政策說明，引導讀者若有疑問應洽詢法遵辦公室，並與後句「FAQ 文件已上線」共同構成完整的後續指引。其餘選項（公司野餐、倫理訓練、停車場維修）皆與資料保存政策修訂無關，插入後語意斷裂。"
+        }
     ]
   }
 }
