@@ -1,118 +1,118 @@
 {
-  "date": "2026-08-11",
+  "date": "2026-08-12",
   "p5": [
     {
-      "id": "2026-08-11-p5-0",
-      "tag": "倒裝句（Not only...but also）",
-      "pre": "Not only ",
-      "post": " the merger fail to generate the projected synergies, but it also triggered a costly wave of litigation from minority shareholders.",
-      "opts": ["did", "had", "has", "was"],
+      "id": "2026-08-12-p5-0",
+      "tag": "非限定關係子句（whose + 名詞）",
+      "pre": "The compliance committee, ",
+      "post": " recommendation the board ultimately followed, had warned against the acquisition for months.",
+      "opts": ["whose", "which", "that", "who"],
       "ans": 0,
-      "zh": "這場併購「不僅」未能產生預期的綜效，「而且」還引發了一波代價高昂的少數股東訴訟。",
-      "why": "Not only 置於句首表強調時，主要子句須倒裝，且依主句時態（過去式 triggered）判斷，前段動詞 fail 須以助動詞 <b>did</b> 倒裝（did...fail），構成 Not only did...but also 的對等結構。had 需搭配過去完成式的過去分詞，但此處是原形動詞 fail，時態不符；has 為現在完成式助動詞，與過去式主句不一致；was 為 be 動詞，無法搭配原形動詞 fail。"
+      "zh": "法遵委員會（董事會最終採納了「其」建議）數月前便已對這起併購案提出警告。",
+      "why": "此為非限定關係子句，先行詞 committee 與後方名詞 recommendation 之間為所有格關係（該委員會的建議），須用所有格關係代名詞 <b>whose</b>。which 與 that 為一般關係代名詞，無法直接連接後方名詞表所有關係；who 雖可指人／組織，但同樣不具所有格功能，且非限定子句不可用 that。"
     },
     {
-      "id": "2026-08-11-p5-1",
-      "tag": "假設語氣（動詞衍生子句 stipulate that）",
-      "pre": "The arbitration clause stipulates that any dispute ",
-      "post": " resolved through binding arbitration rather than litigation.",
-      "opts": ["be", "is", "will be", "being"],
+      "id": "2026-08-12-p5-1",
+      "tag": "讓步介系詞（Notwithstanding）",
+      "pre": "",
+      "post": " the substantial cost overruns, the contractor completed the bridge nearly two months ahead of the revised schedule.",
+      "opts": ["Notwithstanding", "Despite of", "Although", "Even so"],
       "ans": 0,
-      "zh": "仲裁條款規定，任何爭議「均應」透過具拘束力的仲裁解決，而非訴諸訴訟。",
-      "why": "stipulate that（規定、明訂）屬於要求／規定類動詞，其後的 that 子句須用「假設語氣」（原形動詞），不受主詞單複數或時態影響，故被動語態原形為 <b>be</b> resolved。is 為現在式直述語氣，不符合假設語氣規則；will be 為未來式，同樣不符；being 為動名詞形式，無法作為子句的主要動詞。"
+      "zh": "「儘管」出現了大幅超支的情況，承包商仍提前近兩個月完成了這座橋樑，早於修訂後的時程。",
+      "why": "<b>Notwithstanding</b> 為正式讓步介系詞，可直接接名詞片語（如 the substantial cost overruns）表「儘管…」。Despite of 為常見錯誤用法，despite 本身已是介系詞，不可再加 of；Although 為連接詞，須接完整子句而非單純名詞片語；Even so 為轉承副詞，通常獨立成句或置於句首搭配逗號，無法直接接名詞片語作為句子開頭的讓步結構。"
     },
     {
-      "id": "2026-08-11-p5-2",
-      "tag": "分裂句（It was not until...that）",
-      "pre": "It was not until the auditors cross-referenced the subsidiary's ledgers ",
-      "post": " discrepancies of nearly two million dollars came to light.",
-      "opts": ["that", "when", "which", "then"],
+      "id": "2026-08-12-p5-2",
+      "tag": "倒裝句（Only after...主詞助動詞倒裝）",
+      "pre": "Only after the shareholders had reviewed the revised terms ",
+      "post": " willing to ratify the merger agreement.",
+      "opts": ["were they", "they were", "did they", "had they"],
       "ans": 0,
-      "zh": "「直到」查帳人員交叉比對子公司的帳冊之後，「才」發現近兩百萬美元的差額。",
-      "why": "It was not until + 時間／事件子句 + <b>that</b> + 主要子句，為強調「直到某事發生才…」的固定分裂句（cleft sentence）結構，that 後面接完整的主要子句。when 和 which 為關係詞，無法承接此處已完整的獨立子句；then 為副詞，不能連接兩個子句。"
+      "zh": "「直到」股東們審閱過修訂後的條款「之後」，他們才願意批准這項合併協議。",
+      "why": "Only after 等否定／限制意味的副詞片語置於句首時，主要子句須倒裝。此處主要動詞為 be 動詞片語 were willing，故倒裝為 <b>were they</b> willing。they were 為未倒裝的正常語序，不符 Only 開頭句首倒裝規則；did they 用於一般動詞的倒裝（如 did they agree），但此處是 be 動詞 willing，不能用 did 取代；had they 為過去完成式倒裝，但主要子句應為簡單過去式 be 動詞，時態不符。"
     },
     {
-      "id": "2026-08-11-p5-3",
-      "tag": "進階動詞語意辨別（近義詞區辨）",
-      "pre": "By failing to file the objection within the statutory period, the company effectively ",
-      "post": " its right to contest the arbitration award.",
-      "opts": ["forfeited", "forwent", "waived", "relinquished"],
+      "id": "2026-08-12-p5-3",
+      "tag": "進階詞彙（tantamount to，固定搭配）",
+      "pre": "Failing to disclose the material conflict of interest was ",
+      "post": " to a breach of fiduciary duty, according to the tribunal's ruling.",
+      "opts": ["tantamount", "equivalent", "comparable", "analogous"],
       "ans": 0,
-      "zh": "由於未能在法定期限內提出異議，該公司「等同自動喪失」了對仲裁裁決提出異議的權利。",
-      "why": "<b>forfeit</b>（因未履行義務或違反規定而「自動喪失」權利）精準對應「因未在期限內行動」而導致權利喪失的因果邏輯。waive 與 relinquish 皆指「主動、自願放棄」，語意上暗示了刻意的選擇，與「因疏失而喪失」的被動語境矛盾；forgo（forwent 為其過去式）指「主動選擇不去做／不擁有某事」，同樣帶有主動性，不符合此處因疏忽而自動喪失權利的語境。"
+      "zh": "根據仲裁庭的裁決，未揭露此一重大利益衝突，「等同於」違反了受託人義務。",
+      "why": "<b>tantamount to</b> 為法律與正式文件中常見的固定片語，意指「等同於（通常是負面、嚴重的事）」，精準對應此處「未揭露利益衝突＝違反受託義務」的嚴重性判定語境。equivalent to 語意中性，通常用於數量或程度上的對等比較，較少用於此類嚴重性判定的正式裁決語境；comparable to 僅表「可相比擬」，語氣遠不及「等同於違法」的斷定；analogous to 表結構或性質上的類比，並非「等同」的直接判定。"
     },
     {
-      "id": "2026-08-11-p5-4",
-      "tag": "倒裝句（No sooner...than，過去完成式）",
-      "pre": "No sooner ",
-      "post": " the CEO announced the layoffs than the company's stock price plunged nearly twelve percent in after-hours trading.",
-      "opts": ["had", "did", "has", "was"],
+      "id": "2026-08-12-p5-4",
+      "tag": "比較結構（no less...than）",
+      "pre": "The startup's valuation, driven largely by speculative enthusiasm, proved ",
+      "post": " volatile than the broader technology sector during the correction.",
+      "opts": ["no less", "no more", "not less", "less no"],
       "ans": 0,
-      "zh": "執行長才剛宣布裁員消息，公司股價「隨即」在盤後交易重挫近百分之十二。",
-      "why": "No sooner had + 主詞 + 過去分詞 + than + 過去式子句，為表示「一…就…」的固定倒裝句型，前段須用過去完成式，故選 <b>had</b>（had announced 的倒裝形式）。did 為過去式助動詞，通常搭配 hardly/scarcely...when 而非 no sooner...than 的完成式規則；has 為現在完成式，時態層次與主句的過去式不呼應；was 為 be 動詞，無法搭配過去分詞 announced 構成主動語態。"
+      "zh": "這家新創公司的估值，主要受投機性熱潮所驅動，在此次修正期間，其波動程度「絲毫不亞於」整體科技產業。",
+      "why": "<b>no less...than</b> 為固定比較結構，表示「絲毫不亞於、至少同樣程度」，符合此處強調新創估值波動與整體科技產業「同樣劇烈甚至更劇烈」的語意。no more...than 語意相反，表「並不比…更…」，暗示兩者程度相近但偏低；not less 不符合此固定搭配的慣用語序（英語慣用 no less 而非 not less）；less no 語序錯誤，不成立。"
     }
   ],
   "p6": {
-    "id": "2026-08-11-p6",
-    "title": "NOTICE: Revisions to the Company's Data Retention Policy",
+    "id": "2026-08-12-p6",
+    "title": "MEMORANDUM: Update to the Whistleblower Reporting Procedure",
     "seg": [
       [
-        "To all department heads: In compliance with recent amendments to data protection regulations, the retention period for archived client records ",
+        "To all employees: Beginning next quarter, reports submitted through the anonymous ethics hotline ",
         { "b": 0 },
-        " from seven years to ten years, effective the first of next month."
+        " by an independent third-party firm rather than by the internal compliance department, in order to eliminate any perception of conflict of interest."
       ],
       [
         { "b": 1 },
-        ", records that have already exceeded the newly extended retention window will be scheduled for secure destruction according to the existing disposal protocol."
+        ", employees who wish to report a concern directly to a supervisor may continue to do so through the existing chain-of-command process."
       ],
       [
-        "Department heads are asked to ",
+        "Employees are strongly encouraged to ",
         { "b": 2 },
-        " their teams of this change and to confirm that all archived files are correctly labeled with their original creation date before the new schedule takes effect."
+        " any suspected violation of company policy or applicable law, regardless of the individual involved."
       ],
       [
         { "b": 3 },
-        " A dedicated FAQ document addressing common questions about the revised policy has been posted to the compliance intranet page."
+        " Retaliation against any employee who makes a good-faith report is strictly prohibited and will result in disciplinary action, up to and including termination."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["will be extended", "extends", "has extended", "is extending"],
+        "opts": ["will be reviewed", "review", "have reviewed", "are reviewing"],
         "ans": 0,
-        "zh": "致所有部門主管：為配合近期資料保護法規的修訂，客戶歸檔資料的保存期限「將」自七年延長至十年，自下個月一日起生效。",
-        "why": "資料保存期限是被延長的對象，且句尾明訂未來生效時點「effective the first of next month」，故須用未來式被動 <b>will be extended</b>。extends 為現在式主動，主客關係與時態皆不符；has extended 為現在完成式主動，暗示已完成而非未來生效；is extending 為現在進行式主動，同樣不符合被動及未來時態的要求。"
+        "zh": "致全體員工：自下一季度起，透過匿名倫理申訴專線提交的報告，「將改由」獨立的第三方機構審查，而非由內部法遵部門處理，以杜絕任何利益衝突之嫌。",
+        "why": "報告是被審查的對象，且句首明訂未來生效時點「Beginning next quarter」，須用未來式被動 <b>will be reviewed</b>。review 為原形動詞，缺少助動詞且非被動，不符文法；have reviewed 為現在完成式主動，與尚未開始的未來時點矛盾；are reviewing 為現在進行式主動，同樣不符合被動與未來時態的要求。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["Nonetheless", "In addition", "For example", "As a result"],
+        "opts": ["Alternatively", "Consequently", "Likewise", "Therefore"],
         "ans": 0,
-        "zh": "「儘管如此」，凡已超過此次延長後新保存期限的資料，仍將依現行銷毀流程排定進行安全銷毀。",
-        "why": "前句宣布保存期限「延長」，本句卻說明已超過（就算延長後）期限的舊資料仍要銷毀，兩句語意形成讓步／對比關係，故選 <b>Nonetheless</b>（儘管如此）。In addition（此外）表補充而非對比；For example（例如）表舉例；As a result（因此）表因果，皆與此處「延長政策之下仍有例外」的讓步邏輯不符。"
+        "zh": "「另一方面」，希望直接向主管反映疑慮的員工，仍可透過現行的指揮體系提出報告。",
+        "why": "前句說明匿名申訴專線改由第三方審查，本句提供「另一個」選項——直接向主管報告，兩句構成並列的替代方案關係，故選 <b>Alternatively</b>（另一方面、或者）。Consequently（因此）與 Therefore（所以）皆表因果關係，不符；Likewise（同樣地）表類比延續而非提供替代選項，語意不符。"
       },
       {
         "tag": "詞彙語意（易混淆字）",
         "col1": true,
-        "opts": ["apprise", "appraise", "apprehend", "appropriate"],
+        "opts": ["disclose", "discern", "dismiss", "disparage"],
         "ans": 0,
-        "zh": "各部門主管須「告知」所屬團隊此項變更，並在新時程生效前確認所有歸檔檔案皆正確標示原始建檔日期。",
-        "why": "<b>apprise...of</b>（告知、通知某人某事）為固定搭配，符合「主管告知團隊此變更」的語境。appraise（評估、鑑價）拼寫相近但語意完全不同，是常見混淆詞；apprehend（逮捕，或理解）語意不符；appropriate（作動詞時指「挪用、佔用」）與此處語境無關。"
+        "zh": "無論涉及對象為何，皆強烈鼓勵員工「揭露」任何疑似違反公司政策或相關法律的行為。",
+        "why": "<b>disclose</b>（揭露、通報）精準對應「員工應主動通報可疑違規行為」的語境。discern（辨別、察覺）著重於「發現」而非「通報」的動作；dismiss（駁回、解僱）與此處鼓勵通報的語意相反；disparage（詆毀、貶低）語意與通報違規行為完全無關。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Questions regarding specific record categories should be directed to the Compliance Office.",
-          "The company picnic has been rescheduled to accommodate the weather forecast.",
-          "All employees must complete the annual ethics training by the end of the quarter.",
-          "The parking garage will be closed for maintenance next Tuesday."
+          "The revised procedure reflects the company's ongoing commitment to a transparent and accountable workplace.",
+          "The office holiday schedule for December has been finalized and posted to the intranet.",
+          "All employees must renew their parking permits by the end of this month.",
+          "The quarterly town hall meeting has been moved to a larger conference room."
         ],
         "ans": 0,
-        "zh": "「有關特定資料類別的問題，應洽詢法遵辦公室。」一份針對此次政策修訂常見問題的專屬 FAQ 文件，已張貼於法遵內部網路頁面。",
-        "why": "段落主題為「資料保存政策修訂通知」，此句承接前文的政策說明，引導讀者若有疑問應洽詢法遵辦公室，並與後句「FAQ 文件已上線」共同構成完整的後續指引。其餘選項（公司野餐、倫理訓練、停車場維修）皆與資料保存政策修訂無關，插入後語意斷裂。"
-        }
+        "zh": "「此次修訂後的程序，體現了公司對打造透明、負責任職場環境的持續承諾。」對任何出於善意提出報告的員工進行報復，一律嚴格禁止，違者將面臨紀律處分，最重可予以解僱。",
+        "why": "段落主題為「吹哨者通報程序更新」，此句總結修訂用意在於強化職場透明與問責文化，並與後句「禁止報復善意通報者」的規定語意銜接，共同構成完整的政策說明收尾。其餘選項（假期時程、停車證更新、town hall 會議室變更）皆與吹哨者通報程序無關，插入後語意斷裂。"
+      }
     ]
   }
 }
