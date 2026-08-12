@@ -1,117 +1,117 @@
 {
-  "date": "2026-08-12",
+  "date": "2026-08-13",
   "p5": [
     {
-      "id": "2026-08-12-p5-0",
-      "tag": "非限定關係子句（whose + 名詞）",
-      "pre": "The compliance committee, ",
-      "post": " recommendation the board ultimately followed, had warned against the acquisition for months.",
-      "opts": ["whose", "which", "that", "who"],
+      "id": "2026-08-13-p5-0",
+      "tag": "動名詞完成式（regret + not having p.p.）",
+      "pre": "The board deeply regrets ",
+      "post": " shareholders of the impending restructuring until after the announcement had already leaked to the press.",
+      "opts": ["not having informed", "to not inform", "not to inform", "not informing"],
       "ans": 0,
-      "zh": "法遵委員會（董事會最終採納了「其」建議）數月前便已對這起併購案提出警告。",
-      "why": "此為非限定關係子句，先行詞 committee 與後方名詞 recommendation 之間為所有格關係（該委員會的建議），須用所有格關係代名詞 <b>whose</b>。which 與 that 為一般關係代名詞，無法直接連接後方名詞表所有關係；who 雖可指人／組織，但同樣不具所有格功能，且非限定子句不可用 that。"
+      "zh": "董事會深感遺憾，直到消息已外洩給媒體之後，「才」告知股東即將進行的重組計畫。",
+      "why": "regret 後接動名詞表示「對過去已發生（或未發生）的事感到遺憾」，且此處強調「通知」這個動作發生在「洩漏」之前，須用完成式動名詞 <b>not having informed</b> 凸顯時間先後。to not inform／not to inform 為不定詞形式，regret + 不定詞通常用於「regret to say/inform」表示「即將告知壞消息」的當下語境，不符此處回顧過去疏失的語意；not informing 為簡單動名詞，缺乏完成式所強調「早於另一過去事件」的時間層次，精準度不足。"
     },
     {
-      "id": "2026-08-12-p5-1",
-      "tag": "讓步介系詞（Notwithstanding）",
+      "id": "2026-08-13-p5-1",
+      "tag": "獨立分詞構句（With + 名詞 + 分詞）",
       "pre": "",
-      "post": " the substantial cost overruns, the contractor completed the bridge nearly two months ahead of the revised schedule.",
-      "opts": ["Notwithstanding", "Despite of", "Although", "Even so"],
+      "post": " its patent application still pending before the USPTO, the company proceeded to license the technology to overseas manufacturers.",
+      "opts": ["With", "Because", "Since", "As"],
       "ans": 0,
-      "zh": "「儘管」出現了大幅超支的情況，承包商仍提前近兩個月完成了這座橋樑，早於修訂後的時程。",
-      "why": "<b>Notwithstanding</b> 為正式讓步介系詞，可直接接名詞片語（如 the substantial cost overruns）表「儘管…」。Despite of 為常見錯誤用法，despite 本身已是介系詞，不可再加 of；Although 為連接詞，須接完整子句而非單純名詞片語；Even so 為轉承副詞，通常獨立成句或置於句首搭配逗號，無法直接接名詞片語作為句子開頭的讓步結構。"
+      "zh": "「儘管」其專利申請仍在美國專利商標局審核中，這家公司仍逕行將該技術授權給海外製造商。",
+      "why": "此處後方為「名詞 + 現在分詞」（its patent application still pending）而非完整子句，須用 <b>With</b> 構成獨立分詞構句（absolute construction），表伴隨情況。Because、Since、As 皆為從屬連接詞，文法上須接「主詞＋動詞」的完整子句（如 Because its application was still pending），無法直接接「名詞＋分詞」的結構。"
     },
     {
-      "id": "2026-08-12-p5-2",
-      "tag": "倒裝句（Only after...主詞助動詞倒裝）",
-      "pre": "Only after the shareholders had reviewed the revised terms ",
-      "post": " willing to ratify the merger agreement.",
-      "opts": ["were they", "they were", "did they", "had they"],
+      "id": "2026-08-13-p5-2",
+      "tag": "對等連接結構（not so much...as）",
+      "pre": "The tribunal's decision was driven ",
+      "post": " by strict statutory interpretation as by a broader concern for public policy.",
+      "opts": ["not so much", "not only", "no more", "rather"],
       "ans": 0,
-      "zh": "「直到」股東們審閱過修訂後的條款「之後」，他們才願意批准這項合併協議。",
-      "why": "Only after 等否定／限制意味的副詞片語置於句首時，主要子句須倒裝。此處主要動詞為 be 動詞片語 were willing，故倒裝為 <b>were they</b> willing。they were 為未倒裝的正常語序，不符 Only 開頭句首倒裝規則；did they 用於一般動詞的倒裝（如 did they agree），但此處是 be 動詞 willing，不能用 did 取代；had they 為過去完成式倒裝，但主要子句應為簡單過去式 be 動詞，時態不符。"
+      "zh": "仲裁庭的裁決「與其說」是出於嚴格的法條解釋，「不如說」是出於對公共政策更廣泛的考量。",
+      "why": "<b>not so much...as</b> 為固定對等結構，表示「與其說是A，不如說是B」，精準對應此處裁決動機的權重比較。not only 須搭配 but also，句型不符；no more 通常搭配 than 而非 as，且語意變成「並不比…更…」，與原句「兩者程度不同、後者更重要」的語意不符；rather 雖可表對比，但不具備 not so much...as 這種固定的雙重比較句型結構。"
     },
     {
-      "id": "2026-08-12-p5-3",
-      "tag": "進階詞彙（tantamount to，固定搭配）",
-      "pre": "Failing to disclose the material conflict of interest was ",
-      "post": " to a breach of fiduciary duty, according to the tribunal's ruling.",
-      "opts": ["tantamount", "equivalent", "comparable", "analogous"],
+      "id": "2026-08-13-p5-3",
+      "tag": "進階詞彙（in lieu of，固定介系詞片語）",
+      "pre": "The consultant agreed to accept equity ",
+      "post": " a portion of her standard cash fee, given the client's constrained short-term liquidity.",
+      "opts": ["in lieu of", "in spite of", "in view of", "in terms of"],
       "ans": 0,
-      "zh": "根據仲裁庭的裁決，未揭露此一重大利益衝突，「等同於」違反了受託人義務。",
-      "why": "<b>tantamount to</b> 為法律與正式文件中常見的固定片語，意指「等同於（通常是負面、嚴重的事）」，精準對應此處「未揭露利益衝突＝違反受託義務」的嚴重性判定語境。equivalent to 語意中性，通常用於數量或程度上的對等比較，較少用於此類嚴重性判定的正式裁決語境；comparable to 僅表「可相比擬」，語氣遠不及「等同於違法」的斷定；analogous to 表結構或性質上的類比，並非「等同」的直接判定。"
+      "zh": "考量到客戶短期流動性吃緊，這位顧問同意「以」股權「代替」部分標準現金費用。",
+      "why": "<b>in lieu of</b>（以…代替、取代）精準對應此處「用股權取代部分現金費用」的替代關係。in spite of（儘管）表讓步，語意不符；in view of（鑑於）雖可解釋「考量流動性緊張」的原因，但無法表達「股權取代現金」的替代關係；in terms of（就…而言）表討論範疇，同樣不具替代語意。"
     },
     {
-      "id": "2026-08-12-p5-4",
-      "tag": "比較結構（no less...than）",
-      "pre": "The startup's valuation, driven largely by speculative enthusiasm, proved ",
-      "post": " volatile than the broader technology sector during the correction.",
-      "opts": ["no less", "no more", "not less", "less no"],
+      "id": "2026-08-13-p5-4",
+      "tag": "簡化關係子句（過去分詞後位修飾）",
+      "pre": "The revised bylaws, ",
+      "post": " by a two-thirds majority at last month's annual meeting, take effect immediately upon filing with the state registrar.",
+      "opts": ["ratified", "ratifying", "having ratified", "to ratify"],
       "ans": 0,
-      "zh": "這家新創公司的估值，主要受投機性熱潮所驅動，在此次修正期間，其波動程度「絲毫不亞於」整體科技產業。",
-      "why": "<b>no less...than</b> 為固定比較結構，表示「絲毫不亞於、至少同樣程度」，符合此處強調新創估值波動與整體科技產業「同樣劇烈甚至更劇烈」的語意。no more...than 語意相反，表「並不比…更…」，暗示兩者程度相近但偏低；not less 不符合此固定搭配的慣用語序（英語慣用 no less 而非 not less）；less no 語序錯誤，不成立。"
+      "zh": "這份經上月年度大會以三分之二多數「表決通過」的修訂章程，一經向州政府登記機關備案後即刻生效。",
+      "why": "此為關係子句 which were ratified 的簡化形式，先行詞 bylaws 是被表決通過的對象，須用被動過去分詞 <b>ratified</b>。ratifying 為主動現在分詞，語態不符（章程不會主動表決自己）；having ratified 為主動完成式分詞，同樣語態錯誤；to ratify 為不定詞，表未來或目的而非已完成的被動動作，不符語意。"
     }
   ],
   "p6": {
-    "id": "2026-08-12-p6",
-    "title": "MEMORANDUM: Update to the Whistleblower Reporting Procedure",
+    "id": "2026-08-13-p6",
+    "title": "MEMORANDUM: Transition to Electronic Signature Requirements for Contracts",
     "seg": [
       [
-        "To all employees: Beginning next quarter, reports submitted through the anonymous ethics hotline ",
+        "To all department heads: Effective the first business day of next month, all vendor and client contracts ",
         { "b": 0 },
-        " by an independent third-party firm rather than by the internal compliance department, in order to eliminate any perception of conflict of interest."
+        " via the company's approved electronic signature platform rather than by wet-ink signature, in accordance with the recently updated procurement policy."
       ],
       [
         { "b": 1 },
-        ", employees who wish to report a concern directly to a supervisor may continue to do so through the existing chain-of-command process."
+        ", contracts involving government entities or requiring notarization under applicable law will remain subject to traditional signature procedures until further notice."
       ],
       [
-        "Employees are strongly encouraged to ",
+        "Department heads should ",
         { "b": 2 },
-        " any suspected violation of company policy or applicable law, regardless of the individual involved."
+        " their teams with the new platform well in advance of the transition date to avoid delays in contract processing."
       ],
       [
         { "b": 3 },
-        " Retaliation against any employee who makes a good-faith report is strictly prohibited and will result in disciplinary action, up to and including termination."
+        " IT will host two optional training sessions this week to walk employees through the signing workflow."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["will be reviewed", "review", "have reviewed", "are reviewing"],
+        "opts": ["must be executed", "execute", "have executed", "are executing"],
         "ans": 0,
-        "zh": "致全體員工：自下一季度起，透過匿名倫理申訴專線提交的報告，「將改由」獨立的第三方機構審查，而非由內部法遵部門處理，以杜絕任何利益衝突之嫌。",
-        "why": "報告是被審查的對象，且句首明訂未來生效時點「Beginning next quarter」，須用未來式被動 <b>will be reviewed</b>。review 為原形動詞，缺少助動詞且非被動，不符文法；have reviewed 為現在完成式主動，與尚未開始的未來時點矛盾；are reviewing 為現在進行式主動，同樣不符合被動與未來時態的要求。"
+        "zh": "致所有部門主管：自下個月第一個工作日起，所有供應商及客戶合約「均須」透過公司核准的電子簽署平台完成簽署，而非採用紙本墨水簽名，以符合近期更新的採購政策。",
+        "why": "合約是被簽署的對象，且此句表達即將生效的強制性規定，須用被動情態動詞 <b>must be executed</b>（必須被簽署）。execute 為原形動詞，缺少助動詞且非被動，不符文法；have executed 為現在完成式主動，與尚未生效的未來規定矛盾；are executing 為現在進行式主動，同樣不符合被動及規範性語氣的要求。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["Alternatively", "Consequently", "Likewise", "Therefore"],
+        "opts": ["That said", "As a result", "In turn", "Similarly"],
         "ans": 0,
-        "zh": "「另一方面」，希望直接向主管反映疑慮的員工，仍可透過現行的指揮體系提出報告。",
-        "why": "前句說明匿名申訴專線改由第三方審查，本句提供「另一個」選項——直接向主管報告，兩句構成並列的替代方案關係，故選 <b>Alternatively</b>（另一方面、或者）。Consequently（因此）與 Therefore（所以）皆表因果關係，不符；Likewise（同樣地）表類比延續而非提供替代選項，語意不符。"
+        "zh": "「話雖如此」，涉及政府機關或依法須經公證的合約，在另行通知前仍適用傳統簽署程序。",
+        "why": "前句規定所有合約須改用電子簽署平台，本句說明特定類型合約「例外」仍適用傳統程序，兩句構成讓步／對比關係，故選 <b>That said</b>（話雖如此，但…）。As a result（因此）表因果；In turn（依次、轉而）表順序關係；Similarly（同樣地）表類比延續，皆與此處的例外對比邏輯不符。"
       },
       {
-        "tag": "詞彙語意（易混淆字）",
+        "tag": "詞彙語意（動詞＋介系詞搭配）",
         "col1": true,
-        "opts": ["disclose", "discern", "dismiss", "disparage"],
+        "opts": ["familiarize", "familiar", "acquaint", "accustom"],
         "ans": 0,
-        "zh": "無論涉及對象為何，皆強烈鼓勵員工「揭露」任何疑似違反公司政策或相關法律的行為。",
-        "why": "<b>disclose</b>（揭露、通報）精準對應「員工應主動通報可疑違規行為」的語境。discern（辨別、察覺）著重於「發現」而非「通報」的動作；dismiss（駁回、解僱）與此處鼓勵通報的語意相反；disparage（詆毀、貶低）語意與通報違規行為完全無關。"
+        "zh": "各部門主管應在轉換日期前及早讓所屬團隊「熟悉」新平台的操作，以避免合約處理流程延誤。",
+        "why": "<b>familiarize...with</b>（使…熟悉）為此處「讓團隊熟悉新平台」語境下最標準、常見的商務用語搭配。familiar 為形容詞，無法在 should 後直接作動詞使用，文法錯誤；acquaint 語意相近但語域更正式罕用，非此類系統教育訓練情境的慣用選字；accustom 固定搭配介系詞為 to（accustom...to）而非 with，與句中 with the new platform 的介系詞不符。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "The revised procedure reflects the company's ongoing commitment to a transparent and accountable workplace.",
-          "The office holiday schedule for December has been finalized and posted to the intranet.",
-          "All employees must renew their parking permits by the end of this month.",
-          "The quarterly town hall meeting has been moved to a larger conference room."
+          "Employees with questions about specific contract types should consult the legal department beforehand.",
+          "The annual performance review cycle will begin in early September.",
+          "The building's elevator maintenance has been rescheduled to next weekend.",
+          "Employees are reminded to update their emergency contact information."
         ],
         "ans": 0,
-        "zh": "「此次修訂後的程序，體現了公司對打造透明、負責任職場環境的持續承諾。」對任何出於善意提出報告的員工進行報復，一律嚴格禁止，違者將面臨紀律處分，最重可予以解僱。",
-        "why": "段落主題為「吹哨者通報程序更新」，此句總結修訂用意在於強化職場透明與問責文化，並與後句「禁止報復善意通報者」的規定語意銜接，共同構成完整的政策說明收尾。其餘選項（假期時程、停車證更新、town hall 會議室變更）皆與吹哨者通報程序無關，插入後語意斷裂。"
+        "zh": "「若員工對特定合約類型有疑問，應事先洽詢法務部門。」資訊部門本週將舉辦兩場自由參加的教育訓練，帶領員工熟悉簽署流程。",
+        "why": "段落主題為「電子簽署制度轉換通知」，此句提醒員工若有合約類型相關疑問應先洽詢法務部門，與後句「IT 將舉辦教育訓練」共同構成完整的轉換期操作指引。其餘選項（績效考核週期、電梯維修、緊急聯絡資訊）皆與電子簽署制度轉換無關，插入後語意斷裂。"
       }
     ]
   }
