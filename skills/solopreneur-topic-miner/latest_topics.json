@@ -1,120 +1,90 @@
 {
-  "date": "2026-08-11",
+  "date": "2026-08-12",
   "big_events": [
     {
-      "title": "Anthropic 宣布 Claude 全面為文字輸出加上肉眼不可見的浮水印",
+      "title": "SpaceXAI（原xAI）發布Grok 4.6，主打長流程AI代理任務並同步登陸Cursor",
       "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/"
-        },
-        {
-          "name": "Fortune",
-          "url": "https://fortune.com/2026/08/11/anthropic-claude-watermark-ai-text-police-ai-slop/"
-        },
-        {
-          "name": "Tech Times",
-          "url": "https://www.techtimes.com/articles/323873/20260811/claude-now-watermarks-text-everywhere-mark-proves-processing-not-authorship.htm"
-        }
+        {"name": "x.ai", "url": "https://x.ai/news/grok-4-6"},
+        {"name": "Tech Times", "url": "https://www.techtimes.com/articles/324156/20260812/grok-46-arrives-spacex-claims-all-employee-work-ai-training-material.htm"},
+        {"name": "VentureBeat", "url": "https://venturebeat.com/technology/spacexai-debuts-grok-4-6-overtaking-kimi-k3s-performance-and-matching-gpt-5-6-sol-for-worlds-third-best-on-artificial-analysis"}
       ],
-      "summary": "因應歐盟法規，Claude生成文字全面嵌入隱形浮水印，可驗證內容是否由AI產出",
-      "audience": "大量用Claude寫文案、部落格、接案代寫的自媒體與接案創作者",
-      "pain_point": "擔心自己用AI寫的內容被平台或客戶偵測出來，卻不知道浮水印技術已經悄悄全面上線、無法關閉",
-      "title_idea": "你的Claude文章其實藏了『隱形身分證』？創作者不能不知道的浮水印真相",
-      "local_angle": "台灣接案者與部落客大量用Claude代寫，這個浮水印會影響SEO判定與客戶信任，適合搶先做懶人包解釋給讀者和客戶聽"
+      "summary": "Grok 4.6正式發布，強化長流程AI代理能力，上線即支援Cursor等程式編輯器",
+      "audience": "使用AI輔助寫程式、開發SaaS或自動化工具的獨立開發者與技術類創作者",
+      "pain_point": "不知道該選哪個模型做長時間、多步驟的AI代理任務，怕選錯工具白花訂閱費",
+      "title_idea": "Grok 4.6實測：這個新出爐的長流程AI代理，值得你換掉現在的Coding助手嗎？",
+      "local_angle": "海外開發者社群已在瘋狂測試Grok 4.6，中文圈相關開箱評測還很少，適合搶先做實測影片卡位"
     },
     {
-      "title": "Nvidia攜手華爾街六大巨頭，啟動5000億美元AI基礎建設融資計畫",
+      "title": "Google「Made by Google 2026」發表會：Pixel 11系列亮相，Gemini Automation讓手機自己完成任務",
       "sources": [
-        {
-          "name": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-11/nvidia-s-show-of-financial-force-soothes-jittery-credit-markets"
-        },
-        {
-          "name": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-targets-over-500-billion-100709208.html"
-        }
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026/"},
+        {"name": "CNBC", "url": "https://www.cnbc.com/2026/08/12/google-pixel-11-gemini-ai-phone-apple.html"}
       ],
-      "summary": "Nvidia與Apollo、BlackRock等六大金融機構合作，籌組5000億美元資金加速AI資料中心擴張",
-      "audience": "關注AI工具訂閱費用、算力成本走向的重度使用者與科技類自媒體",
-      "pain_point": "不確定未來常用的AI工具會不會因為算力緊缺而漲價，也看不懂市場上『AI泡沫』的討論到底在吵什麼",
-      "title_idea": "Nvidia砸5000億美元背後：你的AI訂閱費會變貴還是變便宜？",
-      "local_angle": "可做『白話解釋AI算力軍備競賽對訂閱費影響』選題，蹭當紅『AI泡沫』討論但給出務實角度，華語圈少見這類深度但好懂的解說"
+      "summary": "Google發表Pixel 11系列與Gemini Automation等AI新功能，可用自然語言操作App完成任務",
+      "audience": "關注手機AI助理、想了解Google對抗Apple/OpenAI布局的科技類自媒體觀眾",
+      "pain_point": "看到「Gemini Automation」「Rambler」等新名詞霧煞煞，不知道對日常使用實際有什麼差別",
+      "title_idea": "Google最新AI手機功能Gemini Automation到底能幫你做什麼？3分鐘看懂",
+      "local_angle": "台灣尚未有中文懶人包解釋這些新Gemini功能，可搶先做「能不能取代語音助理」的實測比較"
     },
     {
-      "title": "Anthropic與比特幣礦商Riot Platforms簽下91億美元、20年算力租約",
+      "title": "AI寫程式新創Cognition洽談新一輪融資，估值上看400億美元",
       "sources": [
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/08/11/riot-platforms-signs-anthropic-deal-as-miners-shift-to-ai-infrastructure-.html"
-        },
-        {
-          "name": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-signs-9-1-billion-113731732.html"
-        }
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/"},
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-08-12/ai-startup-cognition-in-new-funding-talks-at-40-billion-value"}
       ],
-      "summary": "Anthropic向德州Rockdale資料中心承租191MW算力，為期20年，顯示AI對電力需求持續攀升",
-      "audience": "想做財經/科技類AI深度選題的自媒體、對AI產業趨勢有興趣的觀眾",
-      "pain_point": "只看得到ChatGPT、Claude表層更新，不知道背後電力與算力才是AI大廠真正在搶的資源",
-      "title_idea": "比特幣礦場變身AI算力工廠？Anthropic一口氣簽下20年、91億美元的秘密合約",
-      "local_angle": "『AI背後基礎建設』在中文自媒體圈鮮少有人深度解讀，適合做成『AI為什麼越來越猛』系列選題的第一集"
+      "summary": "旗下AI工程師Devin年營收目標達10億美元，Cognition估值3個月內大幅跳升",
+      "audience": "對AI創業、獨角獸估值故事感興趣的科技與財經類自媒體觀眾",
+      "pain_point": "對「AI程式設計代理」新創到底值不值這個估值感到困惑，缺乏中文的商業模式拆解",
+      "title_idea": "一個AI工程師估值400億美元？拆解Devin背後的吸金公式",
+      "local_angle": "華語圈鮮少深入拆解AI coding agent的訂閱制收費邏輯，適合做「你也能參考的AI SaaS估值思路」選題"
     }
   ],
   "tool_updates": [
     {
-      "title": "xAI推出Grok Bot：24小時待命的AI『數位同事』公測上線",
+      "title": "AI程式碼驗證新創Blacksmith估值近1年暴漲近10倍至5.5億美元",
       "sources": [
-        {
-          "name": "VentureBeat",
-          "url": "https://venturebeat.com/orchestration/spacexais-grok-bot-turns-agents-into-persistent-digital-coworkers-that-can-operate-your-apps-for-120-per-month"
-        },
-        {
-          "name": "xAI官方公告",
-          "url": "https://x.ai/news/introducing-grok-bot"
-        },
-        {
-          "name": "The Next Web",
-          "url": "https://thenextweb.com/news/spacexai-grok-bot-ai-agents-cursor"
-        }
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/08/12/blacksmiths-valuation-jumps-10x-to-550m-as-ai-coding-fuels-software-validation/"}
       ],
-      "summary": "Grok Bot擁有專屬雲端電腦，能登入既有工具全天候完成多步驟任務，訂閱約每月120-200美元",
-      "audience": "想用AI代理分擔行政、客服等重複性工作的獨立創業者與一人公司經營者",
-      "pain_point": "一人公司分身乏術，回信、排程、資料整理等瑣事沒人力處理，又請不起全職助理",
-      "title_idea": "免請助理！xAI的Grok Bot讓AI 24小時幫你上班，一個月要多少錢？",
-      "local_angle": "海外才剛公測，中文圈幾乎沒人實測，適合搶先做開箱評測、實際工作流程教學影片"
-    },
-    {
-      "title": "Google Gemini Omni免費AI影片生成優惠，期限延到8/11深夜(PT)",
-      "sources": [
-        {
-          "name": "Google Gemini官方X貼文",
-          "url": "https://x.com/GeminiApp/status/2085444245058736363"
-        },
-        {
-          "name": "Android Authority",
-          "url": "https://www.androidauthority.com/free-gemini-omni-videos-3695658/"
-        }
-      ],
-      "summary": "免訂閱即可用Gemini Omni免費生成10支AI影片，優惠期限一延再延，最終延到8月11日深夜",
-      "audience": "想免費測試AI影片工具、還沒決定要不要付費訂閱的內容創作者與小編",
-      "pain_point": "AI影片工具訂閱費不便宜，想先免費玩過一輪、確認好不好用再決定要不要掏錢",
-      "title_idea": "手刀還來得及！Google悄悄延長的免費AI影片額度，今晚就截止",
-      "local_angle": "適合做成『搶在期限前』的急迫性標題，教華語讀者立刻去用免費額度，順便示範能拿來做什麼類型的內容"
-    },
-    {
-      "title": "Claude官方發布：Compliance API擴大涵蓋Cowork與Claude Code全平台工作紀錄",
-      "sources": [
-        {
-          "name": "Anthropic官方發布說明",
-          "url": "https://platform.claude.com/docs/en/release-notes/overview"
-        }
-      ],
-      "summary": "企業版Claude用戶現可透過API調閱Cowork、Claude Code在各平台的完整工作階段紀錄供稽核",
-      "audience": "接企業外包案、需要向客戶交代AI使用紀錄的自由接案顧問與小型工作室",
-      "pain_point": "接大客戶案子時常被要求AI工具要有稽核軌跡，卻不知道Claude其實已經有解方",
-      "title_idea": "接案報價又多一個籌碼：Claude新功能讓你的AI工作紀錄『有憑有據』",
-      "local_angle": "台灣接企業外包案的工作室可以拿這個功能當賣點，向客戶證明資安合規，做成『如何用AI合規紀錄接大案』的教學"
+      "summary": "靠自動抓bug、驗證AI生成程式碼的Codesmith工具，一年內客戶數從700家衝上5000家",
+      "audience": "用AI輔助寫程式、擔心AI生成程式碼品質的獨立開發者與接案工程師",
+      "pain_point": "AI幫忙寫的程式碼看起來能跑，但不確定有沒有隱藏bug，人工抓錯又耗時費力",
+      "title_idea": "AI寫的程式碼到底能不能信？這個工具讓5000+公司自動抓bug",
+      "local_angle": "台灣獨立開發者、新創工程團隊多半還沒聽過這類「AI程式碼驗證層」工具，適合做工具介紹加實作教學"
     }
   ],
-  "trends": []
+  "trends": [
+    {
+      "title": "OpenAI背後推手Thrive Holdings再募20億美元，專買傳統企業導入AI改造",
+      "sources": [
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/"}
+      ],
+      "summary": "Thrive Holdings用AI改造會計、IT等傳統中小企業，募資後估值達120億美元",
+      "audience": "想了解「AI+併購」新商業模式、對AI創業變現有興趣的自媒體創作者與微型創業者",
+      "pain_point": "只知道用AI做內容或SaaS賺錢，沒想過「買下傳統企業再用AI改造」也是一種賺錢模式",
+      "title_idea": "不寫AI程式也能靠AI賺錢？矽谷正流行「買企業＋AI改造」新玩法",
+      "local_angle": "這種「AI收購傳統產業」商業模式華語圈幾乎沒人討論，適合切入「台灣中小企業能不能複製」的角度"
+    },
+    {
+      "title": "AI三大重量級學者Hinton、李飛飛、吳恩達在Ai4大會公開分歧：開源AI該不該喊卡",
+      "sources": [
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/"}
+      ],
+      "summary": "三位深度學習權威對AI風險、開源模型看法嚴重分歧，卻同場呼籲保持技術開放",
+      "audience": "關注AI政策、倫理與產業走向的知識型自媒體觀眾",
+      "pain_point": "常聽到「AI很危險」或「AI要開源」的爭論，卻搞不清楚各方立場和真正分歧點在哪",
+      "title_idea": "AI教父互嗆現場直擊：一個說AI會毀滅人類，一個說那只是恐嚇話術",
+      "local_angle": "這場對話華語圈報導極少，三位講者形象鮮明適合翻譯成知識型短影音素材，可搶先做懶人包"
+    },
+    {
+      "title": "Claude／Anthropic服務8月12日再度發生大規模異常錯誤",
+      "sources": [
+        {"name": "Anthropic Status", "url": "https://status.anthropic.com/incidents/x6kvdyjgzxb2"}
+      ],
+      "summary": "Claude.ai、Console與API多項服務同步出現異常錯誤，波及Claude Code等自動化流程",
+      "audience": "把日常工作流、內容產線建立在Claude Code或API上的自由工作者與獨立開發者",
+      "pain_point": "重度依賴AI工具自動化接案或創作流程，一旦服務中斷就整條產線停擺，卻沒有備援方案",
+      "title_idea": "Claude又當機了！你的AI自動化接案流程，有備援計畫嗎？",
+      "local_angle": "台灣已有不少創作者、接案者把Claude Code嵌入日常工作流，適合做「如何設計AI工具備援」的實用教學"
+    }
+  ]
 }
