@@ -1,90 +1,132 @@
 {
-  "date": "2026-08-12",
+  "date": "2026-08-13",
   "big_events": [
     {
-      "title": "SpaceXAI（原xAI）發布Grok 4.6，主打長流程AI代理任務並同步登陸Cursor",
+      "title": "Anthropic 傳洽購以色列新創 Decart AI，估值上看 60 億美元",
       "sources": [
-        {"name": "x.ai", "url": "https://x.ai/news/grok-4-6"},
-        {"name": "Tech Times", "url": "https://www.techtimes.com/articles/324156/20260812/grok-46-arrives-spacex-claims-all-employee-work-ai-training-material.htm"},
-        {"name": "VentureBeat", "url": "https://venturebeat.com/technology/spacexai-debuts-grok-4-6-overtaking-kimi-k3s-performance-and-matching-gpt-5-6-sol-for-worlds-third-best-on-artificial-analysis"}
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-13/anthropic-said-in-talks-to-buy-ai-startup-decart-for-6-billion"
+        },
+        {
+          "name": "Haaretz",
+          "url": "https://www.haaretz.com/israel-news/tech-news/2026-08-13/ty-article/anthropic-reportedly-in-talks-to-buy-israeli-ai-startup-decart-for-6-billion/0000019f-f9f7-d569-a5ff-f9f7b6110000"
+        }
       ],
-      "summary": "Grok 4.6正式發布，強化長流程AI代理能力，上線即支援Cursor等程式編輯器",
-      "audience": "使用AI輔助寫程式、開發SaaS或自動化工具的獨立開發者與技術類創作者",
-      "pain_point": "不知道該選哪個模型做長時間、多步驟的AI代理任務，怕選錯工具白花訂閱費",
-      "title_idea": "Grok 4.6實測：這個新出爐的長流程AI代理，值得你換掉現在的Coding助手嗎？",
-      "local_angle": "海外開發者社群已在瘋狂測試Grok 4.6，中文圈相關開箱評測還很少，適合搶先做實測影片卡位"
+      "summary": "Anthropic 洽購即時影片生成暨晶片優化新創 Decart，恐為史上最大收購案",
+      "audience": "關注 AI 產業併購、Claude 生態系動態的科技創業者與投資人",
+      "pain_point": "不清楚 Anthropic 為何要跨足即時影片生成與晶片優化，也看不懂這對 Claude 未來功能的影響",
+      "title_idea": "Anthropic 砸60億美元收購影片AI新創，是要幹嘛？下一步Claude要出影片功能了？",
+      "local_angle": "華語圈目前多聚焦 Claude 的文字/程式能力，鮮少討論其影片生成布局，可搶先解讀「Claude未來會不會做影片」這個資訊差話題"
     },
     {
-      "title": "Google「Made by Google 2026」發表會：Pixel 11系列亮相，Gemini Automation讓手機自己完成任務",
+      "title": "Vibe Coding獨角獸 Lovable 半年估值翻倍，4億美元C輪衝上133億美元",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026/"},
-        {"name": "CNBC", "url": "https://www.cnbc.com/2026/08/12/google-pixel-11-gemini-ai-phone-apple.html"}
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-12/ai-coding-startup-lovable-raises-400-million-at-13-3-billion-valuation"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/"
+        },
+        {
+          "name": "TechNode",
+          "url": "https://technode.com/2026/08/13/tencent-backs-lovable-in-400-million-series-c-at-13-3-billion-valuation/"
+        }
       ],
-      "summary": "Google發表Pixel 11系列與Gemini Automation等AI新功能，可用自然語言操作App完成任務",
-      "audience": "關注手機AI助理、想了解Google對抗Apple/OpenAI布局的科技類自媒體觀眾",
-      "pain_point": "看到「Gemini Automation」「Rambler」等新名詞霧煞煞，不知道對日常使用實際有什麼差別",
-      "title_idea": "Google最新AI手機功能Gemini Automation到底能幫你做什麼？3分鐘看懂",
-      "local_angle": "台灣尚未有中文懶人包解釋這些新Gemini功能，可搶先做「能不能取代語音助理」的實測比較"
+      "summary": "瑞典AI建站平台Lovable完成4億美元融資，年營收將近逼6億美元",
+      "audience": "想靠no-code/vibe coding做出產品的獨立開發者、自媒體創作者",
+      "pain_point": "不會寫程式、不知道用AI自然語言就能做出能賺錢的網站或App，誤以為一定要學會coding才能創業",
+      "title_idea": "不會寫程式也能估值百億？Lovable憑什麼半年內身價翻倍",
+      "local_angle": "華語圈vibe coding教學仍集中在Cursor/Claude Code，Lovable這類「純聊天就能上線產品」的平台討論度低，適合搶先做入門教學"
     },
     {
-      "title": "AI寫程式新創Cognition洽談新一輪融資，估值上看400億美元",
+      "title": "OpenAI擴大ChatGPT廣告測試至英國、墨西哥、巴西、日本、南韓",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/"},
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-08-12/ai-startup-cognition-in-new-funding-talks-at-40-billion-value"}
+        {
+          "name": "gHacks",
+          "url": "https://www.ghacks.net/2026/08/13/openai-expands-chatgpt-ads-test-to-uk-mexico-brazil-japan-and-south-korea/"
+        },
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/testing-ads-in-chatgpt/"
+        },
+        {
+          "name": "Digiday",
+          "url": "https://digiday.com/media-buying/expand-thoughtfully-openai-offers-chatgpt-ads-to-new-markets-including-the-u-k-brazil-and-japan/"
+        }
       ],
-      "summary": "旗下AI工程師Devin年營收目標達10億美元，Cognition估值3個月內大幅跳升",
-      "audience": "對AI創業、獨角獸估值故事感興趣的科技與財經類自媒體觀眾",
-      "pain_point": "對「AI程式設計代理」新創到底值不值這個估值感到困惑，缺乏中文的商業模式拆解",
-      "title_idea": "一個AI工程師估值400億美元？拆解Devin背後的吸金公式",
-      "local_angle": "華語圈鮮少深入拆解AI coding agent的訂閱制收費邏輯，適合做「你也能參考的AI SaaS估值思路」選題"
+      "summary": "免費與Go版用戶對話中將出現標示廣告，付費訂閱用戶不受影響",
+      "audience": "依賴ChatGPT免費版工作的上班族、對AI商業模式感興趣的自媒體創作者",
+      "pain_point": "擔心免費版ChatGPT會被廣告干擾使用體驗，不確定該不該升級付費方案避免廣告",
+      "title_idea": "ChatGPT開始出現廣告了！免費仔要準備升級了嗎？",
+      "local_angle": "台灣尚未列入首波廣告測試名單，可提前預告「這波遲早會來」，並整理免費vs付費版差異懶人包"
     }
   ],
   "tool_updates": [
     {
-      "title": "AI程式碼驗證新創Blacksmith估值近1年暴漲近10倍至5.5億美元",
+      "title": "Google搶發Gemini 3.7 Flash，主打寫程式與AI代理任務、大砍五成價格",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/08/12/blacksmiths-valuation-jumps-10x-to-550m-as-ai-coding-fuels-software-validation/"}
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-13/google-debuts-new-gemini-flash-while-top-ai-model-still-delayed"
+        },
+        {
+          "name": "MarkTechPost",
+          "url": "https://www.marktechpost.com/2026/08/13/google-ai-just-released-gemini-3-7-flash/"
+        },
+        {
+          "name": "Google DeepMind",
+          "url": "https://deepmind.google/models/model-cards/gemini-3-7-flash/"
+        }
       ],
-      "summary": "靠自動抓bug、驗證AI生成程式碼的Codesmith工具，一年內客戶數從700家衝上5000家",
-      "audience": "用AI輔助寫程式、擔心AI生成程式碼品質的獨立開發者與接案工程師",
-      "pain_point": "AI幫忙寫的程式碼看起來能跑，但不確定有沒有隱藏bug，人工抓錯又耗時費力",
-      "title_idea": "AI寫的程式碼到底能不能信？這個工具讓5000+公司自動抓bug",
-      "local_angle": "台灣獨立開發者、新創工程團隊多半還沒聽過這類「AI程式碼驗證層」工具，適合做工具介紹加實作教學"
+      "summary": "新模型程式碼基準大幅提升，API價格較前代再降五成",
+      "audience": "用AI輔助寫程式的獨立開發者、想省錢用API做產品的創作者",
+      "pain_point": "常用的AI寫程式模型token太貴，或不知道該選哪個模型做agent類自動化任務",
+      "title_idea": "Google Gemini 3.7 Flash實測：寫程式更準，價格砍半，該換模型了嗎？",
+      "local_angle": "旗艦模型Gemini 3.5 Pro仍跳票，Google改推便宜快速的Flash應戰，華語圈可搶先做「性價比之王」實測比較影片"
+    },
+    {
+      "title": "OpenAI推出Ultrafast模式，GPT-5.6 Sol靠Cerebras晶片提速14倍",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/"
+        },
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/previewing-ultrafast/"
+        },
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/08/13/openai-previews-ultrafast-gpt-5-6-sol-running-up-to-14-times-faster/"
+        }
+      ],
+      "summary": "新服務層每秒可輸出750個token，先開放API限量預覽",
+      "audience": "開發即時客服、金融分析等對延遲敏感應用的AI工具開發者",
+      "pain_point": "用GPT做即時互動應用時回應速度太慢，導致使用者體驗差或流失",
+      "title_idea": "AI回覆快14倍是什麼概念？OpenAI Ultrafast模式全解析",
+      "local_angle": "目前僅限量開放給部分企業客戶，華語圈可搶先介紹「怎麼申請搶先體驗」，做資訊差內容"
+    },
+    {
+      "title": "Claude Code更新至2.1.231，修復MCP OAuth登入卡關問題",
+      "sources": [
+        {
+          "name": "Claude Code Changelog",
+          "url": "https://x.com/ClaudeCodeLog/status/2087823250680148125"
+        },
+        {
+          "name": "Claude Code Docs",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ],
+      "summary": "修正串接Slack等預註冊OAuth客戶端時redirect URI不符的登入失敗bug",
+      "audience": "用Claude Code串接Slack等MCP工具的開發者、AI工作流玩家",
+      "pain_point": "串接MCP服務時OAuth登入一直失敗，卡在redirect URI錯誤不知道怎麼修",
+      "title_idea": "Claude Code登入Slack一直失敗？2.1.231版本已修好這個bug",
+      "local_angle": "中文圈Claude Code教學多聚焦寫程式，MCP整合類的細節更新較少人講解，適合做「訂閱更新懶人包」系列內容"
     }
   ],
-  "trends": [
-    {
-      "title": "OpenAI背後推手Thrive Holdings再募20億美元，專買傳統企業導入AI改造",
-      "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/"}
-      ],
-      "summary": "Thrive Holdings用AI改造會計、IT等傳統中小企業，募資後估值達120億美元",
-      "audience": "想了解「AI+併購」新商業模式、對AI創業變現有興趣的自媒體創作者與微型創業者",
-      "pain_point": "只知道用AI做內容或SaaS賺錢，沒想過「買下傳統企業再用AI改造」也是一種賺錢模式",
-      "title_idea": "不寫AI程式也能靠AI賺錢？矽谷正流行「買企業＋AI改造」新玩法",
-      "local_angle": "這種「AI收購傳統產業」商業模式華語圈幾乎沒人討論，適合切入「台灣中小企業能不能複製」的角度"
-    },
-    {
-      "title": "AI三大重量級學者Hinton、李飛飛、吳恩達在Ai4大會公開分歧：開源AI該不該喊卡",
-      "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/"}
-      ],
-      "summary": "三位深度學習權威對AI風險、開源模型看法嚴重分歧，卻同場呼籲保持技術開放",
-      "audience": "關注AI政策、倫理與產業走向的知識型自媒體觀眾",
-      "pain_point": "常聽到「AI很危險」或「AI要開源」的爭論，卻搞不清楚各方立場和真正分歧點在哪",
-      "title_idea": "AI教父互嗆現場直擊：一個說AI會毀滅人類，一個說那只是恐嚇話術",
-      "local_angle": "這場對話華語圈報導極少，三位講者形象鮮明適合翻譯成知識型短影音素材，可搶先做懶人包"
-    },
-    {
-      "title": "Claude／Anthropic服務8月12日再度發生大規模異常錯誤",
-      "sources": [
-        {"name": "Anthropic Status", "url": "https://status.anthropic.com/incidents/x6kvdyjgzxb2"}
-      ],
-      "summary": "Claude.ai、Console與API多項服務同步出現異常錯誤，波及Claude Code等自動化流程",
-      "audience": "把日常工作流、內容產線建立在Claude Code或API上的自由工作者與獨立開發者",
-      "pain_point": "重度依賴AI工具自動化接案或創作流程，一旦服務中斷就整條產線停擺，卻沒有備援方案",
-      "title_idea": "Claude又當機了！你的AI自動化接案流程，有備援計畫嗎？",
-      "local_angle": "台灣已有不少創作者、接案者把Claude Code嵌入日常工作流，適合做「如何設計AI工具備援」的實用教學"
-    }
-  ]
+  "trends": []
 }
