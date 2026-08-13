@@ -1,117 +1,117 @@
 {
-  "date": "2026-08-13",
+  "date": "2026-08-14",
   "p5": [
     {
-      "id": "2026-08-13-p5-0",
-      "tag": "動名詞完成式（regret + not having p.p.）",
-      "pre": "The board deeply regrets ",
-      "post": " shareholders of the impending restructuring until after the announcement had already leaked to the press.",
-      "opts": ["not having informed", "to not inform", "not to inform", "not informing"],
-      "ans": 0,
-      "zh": "董事會深感遺憾，直到消息已外洩給媒體之後，「才」告知股東即將進行的重組計畫。",
-      "why": "regret 後接動名詞表示「對過去已發生（或未發生）的事感到遺憾」，且此處強調「通知」這個動作發生在「洩漏」之前，須用完成式動名詞 <b>not having informed</b> 凸顯時間先後。to not inform／not to inform 為不定詞形式，regret + 不定詞通常用於「regret to say/inform」表示「即將告知壞消息」的當下語境，不符此處回顧過去疏失的語意；not informing 為簡單動名詞，缺乏完成式所強調「早於另一過去事件」的時間層次，精準度不足。"
-    },
-    {
-      "id": "2026-08-13-p5-1",
-      "tag": "獨立分詞構句（With + 名詞 + 分詞）",
+      "id": "2026-08-14-p5-0",
+      "tag": "讓步倒裝（However + 形容詞）",
       "pre": "",
-      "post": " its patent application still pending before the USPTO, the company proceeded to license the technology to overseas manufacturers.",
-      "opts": ["With", "Because", "Since", "As"],
+      "post": " complex the negotiations may become, both parties remain committed to reaching a settlement by the year's end.",
+      "opts": ["However", "No matter", "Whatever", "Although"],
       "ans": 0,
-      "zh": "「儘管」其專利申請仍在美國專利商標局審核中，這家公司仍逕行將該技術授權給海外製造商。",
-      "why": "此處後方為「名詞 + 現在分詞」（its patent application still pending）而非完整子句，須用 <b>With</b> 構成獨立分詞構句（absolute construction），表伴隨情況。Because、Since、As 皆為從屬連接詞，文法上須接「主詞＋動詞」的完整子句（如 Because its application was still pending），無法直接接「名詞＋分詞」的結構。"
+      "zh": "「無論」談判變得多麼複雜，雙方仍致力於在年底前達成和解。",
+      "why": "<b>However</b> + 形容詞 + 主詞 + 動詞，為表讓步「無論多麼…」的固定倒裝結構，形容詞 complex 直接置於 However 之後。No matter 須搭配疑問詞 how 才能修飾形容詞（No matter how complex），單獨使用 No matter 文法不完整；Whatever 修飾名詞而非形容詞，無法直接接 complex；Although 為連接詞，須接「主詞＋動詞＋形容詞」的完整子句語序（Although the negotiations may become complex），不能將形容詞提前至句首。"
     },
     {
-      "id": "2026-08-13-p5-2",
-      "tag": "對等連接結構（not so much...as）",
-      "pre": "The tribunal's decision was driven ",
-      "post": " by strict statutory interpretation as by a broader concern for public policy.",
-      "opts": ["not so much", "not only", "no more", "rather"],
+      "id": "2026-08-14-p5-1",
+      "tag": "假設語氣倒裝（Were...to，未來式）",
+      "pre": "",
+      "post": " the merger to fall through at this late stage, the company would face significant reputational damage in addition to substantial financial penalties.",
+      "opts": ["Were", "If", "Should", "Had"],
       "ans": 0,
-      "zh": "仲裁庭的裁決「與其說」是出於嚴格的法條解釋，「不如說」是出於對公共政策更廣泛的考量。",
-      "why": "<b>not so much...as</b> 為固定對等結構，表示「與其說是A，不如說是B」，精準對應此處裁決動機的權重比較。not only 須搭配 but also，句型不符；no more 通常搭配 than 而非 as，且語意變成「並不比…更…」，與原句「兩者程度不同、後者更重要」的語意不符；rather 雖可表對比，但不具備 not so much...as 這種固定的雙重比較句型結構。"
+      "zh": "「倘若」這起併購案在如此後期的階段告吹，該公司除了將面臨鉅額罰款外，聲譽也將遭受重創。",
+      "why": "此句為 If the merger were to fall through 的省略 if 倒裝形式，表對未來極不可能發生之事的假設，須用 <b>Were</b> 提前至句首並搭配 to 不定詞（Were...to fall through）。If 為未倒裝的原始連接詞，此處句首已省略 if 改用倒裝，不可重複使用；Should 雖可用於倒裝條件句（Should the merger fall through），但其後須接原形動詞而非 to 不定詞，與句中 to fall through 的結構不符；Had 用於過去完成式的倒裝（與過去事實相反），但此處談的是未來可能性，時態不符。"
     },
     {
-      "id": "2026-08-13-p5-3",
-      "tag": "進階詞彙（in lieu of，固定介系詞片語）",
-      "pre": "The consultant agreed to accept equity ",
-      "post": " a portion of her standard cash fee, given the client's constrained short-term liquidity.",
-      "opts": ["in lieu of", "in spite of", "in view of", "in terms of"],
+      "id": "2026-08-14-p5-2",
+      "tag": "程度結果子句（so + 形容詞 + that）",
+      "pre": "The evidence against the defendant was ",
+      "post": " that the jury required less than an hour to reach a unanimous verdict.",
+      "opts": ["so compelling", "such compelling", "so much compelling", "such a compelling"],
       "ans": 0,
-      "zh": "考量到客戶短期流動性吃緊，這位顧問同意「以」股權「代替」部分標準現金費用。",
-      "why": "<b>in lieu of</b>（以…代替、取代）精準對應此處「用股權取代部分現金費用」的替代關係。in spite of（儘管）表讓步，語意不符；in view of（鑑於）雖可解釋「考量流動性緊張」的原因，但無法表達「股權取代現金」的替代關係；in terms of（就…而言）表討論範疇，同樣不具替代語意。"
+      "zh": "針對被告不利的證據「如此」具說服力，「以至於」陪審團在不到一小時內便達成一致裁決。",
+      "why": "此處 compelling 為主詞補語（單獨的形容詞，並未修飾後方名詞），須用 <b>so</b> + 形容詞 + that 的結構（so compelling that）。such 須接「形容詞＋名詞」的完整名詞片語（如 such compelling evidence that），此處後方並無名詞可接，故 such compelling 與 such a compelling 皆不符文法；so much compelling 為贅字誤用，compelling 為形容詞本身已表程度，不需 much 疊加。"
     },
     {
-      "id": "2026-08-13-p5-4",
-      "tag": "簡化關係子句（過去分詞後位修飾）",
-      "pre": "The revised bylaws, ",
-      "post": " by a two-thirds majority at last month's annual meeting, take effect immediately upon filing with the state registrar.",
-      "opts": ["ratified", "ratifying", "having ratified", "to ratify"],
+      "id": "2026-08-14-p5-3",
+      "tag": "進階動詞語意辨別（indemnify against，法律固定搭配）",
+      "pre": "Under the terms of the agreement, the contractor shall ",
+      "post": " the client against any claims arising from third-party property damage during the renovation.",
+      "opts": ["indemnify", "compensate", "reimburse", "insure"],
       "ans": 0,
-      "zh": "這份經上月年度大會以三分之二多數「表決通過」的修訂章程，一經向州政府登記機關備案後即刻生效。",
-      "why": "此為關係子句 which were ratified 的簡化形式，先行詞 bylaws 是被表決通過的對象，須用被動過去分詞 <b>ratified</b>。ratifying 為主動現在分詞，語態不符（章程不會主動表決自己）；having ratified 為主動完成式分詞，同樣語態錯誤；to ratify 為不定詞，表未來或目的而非已完成的被動動作，不符語意。"
+      "zh": "根據協議條款，承包商應「保障」客戶免於因裝修期間第三方財產損害而生的任何求償。",
+      "why": "<b>indemnify...against</b> 為法律合約中的固定搭配，意指「保障某方免於承擔特定損失或求償責任」，精準對應此處契約保障條款的語境。compensate 通常搭配 for（compensate someone for a loss），而非 against；reimburse 指「償還已支出的費用」，與「保障免於求償」的語意不符；insure against 雖語意相近，但多用於購買保險以承擔未來風險，而非契約雙方之間直接的責任保障承諾，與此處合約條款用語不符。"
+    },
+    {
+      "id": "2026-08-14-p5-4",
+      "tag": "比較結構（The + 比較級...the + 比較級）",
+      "pre": "",
+      "post": " the litigation drags on, the more resources both parties will be forced to divert from their core operations.",
+      "opts": ["The longer", "The long", "As long as", "So long"],
+      "ans": 0,
+      "zh": "這起訴訟「拖得越久」，雙方就「越被迫」從核心業務中挪用更多資源。",
+      "why": "<b>The + 比較級...the + 比較級</b> 為固定的相關比較結構，表「越…就越…」，此處須用 long 的比較級 <b>The longer</b> 與後方 the more resources 呼應。The long 缺少比較級變化，文法不完整；As long as 意指「只要」，表條件而非程度比較；So long（as）亦表條件語意，與此處程度遞增的比較結構不符。"
     }
   ],
   "p6": {
-    "id": "2026-08-13-p6",
-    "title": "MEMORANDUM: Transition to Electronic Signature Requirements for Contracts",
+    "id": "2026-08-14-p6",
+    "title": "NOTICE: Changes to Supplier Audit Procedures",
     "seg": [
       [
-        "To all department heads: Effective the first business day of next month, all vendor and client contracts ",
+        "To all procurement staff: Beginning with the next fiscal quarter, all suppliers with annual contract values exceeding $500,000 ",
         { "b": 0 },
-        " via the company's approved electronic signature platform rather than by wet-ink signature, in accordance with the recently updated procurement policy."
+        " to an on-site compliance audit at least once every eighteen months, rather than the current three-year cycle."
       ],
       [
         { "b": 1 },
-        ", contracts involving government entities or requiring notarization under applicable law will remain subject to traditional signature procedures until further notice."
+        ", suppliers who have maintained a clean compliance record for the past three consecutive audit cycles may be considered for a reduced-frequency review schedule upon written request."
       ],
       [
-        "Department heads should ",
+        "Procurement managers are responsible for ensuring that all affected suppliers ",
         { "b": 2 },
-        " their teams with the new platform well in advance of the transition date to avoid delays in contract processing."
+        " of the revised schedule no later than thirty days before their next scheduled audit."
       ],
       [
         { "b": 3 },
-        " IT will host two optional training sessions this week to walk employees through the signing workflow."
+        " Questions regarding the revised audit schedule should be directed to the Supplier Compliance Office."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["must be executed", "execute", "have executed", "are executing"],
+        "opts": ["will be subject", "are subject", "have been subject", "were subject"],
         "ans": 0,
-        "zh": "致所有部門主管：自下個月第一個工作日起，所有供應商及客戶合約「均須」透過公司核准的電子簽署平台完成簽署，而非採用紙本墨水簽名，以符合近期更新的採購政策。",
-        "why": "合約是被簽署的對象，且此句表達即將生效的強制性規定，須用被動情態動詞 <b>must be executed</b>（必須被簽署）。execute 為原形動詞，缺少助動詞且非被動，不符文法；have executed 為現在完成式主動，與尚未生效的未來規定矛盾；are executing 為現在進行式主動，同樣不符合被動及規範性語氣的要求。"
+        "zh": "致所有採購同仁：自下一個財政季度起，年度合約金額超過五十萬美元的所有供應商，「均須」每十八個月至少接受一次實地法遵稽核，而非現行的三年週期。",
+        "why": "供應商是被稽核的對象，且句首明訂未來生效時點「Beginning with the next fiscal quarter」，須用未來式被動 <b>will be subject</b>（to）。are subject 為現在式，與尚未生效的未來規定不符；have been subject 為現在完成式，暗示已發生而非未來規定；were subject 為過去式，同樣不符合未來生效的語境。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["That said", "As a result", "In turn", "Similarly"],
+        "opts": ["However", "Furthermore", "For instance", "Namely"],
         "ans": 0,
-        "zh": "「話雖如此」，涉及政府機關或依法須經公證的合約，在另行通知前仍適用傳統簽署程序。",
-        "why": "前句規定所有合約須改用電子簽署平台，本句說明特定類型合約「例外」仍適用傳統程序，兩句構成讓步／對比關係，故選 <b>That said</b>（話雖如此，但…）。As a result（因此）表因果；In turn（依次、轉而）表順序關係；Similarly（同樣地）表類比延續，皆與此處的例外對比邏輯不符。"
+        "zh": "「然而」，過去連續三個稽核週期皆維持良好法遵紀錄的供應商，得依書面申請考慮調整為較低頻率的審查排程。",
+        "why": "前句規定稽核頻率全面加密，本句說明「例外情況」——表現良好的供應商可申請降低頻率，兩句構成對比讓步關係，故選 <b>However</b>（然而）。Furthermore（此外）表補充遞進；For instance（例如）表舉例；Namely（即、也就是說）表具體說明，皆與此處的例外對比邏輯不符。"
       },
       {
         "tag": "詞彙語意（動詞＋介系詞搭配）",
         "col1": true,
-        "opts": ["familiarize", "familiar", "acquaint", "accustom"],
+        "opts": ["are notified", "are noticed", "are announced", "are advertised"],
         "ans": 0,
-        "zh": "各部門主管應在轉換日期前及早讓所屬團隊「熟悉」新平台的操作，以避免合約處理流程延誤。",
-        "why": "<b>familiarize...with</b>（使…熟悉）為此處「讓團隊熟悉新平台」語境下最標準、常見的商務用語搭配。familiar 為形容詞，無法在 should 後直接作動詞使用，文法錯誤；acquaint 語意相近但語域更正式罕用，非此類系統教育訓練情境的慣用選字；accustom 固定搭配介系詞為 to（accustom...to）而非 with，與句中 with the new platform 的介系詞不符。"
+        "zh": "採購經理須確保所有受影響的供應商，在下次排定稽核日的三十天前「獲得通知」此一排程調整。",
+        "why": "<b>notify...of</b>（通知某人某事）為此處「將排程變更告知供應商」語境下的標準固定搭配。notice 作動詞意指「注意到、察覺」，並非「通知」的意思，語意不符；announce 通常用於「向大眾公開宣布」，且慣用搭配為 announce something to someone，而非 be announced of；advertise（廣告宣傳）語意與正式的合約通知完全無關。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Employees with questions about specific contract types should consult the legal department beforehand.",
-          "The annual performance review cycle will begin in early September.",
-          "The building's elevator maintenance has been rescheduled to next weekend.",
-          "Employees are reminded to update their emergency contact information."
+          "A detailed audit checklist and scheduling calendar are available on the procurement intranet page.",
+          "The company's annual supplier appreciation dinner will be held in November.",
+          "All employees must complete mandatory harassment prevention training by year-end.",
+          "The parking allocation for visiting suppliers has been updated for the new building."
         ],
         "ans": 0,
-        "zh": "「若員工對特定合約類型有疑問，應事先洽詢法務部門。」資訊部門本週將舉辦兩場自由參加的教育訓練，帶領員工熟悉簽署流程。",
-        "why": "段落主題為「電子簽署制度轉換通知」，此句提醒員工若有合約類型相關疑問應先洽詢法務部門，與後句「IT 將舉辦教育訓練」共同構成完整的轉換期操作指引。其餘選項（績效考核週期、電梯維修、緊急聯絡資訊）皆與電子簽署制度轉換無關，插入後語意斷裂。"
+        "zh": "「詳細的稽核檢查清單與排程日曆，皆可於採購部門內部網路頁面取得。」有關修訂後稽核排程的問題，應洽詢供應商法遵辦公室。",
+        "why": "段落主題為「供應商稽核程序變更通知」，此句提供稽核檢查清單與排程日曆的取得方式，與後句「問題應洽詢法遵辦公室」共同構成完整的操作指引收尾。其餘選項（供應商感謝晚宴、騷擾防治訓練、訪客停車分配）皆與供應商稽核程序無關，插入後語意斷裂。"
       }
     ]
   }
