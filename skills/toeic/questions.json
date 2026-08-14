@@ -1,117 +1,117 @@
 {
-  "date": "2026-08-14",
+  "date": "2026-08-15",
   "p5": [
     {
-      "id": "2026-08-14-p5-0",
-      "tag": "讓步倒裝（However + 形容詞）",
+      "id": "2026-08-15-p5-0",
+      "tag": "假分裂句（What 引導名詞子句）",
       "pre": "",
-      "post": " complex the negotiations may become, both parties remain committed to reaching a settlement by the year's end.",
-      "opts": ["However", "No matter", "Whatever", "Although"],
+      "post": " ultimately persuaded the board to approve the acquisition was not the projected synergies but the target company's proprietary patent portfolio.",
+      "opts": ["What", "That", "Which", "It"],
       "ans": 0,
-      "zh": "「無論」談判變得多麼複雜，雙方仍致力於在年底前達成和解。",
-      "why": "<b>However</b> + 形容詞 + 主詞 + 動詞，為表讓步「無論多麼…」的固定倒裝結構，形容詞 complex 直接置於 However 之後。No matter 須搭配疑問詞 how 才能修飾形容詞（No matter how complex），單獨使用 No matter 文法不完整；Whatever 修飾名詞而非形容詞，無法直接接 complex；Although 為連接詞，須接「主詞＋動詞＋形容詞」的完整子句語序（Although the negotiations may become complex），不能將形容詞提前至句首。"
+      "zh": "最終說服董事會核准這起併購案的，「並非」預期的綜效，「而是」該目標公司獨有的專利組合。",
+      "why": "<b>What</b> 引導的名詞子句（複合關係代名詞，本身兼具先行詞與關係詞功能）可作句子主詞，構成「What...was...」的假分裂句（pseudo-cleft），用以強調後方訊息。That 與 Which 為關係代名詞，須有明確先行詞才能使用，此處句首並無先行詞；It 雖可用於分裂句（It was...that），但句型須為 It + be + 強調成分 + that，與此處 What 開頭的子句結構不符。"
     },
     {
-      "id": "2026-08-14-p5-1",
-      "tag": "假設語氣倒裝（Were...to，未來式）",
+      "id": "2026-08-15-p5-1",
+      "tag": "簡化讓步子句（While + 現在分詞）",
+      "pre": "While ",
+      "post": " the seriousness of the allegations, the spokesperson declined to confirm whether an internal investigation had been launched.",
+      "opts": ["acknowledging", "acknowledged", "to acknowledge", "acknowledgment"],
+      "ans": 0,
+      "zh": "「儘管」承認了這些指控的嚴重性，該發言人仍拒絕證實內部調查是否已經展開。",
+      "why": "此為 While the spokesperson acknowledged... 的簡化子句，主詞（spokesperson）與動詞為主動關係，須用現在分詞 <b>acknowledging</b>。acknowledged 為過去式動詞，簡化子句中不可保留限定動詞形式；to acknowledge 為不定詞，通常表目的而非讓步動作；acknowledgment 為名詞，無法在此作為動詞使用。"
+    },
+    {
+      "id": "2026-08-15-p5-2",
+      "tag": "倒裝句（Such was + 名詞 + that）",
       "pre": "",
-      "post": " the merger to fall through at this late stage, the company would face significant reputational damage in addition to substantial financial penalties.",
-      "opts": ["Were", "If", "Should", "Had"],
+      "post": " was the backlash from investors that the board convened an emergency meeting within twenty-four hours of the announcement.",
+      "opts": ["Such", "So", "Very", "That"],
       "ans": 0,
-      "zh": "「倘若」這起併購案在如此後期的階段告吹，該公司除了將面臨鉅額罰款外，聲譽也將遭受重創。",
-      "why": "此句為 If the merger were to fall through 的省略 if 倒裝形式，表對未來極不可能發生之事的假設，須用 <b>Were</b> 提前至句首並搭配 to 不定詞（Were...to fall through）。If 為未倒裝的原始連接詞，此處句首已省略 if 改用倒裝，不可重複使用；Should 雖可用於倒裝條件句（Should the merger fall through），但其後須接原形動詞而非 to 不定詞，與句中 to fall through 的結構不符；Had 用於過去完成式的倒裝（與過去事實相反），但此處談的是未來可能性，時態不符。"
+      "zh": "投資人的反彈「如此」強烈，「以至於」董事會在消息公布後二十四小時內便召開緊急會議。",
+      "why": "<b>Such</b> + be動詞 + 名詞主詞 + that，為強調名詞程度之深的固定倒裝句型（Such was the backlash that...）。So 通常修飾形容詞或副詞（So great was the backlash that...），不可直接修飾名詞 backlash；Very 為一般副詞，不具備此倒裝強調功能；That 無法置於句首作程度強調語，文法不成立。"
     },
     {
-      "id": "2026-08-14-p5-2",
-      "tag": "程度結果子句（so + 形容詞 + that）",
-      "pre": "The evidence against the defendant was ",
-      "post": " that the jury required less than an hour to reach a unanimous verdict.",
-      "opts": ["so compelling", "such compelling", "so much compelling", "such a compelling"],
+      "id": "2026-08-15-p5-3",
+      "tag": "進階詞彙（preclude，易混淆形似詞）",
+      "pre": "The confidentiality provision does not ",
+      "post": " the parties from discussing the settlement's general terms in public statements, provided that specific financial figures remain undisclosed.",
+      "opts": ["preclude", "conclude", "occlude", "collude"],
       "ans": 0,
-      "zh": "針對被告不利的證據「如此」具說服力，「以至於」陪審團在不到一小時內便達成一致裁決。",
-      "why": "此處 compelling 為主詞補語（單獨的形容詞，並未修飾後方名詞），須用 <b>so</b> + 形容詞 + that 的結構（so compelling that）。such 須接「形容詞＋名詞」的完整名詞片語（如 such compelling evidence that），此處後方並無名詞可接，故 such compelling 與 such a compelling 皆不符文法；so much compelling 為贅字誤用，compelling 為形容詞本身已表程度，不需 much 疊加。"
+      "zh": "只要具體財務數字不予公開，這項保密條款「並不排除」雙方在公開聲明中討論和解的一般性條款。",
+      "why": "<b>preclude...from</b>（阻止、排除…去做某事）精準對應此處「條款並未禁止雙方公開討論」的語境。conclude（做出結論、締結）語意不符；occlude（阻塞、遮蔽，多用於物理或醫學語境）與法律條款的禁止語意不符；collude（勾結、串通，通常帶負面違法意涵）語意完全不符。四字拼寫相近，屬進階詞彙易混淆辨析。"
     },
     {
-      "id": "2026-08-14-p5-3",
-      "tag": "進階動詞語意辨別（indemnify against，法律固定搭配）",
-      "pre": "Under the terms of the agreement, the contractor shall ",
-      "post": " the client against any claims arising from third-party property damage during the renovation.",
-      "opts": ["indemnify", "compensate", "reimburse", "insure"],
-      "ans": 0,
-      "zh": "根據協議條款，承包商應「保障」客戶免於因裝修期間第三方財產損害而生的任何求償。",
-      "why": "<b>indemnify...against</b> 為法律合約中的固定搭配，意指「保障某方免於承擔特定損失或求償責任」，精準對應此處契約保障條款的語境。compensate 通常搭配 for（compensate someone for a loss），而非 against；reimburse 指「償還已支出的費用」，與「保障免於求償」的語意不符；insure against 雖語意相近，但多用於購買保險以承擔未來風險，而非契約雙方之間直接的責任保障承諾，與此處合約條款用語不符。"
-    },
-    {
-      "id": "2026-08-14-p5-4",
-      "tag": "比較結構（The + 比較級...the + 比較級）",
+      "id": "2026-08-15-p5-4",
+      "tag": "動名詞作主詞",
       "pre": "",
-      "post": " the litigation drags on, the more resources both parties will be forced to divert from their core operations.",
-      "opts": ["The longer", "The long", "As long as", "So long"],
+      "post": " excessive overtime without corresponding compensation exposes the company to significant liability under labor law.",
+      "opts": ["Mandating", "Mandate", "To have mandated", "Mandated"],
       "ans": 0,
-      "zh": "這起訴訟「拖得越久」，雙方就「越被迫」從核心業務中挪用更多資源。",
-      "why": "<b>The + 比較級...the + 比較級</b> 為固定的相關比較結構，表「越…就越…」，此處須用 long 的比較級 <b>The longer</b> 與後方 the more resources 呼應。The long 缺少比較級變化，文法不完整；As long as 意指「只要」，表條件而非程度比較；So long（as）亦表條件語意，與此處程度遞增的比較結構不符。"
+      "zh": "「強制要求」超時加班卻不給予相對應的報酬，將使公司在勞動法下承擔重大法律責任。",
+      "why": "此句主詞須為動名詞片語，且動詞 exposes 為現在式單數，須搭配單數動名詞主詞 <b>Mandating</b>（表一般性、持續性的行為）。Mandate 為原形動詞，不能單獨作主詞；To have ​mandated 為完成式不定詞，語意上暗示動作已早於某個過去時間點完成，與此處泛指一般情況的現在式語意不符；Mandated 為過去分詞，無法單獨作為句子主詞使用。"
     }
   ],
   "p6": {
-    "id": "2026-08-14-p6",
-    "title": "NOTICE: Changes to Supplier Audit Procedures",
+    "id": "2026-08-15-p6",
+    "title": "NOTICE: New Protocol for International Wire Transfer Approvals",
     "seg": [
       [
-        "To all procurement staff: Beginning with the next fiscal quarter, all suppliers with annual contract values exceeding $500,000 ",
+        "To all finance staff: Effective this Monday, in light of a recent increase in attempted wire-fraud schemes targeting mid-sized firms, all international wire transfers exceeding $50,000 ",
         { "b": 0 },
-        " to an on-site compliance audit at least once every eighteen months, rather than the current three-year cycle."
+        " dual authorization from both the requesting department head and the treasury office before funds are released."
       ],
       [
         { "b": 1 },
-        ", suppliers who have maintained a clean compliance record for the past three consecutive audit cycles may be considered for a reduced-frequency review schedule upon written request."
+        ", transfers below this threshold will continue to follow the existing single-approval process, though staff are encouraged to flag any transaction that appears unusual regardless of amount."
       ],
       [
-        "Procurement managers are responsible for ensuring that all affected suppliers ",
+        "Any request that appears to ",
         { "b": 2 },
-        " of the revised schedule no later than thirty days before their next scheduled audit."
+        " standard vendor payment patterns—such as a sudden change in banking details or an unusually urgent deadline—should be escalated to the fraud prevention team immediately."
       ],
       [
         { "b": 3 },
-        " Questions regarding the revised audit schedule should be directed to the Supplier Compliance Office."
+        " A summary of common red flags associated with wire-fraud attempts has been circulated separately by the treasury office."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["will be subject", "are subject", "have been subject", "were subject"],
+        "opts": ["will require", "require", "have required", "are requiring"],
         "ans": 0,
-        "zh": "致所有採購同仁：自下一個財政季度起，年度合約金額超過五十萬美元的所有供應商，「均須」每十八個月至少接受一次實地法遵稽核，而非現行的三年週期。",
-        "why": "供應商是被稽核的對象，且句首明訂未來生效時點「Beginning with the next fiscal quarter」，須用未來式被動 <b>will be subject</b>（to）。are subject 為現在式，與尚未生效的未來規定不符；have been subject 為現在完成式，暗示已發生而非未來規定；were subject 為過去式，同樣不符合未來生效的語境。"
+        "zh": "致所有財務同仁：自本週一起，鑑於近期針對中型企業的電匯詐騙攻擊事件增加，所有超過五萬美元的國際電匯，「均將須」同時取得申請部門主管與財務部門的雙重授權，方可撥款。",
+        "why": "句首明訂未來生效時點「Effective this Monday」，須用未來式 <b>will require</b>。require 為現在式，雖可表一般性政策，但與句中明確的未來生效時點搭配時精準度不足；have required 為現在完成式，暗示已實施而非即將生效；are requiring 為現在進行式，同樣不符合宣布未來新規定的語境。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["However", "Furthermore", "For instance", "Namely"],
+        "opts": ["By comparison", "Accordingly", "In effect", "Meanwhile"],
         "ans": 0,
-        "zh": "「然而」，過去連續三個稽核週期皆維持良好法遵紀錄的供應商，得依書面申請考慮調整為較低頻率的審查排程。",
-        "why": "前句規定稽核頻率全面加密，本句說明「例外情況」——表現良好的供應商可申請降低頻率，兩句構成對比讓步關係，故選 <b>However</b>（然而）。Furthermore（此外）表補充遞進；For instance（例如）表舉例；Namely（即、也就是說）表具體說明，皆與此處的例外對比邏輯不符。"
+        "zh": "「相比之下」，低於此門檻的電匯仍依現行的單一核准流程辦理，但仍鼓勵同仁對任何顯得可疑的交易主動示警，不論金額大小。",
+        "why": "前句規定超過門檻的電匯須雙重授權，本句說明「相比之下」低於門檻者仍維持原流程，兩句構成明確對比，故選 <b>By comparison</b>（相比之下）。Accordingly（因此）表因果；In effect（實際上）表歸納重申；Meanwhile（同時）表另一時間軸的並行事件，皆與此處金額門檻的對比邏輯不符。"
       },
       {
-        "tag": "詞彙語意（動詞＋介系詞搭配）",
+        "tag": "詞彙語意（片語動詞）",
         "col1": true,
-        "opts": ["are notified", "are noticed", "are announced", "are advertised"],
+        "opts": ["deviate from", "derive from", "delegate to", "designate as"],
         "ans": 0,
-        "zh": "採購經理須確保所有受影響的供應商，在下次排定稽核日的三十天前「獲得通知」此一排程調整。",
-        "why": "<b>notify...of</b>（通知某人某事）為此處「將排程變更告知供應商」語境下的標準固定搭配。notice 作動詞意指「注意到、察覺」，並非「通知」的意思，語意不符；announce 通常用於「向大眾公開宣布」，且慣用搭配為 announce something to someone，而非 be announced of；advertise（廣告宣傳）語意與正式的合約通知完全無關。"
+        "zh": "任何看似「偏離」標準供應商付款模式的請款——例如銀行資訊突然變更，或是異常緊迫的截止期限——應立即上報詐騙防範小組。",
+        "why": "<b>deviate from</b>（偏離、違背常規）精準對應此處「請款模式異於正常標準」的語境。derive from（源自、衍生自）語意不符；delegate to（將任務委派給）與此處「請款模式的異常」無關；designate as（指定為、稱為）同樣語意不符。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "A detailed audit checklist and scheduling calendar are available on the procurement intranet page.",
-          "The company's annual supplier appreciation dinner will be held in November.",
-          "All employees must complete mandatory harassment prevention training by year-end.",
-          "The parking allocation for visiting suppliers has been updated for the new building."
+          "Employees who are uncertain whether a request meets the new threshold should consult their department's finance liaison.",
+          "The office supply order form has been updated and is now available online.",
+          "This year's holiday bonus schedule will be announced in December as usual.",
+          "The cafeteria's lunch menu will rotate seasonally starting next month."
         ],
         "ans": 0,
-        "zh": "「詳細的稽核檢查清單與排程日曆，皆可於採購部門內部網路頁面取得。」有關修訂後稽核排程的問題，應洽詢供應商法遵辦公室。",
-        "why": "段落主題為「供應商稽核程序變更通知」，此句提供稽核檢查清單與排程日曆的取得方式，與後句「問題應洽詢法遵辦公室」共同構成完整的操作指引收尾。其餘選項（供應商感謝晚宴、騷擾防治訓練、訪客停車分配）皆與供應商稽核程序無關，插入後語意斷裂。"
+        "zh": "「若同仁不確定某筆請款是否達到新門檻，應洽詢所屬部門的財務聯絡窗口。」有關電匯詐騙常見警訊的摘要，財務部門將另行發送。",
+        "why": "段落主題為「國際電匯核准新制通知」，此句提醒同仁若對門檻認定有疑問應洽詢財務聯絡窗口，與後句「詐騙警訊摘要另行發送」共同構成完整的政策操作指引。其餘選項（辦公用品表單、年終獎金時程、員工餐廳菜單）皆與電匯核准新制無關，插入後語意斷裂。"
       }
     ]
   }

@@ -1,132 +1,101 @@
 {
-  "date": "2026-08-13",
+  "date": "2026-08-14",
   "big_events": [
     {
-      "title": "Anthropic 傳洽購以色列新創 Decart AI，估值上看 60 億美元",
+      "title": "SpaceX完成600億美元收購AI編碼工具Cursor，正式併入SpaceXAI部門",
       "sources": [
-        {
-          "name": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-13/anthropic-said-in-talks-to-buy-ai-startup-decart-for-6-billion"
-        },
-        {
-          "name": "Haaretz",
-          "url": "https://www.haaretz.com/israel-news/tech-news/2026-08-13/ty-article/anthropic-reportedly-in-talks-to-buy-israeli-ai-startup-decart-for-6-billion/0000019f-f9f7-d569-a5ff-f9f7b6110000"
-        }
+        {"name": "CBS News", "url": "https://www.cbsnews.com/news/spacex-cursor-60-billion-ai-acquisition/"},
+        {"name": "Investing.com", "url": "https://www.investing.com/news/stock-market-news/spacex-completes-record-60-billion-acquisition-of-ai-coding-platform-cursor-4860737"}
       ],
-      "summary": "Anthropic 洽購即時影片生成暨晶片優化新創 Decart，恐為史上最大收購案",
-      "audience": "關注 AI 產業併購、Claude 生態系動態的科技創業者與投資人",
-      "pain_point": "不清楚 Anthropic 為何要跨足即時影片生成與晶片優化，也看不懂這對 Claude 未來功能的影響",
-      "title_idea": "Anthropic 砸60億美元收購影片AI新創，是要幹嘛？下一步Claude要出影片功能了？",
-      "local_angle": "華語圈目前多聚焦 Claude 的文字/程式能力，鮮少討論其影片生成布局，可搶先解讀「Claude未來會不會做影片」這個資訊差話題"
+      "summary": "SpaceX今日完成收購Cursor母公司Anysphere，Cursor團隊併入SpaceXAI旗下開發Grok系列",
+      "audience": "使用AI編碼工具的獨立開發者、Vibe Coding創作者",
+      "pain_point": "擔心愛用的AI編碼工具被收購後，資源與功能方向被迫轉向服務Grok生態系，喪失中立性與既有工作流",
+      "title_idea": "Cursor被馬斯克收購了！600億美元交易今日生效，AI編碼工具版圖大洗牌",
+      "local_angle": "海外開發者圈已在討論「Cursor會不會變Grok專屬」，華語Vibe Coding社群還沒跟上，搶先分析對台灣獨立開發者的實際影響"
     },
     {
-      "title": "Vibe Coding獨角獸 Lovable 半年估值翻倍，4億美元C輪衝上133億美元",
+      "title": "Apple首度為中國市場自研AI大模型，攜手阿里巴巴突破依賴外部模型策略",
       "sources": [
-        {
-          "name": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-12/ai-coding-startup-lovable-raises-400-million-at-13-3-billion-valuation"
-        },
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/"
-        },
-        {
-          "name": "TechNode",
-          "url": "https://technode.com/2026/08/13/tencent-backs-lovable-in-400-million-series-c-at-13-3-billion-valuation/"
-        }
+        {"name": "MacRumors", "url": "https://www.macrumors.com/2026/08/14/apple-trained-own-ai-model-for-china/"},
+        {"name": "The Japan Times", "url": "https://www.japantimes.co.jp/business/2026/08/14/apple-ai-model-china-alibaba/"}
       ],
-      "summary": "瑞典AI建站平台Lovable完成4億美元融資，年營收將近逼6億美元",
-      "audience": "想靠no-code/vibe coding做出產品的獨立開發者、自媒體創作者",
-      "pain_point": "不會寫程式、不知道用AI自然語言就能做出能賺錢的網站或App，誤以為一定要學會coding才能創業",
-      "title_idea": "不會寫程式也能估值百億？Lovable憑什麼半年內身價翻倍",
-      "local_angle": "華語圈vibe coding教學仍集中在Cursor/Claude Code，Lovable這類「純聊天就能上線產品」的平台討論度低，適合搶先做入門教學"
+      "summary": "蘋果打破慣例自訓中國專用模型，獲阿里巴巴協助，成首家獲中國批准提供自有AI模型的外國企業",
+      "audience": "關注中國科技政策、蘋果生態與跨國AI布局的科技創作者",
+      "pain_point": "不了解AI模型地緣政治化對外國企業中國營運策略的實際影響，也不清楚未來Apple Intelligence會如何因地區而異",
+      "title_idea": "蘋果罕見自建AI模型進軍中國！阿里巴巴神助攻，背後盤算是什麼？",
+      "local_angle": "這是蘋果首度獲中國官方批准使用自有模型，反映AI監管框架逐漸成形，華語科技媒體尚未深入拆解其商業邏輯"
     },
     {
-      "title": "OpenAI擴大ChatGPT廣告測試至英國、墨西哥、巴西、日本、南韓",
+      "title": "微軟統一版Copilot App今日起分階段推送，砍除多項免費功能、吉祥物Mico退場",
       "sources": [
-        {
-          "name": "gHacks",
-          "url": "https://www.ghacks.net/2026/08/13/openai-expands-chatgpt-ads-test-to-uk-mexico-brazil-japan-and-south-korea/"
-        },
-        {
-          "name": "OpenAI",
-          "url": "https://openai.com/index/testing-ads-in-chatgpt/"
-        },
-        {
-          "name": "Digiday",
-          "url": "https://digiday.com/media-buying/expand-thoughtfully-openai-offers-chatgpt-ads-to-new-markets-including-the-u-k-brazil-and-japan/"
-        }
+        {"name": "Tech Times", "url": "https://www.techtimes.com/articles/324537/20260814/microsoft-copilot-rollout-starts-free-deep-research-retired-four-days.htm"},
+        {"name": "The Register", "url": "https://www.theregister.com/ai-and-ml/2026/08/14/less-than-a-year-on-microsoft-tells-mico-to-pipe-down/5287793"}
       ],
-      "summary": "免費與Go版用戶對話中將出現標示廣告，付費訂閱用戶不受影響",
-      "audience": "依賴ChatGPT免費版工作的上班族、對AI商業模式感興趣的自媒體創作者",
-      "pain_point": "擔心免費版ChatGPT會被廣告干擾使用體驗，不確定該不該升級付費方案避免廣告",
-      "title_idea": "ChatGPT開始出現廣告了！免費仔要準備升級了嗎？",
-      "local_angle": "台灣尚未列入首波廣告測試名單，可提前預告「這波遲早會來」，並整理免費vs付費版差異懶人包"
+      "summary": "微軟今日起推送合併版Copilot App，同步砍除Deep Research等功能，AI角色Mico降級退場",
+      "audience": "企業用戶、Microsoft 365生態使用者、AI辦公工具重度使用者",
+      "pain_point": "常用的免費功能（如Deep Research）將在數天內消失，擔心既有工作流程被打斷卻不知替代方案",
+      "title_idea": "微軟Copilot大整併！免費版Deep Research4天後消失，你的AI辦公流程要換了",
+      "local_angle": "台灣不少中小企業剛導入Copilot做辦公自動化，這波功能砍除直接影響實際使用，適合搶做「哪些功能消失、如何因應」教學"
     }
   ],
   "tool_updates": [
     {
-      "title": "Google搶發Gemini 3.7 Flash，主打寫程式與AI代理任務、大砍五成價格",
+      "title": "ChatGPT新增Google Drive／Library深度整合，可直接開啟並編輯Docs/Sheets/Slides",
       "sources": [
-        {
-          "name": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-13/google-debuts-new-gemini-flash-while-top-ai-model-still-delayed"
-        },
-        {
-          "name": "MarkTechPost",
-          "url": "https://www.marktechpost.com/2026/08/13/google-ai-just-released-gemini-3-7-flash/"
-        },
-        {
-          "name": "Google DeepMind",
-          "url": "https://deepmind.google/models/model-cards/gemini-3-7-flash/"
-        }
+        {"name": "9to5Mac", "url": "https://9to5mac.com/2026/08/14/chatgpt-subscribers-can-now-open-and-edit-google-drive-files-from-inside-the-chat/"}
       ],
-      "summary": "新模型程式碼基準大幅提升，API價格較前代再降五成",
-      "audience": "用AI輔助寫程式的獨立開發者、想省錢用API做產品的創作者",
-      "pain_point": "常用的AI寫程式模型token太貴，或不知道該選哪個模型做agent類自動化任務",
-      "title_idea": "Google Gemini 3.7 Flash實測：寫程式更準，價格砍半，該換模型了嗎？",
-      "local_angle": "旗艦模型Gemini 3.5 Pro仍跳票，Google改推便宜快速的Flash應戰，華語圈可搶先做「性價比之王」實測比較影片"
+      "summary": "ChatGPT用戶今日起可在對話中直接開啟、編輯Google雲端硬碟文件並排比對",
+      "audience": "用ChatGPT處理文件、報告、資料分析的自由工作者與小型團隊",
+      "pain_point": "頻繁在瀏覽器分頁間切換、複製貼上Google文件內容，拖慢工作效率",
+      "title_idea": "ChatGPT終於打通Google雲端硬碟！不用再複製貼上，邊聊邊改文件實測",
+      "local_angle": "功能剛上線即可實測，搶在中文教學圈之前做「ChatGPT×Google Drive實戰示範」影片"
     },
     {
-      "title": "OpenAI推出Ultrafast模式，GPT-5.6 Sol靠Cerebras晶片提速14倍",
+      "title": "Claude Code Auto Mode今日起於Pro/Max/Team方案預設開啟",
       "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/"
-        },
-        {
-          "name": "OpenAI",
-          "url": "https://openai.com/index/previewing-ultrafast/"
-        },
-        {
-          "name": "9to5Mac",
-          "url": "https://9to5mac.com/2026/08/13/openai-previews-ultrafast-gpt-5-6-sol-running-up-to-14-times-faster/"
-        }
+        {"name": "Anthropic官方部落格", "url": "https://claude.com/blog/auto-mode-default-in-claude-code"}
       ],
-      "summary": "新服務層每秒可輸出750個token，先開放API限量預覽",
-      "audience": "開發即時客服、金融分析等對延遲敏感應用的AI工具開發者",
-      "pain_point": "用GPT做即時互動應用時回應速度太慢，導致使用者體驗差或流失",
-      "title_idea": "AI回覆快14倍是什麼概念？OpenAI Ultrafast模式全解析",
-      "local_angle": "目前僅限量開放給部分企業客戶，華語圈可搶先介紹「怎麼申請搶先體驗」，做資訊差內容"
+      "summary": "Claude Code今起自動模式成為預設，測試顯示AI攔截危險指令率89%，人類僅13.6%",
+      "audience": "用Claude Code開發產品的獨立開發者、AI輔助編程新手",
+      "pain_point": "不清楚Auto Mode開啟後哪些操作會被「自動放行」，擔心失控執行危險或不可逆指令",
+      "title_idea": "Claude Code今起『自動駕駛』預設開啟！人類抓漏率竟輸AI快7倍",
+      "local_angle": "台灣開發者若沒注意到這次預設值變更，可能誤以為Claude Code仍是逐步詢問模式，需即時提醒切換設定與風險控管技巧"
     },
     {
-      "title": "Claude Code更新至2.1.231，修復MCP OAuth登入卡關問題",
+      "title": "Suno推出Studio 2.0重大更新，支援MIDI匯入與DAW級混音編輯",
       "sources": [
-        {
-          "name": "Claude Code Changelog",
-          "url": "https://x.com/ClaudeCodeLog/status/2087823250680148125"
-        },
-        {
-          "name": "Claude Code Docs",
-          "url": "https://code.claude.com/docs/en/changelog"
-        }
+        {"name": "Music Ally", "url": "https://musically.com/2026/08/14/suno-rolls-out-a-major-daw-update-with-its-suno-studio-2-0/"}
       ],
-      "summary": "修正串接Slack等預註冊OAuth客戶端時redirect URI不符的登入失敗bug",
-      "audience": "用Claude Code串接Slack等MCP工具的開發者、AI工作流玩家",
-      "pain_point": "串接MCP服務時OAuth登入一直失敗，卡在redirect URI錯誤不知道怎麼修",
-      "title_idea": "Claude Code登入Slack一直失敗？2.1.231版本已修好這個bug",
-      "local_angle": "中文圈Claude Code教學多聚焦寫程式，MCP整合類的細節更新較少人講解，適合做「訂閱更新懶人包」系列內容"
+      "summary": "Suno今日上線Studio 2.0，可匯入編輯MIDI、內建AI聊天機器人生成樂器與人聲",
+      "audience": "用AI做Podcast配樂、短影音配樂、獨立音樂創作的內容創作者",
+      "pain_point": "現有AI音樂工具生成後很難二次編輯調整，只能整首重新生成，浪費大量時間",
+      "title_idea": "Suno Studio 2.0上線！AI生成音樂終於能像專業DAW一樣精修",
+      "local_angle": "華語配樂教學圈多還停留在「輸入提示詞生成整首歌」，這次的編輯功能是搶先卡位的新教學切角"
+    },
+    {
+      "title": "BeautyPlus推出AI Influencer虛擬網紅生成器，一鍵打造跨平台一致人設",
+      "sources": [
+        {"name": "Manila Times (GlobeNewswire)", "url": "https://www.manilatimes.net/2026/08/14/tmt-newswire/globenewswire/beautyplus-launches-ai-influencer-generator-for-consistent-virtual-content-creation/2405869"}
+      ],
+      "summary": "BeautyPlus上線AI Influencer工具，可生成臉部與風格一致的虛擬網紅並跨平台重複使用",
+      "audience": "想經營虛擬人設、不想露臉經營自媒體的個人創作者",
+      "pain_point": "想做AI虛擬網紅但每次生成的臉都不同，無法累積跨平台可辨識的角色形象",
+      "title_idea": "不用露臉也能當網紅！AI Influencer生成器讓你的虛擬分身臉永遠一致",
+      "local_angle": "華語圈「AI虛擬網紅」教學多聚焦Midjourney/Stable Diffusion手動調校，這款一鍵工具主打免技術門檻，適合做「小白也能上手」教學"
     }
   ],
-  "trends": []
+  "trends": [
+    {
+      "title": "Claude/Anthropic 8/14再度發生大規模服務中斷，644起用戶回報",
+      "sources": [
+        {"name": "Sunday Guardian Live", "url": "https://sundayguardianlive.com/world/claude-outage-today-is-claude-down-today-in-the-us-users-report-chat-login-ai-response-problems-check-claude-downdetector-status-260903/"},
+        {"name": "DesignTAXI Community", "url": "https://community.designtaxi.com/topic/35702-is-claude-anthropic-ai-down-august-14-2026/"}
+      ],
+      "summary": "Claude在美東時間8/14下午再度大規模異常，晚間8點半才修復完成",
+      "audience": "把Claude Code／Claude API當核心生產力工具的獨立開發者、小型新創",
+      "pain_point": "業務高度依賴單一AI服務商，一旦中斷就直接影響交付進度，卻沒有備援方案",
+      "title_idea": "Claude又當機了！獨立開發者該不該準備『AI備胎』方案？",
+      "local_angle": "這是本月第二次重大異常（前次為8/12），可延伸做「AI工具風險分散」教學，教華語創作者建立備援SOP"
+    }
+  ]
 }
