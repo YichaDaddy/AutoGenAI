@@ -1,5 +1,49 @@
 [
   {
+    "date": "2026-08-15",
+    "big_events": [
+      {
+        "title": "Anthropic公開Claude浮水印技術細節，用戶擔心被抓包代寫掀退訂潮",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/"
+          },
+          {
+            "name": "Gizmodo",
+            "url": "https://gizmodo.com/anthropic-explains-its-watermark-system-as-some-claude-users-loudly-revolt-2000799022"
+          }
+        ],
+        "summary": "Anthropic說明浮水印用圓周率數字當金鑰選字，用戶怕被抓包代寫掀退訂潮",
+        "audience": "職場上班族與接案工作者中，習慣用Claude寫報告、文案、作業的AI效率工具愛好者",
+        "pain_point": "不知道自己用Claude寫出來的內容其實已被嵌入肉眼看不見的偵測用浮水印，擔心被老闆、客戶或老師發現是AI代寫，卻搞不清楚該不該退訂或換工具因應",
+        "title_idea": "你的Claude文章其實被『蓋章』了！浮水印運作原理公開，用戶正大批退訂",
+        "local_angle": "台灣不少接案者、部落客、學生大量用Claude代寫文字工作，這波技術細節公開與用戶退訂潮台灣討論度還很低，適合搶先做「你的AI報告會不會被抓包」實測懶人包，同時提醒讀者評估風險再決定要不要繼續用"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "微軟證實不慎關閉Classic Outlook的Copilot功能，按鈕從介面消失",
+        "sources": [
+          {
+            "name": "Windows Latest",
+            "url": "https://www.windowslatest.com/2026/08/15/microsoft-confirms-it-accidentally-disabled-copilot-in-outlook-classic-and-we-wish-it-wasnt-a-mistake/"
+          },
+          {
+            "name": "Windows Report",
+            "url": "https://windowsreport.com/microsoft-confirms-copilot-is-going-missing-in-classic-outlook/"
+          }
+        ],
+        "summary": "舊版Outlook的Copilot按鈕從功能區與側邊欄消失，微軟證實是自己手滑關閉",
+        "audience": "公司仍用傳統版Outlook收發信、依賴Copilot AI協助回信與摘要的職場上班族與企業IT管理員",
+        "pain_point": "早上打開Outlook發現Copilot按鈕不見了，誤以為是公司IT關閉授權或帳號出問題，花時間排查工單卻其實是微軟自己搞砸的已知bug",
+        "title_idea": "你的Outlook Copilot按鈕不見了？微軟證實：是我們自己手滑關掉的",
+        "local_angle": "台灣企業IT部門常會收到員工反映『Copilot消失了』卻查不出原因，可做成『員工/IT兩用排除清單』，先確認是不是這次微軟已知bug，省去內部工單來回的時間"
+      }
+    ],
+    "trends": []
+  },
+  {
     "date": "2026-08-14",
     "big_events": [
       {
@@ -666,27 +710,6 @@
         "pain_point": "過去逐一核准指令雖然安全感較高但拖慢開發節奏,如今預設開啟自動模式雖提升效率,團隊管理者卻要重新盤點『哪些操作真的要人盯』,一旦權限範圍沒設定好,恐有非預期的破壞性操作發生",
         "title_idea": "Claude Code不再『每步都要問』:8/14起自動模式成預設,你的團隊準備好了嗎",
         "local_angle": "可製作「Claude Code自動模式安全設定指南」,教台灣中小型研發團隊在8/14生效前,先盤點哪些專案目錄或操作需額外設定核准關卡,避免自動模式上線後出現非預期的檔案異動或外部操作"
-      }
-    ],
-    "trends": []
-  },
-  {
-    "date": "2026-08-08",
-    "big_events": [],
-    "tool_updates": [
-      {
-        "title": "Claude Code週六連兩版更新:新增閘道用量上限提醒、跨機器對話可直接『點名』啟動",
-        "sources": [
-          {
-            "name": "Anthropic Claude Code Changelog",
-            "url": "https://code.claude.com/docs/en/changelog"
-          }
-        ],
-        "summary": "Anthropic於8/8釋出Claude Code v2.1.225與v2.1.226兩個版本更新。v2.1.225新增『閘道用量上限(gateway spend-limit)』提醒功能,當團隊用量觸及管理員設定的上限時,系統會直接告知上限金額、重置時間與管理員留言;針對未授信目錄新增『工作區信任提示』,行為與一般claude指令一致;Remote Control(遠端遙控)功能也升級,從Claude App傳來的照片可直接讓Claude『看到』,不用再另外呼叫工具讀取檔案,且可透過SendMessage直接以名稱『點名』啟動與其他機器上工作階段的對話,而非只能被動回覆。同時修復了多項錯誤,包括長時間使用後OAuth權杖過期導致headless工作階段中斷、macOS上MCP OAuth因鑰匙圈讀取逾時而出現一連串401錯誤、自動模式誤將安全過濾器拒絕計入連續中斷次數等問題。緊接著推出的v2.1.226則以錯誤修復與穩定性改善為主。",
-        "audience": "職場上班族中使用Claude Code處理程式開發、跨機器自動化流程或帶領研發團隊的人,尤其是企業IT與RD主管",
-        "pain_point": "團隊共用Claude Code閘道時常常搞不清楚額度用到哪、誰超標,也擔心遠端工作階段接不上話、要一直等對方先傳訊息才能互動,浪費排查問題的時間",
-        "title_idea": "Claude Code週六悄悄更新兩個版本:用量上限終於有提醒,遠端工作階段可以『主動點名』",
-        "local_angle": "可整理『Claude Code團隊版用量控管實用技巧』,說明閘道用量提醒與跨機器SendMessage點名功能,如何協助台灣中小型研發團隊避免額度爆表、加快跨裝置協作除錯的速度"
       }
     ],
     "trends": []

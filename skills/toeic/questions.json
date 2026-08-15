@@ -1,117 +1,117 @@
 {
-  "date": "2026-08-15",
+  "date": "2026-08-16",
   "p5": [
     {
-      "id": "2026-08-15-p5-0",
-      "tag": "假分裂句（What 引導名詞子句）",
+      "id": "2026-08-16-p5-0",
+      "tag": "強調句型（It is/was...that）",
+      "pre": "It was the whistleblower's testimony, not the forensic accountants' report, ",
+      "post": " ultimately persuaded the jury of the scheme's scale.",
+      "opts": ["that", "which", "who", "what"],
+      "ans": 0,
+      "zh": "「正是」吹哨者的證詞，而非鑑識會計師的報告，最終說服了陪審團這起騙局的規模之大。",
+      "why": "It is/was...<b>that</b>...為強調句型的固定連接詞，用以強調句中特定成分（此處為 the whistleblower's testimony）。which 雖可作關係代名詞，但在此強調句型中不符慣用語法；who 僅用於強調「人」，而 testimony（證詞）為事物，用法不符；what 無法用於此固定強調句型結構。"
+    },
+    {
+      "id": "2026-08-16-p5-1",
+      "tag": "否定倒裝（Little + 助動詞）",
       "pre": "",
-      "post": " ultimately persuaded the board to approve the acquisition was not the projected synergies but the target company's proprietary patent portfolio.",
-      "opts": ["What", "That", "Which", "It"],
+      "post": " did the auditors suspect that the discrepancy they dismissed as a rounding error concealed a multi-year embezzlement scheme.",
+      "opts": ["Little", "A little", "Few", "Less"],
       "ans": 0,
-      "zh": "最終說服董事會核准這起併購案的，「並非」預期的綜效，「而是」該目標公司獨有的專利組合。",
-      "why": "<b>What</b> 引導的名詞子句（複合關係代名詞，本身兼具先行詞與關係詞功能）可作句子主詞，構成「What...was...」的假分裂句（pseudo-cleft），用以強調後方訊息。That 與 Which 為關係代名詞，須有明確先行詞才能使用，此處句首並無先行詞；It 雖可用於分裂句（It was...that），但句型須為 It + be + 強調成分 + that，與此處 What 開頭的子句結構不符。"
+      "zh": "稽核人員「萬萬沒想到」，他們原本視為捨入誤差而不予理會的差額，竟隱藏著一場長達數年的侵占弊案。",
+      "why": "<b>Little</b> 為否定意味的副詞，置於句首表「完全沒有…」，須觸發主詞助動詞倒裝（Little did the auditors suspect...）為固定強調用法。A little 意指「有一點」，語意與 Little 完全相反，且不觸發倒裝；Few 用於修飾可數名詞，無法直接修飾動詞 suspect；Less 為比較級，不具備此處否定倒裝的慣用功能。"
     },
     {
-      "id": "2026-08-15-p5-1",
-      "tag": "簡化讓步子句（While + 現在分詞）",
-      "pre": "While ",
-      "post": " the seriousness of the allegations, the spokesperson declined to confirm whether an internal investigation had been launched.",
-      "opts": ["acknowledging", "acknowledged", "to acknowledge", "acknowledgment"],
+      "id": "2026-08-16-p5-2",
+      "tag": "正式目的子句（in order that）",
+      "pre": "The auditors recommended segregating financial duties among at least three employees ",
+      "post": " no single individual might have unchecked control over both approval and disbursement.",
+      "opts": ["in order that", "in order to", "so as", "for that"],
       "ans": 0,
-      "zh": "「儘管」承認了這些指控的嚴重性，該發言人仍拒絕證實內部調查是否已經展開。",
-      "why": "此為 While the spokesperson acknowledged... 的簡化子句，主詞（spokesperson）與動詞為主動關係，須用現在分詞 <b>acknowledging</b>。acknowledged 為過去式動詞，簡化子句中不可保留限定動詞形式；to acknowledge 為不定詞，通常表目的而非讓步動作；acknowledgment 為名詞，無法在此作為動詞使用。"
+      "zh": "稽核人員建議將財務職責分派給至少三名員工，「以便」不讓任何單一個人同時掌控核准與撥款的未受監督權力。",
+      "why": "<b>in order that</b> 為正式目的連接詞，後方須接「主詞＋動詞（常搭配 may/might/can 等情態動詞）」的完整子句，此處後接 no single individual might have... 恰為完整子句，故為正解。in order to 與 so as 皆須接不定詞（in order to have／so as to have），無法直接接完整子句；for that 並非標準的目的連接詞用法。"
     },
     {
-      "id": "2026-08-15-p5-2",
-      "tag": "倒裝句（Such was + 名詞 + that）",
-      "pre": "",
-      "post": " was the backlash from investors that the board convened an emergency meeting within twenty-four hours of the announcement.",
-      "opts": ["Such", "So", "Very", "That"],
+      "id": "2026-08-16-p5-3",
+      "tag": "進階詞彙（circumvent，同字根易混淆詞）",
+      "pre": "Rather than negotiating directly with the labor union, management attempted to ",
+      "post": " the collective bargaining process by offering individual employees separate incentive contracts.",
+      "opts": ["circumvent", "circumscribe", "circulate", "circumnavigate"],
       "ans": 0,
-      "zh": "投資人的反彈「如此」強烈，「以至於」董事會在消息公布後二十四小時內便召開緊急會議。",
-      "why": "<b>Such</b> + be動詞 + 名詞主詞 + that，為強調名詞程度之深的固定倒裝句型（Such was the backlash that...）。So 通常修飾形容詞或副詞（So great was the backlash that...），不可直接修飾名詞 backlash；Very 為一般副詞，不具備此倒裝強調功能；That 無法置於句首作程度強調語，文法不成立。"
+      "zh": "資方並未直接與工會協商，反而試圖透過向個別員工提供獨立的獎勵合約，來「規避」集體協商程序。",
+      "why": "<b>circumvent</b>（迂迴繞過、規避某項程序或規範）精準對應此處「透過旁門手法繞過集體協商」的語境。circumscribe（限制、劃定範圍）語意不符；circulate（傳閱、流通）語意不符；circumnavigate（環繞航行，多用於實際地理繞行）僅偶爾用於比喻，但不若 circumvent 精準對應「規避程序」的正式商務語境，四字同源字首 circum- 易混淆。"
     },
     {
-      "id": "2026-08-15-p5-3",
-      "tag": "進階詞彙（preclude，易混淆形似詞）",
-      "pre": "The confidentiality provision does not ",
-      "post": " the parties from discussing the settlement's general terms in public statements, provided that specific financial figures remain undisclosed.",
-      "opts": ["preclude", "conclude", "occlude", "collude"],
+      "id": "2026-08-16-p5-4",
+      "tag": "程度片語（all but，幾乎）",
+      "pre": "By the time the recall notice reached retailers, the defective batch had ",
+      "post": " sold out, leaving regulators with limited options for consumer protection.",
+      "opts": ["all but", "almost all", "not quite", "next to"],
       "ans": 0,
-      "zh": "只要具體財務數字不予公開，這項保密條款「並不排除」雙方在公開聲明中討論和解的一般性條款。",
-      "why": "<b>preclude...from</b>（阻止、排除…去做某事）精準對應此處「條款並未禁止雙方公開討論」的語境。conclude（做出結論、締結）語意不符；occlude（阻塞、遮蔽，多用於物理或醫學語境）與法律條款的禁止語意不符；collude（勾結、串通，通常帶負面違法意涵）語意完全不符。四字拼寫相近，屬進階詞彙易混淆辨析。"
-    },
-    {
-      "id": "2026-08-15-p5-4",
-      "tag": "動名詞作主詞",
-      "pre": "",
-      "post": " excessive overtime without corresponding compensation exposes the company to significant liability under labor law.",
-      "opts": ["Mandating", "Mandate", "To have mandated", "Mandated"],
-      "ans": 0,
-      "zh": "「強制要求」超時加班卻不給予相對應的報酬，將使公司在勞動法下承擔重大法律責任。",
-      "why": "此句主詞須為動名詞片語，且動詞 exposes 為現在式單數，須搭配單數動名詞主詞 <b>Mandating</b>（表一般性、持續性的行為）。Mandate 為原形動詞，不能單獨作主詞；To have ​mandated 為完成式不定詞，語意上暗示動作已早於某個過去時間點完成，與此處泛指一般情況的現在式語意不符；Mandated 為過去分詞，無法單獨作為句子主詞使用。"
+      "zh": "等到召回通知送達零售商時，這批瑕疵商品「幾乎已經」售罄，讓監管機關在消費者保護上幾乎沒有可用的選擇。",
+      "why": "<b>all but</b> 為固定片語，置於動詞之前表「幾乎、差一點就」，此處 had all but sold out 意指「幾乎已全數售罄」。almost all 須修飾名詞（almost all the batch），無法直接置於助動詞與動詞之間修飾 sold out；not quite（還不到、並非完全）語意方向相反，暗示尚有相當存貨；next to 通常搭配 nothing（next to nothing，幾乎等於零），不搭配 sold out 這類動詞片語。"
     }
   ],
   "p6": {
-    "id": "2026-08-15-p6",
-    "title": "NOTICE: New Protocol for International Wire Transfer Approvals",
+    "id": "2026-08-16-p6",
+    "title": "NOTICE: Mandatory Password Reset Following Third-Party Vendor Breach",
     "seg": [
       [
-        "To all finance staff: Effective this Monday, in light of a recent increase in attempted wire-fraud schemes targeting mid-sized firms, all international wire transfers exceeding $50,000 ",
+        "To all employees: Following a security breach disclosed by one of our third-party software vendors last week, all employees ",
         { "b": 0 },
-        " dual authorization from both the requesting department head and the treasury office before funds are released."
+        " their corporate account passwords by this Friday at 5:00 p.m., regardless of when their password was last changed."
       ],
       [
         { "b": 1 },
-        ", transfers below this threshold will continue to follow the existing single-approval process, though staff are encouraged to flag any transaction that appears unusual regardless of amount."
+        ", employees who access company systems through personal devices are additionally required to enable two-factor authentication if they have not already done so."
       ],
       [
-        "Any request that appears to ",
+        "IT Security asks that employees ",
         { "b": 2 },
-        " standard vendor payment patterns—such as a sudden change in banking details or an unusually urgent deadline—should be escalated to the fraud prevention team immediately."
+        " any suspicious login attempts or unfamiliar device notifications to the helpdesk immediately, even after completing the password reset."
       ],
       [
         { "b": 3 },
-        " A summary of common red flags associated with wire-fraud attempts has been circulated separately by the treasury office."
+        " Step-by-step instructions for the password reset and two-factor authentication setup are available on the IT Security intranet page."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["will require", "require", "have required", "are requiring"],
+        "opts": ["must reset", "reset", "have reset", "are resetting"],
         "ans": 0,
-        "zh": "致所有財務同仁：自本週一起，鑑於近期針對中型企業的電匯詐騙攻擊事件增加，所有超過五萬美元的國際電匯，「均將須」同時取得申請部門主管與財務部門的雙重授權，方可撥款。",
-        "why": "句首明訂未來生效時點「Effective this Monday」，須用未來式 <b>will require</b>。require 為現在式，雖可表一般性政策，但與句中明確的未來生效時點搭配時精準度不足；have required 為現在完成式，暗示已實施而非即將生效；are requiring 為現在進行式，同樣不符合宣布未來新規定的語境。"
+        "zh": "致所有員工：因應上週一家第三方軟體供應商所揭露的資安漏洞事件，所有員工「均須」在本週五下午五點前重設公司帳號密碼，無論上次變更密碼的時間為何。",
+        "why": "此句為正式公告的強制性規定，須用情態助動詞 <b>must reset</b>（必須重設）表達義務。reset 為原形動詞，缺少助動詞無法單獨表達強制規定的語氣；have reset 為現在完成式，暗示動作已完成而非即將要求執行；are resetting 為現在進行式，與正式規定公告的語氣不符。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["By comparison", "Accordingly", "In effect", "Meanwhile"],
+        "opts": ["In addition", "Otherwise", "Instead", "Nevertheless"],
         "ans": 0,
-        "zh": "「相比之下」，低於此門檻的電匯仍依現行的單一核准流程辦理，但仍鼓勵同仁對任何顯得可疑的交易主動示警，不論金額大小。",
-        "why": "前句規定超過門檻的電匯須雙重授權，本句說明「相比之下」低於門檻者仍維持原流程，兩句構成明確對比，故選 <b>By comparison</b>（相比之下）。Accordingly（因此）表因果；In effect（實際上）表歸納重申；Meanwhile（同時）表另一時間軸的並行事件，皆與此處金額門檻的對比邏輯不符。"
+        "zh": "「此外」，透過個人裝置存取公司系統的員工，若尚未啟用兩步驟驗證，則須額外完成此項設定。",
+        "why": "前句規定所有員工須重設密碼，本句「額外」補充特定員工（使用個人裝置者）的附加要求，兩句構成疊加補充關係，故選 <b>In addition</b>（此外）。Otherwise（否則）表條件下的反面結果；Instead（取而代之）表替代；Nevertheless（然而）表讓步對比，皆與此處單純疊加補充的語意不符。"
       },
       {
-        "tag": "詞彙語意（片語動詞）",
+        "tag": "詞彙語意（動詞辨析）",
         "col1": true,
-        "opts": ["deviate from", "derive from", "delegate to", "designate as"],
+        "opts": ["report", "reveal", "release", "record"],
         "ans": 0,
-        "zh": "任何看似「偏離」標準供應商付款模式的請款——例如銀行資訊突然變更，或是異常緊迫的截止期限——應立即上報詐騙防範小組。",
-        "why": "<b>deviate from</b>（偏離、違背常規）精準對應此處「請款模式異於正常標準」的語境。derive from（源自、衍生自）語意不符；delegate to（將任務委派給）與此處「請款模式的異常」無關；designate as（指定為、稱為）同樣語意不符。"
+        "zh": "資安團隊要求員工即使完成密碼重設後，仍應立即向服務台「通報」任何可疑的登入嘗試或陌生裝置通知。",
+        "why": "<b>report...to</b>（向…通報、上報）精準對應此處「將可疑活動回報給服務台」的語境。reveal（揭露秘密、透露隱情）語意與此處單純的資訊通報不符；release（發布、釋出）語意不符；record（記錄、登載）僅表留存資料的動作，未能傳達「立即知會服務台採取行動」的急迫性語意。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Employees who are uncertain whether a request meets the new threshold should consult their department's finance liaison.",
-          "The office supply order form has been updated and is now available online.",
-          "This year's holiday bonus schedule will be announced in December as usual.",
-          "The cafeteria's lunch menu will rotate seasonally starting next month."
+          "No further action is required from employees who completed a password reset within the past 48 hours.",
+          "The company holiday party planning committee is now accepting volunteers.",
+          "All conference room bookings must be made through the new scheduling system.",
+          "The building's badge access hours have been extended for the summer season."
         ],
         "ans": 0,
-        "zh": "「若同仁不確定某筆請款是否達到新門檻，應洽詢所屬部門的財務聯絡窗口。」有關電匯詐騙常見警訊的摘要，財務部門將另行發送。",
-        "why": "段落主題為「國際電匯核准新制通知」，此句提醒同仁若對門檻認定有疑問應洽詢財務聯絡窗口，與後句「詐騙警訊摘要另行發送」共同構成完整的政策操作指引。其餘選項（辦公用品表單、年終獎金時程、員工餐廳菜單）皆與電匯核准新制無關，插入後語意斷裂。"
+        "zh": "「過去四十八小時內已完成密碼重設的員工，無須採取進一步行動。」密碼重設與兩步驟驗證設定的逐步操作說明，皆可於資安部門內部網路頁面取得。",
+        "why": "段落主題為「因供應商資安漏洞而強制重設密碼」的通知，此句說明近期已完成重設者可豁免，與後句「操作說明可於內部網路取得」共同構成完整的政策操作指引。其餘選項（節慶派對志工、會議室預約系統、門禁時段調整）皆與密碼重設通知無關，插入後語意斷裂。"
       }
     ]
   }
