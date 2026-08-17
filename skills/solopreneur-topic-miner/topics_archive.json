@@ -1,5 +1,117 @@
 [
   {
+    "date": "2026-08-17",
+    "big_events": [
+      {
+        "title": "Stripe完成收購AI模型路由新創OpenRouter，金額超過70億美元",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/"
+          },
+          {
+            "name": "Tech Times",
+            "url": "https://www.techtimes.com/articles/324688/20260817/stripe-closes-7-billion-openrouter-deal-payment-giant-now-bills-routes-ai-traffic.htm"
+          }
+        ],
+        "summary": "支付巨頭Stripe完成收購AI模型路由平台OpenRouter，逾70億美元較3個月前估值暴漲5倍",
+        "audience": "使用多模型API的獨立開發者、AI SaaS創業者",
+        "pain_point": "不知道各家AI模型費用怎麼比價，也擔心串接多模型的路由服務未來被大平台整併，影響既有計費和串接方式",
+        "title_idea": "Stripe砸70億買下AI模型路由商！以後用ChatGPT/Claude API可能都要先過它",
+        "local_angle": "海外SaaS圈正在熱議「AI基礎設施整合」趨勢，台灣做AI工具或串接多模型服務的開發者多半還沒注意到，可搶先解讀這波整併對開發者計費與串接的實際影響"
+      },
+      {
+        "title": "Nvidia為OpenAI俄亥俄州新資料中心提供逾千億美元融資保證",
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/08/17/nvidia-financing-open-ai-data-center-ohio.html"
+          },
+          {
+            "name": "UPI",
+            "url": "https://www.upi.com/Top_News/US/2026/08/17/nvidia-openai-sb-energy-ports-pike-data-center-ohio/4201786985547/"
+          }
+        ],
+        "summary": "Nvidia同意為OpenAI俄亥俄州新資料中心提供最高1050億美元融資保證，部署10GW運算力",
+        "audience": "關注AI基礎設施、雲端算力成本的科技工作者、AI創業者",
+        "pain_point": "擔心GPU算力持續緊缺、雲端AI服務成本不透明，不確定這類天價投資最終會不會反映到API定價上",
+        "title_idea": "1050億美元！Nvidia替OpenAI蓋資料中心的規模到底有多誇張",
+        "local_angle": "這類基建新聞常被誤以為「與我無關」，但其實直接牽動未來API定價與算力供給穩定度，適合做成「AI算力軍備競賽對開發者的影響」科普選題"
+      },
+      {
+        "title": "AI影片生成新創Higgsfield完成4億美元B輪，估值達54億美元",
+        "sources": [
+          {
+            "name": "SiliconANGLE",
+            "url": "https://siliconangle.com/2026/08/17/higgsfield-raises-400m-at-5-4-billion-valuation-to-scale-video-and-image-generation-platform/"
+          },
+          {
+            "name": "PR Newswire",
+            "url": "https://www.prnewswire.com/news-releases/higgsfield-raises-400-million-series-b-financing-at-5-4-billion-valuation-with-annualized-revenue-reaching-700-million-302852430.html"
+          }
+        ],
+        "summary": "Higgsfield由DST Global領投完成4億美元B輪，估值54億美元，年化營收一年暴增至7億美元",
+        "audience": "用AI影片工具做內容或廣告的自媒體創作者、電商賣家",
+        "pain_point": "AI影片工具太多不知道怎麼選，也不確定哪個平台成長最快、最值得長期投入學習",
+        "title_idea": "年營收7億美元！這個AI影片工具一年成長35倍，海外創作者都在用它做什麼",
+        "local_angle": "Higgsfield在台灣、華語圈知名度還很低，但已被Goldman Sachs、Intel等機構重金押注，是搶先做工具測評與教學影片的好時機"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "Cursor「Builds」正式成為Cloud Agents預設模式，啟動速度快3倍",
+        "sources": [
+          {
+            "name": "Tech Times",
+            "url": "https://www.techtimes.com/articles/324667/20260817/cursor-builds-goes-default-agent-fleets-survive-bad-commits-start-three-times-faster.htm"
+          },
+          {
+            "name": "Cursor Changelog",
+            "url": "https://cursor.com/changelog/08-13-26"
+          }
+        ],
+        "summary": "Cursor今日起Builds成為所有雲端代理環境預設功能，啟動速度提升3倍且能自動回滾故障環境",
+        "audience": "使用Cursor做vibe coding的開發者、AI輔助寫程式的創作者",
+        "pain_point": "雲端AI編碼代理啟動慢、開發環境容易被壞的commit搞壞，要花時間手動重建",
+        "title_idea": "Cursor雲端Agent啟動速度變3倍快！這個新預設功能你打開了嗎",
+        "local_angle": "台灣vibe coding社群多聚焦在模型選擇本身，較少人講解Cursor底層基礎設施更新，可用「開發環境優化」角度做差異化教學"
+      },
+      {
+        "title": "Anthropic今日正式關閉Claude舊版Workbench與實驗性Prompt工具API",
+        "sources": [
+          {
+            "name": "Tech Times",
+            "url": "https://www.techtimes.com/articles/324669/20260817/anthropic-kills-claude-workbench-today-saved-prompts-gone-api-pipelines-broken.htm"
+          }
+        ],
+        "summary": "Claude Console舊版Workbench與三個實驗性Prompt生成API今日終止服務，未匯出資料將永久遺失",
+        "audience": "用Claude API做產品的開發者、AI Prompt工程師、寫Claude教學的創作者",
+        "pain_point": "沒有提前備份就會永久遺失存檔的prompt、變數與評測設定，串接舊API的自動化流程可能直接壞掉",
+        "title_idea": "還在用Claude舊版Workbench？今天起資料全部消失，你的Prompt還救得回來嗎",
+        "local_angle": "這是明確「今天生效」的急迫性新聞，很適合做成緊急提醒型短影音，第一時間解說替代方案搶流量"
+      },
+      {
+        "title": "Google今日關閉三個Imagen 4生圖模型，強制轉用費用更高的Gemini 3.1 Flash Image",
+        "sources": [
+          {
+            "name": "Kingy AI",
+            "url": "https://kingy.ai/ai-launch-tracker/google-will-shut-down-three-imagen-4-api-models-august-17/"
+          },
+          {
+            "name": "ByteIota",
+            "url": "https://byteiota.com/imagen-4-shutdown-august-17-migrate-to-gemini-image-api-now/"
+          }
+        ],
+        "summary": "Google今日關閉Imagen 4三個生圖模型ID，建議轉用Gemini 3.1 Flash Image，但介面不同且單張成本上升",
+        "audience": "用Google AI生圖API做產品的開發者、AI繪圖工具創業者",
+        "pain_point": "現有生圖功能今天起直接失效，新模型介面不同無法直接替換，生圖成本悄悄變貴",
+        "title_idea": "Google今天關掉這個生圖模型！沒轉移的AI工具可能直接壞掉",
+        "local_angle": "台灣有不少小工具、外掛是接Imagen 4 API做圖像生成服務，這則新聞有明確的「今日截止」時效性，適合搶先做緊急教學"
+      }
+    ],
+    "trends": []
+  },
+  {
     "date": "2026-08-15",
     "big_events": [
       {
@@ -669,49 +781,5 @@
         "local_angle": "這是「AI代理人失控」最新的活教材，華語圈個人自動化／OpenClaw教學正夯，這類「授權邊界」警世案例還沒人做過，適合切入做提醒型教學內容"
       }
     ]
-  },
-  {
-    "date": "2026-08-09",
-    "big_events": [
-      {
-        "title": "OpenAI旗下AI瀏覽器Atlas今日(8/9)正式關閉,瀏覽器代理功能併入ChatGPT與Codex",
-        "sources": [
-          {
-            "name": "OpenAI Help Center",
-            "url": "https://help.openai.com/en/articles/20001371-evolving-atlas-into-chatgpt-for-browser-based-agentic-work"
-          },
-          {
-            "name": "Tech Edition",
-            "url": "https://www.techedt.com/chatgpt-atlas-to-shut-down-on-9-august-as-openai-moves-browser-features-into-chatgpt"
-          }
-        ],
-        "summary": "OpenAI於2025年10月21日推出的macOS優先AI瀏覽器「ChatGPT Atlas」,主打『直接和瀏覽器對話』的代理式瀏覽體驗,在上線不到10個月後於2026年8月9日正式停止運作。OpenAI表示要將原本Atlas的瀏覽器代理能力,整合進ChatGPT桌面版App、Chrome擴充功能與Codex之中,不再另外維護獨立瀏覽器產品。官方在關閉前提供約30天的搬遷期,提醒用戶書籤、瀏覽紀錄、已儲存密碼與Cookie都不會自動轉移,需自行將書籤匯出成HTML檔案、把密碼與Cookie匯出至ChatGPT桌面版或Chrome;不過ChatGPT對話紀錄與Atlas是分開儲存,不受影響會持續保留。",
-        "audience": "職場上班族中曾用ChatGPT Atlas瀏覽器處理網頁研究、線上代辦事項、跨頁面資料蒐集的人,以及正評估是否採用AI瀏覽器工具的辦公室工作者",
-        "pain_point": "花時間建立的書籤、瀏覽紀錄、登入資訊隨產品關閉可能一夕消失,若沒在期限前備份與搬遷,等於要重新建立一套工作流程;也凸顯追逐熱門AI新工具的風險——上線不到一年就可能收掉",
-        "title_idea": "才用不到10個月就收掉!OpenAI Atlas瀏覽器8/9熄燈,上班族的資料搬家清單",
-        "local_angle": "可製作「AI瀏覽器工具關閉應變指南」,列出Atlas用戶現在就該做的資料備份步驟(書籤匯出HTML、密碼/Cookie匯出到ChatGPT桌面版),並提醒台灣讀者評估其他AI瀏覽器工具(如Perplexity Comet)時,把廠商產品週期不穩定的風險一併納入考量"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "Anthropic宣布Claude Code『自動模式』8/14起成Pro/Max/Team預設,外媒8/9持續追蹤安全爭議",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/"
-          },
-          {
-            "name": "Claude by Anthropic 官方部落格",
-            "url": "https://claude.com/blog/auto-mode-default-in-claude-code"
-          }
-        ],
-        "summary": "Anthropic已於8月7日在官方部落格宣布,自8月14日起,Claude Code在Pro、Max、Team方案上的新對話將預設開啟「自動模式(Auto Mode)」:不再對每個指令逐一跳出人工核准提示,而是讓所有動作先經過分類器篩選,只有被判定為『不可逆、破壞性、或指向工作環境外』的操作才會被攔下或轉為徵求許可,Enterprise方案則仍需自行選擇開啟。支持此決策的研究數據顯示,在1053位付費用戶的對照測試中,人工使用者僅能攔截13.6%被刻意植入的危險指令,自動模式的分類器卻能攔下89%。這則消息8月9日持續被TechCrunch、Cryptonomist等外媒報導與討論,也引發開發者社群對『AI自主執行範圍該收緊還是放寬』的辯論。",
-        "audience": "使用Claude Code處理程式開發、自動化流程的職場上班族,尤其是研發團隊主管與需評估AI代理權限風險的IT管理者",
-        "pain_point": "過去逐一核准指令雖然安全感較高但拖慢開發節奏,如今預設開啟自動模式雖提升效率,團隊管理者卻要重新盤點『哪些操作真的要人盯』,一旦權限範圍沒設定好,恐有非預期的破壞性操作發生",
-        "title_idea": "Claude Code不再『每步都要問』:8/14起自動模式成預設,你的團隊準備好了嗎",
-        "local_angle": "可製作「Claude Code自動模式安全設定指南」,教台灣中小型研發團隊在8/14生效前,先盤點哪些專案目錄或操作需額外設定核准關卡,避免自動模式上線後出現非預期的檔案異動或外部操作"
-      }
-    ],
-    "trends": []
   }
 ]
