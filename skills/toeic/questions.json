@@ -1,117 +1,117 @@
 {
-  "date": "2026-08-16",
+  "date": "2026-08-18",
   "p5": [
     {
-      "id": "2026-08-16-p5-0",
-      "tag": "強調句型（It is/was...that）",
-      "pre": "It was the whistleblower's testimony, not the forensic accountants' report, ",
-      "post": " ultimately persuaded the jury of the scheme's scale.",
-      "opts": ["that", "which", "who", "what"],
-      "ans": 0,
-      "zh": "「正是」吹哨者的證詞，而非鑑識會計師的報告，最終說服了陪審團這起騙局的規模之大。",
-      "why": "It is/was...<b>that</b>...為強調句型的固定連接詞，用以強調句中特定成分（此處為 the whistleblower's testimony）。which 雖可作關係代名詞，但在此強調句型中不符慣用語法；who 僅用於強調「人」，而 testimony（證詞）為事物，用法不符；what 無法用於此固定強調句型結構。"
-    },
-    {
-      "id": "2026-08-16-p5-1",
-      "tag": "否定倒裝（Little + 助動詞）",
+      "id": "2026-08-18-p5-0",
+      "tag": "讓步倒裝（形容詞 + as + 主詞 + 動詞）",
       "pre": "",
-      "post": " did the auditors suspect that the discrepancy they dismissed as a rounding error concealed a multi-year embezzlement scheme.",
-      "opts": ["Little", "A little", "Few", "Less"],
+      "post": " as the defense's closing argument may have seemed, it ultimately failed to overcome the weight of the forensic evidence.",
+      "opts": ["Persuasive", "Persuasively", "Persuasion", "To persuade"],
       "ans": 0,
-      "zh": "稽核人員「萬萬沒想到」，他們原本視為捨入誤差而不予理會的差額，竟隱藏著一場長達數年的侵占弊案。",
-      "why": "<b>Little</b> 為否定意味的副詞，置於句首表「完全沒有…」，須觸發主詞助動詞倒裝（Little did the auditors suspect...）為固定強調用法。A little 意指「有一點」，語意與 Little 完全相反，且不觸發倒裝；Few 用於修飾可數名詞，無法直接修飾動詞 suspect；Less 為比較級，不具備此處否定倒裝的慣用功能。"
+      "zh": "被告律師的結辯「儘管聽起來多麼有說服力」，終究無法勝過鑑識證據的份量。",
+      "why": "<b>形容詞 + as + 主詞 + 動詞</b> 為表讓步「無論多麼…」的固定倒裝結構（= However persuasive the argument may have seemed），須用形容詞 <b>Persuasive</b> 置於句首。Persuasively 為副詞，此固定倒裝句型須用形容詞而非副詞；Persuasion 為名詞，無法直接修飾 seemed 的補語位置；To persuade 為不定詞，不符合此讓步倒裝的文法結構。"
     },
     {
-      "id": "2026-08-16-p5-2",
-      "tag": "正式目的子句（in order that）",
-      "pre": "The auditors recommended segregating financial duties among at least three employees ",
-      "post": " no single individual might have unchecked control over both approval and disbursement.",
-      "opts": ["in order that", "in order to", "so as", "for that"],
+      "id": "2026-08-18-p5-1",
+      "tag": "簡化關係子句（現在分詞，主動語態）",
+      "pre": "Companies ",
+      "post": " artificial intelligence to automate routine compliance checks report significant reductions in processing time.",
+      "opts": ["employing", "employed", "having employed", "to employ"],
       "ans": 0,
-      "zh": "稽核人員建議將財務職責分派給至少三名員工，「以便」不讓任何單一個人同時掌控核准與撥款的未受監督權力。",
-      "why": "<b>in order that</b> 為正式目的連接詞，後方須接「主詞＋動詞（常搭配 may/might/can 等情態動詞）」的完整子句，此處後接 no single individual might have... 恰為完整子句，故為正解。in order to 與 so as 皆須接不定詞（in order to have／so as to have），無法直接接完整子句；for that 並非標準的目的連接詞用法。"
+      "zh": "「運用」人工智慧來自動化例行法遵檢查的公司，回報處理時間大幅縮短。",
+      "why": "此為關係子句 which employ 的簡化形式，先行詞 Companies 是主動使用 AI 的一方，須用主動現在分詞 <b>employing</b>。employed 為被動過去分詞，語態不符（公司並非被 AI 僱用）；having employed 為完成式分詞，暗示動作已早於某過去時點完成，與此處泛指現況的語意不符；to employ 為不定詞，不符合簡化關係子句的用法。"
     },
     {
-      "id": "2026-08-16-p5-3",
-      "tag": "進階詞彙（circumvent，同字根易混淆詞）",
-      "pre": "Rather than negotiating directly with the labor union, management attempted to ",
-      "post": " the collective bargaining process by offering individual employees separate incentive contracts.",
-      "opts": ["circumvent", "circumscribe", "circulate", "circumnavigate"],
+      "id": "2026-08-18-p5-2",
+      "tag": "對等連接詞主詞一致性（neither...nor，就近原則）",
+      "pre": "Neither the CEO nor the board members ",
+      "post": " aware of the subsidiary's undisclosed liabilities until the external auditors flagged the discrepancy.",
+      "opts": ["were", "was", "has been", "is"],
       "ans": 0,
-      "zh": "資方並未直接與工會協商，反而試圖透過向個別員工提供獨立的獎勵合約，來「規避」集體協商程序。",
-      "why": "<b>circumvent</b>（迂迴繞過、規避某項程序或規範）精準對應此處「透過旁門手法繞過集體協商」的語境。circumscribe（限制、劃定範圍）語意不符；circulate（傳閱、流通）語意不符；circumnavigate（環繞航行，多用於實際地理繞行）僅偶爾用於比喻，但不若 circumvent 精準對應「規避程序」的正式商務語境，四字同源字首 circum- 易混淆。"
+      "zh": "無論是執行長還是董事會成員，「都不」知情這家子公司未揭露的負債，直到外部稽核人員指出此一差異為止。",
+      "why": "neither...nor 連接兩個主詞時，動詞須與「較靠近動詞的主詞」保持一致（就近原則）。此處較靠近動詞的主詞為複數的 the board members，故用複數動詞 <b>were</b>。was 為單數動詞，若靠近的主詞是單數的 the CEO 才適用；has been 為單數現在完成式，數與時態皆不符；is 為單數現在式，同樣不符合複數主詞及過去語境的要求。"
     },
     {
-      "id": "2026-08-16-p5-4",
-      "tag": "程度片語（all but，幾乎）",
-      "pre": "By the time the recall notice reached retailers, the defective batch had ",
-      "post": " sold out, leaving regulators with limited options for consumer protection.",
-      "opts": ["all but", "almost all", "not quite", "next to"],
+      "id": "2026-08-18-p5-3",
+      "tag": "進階詞彙（exacerbate，同字首易混淆詞）",
+      "pre": "Delaying the product recall by even a few days could ",
+      "post": " the reputational damage already caused by the initial safety complaints.",
+      "opts": ["exacerbate", "extenuate", "exonerate", "expedite"],
       "ans": 0,
-      "zh": "等到召回通知送達零售商時，這批瑕疵商品「幾乎已經」售罄，讓監管機關在消費者保護上幾乎沒有可用的選擇。",
-      "why": "<b>all but</b> 為固定片語，置於動詞之前表「幾乎、差一點就」，此處 had all but sold out 意指「幾乎已全數售罄」。almost all 須修飾名詞（almost all the batch），無法直接置於助動詞與動詞之間修飾 sold out；not quite（還不到、並非完全）語意方向相反，暗示尚有相當存貨；next to 通常搭配 nothing（next to nothing，幾乎等於零），不搭配 sold out 這類動詞片語。"
+      "zh": "即使只是將產品召回延遲幾天，都可能「加劇」已因最初安全投訴而造成的商譽損害。",
+      "why": "<b>exacerbate</b>（使惡化、加劇）精準對應此處「延遲召回將使商譽損害更嚴重」的因果邏輯。extenuate（減輕過錯的嚴重性，常用於 extenuating circumstances）語意方向相反；exonerate（開脫罪責、還以清白）語意完全不符；expedite（加速進行）雖同為 ex- 字首的形似詞，但語意與「使損害惡化」無關，屬易混淆詞辨析。"
+      },
+    {
+      "id": "2026-08-18-p5-4",
+      "tag": "同等比較（as...as）",
+      "pre": "The startup's due-diligence process proved as rigorous ",
+      "post": " any conducted by the larger private equity firms competing for the same deal.",
+      "opts": ["as", "than", "that", "like"],
+      "ans": 0,
+      "zh": "這家新創公司的盡職調查流程，證明「與」那些角逐同一筆交易的大型私募股權公司所做的流程「同樣」嚴謹。",
+      "why": "<b>as + 形容詞 + as</b> 為表「同等程度」的固定比較結構，此處第二個 as 用以引出比較對象（any conducted by...）。than 須搭配比較級（-er 或 more），不符合 as rigorous 的原級形容詞結構；that 無法在此構成比較句型；like 雖可表類比，但無法直接接在 as rigorous 之後構成同等比較的固定句型。"
     }
   ],
   "p6": {
-    "id": "2026-08-16-p6",
-    "title": "NOTICE: Mandatory Password Reset Following Third-Party Vendor Breach",
+    "id": "2026-08-18-p6",
+    "title": "NOTICE: Temporary Adjustment to Purchase Order Approval Limits During System Migration",
     "seg": [
       [
-        "To all employees: Following a security breach disclosed by one of our third-party software vendors last week, all employees ",
+        "To all department heads: While our finance team migrates to the new enterprise resource planning system over the next three weeks, purchase order approval limits ",
         { "b": 0 },
-        " their corporate account passwords by this Friday at 5:00 p.m., regardless of when their password was last changed."
+        " temporarily to $10,000 per department, down from the standard $25,000, to reduce the risk of duplicate or erroneous entries during the transition."
       ],
       [
         { "b": 1 },
-        ", employees who access company systems through personal devices are additionally required to enable two-factor authentication if they have not already done so."
+        ", any purchase exceeding this temporary limit will require joint sign-off from both the requesting department head and the CFO's office."
       ],
       [
-        "IT Security asks that employees ",
+        "Department heads should ",
         { "b": 2 },
-        " any suspicious login attempts or unfamiliar device notifications to the helpdesk immediately, even after completing the password reset."
+        " any urgent or time-sensitive purchases before the migration begins, wherever possible, to avoid delays caused by the temporary approval bottleneck."
       ],
       [
         { "b": 3 },
-        " Step-by-step instructions for the password reset and two-factor authentication setup are available on the IT Security intranet page."
+        " The finance team will notify all department heads once the migration is complete and standard approval limits have been restored."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["must reset", "reset", "have reset", "are resetting"],
+        "opts": ["will be reduced", "reduce", "have reduced", "are reducing"],
         "ans": 0,
-        "zh": "致所有員工：因應上週一家第三方軟體供應商所揭露的資安漏洞事件，所有員工「均須」在本週五下午五點前重設公司帳號密碼，無論上次變更密碼的時間為何。",
-        "why": "此句為正式公告的強制性規定，須用情態助動詞 <b>must reset</b>（必須重設）表達義務。reset 為原形動詞，缺少助動詞無法單獨表達強制規定的語氣；have reset 為現在完成式，暗示動作已完成而非即將要求執行；are resetting 為現在進行式，與正式規定公告的語氣不符。"
+        "zh": "致所有部門主管：在財務團隊於未來三週內遷移至新版企業資源規劃系統期間，各部門的請購核准額度「將」暫時「調降」至一萬美元，低於原本的兩萬五千美元標準，以降低過渡期間重複或錯誤請購的風險。",
+        "why": "核准額度是被調降的對象，且句中明訂即將展開的未來期間「over the next three weeks」，須用未來式被動 <b>will be reduced</b>。reduce 為原形動詞，缺少助動詞且非被動，不符文法；have reduced 為現在完成式，暗示已完成而非即將調整；are reducing 為現在進行式主動，同樣不符合被動及未來時態的要求。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["In addition", "Otherwise", "Instead", "Nevertheless"],
+        "opts": ["Accordingly", "Nevertheless", "For example", "Similarly"],
         "ans": 0,
-        "zh": "「此外」，透過個人裝置存取公司系統的員工，若尚未啟用兩步驟驗證，則須額外完成此項設定。",
-        "why": "前句規定所有員工須重設密碼，本句「額外」補充特定員工（使用個人裝置者）的附加要求，兩句構成疊加補充關係，故選 <b>In addition</b>（此外）。Otherwise（否則）表條件下的反面結果；Instead（取而代之）表替代；Nevertheless（然而）表讓步對比，皆與此處單純疊加補充的語意不符。"
+        "zh": "「因此」，任何超過此暫定額度的請購，皆須同時取得請購部門主管與財務長辦公室的雙重簽核。",
+        "why": "前句說明核准額度暫時調降，本句說明「因此」超過此額度的請購須經雙重簽核，兩句構成合理的因果承接關係，故選 <b>Accordingly</b>（因此）。Nevertheless（然而）表讓步對比；For example（例如）表舉例；Similarly（同樣地）表類比延續，皆與此處的因果邏輯不符。"
       },
       {
-        "tag": "詞彙語意（動詞辨析）",
+        "tag": "詞彙語意（同字首易混淆詞）",
         "col1": true,
-        "opts": ["report", "reveal", "release", "record"],
+        "opts": ["expedite", "extradite", "exemplify", "extrapolate"],
         "ans": 0,
-        "zh": "資安團隊要求員工即使完成密碼重設後，仍應立即向服務台「通報」任何可疑的登入嘗試或陌生裝置通知。",
-        "why": "<b>report...to</b>（向…通報、上報）精準對應此處「將可疑活動回報給服務台」的語境。reveal（揭露秘密、透露隱情）語意與此處單純的資訊通報不符；release（發布、釋出）語意不符；record（記錄、登載）僅表留存資料的動作，未能傳達「立即知會服務台採取行動」的急迫性語意。"
+        "zh": "各部門主管應盡可能在系統遷移開始前，「加速處理」任何緊急或時效性高的請購案，以避免因暫時性核准瓶頸而造成延誤。",
+        "why": "<b>expedite</b>（加速處理、加快進行）精準對應此處「在系統遷移前盡快完成緊急請購」的語境。extradite（引渡罪犯至另一司法管轄區）為法律專有詞彙，與此處語境完全無關；exemplify（舉例說明、作為…的範例）語意不符；extrapolate（依已知數據推斷、外推）語意不符，四字同為 ex- 字首形似詞，屬進階詞彙易混淆辨析。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "No further action is required from employees who completed a password reset within the past 48 hours.",
-          "The company holiday party planning committee is now accepting volunteers.",
-          "All conference room bookings must be made through the new scheduling system.",
-          "The building's badge access hours have been extended for the summer season."
+          "A complete list of temporary approval procedures is available on the finance intranet page.",
+          "The company's annual budget planning cycle will begin in October as usual.",
+          "All expense reports must still be submitted within thirty days of purchase.",
+          "The finance department's office hours have been extended during tax season."
         ],
         "ans": 0,
-        "zh": "「過去四十八小時內已完成密碼重設的員工，無須採取進一步行動。」密碼重設與兩步驟驗證設定的逐步操作說明，皆可於資安部門內部網路頁面取得。",
-        "why": "段落主題為「因供應商資安漏洞而強制重設密碼」的通知，此句說明近期已完成重設者可豁免，與後句「操作說明可於內部網路取得」共同構成完整的政策操作指引。其餘選項（節慶派對志工、會議室預約系統、門禁時段調整）皆與密碼重設通知無關，插入後語意斷裂。"
+        "zh": "「完整的暫行核准程序清單，可於財務部門內部網路頁面取得。」財務團隊將在系統遷移完成、標準核准額度恢復後，另行通知所有部門主管。",
+        "why": "段落主題為「系統遷移期間請購核准額度暫時調整通知」，此句提供暫行核准程序清單的取得方式，與後句「遷移完成後將另行通知」共同構成完整的過渡期操作指引。其餘選項（年度預算規劃週期、費用核銷提醒、財務部門辦公時間調整）皆與請購核准額度調整無關，插入後語意斷裂。"
       }
     ]
   }
