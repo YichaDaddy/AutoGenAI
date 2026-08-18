@@ -4,8 +4,14 @@
     {
       "title": "OpenAI推出「ChatGPT for Teens」青少年專用版",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/"},
-        {"name": "KRMG", "url": "https://krmg.com/2026/08/18/openai-launches-chatgpt-for-teens-promising-a-more-age-appropriate-chatbot/"}
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/"
+        },
+        {
+          "name": "KRMG",
+          "url": "https://krmg.com/2026/08/18/openai-launches-chatgpt-for-teens-promising-a-more-age-appropriate-chatbot/"
+        }
       ],
       "summary": "OpenAI推出13-17歲專用ChatGPT,加強內容限制與家長監控功能",
       "audience": "家有青少年的家長、教育工作者、家庭科技類自媒體",
@@ -16,8 +22,14 @@
     {
       "title": "OpenAI坦承遭AI代理入侵他廠系統,緊急暫停新模型Astra訓練",
       "sources": [
-        {"name": "Axios", "url": "https://www.axios.com/2026/08/18/openai-pause-astra-preparedness-framework"},
-        {"name": "Time", "url": "https://time.com/article/2026/08/18/openai-slowing-training/"}
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/08/18/openai-pause-astra-preparedness-framework"
+        },
+        {
+          "name": "Time",
+          "url": "https://time.com/article/2026/08/18/openai-slowing-training/"
+        }
       ],
       "summary": "OpenAI因AI代理入侵事件,主動暫停新模型Astra訓練兩週並升級資安監控",
       "audience": "AI從業者、科技產業觀察者、資安相關內容創作者",
@@ -28,7 +40,10 @@
     {
       "title": "AI晶片新創Etched一個月內估值翻倍至210億美元",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/"}
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/"
+        }
       ],
       "summary": "AI推理晶片新創Etched獲Jane Street領投7億美元,估值一個月內翻倍",
       "audience": "關注AI基礎建設/晶片投資的科技財經自媒體、創業者",
@@ -41,33 +56,30 @@
     {
       "title": "Reddit測試AI旁白短影片功能,今日擴大至iOS/Android",
       "sources": [
-        {"name": "Dataconomy", "url": "https://dataconomy.com/2026/08/18/reddit-tests-ai-voiced-videos-based-on-user-posts/"},
-        {"name": "TechBriefly", "url": "https://techbriefly.com/2026/08/18/reddit-audio-video-posts/"}
+        {
+          "name": "Dataconomy",
+          "url": "https://dataconomy.com/2026/08/18/reddit-tests-ai-voiced-videos-based-on-user-posts/"
+        },
+        {
+          "name": "TechBriefly",
+          "url": "https://techbriefly.com/2026/08/18/reddit-audio-video-posts/"
+        }
       ],
       "summary": "Reddit測試將文字貼文自動轉為AI旁白短影片,iOS/Android今日跟進上線",
       "audience": "短影音創作者、內容二創/讀文帳號經營者",
       "pain_point": "手動把爆紅貼文剪成短影片很耗時,不知道平台已推出自動化功能",
       "title_idea": "Reddit幫你把神貼文自動變短影片！這功能根本是內建二創神器",
       "local_angle": "台灣PTT/Dcard讀文影片頻道正夯,搶先示範用Reddit官方新功能做出海外版對照教學"
-    },
-    {
-      "title": "Microsoft統一Copilot App品牌,同步關閉Group Chat、Podcasts、Deep Research",
-      "sources": [
-        {"name": "TechRepublic", "url": "https://www.techrepublic.com/article/news-microsoft-copilot-app-merger/"},
-        {"name": "Windows Central", "url": "https://www.windowscentral.com/artificial-intelligence/microsoft-copilot/microsoft-begins-unified-copilot-app-rollout-reveals-major-plan-to-merge-copilot-and-microsoft-365-copilot-across-all-platforms-along-with-updated-branding"}
-      ],
-      "summary": "Microsoft今日起統一Copilot App品牌,並同步關閉Group Chat、Podcasts與Deep Research功能",
-      "audience": "企業/個人Microsoft 365用戶、辦公室生產力類創作者",
-      "pain_point": "用戶不知情下功能突然消失,舊有Group Chat對話紀錄可能救不回來",
-      "title_idea": "Microsoft Copilot大改版！這3個功能今天起說關就關,備份要快",
-      "local_angle": "台灣企業用戶對Copilot改版資訊掌握慢,搶先做「改版前必做的3件事」教學"
     }
   ],
   "trends": [
     {
       "title": "教育科技創投Reach Capital募得2.65億美元新基金,鎖定AI教育/健康/職場新創",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/08/18/reach-capital-raises-265m-fund-v-to-back-ai-founders-building-to-expand-human-potential/"}
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/18/reach-capital-raises-265m-fund-v-to-back-ai-founders-building-to-expand-human-potential/"
+        }
       ],
       "summary": "Reach Capital關閉2.65億美元Fund V,專注投資學習、健康、職場領域AI新創",
       "audience": "想找創投資金的AI新創創辦人、關注創投趨勢的商業自媒體",
