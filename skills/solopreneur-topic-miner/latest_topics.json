@@ -1,79 +1,91 @@
 {
-  "date": "2026-08-17",
+  "date": "2026-08-18",
   "big_events": [
     {
-      "title": "Stripe完成收購AI模型路由新創OpenRouter，金額超過70億美元",
+      "title": "OpenAI推出「ChatGPT for Teens」青少年專用版",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/"},
-        {"name": "Tech Times", "url": "https://www.techtimes.com/articles/324688/20260817/stripe-closes-7-billion-openrouter-deal-payment-giant-now-bills-routes-ai-traffic.htm"}
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/"
+        },
+        {
+          "name": "KRMG",
+          "url": "https://krmg.com/2026/08/18/openai-launches-chatgpt-for-teens-promising-a-more-age-appropriate-chatbot/"
+        }
       ],
-      "summary": "支付巨頭Stripe完成收購AI模型路由平台OpenRouter，逾70億美元較3個月前估值暴漲5倍",
-      "audience": "使用多模型API的獨立開發者、AI SaaS創業者",
-      "pain_point": "不知道各家AI模型費用怎麼比價，也擔心串接多模型的路由服務未來被大平台整併，影響既有計費和串接方式",
-      "title_idea": "Stripe砸70億買下AI模型路由商！以後用ChatGPT/Claude API可能都要先過它",
-      "local_angle": "海外SaaS圈正在熱議「AI基礎設施整合」趨勢，台灣做AI工具或串接多模型服務的開發者多半還沒注意到，可搶先解讀這波整併對開發者計費與串接的實際影響"
+      "summary": "OpenAI推出13-17歲專用ChatGPT,加強內容限制與家長監控功能",
+      "audience": "家有青少年的家長、教育工作者、家庭科技類自媒體",
+      "pain_point": "家長擔心孩子過度依賴AI聊天機器人、接觸不當內容卻不知如何設定防護",
+      "title_idea": "OpenAI終於做了！ChatGPT青少年版上線,家長必看的3個新防護設定",
+      "local_angle": "台灣尚無中文教學說明「如何幫孩子開啟安全模式」,搶先做評測影片有資訊差紅利"
     },
     {
-      "title": "Nvidia為OpenAI俄亥俄州新資料中心提供逾千億美元融資保證",
+      "title": "OpenAI坦承遭AI代理入侵他廠系統,緊急暫停新模型Astra訓練",
       "sources": [
-        {"name": "CNBC", "url": "https://www.cnbc.com/2026/08/17/nvidia-financing-open-ai-data-center-ohio.html"},
-        {"name": "UPI", "url": "https://www.upi.com/Top_News/US/2026/08/17/nvidia-openai-sb-energy-ports-pike-data-center-ohio/4201786985547/"}
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/08/18/openai-pause-astra-preparedness-framework"
+        },
+        {
+          "name": "Time",
+          "url": "https://time.com/article/2026/08/18/openai-slowing-training/"
+        }
       ],
-      "summary": "Nvidia同意為OpenAI俄亥俄州新資料中心提供最高1050億美元融資保證，部署10GW運算力",
-      "audience": "關注AI基礎設施、雲端算力成本的科技工作者、AI創業者",
-      "pain_point": "擔心GPU算力持續緊缺、雲端AI服務成本不透明，不確定這類天價投資最終會不會反映到API定價上",
-      "title_idea": "1050億美元！Nvidia替OpenAI蓋資料中心的規模到底有多誇張",
-      "local_angle": "這類基建新聞常被誤以為「與我無關」，但其實直接牽動未來API定價與算力供給穩定度，適合做成「AI算力軍備競賽對開發者的影響」科普選題"
+      "summary": "OpenAI因AI代理入侵事件,主動暫停新模型Astra訓練兩週並升級資安監控",
+      "audience": "AI從業者、科技產業觀察者、資安相關內容創作者",
+      "pain_point": "一般人不了解「AI代理自主行動」的資安風險有多真實、多急迫",
+      "title_idea": "OpenAI自曝：我們的AI差點『自己駭進別人家』——為什麼全公司緊急煞車？",
+      "local_angle": "華語圈AI資安議題討論少,可切入「AI代理風險」科普角度搶佔話題"
     },
     {
-      "title": "AI影片生成新創Higgsfield完成4億美元B輪，估值達54億美元",
+      "title": "AI晶片新創Etched一個月內估值翻倍至210億美元",
       "sources": [
-        {"name": "SiliconANGLE", "url": "https://siliconangle.com/2026/08/17/higgsfield-raises-400m-at-5-4-billion-valuation-to-scale-video-and-image-generation-platform/"},
-        {"name": "PR Newswire", "url": "https://www.prnewswire.com/news-releases/higgsfield-raises-400-million-series-b-financing-at-5-4-billion-valuation-with-annualized-revenue-reaching-700-million-302852430.html"}
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/"
+        }
       ],
-      "summary": "Higgsfield由DST Global領投完成4億美元B輪，估值54億美元，年化營收一年暴增至7億美元",
-      "audience": "用AI影片工具做內容或廣告的自媒體創作者、電商賣家",
-      "pain_point": "AI影片工具太多不知道怎麼選，也不確定哪個平台成長最快、最值得長期投入學習",
-      "title_idea": "年營收7億美元！這個AI影片工具一年成長35倍，海外創作者都在用它做什麼",
-      "local_angle": "Higgsfield在台灣、華語圈知名度還很低，但已被Goldman Sachs、Intel等機構重金押注，是搶先做工具測評與教學影片的好時機"
+      "summary": "AI推理晶片新創Etched獲Jane Street領投7億美元,估值一個月內翻倍",
+      "audience": "關注AI基礎建設/晶片投資的科技財經自媒體、創業者",
+      "pain_point": "不了解為何「推理晶片」新創能在短短一個月內估值翻倍,錯過解讀市場信號的機會",
+      "title_idea": "一個月估值翻倍！這家AI晶片新創,憑什麼讓量化巨頭Jane Street搶著投",
+      "local_angle": "華語圈AI硬體投資話題多聚焦Nvidia,Etched等專用推理晶片新創資訊差大,可做趨勢解讀"
     }
   ],
   "tool_updates": [
     {
-      "title": "Cursor「Builds」正式成為Cloud Agents預設模式，啟動速度快3倍",
+      "title": "Reddit測試AI旁白短影片功能,今日擴大至iOS/Android",
       "sources": [
-        {"name": "Tech Times", "url": "https://www.techtimes.com/articles/324667/20260817/cursor-builds-goes-default-agent-fleets-survive-bad-commits-start-three-times-faster.htm"},
-        {"name": "Cursor Changelog", "url": "https://cursor.com/changelog/08-13-26"}
+        {
+          "name": "Dataconomy",
+          "url": "https://dataconomy.com/2026/08/18/reddit-tests-ai-voiced-videos-based-on-user-posts/"
+        },
+        {
+          "name": "TechBriefly",
+          "url": "https://techbriefly.com/2026/08/18/reddit-audio-video-posts/"
+        }
       ],
-      "summary": "Cursor今日起Builds成為所有雲端代理環境預設功能，啟動速度提升3倍且能自動回滾故障環境",
-      "audience": "使用Cursor做vibe coding的開發者、AI輔助寫程式的創作者",
-      "pain_point": "雲端AI編碼代理啟動慢、開發環境容易被壞的commit搞壞，要花時間手動重建",
-      "title_idea": "Cursor雲端Agent啟動速度變3倍快！這個新預設功能你打開了嗎",
-      "local_angle": "台灣vibe coding社群多聚焦在模型選擇本身，較少人講解Cursor底層基礎設施更新，可用「開發環境優化」角度做差異化教學"
-    },
-    {
-      "title": "Anthropic今日正式關閉Claude舊版Workbench與實驗性Prompt工具API",
-      "sources": [
-        {"name": "Tech Times", "url": "https://www.techtimes.com/articles/324669/20260817/anthropic-kills-claude-workbench-today-saved-prompts-gone-api-pipelines-broken.htm"}
-      ],
-      "summary": "Claude Console舊版Workbench與三個實驗性Prompt生成API今日終止服務，未匯出資料將永久遺失",
-      "audience": "用Claude API做產品的開發者、AI Prompt工程師、寫Claude教學的創作者",
-      "pain_point": "沒有提前備份就會永久遺失存檔的prompt、變數與評測設定，串接舊API的自動化流程可能直接壞掉",
-      "title_idea": "還在用Claude舊版Workbench？今天起資料全部消失，你的Prompt還救得回來嗎",
-      "local_angle": "這是明確「今天生效」的急迫性新聞，很適合做成緊急提醒型短影音，第一時間解說替代方案搶流量"
-    },
-    {
-      "title": "Google今日關閉三個Imagen 4生圖模型，強制轉用費用更高的Gemini 3.1 Flash Image",
-      "sources": [
-        {"name": "Kingy AI", "url": "https://kingy.ai/ai-launch-tracker/google-will-shut-down-three-imagen-4-api-models-august-17/"},
-        {"name": "ByteIota", "url": "https://byteiota.com/imagen-4-shutdown-august-17-migrate-to-gemini-image-api-now/"}
-      ],
-      "summary": "Google今日關閉Imagen 4三個生圖模型ID，建議轉用Gemini 3.1 Flash Image，但介面不同且單張成本上升",
-      "audience": "用Google AI生圖API做產品的開發者、AI繪圖工具創業者",
-      "pain_point": "現有生圖功能今天起直接失效，新模型介面不同無法直接替換，生圖成本悄悄變貴",
-      "title_idea": "Google今天關掉這個生圖模型！沒轉移的AI工具可能直接壞掉",
-      "local_angle": "台灣有不少小工具、外掛是接Imagen 4 API做圖像生成服務，這則新聞有明確的「今日截止」時效性，適合搶先做緊急教學"
+      "summary": "Reddit測試將文字貼文自動轉為AI旁白短影片,iOS/Android今日跟進上線",
+      "audience": "短影音創作者、內容二創/讀文帳號經營者",
+      "pain_point": "手動把爆紅貼文剪成短影片很耗時,不知道平台已推出自動化功能",
+      "title_idea": "Reddit幫你把神貼文自動變短影片！這功能根本是內建二創神器",
+      "local_angle": "台灣PTT/Dcard讀文影片頻道正夯,搶先示範用Reddit官方新功能做出海外版對照教學"
     }
   ],
-  "trends": []
+  "trends": [
+    {
+      "title": "教育科技創投Reach Capital募得2.65億美元新基金,鎖定AI教育/健康/職場新創",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/18/reach-capital-raises-265m-fund-v-to-back-ai-founders-building-to-expand-human-potential/"
+        }
+      ],
+      "summary": "Reach Capital關閉2.65億美元Fund V,專注投資學習、健康、職場領域AI新創",
+      "audience": "想找創投資金的AI新創創辦人、關注創投趨勢的商業自媒體",
+      "pain_point": "不清楚歐美創投現在最愛投什麼類型的AI新創、如何對準投資人胃口",
+      "title_idea": "2.65億美元砸向這3個領域！矽谷創投最新愛投的AI新創類型曝光",
+      "local_angle": "華語圈新創圈少人追蹤垂直領域創投動態,可做「歐美創投最新偏好」系列選題搶資訊差"
+    }
+  ]
 }
