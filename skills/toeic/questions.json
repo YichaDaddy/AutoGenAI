@@ -1,117 +1,117 @@
 {
-  "date": "2026-08-18",
+  "date": "2026-08-19",
   "p5": [
     {
-      "id": "2026-08-18-p5-0",
-      "tag": "讓步倒裝（形容詞 + as + 主詞 + 動詞）",
-      "pre": "",
-      "post": " as the defense's closing argument may have seemed, it ultimately failed to overcome the weight of the forensic evidence.",
-      "opts": ["Persuasive", "Persuasively", "Persuasion", "To persuade"],
+      "id": "2026-08-19-p5-0",
+      "tag": "否定倒裝（Not until...did）",
+      "pre": "Not until the third round of negotiations ",
+      "post": " the two sides finally reach a consensus on the licensing fee structure.",
+      "opts": ["did", "have", "were", "had"],
       "ans": 0,
-      "zh": "被告律師的結辯「儘管聽起來多麼有說服力」，終究無法勝過鑑識證據的份量。",
-      "why": "<b>形容詞 + as + 主詞 + 動詞</b> 為表讓步「無論多麼…」的固定倒裝結構（= However persuasive the argument may have seemed），須用形容詞 <b>Persuasive</b> 置於句首。Persuasively 為副詞，此固定倒裝句型須用形容詞而非副詞；Persuasion 為名詞，無法直接修飾 seemed 的補語位置；To persuade 為不定詞，不符合此讓步倒裝的文法結構。"
+      "zh": "「直到」第三輪談判，雙方才終於就授權費結構達成共識。",
+      "why": "Not until 置於句首表「直到…才…」時，主要子句須倒裝。此處主要動詞為原形動詞 reach，須搭配助動詞 <b>did</b> 構成 did...reach 的倒裝形式。have 為現在完成式助動詞，須接過去分詞而非原形動詞；were 為 be 動詞，無法搭配原形動詞 reach；had 為過去完成式助動詞，須接過去分詞 reached 而非原形 reach，時態與型態皆不符。"
     },
     {
-      "id": "2026-08-18-p5-1",
-      "tag": "簡化關係子句（現在分詞，主動語態）",
-      "pre": "Companies ",
-      "post": " artificial intelligence to automate routine compliance checks report significant reductions in processing time.",
-      "opts": ["employing", "employed", "having employed", "to employ"],
+      "id": "2026-08-19-p5-1",
+      "tag": "分詞構句（結果，現在分詞）",
+      "pre": "The merger fell through at the eleventh hour, ",
+      "post": " months of due diligence effectively wasted.",
+      "opts": ["leaving", "left", "having left", "to leave"],
       "ans": 0,
-      "zh": "「運用」人工智慧來自動化例行法遵檢查的公司，回報處理時間大幅縮短。",
-      "why": "此為關係子句 which employ 的簡化形式，先行詞 Companies 是主動使用 AI 的一方，須用主動現在分詞 <b>employing</b>。employed 為被動過去分詞，語態不符（公司並非被 AI 僱用）；having employed 為完成式分詞，暗示動作已早於某過去時點完成，與此處泛指現況的語意不符；to employ 為不定詞，不符合簡化關係子句的用法。"
+      "zh": "這起併購案在最後關頭破局，「導致」數月的盡職調查工作等於白費。",
+      "why": "此為表「結果」的分詞構句，主詞為前一子句的整體情況（併購破局），該情況主動造成後續結果，須用現在分詞 <b>leaving</b>（= and this left...）。left 為過去分詞，若採被動語態則須搭配 having been left 等完整結構；having left 為主動完成式分詞，暗示動作已完成於某過去時點，與此處單純描述結果的語意不符；to leave 為不定詞，通常表目的而非自然產生的結果。"
     },
     {
-      "id": "2026-08-18-p5-2",
-      "tag": "對等連接詞主詞一致性（neither...nor，就近原則）",
-      "pre": "Neither the CEO nor the board members ",
-      "post": " aware of the subsidiary's undisclosed liabilities until the external auditors flagged the discrepancy.",
-      "opts": ["were", "was", "has been", "is"],
+      "id": "2026-08-19-p5-2",
+      "tag": "正式否定目的連接詞（lest）",
+      "pre": "The board insisted on an independent audit ",
+      "post": " shareholders later accuse management of concealing the subsidiary's losses.",
+      "opts": ["lest", "unless", "in case", "for fear"],
       "ans": 0,
-      "zh": "無論是執行長還是董事會成員，「都不」知情這家子公司未揭露的負債，直到外部稽核人員指出此一差異為止。",
-      "why": "neither...nor 連接兩個主詞時，動詞須與「較靠近動詞的主詞」保持一致（就近原則）。此處較靠近動詞的主詞為複數的 the board members，故用複數動詞 <b>were</b>。was 為單數動詞，若靠近的主詞是單數的 the CEO 才適用；has been 為單數現在完成式，數與時態皆不符；is 為單數現在式，同樣不符合複數主詞及過去語境的要求。"
+      "zh": "董事會堅持進行獨立稽核，「以免」日後股東指控管理階層隱匿了這家子公司的虧損。",
+      "why": "<b>lest</b>（以免、唯恐）為正式的否定目的連接詞，後方子句須用原形動詞（此處為 accuse），構成「lest + 主詞 + 原形動詞」的固定句型。unless（除非）表條件而非目的，且語意邏輯與原句相反；in case（以防萬一）通常接一般直述語氣動詞而非原形動詞，用法不符；for fear 須搭配 of + 名詞／動名詞，或接 that 子句，無法直接接「主詞＋原形動詞」的結構。"
     },
     {
-      "id": "2026-08-18-p5-3",
-      "tag": "進階詞彙（exacerbate，同字首易混淆詞）",
-      "pre": "Delaying the product recall by even a few days could ",
-      "post": " the reputational damage already caused by the initial safety complaints.",
-      "opts": ["exacerbate", "extenuate", "exonerate", "expedite"],
+      "id": "2026-08-19-p5-3",
+      "tag": "進階詞彙（ostensibly，形似詞辨析）",
+      "pre": "The subsidiary was ",
+      "post": " established to handle regional distribution, but internal memos suggest its primary purpose was to shield the parent company from liability.",
+      "opts": ["ostensibly", "ostentatiously", "obstinately", "obtrusively"],
       "ans": 0,
-      "zh": "即使只是將產品召回延遲幾天，都可能「加劇」已因最初安全投訴而造成的商譽損害。",
-      "why": "<b>exacerbate</b>（使惡化、加劇）精準對應此處「延遲召回將使商譽損害更嚴重」的因果邏輯。extenuate（減輕過錯的嚴重性，常用於 extenuating circumstances）語意方向相反；exonerate（開脫罪責、還以清白）語意完全不符；expedite（加速進行）雖同為 ex- 字首的形似詞，但語意與「使損害惡化」無關，屬易混淆詞辨析。"
-      },
+      "zh": "這家子公司「表面上」是為了處理區域配送業務而成立，但內部備忘錄顯示，其真正目的其實是為母公司規避法律責任。",
+      "why": "<b>ostensibly</b>（表面上、名義上，暗示與真相不符）精準對應此處「表面理由」與「內部備忘錄揭露的真正目的」形成對比的語境，常見於 but/however 引導的轉折句中。ostentatiously（炫耀地、招搖地）語意不符；obstinately（頑固地）語意不符；obtrusively（惹人注意地、突兀地）語意不符，四字拼寫相近，屬進階詞彙易混淆辨析。"
+    },
     {
-      "id": "2026-08-18-p5-4",
-      "tag": "同等比較（as...as）",
-      "pre": "The startup's due-diligence process proved as rigorous ",
-      "post": " any conducted by the larger private equity firms competing for the same deal.",
-      "opts": ["as", "than", "that", "like"],
+      "id": "2026-08-19-p5-4",
+      "tag": "強調片語（nothing short of，程度強調）",
+      "pre": "The turnaround in the company's quarterly earnings was ",
+      "post": " remarkable, given that analysts had predicted a fourth consecutive quarterly loss.",
+      "opts": ["nothing short of", "no less than", "not less than", "nothing more than"],
       "ans": 0,
-      "zh": "這家新創公司的盡職調查流程，證明「與」那些角逐同一筆交易的大型私募股權公司所做的流程「同樣」嚴謹。",
-      "why": "<b>as + 形容詞 + as</b> 為表「同等程度」的固定比較結構，此處第二個 as 用以引出比較對象（any conducted by...）。than 須搭配比較級（-er 或 more），不符合 as rigorous 的原級形容詞結構；that 無法在此構成比較句型；like 雖可表類比，但無法直接接在 as rigorous 之後構成同等比較的固定句型。"
+      "zh": "鑑於分析師原先預測這將是連續第四季虧損，該公司本季獲利的逆轉「堪稱」非凡。",
+      "why": "<b>nothing short of</b> + 形容詞為固定強調片語，意指「不折不扣、堪稱」，此處精準對應「獲利逆轉之顯著程度」的強調語氣。no less than 與 not less than 較常用於修飾數量或金額（如 no less than $10,000），直接修飾形容詞 remarkable 時較不自然；nothing more than（僅僅不過是…）語意恰與原句「非凡的成就」相反，屬弱化語氣的反義片語。"
     }
   ],
   "p6": {
-    "id": "2026-08-18-p6",
-    "title": "NOTICE: Temporary Adjustment to Purchase Order Approval Limits During System Migration",
+    "id": "2026-08-19-p6",
+    "title": "NOTICE: Updated Protocol for Handling Data Subject Access Requests",
     "seg": [
       [
-        "To all department heads: While our finance team migrates to the new enterprise resource planning system over the next three weeks, purchase order approval limits ",
+        "To all customer-facing staff: Beginning next month, any request from a customer to access, correct, or delete their personal data ",
         { "b": 0 },
-        " temporarily to $10,000 per department, down from the standard $25,000, to reduce the risk of duplicate or erroneous entries during the transition."
+        " to the Privacy Office within twenty-four hours of receipt, rather than being handled directly by the department that received it."
       ],
       [
         { "b": 1 },
-        ", any purchase exceeding this temporary limit will require joint sign-off from both the requesting department head and the CFO's office."
+        ", requests that are clearly duplicative of a prior request already resolved within the past ninety days may be closed with a brief explanatory note rather than undergoing the full review process."
       ],
       [
-        "Department heads should ",
+        "Staff who receive a request directly should ",
         { "b": 2 },
-        " any urgent or time-sensitive purchases before the migration begins, wherever possible, to avoid delays caused by the temporary approval bottleneck."
+        " the requester to the Privacy Office and provide its contact information, even if they choose not to handle the request themselves."
       ],
       [
         { "b": 3 },
-        " The finance team will notify all department heads once the migration is complete and standard approval limits have been restored."
+        " A summary flowchart of the new request-handling procedure is available on the Privacy Office's intranet page."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["will be reduced", "reduce", "have reduced", "are reducing"],
+        "opts": ["must be forwarded", "forwards", "has forwarded", "is forwarding"],
         "ans": 0,
-        "zh": "致所有部門主管：在財務團隊於未來三週內遷移至新版企業資源規劃系統期間，各部門的請購核准額度「將」暫時「調降」至一萬美元，低於原本的兩萬五千美元標準，以降低過渡期間重複或錯誤請購的風險。",
-        "why": "核准額度是被調降的對象，且句中明訂即將展開的未來期間「over the next three weeks」，須用未來式被動 <b>will be reduced</b>。reduce 為原形動詞，缺少助動詞且非被動，不符文法；have reduced 為現在完成式，暗示已完成而非即將調整；are reducing 為現在進行式主動，同樣不符合被動及未來時態的要求。"
+        "zh": "致所有第一線客服同仁：自下個月起，任何客戶提出的個資存取、更正或刪除請求，「均須」在收到後二十四小時內轉交隱私辦公室，而非由收到請求的部門逕自處理。",
+        "why": "請求是被轉交的對象，此句表達強制性規定，須用被動情態動詞 <b>must be forwarded</b>（必須被轉交）。forwards 為現在式主動動詞第三人稱單數，非被動語態，不符文法；has forwarded 為現在完成式主動，與強制規定的語氣不符；is forwarding 為現在進行式主動，同樣不符合被動及規範性語氣的要求。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["Accordingly", "Nevertheless", "For example", "Similarly"],
+        "opts": ["Even so", "As a result", "In turn", "Similarly"],
         "ans": 0,
-        "zh": "「因此」，任何超過此暫定額度的請購，皆須同時取得請購部門主管與財務長辦公室的雙重簽核。",
-        "why": "前句說明核准額度暫時調降，本句說明「因此」超過此額度的請購須經雙重簽核，兩句構成合理的因果承接關係，故選 <b>Accordingly</b>（因此）。Nevertheless（然而）表讓步對比；For example（例如）表舉例；Similarly（同樣地）表類比延續，皆與此處的因果邏輯不符。"
+        "zh": "「即便如此」，若請求明顯與過去九十天內已處理完畢的先前請求重複，仍可僅附上簡要說明後結案，無須經過完整審查流程。",
+        "why": "前句規定所有請求皆須轉交隱私辦公室處理，本句說明「即便如此」仍有例外情況（重複請求可簡化處理），兩句構成讓步對比關係，故選 <b>Even so</b>（即便如此）。As a result（因此）表因果；In turn（依次、轉而）表順序；Similarly（同樣地）表類比延續，皆與此處的例外對比邏輯不符。"
       },
       {
-        "tag": "詞彙語意（同字首易混淆詞）",
+        "tag": "詞彙語意（同字根易混淆詞）",
         "col1": true,
-        "opts": ["expedite", "extradite", "exemplify", "extrapolate"],
+        "opts": ["refer", "defer", "confer", "infer"],
         "ans": 0,
-        "zh": "各部門主管應盡可能在系統遷移開始前，「加速處理」任何緊急或時效性高的請購案，以避免因暫時性核准瓶頸而造成延誤。",
-        "why": "<b>expedite</b>（加速處理、加快進行）精準對應此處「在系統遷移前盡快完成緊急請購」的語境。extradite（引渡罪犯至另一司法管轄區）為法律專有詞彙，與此處語境完全無關；exemplify（舉例說明、作為…的範例）語意不符；extrapolate（依已知數據推斷、外推）語意不符，四字同為 ex- 字首形似詞，屬進階詞彙易混淆辨析。"
+        "zh": "直接收到請求的同仁，即使自己選擇不處理該請求，仍應將請求人「轉介」至隱私辦公室，並提供其聯絡方式。",
+        "why": "<b>refer...to</b>（將某人轉介、引導至另一單位）精準對應此處「將請求人導向隱私辦公室」的語境。defer（延後處理，或 defer to 表順從、聽從）語意不符；confer（商討，或正式授予）語意不符；infer（依據線索推論）語意完全不符，四字同為 -fer 字根的形似詞，屬進階詞彙易混淆辨析。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "A complete list of temporary approval procedures is available on the finance intranet page.",
-          "The company's annual budget planning cycle will begin in October as usual.",
-          "All expense reports must still be submitted within thirty days of purchase.",
-          "The finance department's office hours have been extended during tax season."
+          "Staff who are uncertain whether a request qualifies as a formal data subject access request should contact the Privacy Office directly.",
+          "The company's annual data privacy training will be held virtually this year.",
+          "All customer service scripts have been updated to reflect the new holiday return policy.",
+          "The customer service department's phone system will be upgraded next quarter."
         ],
         "ans": 0,
-        "zh": "「完整的暫行核准程序清單，可於財務部門內部網路頁面取得。」財務團隊將在系統遷移完成、標準核准額度恢復後，另行通知所有部門主管。",
-        "why": "段落主題為「系統遷移期間請購核准額度暫時調整通知」，此句提供暫行核准程序清單的取得方式，與後句「遷移完成後將另行通知」共同構成完整的過渡期操作指引。其餘選項（年度預算規劃週期、費用核銷提醒、財務部門辦公時間調整）皆與請購核准額度調整無關，插入後語意斷裂。"
+        "zh": "「若同仁不確定某項請求是否構成正式的個資主體存取請求，應直接聯繫隱私辦公室。」新版請求處理流程的摘要流程圖，可於隱私辦公室內部網路頁面取得。",
+        "why": "段落主題為「個資主體存取請求處理新制通知」，此句提醒同仁若對請求性質認定有疑問應直接聯繫隱私辦公室，與後句「流程圖可於內部網路取得」共同構成完整的操作指引收尾。其餘選項（年度隱私訓練、假期退貨政策、電話系統升級）皆與個資請求處理新制無關，插入後語意斷裂。"
       }
     ]
   }
