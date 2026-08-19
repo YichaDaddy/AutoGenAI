@@ -1,5 +1,115 @@
 [
   {
+    "date": "2026-08-19",
+    "big_events": [
+      {
+        "title": "OpenAI預覽「Private Safety Processing」新安全監控技術,兼容零數據保留",
+        "sources": [
+          {
+            "name": "Axios",
+            "url": "https://www.axios.com/2026/08/19/openai-previews-zero-retention-safety-system-as-anthropic-requires-data-logs"
+          },
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-08-19/openai-to-enhance-safety-processes-for-paid-tool-customers"
+          },
+          {
+            "name": "OpenAI",
+            "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models/"
+          }
+        ],
+        "summary": "OpenAI測試新安全監控機制,能偵測跨對話濫用模式,但不讓員工看到原始內容,9月正式推出。",
+        "audience": "用OpenAI API開發產品的獨立開發者、SaaS創業者、需向客戶說明資料安全政策的AI顧問",
+        "pain_point": "客戶常質疑「我的資料會不會被AI公司看光」,開發者缺乏具體資料佐證,難以說服企業客戶採用AI工具",
+        "title_idea": "OpenAI也怕被駭!新安全機制曝光,你的對話資料到底安不安全?",
+        "local_angle": "海外媒體已詳解技術細節,華語圈AI資安/合規教學內容仍是空白,可搶先做「企業導入ChatGPT/API資料安全懶人包」"
+      },
+      {
+        "title": "OpenAI宣布ChatGPT廣告8/24起擴大至歐洲31國市場",
+        "sources": [
+          {
+            "name": "OpenAI",
+            "url": "https://openai.com/index/chatgpt-ads-expands-across-europe/"
+          },
+          {
+            "name": "Dataconomy",
+            "url": "https://dataconomy.com/2026/08/19/openai-chatgpt-ads-launch-european-markets-august-24/"
+          },
+          {
+            "name": "Search Engine Land",
+            "url": "https://searchengineland.com/chatgpt-ads-are-expanding-to-31-european-countries-485468"
+          }
+        ],
+        "summary": "ChatGPT廣告服務即將擴大至德、法、義等31個歐洲市場,僅在免費與Go方案顯示廣告。",
+        "audience": "數位行銷從業者、電商小編、想搶先卡位新廣告版位的自媒體與廣告代理商",
+        "pain_point": "新廣告版位早期通常競價低、紅利期短,行銷人若不提前研究規則容易錯過先機",
+        "title_idea": "ChatGPT開始賣廣告了!行銷人搶先看:歐洲31國怎麼投?",
+        "local_angle": "目前僅美國、歐洲上線,華語圈廣告主與行銷KOL還沒人做「ChatGPT廣告投放教學」,可提前卡位內容紅利"
+      },
+      {
+        "title": "TechCrunch民調:AI好感度不升反降,52%美國人「憂多於喜」",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt/"
+          },
+          {
+            "name": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/technology/ai/articles/ai-supposed-win-people-over-191140548.html"
+          }
+        ],
+        "summary": "最新調查顯示52%美國人對AI「憂多於喜」,較2021年37%明顯上升,年輕族群尤其不信任AI領袖。",
+        "audience": "做AI科普/評論類內容的自媒體創作者、關注科技社會議題的觀眾",
+        "pain_point": "許多創作者只顧著吹捧AI工具多神,卻忽略觀眾其實對AI有戒心,內容容易顯得不接地氣、引發反感",
+        "title_idea": "為什麼大家越用AI越討厭AI?一份調查揭露的真相",
+        "local_angle": "海外已出現「復古退燒潮」(功能機、底片相機回流)反映AI焦慮,華語圈可結合這股「反AI」情緒做差異化選題"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "Meta AI推出原生Mac桌面版,主打創作者與中小企業整合IG/FB/Google Workspace",
+        "sources": [
+          {
+            "name": "Axios",
+            "url": "https://www.axios.com/2026/08/19/metas-new-mac-app-helps-influencers-and-small-biz-harness-ai"
+          },
+          {
+            "name": "9to5Mac",
+            "url": "https://9to5mac.com/2026/08/19/meta-ai-is-now-available-as-a-more-capable-desktop-app-for-mac/"
+          },
+          {
+            "name": "Engadget",
+            "url": "https://www.engadget.com/2240154/meta-ai-now-has-a-dedicated-desktop-app-for-mac/"
+          }
+        ],
+        "summary": "Meta AI推出Mac原生App,可連結IG/FB帳號、廣告數據與Google Workspace文件,主攻創作者與小型企業。",
+        "audience": "經營IG/FB的個人品牌創作者、電商小賣家、社群小編",
+        "pain_point": "廣告成效與內容規劃分散在多個工具間查看,經營者花大量時間切換App整理數據",
+        "title_idea": "Meta AI出Mac版了!創作者一鍵串接IG/FB數據,這樣用最省時間",
+        "local_angle": "功能才剛上線,華語圈教學幾乎是空白,適合搶先做「Meta AI Mac版串接IG廣告後台」實測教學"
+      },
+      {
+        "title": "TikTok Live新增AI自動生成開場白功能,幫助直播主快速自我介紹",
+        "sources": [
+          {
+            "name": "Global Dating Insights",
+            "url": "https://www.globaldatinginsights.com/featured/tiktok-adds-ai-generated-introductions-for-live-creators/"
+          },
+          {
+            "name": "Social Media Today",
+            "url": "https://www.socialmediatoday.com/news/tiktok-live-adds-ai-generated-intros/828220/"
+          }
+        ],
+        "summary": "TikTok Live新增AI功能,依創作者提供的資訊自動生成開場自我介紹,已上線至直播後台。",
+        "audience": "TikTok直播主、剛入行的個人品牌經營者、不擅長寫自我介紹文案的創作者",
+        "pain_point": "每次開播都要重新想開場白介紹自己,新手常詞窮或不知道怎麼包裝自己",
+        "title_idea": "開播詞不用自己想了!TikTok新功能AI幫你寫開場白",
+        "local_angle": "功能剛推出,目前多為英文媒體報導,可搶先做中文實測影片示範怎麼用、生成效果如何"
+      }
+    ],
+    "trends": []
+  },
+  {
     "date": "2026-08-18",
     "big_events": [
       {
@@ -637,125 +747,5 @@
         "local_angle": "台灣已有不少創作者、接案者把Claude Code嵌入日常工作流，適合做「如何設計AI工具備援」的實用教學"
       }
     ]
-  },
-  {
-    "date": "2026-08-11",
-    "big_events": [
-      {
-        "title": "Anthropic 宣布 Claude 全面為文字輸出加上肉眼不可見的浮水印",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/"
-          },
-          {
-            "name": "Fortune",
-            "url": "https://fortune.com/2026/08/11/anthropic-claude-watermark-ai-text-police-ai-slop/"
-          },
-          {
-            "name": "Tech Times",
-            "url": "https://www.techtimes.com/articles/323873/20260811/claude-now-watermarks-text-everywhere-mark-proves-processing-not-authorship.htm"
-          }
-        ],
-        "summary": "因應歐盟法規，Claude生成文字全面嵌入隱形浮水印，可驗證內容是否由AI產出",
-        "audience": "大量用Claude寫文案、部落格、接案代寫的自媒體與接案創作者",
-        "pain_point": "擔心自己用AI寫的內容被平台或客戶偵測出來，卻不知道浮水印技術已經悄悄全面上線、無法關閉",
-        "title_idea": "你的Claude文章其實藏了『隱形身分證』？創作者不能不知道的浮水印真相",
-        "local_angle": "台灣接案者與部落客大量用Claude代寫，這個浮水印會影響SEO判定與客戶信任，適合搶先做懶人包解釋給讀者和客戶聽"
-      },
-      {
-        "title": "Nvidia攜手華爾街六大巨頭，啟動5000億美元AI基礎建設融資計畫",
-        "sources": [
-          {
-            "name": "Bloomberg",
-            "url": "https://www.bloomberg.com/news/articles/2026-08-11/nvidia-s-show-of-financial-force-soothes-jittery-credit-markets"
-          },
-          {
-            "name": "Yahoo Finance",
-            "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-targets-over-500-billion-100709208.html"
-          }
-        ],
-        "summary": "Nvidia與Apollo、BlackRock等六大金融機構合作，籌組5000億美元資金加速AI資料中心擴張",
-        "audience": "關注AI工具訂閱費用、算力成本走向的重度使用者與科技類自媒體",
-        "pain_point": "不確定未來常用的AI工具會不會因為算力緊缺而漲價，也看不懂市場上『AI泡沫』的討論到底在吵什麼",
-        "title_idea": "Nvidia砸5000億美元背後：你的AI訂閱費會變貴還是變便宜？",
-        "local_angle": "可做『白話解釋AI算力軍備競賽對訂閱費影響』選題，蹭當紅『AI泡沫』討論但給出務實角度，華語圈少見這類深度但好懂的解說"
-      },
-      {
-        "title": "Anthropic與比特幣礦商Riot Platforms簽下91億美元、20年算力租約",
-        "sources": [
-          {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/08/11/riot-platforms-signs-anthropic-deal-as-miners-shift-to-ai-infrastructure-.html"
-          },
-          {
-            "name": "Yahoo Finance",
-            "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-signs-9-1-billion-113731732.html"
-          }
-        ],
-        "summary": "Anthropic向德州Rockdale資料中心承租191MW算力，為期20年，顯示AI對電力需求持續攀升",
-        "audience": "想做財經/科技類AI深度選題的自媒體、對AI產業趨勢有興趣的觀眾",
-        "pain_point": "只看得到ChatGPT、Claude表層更新，不知道背後電力與算力才是AI大廠真正在搶的資源",
-        "title_idea": "比特幣礦場變身AI算力工廠？Anthropic一口氣簽下20年、91億美元的秘密合約",
-        "local_angle": "『AI背後基礎建設』在中文自媒體圈鮮少有人深度解讀，適合做成『AI為什麼越來越猛』系列選題的第一集"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "xAI推出Grok Bot：24小時待命的AI『數位同事』公測上線",
-        "sources": [
-          {
-            "name": "VentureBeat",
-            "url": "https://venturebeat.com/orchestration/spacexais-grok-bot-turns-agents-into-persistent-digital-coworkers-that-can-operate-your-apps-for-120-per-month"
-          },
-          {
-            "name": "xAI官方公告",
-            "url": "https://x.ai/news/introducing-grok-bot"
-          },
-          {
-            "name": "The Next Web",
-            "url": "https://thenextweb.com/news/spacexai-grok-bot-ai-agents-cursor"
-          }
-        ],
-        "summary": "Grok Bot擁有專屬雲端電腦，能登入既有工具全天候完成多步驟任務，訂閱約每月120-200美元",
-        "audience": "想用AI代理分擔行政、客服等重複性工作的獨立創業者與一人公司經營者",
-        "pain_point": "一人公司分身乏術，回信、排程、資料整理等瑣事沒人力處理，又請不起全職助理",
-        "title_idea": "免請助理！xAI的Grok Bot讓AI 24小時幫你上班，一個月要多少錢？",
-        "local_angle": "海外才剛公測，中文圈幾乎沒人實測，適合搶先做開箱評測、實際工作流程教學影片"
-      },
-      {
-        "title": "Google Gemini Omni免費AI影片生成優惠，期限延到8/11深夜(PT)",
-        "sources": [
-          {
-            "name": "Google Gemini官方X貼文",
-            "url": "https://x.com/GeminiApp/status/2085444245058736363"
-          },
-          {
-            "name": "Android Authority",
-            "url": "https://www.androidauthority.com/free-gemini-omni-videos-3695658/"
-          }
-        ],
-        "summary": "免訂閱即可用Gemini Omni免費生成10支AI影片，優惠期限一延再延，最終延到8月11日深夜",
-        "audience": "想免費測試AI影片工具、還沒決定要不要付費訂閱的內容創作者與小編",
-        "pain_point": "AI影片工具訂閱費不便宜，想先免費玩過一輪、確認好不好用再決定要不要掏錢",
-        "title_idea": "手刀還來得及！Google悄悄延長的免費AI影片額度，今晚就截止",
-        "local_angle": "適合做成『搶在期限前』的急迫性標題，教華語讀者立刻去用免費額度，順便示範能拿來做什麼類型的內容"
-      },
-      {
-        "title": "Claude官方發布：Compliance API擴大涵蓋Cowork與Claude Code全平台工作紀錄",
-        "sources": [
-          {
-            "name": "Anthropic官方發布說明",
-            "url": "https://platform.claude.com/docs/en/release-notes/overview"
-          }
-        ],
-        "summary": "企業版Claude用戶現可透過API調閱Cowork、Claude Code在各平台的完整工作階段紀錄供稽核",
-        "audience": "接企業外包案、需要向客戶交代AI使用紀錄的自由接案顧問與小型工作室",
-        "pain_point": "接大客戶案子時常被要求AI工具要有稽核軌跡，卻不知道Claude其實已經有解方",
-        "title_idea": "接案報價又多一個籌碼：Claude新功能讓你的AI工作紀錄『有憑有據』",
-        "local_angle": "台灣接企業外包案的工作室可以拿這個功能當賣點，向客戶證明資安合規，做成『如何用AI合規紀錄接大案』的教學"
-      }
-    ],
-    "trends": []
   }
 ]

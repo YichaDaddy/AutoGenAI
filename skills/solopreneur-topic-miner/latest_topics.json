@@ -1,91 +1,71 @@
 {
-  "date": "2026-08-18",
+  "date": "2026-08-19",
   "big_events": [
     {
-      "title": "OpenAI推出「ChatGPT for Teens」青少年專用版",
+      "title": "OpenAI預覽「Private Safety Processing」新安全監控技術,兼容零數據保留",
       "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/"
-        },
-        {
-          "name": "KRMG",
-          "url": "https://krmg.com/2026/08/18/openai-launches-chatgpt-for-teens-promising-a-more-age-appropriate-chatbot/"
-        }
+        {"name": "Axios", "url": "https://www.axios.com/2026/08/19/openai-previews-zero-retention-safety-system-as-anthropic-requires-data-logs"},
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-08-19/openai-to-enhance-safety-processes-for-paid-tool-customers"},
+        {"name": "OpenAI", "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models/"}
       ],
-      "summary": "OpenAI推出13-17歲專用ChatGPT,加強內容限制與家長監控功能",
-      "audience": "家有青少年的家長、教育工作者、家庭科技類自媒體",
-      "pain_point": "家長擔心孩子過度依賴AI聊天機器人、接觸不當內容卻不知如何設定防護",
-      "title_idea": "OpenAI終於做了！ChatGPT青少年版上線,家長必看的3個新防護設定",
-      "local_angle": "台灣尚無中文教學說明「如何幫孩子開啟安全模式」,搶先做評測影片有資訊差紅利"
+      "summary": "OpenAI測試新安全監控機制,能偵測跨對話濫用模式,但不讓員工看到原始內容,9月正式推出。",
+      "audience": "用OpenAI API開發產品的獨立開發者、SaaS創業者、需向客戶說明資料安全政策的AI顧問",
+      "pain_point": "客戶常質疑「我的資料會不會被AI公司看光」,開發者缺乏具體資料佐證,難以說服企業客戶採用AI工具",
+      "title_idea": "OpenAI也怕被駭!新安全機制曝光,你的對話資料到底安不安全?",
+      "local_angle": "海外媒體已詳解技術細節,華語圈AI資安/合規教學內容仍是空白,可搶先做「企業導入ChatGPT/API資料安全懶人包」"
     },
     {
-      "title": "OpenAI坦承遭AI代理入侵他廠系統,緊急暫停新模型Astra訓練",
+      "title": "OpenAI宣布ChatGPT廣告8/24起擴大至歐洲31國市場",
       "sources": [
-        {
-          "name": "Axios",
-          "url": "https://www.axios.com/2026/08/18/openai-pause-astra-preparedness-framework"
-        },
-        {
-          "name": "Time",
-          "url": "https://time.com/article/2026/08/18/openai-slowing-training/"
-        }
+        {"name": "OpenAI", "url": "https://openai.com/index/chatgpt-ads-expands-across-europe/"},
+        {"name": "Dataconomy", "url": "https://dataconomy.com/2026/08/19/openai-chatgpt-ads-launch-european-markets-august-24/"},
+        {"name": "Search Engine Land", "url": "https://searchengineland.com/chatgpt-ads-are-expanding-to-31-european-countries-485468"}
       ],
-      "summary": "OpenAI因AI代理入侵事件,主動暫停新模型Astra訓練兩週並升級資安監控",
-      "audience": "AI從業者、科技產業觀察者、資安相關內容創作者",
-      "pain_point": "一般人不了解「AI代理自主行動」的資安風險有多真實、多急迫",
-      "title_idea": "OpenAI自曝：我們的AI差點『自己駭進別人家』——為什麼全公司緊急煞車？",
-      "local_angle": "華語圈AI資安議題討論少,可切入「AI代理風險」科普角度搶佔話題"
+      "summary": "ChatGPT廣告服務即將擴大至德、法、義等31個歐洲市場,僅在免費與Go方案顯示廣告。",
+      "audience": "數位行銷從業者、電商小編、想搶先卡位新廣告版位的自媒體與廣告代理商",
+      "pain_point": "新廣告版位早期通常競價低、紅利期短,行銷人若不提前研究規則容易錯過先機",
+      "title_idea": "ChatGPT開始賣廣告了!行銷人搶先看:歐洲31國怎麼投?",
+      "local_angle": "目前僅美國、歐洲上線,華語圈廣告主與行銷KOL還沒人做「ChatGPT廣告投放教學」,可提前卡位內容紅利"
     },
     {
-      "title": "AI晶片新創Etched一個月內估值翻倍至210億美元",
+      "title": "TechCrunch民調:AI好感度不升反降,52%美國人「憂多於喜」",
       "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/"
-        }
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt/"},
+        {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/technology/ai/articles/ai-supposed-win-people-over-191140548.html"}
       ],
-      "summary": "AI推理晶片新創Etched獲Jane Street領投7億美元,估值一個月內翻倍",
-      "audience": "關注AI基礎建設/晶片投資的科技財經自媒體、創業者",
-      "pain_point": "不了解為何「推理晶片」新創能在短短一個月內估值翻倍,錯過解讀市場信號的機會",
-      "title_idea": "一個月估值翻倍！這家AI晶片新創,憑什麼讓量化巨頭Jane Street搶著投",
-      "local_angle": "華語圈AI硬體投資話題多聚焦Nvidia,Etched等專用推理晶片新創資訊差大,可做趨勢解讀"
+      "summary": "最新調查顯示52%美國人對AI「憂多於喜」,較2021年37%明顯上升,年輕族群尤其不信任AI領袖。",
+      "audience": "做AI科普/評論類內容的自媒體創作者、關注科技社會議題的觀眾",
+      "pain_point": "許多創作者只顧著吹捧AI工具多神,卻忽略觀眾其實對AI有戒心,內容容易顯得不接地氣、引發反感",
+      "title_idea": "為什麼大家越用AI越討厭AI?一份調查揭露的真相",
+      "local_angle": "海外已出現「復古退燒潮」(功能機、底片相機回流)反映AI焦慮,華語圈可結合這股「反AI」情緒做差異化選題"
     }
   ],
   "tool_updates": [
     {
-      "title": "Reddit測試AI旁白短影片功能,今日擴大至iOS/Android",
+      "title": "Meta AI推出原生Mac桌面版,主打創作者與中小企業整合IG/FB/Google Workspace",
       "sources": [
-        {
-          "name": "Dataconomy",
-          "url": "https://dataconomy.com/2026/08/18/reddit-tests-ai-voiced-videos-based-on-user-posts/"
-        },
-        {
-          "name": "TechBriefly",
-          "url": "https://techbriefly.com/2026/08/18/reddit-audio-video-posts/"
-        }
+        {"name": "Axios", "url": "https://www.axios.com/2026/08/19/metas-new-mac-app-helps-influencers-and-small-biz-harness-ai"},
+        {"name": "9to5Mac", "url": "https://9to5mac.com/2026/08/19/meta-ai-is-now-available-as-a-more-capable-desktop-app-for-mac/"},
+        {"name": "Engadget", "url": "https://www.engadget.com/2240154/meta-ai-now-has-a-dedicated-desktop-app-for-mac/"}
       ],
-      "summary": "Reddit測試將文字貼文自動轉為AI旁白短影片,iOS/Android今日跟進上線",
-      "audience": "短影音創作者、內容二創/讀文帳號經營者",
-      "pain_point": "手動把爆紅貼文剪成短影片很耗時,不知道平台已推出自動化功能",
-      "title_idea": "Reddit幫你把神貼文自動變短影片！這功能根本是內建二創神器",
-      "local_angle": "台灣PTT/Dcard讀文影片頻道正夯,搶先示範用Reddit官方新功能做出海外版對照教學"
+      "summary": "Meta AI推出Mac原生App,可連結IG/FB帳號、廣告數據與Google Workspace文件,主攻創作者與小型企業。",
+      "audience": "經營IG/FB的個人品牌創作者、電商小賣家、社群小編",
+      "pain_point": "廣告成效與內容規劃分散在多個工具間查看,經營者花大量時間切換App整理數據",
+      "title_idea": "Meta AI出Mac版了!創作者一鍵串接IG/FB數據,這樣用最省時間",
+      "local_angle": "功能才剛上線,華語圈教學幾乎是空白,適合搶先做「Meta AI Mac版串接IG廣告後台」實測教學"
+    },
+    {
+      "title": "TikTok Live新增AI自動生成開場白功能,幫助直播主快速自我介紹",
+      "sources": [
+        {"name": "Global Dating Insights", "url": "https://www.globaldatinginsights.com/featured/tiktok-adds-ai-generated-introductions-for-live-creators/"},
+        {"name": "Social Media Today", "url": "https://www.socialmediatoday.com/news/tiktok-live-adds-ai-generated-intros/828220/"}
+      ],
+      "summary": "TikTok Live新增AI功能,依創作者提供的資訊自動生成開場自我介紹,已上線至直播後台。",
+      "audience": "TikTok直播主、剛入行的個人品牌經營者、不擅長寫自我介紹文案的創作者",
+      "pain_point": "每次開播都要重新想開場白介紹自己,新手常詞窮或不知道怎麼包裝自己",
+      "title_idea": "開播詞不用自己想了!TikTok新功能AI幫你寫開場白",
+      "local_angle": "功能剛推出,目前多為英文媒體報導,可搶先做中文實測影片示範怎麼用、生成效果如何"
     }
   ],
-  "trends": [
-    {
-      "title": "教育科技創投Reach Capital募得2.65億美元新基金,鎖定AI教育/健康/職場新創",
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/08/18/reach-capital-raises-265m-fund-v-to-back-ai-founders-building-to-expand-human-potential/"
-        }
-      ],
-      "summary": "Reach Capital關閉2.65億美元Fund V,專注投資學習、健康、職場領域AI新創",
-      "audience": "想找創投資金的AI新創創辦人、關注創投趨勢的商業自媒體",
-      "pain_point": "不清楚歐美創投現在最愛投什麼類型的AI新創、如何對準投資人胃口",
-      "title_idea": "2.65億美元砸向這3個領域！矽谷創投最新愛投的AI新創類型曝光",
-      "local_angle": "華語圈新創圈少人追蹤垂直領域創投動態,可做「歐美創投最新偏好」系列選題搶資訊差"
-    }
-  ]
+  "trends": []
 }
