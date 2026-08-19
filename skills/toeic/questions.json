@@ -1,117 +1,117 @@
 {
-  "date": "2026-08-19",
+  "date": "2026-08-20",
   "p5": [
     {
-      "id": "2026-08-19-p5-0",
-      "tag": "否定倒裝（Not until...did）",
-      "pre": "Not until the third round of negotiations ",
-      "post": " the two sides finally reach a consensus on the licensing fee structure.",
-      "opts": ["did", "have", "were", "had"],
+      "id": "2026-08-20-p5-0",
+      "tag": "程度結果子句（so + 形容詞 + a + 名詞 + that）",
+      "pre": "It was ",
+      "post": " a merger that regulators on three continents opened simultaneous antitrust investigations.",
+      "opts": ["so contentious", "such contentious", "so much contentious", "as contentious"],
       "ans": 0,
-      "zh": "「直到」第三輪談判，雙方才終於就授權費結構達成共識。",
-      "why": "Not until 置於句首表「直到…才…」時，主要子句須倒裝。此處主要動詞為原形動詞 reach，須搭配助動詞 <b>did</b> 構成 did...reach 的倒裝形式。have 為現在完成式助動詞，須接過去分詞而非原形動詞；were 為 be 動詞，無法搭配原形動詞 reach；had 為過去完成式助動詞，須接過去分詞 reached 而非原形 reach，時態與型態皆不符。"
+      "zh": "這起併購案「如此」充滿爭議，「以至於」三個大陸的監管機關同時展開反壟斷調查。",
+      "why": "<b>so + 形容詞 + a/an + 單數可數名詞</b> 為固定倒裝語序（= such a contentious merger），此處緊接 a merger，須用 <b>so contentious</b>。such contentious 語序錯誤，such 修飾單數可數名詞時須為 such + a + 形容詞 + 名詞，冠詞 a 位置不同；so much contentious 為贅字誤用；as contentious 須搭配 as 構成同等比較（as...as），無法單獨引出 that 結果子句。"
     },
     {
-      "id": "2026-08-19-p5-1",
-      "tag": "分詞構句（結果，現在分詞）",
-      "pre": "The merger fell through at the eleventh hour, ",
-      "post": " months of due diligence effectively wasted.",
-      "opts": ["leaving", "left", "having left", "to leave"],
+      "id": "2026-08-20-p5-1",
+      "tag": "條件句倒裝（Should + 原形動詞）",
+      "pre": "",
+      "post": " the acquisition fail to close by the year-end deadline, both parties have agreed to forfeit their respective escrow deposits.",
+      "opts": ["Should", "Would", "Were", "Could"],
       "ans": 0,
-      "zh": "這起併購案在最後關頭破局，「導致」數月的盡職調查工作等於白費。",
-      "why": "此為表「結果」的分詞構句，主詞為前一子句的整體情況（併購破局），該情況主動造成後續結果，須用現在分詞 <b>leaving</b>（= and this left...）。left 為過去分詞，若採被動語態則須搭配 having been left 等完整結構；having left 為主動完成式分詞，暗示動作已完成於某過去時點，與此處單純描述結果的語意不符；to leave 為不定詞，通常表目的而非自然產生的結果。"
+      "zh": "「萬一」這起收購案未能在年底期限前完成交割，雙方已同意各自沒收其履約保證金。",
+      "why": "此為 If the acquisition should fail 的省略 if 倒裝形式，表對未來可能發生之事的假設，須用 <b>Should</b> 提前至句首並直接搭配原形動詞 fail。Would 不具備此倒裝條件句的用法；Were 用於倒裝時須搭配 to 不定詞（Were the acquisition to fail），與此處直接接原形動詞 fail 的結構不符；Could 不具備條件句倒裝的固定功能。"
     },
     {
-      "id": "2026-08-19-p5-2",
-      "tag": "正式否定目的連接詞（lest）",
-      "pre": "The board insisted on an independent audit ",
-      "post": " shareholders later accuse management of concealing the subsidiary's losses.",
-      "opts": ["lest", "unless", "in case", "for fear"],
+      "id": "2026-08-20-p5-2",
+      "tag": "強調用法（do/does/did + 原形動詞）",
+      "pre": "The committee ",
+      "post": " ultimately approve the budget, despite months of contentious debate over the allocation formula.",
+      "opts": ["did", "has", "was", "would"],
       "ans": 0,
-      "zh": "董事會堅持進行獨立稽核，「以免」日後股東指控管理階層隱匿了這家子公司的虧損。",
-      "why": "<b>lest</b>（以免、唯恐）為正式的否定目的連接詞，後方子句須用原形動詞（此處為 accuse），構成「lest + 主詞 + 原形動詞」的固定句型。unless（除非）表條件而非目的，且語意邏輯與原句相反；in case（以防萬一）通常接一般直述語氣動詞而非原形動詞，用法不符；for fear 須搭配 of + 名詞／動名詞，或接 that 子句，無法直接接「主詞＋原形動詞」的結構。"
+      "zh": "儘管歷經數月針對分配方式的激烈辯論，委員會「確實」最終核准了這項預算。",
+      "why": "<b>did</b> + 原形動詞（did approve）為強調助動詞用法，用以強調「該動作確實發生」，常見於與預期相反或經過波折後仍發生的語境，恰好呼應 despite months of contentious debate 的轉折語氣。has 須接過去分詞 approved 而非原形動詞；was 須搭配被動或進行式結構，不能直接接原形動詞 approve；would 表假設或過去習慣性動作，不具強調確認事實的功能。"
     },
     {
-      "id": "2026-08-19-p5-3",
-      "tag": "進階詞彙（ostensibly，形似詞辨析）",
-      "pre": "The subsidiary was ",
-      "post": " established to handle regional distribution, but internal memos suggest its primary purpose was to shield the parent company from liability.",
-      "opts": ["ostensibly", "ostentatiously", "obstinately", "obtrusively"],
+      "id": "2026-08-20-p5-3",
+      "tag": "進階動詞語意辨別（vindicate，近義詞區辨）",
+      "pre": "The independent investigation ultimately ",
+      "post": " the whistleblower's original claims, forcing the company to issue a public apology and overhaul its safety protocols.",
+      "opts": ["vindicated", "validated", "invalidated", "vitiated"],
       "ans": 0,
-      "zh": "這家子公司「表面上」是為了處理區域配送業務而成立，但內部備忘錄顯示，其真正目的其實是為母公司規避法律責任。",
-      "why": "<b>ostensibly</b>（表面上、名義上，暗示與真相不符）精準對應此處「表面理由」與「內部備忘錄揭露的真正目的」形成對比的語境，常見於 but/however 引導的轉折句中。ostentatiously（炫耀地、招搖地）語意不符；obstinately（頑固地）語意不符；obtrusively（惹人注意地、突兀地）語意不符，四字拼寫相近，屬進階詞彙易混淆辨析。"
+      "zh": "這項獨立調查最終「還了」吹哨者「清白」，證實其最初的指控屬實，迫使公司發布公開道歉並全面翻修其安全規範。",
+      "why": "<b>vindicate</b>（洗刷冤屈、證明某人先前遭質疑的說法屬實）精準對應「吹哨者原本遭懷疑，最終被證明是對的」這種帶有平反意味的語境。validate（證實、確認，語氣較中性，不特別強調平反冤屈）雖語意相近但情感色彩較弱；invalidate（推翻、宣告無效）語意完全相反；vitiate（使敗壞、使無效，常用於法律語境指使契約失效）語意不符。"
     },
     {
-      "id": "2026-08-19-p5-4",
-      "tag": "強調片語（nothing short of，程度強調）",
-      "pre": "The turnaround in the company's quarterly earnings was ",
-      "post": " remarkable, given that analysts had predicted a fourth consecutive quarterly loss.",
-      "opts": ["nothing short of", "no less than", "not less than", "nothing more than"],
+      "id": "2026-08-20-p5-4",
+      "tag": "介系詞＋關係代名詞（of which，非限定子句）",
+      "pre": "The report, a copy of ",
+      "post": " was leaked to reporters last week, detailed extensive safety violations spanning nearly a decade.",
+      "opts": ["which", "that", "it", "what"],
       "ans": 0,
-      "zh": "鑑於分析師原先預測這將是連續第四季虧損，該公司本季獲利的逆轉「堪稱」非凡。",
-      "why": "<b>nothing short of</b> + 形容詞為固定強調片語，意指「不折不扣、堪稱」，此處精準對應「獲利逆轉之顯著程度」的強調語氣。no less than 與 not less than 較常用於修飾數量或金額（如 no less than $10,000），直接修飾形容詞 remarkable 時較不自然；nothing more than（僅僅不過是…）語意恰與原句「非凡的成就」相反，屬弱化語氣的反義片語。"
+      "zh": "這份報告——「其」副本已於上週外洩給記者——詳細記載了近十年來層出不窮的安全違規事件。",
+      "why": "介系詞 of 之後須接關係代名詞 <b>which</b>（of which），且此處為逗號隔開的非限定子句，更須用 which 而非 that。that 依文法慣例不可直接置於介系詞之後（不可說 of that）；it 為人稱代名詞，無法作為關係代名詞連接子句；what 已內含先行詞語意，但此處先行詞 the report 已明確存在，不可重複使用 what。"
     }
   ],
   "p6": {
-    "id": "2026-08-19-p6",
-    "title": "NOTICE: Updated Protocol for Handling Data Subject Access Requests",
+    "id": "2026-08-20-p6",
+    "title": "MEMORANDUM: Temporary Freeze on Non-Essential Software Purchases Pending Budget Review",
     "seg": [
       [
-        "To all customer-facing staff: Beginning next month, any request from a customer to access, correct, or delete their personal data ",
+        "To all department heads: Effective immediately and continuing through the end of this fiscal quarter, all purchases of new software licenses or subscriptions not already budgeted for this year ",
         { "b": 0 },
-        " to the Privacy Office within twenty-four hours of receipt, rather than being handled directly by the department that received it."
+        " prior written approval from the CFO's office before any purchase order is submitted."
       ],
       [
         { "b": 1 },
-        ", requests that are clearly duplicative of a prior request already resolved within the past ninety days may be closed with a brief explanatory note rather than undergoing the full review process."
+        ", renewals of existing, already-budgeted software licenses are exempt from this freeze and may proceed through the normal approval channel."
       ],
       [
-        "Staff who receive a request directly should ",
+        "Department heads should ",
         { "b": 2 },
-        " the requester to the Privacy Office and provide its contact information, even if they choose not to handle the request themselves."
+        " their current software needs against upcoming project deadlines before requesting an exception to this freeze."
       ],
       [
         { "b": 3 },
-        " A summary flowchart of the new request-handling procedure is available on the Privacy Office's intranet page."
+        " Requests for exception should include a brief justification and be routed through the department head's direct supervisor."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["must be forwarded", "forwards", "has forwarded", "is forwarding"],
+        "opts": ["will require", "require", "have required", "are requiring"],
         "ans": 0,
-        "zh": "致所有第一線客服同仁：自下個月起，任何客戶提出的個資存取、更正或刪除請求，「均須」在收到後二十四小時內轉交隱私辦公室，而非由收到請求的部門逕自處理。",
-        "why": "請求是被轉交的對象，此句表達強制性規定，須用被動情態動詞 <b>must be forwarded</b>（必須被轉交）。forwards 為現在式主動動詞第三人稱單數，非被動語態，不符文法；has forwarded 為現在完成式主動，與強制規定的語氣不符；is forwarding 為現在進行式主動，同樣不符合被動及規範性語氣的要求。"
+        "zh": "致所有部門主管：自即日起至本財政季度結束為止，所有未編列於本年度預算內的新軟體授權或訂閱採購，「均須」在送出請購單之前，先取得財務長辦公室的書面事先核准。",
+        "why": "句首明訂即刻生效並持續至季度結束的期間「Effective immediately and continuing through...」，須用未來式 <b>will require</b>。require 為現在式，與此處強調生效期間的規定語氣搭配時精準度不足；have required 為現在完成式，暗示已實施而非規定期間內持續適用；are requiring 為現在進行式，同樣不符合正式公告未來期間規定的語境。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["Even so", "As a result", "In turn", "Similarly"],
+        "opts": ["By contrast", "Consequently", "In the same vein", "To that end"],
         "ans": 0,
-        "zh": "「即便如此」，若請求明顯與過去九十天內已處理完畢的先前請求重複，仍可僅附上簡要說明後結案，無須經過完整審查流程。",
-        "why": "前句規定所有請求皆須轉交隱私辦公室處理，本句說明「即便如此」仍有例外情況（重複請求可簡化處理），兩句構成讓步對比關係，故選 <b>Even so</b>（即便如此）。As a result（因此）表因果；In turn（依次、轉而）表順序；Similarly（同樣地）表類比延續，皆與此處的例外對比邏輯不符。"
+        "zh": "「相對地」，既有且已編列於預算內的軟體授權續約，不受此凍結措施限制，仍可依正常核准管道辦理。",
+        "why": "前句規定新採購須經事先核准，本句說明「相對地」既有續約不受此限制，兩句構成明確對比，故選 <b>By contrast</b>（相對地）。Consequently（因此）表因果；In the same vein（同樣地）表類比延續；To that end（以此為目的）表承接目的，皆與此處的對比邏輯不符。"
       },
       {
-        "tag": "詞彙語意（同字根易混淆詞）",
+        "tag": "詞彙語意（動詞＋介系詞搭配）",
         "col1": true,
-        "opts": ["refer", "defer", "confer", "infer"],
+        "opts": ["weigh", "weight", "wade", "waive"],
         "ans": 0,
-        "zh": "直接收到請求的同仁，即使自己選擇不處理該請求，仍應將請求人「轉介」至隱私辦公室，並提供其聯絡方式。",
-        "why": "<b>refer...to</b>（將某人轉介、引導至另一單位）精準對應此處「將請求人導向隱私辦公室」的語境。defer（延後處理，或 defer to 表順從、聽從）語意不符；confer（商討，或正式授予）語意不符；infer（依據線索推論）語意完全不符，四字同為 -fer 字根的形似詞，屬進階詞彙易混淆辨析。"
+        "zh": "各部門主管在申請此凍結措施的例外許可之前，應先將目前的軟體需求與即將到來的專案期限「相互權衡」。",
+        "why": "<b>weigh...against</b>（將…與…相互權衡、比較）為此處「衡量需求與期限」語境下的標準固定搭配。weight 作動詞時罕見且不具此固定搭配用法；wade（涉水而行，或 wade through 表艱難地處理）語意不符；waive（放棄、豁免某項要求）語意完全不符。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Staff who are uncertain whether a request qualifies as a formal data subject access request should contact the Privacy Office directly.",
-          "The company's annual data privacy training will be held virtually this year.",
-          "All customer service scripts have been updated to reflect the new holiday return policy.",
-          "The customer service department's phone system will be upgraded next quarter."
+          "A short exception-request form has been added to the finance intranet page for this purpose.",
+          "The company's annual all-hands meeting will be held virtually this year.",
+          "All hardware purchases remain subject to the standard IT approval process.",
+          "The office's guest Wi-Fi password will be updated at the start of next month."
         ],
         "ans": 0,
-        "zh": "「若同仁不確定某項請求是否構成正式的個資主體存取請求，應直接聯繫隱私辦公室。」新版請求處理流程的摘要流程圖，可於隱私辦公室內部網路頁面取得。",
-        "why": "段落主題為「個資主體存取請求處理新制通知」，此句提醒同仁若對請求性質認定有疑問應直接聯繫隱私辦公室，與後句「流程圖可於內部網路取得」共同構成完整的操作指引收尾。其餘選項（年度隱私訓練、假期退貨政策、電話系統升級）皆與個資請求處理新制無關，插入後語意斷裂。"
+        "zh": "「為此，財務部門內部網路頁面已新增一份簡短的例外申請表。」例外申請須附上簡要說明，並經部門主管的直屬上級轉呈。",
+        "why": "段落主題為「非必要軟體採購暫時凍結通知」，此句說明例外申請表的取得方式，與後句「申請須附說明並經上級轉呈」共同構成完整的例外程序操作指引。其餘選項（全體員工大會、硬體採購流程、訪客 Wi-Fi 密碼）皆與軟體採購凍結措施無關，插入後語意斷裂。"
       }
     ]
   }
