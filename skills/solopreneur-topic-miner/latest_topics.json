@@ -1,71 +1,99 @@
 {
-  "date": "2026-08-19",
+  "date": "2026-08-20",
   "big_events": [
     {
-      "title": "OpenAI預覽「Private Safety Processing」新安全監控技術,兼容零數據保留",
+      "title": "英國AI新創Callosum完成1億美元種子輪,由Atomico領投、英國主權AI基金加碼",
       "sources": [
-        {"name": "Axios", "url": "https://www.axios.com/2026/08/19/openai-previews-zero-retention-safety-system-as-anthropic-requires-data-logs"},
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-08-19/openai-to-enhance-safety-processes-for-paid-tool-customers"},
-        {"name": "OpenAI", "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models/"}
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-20/ai-startup-callosum-raises-100-million-to-make-ai-tasks-cheaper"
+        },
+        {
+          "name": "tech.eu",
+          "url": "https://tech.eu/2026/08/20/callosum-raises-100m-seed-round/"
+        },
+        {
+          "name": "Tech Times",
+          "url": "https://www.techtimes.com/articles/325093/20260820/callosum-lands-100m-seed-route-ai-tasks-across-any-chip-bypassing-nvidia-monoculture.htm"
+        }
       ],
-      "summary": "OpenAI測試新安全監控機制,能偵測跨對話濫用模式,但不讓員工看到原始內容,9月正式推出。",
-      "audience": "用OpenAI API開發產品的獨立開發者、SaaS創業者、需向客戶說明資料安全政策的AI顧問",
-      "pain_point": "客戶常質疑「我的資料會不會被AI公司看光」,開發者缺乏具體資料佐證,難以說服企業客戶採用AI工具",
-      "title_idea": "OpenAI也怕被駭!新安全機制曝光,你的對話資料到底安不安全?",
-      "local_angle": "海外媒體已詳解技術細節,華語圈AI資安/合規教學內容仍是空白,可搶先做「企業導入ChatGPT/API資料安全懶人包」"
-    },
-    {
-      "title": "OpenAI宣布ChatGPT廣告8/24起擴大至歐洲31國市場",
-      "sources": [
-        {"name": "OpenAI", "url": "https://openai.com/index/chatgpt-ads-expands-across-europe/"},
-        {"name": "Dataconomy", "url": "https://dataconomy.com/2026/08/19/openai-chatgpt-ads-launch-european-markets-august-24/"},
-        {"name": "Search Engine Land", "url": "https://searchengineland.com/chatgpt-ads-are-expanding-to-31-european-countries-485468"}
-      ],
-      "summary": "ChatGPT廣告服務即將擴大至德、法、義等31個歐洲市場,僅在免費與Go方案顯示廣告。",
-      "audience": "數位行銷從業者、電商小編、想搶先卡位新廣告版位的自媒體與廣告代理商",
-      "pain_point": "新廣告版位早期通常競價低、紅利期短,行銷人若不提前研究規則容易錯過先機",
-      "title_idea": "ChatGPT開始賣廣告了!行銷人搶先看:歐洲31國怎麼投?",
-      "local_angle": "目前僅美國、歐洲上線,華語圈廣告主與行銷KOL還沒人做「ChatGPT廣告投放教學」,可提前卡位內容紅利"
-    },
-    {
-      "title": "TechCrunch民調:AI好感度不升反降,52%美國人「憂多於喜」",
-      "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt/"},
-        {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/technology/ai/articles/ai-supposed-win-people-over-191140548.html"}
-      ],
-      "summary": "最新調查顯示52%美國人對AI「憂多於喜」,較2021年37%明顯上升,年輕族群尤其不信任AI領袖。",
-      "audience": "做AI科普/評論類內容的自媒體創作者、關注科技社會議題的觀眾",
-      "pain_point": "許多創作者只顧著吹捧AI工具多神,卻忽略觀眾其實對AI有戒心,內容容易顯得不接地氣、引發反感",
-      "title_idea": "為什麼大家越用AI越討厭AI?一份調查揭露的真相",
-      "local_angle": "海外已出現「復古退燒潮」(功能機、底片相機回流)反映AI焦慮,華語圈可結合這股「反AI」情緒做差異化選題"
+      "summary": "Callosum募得1億美元種子輪,打造跨晶片動態路由AI工作負載的系統軟體平台。",
+      "audience": "關注AI基礎設施、雲端算力成本與晶片投資趨勢的科技創業者、獨立開發者",
+      "pain_point": "不了解「AI任務跨晶片路由」這門新顯學在解決什麼問題,也搞不清楚為何投資人願意砸重金在不做模型、只做路由層的新創上",
+      "title_idea": "1億美元種子輪創歐洲紀錄!這家新創不做AI模型,只做「AI界的高速公路」",
+      "local_angle": "華語圈AI基礎建設報導多聚焦晶片本身(Nvidia、Broadcom),鮮少討論「模型與晶片動態配對」這類系統軟體層新創,適合做「你不知道的AI成本降低關鍵」科普選題"
     }
   ],
   "tool_updates": [
     {
-      "title": "Meta AI推出原生Mac桌面版,主打創作者與中小企業整合IG/FB/Google Workspace",
+      "title": "Claude Code新增內建「Concise」精簡輸出模式,回應直接給結論不再長篇解釋",
       "sources": [
-        {"name": "Axios", "url": "https://www.axios.com/2026/08/19/metas-new-mac-app-helps-influencers-and-small-biz-harness-ai"},
-        {"name": "9to5Mac", "url": "https://9to5mac.com/2026/08/19/meta-ai-is-now-available-as-a-more-capable-desktop-app-for-mac/"},
-        {"name": "Engadget", "url": "https://www.engadget.com/2240154/meta-ai-now-has-a-dedicated-desktop-app-for-mac/"}
+        {
+          "name": "ClaudeDevs (X)",
+          "url": "https://x.com/ClaudeDevs/status/2090245922685063634"
+        },
+        {
+          "name": "Claude Code Docs Changelog",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
       ],
-      "summary": "Meta AI推出Mac原生App,可連結IG/FB帳號、廣告數據與Google Workspace文件,主攻創作者與小型企業。",
-      "audience": "經營IG/FB的個人品牌創作者、電商小賣家、社群小編",
-      "pain_point": "廣告成效與內容規劃分散在多個工具間查看,經營者花大量時間切換App整理數據",
-      "title_idea": "Meta AI出Mac版了!創作者一鍵串接IG/FB數據,這樣用最省時間",
-      "local_angle": "功能才剛上線,華語圈教學幾乎是空白,適合搶先做「Meta AI Mac版串接IG廣告後台」實測教學"
+      "summary": "Claude Code 2.1.237版新增Concise輸出風格,先給結果、省略推理過程,可一鍵開啟。",
+      "audience": "每天用Claude Code寫程式、跑自動化流程的獨立開發者、vibe coding創作者",
+      "pain_point": "Claude Code預設回覆常常長篇講解推理過程才給答案,拖慢盯著終端機工作的節奏,使用者常抱怨要滑過大段文字才看到重點",
+      "title_idea": "Claude Code終於「講重點」了!一個設定讓AI回覆秒懂不囉唆",
+      "local_angle": "華語Claude Code教學多聚焦模型能力與MCP串接,鮮少人講輸出風格這種體感差異設定,適合做「三秒切換」實測短影音搶先卡位"
     },
     {
-      "title": "TikTok Live新增AI自動生成開場白功能,幫助直播主快速自我介紹",
+      "title": "ChatGPT Mac版新增iMessage整合,可讀取、搜尋並代發訊息",
       "sources": [
-        {"name": "Global Dating Insights", "url": "https://www.globaldatinginsights.com/featured/tiktok-adds-ai-generated-introductions-for-live-creators/"},
-        {"name": "Social Media Today", "url": "https://www.socialmediatoday.com/news/tiktok-live-adds-ai-generated-intros/828220/"}
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/08/20/chatgpt-update-adds-apple-messages-integration-on-mac/"
+        },
+        {
+          "name": "Digital Trends",
+          "url": "https://www.digitaltrends.com/computing/chatgpt-apple-messages-integration-mac/"
+        }
       ],
-      "summary": "TikTok Live新增AI功能,依創作者提供的資訊自動生成開場自我介紹,已上線至直播後台。",
-      "audience": "TikTok直播主、剛入行的個人品牌經營者、不擅長寫自我介紹文案的創作者",
-      "pain_point": "每次開播都要重新想開場白介紹自己,新手常詞窮或不知道怎麼包裝自己",
-      "title_idea": "開播詞不用自己想了!TikTok新功能AI幫你寫開場白",
-      "local_angle": "功能剛推出,目前多為英文媒體報導,可搶先做中文實測影片示範怎麼用、生成效果如何"
+      "summary": "ChatGPT桌面版新增原生Apple Messages外掛,可讀取iMessage並代為發送訊息、分析對話。",
+      "audience": "用ChatGPT處理日常通訊與客戶聯繫的自由工作者、Mac重度使用者、AI隱私議題創作者",
+      "pain_point": "想用AI幫忙整理、回覆大量訊息卻要一直切換App複製貼上,但同時擔心把私訊、財務資訊等敏感內容交給AI讀取的隱私風險",
+      "title_idea": "ChatGPT現在能讀你的iMessage了!方便背後藏著什麼隱私陷阱?",
+      "local_angle": "這是繼Google Drive整合後又一個「AI伸手進私人資料」的功能,華語圈尚無中文實測與風險提醒,適合做「開箱+隱私設定教學」雙效內容"
+    },
+    {
+      "title": "ChatGPT Sites新增「共同編輯者」功能,可邀請他人協作AI生成的網站",
+      "sources": [
+        {
+          "name": "OpenAI Help Center 發布說明",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        },
+        {
+          "name": "ChatGPT Learn - Sites文件",
+          "url": "https://learn.chatgpt.com/docs/sites"
+        }
+      ],
+      "summary": "ChatGPT Sites用戶現可邀請同工作區成員擔任共同編輯者,一起更新內容、發布網站版本。",
+      "audience": "用ChatGPT Sites快速做落地頁、小型網站的獨立開發者、小型團隊、接案工作者",
+      "pain_point": "之前用ChatGPT生成的網站只有擁有者能改,團隊想一起調整文案或版面卻做不到,得整份重新描述給AI重做",
+      "title_idea": "用聊天就能做網站的ChatGPT Sites,現在終於能「找人一起改」了",
+      "local_angle": "華語圈「ChatGPT做網站」教學多半停留在單人操作,協作功能剛上線,適合搶先示範「團隊如何分工用ChatGPT Sites接案」"
     }
   ],
-  "trends": []
+  "trends": [
+    {
+      "title": "TechCrunch公布2026年Startup Battlefield 200強新創名單,橫跨AI、氣候、健康等領域",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/20/the-2026-startup-battlefield-200-is-here-see-who-made-the-cut/"
+        }
+      ],
+      "summary": "TechCrunch從全球數千件申請中選出200家早期新創,10月將在Disrupt大會角逐10萬美元獎金。",
+      "audience": "想了解歐美早期新創趨勢、尋找選題靈感的科技創業自媒體、天使投資人、獨立開發者",
+      "pain_point": "不知道歐美早期投資人現在最看好哪些AI應用方向,選題和創業方向容易跟著舊趨勢走,錯過還在萌芽期的新賽道",
+      "title_idea": "從上千件申請殺出重圍!2026年最值得關注的200家新創,AI類都在做什麼",
+      "local_angle": "華語圈鮮少有人逐一挖掘這份名單裡的AI新創在做什麼,適合做成「200強新創挖寶」系列選題,搶先找到還沒被中文報導的公司做深度介紹"
+    }
+  ]
 }
