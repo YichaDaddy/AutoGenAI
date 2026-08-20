@@ -1,117 +1,117 @@
 {
-  "date": "2026-08-20",
+  "date": "2026-08-21",
   "p5": [
     {
-      "id": "2026-08-20-p5-0",
-      "tag": "程度結果子句（so + 形容詞 + a + 名詞 + that）",
-      "pre": "It was ",
-      "post": " a merger that regulators on three continents opened simultaneous antitrust investigations.",
-      "opts": ["so contentious", "such contentious", "so much contentious", "as contentious"],
+      "id": "2026-08-21-p5-0",
+      "tag": "倍數比較（times as...as）",
+      "pre": "The revised marketing budget is nearly three times ",
+      "post": " large as the amount originally approved by the finance committee.",
+      "opts": ["as", "than", "so", "that"],
       "ans": 0,
-      "zh": "這起併購案「如此」充滿爭議，「以至於」三個大陸的監管機關同時展開反壟斷調查。",
-      "why": "<b>so + 形容詞 + a/an + 單數可數名詞</b> 為固定倒裝語序（= such a contentious merger），此處緊接 a merger，須用 <b>so contentious</b>。such contentious 語序錯誤，such 修飾單數可數名詞時須為 such + a + 形容詞 + 名詞，冠詞 a 位置不同；so much contentious 為贅字誤用；as contentious 須搭配 as 構成同等比較（as...as），無法單獨引出 that 結果子句。"
+      "zh": "這份修訂後的行銷預算，「幾乎是」財務委員會原本核准金額的三倍之大。",
+      "why": "<b>倍數 + as + 形容詞 + as</b> 為固定倍數比較結構（three times as large as...），此處須用 <b>as</b>。than 須搭配比較級（larger than）而非原級 as large；so 不具備此固定倍數比較功能；that 無法在此構成比較句型。"
     },
     {
-      "id": "2026-08-20-p5-1",
-      "tag": "條件句倒裝（Should + 原形動詞）",
+      "id": "2026-08-21-p5-1",
+      "tag": "簡化讓步子句（Though + 形容詞）",
       "pre": "",
-      "post": " the acquisition fail to close by the year-end deadline, both parties have agreed to forfeit their respective escrow deposits.",
-      "opts": ["Should", "Would", "Were", "Could"],
+      "post": " skeptical of the vendor's projections, the procurement team ultimately approved the contract after securing additional performance guarantees.",
+      "opts": ["Though", "Despite", "Because", "As"],
       "ans": 0,
-      "zh": "「萬一」這起收購案未能在年底期限前完成交割，雙方已同意各自沒收其履約保證金。",
-      "why": "此為 If the acquisition should fail 的省略 if 倒裝形式，表對未來可能發生之事的假設，須用 <b>Should</b> 提前至句首並直接搭配原形動詞 fail。Would 不具備此倒裝條件句的用法；Were 用於倒裝時須搭配 to 不定詞（Were the acquisition to fail），與此處直接接原形動詞 fail 的結構不符；Could 不具備條件句倒裝的固定功能。"
+      "zh": "「儘管」對供應商的預測抱持懷疑，採購團隊在取得額外的績效保證後，最終仍核准了這份合約。",
+      "why": "<b>Though</b> 為讓步連接詞，可直接接形容詞構成簡化子句（= Though [they were] skeptical...）。Despite 為介系詞，須接名詞或動名詞（despite their skepticism / despite being skeptical），不可直接接形容詞 skeptical；Because 表因果，與「儘管懷疑仍核准」的讓步邏輯相反；As 雖可表讓步（較少見且需倒裝），但在此語境下較常表原因或時間，不若 Though 精準對應簡化讓步子句的用法。"
     },
     {
-      "id": "2026-08-20-p5-2",
-      "tag": "強調用法（do/does/did + 原形動詞）",
-      "pre": "The committee ",
-      "post": " ultimately approve the budget, despite months of contentious debate over the allocation formula.",
-      "opts": ["did", "has", "was", "would"],
+      "id": "2026-08-21-p5-2",
+      "tag": "複合關係副詞（whereby）",
+      "pre": "The company adopted a new escrow arrangement ",
+      "post": " payments are released only after the client formally confirms delivery.",
+      "opts": ["whereby", "wherein", "whereof", "whereupon"],
       "ans": 0,
-      "zh": "儘管歷經數月針對分配方式的激烈辯論，委員會「確實」最終核准了這項預算。",
-      "why": "<b>did</b> + 原形動詞（did approve）為強調助動詞用法，用以強調「該動作確實發生」，常見於與預期相反或經過波折後仍發生的語境，恰好呼應 despite months of contentious debate 的轉折語氣。has 須接過去分詞 approved 而非原形動詞；was 須搭配被動或進行式結構，不能直接接原形動詞 approve；would 表假設或過去習慣性動作，不具強調確認事實的功能。"
+      "zh": "公司採用了一套新的履約保證機制，「依此機制」，款項須待客戶正式確認交貨後方予撥付。",
+      "why": "<b>whereby</b>（依此、藉此，意指「透過此機制」）為描述制度／機制運作方式時最標準的正式用語，精準對應此處「說明保證金撥付機制如何運作」的語境。wherein（在其中）語意較偏向「容器式」的空間概念，用於描述機制運作方式時不若 whereby 道地；whereof（關於此、其）為罕用古語，語意不符；whereupon（於是、隨即）表示「緊接著發生」的時間順序，與此處描述持續性機制的語意不符。"
     },
     {
-      "id": "2026-08-20-p5-3",
-      "tag": "進階動詞語意辨別（vindicate，近義詞區辨）",
-      "pre": "The independent investigation ultimately ",
-      "post": " the whistleblower's original claims, forcing the company to issue a public apology and overhaul its safety protocols.",
-      "opts": ["vindicated", "validated", "invalidated", "vitiated"],
+      "id": "2026-08-21-p5-3",
+      "tag": "進階動詞語意辨別（reconcile，re-字首易混淆詞）",
+      "pre": "Management struggled to ",
+      "post": " the two conflicting audit reports before the board meeting, as one showed a significant surplus while the other indicated a shortfall of nearly the same amount.",
+      "opts": ["reconcile", "reciprocate", "recapitulate", "recuperate"],
       "ans": 0,
-      "zh": "這項獨立調查最終「還了」吹哨者「清白」，證實其最初的指控屬實，迫使公司發布公開道歉並全面翻修其安全規範。",
-      "why": "<b>vindicate</b>（洗刷冤屈、證明某人先前遭質疑的說法屬實）精準對應「吹哨者原本遭懷疑，最終被證明是對的」這種帶有平反意味的語境。validate（證實、確認，語氣較中性，不特別強調平反冤屈）雖語意相近但情感色彩較弱；invalidate（推翻、宣告無效）語意完全相反；vitiate（使敗壞、使無效，常用於法律語境指使契約失效）語意不符。"
+      "zh": "管理階層在董事會之前，苦於「調和」兩份相互矛盾的稽核報告——一份顯示大幅盈餘，另一份卻顯示幾乎等額的虧損。",
+      "why": "<b>reconcile</b>（使一致、調和相互矛盾的資訊）為會計與商務語境中的標準用語（如 reconcile accounts/reports），精準對應此處「化解兩份報告矛盾」的語境。reciprocate（回報、互相給予）語意不符；recapitulate（摘要重述）語意不符；recuperate（康復、恢復元氣，多用於健康語境）語意完全不符，四字同為 re- 字首形似詞，屬進階詞彙易混淆辨析。"
     },
     {
-      "id": "2026-08-20-p5-4",
-      "tag": "介系詞＋關係代名詞（of which，非限定子句）",
-      "pre": "The report, a copy of ",
-      "post": " was leaked to reporters last week, detailed extensive safety violations spanning nearly a decade.",
-      "opts": ["which", "that", "it", "what"],
+      "id": "2026-08-21-p5-4",
+      "tag": "不定詞補語（expect + 受詞 + to be）",
+      "pre": "Given her reputation for meticulous compliance, the CFO was the last person anyone expected ",
+      "post": " implicated in the accounting scandal.",
+      "opts": ["to be", "being", "been", "be"],
       "ans": 0,
-      "zh": "這份報告——「其」副本已於上週外洩給記者——詳細記載了近十年來層出不窮的安全違規事件。",
-      "why": "介系詞 of 之後須接關係代名詞 <b>which</b>（of which），且此處為逗號隔開的非限定子句，更須用 which 而非 that。that 依文法慣例不可直接置於介系詞之後（不可說 of that）；it 為人稱代名詞，無法作為關係代名詞連接子句；what 已內含先行詞語意，但此處先行詞 the report 已明確存在，不可重複使用 what。"
+      "zh": "鑑於財務長一向以嚴謹合規著稱，她是所有人「最不」預期會被捲入這起會計醜聞的人。",
+      "why": "expect + 受詞 + <b>to be</b> + 過去分詞為固定句型（expect someone to be implicated），須用完整不定詞 <b>to be</b>。being 為動名詞，expect 不接動名詞作受詞補語；been 為過去分詞，前面須有助動詞或 to be 才能使用；be 為原形動詞，expect 句型須用完整的 to 不定詞而非省略 to 的原形動詞。"
     }
   ],
   "p6": {
-    "id": "2026-08-20-p6",
-    "title": "MEMORANDUM: Temporary Freeze on Non-Essential Software Purchases Pending Budget Review",
+    "id": "2026-08-21-p6",
+    "title": "MEMORANDUM: New Approval Process for External Speaking Engagements and Media Appearances",
     "seg": [
       [
-        "To all department heads: Effective immediately and continuing through the end of this fiscal quarter, all purchases of new software licenses or subscriptions not already budgeted for this year ",
+        "To all employees: Beginning next month, any employee planning to speak publicly on behalf of the company—whether at an industry conference, in a media interview, or on a podcast—",
         { "b": 0 },
-        " prior written approval from the CFO's office before any purchase order is submitted."
+        " prior approval from the communications department at least five business days in advance."
       ],
       [
         { "b": 1 },
-        ", renewals of existing, already-budgeted software licenses are exempt from this freeze and may proceed through the normal approval channel."
+        ", employees speaking in a purely personal capacity, without referencing their role or the company by name, are not subject to this approval requirement."
       ],
       [
-        "Department heads should ",
+        "The communications department will ",
         { "b": 2 },
-        " their current software needs against upcoming project deadlines before requesting an exception to this freeze."
+        " each request based on the topic's sensitivity, potential media exposure, and alignment with current messaging priorities."
       ],
       [
         { "b": 3 },
-        " Requests for exception should include a brief justification and be routed through the department head's direct supervisor."
+        " Employees are encouraged to submit requests well before the five-day minimum whenever possible, particularly for high-profile events."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["will require", "require", "have required", "are requiring"],
+        "opts": ["must obtain", "obtains", "has obtained", "is obtaining"],
         "ans": 0,
-        "zh": "致所有部門主管：自即日起至本財政季度結束為止，所有未編列於本年度預算內的新軟體授權或訂閱採購，「均須」在送出請購單之前，先取得財務長辦公室的書面事先核准。",
-        "why": "句首明訂即刻生效並持續至季度結束的期間「Effective immediately and continuing through...」，須用未來式 <b>will require</b>。require 為現在式，與此處強調生效期間的規定語氣搭配時精準度不足；have required 為現在完成式，暗示已實施而非規定期間內持續適用；are requiring 為現在進行式，同樣不符合正式公告未來期間規定的語境。"
+        "zh": "致所有員工：自下個月起，任何員工若計畫代表公司公開發言——無論是在產業研討會、媒體專訪，或是 Podcast 節目中——「均須」至少於五個工作天前取得公關部門的事先核准。",
+        "why": "此句為正式公告的強制性規定，須用情態助動詞 <b>must obtain</b>（必須取得）表達義務。obtains 為現在式主動動詞，不具強制規定的語氣；has obtained 為現在完成式，暗示已取得而非規定應事先取得；is obtaining 為現在進行式，與正式規定公告的語氣不符。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["By contrast", "Consequently", "In the same vein", "To that end"],
+        "opts": ["Conversely", "As a result", "In particular", "Likewise"],
         "ans": 0,
-        "zh": "「相對地」，既有且已編列於預算內的軟體授權續約，不受此凍結措施限制，仍可依正常核准管道辦理。",
-        "why": "前句規定新採購須經事先核准，本句說明「相對地」既有續約不受此限制，兩句構成明確對比，故選 <b>By contrast</b>（相對地）。Consequently（因此）表因果；In the same vein（同樣地）表類比延續；To that end（以此為目的）表承接目的，皆與此處的對比邏輯不符。"
+        "zh": "「相反地」，若員工僅以個人身分發言，並未提及其職位或公司名稱，則不受此核准規定之限制。",
+        "why": "前句規定代表公司發言須經核准，本句說明「相反地」純屬個人身分發言的情況則為例外，兩句構成明確對比，故選 <b>Conversely</b>（相反地）。As a result（因此）表因果；In particular（尤其是）表在同一類別中舉例強調；Likewise（同樣地）表類比延續，皆與此處對立情境的對比邏輯不符。"
       },
       {
-        "tag": "詞彙語意（動詞＋介系詞搭配）",
+        "tag": "詞彙語意（動詞辨析）",
         "col1": true,
-        "opts": ["weigh", "weight", "wade", "waive"],
+        "opts": ["vet", "veto", "verify", "vest"],
         "ans": 0,
-        "zh": "各部門主管在申請此凍結措施的例外許可之前，應先將目前的軟體需求與即將到來的專案期限「相互權衡」。",
-        "why": "<b>weigh...against</b>（將…與…相互權衡、比較）為此處「衡量需求與期限」語境下的標準固定搭配。weight 作動詞時罕見且不具此固定搭配用法；wade（涉水而行，或 wade through 表艱難地處理）語意不符；waive（放棄、豁免某項要求）語意完全不符。"
+        "zh": "公關部門將依據議題敏感度、潛在的媒體曝光程度，以及與當前溝通重點的契合度，來「審核評估」每一項申請。",
+        "why": "<b>vet</b>（審核、仔細評估後決定是否核准）精準對應此處「依多項標準綜合評估申請案」的語境。veto（否決、行使否決權）語氣過於絕對，與依標準「評估」的細緻語境不符；verify（查證屬實）著重確認事實真偽，而非評估適切性；vest（授予、賦予權力）語意完全不符。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "A short exception-request form has been added to the finance intranet page for this purpose.",
-          "The company's annual all-hands meeting will be held virtually this year.",
-          "All hardware purchases remain subject to the standard IT approval process.",
-          "The office's guest Wi-Fi password will be updated at the start of next month."
+          "A simple request form is available on the communications department's intranet page.",
+          "The company's holiday card design contest is now open for submissions.",
+          "All expense reports for conference travel must be submitted within thirty days.",
+          "The main office lobby will be renovated starting next quarter."
         ],
         "ans": 0,
-        "zh": "「為此，財務部門內部網路頁面已新增一份簡短的例外申請表。」例外申請須附上簡要說明，並經部門主管的直屬上級轉呈。",
-        "why": "段落主題為「非必要軟體採購暫時凍結通知」，此句說明例外申請表的取得方式，與後句「申請須附說明並經上級轉呈」共同構成完整的例外程序操作指引。其餘選項（全體員工大會、硬體採購流程、訪客 Wi-Fi 密碼）皆與軟體採購凍結措施無關，插入後語意斷裂。"
+        "zh": "「一份簡易申請表已提供於公關部門的內部網路頁面。」若情況許可，建議員工盡量提前於五天最低期限之前提交申請，尤其是高知名度的活動場合。",
+        "why": "段落主題為「對外發言與媒體露面新核准流程」，此句提供申請表的取得方式，與後句「建議提前提交申請」共同構成完整的操作指引。其餘選項（節慶卡片設計比賽、差旅費用核銷、大廳整修）皆與對外發言核准流程無關，插入後語意斷裂。"
       }
     ]
   }
