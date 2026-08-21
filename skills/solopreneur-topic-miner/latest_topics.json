@@ -1,99 +1,79 @@
 {
-  "date": "2026-08-20",
+  "date": "2026-08-21",
   "big_events": [
     {
-      "title": "英國AI新創Callosum完成1億美元種子輪,由Atomico領投、英國主權AI基金加碼",
+      "title": "Anthropic加速IPO計畫,目標估值上看2兆美元、規模擬追平或超越SpaceX紀錄",
       "sources": [
-        {
-          "name": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-20/ai-startup-callosum-raises-100-million-to-make-ai-tasks-cheaper"
-        },
-        {
-          "name": "tech.eu",
-          "url": "https://tech.eu/2026/08/20/callosum-raises-100m-seed-round/"
-        },
-        {
-          "name": "Tech Times",
-          "url": "https://www.techtimes.com/articles/325093/20260820/callosum-lands-100m-seed-route-ai-tasks-across-any-chip-bypassing-nvidia-monoculture.htm"
-        }
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/newsletters/2026-08-21/anthropic-expects-to-match-or-top-spacex-s-record-ipo-size"},
+        {"name": "Dataconomy", "url": "https://dataconomy.com/2026/08/21/anthropic-accelerates-ipo-plans-targeting-2-trillion/"},
+        {"name": "Fortune", "url": "https://fortune.com/2026/08/21/anthropic-to-spacex-you-aint-bigger/"}
       ],
-      "summary": "Callosum募得1億美元種子輪,打造跨晶片動態路由AI工作負載的系統軟體平台。",
-      "audience": "關注AI基礎設施、雲端算力成本與晶片投資趨勢的科技創業者、獨立開發者",
-      "pain_point": "不了解「AI任務跨晶片路由」這門新顯學在解決什麼問題,也搞不清楚為何投資人願意砸重金在不做模型、只做路由層的新創上",
-      "title_idea": "1億美元種子輪創歐洲紀錄!這家新創不做AI模型,只做「AI界的高速公路」",
-      "local_angle": "華語圈AI基礎建設報導多聚焦晶片本身(Nvidia、Broadcom),鮮少討論「模型與晶片動態配對」這類系統軟體層新創,適合做「你不知道的AI成本降低關鍵」科普選題"
+      "summary": "Anthropic傳最快8月底申請IPO,規模擬追平或超越SpaceX紀錄,年化營收已破650億美元。",
+      "audience": "關注AI產業投資、Claude生態系動態的科技創業者、獨立開發者、對AI股票/IPO話題感興趣的自媒體觀眾",
+      "pain_point": "不清楚這次IPO消息代表什麼、對Claude用戶與開發者未來的訂閱定價與產品方向有何影響,也搞不懂「2兆美元估值」在AI產業裡到底是什麼量級",
+      "title_idea": "Anthropic準備上市了!估值上看2兆美元,比SpaceX還大是什麼概念?",
+      "local_angle": "華語圈目前多聚焦Claude模型能力本身,鮮少解讀Anthropic的資本市場動作,可搶先做「IPO對Claude用戶的實際影響」科普解讀,同時蹭SpaceX比較話題熱度"
+    },
+    {
+      "title": "太空資料中心新創Starcloud增資2.5億美元,獲Nvidia親自加碼,估值衝上23億美元",
+      "sources": [
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/"},
+        {"name": "GeekWire", "url": "https://www.geekwire.com/2026/starcloud-250m-data-center-satellite-network-nvidia/"}
+      ],
+      "summary": "太空資料中心新創Starcloud完成2.5億美元擴充輪,Nvidia親自投資加碼,估值達23億美元。",
+      "audience": "關注AI基礎建設、太空科技與晶片投資趨勢的科技創業者、獨立開發者",
+      "pain_point": "不了解為何要把AI算力送上太空、這種「軌道資料中心」如何解決地球上算力與電力短缺的實際問題",
+      "title_idea": "把AI資料中心送上太空!這家新創讓Nvidia都親自下注",
+      "local_angle": "華語圈AI基建討論多聚焦地面資料中心與晶片本身,「太空資料中心」這個新賽道幾乎沒人講解,適合做「AI算力上太空」科普選題搶資訊差"
+    },
+    {
+      "title": "Nvidia證實「AI代理架構」比模型本身更關鍵,自研AVO框架讓Claude Opus 5拿下ARC-AGI-3滿分",
+      "sources": [
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/"},
+        {"name": "NVIDIA Developer Blog", "url": "https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents/"}
+      ],
+      "summary": "Nvidia新研究顯示,套上自研AVO代理框架後,Claude Opus 5從單模型30分衝上ARC-AGI-3滿分100分。",
+      "audience": "用AI打造agent應用的獨立開發者、Vibe Coding創作者、AI工具測評自媒體",
+      "pain_point": "只顧著追新模型發布,卻不知道同一顆模型套上不同的「代理外殼(harness)」表現可以差三倍以上,誤把預算全花在換模型而非優化任務流程設計",
+      "title_idea": "模型沒變,分數卻從30分衝到100分!Nvidia證實:決定AI代理表現的其實是「這個」",
+      "local_angle": "華語圈AI Agent教學多半只講「換哪個模型最強」,幾乎沒人講解harness/代理架構設計,適合搶先卡位「進階Agent開發」教學系列"
     }
   ],
   "tool_updates": [
     {
-      "title": "Claude Code新增內建「Concise」精簡輸出模式,回應直接給結論不再長篇解釋",
+      "title": "ChatGPT更新Sites網址更換功能,並新增Codex唯讀對話快照與跨裝置置頂同步",
       "sources": [
-        {
-          "name": "ClaudeDevs (X)",
-          "url": "https://x.com/ClaudeDevs/status/2090245922685063634"
-        },
-        {
-          "name": "Claude Code Docs Changelog",
-          "url": "https://code.claude.com/docs/en/changelog"
-        }
+        {"name": "OpenAI Help Center 發布說明", "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"}
       ],
-      "summary": "Claude Code 2.1.237版新增Concise輸出風格,先給結果、省略推理過程,可一鍵開啟。",
-      "audience": "每天用Claude Code寫程式、跑自動化流程的獨立開發者、vibe coding創作者",
-      "pain_point": "Claude Code預設回覆常常長篇講解推理過程才給答案,拖慢盯著終端機工作的節奏,使用者常抱怨要滑過大段文字才看到重點",
-      "title_idea": "Claude Code終於「講重點」了!一個設定讓AI回覆秒懂不囉唆",
-      "local_angle": "華語Claude Code教學多聚焦模型能力與MCP串接,鮮少人講輸出風格這種體感差異設定,適合做「三秒切換」實測短影音搶先卡位"
+      "summary": "ChatGPT Sites用戶可直接更換已發布網站的網址且自動轉址,Codex新增唯讀快照分享與跨裝置置頂同步。",
+      "audience": "用ChatGPT Sites接案做網站、用Codex寫程式的獨立開發者與自由工作者",
+      "pain_point": "網站上線後想換網址就得整個重新部署、舊連結全部失效;Codex的對話進度也沒辦法安全分享給客戶或團隊確認",
+      "title_idea": "ChatGPT做的網站終於能「改網址」了!舊連結還會自動導向新網址",
+      "local_angle": "華語圈「ChatGPT做網站接案」教學多半停留在基本操作,這次網址管理與Codex協作細節更新剛上線,適合搶先做「接案實戰眉角」補充教學"
     },
     {
-      "title": "ChatGPT Mac版新增iMessage整合,可讀取、搜尋並代發訊息",
+      "title": "Claude Code更新至2.1.239版,新增/claude-api升級指令與雲端外掛同步機制,修復多項計費與終端機bug",
       "sources": [
-        {
-          "name": "9to5Mac",
-          "url": "https://9to5mac.com/2026/08/20/chatgpt-update-adds-apple-messages-integration-on-mac/"
-        },
-        {
-          "name": "Digital Trends",
-          "url": "https://www.digitaltrends.com/computing/chatgpt-apple-messages-integration-mac/"
-        }
+        {"name": "Claude Code Changelog", "url": "https://code.claude.com/docs/en/changelog"}
       ],
-      "summary": "ChatGPT桌面版新增原生Apple Messages外掛,可讀取iMessage並代為發送訊息、分析對話。",
-      "audience": "用ChatGPT處理日常通訊與客戶聯繫的自由工作者、Mac重度使用者、AI隱私議題創作者",
-      "pain_point": "想用AI幫忙整理、回覆大量訊息卻要一直切換App複製貼上,但同時擔心把私訊、財務資訊等敏感內容交給AI讀取的隱私風險",
-      "title_idea": "ChatGPT現在能讀你的iMessage了!方便背後藏著什麼隱私陷阱?",
-      "local_angle": "這是繼Google Drive整合後又一個「AI伸手進私人資料」的功能,華語圈尚無中文實測與風險提醒,適合做「開箱+隱私設定教學」雙效內容"
+      "summary": "Claude Code今日釋出2.1.239版,新增Python SDK一鍵升級指令與雲端外掛同步,修復代理環境下被重複計費的bug。",
+      "audience": "每天用Claude Code開發、跑自動化流程的獨立開發者、用Bedrock/Vertex串接的技術團隊",
+      "pain_point": "舊版本走公司代理伺服器時,串流請求可能被默默重複計費卻沒發現;Python專案要手動升級SDK版本又不知道怎麼一次搞定",
+      "title_idea": "Claude Code今天又更新了!這個bug可能讓你的API帳單被「偷偷多收錢」",
+      "local_angle": "華語Claude Code教學多聚焦功能開箱,較少逐版本追蹤這類「省錢/避雷」細節更新,適合做成「訂閱更新懶人包」系列持續累積忠實觀眾"
     },
     {
-      "title": "ChatGPT Sites新增「共同編輯者」功能,可邀請他人協作AI生成的網站",
+      "title": "xAI旗下Grok Bot擴大開放至SuperGrok Plus與Cursor Pro+等中階方案,AI隊友不再只限最貴訂閱",
       "sources": [
-        {
-          "name": "OpenAI Help Center 發布說明",
-          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
-        },
-        {
-          "name": "ChatGPT Learn - Sites文件",
-          "url": "https://learn.chatgpt.com/docs/sites"
-        }
+        {"name": "Unite.AI", "url": "https://www.unite.ai/xai-launches-grok-bot-always-on-ai-teammates-with-their-own-cloud-computers/"},
+        {"name": "Digital Applied", "url": "https://www.digitalapplied.com/blog/grok-bot-cursor-tier-gating-spacex-anysphere-deal-2026"}
       ],
-      "summary": "ChatGPT Sites用戶現可邀請同工作區成員擔任共同編輯者,一起更新內容、發布網站版本。",
-      "audience": "用ChatGPT Sites快速做落地頁、小型網站的獨立開發者、小型團隊、接案工作者",
-      "pain_point": "之前用ChatGPT生成的網站只有擁有者能改,團隊想一起調整文案或版面卻做不到,得整份重新描述給AI重做",
-      "title_idea": "用聊天就能做網站的ChatGPT Sites,現在終於能「找人一起改」了",
-      "local_angle": "華語圈「ChatGPT做網站」教學多半停留在單人操作,協作功能剛上線,適合搶先示範「團隊如何分工用ChatGPT Sites接案」"
+      "summary": "原本只限最高階方案的Grok Bot「AI隊友」功能,擴大開放給SuperGrok Plus、Cursor Pro+/Ultra/Teams等中階訂閱用戶。",
+      "audience": "用Cursor/Grok做開發或自動化任務的獨立開發者、想找便宜AI代理方案的接案工作者",
+      "pain_point": "想用「AI隊友」自動處理多步驟任務,卻發現這功能之前只開放給最貴的頂級訂閱方案,一般用戶碰不到",
+      "title_idea": "不用課最貴方案了!Grok的AI隊友功能現在中階訂閱也能用",
+      "local_angle": "華語圈目前對「Grok Bot」這類雲端自主代理討論還很少,方案開放降低了嘗試門檻,適合搶先做「花多少錢能用到AI隊友」比較教學"
     }
   ],
-  "trends": [
-    {
-      "title": "TechCrunch公布2026年Startup Battlefield 200強新創名單,橫跨AI、氣候、健康等領域",
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/08/20/the-2026-startup-battlefield-200-is-here-see-who-made-the-cut/"
-        }
-      ],
-      "summary": "TechCrunch從全球數千件申請中選出200家早期新創,10月將在Disrupt大會角逐10萬美元獎金。",
-      "audience": "想了解歐美早期新創趨勢、尋找選題靈感的科技創業自媒體、天使投資人、獨立開發者",
-      "pain_point": "不知道歐美早期投資人現在最看好哪些AI應用方向,選題和創業方向容易跟著舊趨勢走,錯過還在萌芽期的新賽道",
-      "title_idea": "從上千件申請殺出重圍!2026年最值得關注的200家新創,AI類都在做什麼",
-      "local_angle": "華語圈鮮少有人逐一挖掘這份名單裡的AI新創在做什麼,適合做成「200強新創挖寶」系列選題,搶先找到還沒被中文報導的公司做深度介紹"
-    }
-  ]
+  "trends": []
 }
