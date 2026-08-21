@@ -1,117 +1,117 @@
 {
-  "date": "2026-08-21",
+  "date": "2026-08-22",
   "p5": [
     {
-      "id": "2026-08-21-p5-0",
-      "tag": "倍數比較（times as...as）",
-      "pre": "The revised marketing budget is nearly three times ",
-      "post": " large as the amount originally approved by the finance committee.",
-      "opts": ["as", "than", "so", "that"],
-      "ans": 0,
-      "zh": "這份修訂後的行銷預算，「幾乎是」財務委員會原本核准金額的三倍之大。",
-      "why": "<b>倍數 + as + 形容詞 + as</b> 為固定倍數比較結構（three times as large as...），此處須用 <b>as</b>。than 須搭配比較級（larger than）而非原級 as large；so 不具備此固定倍數比較功能；that 無法在此構成比較句型。"
-    },
-    {
-      "id": "2026-08-21-p5-1",
-      "tag": "簡化讓步子句（Though + 形容詞）",
+      "id": "2026-08-22-p5-0",
+      "tag": "讓步慣用語（For all，儘管）",
       "pre": "",
-      "post": " skeptical of the vendor's projections, the procurement team ultimately approved the contract after securing additional performance guarantees.",
-      "opts": ["Though", "Despite", "Because", "As"],
+      "post": " its technical sophistication, the new fraud-detection system still failed to flag several obviously suspicious transactions.",
+      "opts": ["For all", "In spite", "Notwithstanding of", "Regardless"],
       "ans": 0,
-      "zh": "「儘管」對供應商的預測抱持懷疑，採購團隊在取得額外的績效保證後，最終仍核准了這份合約。",
-      "why": "<b>Though</b> 為讓步連接詞，可直接接形容詞構成簡化子句（= Though [they were] skeptical...）。Despite 為介系詞，須接名詞或動名詞（despite their skepticism / despite being skeptical），不可直接接形容詞 skeptical；Because 表因果，與「儘管懷疑仍核准」的讓步邏輯相反；As 雖可表讓步（較少見且需倒裝），但在此語境下較常表原因或時間，不若 Though 精準對應簡化讓步子句的用法。"
+      "zh": "「儘管」這套新的詐欺偵測系統技術上如此精密，卻仍未能標記出幾筆明顯可疑的交易。",
+      "why": "<b>For all</b>（儘管，帶有諷刺意味的固定介系詞片語）可直接接名詞片語表讓步，此處後接 its technical sophistication。In spite 須搭配 of 才完整（in spite of）；Notwithstanding 本身已是完整介系詞，不可再接 of，Notwithstanding of 為常見錯誤用法；Regardless 同樣須搭配 of（regardless of）才能接名詞片語，單獨使用不完整。"
     },
     {
-      "id": "2026-08-21-p5-2",
-      "tag": "複合關係副詞（whereby）",
-      "pre": "The company adopted a new escrow arrangement ",
-      "post": " payments are released only after the client formally confirms delivery.",
-      "opts": ["whereby", "wherein", "whereof", "whereupon"],
+      "id": "2026-08-22-p5-1",
+      "tag": "讓步慣用語（Granted that，固定句首）",
+      "pre": "",
+      "post": " that the initial rollout encountered technical setbacks, the platform has since demonstrated measurable improvements in transaction speed and reliability.",
+      "opts": ["Granted", "Grant", "Granting", "To grant"],
       "ans": 0,
-      "zh": "公司採用了一套新的履約保證機制，「依此機制」，款項須待客戶正式確認交貨後方予撥付。",
-      "why": "<b>whereby</b>（依此、藉此，意指「透過此機制」）為描述制度／機制運作方式時最標準的正式用語，精準對應此處「說明保證金撥付機制如何運作」的語境。wherein（在其中）語意較偏向「容器式」的空間概念，用於描述機制運作方式時不若 whereby 道地；whereof（關於此、其）為罕用古語，語意不符；whereupon（於是、隨即）表示「緊接著發生」的時間順序，與此處描述持續性機制的語意不符。"
+      "zh": "「姑且承認」初期上線階段確實遭遇了技術上的挫折，這套平台此後在交易速度與穩定性上，已展現出顯著的進步。",
+      "why": "<b>Granted that</b>（姑且承認、就算…）為固定的讓步句首用語，以過去分詞 Granted 開頭，承認某項事實後隨即轉折。Grant 為原形動詞，不符合此固定讓步用語；Granting 為現在分詞，雖偶見用法但遠不如 Granted that 標準、常見；To grant 為不定詞，不符合此讓步句型結構。"
     },
     {
-      "id": "2026-08-21-p5-3",
-      "tag": "進階動詞語意辨別（reconcile，re-字首易混淆詞）",
-      "pre": "Management struggled to ",
-      "post": " the two conflicting audit reports before the board meeting, as one showed a significant surplus while the other indicated a shortfall of nearly the same amount.",
-      "opts": ["reconcile", "reciprocate", "recapitulate", "recuperate"],
+      "id": "2026-08-22-p5-2",
+      "tag": "簡化關係子句（過去分詞，被動語態）",
+      "pre": "The properties ",
+      "post": " in the recent zoning dispute remain subject to a temporary construction moratorium pending the city council's final ruling.",
+      "opts": ["named", "naming", "having named", "to be named"],
       "ans": 0,
-      "zh": "管理階層在董事會之前，苦於「調和」兩份相互矛盾的稽核報告——一份顯示大幅盈餘，另一份卻顯示幾乎等額的虧損。",
-      "why": "<b>reconcile</b>（使一致、調和相互矛盾的資訊）為會計與商務語境中的標準用語（如 reconcile accounts/reports），精準對應此處「化解兩份報告矛盾」的語境。reciprocate（回報、互相給予）語意不符；recapitulate（摘要重述）語意不符；recuperate（康復、恢復元氣，多用於健康語境）語意完全不符，四字同為 re- 字首形似詞，屬進階詞彙易混淆辨析。"
+      "zh": "在近期分區爭議中「被指名」的這些地產，在市議會做出最終裁決之前，仍須遵守暫時性的建築禁令。",
+      "why": "此為關係子句 which were named 的簡化形式，先行詞 properties 是被指名／點名的對象，須用被動過去分詞 <b>named</b>。naming 為主動現在分詞，語態不符（地產不會主動指名）；having named 為主動完成式分詞，語態同樣不合；to be named 為被動不定詞，表尚未發生的未來動作，與此處已發生的既定事實不符。"
     },
     {
-      "id": "2026-08-21-p5-4",
-      "tag": "不定詞補語（expect + 受詞 + to be）",
-      "pre": "Given her reputation for meticulous compliance, the CFO was the last person anyone expected ",
-      "post": " implicated in the accounting scandal.",
-      "opts": ["to be", "being", "been", "be"],
+      "id": "2026-08-22-p5-3",
+      "tag": "進階動詞語意辨別（belie，近義詞區辨）",
+      "pre": "The company's cheerful quarterly newsletter ",
+      "post": " the deep financial distress revealed just weeks later in its bankruptcy filing.",
+      "opts": ["belied", "betrayed", "beheld", "bemoaned"],
       "ans": 0,
-      "zh": "鑑於財務長一向以嚴謹合規著稱，她是所有人「最不」預期會被捲入這起會計醜聞的人。",
-      "why": "expect + 受詞 + <b>to be</b> + 過去分詞為固定句型（expect someone to be implicated），須用完整不定詞 <b>to be</b>。being 為動名詞，expect 不接動名詞作受詞補語；been 為過去分詞，前面須有助動詞或 to be 才能使用；be 為原形動詞，expect 句型須用完整的 to 不定詞而非省略 to 的原形動詞。"
+      "zh": "這家公司語氣歡快的季度通訊，「掩蓋了」數週後在破產申請文件中所揭露的深層財務困境。",
+      "why": "<b>belie</b>（給人錯誤或誤導的印象，與真相相互矛盾）精準對應「表面歡快的通訊，與後來揭露的財務困境形成矛盾」的語境。betray 雖也有「洩露」之意，但通常指「不經意流露出真實情緒／狀態」（如 his voice betrayed his fear），語意方向與此處「製造假象、掩蓋真相」相反；behold（見、目睹）語意不符；bemoan（哀嘆、抱怨）語意不符。"
+    },
+    {
+      "id": "2026-08-22-p5-4",
+      "tag": "慣用語（if anything，反而）",
+      "pre": "The new marketing campaign has not increased sales at all; ",
+      "post": ", customer engagement metrics have declined slightly since its launch.",
+      "opts": ["if anything", "if not", "if so", "if ever"],
+      "ans": 0,
+      "zh": "這波新行銷活動完全沒有帶動銷售成長；「若真要說有什麼影響的話」，自活動推出以來，顧客互動指標反而略微下滑。",
+      "why": "<b>if anything</b> 為固定慣用語，用於否定敘述之後，表「若真要說有什麼影響，反而是…」，常帶出與預期相反或更弱化的結果，此處精準銜接「銷售未增反而互動下滑」的語意。if not 通常用於比較語境（如 good if not great，表「即使不是更…至少也是…」）；if so 須指涉前述已提及的條件，此處無對應條件；if ever 表強調稀有性（如 rarely if ever），與此處語境不符。"
     }
   ],
   "p6": {
-    "id": "2026-08-21-p6",
-    "title": "MEMORANDUM: New Approval Process for External Speaking Engagements and Media Appearances",
+    "id": "2026-08-22-p6",
+    "title": "MEMORANDUM: Revised Approval Process for Cross-Border Data Transfers",
     "seg": [
       [
-        "To all employees: Beginning next month, any employee planning to speak publicly on behalf of the company—whether at an industry conference, in a media interview, or on a podcast—",
+        "To all department heads: Beginning next month, in response to recent changes in international data protection regulations, any transfer of customer data to a vendor or subsidiary located outside our primary operating jurisdiction ",
         { "b": 0 },
-        " prior approval from the communications department at least five business days in advance."
+        " a completed data transfer impact assessment, to be submitted to the Legal department no later than two weeks before the transfer is scheduled to occur."
       ],
       [
         { "b": 1 },
-        ", employees speaking in a purely personal capacity, without referencing their role or the company by name, are not subject to this approval requirement."
+        ", transfers to entities within our existing list of pre-approved jurisdictions may proceed under the current streamlined process, provided the transfer volume remains below the established threshold."
       ],
       [
-        "The communications department will ",
+        "Department heads should ",
         { "b": 2 },
-        " each request based on the topic's sensitivity, potential media exposure, and alignment with current messaging priorities."
+        " their teams on the updated jurisdiction list and threshold figures well before the new requirement takes effect."
       ],
       [
         { "b": 3 },
-        " Employees are encouraged to submit requests well before the five-day minimum whenever possible, particularly for high-profile events."
+        " A quick-reference chart summarizing pre-approved jurisdictions and current thresholds is posted on the Legal department's intranet page."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["must obtain", "obtains", "has obtained", "is obtaining"],
+        "opts": ["will require", "requires", "has required", "is requiring"],
         "ans": 0,
-        "zh": "致所有員工：自下個月起，任何員工若計畫代表公司公開發言——無論是在產業研討會、媒體專訪，或是 Podcast 節目中——「均須」至少於五個工作天前取得公關部門的事先核准。",
-        "why": "此句為正式公告的強制性規定，須用情態助動詞 <b>must obtain</b>（必須取得）表達義務。obtains 為現在式主動動詞，不具強制規定的語氣；has obtained 為現在完成式，暗示已取得而非規定應事先取得；is obtaining 為現在進行式，與正式規定公告的語氣不符。"
+        "zh": "致所有部門主管：自下個月起，為因應近期國際個資保護法規的變動，任何將客戶資料傳輸至位於我方主要營運轄區之外的供應商或子公司，「均須」完成一份資料傳輸影響評估，並於預定傳輸日前至少兩週提交予法務部門。",
+        "why": "句首明訂即將生效的未來時點「Beginning next month」，須用未來式 <b>will require</b>。requires 為現在式，與尚未生效的未來規定不符；has required 為現在完成式，暗示已實施而非即將生效；is requiring 為現在進行式，同樣不符合正式公告未來規定的語境。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["Conversely", "As a result", "In particular", "Likewise"],
+        "opts": ["On the other hand", "As a consequence", "In that regard", "Above all"],
         "ans": 0,
-        "zh": "「相反地」，若員工僅以個人身分發言，並未提及其職位或公司名稱，則不受此核准規定之限制。",
-        "why": "前句規定代表公司發言須經核准，本句說明「相反地」純屬個人身分發言的情況則為例外，兩句構成明確對比，故選 <b>Conversely</b>（相反地）。As a result（因此）表因果；In particular（尤其是）表在同一類別中舉例強調；Likewise（同樣地）表類比延續，皆與此處對立情境的對比邏輯不符。"
+        "zh": "「另一方面」，傳輸至既有預先核准轄區清單內對象的資料，若傳輸量仍低於既定門檻，則可依現行簡化流程辦理。",
+        "why": "前句規定新的嚴格傳輸評估要求，本句說明「另一方面」既有預先核准轄區內的傳輸仍可適用簡化流程，兩句構成對比例外關係，故選 <b>On the other hand</b>（另一方面）。As a consequence（因此）表因果；In that regard（就此而言）表延續同一議題而非對比；Above all（最重要的是）表強調優先順序，皆與此處的對比例外邏輯不符。"
       },
       {
         "tag": "詞彙語意（動詞辨析）",
         "col1": true,
-        "opts": ["vet", "veto", "verify", "vest"],
+        "opts": ["brief", "debrief", "bridle", "bristle"],
         "ans": 0,
-        "zh": "公關部門將依據議題敏感度、潛在的媒體曝光程度，以及與當前溝通重點的契合度，來「審核評估」每一項申請。",
-        "why": "<b>vet</b>（審核、仔細評估後決定是否核准）精準對應此處「依多項標準綜合評估申請案」的語境。veto（否決、行使否決權）語氣過於絕對，與依標準「評估」的細緻語境不符；verify（查證屬實）著重確認事實真偽，而非評估適切性；vest（授予、賦予權力）語意完全不符。"
+        "zh": "各部門主管應在新規定生效前，及早向所屬團隊「簡報說明」最新的轄區清單與門檻數字。",
+        "why": "<b>brief...on</b>（在事前向某人簡報說明必要資訊）精準對應此處「新規定生效前先讓團隊知悉」的語境。debrief（於事後詢問彙報，方向與時機相反）語意不符；bridle（因不悅而反抗，或勒住韁繩控制）語意不符；bristle（因惱怒而豎毛、動怒）語意完全不符，四字字形相近，屬進階詞彙易混淆辨析。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "A simple request form is available on the communications department's intranet page.",
-          "The company's holiday card design contest is now open for submissions.",
-          "All expense reports for conference travel must be submitted within thirty days.",
-          "The main office lobby will be renovated starting next quarter."
+          "Questions about whether a specific transfer qualifies for the streamlined process should be directed to the Legal department.",
+          "The company's data center relocation project remains on schedule for next year.",
+          "All employees must complete the annual data privacy training by the end of the quarter.",
+          "The Legal department's office hours have been adjusted for the summer schedule."
         ],
         "ans": 0,
-        "zh": "「一份簡易申請表已提供於公關部門的內部網路頁面。」若情況許可，建議員工盡量提前於五天最低期限之前提交申請，尤其是高知名度的活動場合。",
-        "why": "段落主題為「對外發言與媒體露面新核准流程」，此句提供申請表的取得方式，與後句「建議提前提交申請」共同構成完整的操作指引。其餘選項（節慶卡片設計比賽、差旅費用核銷、大廳整修）皆與對外發言核准流程無關，插入後語意斷裂。"
+        "zh": "「若對特定傳輸案是否符合簡化流程資格有疑問，應洽詢法務部門。」一份彙整預先核准轄區與現行門檻的速查表，已張貼於法務部門的內部網路頁面。",
+        "why": "段落主題為「跨境資料傳輸核准流程修訂」，此句提醒同仁若對資格認定有疑問應洽詢法務部門，與後句「速查表已提供於內部網路」共同構成完整的操作指引收尾。其餘選項（資料中心遷移進度、年度隱私訓練、法務部門辦公時間調整）皆與跨境資料傳輸流程無關，插入後語意斷裂。"
       }
     ]
   }
