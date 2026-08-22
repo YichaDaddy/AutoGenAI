@@ -1,78 +1,78 @@
 {
-  "date": "2026-08-22",
+  "date": "2026-08-23",
   "p5": [
     {
-      "id": "2026-08-22-p5-0",
-      "tag": "讓步慣用語（For all，儘管）",
-      "pre": "",
-      "post": " its technical sophistication, the new fraud-detection system still failed to flag several obviously suspicious transactions.",
-      "opts": ["For all", "In spite", "Notwithstanding of", "Regardless"],
+      "id": "2026-08-23-p5-0",
+      "tag": "程度慣用語（little more than，僅僅）",
+      "pre": "The so-called strategic partnership turned out to be ",
+      "post": " a non-binding letter of intent with no enforceable obligations.",
+      "opts": ["little more than", "no more than", "nothing less than", "not less than"],
       "ans": 0,
-      "zh": "「儘管」這套新的詐欺偵測系統技術上如此精密，卻仍未能標記出幾筆明顯可疑的交易。",
-      "why": "<b>For all</b>（儘管，帶有諷刺意味的固定介系詞片語）可直接接名詞片語表讓步，此處後接 its technical sophistication。In spite 須搭配 of 才完整（in spite of）；Notwithstanding 本身已是完整介系詞，不可再接 of，Notwithstanding of 為常見錯誤用法；Regardless 同樣須搭配 of（regardless of）才能接名詞片語，單獨使用不完整。"
+      "zh": "這所謂的策略夥伴關係，說穿了「不過就是」一份不具約束力、且無任何可強制執行義務的意向書。",
+      "why": "<b>little more than</b>（不過是、僅僅是，帶有貶抑、不如預期的語氣）精準對應此處「說穿了只是一份意向書」的失望語氣。no more than 較偏向中性的數量限制（至多不超過…），語氣不若 little more than 貶抑；nothing less than（絕對是、不折不扣地是）語意恰恰相反，是「程度強化」而非「程度貶低」的用語；not less than 同樣用於數量限制語境，與此處語意不符。"
     },
     {
-      "id": "2026-08-22-p5-1",
-      "tag": "讓步慣用語（Granted that，固定句首）",
-      "pre": "",
-      "post": " that the initial rollout encountered technical setbacks, the platform has since demonstrated measurable improvements in transaction speed and reliability.",
-      "opts": ["Granted", "Grant", "Granting", "To grant"],
+      "id": "2026-08-23-p5-1",
+      "tag": "相關比較結構（the + 比較級...the + 比較級）",
+      "pre": "The sooner the affected customers are notified of the data breach, ",
+      "post": " positioned the company will be to demonstrate regulatory compliance.",
+      "opts": ["the better", "the more better", "the good", "so much better"],
       "ans": 0,
-      "zh": "「姑且承認」初期上線階段確實遭遇了技術上的挫折，這套平台此後在交易速度與穩定性上，已展現出顯著的進步。",
-      "why": "<b>Granted that</b>（姑且承認、就算…）為固定的讓步句首用語，以過去分詞 Granted 開頭，承認某項事實後隨即轉折。Grant 為原形動詞，不符合此固定讓步用語；Granting 為現在分詞，雖偶見用法但遠不如 Granted that 標準、常見；To grant 為不定詞，不符合此讓步句型結構。"
+      "zh": "受影響的客戶越早獲得資料外洩通知，公司在證明其法規遵循方面「就越有利」。",
+      "why": "<b>The + 比較級...the + 比較級</b> 為固定相關比較結構，good 的比較級為 better，故用 <b>the better</b>。the more better 為贅字誤用，better 本身已是比較級，不可再加 more 重複比較；the good 為原級形容詞，未變化為比較級，不符此固定句型；so much better 不符合 the + 比較級起始的句型結構。"
     },
     {
-      "id": "2026-08-22-p5-2",
-      "tag": "簡化關係子句（過去分詞，被動語態）",
-      "pre": "The properties ",
-      "post": " in the recent zoning dispute remain subject to a temporary construction moratorium pending the city council's final ruling.",
-      "opts": ["named", "naming", "having named", "to be named"],
+      "id": "2026-08-23-p5-2",
+      "tag": "簡化關係子句（完成式被動分詞）",
+      "pre": "The whistleblower complaint, ",
+      "post": " to an outside investigator for independent review, is no longer subject to internal committee oversight.",
+      "opts": ["having been forwarded", "forwarding", "having forwarded", "to be forwarded"],
       "ans": 0,
-      "zh": "在近期分區爭議中「被指名」的這些地產，在市議會做出最終裁決之前，仍須遵守暫時性的建築禁令。",
-      "why": "此為關係子句 which were named 的簡化形式，先行詞 properties 是被指名／點名的對象，須用被動過去分詞 <b>named</b>。naming 為主動現在分詞，語態不符（地產不會主動指名）；having named 為主動完成式分詞，語態同樣不合；to be named 為被動不定詞，表尚未發生的未來動作，與此處已發生的既定事實不符。"
+      "zh": "這起吹哨者申訴案，「在」已「轉交」外部調查員進行獨立審查「之後」，便不再受內部委員會監督。",
+      "why": "此為關係子句 which had been forwarded 的簡化形式，先行詞 complaint 是被轉交的對象（被動），且轉交動作發生在主要子句現況（is no longer subject to）之前，須用完成式被動分詞 <b>having been forwarded</b>。forwarding 為主動現在分詞，語態不符；having forwarded 為主動完成式分詞，語態同樣不合（申訴案不會主動轉交自己）；to be forwarded 為被動不定詞，表尚未發生的未來動作，與此處已完成轉交的語意矛盾。"
     },
     {
-      "id": "2026-08-22-p5-3",
-      "tag": "進階動詞語意辨別（belie，近義詞區辨）",
-      "pre": "The company's cheerful quarterly newsletter ",
-      "post": " the deep financial distress revealed just weeks later in its bankruptcy filing.",
-      "opts": ["belied", "betrayed", "beheld", "bemoaned"],
+      "id": "2026-08-23-p5-3",
+      "tag": "進階動詞語意辨別（supersede，近義詞區辨）",
+      "pre": "The updated compliance manual ",
+      "post": " all previous versions, including any printed copies still circulating within regional offices.",
+      "opts": ["supersedes", "supervises", "supplants", "suspends"],
       "ans": 0,
-      "zh": "這家公司語氣歡快的季度通訊，「掩蓋了」數週後在破產申請文件中所揭露的深層財務困境。",
-      "why": "<b>belie</b>（給人錯誤或誤導的印象，與真相相互矛盾）精準對應「表面歡快的通訊，與後來揭露的財務困境形成矛盾」的語境。betray 雖也有「洩露」之意，但通常指「不經意流露出真實情緒／狀態」（如 his voice betrayed his fear），語意方向與此處「製造假象、掩蓋真相」相反；behold（見、目睹）語意不符；bemoan（哀嘆、抱怨）語意不符。"
+      "zh": "這份更新後的法遵手冊「取代」了所有先前版本，包括各區域辦公室仍在流通的任何紙本影印版。",
+      "why": "<b>supersede</b>（因較新、較具權威性而取代舊版本，使其失效）精準對應此處「新手冊取代舊版」的中性、常規語境。supplant（篡奪、透過不正當手段取而代之，帶負面色彩）語氣不符；supervise（監督、管理）語意完全不符；suspend（暫停、中止）語意不符，四字字形相近，屬進階詞彙易混淆辨析。"
     },
     {
-      "id": "2026-08-22-p5-4",
-      "tag": "慣用語（if anything，反而）",
-      "pre": "The new marketing campaign has not increased sales at all; ",
-      "post": ", customer engagement metrics have declined slightly since its launch.",
-      "opts": ["if anything", "if not", "if so", "if ever"],
+      "id": "2026-08-23-p5-4",
+      "tag": "否定語境強調慣用語（much less，遑論）",
+      "pre": "The interim CEO lacked the authority to approve capital expenditures, ",
+      "post": " negotiate a merger of this magnitude.",
+      "opts": ["much less", "much more", "still more", "even so"],
       "ans": 0,
-      "zh": "這波新行銷活動完全沒有帶動銷售成長；「若真要說有什麼影響的話」，自活動推出以來，顧客互動指標反而略微下滑。",
-      "why": "<b>if anything</b> 為固定慣用語，用於否定敘述之後，表「若真要說有什麼影響，反而是…」，常帶出與預期相反或更弱化的結果，此處精準銜接「銷售未增反而互動下滑」的語意。if not 通常用於比較語境（如 good if not great，表「即使不是更…至少也是…」）；if so 須指涉前述已提及的條件，此處無對應條件；if ever 表強調稀有性（如 rarely if ever），與此處語境不符。"
+      "zh": "這位代理執行長連核准資本支出的權限都沒有，「更遑論」去談判如此規模的併購案。",
+      "why": "<b>much less</b> 用於「否定敘述之後」，帶出程度更極端、更不可能的例子，意指「連…都不行，更別提…」。much more 與 still more 則用於「正面／肯定敘述之後」加強語氣（如 he is capable, much more so talented），與此處否定語境不符；even so 表「儘管如此」的讓步轉折，與此處「舉出更誇張的反例」邏輯不同。"
     }
   ],
   "p6": {
-    "id": "2026-08-22-p6",
-    "title": "MEMORANDUM: Revised Approval Process for Cross-Border Data Transfers",
+    "id": "2026-08-23-p6",
+    "title": "MEMORANDUM: Updated Guidelines for Employee Use of Generative AI Tools",
     "seg": [
       [
-        "To all department heads: Beginning next month, in response to recent changes in international data protection regulations, any transfer of customer data to a vendor or subsidiary located outside our primary operating jurisdiction ",
+        "To all employees: Effective the first of next month, any use of third-party generative AI tools to draft, edit, or analyze documents containing client-confidential information ",
         { "b": 0 },
-        " a completed data transfer impact assessment, to be submitted to the Legal department no later than two weeks before the transfer is scheduled to occur."
+        " prior authorization from the Information Security team, regardless of the employee's department or seniority."
       ],
       [
         { "b": 1 },
-        ", transfers to entities within our existing list of pre-approved jurisdictions may proceed under the current streamlined process, provided the transfer volume remains below the established threshold."
+        ", tools that have already been formally vetted and approved by Information Security—listed on the intranet's approved-vendor page—may continue to be used without case-by-case authorization."
       ],
       [
-        "Department heads should ",
+        "Employees who are uncertain whether a particular tool or use case requires authorization should ",
         { "b": 2 },
-        " their teams on the updated jurisdiction list and threshold figures well before the new requirement takes effect."
+        " with their department's designated AI compliance liaison before proceeding."
       ],
       [
         { "b": 3 },
-        " A quick-reference chart summarizing pre-approved jurisdictions and current thresholds is posted on the Legal department's intranet page."
+        " A list of currently approved generative AI tools, along with instructions for requesting authorization for new ones, is maintained on the Information Security intranet page."
       ]
     ],
     "blanks": [
@@ -81,37 +81,37 @@
         "col1": true,
         "opts": ["will require", "requires", "has required", "is requiring"],
         "ans": 0,
-        "zh": "致所有部門主管：自下個月起，為因應近期國際個資保護法規的變動，任何將客戶資料傳輸至位於我方主要營運轄區之外的供應商或子公司，「均須」完成一份資料傳輸影響評估，並於預定傳輸日前至少兩週提交予法務部門。",
-        "why": "句首明訂即將生效的未來時點「Beginning next month」，須用未來式 <b>will require</b>。requires 為現在式，與尚未生效的未來規定不符；has required 為現在完成式，暗示已實施而非即將生效；is requiring 為現在進行式，同樣不符合正式公告未來規定的語境。"
+        "zh": "致所有員工：自下個月一日起，凡使用第三方生成式 AI 工具來撰寫、編輯或分析含有客戶機密資訊的文件，「均須」事先取得資訊安全團隊的授權，無論員工所屬部門或職級為何。",
+        "why": "句首明訂即將生效的未來時點「Effective the first of next month」，須用未來式 <b>will require</b>。requires 為現在式，與尚未生效的未來規定不符；has required 為現在完成式，暗示已實施而非即將生效；is requiring 為現在進行式，同樣不符合正式公告未來規定的語境。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["On the other hand", "As a consequence", "In that regard", "Above all"],
+        "opts": ["All the same", "As a result", "In the same way", "Above all"],
         "ans": 0,
-        "zh": "「另一方面」，傳輸至既有預先核准轄區清單內對象的資料，若傳輸量仍低於既定門檻，則可依現行簡化流程辦理。",
-        "why": "前句規定新的嚴格傳輸評估要求，本句說明「另一方面」既有預先核准轄區內的傳輸仍可適用簡化流程，兩句構成對比例外關係，故選 <b>On the other hand</b>（另一方面）。As a consequence（因此）表因果；In that regard（就此而言）表延續同一議題而非對比；Above all（最重要的是）表強調優先順序，皆與此處的對比例外邏輯不符。"
+        "zh": "「儘管如此」，已經過資訊安全團隊正式審核核准的工具——列於內部網路核准供應商頁面——仍可持續使用，無須逐案申請授權。",
+        "why": "前句規定使用生成式 AI 工具須事先授權，本句說明「儘管如此」已核准工具仍為例外情況，兩句構成讓步對比關係，故選 <b>All the same</b>（儘管如此）。As a result（因此）表因果；In the same way（以同樣方式）表類比；Above all（最重要的是）表強調優先順序，皆與此處的例外對比邏輯不符。"
       },
       {
         "tag": "詞彙語意（動詞辨析）",
         "col1": true,
-        "opts": ["brief", "debrief", "bridle", "bristle"],
+        "opts": ["consult", "console", "conspire", "construe"],
         "ans": 0,
-        "zh": "各部門主管應在新規定生效前，及早向所屬團隊「簡報說明」最新的轄區清單與門檻數字。",
-        "why": "<b>brief...on</b>（在事前向某人簡報說明必要資訊）精準對應此處「新規定生效前先讓團隊知悉」的語境。debrief（於事後詢問彙報，方向與時機相反）語意不符；bridle（因不悅而反抗，或勒住韁繩控制）語意不符；bristle（因惱怒而豎毛、動怒）語意完全不符，四字字形相近，屬進階詞彙易混淆辨析。"
+        "zh": "若員工不確定特定工具或使用情境是否需要授權，應在進行之前先「諮詢」所屬部門指定的 AI 法遵聯絡窗口。",
+        "why": "<b>consult with</b>（向某人諮詢、徵詢意見）精準對應此處「行動前先諮詢聯絡窗口」的語境。console（安慰、撫慰）語意不符；conspire（密謀、串通從事不法之事）帶負面違法意涵，語意不符；construe（解讀、詮釋某事物的含義）語意不符，四字同為 con- 字首形似詞，屬進階詞彙易混淆辨析。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Questions about whether a specific transfer qualifies for the streamlined process should be directed to the Legal department.",
-          "The company's data center relocation project remains on schedule for next year.",
-          "All employees must complete the annual data privacy training by the end of the quarter.",
-          "The Legal department's office hours have been adjusted for the summer schedule."
+          "Violations of this policy will be treated as a data-handling incident subject to standard disciplinary review.",
+          "The company's annual innovation showcase will be held virtually this year.",
+          "All employees must renew their building access badges by the end of the month.",
+          "The IT helpdesk's response-time targets have been updated for the new quarter."
         ],
         "ans": 0,
-        "zh": "「若對特定傳輸案是否符合簡化流程資格有疑問，應洽詢法務部門。」一份彙整預先核准轄區與現行門檻的速查表，已張貼於法務部門的內部網路頁面。",
-        "why": "段落主題為「跨境資料傳輸核准流程修訂」，此句提醒同仁若對資格認定有疑問應洽詢法務部門，與後句「速查表已提供於內部網路」共同構成完整的操作指引收尾。其餘選項（資料中心遷移進度、年度隱私訓練、法務部門辦公時間調整）皆與跨境資料傳輸流程無關，插入後語意斷裂。"
+        "zh": "「違反此政策者，將依標準紀律審查程序，視為資料處理事件辦理。」目前核准的生成式 AI 工具清單，連同申請新工具授權的操作說明，皆維護於資訊安全部門的內部網路頁面。",
+        "why": "段落主題為「員工使用生成式 AI 工具新規範」，此句說明違反政策的後果，與後句「核准工具清單維護於內部網路」共同構成完整的政策說明與執行指引。其餘選項（創新成果展、門禁卡更新、IT 服務台回應時間）皆與生成式 AI 工具使用規範無關，插入後語意斷裂。"
       }
     ]
   }
