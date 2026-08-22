@@ -1,78 +1,29 @@
 {
-  "date": "2026-08-21",
-  "big_events": [
-    {
-      "title": "Anthropic加速IPO計畫,目標估值上看2兆美元、規模擬追平或超越SpaceX紀錄",
-      "sources": [
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/newsletters/2026-08-21/anthropic-expects-to-match-or-top-spacex-s-record-ipo-size"},
-        {"name": "Dataconomy", "url": "https://dataconomy.com/2026/08/21/anthropic-accelerates-ipo-plans-targeting-2-trillion/"},
-        {"name": "Fortune", "url": "https://fortune.com/2026/08/21/anthropic-to-spacex-you-aint-bigger/"}
-      ],
-      "summary": "Anthropic傳最快8月底申請IPO,規模擬追平或超越SpaceX紀錄,年化營收已破650億美元。",
-      "audience": "關注AI產業投資、Claude生態系動態的科技創業者、獨立開發者、對AI股票/IPO話題感興趣的自媒體觀眾",
-      "pain_point": "不清楚這次IPO消息代表什麼、對Claude用戶與開發者未來的訂閱定價與產品方向有何影響,也搞不懂「2兆美元估值」在AI產業裡到底是什麼量級",
-      "title_idea": "Anthropic準備上市了!估值上看2兆美元,比SpaceX還大是什麼概念?",
-      "local_angle": "華語圈目前多聚焦Claude模型能力本身,鮮少解讀Anthropic的資本市場動作,可搶先做「IPO對Claude用戶的實際影響」科普解讀,同時蹭SpaceX比較話題熱度"
-    },
-    {
-      "title": "太空資料中心新創Starcloud增資2.5億美元,獲Nvidia親自加碼,估值衝上23億美元",
-      "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/"},
-        {"name": "GeekWire", "url": "https://www.geekwire.com/2026/starcloud-250m-data-center-satellite-network-nvidia/"}
-      ],
-      "summary": "太空資料中心新創Starcloud完成2.5億美元擴充輪,Nvidia親自投資加碼,估值達23億美元。",
-      "audience": "關注AI基礎建設、太空科技與晶片投資趨勢的科技創業者、獨立開發者",
-      "pain_point": "不了解為何要把AI算力送上太空、這種「軌道資料中心」如何解決地球上算力與電力短缺的實際問題",
-      "title_idea": "把AI資料中心送上太空!這家新創讓Nvidia都親自下注",
-      "local_angle": "華語圈AI基建討論多聚焦地面資料中心與晶片本身,「太空資料中心」這個新賽道幾乎沒人講解,適合做「AI算力上太空」科普選題搶資訊差"
-    },
-    {
-      "title": "Nvidia證實「AI代理架構」比模型本身更關鍵,自研AVO框架讓Claude Opus 5拿下ARC-AGI-3滿分",
-      "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/"},
-        {"name": "NVIDIA Developer Blog", "url": "https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents/"}
-      ],
-      "summary": "Nvidia新研究顯示,套上自研AVO代理框架後,Claude Opus 5從單模型30分衝上ARC-AGI-3滿分100分。",
-      "audience": "用AI打造agent應用的獨立開發者、Vibe Coding創作者、AI工具測評自媒體",
-      "pain_point": "只顧著追新模型發布,卻不知道同一顆模型套上不同的「代理外殼(harness)」表現可以差三倍以上,誤把預算全花在換模型而非優化任務流程設計",
-      "title_idea": "模型沒變,分數卻從30分衝到100分!Nvidia證實:決定AI代理表現的其實是「這個」",
-      "local_angle": "華語圈AI Agent教學多半只講「換哪個模型最強」,幾乎沒人講解harness/代理架構設計,適合搶先卡位「進階Agent開發」教學系列"
-    }
-  ],
+  "date": "2026-08-22",
+  "big_events": [],
   "tool_updates": [
     {
-      "title": "ChatGPT更新Sites網址更換功能,並新增Codex唯讀對話快照與跨裝置置頂同步",
+      "title": "Firecrawl推出Developer Index,讓寫程式AI代理一次搜遍7000萬份程式庫、文件與Issue",
       "sources": [
-        {"name": "OpenAI Help Center 發布說明", "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"}
+        {"name": "Firecrawl官網", "url": "https://www.firecrawl.dev/developer-index"},
+        {"name": "Firecrawl (X/Twitter)", "url": "https://x.com/firecrawl/status/2090832086106022127"}
       ],
-      "summary": "ChatGPT Sites用戶可直接更換已發布網站的網址且自動轉址,Codex新增唯讀快照分享與跨裝置置頂同步。",
-      "audience": "用ChatGPT Sites接案做網站、用Codex寫程式的獨立開發者與自由工作者",
-      "pain_point": "網站上線後想換網址就得整個重新部署、舊連結全部失效;Codex的對話進度也沒辦法安全分享給客戶或團隊確認",
-      "title_idea": "ChatGPT做的網站終於能「改網址」了!舊連結還會自動導向新網址",
-      "local_angle": "華語圈「ChatGPT做網站接案」教學多半停留在基本操作,這次網址管理與Codex協作細節更新剛上線,適合搶先做「接案實戰眉角」補充教學"
+      "summary": "Firecrawl上線Developer Index,索引7000萬+程式庫、文件與Issue供AI寫程式代理查詢",
+      "audience": "使用Claude Code、Cursor等AI寫程式工具的開發者與技術型自媒體創作者",
+      "pain_point": "AI寫程式代理常查不到最新函式庫用法或錯誤解法,得自己Google半天才找到答案",
+      "title_idea": "Coding Agent終於不用再瞎猜!這個新工具讓AI直接查到對的答案",
+      "local_angle": "台灣工程師圈目前很少人討論這個工具,搶先做「串接Claude Code/Cursor教學」影片可望吃到第一波搜尋流量"
     },
     {
-      "title": "Claude Code更新至2.1.239版,新增/claude-api升級指令與雲端外掛同步機制,修復多項計費與終端機bug",
+      "title": "Claude Code更新至2.1.240版,延續前一版大更新後聚焦錯誤修復與穩定性",
       "sources": [
-        {"name": "Claude Code Changelog", "url": "https://code.claude.com/docs/en/changelog"}
+        {"name": "Claude Code官方Changelog", "url": "https://code.claude.com/docs/en/changelog"}
       ],
-      "summary": "Claude Code今日釋出2.1.239版,新增Python SDK一鍵升級指令與雲端外掛同步,修復代理環境下被重複計費的bug。",
-      "audience": "每天用Claude Code開發、跑自動化流程的獨立開發者、用Bedrock/Vertex串接的技術團隊",
-      "pain_point": "舊版本走公司代理伺服器時,串流請求可能被默默重複計費卻沒發現;Python專案要手動升級SDK版本又不知道怎麼一次搞定",
-      "title_idea": "Claude Code今天又更新了!這個bug可能讓你的API帳單被「偷偷多收錢」",
-      "local_angle": "華語Claude Code教學多聚焦功能開箱,較少逐版本追蹤這類「省錢/避雷」細節更新,適合做成「訂閱更新懶人包」系列持續累積忠實觀眾"
-    },
-    {
-      "title": "xAI旗下Grok Bot擴大開放至SuperGrok Plus與Cursor Pro+等中階方案,AI隊友不再只限最貴訂閱",
-      "sources": [
-        {"name": "Unite.AI", "url": "https://www.unite.ai/xai-launches-grok-bot-always-on-ai-teammates-with-their-own-cloud-computers/"},
-        {"name": "Digital Applied", "url": "https://www.digitalapplied.com/blog/grok-bot-cursor-tier-gating-spacex-anysphere-deal-2026"}
-      ],
-      "summary": "原本只限最高階方案的Grok Bot「AI隊友」功能,擴大開放給SuperGrok Plus、Cursor Pro+/Ultra/Teams等中階訂閱用戶。",
-      "audience": "用Cursor/Grok做開發或自動化任務的獨立開發者、想找便宜AI代理方案的接案工作者",
-      "pain_point": "想用「AI隊友」自動處理多步驟任務,卻發現這功能之前只開放給最貴的頂級訂閱方案,一般用戶碰不到",
-      "title_idea": "不用課最貴方案了!Grok的AI隊友功能現在中階訂閱也能用",
-      "local_angle": "華語圈目前對「Grok Bot」這類雲端自主代理討論還很少,方案開放降低了嘗試門檻,適合搶先做「花多少錢能用到AI隊友」比較教學"
+      "summary": "Claude Code推出2.1.240版,內容以錯誤修復與穩定性改善為主,未新增大型功能",
+      "audience": "每天使用Claude Code開發、對版本更新敏感的工程師與AI創作者",
+      "pain_point": "版本更新太頻繁,不確定該不該馬上升級、又怕踩到新版還沒發現的bug",
+      "title_idea": "Claude Code又雙叒更新了!2.1.240版修了什麼,升級前先看這篇",
+      "local_angle": "華語圈系統性整理Claude Code版本異動的頻道仍偏少,持續追蹤能培養「版本速報」系列的忠實觀眾"
     }
   ],
   "trends": []
