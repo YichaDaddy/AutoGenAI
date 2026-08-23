@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-08-23",
+    "big_events": [],
+    "tool_updates": [
+      {
+        "title": "Claude Code更新至2.1.241版,連續第三天聚焦錯誤修復與穩定性改善",
+        "sources": [
+          {
+            "name": "Claude Code官方Changelog",
+            "url": "https://code.claude.com/docs/en/changelog"
+          }
+        ],
+        "summary": "Claude Code推出2.1.241版,內容同樣以錯誤修復與穩定性改善為主,未新增大型功能",
+        "audience": "每天使用Claude Code開發、對版本更新敏感的工程師與AI創作者",
+        "pain_point": "版本更新太頻繁,不確定該不該馬上升級、又怕踩到新版還沒發現的bug,也搞不清楚連續幾天的小改版到底累積修了什麼",
+        "title_idea": "Claude Code三天內第三次更新!2.1.241版還是修bug,這波小版本到底在忙什麼",
+        "local_angle": "華語圈系統性整理Claude Code版本異動的頻道仍偏少,這種連續多日的小版本更新正好適合剪成「一週版本回顧」影片,持續累積訂閱這類速報內容的忠實觀眾"
+      }
+    ],
+    "trends": []
+  },
+  {
     "date": "2026-08-22",
     "big_events": [],
     "tool_updates": [
@@ -558,50 +579,6 @@
         "pain_point": "現有生圖功能今天起直接失效，新模型介面不同無法直接替換，生圖成本悄悄變貴",
         "title_idea": "Google今天關掉這個生圖模型！沒轉移的AI工具可能直接壞掉",
         "local_angle": "台灣有不少小工具、外掛是接Imagen 4 API做圖像生成服務，這則新聞有明確的「今日截止」時效性，適合搶先做緊急教學"
-      }
-    ],
-    "trends": []
-  },
-  {
-    "date": "2026-08-15",
-    "big_events": [
-      {
-        "title": "Anthropic公開Claude浮水印技術細節，用戶擔心被抓包代寫掀退訂潮",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/"
-          },
-          {
-            "name": "Gizmodo",
-            "url": "https://gizmodo.com/anthropic-explains-its-watermark-system-as-some-claude-users-loudly-revolt-2000799022"
-          }
-        ],
-        "summary": "Anthropic說明浮水印用圓周率數字當金鑰選字，用戶怕被抓包代寫掀退訂潮",
-        "audience": "職場上班族與接案工作者中，習慣用Claude寫報告、文案、作業的AI效率工具愛好者",
-        "pain_point": "不知道自己用Claude寫出來的內容其實已被嵌入肉眼看不見的偵測用浮水印，擔心被老闆、客戶或老師發現是AI代寫，卻搞不清楚該不該退訂或換工具因應",
-        "title_idea": "你的Claude文章其實被『蓋章』了！浮水印運作原理公開，用戶正大批退訂",
-        "local_angle": "台灣不少接案者、部落客、學生大量用Claude代寫文字工作，這波技術細節公開與用戶退訂潮台灣討論度還很低，適合搶先做「你的AI報告會不會被抓包」實測懶人包，同時提醒讀者評估風險再決定要不要繼續用"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "微軟證實不慎關閉Classic Outlook的Copilot功能，按鈕從介面消失",
-        "sources": [
-          {
-            "name": "Windows Latest",
-            "url": "https://www.windowslatest.com/2026/08/15/microsoft-confirms-it-accidentally-disabled-copilot-in-outlook-classic-and-we-wish-it-wasnt-a-mistake/"
-          },
-          {
-            "name": "Windows Report",
-            "url": "https://windowsreport.com/microsoft-confirms-copilot-is-going-missing-in-classic-outlook/"
-          }
-        ],
-        "summary": "舊版Outlook的Copilot按鈕從功能區與側邊欄消失，微軟證實是自己手滑關閉",
-        "audience": "公司仍用傳統版Outlook收發信、依賴Copilot AI協助回信與摘要的職場上班族與企業IT管理員",
-        "pain_point": "早上打開Outlook發現Copilot按鈕不見了，誤以為是公司IT關閉授權或帳號出問題，花時間排查工單卻其實是微軟自己搞砸的已知bug",
-        "title_idea": "你的Outlook Copilot按鈕不見了？微軟證實：是我們自己手滑關掉的",
-        "local_angle": "台灣企業IT部門常會收到員工反映『Copilot消失了』卻查不出原因，可做成『員工/IT兩用排除清單』，先確認是不是這次微軟已知bug，省去內部工單來回的時間"
       }
     ],
     "trends": []
