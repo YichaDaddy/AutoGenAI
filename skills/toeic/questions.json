@@ -1,117 +1,117 @@
 {
-  "date": "2026-08-23",
+  "date": "2026-08-24",
   "p5": [
     {
-      "id": "2026-08-23-p5-0",
-      "tag": "程度慣用語（little more than，僅僅）",
-      "pre": "The so-called strategic partnership turned out to be ",
-      "post": " a non-binding letter of intent with no enforceable obligations.",
-      "opts": ["little more than", "no more than", "nothing less than", "not less than"],
+      "id": "2026-08-24-p5-0",
+      "tag": "讓步連接詞（Even though，事實性讓步）",
+      "pre": "",
+      "post": " the arbitrator ruled in the contractor's favor, the client refused to release the final payment until a formal appeal deadline had passed.",
+      "opts": ["Even though", "Even if", "As though", "Even so"],
       "ans": 0,
-      "zh": "這所謂的策略夥伴關係，說穿了「不過就是」一份不具約束力、且無任何可強制執行義務的意向書。",
-      "why": "<b>little more than</b>（不過是、僅僅是，帶有貶抑、不如預期的語氣）精準對應此處「說穿了只是一份意向書」的失望語氣。no more than 較偏向中性的數量限制（至多不超過…），語氣不若 little more than 貶抑；nothing less than（絕對是、不折不扣地是）語意恰恰相反，是「程度強化」而非「程度貶低」的用語；not less than 同樣用於數量限制語境，與此處語意不符。"
+      "zh": "「儘管」仲裁人已裁定承包商勝訴，客戶仍拒絕撥付最終款項，直到正式上訴期限屆滿為止。",
+      "why": "<b>Even though</b> 用於引導「已經確實發生的事實」作讓步，此處 ruled 為過去式，裁定已是既成事實，故用 Even though。Even if 用於引導「假設性、尚未發生或不確定」的條件，與此處已發生的裁定事實不符；As though（宛如、彷彿）表比擬狀態，語意不符；Even so 為副詞，不能作連接詞引導子句，須獨立成句承接前句。"
     },
     {
-      "id": "2026-08-23-p5-1",
-      "tag": "相關比較結構（the + 比較級...the + 比較級）",
-      "pre": "The sooner the affected customers are notified of the data breach, ",
-      "post": " positioned the company will be to demonstrate regulatory compliance.",
-      "opts": ["the better", "the more better", "the good", "so much better"],
+      "id": "2026-08-24-p5-1",
+      "tag": "簡化關係子句（現在分詞，主動持續狀態）",
+      "pre": "Employees ",
+      "post": " direct reports in more than one country must complete the annual cross-border compliance certification.",
+      "opts": ["supervising", "supervised", "having supervised", "supervise"],
       "ans": 0,
-      "zh": "受影響的客戶越早獲得資料外洩通知，公司在證明其法規遵循方面「就越有利」。",
-      "why": "<b>The + 比較級...the + 比較級</b> 為固定相關比較結構，good 的比較級為 better，故用 <b>the better</b>。the more better 為贅字誤用，better 本身已是比較級，不可再加 more 重複比較；the good 為原級形容詞，未變化為比較級，不符此固定句型；so much better 不符合 the + 比較級起始的句型結構。"
+      "zh": "「督導」跨國直屬部屬的員工，須完成年度跨境法遵認證。",
+      "why": "此為關係子句 who supervise 的簡化形式，先行詞 Employees 是主動督導部屬的一方，且督導為持續性狀態，須用主動現在分詞 <b>supervising</b>。supervised 為被動過去分詞，語態不符；having supervised 為完成式分詞，暗示動作已於過去某時點完成，與此處持續督導的現況不符；supervise 為原形動詞，無法單獨作為簡化關係子句的修飾語。"
     },
     {
-      "id": "2026-08-23-p5-2",
-      "tag": "簡化關係子句（完成式被動分詞）",
-      "pre": "The whistleblower complaint, ",
-      "post": " to an outside investigator for independent review, is no longer subject to internal committee oversight.",
-      "opts": ["having been forwarded", "forwarding", "having forwarded", "to be forwarded"],
+      "id": "2026-08-24-p5-2",
+      "tag": "倒裝句（Only by + 動名詞，能力語氣）",
+      "pre": "Only by conducting an independent forensic audit ",
+      "post": " the board determine the true extent of the accounting irregularities.",
+      "opts": ["could", "would", "should", "did"],
       "ans": 0,
-      "zh": "這起吹哨者申訴案，「在」已「轉交」外部調查員進行獨立審查「之後」，便不再受內部委員會監督。",
-      "why": "此為關係子句 which had been forwarded 的簡化形式，先行詞 complaint 是被轉交的對象（被動），且轉交動作發生在主要子句現況（is no longer subject to）之前，須用完成式被動分詞 <b>having been forwarded</b>。forwarding 為主動現在分詞，語態不符；having forwarded 為主動完成式分詞，語態同樣不合（申訴案不會主動轉交自己）；to be forwarded 為被動不定詞，表尚未發生的未來動作，與此處已完成轉交的語意矛盾。"
+      "zh": "「唯有透過」進行獨立的鑑識稽核，董事會「才有辦法」查明會計違規的真實程度。",
+      "why": "Only by + 動名詞置於句首時，主要子句須倒裝，此處語意強調「唯有藉此方法才『有能力』查明真相」，故用表能力的情態助動詞 <b>could</b>。would 表意願或假設，與此處強調能力的語意不符；should 表義務，語意不符；did 雖也可構成倒裝（did...determine），但僅單純強調動作發生，不若 could 精準傳達「唯有透過此法才具備查明能力」的細膩語氣。"
     },
     {
-      "id": "2026-08-23-p5-3",
-      "tag": "進階動詞語意辨別（supersede，近義詞區辨）",
-      "pre": "The updated compliance manual ",
-      "post": " all previous versions, including any printed copies still circulating within regional offices.",
-      "opts": ["supersedes", "supervises", "supplants", "suspends"],
+      "id": "2026-08-24-p5-3",
+      "tag": "進階詞彙（culminate，形似詞辨析）",
+      "pre": "Months of tense negotiations finally ",
+      "post": " in a settlement that satisfied neither party but avoided the far greater cost of prolonged litigation.",
+      "opts": ["culminated", "cumulated", "calculated", "circulated"],
       "ans": 0,
-      "zh": "這份更新後的法遵手冊「取代」了所有先前版本，包括各區域辦公室仍在流通的任何紙本影印版。",
-      "why": "<b>supersede</b>（因較新、較具權威性而取代舊版本，使其失效）精準對應此處「新手冊取代舊版」的中性、常規語境。supplant（篡奪、透過不正當手段取而代之，帶負面色彩）語氣不符；supervise（監督、管理）語意完全不符；suspend（暫停、中止）語意不符，四字字形相近，屬進階詞彙易混淆辨析。"
+      "zh": "數月來緊張的談判，終於「以」一項雙方皆不滿意、但得以避免曠日費時訴訟更高成本的和解「告終」。",
+      "why": "<b>culminate in</b>（經過一連串過程後，最終演變為某種結果）為固定搭配，精準對應此處「談判歷經波折後終於達成和解」的語境。cumulate（逐漸累積、疊加，罕用且語意偏重數量堆積而非結果演變）與 culminate 拼寫相近但語意不同；calculated（計算、預先盤算）語意不符；circulated（流通、散布）語意不符，屬進階詞彙易混淆辨析。"
     },
     {
-      "id": "2026-08-23-p5-4",
-      "tag": "否定語境強調慣用語（much less，遑論）",
-      "pre": "The interim CEO lacked the authority to approve capital expenditures, ",
-      "post": " negotiate a merger of this magnitude.",
-      "opts": ["much less", "much more", "still more", "even so"],
+      "id": "2026-08-24-p5-4",
+      "tag": "比較慣用語（more of a...than，名詞片語比較）",
+      "pre": "The settlement was widely seen as more ",
+      "post": " a strategic retreat than an admission of legal wrongdoing.",
+      "opts": ["of", "as", "like", "than"],
       "ans": 0,
-      "zh": "這位代理執行長連核准資本支出的權限都沒有，「更遑論」去談判如此規模的併購案。",
-      "why": "<b>much less</b> 用於「否定敘述之後」，帶出程度更極端、更不可能的例子，意指「連…都不行，更別提…」。much more 與 still more 則用於「正面／肯定敘述之後」加強語氣（如 he is capable, much more so talented），與此處否定語境不符；even so 表「儘管如此」的讓步轉折，與此處「舉出更誇張的反例」邏輯不同。"
+      "zh": "這項和解普遍被視為「與其說」是承認法律上的過失，「不如說」是一場策略性的撤退。",
+      "why": "<b>more of a + 名詞 + than...</b> 為比較兩個名詞片語定性描述時的固定慣用語（如 more of a hindrance than a help），此處須用 <b>of</b>。as 與 like 皆無法構成此固定比較句型；than 若置於此處將與句尾原有的 than 重複，造成文法錯誤。"
     }
   ],
   "p6": {
-    "id": "2026-08-23-p6",
-    "title": "MEMORANDUM: Updated Guidelines for Employee Use of Generative AI Tools",
+    "id": "2026-08-24-p6",
+    "title": "MEMORANDUM: Updated Escalation Procedure for Suspected IT Security Incidents",
     "seg": [
       [
-        "To all employees: Effective the first of next month, any use of third-party generative AI tools to draft, edit, or analyze documents containing client-confidential information ",
+        "To all staff: Beginning next Monday, any employee who suspects a phishing attempt, unauthorized system access, or other potential security incident ",
         { "b": 0 },
-        " prior authorization from the Information Security team, regardless of the employee's department or seniority."
+        " the IT Security hotline immediately, rather than first attempting to resolve the issue independently or waiting until the next business day."
       ],
       [
         { "b": 1 },
-        ", tools that have already been formally vetted and approved by Information Security—listed on the intranet's approved-vendor page—may continue to be used without case-by-case authorization."
+        ", employees are not expected to investigate or attempt to verify the legitimacy of a suspicious email or request themselves, as doing so can inadvertently compromise evidence needed for the investigation."
       ],
       [
-        "Employees who are uncertain whether a particular tool or use case requires authorization should ",
+        "The IT Security team will ",
         { "b": 2 },
-        " with their department's designated AI compliance liaison before proceeding."
+        " the situation upon notification and determine whether further containment measures, such as isolating an affected device from the network, are necessary."
       ],
       [
         { "b": 3 },
-        " A list of currently approved generative AI tools, along with instructions for requesting authorization for new ones, is maintained on the Information Security intranet page."
+        " A short reference card summarizing the warning signs of common phishing tactics has been distributed to all staff via email."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["will require", "requires", "has required", "is requiring"],
+        "opts": ["must contact", "contacts", "has contacted", "is contacting"],
         "ans": 0,
-        "zh": "致所有員工：自下個月一日起，凡使用第三方生成式 AI 工具來撰寫、編輯或分析含有客戶機密資訊的文件，「均須」事先取得資訊安全團隊的授權，無論員工所屬部門或職級為何。",
-        "why": "句首明訂即將生效的未來時點「Effective the first of next month」，須用未來式 <b>will require</b>。requires 為現在式，與尚未生效的未來規定不符；has required 為現在完成式，暗示已實施而非即將生效；is requiring 為現在進行式，同樣不符合正式公告未來規定的語境。"
+        "zh": "致所有同仁：自下週一起，凡懷疑遭遇釣魚攻擊、未經授權的系統存取，或其他潛在資安事件的員工，「均須」立即聯繫資訊安全專線，而非先自行嘗試處理，或等到下個工作日再通報。",
+        "why": "此句為正式公告的強制性規定，須用情態助動詞 <b>must contact</b>（必須聯繫）表達義務。contacts 為現在式主動動詞，不具強制規定的語氣；has contacted 為現在完成式，暗示已聯繫而非規定應立即聯繫；is contacting 為現在進行式，與正式規定公告的語氣不符。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["All the same", "As a result", "In the same way", "Above all"],
+        "opts": ["Importantly", "As a result", "For that reason", "In other words"],
         "ans": 0,
-        "zh": "「儘管如此」，已經過資訊安全團隊正式審核核准的工具——列於內部網路核准供應商頁面——仍可持續使用，無須逐案申請授權。",
-        "why": "前句規定使用生成式 AI 工具須事先授權，本句說明「儘管如此」已核准工具仍為例外情況，兩句構成讓步對比關係，故選 <b>All the same</b>（儘管如此）。As a result（因此）表因果；In the same way（以同樣方式）表類比；Above all（最重要的是）表強調優先順序，皆與此處的例外對比邏輯不符。"
+        "zh": "「重要的是」，員工無須自行調查或嘗試驗證可疑郵件或請求的真偽，因為這麼做可能會在無意間破壞調查所需的證據。",
+        "why": "前句規定應立即通報，本句補充一項「重要」的額外提醒——切勿自行調查驗證，兩句構成補充強調關係，故選 <b>Importantly</b>（重要的是）。As a result（因此）與 For that reason（因此）皆表因果，但本句並非前句的結果；In other words（換句話說）表換句話重述，但本句是全新的補充指引而非前句的改述。"
       },
       {
         "tag": "詞彙語意（動詞辨析）",
         "col1": true,
-        "opts": ["consult", "console", "conspire", "construe"],
+        "opts": ["assess", "assent", "ascend", "ascribe"],
         "ans": 0,
-        "zh": "若員工不確定特定工具或使用情境是否需要授權，應在進行之前先「諮詢」所屬部門指定的 AI 法遵聯絡窗口。",
-        "why": "<b>consult with</b>（向某人諮詢、徵詢意見）精準對應此處「行動前先諮詢聯絡窗口」的語境。console（安慰、撫慰）語意不符；conspire（密謀、串通從事不法之事）帶負面違法意涵，語意不符；construe（解讀、詮釋某事物的含義）語意不符，四字同為 con- 字首形似詞，屬進階詞彙易混淆辨析。"
+        "zh": "資訊安全團隊在接獲通報後，將「評估」該情況，並判斷是否需要採取進一步的圍堵措施，例如將受影響裝置與網路隔離。",
+        "why": "<b>assess</b>（評估情況以判斷後續行動）精準對應此處「接獲通報後評估並決定是否採取圍堵措施」的語境。assent（正式同意、應允）語意不符；ascend（上升、攀升）語意不符；ascribe（將…歸因於）語意不符，四字同為 as- 字首形似詞，屬進階詞彙易混淆辨析。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Violations of this policy will be treated as a data-handling incident subject to standard disciplinary review.",
-          "The company's annual innovation showcase will be held virtually this year.",
-          "All employees must renew their building access badges by the end of the month.",
-          "The IT helpdesk's response-time targets have been updated for the new quarter."
+          "Employees who are unsure whether a situation warrants escalation should err on the side of reporting it.",
+          "The company's quarterly town hall has been rescheduled to next Wednesday.",
+          "All laptop hardware upgrades must be requested through the IT equipment portal.",
+          "The building's fire drill has been moved to next month due to weather."
         ],
         "ans": 0,
-        "zh": "「違反此政策者，將依標準紀律審查程序，視為資料處理事件辦理。」目前核准的生成式 AI 工具清單，連同申請新工具授權的操作說明，皆維護於資訊安全部門的內部網路頁面。",
-        "why": "段落主題為「員工使用生成式 AI 工具新規範」，此句說明違反政策的後果，與後句「核准工具清單維護於內部網路」共同構成完整的政策說明與執行指引。其餘選項（創新成果展、門禁卡更新、IT 服務台回應時間）皆與生成式 AI 工具使用規範無關，插入後語意斷裂。"
+        "zh": "「若員工不確定某情況是否應予通報，應以寧可通報為原則。」一份彙整常見釣魚手法警訊的簡易參考卡，已透過電子郵件發送給所有同仁。",
+        "why": "段落主題為「疑似資安事件通報程序更新」，此句提醒同仁若有疑慮應以通報為優先原則，與後句「參考卡已發送給同仁」共同構成完整的操作指引收尾。其餘選項（季度town hall、筆電硬體升級、消防演習調整）皆與資安事件通報程序無關，插入後語意斷裂。"
       }
     ]
   }
