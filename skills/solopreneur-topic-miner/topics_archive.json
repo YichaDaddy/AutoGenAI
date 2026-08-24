@@ -1,5 +1,67 @@
 [
   {
+    "date": "2026-08-24",
+    "big_events": [
+      {
+        "title": "Anthropic Claude爆發全球性服務中斷,Claude.ai、API、Claude Code與Cowork全數受影響,近3小時後修復",
+        "sources": [
+          {
+            "name": "Android Authority",
+            "url": "https://www.androidauthority.com/claude-outage-august-24-3702012/"
+          },
+          {
+            "name": "Notebookcheck",
+            "url": "https://www.notebookcheck.net/Claude-faces-another-outage-as-errors-hit-multiple-models.1376666.0.html"
+          },
+          {
+            "name": "Softonic",
+            "url": "https://en.softonic.com/articles/anthropic-confirms-major-claude-outage-api-and-claude-code-affected"
+          }
+        ],
+        "summary": "Claude週一UTC凌晨爆發全球性錯誤,Claude.ai、API、Claude Code、Cowork皆受影響,近3小時後修復",
+        "audience": "每天倚賴Claude Code/API開發、跑自動化流程的獨立開發者與技術創作者",
+        "pain_point": "突發性服務中斷讓正在交付案子或跑自動化排程的工作瞬間卡死,分不清是自己網路/程式碼問題還是官方掛了,也不知道該不該建立備援方案",
+        "title_idea": "Claude又掛了!這次Claude Code、API全滅,3小時內到底發生什麼事",
+        "local_angle": "華語圈教學多聚焦Claude功能本身,鮮少人講「Claude掛掉怎麼辦」的備援策略,適合做「訂閱前必看:這個月Claude已經停擺幾次」的避雷選題,順便帶出多模型備援(接Codex/Gemini API)的教學紅利"
+      },
+      {
+        "title": "Nvidia傳洽談投資Perplexity,估值上看300億美元、年化營收半年翻3倍",
+        "sources": [
+          {
+            "name": "Tech Startups",
+            "url": "https://techstartups.com/2026/08/24/nvidia-in-talks-to-invest-in-perplexity-at-30-billion-valuation-as-revenue-tops-750-million/"
+          },
+          {
+            "name": "Benzinga",
+            "url": "https://www.benzinga.com/markets/tech/26/08/61374579/nvidia-perplexity-30-billion-valuation-750-million-revenue-bezos"
+          }
+        ],
+        "summary": "Nvidia傳與Perplexity洽談新一輪投資,估值上看300億美元,較前輪增逾5成,年化營收已破7.5億美元",
+        "audience": "使用Perplexity做研究/搜尋的獨立開發者、關注AI搜尋與晶片投資趨勢的科技創業自媒體",
+        "pain_point": "不了解Nvidia為何不只賣晶片、還親自下注AI應用層新創,也搞不清楚Perplexity從搜尋工具轉型「AI電腦代理」如何撐起300億美元估值",
+        "title_idea": "Nvidia又要砸錢了!這次看上的不是晶片客戶,而是「AI搜尋引擎」Perplexity",
+        "local_angle": "華語圈對Perplexity的討論多停留在「比ChatGPT更會查資料」,鮮少解讀其Comet瀏覽器、Perplexity Computer代理布局與資本市場動作,適合做「Perplexity不只是搜尋引擎」深度選題"
+      }
+    ],
+    "tool_updates": [],
+    "trends": [
+      {
+        "title": "TechCrunch深度分析:OpenAI想讓AI代理無所不在,但ChatGPT Work用戶僅2000萬、採用率遠低於預期",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/"
+          }
+        ],
+        "summary": "TechCrunch分析OpenAI力推ChatGPT Work等代理產品,但2000萬用戶對比逾10億ChatGPT用戶,信任與可用性仍是採用門檻",
+        "audience": "用AI代理處理業務流程的自由工作者、企業內部推廣AI工具的窗口、AI工具測評自媒體",
+        "pain_point": "老闆/客戶常問「該不該導入AI代理」,但市場上充斥吹捧文,缺乏「為什麼多數人還不敢真的放手讓AI代理做事」的誠實分析框架",
+        "title_idea": "OpenAI想讓AI代理做遍所有工作,為什麼真正在用的人卻不到2%?",
+        "local_angle": "華語圈AI代理教學多主打「怎麼用」,幾乎沒人談「為什麼企業不敢用」的信任與控制權問題,適合做「AI代理導入前該問的3個問題」實用選題,幫觀眾避開盲目跟風的坑"
+      }
+    ]
+  },
+  {
     "date": "2026-08-23",
     "big_events": [],
     "tool_updates": [
@@ -470,117 +532,5 @@
         "local_angle": "華語圈新創圈少人追蹤垂直領域創投動態,可做「歐美創投最新偏好」系列選題搶資訊差"
       }
     ]
-  },
-  {
-    "date": "2026-08-17",
-    "big_events": [
-      {
-        "title": "Stripe完成收購AI模型路由新創OpenRouter，金額超過70億美元",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/"
-          },
-          {
-            "name": "Tech Times",
-            "url": "https://www.techtimes.com/articles/324688/20260817/stripe-closes-7-billion-openrouter-deal-payment-giant-now-bills-routes-ai-traffic.htm"
-          }
-        ],
-        "summary": "支付巨頭Stripe完成收購AI模型路由平台OpenRouter，逾70億美元較3個月前估值暴漲5倍",
-        "audience": "使用多模型API的獨立開發者、AI SaaS創業者",
-        "pain_point": "不知道各家AI模型費用怎麼比價，也擔心串接多模型的路由服務未來被大平台整併，影響既有計費和串接方式",
-        "title_idea": "Stripe砸70億買下AI模型路由商！以後用ChatGPT/Claude API可能都要先過它",
-        "local_angle": "海外SaaS圈正在熱議「AI基礎設施整合」趨勢，台灣做AI工具或串接多模型服務的開發者多半還沒注意到，可搶先解讀這波整併對開發者計費與串接的實際影響"
-      },
-      {
-        "title": "Nvidia為OpenAI俄亥俄州新資料中心提供逾千億美元融資保證",
-        "sources": [
-          {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/08/17/nvidia-financing-open-ai-data-center-ohio.html"
-          },
-          {
-            "name": "UPI",
-            "url": "https://www.upi.com/Top_News/US/2026/08/17/nvidia-openai-sb-energy-ports-pike-data-center-ohio/4201786985547/"
-          }
-        ],
-        "summary": "Nvidia同意為OpenAI俄亥俄州新資料中心提供最高1050億美元融資保證，部署10GW運算力",
-        "audience": "關注AI基礎設施、雲端算力成本的科技工作者、AI創業者",
-        "pain_point": "擔心GPU算力持續緊缺、雲端AI服務成本不透明，不確定這類天價投資最終會不會反映到API定價上",
-        "title_idea": "1050億美元！Nvidia替OpenAI蓋資料中心的規模到底有多誇張",
-        "local_angle": "這類基建新聞常被誤以為「與我無關」，但其實直接牽動未來API定價與算力供給穩定度，適合做成「AI算力軍備競賽對開發者的影響」科普選題"
-      },
-      {
-        "title": "AI影片生成新創Higgsfield完成4億美元B輪，估值達54億美元",
-        "sources": [
-          {
-            "name": "SiliconANGLE",
-            "url": "https://siliconangle.com/2026/08/17/higgsfield-raises-400m-at-5-4-billion-valuation-to-scale-video-and-image-generation-platform/"
-          },
-          {
-            "name": "PR Newswire",
-            "url": "https://www.prnewswire.com/news-releases/higgsfield-raises-400-million-series-b-financing-at-5-4-billion-valuation-with-annualized-revenue-reaching-700-million-302852430.html"
-          }
-        ],
-        "summary": "Higgsfield由DST Global領投完成4億美元B輪，估值54億美元，年化營收一年暴增至7億美元",
-        "audience": "用AI影片工具做內容或廣告的自媒體創作者、電商賣家",
-        "pain_point": "AI影片工具太多不知道怎麼選，也不確定哪個平台成長最快、最值得長期投入學習",
-        "title_idea": "年營收7億美元！這個AI影片工具一年成長35倍，海外創作者都在用它做什麼",
-        "local_angle": "Higgsfield在台灣、華語圈知名度還很低，但已被Goldman Sachs、Intel等機構重金押注，是搶先做工具測評與教學影片的好時機"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "Cursor「Builds」正式成為Cloud Agents預設模式，啟動速度快3倍",
-        "sources": [
-          {
-            "name": "Tech Times",
-            "url": "https://www.techtimes.com/articles/324667/20260817/cursor-builds-goes-default-agent-fleets-survive-bad-commits-start-three-times-faster.htm"
-          },
-          {
-            "name": "Cursor Changelog",
-            "url": "https://cursor.com/changelog/08-13-26"
-          }
-        ],
-        "summary": "Cursor今日起Builds成為所有雲端代理環境預設功能，啟動速度提升3倍且能自動回滾故障環境",
-        "audience": "使用Cursor做vibe coding的開發者、AI輔助寫程式的創作者",
-        "pain_point": "雲端AI編碼代理啟動慢、開發環境容易被壞的commit搞壞，要花時間手動重建",
-        "title_idea": "Cursor雲端Agent啟動速度變3倍快！這個新預設功能你打開了嗎",
-        "local_angle": "台灣vibe coding社群多聚焦在模型選擇本身，較少人講解Cursor底層基礎設施更新，可用「開發環境優化」角度做差異化教學"
-      },
-      {
-        "title": "Anthropic今日正式關閉Claude舊版Workbench與實驗性Prompt工具API",
-        "sources": [
-          {
-            "name": "Tech Times",
-            "url": "https://www.techtimes.com/articles/324669/20260817/anthropic-kills-claude-workbench-today-saved-prompts-gone-api-pipelines-broken.htm"
-          }
-        ],
-        "summary": "Claude Console舊版Workbench與三個實驗性Prompt生成API今日終止服務，未匯出資料將永久遺失",
-        "audience": "用Claude API做產品的開發者、AI Prompt工程師、寫Claude教學的創作者",
-        "pain_point": "沒有提前備份就會永久遺失存檔的prompt、變數與評測設定，串接舊API的自動化流程可能直接壞掉",
-        "title_idea": "還在用Claude舊版Workbench？今天起資料全部消失，你的Prompt還救得回來嗎",
-        "local_angle": "這是明確「今天生效」的急迫性新聞，很適合做成緊急提醒型短影音，第一時間解說替代方案搶流量"
-      },
-      {
-        "title": "Google今日關閉三個Imagen 4生圖模型，強制轉用費用更高的Gemini 3.1 Flash Image",
-        "sources": [
-          {
-            "name": "Kingy AI",
-            "url": "https://kingy.ai/ai-launch-tracker/google-will-shut-down-three-imagen-4-api-models-august-17/"
-          },
-          {
-            "name": "ByteIota",
-            "url": "https://byteiota.com/imagen-4-shutdown-august-17-migrate-to-gemini-image-api-now/"
-          }
-        ],
-        "summary": "Google今日關閉Imagen 4三個生圖模型ID，建議轉用Gemini 3.1 Flash Image，但介面不同且單張成本上升",
-        "audience": "用Google AI生圖API做產品的開發者、AI繪圖工具創業者",
-        "pain_point": "現有生圖功能今天起直接失效，新模型介面不同無法直接替換，生圖成本悄悄變貴",
-        "title_idea": "Google今天關掉這個生圖模型！沒轉移的AI工具可能直接壞掉",
-        "local_angle": "台灣有不少小工具、外掛是接Imagen 4 API做圖像生成服務，這則新聞有明確的「今日截止」時效性，適合搶先做緊急教學"
-      }
-    ],
-    "trends": []
   }
 ]
