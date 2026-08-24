@@ -1,21 +1,44 @@
 {
-  "date": "2026-08-23",
-  "big_events": [],
-  "tool_updates": [
+  "date": "2026-08-24",
+  "big_events": [
     {
-      "title": "Claude Code更新至2.1.241版,連續第三天聚焦錯誤修復與穩定性改善",
+      "title": "Anthropic Claude爆發全球性服務中斷,Claude.ai、API、Claude Code與Cowork全數受影響,近3小時後修復",
       "sources": [
-        {
-          "name": "Claude Code官方Changelog",
-          "url": "https://code.claude.com/docs/en/changelog"
-        }
+        {"name": "Android Authority", "url": "https://www.androidauthority.com/claude-outage-august-24-3702012/"},
+        {"name": "Notebookcheck", "url": "https://www.notebookcheck.net/Claude-faces-another-outage-as-errors-hit-multiple-models.1376666.0.html"},
+        {"name": "Softonic", "url": "https://en.softonic.com/articles/anthropic-confirms-major-claude-outage-api-and-claude-code-affected"}
       ],
-      "summary": "Claude Code推出2.1.241版,內容同樣以錯誤修復與穩定性改善為主,未新增大型功能",
-      "audience": "每天使用Claude Code開發、對版本更新敏感的工程師與AI創作者",
-      "pain_point": "版本更新太頻繁,不確定該不該馬上升級、又怕踩到新版還沒發現的bug,也搞不清楚連續幾天的小改版到底累積修了什麼",
-      "title_idea": "Claude Code三天內第三次更新!2.1.241版還是修bug,這波小版本到底在忙什麼",
-      "local_angle": "華語圈系統性整理Claude Code版本異動的頻道仍偏少,這種連續多日的小版本更新正好適合剪成「一週版本回顧」影片,持續累積訂閱這類速報內容的忠實觀眾"
+      "summary": "Claude週一UTC凌晨爆發全球性錯誤,Claude.ai、API、Claude Code、Cowork皆受影響,近3小時後修復",
+      "audience": "每天倚賴Claude Code/API開發、跑自動化流程的獨立開發者與技術創作者",
+      "pain_point": "突發性服務中斷讓正在交付案子或跑自動化排程的工作瞬間卡死,分不清是自己網路/程式碼問題還是官方掛了,也不知道該不該建立備援方案",
+      "title_idea": "Claude又掛了!這次Claude Code、API全滅,3小時內到底發生什麼事",
+      "local_angle": "華語圈教學多聚焦Claude功能本身,鮮少人講「Claude掛掉怎麼辦」的備援策略,適合做「訂閱前必看:這個月Claude已經停擺幾次」的避雷選題,順便帶出多模型備援(接Codex/Gemini API)的教學紅利"
+    },
+    {
+      "title": "Nvidia傳洽談投資Perplexity,估值上看300億美元、年化營收半年翻3倍",
+      "sources": [
+        {"name": "Tech Startups", "url": "https://techstartups.com/2026/08/24/nvidia-in-talks-to-invest-in-perplexity-at-30-billion-valuation-as-revenue-tops-750-million/"},
+        {"name": "Benzinga", "url": "https://www.benzinga.com/markets/tech/26/08/61374579/nvidia-perplexity-30-billion-valuation-750-million-revenue-bezos"}
+      ],
+      "summary": "Nvidia傳與Perplexity洽談新一輪投資,估值上看300億美元,較前輪增逾5成,年化營收已破7.5億美元",
+      "audience": "使用Perplexity做研究/搜尋的獨立開發者、關注AI搜尋與晶片投資趨勢的科技創業自媒體",
+      "pain_point": "不了解Nvidia為何不只賣晶片、還親自下注AI應用層新創,也搞不清楚Perplexity從搜尋工具轉型「AI電腦代理」如何撐起300億美元估值",
+      "title_idea": "Nvidia又要砸錢了!這次看上的不是晶片客戶,而是「AI搜尋引擎」Perplexity",
+      "local_angle": "華語圈對Perplexity的討論多停留在「比ChatGPT更會查資料」,鮮少解讀其Comet瀏覽器、Perplexity Computer代理布局與資本市場動作,適合做「Perplexity不只是搜尋引擎」深度選題"
     }
   ],
-  "trends": []
+  "tool_updates": [],
+  "trends": [
+    {
+      "title": "TechCrunch深度分析:OpenAI想讓AI代理無所不在,但ChatGPT Work用戶僅2000萬、採用率遠低於預期",
+      "sources": [
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/"}
+      ],
+      "summary": "TechCrunch分析OpenAI力推ChatGPT Work等代理產品,但2000萬用戶對比逾10億ChatGPT用戶,信任與可用性仍是採用門檻",
+      "audience": "用AI代理處理業務流程的自由工作者、企業內部推廣AI工具的窗口、AI工具測評自媒體",
+      "pain_point": "老闆/客戶常問「該不該導入AI代理」,但市場上充斥吹捧文,缺乏「為什麼多數人還不敢真的放手讓AI代理做事」的誠實分析框架",
+      "title_idea": "OpenAI想讓AI代理做遍所有工作,為什麼真正在用的人卻不到2%?",
+      "local_angle": "華語圈AI代理教學多主打「怎麼用」,幾乎沒人談「為什麼企業不敢用」的信任與控制權問題,適合做「AI代理導入前該問的3個問題」實用選題,幫觀眾避開盲目跟風的坑"
+    }
+  ]
 }
