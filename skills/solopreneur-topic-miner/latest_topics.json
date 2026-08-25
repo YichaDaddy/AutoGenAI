@@ -1,44 +1,80 @@
 {
-  "date": "2026-08-24",
+  "date": "2026-08-25",
   "big_events": [
     {
-      "title": "Anthropic Claude爆發全球性服務中斷,Claude.ai、API、Claude Code與Cowork全數受影響,近3小時後修復",
+      "title": "Perplexity攜手Nvidia推出「Portable Computer」,AI代理直接跑在DGX Spark本機、零Token費用",
       "sources": [
-        {"name": "Android Authority", "url": "https://www.androidauthority.com/claude-outage-august-24-3702012/"},
-        {"name": "Notebookcheck", "url": "https://www.notebookcheck.net/Claude-faces-another-outage-as-errors-hit-multiple-models.1376666.0.html"},
-        {"name": "Softonic", "url": "https://en.softonic.com/articles/anthropic-confirms-major-claude-outage-api-and-claude-code-affected"}
+        {"name": "VentureBeat", "url": "https://venturebeat.com/infrastructure/perplexity-partners-with-nvidia-to-launch-portable-computer-a-fully-local-ai-agent-with-zero-token-costs"},
+        {"name": "MarkTechPost", "url": "https://www.marktechpost.com/2026/08/25/perplexity-ships-portable-computer-on-nvidia-dgx-spark-local-harness-os-enforced-sandbox-and-zero-per-token-cost-for-local-steps/"},
+        {"name": "Slashdot", "url": "https://slashdot.org/story/26/08/25/1848204/perplexity-and-nvidia-launch-fully-local-ai-agent-with-zero-token-costs"}
       ],
-      "summary": "Claude週一UTC凌晨爆發全球性錯誤,Claude.ai、API、Claude Code、Cowork皆受影響,近3小時後修復",
-      "audience": "每天倚賴Claude Code/API開發、跑自動化流程的獨立開發者與技術創作者",
-      "pain_point": "突發性服務中斷讓正在交付案子或跑自動化排程的工作瞬間卡死,分不清是自己網路/程式碼問題還是官方掛了,也不知道該不該建立備援方案",
-      "title_idea": "Claude又掛了!這次Claude Code、API全滅,3小時內到底發生什麼事",
-      "local_angle": "華語圈教學多聚焦Claude功能本身,鮮少人講「Claude掛掉怎麼辦」的備援策略,適合做「訂閱前必看:這個月Claude已經停擺幾次」的避雷選題,順便帶出多模型備援(接Codex/Gemini API)的教學紅利"
+      "summary": "Perplexity與Nvidia合推可在DGX Spark本機運行的AI代理Portable Computer,本機任務零Token成本",
+      "audience": "常用Perplexity/AI代理處理研究、擔心API費用失控的獨立開發者、AI工具測評自媒體",
+      "pain_point": "AI代理跑長任務時Token費用難預估,敏感資料丟上雲端又怕外洩,卻不知道「本機優先、雲端支援」這種混合模式實際上怎麼運作、值不值得買硬體",
+      "title_idea": "用AI代理再也不用怕燒Token!Perplexity新推「隨身電腦」,本機跑到飽都免費",
+      "local_angle": "華語圈討論Perplexity多停留在搜尋功能,「本機AI代理」是全新賽道且綁定DGX Spark等特定硬體,適合做「開箱實測+值不值得買」深度評測搶第一波流量"
     },
     {
-      "title": "Nvidia傳洽談投資Perplexity,估值上看300億美元、年化營收半年翻3倍",
+      "title": "Sam Altman坦言AI仍在「Palm Pilot階段」,尚未迎來真正的iPhone時刻",
       "sources": [
-        {"name": "Tech Startups", "url": "https://techstartups.com/2026/08/24/nvidia-in-talks-to-invest-in-perplexity-at-30-billion-valuation-as-revenue-tops-750-million/"},
-        {"name": "Benzinga", "url": "https://www.benzinga.com/markets/tech/26/08/61374579/nvidia-perplexity-30-billion-valuation-750-million-revenue-bezos"}
+        {"name": "9to5Mac", "url": "https://9to5mac.com/2026/08/25/ai-awaiting-its-iphone-moment-says-altman-needs-to-learn-key-apple-lesson/"},
+        {"name": "24/7 Wall St.", "url": "https://247wallst.com/investing/2026/08/25/openais-sam-altman-admits-the-ai-boom-is-running-late-weve-not-had-the-iphone-moment/"}
       ],
-      "summary": "Nvidia傳與Perplexity洽談新一輪投資,估值上看300億美元,較前輪增逾5成,年化營收已破7.5億美元",
-      "audience": "使用Perplexity做研究/搜尋的獨立開發者、關注AI搜尋與晶片投資趨勢的科技創業自媒體",
-      "pain_point": "不了解Nvidia為何不只賣晶片、還親自下注AI應用層新創,也搞不清楚Perplexity從搜尋工具轉型「AI電腦代理」如何撐起300億美元估值",
-      "title_idea": "Nvidia又要砸錢了!這次看上的不是晶片客戶,而是「AI搜尋引擎」Perplexity",
-      "local_angle": "華語圈對Perplexity的討論多停留在「比ChatGPT更會查資料」,鮮少解讀其Comet瀏覽器、Perplexity Computer代理布局與資本市場動作,適合做「Perplexity不只是搜尋引擎」深度選題"
+      "summary": "OpenAI執行長Altman稱AI技術到位但缺乏改變使用習慣的關鍵產品,點名要學賈伯斯「懂得說不」",
+      "audience": "追蹤AI產業趨勢、常轉譯矽谷大老發言的科技評論自媒體、AI工具重度使用者",
+      "pain_point": "每天被「AI要取代一切」的行銷話術轟炸,卻說不出AI現在到底卡在哪一關,也不確定該不該押注還在摸索期的AI硬體/新產品",
+      "title_idea": "連OpenAI執行長都承認:AI還沒等到自己的iPhone時刻,問題出在哪?",
+      "local_angle": "華語AI討論多是「工具測評」導向,鮮少人翻譯這類產業高層對「AI採用瓶頸」的坦白發言,適合做成「大老說真話」系列,建立評論類自媒體的觀點深度"
     }
   ],
-  "tool_updates": [],
+  "tool_updates": [
+    {
+      "title": "Claude Code同日更新至2.1.243與2.1.245版,新增/usage的Loop用量分析、模型選單客製化與免金鑰登入",
+      "sources": [
+        {"name": "Claude Code官方Changelog", "url": "https://code.claude.com/docs/en/changelog"}
+      ],
+      "summary": "Claude Code一天內連發2.1.243、2.1.245版,新增loop用量追蹤、模型選單客製、免金鑰登入,並修復Linux啟動當機",
+      "audience": "每天用Claude Code開發、跑/loop自動化任務的獨立開發者與技術型AI創作者",
+      "pain_point": "開了/loop跑長任務卻不知道到底燒了多少token、哪個loop在偷偷狂燒錢,企業用戶也常搞不清楚該用API金鑰還是主控台帳號登入",
+      "title_idea": "Claude Code這次更新超實用!一眼看穿哪個loop在偷偷燒你的token",
+      "local_angle": "華語圈系統性整理Claude Code版本異動的頻道仍偏少,這次新增的/usage Loop分析功能特別適合做「別再讓AI偷偷燒錢」的實用教學短影音"
+    },
+    {
+      "title": "OpenAI推出ChatGPT Work與Codex專用「Admin外掛」,用聊天就能管理團隊用量與權限",
+      "sources": [
+        {"name": "9to5Mac", "url": "https://9to5mac.com/2026/08/25/openai-announces-the-admin-plugin-for-chatgpt-work-and-codex/"},
+        {"name": "OpenAI官方", "url": "https://openai.com/index/introducing-admin-plugin/"}
+      ],
+      "summary": "OpenAI新推Admin外掛,管理員可直接問ChatGPT團隊用量、生成圖表並自動產出簡報",
+      "audience": "帶團隊使用ChatGPT Work/Codex的新創主管、需要跟客戶交代AI導入成效的顧問型自由工作者",
+      "pain_point": "團隊導入AI後,主管常說不清楚「到底誰在用、用多少、值不值得」,每次要生成使用報告都得手動整理後台數據",
+      "title_idea": "管理ChatGPT團隊用量不用再開後台了!問AI就能自動生成報告簡報",
+      "local_angle": "華語圈教學多聚焦個人使用ChatGPT技巧,「團隊管理者視角」的內容幾乎是空白,適合做「小主管如何用AI管AI」的差異化選題"
+    }
+  ],
   "trends": [
     {
-      "title": "TechCrunch深度分析:OpenAI想讓AI代理無所不在,但ChatGPT Work用戶僅2000萬、採用率遠低於預期",
+      "title": "前Yandex搜尋主管創辦Keenable,募得2600萬美元打造「給AI代理用」的網頁索引",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents/"},
+        {"name": "Accel官網", "url": "https://www.accel.com/news/our-seed-investment-in-keenable-search-infrastructure-for-better-ai-agents"}
       ],
-      "summary": "TechCrunch分析OpenAI力推ChatGPT Work等代理產品,但2000萬用戶對比逾10億ChatGPT用戶,信任與可用性仍是採用門檻",
-      "audience": "用AI代理處理業務流程的自由工作者、企業內部推廣AI工具的窗口、AI工具測評自媒體",
-      "pain_point": "老闆/客戶常問「該不該導入AI代理」,但市場上充斥吹捧文,缺乏「為什麼多數人還不敢真的放手讓AI代理做事」的誠實分析框架",
-      "title_idea": "OpenAI想讓AI代理做遍所有工作,為什麼真正在用的人卻不到2%?",
-      "local_angle": "華語圈AI代理教學多主打「怎麼用」,幾乎沒人談「為什麼企業不敢用」的信任與控制權問題,適合做「AI代理導入前該問的3個問題」實用選題,幫觀眾避開盲目跟風的坑"
+      "summary": "Keenable完成2600萬美元種子輪,建立逾千億份文件的網頁索引,專供AI代理即時查證使用",
+      "audience": "開發AI聊天機器人/代理應用的獨立開發者、關注「AI搜尋引擎優化(GEO)」的內容行銷從業者",
+      "pain_point": "做AI應用想讓機器人回答有憑有據,卻發現Google、微軟的搜尋API接口一直在收緊或關閉,找不到穩定的網頁級搜尋資料源",
+      "title_idea": "Google搜尋API越收越緊,這家新創募2600萬美元專門「餵」AI代理搜尋資料",
+      "local_angle": "華語圈多聚焦「怎麼被AI搜到」(GEO)這類終端話題,鮮少解讀背後的搜尋索引基礎建設層新創,適合做「AI搜尋生態系」科普選題卡位資訊差"
+    },
+    {
+      "title": "DuckDuckGo最新調查:近3分之1用戶曾向AI聊天機器人透露不敢告訴親友的秘密",
+      "sources": [
+        {"name": "9to5Mac", "url": "https://9to5mac.com/2026/08/25/duckduckgo-survey-highlights-how-much-personal-information-users-share-with-ai/"}
+      ],
+      "summary": "DuckDuckGo公布調查,近1/3用戶向AI坦白不會告訴親友的事,AI愛好者比例更高達56%",
+      "audience": "討論AI倫理/隱私議題的科技評論自媒體、擔心用戶資料外洩的AI產品開發者",
+      "pain_point": "觀眾普遍知道「不要跟AI講太多」的道理,卻說不出具體有多少人其實在做、又該怎麼拿捏分享尺度,內容容易流於空泛說教",
+      "title_idea": "你也曾對AI掏心掏肺嗎?最新調查:3個人裡就有1個對AI講過不敢跟人說的秘密",
+      "local_angle": "這是少數有具體數據佐證「AI心理依賴」現象的調查,適合結合本地案例做「你也是這樣嗎」互動型選題,比空泛呼籲隱私保護更有共鳴"
     }
   ]
 }
