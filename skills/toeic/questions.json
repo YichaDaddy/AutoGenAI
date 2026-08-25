@@ -1,117 +1,117 @@
 {
-  "date": "2026-08-25",
+  "date": "2026-08-26",
   "p5": [
     {
-      "id": "2026-08-25-p5-0",
-      "tag": "名詞子句（Whoever 作主詞）",
-      "pre": "",
-      "post": " drafted the indemnification clause failed to account for claims arising from subcontractor negligence.",
-      "opts": ["Whoever", "Whomever", "Whichever", "Whose"],
+      "id": "2026-08-26-p5-0",
+      "tag": "程度結果子句（such + be + that）",
+      "pre": "The damage to the reactor's cooling system was ",
+      "post": " that engineers had to shut down the entire facility for emergency repairs.",
+      "opts": ["such", "so", "so much", "as such"],
       "ans": 0,
-      "zh": "「不論是誰」起草了這項損害賠償條款，都未能考量到因分包商過失而生的求償情況。",
-      "why": "<b>Whoever</b> 為複合關係代名詞，在此子句中擔任動詞 drafted 的主詞，須用主格 Whoever。Whomever 為受格形式，不能作句子主詞；Whichever（無論哪一個）用於在已知的特定選項中做選擇，與此處泛指「不論是誰」的語意不符；Whose 為所有格，無法單獨作主詞使用。"
+      "zh": "反應爐冷卻系統的損壞程度「如此嚴重」，「以至於」工程師必須關閉整座設施進行緊急搶修。",
+      "why": "<b>such + be動詞 + that</b> 為固定結果子句句型，此處 such 作為主詞補語，代表損壞程度之嚴重，其後不接形容詞而直接連接 that 子句。so 須接形容詞才能構成 so + 形容詞 + that 的結構（如 so severe that），此處並無形容詞可接；so much 不符合此固定句型；as such（就此而言、本身即是）語意與句構皆不同，屬另一固定片語。"
     },
     {
-      "id": "2026-08-25-p5-1",
-      "tag": "讓步慣用語（Much as，儘管很想）",
-      "pre": "",
-      "post": " the negotiators wished to avoid a public dispute, they ultimately had no choice but to file a formal grievance.",
-      "opts": ["Much as", "As much", "So much", "As much as"],
+      "id": "2026-08-26-p5-1",
+      "tag": "後位介系詞（notwithstanding，正式讓步）",
+      "pre": "Budget constraints ",
+      "post": ", the department proceeded with the system upgrade to avoid a looming compliance deadline.",
+      "opts": ["notwithstanding", "notwithstand", "withstanding", "withstood"],
       "ans": 0,
-      "zh": "「儘管」談判代表們「非常希望」避免公開爭端，他們最終仍別無選擇，只能提出正式申訴。",
-      "why": "<b>Much as</b> 為固定讓步用語，置於句首並接「主詞＋wish/want/like 等表願望的動詞」，意指「儘管非常希望…」（= Although the negotiators very much wished...）。As much 語序顛倒，不構成此讓步用法；So much 不具備讓步連接詞功能；As much as 常見於比較語境（如 as much as possible），並非表讓步的固定句首用語。"
+      "zh": "「儘管」預算有限，該部門仍推動系統升級，以避免即將到來的法規遵循期限逾期。",
+      "why": "<b>notwithstanding</b> 可作「後位介系詞」，置於其所修飾的名詞片語之後（Budget constraints notwithstanding = 儘管有預算限制），為正式商務／法律文件中常見用法。notwithstand 並非標準動詞形式；withstanding 為動詞 withstand（抵禦、承受）的現在分詞，語意為「抵擋、撐過」而非「儘管」；withstood 為 withstand 的過去式／過去分詞，同樣語意不符。"
     },
     {
-      "id": "2026-08-25-p5-2",
-      "tag": "否定倒裝（Seldom + 現在完成式）",
-      "pre": "",
-      "post": " a product launch generated as much pre-order demand as the company's newest device did within its first twenty-four hours.",
-      "opts": ["has", "had", "did", "was"],
+      "id": "2026-08-26-p5-2",
+      "tag": "使役動詞（have + 受詞 + 過去分詞）",
+      "pre": "The company had the entire server infrastructure ",
+      "post": " by an independent cybersecurity firm before renewing its cyber-insurance policy.",
+      "opts": ["audited", "audit", "auditing", "to audit"],
       "ans": 0,
-      "zh": "「鮮少」有產品發表會，能像這家公司最新裝置在上市頭二十四小時內那樣，創造出如此龐大的預購需求。",
-      "why": "Seldom 為否定頻率副詞，置於句首須觸發倒裝，此處泛指「至今為止罕見發生」的一般性經驗描述，須用現在完成式倒裝 <b>has</b>（has generated）。had 為過去完成式，暗示與更早的過去時間點比較，此處未建立該對照基準；did 已用於句尾作為代動詞（the device did，代替 generated pre-order demand），此處若重複使用 did 將造成結構混淆；was 不符合 generated 這個主動動作動詞所需的助動詞形式。"
+      "zh": "這家公司在續保網路資安保險之前，委託一家獨立資安公司「對」整個伺服器基礎設施「進行稽核」。",
+      "why": "<b>have + 受詞 + 過去分詞</b> 為使役被動結構，表示「請他人代為完成某動作」，此處伺服器基礎設施是被稽核的對象，須用過去分詞 <b>audited</b>。audit 為原形動詞，不符合此使役結構；auditing 為現在分詞，語意轉為「讓某物處於稽核進行中的狀態」，較不符合此處「委外請人完成稽核」的語意；to audit 為不定詞，不符合 have + 受詞 + 過去分詞的固定句型。"
     },
     {
-      "id": "2026-08-25-p5-3",
-      "tag": "進階動詞語意辨別（impede，imp-字首形似詞）",
-      "pre": "Bureaucratic delays at the permitting office continued to ",
-      "post": " construction, pushing the project's completion date back by nearly a year.",
-      "opts": ["impede", "impel", "implore", "impute"],
+      "id": "2026-08-26-p5-3",
+      "tag": "進階詞彙（forestall，fore-字首形似詞）",
+      "pre": "The company issued an early voluntary recall in an effort to ",
+      "post": " regulatory action and the accompanying reputational damage.",
+      "opts": ["forestall", "foreclose", "forgo", "foretell"],
       "ans": 0,
-      "zh": "許可核發機關的官僚延誤持續「阻礙」工程進行，使專案完工日期延後近一年。",
-      "why": "<b>impede</b>（阻礙、妨礙進行）精準對應此處「行政延誤拖累工程進度」的語境。impel（驅使、促使某人去做某事，因果方向相反）語意不符；implore（懇求、乞求）語意不符；impute（將過錯歸咎於某人）語意不符，四字同為 imp- 字首形似詞，屬進階詞彙易混淆辨析。"
+      "zh": "該公司提前發布自願性召回，試圖「搶先阻止」監管機關的行動，以及隨之而來的商譽損害。",
+      "why": "<b>forestall</b>（搶先採取行動以阻止某事發生）精準對應此處「提前召回以避免監管行動」的語境。foreclose 多用於「排除某項抽象可能性或選項」（如 foreclose the option of...），較不適用於具體的未來行動事件；forgo（放棄、捨棄）語意不符；foretell（預言、預測）語意不符，四字同為 fore- 字首形似詞，屬進階詞彙易混淆辨析。"
     },
     {
-      "id": "2026-08-25-p5-4",
-      "tag": "慣用語（know better than to，明事理而不致於）",
-      "pre": "An experienced compliance officer would know better ",
-      "post": " to approve a transaction without verifying the counterparty's identity first.",
-      "opts": ["than", "that", "so as", "enough"],
+      "id": "2026-08-26-p5-4",
+      "tag": "慣用語（at best，充其量）",
+      "pre": "The proposed timeline was optimistic ",
+      "post": ", and the project ultimately took nearly twice as long as projected.",
+      "opts": ["at best", "at most", "at length", "at large"],
       "ans": 0,
-      "zh": "一位經驗豐富的法遵人員，理當「明事理而不致於」在未先核實交易對手身分的情況下便核准交易。",
-      "why": "<b>know better than to + 原形動詞</b> 為固定慣用語，意指「夠聰明、有經驗而不會去做某件愚蠢的事」。that 不符合此固定句型；so as 通常構成 so as to（以便…），語意與「明事理而不做某事」相反；enough 須改變語序為 know enough not to，與此處 know better ___ to 的既有結構不符。"
+      "zh": "這份提議的時程規劃「充其量」只能說是過於樂觀，而這項專案最終所耗費的時間，幾乎是原先預估的兩倍。",
+      "why": "<b>at best</b> 為固定慣用語，置於形容詞之後表「即便往最寬容的角度看，也只能算是…」，此處精準傳達「時程規劃頂多算樂觀，實際上嚴重失準」的語氣。at most（至多，通常修飾數量）不適合修飾形容詞 optimistic；at length（終於、詳細地）語意不符；at large（自由未受拘束地，或指整體而言，如 society at large）語意不符。"
     }
   ],
   "p6": {
-    "id": "2026-08-25-p6",
-    "title": "MEMORANDUM: Revised Guidelines for Responding to Regulatory Inquiries",
+    "id": "2026-08-26-p6",
+    "title": "MEMORANDUM: Updated Vendor Onboarding and Due Diligence Procedure",
     "seg": [
       [
-        "To all department heads: Effective immediately, any formal inquiry, subpoena, or information request received from a government regulator ",
+        "To all procurement staff: Effective next quarter, any new vendor with an anticipated annual contract value exceeding $100,000 ",
         { "b": 0 },
-        " to the Legal department within twenty-four hours of receipt, before any response is drafted or documents are gathered."
+        " a formal due diligence review, including a financial stability check and a review of the vendor's data security practices, before a contract may be signed."
       ],
       [
         { "b": 1 },
-        ", employees who receive an informal or verbal inquiry from a regulator—such as a phone call requesting clarification—should note the details in writing and notify Legal promptly, even though no formal response is required at that stage."
+        ", vendors already under contract as of this policy's effective date are not required to complete a retroactive review, though they will be subject to the new standard upon contract renewal."
       ],
       [
-        "Department heads are responsible for ensuring that all staff ",
+        "Procurement staff should ",
         { "b": 2 },
-        " from directly responding to a regulator without prior Legal department review, regardless of how routine the inquiry may appear."
+        " any vendor relationship that appears to fall near the $100,000 threshold to their manager for guidance on whether a full review is warranted."
       ],
       [
         { "b": 3 },
-        " A brief protocol summarizing escalation steps and key Legal department contacts has been distributed to all department heads."
+        " A checklist outlining the required due diligence steps and supporting documentation is available on the procurement intranet page."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["must be forwarded", "forwards", "has forwarded", "is forwarding"],
+        "opts": ["will undergo", "undergoes", "has undergone", "is undergoing"],
         "ans": 0,
-        "zh": "致所有部門主管：自即日起，凡收到政府監管機關發出的任何正式詢問、傳票或資訊請求，「均須」在收到後二十四小時內轉交法務部門，且須在草擬任何回覆或蒐集任何文件之前完成。",
-        "why": "詢問／傳票是被轉交的對象，此句表達即刻生效的強制性規定，須用被動情態動詞 <b>must be forwarded</b>（必須被轉交）。forwards 為現在式主動動詞，不具強制規定的語氣；has forwarded 為現在完成式，暗示已轉交而非規定應轉交；is forwarding 為現在進行式，與正式規定公告的語氣不符。"
+        "zh": "致所有採購同仁：自下一季度起，任何預期年度合約金額超過十萬美元的新供應商，簽約前「均須」接受正式的盡職調查審查，包括財務穩定性檢核及供應商資安措施審查。",
+        "why": "句首明訂即將生效的未來時點「Effective next quarter」，須用未來式 <b>will undergo</b>。undergoes 為現在式，與尚未生效的未來規定不符；has undergone 為現在完成式，暗示已完成而非即將接受審查；is undergoing 為現在進行式，同樣不符合正式公告未來規定的語境。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["Likewise", "Consequently", "Namely", "In contrast"],
+        "opts": ["As an exception", "As a result", "In particular", "By the same token"],
         "ans": 0,
-        "zh": "「同樣地」，若員工接獲監管機關的非正式或口頭詢問——例如要求釐清事項的電話——即便該階段尚無須正式回覆，仍應以書面記錄詳情並儘速通知法務部門。",
-        "why": "前句規定正式詢問須轉交法務，本句將「儘速知會法務」的相同精神延伸適用於非正式詢問的情境，兩句構成類比延伸關係，故選 <b>Likewise</b>（同樣地）。Consequently（因此）表因果；Namely（即，也就是說）表具體說明；In contrast（相對地）表對立，皆與此處類比延伸的邏輯不符。"
+        "zh": "「作為例外」，截至本政策生效日已簽約的供應商，無須補做回溯性審查，但續約時仍須適用新標準。",
+        "why": "前句規定新供應商須經正式審查，本句說明「作為例外」既有已簽約供應商豁免回溯審查，兩句構成例外對比關係，故選 <b>As an exception</b>（作為例外）。As a result（因此）表因果；In particular（尤其是）表在同類別中舉例強調；By the same token（同理）表類比延續，皆與此處的例外邏輯不符。"
       },
       {
-        "tag": "詞彙語意（refrain vs restrain 易混淆詞）",
+        "tag": "詞彙語意（動詞辨析）",
         "col1": true,
-        "opts": ["refrain", "restrain", "retain", "refresh"],
+        "opts": ["flag", "flog", "flaunt", "flout"],
         "ans": 0,
-        "zh": "各部門主管須確保所有員工，無論該詢問看似多麼例行公事，皆應「自我克制」，不得在未經法務部門事先審查前逕自回覆監管機關。",
-        "why": "<b>refrain from</b>（自我克制、主動避免做某事）精準對應此處「員工應自制不逕自回覆」的語境。restrain 通常指「外力約束、制止他人」（如 restrain someone from doing），與此處「員工自我克制」的反身語意不符；retain（保留、留住）語意不符；refresh（更新、恢復活力）語意不符。"
+        "zh": "採購同仁應將任何金額接近十萬美元門檻的供應商關係「標記提報」給主管，以取得是否需要完整審查的指引。",
+        "why": "<b>flag</b>（標記、提請注意以供進一步審視）精準對應此處「將邊緣案例提報主管判斷」的語境。flog（鞭打，或口語指強力推銷）語意不符；flaunt（炫耀、招搖展示）語意不符；flout（公然藐視、違反規定）語意不符，四字拼寫相近，屬進階詞彙易混淆辨析。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Questions about whether a specific communication qualifies as a regulatory inquiry should be directed to the Legal department.",
-          "The company's annual compliance training schedule has been posted to the intranet.",
-          "All department budget requests for next fiscal year are due by the end of this month.",
-          "The main conference room's audiovisual equipment will be upgraded next week."
+          "Vendors that fail the initial financial stability screening will be escalated to the Chief Procurement Officer for further review.",
+          "The company's annual vendor appreciation event will be held in October this year.",
+          "All procurement staff must complete the updated code-of-conduct training by year-end.",
+          "The procurement department's office has relocated to the third floor."
         ],
         "ans": 0,
-        "zh": "「若對某項聯繫是否構成監管詢問有疑問，應洽詢法務部門。」一份彙整通報升級步驟與法務部門主要聯絡人的簡要手冊，已發送給所有部門主管。",
-        "why": "段落主題為「監管機關詢問應對指引修訂」，此句提醒同仁若對詢問性質認定有疑問應洽詢法務部門，與後句「通報手冊已發送」共同構成完整的操作指引收尾。其餘選項（年度法遵訓練時程、下年度預算申請、會議室設備升級）皆與監管詢問應對指引無關，插入後語意斷裂。"
+        "zh": "「未通過初步財務穩定性篩選的供應商，將呈報首席採購長進一步審查。」一份列出必要盡職調查步驟與佐證文件的檢查清單，可於採購部門內部網路頁面取得。",
+        "why": "段落主題為「供應商導入與盡職調查程序更新」，此句說明未通過篩選案件的升級處理機制，與後句「檢查清單可於內部網路取得」共同構成完整的操作指引收尾。其餘選項（供應商感謝活動、行為準則訓練、辦公室搬遷）皆與供應商盡職調查程序無關，插入後語意斷裂。"
       }
     ]
   }
