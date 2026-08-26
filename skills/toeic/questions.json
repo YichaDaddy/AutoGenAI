@@ -1,117 +1,117 @@
 {
-  "date": "2026-08-26",
+  "date": "2026-08-27",
   "p5": [
     {
-      "id": "2026-08-26-p5-0",
-      "tag": "程度結果子句（such + be + that）",
-      "pre": "The damage to the reactor's cooling system was ",
-      "post": " that engineers had to shut down the entire facility for emergency repairs.",
-      "opts": ["such", "so", "so much", "as such"],
+      "id": "2026-08-27-p5-0",
+      "tag": "讓步限定詞（Whatever + 名詞）",
+      "pre": "",
+      "post": " objections the minority shareholders raise, the merger is unlikely to be blocked at this late stage.",
+      "opts": ["Whatever", "Whichever", "No matter", "Whoever"],
       "ans": 0,
-      "zh": "反應爐冷卻系統的損壞程度「如此嚴重」，「以至於」工程師必須關閉整座設施進行緊急搶修。",
-      "why": "<b>such + be動詞 + that</b> 為固定結果子句句型，此處 such 作為主詞補語，代表損壞程度之嚴重，其後不接形容詞而直接連接 that 子句。so 須接形容詞才能構成 so + 形容詞 + that 的結構（如 so severe that），此處並無形容詞可接；so much 不符合此固定句型；as such（就此而言、本身即是）語意與句構皆不同，屬另一固定片語。"
+      "zh": "「無論」少數股東提出什麼樣的異議，這起併購案在如此後期的階段，都不太可能被阻擋。",
+      "why": "<b>Whatever</b> + 名詞為固定讓步限定詞，意指「無論什麼樣的…」，此處直接修飾 objections。Whichever 用於在已知、有限的選項中做選擇，與此處泛指「任何異議」的開放語意不符；No matter 須搭配 what 才能修飾名詞（No matter what objections...），單獨使用不完整；Whoever 指人，作為子句主詞，無法直接修飾名詞 objections。"
     },
     {
-      "id": "2026-08-26-p5-1",
-      "tag": "後位介系詞（notwithstanding，正式讓步）",
-      "pre": "Budget constraints ",
-      "post": ", the department proceeded with the system upgrade to avoid a looming compliance deadline.",
-      "opts": ["notwithstanding", "notwithstand", "withstanding", "withstood"],
+      "id": "2026-08-27-p5-1",
+      "tag": "外置句型（It is + 形容詞 + that + 假設語氣）",
+      "pre": "It is imperative ",
+      "post": " the disclosure statement be filed before the merger vote is scheduled.",
+      "opts": ["that", "which", "so that", "in that"],
       "ans": 0,
-      "zh": "「儘管」預算有限，該部門仍推動系統升級，以避免即將到來的法規遵循期限逾期。",
-      "why": "<b>notwithstanding</b> 可作「後位介系詞」，置於其所修飾的名詞片語之後（Budget constraints notwithstanding = 儘管有預算限制），為正式商務／法律文件中常見用法。notwithstand 並非標準動詞形式；withstanding 為動詞 withstand（抵禦、承受）的現在分詞，語意為「抵擋、撐過」而非「儘管」；withstood 為 withstand 的過去式／過去分詞，同樣語意不符。"
+      "zh": "「務必」在併購表決排定之前，先提交這份揭露聲明。",
+      "why": "It is + 形容詞（如 imperative, essential, vital）+ <b>that</b> + 子句，為固定外置句型，且子句動詞須用假設語氣原形（be filed）。which 不符合此外置句型的連接詞用法；so that 表目的，語意與句構皆不符；in that（因為、就…而言）為另一固定片語，無法用於此處的外置句型。"
     },
     {
-      "id": "2026-08-26-p5-2",
-      "tag": "使役動詞（have + 受詞 + 過去分詞）",
-      "pre": "The company had the entire server infrastructure ",
-      "post": " by an independent cybersecurity firm before renewing its cyber-insurance policy.",
-      "opts": ["audited", "audit", "auditing", "to audit"],
+      "id": "2026-08-27-p5-2",
+      "tag": "附和倒裝（so + 助動詞 + 主詞）",
+      "pre": "The CFO expressed confidence in the revised forecast, and so ",
+      "post": " the majority of the board members.",
+      "opts": ["did", "does", "were", "had"],
       "ans": 0,
-      "zh": "這家公司在續保網路資安保險之前，委託一家獨立資安公司「對」整個伺服器基礎設施「進行稽核」。",
-      "why": "<b>have + 受詞 + 過去分詞</b> 為使役被動結構，表示「請他人代為完成某動作」，此處伺服器基礎設施是被稽核的對象，須用過去分詞 <b>audited</b>。audit 為原形動詞，不符合此使役結構；auditing 為現在分詞，語意轉為「讓某物處於稽核進行中的狀態」，較不符合此處「委外請人完成稽核」的語意；to audit 為不定詞，不符合 have + 受詞 + 過去分詞的固定句型。"
+      "zh": "財務長對修訂後的預測表達了信心，董事會多數成員「也是如此」。",
+      "why": "<b>so + 助動詞 + 主詞</b> 為表「也是如此」的附和倒裝結構，此處須與主要子句的過去式動詞 expressed 呼應，用代動詞 <b>did</b>。does 為現在式，時態不符；were 須搭配 be 動詞語境，但此處原動詞為 expressed（一般動詞），不適用 were 代替；had 為過去完成式，暗示更早的時間點，與此處單純附和的語意不符。"
     },
     {
-      "id": "2026-08-26-p5-3",
-      "tag": "進階詞彙（forestall，fore-字首形似詞）",
-      "pre": "The company issued an early voluntary recall in an effort to ",
-      "post": " regulatory action and the accompanying reputational damage.",
-      "opts": ["forestall", "foreclose", "forgo", "foretell"],
+      "id": "2026-08-27-p5-3",
+      "tag": "進階動詞語意辨別（abate，ab-字首形似詞）",
+      "pre": "Public criticism of the proposed merger showed no signs of ",
+      "post": " despite the company's repeated reassurances about job security.",
+      "opts": ["abating", "abetting", "abusing", "abstaining"],
       "ans": 0,
-      "zh": "該公司提前發布自願性召回，試圖「搶先阻止」監管機關的行動，以及隨之而來的商譽損害。",
-      "why": "<b>forestall</b>（搶先採取行動以阻止某事發生）精準對應此處「提前召回以避免監管行動」的語境。foreclose 多用於「排除某項抽象可能性或選項」（如 foreclose the option of...），較不適用於具體的未來行動事件；forgo（放棄、捨棄）語意不符；foretell（預言、預測）語意不符，四字同為 fore- 字首形似詞，屬進階詞彙易混淆辨析。"
+      "zh": "儘管公司一再保證工作將受到保障，社會大眾對這起併購案的批評，仍絲毫沒有「減弱」的跡象。",
+      "why": "<b>abate</b>（減弱、減緩，尤指強度或程度上的下降）精準對應此處「批評聲浪未見趨緩」的語境。abet（教唆、協助他人為非作歹，常見於 aid and abet）語意不符；abuse（濫用、虐待）語意不符；abstain（刻意棄權、克制，尤指投票或某項行為）語意不符，四字同為 ab- 字首形似詞，屬進階詞彙易混淆辨析。"
     },
     {
-      "id": "2026-08-26-p5-4",
-      "tag": "慣用語（at best，充其量）",
-      "pre": "The proposed timeline was optimistic ",
-      "post": ", and the project ultimately took nearly twice as long as projected.",
-      "opts": ["at best", "at most", "at length", "at large"],
+      "id": "2026-08-27-p5-4",
+      "tag": "慣用語（in name only，徒具虛名）",
+      "pre": "The subsidiary remained independent ",
+      "post": ", as every major decision still required headquarters' sign-off.",
+      "opts": ["in name only", "by name", "of the name", "under the name"],
       "ans": 0,
-      "zh": "這份提議的時程規劃「充其量」只能說是過於樂觀，而這項專案最終所耗費的時間，幾乎是原先預估的兩倍。",
-      "why": "<b>at best</b> 為固定慣用語，置於形容詞之後表「即便往最寬容的角度看，也只能算是…」，此處精準傳達「時程規劃頂多算樂觀，實際上嚴重失準」的語氣。at most（至多，通常修飾數量）不適合修飾形容詞 optimistic；at length（終於、詳細地）語意不符；at large（自由未受拘束地，或指整體而言，如 society at large）語意不符。"
+      "zh": "這家子公司「僅在名義上」保持獨立，實際上每項重大決策仍須經總部核准。",
+      "why": "<b>in name only</b> 為固定慣用語，意指「僅具名義，實質上並非如此」，精準對應此處「名為獨立、實則受總部掌控」的語境。by name（指名道姓地）語意不符；of the name 不構成標準慣用語；under the name（以某名義／別名運作，如 under the name Smith & Co.）語意不符。"
     }
   ],
   "p6": {
-    "id": "2026-08-26-p6",
-    "title": "MEMORANDUM: Updated Vendor Onboarding and Due Diligence Procedure",
+    "id": "2026-08-27-p6",
+    "title": "MEMORANDUM: Updated Guidelines for Requesting Extended Leave of Absence",
     "seg": [
       [
-        "To all procurement staff: Effective next quarter, any new vendor with an anticipated annual contract value exceeding $100,000 ",
+        "To all employees: Beginning next month, any request for a leave of absence exceeding four consecutive weeks ",
         { "b": 0 },
-        " a formal due diligence review, including a financial stability check and a review of the vendor's data security practices, before a contract may be signed."
+        " to Human Resources at least thirty days in advance, except in cases of medical emergency or other unforeseeable circumstances."
       ],
       [
         { "b": 1 },
-        ", vendors already under contract as of this policy's effective date are not required to complete a retroactive review, though they will be subject to the new standard upon contract renewal."
+        ", employees facing a genuine emergency should notify their manager and Human Resources as soon as reasonably possible, even if the standard thirty-day notice cannot be met."
       ],
       [
-        "Procurement staff should ",
+        "Managers should ",
         { "b": 2 },
-        " any vendor relationship that appears to fall near the $100,000 threshold to their manager for guidance on whether a full review is warranted."
+        " leave requests promptly and coordinate with Human Resources to ensure adequate coverage is arranged before the employee's leave begins."
       ],
       [
         { "b": 3 },
-        " A checklist outlining the required due diligence steps and supporting documentation is available on the procurement intranet page."
+        " A leave-request form and a summary of applicable leave policies are available on the Human Resources intranet page."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["will undergo", "undergoes", "has undergone", "is undergoing"],
+        "opts": ["must be submitted", "submits", "has submitted", "is submitting"],
         "ans": 0,
-        "zh": "致所有採購同仁：自下一季度起，任何預期年度合約金額超過十萬美元的新供應商，簽約前「均須」接受正式的盡職調查審查，包括財務穩定性檢核及供應商資安措施審查。",
-        "why": "句首明訂即將生效的未來時點「Effective next quarter」，須用未來式 <b>will undergo</b>。undergoes 為現在式，與尚未生效的未來規定不符；has undergone 為現在完成式，暗示已完成而非即將接受審查；is undergoing 為現在進行式，同樣不符合正式公告未來規定的語境。"
+        "zh": "致所有員工：自下個月起，任何超過連續四週的請假申請，「均須」至少提前三十天提交人力資源部門，醫療緊急狀況或其他不可預見的情況除外。",
+        "why": "請假申請是被提交的對象，此句表達強制性規定，須用被動情態動詞 <b>must be submitted</b>（必須被提交）。submits 為現在式主動動詞，不具強制規定的語氣；has submitted 為現在完成式，暗示已提交而非規定應提交；is submitting 為現在進行式，同樣不符合正式規定公告的語氣。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["As an exception", "As a result", "In particular", "By the same token"],
+        "opts": ["Naturally", "As a result", "In particular", "By the same token"],
         "ans": 0,
-        "zh": "「作為例外」，截至本政策生效日已簽約的供應商，無須補做回溯性審查，但續約時仍須適用新標準。",
-        "why": "前句規定新供應商須經正式審查，本句說明「作為例外」既有已簽約供應商豁免回溯審查，兩句構成例外對比關係，故選 <b>As an exception</b>（作為例外）。As a result（因此）表因果；In particular（尤其是）表在同類別中舉例強調；By the same token（同理）表類比延續，皆與此處的例外邏輯不符。"
+        "zh": "「自然地」，面臨真正緊急狀況的員工，即使無法符合標準的三十天預告期，仍應盡快知會主管與人力資源部門。",
+        "why": "前句已提及「醫療緊急狀況或不可預見情況」為例外，本句進一步說明此例外情況下的處理方式，屬合乎預期的延伸說明，故選 <b>Naturally</b>（自然地、理所當然地）。As a result（因此）表因果；In particular（尤其是）表舉例強調；By the same token（同理）表類比延續，皆不若 Naturally 精準傳達「順理成章的延伸說明」語氣。"
       },
       {
-        "tag": "詞彙語意（動詞辨析）",
+        "tag": "詞彙語意（近音字辨析）",
         "col1": true,
-        "opts": ["flag", "flog", "flaunt", "flout"],
+        "opts": ["route", "rout", "rote", "wrote"],
         "ans": 0,
-        "zh": "採購同仁應將任何金額接近十萬美元門檻的供應商關係「標記提報」給主管，以取得是否需要完整審查的指引。",
-        "why": "<b>flag</b>（標記、提請注意以供進一步審視）精準對應此處「將邊緣案例提報主管判斷」的語境。flog（鞭打，或口語指強力推銷）語意不符；flaunt（炫耀、招搖展示）語意不符；flout（公然藐視、違反規定）語意不符，四字拼寫相近，屬進階詞彙易混淆辨析。"
+        "zh": "主管應儘速「妥善處理」請假申請，並與人力資源部門協調，確保在員工休假開始前安排好適當的人力支援。",
+        "why": "<b>route</b>（作動詞，指將某事項導向適當管道處理、轉呈）精準對應此處「妥善處理並轉呈請假申請」的語境。rout（擊潰、徹底打敗）語意不符；rote（機械式死記，通常作名詞或形容詞，非動詞）語意不符；wrote 為動詞 write 的過去式，時態與語意皆不符，四字發音相近，屬進階詞彙易混淆辨析。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Vendors that fail the initial financial stability screening will be escalated to the Chief Procurement Officer for further review.",
-          "The company's annual vendor appreciation event will be held in October this year.",
-          "All procurement staff must complete the updated code-of-conduct training by year-end.",
-          "The procurement department's office has relocated to the third floor."
+          "Employees are encouraged to discuss extended leave plans with their manager as early as possible, even before a formal request is submitted.",
+          "The company's annual benefits enrollment period will open in November.",
+          "All employees must complete the updated harassment prevention training by year-end.",
+          "The office kitchen renovation is expected to be completed by the end of next month."
         ],
         "ans": 0,
-        "zh": "「未通過初步財務穩定性篩選的供應商，將呈報首席採購長進一步審查。」一份列出必要盡職調查步驟與佐證文件的檢查清單，可於採購部門內部網路頁面取得。",
-        "why": "段落主題為「供應商導入與盡職調查程序更新」，此句說明未通過篩選案件的升級處理機制，與後句「檢查清單可於內部網路取得」共同構成完整的操作指引收尾。其餘選項（供應商感謝活動、行為準則訓練、辦公室搬遷）皆與供應商盡職調查程序無關，插入後語意斷裂。"
+        "zh": "「鼓勵員工儘早與主管討論延長休假計畫，即使在正式提交申請之前也不例外。」請假申請表及適用假別政策摘要，皆可於人力資源部門內部網路頁面取得。",
+        "why": "段落主題為「延長休假申請流程更新」，此句鼓勵員工及早與主管溝通休假規劃，與後句「申請表可於內部網路取得」共同構成完整的操作指引收尾。其餘選項（年度福利註冊期、騷擾防治訓練、辦公室廚房整修）皆與延長休假申請流程無關，插入後語意斷裂。"
       }
     ]
   }
