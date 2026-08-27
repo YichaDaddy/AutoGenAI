@@ -1,5 +1,148 @@
 [
   {
+    "date": "2026-08-27",
+    "big_events": [
+      {
+        "title": "Nvidia傳已同意以近130億美元收購開源AI平台Hugging Face",
+        "sources": [
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-08-27/nvidia-discussed-buying-ai-startup-hugging-face-insider-says"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/08/27/nvidia-hugging-face-acquisition.html"
+          },
+          {
+            "name": "Forbes",
+            "url": "https://www.forbes.com/sites/siladityaray/2026/08/27/nvidia-has-reportedly-agreed-to-buy-ai-model-hosting-platform-hugging-face-for-13-billion/"
+          }
+        ],
+        "summary": "Nvidia傳已同意以近130億美元收購開源AI模型平台Hugging Face",
+        "audience": "使用開源AI模型的開發者、關注AI產業版圖變化的自媒體創作者",
+        "pain_point": "開源AI生態最重要的中立平台恐失去獨立性，擔心未來模型下載、資料授權會被Nvidia綁定或收費",
+        "title_idea": "Nvidia砸128億美元買下Hugging Face！開源AI界的『中立廣場』要變調了嗎？",
+        "local_angle": "華語圈開發者高度依賴Hugging Face下載模型與資料集，這則收購案尚未被廣泛翻譯報導，適合搶先分析對台灣AI新創、獨立開發者的實際影響（授權條款、定價、中立性疑慮）"
+      },
+      {
+        "title": "OpenAI、Anthropic、Google等逾百家企業聯署公開信，警告AI網路攻擊即將大爆發",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/"
+          },
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-08-27/openai-anthropic-urge-cyber-defense-action-as-ai-models-improve"
+          }
+        ],
+        "summary": "逾百家科技與金融巨頭聯署公開信，警告未來數月AI網攻將更猖獗",
+        "audience": "使用雲端服務/線上金流的中小企業主、獨立開發者、自媒體工作者",
+        "pain_point": "不清楚自己的網站、金流、雲端帳號未來是否會成為AI自動化攻擊的目標，也不知道該提前做什麼防範",
+        "title_idea": "連OpenAI、Anthropic都聯名示警：AI駭客攻擊要來了，你的網站和工具準備好了嗎？",
+        "local_angle": "台灣中小企業、獨立開發者常用的雲端主機、金流服務商多在聯署名單影響範圍內，這是尚未被中文媒體大幅報導的「資安紅利」選題"
+      },
+      {
+        "title": "ChatGPT在印度啟動廣告，免費與Go方案用戶將看到逾50個品牌贊助內容",
+        "sources": [
+          {
+            "name": "IANS",
+            "url": "https://ianslive.in/chatgpt-to-run-ads-in-india-for-users-of-free-go-tiers--20260827101903"
+          },
+          {
+            "name": "Free Press Journal",
+            "url": "https://www.freepressjournal.in/tech/openai-expands-chatgpt-ads-to-india-free-and-go-users-to-see-sponsored-content-from-50-brands"
+          }
+        ],
+        "summary": "OpenAI在第二大市場印度開放ChatGPT廣告，回覆下方將顯示標示清楚的贊助內容",
+        "audience": "靠內容/廣告變現的自媒體創作者、關注AI產品商業模式的行銷從業者",
+        "pain_point": "擔心台灣/華語圈用戶未來也會被投放廣告，想提前了解廣告版位規則與品牌合作模式，搶佔先機",
+        "title_idea": "ChatGPT開始賣廣告了！從印度案例看AI聊天機器人的『新廣告時代』怎麼玩",
+        "local_angle": "華語圈ChatGPT尚未上線廣告，這是搶先解析未來廣告模式、協助品牌與創作者超前部署合作策略的好題材"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "Hugging Face推出399美元開源機器鴨Microduck，可用強化學習教新把戲",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/"
+          },
+          {
+            "name": "Axios",
+            "url": "https://www.axios.com/2026/08/27/hugging-face-debuts-microduck-a-399-robot"
+          },
+          {
+            "name": "Engadget",
+            "url": "https://www.engadget.com/2245407/huggingface-and-pollen-robotics-opn-pre-orders-for-the-microduck-robot/"
+          }
+        ],
+        "summary": "399美元雙足開源機器鴨開放預購，支援強化學習訓練新動作",
+        "audience": "機器人/實體AI領域的自媒體創作者、教育科技與DIY玩家",
+        "pain_point": "一般人覺得人形機器人與機器人研究門檻太高、太貴，不知道已有平價入門選擇",
+        "title_idea": "399美元把AI機器人帶回家！Hugging Face開源機器鴨Microduck開箱搶先看",
+        "local_angle": "平價開源機器人在華語圈尚無中文開箱教學，適合搶先做「新手也能玩機器人強化學習」系列內容"
+      },
+      {
+        "title": "Google AI Mode新增機票追蹤、飯店訂房與點數哩程比價功能",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/"
+          },
+          {
+            "name": "9to5Google",
+            "url": "https://9to5google.com/2026/08/27/google-ai-mode-flights/"
+          },
+          {
+            "name": "Skift",
+            "url": "https://skift.com/2026/08/27/googles-agentic-hotel-booking-tool-comes-to-ai-mode/"
+          }
+        ],
+        "summary": "Google AI Mode可直接追蹤機票價格、代訂飯店，並換算點數哩程價值",
+        "audience": "旅遊部落客、常出差的自由工作者、內容創作者",
+        "pain_point": "訂機票飯店要跳轉多個網站比價，不知道AI搜尋工具已能一站式代辦並主動追蹤降價",
+        "title_idea": "訂機票飯店不用再開10個分頁！Google AI Mode一站搞定，還能幫你比點數哩程",
+        "local_angle": "目前先在美國及180多國開放但尚無中文教學，適合做「教你設定Google AI Mode幫你追蹤機票降價」實用教學搶流量"
+      }
+    ],
+    "trends": [
+      {
+        "title": "前Twitter法務長創辦「Twitter.now」，用AI信任分數系統VERA對抗假訊息",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/08/27/hold-up-theres-a-new-twitter-in-the-town/"
+          },
+          {
+            "name": "TechRadar",
+            "url": "https://www.techradar.com/computing/social-media/elon-musk-destroyed-twitter-now-operation-bluebird-has-revealed-a-shock-plan-to-bring-it-back-in-2026"
+          }
+        ],
+        "summary": "新創Operation Bluebird推出社群平台Twitter.now，以AI事實查核系統VERA為貼文評分可信度",
+        "audience": "關注社群媒體趨勢與內容可信度的自媒體創作者、獨立開發者",
+        "pain_point": "假訊息與演算法黑箱讓創作者不信任現有平台的觸及邏輯，想了解新興社群平台的早期卡位機會",
+        "title_idea": "馬斯克不要的Twitter名字被搶回來了！新平台用AI幫每則貼文打信任分數",
+        "local_angle": "平台目前僅數百名用戶、仍是早期測試階段，華語圈幾乎無人報導，適合做「新平台早期卡位」機會分析"
+      },
+      {
+        "title": "AI帶動記憶體晶片荒，Google緊縮Android App記憶體規範",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/08/27/ais-memory-crunch-is-coming-for-android-apps/"
+          }
+        ],
+        "summary": "AI資料中心排擠記憶體供應，Google對Android App祭出新記憶體門檻與2027年強制規範",
+        "audience": "獨立App開發者、想上架Android應用的一人公司創業者",
+        "pain_point": "不知道AI熱潮已悄悄影響手機硬體規格與App審核標準，擔心自家App未來因記憶體超標被下架或警示",
+        "title_idea": "AI熱潮讓手機記憶體變貴！Google對Android App祭出新規定，獨立開發者現在該做什麼",
+        "local_angle": "這是尚未被中文科技媒體注意到的「AI排擠效應」冷知識，適合做獨立開發者提前因應教學"
+      }
+    ]
+  },
+  {
     "date": "2026-08-26",
     "big_events": [
       {
@@ -484,104 +627,5 @@
       }
     ],
     "trends": []
-  },
-  {
-    "date": "2026-08-20",
-    "big_events": [
-      {
-        "title": "英國AI新創Callosum完成1億美元種子輪,由Atomico領投、英國主權AI基金加碼",
-        "sources": [
-          {
-            "name": "Bloomberg",
-            "url": "https://www.bloomberg.com/news/articles/2026-08-20/ai-startup-callosum-raises-100-million-to-make-ai-tasks-cheaper"
-          },
-          {
-            "name": "tech.eu",
-            "url": "https://tech.eu/2026/08/20/callosum-raises-100m-seed-round/"
-          },
-          {
-            "name": "Tech Times",
-            "url": "https://www.techtimes.com/articles/325093/20260820/callosum-lands-100m-seed-route-ai-tasks-across-any-chip-bypassing-nvidia-monoculture.htm"
-          }
-        ],
-        "summary": "Callosum募得1億美元種子輪,打造跨晶片動態路由AI工作負載的系統軟體平台。",
-        "audience": "關注AI基礎設施、雲端算力成本與晶片投資趨勢的科技創業者、獨立開發者",
-        "pain_point": "不了解「AI任務跨晶片路由」這門新顯學在解決什麼問題,也搞不清楚為何投資人願意砸重金在不做模型、只做路由層的新創上",
-        "title_idea": "1億美元種子輪創歐洲紀錄!這家新創不做AI模型,只做「AI界的高速公路」",
-        "local_angle": "華語圈AI基礎建設報導多聚焦晶片本身(Nvidia、Broadcom),鮮少討論「模型與晶片動態配對」這類系統軟體層新創,適合做「你不知道的AI成本降低關鍵」科普選題"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "Claude Code新增內建「Concise」精簡輸出模式,回應直接給結論不再長篇解釋",
-        "sources": [
-          {
-            "name": "ClaudeDevs (X)",
-            "url": "https://x.com/ClaudeDevs/status/2090245922685063634"
-          },
-          {
-            "name": "Claude Code Docs Changelog",
-            "url": "https://code.claude.com/docs/en/changelog"
-          }
-        ],
-        "summary": "Claude Code 2.1.237版新增Concise輸出風格,先給結果、省略推理過程,可一鍵開啟。",
-        "audience": "每天用Claude Code寫程式、跑自動化流程的獨立開發者、vibe coding創作者",
-        "pain_point": "Claude Code預設回覆常常長篇講解推理過程才給答案,拖慢盯著終端機工作的節奏,使用者常抱怨要滑過大段文字才看到重點",
-        "title_idea": "Claude Code終於「講重點」了!一個設定讓AI回覆秒懂不囉唆",
-        "local_angle": "華語Claude Code教學多聚焦模型能力與MCP串接,鮮少人講輸出風格這種體感差異設定,適合做「三秒切換」實測短影音搶先卡位"
-      },
-      {
-        "title": "ChatGPT Mac版新增iMessage整合,可讀取、搜尋並代發訊息",
-        "sources": [
-          {
-            "name": "9to5Mac",
-            "url": "https://9to5mac.com/2026/08/20/chatgpt-update-adds-apple-messages-integration-on-mac/"
-          },
-          {
-            "name": "Digital Trends",
-            "url": "https://www.digitaltrends.com/computing/chatgpt-apple-messages-integration-mac/"
-          }
-        ],
-        "summary": "ChatGPT桌面版新增原生Apple Messages外掛,可讀取iMessage並代為發送訊息、分析對話。",
-        "audience": "用ChatGPT處理日常通訊與客戶聯繫的自由工作者、Mac重度使用者、AI隱私議題創作者",
-        "pain_point": "想用AI幫忙整理、回覆大量訊息卻要一直切換App複製貼上,但同時擔心把私訊、財務資訊等敏感內容交給AI讀取的隱私風險",
-        "title_idea": "ChatGPT現在能讀你的iMessage了!方便背後藏著什麼隱私陷阱?",
-        "local_angle": "這是繼Google Drive整合後又一個「AI伸手進私人資料」的功能,華語圈尚無中文實測與風險提醒,適合做「開箱+隱私設定教學」雙效內容"
-      },
-      {
-        "title": "ChatGPT Sites新增「共同編輯者」功能,可邀請他人協作AI生成的網站",
-        "sources": [
-          {
-            "name": "OpenAI Help Center 發布說明",
-            "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
-          },
-          {
-            "name": "ChatGPT Learn - Sites文件",
-            "url": "https://learn.chatgpt.com/docs/sites"
-          }
-        ],
-        "summary": "ChatGPT Sites用戶現可邀請同工作區成員擔任共同編輯者,一起更新內容、發布網站版本。",
-        "audience": "用ChatGPT Sites快速做落地頁、小型網站的獨立開發者、小型團隊、接案工作者",
-        "pain_point": "之前用ChatGPT生成的網站只有擁有者能改,團隊想一起調整文案或版面卻做不到,得整份重新描述給AI重做",
-        "title_idea": "用聊天就能做網站的ChatGPT Sites,現在終於能「找人一起改」了",
-        "local_angle": "華語圈「ChatGPT做網站」教學多半停留在單人操作,協作功能剛上線,適合搶先示範「團隊如何分工用ChatGPT Sites接案」"
-      }
-    ],
-    "trends": [
-      {
-        "title": "TechCrunch公布2026年Startup Battlefield 200強新創名單,橫跨AI、氣候、健康等領域",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/08/20/the-2026-startup-battlefield-200-is-here-see-who-made-the-cut/"
-          }
-        ],
-        "summary": "TechCrunch從全球數千件申請中選出200家早期新創,10月將在Disrupt大會角逐10萬美元獎金。",
-        "audience": "想了解歐美早期新創趨勢、尋找選題靈感的科技創業自媒體、天使投資人、獨立開發者",
-        "pain_point": "不知道歐美早期投資人現在最看好哪些AI應用方向,選題和創業方向容易跟著舊趨勢走,錯過還在萌芽期的新賽道",
-        "title_idea": "從上千件申請殺出重圍!2026年最值得關注的200家新創,AI類都在做什麼",
-        "local_angle": "華語圈鮮少有人逐一挖掘這份名單裡的AI新創在做什麼,適合做成「200強新創挖寶」系列選題,搶先找到還沒被中文報導的公司做深度介紹"
-      }
-    ]
   }
 ]

@@ -1,117 +1,117 @@
 {
-  "date": "2026-08-27",
+  "date": "2026-08-28",
   "p5": [
     {
-      "id": "2026-08-27-p5-0",
-      "tag": "讓步限定詞（Whatever + 名詞）",
+      "id": "2026-08-28-p5-0",
+      "tag": "名詞子句（The fact that，作主詞）",
       "pre": "",
-      "post": " objections the minority shareholders raise, the merger is unlikely to be blocked at this late stage.",
-      "opts": ["Whatever", "Whichever", "No matter", "Whoever"],
+      "post": " the two directors abstained from the vote did not affect the resolution's overall validity.",
+      "opts": ["The fact that", "The fact which", "It is a fact that", "That fact"],
       "ans": 0,
-      "zh": "「無論」少數股東提出什麼樣的異議，這起併購案在如此後期的階段，都不太可能被阻擋。",
-      "why": "<b>Whatever</b> + 名詞為固定讓步限定詞，意指「無論什麼樣的…」，此處直接修飾 objections。Whichever 用於在已知、有限的選項中做選擇，與此處泛指「任何異議」的開放語意不符；No matter 須搭配 what 才能修飾名詞（No matter what objections...），單獨使用不完整；Whoever 指人，作為子句主詞，無法直接修飾名詞 objections。"
+      "zh": "「兩位董事棄權」這項事實，並未影響該決議案整體的有效性。",
+      "why": "<b>The fact that</b> 為固定同位語名詞子句結構，that 子句用以說明 fact 的具體內容，整體可作句子主詞。The fact which 不符文法，fact 後方接同位語子句須用 that 而非 which；It is a fact that 本身已是完整句子，無法直接嵌入作為另一句的主詞；That fact 須有前文先建立指涉對象，此處單獨使用缺乏明確指涉內容。"
     },
     {
-      "id": "2026-08-27-p5-1",
-      "tag": "外置句型（It is + 形容詞 + that + 假設語氣）",
-      "pre": "It is imperative ",
-      "post": " the disclosure statement be filed before the merger vote is scheduled.",
-      "opts": ["that", "which", "so that", "in that"],
+      "id": "2026-08-28-p5-1",
+      "tag": "使役經歷結構（get + 受詞 + 過去分詞）",
+      "pre": "The vendor got its certification ",
+      "post": " after failing three consecutive compliance audits.",
+      "opts": ["revoked", "revoke", "revoking", "to revoke"],
       "ans": 0,
-      "zh": "「務必」在併購表決排定之前，先提交這份揭露聲明。",
-      "why": "It is + 形容詞（如 imperative, essential, vital）+ <b>that</b> + 子句，為固定外置句型，且子句動詞須用假設語氣原形（be filed）。which 不符合此外置句型的連接詞用法；so that 表目的，語意與句構皆不符；in that（因為、就…而言）為另一固定片語，無法用於此處的外置句型。"
+      "zh": "這家供應商在連續三次未通過法遵稽核後，「遭到」認證「撤銷」。",
+      "why": "<b>get + 受詞 + 過去分詞</b> 為表「經歷某事發生於己身」的使役／經驗結構，常帶負面或非自願色彩，此處認證是被撤銷的對象，須用過去分詞 <b>revoked</b>。revoke 為原形動詞，不符此結構；revoking 為現在分詞，語態不符（認證不會主動撤銷）；to revoke 為不定詞，不符合 get + 受詞 + 過去分詞的固定句型。"
     },
     {
-      "id": "2026-08-27-p5-2",
-      "tag": "附和倒裝（so + 助動詞 + 主詞）",
-      "pre": "The CFO expressed confidence in the revised forecast, and so ",
-      "post": " the majority of the board members.",
-      "opts": ["did", "does", "were", "had"],
+      "id": "2026-08-28-p5-2",
+      "tag": "倒裝句（Only when + 子句 + 助動詞）",
+      "pre": "Only when the escrow conditions have been fully satisfied ",
+      "post": " the remaining funds be released to the seller.",
+      "opts": ["will", "would", "shall", "should"],
       "ans": 0,
-      "zh": "財務長對修訂後的預測表達了信心，董事會多數成員「也是如此」。",
-      "why": "<b>so + 助動詞 + 主詞</b> 為表「也是如此」的附和倒裝結構，此處須與主要子句的過去式動詞 expressed 呼應，用代動詞 <b>did</b>。does 為現在式，時態不符；were 須搭配 be 動詞語境，但此處原動詞為 expressed（一般動詞），不適用 were 代替；had 為過去完成式，暗示更早的時間點，與此處單純附和的語意不符。"
+      "zh": "「唯有」在履約保證條件完全滿足之後，剩餘款項「才會」撥付給賣方。",
+      "why": "Only when 引導的子句置於句首時，主要子句須倒裝，此處描述未來將發生的客觀事實，須用 <b>will</b>（will...be released）。would 表假設或過去視角的未來，語意不符此處單純的未來事實陳述；shall 語氣過於正式古舊，非此語境常用選項；should 表義務或建議（應該），與此處「條件滿足後必然發生」的語意不符。"
     },
     {
-      "id": "2026-08-27-p5-3",
-      "tag": "進階動詞語意辨別（abate，ab-字首形似詞）",
-      "pre": "Public criticism of the proposed merger showed no signs of ",
-      "post": " despite the company's repeated reassurances about job security.",
-      "opts": ["abating", "abetting", "abusing", "abstaining"],
+      "id": "2026-08-28-p5-3",
+      "tag": "進階動詞語意辨別（curtail，cur-字首形似詞）",
+      "pre": "Facing mounting losses, the board voted to ",
+      "post": " discretionary spending across all non-essential departments.",
+      "opts": ["curtail", "curtain", "curate", "curry"],
       "ans": 0,
-      "zh": "儘管公司一再保證工作將受到保障，社會大眾對這起併購案的批評，仍絲毫沒有「減弱」的跡象。",
-      "why": "<b>abate</b>（減弱、減緩，尤指強度或程度上的下降）精準對應此處「批評聲浪未見趨緩」的語境。abet（教唆、協助他人為非作歹，常見於 aid and abet）語意不符；abuse（濫用、虐待）語意不符；abstain（刻意棄權、克制，尤指投票或某項行為）語意不符，四字同為 ab- 字首形似詞，屬進階詞彙易混淆辨析。"
+      "zh": "面對持續擴大的虧損，董事會投票決定「削減」所有非必要部門的可自由裁量支出。",
+      "why": "<b>curtail</b>（削減、縮減，尤指支出或活動範圍）精準對應此處「削減可自由裁量支出」的語境。curtain（作動詞極罕用，指以簾幕遮蔽）語意不符；curate（策劃、精選展品內容）語意不符；curry（作動詞，多見於 curry favor「討好」或指烹製咖哩）語意不符，四字同為 cur- 字首形似詞，屬進階詞彙易混淆辨析。"
     },
     {
-      "id": "2026-08-27-p5-4",
-      "tag": "慣用語（in name only，徒具虛名）",
-      "pre": "The subsidiary remained independent ",
-      "post": ", as every major decision still required headquarters' sign-off.",
-      "opts": ["in name only", "by name", "of the name", "under the name"],
+      "id": "2026-08-28-p5-4",
+      "tag": "慣用語（next to impossible，幾乎不可能）",
+      "pre": "Reconstructing the original transaction records proved ",
+      "post": " after the server crash destroyed most backups.",
+      "opts": ["next to impossible", "next to impossibility", "close by impossible", "in the impossible"],
       "ans": 0,
-      "zh": "這家子公司「僅在名義上」保持獨立，實際上每項重大決策仍須經總部核准。",
-      "why": "<b>in name only</b> 為固定慣用語，意指「僅具名義，實質上並非如此」，精準對應此處「名為獨立、實則受總部掌控」的語境。by name（指名道姓地）語意不符；of the name 不構成標準慣用語；under the name（以某名義／別名運作，如 under the name Smith & Co.）語意不符。"
+      "zh": "伺服器故障摧毀了大部分備份資料後，重建原始交易紀錄「幾乎已是不可能的任務」。",
+      "why": "<b>next to impossible</b> 為固定慣用語，意指「幾乎不可能」，next to 在此作副詞性片語修飾形容詞 impossible。next to impossibility 誤用名詞 impossibility 取代形容詞位置，文法錯誤；close by impossible 不成慣用語，close by 通常指地理位置相近；in the impossible 文法及語意皆不通。"
     }
   ],
   "p6": {
-    "id": "2026-08-27-p6",
-    "title": "MEMORANDUM: Updated Guidelines for Requesting Extended Leave of Absence",
+    "id": "2026-08-28-p6",
+    "title": "MEMORANDUM: Updated Protocol for Handling Product Defect Reports",
     "seg": [
       [
-        "To all employees: Beginning next month, any request for a leave of absence exceeding four consecutive weeks ",
+        "To all customer service staff: Effective this Monday, any customer report describing a potential safety-related product defect ",
         { "b": 0 },
-        " to Human Resources at least thirty days in advance, except in cases of medical emergency or other unforeseeable circumstances."
+        " to the Quality Assurance team within two hours of receipt, rather than being logged for routine follow-up at the end of the shift."
       ],
       [
         { "b": 1 },
-        ", employees facing a genuine emergency should notify their manager and Human Resources as soon as reasonably possible, even if the standard thirty-day notice cannot be met."
+        ", reports involving cosmetic issues or minor functionality complaints should continue to follow the standard ticketing process, with no change to existing response-time targets."
       ],
       [
-        "Managers should ",
+        "Quality Assurance staff who receive an escalated report should ",
         { "b": 2 },
-        " leave requests promptly and coordinate with Human Resources to ensure adequate coverage is arranged before the employee's leave begins."
+        " the affected product batch or lot number immediately, to determine whether other units may be affected."
       ],
       [
         { "b": 3 },
-        " A leave-request form and a summary of applicable leave policies are available on the Human Resources intranet page."
+        " Any report that cannot be clearly categorized as safety-related or cosmetic should be escalated by default, pending Quality Assurance review."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["must be submitted", "submits", "has submitted", "is submitting"],
+        "opts": ["must be escalated", "escalates", "has escalated", "is escalating"],
         "ans": 0,
-        "zh": "致所有員工：自下個月起，任何超過連續四週的請假申請，「均須」至少提前三十天提交人力資源部門，醫療緊急狀況或其他不可預見的情況除外。",
-        "why": "請假申請是被提交的對象，此句表達強制性規定，須用被動情態動詞 <b>must be submitted</b>（必須被提交）。submits 為現在式主動動詞，不具強制規定的語氣；has submitted 為現在完成式，暗示已提交而非規定應提交；is submitting 為現在進行式，同樣不符合正式規定公告的語氣。"
+        "zh": "致所有客服同仁：自本週一起，任何描述潛在安全性產品瑕疵的客戶報告，「均須」在收到後兩小時內上報品質保證團隊，而非留待該班次結束時例行處理。",
+        "why": "報告是被上報的對象，此句表達即將生效的強制性規定，須用被動情態動詞 <b>must be escalated</b>（必須被上報）。escalates 為現在式主動動詞，不具強制規定的語氣；has escalated 為現在完成式，暗示已上報而非規定應上報；is escalating 為現在進行式，同樣不符合正式規定公告的語氣。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["Naturally", "As a result", "In particular", "By the same token"],
+        "opts": ["In contrast", "As a consequence", "In effect", "To this end"],
         "ans": 0,
-        "zh": "「自然地」，面臨真正緊急狀況的員工，即使無法符合標準的三十天預告期，仍應盡快知會主管與人力資源部門。",
-        "why": "前句已提及「醫療緊急狀況或不可預見情況」為例外，本句進一步說明此例外情況下的處理方式，屬合乎預期的延伸說明，故選 <b>Naturally</b>（自然地、理所當然地）。As a result（因此）表因果；In particular（尤其是）表舉例強調；By the same token（同理）表類比延續，皆不若 Naturally 精準傳達「順理成章的延伸說明」語氣。"
+        "zh": "「相對地」，涉及外觀瑕疵或輕微功能性問題的報告，應繼續依標準工單流程處理，既有的回應時效目標不受影響。",
+        "why": "前句規定安全性瑕疵須快速上報，本句說明「相對地」外觀或輕微問題仍維持原流程，兩句構成明確對比，故選 <b>In contrast</b>（相對地）。As a consequence（因此）表因果；In effect（實際上）表歸納重申；To this end（以此為目的）表承接目的，皆與此處的對比邏輯不符。"
       },
       {
-        "tag": "詞彙語意（近音字辨析）",
+        "tag": "詞彙語意（動詞辨析）",
         "col1": true,
-        "opts": ["route", "rout", "rote", "wrote"],
+        "opts": ["trace", "track", "trail", "trade"],
         "ans": 0,
-        "zh": "主管應儘速「妥善處理」請假申請，並與人力資源部門協調，確保在員工休假開始前安排好適當的人力支援。",
-        "why": "<b>route</b>（作動詞，指將某事項導向適當管道處理、轉呈）精準對應此處「妥善處理並轉呈請假申請」的語境。rout（擊潰、徹底打敗）語意不符；rote（機械式死記，通常作名詞或形容詞，非動詞）語意不符；wrote 為動詞 write 的過去式，時態與語意皆不符，四字發音相近，屬進階詞彙易混淆辨析。"
+        "zh": "接獲上報案件的品質保證同仁，應立即「回溯查核」受影響的產品批號，以判斷是否有其他批次的產品同樣受到影響。",
+        "why": "<b>trace</b>（回溯查證某事物的來源或範圍）精準對應此處「回溯批號以確認受影響範圍」的語境。track（持續追蹤某事物的動態或進度，語意偏向向前監控而非回溯查源）語意側重點不同；trail（尾隨、跟蹤，或指小徑）用法不符；trade（交易、交換）語意完全不符。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Employees are encouraged to discuss extended leave plans with their manager as early as possible, even before a formal request is submitted.",
-          "The company's annual benefits enrollment period will open in November.",
-          "All employees must complete the updated harassment prevention training by year-end.",
-          "The office kitchen renovation is expected to be completed by the end of next month."
+          "Customer service staff who are uncertain about a report's classification should consult their team lead before proceeding.",
+          "The company's customer satisfaction survey results will be published next quarter.",
+          "All customer service scripts have been updated to reflect the new holiday return policy.",
+          "The customer service department's staffing schedule has been adjusted for the upcoming holiday season."
         ],
         "ans": 0,
-        "zh": "「鼓勵員工儘早與主管討論延長休假計畫，即使在正式提交申請之前也不例外。」請假申請表及適用假別政策摘要，皆可於人力資源部門內部網路頁面取得。",
-        "why": "段落主題為「延長休假申請流程更新」，此句鼓勵員工及早與主管溝通休假規劃，與後句「申請表可於內部網路取得」共同構成完整的操作指引收尾。其餘選項（年度福利註冊期、騷擾防治訓練、辦公室廚房整修）皆與延長休假申請流程無關，插入後語意斷裂。"
+        "zh": "「若客服同仁對報告分類存有疑慮，應在處理前先諮詢團隊主管。」任何無法明確歸類為安全性或外觀問題的報告，應預設一律上報，待品質保證團隊審查。",
+        "why": "段落主題為「產品瑕疵報告處理程序更新」，此句提醒同仁若對分類有疑慮應先諮詢主管，與後句「無法明確歸類者一律上報」共同構成完整的操作指引收尾。其餘選項（顧客滿意度調查、假期退貨政策、假期排班調整）皆與產品瑕疵報告處理程序無關，插入後語意斷裂。"
       }
     ]
   }
