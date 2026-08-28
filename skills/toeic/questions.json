@@ -1,117 +1,117 @@
 {
-  "date": "2026-08-28",
+  "date": "2026-08-29",
   "p5": [
     {
-      "id": "2026-08-28-p5-0",
-      "tag": "名詞子句（The fact that，作主詞）",
+      "id": "2026-08-29-p5-0",
+      "tag": "倒裝句（So + 形容詞 + be動詞 + 主詞）",
       "pre": "",
-      "post": " the two directors abstained from the vote did not affect the resolution's overall validity.",
-      "opts": ["The fact that", "The fact which", "It is a fact that", "That fact"],
+      "post": " was the data breach that the company was forced to notify over two million affected customers.",
+      "opts": ["So severe", "So severely", "Such severe", "As severe"],
       "ans": 0,
-      "zh": "「兩位董事棄權」這項事實，並未影響該決議案整體的有效性。",
-      "why": "<b>The fact that</b> 為固定同位語名詞子句結構，that 子句用以說明 fact 的具體內容，整體可作句子主詞。The fact which 不符文法，fact 後方接同位語子句須用 that 而非 which；It is a fact that 本身已是完整句子，無法直接嵌入作為另一句的主詞；That fact 須有前文先建立指涉對象，此處單獨使用缺乏明確指涉內容。"
+      "zh": "這起資料外洩事件「如此嚴重」，「以至於」該公司被迫通知超過兩百萬名受影響的客戶。",
+      "why": "<b>So + 形容詞 + be動詞 + 主詞</b> 為強調程度的固定倒裝句型，此處形容詞 severe 修飾主詞補語，須用形容詞形式 <b>So severe</b>。So severely 為副詞形式，此倒裝句型須用形容詞而非副詞；Such severe 語序錯誤，such 修飾名詞時須為 such + a + 形容詞 + 名詞的結構；As severe 須搭配 as 構成同等比較，不具備此處強調倒裝的功能。"
     },
     {
-      "id": "2026-08-28-p5-1",
-      "tag": "使役經歷結構（get + 受詞 + 過去分詞）",
-      "pre": "The vendor got its certification ",
-      "post": " after failing three consecutive compliance audits.",
-      "opts": ["revoked", "revoke", "revoking", "to revoke"],
+      "id": "2026-08-29-p5-1",
+      "tag": "假設語氣倒裝（Were it not for）",
+      "pre": "",
+      "post": " the whistleblower's testimony, the fraud might never have come to light.",
+      "opts": ["Were it not for", "If it were not", "Had it not for", "Was it not for"],
       "ans": 0,
-      "zh": "這家供應商在連續三次未通過法遵稽核後，「遭到」認證「撤銷」。",
-      "why": "<b>get + 受詞 + 過去分詞</b> 為表「經歷某事發生於己身」的使役／經驗結構，常帶負面或非自願色彩，此處認證是被撤銷的對象，須用過去分詞 <b>revoked</b>。revoke 為原形動詞，不符此結構；revoking 為現在分詞，語態不符（認證不會主動撤銷）；to revoke 為不定詞，不符合 get + 受詞 + 過去分詞的固定句型。"
+      "zh": "「若不是」吹哨者的證詞，這起詐欺案可能永遠不會曝光。",
+      "why": "<b>Were it not for</b> 為固定假設語氣倒裝用語，意指「若不是有…」（= If it were not for），須完整保留 for 以接續名詞片語。If it were not 缺少 for，無法直接接名詞片語 the whistleblower's testimony；Had it not for 混淆了 Had it not been for（過去式）與 Were it not for（現在／泛時式）兩種句型，屬常見誤用；Was it not for 誤用直述語氣動詞 was，未使用假設語氣應有的 were。"
     },
     {
-      "id": "2026-08-28-p5-2",
-      "tag": "倒裝句（Only when + 子句 + 助動詞）",
-      "pre": "Only when the escrow conditions have been fully satisfied ",
-      "post": " the remaining funds be released to the seller.",
-      "opts": ["will", "would", "shall", "should"],
+      "id": "2026-08-29-p5-2",
+      "tag": "簡化關係子句（過去分詞，被動語態）",
+      "pre": "All documentation ",
+      "post": " under the new regulation must be submitted electronically.",
+      "opts": ["required", "requiring", "require", "having required"],
       "ans": 0,
-      "zh": "「唯有」在履約保證條件完全滿足之後，剩餘款項「才會」撥付給賣方。",
-      "why": "Only when 引導的子句置於句首時，主要子句須倒裝，此處描述未來將發生的客觀事實，須用 <b>will</b>（will...be released）。would 表假設或過去視角的未來，語意不符此處單純的未來事實陳述；shall 語氣過於正式古舊，非此語境常用選項；should 表義務或建議（應該），與此處「條件滿足後必然發生」的語意不符。"
+      "zh": "新法規「所要求」的所有文件，皆須以電子方式提交。",
+      "why": "此為關係子句 which is required 的簡化形式，先行詞 documentation 是被要求的對象，須用被動過去分詞 <b>required</b>。requiring 為主動現在分詞，語態不符（文件不會主動要求）；require 為原形動詞，無法單獨作為簡化關係子句的修飾語；having required 為主動完成式分詞，語態同樣不合。"
     },
     {
-      "id": "2026-08-28-p5-3",
-      "tag": "進階動詞語意辨別（curtail，cur-字首形似詞）",
-      "pre": "Facing mounting losses, the board voted to ",
-      "post": " discretionary spending across all non-essential departments.",
-      "opts": ["curtail", "curtain", "curate", "curry"],
+      "id": "2026-08-29-p5-3",
+      "tag": "進階動詞語意辨別（capitulate，cap-字首形似詞）",
+      "pre": "After weeks of resistance, management finally ",
+      "post": " to the union's demands rather than risk a prolonged strike.",
+      "opts": ["capitulated", "capitalized", "captivated", "capsized"],
       "ans": 0,
-      "zh": "面對持續擴大的虧損，董事會投票決定「削減」所有非必要部門的可自由裁量支出。",
-      "why": "<b>curtail</b>（削減、縮減，尤指支出或活動範圍）精準對應此處「削減可自由裁量支出」的語境。curtain（作動詞極罕用，指以簾幕遮蔽）語意不符；curate（策劃、精選展品內容）語意不符；curry（作動詞，多見於 curry favor「討好」或指烹製咖哩）語意不符，四字同為 cur- 字首形似詞，屬進階詞彙易混淆辨析。"
+      "zh": "經過數週的抗拒後，管理階層終於「屈服」於工會的要求，而非冒著長期罷工的風險。",
+      "why": "<b>capitulate to</b>（在抵抗一段時間後屈服、投降）精準對應此處「管理階層最終讓步」的語境。capitalize（利用機會，或籌措資金，capitalize on）語意不符；captivate（迷住、使著迷）語意不符；capsize（（船隻）翻覆）語意不符，四字同為 cap- 字首形似詞，屬進階詞彙易混淆辨析。"
     },
     {
-      "id": "2026-08-28-p5-4",
-      "tag": "慣用語（next to impossible，幾乎不可能）",
-      "pre": "Reconstructing the original transaction records proved ",
-      "post": " after the server crash destroyed most backups.",
-      "opts": ["next to impossible", "next to impossibility", "close by impossible", "in the impossible"],
+      "id": "2026-08-29-p5-4",
+      "tag": "慣用語（second to none，首屈一指）",
+      "pre": "In terms of raw processing speed, the new chip is ",
+      "post": " among current commercial offerings.",
+      "opts": ["second to none", "second from none", "second by none", "secondly none"],
       "ans": 0,
-      "zh": "伺服器故障摧毀了大部分備份資料後，重建原始交易紀錄「幾乎已是不可能的任務」。",
-      "why": "<b>next to impossible</b> 為固定慣用語，意指「幾乎不可能」，next to 在此作副詞性片語修飾形容詞 impossible。next to impossibility 誤用名詞 impossibility 取代形容詞位置，文法錯誤；close by impossible 不成慣用語，close by 通常指地理位置相近；in the impossible 文法及語意皆不通。"
+      "zh": "就原始處理速度而言，這款新晶片在目前市售產品中「首屈一指、無人能及」。",
+      "why": "<b>second to none</b> 為固定慣用語，意指「不亞於任何人／物，堪稱第一」。second from none、second by none 皆非標準慣用搭配；secondly none 語序及詞性皆不通，不成立。"
     }
   ],
   "p6": {
-    "id": "2026-08-28-p6",
-    "title": "MEMORANDUM: Updated Protocol for Handling Product Defect Reports",
+    "id": "2026-08-29-p6",
+    "title": "MEMORANDUM: Updated Guidelines for Remote Access to Confidential Client Files",
     "seg": [
       [
-        "To all customer service staff: Effective this Monday, any customer report describing a potential safety-related product defect ",
+        "To all client-facing staff: Beginning next month, remote access to confidential client files ",
         { "b": 0 },
-        " to the Quality Assurance team within two hours of receipt, rather than being logged for routine follow-up at the end of the shift."
+        " exclusively through the company-issued VPN and multi-factor authentication, rather than through personal devices or unsecured networks."
       ],
       [
         { "b": 1 },
-        ", reports involving cosmetic issues or minor functionality complaints should continue to follow the standard ticketing process, with no change to existing response-time targets."
+        ", employees traveling internationally for client meetings may request a temporary access exception, subject to additional security review by the IT department."
       ],
       [
-        "Quality Assurance staff who receive an escalated report should ",
+        "IT staff reviewing an exception request should ",
         { "b": 2 },
-        " the affected product batch or lot number immediately, to determine whether other units may be affected."
+        " the traveling employee's itinerary and destination country against the current list of high-risk jurisdictions before granting temporary access."
       ],
       [
         { "b": 3 },
-        " Any report that cannot be clearly categorized as safety-related or cosmetic should be escalated by default, pending Quality Assurance review."
+        " A summary of the current high-risk jurisdiction list and the exception request form are available on the IT Security intranet page."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["must be escalated", "escalates", "has escalated", "is escalating"],
+        "opts": ["will be granted", "grants", "has granted", "is granting"],
         "ans": 0,
-        "zh": "致所有客服同仁：自本週一起，任何描述潛在安全性產品瑕疵的客戶報告，「均須」在收到後兩小時內上報品質保證團隊，而非留待該班次結束時例行處理。",
-        "why": "報告是被上報的對象，此句表達即將生效的強制性規定，須用被動情態動詞 <b>must be escalated</b>（必須被上報）。escalates 為現在式主動動詞，不具強制規定的語氣；has escalated 為現在完成式，暗示已上報而非規定應上報；is escalating 為現在進行式，同樣不符合正式規定公告的語氣。"
+        "zh": "致所有客戶接觸同仁：自下個月起，對機密客戶檔案的遠端存取，「將」僅透過公司核發的VPN及多重要素驗證授予，而非透過個人裝置或不安全的網路。",
+        "why": "遠端存取權限是被授予的對象，句首明訂即將生效的未來時點「Beginning next month」，須用未來式被動 <b>will be granted</b>。grants 為現在式主動，與尚未生效的未來規定不符；has granted 為現在完成式，暗示已授予而非即將生效；is granting 為現在進行式主動，同樣不符合被動及未來時態的要求。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["In contrast", "As a consequence", "In effect", "To this end"],
+        "opts": ["In special cases", "As a result", "In particular", "For that matter"],
         "ans": 0,
-        "zh": "「相對地」，涉及外觀瑕疵或輕微功能性問題的報告，應繼續依標準工單流程處理，既有的回應時效目標不受影響。",
-        "why": "前句規定安全性瑕疵須快速上報，本句說明「相對地」外觀或輕微問題仍維持原流程，兩句構成明確對比，故選 <b>In contrast</b>（相對地）。As a consequence（因此）表因果；In effect（實際上）表歸納重申；To this end（以此為目的）表承接目的，皆與此處的對比邏輯不符。"
+        "zh": "「在特殊情況下」，因出差進行客戶會議而需出國的員工，得申請臨時存取例外，惟須經IT部門額外的安全審查。",
+        "why": "前句規定遠端存取須透過VPN及多重驗證，本句說明「特殊情況下」（如出國出差）可申請例外，兩句構成例外情境的延伸說明，故選 <b>In special cases</b>（在特殊情況下）。As a result（因此）表因果；In particular（尤其是）表在同類別中舉例強調；For that matter（就此而言，用於補充相關論點）皆與此處明確標示例外情境的邏輯不符。"
       },
       {
         "tag": "詞彙語意（動詞辨析）",
         "col1": true,
-        "opts": ["trace", "track", "trail", "trade"],
+        "opts": ["cross-reference", "cross-examine", "crosscheck", "cross-list"],
         "ans": 0,
-        "zh": "接獲上報案件的品質保證同仁，應立即「回溯查核」受影響的產品批號，以判斷是否有其他批次的產品同樣受到影響。",
-        "why": "<b>trace</b>（回溯查證某事物的來源或範圍）精準對應此處「回溯批號以確認受影響範圍」的語境。track（持續追蹤某事物的動態或進度，語意偏向向前監控而非回溯查源）語意側重點不同；trail（尾隨、跟蹤，或指小徑）用法不符；trade（交易、交換）語意完全不符。"
+        "zh": "審核例外申請的IT人員，在核准臨時存取權限前，應先將出差員工的行程與目的地國家「交叉比對」現行的高風險轄區清單。",
+        "why": "<b>cross-reference</b>（將某項資訊與另一份參考清單交叉比對以核實）精準對應此處「將行程與高風險清單逐一核對」的正式商務語境。cross-examine（在法庭上對證人進行嚴格詰問）語意及語域皆不符；crosscheck 語意相近但較偏向一般性的雙重確認，不若 cross-reference 精準對應「對照正式清單」的用法；cross-list（將某項目同時列於多個類別或清單中）語意不符。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Customer service staff who are uncertain about a report's classification should consult their team lead before proceeding.",
-          "The company's customer satisfaction survey results will be published next quarter.",
-          "All customer service scripts have been updated to reflect the new holiday return policy.",
-          "The customer service department's staffing schedule has been adjusted for the upcoming holiday season."
+          "Approved exceptions are valid only for the duration of the specific trip and must be renewed for any subsequent travel.",
+          "The company's annual IT security awareness week will be held in October.",
+          "All employees must update their emergency contact information by the end of the month.",
+          "The office's badge access system will undergo scheduled maintenance next weekend."
         ],
         "ans": 0,
-        "zh": "「若客服同仁對報告分類存有疑慮，應在處理前先諮詢團隊主管。」任何無法明確歸類為安全性或外觀問題的報告，應預設一律上報，待品質保證團隊審查。",
-        "why": "段落主題為「產品瑕疵報告處理程序更新」，此句提醒同仁若對分類有疑慮應先諮詢主管，與後句「無法明確歸類者一律上報」共同構成完整的操作指引收尾。其餘選項（顧客滿意度調查、假期退貨政策、假期排班調整）皆與產品瑕疵報告處理程序無關，插入後語意斷裂。"
+        "zh": "「核准的例外僅於該次出差期間內有效，後續出差須重新申請。」目前的高風險轄區清單摘要及例外申請表，皆可於IT資安部門內部網路頁面取得。",
+        "why": "段落主題為「機密客戶檔案遠端存取新規範」，此句說明核准例外的有效期限規則，與後句「清單及申請表可於內部網路取得」共同構成完整的操作指引收尾。其餘選項（年度資安宣導週、緊急聯絡資訊更新、門禁系統維護）皆與遠端存取規範無關，插入後語意斷裂。"
       }
     ]
   }
