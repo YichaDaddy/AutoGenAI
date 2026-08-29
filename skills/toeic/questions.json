@@ -1,117 +1,117 @@
 {
-  "date": "2026-08-29",
+  "date": "2026-08-30",
   "p5": [
     {
-      "id": "2026-08-29-p5-0",
-      "tag": "倒裝句（So + 形容詞 + be動詞 + 主詞）",
+      "id": "2026-08-30-p5-0",
+      "tag": "讓步連接詞（Whether...or，無論）",
       "pre": "",
-      "post": " was the data breach that the company was forced to notify over two million affected customers.",
-      "opts": ["So severe", "So severely", "Such severe", "As severe"],
+      "post": " the board approves the merger or rejects it outright, the CEO has vowed to pursue the acquisition through alternative structuring.",
+      "opts": ["Whether", "If", "Unless", "Whereas"],
       "ans": 0,
-      "zh": "這起資料外洩事件「如此嚴重」，「以至於」該公司被迫通知超過兩百萬名受影響的客戶。",
-      "why": "<b>So + 形容詞 + be動詞 + 主詞</b> 為強調程度的固定倒裝句型，此處形容詞 severe 修飾主詞補語，須用形容詞形式 <b>So severe</b>。So severely 為副詞形式，此倒裝句型須用形容詞而非副詞；Such severe 語序錯誤，such 修飾名詞時須為 such + a + 形容詞 + 名詞的結構；As severe 須搭配 as 構成同等比較，不具備此處強調倒裝的功能。"
+      "zh": "「無論」董事會核准這起併購案，還是直接否決，執行長皆已誓言透過其他架構安排繼續推動這樁收購。",
+      "why": "<b>Whether...or</b> 為固定讓步結構，表「無論是…還是…，結果皆然」，兩個選項之間並列。If 無法與 or 搭配構成此種「兩者皆然」的讓步語意；Unless（除非）表條件例外，邏輯與此處不符；Whereas（然而、鑑於）用於對比兩個不同主詞或事實，不適用於此處同一主詞的二選一讓步結構。"
     },
     {
-      "id": "2026-08-29-p5-1",
-      "tag": "假設語氣倒裝（Were it not for）",
-      "pre": "",
-      "post": " the whistleblower's testimony, the fraud might never have come to light.",
-      "opts": ["Were it not for", "If it were not", "Had it not for", "Was it not for"],
+      "id": "2026-08-30-p5-1",
+      "tag": "偏好結構（would rather...than）",
+      "pre": "The consultant would rather resign ",
+      "post": " sign off on financial statements she believed were misleading.",
+      "opts": ["than", "instead of", "rather than", "or else"],
       "ans": 0,
-      "zh": "「若不是」吹哨者的證詞，這起詐欺案可能永遠不會曝光。",
-      "why": "<b>Were it not for</b> 為固定假設語氣倒裝用語，意指「若不是有…」（= If it were not for），須完整保留 for 以接續名詞片語。If it were not 缺少 for，無法直接接名詞片語 the whistleblower's testimony；Had it not for 混淆了 Had it not been for（過去式）與 Were it not for（現在／泛時式）兩種句型，屬常見誤用；Was it not for 誤用直述語氣動詞 was，未使用假設語氣應有的 were。"
+      "zh": "這位顧問「寧可」辭職，「也不願」在她認為具有誤導性的財務報表上簽字背書。",
+      "why": "<b>would rather A than B</b> 為固定偏好比較結構，表「寧可A也不願B」，此處須用 <b>than</b>。instead of 須接動名詞形式（instead of signing），且不符合 would rather 的固定搭配；rather than 在此重複使用 rather 造成贅字，因句首已出現 would rather；or else（否則）表條件下的後果，與此處單純表達偏好的語意不符。"
     },
     {
-      "id": "2026-08-29-p5-2",
-      "tag": "簡化關係子句（過去分詞，被動語態）",
-      "pre": "All documentation ",
-      "post": " under the new regulation must be submitted electronically.",
-      "opts": ["required", "requiring", "require", "having required"],
+      "id": "2026-08-30-p5-2",
+      "tag": "進階動詞語意辨別（assuage，as-字首形似詞）",
+      "pre": "The spokesperson's carefully worded statement did little to ",
+      "post": " investor concerns about the company's mounting debt load.",
+      "opts": ["assuage", "assail", "assert", "assign"],
       "ans": 0,
-      "zh": "新法規「所要求」的所有文件，皆須以電子方式提交。",
-      "why": "此為關係子句 which is required 的簡化形式，先行詞 documentation 是被要求的對象，須用被動過去分詞 <b>required</b>。requiring 為主動現在分詞，語態不符（文件不會主動要求）；require 為原形動詞，無法單獨作為簡化關係子句的修飾語；having required 為主動完成式分詞，語態同樣不合。"
+      "zh": "發言人措辭謹慎的聲明，幾乎未能「緩解」投資人對公司債務不斷攀升的擔憂。",
+      "why": "<b>assuage</b>（緩解、平撫負面情緒，如憂慮、恐懼）精準對應此處「聲明未能緩解投資人擔憂」的語境。assail（猛烈攻擊，語意方向相反，指加劇而非緩解）語意不符；assert（堅稱、主張）語意不符；assign（分配、指派）語意不符，四字同為 as- 字首形似詞，屬進階詞彙易混淆辨析。"
     },
     {
-      "id": "2026-08-29-p5-3",
-      "tag": "進階動詞語意辨別（capitulate，cap-字首形似詞）",
-      "pre": "After weeks of resistance, management finally ",
-      "post": " to the union's demands rather than risk a prolonged strike.",
-      "opts": ["capitulated", "capitalized", "captivated", "capsized"],
+      "id": "2026-08-30-p5-3",
+      "tag": "否定倒裝（Hardly...had...when）",
+      "pre": "Hardly ",
+      "post": " the ink dried on the settlement agreement when the plaintiff's attorney announced plans to appeal.",
+      "opts": ["had", "did", "has", "was"],
       "ans": 0,
-      "zh": "經過數週的抗拒後，管理階層終於「屈服」於工會的要求，而非冒著長期罷工的風險。",
-      "why": "<b>capitulate to</b>（在抵抗一段時間後屈服、投降）精準對應此處「管理階層最終讓步」的語境。capitalize（利用機會，或籌措資金，capitalize on）語意不符；captivate（迷住、使著迷）語意不符；capsize（（船隻）翻覆）語意不符，四字同為 cap- 字首形似詞，屬進階詞彙易混淆辨析。"
+      "zh": "和解協議的墨水「才剛」乾，原告律師便立即宣布計畫提起上訴。",
+      "why": "<b>Hardly...when</b> 為表「才剛…就…」的固定倒裝句型，前段須用過去完成式倒裝，故用 <b>had</b>（had dried）。did 為過去式助動詞，較常見於 hardly/scarcely 搭配一般過去式的用法，但此固定句型的標準形式須用過去完成式；has 為現在完成式，時態層次與過去敘事不符；was 須搭配過去分詞構成被動語態，但此處 dried 為不及物動詞的主動用法，不符合 was 的搭配需求。"
     },
     {
-      "id": "2026-08-29-p5-4",
-      "tag": "慣用語（second to none，首屈一指）",
-      "pre": "In terms of raw processing speed, the new chip is ",
-      "post": " among current commercial offerings.",
-      "opts": ["second to none", "second from none", "second by none", "secondly none"],
+      "id": "2026-08-30-p5-4",
+      "tag": "慣用語（a far cry from，相去甚遠）",
+      "pre": "The final settlement amount was ",
+      "post": " the damages originally sought in the lawsuit.",
+      "opts": ["a far cry from", "far away from", "a far reach from", "far beyond from"],
       "ans": 0,
-      "zh": "就原始處理速度而言，這款新晶片在目前市售產品中「首屈一指、無人能及」。",
-      "why": "<b>second to none</b> 為固定慣用語，意指「不亞於任何人／物，堪稱第一」。second from none、second by none 皆非標準慣用搭配；secondly none 語序及詞性皆不通，不成立。"
+      "zh": "最終和解金額與訴訟中最初求償的損害賠償金額「相去甚遠」。",
+      "why": "<b>a far cry from</b> 為固定慣用語，意指「與…相去甚遠、截然不同」，精準對應此處金額落差懸殊的語境。far away from 為字面上的空間距離描述，不適用於此處抽象的金額比較；a far reach from 並非標準慣用語；far beyond from 文法錯誤，beyond 不與 from 搭配使用。"
     }
   ],
   "p6": {
-    "id": "2026-08-29-p6",
-    "title": "MEMORANDUM: Updated Guidelines for Remote Access to Confidential Client Files",
+    "id": "2026-08-30-p6",
+    "title": "MEMORANDUM: Updated Escalation Path for Vendor Payment Disputes",
     "seg": [
       [
-        "To all client-facing staff: Beginning next month, remote access to confidential client files ",
+        "To all accounts payable staff: Beginning next month, any vendor payment dispute exceeding $25,000 ",
         { "b": 0 },
-        " exclusively through the company-issued VPN and multi-factor authentication, rather than through personal devices or unsecured networks."
+        " to the Finance Director within five business days of the vendor's initial written complaint, rather than being resolved solely at the department level."
       ],
       [
         { "b": 1 },
-        ", employees traveling internationally for client meetings may request a temporary access exception, subject to additional security review by the IT department."
+        ", disputes below this threshold should continue to be handled directly between the accounts payable team and the vendor, with Finance Director involvement only upon request."
       ],
       [
-        "IT staff reviewing an exception request should ",
+        "Accounts payable staff should ",
         { "b": 2 },
-        " the traveling employee's itinerary and destination country against the current list of high-risk jurisdictions before granting temporary access."
+        " each disputed invoice for accuracy before forwarding it for escalation, to ensure the Finance Director receives a complete and verified record."
       ],
       [
         { "b": 3 },
-        " A summary of the current high-risk jurisdiction list and the exception request form are available on the IT Security intranet page."
+        " A dispute-escalation log template is available on the Finance intranet page to help staff track each case's status."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["will be granted", "grants", "has granted", "is granting"],
+        "opts": ["must be escalated", "escalates", "has escalated", "is escalating"],
         "ans": 0,
-        "zh": "致所有客戶接觸同仁：自下個月起，對機密客戶檔案的遠端存取，「將」僅透過公司核發的VPN及多重要素驗證授予，而非透過個人裝置或不安全的網路。",
-        "why": "遠端存取權限是被授予的對象，句首明訂即將生效的未來時點「Beginning next month」，須用未來式被動 <b>will be granted</b>。grants 為現在式主動，與尚未生效的未來規定不符；has granted 為現在完成式，暗示已授予而非即將生效；is granting 為現在進行式主動，同樣不符合被動及未來時態的要求。"
+        "zh": "致所有應付帳款同仁：自下個月起，任何超過兩萬五千美元的供應商付款爭議，「均須」在供應商首次書面申訴後五個工作天內上報財務長，而非僅在部門層級自行解決。",
+        "why": "爭議是被上報的對象，此句表達強制性規定，須用被動情態動詞 <b>must be escalated</b>（必須被上報）。escalates 為現在式主動動詞，不具強制規定的語氣；has escalated 為現在完成式，暗示已上報而非規定應上報；is escalating 為現在進行式，同樣不符合正式規定公告的語氣。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["In special cases", "As a result", "In particular", "For that matter"],
+        "opts": ["As a rule", "As a result", "In particular", "Above all"],
         "ans": 0,
-        "zh": "「在特殊情況下」，因出差進行客戶會議而需出國的員工，得申請臨時存取例外，惟須經IT部門額外的安全審查。",
-        "why": "前句規定遠端存取須透過VPN及多重驗證，本句說明「特殊情況下」（如出國出差）可申請例外，兩句構成例外情境的延伸說明，故選 <b>In special cases</b>（在特殊情況下）。As a result（因此）表因果；In particular（尤其是）表在同類別中舉例強調；For that matter（就此而言，用於補充相關論點）皆與此處明確標示例外情境的邏輯不符。"
+        "zh": "「一般而言」，低於此門檻的爭議，仍應由應付帳款團隊與供應商直接處理，僅在有需要時才知會財務長。",
+        "why": "前句規定超過門檻的爭議須上報，本句說明「一般而言」低於門檻者的標準處理方式，兩句構成例外與常規並列的關係，故選 <b>As a rule</b>（一般而言、按慣例）。As a result（因此）表因果；In particular（尤其是）表舉例強調；Above all（最重要的是）表優先順序，皆與此處說明常規做法的邏輯不符。"
       },
       {
         "tag": "詞彙語意（動詞辨析）",
         "col1": true,
-        "opts": ["cross-reference", "cross-examine", "crosscheck", "cross-list"],
+        "opts": ["verify", "vindicate", "validate", "vouch"],
         "ans": 0,
-        "zh": "審核例外申請的IT人員，在核准臨時存取權限前，應先將出差員工的行程與目的地國家「交叉比對」現行的高風險轄區清單。",
-        "why": "<b>cross-reference</b>（將某項資訊與另一份參考清單交叉比對以核實）精準對應此處「將行程與高風險清單逐一核對」的正式商務語境。cross-examine（在法庭上對證人進行嚴格詰問）語意及語域皆不符；crosscheck 語意相近但較偏向一般性的雙重確認，不若 cross-reference 精準對應「對照正式清單」的用法；cross-list（將某項目同時列於多個類別或清單中）語意不符。"
+        "zh": "應付帳款同仁在將爭議發票轉呈上報前，應先「核實」其正確性，以確保財務長收到的是完整且經查證的紀錄。",
+        "why": "<b>verify</b>（核實、確認具體事實的正確性）精準對應此處「查核發票內容是否正確」的語境。vindicate（洗刷冤屈、證明先前遭質疑之事屬實）語意不符；validate（確認某事物符合正式標準或程序，語意偏向正式認可而非逐項核實內容）語意側重點不同；vouch（作動詞須搭配 for，指依個人所知擔保某事，語域及搭配皆不符）不符此處單純核實內容的語境。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Approved exceptions are valid only for the duration of the specific trip and must be renewed for any subsequent travel.",
-          "The company's annual IT security awareness week will be held in October.",
-          "All employees must update their emergency contact information by the end of the month.",
-          "The office's badge access system will undergo scheduled maintenance next weekend."
+          "Staff who are uncertain whether a dispute meets the escalation threshold should consult their supervisor.",
+          "The company's annual vendor conference has been rescheduled to next spring.",
+          "All accounts payable staff must complete the updated expense-policy training by year-end.",
+          "The Finance department's office hours have been extended during the fiscal year-end close."
         ],
         "ans": 0,
-        "zh": "「核准的例外僅於該次出差期間內有效，後續出差須重新申請。」目前的高風險轄區清單摘要及例外申請表，皆可於IT資安部門內部網路頁面取得。",
-        "why": "段落主題為「機密客戶檔案遠端存取新規範」，此句說明核准例外的有效期限規則，與後句「清單及申請表可於內部網路取得」共同構成完整的操作指引收尾。其餘選項（年度資安宣導週、緊急聯絡資訊更新、門禁系統維護）皆與遠端存取規範無關，插入後語意斷裂。"
+        "zh": "「若同仁不確定某項爭議是否達到上報門檻，應洽詢主管。」一份爭議上報紀錄表範本，已提供於財務部門內部網路頁面，協助同仁追蹤每件案件的處理狀態。",
+        "why": "段落主題為「供應商付款爭議上報流程更新」，此句提醒同仁若對門檻認定有疑問應洽詢主管，與後句「紀錄表範本可於內部網路取得」共同構成完整的操作指引收尾。其餘選項（年度供應商大會、費用政策訓練、財務部門辦公時間調整）皆與供應商付款爭議上報流程無關，插入後語意斷裂。"
       }
     ]
   }
