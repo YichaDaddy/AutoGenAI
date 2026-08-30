@@ -1,5 +1,34 @@
 [
   {
+    "date": "2026-08-30",
+    "big_events": [],
+    "tool_updates": [
+      {
+        "title": "OpenAI正式關閉ChatGPT內建DALL·E GPT工具,今日起用戶須改用ChatGPT Images",
+        "sources": [
+          {
+            "name": "Tom's Guide",
+            "url": "https://www.tomsguide.com/ai/chatgpt/you-have-until-august-30-to-save-your-chatgpt-dall-e-images-heres-how-to-avoid-losing-them-forever"
+          },
+          {
+            "name": "Windows Report",
+            "url": "https://windowsreport.com/openai-will-retire-the-official-dalle-gpt-on-august-30/"
+          },
+          {
+            "name": "Notebookcheck",
+            "url": "https://www.notebookcheck.net/DALL-E-leaves-ChatGPT-on-August-30-download-your-images-first.1360522.0.html"
+          }
+        ],
+        "summary": "官方DALL·E GPT今日正式從ChatGPT下架,用戶需改用ChatGPT Images生成圖片",
+        "audience": "教學「ChatGPT畫圖」的自媒體創作者、依賴AI繪圖做內容/設計的創作者、AI工具新手",
+        "pain_point": "華語圈許多舊教學文章/影片截圖與步驟都還是DALL·E GPT介面,今天起入口完全消失,觀眾照著操作會找不到工具,創作者的舊內容會突然失效卻不自知,也不清楚新版ChatGPT Images差異在哪、該怎麼無痛轉移",
+        "title_idea": "老牌AI繪圖工具今天正式退場!ChatGPT畫圖教學全面失效,新版怎麼用一次搞懂",
+        "local_angle": "官方7月底就公告要退役,但很多用戶與創作者直到今天工具真的消失才驚覺,適合搶時效做「舊教學失效怎麼辦」勘誤更新文,同時卡位『DALL-E不見了』相關關鍵字搜尋流量,順便科普新版ChatGPT Images好用在哪裡"
+      }
+    ],
+    "trends": []
+  },
+  {
     "date": "2026-08-29",
     "big_events": [],
     "tool_updates": [],
@@ -623,26 +652,5 @@
         "local_angle": "華語圈AI代理教學多主打「怎麼用」,幾乎沒人談「為什麼企業不敢用」的信任與控制權問題,適合做「AI代理導入前該問的3個問題」實用選題,幫觀眾避開盲目跟風的坑"
       }
     ]
-  },
-  {
-    "date": "2026-08-23",
-    "big_events": [],
-    "tool_updates": [
-      {
-        "title": "Claude Code更新至2.1.241版,連續第三天聚焦錯誤修復與穩定性改善",
-        "sources": [
-          {
-            "name": "Claude Code官方Changelog",
-            "url": "https://code.claude.com/docs/en/changelog"
-          }
-        ],
-        "summary": "Claude Code推出2.1.241版,內容同樣以錯誤修復與穩定性改善為主,未新增大型功能",
-        "audience": "每天使用Claude Code開發、對版本更新敏感的工程師與AI創作者",
-        "pain_point": "版本更新太頻繁,不確定該不該馬上升級、又怕踩到新版還沒發現的bug,也搞不清楚連續幾天的小改版到底累積修了什麼",
-        "title_idea": "Claude Code三天內第三次更新!2.1.241版還是修bug,這波小版本到底在忙什麼",
-        "local_angle": "華語圈系統性整理Claude Code版本異動的頻道仍偏少,這種連續多日的小版本更新正好適合剪成「一週版本回顧」影片,持續累積訂閱這類速報內容的忠實觀眾"
-      }
-    ],
-    "trends": []
   }
 ]

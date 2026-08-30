@@ -1,117 +1,117 @@
 {
-  "date": "2026-08-30",
+  "date": "2026-08-31",
   "p5": [
     {
-      "id": "2026-08-30-p5-0",
-      "tag": "讓步連接詞（Whether...or，無論）",
+      "id": "2026-08-31-p5-0",
+      "tag": "讓步連接詞（No matter how，無論多麼）",
       "pre": "",
-      "post": " the board approves the merger or rejects it outright, the CEO has vowed to pursue the acquisition through alternative structuring.",
-      "opts": ["Whether", "If", "Unless", "Whereas"],
+      "post": " thoroughly the auditors examined the ledgers, they could not reconcile the discrepancy.",
+      "opts": ["No matter how", "However much", "No matter what", "However that"],
       "ans": 0,
-      "zh": "「無論」董事會核准這起併購案，還是直接否決，執行長皆已誓言透過其他架構安排繼續推動這樁收購。",
-      "why": "<b>Whether...or</b> 為固定讓步結構，表「無論是…還是…，結果皆然」，兩個選項之間並列。If 無法與 or 搭配構成此種「兩者皆然」的讓步語意；Unless（除非）表條件例外，邏輯與此處不符；Whereas（然而、鑑於）用於對比兩個不同主詞或事實，不適用於此處同一主詞的二選一讓步結構。"
+      "zh": "「無論」稽核人員檢查帳冊「多麼」徹底，他們都無法解釋這項差異。",
+      "why": "<b>No matter how</b> + 副詞／形容詞為固定讓步結構，此處修飾副詞 thoroughly。However much 通常修飾不可數名詞或表程度的量（如 however much effort），不直接修飾副詞 thoroughly；No matter what 修飾名詞而非副詞；However that 不成固定用法。"
     },
     {
-      "id": "2026-08-30-p5-1",
-      "tag": "偏好結構（would rather...than）",
-      "pre": "The consultant would rather resign ",
-      "post": " sign off on financial statements she believed were misleading.",
-      "opts": ["than", "instead of", "rather than", "or else"],
+      "id": "2026-08-31-p5-1",
+      "tag": "強調慣用語（far and away，無疑是）",
+      "pre": "The proposed merger was ",
+      "post": " the most contentious item on the board's agenda this year.",
+      "opts": ["far and away", "far and wide", "by and large", "far and near"],
       "ans": 0,
-      "zh": "這位顧問「寧可」辭職，「也不願」在她認為具有誤導性的財務報表上簽字背書。",
-      "why": "<b>would rather A than B</b> 為固定偏好比較結構，表「寧可A也不願B」，此處須用 <b>than</b>。instead of 須接動名詞形式（instead of signing），且不符合 would rather 的固定搭配；rather than 在此重複使用 rather 造成贅字，因句首已出現 would rather；or else（否則）表條件下的後果，與此處單純表達偏好的語意不符。"
+      "zh": "這起提議中的併購案，「無疑是」今年董事會議程中最具爭議的項目。",
+      "why": "<b>far and away</b> 為固定強調慣用語，常置於最高級之前，表「毫無疑問地、遠遠超過其他」。far and wide（到處、廣泛地）為空間範圍描述，語意不符；by and large（大體而言、整體來說）語意不符，通常用於概括性陳述而非強調最高級；far and near 並非標準慣用語。"
     },
     {
-      "id": "2026-08-30-p5-2",
-      "tag": "進階動詞語意辨別（assuage，as-字首形似詞）",
-      "pre": "The spokesperson's carefully worded statement did little to ",
-      "post": " investor concerns about the company's mounting debt load.",
-      "opts": ["assuage", "assail", "assert", "assign"],
+      "id": "2026-08-31-p5-2",
+      "tag": "因果連接詞（all the more so because）",
+      "pre": "The delay was frustrating, all the more so ",
+      "post": " the client had explicitly requested an accelerated timeline.",
+      "opts": ["because", "so that", "in order that", "as to"],
       "ans": 0,
-      "zh": "發言人措辭謹慎的聲明，幾乎未能「緩解」投資人對公司債務不斷攀升的擔憂。",
-      "why": "<b>assuage</b>（緩解、平撫負面情緒，如憂慮、恐懼）精準對應此處「聲明未能緩解投資人擔憂」的語境。assail（猛烈攻擊，語意方向相反，指加劇而非緩解）語意不符；assert（堅稱、主張）語意不符；assign（分配、指派）語意不符，四字同為 as- 字首形似詞，屬進階詞彙易混淆辨析。"
+      "zh": "這次延誤本已令人沮喪，「更何況」客戶還明確要求過加快時程。",
+      "why": "all the more so 之後接原因子句，說明「更加如此」的具體原因，須用 <b>because</b>。so that 與 in order that 皆表目的，語意及句構皆不符；as to（關於，或用於 as to whether 引導疑問）不符合此處說明原因的語境。"
     },
     {
-      "id": "2026-08-30-p5-3",
-      "tag": "否定倒裝（Hardly...had...when）",
-      "pre": "Hardly ",
-      "post": " the ink dried on the settlement agreement when the plaintiff's attorney announced plans to appeal.",
-      "opts": ["had", "did", "has", "was"],
+      "id": "2026-08-31-p5-3",
+      "tag": "進階動詞語意辨別（obviate，ob-字首形似詞）",
+      "pre": "Implementing automated reconciliation software would ",
+      "post": " the need for manual cross-checking of every transaction.",
+      "opts": ["obviate", "obligate", "obliterate", "oblige"],
       "ans": 0,
-      "zh": "和解協議的墨水「才剛」乾，原告律師便立即宣布計畫提起上訴。",
-      "why": "<b>Hardly...when</b> 為表「才剛…就…」的固定倒裝句型，前段須用過去完成式倒裝，故用 <b>had</b>（had dried）。did 為過去式助動詞，較常見於 hardly/scarcely 搭配一般過去式的用法，但此固定句型的標準形式須用過去完成式；has 為現在完成式，時態層次與過去敘事不符；was 須搭配過去分詞構成被動語態，但此處 dried 為不及物動詞的主動用法，不符合 was 的搭配需求。"
+      "zh": "導入自動化對帳軟體，將可「消除」逐筆人工交叉核對每筆交易的必要性。",
+      "why": "<b>obviate</b>（消除必要性、使某事變得不再需要）精準對應此處「自動化後不再需要人工核對」的語境。obligate（在法律或道德上使人負有義務）語意不符；obliterate（徹底摧毀，多用於物理性破壞）語域及語意過重不符；oblige（迫使某人做某事，或為某人做某事以示恩惠）語意不符，四字同為 ob- 字首形似詞，屬進階詞彙易混淆辨析。"
     },
     {
-      "id": "2026-08-30-p5-4",
-      "tag": "慣用語（a far cry from，相去甚遠）",
-      "pre": "The final settlement amount was ",
-      "post": " the damages originally sought in the lawsuit.",
-      "opts": ["a far cry from", "far away from", "a far reach from", "far beyond from"],
+      "id": "2026-08-31-p5-4",
+      "tag": "介系詞化分詞（Barring，除非、若無）",
+      "pre": "",
+      "post": " any last-minute objections, the revised bylaws will take effect at the start of next quarter.",
+      "opts": ["Barring", "Bar", "Barred", "To bar"],
       "ans": 0,
-      "zh": "最終和解金額與訴訟中最初求償的損害賠償金額「相去甚遠」。",
-      "why": "<b>a far cry from</b> 為固定慣用語，意指「與…相去甚遠、截然不同」，精準對應此處金額落差懸殊的語境。far away from 為字面上的空間距離描述，不適用於此處抽象的金額比較；a far reach from 並非標準慣用語；far beyond from 文法錯誤，beyond 不與 from 搭配使用。"
+      "zh": "「若無」任何最後一刻的異議，修訂後的章程將於下季度初正式生效。",
+      "why": "<b>Barring</b> 為現在分詞轉化為介系詞的固定用法，意指「除非有…、若無…」（= unless there are），此處直接接名詞片語 any last-minute objections。Bar 為原形動詞，不具備此介系詞化功能；Barred 為過去分詞，不符合此慣用的分詞介系詞用法；To bar 為不定詞，同樣不符合此固定句型。"
     }
   ],
   "p6": {
-    "id": "2026-08-30-p6",
-    "title": "MEMORANDUM: Updated Escalation Path for Vendor Payment Disputes",
+    "id": "2026-08-31-p6",
+    "title": "NOTICE: Interim Guidelines for Handling Investor Inquiries During the Quiet Period",
     "seg": [
       [
-        "To all accounts payable staff: Beginning next month, any vendor payment dispute exceeding $25,000 ",
+        "To all employees: Beginning the first day of next month and continuing through the earnings announcement, any inquiry from an investor, analyst, or member of the media regarding company performance ",
         { "b": 0 },
-        " to the Finance Director within five business days of the vendor's initial written complaint, rather than being resolved solely at the department level."
+        " to the Investor Relations department without exception, regardless of how routine the question may seem."
       ],
       [
         { "b": 1 },
-        ", disputes below this threshold should continue to be handled directly between the accounts payable team and the vendor, with Finance Director involvement only upon request."
+        ", questions unrelated to financial performance—such as general product inquiries from existing customers—may continue to be handled through normal customer service channels."
       ],
       [
-        "Accounts payable staff should ",
+        "Employees who receive an investor-related question should ",
         { "b": 2 },
-        " each disputed invoice for accuracy before forwarding it for escalation, to ensure the Finance Director receives a complete and verified record."
+        " politely to Investor Relations rather than attempting to answer, even if they believe they know the correct response."
       ],
       [
         { "b": 3 },
-        " A dispute-escalation log template is available on the Finance intranet page to help staff track each case's status."
+        " A one-page summary of what employees may and may not discuss during the quiet period is available on the Investor Relations intranet page."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["must be escalated", "escalates", "has escalated", "is escalating"],
+        "opts": ["must be directed", "directs", "has directed", "is directing"],
         "ans": 0,
-        "zh": "致所有應付帳款同仁：自下個月起，任何超過兩萬五千美元的供應商付款爭議，「均須」在供應商首次書面申訴後五個工作天內上報財務長，而非僅在部門層級自行解決。",
-        "why": "爭議是被上報的對象，此句表達強制性規定，須用被動情態動詞 <b>must be escalated</b>（必須被上報）。escalates 為現在式主動動詞，不具強制規定的語氣；has escalated 為現在完成式，暗示已上報而非規定應上報；is escalating 為現在進行式，同樣不符合正式規定公告的語氣。"
+        "zh": "致所有員工：自下個月一日起，直至財報公布為止，任何投資人、分析師或媒體人員對公司業績的詢問，「均須」轉交投資人關係部門，無一例外，無論該問題看似多麼例行公事。",
+        "why": "詢問是被轉交的對象，此句表達強制性規定，須用被動情態動詞 <b>must be directed</b>（必須被轉交）。directs 為現在式主動動詞，不具強制規定的語氣；has directed 為現在完成式，暗示已轉交而非規定應轉交；is directing 為現在進行式，同樣不符合正式規定公告的語氣。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["As a rule", "As a result", "In particular", "Above all"],
+        "opts": ["Still", "For instance", "As a rule", "By definition"],
         "ans": 0,
-        "zh": "「一般而言」，低於此門檻的爭議，仍應由應付帳款團隊與供應商直接處理，僅在有需要時才知會財務長。",
-        "why": "前句規定超過門檻的爭議須上報，本句說明「一般而言」低於門檻者的標準處理方式，兩句構成例外與常規並列的關係，故選 <b>As a rule</b>（一般而言、按慣例）。As a result（因此）表因果；In particular（尤其是）表舉例強調；Above all（最重要的是）表優先順序，皆與此處說明常規做法的邏輯不符。"
+        "zh": "「儘管如此」，與財務業績無關的問題——例如既有客戶的一般產品詢問——仍可透過正常的客服管道處理。",
+        "why": "前句規定業績相關詢問須一律轉交投資人關係部門，本句說明「儘管如此」仍有例外情況，兩句構成讓步對比關係，故選 <b>Still</b>（儘管如此、然而）。For instance（例如）表舉例；As a rule（一般而言）用於陳述常規而非對比例外；By definition（依定義而言）語意不符，皆與此處的讓步對比邏輯不符。"
       },
       {
         "tag": "詞彙語意（動詞辨析）",
         "col1": true,
-        "opts": ["verify", "vindicate", "validate", "vouch"],
+        "opts": ["redirect", "redress", "redouble", "reduce"],
         "ans": 0,
-        "zh": "應付帳款同仁在將爭議發票轉呈上報前，應先「核實」其正確性，以確保財務長收到的是完整且經查證的紀錄。",
-        "why": "<b>verify</b>（核實、確認具體事實的正確性）精準對應此處「查核發票內容是否正確」的語境。vindicate（洗刷冤屈、證明先前遭質疑之事屬實）語意不符；validate（確認某事物符合正式標準或程序，語意偏向正式認可而非逐項核實內容）語意側重點不同；vouch（作動詞須搭配 for，指依個人所知擔保某事，語域及搭配皆不符）不符此處單純核實內容的語境。"
+        "zh": "接獲投資人相關問題的員工，即使自認知道正確答案，仍應禮貌地將問題「轉介」給投資人關係部門，而非自行嘗試回答。",
+        "why": "<b>redirect...to</b>（將某事項轉送至另一單位處理）精準對應此處「將問題轉交投資人關係部門」的語境。redress（糾正、彌補過錯或委屈）語意不符；redouble（大幅加強，如 redouble efforts）語意不符；reduce（縮減、減少）語意不符，四字同為 re- 字首形似詞，屬進階詞彙易混淆辨析。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Staff who are uncertain whether a dispute meets the escalation threshold should consult their supervisor.",
-          "The company's annual vendor conference has been rescheduled to next spring.",
-          "All accounts payable staff must complete the updated expense-policy training by year-end.",
-          "The Finance department's office hours have been extended during the fiscal year-end close."
+          "Employees who are uncertain whether a question falls under quiet-period restrictions should consult Investor Relations directly.",
+          "The company's annual shareholder meeting will be held virtually this year.",
+          "All employees must complete the updated insider-trading policy training by year-end.",
+          "The Investor Relations department's phone extension has changed as of this month."
         ],
         "ans": 0,
-        "zh": "「若同仁不確定某項爭議是否達到上報門檻，應洽詢主管。」一份爭議上報紀錄表範本，已提供於財務部門內部網路頁面，協助同仁追蹤每件案件的處理狀態。",
-        "why": "段落主題為「供應商付款爭議上報流程更新」，此句提醒同仁若對門檻認定有疑問應洽詢主管，與後句「紀錄表範本可於內部網路取得」共同構成完整的操作指引收尾。其餘選項（年度供應商大會、費用政策訓練、財務部門辦公時間調整）皆與供應商付款爭議上報流程無關，插入後語意斷裂。"
+        "zh": "「若員工不確定某項問題是否屬於緘默期限制範圍，應直接洽詢投資人關係部門。」一份說明員工在緘默期間可談論及不可談論事項的單頁摘要，可於投資人關係部門內部網路頁面取得。",
+        "why": "段落主題為「緘默期間投資人詢問處理暫行指引」，此句提醒同仁若對範圍認定有疑問應直接洽詢投資人關係部門，與後句「摘要可於內部網路取得」共同構成完整的操作指引收尾。其餘選項（年度股東會、內線交易政策訓練、部門電話分機變更）皆與緘默期間投資人詢問處理無關，插入後語意斷裂。"
       }
     ]
   }

@@ -1,19 +1,29 @@
 {
-  "date": "2026-08-29",
+  "date": "2026-08-30",
   "big_events": [],
-  "tool_updates": [],
-  "trends": [
+  "tool_updates": [
     {
-      "title": "獨立開發者Pieter Levels打造《Infinite Slop》，AI生成影片速度已快過真人觀看",
+      "title": "OpenAI正式關閉ChatGPT內建DALL·E GPT工具,今日起用戶須改用ChatGPT Images",
       "sources": [
-        {"name": "Pieter Levels（@levelsio, X）", "url": "https://x.com/levelsio/status/2093754163343593802"},
-        {"name": "Infinite Slop（實際網站）", "url": "https://skunkworks.levels.io/infinite-slop/"}
+        {
+          "name": "Tom's Guide",
+          "url": "https://www.tomsguide.com/ai/chatgpt/you-have-until-august-30-to-save-your-chatgpt-dall-e-images-heres-how-to-avoid-losing-them-forever"
+        },
+        {
+          "name": "Windows Report",
+          "url": "https://windowsreport.com/openai-will-retire-the-official-dalle-gpt-on-august-30/"
+        },
+        {
+          "name": "Notebookcheck",
+          "url": "https://www.notebookcheck.net/DALL-E-leaves-ChatGPT-on-August-30-download-your-images-first.1360522.0.html"
+        }
       ],
-      "summary": "獨立開發者打造無限AI直播，觀眾打字決定劇情，生成速度快過觀看",
-      "audience": "獨立開發者、AI影片創作者、想做「效率demo」型內容的科技自媒體",
-      "pain_point": "想證明「AI生成速度已超越即時觀看」這件事有多驚人，卻找不到能直接體驗、可轉發的具體案例",
-      "title_idea": "工程師一人打造「永不結束的AI電視台」：你打字，AI幫你演下去",
-      "local_angle": "海外indie hacker才剛驗證的「無限即時生成AI直播」玩法，華語圈目前還沒人做類似的中文互動直播實驗，適合搶先做開箱／實測影片，順便科普背後的AI影片生成技術演進"
+      "summary": "官方DALL·E GPT今日正式從ChatGPT下架,用戶需改用ChatGPT Images生成圖片",
+      "audience": "教學「ChatGPT畫圖」的自媒體創作者、依賴AI繪圖做內容/設計的創作者、AI工具新手",
+      "pain_point": "華語圈許多舊教學文章/影片截圖與步驟都還是DALL·E GPT介面,今天起入口完全消失,觀眾照著操作會找不到工具,創作者的舊內容會突然失效卻不自知,也不清楚新版ChatGPT Images差異在哪、該怎麼無痛轉移",
+      "title_idea": "老牌AI繪圖工具今天正式退場!ChatGPT畫圖教學全面失效,新版怎麼用一次搞懂",
+      "local_angle": "官方7月底就公告要退役,但很多用戶與創作者直到今天工具真的消失才驚覺,適合搶時效做「舊教學失效怎麼辦」勘誤更新文,同時卡位『DALL-E不見了』相關關鍵字搜尋流量,順便科普新版ChatGPT Images好用在哪裡"
     }
-  ]
+  ],
+  "trends": []
 }
