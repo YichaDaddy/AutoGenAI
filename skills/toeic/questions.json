@@ -1,117 +1,117 @@
 {
-  "date": "2026-08-31",
+  "date": "2026-09-01",
   "p5": [
     {
-      "id": "2026-08-31-p5-0",
-      "tag": "讓步連接詞（No matter how，無論多麼）",
-      "pre": "",
-      "post": " thoroughly the auditors examined the ledgers, they could not reconcile the discrepancy.",
-      "opts": ["No matter how", "However much", "No matter what", "However that"],
+      "id": "2026-09-01-p5-0",
+      "tag": "強調慣用語（none other than，不是別人正是）",
+      "pre": "The keynote speaker turned out to be ",
+      "post": " the company's own founder, appearing incognito.",
+      "opts": ["none other than", "no other than", "none the less than", "no less as"],
       "ans": 0,
-      "zh": "「無論」稽核人員檢查帳冊「多麼」徹底，他們都無法解釋這項差異。",
-      "why": "<b>No matter how</b> + 副詞／形容詞為固定讓步結構，此處修飾副詞 thoroughly。However much 通常修飾不可數名詞或表程度的量（如 however much effort），不直接修飾副詞 thoroughly；No matter what 修飾名詞而非副詞；However that 不成固定用法。"
+      "zh": "這場主題演講的講者，結果「不是別人，正是」公司創辦人本人，以匿名身分現身。",
+      "why": "<b>none other than</b> 為固定強調慣用語，用於揭曉意外或令人驚訝的身分，意指「不是別人，正是…」。no other than 為常見誤用，正確搭配須用 none 而非 no；none the less than 混淆了 none the less（儘管如此）與此強調慣用語，屬常見誤植；no less as 文法不通，不成立。"
     },
     {
-      "id": "2026-08-31-p5-1",
-      "tag": "強調慣用語（far and away，無疑是）",
-      "pre": "The proposed merger was ",
-      "post": " the most contentious item on the board's agenda this year.",
-      "opts": ["far and away", "far and wide", "by and large", "far and near"],
+      "id": "2026-09-01-p5-1",
+      "tag": "程度慣用語（none too，不甚、不太）",
+      "pre": "The negotiations were proceeding ",
+      "post": " smoothly, prompting both sides to bring in outside mediators.",
+      "opts": ["none too", "not none", "no too", "not so much"],
       "ans": 0,
-      "zh": "這起提議中的併購案，「無疑是」今年董事會議程中最具爭議的項目。",
-      "why": "<b>far and away</b> 為固定強調慣用語，常置於最高級之前，表「毫無疑問地、遠遠超過其他」。far and wide（到處、廣泛地）為空間範圍描述，語意不符；by and large（大體而言、整體來說）語意不符，通常用於概括性陳述而非強調最高級；far and near 並非標準慣用語。"
+      "zh": "這場談判進行得「不甚」順利，促使雙方都找來了外部調解人介入。",
+      "why": "<b>none too</b> 為固定慣用語，置於形容詞或副詞之前，帶委婉語氣表「不太、並不怎麼」，此處修飾副詞 smoothly。not none 為雙重否定，語意混亂不通；no too 不成立；not so much 須搭配 as 構成完整比較結構（not so much...as...），單獨使用於此處不符文法。"
     },
     {
-      "id": "2026-08-31-p5-2",
-      "tag": "因果連接詞（all the more so because）",
-      "pre": "The delay was frustrating, all the more so ",
-      "post": " the client had explicitly requested an accelerated timeline.",
-      "opts": ["because", "so that", "in order that", "as to"],
+      "id": "2026-09-01-p5-2",
+      "tag": "後位分詞慣用語（concerned，相關的）",
+      "pre": "All employees ",
+      "post": " should submit their updated conflict-of-interest disclosures by the end of the month.",
+      "opts": ["concerned", "concerning", "to concern", "concern"],
       "ans": 0,
-      "zh": "這次延誤本已令人沮喪，「更何況」客戶還明確要求過加快時程。",
-      "why": "all the more so 之後接原因子句，說明「更加如此」的具體原因，須用 <b>because</b>。so that 與 in order that 皆表目的，語意及句構皆不符；as to（關於，或用於 as to whether 引導疑問）不符合此處說明原因的語境。"
+      "zh": "所有「相關」員工，應於月底前提交更新後的利益衝突揭露聲明。",
+      "why": "<b>concerned</b> 置於名詞之後作後位修飾語時，為固定慣用表達，意指「相關的、有關聯的」（= who are concerned），此為過去分詞的形容詞化用法。concerning 作現在分詞時通常意指「令人擔憂的」，語意不符；作介系詞時意指「關於」，不能直接置於名詞後方構成後位修飾語；to concern 與 concern 皆非此固定慣用語的正確形式。"
     },
     {
-      "id": "2026-08-31-p5-3",
-      "tag": "進階動詞語意辨別（obviate，ob-字首形似詞）",
-      "pre": "Implementing automated reconciliation software would ",
-      "post": " the need for manual cross-checking of every transaction.",
-      "opts": ["obviate", "obligate", "obliterate", "oblige"],
+      "id": "2026-09-01-p5-3",
+      "tag": "進階動詞語意辨別（extol，ext-字首形似詞）",
+      "pre": "The CEO's memo repeatedly ",
+      "post": " the virtues of the proposed merger without acknowledging any of the associated risks.",
+      "opts": ["extolled", "extorted", "extended", "extracted"],
       "ans": 0,
-      "zh": "導入自動化對帳軟體，將可「消除」逐筆人工交叉核對每筆交易的必要性。",
-      "why": "<b>obviate</b>（消除必要性、使某事變得不再需要）精準對應此處「自動化後不再需要人工核對」的語境。obligate（在法律或道德上使人負有義務）語意不符；obliterate（徹底摧毀，多用於物理性破壞）語域及語意過重不符；oblige（迫使某人做某事，或為某人做某事以示恩惠）語意不符，四字同為 ob- 字首形似詞，屬進階詞彙易混淆辨析。"
+      "zh": "執行長的備忘錄一再「大力讚揚」這起提議併購案的優點，卻絲毫未提及相關的風險。",
+      "why": "<b>extol</b>（大力讚揚、頌揚，常搭配 the virtues of）精準對應此處「反覆讚揚併購優點」的語境。extort（勒索、以脅迫手段取得）語意不符；extend（延伸、提供）語意不符；extract（萃取、抽取）語意不符，四字同為 ext- 字首形似詞，屬進階詞彙易混淆辨析。"
     },
     {
-      "id": "2026-08-31-p5-4",
-      "tag": "介系詞化分詞（Barring，除非、若無）",
-      "pre": "",
-      "post": " any last-minute objections, the revised bylaws will take effect at the start of next quarter.",
-      "opts": ["Barring", "Bar", "Barred", "To bar"],
+      "id": "2026-09-01-p5-4",
+      "tag": "相關比較結構（the less...the more）",
+      "pre": "The less transparent the company was about its finances, ",
+      "post": " skeptical investors became.",
+      "opts": ["the more", "the most", "so much more", "much more"],
       "ans": 0,
-      "zh": "「若無」任何最後一刻的異議，修訂後的章程將於下季度初正式生效。",
-      "why": "<b>Barring</b> 為現在分詞轉化為介系詞的固定用法，意指「除非有…、若無…」（= unless there are），此處直接接名詞片語 any last-minute objections。Bar 為原形動詞，不具備此介系詞化功能；Barred 為過去分詞，不符合此慣用的分詞介系詞用法；To bar 為不定詞，同樣不符合此固定句型。"
+      "zh": "這家公司在財務上「越不」透明，投資人就「越發」抱持懷疑態度。",
+      "why": "<b>The + 比較級...the + 比較級</b> 為固定相關比較結構，表「越…就越…」，此處第二子句須用 <b>the more</b> 與前句 The less 呼應。the most 為最高級，不符合此相關比較結構的句型；so much more 與 much more 皆不符合 the + 比較級起始的固定句型要求。"
     }
   ],
   "p6": {
-    "id": "2026-08-31-p6",
-    "title": "NOTICE: Interim Guidelines for Handling Investor Inquiries During the Quiet Period",
+    "id": "2026-09-01-p6",
+    "title": "MEMORANDUM: Updated Protocol for Approving Employee Sabbaticals",
     "seg": [
       [
-        "To all employees: Beginning the first day of next month and continuing through the earnings announcement, any inquiry from an investor, analyst, or member of the media regarding company performance ",
+        "To all department heads: Beginning next quarter, any request for a sabbatical leave exceeding eight weeks ",
         { "b": 0 },
-        " to the Investor Relations department without exception, regardless of how routine the question may seem."
+        " joint approval from both the requesting employee's direct manager and Human Resources before a start date is confirmed."
       ],
       [
         { "b": 1 },
-        ", questions unrelated to financial performance—such as general product inquiries from existing customers—may continue to be handled through normal customer service channels."
+        ", sabbaticals of eight weeks or fewer may be approved by the direct manager alone, provided adequate coverage arrangements are documented in advance."
       ],
       [
-        "Employees who receive an investor-related question should ",
+        "Department heads should ",
         { "b": 2 },
-        " politely to Investor Relations rather than attempting to answer, even if they believe they know the correct response."
+        " sabbatical requests well in advance of the proposed start date to allow sufficient time for workload redistribution among remaining team members."
       ],
       [
         { "b": 3 },
-        " A one-page summary of what employees may and may not discuss during the quiet period is available on the Investor Relations intranet page."
+        " A sabbatical request form and a summary of eligibility requirements are available on the Human Resources intranet page."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["must be directed", "directs", "has directed", "is directing"],
+        "opts": ["will require", "requires", "has required", "is requiring"],
         "ans": 0,
-        "zh": "致所有員工：自下個月一日起，直至財報公布為止，任何投資人、分析師或媒體人員對公司業績的詢問，「均須」轉交投資人關係部門，無一例外，無論該問題看似多麼例行公事。",
-        "why": "詢問是被轉交的對象，此句表達強制性規定，須用被動情態動詞 <b>must be directed</b>（必須被轉交）。directs 為現在式主動動詞，不具強制規定的語氣；has directed 為現在完成式，暗示已轉交而非規定應轉交；is directing 為現在進行式，同樣不符合正式規定公告的語氣。"
+        "zh": "致所有部門主管：自下一季度起，任何超過八週的留職停薪申請，「均須」在確認開始日期前，取得申請員工的直屬主管與人力資源部門的共同核准。",
+        "why": "句首明訂即將生效的未來時點「Beginning next quarter」，須用未來式 <b>will require</b>。requires 為現在式，與尚未生效的未來規定不符；has required 為現在完成式，暗示已實施而非即將生效；is requiring 為現在進行式，同樣不符合正式公告未來規定的語境。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["Still", "For instance", "As a rule", "By definition"],
+        "opts": ["By comparison", "As a consequence", "In particular", "To that end"],
         "ans": 0,
-        "zh": "「儘管如此」，與財務業績無關的問題——例如既有客戶的一般產品詢問——仍可透過正常的客服管道處理。",
-        "why": "前句規定業績相關詢問須一律轉交投資人關係部門，本句說明「儘管如此」仍有例外情況，兩句構成讓步對比關係，故選 <b>Still</b>（儘管如此、然而）。For instance（例如）表舉例；As a rule（一般而言）用於陳述常規而非對比例外；By definition（依定義而言）語意不符，皆與此處的讓步對比邏輯不符。"
+        "zh": "「相比之下」，八週以內的留職停薪，只需直屬主管單獨核准即可，惟須事先記錄妥善的職務代理安排。",
+        "why": "前句規定超過八週者須雙重核准，本句說明「相比之下」較短天數者僅需主管單獨核准，兩句構成明確對比，故選 <b>By comparison</b>（相比之下）。As a consequence（因此）表因果；In particular（尤其是）表舉例強調；To that end（以此為目的）表承接目的，皆與此處的對比邏輯不符。"
       },
       {
         "tag": "詞彙語意（動詞辨析）",
         "col1": true,
-        "opts": ["redirect", "redress", "redouble", "reduce"],
+        "opts": ["anticipate", "antedate", "antagonize", "anthologize"],
         "ans": 0,
-        "zh": "接獲投資人相關問題的員工，即使自認知道正確答案，仍應禮貌地將問題「轉介」給投資人關係部門，而非自行嘗試回答。",
-        "why": "<b>redirect...to</b>（將某事項轉送至另一單位處理）精準對應此處「將問題轉交投資人關係部門」的語境。redress（糾正、彌補過錯或委屈）語意不符；redouble（大幅加強，如 redouble efforts）語意不符；reduce（縮減、減少）語意不符，四字同為 re- 字首形似詞，屬進階詞彙易混淆辨析。"
+        "zh": "部門主管應提早「預先規劃」留職停薪申請，於預定開始日期前留出充分時間，以便在留任團隊成員間重新分配工作量。",
+        "why": "<b>anticipate</b>（預先設想、提早規劃因應）精準對應此處「提早規劃以留出重新分配工作量的時間」的語境。antedate（時間上早於，或將文件日期填為較早日期）語意不符；antagonize（激怒、招致敵意）語意不符；anthologize（收錄於選集之中）語意完全不符，四字同為 ant- 字首形似詞，屬進階詞彙易混淆辨析。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Employees who are uncertain whether a question falls under quiet-period restrictions should consult Investor Relations directly.",
-          "The company's annual shareholder meeting will be held virtually this year.",
-          "All employees must complete the updated insider-trading policy training by year-end.",
-          "The Investor Relations department's phone extension has changed as of this month."
+          "Employees are encouraged to discuss sabbatical plans informally with their manager before submitting a formal request.",
+          "The company's annual wellness fair will be held in October this year.",
+          "All employees must complete the updated code-of-conduct training by year-end.",
+          "The Human Resources department's office hours have been adjusted for the holiday season."
         ],
         "ans": 0,
-        "zh": "「若員工不確定某項問題是否屬於緘默期限制範圍，應直接洽詢投資人關係部門。」一份說明員工在緘默期間可談論及不可談論事項的單頁摘要，可於投資人關係部門內部網路頁面取得。",
-        "why": "段落主題為「緘默期間投資人詢問處理暫行指引」，此句提醒同仁若對範圍認定有疑問應直接洽詢投資人關係部門，與後句「摘要可於內部網路取得」共同構成完整的操作指引收尾。其餘選項（年度股東會、內線交易政策訓練、部門電話分機變更）皆與緘默期間投資人詢問處理無關，插入後語意斷裂。"
+        "zh": "「鼓勵員工在提交正式申請前，先與主管非正式討論留職停薪計畫。」留職停薪申請表及資格條件摘要，皆可於人力資源部門內部網路頁面取得。",
+        "why": "段落主題為「員工留職停薪核准流程更新」，此句鼓勵員工提早與主管非正式溝通，與後句「申請表可於內部網路取得」共同構成完整的操作指引收尾。其餘選項（年度健康博覽會、行為準則訓練、假期辦公時間調整）皆與留職停薪核准流程無關，插入後語意斷裂。"
       }
     ]
   }
