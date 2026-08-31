@@ -1,29 +1,113 @@
 {
-  "date": "2026-08-30",
-  "big_events": [],
-  "tool_updates": [
+  "date": "2026-08-31",
+  "big_events": [
     {
-      "title": "OpenAI正式關閉ChatGPT內建DALL·E GPT工具,今日起用戶須改用ChatGPT Images",
+      "title": "Google傳與迪士尼、環球等好萊塢片廠洽談AI角色授權，因版權與工會疑慮暫時觸礁",
       "sources": [
         {
-          "name": "Tom's Guide",
-          "url": "https://www.tomsguide.com/ai/chatgpt/you-have-until-august-30-to-save-your-chatgpt-dall-e-images-heres-how-to-avoid-losing-them-forever"
+          "name": "Los Angeles Times（轉載於Yahoo Finance）",
+          "url": "https://finance.yahoo.com/technology/ai/articles/hollywood-studios-sued-over-ai-100000457.html"
         },
         {
-          "name": "Windows Report",
-          "url": "https://windowsreport.com/openai-will-retire-the-official-dalle-gpt-on-august-30/"
-        },
-        {
-          "name": "Notebookcheck",
-          "url": "https://www.notebookcheck.net/DALL-E-leaves-ChatGPT-on-August-30-download-your-images-first.1360522.0.html"
+          "name": "Techmeme彙整",
+          "url": "https://www.techmeme.com/260831/p8"
         }
       ],
-      "summary": "官方DALL·E GPT今日正式從ChatGPT下架,用戶需改用ChatGPT Images生成圖片",
-      "audience": "教學「ChatGPT畫圖」的自媒體創作者、依賴AI繪圖做內容/設計的創作者、AI工具新手",
-      "pain_point": "華語圈許多舊教學文章/影片截圖與步驟都還是DALL·E GPT介面,今天起入口完全消失,觀眾照著操作會找不到工具,創作者的舊內容會突然失效卻不自知,也不清楚新版ChatGPT Images差異在哪、該怎麼無痛轉移",
-      "title_idea": "老牌AI繪圖工具今天正式退場!ChatGPT畫圖教學全面失效,新版怎麼用一次搞懂",
-      "local_angle": "官方7月底就公告要退役,但很多用戶與創作者直到今天工具真的消失才驚覺,適合搶時效做「舊教學失效怎麼辦」勘誤更新文,同時卡位『DALL-E不見了』相關關鍵字搜尋流量,順便科普新版ChatGPT Images好用在哪裡"
+      "summary": "Google洽談授權迪士尼、環球等片廠角色訓練AI工具，因法律與工會疑慮暫時談不攏",
+      "audience": "使用AI生成影片/角色創作的自媒體創作者、關注好萊塢與AI版權議題的科技評論者、經營IP周邊或同人創作的內容工作者",
+      "pain_point": "想用AI生成知名角色做內容卻不確定版權界線在哪，也不清楚未來Google等平台是否會推出「合法授權版」角色生成工具，擔心現在做的內容明天就變成侵權",
+      "title_idea": "Google想跟迪士尼買「授權皮卡丘」？好萊塢角色進軍AI背後的授權戰",
+      "local_angle": "華語圈AI影片創作者常用知名角色做二創吸引流量，卻鮮少討論授權灰色地帶，這則報導點出Google也想走「合法授權」這條路，適合做「AI角色授權時代要來了，二創創作者該注意什麼」選題，搶在中文圈普及此類授權模式前先做知識儲備"
+    },
+    {
+      "title": "Anthropic示警：資訊竊取惡意軟體正劫持Claude登入工作階段盜刷額度，官方緊急登出用戶並退款",
+      "sources": [
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/"
+        },
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/08/31/claude-accounts-compromised-through-infostealer/"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/anthropic-warns-claude-users-of-infostealer-malware-infections/"
+        }
+      ],
+      "summary": "竊資軟體透過已登入的瀏覽器session劫持Claude帳號盜用額度，官方緊急登出並退款",
+      "audience": "每天用Claude／Claude Code工作的獨立開發者、依賴AI訂閱做內容產出的自媒體創作者、對資安議題有興趣的科技創作者",
+      "pain_point": "很多人不知道自己電腦中毒後，連AI訂閱帳號的登入工作階段（session）都可能被駭客直接接管繞過雙重驗證，額度被盜用時完全不會發現，直到帳號被強制登出才驚覺出事",
+      "title_idea": "你的Claude帳號可能正在被盜用！竊資軟體正瞄準AI訂閱的登入階段",
+      "local_angle": "這是繼先前Claude多次服務中斷事故後最新一起資安警訊，華語圈教學多聚焦「怎麼用AI」，鮮少提醒「AI帳號也會被駭」，適合做「AI訂閱帳號防駭懶人包」實用教學，順便科普infostealer攻擊如何繞過2FA"
     }
   ],
-  "trends": []
+  "tool_updates": [
+    {
+      "title": "開源AI代理平台OpenClaw推出史上最大改版2.0，933位貢獻者一口氣送出逾1.6萬個PR",
+      "sources": [
+        {
+          "name": "OpenClaw官方部落格",
+          "url": "https://openclaw.ai/blog/openclaw-2-accidentally"
+        },
+        {
+          "name": "TechSpot",
+          "url": "https://www.techspot.com/news/113686-openclaw-20-lands-easier-setup-rebuilt-browser-app.html"
+        }
+      ],
+      "summary": "開源AI代理OpenClaw 2.0大改安裝流程與瀏覽器介面，新增多人協作共享工作階段",
+      "audience": "用OpenClaw等開源AI代理工具做自動化的獨立開發者、想架設個人AI助理的技術型創作者、關注開源AI生態的自媒體",
+      "pain_point": "開源AI代理工具安裝門檻高、設定複雜是最大痛點，很多人卡在第一步就放棄，也想知道社群共建的開源專案到底能做到多完整的體驗",
+      "title_idea": "933人聯手打造！開源AI代理OpenClaw 2.0史上最大改版，安裝終於變簡單了",
+      "local_angle": "華語圈對OpenClaw這類開源AI代理工具的中文教學仍相對少見，這次2.0版大幅降低上手門檻並重做瀏覽器介面，適合搶先做「開源AI代理入門教學」卡位這波開源自動化工具的資訊差"
+    },
+    {
+      "title": "Instagram對「未標示AI生成」的虛擬人物帳號祭出限流令，逼創作者誠實標註",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles/"
+        }
+      ],
+      "summary": "Instagram將「AI創作者」標籤改為「AI生成檔案」，未標示者失去Reels與探索推薦資格",
+      "audience": "經營AI虛擬人物／AI網紅帳號的創作者、用AI生成人像做行銷素材的自媒體、對社群演算法規則敏感的內容創作者",
+      "pain_point": "很多創作者用AI生成的虛擬人物經營帳號卻不敢公開標註，擔心貼標籤後流量被演算法打入冷宮，卻又不確定不標註會不會被平台直接限流甚至下架",
+      "title_idea": "你的AI網紅帳號要被限流了！Instagram新規怎麼標籤才不會被雪藏",
+      "local_angle": "華語圈IG虛擬網紅、AI人設帳號愈來愈多，但多數創作者對這次規則變動細節（哪些狀況免標、哪些會被限流）還不清楚，適合搶先做規則懶人包，協助本地創作者提前調整標籤策略避免觸雷"
+    },
+    {
+      "title": "YC背景AI會議記錄工具Circleback推出免費方案，無限次數轉錄搶攻中小團隊市場",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/31/meeting-notetaker-circleback-adds-a-free-tier-to-attract-more-customers/"
+        }
+      ],
+      "summary": "Circleback首推免費方案，可無限次轉錄會議，30天內查閱歷史紀錄",
+      "audience": "需要開會做逐字稿與待辦追蹤的自由工作者、遠距團隊的小主管、想用AI工具省下行政時間的獨立顧問",
+      "pain_point": "市面上AI會議記錄工具多半要月費才能用，免費版功能通常閹割很多，不確定有沒有「真正堪用」的免費選項可以先試用再決定要不要付費",
+      "title_idea": "開會逐字稿不用再手key了！這款YC新創AI筆記工具免費版無限次可用",
+      "local_angle": "華語圈討論AI會議記錄工具多集中在Otter、Notion AI等大廠產品，Circleback這類新創的免費方案還沒被中文媒體介紹，適合做「免費AI會議助理實測」搶先評測卡位流量"
+    }
+  ],
+  "trends": [
+    {
+      "title": "馬斯克坦言Grok在AI競賽中落後三大對手，SpaceX鉅額AI投資拖累股價",
+      "sources": [
+        {
+          "name": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/31/musk-loses-the-ai-race/"
+        },
+        {
+          "name": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/ai/articles/musk-loses-ai-race-143800298.html"
+        }
+      ],
+      "summary": "Grok採用率落後ChatGPT、Claude、Gemini，SpaceX鉅額AI投資使股價自8月中停滯",
+      "audience": "關注AI產業競爭格局、比較各家AI工具優劣的科技評論自媒體、考慮該押注哪個AI生態圈開發應用的獨立開發者",
+      "pain_point": "想知道除了ChatGPT、Claude、Gemini之外，Grok到底還值不值得投入時間學習或整合進工作流，卻缺乏第一手數據佐證來判斷各家AI競爭態勢，容易人云亦云",
+      "title_idea": "連馬斯克都認了：Grok在AI大戰中掉隊，SpaceX砸重本卻換來股價停滯",
+      "local_angle": "華語圈討論Grok多聚焦馬斯克個人話題或爭議發言，鮮少有人整理「Grok在採用率、App排名上到底輸給對手多少」的具體數據對比，適合做「四大AI助理採用率排名」科普選題，幫觀眾釐清該把心力放在哪個AI生態圈"
+    }
+  ]
 }
