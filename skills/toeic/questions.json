@@ -1,117 +1,117 @@
 {
-  "date": "2026-09-01",
+  "date": "2026-09-02",
   "p5": [
     {
-      "id": "2026-09-01-p5-0",
-      "tag": "強調慣用語（none other than，不是別人正是）",
-      "pre": "The keynote speaker turned out to be ",
-      "post": " the company's own founder, appearing incognito.",
-      "opts": ["none other than", "no other than", "none the less than", "no less as"],
+      "id": "2026-09-02-p5-0",
+      "tag": "簡化子句（As + 過去分詞，正式法律用語）",
+      "pre": "",
+      "post": " amended, the contract now permits early termination under specific hardship circumstances.",
+      "opts": ["As", "Since", "Because", "For"],
       "ans": 0,
-      "zh": "這場主題演講的講者，結果「不是別人，正是」公司創辦人本人，以匿名身分現身。",
-      "why": "<b>none other than</b> 為固定強調慣用語，用於揭曉意外或令人驚訝的身分，意指「不是別人，正是…」。no other than 為常見誤用，正確搭配須用 none 而非 no；none the less than 混淆了 none the less（儘管如此）與此強調慣用語，屬常見誤植；no less as 文法不通，不成立。"
+      "zh": "「經修訂後」，這份合約目前已允許在特定困境情況下提前終止。",
+      "why": "<b>As + 過去分詞</b> 為正式法律文件中常見的固定簡化句型（= As it has been amended），意指「依修訂後的版本」。Since 與 Because 皆須接「主詞＋動詞」的完整子句（如 Since it was amended），無法直接接過去分詞；For 不具備此簡化子句的連接功能。"
     },
     {
-      "id": "2026-09-01-p5-1",
-      "tag": "程度慣用語（none too，不甚、不太）",
-      "pre": "The negotiations were proceeding ",
-      "post": " smoothly, prompting both sides to bring in outside mediators.",
-      "opts": ["none too", "not none", "no too", "not so much"],
+      "id": "2026-09-02-p5-1",
+      "tag": "否定倒裝（Not since...has，現在完成式）",
+      "pre": "Not since the 2008 financial crisis ",
+      "post": " the banking sector faced such intense regulatory scrutiny.",
+      "opts": ["has", "did", "was", "had"],
       "ans": 0,
-      "zh": "這場談判進行得「不甚」順利，促使雙方都找來了外部調解人介入。",
-      "why": "<b>none too</b> 為固定慣用語，置於形容詞或副詞之前，帶委婉語氣表「不太、並不怎麼」，此處修飾副詞 smoothly。not none 為雙重否定，語意混亂不通；no too 不成立；not so much 須搭配 as 構成完整比較結構（not so much...as...），單獨使用於此處不符文法。"
+      "zh": "自2008年金融危機以來，銀行業「從未」面臨如此嚴峻的監管審查。",
+      "why": "Not since + 時間點置於句首時，主要子句須倒裝，且此處強調「自該時間點至今」的持續狀態，須用現在完成式 <b>has</b>（has faced）。did 為簡單過去式，較適合單純描述過去某次動作而非持續至今的狀態；was 不符合主動動詞 faced 的搭配需求；had 為過去完成式，暗示與更早的過去時間點比較，不符合此處「延續至今」的語意。"
     },
     {
-      "id": "2026-09-01-p5-2",
-      "tag": "後位分詞慣用語（concerned，相關的）",
-      "pre": "All employees ",
-      "post": " should submit their updated conflict-of-interest disclosures by the end of the month.",
-      "opts": ["concerned", "concerning", "to concern", "concern"],
+      "id": "2026-09-02-p5-2",
+      "tag": "進階動詞語意辨別（underscore，under-字首形似詞）",
+      "pre": "The CEO's remarks at the shareholder meeting served to ",
+      "post": " the company's continued commitment to sustainability initiatives.",
+      "opts": ["underscore", "underwrite", "undermine", "understate"],
       "ans": 0,
-      "zh": "所有「相關」員工，應於月底前提交更新後的利益衝突揭露聲明。",
-      "why": "<b>concerned</b> 置於名詞之後作後位修飾語時，為固定慣用表達，意指「相關的、有關聯的」（= who are concerned），此為過去分詞的形容詞化用法。concerning 作現在分詞時通常意指「令人擔憂的」，語意不符；作介系詞時意指「關於」，不能直接置於名詞後方構成後位修飾語；to concern 與 concern 皆非此固定慣用語的正確形式。"
+      "zh": "執行長在股東會上的發言，旨在「強調」公司對永續發展倡議的持續承諾。",
+      "why": "<b>underscore</b>（強調、凸顯）精準對應此處「發言用以強調公司承諾」的語境。underwrite（財務上擔保、承銷，或保險業承擔風險）語意不符；undermine（削弱、暗中破壞，語意方向相反）不符；understate（輕描淡寫、低估其嚴重性，與強調的語意相反）不符，四字同為 under- 字首形似詞，屬進階詞彙易混淆辨析。"
     },
     {
-      "id": "2026-09-01-p5-3",
-      "tag": "進階動詞語意辨別（extol，ext-字首形似詞）",
-      "pre": "The CEO's memo repeatedly ",
-      "post": " the virtues of the proposed merger without acknowledging any of the associated risks.",
-      "opts": ["extolled", "extorted", "extended", "extracted"],
+      "id": "2026-09-02-p5-3",
+      "tag": "慣用語（leave much to be desired，令人不甚滿意）",
+      "pre": "The vendor's initial proposal left ",
+      "post": " to be desired, prompting the procurement team to request a complete revision.",
+      "opts": ["much", "many", "much of", "many of"],
       "ans": 0,
-      "zh": "執行長的備忘錄一再「大力讚揚」這起提議併購案的優點，卻絲毫未提及相關的風險。",
-      "why": "<b>extol</b>（大力讚揚、頌揚，常搭配 the virtues of）精準對應此處「反覆讚揚併購優點」的語境。extort（勒索、以脅迫手段取得）語意不符；extend（延伸、提供）語意不符；extract（萃取、抽取）語意不符，四字同為 ext- 字首形似詞，屬進階詞彙易混淆辨析。"
+      "zh": "這家供應商最初提出的方案，實在「令人不甚滿意」，促使採購團隊要求全面修改。",
+      "why": "<b>leave much to be desired</b> 為固定慣用語，意指「有相當大的改善空間、令人不滿意」，此處 much 為不可數的程度用法，不可替換。many 用於可數名詞，不符合此固定慣用語；much of 與 many of 皆須接續名詞片語（如 much of the proposal），不符合此處獨立成句的固定慣用結構。"
     },
     {
-      "id": "2026-09-01-p5-4",
-      "tag": "相關比較結構（the less...the more）",
-      "pre": "The less transparent the company was about its finances, ",
-      "post": " skeptical investors became.",
-      "opts": ["the more", "the most", "so much more", "much more"],
+      "id": "2026-09-02-p5-4",
+      "tag": "名詞片語（The extent to which，關係子句作主詞）",
+      "pre": "",
+      "post": " the merger will affect employee benefits remains unclear pending further review.",
+      "opts": ["The extent to which", "The extent that", "To what extent", "In which extent"],
       "ans": 0,
-      "zh": "這家公司在財務上「越不」透明，投資人就「越發」抱持懷疑態度。",
-      "why": "<b>The + 比較級...the + 比較級</b> 為固定相關比較結構，表「越…就越…」，此處第二子句須用 <b>the more</b> 與前句 The less 呼應。the most 為最高級，不符合此相關比較結構的句型；so much more 與 much more 皆不符合 the + 比較級起始的固定句型要求。"
+      "zh": "這起併購案「究竟會在多大程度上」影響員工福利，在進一步審查完成前，目前仍不明朗。",
+      "why": "<b>The extent to which</b> 為正式固定名詞片語結構，which 之前須接介系詞 to，構成「the extent to which + 完整子句」作句子主詞。The extent that 為較不正式的常見誤用，正式書面語應搭配 to which；To what extent 為疑問句或間接問句的引導詞，語域及句構與此處作為句子主詞的名詞片語不同；In which extent 介系詞位置錯誤，不成立。"
     }
   ],
   "p6": {
-    "id": "2026-09-01-p6",
-    "title": "MEMORANDUM: Updated Protocol for Approving Employee Sabbaticals",
+    "id": "2026-09-02-p6",
+    "title": "MEMORANDUM: Updated Protocol for Responding to Media Interview Requests",
     "seg": [
       [
-        "To all department heads: Beginning next quarter, any request for a sabbatical leave exceeding eight weeks ",
+        "To all employees: Effective immediately, any request from a journalist, podcast host, or media outlet for an interview or on-the-record comment ",
         { "b": 0 },
-        " joint approval from both the requesting employee's direct manager and Human Resources before a start date is confirmed."
+        " to the Communications team before any response is given, even if the request appears to be for a brief, informal quote."
       ],
       [
         { "b": 1 },
-        ", sabbaticals of eight weeks or fewer may be approved by the direct manager alone, provided adequate coverage arrangements are documented in advance."
+        ", employees speaking at industry conferences in a purely educational capacity, without discussing the company's specific business results, are not subject to this requirement."
       ],
       [
-        "Department heads should ",
+        "Employees who are contacted directly by a reporter should ",
         { "b": 2 },
-        " sabbatical requests well in advance of the proposed start date to allow sufficient time for workload redistribution among remaining team members."
+        " any commitment to respond and instead direct the reporter to the Communications team's media line."
       ],
       [
         { "b": 3 },
-        " A sabbatical request form and a summary of eligibility requirements are available on the Human Resources intranet page."
+        " A brief guide on how to redirect media inquiries politely and professionally is available on the Communications intranet page."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["will require", "requires", "has required", "is requiring"],
+        "opts": ["must be forwarded", "forwards", "has forwarded", "is forwarding"],
         "ans": 0,
-        "zh": "致所有部門主管：自下一季度起，任何超過八週的留職停薪申請，「均須」在確認開始日期前，取得申請員工的直屬主管與人力資源部門的共同核准。",
-        "why": "句首明訂即將生效的未來時點「Beginning next quarter」，須用未來式 <b>will require</b>。requires 為現在式，與尚未生效的未來規定不符；has required 為現在完成式，暗示已實施而非即將生效；is requiring 為現在進行式，同樣不符合正式公告未來規定的語境。"
+        "zh": "致所有員工：自即日起，任何來自記者、Podcast主持人或媒體機構的採訪或公開發言請求，即使看似只是簡短的非正式回應，「均須」先轉交公關部門，方可回覆。",
+        "why": "請求是被轉交的對象，此句表達即刻生效的強制性規定，須用被動情態動詞 <b>must be forwarded</b>（必須被轉交）。forwards 為現在式主動動詞，不具強制規定的語氣；has forwarded 為現在完成式，暗示已轉交而非規定應轉交；is forwarding 為現在進行式，同樣不符合正式規定公告的語氣。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["By comparison", "As a consequence", "In particular", "To that end"],
+        "opts": ["Yet", "As a consequence", "In particular", "By the same token"],
         "ans": 0,
-        "zh": "「相比之下」，八週以內的留職停薪，只需直屬主管單獨核准即可，惟須事先記錄妥善的職務代理安排。",
-        "why": "前句規定超過八週者須雙重核准，本句說明「相比之下」較短天數者僅需主管單獨核准，兩句構成明確對比，故選 <b>By comparison</b>（相比之下）。As a consequence（因此）表因果；In particular（尤其是）表舉例強調；To that end（以此為目的）表承接目的，皆與此處的對比邏輯不符。"
+        "zh": "「然而」，員工若僅以純教育性質身分於產業研討會發言，且未涉及公司具體業務成果，則不受此規定之限制。",
+        "why": "前句規定所有媒體相關請求須轉交公關部門，本句說明「然而」純教育性質的研討會發言則為例外，兩句構成讓步對比關係，故選 <b>Yet</b>（然而）。As a consequence（因此）表因果；In particular（尤其是）表舉例強調；By the same token（同理）表類比延續，皆與此處的例外對比邏輯不符。"
       },
       {
         "tag": "詞彙語意（動詞辨析）",
         "col1": true,
-        "opts": ["anticipate", "antedate", "antagonize", "anthologize"],
+        "opts": ["decline", "declaim", "denounce", "deceive"],
         "ans": 0,
-        "zh": "部門主管應提早「預先規劃」留職停薪申請，於預定開始日期前留出充分時間，以便在留任團隊成員間重新分配工作量。",
-        "why": "<b>anticipate</b>（預先設想、提早規劃因應）精準對應此處「提早規劃以留出重新分配工作量的時間」的語境。antedate（時間上早於，或將文件日期填為較早日期）語意不符；antagonize（激怒、招致敵意）語意不符；anthologize（收錄於選集之中）語意完全不符，四字同為 ant- 字首形似詞，屬進階詞彙易混淆辨析。"
+        "zh": "若員工直接遭記者聯繫，應「婉拒」任何回應的承諾，並改為引導記者聯繫公關部門的媒體專線。",
+        "why": "<b>decline</b>（婉拒、禮貌地拒絕）精準對應此處「不做出回應承諾」的語境。declaim（慷慨陳詞、朗誦式發言）語意不符；denounce（公開譴責）語意不符；deceive（欺騙、誤導）語意不符，四字同為 de- 字首形似詞，屬進階詞彙易混淆辨析。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Employees are encouraged to discuss sabbatical plans informally with their manager before submitting a formal request.",
-          "The company's annual wellness fair will be held in October this year.",
-          "All employees must complete the updated code-of-conduct training by year-end.",
-          "The Human Resources department's office hours have been adjusted for the holiday season."
+          "Employees who are uncertain whether a specific request falls under this policy should consult the Communications team directly.",
+          "The company's annual media training workshop will be held in November.",
+          "All employees must complete the updated social media policy training by year-end.",
+          "The Communications department's office hours have been extended during earnings season."
         ],
         "ans": 0,
-        "zh": "「鼓勵員工在提交正式申請前，先與主管非正式討論留職停薪計畫。」留職停薪申請表及資格條件摘要，皆可於人力資源部門內部網路頁面取得。",
-        "why": "段落主題為「員工留職停薪核准流程更新」，此句鼓勵員工提早與主管非正式溝通，與後句「申請表可於內部網路取得」共同構成完整的操作指引收尾。其餘選項（年度健康博覽會、行為準則訓練、假期辦公時間調整）皆與留職停薪核准流程無關，插入後語意斷裂。"
+        "zh": "「若員工不確定特定請求是否適用此政策，應直接洽詢公關部門。」一份說明如何禮貌且專業地引導媒體詢問的簡易指南，可於公關部門內部網路頁面取得。",
+        "why": "段落主題為「媒體採訪請求應對流程更新」，此句提醒同仁若對政策適用範圍有疑問應直接洽詢公關部門，與後句「指南可於內部網路取得」共同構成完整的操作指引收尾。其餘選項（年度媒體訓練工作坊、社群媒體政策訓練、財報季辦公時間調整）皆與媒體採訪請求應對流程無關，插入後語意斷裂。"
       }
     ]
   }
