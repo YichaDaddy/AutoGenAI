@@ -1,117 +1,117 @@
 {
-  "date": "2026-09-03",
+  "date": "2026-09-04",
   "p5": [
     {
-      "id": "2026-09-03-p5-0",
-      "tag": "假設語氣倒裝（Had it not been for，過去反事實）",
-      "pre": "",
-      "post": " it not been for the last-minute intervention of the audit committee, the merger would have proceeded without proper regulatory disclosure.",
-      "opts": ["Had", "Were", "Should", "Did"],
+      "id": "2026-09-04-p5-0",
+      "tag": "假設語氣（It is imperative that + 原形動詞）",
+      "pre": "It is imperative that the finalized contract ",
+      "post": " reviewed by outside counsel before either party affixes a signature.",
+      "opts": ["be", "is", "will be", "was"],
       "ans": 0,
-      "zh": "若非稽核委員會在最後一刻介入，這樁併購案原本會在未完成適當監管揭露的情況下逕行進行。",
-      "why": "<b>Had it not been for</b> 為假設語氣倒裝，等同 If it had not been for，表示對過去事實的反事實假設「若非…」。Were 用於 If it were not for（現在式反事實）的倒裝，時態不符；Should 用於 Should + 主詞 + 原形動詞（未來可能性較低的假設）；Did 不適用於此固定倒裝結構。"
+      "zh": "在雙方任一方簽署前，這份定案合約「務必」先經外部律師審閱。",
+      "why": "imperative 等表達建議、必要性的形容詞後接 that 子句時，須用假設語氣的<b>原形動詞</b>（be reviewed），不受主詞人稱與時態影響。is 為直述語氣現在式，不符假設語氣需求；will be 為未來式，不符合固定句型；was 為過去式，同樣不符合假設語氣的原形要求。"
     },
     {
-      "id": "2026-09-03-p5-1",
-      "tag": "分詞構句（Having + 過去分詞，完成式主動）",
-      "pre": "",
-      "post": " completed an extensive due-diligence review, the acquiring firm proceeded to finalize the terms of the purchase agreement.",
-      "opts": ["Having", "Have", "To have", "Had"],
+      "id": "2026-09-04-p5-1",
+      "tag": "倒裝句（Rarely + 助動詞 + 主詞 + 原形動詞）",
+      "pre": "Rarely ",
+      "post": " a start-up secure such favorable financing terms so early in its growth trajectory in today's cautious venture capital climate.",
+      "opts": ["does", "did", "has", "is"],
       "ans": 0,
-      "zh": "在完成廣泛的盡職調查審核後，收購方著手敲定了收購協議的條款。",
-      "why": "<b>Having + 過去分詞</b> 為完成式分詞構句，表示該動作先於主要子句發生（= After it had completed...）。Have 為原形動詞，不可直接置於句首作分詞構句；To have completed 為不定詞完成式，句構與語意皆不符；Had completed 若置於句首須搭配倒裝句構或不同標點，此處不成立。"
+      "zh": "在當今謹慎的創投環境下，新創公司如此早期便能取得這麼優惠的融資條件，實屬「罕見」。",
+      "why": "Rarely 為否定意味的頻率副詞，置於句首須引發部分倒裝，句構為「Rarely + <b>does/do</b> + 主詞 + 原形動詞」。此處主詞 a start-up 為單數，句尾 today's（當今）明確指向現在式泛稱事實，故用助動詞 does 引導原形動詞 secure。did 為過去式，與 today's 的現在時間點矛盾；has 須接過去分詞而非原形動詞；is 並非可與原形動詞搭配的助動詞。"
     },
     {
-      "id": "2026-09-03-p5-2",
-      "tag": "非限定關係子句（which 指涉前述整個子句）",
-      "pre": "The vendor missed the delivery deadline by nearly three weeks, ",
-      "post": " ultimately forced the client to seek an alternative supplier.",
-      "opts": ["which", "that", "what", "it"],
+      "id": "2026-09-04-p5-2",
+      "tag": "強調句型（It was not until...that）",
+      "pre": "It was not until the board received the independent auditor's report ",
+      "post": " the extent of the accounting irregularities became fully apparent.",
+      "opts": ["that", "when", "which", "then"],
       "ans": 0,
-      "zh": "供應商的交貨時間延誤了將近三週，這最終迫使客戶必須另尋替代供應商。",
-      "why": "逗號後的 <b>which</b> 引導非限定關係子句，指涉前面整個子句所描述的事實（延誤交貨這件事）。that 不可用於逗號後的非限定關係子句；what 本身已內含先行詞，無法再指涉前述子句；it 為人稱代名詞而非關係代名詞，無法連接兩個獨立子句。"
+      "zh": "直到董事會收到獨立稽核師的報告，會計異常的嚴重程度才完全水落石出。",
+      "why": "<b>It was not until...that</b> 為固定強調句型，用以強調「直到…才」的語意，that 為引導主要子句的必要連接詞。when 不可用於此固定強調句型；which 為關係代名詞，不適用於引導強調句的主要子句；then 為副詞，無法連接兩個子句。"
     },
     {
-      "id": "2026-09-03-p5-3",
-      "tag": "讓步介系詞（Notwithstanding + 名詞片語）",
-      "pre": "",
-      "post": " the board's initial reservations, the proposed budget cuts were ultimately approved by a narrow margin.",
-      "opts": ["Notwithstanding", "Although", "Even though", "Despite that"],
+      "id": "2026-09-04-p5-3",
+      "tag": "對等連接詞（not only...but also，平行結構）",
+      "pre": "The revised merger agreement not only extends the closing deadline by ninety days but also ",
+      "post": " both parties to renegotiate certain indemnification clauses.",
+      "opts": ["allows", "allowing", "allowed", "to allow"],
       "ans": 0,
-      "zh": "儘管董事會起初有所保留，這項預算刪減提案最終仍以些微差距獲得通過。",
-      "why": "<b>Notwithstanding</b> 為正式讓步介系詞，可直接接名詞片語（the board's initial reservations），意為「儘管」。Although 與 Even though 皆為連接詞，須接「主詞＋動詞」的完整子句，不可直接接名詞片語；Despite that 為非標準用法，despite 之後不可再接 that。"
+      "zh": "修訂後的併購協議不僅將截止日期延長九十天，「也」允許雙方就特定的賠償條款重新協商。",
+      "why": "not only...but also 連接兩個對等的動詞片語，須與前面的 extends 保持文法形式一致（同為第三人稱單數現在式動詞），故選 <b>allows</b>。allowing 為分詞形式，與 extends 詞性不平行；allowed 為過去式，與現在式 extends 時態不一致；to allow 為不定詞，同樣破壞了平行結構。"
     },
     {
-      "id": "2026-09-03-p5-4",
-      "tag": "進階慣用語（tantamount to，等同於）",
-      "pre": "Failing to disclose the material conflict of interest was widely regarded as ",
-      "post": " a breach of fiduciary duty.",
-      "opts": ["tantamount to", "conducive to", "subject to", "prone to"],
+      "id": "2026-09-04-p5-4",
+      "tag": "進階動詞語意辨別（circumvent，circum-字首形似詞）",
+      "pre": "The proposed restructuring was designed to ",
+      "post": " the more onerous provisions of the original loan covenant without technically breaching its terms.",
+      "opts": ["circumvent", "circumscribe", "circulate", "circumspect"],
       "ans": 0,
-      "zh": "未能揭露重大利益衝突一事，被普遍認定「無異於」違反受託人義務。",
-      "why": "<b>tantamount to</b> 意為「等同於、無異於」，精準對應此處「未揭露利益衝突等同於違反受託義務」的語境。conducive to（有助於）語意不符；subject to（須遵守、視…而定）語意不符；prone to（易於發生，通常搭配負面傾向如疾病、錯誤）語意亦不符。"
+      "zh": "這項重組計畫的目的，是在不明顯違反原始貸款契約條款的情況下，「規避」其中較為嚴苛的規定。",
+      "why": "<b>circumvent</b>（迂迴規避、繞過）精準對應此處「未違反條款卻規避其嚴苛規定」的語境。circumscribe（限制範圍、劃定界線）語意不符；circulate（流通、傳閱）語意不符；circumspect 為形容詞（謹慎的），詞性也不符合此處需要動詞的句構，四字同為 circum- 字首形似詞，屬進階詞彙易混淆辨析。"
     }
   ],
   "p6": {
-    "id": "2026-09-03-p6",
-    "title": "MEMORANDUM: Revised Travel and Expense Reimbursement Policy",
+    "id": "2026-09-04-p6",
+    "title": "MEMORANDUM: New Guidelines for Client Confidentiality in Remote Work Settings",
     "seg": [
       [
-        "To all staff: Beginning next quarter, all business travel expenses ",
+        "To all remote and hybrid staff: Effective the first of next month, any document containing client-identifiable information ",
         { "b": 0 },
-        " through the new digital reimbursement portal within fourteen calendar days of the trip's conclusion."
+        " on a company-issued device equipped with full-disk encryption; personal devices are no longer permitted for this purpose under any circumstances."
       ],
       [
         { "b": 1 },
-        ", expenses exceeding NT$15,000 for a single item will continue to require prior written approval from a department director, regardless of the new streamlined process."
+        ", employees who require occasional access from a personal device for urgent client matters may submit a temporary exception request to the Compliance team."
       ],
       [
-        "Employees are strongly encouraged to ",
+        "Any breach of this policy, even an inadvertent one, must be ",
         { "b": 2 },
-        " all original receipts, as scanned copies alone may not satisfy the finance department's audit requirements."
+        " to the Compliance team within twenty-four hours of discovery."
       ],
       [
         { "b": 3 },
-        " Questions regarding the new portal or reimbursement timeline should be directed to the Finance Shared Services helpdesk."
+        " A recorded walkthrough of the new access procedures will be posted to the internal training portal by the end of this week."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["must be submitted", "submit", "have submitted", "are submitting"],
+        "opts": ["must be accessed", "accesses", "has accessed", "is accessing"],
         "ans": 0,
-        "zh": "致全體員工：自下一季起，所有商務差旅費用「均須」透過新的數位報帳入口網站，在行程結束後十四個日曆天內提交。",
-        "why": "費用是被提交的對象，此句表達即刻起適用的強制性規定，須用被動情態動詞 <b>must be submitted</b>（必須被提交）。submit 為主動原形動詞，不符合被動語態需求；have submitted 為現在完成式主動語態，語意錯誤（費用不會自行 submit）；are submitting 為現在進行式主動語態，同樣不符合語態與規定語氣。"
+        "zh": "致所有遠距及混合辦公同仁：自下月一日起，任何含有客戶可識別資訊的文件，「均須」在配備全磁碟加密的公司配發設備上存取；個人裝置在任何情況下皆不得再用於此用途。",
+        "why": "文件是被存取的對象，此句表達即刻起適用的強制性規定，須用被動情態動詞 <b>must be accessed</b>（必須被存取）。accesses 為主動現在式動詞，不符被動需求；has accessed 為現在完成式主動語態，語意錯誤（文件不會自行 access）；is accessing 為現在進行式主動語態，同樣不符合規定語氣與語態。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["However", "As a result", "For example", "In turn"],
+        "opts": ["Nevertheless", "Consequently", "Similarly", "Furthermore"],
         "ans": 0,
-        "zh": "「然而」，單筆金額超過新台幣一萬五千元的支出，無論在新的簡化流程下，仍須事先取得部門主管的書面核准。",
-        "why": "前段說明報帳流程已簡化，本句指出大額支出仍須額外核准的例外情況，兩句構成轉折對比關係，故選 <b>However</b>（然而）。As a consequence／As a result（因此）表因果；For example（例如）表舉例；In turn（依次、輪流）表順序關係，皆與此處的轉折邏輯不符。"
+        "zh": "「儘管如此」，若同仁因緊急客戶事務偶爾需要以個人裝置存取，仍可向法遵團隊提交臨時例外申請。",
+        "why": "前段規定禁止使用個人裝置存取，本句說明仍有例外申請管道，兩句構成轉折對比關係，故選 <b>Nevertheless</b>（儘管如此）。Consequently（因此）表因果；Similarly（同樣地）表類比；Furthermore（此外）表遞進補充，皆與此處的轉折邏輯不符。"
       },
       {
         "tag": "詞彙語意（動詞辨析，re- 字首形似詞）",
         "col1": true,
-        "opts": ["retain", "restrain", "refrain", "regain"],
+        "opts": ["reported", "reputed", "reproved", "repelled"],
         "ans": 0,
-        "zh": "強烈建議員工「保留」所有原始收據，因為僅有掃描副本可能無法符合財務部門的稽核要求。",
-        "why": "<b>retain</b>（保留、保存）精準對應此處「應保留原始收據」的語境。restrain（抑制、約束）語意不符；refrain（克制、忍住不做某事，常搭配 from）語意不符；regain（重新獲得）語意不符，四字同為 re- 字首形似詞，屬進階詞彙易混淆辨析。"
+        "zh": "任何違反本政策的情事，即使是無心之過，皆須在發現後二十四小時內「通報」法遵團隊。",
+        "why": "<b>reported</b>（通報、呈報）精準對應此處「違規須通報法遵團隊」的語境。reputed（被認為、據稱，通常用於被動語態描述聲譽）語意不符；reproved（斥責）語意不符；repelled（擊退、排斥）語意不符，四字同為 re- 字首形似詞，屬進階詞彙易混淆辨析。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "A brief training video walking employees through the submission process will be circulated via email next week.",
-          "The company's annual holiday party will be held in December this year.",
-          "All employees must renew their parking permits by the end of the month.",
-          "The IT department will perform scheduled system maintenance this weekend."
+          "Managers are responsible for confirming that every member of their team has acknowledged receipt of this memorandum.",
+          "The office holiday schedule for the coming year has been finalized and posted.",
+          "All employees are eligible for a complimentary ergonomic assessment upon request.",
+          "The quarterly all-hands meeting has been moved to the following Monday."
         ],
         "ans": 0,
-        "zh": "「一段簡短的教學影片，將於下週透過電子郵件發送給全體員工，說明新報帳流程的操作步驟。」有關新入口網站或報帳時程的相關問題，請洽財務共用服務台。",
-        "why": "段落主題為「差旅報帳政策更新」，此句說明教學影片將發送，與下一句「問題請洽詢服務台」共同構成完整的操作指引收尾。其餘選項（年終尾牙派對、停車證換發、IT系統維護）皆與差旅報帳政策無關，插入後語意斷裂。"
+        "zh": "「各部門主管須負責確認團隊中每位成員皆已確認收到本備忘錄。」新存取流程的錄影教學，將於本週結束前發布至內部訓練平台。",
+        "why": "段落主題為「客戶機密資訊遠距辦公新規範」，此句要求主管確認團隊成員已知悉本備忘錄，與下一句「教學錄影將發布」共同構成完整的政策執行收尾。其餘選項（假期行事曆、人體工學評估、全員會議異動）皆與客戶機密政策無關，插入後語意斷裂。"
       }
     ]
   }
