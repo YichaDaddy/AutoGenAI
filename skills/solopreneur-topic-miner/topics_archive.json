@@ -1,5 +1,128 @@
 [
   {
+    "date": "2026-09-04",
+    "big_events": [
+      {
+        "title": "Nscale洽談35億美元Pre-IPO融資，英國AI雲端新星估值上看300億美元",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/"
+          },
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-09-04/ai-cloud-firm-nscale-seeking-3-5-billion-in-pre-ipo-financing"
+          }
+        ],
+        "summary": "英國AI算力商Nscale洽談15億美元可轉債加Nvidia20億美元加碼，為近期上市鋪路",
+        "audience": "關注AI基礎建設與資本市場的科技創業者、投資型自媒體、獨立開發者",
+        "pain_point": "只知道AI很燒錢，卻不懂「AI算力雲」新創如何靠可轉債、大廠加碼等手法在IPO前衝高估值，也搞不清楚這類公司到底在賣什麼",
+        "title_idea": "成立僅2年，英國AI雲端公司衝上市前又籌35億美元，Nvidia也下場加碼",
+        "local_angle": "華語圈很少討論Nscale這類「AI算力二房東」新創的資本操作，適合做「AI基礎建設吸金術」系列，補上IPO前融資工具的知識空窗"
+      },
+      {
+        "title": "SoundHound AI完成收購對話式AI平台LivePerson",
+        "sources": [
+          {
+            "name": "SoundHound AI 官方投資人關係",
+            "url": "https://investors.soundhound.com/news-releases/news-release-details/soundhound-ai-acquire-liveperson-combining-proprietary-voice"
+          },
+          {
+            "name": "Unite.AI",
+            "url": "https://www.unite.ai/liveperson-stockholders-sign-off-on-soundhound-ai-takeover/"
+          }
+        ],
+        "summary": "交易9月4日完成，語音AI公司SoundHound用股票加現金合併LivePerson打造端到端對話式AI平台",
+        "audience": "經營電商或客服機器人的中小企業主、SaaS產品經理、關注AI併購動態的科技自媒體",
+        "pain_point": "企業想做語音加文字客服AI卻要拼裝多家工具，不知道市場正快速整併成「一站式對話式AI平台」，選型時抓不到方向",
+        "title_idea": "語音AI併吞聊天機器人龍頭！SoundHound收購LivePerson，客服AI市場要洗牌了",
+        "local_angle": "台灣電商與客服業愛用的對話機器人多是海外SaaS，這起併購牽動未來工具走向，適合做「客服AI版圖大風吹」選題卡位"
+      },
+      {
+        "title": "Tesla無方向盤Cybercab首發活動翻車，聯邦監管機關隨即開查",
+        "sources": [
+          {
+            "name": "The Motley Fool",
+            "url": "https://www.fool.com/investing/2026/09/04/why-did-tesla-stock-fall-today/"
+          },
+          {
+            "name": "Yahoo Finance（引述Bloomberg）",
+            "url": "https://finance.yahoo.com/technology/live/tech-stocks-today-apple-ceo-steps-down-nvidia-mag-7-145623375.html"
+          }
+        ],
+        "summary": "Tesla在德州奧斯汀正式發表Cybercab，投資人反應冷淡，NHTSA隨即對自駕認證展開調查",
+        "audience": "關注自駕或機器人計程車的科技評論自媒體、投資型創作者、對自駕AI安全有疑慮的一般大眾",
+        "pain_point": "常聽到「Robotaxi要來了」的美好願景，卻不知道連指標玩家首發都翻船，也不了解政府怎麼介入自駕AI的安全審查",
+        "title_idea": "沒有方向盤的Tesla計程車翻車記！Cybercab首發就被美國政府盯上",
+        "local_angle": "台灣近期也在討論自駕計程車開放議題，這起「明星產品發表失利加監管立刻跟上」的案例很適合做「自駕計程車上路前要過幾關」科普選題"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "AI簡報工具Presentations.ai用戶突破1200萬，主打企業級品牌簡報",
+        "sources": [
+          {
+            "name": "GlobeNewswire",
+            "url": "https://www.globenewswire.com/news-release/2026/09/04/3356578/0/en/ai-powerpoint-maker-for-sales-decks-investor-decks-and-board-presentations-reaches-12-million-users-in-2026-presentations-ai-trusted-by-leading-global-enterprise-users.html"
+          }
+        ],
+        "summary": "貼上文件、Notion頁面或網址就能一鍵生成品牌簡報，可編輯回PowerPoint、支援80種語言",
+        "audience": "常做業務提案、投資簡報、董事會報告的職場上班族、業務主管、接案顧問",
+        "pain_point": "用ChatGPT生成的簡報常常跑版、無法直接編回公司PowerPoint模板，花更多時間在善後而不是內容本身",
+        "title_idea": "貼上一份文件、一分鐘生出投資簡報！這款AI簡報工具用戶衝破1200萬",
+        "local_angle": "華語圈AI簡報教學多集中在Gamma、Canva，Presentations.ai這種「可編輯回PPT、支援80種語言」的企業級定位還沒被介紹，適合做評測搶占「業務簡報神器」關鍵字"
+      },
+      {
+        "title": "AI路由新創Martian推出「AI Frontier」儀表板，一次比較44款大型語言模型",
+        "sources": [
+          {
+            "name": "AI Frontier（Martian官方）",
+            "url": "https://aifrontier.withmartian.com/"
+          }
+        ],
+        "summary": "依品質、成本、穩定度即時排名44款LLM，幫企業找出「性價比前緣」",
+        "audience": "同時用多個AI模型做產品的獨立開發者、需要幫客戶選型的技術顧問、AI工具評測類自媒體",
+        "pain_point": "市面模型多到選不完（GPT、Claude、Gemini、Grok等），每款價格、品質、穩定度都不一樣，靠自己一個個測太花時間",
+        "title_idea": "44款AI模型一次比完！新工具幫你抓出「最划算」的那一個",
+        "local_angle": "華語圈開發者常常憑感覺選模型，這種「即時性價比排行榜」工具還沒有中文介紹，適合做「AI模型怎麼選」實測懶人包搶占SEO"
+      }
+    ],
+    "trends": [
+      {
+        "title": "AI推理新創Gimlet Labs募得3億美元B輪，估值衝上30億美元",
+        "sources": [
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-09-04/andreessen-backed-ai-startup-gimlet-is-valued-at-3-billion-in-new-round"
+          },
+          {
+            "name": "GlobeNewswire",
+            "url": "https://www.globenewswire.com/news-release/2026/09/04/3356707/0/en/now-valued-at-3-billion-gimlet-labs-raises-300-million-in-series-b-led-by-andreessen-horowitz-for-industry-s-first-multi-silicon-inference-cloud-for-agentic-ai.html"
+          }
+        ],
+        "summary": "a16z領投，距上輪募資僅半年，主打把AI推理任務拆分給不同廠牌晶片運算",
+        "audience": "關注AI基礎建設投資動態的科技創業者、獨立開發者、投資類自媒體",
+        "pain_point": "大家只知道「Nvidia晶片很貴」，卻不知道已經有新創在幫企業把AI運算拆給不同廠牌晶片省錢，這塊「多晶片推理」的新賽道還沒人講清楚",
+        "title_idea": "半年估值翻倍衝30億美元！這家新創教AI「貨比三家」用晶片",
+        "local_angle": "華語圈對AI基礎建設新創的報導多聚焦Nvidia、OpenAI等巨頭，Gimlet Labs這種「晶片中介層」新賽道是少見的資訊差題材，適合做「AI算力也要貨比三家」系列開箱"
+      },
+      {
+        "title": "軟銀發行破紀錄63億美元零售債券，資金全投AI建設",
+        "sources": [
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-09-04/softbank-group-prices-1-trillion-retail-bond-at-4-75"
+          }
+        ],
+        "summary": "7年期債券票面利率4.75%，創日本企業史上最大零售債券紀錄，用於AI投資與還債",
+        "audience": "關注AI資金流向與日股動態的投資型自媒體、對AI泡沫化議題有興趣的科技評論者",
+        "pain_point": "常聽到「軟銀重壓OpenAI」，卻不知道背後資金怎麼籌來的，也不清楚一般散戶債券市場也被捲入這波AI軍備競賽",
+        "title_idea": "連日本散戶的錢都被拿去all in AI！軟銀發行史上最大63億美元債券",
+        "local_angle": "台灣投資人熟悉軟銀孫正義的豪賭故事，但「靠散戶債券融資養AI」這個具體操作手法還沒被講清楚，適合做「AI燒錢的錢從哪來」系列拆解軟銀資金鏈"
+      }
+    ]
+  },
+  {
     "date": "2026-09-03",
     "big_events": [
       {
@@ -542,149 +665,6 @@
         "pain_point": "想證明「AI生成速度已超越即時觀看」這件事有多驚人，卻找不到能直接體驗、可轉發的具體案例",
         "title_idea": "工程師一人打造「永不結束的AI電視台」：你打字，AI幫你演下去",
         "local_angle": "海外indie hacker才剛驗證的「無限即時生成AI直播」玩法，華語圈目前還沒人做類似的中文互動直播實驗，適合搶先做開箱／實測影片，順便科普背後的AI影片生成技術演進"
-      }
-    ]
-  },
-  {
-    "date": "2026-08-28",
-    "big_events": [
-      {
-        "title": "聯邦法官裁定五角大廈非法列管Anthropic為「供應鏈風險」，Anthropic首度勝訴",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/"
-          },
-          {
-            "name": "Forbes",
-            "url": "https://www.forbes.com/sites/siladityaray/2026/08/28/federal-judge-blocks-pentagons-illegal-designation-of-anthropic-as-a-supply-chain-risk/"
-          },
-          {
-            "name": "Gizmodo",
-            "url": "https://gizmodo.com/judge-says-the-pentagons-blacklisting-of-anthropic-is-illegal-2000804313"
-          }
-        ],
-        "summary": "聯邦法官裁定五角大廈將Anthropic列為供應鏈風險屬非法報復，違反憲法保障",
-        "audience": "承接企業/政府AI導入顧問案、經營AI SaaS的創業者，關注AI廠商選型風險的科技評論自媒體",
-        "pain_point": "不確定選用哪家AI供應商才不會被捲入政策爭議，也不清楚AI公司拒絕客戶要求（如監控、武器化用途）背後的商業風險與法律依據，導入AI時常見的『廠商信任』問題說不清楚",
-        "title_idea": "拒絕五角大廈開的空白支票，Anthropic告贏美國政府！AI公司的『紅線』值多少錢？",
-        "local_angle": "這起訴訟牽涉AI公司能不能對政府或大客戶說『不』，對台灣做企業AI導入顧問、B2B SaaS的創業者是罕見的『供應商風控』案例，中文報導多半只提政治對立角度，還沒人從『AI公司如何守住產品倫理紅線同時保住生意』切入解讀"
-      },
-      {
-        "title": "Anthropic研究證實AI能自動修復自身對齊缺陷，表現超越28位人類安全研究員",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/"
-          },
-          {
-            "name": "Anthropic官方研究",
-            "url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures"
-          }
-        ],
-        "summary": "Claude自動修復10種對齊失敗案例，成效比人類專家最佳方案高出約20%",
-        "audience": "對AI安全、自動化研發/自我迭代流程感興趣的科技創作者、AI產品經理與技術型自媒體",
-        "pain_point": "觀眾常聽到『AI會自我改進』的說法卻缺乏具體實驗佐證，難以判斷這是行銷話術還是真的可行，也講不出具體數據",
-        "title_idea": "AI開始自己抓自己的錯了！Anthropic實驗證實Claude修復對齊漏洞比人類專家還強",
-        "local_angle": "這篇研究論文剛發布，華語圈尚無中文解讀，適合做成『AI自我進化』第一手科普選題，把生澀的alignment術語轉譯成一般觀眾能懂的『AI自己抓自己的錯』故事"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "Gemini Notebook將改採「運算用量制」配額，9月2日起依複雜度動態計算額度",
-        "sources": [
-          {
-            "name": "9to5Google",
-            "url": "https://9to5google.com/2026/08/28/gemini-notebook-usage-limits/"
-          },
-          {
-            "name": "Google官方部落格",
-            "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/new-flexible-usage-limits/"
-          }
-        ],
-        "summary": "NotebookLM改版，額度依提示複雜度、來源數與功能類型動態計算，每5小時重置一次",
-        "audience": "用NotebookLM做研究筆記、Podcast逐字稿整理、選題彙整的內容創作者與知識工作者",
-        "pain_point": "原本『每日固定次數』的用法即將改成『依運算量計費』，創作者不清楚怎麼用才不會突然被卡額度，尤其是產生Video Overview這類重度功能時特別容易踩雷",
-        "title_idea": "NotebookLM要改用量制了！內容創作者必看的新配額規則懶人包",
-        "local_angle": "此變更9月2日才正式對消費版帳號開放，華語圈目前完全沒有中文教學，適合搶先做『新用量制怎麼省額度』實測攻略卡位流量"
-      },
-      {
-        "title": "Meta更新AI智慧眼鏡韌體，補上「遮住錄影燈仍可偷拍」的隱私漏洞",
-        "sources": [
-          {
-            "name": "9to5Google",
-            "url": "https://9to5google.com/2026/08/28/meta-ray-ban-smart-glasses-privacy-led-loophole-update/"
-          },
-          {
-            "name": "Engadget",
-            "url": "https://www.engadget.com/2245776/meta-closing-loophole-that-allowed-people-to-record-with-smart-glasses-light-covered/"
-          },
-          {
-            "name": "Tom's Guide",
-            "url": "https://www.tomsguide.com/ai/less-pervert-y-meta-ai-glasses-will-now-stop-recording-if-you-cover-the-warning-light"
-          }
-        ],
-        "summary": "用戶遮住錄影提示燈時，Meta智慧眼鏡現在會自動停止錄影",
-        "audience": "使用或考慮購入AI智慧眼鏡的科技開箱創作者、注重隱私倫理的內容評論者",
-        "pain_point": "觀眾對AI眼鏡『被偷拍』疑慮很大，卻不知道廠商已經在悄悄修補這類隱私漏洞，也講不出現行防護機制到底做到哪個程度，內容容易流於空泛擔憂",
-        "title_idea": "遮住指示燈就能偷錄？Meta緊急修補AI眼鏡最大隱私破口",
-        "local_angle": "這是AI穿戴裝置信任度的關鍵更新，華語圈AI眼鏡討論仍偏『開箱評測』角度，鮮少深入隱私防護機制，適合做『AI眼鏡到底安不安全』系列深度內容搶差異化"
-      }
-    ],
-    "trends": [
-      {
-        "title": "a16z成立11億美元「機器時代基金」，全力押注AI實體基礎建設",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/08/28/a16z-creates-a-1-1b-machine-age-fund-to-accelerate-the-physical-buildout-of-ai/"
-          },
-          {
-            "name": "a16z官方",
-            "url": "https://a16z.com/the-machine-age-fund/"
-          }
-        ],
-        "summary": "a16z成立11億美元新基金，投資晶片、記憶體、電力、機器人等AI實體供應鏈",
-        "audience": "關注AI硬體/機器人創業機會、想掌握創投資金流向的科技創業者與投資型自媒體",
-        "pain_point": "大家都知道AI很紅，卻不清楚聰明錢正從『純軟體應用』轉向『實體硬體基建』，容易錯過下一波創業或選題風向",
-        "title_idea": "矽谷最會投資的a16z不玩純軟體了！11億美元全押AI硬體基建",
-        "local_angle": "這是創投資金流向轉變的第一手訊號，華語圈創業/投資類自媒體多半還在談ChatGPT概念股，『資金轉向實體AI』的趨勢分析目前還沒人搶先做"
-      },
-      {
-        "title": "英國演員發起「Save Our Voices Now」聯署，要求立法保護聲音不被AI複製濫用",
-        "sources": [
-          {
-            "name": "Variety",
-            "url": "https://variety.com/2026/digital/global/nicola-coughlan-matt-lucas-ai-voice-cloning-law-1236845817/"
-          },
-          {
-            "name": "ITV News",
-            "url": "https://www.itv.com/news/2026-08-28/nicola-coughlan-and-matt-lucas-among-stars-backing-ai-voice-cloning-campaign"
-          }
-        ],
-        "summary": "逾80位英國演員聯署要求立法保障聲音權，稱AI聲音複製是產業存亡威脅",
-        "audience": "使用AI語音克隆工具（如配音、有聲書、Podcast）的自媒體創作者、聲音創作者、AI配音工具開發者",
-        "pain_point": "創作者常用AI語音克隆工具提高產能，卻不清楚未經授權複製他人聲音的法律與道德風險正快速升溫，也不知道歐洲已有國家（如丹麥）準備立法保障聲音權",
-        "title_idea": "你的聲音正在被AI偷走？英國演員集體開戰，聲音克隆的法律風暴要來了",
-        "local_angle": "台灣配音員、Podcaster、YouTuber越來越常用AI語音工具，這波海外立法倡議尚未被中文媒體關注，適合搶先做『使用AI配音前該注意的法律風險』教學型選題"
-      },
-      {
-        "title": "TechCrunch解密瑞典新創引擎：Lovable與Legora如何撐起歐洲最熱AI新創聚落",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/08/28/how-sweden-built-one-of-europes-hottest-startup-ecosystems/"
-          },
-          {
-            "name": "Yahoo Finance",
-            "url": "https://finance.yahoo.com/small-business/articles/driving-sweden-startup-boom-lovable-160000245.html"
-          }
-        ],
-        "summary": "vibe coding新創Lovable近期以133億美元估值募得4億美元，帶動瑞典AI新創聚落崛起",
-        "audience": "想了解海外AI新創生態圈成功案例的獨立開發者、新創圈自媒體、對vibe coding工具感興趣的創作者",
-        "pain_point": "常聽到『歐洲新創不如矽谷』的刻板印象，卻不知道瑞典正靠AI原生新創（Lovable、Legora）快速崛起，缺乏具體案例了解『小國如何複製這種AI創業聚落效應』",
-        "title_idea": "瑞典怎麼用一家AI新創Lovable，8個月估值翻倍衝上133億美元？",
-        "local_angle": "瑞典新創生態圈（從Spotify、Klarna到Lovable）的『校友網絡效應』對台灣新創圈很有參考價值，是還沒被中文創業媒體深入報導的海外案例，適合做成新創生態系比較選題"
       }
     ]
   }

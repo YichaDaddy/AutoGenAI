@@ -1,117 +1,117 @@
 {
-  "date": "2026-09-04",
+  "date": "2026-09-05",
   "p5": [
     {
-      "id": "2026-09-04-p5-0",
-      "tag": "假設語氣（It is imperative that + 原形動詞）",
-      "pre": "It is imperative that the finalized contract ",
-      "post": " reviewed by outside counsel before either party affixes a signature.",
-      "opts": ["be", "is", "will be", "was"],
+      "id": "2026-09-05-p5-0",
+      "tag": "倒裝句（No sooner...than，過去完成式倒裝）",
+      "pre": "No sooner ",
+      "post": " the acquisition been finalized than three senior executives announced their resignation.",
+      "opts": ["had", "did", "has", "was"],
       "ans": 0,
-      "zh": "在雙方任一方簽署前，這份定案合約「務必」先經外部律師審閱。",
-      "why": "imperative 等表達建議、必要性的形容詞後接 that 子句時，須用假設語氣的<b>原形動詞</b>（be reviewed），不受主詞人稱與時態影響。is 為直述語氣現在式，不符假設語氣需求；will be 為未來式，不符合固定句型；was 為過去式，同樣不符合假設語氣的原形要求。"
+      "zh": "這樁收購案才剛拍板定案，三位資深主管旋即宣布辭職。",
+      "why": "<b>No sooner...than</b> 為固定倒裝結構，主要子句須用過去完成式並倒裝為 had + 主詞 + 過去分詞，表示「一…就…」。did 為過去簡單式助動詞，不可接過去分詞 finalized；has 為現在完成式，與 than 子句中的過去式 announced 時態不一致；was 為 be 動詞，無法與 been finalized 疊加構成正確時態。"
     },
     {
-      "id": "2026-09-04-p5-1",
-      "tag": "倒裝句（Rarely + 助動詞 + 主詞 + 原形動詞）",
-      "pre": "Rarely ",
-      "post": " a start-up secure such favorable financing terms so early in its growth trajectory in today's cautious venture capital climate.",
-      "opts": ["does", "did", "has", "is"],
+      "id": "2026-09-05-p5-1",
+      "tag": "獨立分詞構句（With + 名詞 + 現在分詞，表原因/伴隨狀況）",
+      "pre": "",
+      "post": " interest rates having risen for the sixth consecutive quarter, many small businesses are reconsidering their expansion plans.",
+      "opts": ["With", "Despite", "Because", "Given"],
       "ans": 0,
-      "zh": "在當今謹慎的創投環境下，新創公司如此早期便能取得這麼優惠的融資條件，實屬「罕見」。",
-      "why": "Rarely 為否定意味的頻率副詞，置於句首須引發部分倒裝，句構為「Rarely + <b>does/do</b> + 主詞 + 原形動詞」。此處主詞 a start-up 為單數，句尾 today's（當今）明確指向現在式泛稱事實，故用助動詞 does 引導原形動詞 secure。did 為過去式，與 today's 的現在時間點矛盾；has 須接過去分詞而非原形動詞；is 並非可與原形動詞搭配的助動詞。"
+      "zh": "利率已連續第六季走升，許多中小企業正重新考慮擴張計畫。",
+      "why": "<b>With + 名詞 + 現在分詞</b> 為獨立分詞構句，用以表達伴隨的原因或狀況（= Since interest rates have risen...）。Despite 表讓步對比，語意不符；Because 為連接詞，須接「主詞＋動詞」的完整子句，不可直接接「名詞＋現在分詞」；Given 通常接 that 子句或單純名詞片語，不會直接接「名詞＋現在分詞」的獨立結構。"
     },
     {
-      "id": "2026-09-04-p5-2",
-      "tag": "強調句型（It was not until...that）",
-      "pre": "It was not until the board received the independent auditor's report ",
-      "post": " the extent of the accounting irregularities became fully apparent.",
-      "opts": ["that", "when", "which", "then"],
+      "id": "2026-09-05-p5-2",
+      "tag": "名詞子句作主詞（Whether...remains to be seen）",
+      "pre": "",
+      "post": " the newly appointed CFO can restore investor confidence remains to be seen, given the company's history of missed earnings targets.",
+      "opts": ["Whether", "That", "If", "What"],
       "ans": 0,
-      "zh": "直到董事會收到獨立稽核師的報告，會計異常的嚴重程度才完全水落石出。",
-      "why": "<b>It was not until...that</b> 為固定強調句型，用以強調「直到…才」的語意，that 為引導主要子句的必要連接詞。when 不可用於此固定強調句型；which 為關係代名詞，不適用於引導強調句的主要子句；then 為副詞，無法連接兩個子句。"
+      "zh": "新任財務長是否能重振投資人信心，仍有待觀察，畢竟該公司過去屢屢未達獲利目標。",
+      "why": "<b>Whether</b> 引導名詞子句作句子主詞為正式慣用法，常搭配 remains to be seen（有待觀察）。That 引導的名詞子句通常陳述已知事實，不適合表達「是否」的不確定性；If 雖也可表「是否」，但通常不用於引導作主詞的名詞子句（多用於受詞子句）；What 本身須在子句中扮演成分角色，而此處子句（the CFO can restore confidence）已結構完整，不需要 what。"
     },
     {
-      "id": "2026-09-04-p5-3",
-      "tag": "對等連接詞（not only...but also，平行結構）",
-      "pre": "The revised merger agreement not only extends the closing deadline by ninety days but also ",
-      "post": " both parties to renegotiate certain indemnification clauses.",
-      "opts": ["allows", "allowing", "allowed", "to allow"],
+      "id": "2026-09-05-p5-3",
+      "tag": "讓步介系詞片語（For all，正式，＝despite）",
+      "pre": "",
+      "post": " her impeccable academic credentials, the newly hired consultant struggled to gain the trust of the veteran sales team.",
+      "opts": ["For all", "As for", "In spite", "Regardless"],
       "ans": 0,
-      "zh": "修訂後的併購協議不僅將截止日期延長九十天，「也」允許雙方就特定的賠償條款重新協商。",
-      "why": "not only...but also 連接兩個對等的動詞片語，須與前面的 extends 保持文法形式一致（同為第三人稱單數現在式動詞），故選 <b>allows</b>。allowing 為分詞形式，與 extends 詞性不平行；allowed 為過去式，與現在式 extends 時態不一致；to allow 為不定詞，同樣破壞了平行結構。"
+      "zh": "儘管擁有無可挑剔的學術背景，這位新聘顧問仍難以取得資深業務團隊的信任。",
+      "why": "<b>For all</b> 為正式讓步介系詞片語，意為「儘管」，後方可直接接名詞片語。As for（至於）表主題轉換，語意不符；In spite 須搭配 of 才能接名詞（in spite of），單獨使用不成立；Regardless 同樣須搭配 of 才能接名詞（regardless of），不能單獨使用。"
     },
     {
-      "id": "2026-09-04-p5-4",
-      "tag": "進階動詞語意辨別（circumvent，circum-字首形似詞）",
-      "pre": "The proposed restructuring was designed to ",
-      "post": " the more onerous provisions of the original loan covenant without technically breaching its terms.",
-      "opts": ["circumvent", "circumscribe", "circulate", "circumspect"],
+      "id": "2026-09-05-p5-4",
+      "tag": "進階動詞語意辨別（obviate，ob-字首形似詞）",
+      "pre": "Implementing the new automated reconciliation system should ",
+      "post": " the need for manual cross-checking of every invoice.",
+      "opts": ["obviate", "obfuscate", "obligate", "obliterate"],
       "ans": 0,
-      "zh": "這項重組計畫的目的，是在不明顯違反原始貸款契約條款的情況下，「規避」其中較為嚴苛的規定。",
-      "why": "<b>circumvent</b>（迂迴規避、繞過）精準對應此處「未違反條款卻規避其嚴苛規定」的語境。circumscribe（限制範圍、劃定界線）語意不符；circulate（流通、傳閱）語意不符；circumspect 為形容詞（謹慎的），詞性也不符合此處需要動詞的句構，四字同為 circum- 字首形似詞，屬進階詞彙易混淆辨析。"
+      "zh": "導入新的自動化對帳系統，應可「省去」逐張手動核對發票的必要。",
+      "why": "<b>obviate</b>（消除必要性、省去）精準對應此處「自動化系統使人工核對變得不必要」的語境。obfuscate（使模糊難懂）語意不符；obligate（使負有義務）語意相反；obliterate（徹底摧毀、抹除）語意過度強烈且不符文意，四字同為 ob- 字首形似詞，屬進階詞彙易混淆辨析。"
     }
   ],
   "p6": {
-    "id": "2026-09-04-p6",
-    "title": "MEMORANDUM: New Guidelines for Client Confidentiality in Remote Work Settings",
+    "id": "2026-09-05-p6",
+    "title": "MEMORANDUM: Updated Guidelines for Vendor Gift and Hospitality Acceptance",
     "seg": [
       [
-        "To all remote and hybrid staff: Effective the first of next month, any document containing client-identifiable information ",
+        "To all procurement and sales staff: Under the newly revised code of conduct, any gift or hospitality offered by a current or prospective vendor valued at more than NT$3,000 ",
         { "b": 0 },
-        " on a company-issued device equipped with full-disk encryption; personal devices are no longer permitted for this purpose under any circumstances."
+        " to the Ethics Office before it is accepted, regardless of the occasion."
       ],
       [
         { "b": 1 },
-        ", employees who require occasional access from a personal device for urgent client matters may submit a temporary exception request to the Compliance team."
+        ", token items of nominal value, such as branded pens or calendars distributed at trade shows, are exempt from this disclosure requirement."
       ],
       [
-        "Any breach of this policy, even an inadvertent one, must be ",
+        "Employees who are uncertain whether a particular gift falls within the exempted category should ",
         { "b": 2 },
-        " to the Compliance team within twenty-four hours of discovery."
+        " the Ethics Office before making a decision."
       ],
       [
         { "b": 3 },
-        " A recorded walkthrough of the new access procedures will be posted to the internal training portal by the end of this week."
+        " Failure to comply with this policy may result in disciplinary action up to and including termination of employment."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["must be accessed", "accesses", "has accessed", "is accessing"],
+        "opts": ["must be disclosed", "discloses", "has disclosed", "is disclosing"],
         "ans": 0,
-        "zh": "致所有遠距及混合辦公同仁：自下月一日起，任何含有客戶可識別資訊的文件，「均須」在配備全磁碟加密的公司配發設備上存取；個人裝置在任何情況下皆不得再用於此用途。",
-        "why": "文件是被存取的對象，此句表達即刻起適用的強制性規定，須用被動情態動詞 <b>must be accessed</b>（必須被存取）。accesses 為主動現在式動詞，不符被動需求；has accessed 為現在完成式主動語態，語意錯誤（文件不會自行 access）；is accessing 為現在進行式主動語態，同樣不符合規定語氣與語態。"
+        "zh": "致所有採購與業務同仁：依據最新修訂的行為準則，任何現有或潛在供應商所提供、價值超過新台幣3,000元的餽贈或款待，無論名目為何，接受前皆「須先」向倫理辦公室揭露。",
+        "why": "餽贈是被揭露的對象，此句表達強制性規定，須用被動情態動詞 <b>must be disclosed</b>。discloses 為主動現在式，不符被動需求；has disclosed 為現在完成式主動語態，語意錯誤（餽贈不會自行 disclose）；is disclosing 為現在進行式主動語態，同樣不符合規定語氣。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["Nevertheless", "Consequently", "Similarly", "Furthermore"],
+        "opts": ["That said", "As a result", "Likewise", "In turn"],
         "ans": 0,
-        "zh": "「儘管如此」，若同仁因緊急客戶事務偶爾需要以個人裝置存取，仍可向法遵團隊提交臨時例外申請。",
-        "why": "前段規定禁止使用個人裝置存取，本句說明仍有例外申請管道，兩句構成轉折對比關係，故選 <b>Nevertheless</b>（儘管如此）。Consequently（因此）表因果；Similarly（同樣地）表類比；Furthermore（此外）表遞進補充，皆與此處的轉折邏輯不符。"
+        "zh": "「話雖如此」，於商展中發放、價值象徵性極低的小贈品（如印有品牌的原子筆或月曆），則不受此揭露規定所限。",
+        "why": "<b>That said</b>（話雖如此）用以在陳述嚴格規定後引出例外情況，構成語意上的轉折銜接。As a result（因此）表因果；Likewise（同樣地）表類比延續；In turn（依次）表順序關係，皆不符合此處的轉折例外語意。"
       },
       {
-        "tag": "詞彙語意（動詞辨析，re- 字首形似詞）",
+        "tag": "詞彙語意（動詞辨析，con-字首形似詞）",
         "col1": true,
-        "opts": ["reported", "reputed", "reproved", "repelled"],
+        "opts": ["consult", "console", "conserve", "convene"],
         "ans": 0,
-        "zh": "任何違反本政策的情事，即使是無心之過，皆須在發現後二十四小時內「通報」法遵團隊。",
-        "why": "<b>reported</b>（通報、呈報）精準對應此處「違規須通報法遵團隊」的語境。reputed（被認為、據稱，通常用於被動語態描述聲譽）語意不符；reproved（斥責）語意不符；repelled（擊退、排斥）語意不符，四字同為 re- 字首形似詞，屬進階詞彙易混淆辨析。"
+        "zh": "若同仁不確定特定餽贈是否屬於豁免類別，應在做出決定前先「洽詢」倫理辦公室。",
+        "why": "<b>consult</b>（洽詢、諮詢）精準對應此處語境。console（安慰）語意不符；conserve（保存、節約）語意不符；convene（召集會議）語意不符，四字形似易混淆，屬進階詞彙辨析。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Managers are responsible for confirming that every member of their team has acknowledged receipt of this memorandum.",
-          "The office holiday schedule for the coming year has been finalized and posted.",
-          "All employees are eligible for a complimentary ergonomic assessment upon request.",
-          "The quarterly all-hands meeting has been moved to the following Monday."
+          "All disclosures will be reviewed confidentially and will not be shared with an employee's direct manager unless a conflict of interest is identified.",
+          "The company's annual charity gala will take place in early December this year.",
+          "Employees may request reimbursement for approved client entertainment expenses through the usual channel.",
+          "The office will be closed for the upcoming national holiday on Monday."
         ],
         "ans": 0,
-        "zh": "「各部門主管須負責確認團隊中每位成員皆已確認收到本備忘錄。」新存取流程的錄影教學，將於本週結束前發布至內部訓練平台。",
-        "why": "段落主題為「客戶機密資訊遠距辦公新規範」，此句要求主管確認團隊成員已知悉本備忘錄，與下一句「教學錄影將發布」共同構成完整的政策執行收尾。其餘選項（假期行事曆、人體工學評估、全員會議異動）皆與客戶機密政策無關，插入後語意斷裂。"
+        "zh": "「所有揭露內容將以保密方式審查，除非發現利益衝突，否則不會與員工的直屬主管分享。」若未能遵守本政策，可能導致紀律處分，甚至包含終止聘僱關係。",
+        "why": "段落主題為「供應商餽贈與款待接受準則」，此句說明揭露內容將保密處理，與下一句「違規將受懲處」共同構成政策執行與保障措施的完整收尾。其餘選項（年度慈善晚會、客戶招待報帳、國定假日休館）皆與餽贈揭露政策無關，插入後語意斷裂。"
       }
     ]
   }
