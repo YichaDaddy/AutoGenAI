@@ -1,117 +1,117 @@
 {
-  "date": "2026-09-05",
+  "date": "2026-09-06",
   "p5": [
     {
-      "id": "2026-09-05-p5-0",
-      "tag": "倒裝句（No sooner...than，過去完成式倒裝）",
-      "pre": "No sooner ",
-      "post": " the acquisition been finalized than three senior executives announced their resignation.",
-      "opts": ["had", "did", "has", "was"],
-      "ans": 0,
-      "zh": "這樁收購案才剛拍板定案，三位資深主管旋即宣布辭職。",
-      "why": "<b>No sooner...than</b> 為固定倒裝結構，主要子句須用過去完成式並倒裝為 had + 主詞 + 過去分詞，表示「一…就…」。did 為過去簡單式助動詞，不可接過去分詞 finalized；has 為現在完成式，與 than 子句中的過去式 announced 時態不一致；was 為 be 動詞，無法與 been finalized 疊加構成正確時態。"
-    },
-    {
-      "id": "2026-09-05-p5-1",
-      "tag": "獨立分詞構句（With + 名詞 + 現在分詞，表原因/伴隨狀況）",
+      "id": "2026-09-06-p5-0",
+      "tag": "倒裝句（So + 形容詞 + be動詞 + 主詞 + that，強調程度）",
       "pre": "",
-      "post": " interest rates having risen for the sixth consecutive quarter, many small businesses are reconsidering their expansion plans.",
-      "opts": ["With", "Despite", "Because", "Given"],
+      "post": " dire were the projected losses that the board convened an emergency session within hours of receiving the forecast.",
+      "opts": ["So", "Such", "Very", "Too"],
       "ans": 0,
-      "zh": "利率已連續第六季走升，許多中小企業正重新考慮擴張計畫。",
-      "why": "<b>With + 名詞 + 現在分詞</b> 為獨立分詞構句，用以表達伴隨的原因或狀況（= Since interest rates have risen...）。Despite 表讓步對比，語意不符；Because 為連接詞，須接「主詞＋動詞」的完整子句，不可直接接「名詞＋現在分詞」；Given 通常接 that 子句或單純名詞片語，不會直接接「名詞＋現在分詞」的獨立結構。"
+      "zh": "預估虧損「如此」嚴峻，以至於董事會在收到預測報告數小時內便召開緊急會議。",
+      "why": "<b>So</b> + 形容詞置於句首時，須將 be 動詞與主詞倒裝，構成「So + adj + be + 主詞 + that」句型，強調程度之深。Such 須搭配名詞使用（如 Such dire losses），不可直接接形容詞 dire 再接 be 動詞倒裝；Very 不具備引發倒裝的功能；Too 通常搭配 to V（too...to），不構成 that 子句的因果強調句型。"
     },
     {
-      "id": "2026-09-05-p5-2",
-      "tag": "名詞子句作主詞（Whether...remains to be seen）",
+      "id": "2026-09-06-p5-1",
+      "tag": "比較結構（The more...the more，成正比關係）",
+      "pre": "The more thoroughly the auditors examined the subsidiary's books, ",
+      "post": " discrepancies they uncovered between reported and actual revenue.",
+      "opts": ["the more", "more", "the most", "much more"],
+      "ans": 0,
+      "zh": "稽核人員愈是徹底檢視這家子公司的帳冊，愈是發現通報營收與實際營收之間的落差。",
+      "why": "<b>The more...the more</b> 為固定成正比句型，前後兩子句皆須以 the more 起始，表示兩者程度同步增加。more 缺少定冠詞 the，不符固定句型；the most 為最高級，不適用於此處的比例對應關係；much more 為單純修飾語，無法構成此固定句型的第二個子句。"
+    },
+    {
+      "id": "2026-09-06-p5-2",
+      "tag": "減化關係子句（過去分詞作後置修飾語）",
+      "pre": "The proposal ",
+      "post": " by the finance committee last quarter has since been revised to reflect updated market conditions.",
+      "opts": ["submitted", "submitting", "which submitted", "was submitted"],
+      "ans": 0,
+      "zh": "財務委員會上一季提交的這份提案，如今已經過修訂以反映最新的市場狀況。",
+      "why": "<b>submitted</b> 為過去分詞，用來減化 which was submitted by the finance committee，作為 The proposal 的後置修飾語，表被動語意（提案是被提交的）。submitting 為現在分詞，語意變為主動，邏輯不通；which submitted 主謂不一致且缺少被動語態，文法錯誤；was submitted 為完整動詞形式，若使用則整句將缺少主要動詞（後方 has since been revised 才是主要動詞），句構不成立。"
+    },
+    {
+      "id": "2026-09-06-p5-3",
+      "tag": "讓步連接詞（Much as，＝although，正式書面用法）",
       "pre": "",
-      "post": " the newly appointed CFO can restore investor confidence remains to be seen, given the company's history of missed earnings targets.",
-      "opts": ["Whether", "That", "If", "What"],
+      "post": " the interim CEO admired the outgoing founder's vision, she was determined to overhaul the company's outdated pricing model.",
+      "opts": ["Much as", "As much", "So much", "Much so"],
       "ans": 0,
-      "zh": "新任財務長是否能重振投資人信心，仍有待觀察，畢竟該公司過去屢屢未達獲利目標。",
-      "why": "<b>Whether</b> 引導名詞子句作句子主詞為正式慣用法，常搭配 remains to be seen（有待觀察）。That 引導的名詞子句通常陳述已知事實，不適合表達「是否」的不確定性；If 雖也可表「是否」，但通常不用於引導作主詞的名詞子句（多用於受詞子句）；What 本身須在子句中扮演成分角色，而此處子句（the CFO can restore confidence）已結構完整，不需要 what。"
+      "zh": "儘管代理執行長十分欽佩這位即將卸任創辦人的願景，她仍決心徹底改革公司過時的定價模式。",
+      "why": "<b>Much as</b> 為正式讓步連接詞，意為「儘管」，可直接接「主詞＋動詞」的完整子句。As much 語序顛倒，不具備讓步連接詞的功能；So much 通常用於程度修飾（so much that...），不具讓步語意；Much so 並非固定搭配，不成立。"
     },
     {
-      "id": "2026-09-05-p5-3",
-      "tag": "讓步介系詞片語（For all，正式，＝despite）",
-      "pre": "",
-      "post": " her impeccable academic credentials, the newly hired consultant struggled to gain the trust of the veteran sales team.",
-      "opts": ["For all", "As for", "In spite", "Regardless"],
+      "id": "2026-09-06-p5-4",
+      "tag": "進階動詞語意辨別（assuage，as-字首形似詞）",
+      "pre": "The spokesperson's carefully worded statement did little to ",
+      "post": " investors' growing concerns about the company's mounting debt.",
+      "opts": ["assuage", "assail", "assign", "assimilate"],
       "ans": 0,
-      "zh": "儘管擁有無可挑剔的學術背景，這位新聘顧問仍難以取得資深業務團隊的信任。",
-      "why": "<b>For all</b> 為正式讓步介系詞片語，意為「儘管」，後方可直接接名詞片語。As for（至於）表主題轉換，語意不符；In spite 須搭配 of 才能接名詞（in spite of），單獨使用不成立；Regardless 同樣須搭配 of 才能接名詞（regardless of），不能單獨使用。"
-    },
-    {
-      "id": "2026-09-05-p5-4",
-      "tag": "進階動詞語意辨別（obviate，ob-字首形似詞）",
-      "pre": "Implementing the new automated reconciliation system should ",
-      "post": " the need for manual cross-checking of every invoice.",
-      "opts": ["obviate", "obfuscate", "obligate", "obliterate"],
-      "ans": 0,
-      "zh": "導入新的自動化對帳系統，應可「省去」逐張手動核對發票的必要。",
-      "why": "<b>obviate</b>（消除必要性、省去）精準對應此處「自動化系統使人工核對變得不必要」的語境。obfuscate（使模糊難懂）語意不符；obligate（使負有義務）語意相反；obliterate（徹底摧毀、抹除）語意過度強烈且不符文意，四字同為 ob- 字首形似詞，屬進階詞彙易混淆辨析。"
+      "zh": "這位發言人措辭謹慎的聲明，幾乎未能「緩解」投資人對公司債務日益攀升的憂慮。",
+      "why": "<b>assuage</b>（緩解、減輕，尤指憂慮或不安）精準對應此處語境。assail（猛烈攻擊）語意不符；assign（指派、分配）語意不符；assimilate（同化、吸收）語意不符，四字同為 as- 字首形似詞，屬進階詞彙易混淆辨析。"
     }
   ],
   "p6": {
-    "id": "2026-09-05-p6",
-    "title": "MEMORANDUM: Updated Guidelines for Vendor Gift and Hospitality Acceptance",
+    "id": "2026-09-06-p6",
+    "title": "MEMORANDUM: New Policy on the Use of Generative AI Tools in Client Deliverables",
     "seg": [
       [
-        "To all procurement and sales staff: Under the newly revised code of conduct, any gift or hospitality offered by a current or prospective vendor valued at more than NT$3,000 ",
+        "To all consulting staff: Effective immediately, any client deliverable that incorporates content generated by a third-party AI tool ",
         { "b": 0 },
-        " to the Ethics Office before it is accepted, regardless of the occasion."
+        " to a human review process before submission, regardless of how minor the AI-generated portion may appear."
       ],
       [
         { "b": 1 },
-        ", token items of nominal value, such as branded pens or calendars distributed at trade shows, are exempt from this disclosure requirement."
+        ", deliverables that rely solely on AI-generated first drafts, without any substantive human analysis or judgment layered on top, are strictly prohibited under this policy."
       ],
       [
-        "Employees who are uncertain whether a particular gift falls within the exempted category should ",
+        "Any employee who fails to ",
         { "b": 2 },
-        " the Ethics Office before making a decision."
+        " the required disclosure when AI tools were used in preparing a deliverable will be subject to internal review."
       ],
       [
         { "b": 3 },
-        " Failure to comply with this policy may result in disciplinary action up to and including termination of employment."
+        " A dedicated FAQ page addressing common scenarios has been published on the internal knowledge base."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["must be disclosed", "discloses", "has disclosed", "is disclosing"],
+        "opts": ["must be subjected", "subjects", "has subjected", "is subjecting"],
         "ans": 0,
-        "zh": "致所有採購與業務同仁：依據最新修訂的行為準則，任何現有或潛在供應商所提供、價值超過新台幣3,000元的餽贈或款待，無論名目為何，接受前皆「須先」向倫理辦公室揭露。",
-        "why": "餽贈是被揭露的對象，此句表達強制性規定，須用被動情態動詞 <b>must be disclosed</b>。discloses 為主動現在式，不符被動需求；has disclosed 為現在完成式主動語態，語意錯誤（餽贈不會自行 disclose）；is disclosing 為現在進行式主動語態，同樣不符合規定語氣。"
+        "zh": "致所有顧問同仁：自即日起，任何交付客戶的成果只要包含第三方AI工具生成的內容，無論AI生成比例看似多麼輕微，提交前皆「須經過」人工審查程序。",
+        "why": "交付成果是被審查的對象，此句表達即刻生效的強制性規定，須用被動情態動詞 <b>must be subjected</b>（必須被交付審查）。subjects 為主動現在式動詞，不符被動需求；has subjected 為現在完成式主動語態，語意錯誤；is subjecting 為現在進行式主動語態，同樣不符合規定語氣與語態。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["That said", "As a result", "Likewise", "In turn"],
+        "opts": ["Moreover", "Otherwise", "For instance", "Meanwhile"],
         "ans": 0,
-        "zh": "「話雖如此」，於商展中發放、價值象徵性極低的小贈品（如印有品牌的原子筆或月曆），則不受此揭露規定所限。",
-        "why": "<b>That said</b>（話雖如此）用以在陳述嚴格規定後引出例外情況，構成語意上的轉折銜接。As a result（因此）表因果；Likewise（同樣地）表類比延續；In turn（依次）表順序關係，皆不符合此處的轉折例外語意。"
+        "zh": "「此外」，若成果完全仰賴AI生成的初稿、未經任何實質人工分析或判斷疊加，則本政策嚴格禁止此類做法。",
+        "why": "<b>Moreover</b>（此外）表遞進補充，承接前句「須經人工審查」的規定，進一步說明完全依賴AI初稿的做法屬於嚴格禁止範疇。Otherwise（否則）表條件對比；For instance（例如）表舉例；Meanwhile（同時）表時間並行，皆不符合此處遞進補充的語意。"
       },
       {
-        "tag": "詞彙語意（動詞辨析，con-字首形似詞）",
+        "tag": "詞彙語意（動詞辨析，字形相似詞）",
         "col1": true,
-        "opts": ["consult", "console", "conserve", "convene"],
+        "opts": ["furnish", "furbish", "flourish", "fortify"],
         "ans": 0,
-        "zh": "若同仁不確定特定餽贈是否屬於豁免類別，應在做出決定前先「洽詢」倫理辦公室。",
-        "why": "<b>consult</b>（洽詢、諮詢）精準對應此處語境。console（安慰）語意不符；conserve（保存、節約）語意不符；convene（召集會議）語意不符，四字形似易混淆，屬進階詞彙辨析。"
+        "zh": "若員工在使用AI工具準備成果時，未能「提供」所需的揭露聲明，將面臨內部審查。",
+        "why": "<b>furnish</b>（提供、供給，正式用語）精準對應此處「未提供揭露聲明」的語境。furbish（擦亮、翻新）語意不符；flourish（茁壯成長、揮舞）語意不符；fortify（強化、增強防禦）語意不符，四字型態相似易混淆，屬進階詞彙辨析。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "All disclosures will be reviewed confidentially and will not be shared with an employee's direct manager unless a conflict of interest is identified.",
-          "The company's annual charity gala will take place in early December this year.",
-          "Employees may request reimbursement for approved client entertainment expenses through the usual channel.",
-          "The office will be closed for the upcoming national holiday on Monday."
+          "Team leads are expected to walk through this policy with every member of their team during the next scheduled staff meeting.",
+          "The firm's annual client appreciation event has been rescheduled to October.",
+          "All consultants must complete their expense reports by the fifteenth of each month.",
+          "The parking garage will undergo routine maintenance this coming weekend."
         ],
         "ans": 0,
-        "zh": "「所有揭露內容將以保密方式審查，除非發現利益衝突，否則不會與員工的直屬主管分享。」若未能遵守本政策，可能導致紀律處分，甚至包含終止聘僱關係。",
-        "why": "段落主題為「供應商餽贈與款待接受準則」，此句說明揭露內容將保密處理，與下一句「違規將受懲處」共同構成政策執行與保障措施的完整收尾。其餘選項（年度慈善晚會、客戶招待報帳、國定假日休館）皆與餽贈揭露政策無關，插入後語意斷裂。"
+        "zh": "「各團隊主管須於下次排定的員工會議中，向團隊每位成員逐項說明本政策。」內部知識庫已發布專屬常見問題頁面，說明常見情境的處理方式。",
+        "why": "段落主題為「客戶交付成果中使用生成式AI工具之新政策」，此句要求主管向團隊說明政策，與下一句「FAQ頁面已發布」共同構成政策推行與支援措施的完整收尾。其餘選項（客戶感謝活動、報帳期限、停車場維護）皆與AI工具使用政策無關，插入後語意斷裂。"
       }
     ]
   }
