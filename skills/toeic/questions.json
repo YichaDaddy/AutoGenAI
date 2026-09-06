@@ -1,117 +1,117 @@
 {
-  "date": "2026-09-06",
+  "date": "2026-09-07",
   "p5": [
     {
-      "id": "2026-09-06-p5-0",
-      "tag": "倒裝句（So + 形容詞 + be動詞 + 主詞 + that，強調程度）",
+      "id": "2026-09-07-p5-0",
+      "tag": "讓步子句（Whatever + 名詞，無論...）",
       "pre": "",
-      "post": " dire were the projected losses that the board convened an emergency session within hours of receiving the forecast.",
-      "opts": ["So", "Such", "Very", "Too"],
+      "post": " reservations the committee members may have privately harbored, they unanimously approved the merger proposal in the end.",
+      "opts": ["Whatever", "However", "Whichever", "Whoever"],
       "ans": 0,
-      "zh": "預估虧損「如此」嚴峻，以至於董事會在收到預測報告數小時內便召開緊急會議。",
-      "why": "<b>So</b> + 形容詞置於句首時，須將 be 動詞與主詞倒裝，構成「So + adj + be + 主詞 + that」句型，強調程度之深。Such 須搭配名詞使用（如 Such dire losses），不可直接接形容詞 dire 再接 be 動詞倒裝；Very 不具備引發倒裝的功能；Too 通常搭配 to V（too...to），不構成 that 子句的因果強調句型。"
+      "zh": "無論委員會成員私底下曾抱持何種疑慮，他們最終仍一致通過了這項併購提案。",
+      "why": "<b>Whatever</b> 可直接修飾名詞（reservations），構成「無論…」的讓步子句，意為 no matter what reservations。However 通常修飾形容詞或副詞（However + adj/adv + 主詞 + 動詞），不能直接修飾名詞 reservations；Whichever 用於有限範圍內的選擇，語境不符；Whoever 指涉人，與此處的 reservations（疑慮，屬事物）不搭配。"
     },
     {
-      "id": "2026-09-06-p5-1",
-      "tag": "比較結構（The more...the more，成正比關係）",
-      "pre": "The more thoroughly the auditors examined the subsidiary's books, ",
-      "post": " discrepancies they uncovered between reported and actual revenue.",
-      "opts": ["the more", "more", "the most", "much more"],
-      "ans": 0,
-      "zh": "稽核人員愈是徹底檢視這家子公司的帳冊，愈是發現通報營收與實際營收之間的落差。",
-      "why": "<b>The more...the more</b> 為固定成正比句型，前後兩子句皆須以 the more 起始，表示兩者程度同步增加。more 缺少定冠詞 the，不符固定句型；the most 為最高級，不適用於此處的比例對應關係；much more 為單純修飾語，無法構成此固定句型的第二個子句。"
-    },
-    {
-      "id": "2026-09-06-p5-2",
-      "tag": "減化關係子句（過去分詞作後置修飾語）",
-      "pre": "The proposal ",
-      "post": " by the finance committee last quarter has since been revised to reflect updated market conditions.",
-      "opts": ["submitted", "submitting", "which submitted", "was submitted"],
-      "ans": 0,
-      "zh": "財務委員會上一季提交的這份提案，如今已經過修訂以反映最新的市場狀況。",
-      "why": "<b>submitted</b> 為過去分詞，用來減化 which was submitted by the finance committee，作為 The proposal 的後置修飾語，表被動語意（提案是被提交的）。submitting 為現在分詞，語意變為主動，邏輯不通；which submitted 主謂不一致且缺少被動語態，文法錯誤；was submitted 為完整動詞形式，若使用則整句將缺少主要動詞（後方 has since been revised 才是主要動詞），句構不成立。"
-    },
-    {
-      "id": "2026-09-06-p5-3",
-      "tag": "讓步連接詞（Much as，＝although，正式書面用法）",
+      "id": "2026-09-07-p5-1",
+      "tag": "分詞構句（Being + 形容詞，表原因）",
       "pre": "",
-      "post": " the interim CEO admired the outgoing founder's vision, she was determined to overhaul the company's outdated pricing model.",
-      "opts": ["Much as", "As much", "So much", "Much so"],
+      "post": " wary of overextending its balance sheet, the company opted to finance the expansion through equity rather than debt.",
+      "opts": ["Being", "Been", "To be", "Be"],
       "ans": 0,
-      "zh": "儘管代理執行長十分欽佩這位即將卸任創辦人的願景，她仍決心徹底改革公司過時的定價模式。",
-      "why": "<b>Much as</b> 為正式讓步連接詞，意為「儘管」，可直接接「主詞＋動詞」的完整子句。As much 語序顛倒，不具備讓步連接詞的功能；So much 通常用於程度修飾（so much that...），不具讓步語意；Much so 並非固定搭配，不成立。"
+      "zh": "由於擔心資產負債表過度擴張，該公司選擇以股權融資而非舉債來進行這次擴張。",
+      "why": "<b>Being + 形容詞</b> 為分詞構句的固定形式，用以表達原因（= Because it was wary of...）。Been 為過去分詞，無法單獨置於句首構成分詞構句；To be 為不定詞，語意及句構皆不符；Be 為原形動詞，不可直接置於句首作分詞構句。"
     },
     {
-      "id": "2026-09-06-p5-4",
-      "tag": "進階動詞語意辨別（assuage，as-字首形似詞）",
-      "pre": "The spokesperson's carefully worded statement did little to ",
-      "post": " investors' growing concerns about the company's mounting debt.",
-      "opts": ["assuage", "assail", "assign", "assimilate"],
+      "id": "2026-09-07-p5-2",
+      "tag": "比較結構（no less...than，同等程度比較）",
+      "pre": "The due-diligence process for this acquisition proved to be ",
+      "post": " rigorous than the one conducted for last year's larger transaction.",
+      "opts": ["no less", "no fewer", "not less", "none the less"],
       "ans": 0,
-      "zh": "這位發言人措辭謹慎的聲明，幾乎未能「緩解」投資人對公司債務日益攀升的憂慮。",
-      "why": "<b>assuage</b>（緩解、減輕，尤指憂慮或不安）精準對應此處語境。assail（猛烈攻擊）語意不符；assign（指派、分配）語意不符；assimilate（同化、吸收）語意不符，四字同為 as- 字首形似詞，屬進階詞彙易混淆辨析。"
+      "zh": "這次收購案的盡職調查程序，其嚴謹程度「絲毫不亞於」去年那筆規模更大的交易。",
+      "why": "<b>no less...than</b> 為固定比較結構，用於修飾形容詞（rigorous），表示「不亞於」的同等程度比較。no fewer 須搭配可數名詞複數（如 no fewer than ten slots），不可修飾形容詞 rigorous；not less 語序及慣用性不若 no less 自然，此處不成立固定搭配；none the less 為副詞片語（意為「儘管如此」），無法置於此處銜接後方的 than 子句結構。"
+    },
+    {
+      "id": "2026-09-07-p5-3",
+      "tag": "強調助動詞（did + 原形動詞，強調對比事實）",
+      "pre": "Although the initial audit had raised no red flags, the revised report, produced only weeks later, ",
+      "post": " reveal several material discrepancies that had previously gone unnoticed.",
+      "opts": ["did", "was", "has", "would"],
+      "ans": 0,
+      "zh": "儘管最初的稽核並未發現任何異常警訊，這份數週後完成的修訂報告，「確實」揭露了先前未被注意到的幾項重大差異。",
+      "why": "<b>did</b> + 原形動詞為強調助動詞用法，用以對比並強調「確實發生」的既成事實，呼應前句「並未發現警訊」的對比語氣。was 須接現在分詞或過去分詞，不可直接接原形動詞 reveal；has 須接過去分詞（has revealed）；would 表假設或未來式視角的推測，與此處差異「已確實被發現」（had gone unnoticed，屬已完成的既成事實）的語意不符。"
+    },
+    {
+      "id": "2026-09-07-p5-4",
+      "tag": "進階動詞語意辨別（preclude，-clude 字根形似詞）",
+      "pre": "The confidentiality clause in the settlement agreement does not ",
+      "post": " either party from discussing the general terms in broad, non-specific language.",
+      "opts": ["preclude", "conclude", "occlude", "elude"],
+      "ans": 0,
+      "zh": "這份和解協議中的保密條款，並不「排除」雙方以概括、非特定的措辭討論一般性條款的可能性。",
+      "why": "<b>preclude</b>（排除、阻止…發生的可能性）精準對應此處語境。conclude（做出結論、締結，如 conclude a deal）語意不符；occlude（阻塞，多用於醫學或物理阻塞情境）語意不符；elude（逃避、躲避追捕或理解）語意不符，四字同源自拉丁字根 -clude（關閉），屬進階詞彙易混淆辨析。"
     }
   ],
   "p6": {
-    "id": "2026-09-06-p6",
-    "title": "MEMORANDUM: New Policy on the Use of Generative AI Tools in Client Deliverables",
+    "id": "2026-09-07-p6",
+    "title": "MEMORANDUM: Revised Escalation Procedure for IT Security Incidents",
     "seg": [
       [
-        "To all consulting staff: Effective immediately, any client deliverable that incorporates content generated by a third-party AI tool ",
+        "To all staff: Beginning this month, any suspected security incident, including phishing attempts, unauthorized access, or suspicious system behavior, ",
         { "b": 0 },
-        " to a human review process before submission, regardless of how minor the AI-generated portion may appear."
+        " to the IT Security Hotline within one hour of discovery, rather than being routed through the standard help-desk ticketing system."
       ],
       [
         { "b": 1 },
-        ", deliverables that rely solely on AI-generated first drafts, without any substantive human analysis or judgment layered on top, are strictly prohibited under this policy."
+        ", incidents involving potential exposure of customer data must additionally be escalated to the Legal and Compliance teams within the same one-hour window."
       ],
       [
-        "Any employee who fails to ",
+        "Employees should refrain from attempting to ",
         { "b": 2 },
-        " the required disclosure when AI tools were used in preparing a deliverable will be subject to internal review."
+        " the incident on their own, as doing so may inadvertently destroy evidence needed for a thorough investigation."
       ],
       [
         { "b": 3 },
-        " A dedicated FAQ page addressing common scenarios has been published on the internal knowledge base."
+        " A revised incident-response flowchart has been posted on the IT Security intranet page for quick reference."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["must be subjected", "subjects", "has subjected", "is subjecting"],
+        "opts": ["must be reported", "reports", "has reported", "is reporting"],
         "ans": 0,
-        "zh": "致所有顧問同仁：自即日起，任何交付客戶的成果只要包含第三方AI工具生成的內容，無論AI生成比例看似多麼輕微，提交前皆「須經過」人工審查程序。",
-        "why": "交付成果是被審查的對象，此句表達即刻生效的強制性規定，須用被動情態動詞 <b>must be subjected</b>（必須被交付審查）。subjects 為主動現在式動詞，不符被動需求；has subjected 為現在完成式主動語態，語意錯誤；is subjecting 為現在進行式主動語態，同樣不符合規定語氣與語態。"
+        "zh": "致所有同仁：自本月起，任何疑似的資安事件，包括釣魚郵件、未經授權存取，或可疑的系統行為，發現後一小時內皆「須通報」資安專線，而非透過標準客服系統回報。",
+        "why": "事件是被通報的對象，此句表達即刻起適用的強制性規定，須用被動情態動詞 <b>must be reported</b>。reports 為主動現在式，不符被動需求；has reported 為現在完成式主動語態，語意錯誤；is reporting 為現在進行式主動語態，同樣不符合規定語氣。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["Moreover", "Otherwise", "For instance", "Meanwhile"],
+        "opts": ["In addition", "Otherwise", "By contrast", "Nonetheless"],
         "ans": 0,
-        "zh": "「此外」，若成果完全仰賴AI生成的初稿、未經任何實質人工分析或判斷疊加，則本政策嚴格禁止此類做法。",
-        "why": "<b>Moreover</b>（此外）表遞進補充，承接前句「須經人工審查」的規定，進一步說明完全依賴AI初稿的做法屬於嚴格禁止範疇。Otherwise（否則）表條件對比；For instance（例如）表舉例；Meanwhile（同時）表時間並行，皆不符合此處遞進補充的語意。"
+        "zh": "「此外」，若事件涉及客戶資料可能外洩，須在同樣的一小時內另外通報法務與法遵團隊。",
+        "why": "<b>In addition</b>（此外）表遞進補充，承接前句的通報規定，進一步說明涉及客戶資料的事件須額外通報。Otherwise（否則）表條件對比；By contrast（相較之下）表對比；Nonetheless（儘管如此）表轉折讓步，皆不符合此處的遞進補充語意。"
       },
       {
-        "tag": "詞彙語意（動詞辨析，字形相似詞）",
+        "tag": "詞彙語意（動詞辨析，re-字首形似詞）",
         "col1": true,
-        "opts": ["furnish", "furbish", "flourish", "fortify"],
+        "opts": ["remediate", "reiterate", "reciprocate", "recapitulate"],
         "ans": 0,
-        "zh": "若員工在使用AI工具準備成果時，未能「提供」所需的揭露聲明，將面臨內部審查。",
-        "why": "<b>furnish</b>（提供、供給，正式用語）精準對應此處「未提供揭露聲明」的語境。furbish（擦亮、翻新）語意不符；flourish（茁壯成長、揮舞）語意不符；fortify（強化、增強防禦）語意不符，四字型態相似易混淆，屬進階詞彙辨析。"
+        "zh": "同仁應避免自行嘗試「補救處理」此類事件，因為這麼做可能在無意間破壞徹底調查所需的證據。",
+        "why": "<b>remediate</b>（補救、修復處理，資安領域常用語）精準對應此處語境。reiterate（重申、重複陳述）語意不符；reciprocate（互惠、回報）語意不符；recapitulate（摘要重述）語意不符，四字型態相似易混淆，屬進階詞彙辨析。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Team leads are expected to walk through this policy with every member of their team during the next scheduled staff meeting.",
-          "The firm's annual client appreciation event has been rescheduled to October.",
-          "All consultants must complete their expense reports by the fifteenth of each month.",
-          "The parking garage will undergo routine maintenance this coming weekend."
+          "Employees who are unsure whether an observed behavior qualifies as a reportable incident should err on the side of reporting it.",
+          "The IT department's help desk will be closed for a training session next Tuesday afternoon.",
+          "All employees are required to change their network passwords every ninety days.",
+          "The company's annual cybersecurity awareness training will be held in November."
         ],
         "ans": 0,
-        "zh": "「各團隊主管須於下次排定的員工會議中，向團隊每位成員逐項說明本政策。」內部知識庫已發布專屬常見問題頁面，說明常見情境的處理方式。",
-        "why": "段落主題為「客戶交付成果中使用生成式AI工具之新政策」，此句要求主管向團隊說明政策，與下一句「FAQ頁面已發布」共同構成政策推行與支援措施的完整收尾。其餘選項（客戶感謝活動、報帳期限、停車場維護）皆與AI工具使用政策無關，插入後語意斷裂。"
+        "zh": "「若同仁不確定所觀察到的行為是否構成須通報的事件，應寧可通報也不要輕忽。」IT資安團隊已於內部網路頁面發布修訂版事件應變流程圖，供同仁快速查閱。",
+        "why": "段落主題為「資安事件通報流程修訂」，此句提醒同仁若有疑慮應寧可通報，與下一句「流程圖已發布供查閱」共同構成政策執行與支援措施的完整收尾。其餘選項（客服系統維護、密碼變更規定、年度資安訓練）皆與本次事件通報流程修訂無關，插入後語意斷裂。"
       }
     ]
   }
