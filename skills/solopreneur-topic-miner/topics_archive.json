@@ -1,5 +1,57 @@
 [
   {
+    "date": "2026-09-06",
+    "big_events": [
+      {
+        "title": "Anthropic 15億美元著作權和解金爆分配羅生門，作者收到通知才發現出版社、經紀人也搶著分一杯羹",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/"
+          },
+          {
+            "name": "The Next Web（引述紐約時報）",
+            "url": "https://thenextweb.com/news/anthropic-settlement-authors-publishers-payout-split"
+          },
+          {
+            "name": "Publishers Lunch",
+            "url": "https://lunch.publishersmarketplace.com/2026/09/widespread-problems-as-authors-receive-anthropic-settlement-notices/"
+          }
+        ],
+        "summary": "作者收到和解金通知才發現出版社、經紀人也對同一筆賠償主張分潤，引發分配爭議",
+        "audience": "經營寫作／出版相關內容的自媒體創作者、獨立作者、關心AI訓練資料版權議題的科技評論者",
+        "pain_point": "很多內容創作者以為官司和解後「作品被拿去訓練AI總算有賠」，卻沒想到真正要領錢時，出版社、經紀人還會跳出來主張分一部分，賠償金到手前還要先打一場分配拉鋸戰",
+        "title_idea": "15億美元和解金沒那麼好領！作者才剛收到通知，出版社、經紀人就搶著分一杯羹",
+        "local_angle": "華語圈對海外AI著作權集體訴訟的討論多半停留在「有沒有判賠」，鮮少深入「賠了之後錢怎麼分」這種實務細節，適合做「AI訓練資料賠償金流向」系列，提醒本地創作者簽約時該留意的版權分潤條款"
+      }
+    ],
+    "tool_updates": [],
+    "trends": [
+      {
+        "title": "共享經濟教父Kalanick新創Atoms傳進軍機器人計程車，嘴上否認卻已挖角Uber、特斯拉、Waymo人才",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/"
+          },
+          {
+            "name": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/technology/articles/travis-kalanick-atoms-might-getting-164500551.html"
+          },
+          {
+            "name": "The Next Web",
+            "url": "https://thenextweb.com/news/atoms-kalanick-levandowski-robotaxi-uber-100m"
+          }
+        ],
+        "summary": "Atoms否認要做機器人計程車，卻被爆已籌備收購、大舉挖角，Uber也已投資1億美元",
+        "audience": "關注自駕／機器人計程車產業動態的科技評論自媒體、投資型創作者、對AI結合硬體新創案例有興趣的獨立開發者",
+        "pain_point": "多數人只看到Tesla Cybercab首發翻車的新聞，卻不知道背後還有像Kalanick這種老玩家悄悄佈局機器人計程車市場，也搞不懂新創公司「嘴巴否認、動作卻很誠實」的資本操作邏輯該怎麼解讀",
+        "title_idea": "Uber創辦人回來搶自駕市場？Atoms嘴上否認做機器人計程車，動作卻很誠實",
+        "local_angle": "華語圈上週才報過Tesla Cybercab首發翻車的新聞，這則報導補上「幕後還有誰在搶進機器人計程車賽道」的資訊差，適合做「自駕計程車卡位戰」系列，串起Kalanick東山再起的創業故事"
+      }
+    ]
+  },
+  {
     "date": "2026-09-05",
     "big_events": [
       {
@@ -710,34 +762,5 @@
         "local_angle": "華語圈討論Grok多聚焦馬斯克個人話題或爭議發言，鮮少有人整理「Grok在採用率、App排名上到底輸給對手多少」的具體數據對比，適合做「四大AI助理採用率排名」科普選題，幫觀眾釐清該把心力放在哪個AI生態圈"
       }
     ]
-  },
-  {
-    "date": "2026-08-30",
-    "big_events": [],
-    "tool_updates": [
-      {
-        "title": "OpenAI正式關閉ChatGPT內建DALL·E GPT工具,今日起用戶須改用ChatGPT Images",
-        "sources": [
-          {
-            "name": "Tom's Guide",
-            "url": "https://www.tomsguide.com/ai/chatgpt/you-have-until-august-30-to-save-your-chatgpt-dall-e-images-heres-how-to-avoid-losing-them-forever"
-          },
-          {
-            "name": "Windows Report",
-            "url": "https://windowsreport.com/openai-will-retire-the-official-dalle-gpt-on-august-30/"
-          },
-          {
-            "name": "Notebookcheck",
-            "url": "https://www.notebookcheck.net/DALL-E-leaves-ChatGPT-on-August-30-download-your-images-first.1360522.0.html"
-          }
-        ],
-        "summary": "官方DALL·E GPT今日正式從ChatGPT下架,用戶需改用ChatGPT Images生成圖片",
-        "audience": "教學「ChatGPT畫圖」的自媒體創作者、依賴AI繪圖做內容/設計的創作者、AI工具新手",
-        "pain_point": "華語圈許多舊教學文章/影片截圖與步驟都還是DALL·E GPT介面,今天起入口完全消失,觀眾照著操作會找不到工具,創作者的舊內容會突然失效卻不自知,也不清楚新版ChatGPT Images差異在哪、該怎麼無痛轉移",
-        "title_idea": "老牌AI繪圖工具今天正式退場!ChatGPT畫圖教學全面失效,新版怎麼用一次搞懂",
-        "local_angle": "官方7月底就公告要退役,但很多用戶與創作者直到今天工具真的消失才驚覺,適合搶時效做「舊教學失效怎麼辦」勘誤更新文,同時卡位『DALL-E不見了』相關關鍵字搜尋流量,順便科普新版ChatGPT Images好用在哪裡"
-      }
-    ],
-    "trends": []
   }
 ]
