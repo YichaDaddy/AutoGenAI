@@ -1,52 +1,58 @@
 {
-  "date": "2026-09-06",
+  "date": "2026-09-07",
   "big_events": [
     {
-      "title": "Anthropic 15億美元著作權和解金爆分配羅生門，作者收到通知才發現出版社、經紀人也搶著分一杯羹",
+      "title": "美國媽媽曬親子對唱影片，Meta AI建議提問曝光全家隱私資料",
       "sources": [
         {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/"
+          "name": "LatestLY",
+          "url": "https://www.latestly.com/social-viral/meta-ai-privacy-scare-us-mom-says-ai-revealed-her-childrens-names-photos-and-birth-details-video-7592761.html"
         },
         {
-          "name": "The Next Web（引述紐約時報）",
-          "url": "https://thenextweb.com/news/anthropic-settlement-authors-publishers-payout-split"
+          "name": "Free Press Journal",
+          "url": "https://www.freepressjournal.in/amp/viral/whos-the-child-passenger-mother-raises-alarm-after-meta-ai-links-her-childrens-social-media-data-video"
         },
         {
-          "name": "Publishers Lunch",
-          "url": "https://lunch.publishersmarketplace.com/2026/09/widespread-problems-as-authors-receive-anthropic-settlement-notices/"
+          "name": "X（Mario Nawfal）",
+          "url": "https://x.com/MarioNawfal/status/2096044391823745290"
         }
       ],
-      "summary": "作者收到和解金通知才發現出版社、經紀人也對同一筆賠償主張分潤，引發分配爭議",
-      "audience": "經營寫作／出版相關內容的自媒體創作者、獨立作者、關心AI訓練資料版權議題的科技評論者",
-      "pain_point": "很多內容創作者以為官司和解後「作品被拿去訓練AI總算有賠」，卻沒想到真正要領錢時，出版社、經紀人還會跳出來主張分一部分，賠償金到手前還要先打一場分配拉鋸戰",
-      "title_idea": "15億美元和解金沒那麼好領！作者才剛收到通知，出版社、經紀人就搶著分一杯羹",
-      "local_angle": "華語圈對海外AI著作權集體訴訟的討論多半停留在「有沒有判賠」，鮮少深入「賠了之後錢怎麼分」這種實務細節，適合做「AI訓練資料賠償金流向」系列，提醒本地創作者簽約時該留意的版權分潤條款"
+      "summary": "母親貼親子唱歌影片，Meta AI建議問題洩漏孩童姓名、生日、舊照片與住址",
+      "audience": "常在Facebook/IG曬小孩生活的家長型創作者、關注AI隱私與資安議題的職場上班族、經營親子或家庭類自媒體的內容創作者",
+      "pain_point": "很多人不知道自己多年來散落在不同家人帳號上的照片、貼文，AI能一次串連起來變成一份完整的「個人檔案」，連自己都忘記發過或已刪除的內容都會被翻出來",
+      "title_idea": "貼一支親子唱歌影片，Meta AI竟把孩子的身家調查曝光！海外媽媽的隱私震撼教育",
+      "local_angle": "華語圈家長普遍愛在社群曬小孩生活紀錄，但幾乎沒人意識到AI助理有能力「跨貼文、跨帳號」拼湊個資，適合做「AI時代曬娃防雷指南」提醒型選題，教觀眾檢查自己的隱私設定與AI建議提問功能"
     }
   ],
   "tool_updates": [],
   "trends": [
     {
-      "title": "共享經濟教父Kalanick新創Atoms傳進軍機器人計程車，嘴上否認卻已挖角Uber、特斯拉、Waymo人才",
+      "title": "TechCrunch出手科普：一次搞懂『不透明循環推理』等最新AI黑話",
       "sources": [
         {
           "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/"
-        },
-        {
-          "name": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/technology/articles/travis-kalanick-atoms-might-getting-164500551.html"
-        },
-        {
-          "name": "The Next Web",
-          "url": "https://thenextweb.com/news/atoms-kalanick-levandowski-robotaxi-uber-100m"
+          "url": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/"
         }
       ],
-      "summary": "Atoms否認要做機器人計程車，卻被爆已籌備收購、大舉挖角，Uber也已投資1億美元",
-      "audience": "關注自駕／機器人計程車產業動態的科技評論自媒體、投資型創作者、對AI結合硬體新創案例有興趣的獨立開發者",
-      "pain_point": "多數人只看到Tesla Cybercab首發翻車的新聞，卻不知道背後還有像Kalanick這種老玩家悄悄佈局機器人計程車市場，也搞不懂新創公司「嘴巴否認、動作卻很誠實」的資本操作邏輯該怎麼解讀",
-      "title_idea": "Uber創辦人回來搶自駕市場？Atoms嘴上否認做機器人計程車，動作卻很誠實",
-      "local_angle": "華語圈上週才報過Tesla Cybercab首發翻車的新聞，這則報導補上「幕後還有誰在搶進機器人計程車賽道」的資訊差，適合做「自駕計程車卡位戰」系列，串起Kalanick東山再起的創業故事"
+      "summary": "TechCrunch整理AI術語懶人包，解釋Astra『不透明循環推理』等安全爭議詞彙",
+      "audience": "想跟上AI話題卻常聽不懂術語的職場上班族、需要向主管或客戶解釋AI概念的顧問與行銷人員",
+      "pain_point": "AI新聞天天冒出「循環推理」「幻覺」「代理人」等新詞，一般上班族根本查不到白話中文解釋，開會被問到只能裝懂",
+      "title_idea": "『不透明循環推理』是什麼？一次讀懂2026年必知AI黑話懶人包",
+      "local_angle": "華語圈AI教學多半直接翻譯技術文件，鮮少有人做「一般人也看得懂」的AI詞彙科普，適合搶先翻譯這份懶人包，卡位「AI關鍵字教學」系列長期經營SEO"
+    },
+    {
+      "title": "Anthropic上市前夕首見季度轉盈，特殊治理結構恐成公開市場照妖鏡",
+      "sources": [
+        {
+          "name": "Digitimes",
+          "url": "https://www.digitimes.com/news/a20260907VL204/anthropic-governance-ipo-expansion-growth.html"
+        }
+      ],
+      "summary": "Anthropic傳Q2首度轉盈、營收達109億美元，特殊治理結構引發投資人疑慮",
+      "audience": "關注AI巨頭資本動態的投資型自媒體創作者、對Claude生態系有興趣的科技評論者、想了解AI獨角獸財務體質的內容創作者",
+      "pain_point": "大家只聽過Anthropic要上市、估值破兆，卻不知道公司財報首度轉盈的具體數字，也搞不懂「特殊治理結構」到底會不會嚇跑一般投資人",
+      "title_idea": "Anthropic上市前秀出首張轉盈成績單，這個「治理結構」可能才是投資人最頭痛的地雷",
+      "local_angle": "華語財經媒體對Anthropic IPO的報導多停留在「估值破兆」的驚嘆句，很少人整理季度營收、獲利與治理結構等具體投資評估重點，適合做「Anthropic上市體檢報告」系列，補上財務細節的資訊差"
     }
   ]
 }
