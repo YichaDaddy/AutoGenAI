@@ -1,117 +1,117 @@
 {
-  "date": "2026-09-07",
+  "date": "2026-09-08",
   "p5": [
     {
-      "id": "2026-09-07-p5-0",
-      "tag": "讓步子句（Whatever + 名詞，無論...）",
+      "id": "2026-09-08-p5-0",
+      "tag": "倒裝句（Only after + 時間片語，引發部分倒裝）",
+      "pre": "Only ",
+      "post": " after the third round of negotiations did the two companies finally agree on a mutually acceptable valuation.",
+      "opts": ["Only", "Not", "Even", "Just"],
+      "ans": 0,
+      "zh": "直到第三輪談判之後，這兩家公司才終於就雙方都能接受的估值達成共識。",
+      "why": "<b>Only</b> 修飾 after 引導的時間片語並置於句首時，主要子句須引發部分倒裝（did the two companies finally agree）。Not 通常須搭配 until 構成 Not until，不可直接搭配 after；Even 雖可修飾 after，但不會引發倒裝；Just 同樣不具備引發倒裝的功能。"
+    },
+    {
+      "id": "2026-09-08-p5-1",
+      "tag": "動名詞 vs 不定詞（regret + Ving，表示對已發生行為的懊悔）",
+      "pre": "The company deeply regretted ",
+      "post": " the merger without securing regulatory clearance first, as the resulting legal exposure proved far costlier than anticipated.",
+      "opts": ["finalizing", "to finalize", "finalize", "having finalize"],
+      "ans": 0,
+      "zh": "這家公司深深後悔在未取得監管許可前就「敲定」了這樁併購案，因為後續產生的法律風險遠比預期昂貴。",
+      "why": "<b>regret + 動名詞（Ving）</b>表示「後悔已經做過的某件事」（regret finalizing ≈ regret having finalized）。regret + to V 則表示「很遺憾要說／做接下來的事」（如 We regret to inform you...），語意不符此處「後悔過去已完成的行為」；finalize 為原形動詞，文法上不成立；having finalize 動詞形式錯誤（應為 having finalized），不成立。"
+    },
+    {
+      "id": "2026-09-08-p5-2",
+      "tag": "強調結果子句（was such that，表示「如此…以至於」）",
+      "pre": "The volatility in the currency markets was ",
+      "post": " that several multinational corporations suspended their hedging strategies altogether.",
+      "opts": ["such", "so", "too", "very"],
+      "ans": 0,
+      "zh": "貨幣市場的波動「如此劇烈」，以至於多家跨國企業乾脆暫停了避險操作。",
+      "why": "<b>was such that</b> 為固定用法，置於名詞主詞後表示「如此（程度）以至於」，此處 such 代替了程度形容詞的角色。so 通常須搭配形容詞使用（so volatile that），不能單獨接在 be 動詞後代替名詞的程度描述；too 通常搭配 to V 或 for，不構成 that 子句的結果句型；very 為程度副詞，無法接續 that 子句構成因果結果。"
+    },
+    {
+      "id": "2026-09-08-p5-3",
+      "tag": "讓步連接詞片語（Granted that，正式讓步用法，＝although it is conceded that）",
       "pre": "",
-      "post": " reservations the committee members may have privately harbored, they unanimously approved the merger proposal in the end.",
-      "opts": ["Whatever", "However", "Whichever", "Whoever"],
+      "post": " the proposed timeline is aggressive, the project team remains confident that the launch date can be met without compromising quality.",
+      "opts": ["Granted that", "Grant that", "To grant that", "Granting it"],
       "ans": 0,
-      "zh": "無論委員會成員私底下曾抱持何種疑慮，他們最終仍一致通過了這項併購提案。",
-      "why": "<b>Whatever</b> 可直接修飾名詞（reservations），構成「無論…」的讓步子句，意為 no matter what reservations。However 通常修飾形容詞或副詞（However + adj/adv + 主詞 + 動詞），不能直接修飾名詞 reservations；Whichever 用於有限範圍內的選擇，語境不符；Whoever 指涉人，與此處的 reservations（疑慮，屬事物）不搭配。"
+      "zh": "儘管承認這項提案時程頗具挑戰性，專案團隊仍有信心能在不犧牲品質的前提下如期完成上線。",
+      "why": "<b>Granted that</b> 為正式讓步連接詞片語，意為「姑且承認…」，可直接接「主詞＋動詞」的完整子句。Grant that 為祈使句或原形動詞用法，不具備讓步連接詞的句首功能；To grant that 為不定詞片語，不成立此處句首連接詞的角色；Granting it 語意及文法皆不通順。"
     },
     {
-      "id": "2026-09-07-p5-1",
-      "tag": "分詞構句（Being + 形容詞，表原因）",
-      "pre": "",
-      "post": " wary of overextending its balance sheet, the company opted to finance the expansion through equity rather than debt.",
-      "opts": ["Being", "Been", "To be", "Be"],
+      "id": "2026-09-08-p5-4",
+      "tag": "進階動詞語意辨別（mitigate，mi-字首形似詞）",
+      "pre": "The firm implemented a series of hedging measures designed to ",
+      "post": " its exposure to fluctuations in foreign exchange rates.",
+      "opts": ["mitigate", "migrate", "mediate", "meditate"],
       "ans": 0,
-      "zh": "由於擔心資產負債表過度擴張，該公司選擇以股權融資而非舉債來進行這次擴張。",
-      "why": "<b>Being + 形容詞</b> 為分詞構句的固定形式，用以表達原因（= Because it was wary of...）。Been 為過去分詞，無法單獨置於句首構成分詞構句；To be 為不定詞，語意及句構皆不符；Be 為原形動詞，不可直接置於句首作分詞構句。"
-    },
-    {
-      "id": "2026-09-07-p5-2",
-      "tag": "比較結構（no less...than，同等程度比較）",
-      "pre": "The due-diligence process for this acquisition proved to be ",
-      "post": " rigorous than the one conducted for last year's larger transaction.",
-      "opts": ["no less", "no fewer", "not less", "none the less"],
-      "ans": 0,
-      "zh": "這次收購案的盡職調查程序，其嚴謹程度「絲毫不亞於」去年那筆規模更大的交易。",
-      "why": "<b>no less...than</b> 為固定比較結構，用於修飾形容詞（rigorous），表示「不亞於」的同等程度比較。no fewer 須搭配可數名詞複數（如 no fewer than ten slots），不可修飾形容詞 rigorous；not less 語序及慣用性不若 no less 自然，此處不成立固定搭配；none the less 為副詞片語（意為「儘管如此」），無法置於此處銜接後方的 than 子句結構。"
-    },
-    {
-      "id": "2026-09-07-p5-3",
-      "tag": "強調助動詞（did + 原形動詞，強調對比事實）",
-      "pre": "Although the initial audit had raised no red flags, the revised report, produced only weeks later, ",
-      "post": " reveal several material discrepancies that had previously gone unnoticed.",
-      "opts": ["did", "was", "has", "would"],
-      "ans": 0,
-      "zh": "儘管最初的稽核並未發現任何異常警訊，這份數週後完成的修訂報告，「確實」揭露了先前未被注意到的幾項重大差異。",
-      "why": "<b>did</b> + 原形動詞為強調助動詞用法，用以對比並強調「確實發生」的既成事實，呼應前句「並未發現警訊」的對比語氣。was 須接現在分詞或過去分詞，不可直接接原形動詞 reveal；has 須接過去分詞（has revealed）；would 表假設或未來式視角的推測，與此處差異「已確實被發現」（had gone unnoticed，屬已完成的既成事實）的語意不符。"
-    },
-    {
-      "id": "2026-09-07-p5-4",
-      "tag": "進階動詞語意辨別（preclude，-clude 字根形似詞）",
-      "pre": "The confidentiality clause in the settlement agreement does not ",
-      "post": " either party from discussing the general terms in broad, non-specific language.",
-      "opts": ["preclude", "conclude", "occlude", "elude"],
-      "ans": 0,
-      "zh": "這份和解協議中的保密條款，並不「排除」雙方以概括、非特定的措辭討論一般性條款的可能性。",
-      "why": "<b>preclude</b>（排除、阻止…發生的可能性）精準對應此處語境。conclude（做出結論、締結，如 conclude a deal）語意不符；occlude（阻塞，多用於醫學或物理阻塞情境）語意不符；elude（逃避、躲避追捕或理解）語意不符，四字同源自拉丁字根 -clude（關閉），屬進階詞彙易混淆辨析。"
+      "zh": "這家公司實施了一系列避險措施，旨在「減輕」其暴露於外匯匯率波動的風險。",
+      "why": "<b>mitigate</b>（減輕、緩和風險或衝擊）精準對應此處語境。migrate（遷徙）語意不符；mediate（居中調解）語意不符；meditate（冥想、沉思）語意不符，四字型態相似（皆以 mi- 開頭）易混淆，屬進階詞彙辨析。"
     }
   ],
   "p6": {
-    "id": "2026-09-07-p6",
-    "title": "MEMORANDUM: Revised Escalation Procedure for IT Security Incidents",
+    "id": "2026-09-08-p6",
+    "title": "MEMORANDUM: Revised Policy on International Business Travel During Periods of Elevated Geopolitical Risk",
     "seg": [
       [
-        "To all staff: Beginning this month, any suspected security incident, including phishing attempts, unauthorized access, or suspicious system behavior, ",
+        "To all staff who travel internationally for business: In light of recent developments in several regions, all travel to a country currently designated as high-risk by the Security Office ",
         { "b": 0 },
-        " to the IT Security Hotline within one hour of discovery, rather than being routed through the standard help-desk ticketing system."
+        " in advance by both the traveler's manager and the Global Security team before any booking is made."
       ],
       [
         { "b": 1 },
-        ", incidents involving potential exposure of customer data must additionally be escalated to the Legal and Compliance teams within the same one-hour window."
+        ", travel to a high-risk region that is deemed business-critical may still be permitted, provided that a detailed risk-mitigation plan is submitted and approved."
       ],
       [
-        "Employees should refrain from attempting to ",
+        "Employees who are already traveling in a region where conditions have suddenly deteriorated should immediately ",
         { "b": 2 },
-        " the incident on their own, as doing so may inadvertently destroy evidence needed for a thorough investigation."
+        " the Global Security team's 24-hour emergency line for guidance."
       ],
       [
         { "b": 3 },
-        " A revised incident-response flowchart has been posted on the IT Security intranet page for quick reference."
+        " The Global Security team's contact information and regional risk ratings are updated weekly on the internal travel portal."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["must be reported", "reports", "has reported", "is reporting"],
+        "opts": ["must be approved", "approves", "has approved", "is approving"],
         "ans": 0,
-        "zh": "致所有同仁：自本月起，任何疑似的資安事件，包括釣魚郵件、未經授權存取，或可疑的系統行為，發現後一小時內皆「須通報」資安專線，而非透過標準客服系統回報。",
-        "why": "事件是被通報的對象，此句表達即刻起適用的強制性規定，須用被動情態動詞 <b>must be reported</b>。reports 為主動現在式，不符被動需求；has reported 為現在完成式主動語態，語意錯誤；is reporting 為現在進行式主動語態，同樣不符合規定語氣。"
+        "zh": "致所有因公出差的同仁：鑑於近期數個地區局勢的發展，任何前往目前經安全辦公室列為高風險地區的差旅，訂票前皆「須經」主管與全球安全團隊事先核准。",
+        "why": "差旅是被核准的對象，此句表達強制性規定，須用被動情態動詞 <b>must be approved</b>。approves 為主動現在式，不符被動需求；has approved 為現在完成式主動語態，語意錯誤；is approving 為現在進行式主動語態，同樣不符合規定語氣。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["In addition", "Otherwise", "By contrast", "Nonetheless"],
+        "opts": ["That said", "As a result", "In the meantime", "Similarly"],
         "ans": 0,
-        "zh": "「此外」，若事件涉及客戶資料可能外洩，須在同樣的一小時內另外通報法務與法遵團隊。",
-        "why": "<b>In addition</b>（此外）表遞進補充，承接前句的通報規定，進一步說明涉及客戶資料的事件須額外通報。Otherwise（否則）表條件對比；By contrast（相較之下）表對比；Nonetheless（儘管如此）表轉折讓步，皆不符合此處的遞進補充語意。"
+        "zh": "「話雖如此」，若前往高風險地區的差旅被認定為業務關鍵行程，只要提交並獲准詳細的風險緩解計畫，仍有可能獲得許可。",
+        "why": "<b>That said</b>（話雖如此）用以在陳述嚴格限制後引出例外情況，構成轉折銜接。As a result（因此）表因果；In the meantime（同時、與此同時）表時間並行；Similarly（同樣地）表類比延續，皆不符合此處的轉折例外語意。"
       },
       {
-        "tag": "詞彙語意（動詞辨析，re-字首形似詞）",
+        "tag": "詞彙語意（動詞辨析，con-字首形似詞）",
         "col1": true,
-        "opts": ["remediate", "reiterate", "reciprocate", "recapitulate"],
+        "opts": ["contact", "contract", "contest", "context"],
         "ans": 0,
-        "zh": "同仁應避免自行嘗試「補救處理」此類事件，因為這麼做可能在無意間破壞徹底調查所需的證據。",
-        "why": "<b>remediate</b>（補救、修復處理，資安領域常用語）精準對應此處語境。reiterate（重申、重複陳述）語意不符；reciprocate（互惠、回報）語意不符；recapitulate（摘要重述）語意不符，四字型態相似易混淆，屬進階詞彙辨析。"
+        "zh": "若同仁已身處局勢突然惡化的地區，應立即「聯繫」全球安全團隊的24小時緊急專線尋求指引。",
+        "why": "<b>contact</b>（聯繫）精準對應此處語境。contract（訂立契約、感染疾病，或收縮）語意不符；contest（爭辯、競爭）語意不符；context 為名詞（背景、脈絡），並非動詞，詞性不符，四字型態相似易混淆。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Employees who are unsure whether an observed behavior qualifies as a reportable incident should err on the side of reporting it.",
-          "The IT department's help desk will be closed for a training session next Tuesday afternoon.",
-          "All employees are required to change their network passwords every ninety days.",
-          "The company's annual cybersecurity awareness training will be held in November."
+          "Managers are strongly encouraged to review the current risk designations with any employee scheduled to travel abroad in the coming month.",
+          "The company's travel rewards program has been upgraded to include additional airline partners.",
+          "All employees must submit expense reports within thirty days of return.",
+          "The annual company retreat will be held at a domestic location this year."
         ],
         "ans": 0,
-        "zh": "「若同仁不確定所觀察到的行為是否構成須通報的事件，應寧可通報也不要輕忽。」IT資安團隊已於內部網路頁面發布修訂版事件應變流程圖，供同仁快速查閱。",
-        "why": "段落主題為「資安事件通報流程修訂」，此句提醒同仁若有疑慮應寧可通報，與下一句「流程圖已發布供查閱」共同構成政策執行與支援措施的完整收尾。其餘選項（客服系統維護、密碼變更規定、年度資安訓練）皆與本次事件通報流程修訂無關，插入後語意斷裂。"
+        "zh": "「主管應強烈建議與任何預計於下個月出國出差的員工，一同檢視當前的風險等級評估。」全球安全團隊的聯絡資訊與各地區風險評等，每週均會於內部差旅平台更新。",
+        "why": "段落主題為「地緣政治風險升高期間的國際商務差旅政策」，此句提醒主管應與即將出差的員工檢視風險等級，與下一句「聯絡資訊與風險評等每週更新」共同構成政策執行與資訊支援的完整收尾。其餘選項（差旅回饋方案升級、報帳期限、年度員工旅遊地點）皆與地緣風險差旅政策無關，插入後語意斷裂。"
       }
     ]
   }
