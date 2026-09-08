@@ -1,117 +1,117 @@
 {
-  "date": "2026-09-08",
+  "date": "2026-09-09",
   "p5": [
     {
-      "id": "2026-09-08-p5-0",
-      "tag": "倒裝句（Only after + 時間片語，引發部分倒裝）",
-      "pre": "Only ",
-      "post": " after the third round of negotiations did the two companies finally agree on a mutually acceptable valuation.",
-      "opts": ["Only", "Not", "Even", "Just"],
-      "ans": 0,
-      "zh": "直到第三輪談判之後，這兩家公司才終於就雙方都能接受的估值達成共識。",
-      "why": "<b>Only</b> 修飾 after 引導的時間片語並置於句首時，主要子句須引發部分倒裝（did the two companies finally agree）。Not 通常須搭配 until 構成 Not until，不可直接搭配 after；Even 雖可修飾 after，但不會引發倒裝；Just 同樣不具備引發倒裝的功能。"
-    },
-    {
-      "id": "2026-09-08-p5-1",
-      "tag": "動名詞 vs 不定詞（regret + Ving，表示對已發生行為的懊悔）",
-      "pre": "The company deeply regretted ",
-      "post": " the merger without securing regulatory clearance first, as the resulting legal exposure proved far costlier than anticipated.",
-      "opts": ["finalizing", "to finalize", "finalize", "having finalize"],
-      "ans": 0,
-      "zh": "這家公司深深後悔在未取得監管許可前就「敲定」了這樁併購案，因為後續產生的法律風險遠比預期昂貴。",
-      "why": "<b>regret + 動名詞（Ving）</b>表示「後悔已經做過的某件事」（regret finalizing ≈ regret having finalized）。regret + to V 則表示「很遺憾要說／做接下來的事」（如 We regret to inform you...），語意不符此處「後悔過去已完成的行為」；finalize 為原形動詞，文法上不成立；having finalize 動詞形式錯誤（應為 having finalized），不成立。"
-    },
-    {
-      "id": "2026-09-08-p5-2",
-      "tag": "強調結果子句（was such that，表示「如此…以至於」）",
-      "pre": "The volatility in the currency markets was ",
-      "post": " that several multinational corporations suspended their hedging strategies altogether.",
-      "opts": ["such", "so", "too", "very"],
-      "ans": 0,
-      "zh": "貨幣市場的波動「如此劇烈」，以至於多家跨國企業乾脆暫停了避險操作。",
-      "why": "<b>was such that</b> 為固定用法，置於名詞主詞後表示「如此（程度）以至於」，此處 such 代替了程度形容詞的角色。so 通常須搭配形容詞使用（so volatile that），不能單獨接在 be 動詞後代替名詞的程度描述；too 通常搭配 to V 或 for，不構成 that 子句的結果句型；very 為程度副詞，無法接續 that 子句構成因果結果。"
-    },
-    {
-      "id": "2026-09-08-p5-3",
-      "tag": "讓步連接詞片語（Granted that，正式讓步用法，＝although it is conceded that）",
+      "id": "2026-09-09-p5-0",
+      "tag": "假設語氣倒裝（Should + 主詞 + 原形動詞，＝If...should）",
       "pre": "",
-      "post": " the proposed timeline is aggressive, the project team remains confident that the launch date can be met without compromising quality.",
-      "opts": ["Granted that", "Grant that", "To grant that", "Granting it"],
+      "post": " the board decide to proceed with the divestiture, shareholders will be notified no later than thirty days before the transaction closes.",
+      "opts": ["Should", "Would", "Could", "Will"],
       "ans": 0,
-      "zh": "儘管承認這項提案時程頗具挑戰性，專案團隊仍有信心能在不犧牲品質的前提下如期完成上線。",
-      "why": "<b>Granted that</b> 為正式讓步連接詞片語，意為「姑且承認…」，可直接接「主詞＋動詞」的完整子句。Grant that 為祈使句或原形動詞用法，不具備讓步連接詞的句首功能；To grant that 為不定詞片語，不成立此處句首連接詞的角色；Granting it 語意及文法皆不通順。"
+      "zh": "倘若董事會決定進行此次資產處分，股東將於交易完成前至少三十天收到通知。",
+      "why": "<b>Should</b> 置於句首並與主詞倒裝，等同於 If the board should decide...，為正式的假設語氣倒裝句型，表示「萬一、倘若」發生機率較低的未來情況。Would、Could、Will 皆不具備此類假設語氣倒裝的固定用法，無法與 decide 這樣的原形動詞直接搭配構成倒裝條件句。"
     },
     {
-      "id": "2026-09-08-p5-4",
-      "tag": "進階動詞語意辨別（mitigate，mi-字首形似詞）",
-      "pre": "The firm implemented a series of hedging measures designed to ",
-      "post": " its exposure to fluctuations in foreign exchange rates.",
-      "opts": ["mitigate", "migrate", "mediate", "meditate"],
+      "id": "2026-09-09-p5-1",
+      "tag": "目的片語（so as to + 原形動詞，表目的）",
+      "pre": "The company restructured its reporting lines ",
+      "post": " streamline decision-making across departments.",
+      "opts": ["so as to", "so that", "in that", "so much as"],
       "ans": 0,
-      "zh": "這家公司實施了一系列避險措施，旨在「減輕」其暴露於外匯匯率波動的風險。",
-      "why": "<b>mitigate</b>（減輕、緩和風險或衝擊）精準對應此處語境。migrate（遷徙）語意不符；mediate（居中調解）語意不符；meditate（冥想、沉思）語意不符，四字型態相似（皆以 mi- 開頭）易混淆，屬進階詞彙辨析。"
+      "zh": "這家公司重組了其報告層級，「以便」在各部門間簡化決策流程。",
+      "why": "<b>so as to</b> + 原形動詞為表達目的的固定片語，前後主詞相同時可省略主詞直接接原形動詞。so that 須接「主詞＋動詞」的完整子句（so that it can streamline...），不可直接接原形動詞；in that（因為，表原因）語意不符；so much as 通常用於否定句表示「甚至」（not so much as），與此處目的語意不符。"
+    },
+    {
+      "id": "2026-09-09-p5-2",
+      "tag": "名詞性關係子句（what，兼具先行詞與關係代名詞功能）",
+      "pre": "The consultant's report accurately captured ",
+      "post": " the executive team had long suspected but never formally documented.",
+      "opts": ["what", "that", "which", "how"],
+      "ans": 0,
+      "zh": "這份顧問報告精準捕捉到了高階主管團隊長期以來心中有數、卻從未正式記錄下來的事。",
+      "why": "<b>what</b> 兼具「先行詞＋關係代名詞」的雙重功能（= the thing that），可作動詞 captured 的受詞，並同時引導後方的子句。that 與 which 皆須有明確的先行詞才能使用，此處並無先行詞；how 通常引導表方式的子句，與此處指涉「事情內容」的語意不符。"
+    },
+    {
+      "id": "2026-09-09-p5-3",
+      "tag": "讓步連接詞（While，句首表雖然/儘管，語意轉折）",
+      "pre": "",
+      "post": " the new compliance software has reduced processing errors significantly, it has also slowed down the approval workflow considerably.",
+      "opts": ["While", "During", "Meanwhile", "Despite"],
+      "ans": 0,
+      "zh": "雖然新的法規遵循軟體大幅減少了處理錯誤，但也讓核准流程的速度明顯變慢。",
+      "why": "<b>While</b> 置於句首可表示「雖然、儘管」的讓步語意，後接「主詞＋動詞」的完整子句。During 為介系詞，須接名詞而非完整子句；Meanwhile（同時、與此同時）表時間並行而非讓步；Despite 為介系詞，須接名詞或動名詞，不可直接接「主詞＋動詞」的完整子句。"
+    },
+    {
+      "id": "2026-09-09-p5-4",
+      "tag": "進階動詞語意辨別（supersede，super-字首形似詞）",
+      "pre": "The updated safety protocol will ",
+      "post": " all previous guidelines issued before this fiscal year.",
+      "opts": ["supersede", "supervise", "supplement", "suppress"],
+      "ans": 0,
+      "zh": "這項更新後的安全協議，將「取代」本會計年度之前發布的所有先前準則。",
+      "why": "<b>supersede</b>（取代、廢止舊有規定而以新規定取代之）精準對應此處語境。supervise（監督、督導）語意不符；supplement（補充、增添）語意不符，此處是取代而非補充；suppress（壓制、抑制）語意不符，四字同為 su-/super- 字首形似詞，屬進階詞彙易混淆辨析。"
     }
   ],
   "p6": {
-    "id": "2026-09-08-p6",
-    "title": "MEMORANDUM: Revised Policy on International Business Travel During Periods of Elevated Geopolitical Risk",
+    "id": "2026-09-09-p6",
+    "title": "MEMORANDUM: Revised Protocol for Handling Regulatory Inquiries and Subpoenas",
     "seg": [
       [
-        "To all staff who travel internationally for business: In light of recent developments in several regions, all travel to a country currently designated as high-risk by the Security Office ",
+        "To all department heads: Effective immediately, any regulatory inquiry, subpoena, or formal document request received from a government agency ",
         { "b": 0 },
-        " in advance by both the traveler's manager and the Global Security team before any booking is made."
+        " to the Legal Department within twenty-four hours, and under no circumstances should it be responded to directly without Legal's involvement."
       ],
       [
         { "b": 1 },
-        ", travel to a high-risk region that is deemed business-critical may still be permitted, provided that a detailed risk-mitigation plan is submitted and approved."
+        ", employees who receive an informal request or a phone call from a regulator should still notify Legal promptly, even if no formal document has yet been issued."
       ],
       [
-        "Employees who are already traveling in a region where conditions have suddenly deteriorated should immediately ",
+        "Department heads should never attempt to ",
         { "b": 2 },
-        " the Global Security team's 24-hour emergency line for guidance."
+        " or alter any document once it has become the subject of a regulatory inquiry, as doing so may constitute obstruction."
       ],
       [
         { "b": 3 },
-        " The Global Security team's contact information and regional risk ratings are updated weekly on the internal travel portal."
+        " A complete log of all regulatory contacts, however informal, must be maintained by the Legal Department for auditing purposes."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["must be approved", "approves", "has approved", "is approving"],
+        "opts": ["must be forwarded", "forwards", "has forwarded", "is forwarding"],
         "ans": 0,
-        "zh": "致所有因公出差的同仁：鑑於近期數個地區局勢的發展，任何前往目前經安全辦公室列為高風險地區的差旅，訂票前皆「須經」主管與全球安全團隊事先核准。",
-        "why": "差旅是被核准的對象，此句表達強制性規定，須用被動情態動詞 <b>must be approved</b>。approves 為主動現在式，不符被動需求；has approved 為現在完成式主動語態，語意錯誤；is approving 為現在進行式主動語態，同樣不符合規定語氣。"
+        "zh": "致所有部門主管：自即日起，任何收到來自政府機關的法規調查、傳票，或正式文件請求，皆「須於」24小時內轉交法務部門，且在任何情況下皆不得未經法務部門介入而直接回應。",
+        "why": "文件是被轉交的對象，此句表達即刻生效的強制性規定，須用被動情態動詞 <b>must be forwarded</b>。forwards 為主動現在式，不符被動需求；has forwarded 為現在完成式主動語態，語意錯誤；is forwarding 為現在進行式主動語態，同樣不符合規定語氣。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["That said", "As a result", "In the meantime", "Similarly"],
+        "opts": ["Likewise", "Consequently", "For example", "Otherwise"],
         "ans": 0,
-        "zh": "「話雖如此」，若前往高風險地區的差旅被認定為業務關鍵行程，只要提交並獲准詳細的風險緩解計畫，仍有可能獲得許可。",
-        "why": "<b>That said</b>（話雖如此）用以在陳述嚴格限制後引出例外情況，構成轉折銜接。As a result（因此）表因果；In the meantime（同時、與此同時）表時間並行；Similarly（同樣地）表類比延續，皆不符合此處的轉折例外語意。"
+        "zh": "「同樣地」，若同仁接到監管機關的非正式請求或電話聯繫，即便尚未收到正式文件，也應立即通知法務部門。",
+        "why": "<b>Likewise</b>（同樣地）用以延伸前句規定的適用範圍，說明非正式請求同樣須通知法務部門，構成類比銜接。Consequently（因此）表因果；For example（例如）表舉例；Otherwise（否則）表條件對比，皆不符合此處的類比延伸語意。"
       },
       {
-        "tag": "詞彙語意（動詞辨析，con-字首形似詞）",
+        "tag": "詞彙語意（動詞辨析，with-字首形似詞）",
         "col1": true,
-        "opts": ["contact", "contract", "contest", "context"],
+        "opts": ["withhold", "withdraw", "withstand", "wither"],
         "ans": 0,
-        "zh": "若同仁已身處局勢突然惡化的地區，應立即「聯繫」全球安全團隊的24小時緊急專線尋求指引。",
-        "why": "<b>contact</b>（聯繫）精準對應此處語境。contract（訂立契約、感染疾病，或收縮）語意不符；contest（爭辯、競爭）語意不符；context 為名詞（背景、脈絡），並非動詞，詞性不符，四字型態相似易混淆。"
+        "zh": "部門主管絕不應在文件成為法規調查對象後，試圖「扣留」或竄改該文件，因為這麼做可能構成妨礙司法。",
+        "why": "<b>withhold</b>（扣留、不予提供）精準對應此處語境。withdraw（撤回、提取）語意不符；withstand（抵擋、承受）語意不符；wither（枯萎、凋謝）語意不符，四字型態相似（皆以 with- 開頭）易混淆，屬進階詞彙辨析。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Managers are strongly encouraged to review the current risk designations with any employee scheduled to travel abroad in the coming month.",
-          "The company's travel rewards program has been upgraded to include additional airline partners.",
-          "All employees must submit expense reports within thirty days of return.",
-          "The annual company retreat will be held at a domestic location this year."
+          "Failure to follow this protocol may expose both the individual employee and the company to significant legal and reputational risk.",
+          "The company's annual compliance training will be updated to reflect new industry standards.",
+          "All department heads are required to submit their budget forecasts by the end of the quarter.",
+          "The Legal Department will be relocating to a new floor next month."
         ],
         "ans": 0,
-        "zh": "「主管應強烈建議與任何預計於下個月出國出差的員工，一同檢視當前的風險等級評估。」全球安全團隊的聯絡資訊與各地區風險評等，每週均會於內部差旅平台更新。",
-        "why": "段落主題為「地緣政治風險升高期間的國際商務差旅政策」，此句提醒主管應與即將出差的員工檢視風險等級，與下一句「聯絡資訊與風險評等每週更新」共同構成政策執行與資訊支援的完整收尾。其餘選項（差旅回饋方案升級、報帳期限、年度員工旅遊地點）皆與地緣風險差旅政策無關，插入後語意斷裂。"
+        "zh": "「未能遵循本程序，可能使個別員工與公司雙方均暴露於重大法律及聲譽風險之中。」所有與監管機關的接觸紀錄，無論是否正式，法務部門均須完整留存以供稽核。",
+        "why": "段落主題為「法規調查與傳票應對程序修訂」，此句強調未遵循程序的風險後果，與下一句「接觸紀錄須完整留存」共同構成政策執行與風險提醒的完整收尾。其餘選項（年度合規訓練更新、部門預算提交期限、法務部門搬遷）皆與本次法規調查應對程序無關，插入後語意斷裂。"
       }
     ]
   }
