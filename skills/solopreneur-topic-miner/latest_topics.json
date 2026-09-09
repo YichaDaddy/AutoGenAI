@@ -1,105 +1,137 @@
 {
-  "date": "2026-09-08",
+  "date": "2026-09-09",
   "big_events": [
     {
-      "title": "法國Mistral AI再募30億歐元，估值衝上210億歐元創歐洲科技融資紀錄",
+      "title": "OpenAI稱AI用88小時攻克百萬美元數學難題，卻爆與Anthropic研究員搶功羅生門",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/"},
-        {"name": "EU-Startups", "url": "https://www.eu-startups.com/2026/09/french-ai-company-mistral-raises-e3-billion-series-d-led-by-samsung-at-over-e21-billion-valuation"}
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/09/openai-navier-stokes-math-problem-solved.html"
+        },
+        {
+          "name": "CNN Business",
+          "url": "https://www.cnn.com/2026/09/09/business/openai-millennium-problems-navier-stokes-hnk"
+        },
+        {
+          "name": "OpenAI（官方）",
+          "url": "https://openai.com/index/navier-stokes-solution/"
+        }
       ],
-      "summary": "三星領投Series D，估值較去年翻倍，成史上最大歐洲科技融資案",
-      "audience": "關注AI巨頭資本動態與歐洲科技產業的投資型自媒體、對「主權AI」議題有興趣的科技創作者、想了解ChatGPT替代方案的職場上班族",
-      "pain_point": "大家只知道OpenAI、Google、Anthropic在AI軍備競賽中領跑，卻不知道歐洲也悄悄養出一隻能對抗美國巨頭的獨角獸，也搞不懂「主權AI」到底是什麼、跟自己有什麼關係",
-      "title_idea": "三星砸重金力挺！法國AI獨角獸估值破210億歐元，歐洲版OpenAI要來了？",
-      "local_angle": "華語圈AI話題長期被美中兩大陣營壟斷版面，Mistral作為歐洲「主權AI」代表隊還沒被充分介紹，適合做「認識歐洲AI隊長」系列，補上美中之外第三勢力的資訊差"
+      "summary": "萬個AI代理人協作88小時解出90年懸案，功勞歸屬掀論戰",
+      "audience": "對AI推理能力與學術突破有興趣的科技評論自媒體、想了解「AI能做到什麼等級工作」的職場上班族、關心AI巨頭競合關係的內容創作者",
+      "pain_point": "大家常被「AI又破紀錄」的新聞疲勞轟炸，卻很少人講清楚這次「解出90年數學懸案」到底是什麼等級的突破，也不知道背後還牽扯到跟Anthropic研究員的功勞爭奪內幕",
+      "title_idea": "AI三天解開90年數學謎團！OpenAI風光背後，竟被抓包「偷看」對手研究進度？",
+      "local_angle": "華語圈對「AI解數學題」類新聞多半只做「哇好強」式翻譯，鮮少深入「萬代理人協作解題」的方法論與科學界功勞歸屬倫理爭議，適合做「AI科研新兵法」科普系列，滿足對AI能力邊界好奇的觀眾"
     },
     {
-      "title": "Google坦言為符合歐盟法規調整搜尋演算法，4.5億歐洲用戶搜尋品質恐變差",
+      "title": "AI編碼工具Devin開發商Cognition四個月估值翻倍，完成20億美元融資衝上480億美元",
       "sources": [
-        {"name": "PYMNTS", "url": "https://www.pymnts.com/google/2026/google-says-eu-mandated-changes-will-worsen-search-results/"},
-        {"name": "Martin Cid Magazine", "url": "https://www.martincid.com/technology-sv/google-eu-search-dma-quality-cut/"}
+        {
+          "name": "TechFundingNews",
+          "url": "https://techfundingnews.com/devin-maker-cognition-raises-over-2b-at-48b-valuation-nearly-doubling-its-price-tag-in-four-months/"
+        },
+        {
+          "name": "The AI Insider",
+          "url": "https://theaiinsider.tech/2026/09/09/cognition-secures-2b-at-48b-valuation-as-ai-coding-race-intensifies/"
+        },
+        {
+          "name": "Tech Startups",
+          "url": "https://techstartups.com/2026/09/09/startup-funding-news-today-september-9-2026-cognition-ai-algomatic-dynamics-qnu-labs-more/"
+        }
       ],
-      "summary": "因應歐盟數位市場法裁罰，Google調整搜尋結果，官方稱為29年來最大品質下滑",
-      "audience": "經營SEO、內容行銷、跨境電商導購網站的職場工作者與自媒體創作者、對科技監管議題有興趣的評論者",
-      "pain_point": "做SEO與內容行銷的人天天盯著Google演算法變動抓破頭，卻不知道這次變動是因為歐盟反壟斷裁罰、而非單純的演算法優化，若客戶或業務有觸及歐洲市場更要提早因應",
-      "title_idea": "Google親口認了：搜尋結果變爛是因為歐盟罰款！這波調整SEO人一定要懂",
-      "local_angle": "華語行銷圈多半只關注Google演算法更新的操作面技巧，鮮少解讀「監管驅動的搜尋降級」背後的法規脈絡，適合做「搜尋引擎地緣政治」科普選題，幫做外貿、跨境電商的華語商家超前部署"
+      "summary": "AI寫程式代理人Devin營收半年翻倍，企業客戶含NASA、高盛",
+      "audience": "想了解AI編碼工具產業動態的獨立開發者、接案工程師、對AI取代或輔助工程師工作有疑慮的職場技術人員",
+      "pain_point": "很多工程師還在觀望「AI真的能自己寫程式上線嗎」，卻不知道像Devin這樣的AI編碼代理人已經在NASA、高盛、花旗等企業裡實際跑起來，市場資金也押注得飛快",
+      "title_idea": "AI工程師比你還搶手！Devin開發商4個月估值翻倍衝480億美元，企業搶著簽",
+      "local_angle": "華語圈開發者對Cursor、GitHub Copilot討論很多，但Devin這種「自主完成任務」的AI Agent等級工具還缺中文介紹，適合做「認識下一代AI工程師」評測，卡位「企業導入AI編碼代理人」顧問商機"
     },
     {
-      "title": "資安公司用AI一週打造WeChat零點擊蠕蟲，光是來電響鈴就能盜走帳號",
+      "title": "法律AI獨角獸Harvey募得5.5億美元衝上155億美元估值，同步收購AI防護新創Guardrails AI",
       "sources": [
-        {"name": "Help Net Security", "url": "https://www.helpnetsecurity.com/2026/09/08/wechat-weworm-vulnerability-exploit-account-hijacking/"},
-        {"name": "The Hacker News", "url": "https://thehackernews.com/2026/09/wechat-zero-click-worm-took-over.html"},
-        {"name": "IBTimes", "url": "https://www.ibtimes.com/wechats-14-billion-users-faced-dangerous-security-flaw-ai-helped-turn-it-self-spreading-worm-3807225"}
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-09/legal-ai-startup-harvey-hits-15-6-billion-value-with-550-million-round"
+        },
+        {
+          "name": "Artificial Lawyer",
+          "url": "https://www.artificiallawyer.com/2026/09/09/harvey-raises-550m-at-15-5bn-val-buys-guardrails-ai/"
+        },
+        {
+          "name": "Harvey（官方部落格）",
+          "url": "https://www.harvey.ai/blog/harvey-raises-dollar550m-at-a-dollar155b-valuation-to-help-legal-teams-own-their-intelligence"
+        }
       ],
-      "summary": "資安新創Calif用AI兩天做出漏洞攻擊、一週做出蠕蟲，證明駭客門檻大幅降低",
-      "audience": "使用WeChat聯繫兩岸三地客戶或家人的職場工作者、關注資安風險的中小企業主、AI工具教學創作者",
-      "pain_point": "大家都聽過AI能寫程式、抓漏洞，卻很少意識到這代表「駭客技術門檻正在崩盤」——過去要整組資安團隊、數月才能做到的攻擊，現在AI幾天就能生出來，一般用戶完全來不及防範",
-      "title_idea": "電話還在響，帳號就被偷走！AI一週打造WeChat蠕蟲，證明駭客已經不需要技術了",
-      "local_angle": "華語圈使用WeChat比例極高，這起漏洞雖已修補，但「AI加速攻防武器化」的警訊還沒被充分翻譯，適合做「AI資安風險科普」系列，提醒用戶更新App版本並認識零點擊攻擊"
+      "summary": "年營收破4億美元，服務80%頂尖律所，今年已第4起併購",
+      "audience": "律師、法務與專業服務業從業者、對「垂直產業AI應用」有興趣的獨立開發者與顧問",
+      "pain_point": "很多專業服務業者以為AI只能寫寫合約摘要，不知道垂直領域AI已經做到年收4億美元、服務80%頂尖律所的規模，也不清楚這類公司靠併購補強「AI代理人安全防護」能力的布局邏輯",
+      "title_idea": "AI律師事務所後台推手！Harvey估值飆155億美元，還買下防止AI亂來的公司",
+      "local_angle": "華語圈法律科技討論仍停留在「AI能不能取代律師」的表層辯論，Harvey這種「垂直AI＋收購補強安全防護」的成熟商業模式還沒被引進討論，適合做「產業別AI獨角獸」系列，給接案顧問與法律科技創業者參考"
     }
   ],
   "tool_updates": [
     {
-      "title": "Google Meet新增Gemini筆記開關與暫停功能，9月8日起分階段開放",
+      "title": "AI音樂生成工具Suno推出v6模型，首度採用華納、BMG正版授權音樂訓練",
       "sources": [
-        {"name": "Google Workspace Updates（官方）", "url": "https://workspaceupdates.googleblog.com/2026/08/control-take-notes-for-me-directly-from-Google-Meet-hardware-touch-controllers.html"}
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/09/suno-replaces-its-ai-models-with-a-new-one-trained-on-licensed-music-as-copyright-suits-pile-up/"
+        },
+        {
+          "name": "Digital Music News",
+          "url": "https://www.digitalmusicnews.com/2026/09/09/suno-v6-launch/"
+        },
+        {
+          "name": "Music Business Worldwide",
+          "url": "https://www.musicbusinessworldwide.com/suno-v6-ai-music-models-launch-in-partnership-with-wmg-bmg-and-believe/"
+        }
       ],
-      "summary": "可一鍵查看並切換Gemini是否正在記錄，離線討論時能暫停再恢復",
-      "audience": "每天開會、需要處理機密討論的職場上班族、行政主管、企業會議室管理者",
-      "pain_point": "會議中途想聊點不能寫進紀錄的內容，卻不確定Gemini是否還在偷偷記錄，也不知道能不能中途喊停，怕敏感發言全被寫進逐字稿",
-      "title_idea": "開會怕被AI全程記錄？Google Meet新增「暫停筆記」按鈕，離題發言不用怕",
-      "local_angle": "台灣企業導入Google Meet做會議記錄的比例持續上升，但多數用戶不知道有這個隱私控制新功能，適合做「Gemini會議筆記隱私設定」3分鐘教學，搶第一波中文說明"
-    },
-    {
-      "title": "百度小度9月8日發表會登場，推出新一代智慧顯示器、陪伴螢幕與監控攝影機",
-      "sources": [
-        {"name": "TechNode", "url": "https://technode.com/2026/09/07/baidu-xiaodu-ai-hardware-launch/"},
-        {"name": "InsideAI News", "url": "https://insideai.news/news/ai-tools/xiaodu-ai-hardware-launch/9815/"}
-      ],
-      "summary": "新硬體線全面搭載升級版超能小度助理，攝影機新增第二代AI監控代理人",
-      "audience": "關注中國AI硬體生態與智慧家庭市場的科技評論類自媒體、對AI陪伴裝置有興趣的內容創作者",
-      "pain_point": "多數人只認識Amazon Echo、Google Nest這類西方智慧音箱生態，卻不知道中國市場已經在推「AI主動監控」的下一代智慧顯示器，容易錯過對岸產品設計思路的參考價值",
-      "title_idea": "螢幕、攝影機全部裝上AI大腦！百度小度新硬體發表，監控鏡頭還會自己判斷異常",
-      "local_angle": "華語圈科技媒體對小度生態系著墨極少，這次「AI主動監控代理人」的產品定位是還沒被討論的新方向，適合做「兩岸智慧家庭AI裝置」比較系列，滿足對中國科技產品好奇的觀眾"
+      "summary": "版權訴訟壓力下轉型，新模型支援分軌編輯、混音與取樣",
+      "audience": "經營Podcast、短影音、自媒體配樂的內容創作者、想用AI生成商用背景音樂但擔心版權問題的職場工作者",
+      "pain_point": "很多創作者用AI生成音樂配自己的影片卻不敢商用，因為擔心背後訓練資料有侵權疑慮，一旦被平台下架或收到版權警告就欲哭無淚",
+      "title_idea": "終於不用怕版權！Suno新模型用「正版授權音樂」訓練，創作者能安心商用了",
+      "local_angle": "華語自媒體創作者大量使用AI配樂工具卻普遍忽略版權風險，這次「正版授權訓練」是還沒被中文教學圈講清楚的重要轉折，適合做「AI配樂版權安全指南」實用教學，順勢做v6功能實測"
     }
   ],
   "trends": [
     {
-      "title": "埃森哲攜手Google Cloud成立「Gemini企業事業群」，組建千人級AI導入團隊",
+      "title": "OpenAI財務長證實跨足晶片設計、生命科學、金融服務，Luna模型砍價8成搶灘中國開源對手",
       "sources": [
-        {"name": "AIwire / HPCwire", "url": "https://www.hpcwire.com/aiwire/2026/09/08/accenture-and-google-cloud-launch-gemini-enterprise-business-group/"},
-        {"name": "Accenture Newsroom（官方）", "url": "https://newsroom.accenture.com/news/2026/accenture-and-google-cloud-deepen-partnership-with-formation-of-new-accenture-gemini-enterprise-business-group"}
+        {
+          "name": "Forkast",
+          "url": "https://forkast.news/openai-used-its-own-ai-models-to-design-the-jalapeno-chip-the-compute-landlord-thesis-just-went-recursive/"
+        },
+        {
+          "name": "Cryptopolitan",
+          "url": "https://www.cryptopolitan.com/openai-pitches-its-models-for-chip-design-betting-cost-beats-open-source/"
+        },
+        {
+          "name": "Technology.org",
+          "url": "https://www.technology.org/2026/09/09/openai-chip-design-luna-price-cut/"
+        }
       ],
-      "summary": "埃森哲組建千名認證顧問與前線工程師，專責協助企業導入Gemini代理人",
-      "audience": "接案協助中小企業導入AI的顧問與獨立開發者、企業IT決策者、對AI企業服務市場有興趣的科技創業者",
-      "pain_point": "很多想導入AI Agent的企業不知道從何找專業團隊協助，也不清楚顧問業已經開始大舉搶進「AI導入代辦」這門新生意，錯過幫客戶轉型或自己入行的時機",
-      "title_idea": "顧問業也瘋AI！埃森哲砸重金組千人團隊，專門幫企業把Gemini代理人裝進公司",
-      "local_angle": "台灣中小企業普遍苦於不知如何導入AI Agent，這種「大型顧問公司包套服務」模式還沒被引進華語圈討論，適合做「企業AI導入外包」商機選題，給接案顧問與獨立開發者參考切入點"
+      "summary": "CFO於高盛法說會證實用自家AI設計Jalapeno晶片，測試成效計費新模式",
+      "audience": "想切入企業AI導入顧問或垂直產業AI應用的獨立開發者、對OpenAI商業模式與獲利能力有興趣的投資型自媒體",
+      "pain_point": "大家只把OpenAI當成「做ChatGPT的公司」，不知道它已經悄悄把AI賣進晶片設計、生命科學、金融服務等專業領域，也不了解為什麼要對中國開源模型打價格戰",
+      "title_idea": "OpenAI不只做聊天機器人！財務長親口證實：晶片、生技、金融都要吃下來",
+      "local_angle": "華語圈對OpenAI的討論多停留在ChatGPT功能更新，鮮少注意到它正快速往垂直產業與B2B專業服務擴張、甚至打價格戰，適合做「OpenAI下一步棋」系列，給想承接企業AI導入案的接案者提前布局參考"
     },
     {
-      "title": "Palantir指定Nebius為「主權AI」首選基礎建設夥伴，算力直接嵌入客戶防火牆內",
+      "title": "蘋果首款摺疊機Duo鉸鏈由AI設計、3D列印製造，衝擊摺疊手機耐用度痛點",
       "sources": [
-        {"name": "Nebius Newsroom（官方）", "url": "https://nebius.com/newsroom/palantir-and-nebius-partner-to-deliver-a-complete-sovereign-ai-stack-to-palantir-customers"},
-        {"name": "Unite.AI", "url": "https://www.unite.ai/palantir-taps-nebius-for-sovereign-ai-infrastructure-inside-its-perimeter/"}
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/09/the-hinge-for-apples-new-foldable-phone-was-built-with-ai/"
+        },
+        {
+          "name": "IntoMobile",
+          "url": "https://www.intomobile.com/2026/09/09/apple-built-its-foldable-phone-hinge-with-ai-and-its-more-interesting-than-it-sounds/"
+        }
       ],
-      "summary": "Nebius運算與推理節點整合進Palantir企業安全邊界，客戶可自控資料與模型",
-      "audience": "關注AI基礎建設投資動態的科技創業者、對企業資料主權議題有興趣的IT決策者、投資型自媒體創作者",
-      "pain_point": "企業想用AI又怕機密資料被上傳到別人家的雲端，卻不知道現在已經有「把算力搬進你家防火牆」這種新型態合作模式可以選擇",
-      "title_idea": "資料不出門也能用最強AI算力？Palantir找來這家新創把「主權AI」變現實",
-      "local_angle": "「資料主權」對重視個資與機敏資料的華語企業（尤其金融、政府標案）是高關注議題，這種算力內嵌防火牆的模式還沒有中文介紹，適合做「企業AI資料主權」科普選題，串連近期歐洲Mistral主權AI熱潮"
-    },
-    {
-      "title": "Verizon與康寧簽多年期光纖大單，直接點名支援下一代AI基礎建設",
-      "sources": [
-        {"name": "GV Wire", "url": "https://gvwire.com/2026/09/08/verizon-signs-optical-fiber-deal-with-corning-to-expand-broadband-support-ai-growth/"},
-        {"name": "GlobeNewswire（官方）", "url": "https://www.globenewswire.com/news-release/2026/09/08/3357726/0/en/verizon-and-corning-announce-multi-year-multi-billion-dollar-supply-agreement-for-broadband-expansion-and-next-gen-ai-infrastructure.html"}
-      ],
-      "summary": "2027至2032年供應逾8000萬英里高密度光纖，強化資料中心間AI骨幹網路",
-      "audience": "關注AI基礎建設與電信產業投資動態的科技創業者、對「AI耗能耗資源」議題有興趣的科技評論類自媒體",
-      "pain_point": "大家只聽過AI晶片、資料中心很燒錢，卻不知道連光纖網路供應鏈都被捲入這波AI軍備競賽，電信商正悄悄押注「AI要用的網路管線」這門生意",
-      "title_idea": "AI熱潮燒到光纖業！Verizon砸重金囤貨，只為了餵飽AI資料中心之間的網路頻寬",
-      "local_angle": "華語圈討論AI基礎建設多聚焦晶片與電力，「AI專用骨幹網路」這塊還是資訊空白，適合做「AI供應鏈全解析」系列補上電信網路這一塊拼圖，對關注台灣電信與資通訊供應鏈的觀眾特別有吸引力"
+      "summary": "AI比對鉸鏈與機身最佳配對，雷射掃描搭配3D列印修正製造誤差",
+      "audience": "對AI應用於硬體製造有興趣的科技評論自媒體、關注消費電子供應鏈的內容創作者",
+      "pain_point": "大家對「AI」的想像多半停留在聊天機器人或寫文案，很少人意識到AI已經開始接手精密製造的品管與客製化配對工作，錯過「AI進軍硬體產線」這個新敘事角度",
+      "title_idea": "蘋果摺疊機終於要來了！鉸鏈耐用秘密：靠AI一片片手工客製化配對",
+      "local_angle": "台灣是蘋果供應鏈重鎮，這種「AI介入精密製造品管」的案例對關心供應鏈與硬體代工的華語觀眾特別有感，適合做「AI如何改寫台灣供應鏈代工模式」系列選題"
     }
   ]
 }
