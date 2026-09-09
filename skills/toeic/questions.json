@@ -1,117 +1,117 @@
 {
-  "date": "2026-09-09",
+  "date": "2026-09-10",
   "p5": [
     {
-      "id": "2026-09-09-p5-0",
-      "tag": "假設語氣倒裝（Should + 主詞 + 原形動詞，＝If...should）",
+      "id": "2026-09-10-p5-0",
+      "tag": "倒裝句（Under no circumstances，否定副詞片語置句首引發倒裝）",
       "pre": "",
-      "post": " the board decide to proceed with the divestiture, shareholders will be notified no later than thirty days before the transaction closes.",
-      "opts": ["Should", "Would", "Could", "Will"],
+      "post": " should an employee disclose confidential client information to a third party without prior written authorization.",
+      "opts": ["Under no circumstances", "In no way possible", "Not at all", "By no means possible"],
       "ans": 0,
-      "zh": "倘若董事會決定進行此次資產處分，股東將於交易完成前至少三十天收到通知。",
-      "why": "<b>Should</b> 置於句首並與主詞倒裝，等同於 If the board should decide...，為正式的假設語氣倒裝句型，表示「萬一、倘若」發生機率較低的未來情況。Would、Could、Will 皆不具備此類假設語氣倒裝的固定用法，無法與 decide 這樣的原形動詞直接搭配構成倒裝條件句。"
+      "zh": "在任何情況下，員工皆不得在未經事先書面授權的情況下，向第三方揭露機密客戶資訊。",
+      "why": "<b>Under no circumstances</b> 為否定意味的副詞片語，置於句首時須引發部分倒裝（should an employee disclose）。In no way possible、Not at all、By no means possible 皆非標準的否定副詞片首片語，不具備引發此類倒裝句型的慣用功能（by no means 本身雖可倒裝，但 by no means possible 並非正確搭配）。"
     },
     {
-      "id": "2026-09-09-p5-1",
-      "tag": "目的片語（so as to + 原形動詞，表目的）",
-      "pre": "The company restructured its reporting lines ",
-      "post": " streamline decision-making across departments.",
-      "opts": ["so as to", "so that", "in that", "so much as"],
+      "id": "2026-09-10-p5-1",
+      "tag": "完成式不定詞（to have + 過去分詞，表示先於主要動詞發生的動作）",
+      "pre": "The due-diligence team appears ",
+      "post": " several critical liabilities in the target company's financial statements.",
+      "opts": ["to have overlooked", "to overlook", "having overlooked", "overlooked"],
       "ans": 0,
-      "zh": "這家公司重組了其報告層級，「以便」在各部門間簡化決策流程。",
-      "why": "<b>so as to</b> + 原形動詞為表達目的的固定片語，前後主詞相同時可省略主詞直接接原形動詞。so that 須接「主詞＋動詞」的完整子句（so that it can streamline...），不可直接接原形動詞；in that（因為，表原因）語意不符；so much as 通常用於否定句表示「甚至」（not so much as），與此處目的語意不符。"
+      "zh": "盡職調查團隊似乎「已經忽略」了目標公司財務報表中幾項重大負債。",
+      "why": "<b>to have + 過去分詞</b>（完成式不定詞）用於表示動作發生在主要動詞（appears）之前，此處指「忽略」這件事已經先發生。to overlook 為簡單式不定詞，僅表示與主要動詞同時或稍後發生，時態層次不符；having overlooked 為動名詞完成式，不具備不定詞應有的句構角色；overlooked 為過去式/過去分詞，無法直接接在 appears 後方構成正確句構。"
     },
     {
-      "id": "2026-09-09-p5-2",
-      "tag": "名詞性關係子句（what，兼具先行詞與關係代名詞功能）",
-      "pre": "The consultant's report accurately captured ",
-      "post": " the executive team had long suspected but never formally documented.",
-      "opts": ["what", "that", "which", "how"],
+      "id": "2026-09-10-p5-2",
+      "tag": "比較結構（the same...as，同等比較）",
+      "pre": "The revised contract imposes ",
+      "post": " obligations on the subcontractor as the original agreement did, despite the change in scope.",
+      "opts": ["the same", "as same", "same as", "such same"],
       "ans": 0,
-      "zh": "這份顧問報告精準捕捉到了高階主管團隊長期以來心中有數、卻從未正式記錄下來的事。",
-      "why": "<b>what</b> 兼具「先行詞＋關係代名詞」的雙重功能（= the thing that），可作動詞 captured 的受詞，並同時引導後方的子句。that 與 which 皆須有明確的先行詞才能使用，此處並無先行詞；how 通常引導表方式的子句，與此處指涉「事情內容」的語意不符。"
+      "zh": "儘管範疇有所變動，修訂後的合約對分包商所課予的義務，與原始協議「相同」。",
+      "why": "<b>the same...as</b> 為固定同等比較句型，the same 修飾名詞 obligations，後方搭配 as 引導比較對象。as same 語序錯誤，不成立；same as 缺少定冠詞 the，不符固定用法；such same 並非標準搭配，不成立。"
     },
     {
-      "id": "2026-09-09-p5-3",
-      "tag": "讓步連接詞（While，句首表雖然/儘管，語意轉折）",
+      "id": "2026-09-10-p5-3",
+      "tag": "讓步片語（Notwithstanding the fact that，正式，＝although）",
       "pre": "",
-      "post": " the new compliance software has reduced processing errors significantly, it has also slowed down the approval workflow considerably.",
-      "opts": ["While", "During", "Meanwhile", "Despite"],
+      "post": " the merger had been approved by both boards, several minority shareholders filed suit to block the transaction.",
+      "opts": ["Notwithstanding the fact that", "In spite that", "Despite of the fact", "Although of"],
       "ans": 0,
-      "zh": "雖然新的法規遵循軟體大幅減少了處理錯誤，但也讓核准流程的速度明顯變慢。",
-      "why": "<b>While</b> 置於句首可表示「雖然、儘管」的讓步語意，後接「主詞＋動詞」的完整子句。During 為介系詞，須接名詞而非完整子句；Meanwhile（同時、與此同時）表時間並行而非讓步；Despite 為介系詞，須接名詞或動名詞，不可直接接「主詞＋動詞」的完整子句。"
+      "zh": "儘管這樁併購案已獲得雙方董事會核准，仍有數名少數股東提告試圖阻止此交易。",
+      "why": "<b>Notwithstanding the fact that</b> 為正式讓步連接片語，可直接接「主詞＋動詞」的完整子句，意為「儘管…的事實」。In spite that 缺少必要的 of（應為 in spite of the fact that）；Despite of the fact 中 despite 之後不可再接 of；Although of 為錯誤組合，although 為連接詞不可接介系詞 of。"
     },
     {
-      "id": "2026-09-09-p5-4",
-      "tag": "進階動詞語意辨別（supersede，super-字首形似詞）",
-      "pre": "The updated safety protocol will ",
-      "post": " all previous guidelines issued before this fiscal year.",
-      "opts": ["supersede", "supervise", "supplement", "suppress"],
+      "id": "2026-09-10-p5-4",
+      "tag": "進階動詞語意辨別（expedite，ex-字首形似詞）",
+      "pre": "The client requested that the vendor ",
+      "post": " the delivery process in light of the approaching contractual deadline.",
+      "opts": ["expedite", "expend", "expunge", "expropriate"],
       "ans": 0,
-      "zh": "這項更新後的安全協議，將「取代」本會計年度之前發布的所有先前準則。",
-      "why": "<b>supersede</b>（取代、廢止舊有規定而以新規定取代之）精準對應此處語境。supervise（監督、督導）語意不符；supplement（補充、增添）語意不符，此處是取代而非補充；suppress（壓制、抑制）語意不符，四字同為 su-/super- 字首形似詞，屬進階詞彙易混淆辨析。"
+      "zh": "客戶要求供應商「加速」交貨流程，以因應即將到期的合約期限。",
+      "why": "<b>expedite</b>（加速辦理、加快進度）精準對應此處語境。expend（花費、耗費，通常指金錢或資源）語意不符；expunge（刪除、抹除紀錄）語意不符；expropriate（徵收、剝奪財產）語意不符，四字同為 ex-字首形似詞，屬進階詞彙易混淆辨析。"
     }
   ],
   "p6": {
-    "id": "2026-09-09-p6",
-    "title": "MEMORANDUM: Revised Protocol for Handling Regulatory Inquiries and Subpoenas",
+    "id": "2026-09-10-p6",
+    "title": "MEMORANDUM: Updated Guidelines on Employee Social Media Conduct Regarding Company Matters",
     "seg": [
       [
-        "To all department heads: Effective immediately, any regulatory inquiry, subpoena, or formal document request received from a government agency ",
+        "To all staff: Effective this month, any social media post that references the company's clients, financial performance, or unreleased products ",
         { "b": 0 },
-        " to the Legal Department within twenty-four hours, and under no circumstances should it be responded to directly without Legal's involvement."
+        " by the Communications team before it is published, regardless of the platform or the employee's personal privacy settings."
       ],
       [
         { "b": 1 },
-        ", employees who receive an informal request or a phone call from a regulator should still notify Legal promptly, even if no formal document has yet been issued."
+        ", employees are always free to share general career updates, such as promotions or work anniversaries, without seeking prior approval."
       ],
       [
-        "Department heads should never attempt to ",
+        "Employees who are found to have ",
         { "b": 2 },
-        " or alter any document once it has become the subject of a regulatory inquiry, as doing so may constitute obstruction."
+        " confidential company information on social media, even inadvertently, will be subject to disciplinary review."
       ],
       [
         { "b": 3 },
-        " A complete log of all regulatory contacts, however informal, must be maintained by the Legal Department for auditing purposes."
+        " The Communications team's review turnaround time is typically within one business day."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["must be forwarded", "forwards", "has forwarded", "is forwarding"],
+        "opts": ["must be reviewed", "reviews", "has reviewed", "is reviewing"],
         "ans": 0,
-        "zh": "致所有部門主管：自即日起，任何收到來自政府機關的法規調查、傳票，或正式文件請求，皆「須於」24小時內轉交法務部門，且在任何情況下皆不得未經法務部門介入而直接回應。",
-        "why": "文件是被轉交的對象，此句表達即刻生效的強制性規定，須用被動情態動詞 <b>must be forwarded</b>。forwards 為主動現在式，不符被動需求；has forwarded 為現在完成式主動語態，語意錯誤；is forwarding 為現在進行式主動語態，同樣不符合規定語氣。"
+        "zh": "致所有同仁：自本月起，任何提及公司客戶、財務表現，或未發布產品的社群媒體貼文，發布前皆「須經」公關團隊審閱，無論所使用的平台或員工個人的隱私設定為何。",
+        "why": "貼文是被審閱的對象，此句表達強制性規定，須用被動情態動詞 <b>must be reviewed</b>。reviews 為主動現在式，不符被動需求；has reviewed 為現在完成式主動語態，語意錯誤；is reviewing 為現在進行式主動語態，同樣不符合規定語氣。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["Likewise", "Consequently", "For example", "Otherwise"],
+        "opts": ["By contrast", "As a result", "For that reason", "Similarly"],
         "ans": 0,
-        "zh": "「同樣地」，若同仁接到監管機關的非正式請求或電話聯繫，即便尚未收到正式文件，也應立即通知法務部門。",
-        "why": "<b>Likewise</b>（同樣地）用以延伸前句規定的適用範圍，說明非正式請求同樣須通知法務部門，構成類比銜接。Consequently（因此）表因果；For example（例如）表舉例；Otherwise（否則）表條件對比，皆不符合此處的類比延伸語意。"
+        "zh": "「相較之下」，員工始終可以自由分享一般性的職涯更新，例如升遷或到職週年紀念，無需事先取得核准。",
+        "why": "<b>By contrast</b>（相較之下）用以對比前句的嚴格審閱規定與本句的自由分享範圍，構成語意轉折對比。As a result（因此）表因果；For that reason（因此、基於該理由）表因果；Similarly（同樣地）表類比延續，皆不符合此處的對比語意。"
       },
       {
-        "tag": "詞彙語意（動詞辨析，with-字首形似詞）",
+        "tag": "詞彙語意（動詞辨析，div-字首形似詞）",
         "col1": true,
-        "opts": ["withhold", "withdraw", "withstand", "wither"],
+        "opts": ["divulged", "diverged", "diverted", "divested"],
         "ans": 0,
-        "zh": "部門主管絕不應在文件成為法規調查對象後，試圖「扣留」或竄改該文件，因為這麼做可能構成妨礙司法。",
-        "why": "<b>withhold</b>（扣留、不予提供）精準對應此處語境。withdraw（撤回、提取）語意不符；withstand（抵擋、承受）語意不符；wither（枯萎、凋謝）語意不符，四字型態相似（皆以 with- 開頭）易混淆，屬進階詞彙辨析。"
+        "zh": "若員工被發現在社群媒體上「洩露」公司機密資訊，即便是無心之過，仍將面臨紀律審查。",
+        "why": "<b>divulged</b>（洩露、透露機密資訊）精準對應此處語境。diverged（分歧、偏離）語意不符；diverted（轉移、使轉向）語意不符；divested（剝離、出售資產）語意不符，四字型態相似（皆以 div- 開頭）易混淆，屬進階詞彙辨析。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Failure to follow this protocol may expose both the individual employee and the company to significant legal and reputational risk.",
-          "The company's annual compliance training will be updated to reflect new industry standards.",
-          "All department heads are required to submit their budget forecasts by the end of the quarter.",
-          "The Legal Department will be relocating to a new floor next month."
+          "Employees are encouraged to submit posts for review as early as possible to avoid delays around time-sensitive announcements.",
+          "The company's social media accounts will undergo a rebranding next quarter.",
+          "All employees must complete their annual performance reviews by year-end.",
+          "The cafeteria will introduce a new menu starting next week."
         ],
         "ans": 0,
-        "zh": "「未能遵循本程序，可能使個別員工與公司雙方均暴露於重大法律及聲譽風險之中。」所有與監管機關的接觸紀錄，無論是否正式，法務部門均須完整留存以供稽核。",
-        "why": "段落主題為「法規調查與傳票應對程序修訂」，此句強調未遵循程序的風險後果，與下一句「接觸紀錄須完整留存」共同構成政策執行與風險提醒的完整收尾。其餘選項（年度合規訓練更新、部門預算提交期限、法務部門搬遷）皆與本次法規調查應對程序無關，插入後語意斷裂。"
+        "zh": "「鼓勵同仁盡早提交貼文供審閱，以避免時效性公告延誤發布。」公關團隊的審閱作業時間通常在一個工作天內完成。",
+        "why": "段落主題為「員工社群媒體行為準則更新」，此句提醒同仁盡早提交審閱以避免延誤，與下一句「審閱作業時間通常一個工作天」共同構成流程說明的完整收尾。其餘選項（社群帳號品牌重塑、年度績效考核、員工餐廳菜單更新）皆與社群媒體行為準則無關，插入後語意斷裂。"
       }
     ]
   }

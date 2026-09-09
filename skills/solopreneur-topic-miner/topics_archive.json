@@ -1,5 +1,142 @@
 [
   {
+    "date": "2026-09-09",
+    "big_events": [
+      {
+        "title": "OpenAI稱AI用88小時攻克百萬美元數學難題，卻爆與Anthropic研究員搶功羅生門",
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/09/09/openai-navier-stokes-math-problem-solved.html"
+          },
+          {
+            "name": "CNN Business",
+            "url": "https://www.cnn.com/2026/09/09/business/openai-millennium-problems-navier-stokes-hnk"
+          },
+          {
+            "name": "OpenAI（官方）",
+            "url": "https://openai.com/index/navier-stokes-solution/"
+          }
+        ],
+        "summary": "萬個AI代理人協作88小時解出90年懸案，功勞歸屬掀論戰",
+        "audience": "對AI推理能力與學術突破有興趣的科技評論自媒體、想了解「AI能做到什麼等級工作」的職場上班族、關心AI巨頭競合關係的內容創作者",
+        "pain_point": "大家常被「AI又破紀錄」的新聞疲勞轟炸，卻很少人講清楚這次「解出90年數學懸案」到底是什麼等級的突破，也不知道背後還牽扯到跟Anthropic研究員的功勞爭奪內幕",
+        "title_idea": "AI三天解開90年數學謎團！OpenAI風光背後，竟被抓包「偷看」對手研究進度？",
+        "local_angle": "華語圈對「AI解數學題」類新聞多半只做「哇好強」式翻譯，鮮少深入「萬代理人協作解題」的方法論與科學界功勞歸屬倫理爭議，適合做「AI科研新兵法」科普系列，滿足對AI能力邊界好奇的觀眾"
+      },
+      {
+        "title": "AI編碼工具Devin開發商Cognition四個月估值翻倍，完成20億美元融資衝上480億美元",
+        "sources": [
+          {
+            "name": "TechFundingNews",
+            "url": "https://techfundingnews.com/devin-maker-cognition-raises-over-2b-at-48b-valuation-nearly-doubling-its-price-tag-in-four-months/"
+          },
+          {
+            "name": "The AI Insider",
+            "url": "https://theaiinsider.tech/2026/09/09/cognition-secures-2b-at-48b-valuation-as-ai-coding-race-intensifies/"
+          },
+          {
+            "name": "Tech Startups",
+            "url": "https://techstartups.com/2026/09/09/startup-funding-news-today-september-9-2026-cognition-ai-algomatic-dynamics-qnu-labs-more/"
+          }
+        ],
+        "summary": "AI寫程式代理人Devin營收半年翻倍，企業客戶含NASA、高盛",
+        "audience": "想了解AI編碼工具產業動態的獨立開發者、接案工程師、對AI取代或輔助工程師工作有疑慮的職場技術人員",
+        "pain_point": "很多工程師還在觀望「AI真的能自己寫程式上線嗎」，卻不知道像Devin這樣的AI編碼代理人已經在NASA、高盛、花旗等企業裡實際跑起來，市場資金也押注得飛快",
+        "title_idea": "AI工程師比你還搶手！Devin開發商4個月估值翻倍衝480億美元，企業搶著簽",
+        "local_angle": "華語圈開發者對Cursor、GitHub Copilot討論很多，但Devin這種「自主完成任務」的AI Agent等級工具還缺中文介紹，適合做「認識下一代AI工程師」評測，卡位「企業導入AI編碼代理人」顧問商機"
+      },
+      {
+        "title": "法律AI獨角獸Harvey募得5.5億美元衝上155億美元估值，同步收購AI防護新創Guardrails AI",
+        "sources": [
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-09-09/legal-ai-startup-harvey-hits-15-6-billion-value-with-550-million-round"
+          },
+          {
+            "name": "Artificial Lawyer",
+            "url": "https://www.artificiallawyer.com/2026/09/09/harvey-raises-550m-at-15-5bn-val-buys-guardrails-ai/"
+          },
+          {
+            "name": "Harvey（官方部落格）",
+            "url": "https://www.harvey.ai/blog/harvey-raises-dollar550m-at-a-dollar155b-valuation-to-help-legal-teams-own-their-intelligence"
+          }
+        ],
+        "summary": "年營收破4億美元，服務80%頂尖律所，今年已第4起併購",
+        "audience": "律師、法務與專業服務業從業者、對「垂直產業AI應用」有興趣的獨立開發者與顧問",
+        "pain_point": "很多專業服務業者以為AI只能寫寫合約摘要，不知道垂直領域AI已經做到年收4億美元、服務80%頂尖律所的規模，也不清楚這類公司靠併購補強「AI代理人安全防護」能力的布局邏輯",
+        "title_idea": "AI律師事務所後台推手！Harvey估值飆155億美元，還買下防止AI亂來的公司",
+        "local_angle": "華語圈法律科技討論仍停留在「AI能不能取代律師」的表層辯論，Harvey這種「垂直AI＋收購補強安全防護」的成熟商業模式還沒被引進討論，適合做「產業別AI獨角獸」系列，給接案顧問與法律科技創業者參考"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "AI音樂生成工具Suno推出v6模型，首度採用華納、BMG正版授權音樂訓練",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/09/09/suno-replaces-its-ai-models-with-a-new-one-trained-on-licensed-music-as-copyright-suits-pile-up/"
+          },
+          {
+            "name": "Digital Music News",
+            "url": "https://www.digitalmusicnews.com/2026/09/09/suno-v6-launch/"
+          },
+          {
+            "name": "Music Business Worldwide",
+            "url": "https://www.musicbusinessworldwide.com/suno-v6-ai-music-models-launch-in-partnership-with-wmg-bmg-and-believe/"
+          }
+        ],
+        "summary": "版權訴訟壓力下轉型，新模型支援分軌編輯、混音與取樣",
+        "audience": "經營Podcast、短影音、自媒體配樂的內容創作者、想用AI生成商用背景音樂但擔心版權問題的職場工作者",
+        "pain_point": "很多創作者用AI生成音樂配自己的影片卻不敢商用，因為擔心背後訓練資料有侵權疑慮，一旦被平台下架或收到版權警告就欲哭無淚",
+        "title_idea": "終於不用怕版權！Suno新模型用「正版授權音樂」訓練，創作者能安心商用了",
+        "local_angle": "華語自媒體創作者大量使用AI配樂工具卻普遍忽略版權風險，這次「正版授權訓練」是還沒被中文教學圈講清楚的重要轉折，適合做「AI配樂版權安全指南」實用教學，順勢做v6功能實測"
+      }
+    ],
+    "trends": [
+      {
+        "title": "OpenAI財務長證實跨足晶片設計、生命科學、金融服務，Luna模型砍價8成搶灘中國開源對手",
+        "sources": [
+          {
+            "name": "Forkast",
+            "url": "https://forkast.news/openai-used-its-own-ai-models-to-design-the-jalapeno-chip-the-compute-landlord-thesis-just-went-recursive/"
+          },
+          {
+            "name": "Cryptopolitan",
+            "url": "https://www.cryptopolitan.com/openai-pitches-its-models-for-chip-design-betting-cost-beats-open-source/"
+          },
+          {
+            "name": "Technology.org",
+            "url": "https://www.technology.org/2026/09/09/openai-chip-design-luna-price-cut/"
+          }
+        ],
+        "summary": "CFO於高盛法說會證實用自家AI設計Jalapeno晶片，測試成效計費新模式",
+        "audience": "想切入企業AI導入顧問或垂直產業AI應用的獨立開發者、對OpenAI商業模式與獲利能力有興趣的投資型自媒體",
+        "pain_point": "大家只把OpenAI當成「做ChatGPT的公司」，不知道它已經悄悄把AI賣進晶片設計、生命科學、金融服務等專業領域，也不了解為什麼要對中國開源模型打價格戰",
+        "title_idea": "OpenAI不只做聊天機器人！財務長親口證實：晶片、生技、金融都要吃下來",
+        "local_angle": "華語圈對OpenAI的討論多停留在ChatGPT功能更新，鮮少注意到它正快速往垂直產業與B2B專業服務擴張、甚至打價格戰，適合做「OpenAI下一步棋」系列，給想承接企業AI導入案的接案者提前布局參考"
+      },
+      {
+        "title": "蘋果首款摺疊機Duo鉸鏈由AI設計、3D列印製造，衝擊摺疊手機耐用度痛點",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/09/09/the-hinge-for-apples-new-foldable-phone-was-built-with-ai/"
+          },
+          {
+            "name": "IntoMobile",
+            "url": "https://www.intomobile.com/2026/09/09/apple-built-its-foldable-phone-hinge-with-ai-and-its-more-interesting-than-it-sounds/"
+          }
+        ],
+        "summary": "AI比對鉸鏈與機身最佳配對，雷射掃描搭配3D列印修正製造誤差",
+        "audience": "對AI應用於硬體製造有興趣的科技評論自媒體、關注消費電子供應鏈的內容創作者",
+        "pain_point": "大家對「AI」的想像多半停留在聊天機器人或寫文案，很少人意識到AI已經開始接手精密製造的品管與客製化配對工作，錯過「AI進軍硬體產線」這個新敘事角度",
+        "title_idea": "蘋果摺疊機終於要來了！鉸鏈耐用秘密：靠AI一片片手工客製化配對",
+        "local_angle": "台灣是蘋果供應鏈重鎮，這種「AI介入精密製造品管」的案例對關心供應鏈與硬體代工的華語觀眾特別有感，適合做「AI如何改寫台灣供應鏈代工模式」系列選題"
+      }
+    ]
+  },
+  {
     "date": "2026-09-08",
     "big_events": [
       {
@@ -614,125 +751,6 @@
         "pain_point": "越來越多人把日常工作綁在單一AI服務上，一旦當機工作就整個卡住，卻很少有人事先準備「AI當機備援方案」",
         "title_idea": "Claude突然大當機3小時！如果你的工作靠AI吃飯，這篇備援清單一定要收藏",
         "local_angle": "華語圈很多自媒體、接案者已把Claude當日常工具，但幾乎沒人討論「服務中斷風險管理」，可做「AI工作流備援」實用教學，補上還沒被人佔領的內容缺口"
-      }
-    ]
-  },
-  {
-    "date": "2026-09-02",
-    "big_events": [
-      {
-        "title": "OpenAI新模型Astra採用「循環深度」推理技術，AI安全專家憂心監控能力被削弱",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/"
-          }
-        ],
-        "summary": "Astra跳脫傳統思維鏈架構，讓內部推理過程更難被人類監控與稽核",
-        "audience": "關注AI風險與治理的科技評論者、企業AI導入決策者",
-        "pain_point": "大家都在講「AI要透明可控」，但連OpenAI自己的新技術都讓監控變難，一般人不知道該怎麼判斷這類技術演進背後的風險",
-        "title_idea": "OpenAI新模型讓AI「想什麼都看不懂」？安全專家最新示警一次看懂",
-        "local_angle": "昨天才報過Astra跨過資安「重大」門檻，今天再爆出這款模型的推理架構讓監控更難，是同一顆炸彈的第二引信，華語圈還沒人接續報導這個技術細節，適合做「AI黑盒化」系列追蹤"
-      },
-      {
-        "title": "Anthropic搶攻年底購物季，推出Claude商務代理人藍圖，Shopify、Priceline實測轉單率大增",
-        "sources": [
-          {
-            "name": "Reuters (via Investing.com)",
-            "url": "https://www.investing.com/news/economy-news/anthropic-launches-ai-agent-blueprints-for-retailers-ahead-of-holiday-shopping-season-4886525"
-          },
-          {
-            "name": "WMBD Radio",
-            "url": "https://wmbdradio.com/2026/09/02/anthropic-launches-ai-agent-blueprints-for-retailers-ahead-of-holiday-shopping-season/"
-          }
-        ],
-        "summary": "官方釋出購物代理人與商家代理人參考架構，合作品牌客單量提升約30-35%",
-        "audience": "電商/零售從業者、SaaS產品經理、想幫客戶導入AI客服與導購的接案者",
-        "pain_point": "很多電商業者想導入AI導購卻不知道從何架設，怕做出來的體驗生硬、轉換率不升反降",
-        "title_idea": "Claude出手做電商AI導購！官方藍圖曝光，實測客單量狂飆35%",
-        "local_angle": "年底購物旺季逼近，海外零售品牌已用官方藍圖搶快布局，台灣電商圈還沒人翻譯這套架構，適合搶先做「年底購物季AI導購」教學系列"
-      },
-      {
-        "title": "企業AI作業系統新創Wonderful半年估值翻倍衝上50億美元，Salesforce領投加碼",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/09/02/wonderful-more-than-doubles-its-valuation-to-5b-in-under-6-months/"
-          },
-          {
-            "name": "Tech.eu",
-            "url": "https://tech.eu/2026/09/02/netherlands-based-ai-startup-wonderful-raises-550m-at-5bn-valuation/"
-          }
-        ],
-        "summary": "C輪募得5.5億美元，Salesforce首度入股，凸顯企業級AI代理平台熱度未退",
-        "audience": "關注AI創業與募資動態的獨立開發者、科技媒體與自媒體創作者",
-        "pain_point": "常聽說「AI新創泡沫化」，卻不知道企業級AI Agent工具其實還在瘋狂吸金，缺乏具體案例佐證趨勢仍在延燒",
-        "title_idea": "半年估值翻倍！這家沒人聽過的AI新創怎麼讓Salesforce都搶著投錢",
-        "local_angle": "Wonderful在華語圈知名度極低，是典型「歐美已驗證、華語圈資訊真空」選題，適合做「認識下一個AI獨角獸」系列開箱"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "Gemini自訂指示全面開放所有Google Workspace用戶，Gmail、雲端硬碟、簡報通用一次設定",
-        "sources": [
-          {
-            "name": "Google Workspace Updates",
-            "url": "https://support.google.com/a/users/answer/16943683"
-          }
-        ],
-        "summary": "9/2起分階段開放，在任一Gemini入口存的指示會同步套用到全部應用程式",
-        "audience": "天天用Gmail、試算表、簡報處理公務的上班族與行政人員",
-        "pain_point": "每次跟Gemini對話都要重講一次「用什麼語氣、什麼格式」，不同Google服務裡的Gemini設定各自獨立，浪費時間",
-        "title_idea": "Gemini終於記得你的習慣了！一次設定、全家Google服務通用的自訂指示教學",
-        "local_angle": "這是實用型功能更新，教學門檻低卻能立刻省時間，適合做「上班族3分鐘設定術」短影音，搶在中文教學出現前卡位"
-      },
-      {
-        "title": "Amazon購物AI新增「這則訊息是詐騙嗎」功能，Alexa直接幫忙辨識可疑訊息",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/09/02/psa-amazons-shopping-ai-can-now-tell-you-if-that-message-is-a-scam/"
-          }
-        ],
-        "summary": "因應每年36萬用戶詢問客服訊息真偽，Amazon購物版AI新增即時辨詐功能",
-        "audience": "常網購、對詐騙簡訊/信件有戒心的一般消費者與電商客服從業者",
-        "pain_point": "詐騙簡訊、假冒客服訊息氾濫，一般人常常拿不準真假，又不想每次都打電話去問客服",
-        "title_idea": "收到可疑簡訊先問AI！Amazon購物助理新功能實測「詐騙照妖鏡」",
-        "local_angle": "台灣詐騙簡訊猖獗但本地電商平台鮮少提供類似AI辨識工具，適合做「海外電商怎麼防詐」對比選題，切入本地詐騙防範討論"
-      }
-    ],
-    "trends": [
-      {
-        "title": "研究揭露：三個網站量產21萬篇AI生成「最佳軟體」導購文，竟被Perplexity大量引用",
-        "sources": [
-          {
-            "name": "Trellner Research (via Hacker News)",
-            "url": "https://news.ycombinator.com/item?id=49536375"
-          }
-        ],
-        "summary": "AI生成內容被Google收錄、再被Perplexity當作可信來源引用，形成內容造假迴圈",
-        "audience": "內容創作者、SEO從業者、經營部落格與導購網站的自媒體",
-        "pain_point": "想靠AI量產內容衝流量，卻不知道這種做法正被研究點名「汙染」AI搜尋結果，未來恐被平台降權或用戶信任度下滑",
-        "title_idea": "21萬篇AI垃圾文騙過Perplexity？揭露AI導購文的造假產業鏈",
-        "local_angle": "華語自媒體圈近期瘋傳「用AI量產部落格賺聯盟行銷」，這篇研究正好戳破這種玩法的長期風險，適合做「AI內容農場現形記」提醒型選題"
-      },
-      {
-        "title": "以色列新創Huskeys完成2700萬美元A輪，黑石領投打造「AI代理人流量」防護新戰場",
-        "sources": [
-          {
-            "name": "The Next Web",
-            "url": "https://thenextweb.com/news/huskeys-raises-27m-series-a-led-by-blackstone"
-          },
-          {
-            "name": "HackerNoon",
-            "url": "https://hackernoon.com/huskeys-raises-$27m-series-a-led-by-blackstone-to-tackle-the-growing-complexity-of-edge-security"
-          }
-        ],
-        "summary": "鎖定AI代理人與攻擊者流量難以區辨的痛點，客戶已包含TikTok、Hugging Face等大廠",
-        "audience": "中小企業IT主管、對AI Agent資安風險有興趣的科技類自媒體",
-        "pain_point": "企業導入AI Agent後，系統流量裡哪些是自己養的AI、哪些是惡意流量，傳統防火牆完全分不出來",
-        "title_idea": "AI員工上工後，資安公司的新生意：教你的防火牆認出「誰是AI」",
-        "local_angle": "這是還沒被華語圈報導的新資安子賽道，適合做「AI Agent時代的資安新知」科普型選題，搶占企業IT受眾"
       }
     ]
   }
