@@ -1,117 +1,117 @@
 {
-  "date": "2026-09-10",
+  "date": "2026-09-11",
   "p5": [
     {
-      "id": "2026-09-10-p5-0",
-      "tag": "倒裝句（Under no circumstances，否定副詞片語置句首引發倒裝）",
+      "id": "2026-09-11-p5-0",
+      "tag": "倒裝句（Little did + 主詞 + 原形動詞，否定副詞倒裝）",
       "pre": "",
-      "post": " should an employee disclose confidential client information to a third party without prior written authorization.",
-      "opts": ["Under no circumstances", "In no way possible", "Not at all", "By no means possible"],
+      "post": " the newly appointed CEO realize that the company's most profitable division was already under a confidential acquisition offer.",
+      "opts": ["Little did", "Little had", "Little has", "Little was"],
       "ans": 0,
-      "zh": "在任何情況下，員工皆不得在未經事先書面授權的情況下，向第三方揭露機密客戶資訊。",
-      "why": "<b>Under no circumstances</b> 為否定意味的副詞片語，置於句首時須引發部分倒裝（should an employee disclose）。In no way possible、Not at all、By no means possible 皆非標準的否定副詞片首片語，不具備引發此類倒裝句型的慣用功能（by no means 本身雖可倒裝，但 by no means possible 並非正確搭配）。"
+      "zh": "新任執行長「完全沒有意識到」，公司獲利最豐厚的部門其實已經悄悄收到一份保密收購要約。",
+      "why": "<b>Little</b> 為否定意味的副詞置於句首，須引發倒裝並搭配助動詞 did + 原形動詞 realize，構成過去式的倒裝句型。Little had 須接過去分詞（had realized）而非原形動詞；Little has 為現在完成式，時態與後文語境（過去發生的事）不符；Little was 為 be 動詞，無法與原形動詞 realize 直接搭配構成正確句構。"
     },
     {
-      "id": "2026-09-10-p5-1",
-      "tag": "完成式不定詞（to have + 過去分詞，表示先於主要動詞發生的動作）",
-      "pre": "The due-diligence team appears ",
-      "post": " several critical liabilities in the target company's financial statements.",
-      "opts": ["to have overlooked", "to overlook", "having overlooked", "overlooked"],
+      "id": "2026-09-11-p5-1",
+      "tag": "使役動詞（have + 受詞 + 過去分詞，表請別人代為完成某事）",
+      "pre": "To avoid any conflict of interest, the audit committee arranged to ",
+      "post": " the annual financial statements reviewed by an external auditing firm.",
+      "opts": ["have", "make", "do", "let"],
       "ans": 0,
-      "zh": "盡職調查團隊似乎「已經忽略」了目標公司財務報表中幾項重大負債。",
-      "why": "<b>to have + 過去分詞</b>（完成式不定詞）用於表示動作發生在主要動詞（appears）之前，此處指「忽略」這件事已經先發生。to overlook 為簡單式不定詞，僅表示與主要動詞同時或稍後發生，時態層次不符；having overlooked 為動名詞完成式，不具備不定詞應有的句構角色；overlooked 為過去式/過去分詞，無法直接接在 appears 後方構成正確句構。"
+      "zh": "為避免任何利益衝突，稽核委員會安排「請」外部會計師事務所來審閱年度財務報表。",
+      "why": "<b>have + 受詞 + 過去分詞</b>為標準使役結構，表示「請/讓某人代為完成某事」，此處指委託外部會計師事務所審閱報表。make 作使役動詞時須接受詞＋原形動詞（make someone review），不可直接接過去分詞；do 不具備使役動詞的句構功能；let 作使役動詞時同樣須接受詞＋原形動詞（let someone review），不可直接接過去分詞。"
     },
     {
-      "id": "2026-09-10-p5-2",
-      "tag": "比較結構（the same...as，同等比較）",
-      "pre": "The revised contract imposes ",
-      "post": " obligations on the subcontractor as the original agreement did, despite the change in scope.",
-      "opts": ["the same", "as same", "same as", "such same"],
+      "id": "2026-09-11-p5-2",
+      "tag": "慣用語（far from，＝一點也不、完全不是）",
+      "pre": "The preliminary results were ",
+      "post": " conclusive, prompting the research team to commission a follow-up study before publishing any findings.",
+      "opts": ["far from", "far away", "far off", "as far as"],
       "ans": 0,
-      "zh": "儘管範疇有所變動，修訂後的合約對分包商所課予的義務，與原始協議「相同」。",
-      "why": "<b>the same...as</b> 為固定同等比較句型，the same 修飾名詞 obligations，後方搭配 as 引導比較對象。as same 語序錯誤，不成立；same as 缺少定冠詞 the，不符固定用法；such same 並非標準搭配，不成立。"
+      "zh": "初步結果「遠遠稱不上」是定論，促使研究團隊在發表任何結論前，先委託進行後續研究。",
+      "why": "<b>far from</b> + 形容詞/名詞為固定慣用語，意為「完全不是、遠遠稱不上」，此處修飾 conclusive（定論的）。far away 通常用於描述實際地理距離；far off 亦多指距離或時間上遙遠，不用於此類語意否定用法；as far as 須接子句構成「就…而言」的片語（as far as I know），不符合此處的句構與語意。"
     },
     {
-      "id": "2026-09-10-p5-3",
-      "tag": "讓步片語（Notwithstanding the fact that，正式，＝although）",
+      "id": "2026-09-11-p5-3",
+      "tag": "讓步連接詞（Even if，表假設性讓步，區別於 Even though 既成事實讓步）",
       "pre": "",
-      "post": " the merger had been approved by both boards, several minority shareholders filed suit to block the transaction.",
-      "opts": ["Notwithstanding the fact that", "In spite that", "Despite of the fact", "Although of"],
+      "post": " the pilot program ultimately fails to meet its performance targets, the insights gained will still inform future product development.",
+      "opts": ["Even if", "Even though", "Even as", "Even so"],
       "ans": 0,
-      "zh": "儘管這樁併購案已獲得雙方董事會核准，仍有數名少數股東提告試圖阻止此交易。",
-      "why": "<b>Notwithstanding the fact that</b> 為正式讓步連接片語，可直接接「主詞＋動詞」的完整子句，意為「儘管…的事實」。In spite that 缺少必要的 of（應為 in spite of the fact that）；Despite of the fact 中 despite 之後不可再接 of；Although of 為錯誤組合，although 為連接詞不可接介系詞 of。"
+      "zh": "「即使」這項試辦計畫最終未能達成績效目標，所獲得的洞見仍將有助於未來的產品開發。",
+      "why": "<b>Even if</b> 用於表達「即使發生（尚未確定的假設性）情況」的讓步語意，此處 fails 描述的是尚未發生的假設性結果。Even though 用於既成事實的讓步（即使…這件事已經是事實），與此處假設性語境不符；Even as（正當…的同時）表時間同步；Even so（即便如此）為副詞，不能連接兩個子句。"
     },
     {
-      "id": "2026-09-10-p5-4",
-      "tag": "進階動詞語意辨別（expedite，ex-字首形似詞）",
-      "pre": "The client requested that the vendor ",
-      "post": " the delivery process in light of the approaching contractual deadline.",
-      "opts": ["expedite", "expend", "expunge", "expropriate"],
+      "id": "2026-09-11-p5-4",
+      "tag": "進階動詞語意辨別（corroborate，co(n/r)-字首形似詞）",
+      "pre": "The witness's testimony was largely dismissed by the tribunal because no independent evidence could ",
+      "post": " her account of the events.",
+      "opts": ["corroborate", "collaborate", "correlate", "confiscate"],
       "ans": 0,
-      "zh": "客戶要求供應商「加速」交貨流程，以因應即將到期的合約期限。",
-      "why": "<b>expedite</b>（加速辦理、加快進度）精準對應此處語境。expend（花費、耗費，通常指金錢或資源）語意不符；expunge（刪除、抹除紀錄）語意不符；expropriate（徵收、剝奪財產）語意不符，四字同為 ex-字首形似詞，屬進階詞彙易混淆辨析。"
+      "zh": "由於沒有任何獨立證據能「佐證」她對事件經過的描述，這位證人的證詞大部分遭到仲裁庭駁回。",
+      "why": "<b>corroborate</b>（佐證、證實）精準對應此處語境。collaborate（合作）語意不符；correlate（使相關聯，通常用於統計數據間的關係）語意不符；confiscate（沒收、查扣）語意不符，四字型態相似（皆以 co(n/r)- 開頭）易混淆，屬進階詞彙辨析。"
     }
   ],
   "p6": {
-    "id": "2026-09-10-p6",
-    "title": "MEMORANDUM: Updated Guidelines on Employee Social Media Conduct Regarding Company Matters",
+    "id": "2026-09-11-p6",
+    "title": "MEMORANDUM: Revised Protocol for Onboarding Third-Party Contractors and Consultants",
     "seg": [
       [
-        "To all staff: Effective this month, any social media post that references the company's clients, financial performance, or unreleased products ",
+        "To all hiring managers: Effective this quarter, any independent contractor or consultant engaged for a project lasting longer than thirty days ",
         { "b": 0 },
-        " by the Communications team before it is published, regardless of the platform or the employee's personal privacy settings."
+        " to complete a background verification and sign a standard confidentiality agreement before being granted access to internal systems."
       ],
       [
         { "b": 1 },
-        ", employees are always free to share general career updates, such as promotions or work anniversaries, without seeking prior approval."
+        ", contractors engaged for projects lasting thirty days or fewer are still required to sign the confidentiality agreement, though the full background verification may be waived at the hiring manager's discretion."
       ],
       [
-        "Employees who are found to have ",
+        "Hiring managers should never attempt to ",
         { "b": 2 },
-        " confidential company information on social media, even inadvertently, will be subject to disciplinary review."
+        " the background verification process, regardless of project urgency, as doing so may expose the company to significant liability."
       ],
       [
         { "b": 3 },
-        " The Communications team's review turnaround time is typically within one business day."
+        " The updated onboarding checklist is available on the Human Resources intranet page."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["must be reviewed", "reviews", "has reviewed", "is reviewing"],
+        "opts": ["must be required", "requires", "has required", "is requiring"],
         "ans": 0,
-        "zh": "致所有同仁：自本月起，任何提及公司客戶、財務表現，或未發布產品的社群媒體貼文，發布前皆「須經」公關團隊審閱，無論所使用的平台或員工個人的隱私設定為何。",
-        "why": "貼文是被審閱的對象，此句表達強制性規定，須用被動情態動詞 <b>must be reviewed</b>。reviews 為主動現在式，不符被動需求；has reviewed 為現在完成式主動語態，語意錯誤；is reviewing 為現在進行式主動語態，同樣不符合規定語氣。"
+        "zh": "致所有用人主管：自本季起，任何聘用期限超過三十天的獨立承包商或顧問，在取得內部系統存取權限前，皆「須被要求」完成背景查核並簽署標準保密協議。",
+        "why": "承包商/顧問是被要求完成查核的對象，此句表達強制性規定，須用被動情態動詞 <b>must be required</b>。requires 為主動現在式，不符被動需求；has required 為現在完成式主動語態，語意錯誤；is requiring 為現在進行式主動語態，同樣不符合規定語氣。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["By contrast", "As a result", "For that reason", "Similarly"],
+        "opts": ["Conversely", "Consequently", "In turn", "Accordingly"],
         "ans": 0,
-        "zh": "「相較之下」，員工始終可以自由分享一般性的職涯更新，例如升遷或到職週年紀念，無需事先取得核准。",
-        "why": "<b>By contrast</b>（相較之下）用以對比前句的嚴格審閱規定與本句的自由分享範圍，構成語意轉折對比。As a result（因此）表因果；For that reason（因此、基於該理由）表因果；Similarly（同樣地）表類比延續，皆不符合此處的對比語意。"
+        "zh": "「相反地」，承包期限在三十天（含）以內的承包商，雖仍須簽署保密協議，但完整的背景查核可依用人主管的裁量予以豁免。",
+        "why": "<b>Conversely</b>（相反地）用以對比前句「超過三十天須完成完整查核」的規定，說明短期承包商適用較寬鬆的規範，構成語意對比。Consequently（因此）表因果；In turn（依次）表順序；Accordingly（依此、據此）表因果依循，皆不符合此處的對比語意。"
       },
       {
-        "tag": "詞彙語意（動詞辨析，div-字首形似詞）",
+        "tag": "進階動詞語意辨別（circumvent，circum-字首形似詞）",
         "col1": true,
-        "opts": ["divulged", "diverged", "diverted", "divested"],
+        "opts": ["circumvent", "circulate", "circumscribe", "circumnavigate"],
         "ans": 0,
-        "zh": "若員工被發現在社群媒體上「洩露」公司機密資訊，即便是無心之過，仍將面臨紀律審查。",
-        "why": "<b>divulged</b>（洩露、透露機密資訊）精準對應此處語境。diverged（分歧、偏離）語意不符；diverted（轉移、使轉向）語意不符；divested（剝離、出售資產）語意不符，四字型態相似（皆以 div- 開頭）易混淆，屬進階詞彙辨析。"
+        "zh": "用人主管絕不應「規避」背景查核流程，無論專案多麼緊急，因為這麼做可能使公司暴露於重大法律責任之中。",
+        "why": "<b>circumvent</b>（迂迴規避、繞過規定）精準對應此處語境。circulate（流通、傳閱）語意不符；circumscribe（限制範圍、劃定界線）語意不符；circumnavigate（環航、繞行，通常指地理上的環繞）語意不符，四字同為 circum- 字首形似詞，屬進階詞彙易混淆辨析。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Employees are encouraged to submit posts for review as early as possible to avoid delays around time-sensitive announcements.",
-          "The company's social media accounts will undergo a rebranding next quarter.",
-          "All employees must complete their annual performance reviews by year-end.",
-          "The cafeteria will introduce a new menu starting next week."
+          "Hiring managers who have questions about a specific contractor's risk profile should consult the Vendor Risk Management team directly.",
+          "The company's holiday party planning committee is now accepting volunteers.",
+          "All full-time employees are eligible for the updated dental insurance plan starting next year.",
+          "The parking garage renovation is expected to be completed by the end of the month."
         ],
         "ans": 0,
-        "zh": "「鼓勵同仁盡早提交貼文供審閱，以避免時效性公告延誤發布。」公關團隊的審閱作業時間通常在一個工作天內完成。",
-        "why": "段落主題為「員工社群媒體行為準則更新」，此句提醒同仁盡早提交審閱以避免延誤，與下一句「審閱作業時間通常一個工作天」共同構成流程說明的完整收尾。其餘選項（社群帳號品牌重塑、年度績效考核、員工餐廳菜單更新）皆與社群媒體行為準則無關，插入後語意斷裂。"
+        "zh": "「若用人主管對特定承包商的風險狀況有疑問，應直接洽詢供應商風險管理團隊。」最新版的入職檢核清單，已發布於人資部門的內部網路頁面。",
+        "why": "段落主題為「第三方承包商與顧問入職流程修訂」，此句提醒主管若有疑問應洽詢供應商風險管理團隊，與下一句「檢核清單已發布」共同構成流程執行與資源支援的完整收尾。其餘選項（尾牙籌備志工、牙醫保險方案、停車場整修）皆與承包商入職流程無關，插入後語意斷裂。"
       }
     ]
   }
