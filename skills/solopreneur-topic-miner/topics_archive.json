@@ -1,5 +1,156 @@
 [
   {
+    "date": "2026-09-10",
+    "big_events": [
+      {
+        "title": "Nvidia攜手8家澳洲業者衝刺2GW「AI工廠」，規模直逼再造一個半澳洲現有算力",
+        "sources": [
+          {
+            "name": "NVIDIA Newsroom（官方）",
+            "url": "https://nvidianews.nvidia.com/news/nvidia-expands-ai-infrastructure-capacity-in-partnership-with-australias-data-center-ecosystem"
+          },
+          {
+            "name": "The Next Web",
+            "url": "https://thenextweb.com/news/nvidia-australia-eight-partners-2gw-ai-capacity"
+          },
+          {
+            "name": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-partners-8-australian-firms-122438874.html"
+          }
+        ],
+        "summary": "Nvidia與Firmus、IREN等8家澳洲業者合作，2027年前衝上2GW AI算力",
+        "audience": "關注AI基礎建設與資料中心投資動態的科技創業者、對「AI電力戰爭」議題有興趣的科技評論類自媒體、想承接資料中心/雲端顧問案的獨立開發者",
+        "pain_point": "大家只知道美國、中東在瘋狂蓋AI資料中心，卻不知道澳洲也悄悄被Nvidia選中要把全國算力直接翻倍，一般人搞不懂為什麼「電力」會變成AI時代的兵家必爭之地",
+        "title_idea": "澳洲算力要翻倍！Nvidia找來8家在地業者，蓋出比現在還大的「AI工廠」",
+        "local_angle": "台灣同樣面對資料中心用電與土地爭議，這種「Nvidia指定盟友、國家級算力擴張」模式尚未被華語圈系統性介紹，適合做「各國搶進AI基礎建設」系列，對比台灣自身的資料中心政策討論"
+      },
+      {
+        "title": "Nvidia砸200億美元「授權不併購」拿下Groq技術，美國司法部出手查是否規避反壟斷審查",
+        "sources": [
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-09-10/doj-probes-nvidia-s-license-deal-with-groq-on-antitrust-concerns"
+          },
+          {
+            "name": "PC Gamer",
+            "url": "https://www.pcgamer.com/hardware/nvidia-is-reportedly-being-investigated-by-the-doj-over-its-biggest-ever-deal-a-usd20-billion-non-exclusive-agreement-with-groq/"
+          },
+          {
+            "name": "The Next Web",
+            "url": "https://thenextweb.com/news/doj-nvidia-groq-licensing-antitrust-review"
+          }
+        ],
+        "summary": "DOJ調查Nvidia用非典型授權交易納入Groq技術與人才，疑規避併購審查",
+        "audience": "關注AI晶片產業版圖與反壟斷議題的投資型自媒體、科技政策觀察者、對「AI巨頭收購潮」有興趣的內容創作者",
+        "pain_point": "一般人只看到「Nvidia又花大錢買技術」的新聞標題，卻不知道這類「用授權代替收購」的操作是近年規避反壟斷審查的常見手法，也搞不懂萬一被查到違規會有什麼後果",
+        "title_idea": "Nvidia用「借」的躲過併購審查？200億美元Groq交易被美國司法部盯上",
+        "local_angle": "華語圈近期報導Nvidia多聚焦晶片效能與股價，鮮少解讀這種「類收購」交易結構背後的法律巧門，適合做「AI巨頭如何鑽併購審查漏洞」科普選題，補上產業觀察的深度缺口"
+      },
+      {
+        "title": "Anthropic最新威脅報告曝光：Claude曾被用於生物武器研究、間諜行動與無人機蜂群設計",
+        "sources": [
+          {
+            "name": "Anthropic（官方）",
+            "url": "https://www.anthropic.com/threat-intelligence-report-september-2026"
+          },
+          {
+            "name": "The Daily Caller",
+            "url": "https://dailycaller.com/2026/09/10/anthropic-report-kamikaze-drone-swarms-biological-weapons/"
+          },
+          {
+            "name": "The Next Web",
+            "url": "https://thenextweb.com/news/anthropic-claude-misuse-threat-intelligence-report"
+          }
+        ],
+        "summary": "報告揭露去年12月至今年8月間7大類濫用案例，含5起生物武器研發嘗試",
+        "audience": "關心AI資安與濫用風險的職場上班族、企業IT與合規人員、AI工具教學類自媒體",
+        "pain_point": "大家在辦公室用Claude寫信、做簡報，卻不知道同一套模型在另一端被拿去做間諜監控、詐騙甚至生化武器研究測試，也搞不清楚這對日常使用安不安全有沒有影響",
+        "title_idea": "你用Claude寫周報，有人卻拿去研究生化武器？Anthropic親自曝光最新濫用報告",
+        "local_angle": "華語圈AI教學多聚焦「怎麼用」，很少討論「AI巨頭怎麼抓壞人」這條資安防線，適合做「AI濫用防線科普」系列，順勢提醒企業用戶注意帳號授權與異常使用監控"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "GPT-6 Astra全面開放！ChatGPT Work、Pro、Enterprise用戶到Azure、AWS都能用",
+        "sources": [
+          {
+            "name": "OpenAI（官方）",
+            "url": "https://openai.com/index/gpt-6-astra-next-generation-work/"
+          },
+          {
+            "name": "Microsoft Azure Blog",
+            "url": "https://azure.microsoft.com/en-us/blog/gpt-6-astra-frontier-intelligence-for-work-now-generally-available-in-microsoft-foundry/"
+          },
+          {
+            "name": "X（OpenAI官方）",
+            "url": "https://x.com/OpenAI/status/2095968413646737608"
+          }
+        ],
+        "summary": "一週分階段開放後正式全面上線，主打電腦操作、程式撰寫與專業工作",
+        "audience": "每天用ChatGPT處理工作的職場上班族、企業IT採購決策者、想幫客戶導入AI的接案顧問",
+        "pain_point": "上週才聽說Astra分階段開放搶不到，這週想搞清楚「現在是不是所有付費方案都能用了」「公司用Azure或AWS的話能不能直接接上」，卻找不到整理好的中文說明",
+        "title_idea": "終於全員入手！GPT-6 Astra全面開放ChatGPT付費方案，連Azure、AWS都能直接用",
+        "local_angle": "華語圈這幾天陸續追蹤Astra的分階段開放爭議，這次是「塵埃落定、全面可用」的實用結論篇，適合做「Astra企業導入懶人包」，幫用Azure/AWS的企業IT人員一次搞懂串接方式"
+      },
+      {
+        "title": "DeepSeek悄悄開兩天限時測試後，V4.1 Flash今日正式上線取代V4 Pro",
+        "sources": [
+          {
+            "name": "DeepSeek API Docs（官方）",
+            "url": "https://api-docs.deepseek.com/updates/"
+          },
+          {
+            "name": "explainx.ai",
+            "url": "https://explainx.ai/blog/deepseek-v4-1-flash-api-beta-native-multimodal-september-2026"
+          },
+          {
+            "name": "Superpower Daily",
+            "url": "https://superpowerdaily.com/posts/deepseek-launches-v4-1-flash-and-plans-to-replace-v4-pro-api-traffic"
+          }
+        ],
+        "summary": "新模型效能、速度、成本全面超車V4 Pro，9/14起舊模型將靜默轉導向",
+        "audience": "用開源/低價模型做產品的獨立開發者、需要幫客戶挑模型的技術顧問、關注中國AI模型動態的科技評論者",
+        "pain_point": "開發者常常在GPT、Claude、Gemini之外還要盯著DeepSeek的動態，卻搞不清楚這次「限時測試版」到底是行銷噱頭還是真的要換代，也不知道自己接的API會不會突然被默默轉走",
+        "title_idea": "兩天限時測試後轉正！DeepSeek新模型效能海放前代，你的API可能已經被偷偷換掉了",
+        "local_angle": "華語開發者社群大量使用DeepSeek API做低成本應用，這種「限時endpoint測試→正式轉正→舊模型靜默轉導向」的上線手法還沒人講清楚，適合做「DeepSeek新模型遷移指南」實用教學，提醒開發者檢查計費與相容性"
+      }
+    ],
+    "trends": [
+      {
+        "title": "OpenAI與美國政府簽新版合作方案，聯邦機關用ChatGPT砍半價、終結「一年一美元」怪招",
+        "sources": [
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-09-10/openai-gives-us-agencies-50-off-models-ending-1-per-year-deal"
+          },
+          {
+            "name": "Nextgov/FCW",
+            "url": "https://www.nextgov.com/acquisition/2026/09/gsa-unveils-new-token-based-onegov-discount-openai/415908/"
+          }
+        ],
+        "summary": "27個月新協議10月上路，改採按token計費，估擴大2300萬公務員可用",
+        "audience": "對AI巨頭B2G(政府採購)商業模式有興趣的投資型自媒體、關注AI定價策略演變的科技創業者、政府/公部門IT從業者",
+        "pain_point": "大家對「OpenAI一年一美元賣給政府」的噱頭新聞印象深刻，卻不知道這個怪招其實已經悄悄下架，換成更接近正常商業邏輯的「五折token計費」，背後代表AI巨頭在政府市場的策略正在成熟",
+        "title_idea": "「一年一美元」下架了！OpenAI改用新方案賣進美國政府，這次玩真的殺進B2G市場",
+        "local_angle": "台灣近期也在討論公部門導入生成式AI的採購模式，OpenAI這種「先用超低價圈地、再轉正常訂價」的B2G打法還沒被華語圈系統整理，適合做「AI巨頭政府標案生意經」系列，給想做公部門AI導入顧問的創作者參考"
+      },
+      {
+        "title": "IBM攜手NASA開源「月球基礎模型」，用AI啃完數十年月球探測數據",
+        "sources": [
+          {
+            "name": "AIwire / HPCwire",
+            "url": "https://www.hpcwire.com/aiwire/2026/09/10/ibm-and-nasa-release-open-source-ai-model-to-support-lunar-exploration/"
+          }
+        ],
+        "summary": "全球首批面向月球科學探索的公開基礎模型之一，助攻人類重返月球計畫",
+        "audience": "對AI跨界應用於太空科學有興趣的科技評論自媒體、關注開源AI模型生態的獨立開發者、教育內容創作者",
+        "pain_point": "大家對AI的想像多半停留在聊天機器人或辦公室生產力工具，很少注意到AI已經悄悄啃下太空探索這種「冷門但燒錢」的科學領域，也不知道這類開源模型任何人都能免費下載研究",
+        "title_idea": "月球數據太多人類看不完？IBM跟NASA乾脆開源一顆AI模型幫忙啃",
+        "local_angle": "華語科普圈對「AI＋太空」的組合報導極少，且是開源、任何人都能下載把玩的模型，適合做「AI跨界應用」系列科普，滿足對前沿科技好奇但非工程背景的觀眾，也可延伸做「開源AI模型去哪找」教學"
+      }
+    ]
+  },
+  {
     "date": "2026-09-09",
     "big_events": [
       {
@@ -616,141 +767,6 @@
         "pain_point": "常聽到「軟銀重壓OpenAI」，卻不知道背後資金怎麼籌來的，也不清楚一般散戶債券市場也被捲入這波AI軍備競賽",
         "title_idea": "連日本散戶的錢都被拿去all in AI！軟銀發行史上最大63億美元債券",
         "local_angle": "台灣投資人熟悉軟銀孫正義的豪賭故事，但「靠散戶債券融資養AI」這個具體操作手法還沒被講清楚，適合做「AI燒錢的錢從哪來」系列拆解軟銀資金鏈"
-      }
-    ]
-  },
-  {
-    "date": "2026-09-03",
-    "big_events": [
-      {
-        "title": "OpenAI正式發布GPT-6 Astra，觸發史上首個「重大」網路安全門檻",
-        "sources": [
-          {
-            "name": "Bloomberg",
-            "url": "https://www.bloomberg.com/news/articles/2026-09-03/openai-rolls-out-gpt-6-astra-model-with-added-cyber-guardrails"
-          },
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/"
-          },
-          {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html"
-          }
-        ],
-        "summary": "GPT-6 Astra觸及網安「重大」門檻，先供Daybreak企業測試，Brockman稱是AGI里程碑",
-        "audience": "企業IT決策者、AI風險觀察者、科技內容創作者",
-        "pain_point": "每天都有新版Astra新聞冒出來（循環深度推理、高門檻、重大門檻），一般人分不清這次跟前兩天的差在哪、對自己工作有什麼實際影響",
-        "title_idea": "GPT-6來了！OpenAI最強模型「Astra」正式上線，為什麼連自己人都拉警報？",
-        "local_angle": "華語圈這幾天已經在追Astra的推理技術爭議，這次是「正式產品上線＋被列為史上第一個資安重大等級模型」的實錘進展，適合做「Astra事件簿」系列第三集，把時間軸整理清楚，比單篇翻譯更有價值"
-      },
-      {
-        "title": "Nvidia以129億美元收購開源AI平台Hugging Face",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/"
-          },
-          {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html"
-          },
-          {
-            "name": "The Register",
-            "url": "https://www.theregister.com/ai-and-ml/2026/09/03/nvidia-buys-hugging-face-for-129b-promises-not-to-squeeze-too-hard/5294208"
-          }
-        ],
-        "summary": "Nvidia砸129億美元收購開源模型庫龍頭，執行長承諾維持平台開放中立",
-        "audience": "使用開源AI模型的獨立開發者、AI工具教學創作者、關注產業版圖的科技評論者",
-        "pain_point": "幾乎每篇AI工具教學都會提到Hugging Face，這次被Nvidia收購，大家最怕的是「以後要收費、被綁死在Nvidia生態」，但目前中文資訊零散不成系統",
-        "title_idea": "全球AI開發者共用的『模型倉庫』被收購了！Nvidia花129億美元買下Hugging Face，你的專案會受影響嗎",
-        "local_angle": "Hugging Face在華語開發者社群知名度高但很少人追蹤公司層級新聞，這是絕佳的「科普＋安心（或提醒）」切角，可搭配「開源AI會不會變質」的討論搶占資訊差"
-      },
-      {
-        "title": "前OpenAI技術長Mira Murati的新創Thinking Machines洽談10億美元募資，估值衝上400億美元",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/"
-          },
-          {
-            "name": "PYMNTS",
-            "url": "https://www.pymnts.com/news/artificial-intelligence/2026/thinking-machines-lab-seeks-40-billion-dollar-valuation"
-          }
-        ],
-        "summary": "Accel傳洽談領投10億美元，估值較去年翻4倍，Nvidia傳也考慮加碼",
-        "audience": "關注AI新創募資動態的自媒體創作者、投資圈觀察者、AI創業者",
-        "pain_point": "想追蹤「下一個OpenAI」等級的新創動態，但Thinking Machines相對低調，中文報導少，容易錯過重要進展",
-        "title_idea": "OpenAI前技術長創業一年半，估值飆破400億美元！Thinking Machines到底在做什麼",
-        "local_angle": "Mira Murati在華語圈知名度不如Sam Altman，但公司估值已是頂級獨角獸等級，適合做人物＋公司雙重科普，搶在話題被過度報導前先卡位"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "Google Workspace推出Gmail Live、Docs Live、Keep Live語音AI功能",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/09/03/google-launches-ai-voice-features-in-gmail-docs-and-keep/"
-          },
-          {
-            "name": "Google Blog",
-            "url": "https://blog.google/products-and-platforms/products/workspace/voice-features-gmail-docs-keep/"
-          }
-        ],
-        "summary": "免打字用說的操作Gmail、雲端文件、記事本，AI即時聽懂並執行",
-        "audience": "每天在Gmail、Docs、Keep之間切換的職場上班族、行動辦公族、主管與行政人員",
-        "pain_point": "通勤或開會空檔想處理信件、寫草稿卻不方便打字，市面教學都還停留在「打字下指令」，沒人教怎麼用「用講的」提升效率",
-        "title_idea": "Google推出『用嘴巴打字』神功能！Gmail、雲端文件現在用說的就能搞定",
-        "local_angle": "這是海外剛上線、目前僅支援英文的功能，華語圈還沒人做「怎麼設定＋實測中文語音效果」的教學，適合搶第一波實測內容"
-      },
-      {
-        "title": "隱私導向個人AI助理新創Ollie加入戰局，主打不訓練模型、不賣資料",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/09/03/ollie-is-betting-privacy-can-win-the-ai-assistant-race/"
-          }
-        ],
-        "summary": "Ollie取得SOC2合規認證，訂閱制營運避開資料變現爭議",
-        "audience": "在意個資的職場上班族、家庭行政協調者、對AI助理有疑慮的觀望用戶",
-        "pain_point": "很多人想用AI助理處理生活瑣事（信件、行程、購物清單），但擔心資料被拿去訓練模型或轉賣，一直不敢下手",
-        "title_idea": "不偷看你的資料！這款AI管家靠『隱私』殺出重圍，秘書終於可以放心用了",
-        "local_angle": "華語圈用戶對資料隱私特別敏感，這種「訂閱制＋不訓練模型」的定位還沒太多人討論，適合做「AI助理怎麼選才安心」系列第一篇"
-      }
-    ],
-    "trends": [
-      {
-        "title": "Meta推出AI模型「貢獻者方案」，交出對話紀錄換最高95%折扣",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/"
-          }
-        ],
-        "summary": "分享提示詞與輸出內容供訓練，Muse Spark token價格最低砍到約1/21",
-        "audience": "用AI API做產品的獨立開發者、關注AI商業模式的自媒體創作者",
-        "pain_point": "AI API費用越用越貴是普遍痛點，但「用資料換折扣」牽涉到「值不值得交出隱私」的取捨，很多人不知道該怎麼評估",
-        "title_idea": "AI token價格砍到1/21！但代價是交出你所有對話紀錄，划算嗎？",
-        "local_angle": "這種「用數據換折扣」的AI定價模式在華語圈API討論裡幾乎沒人分析利弊，適合做「新商業模式解讀＋要不要跳坑」評測，搶佔資訊差"
-      },
-      {
-        "title": "Anthropic Claude大當機，Mythos、Fable、Opus三款主力模型同時受影響",
-        "sources": [
-          {
-            "name": "BleepingComputer",
-            "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-multiple-models-affected/"
-          },
-          {
-            "name": "Android Authority",
-            "url": "https://www.androidauthority.com/claude-sept-3-outage-3706962/"
-          }
-        ],
-        "summary": "美東時間9:41當機，中午12:27全面恢復，影響近3小時",
-        "audience": "把工作流重度依賴Claude的職場上班族、接案者、內容創作者",
-        "pain_point": "越來越多人把日常工作綁在單一AI服務上，一旦當機工作就整個卡住，卻很少有人事先準備「AI當機備援方案」",
-        "title_idea": "Claude突然大當機3小時！如果你的工作靠AI吃飯，這篇備援清單一定要收藏",
-        "local_angle": "華語圈很多自媒體、接案者已把Claude當日常工具，但幾乎沒人討論「服務中斷風險管理」，可做「AI工作流備援」實用教學，補上還沒被人佔領的內容缺口"
       }
     ]
   }

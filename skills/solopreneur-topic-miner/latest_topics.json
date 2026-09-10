@@ -1,137 +1,97 @@
 {
-  "date": "2026-09-09",
+  "date": "2026-09-10",
   "big_events": [
     {
-      "title": "OpenAI稱AI用88小時攻克百萬美元數學難題，卻爆與Anthropic研究員搶功羅生門",
+      "title": "Nvidia攜手8家澳洲業者衝刺2GW「AI工廠」，規模直逼再造一個半澳洲現有算力",
       "sources": [
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/09/09/openai-navier-stokes-math-problem-solved.html"
-        },
-        {
-          "name": "CNN Business",
-          "url": "https://www.cnn.com/2026/09/09/business/openai-millennium-problems-navier-stokes-hnk"
-        },
-        {
-          "name": "OpenAI（官方）",
-          "url": "https://openai.com/index/navier-stokes-solution/"
-        }
+        {"name": "NVIDIA Newsroom（官方）", "url": "https://nvidianews.nvidia.com/news/nvidia-expands-ai-infrastructure-capacity-in-partnership-with-australias-data-center-ecosystem"},
+        {"name": "The Next Web", "url": "https://thenextweb.com/news/nvidia-australia-eight-partners-2gw-ai-capacity"},
+        {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-partners-8-australian-firms-122438874.html"}
       ],
-      "summary": "萬個AI代理人協作88小時解出90年懸案，功勞歸屬掀論戰",
-      "audience": "對AI推理能力與學術突破有興趣的科技評論自媒體、想了解「AI能做到什麼等級工作」的職場上班族、關心AI巨頭競合關係的內容創作者",
-      "pain_point": "大家常被「AI又破紀錄」的新聞疲勞轟炸，卻很少人講清楚這次「解出90年數學懸案」到底是什麼等級的突破，也不知道背後還牽扯到跟Anthropic研究員的功勞爭奪內幕",
-      "title_idea": "AI三天解開90年數學謎團！OpenAI風光背後，竟被抓包「偷看」對手研究進度？",
-      "local_angle": "華語圈對「AI解數學題」類新聞多半只做「哇好強」式翻譯，鮮少深入「萬代理人協作解題」的方法論與科學界功勞歸屬倫理爭議，適合做「AI科研新兵法」科普系列，滿足對AI能力邊界好奇的觀眾"
+      "summary": "Nvidia與Firmus、IREN等8家澳洲業者合作，2027年前衝上2GW AI算力",
+      "audience": "關注AI基礎建設與資料中心投資動態的科技創業者、對「AI電力戰爭」議題有興趣的科技評論類自媒體、想承接資料中心/雲端顧問案的獨立開發者",
+      "pain_point": "大家只知道美國、中東在瘋狂蓋AI資料中心，卻不知道澳洲也悄悄被Nvidia選中要把全國算力直接翻倍，一般人搞不懂為什麼「電力」會變成AI時代的兵家必爭之地",
+      "title_idea": "澳洲算力要翻倍！Nvidia找來8家在地業者，蓋出比現在還大的「AI工廠」",
+      "local_angle": "台灣同樣面對資料中心用電與土地爭議，這種「Nvidia指定盟友、國家級算力擴張」模式尚未被華語圈系統性介紹，適合做「各國搶進AI基礎建設」系列，對比台灣自身的資料中心政策討論"
     },
     {
-      "title": "AI編碼工具Devin開發商Cognition四個月估值翻倍，完成20億美元融資衝上480億美元",
+      "title": "Nvidia砸200億美元「授權不併購」拿下Groq技術，美國司法部出手查是否規避反壟斷審查",
       "sources": [
-        {
-          "name": "TechFundingNews",
-          "url": "https://techfundingnews.com/devin-maker-cognition-raises-over-2b-at-48b-valuation-nearly-doubling-its-price-tag-in-four-months/"
-        },
-        {
-          "name": "The AI Insider",
-          "url": "https://theaiinsider.tech/2026/09/09/cognition-secures-2b-at-48b-valuation-as-ai-coding-race-intensifies/"
-        },
-        {
-          "name": "Tech Startups",
-          "url": "https://techstartups.com/2026/09/09/startup-funding-news-today-september-9-2026-cognition-ai-algomatic-dynamics-qnu-labs-more/"
-        }
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-09-10/doj-probes-nvidia-s-license-deal-with-groq-on-antitrust-concerns"},
+        {"name": "PC Gamer", "url": "https://www.pcgamer.com/hardware/nvidia-is-reportedly-being-investigated-by-the-doj-over-its-biggest-ever-deal-a-usd20-billion-non-exclusive-agreement-with-groq/"},
+        {"name": "The Next Web", "url": "https://thenextweb.com/news/doj-nvidia-groq-licensing-antitrust-review"}
       ],
-      "summary": "AI寫程式代理人Devin營收半年翻倍，企業客戶含NASA、高盛",
-      "audience": "想了解AI編碼工具產業動態的獨立開發者、接案工程師、對AI取代或輔助工程師工作有疑慮的職場技術人員",
-      "pain_point": "很多工程師還在觀望「AI真的能自己寫程式上線嗎」，卻不知道像Devin這樣的AI編碼代理人已經在NASA、高盛、花旗等企業裡實際跑起來，市場資金也押注得飛快",
-      "title_idea": "AI工程師比你還搶手！Devin開發商4個月估值翻倍衝480億美元，企業搶著簽",
-      "local_angle": "華語圈開發者對Cursor、GitHub Copilot討論很多，但Devin這種「自主完成任務」的AI Agent等級工具還缺中文介紹，適合做「認識下一代AI工程師」評測，卡位「企業導入AI編碼代理人」顧問商機"
+      "summary": "DOJ調查Nvidia用非典型授權交易納入Groq技術與人才，疑規避併購審查",
+      "audience": "關注AI晶片產業版圖與反壟斷議題的投資型自媒體、科技政策觀察者、對「AI巨頭收購潮」有興趣的內容創作者",
+      "pain_point": "一般人只看到「Nvidia又花大錢買技術」的新聞標題，卻不知道這類「用授權代替收購」的操作是近年規避反壟斷審查的常見手法，也搞不懂萬一被查到違規會有什麼後果",
+      "title_idea": "Nvidia用「借」的躲過併購審查？200億美元Groq交易被美國司法部盯上",
+      "local_angle": "華語圈近期報導Nvidia多聚焦晶片效能與股價，鮮少解讀這種「類收購」交易結構背後的法律巧門，適合做「AI巨頭如何鑽併購審查漏洞」科普選題，補上產業觀察的深度缺口"
     },
     {
-      "title": "法律AI獨角獸Harvey募得5.5億美元衝上155億美元估值，同步收購AI防護新創Guardrails AI",
+      "title": "Anthropic最新威脅報告曝光：Claude曾被用於生物武器研究、間諜行動與無人機蜂群設計",
       "sources": [
-        {
-          "name": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-09/legal-ai-startup-harvey-hits-15-6-billion-value-with-550-million-round"
-        },
-        {
-          "name": "Artificial Lawyer",
-          "url": "https://www.artificiallawyer.com/2026/09/09/harvey-raises-550m-at-15-5bn-val-buys-guardrails-ai/"
-        },
-        {
-          "name": "Harvey（官方部落格）",
-          "url": "https://www.harvey.ai/blog/harvey-raises-dollar550m-at-a-dollar155b-valuation-to-help-legal-teams-own-their-intelligence"
-        }
+        {"name": "Anthropic（官方）", "url": "https://www.anthropic.com/threat-intelligence-report-september-2026"},
+        {"name": "The Daily Caller", "url": "https://dailycaller.com/2026/09/10/anthropic-report-kamikaze-drone-swarms-biological-weapons/"},
+        {"name": "The Next Web", "url": "https://thenextweb.com/news/anthropic-claude-misuse-threat-intelligence-report"}
       ],
-      "summary": "年營收破4億美元，服務80%頂尖律所，今年已第4起併購",
-      "audience": "律師、法務與專業服務業從業者、對「垂直產業AI應用」有興趣的獨立開發者與顧問",
-      "pain_point": "很多專業服務業者以為AI只能寫寫合約摘要，不知道垂直領域AI已經做到年收4億美元、服務80%頂尖律所的規模，也不清楚這類公司靠併購補強「AI代理人安全防護」能力的布局邏輯",
-      "title_idea": "AI律師事務所後台推手！Harvey估值飆155億美元，還買下防止AI亂來的公司",
-      "local_angle": "華語圈法律科技討論仍停留在「AI能不能取代律師」的表層辯論，Harvey這種「垂直AI＋收購補強安全防護」的成熟商業模式還沒被引進討論，適合做「產業別AI獨角獸」系列，給接案顧問與法律科技創業者參考"
+      "summary": "報告揭露去年12月至今年8月間7大類濫用案例，含5起生物武器研發嘗試",
+      "audience": "關心AI資安與濫用風險的職場上班族、企業IT與合規人員、AI工具教學類自媒體",
+      "pain_point": "大家在辦公室用Claude寫信、做簡報，卻不知道同一套模型在另一端被拿去做間諜監控、詐騙甚至生化武器研究測試，也搞不清楚這對日常使用安不安全有沒有影響",
+      "title_idea": "你用Claude寫周報，有人卻拿去研究生化武器？Anthropic親自曝光最新濫用報告",
+      "local_angle": "華語圈AI教學多聚焦「怎麼用」，很少討論「AI巨頭怎麼抓壞人」這條資安防線，適合做「AI濫用防線科普」系列，順勢提醒企業用戶注意帳號授權與異常使用監控"
     }
   ],
   "tool_updates": [
     {
-      "title": "AI音樂生成工具Suno推出v6模型，首度採用華納、BMG正版授權音樂訓練",
+      "title": "GPT-6 Astra全面開放！ChatGPT Work、Pro、Enterprise用戶到Azure、AWS都能用",
       "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/09/09/suno-replaces-its-ai-models-with-a-new-one-trained-on-licensed-music-as-copyright-suits-pile-up/"
-        },
-        {
-          "name": "Digital Music News",
-          "url": "https://www.digitalmusicnews.com/2026/09/09/suno-v6-launch/"
-        },
-        {
-          "name": "Music Business Worldwide",
-          "url": "https://www.musicbusinessworldwide.com/suno-v6-ai-music-models-launch-in-partnership-with-wmg-bmg-and-believe/"
-        }
+        {"name": "OpenAI（官方）", "url": "https://openai.com/index/gpt-6-astra-next-generation-work/"},
+        {"name": "Microsoft Azure Blog", "url": "https://azure.microsoft.com/en-us/blog/gpt-6-astra-frontier-intelligence-for-work-now-generally-available-in-microsoft-foundry/"},
+        {"name": "X（OpenAI官方）", "url": "https://x.com/OpenAI/status/2095968413646737608"}
       ],
-      "summary": "版權訴訟壓力下轉型，新模型支援分軌編輯、混音與取樣",
-      "audience": "經營Podcast、短影音、自媒體配樂的內容創作者、想用AI生成商用背景音樂但擔心版權問題的職場工作者",
-      "pain_point": "很多創作者用AI生成音樂配自己的影片卻不敢商用，因為擔心背後訓練資料有侵權疑慮，一旦被平台下架或收到版權警告就欲哭無淚",
-      "title_idea": "終於不用怕版權！Suno新模型用「正版授權音樂」訓練，創作者能安心商用了",
-      "local_angle": "華語自媒體創作者大量使用AI配樂工具卻普遍忽略版權風險，這次「正版授權訓練」是還沒被中文教學圈講清楚的重要轉折，適合做「AI配樂版權安全指南」實用教學，順勢做v6功能實測"
+      "summary": "一週分階段開放後正式全面上線，主打電腦操作、程式撰寫與專業工作",
+      "audience": "每天用ChatGPT處理工作的職場上班族、企業IT採購決策者、想幫客戶導入AI的接案顧問",
+      "pain_point": "上週才聽說Astra分階段開放搶不到，這週想搞清楚「現在是不是所有付費方案都能用了」「公司用Azure或AWS的話能不能直接接上」，卻找不到整理好的中文說明",
+      "title_idea": "終於全員入手！GPT-6 Astra全面開放ChatGPT付費方案，連Azure、AWS都能直接用",
+      "local_angle": "華語圈這幾天陸續追蹤Astra的分階段開放爭議，這次是「塵埃落定、全面可用」的實用結論篇，適合做「Astra企業導入懶人包」，幫用Azure/AWS的企業IT人員一次搞懂串接方式"
+    },
+    {
+      "title": "DeepSeek悄悄開兩天限時測試後，V4.1 Flash今日正式上線取代V4 Pro",
+      "sources": [
+        {"name": "DeepSeek API Docs（官方）", "url": "https://api-docs.deepseek.com/updates/"},
+        {"name": "explainx.ai", "url": "https://explainx.ai/blog/deepseek-v4-1-flash-api-beta-native-multimodal-september-2026"},
+        {"name": "Superpower Daily", "url": "https://superpowerdaily.com/posts/deepseek-launches-v4-1-flash-and-plans-to-replace-v4-pro-api-traffic"}
+      ],
+      "summary": "新模型效能、速度、成本全面超車V4 Pro，9/14起舊模型將靜默轉導向",
+      "audience": "用開源/低價模型做產品的獨立開發者、需要幫客戶挑模型的技術顧問、關注中國AI模型動態的科技評論者",
+      "pain_point": "開發者常常在GPT、Claude、Gemini之外還要盯著DeepSeek的動態，卻搞不清楚這次「限時測試版」到底是行銷噱頭還是真的要換代，也不知道自己接的API會不會突然被默默轉走",
+      "title_idea": "兩天限時測試後轉正！DeepSeek新模型效能海放前代，你的API可能已經被偷偷換掉了",
+      "local_angle": "華語開發者社群大量使用DeepSeek API做低成本應用，這種「限時endpoint測試→正式轉正→舊模型靜默轉導向」的上線手法還沒人講清楚，適合做「DeepSeek新模型遷移指南」實用教學，提醒開發者檢查計費與相容性"
     }
   ],
   "trends": [
     {
-      "title": "OpenAI財務長證實跨足晶片設計、生命科學、金融服務，Luna模型砍價8成搶灘中國開源對手",
+      "title": "OpenAI與美國政府簽新版合作方案，聯邦機關用ChatGPT砍半價、終結「一年一美元」怪招",
       "sources": [
-        {
-          "name": "Forkast",
-          "url": "https://forkast.news/openai-used-its-own-ai-models-to-design-the-jalapeno-chip-the-compute-landlord-thesis-just-went-recursive/"
-        },
-        {
-          "name": "Cryptopolitan",
-          "url": "https://www.cryptopolitan.com/openai-pitches-its-models-for-chip-design-betting-cost-beats-open-source/"
-        },
-        {
-          "name": "Technology.org",
-          "url": "https://www.technology.org/2026/09/09/openai-chip-design-luna-price-cut/"
-        }
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-09-10/openai-gives-us-agencies-50-off-models-ending-1-per-year-deal"},
+        {"name": "Nextgov/FCW", "url": "https://www.nextgov.com/acquisition/2026/09/gsa-unveils-new-token-based-onegov-discount-openai/415908/"}
       ],
-      "summary": "CFO於高盛法說會證實用自家AI設計Jalapeno晶片，測試成效計費新模式",
-      "audience": "想切入企業AI導入顧問或垂直產業AI應用的獨立開發者、對OpenAI商業模式與獲利能力有興趣的投資型自媒體",
-      "pain_point": "大家只把OpenAI當成「做ChatGPT的公司」，不知道它已經悄悄把AI賣進晶片設計、生命科學、金融服務等專業領域，也不了解為什麼要對中國開源模型打價格戰",
-      "title_idea": "OpenAI不只做聊天機器人！財務長親口證實：晶片、生技、金融都要吃下來",
-      "local_angle": "華語圈對OpenAI的討論多停留在ChatGPT功能更新，鮮少注意到它正快速往垂直產業與B2B專業服務擴張、甚至打價格戰，適合做「OpenAI下一步棋」系列，給想承接企業AI導入案的接案者提前布局參考"
+      "summary": "27個月新協議10月上路，改採按token計費，估擴大2300萬公務員可用",
+      "audience": "對AI巨頭B2G(政府採購)商業模式有興趣的投資型自媒體、關注AI定價策略演變的科技創業者、政府/公部門IT從業者",
+      "pain_point": "大家對「OpenAI一年一美元賣給政府」的噱頭新聞印象深刻，卻不知道這個怪招其實已經悄悄下架，換成更接近正常商業邏輯的「五折token計費」，背後代表AI巨頭在政府市場的策略正在成熟",
+      "title_idea": "「一年一美元」下架了！OpenAI改用新方案賣進美國政府，這次玩真的殺進B2G市場",
+      "local_angle": "台灣近期也在討論公部門導入生成式AI的採購模式，OpenAI這種「先用超低價圈地、再轉正常訂價」的B2G打法還沒被華語圈系統整理，適合做「AI巨頭政府標案生意經」系列，給想做公部門AI導入顧問的創作者參考"
     },
     {
-      "title": "蘋果首款摺疊機Duo鉸鏈由AI設計、3D列印製造，衝擊摺疊手機耐用度痛點",
+      "title": "IBM攜手NASA開源「月球基礎模型」，用AI啃完數十年月球探測數據",
       "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/09/09/the-hinge-for-apples-new-foldable-phone-was-built-with-ai/"
-        },
-        {
-          "name": "IntoMobile",
-          "url": "https://www.intomobile.com/2026/09/09/apple-built-its-foldable-phone-hinge-with-ai-and-its-more-interesting-than-it-sounds/"
-        }
+        {"name": "AIwire / HPCwire", "url": "https://www.hpcwire.com/aiwire/2026/09/10/ibm-and-nasa-release-open-source-ai-model-to-support-lunar-exploration/"}
       ],
-      "summary": "AI比對鉸鏈與機身最佳配對，雷射掃描搭配3D列印修正製造誤差",
-      "audience": "對AI應用於硬體製造有興趣的科技評論自媒體、關注消費電子供應鏈的內容創作者",
-      "pain_point": "大家對「AI」的想像多半停留在聊天機器人或寫文案，很少人意識到AI已經開始接手精密製造的品管與客製化配對工作，錯過「AI進軍硬體產線」這個新敘事角度",
-      "title_idea": "蘋果摺疊機終於要來了！鉸鏈耐用秘密：靠AI一片片手工客製化配對",
-      "local_angle": "台灣是蘋果供應鏈重鎮，這種「AI介入精密製造品管」的案例對關心供應鏈與硬體代工的華語觀眾特別有感，適合做「AI如何改寫台灣供應鏈代工模式」系列選題"
+      "summary": "全球首批面向月球科學探索的公開基礎模型之一，助攻人類重返月球計畫",
+      "audience": "對AI跨界應用於太空科學有興趣的科技評論自媒體、關注開源AI模型生態的獨立開發者、教育內容創作者",
+      "pain_point": "大家對AI的想像多半停留在聊天機器人或辦公室生產力工具，很少注意到AI已經悄悄啃下太空探索這種「冷門但燒錢」的科學領域，也不知道這類開源模型任何人都能免費下載研究",
+      "title_idea": "月球數據太多人類看不完？IBM跟NASA乾脆開源一顆AI模型幫忙啃",
+      "local_angle": "華語科普圈對「AI＋太空」的組合報導極少，且是開源、任何人都能下載把玩的模型，適合做「AI跨界應用」系列科普，滿足對前沿科技好奇但非工程背景的觀眾，也可延伸做「開源AI模型去哪找」教學"
     }
   ]
 }
