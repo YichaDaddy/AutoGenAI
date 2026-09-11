@@ -1,117 +1,117 @@
 {
-  "date": "2026-09-11",
+  "date": "2026-09-12",
   "p5": [
     {
-      "id": "2026-09-11-p5-0",
-      "tag": "倒裝句（Little did + 主詞 + 原形動詞，否定副詞倒裝）",
+      "id": "2026-09-12-p5-0",
+      "tag": "倒裝句（Hardly...when，過去完成式倒裝，表「一…就…」）",
+      "pre": "Hardly ",
+      "post": " announced the merger when several key executives began quietly shopping their resumes to competitors.",
+      "opts": ["had the company", "did the company", "the company had", "has the company"],
+      "ans": 0,
+      "zh": "這家公司「才剛」宣布這樁併購案，幾位重要高階主管便已悄悄開始向競爭對手遞履歷。",
+      "why": "<b>Hardly</b> 置於句首表示「幾乎不、才剛」，須引發部分倒裝，並搭配過去完成式 had + 主詞 + 過去分詞（had the company announced），後方以 when 引導次要事件。did the company 為過去簡單式倒裝，不符合 Hardly...when 須用過去完成式的固定句型；the company had 未倒裝，不符合句首 Hardly 引發倒裝的文法要求；has the company 為現在完成式，時態層次與過去事件不符。"
+    },
+    {
+      "id": "2026-09-12-p5-1",
+      "tag": "被動完成式分詞構句（Having been + 過去分詞）",
       "pre": "",
-      "post": " the newly appointed CEO realize that the company's most profitable division was already under a confidential acquisition offer.",
-      "opts": ["Little did", "Little had", "Little has", "Little was"],
+      "post": " informed of the impending layoffs, the department head began quietly preparing a transition plan for her remaining staff.",
+      "opts": ["Having been", "Having", "Been", "To have been"],
       "ans": 0,
-      "zh": "新任執行長「完全沒有意識到」，公司獲利最豐厚的部門其實已經悄悄收到一份保密收購要約。",
-      "why": "<b>Little</b> 為否定意味的副詞置於句首，須引發倒裝並搭配助動詞 did + 原形動詞 realize，構成過去式的倒裝句型。Little had 須接過去分詞（had realized）而非原形動詞；Little has 為現在完成式，時態與後文語境（過去發生的事）不符；Little was 為 be 動詞，無法與原形動詞 realize 直接搭配構成正確句構。"
+      "zh": "在「得知」即將發生的裁員消息後，這位部門主管便開始悄悄為留任員工準備轉型計畫。",
+      "why": "<b>Having been + 過去分詞</b>為被動完成式分詞構句，表示該動作（被告知）先於主要子句發生，且主詞是被動接受動作的一方（= After she had been informed...）。Having 為主動完成式分詞構句，須接主動動詞而非過去分詞 informed 表被動；Been 單獨無法構成正確的分詞構句；To have been 為不定詞完成式被動，句構與語意皆不符合此處分詞構句的用法。"
     },
     {
-      "id": "2026-09-11-p5-1",
-      "tag": "使役動詞（have + 受詞 + 過去分詞，表請別人代為完成某事）",
-      "pre": "To avoid any conflict of interest, the audit committee arranged to ",
-      "post": " the annual financial statements reviewed by an external auditing firm.",
-      "opts": ["have", "make", "do", "let"],
+      "id": "2026-09-12-p5-2",
+      "tag": "比較結構（all the more，因果強調的比較級用法）",
+      "pre": "The vendor's failure to meet the initial deadline made the client ",
+      "post": " reluctant to extend the contract for another year.",
+      "opts": ["all the more", "much the more", "even the more", "so much more"],
       "ans": 0,
-      "zh": "為避免任何利益衝突，稽核委員會安排「請」外部會計師事務所來審閱年度財務報表。",
-      "why": "<b>have + 受詞 + 過去分詞</b>為標準使役結構，表示「請/讓某人代為完成某事」，此處指委託外部會計師事務所審閱報表。make 作使役動詞時須接受詞＋原形動詞（make someone review），不可直接接過去分詞；do 不具備使役動詞的句構功能；let 作使役動詞時同樣須接受詞＋原形動詞（let someone review），不可直接接過去分詞。"
+      "zh": "供應商未能達成最初的期限，讓客戶「更加」不願意將合約再延長一年。",
+      "why": "<b>all the more</b> 為固定強調比較級的用法，常搭配原因子句表示「因此更加…」。much the more、even the more、so much more 皆非此固定搭配的正確形式，all the more 是唯一符合此因果強調語境的慣用比較結構。"
     },
     {
-      "id": "2026-09-11-p5-2",
-      "tag": "慣用語（far from，＝一點也不、完全不是）",
-      "pre": "The preliminary results were ",
-      "post": " conclusive, prompting the research team to commission a follow-up study before publishing any findings.",
-      "opts": ["far from", "far away", "far off", "as far as"],
-      "ans": 0,
-      "zh": "初步結果「遠遠稱不上」是定論，促使研究團隊在發表任何結論前，先委託進行後續研究。",
-      "why": "<b>far from</b> + 形容詞/名詞為固定慣用語，意為「完全不是、遠遠稱不上」，此處修飾 conclusive（定論的）。far away 通常用於描述實際地理距離；far off 亦多指距離或時間上遙遠，不用於此類語意否定用法；as far as 須接子句構成「就…而言」的片語（as far as I know），不符合此處的句構與語意。"
-    },
-    {
-      "id": "2026-09-11-p5-3",
-      "tag": "讓步連接詞（Even if，表假設性讓步，區別於 Even though 既成事實讓步）",
+      "id": "2026-09-12-p5-3",
+      "tag": "讓步句型（However + 形容詞 + 主詞 + 動詞，＝No matter how）",
       "pre": "",
-      "post": " the pilot program ultimately fails to meet its performance targets, the insights gained will still inform future product development.",
-      "opts": ["Even if", "Even though", "Even as", "Even so"],
+      "post": " challenging the integration process may prove, the leadership team remains committed to completing it within the original timeline.",
+      "opts": ["However", "No matter", "Nevertheless", "Regardless"],
       "ans": 0,
-      "zh": "「即使」這項試辦計畫最終未能達成績效目標，所獲得的洞見仍將有助於未來的產品開發。",
-      "why": "<b>Even if</b> 用於表達「即使發生（尚未確定的假設性）情況」的讓步語意，此處 fails 描述的是尚未發生的假設性結果。Even though 用於既成事實的讓步（即使…這件事已經是事實），與此處假設性語境不符；Even as（正當…的同時）表時間同步；Even so（即便如此）為副詞，不能連接兩個子句。"
+      "zh": "「無論」整合過程會有多麼艱鉅的挑戰，領導團隊依然致力於在原訂時程內完成此事。",
+      "why": "<b>However</b> + 形容詞 + 主詞 + 動詞為正式讓步句型，等同於 No matter how challenging...。No matter 若使用則須完整寫成 No matter how challenging（缺少 how 則不成立）；Nevertheless（然而）為轉折副詞，無法連接兩個子句；Regardless 須搭配介系詞 of 才能接名詞（regardless of the challenge），不能直接接形容詞子句。"
     },
     {
-      "id": "2026-09-11-p5-4",
-      "tag": "進階動詞語意辨別（corroborate，co(n/r)-字首形似詞）",
-      "pre": "The witness's testimony was largely dismissed by the tribunal because no independent evidence could ",
-      "post": " her account of the events.",
-      "opts": ["corroborate", "collaborate", "correlate", "confiscate"],
+      "id": "2026-09-12-p5-4",
+      "tag": "進階動詞語意辨別（exacerbate，ex-字首形似詞）",
+      "pre": "The vendor's decision to delay shipment only ",
+      "post": " an already strained relationship with its largest distributor.",
+      "opts": ["exacerbated", "exonerated", "extolled", "exhumed"],
       "ans": 0,
-      "zh": "由於沒有任何獨立證據能「佐證」她對事件經過的描述，這位證人的證詞大部分遭到仲裁庭駁回。",
-      "why": "<b>corroborate</b>（佐證、證實）精準對應此處語境。collaborate（合作）語意不符；correlate（使相關聯，通常用於統計數據間的關係）語意不符；confiscate（沒收、查扣）語意不符，四字型態相似（皆以 co(n/r)- 開頭）易混淆，屬進階詞彙辨析。"
+      "zh": "供應商決定延後出貨，只會「加劇」原本就已緊張的與最大經銷商的關係。",
+      "why": "<b>exacerbate</b>（使惡化、加劇）精準對應此處語境。exonerate（免除罪責、開脫）語意不符；extol（讚揚、頌揚）語意不符；exhume（掘出、發掘，通常指屍體或舊事）語意不符，四字同為 ex- 字首形似詞，屬進階詞彙易混淆辨析。"
     }
   ],
   "p6": {
-    "id": "2026-09-11-p6",
-    "title": "MEMORANDUM: Revised Protocol for Onboarding Third-Party Contractors and Consultants",
+    "id": "2026-09-12-p6",
+    "title": "MEMORANDUM: Revised Policy on Intellectual Property Assignment for Contractor Work Product",
     "seg": [
       [
-        "To all hiring managers: Effective this quarter, any independent contractor or consultant engaged for a project lasting longer than thirty days ",
+        "To all project managers: Effective for all new engagements, any work product created by an independent contractor in connection with a company project ",
         { "b": 0 },
-        " to complete a background verification and sign a standard confidentiality agreement before being granted access to internal systems."
+        " to the company upon creation, regardless of whether the contractor's agreement explicitly states so."
       ],
       [
         { "b": 1 },
-        ", contractors engaged for projects lasting thirty days or fewer are still required to sign the confidentiality agreement, though the full background verification may be waived at the hiring manager's discretion."
+        ", contractors retain the right to reuse general skills, know-how, and non-confidential methodologies developed during the engagement in future projects for other clients."
       ],
       [
-        "Hiring managers should never attempt to ",
+        "Project managers should ensure that all contractor agreements clearly ",
         { "b": 2 },
-        " the background verification process, regardless of project urgency, as doing so may expose the company to significant liability."
+        " the scope of work product subject to this assignment, to avoid future disputes."
       ],
       [
         { "b": 3 },
-        " The updated onboarding checklist is available on the Human Resources intranet page."
+        " Legal has prepared a standard IP assignment clause that should be incorporated into all new contractor agreements going forward."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["must be required", "requires", "has required", "is requiring"],
+        "opts": ["shall be assigned", "assigns", "has assigned", "is assigning"],
         "ans": 0,
-        "zh": "致所有用人主管：自本季起，任何聘用期限超過三十天的獨立承包商或顧問，在取得內部系統存取權限前，皆「須被要求」完成背景查核並簽署標準保密協議。",
-        "why": "承包商/顧問是被要求完成查核的對象，此句表達強制性規定，須用被動情態動詞 <b>must be required</b>。requires 為主動現在式，不符被動需求；has required 為現在完成式主動語態，語意錯誤；is requiring 為現在進行式主動語態，同樣不符合規定語氣。"
+        "zh": "致所有專案經理：自新簽約起，任何獨立承包商在執行公司專案過程中所創作的工作成果，於創作完成之時，皆「應轉讓」予公司，無論承包商合約中是否有明文載明。",
+        "why": "工作成果是被轉讓的對象，此句表達強制性規定，須用被動情態動詞 <b>shall be assigned</b>（正式法律文件常用 shall 表義務）。assigns 為主動現在式，不符被動需求；has assigned 為現在完成式主動語態，語意錯誤；is assigning 為現在進行式主動語態，同樣不符合規定語氣。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["Conversely", "Consequently", "In turn", "Accordingly"],
+        "opts": ["Nonetheless", "As a result", "In particular", "Thereafter"],
         "ans": 0,
-        "zh": "「相反地」，承包期限在三十天（含）以內的承包商，雖仍須簽署保密協議，但完整的背景查核可依用人主管的裁量予以豁免。",
-        "why": "<b>Conversely</b>（相反地）用以對比前句「超過三十天須完成完整查核」的規定，說明短期承包商適用較寬鬆的規範，構成語意對比。Consequently（因此）表因果；In turn（依次）表順序；Accordingly（依此、據此）表因果依循，皆不符合此處的對比語意。"
+        "zh": "「儘管如此」，承包商仍保有在合約期間所培養的一般技能、專業知識，以及非機密方法論的使用權，可運用於未來為其他客戶執行的專案。",
+        "why": "<b>Nonetheless</b>（儘管如此）用以在陳述嚴格的智慧財產權轉讓規定後，引出承包商仍保有的例外權利，構成轉折銜接。As a result（因此）表因果；In particular（尤其是）表舉例強調；Thereafter（此後）表時間順序，皆不符合此處的轉折例外語意。"
       },
       {
-        "tag": "進階動詞語意辨別（circumvent，circum-字首形似詞）",
+        "tag": "詞彙語意（動詞辨析，de-字首形似詞）",
         "col1": true,
-        "opts": ["circumvent", "circulate", "circumscribe", "circumnavigate"],
+        "opts": ["delineate", "delegate", "deliberate", "denigrate"],
         "ans": 0,
-        "zh": "用人主管絕不應「規避」背景查核流程，無論專案多麼緊急，因為這麼做可能使公司暴露於重大法律責任之中。",
-        "why": "<b>circumvent</b>（迂迴規避、繞過規定）精準對應此處語境。circulate（流通、傳閱）語意不符；circumscribe（限制範圍、劃定界線）語意不符；circumnavigate（環航、繞行，通常指地理上的環繞）語意不符，四字同為 circum- 字首形似詞，屬進階詞彙易混淆辨析。"
+        "zh": "專案經理應確保所有承包商合約皆清楚「界定」須轉讓之工作成果的範圍，以避免日後爭議。",
+        "why": "<b>delineate</b>（清楚界定、描繪輪廓）精準對應此處語境。delegate（授權、委派）語意不符；deliberate（審慎考慮，或作形容詞「故意的」）語意不符；denigrate（詆毀、抹黑）語意不符，四字同為 de- 字首形似詞，屬進階詞彙易混淆辨析。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Hiring managers who have questions about a specific contractor's risk profile should consult the Vendor Risk Management team directly.",
-          "The company's holiday party planning committee is now accepting volunteers.",
-          "All full-time employees are eligible for the updated dental insurance plan starting next year.",
-          "The parking garage renovation is expected to be completed by the end of the month."
+          "Any deviation from the standard clause must be reviewed and approved by Legal before the agreement is signed.",
+          "The company's annual innovation showcase will be held virtually this year.",
+          "All project managers must submit quarterly budget updates to Finance.",
+          "The office supply request form has been updated with new categories."
         ],
         "ans": 0,
-        "zh": "「若用人主管對特定承包商的風險狀況有疑問，應直接洽詢供應商風險管理團隊。」最新版的入職檢核清單，已發布於人資部門的內部網路頁面。",
-        "why": "段落主題為「第三方承包商與顧問入職流程修訂」，此句提醒主管若有疑問應洽詢供應商風險管理團隊，與下一句「檢核清單已發布」共同構成流程執行與資源支援的完整收尾。其餘選項（尾牙籌備志工、牙醫保險方案、停車場整修）皆與承包商入職流程無關，插入後語意斷裂。"
+        "zh": "「任何偏離標準條款的情況，皆須在合約簽署前經法務審核並核准。」法務部門已備妥標準的智慧財產權轉讓條款，今後所有新簽訂的承包商合約皆應納入此條款。",
+        "why": "段落主題為「承包商工作成果智慧財產權轉讓政策修訂」，此句強調偏離標準條款須經法務審核，與下一句「法務已備妥標準條款」共同構成政策執行的完整收尾。其餘選項（年度創新展示活動、季度預算更新、辦公用品申請表）皆與智慧財產權轉讓政策無關，插入後語意斷裂。"
       }
     ]
   }
