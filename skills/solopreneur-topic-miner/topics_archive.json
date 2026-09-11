@@ -1,5 +1,122 @@
 [
   {
+    "date": "2026-09-11",
+    "big_events": [
+      {
+        "title": "Anthropic踢爆：中國Moonshot、DeepSeek偷樑換柱，把Claude回應包裝成自家AI輸出",
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/09/11/chinese-ai-labs-moonshot-deepseek-alibaba-anthropic.html"
+          },
+          {
+            "name": "South China Morning Post",
+            "url": "https://www.scmp.com/news/us/diplomacy/article/3367112/moonshot-deepseek-secretly-routed-user-requests-claude-anthropic-claims"
+          }
+        ],
+        "summary": "Moonshot、DeepSeek被爆長期把用戶提問轉發給Claude，再包裝成自家模型輸出",
+        "audience": "對AI產業競爭與科技倫理話題有興趣的自媒體創作者、關注中美AI較勁的科技評論者、想搞懂「模型蒸餾」原理的AI效率工具愛好者",
+        "pain_point": "一般上班族只聽過「Kimi、DeepSeek比較便宜好用」，卻不知道這些平價AI背後可能是直接借用別人模型的答案再重新包裝，搞不清楚為什麼這件事會被當成產業醜聞看待",
+        "title_idea": "月之暗面、DeepSeek被抓包？Anthropic爆料：你以為的『國產AI』答案可能來自Claude",
+        "local_angle": "華語圈大量用戶天天在用Kimi、DeepSeek等平價中國AI工具，卻很少人知道這場「模型蒸餾」爭議的來龍去脈，適合做「破解平價AI背後的秘密」科普選題，補上對這場AI產業角力的認知缺口"
+      },
+      {
+        "title": "OpenAI執行長Sam Altman鬆口：可能主動放慢尖端AI研發腳步，盼同業一起煞車",
+        "sources": [
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-09-11/openai-is-open-to-slowing-cutting-edge-ai-ceo-sam-altman-tells-staff"
+          },
+          {
+            "name": "The Star",
+            "url": "https://www.thestar.com.my/tech/tech-news/2026/09/11/openai-is-open-to-slowing-cutting-edge-ai-ceo-sam-altman-tells-staff"
+          }
+        ],
+        "summary": "Altman向員工表示OpenAI考慮放緩前沿AI開發，盼與其他實驗室協調步調",
+        "audience": "關注AI安全與產業走向的科技媒體工作者、對「AI是否失控」議題有興趣的自媒體創作者、想掌握AI大廠戰略轉向的職場工作者",
+        "pain_point": "大家只看到AI模型一直變強、功能一直加速推出，卻不知道連OpenAI內部都出現「要不要踩煞車」的爭論，容易誤以為業界對AI風險毫無警覺",
+        "title_idea": "連Sam Altman都想踩煞車？OpenAI考慮放慢AI研發，這背後在怕什麼",
+        "local_angle": "華語圈媒體多聚焦OpenAI又推出什麼新功能，鮮少報導這種「業界龍頭主動喊煞車」的安全焦慮轉向，適合做「AI大廠內部路線之爭」深度選題，呼應近期AI安全疑慮升溫的國際氛圍"
+      },
+      {
+        "title": "駭客用AI Agent自動化攻擊，48國、395個組織的印表機系統一夕淪陷",
+        "sources": [
+          {
+            "name": "Help Net Security",
+            "url": "https://www.helpnetsecurity.com/2026/09/11/ai-agents-papercut-ng-mf-attack-campaign/"
+          },
+          {
+            "name": "BleepingComputer",
+            "url": "https://www.bleepingcomputer.com/news/security/ai-powered-attack-exploited-papercut-flaws-to-hack-395-organizations/"
+          },
+          {
+            "name": "Tech Times",
+            "url": "https://www.techtimes.com/articles/327294/20260911/attacker-used-ai-agents-hack-395-organizations-via-papercut-print-flaws.htm"
+          }
+        ],
+        "summary": "攻擊者結合Codex與DeepSeek模型自動化攻擊PaperCut漏洞，395個組織遭入侵",
+        "audience": "需要管理公司IT系統或內部工具的中小企業主、對AI資安風險有興趣的自媒體創作者、想提醒同事注意資安的職場上班族",
+        "pain_point": "大家覺得「用AI Agent自動化工作」很方便，卻不知道同樣的技術也能被駭客拿來自動化攻擊，且快到「26秒攻陷11個組織」，一般企業完全來不及反應",
+        "title_idea": "26秒攻陷11個組織！駭客用AI Agent自動化入侵，395家公司中鏢",
+        "local_angle": "台灣中小企業普遍使用印表機管理系統卻資安意識薄弱，這起「AI自動化駭客攻擊」案例還沒被華語圈廣泛報導，適合做「AI資安風險」警世型選題，強調導入AI工具前要先做好資安盤點"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "Salesforce一次推出7個「即戰力」AI員工：業務、客服、HR、供應鏈全包",
+        "sources": [
+          {
+            "name": "Salesforce Newsroom",
+            "url": "https://www.salesforce.com/news/stories/agentforce-job-ready-ai-agents/"
+          },
+          {
+            "name": "Unite.AI",
+            "url": "https://www.unite.ai/salesforce-debuts-job-ready-agentforce-agents-and-long-horizon-runtime/"
+          }
+        ],
+        "summary": "Salesforce推出Casey、Paige、Carter等7個可直接上工的Agentforce AI代理人",
+        "audience": "中小企業主、人資／客服／業務部門的職場上班族、想了解企業AI Agent趨勢的AI效率工具愛好者",
+        "pain_point": "很多人聽過「AI Agent」但不知道具體能做什麼工作，也搞不清楚企業導入AI員工到底是取代人力還是輔助日常瑣事，缺乏具體案例參考",
+        "title_idea": "Salesforce一口氣發7個AI員工！從客服到HR全部有它們的工作崗位",
+        "local_angle": "台灣企業對「AI Agent能不能真的接手工作」還在觀望階段，這7個具名AI員工的分工設計提供很具體的企業導入範本，適合做「企業如何導入AI員工」實戰教學選題"
+      },
+      {
+        "title": "Grok 4.7難產？馬斯克坦言新模型還需要「再燉幾天」",
+        "sources": [
+          {
+            "name": "TeslaNorth",
+            "url": "https://teslanorth.com/2026/09/11/grok-4-7-few-more-days/"
+          }
+        ],
+        "summary": "馬斯克證實xAI新一代模型Grok 4.7尚未就緒，發布時程再延後",
+        "audience": "關注AI模型競賽動態的科技自媒體、想追蹤各家旗艦模型上線時程的AI效率工具愛好者",
+        "pain_point": "很多人期待Grok新模型上線想搶先測試評測，卻不知道發布時程一直跳票，容易錯過第一手報導時機",
+        "title_idea": "又跳票！馬斯克親口證實Grok 4.7還沒煮熟，最新進度整理",
+        "local_angle": "華語圈對Grok系列模型的追蹤度不如GPT、Gemini，適合做「四大AI模型軍備競賽進度表」系列更新，搶佔資訊差"
+      }
+    ],
+    "trends": [
+      {
+        "title": "Kimi開發商月之暗面營收火箭式成長，全年目標挑戰20億美元",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/"
+          },
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-09-11/china-ai-star-moonshot-eyes-2-billion-annualized-sales-in-2026"
+          }
+        ],
+        "summary": "月之暗面年化營收3個月內從3億衝上10億美元，全年上看20億美元",
+        "audience": "對AI創業／商業模式有興趣的自媒體創作者、關注中國AI平價路線的科技評論者",
+        "pain_point": "大家只知道中國AI「便宜好用」，卻不知道背後的營收成長速度已經快到能挑戰美國同業，容易低估這些平價AI工具的商業後座力",
+        "title_idea": "3個月營收翻3倍！Kimi背後的月之暗面，正在用低價模型悶聲賺大錢",
+        "local_angle": "華語圈創作者多把Kimi、DeepSeek當作「免費好用的AI工具」介紹，鮮少討論其背後的商業模式與營收爆發力，適合做「平價AI如何賺錢」的產業觀察選題"
+      }
+    ]
+  },
+  {
     "date": "2026-09-10",
     "big_events": [
       {
@@ -644,129 +761,6 @@
         "pain_point": "常聽說「Anthropic要上市了」的消息滿天飛，卻搞不清楚時程一變再變的真正原因，也不知道這對Claude用戶或投資人到底有什麼實際影響",
         "title_idea": "史上最大IPO又跳票？Anthropic上市時程再延後，2兆美元估值背後在等什麼",
         "local_angle": "華語圈財經媒體對Anthropic IPO的追蹤多半停留在「傳言上市」階段，鮮少整理時程一路延後的具體原因與資本市場反應，適合做「Anthropic上市時間軸」系列，幫觀眾釐清這場史詩級IPO到底卡在哪"
-      }
-    ]
-  },
-  {
-    "date": "2026-09-04",
-    "big_events": [
-      {
-        "title": "Nscale洽談35億美元Pre-IPO融資，英國AI雲端新星估值上看300億美元",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/"
-          },
-          {
-            "name": "Bloomberg",
-            "url": "https://www.bloomberg.com/news/articles/2026-09-04/ai-cloud-firm-nscale-seeking-3-5-billion-in-pre-ipo-financing"
-          }
-        ],
-        "summary": "英國AI算力商Nscale洽談15億美元可轉債加Nvidia20億美元加碼，為近期上市鋪路",
-        "audience": "關注AI基礎建設與資本市場的科技創業者、投資型自媒體、獨立開發者",
-        "pain_point": "只知道AI很燒錢，卻不懂「AI算力雲」新創如何靠可轉債、大廠加碼等手法在IPO前衝高估值，也搞不清楚這類公司到底在賣什麼",
-        "title_idea": "成立僅2年，英國AI雲端公司衝上市前又籌35億美元，Nvidia也下場加碼",
-        "local_angle": "華語圈很少討論Nscale這類「AI算力二房東」新創的資本操作，適合做「AI基礎建設吸金術」系列，補上IPO前融資工具的知識空窗"
-      },
-      {
-        "title": "SoundHound AI完成收購對話式AI平台LivePerson",
-        "sources": [
-          {
-            "name": "SoundHound AI 官方投資人關係",
-            "url": "https://investors.soundhound.com/news-releases/news-release-details/soundhound-ai-acquire-liveperson-combining-proprietary-voice"
-          },
-          {
-            "name": "Unite.AI",
-            "url": "https://www.unite.ai/liveperson-stockholders-sign-off-on-soundhound-ai-takeover/"
-          }
-        ],
-        "summary": "交易9月4日完成，語音AI公司SoundHound用股票加現金合併LivePerson打造端到端對話式AI平台",
-        "audience": "經營電商或客服機器人的中小企業主、SaaS產品經理、關注AI併購動態的科技自媒體",
-        "pain_point": "企業想做語音加文字客服AI卻要拼裝多家工具，不知道市場正快速整併成「一站式對話式AI平台」，選型時抓不到方向",
-        "title_idea": "語音AI併吞聊天機器人龍頭！SoundHound收購LivePerson，客服AI市場要洗牌了",
-        "local_angle": "台灣電商與客服業愛用的對話機器人多是海外SaaS，這起併購牽動未來工具走向，適合做「客服AI版圖大風吹」選題卡位"
-      },
-      {
-        "title": "Tesla無方向盤Cybercab首發活動翻車，聯邦監管機關隨即開查",
-        "sources": [
-          {
-            "name": "The Motley Fool",
-            "url": "https://www.fool.com/investing/2026/09/04/why-did-tesla-stock-fall-today/"
-          },
-          {
-            "name": "Yahoo Finance（引述Bloomberg）",
-            "url": "https://finance.yahoo.com/technology/live/tech-stocks-today-apple-ceo-steps-down-nvidia-mag-7-145623375.html"
-          }
-        ],
-        "summary": "Tesla在德州奧斯汀正式發表Cybercab，投資人反應冷淡，NHTSA隨即對自駕認證展開調查",
-        "audience": "關注自駕或機器人計程車的科技評論自媒體、投資型創作者、對自駕AI安全有疑慮的一般大眾",
-        "pain_point": "常聽到「Robotaxi要來了」的美好願景，卻不知道連指標玩家首發都翻船，也不了解政府怎麼介入自駕AI的安全審查",
-        "title_idea": "沒有方向盤的Tesla計程車翻車記！Cybercab首發就被美國政府盯上",
-        "local_angle": "台灣近期也在討論自駕計程車開放議題，這起「明星產品發表失利加監管立刻跟上」的案例很適合做「自駕計程車上路前要過幾關」科普選題"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "AI簡報工具Presentations.ai用戶突破1200萬，主打企業級品牌簡報",
-        "sources": [
-          {
-            "name": "GlobeNewswire",
-            "url": "https://www.globenewswire.com/news-release/2026/09/04/3356578/0/en/ai-powerpoint-maker-for-sales-decks-investor-decks-and-board-presentations-reaches-12-million-users-in-2026-presentations-ai-trusted-by-leading-global-enterprise-users.html"
-          }
-        ],
-        "summary": "貼上文件、Notion頁面或網址就能一鍵生成品牌簡報，可編輯回PowerPoint、支援80種語言",
-        "audience": "常做業務提案、投資簡報、董事會報告的職場上班族、業務主管、接案顧問",
-        "pain_point": "用ChatGPT生成的簡報常常跑版、無法直接編回公司PowerPoint模板，花更多時間在善後而不是內容本身",
-        "title_idea": "貼上一份文件、一分鐘生出投資簡報！這款AI簡報工具用戶衝破1200萬",
-        "local_angle": "華語圈AI簡報教學多集中在Gamma、Canva，Presentations.ai這種「可編輯回PPT、支援80種語言」的企業級定位還沒被介紹，適合做評測搶占「業務簡報神器」關鍵字"
-      },
-      {
-        "title": "AI路由新創Martian推出「AI Frontier」儀表板，一次比較44款大型語言模型",
-        "sources": [
-          {
-            "name": "AI Frontier（Martian官方）",
-            "url": "https://aifrontier.withmartian.com/"
-          }
-        ],
-        "summary": "依品質、成本、穩定度即時排名44款LLM，幫企業找出「性價比前緣」",
-        "audience": "同時用多個AI模型做產品的獨立開發者、需要幫客戶選型的技術顧問、AI工具評測類自媒體",
-        "pain_point": "市面模型多到選不完（GPT、Claude、Gemini、Grok等），每款價格、品質、穩定度都不一樣，靠自己一個個測太花時間",
-        "title_idea": "44款AI模型一次比完！新工具幫你抓出「最划算」的那一個",
-        "local_angle": "華語圈開發者常常憑感覺選模型，這種「即時性價比排行榜」工具還沒有中文介紹，適合做「AI模型怎麼選」實測懶人包搶占SEO"
-      }
-    ],
-    "trends": [
-      {
-        "title": "AI推理新創Gimlet Labs募得3億美元B輪，估值衝上30億美元",
-        "sources": [
-          {
-            "name": "Bloomberg",
-            "url": "https://www.bloomberg.com/news/articles/2026-09-04/andreessen-backed-ai-startup-gimlet-is-valued-at-3-billion-in-new-round"
-          },
-          {
-            "name": "GlobeNewswire",
-            "url": "https://www.globenewswire.com/news-release/2026/09/04/3356707/0/en/now-valued-at-3-billion-gimlet-labs-raises-300-million-in-series-b-led-by-andreessen-horowitz-for-industry-s-first-multi-silicon-inference-cloud-for-agentic-ai.html"
-          }
-        ],
-        "summary": "a16z領投，距上輪募資僅半年，主打把AI推理任務拆分給不同廠牌晶片運算",
-        "audience": "關注AI基礎建設投資動態的科技創業者、獨立開發者、投資類自媒體",
-        "pain_point": "大家只知道「Nvidia晶片很貴」，卻不知道已經有新創在幫企業把AI運算拆給不同廠牌晶片省錢，這塊「多晶片推理」的新賽道還沒人講清楚",
-        "title_idea": "半年估值翻倍衝30億美元！這家新創教AI「貨比三家」用晶片",
-        "local_angle": "華語圈對AI基礎建設新創的報導多聚焦Nvidia、OpenAI等巨頭，Gimlet Labs這種「晶片中介層」新賽道是少見的資訊差題材，適合做「AI算力也要貨比三家」系列開箱"
-      },
-      {
-        "title": "軟銀發行破紀錄63億美元零售債券，資金全投AI建設",
-        "sources": [
-          {
-            "name": "Bloomberg",
-            "url": "https://www.bloomberg.com/news/articles/2026-09-04/softbank-group-prices-1-trillion-retail-bond-at-4-75"
-          }
-        ],
-        "summary": "7年期債券票面利率4.75%，創日本企業史上最大零售債券紀錄，用於AI投資與還債",
-        "audience": "關注AI資金流向與日股動態的投資型自媒體、對AI泡沫化議題有興趣的科技評論者",
-        "pain_point": "常聽到「軟銀重壓OpenAI」，卻不知道背後資金怎麼籌來的，也不清楚一般散戶債券市場也被捲入這波AI軍備競賽",
-        "title_idea": "連日本散戶的錢都被拿去all in AI！軟銀發行史上最大63億美元債券",
-        "local_angle": "台灣投資人熟悉軟銀孫正義的豪賭故事，但「靠散戶債券融資養AI」這個具體操作手法還沒被講清楚，適合做「AI燒錢的錢從哪來」系列拆解軟銀資金鏈"
       }
     ]
   }

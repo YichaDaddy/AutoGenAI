@@ -1,97 +1,81 @@
 {
-  "date": "2026-09-10",
+  "date": "2026-09-11",
   "big_events": [
     {
-      "title": "Nvidia攜手8家澳洲業者衝刺2GW「AI工廠」，規模直逼再造一個半澳洲現有算力",
+      "title": "Anthropic踢爆：中國Moonshot、DeepSeek偷樑換柱，把Claude回應包裝成自家AI輸出",
       "sources": [
-        {"name": "NVIDIA Newsroom（官方）", "url": "https://nvidianews.nvidia.com/news/nvidia-expands-ai-infrastructure-capacity-in-partnership-with-australias-data-center-ecosystem"},
-        {"name": "The Next Web", "url": "https://thenextweb.com/news/nvidia-australia-eight-partners-2gw-ai-capacity"},
-        {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-partners-8-australian-firms-122438874.html"}
+        {"name": "CNBC", "url": "https://www.cnbc.com/2026/09/11/chinese-ai-labs-moonshot-deepseek-alibaba-anthropic.html"},
+        {"name": "South China Morning Post", "url": "https://www.scmp.com/news/us/diplomacy/article/3367112/moonshot-deepseek-secretly-routed-user-requests-claude-anthropic-claims"}
       ],
-      "summary": "Nvidia與Firmus、IREN等8家澳洲業者合作，2027年前衝上2GW AI算力",
-      "audience": "關注AI基礎建設與資料中心投資動態的科技創業者、對「AI電力戰爭」議題有興趣的科技評論類自媒體、想承接資料中心/雲端顧問案的獨立開發者",
-      "pain_point": "大家只知道美國、中東在瘋狂蓋AI資料中心，卻不知道澳洲也悄悄被Nvidia選中要把全國算力直接翻倍，一般人搞不懂為什麼「電力」會變成AI時代的兵家必爭之地",
-      "title_idea": "澳洲算力要翻倍！Nvidia找來8家在地業者，蓋出比現在還大的「AI工廠」",
-      "local_angle": "台灣同樣面對資料中心用電與土地爭議，這種「Nvidia指定盟友、國家級算力擴張」模式尚未被華語圈系統性介紹，適合做「各國搶進AI基礎建設」系列，對比台灣自身的資料中心政策討論"
+      "summary": "Moonshot、DeepSeek被爆長期把用戶提問轉發給Claude，再包裝成自家模型輸出",
+      "audience": "對AI產業競爭與科技倫理話題有興趣的自媒體創作者、關注中美AI較勁的科技評論者、想搞懂「模型蒸餾」原理的AI效率工具愛好者",
+      "pain_point": "一般上班族只聽過「Kimi、DeepSeek比較便宜好用」，卻不知道這些平價AI背後可能是直接借用別人模型的答案再重新包裝，搞不清楚為什麼這件事會被當成產業醜聞看待",
+      "title_idea": "月之暗面、DeepSeek被抓包？Anthropic爆料：你以為的『國產AI』答案可能來自Claude",
+      "local_angle": "華語圈大量用戶天天在用Kimi、DeepSeek等平價中國AI工具，卻很少人知道這場「模型蒸餾」爭議的來龍去脈，適合做「破解平價AI背後的秘密」科普選題，補上對這場AI產業角力的認知缺口"
     },
     {
-      "title": "Nvidia砸200億美元「授權不併購」拿下Groq技術，美國司法部出手查是否規避反壟斷審查",
+      "title": "OpenAI執行長Sam Altman鬆口：可能主動放慢尖端AI研發腳步，盼同業一起煞車",
       "sources": [
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-09-10/doj-probes-nvidia-s-license-deal-with-groq-on-antitrust-concerns"},
-        {"name": "PC Gamer", "url": "https://www.pcgamer.com/hardware/nvidia-is-reportedly-being-investigated-by-the-doj-over-its-biggest-ever-deal-a-usd20-billion-non-exclusive-agreement-with-groq/"},
-        {"name": "The Next Web", "url": "https://thenextweb.com/news/doj-nvidia-groq-licensing-antitrust-review"}
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-09-11/openai-is-open-to-slowing-cutting-edge-ai-ceo-sam-altman-tells-staff"},
+        {"name": "The Star", "url": "https://www.thestar.com.my/tech/tech-news/2026/09/11/openai-is-open-to-slowing-cutting-edge-ai-ceo-sam-altman-tells-staff"}
       ],
-      "summary": "DOJ調查Nvidia用非典型授權交易納入Groq技術與人才，疑規避併購審查",
-      "audience": "關注AI晶片產業版圖與反壟斷議題的投資型自媒體、科技政策觀察者、對「AI巨頭收購潮」有興趣的內容創作者",
-      "pain_point": "一般人只看到「Nvidia又花大錢買技術」的新聞標題，卻不知道這類「用授權代替收購」的操作是近年規避反壟斷審查的常見手法，也搞不懂萬一被查到違規會有什麼後果",
-      "title_idea": "Nvidia用「借」的躲過併購審查？200億美元Groq交易被美國司法部盯上",
-      "local_angle": "華語圈近期報導Nvidia多聚焦晶片效能與股價，鮮少解讀這種「類收購」交易結構背後的法律巧門，適合做「AI巨頭如何鑽併購審查漏洞」科普選題，補上產業觀察的深度缺口"
+      "summary": "Altman向員工表示OpenAI考慮放緩前沿AI開發，盼與其他實驗室協調步調",
+      "audience": "關注AI安全與產業走向的科技媒體工作者、對「AI是否失控」議題有興趣的自媒體創作者、想掌握AI大廠戰略轉向的職場工作者",
+      "pain_point": "大家只看到AI模型一直變強、功能一直加速推出，卻不知道連OpenAI內部都出現「要不要踩煞車」的爭論，容易誤以為業界對AI風險毫無警覺",
+      "title_idea": "連Sam Altman都想踩煞車？OpenAI考慮放慢AI研發，這背後在怕什麼",
+      "local_angle": "華語圈媒體多聚焦OpenAI又推出什麼新功能，鮮少報導這種「業界龍頭主動喊煞車」的安全焦慮轉向，適合做「AI大廠內部路線之爭」深度選題，呼應近期AI安全疑慮升溫的國際氛圍"
     },
     {
-      "title": "Anthropic最新威脅報告曝光：Claude曾被用於生物武器研究、間諜行動與無人機蜂群設計",
+      "title": "駭客用AI Agent自動化攻擊，48國、395個組織的印表機系統一夕淪陷",
       "sources": [
-        {"name": "Anthropic（官方）", "url": "https://www.anthropic.com/threat-intelligence-report-september-2026"},
-        {"name": "The Daily Caller", "url": "https://dailycaller.com/2026/09/10/anthropic-report-kamikaze-drone-swarms-biological-weapons/"},
-        {"name": "The Next Web", "url": "https://thenextweb.com/news/anthropic-claude-misuse-threat-intelligence-report"}
+        {"name": "Help Net Security", "url": "https://www.helpnetsecurity.com/2026/09/11/ai-agents-papercut-ng-mf-attack-campaign/"},
+        {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/news/security/ai-powered-attack-exploited-papercut-flaws-to-hack-395-organizations/"},
+        {"name": "Tech Times", "url": "https://www.techtimes.com/articles/327294/20260911/attacker-used-ai-agents-hack-395-organizations-via-papercut-print-flaws.htm"}
       ],
-      "summary": "報告揭露去年12月至今年8月間7大類濫用案例，含5起生物武器研發嘗試",
-      "audience": "關心AI資安與濫用風險的職場上班族、企業IT與合規人員、AI工具教學類自媒體",
-      "pain_point": "大家在辦公室用Claude寫信、做簡報，卻不知道同一套模型在另一端被拿去做間諜監控、詐騙甚至生化武器研究測試，也搞不清楚這對日常使用安不安全有沒有影響",
-      "title_idea": "你用Claude寫周報，有人卻拿去研究生化武器？Anthropic親自曝光最新濫用報告",
-      "local_angle": "華語圈AI教學多聚焦「怎麼用」，很少討論「AI巨頭怎麼抓壞人」這條資安防線，適合做「AI濫用防線科普」系列，順勢提醒企業用戶注意帳號授權與異常使用監控"
+      "summary": "攻擊者結合Codex與DeepSeek模型自動化攻擊PaperCut漏洞，395個組織遭入侵",
+      "audience": "需要管理公司IT系統或內部工具的中小企業主、對AI資安風險有興趣的自媒體創作者、想提醒同事注意資安的職場上班族",
+      "pain_point": "大家覺得「用AI Agent自動化工作」很方便，卻不知道同樣的技術也能被駭客拿來自動化攻擊，且快到「26秒攻陷11個組織」，一般企業完全來不及反應",
+      "title_idea": "26秒攻陷11個組織！駭客用AI Agent自動化入侵，395家公司中鏢",
+      "local_angle": "台灣中小企業普遍使用印表機管理系統卻資安意識薄弱，這起「AI自動化駭客攻擊」案例還沒被華語圈廣泛報導，適合做「AI資安風險」警世型選題，強調導入AI工具前要先做好資安盤點"
     }
   ],
   "tool_updates": [
     {
-      "title": "GPT-6 Astra全面開放！ChatGPT Work、Pro、Enterprise用戶到Azure、AWS都能用",
+      "title": "Salesforce一次推出7個「即戰力」AI員工：業務、客服、HR、供應鏈全包",
       "sources": [
-        {"name": "OpenAI（官方）", "url": "https://openai.com/index/gpt-6-astra-next-generation-work/"},
-        {"name": "Microsoft Azure Blog", "url": "https://azure.microsoft.com/en-us/blog/gpt-6-astra-frontier-intelligence-for-work-now-generally-available-in-microsoft-foundry/"},
-        {"name": "X（OpenAI官方）", "url": "https://x.com/OpenAI/status/2095968413646737608"}
+        {"name": "Salesforce Newsroom", "url": "https://www.salesforce.com/news/stories/agentforce-job-ready-ai-agents/"},
+        {"name": "Unite.AI", "url": "https://www.unite.ai/salesforce-debuts-job-ready-agentforce-agents-and-long-horizon-runtime/"}
       ],
-      "summary": "一週分階段開放後正式全面上線，主打電腦操作、程式撰寫與專業工作",
-      "audience": "每天用ChatGPT處理工作的職場上班族、企業IT採購決策者、想幫客戶導入AI的接案顧問",
-      "pain_point": "上週才聽說Astra分階段開放搶不到，這週想搞清楚「現在是不是所有付費方案都能用了」「公司用Azure或AWS的話能不能直接接上」，卻找不到整理好的中文說明",
-      "title_idea": "終於全員入手！GPT-6 Astra全面開放ChatGPT付費方案，連Azure、AWS都能直接用",
-      "local_angle": "華語圈這幾天陸續追蹤Astra的分階段開放爭議，這次是「塵埃落定、全面可用」的實用結論篇，適合做「Astra企業導入懶人包」，幫用Azure/AWS的企業IT人員一次搞懂串接方式"
+      "summary": "Salesforce推出Casey、Paige、Carter等7個可直接上工的Agentforce AI代理人",
+      "audience": "中小企業主、人資／客服／業務部門的職場上班族、想了解企業AI Agent趨勢的AI效率工具愛好者",
+      "pain_point": "很多人聽過「AI Agent」但不知道具體能做什麼工作，也搞不清楚企業導入AI員工到底是取代人力還是輔助日常瑣事，缺乏具體案例參考",
+      "title_idea": "Salesforce一口氣發7個AI員工！從客服到HR全部有它們的工作崗位",
+      "local_angle": "台灣企業對「AI Agent能不能真的接手工作」還在觀望階段，這7個具名AI員工的分工設計提供很具體的企業導入範本，適合做「企業如何導入AI員工」實戰教學選題"
     },
     {
-      "title": "DeepSeek悄悄開兩天限時測試後，V4.1 Flash今日正式上線取代V4 Pro",
+      "title": "Grok 4.7難產？馬斯克坦言新模型還需要「再燉幾天」",
       "sources": [
-        {"name": "DeepSeek API Docs（官方）", "url": "https://api-docs.deepseek.com/updates/"},
-        {"name": "explainx.ai", "url": "https://explainx.ai/blog/deepseek-v4-1-flash-api-beta-native-multimodal-september-2026"},
-        {"name": "Superpower Daily", "url": "https://superpowerdaily.com/posts/deepseek-launches-v4-1-flash-and-plans-to-replace-v4-pro-api-traffic"}
+        {"name": "TeslaNorth", "url": "https://teslanorth.com/2026/09/11/grok-4-7-few-more-days/"}
       ],
-      "summary": "新模型效能、速度、成本全面超車V4 Pro，9/14起舊模型將靜默轉導向",
-      "audience": "用開源/低價模型做產品的獨立開發者、需要幫客戶挑模型的技術顧問、關注中國AI模型動態的科技評論者",
-      "pain_point": "開發者常常在GPT、Claude、Gemini之外還要盯著DeepSeek的動態，卻搞不清楚這次「限時測試版」到底是行銷噱頭還是真的要換代，也不知道自己接的API會不會突然被默默轉走",
-      "title_idea": "兩天限時測試後轉正！DeepSeek新模型效能海放前代，你的API可能已經被偷偷換掉了",
-      "local_angle": "華語開發者社群大量使用DeepSeek API做低成本應用，這種「限時endpoint測試→正式轉正→舊模型靜默轉導向」的上線手法還沒人講清楚，適合做「DeepSeek新模型遷移指南」實用教學，提醒開發者檢查計費與相容性"
+      "summary": "馬斯克證實xAI新一代模型Grok 4.7尚未就緒，發布時程再延後",
+      "audience": "關注AI模型競賽動態的科技自媒體、想追蹤各家旗艦模型上線時程的AI效率工具愛好者",
+      "pain_point": "很多人期待Grok新模型上線想搶先測試評測，卻不知道發布時程一直跳票，容易錯過第一手報導時機",
+      "title_idea": "又跳票！馬斯克親口證實Grok 4.7還沒煮熟，最新進度整理",
+      "local_angle": "華語圈對Grok系列模型的追蹤度不如GPT、Gemini，適合做「四大AI模型軍備競賽進度表」系列更新，搶佔資訊差"
     }
   ],
   "trends": [
     {
-      "title": "OpenAI與美國政府簽新版合作方案，聯邦機關用ChatGPT砍半價、終結「一年一美元」怪招",
+      "title": "Kimi開發商月之暗面營收火箭式成長，全年目標挑戰20億美元",
       "sources": [
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-09-10/openai-gives-us-agencies-50-off-models-ending-1-per-year-deal"},
-        {"name": "Nextgov/FCW", "url": "https://www.nextgov.com/acquisition/2026/09/gsa-unveils-new-token-based-onegov-discount-openai/415908/"}
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/"},
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-09-11/china-ai-star-moonshot-eyes-2-billion-annualized-sales-in-2026"}
       ],
-      "summary": "27個月新協議10月上路，改採按token計費，估擴大2300萬公務員可用",
-      "audience": "對AI巨頭B2G(政府採購)商業模式有興趣的投資型自媒體、關注AI定價策略演變的科技創業者、政府/公部門IT從業者",
-      "pain_point": "大家對「OpenAI一年一美元賣給政府」的噱頭新聞印象深刻，卻不知道這個怪招其實已經悄悄下架，換成更接近正常商業邏輯的「五折token計費」，背後代表AI巨頭在政府市場的策略正在成熟",
-      "title_idea": "「一年一美元」下架了！OpenAI改用新方案賣進美國政府，這次玩真的殺進B2G市場",
-      "local_angle": "台灣近期也在討論公部門導入生成式AI的採購模式，OpenAI這種「先用超低價圈地、再轉正常訂價」的B2G打法還沒被華語圈系統整理，適合做「AI巨頭政府標案生意經」系列，給想做公部門AI導入顧問的創作者參考"
-    },
-    {
-      "title": "IBM攜手NASA開源「月球基礎模型」，用AI啃完數十年月球探測數據",
-      "sources": [
-        {"name": "AIwire / HPCwire", "url": "https://www.hpcwire.com/aiwire/2026/09/10/ibm-and-nasa-release-open-source-ai-model-to-support-lunar-exploration/"}
-      ],
-      "summary": "全球首批面向月球科學探索的公開基礎模型之一，助攻人類重返月球計畫",
-      "audience": "對AI跨界應用於太空科學有興趣的科技評論自媒體、關注開源AI模型生態的獨立開發者、教育內容創作者",
-      "pain_point": "大家對AI的想像多半停留在聊天機器人或辦公室生產力工具，很少注意到AI已經悄悄啃下太空探索這種「冷門但燒錢」的科學領域，也不知道這類開源模型任何人都能免費下載研究",
-      "title_idea": "月球數據太多人類看不完？IBM跟NASA乾脆開源一顆AI模型幫忙啃",
-      "local_angle": "華語科普圈對「AI＋太空」的組合報導極少，且是開源、任何人都能下載把玩的模型，適合做「AI跨界應用」系列科普，滿足對前沿科技好奇但非工程背景的觀眾，也可延伸做「開源AI模型去哪找」教學"
+      "summary": "月之暗面年化營收3個月內從3億衝上10億美元，全年上看20億美元",
+      "audience": "對AI創業／商業模式有興趣的自媒體創作者、關注中國AI平價路線的科技評論者",
+      "pain_point": "大家只知道中國AI「便宜好用」，卻不知道背後的營收成長速度已經快到能挑戰美國同業，容易低估這些平價AI工具的商業後座力",
+      "title_idea": "3個月營收翻3倍！Kimi背後的月之暗面，正在用低價模型悶聲賺大錢",
+      "local_angle": "華語圈創作者多把Kimi、DeepSeek當作「免費好用的AI工具」介紹，鮮少討論其背後的商業模式與營收爆發力，適合做「平價AI如何賺錢」的產業觀察選題"
     }
   ]
 }
