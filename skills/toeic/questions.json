@@ -1,117 +1,117 @@
 {
-  "date": "2026-09-12",
+  "date": "2026-09-13",
   "p5": [
     {
-      "id": "2026-09-12-p5-0",
-      "tag": "倒裝句（Hardly...when，過去完成式倒裝，表「一…就…」）",
-      "pre": "Hardly ",
-      "post": " announced the merger when several key executives began quietly shopping their resumes to competitors.",
-      "opts": ["had the company", "did the company", "the company had", "has the company"],
-      "ans": 0,
-      "zh": "這家公司「才剛」宣布這樁併購案，幾位重要高階主管便已悄悄開始向競爭對手遞履歷。",
-      "why": "<b>Hardly</b> 置於句首表示「幾乎不、才剛」，須引發部分倒裝，並搭配過去完成式 had + 主詞 + 過去分詞（had the company announced），後方以 when 引導次要事件。did the company 為過去簡單式倒裝，不符合 Hardly...when 須用過去完成式的固定句型；the company had 未倒裝，不符合句首 Hardly 引發倒裝的文法要求；has the company 為現在完成式，時態層次與過去事件不符。"
-    },
-    {
-      "id": "2026-09-12-p5-1",
-      "tag": "被動完成式分詞構句（Having been + 過去分詞）",
+      "id": "2026-09-13-p5-0",
+      "tag": "倒裝句（Nowhere + be動詞 + 主詞，地方副詞倒裝）",
       "pre": "",
-      "post": " informed of the impending layoffs, the department head began quietly preparing a transition plan for her remaining staff.",
-      "opts": ["Having been", "Having", "Been", "To have been"],
+      "post": " is the risk of algorithmic bias more evident than in automated hiring systems that have never been independently audited.",
+      "opts": ["Nowhere", "No place", "Not anywhere", "Not where"],
       "ans": 0,
-      "zh": "在「得知」即將發生的裁員消息後，這位部門主管便開始悄悄為留任員工準備轉型計畫。",
-      "why": "<b>Having been + 過去分詞</b>為被動完成式分詞構句，表示該動作（被告知）先於主要子句發生，且主詞是被動接受動作的一方（= After she had been informed...）。Having 為主動完成式分詞構句，須接主動動詞而非過去分詞 informed 表被動；Been 單獨無法構成正確的分詞構句；To have been 為不定詞完成式被動，句構與語意皆不符合此處分詞構句的用法。"
+      "zh": "演算法偏見的風險，「莫過於」在從未經過獨立稽核的自動化招聘系統中最為明顯。",
+      "why": "<b>Nowhere</b> 為否定意味的地方副詞，置於句首須引發倒裝（is the risk more evident），構成強調用法。No place 雖語意相近，但不具備此固定倒裝慣用型式；Not anywhere 及 Not where 皆非標準的倒裝句首慣用語，不能直接引發此類倒裝。"
     },
     {
-      "id": "2026-09-12-p5-2",
-      "tag": "比較結構（all the more，因果強調的比較級用法）",
-      "pre": "The vendor's failure to meet the initial deadline made the client ",
-      "post": " reluctant to extend the contract for another year.",
-      "opts": ["all the more", "much the more", "even the more", "so much more"],
-      "ans": 0,
-      "zh": "供應商未能達成最初的期限，讓客戶「更加」不願意將合約再延長一年。",
-      "why": "<b>all the more</b> 為固定強調比較級的用法，常搭配原因子句表示「因此更加…」。much the more、even the more、so much more 皆非此固定搭配的正確形式，all the more 是唯一符合此因果強調語境的慣用比較結構。"
-    },
-    {
-      "id": "2026-09-12-p5-3",
-      "tag": "讓步句型（However + 形容詞 + 主詞 + 動詞，＝No matter how）",
+      "id": "2026-09-13-p5-1",
+      "tag": "獨立分詞構句（With + 名詞 + 過去分詞，表伴隨狀況，被動）",
       "pre": "",
-      "post": " challenging the integration process may prove, the leadership team remains committed to completing it within the original timeline.",
-      "opts": ["However", "No matter", "Nevertheless", "Regardless"],
+      "post": " all necessary approvals secured, the construction team was finally able to break ground on the new facility.",
+      "opts": ["With", "Being", "As", "For"],
       "ans": 0,
-      "zh": "「無論」整合過程會有多麼艱鉅的挑戰，領導團隊依然致力於在原訂時程內完成此事。",
-      "why": "<b>However</b> + 形容詞 + 主詞 + 動詞為正式讓步句型，等同於 No matter how challenging...。No matter 若使用則須完整寫成 No matter how challenging（缺少 how 則不成立）；Nevertheless（然而）為轉折副詞，無法連接兩個子句；Regardless 須搭配介系詞 of 才能接名詞（regardless of the challenge），不能直接接形容詞子句。"
+      "zh": "在「取得」所有必要核准後，施工團隊終於得以在新設施動工。",
+      "why": "<b>With + 名詞 + 過去分詞</b>為獨立分詞構句，用以表達伴隨的狀況，此處指核准是被取得的（approvals were secured）。Being 若置於句首應接在名詞之後構成獨立分詞構句（all necessary approvals being secured），不可直接置於名詞之前；As 與 Since 為連接詞，須接「主詞＋動詞」的完整子句，不可直接接「名詞＋過去分詞」的獨立結構；For 為介系詞或連接詞，同樣不符合此處句構。"
     },
     {
-      "id": "2026-09-12-p5-4",
-      "tag": "進階動詞語意辨別（exacerbate，ex-字首形似詞）",
-      "pre": "The vendor's decision to delay shipment only ",
-      "post": " an already strained relationship with its largest distributor.",
-      "opts": ["exacerbated", "exonerated", "extolled", "exhumed"],
+      "id": "2026-09-13-p5-2",
+      "tag": "倍數比較（twice as + 形容詞 + as，表「是…的兩倍」）",
+      "pre": "The revised marketing budget is ",
+      "post": " large as the amount allocated for the same campaign last year.",
+      "opts": ["twice as", "twice more", "two times more", "as twice"],
       "ans": 0,
-      "zh": "供應商決定延後出貨，只會「加劇」原本就已緊張的與最大經銷商的關係。",
-      "why": "<b>exacerbate</b>（使惡化、加劇）精準對應此處語境。exonerate（免除罪責、開脫）語意不符；extol（讚揚、頌揚）語意不符；exhume（掘出、發掘，通常指屍體或舊事）語意不符，四字同為 ex- 字首形似詞，屬進階詞彙易混淆辨析。"
+      "zh": "修訂後的行銷預算，是去年同一檔活動所編列金額的「兩倍」之多。",
+      "why": "<b>twice as + 形容詞 + as</b> 為表達倍數比較的固定句型，意為「是…的兩倍」。twice more 與 two times more 皆為不符合英語慣用邏輯的錯誤搭配（正確應為 twice as large as）；as twice 語序錯誤，不成立。"
+    },
+    {
+      "id": "2026-09-13-p5-3",
+      "tag": "讓步連接詞（As much as，表「儘管很想…」的讓步語氣）",
+      "pre": "",
+      "post": " the committee would like to approve the request immediately, established procedure requires a minimum ten-day review period.",
+      "opts": ["As much as", "So much as", "Much less", "As much"],
+      "ans": 0,
+      "zh": "「儘管」委員會很希望立即核准這項請求，既定程序仍規定至少須經過十天的審查期。",
+      "why": "<b>As much as</b> 置於句首可表達「儘管很想…」的讓步語氣，後接「主詞＋動詞」的完整子句。So much as 常用於 not so much as（甚至沒有）的否定句型，不符合此處語境；Much less（更不用說）用於否定語境中的遞減比較，語意不符；As much 缺少完整的比較對象，不成立此處的讓步用法。"
+    },
+    {
+      "id": "2026-09-13-p5-4",
+      "tag": "進階動詞語意辨別（substantiate，sub-字首形似詞）",
+      "pre": "The plaintiff's attorney was unable to ",
+      "post": " the claim with any documentary evidence, leading the judge to dismiss the case.",
+      "opts": ["substantiate", "subsidize", "subordinate", "submerge"],
+      "ans": 0,
+      "zh": "原告的律師未能提出任何書面證據來「證實」該項主張，導致法官駁回此案。",
+      "why": "<b>substantiate</b>（以證據證實、佐證）精準對應此處語境。subsidize（補貼、資助）語意不符；subordinate（使從屬、置於次要地位）語意不符；submerge（淹沒、使沉入水中）語意不符，四字同為 sub- 字首形似詞，屬進階詞彙易混淆辨析。"
     }
   ],
   "p6": {
-    "id": "2026-09-12-p6",
-    "title": "MEMORANDUM: Revised Policy on Intellectual Property Assignment for Contractor Work Product",
+    "id": "2026-09-13-p6",
+    "title": "MEMORANDUM: New Guidelines for Responding to Investor Inquiries During the Quiet Period",
     "seg": [
       [
-        "To all project managers: Effective for all new engagements, any work product created by an independent contractor in connection with a company project ",
+        "To all employees: In connection with the company's planned public offering, all communications with investors, analysts, or members of the press regarding the company's financial performance or future prospects ",
         { "b": 0 },
-        " to the company upon creation, regardless of whether the contractor's agreement explicitly states so."
+        " through the Investor Relations team until the quiet period officially concludes."
       ],
       [
         { "b": 1 },
-        ", contractors retain the right to reuse general skills, know-how, and non-confidential methodologies developed during the engagement in future projects for other clients."
+        ", employees may continue to discuss publicly available information, such as previously issued press releases, without seeking additional approval."
       ],
       [
-        "Project managers should ensure that all contractor agreements clearly ",
+        "Employees who are contacted directly by a reporter or investor should politely ",
         { "b": 2 },
-        " the scope of work product subject to this assignment, to avoid future disputes."
+        " from providing any comment and instead refer the inquiry to Investor Relations."
       ],
       [
         { "b": 3 },
-        " Legal has prepared a standard IP assignment clause that should be incorporated into all new contractor agreements going forward."
+        " A dedicated FAQ addressing common investor questions during this period has been posted on the Investor Relations intranet page."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["shall be assigned", "assigns", "has assigned", "is assigning"],
+        "opts": ["must be channeled", "channels", "has channeled", "is channeling"],
         "ans": 0,
-        "zh": "致所有專案經理：自新簽約起，任何獨立承包商在執行公司專案過程中所創作的工作成果，於創作完成之時，皆「應轉讓」予公司，無論承包商合約中是否有明文載明。",
-        "why": "工作成果是被轉讓的對象，此句表達強制性規定，須用被動情態動詞 <b>shall be assigned</b>（正式法律文件常用 shall 表義務）。assigns 為主動現在式，不符被動需求；has assigned 為現在完成式主動語態，語意錯誤；is assigning 為現在進行式主動語態，同樣不符合規定語氣。"
+        "zh": "致所有員工：因應公司計畫中的首次公開發行，在緘默期正式結束前，任何與投資人、分析師，或媒體人士關於公司財務表現或未來展望的溝通，皆「須透過」投資人關係團隊進行。",
+        "why": "溝通是被引導/傳遞的對象，此句表達強制性規定，須用被動情態動詞 <b>must be channeled</b>。channels 為主動現在式，不符被動需求；has channeled 為現在完成式主動語態，語意錯誤；is channeling 為現在進行式主動語態，同樣不符合規定語氣。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["Nonetheless", "As a result", "In particular", "Thereafter"],
+        "opts": ["Nevertheless", "Hence", "In effect", "Thereby"],
         "ans": 0,
-        "zh": "「儘管如此」，承包商仍保有在合約期間所培養的一般技能、專業知識，以及非機密方法論的使用權，可運用於未來為其他客戶執行的專案。",
-        "why": "<b>Nonetheless</b>（儘管如此）用以在陳述嚴格的智慧財產權轉讓規定後，引出承包商仍保有的例外權利，構成轉折銜接。As a result（因此）表因果；In particular（尤其是）表舉例強調；Thereafter（此後）表時間順序，皆不符合此處的轉折例外語意。"
+        "zh": "「然而」，員工仍可繼續討論公開可取得的資訊，例如先前已發布的新聞稿，無需另行取得核准。",
+        "why": "<b>Nevertheless</b>（然而）用以在陳述嚴格的緘默期溝通限制後，引出仍可自由討論公開資訊的例外情況，構成轉折銜接。Hence（因此）表因果；In effect（實際上）表結果狀態；Thereby（藉此）表方法手段，皆不符合此處的轉折例外語意。"
       },
       {
-        "tag": "詞彙語意（動詞辨析，de-字首形似詞）",
+        "tag": "詞彙語意（動詞辨析，re-字首形似詞）",
         "col1": true,
-        "opts": ["delineate", "delegate", "deliberate", "denigrate"],
+        "opts": ["refrain", "restrain", "retrain", "refrigerate"],
         "ans": 0,
-        "zh": "專案經理應確保所有承包商合約皆清楚「界定」須轉讓之工作成果的範圍，以避免日後爭議。",
-        "why": "<b>delineate</b>（清楚界定、描繪輪廓）精準對應此處語境。delegate（授權、委派）語意不符；deliberate（審慎考慮，或作形容詞「故意的」）語意不符；denigrate（詆毀、抹黑）語意不符，四字同為 de- 字首形似詞，屬進階詞彙易混淆辨析。"
+        "zh": "若員工直接遭記者或投資人聯繫，應婉轉「克制」自己不提供任何評論，並將詢問轉介給投資人關係團隊。",
+        "why": "<b>refrain</b>（克制、忍住不做某事，固定搭配 refrain from Ving）精準對應此處語境。restrain（抑制、約束他人或情緒，通常接受詞）語意與搭配皆不符；retrain（重新訓練）語意不符；refrigerate（冷藏）語意不符，四字型態相似易混淆。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Any deviation from the standard clause must be reviewed and approved by Legal before the agreement is signed.",
-          "The company's annual innovation showcase will be held virtually this year.",
-          "All project managers must submit quarterly budget updates to Finance.",
-          "The office supply request form has been updated with new categories."
+          "Any uncertainty about whether a particular topic falls within the scope of the quiet period should be resolved by consulting Investor Relations before responding.",
+          "The company's quarterly all-hands meeting has been rescheduled to next Friday.",
+          "All employees are encouraged to update their emergency contact information this month.",
+          "The office renovation on the third floor is expected to conclude by year-end."
         ],
         "ans": 0,
-        "zh": "「任何偏離標準條款的情況，皆須在合約簽署前經法務審核並核准。」法務部門已備妥標準的智慧財產權轉讓條款，今後所有新簽訂的承包商合約皆應納入此條款。",
-        "why": "段落主題為「承包商工作成果智慧財產權轉讓政策修訂」，此句強調偏離標準條款須經法務審核，與下一句「法務已備妥標準條款」共同構成政策執行的完整收尾。其餘選項（年度創新展示活動、季度預算更新、辦公用品申請表）皆與智慧財產權轉讓政策無關，插入後語意斷裂。"
+        "zh": "「若對於某項議題是否落入緘默期規範範圍有任何疑慮，應先洽詢投資人關係團隊釐清後再行回應。」一份說明本階段常見投資人問題的專屬FAQ，已發布於投資人關係部門的內部網路頁面。",
+        "why": "段落主題為「緘默期投資人詢問應對新規範」，此句提醒員工若有疑慮應先洽詢投資人關係團隊，與下一句「FAQ已發布」共同構成政策執行與資源支援的完整收尾。其餘選項（全員會議改期、緊急聯絡資訊更新、三樓辦公室整修）皆與緘默期投資人溝通規範無關，插入後語意斷裂。"
       }
     ]
   }

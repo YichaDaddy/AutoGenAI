@@ -1,5 +1,100 @@
 [
   {
+    "date": "2026-09-12",
+    "market_shocks": [
+      {
+        "title": "荷姆茲海峽現外交突破！伊朗、阿曼週一將簽新航道協議並通報國際海事組織",
+        "sources": [
+          {
+            "name": "Middle East Monitor",
+            "url": "https://www.middleeastmonitor.com/20260912-iran-says-arab-foreign-ministers-to-sign-hormuz-navigation-deal-in-oman-monday/"
+          },
+          {
+            "name": "Anadolu Agency",
+            "url": "https://www.aa.com.tr/en/middle-east/iran-says-arab-foreign-ministers-to-sign-hormuz-navigation-deal-in-oman-monday/4055037"
+          }
+        ],
+        "summary": "伊朗總統佩澤希齊揚9/12（週六）於印度「BRICS峰會」期間接受India Today專訪時證實，波灣周邊阿拉伯國家外長將於週一齊聚阿曼馬斯喀特，簽署伊朗與阿曼共同劃定的荷姆茲海峽新安全航道協議，並將正式通報國際海事組織（IMO）。他同時強調，只要美國解除對伊朗的海上封鎖，海峽即可完全重新開放。",
+        "tw_stock_impact": "此為9/11傳出「臨時通行安排」傳聞後首次出現具體簽署時間表，若週一如期簽署，國際油價恐延續獲利了結賣壓，有利舒緩台灣進口能源成本，航空、塑化類股短線可望受惠。",
+        "investment_insight": "協議簽署僅止於「劃定新航道」，美國海上封鎖並未解除，戰爭風險並未真正落幕；建議將此視為油價階段性回檔的催化劑，而非中東地緣風險反轉的訊號，避免追高看空原油。",
+        "title_idea": "戰爭沒完但海峽先通了？伊朗週一簽約，油價恐再殺一波",
+        "local_angle": "台灣99%原油仰賴進口，荷姆茲海峽通行改善直接牽動中油、台塑化成本與國內油價，也是判斷台股airline、塑化族群是否有反彈行情的關鍵指標。"
+      },
+      {
+        "title": "比特幣週線收跌逼近77000美元，比特幣ETF連4日失血、資金加速轉向以太坊",
+        "sources": [
+          {
+            "name": "24/7 Wall St.",
+            "url": "https://247wallst.com/investing/cryptocurrency/2026/09/12/how-low-can-bitcoin-go/"
+          },
+          {
+            "name": "crypto.news",
+            "url": "https://crypto.news/bitcoin-etfs-lose-462-7m-as-ethereum-funds-gain-196-9m/"
+          }
+        ],
+        "summary": "比特幣9/12報約77,278美元，單週下跌逾3%、較一年前116,106美元的高點已跌超過33%。美國現貨比特幣ETF本週（9/8-9/11）累計淨流出達4.627億美元、連續4個交易日淨流出，反觀以太坊ETF同期卻淨流入1.969億美元，資金輪動跡象明顯，加密貨幣市場週末持續承壓。",
+        "tw_stock_impact": "比特幣屬24小時交易資產，其週末走弱與資金轉向以太坊的訊號，可作為週一台股虛擬貨幣概念股與挖礦供應鏈股價開盤情緒的領先指標。",
+        "investment_insight": "ETF資金明顯從比特幣轉向以太坊，顯示機構偏好正在調整；若持有比特幣部位者可留意77,000美元是否守住，若失守恐引發技術性追殺賣壓，反之以太坊相對強勢可留意逢低布局機會。",
+        "title_idea": "比特幣ETF連4天失血、以太坊卻逆勢吸金，資金悄悄大風吹？",
+        "local_angle": "台灣加密貨幣交易所（MAX、ACE等）活躍度高，比特幣資金外流、以太幣吸金的趨勢若延續，將影響本土散戶的持倉配置與週一開盤情緒。"
+      }
+    ],
+    "investment_opportunities": [
+      {
+        "title": "特斯拉突發預告10/1發表會，暗示新一代Roadster搭載SpaceX冷氣推進技術",
+        "sources": [
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-09-12/tesla-teases-oct-1-event-to-showcase-next-generation-roadster"
+          },
+          {
+            "name": "Teslarati",
+            "url": "https://www.teslarati.com/tesla-roadster-event-date-spacex-package-demo/"
+          }
+        ],
+        "summary": "特斯拉9/12在X平台發布一張標註「10.01」的模糊紅色預告圖並寫上「Go for launch」，正式敲定將於10月1日在德州Waco發表新一代Roadster，據傳將推出搭載SpaceX冷氣推進系統、可短暫離地的限量版本。同日馬斯克也轉發強調FSD（完全自動駕駛）已成為北美銷售的核心動能，為下一季財報鋪陳敘事。",
+        "tw_stock_impact": "特斯拉新車發表題材對台灣特斯拉供應鏈（如貿聯、和大、廣達等）短線可能帶來題材式激勵，但實質訂單效益需待發表會細節與FSD銷售數據進一步驗證。",
+        "investment_insight": "Roadster屬形象型利基車款、出貨量有限，投資人應留意這是否只是財報前的話題操作；真正值得追蹤的是FSD對整體車輛銷售與毛利率的實際貢獻，而非單一發表會消息本身。",
+        "title_idea": "馬斯克又來了！特斯拉預告10月推「會飛」跑車，這次是真的？",
+        "local_angle": "特斯拉供應鏈題材股向來是台股散戶熱門標的，10/1發表會前的預告消息容易引發相關概念股短線炒作，投資人宜留意消息面與基本面是否脫鉤。"
+      },
+      {
+        "title": "美參院CLARITY加密貨幣法案9/15關鍵表決倒數，監理明朗化牽動幣圈走向",
+        "sources": [
+          {
+            "name": "24/7 Wall St.",
+            "url": "https://247wallst.com/investing/cryptocurrency/2026/09/12/how-low-can-bitcoin-go/"
+          },
+          {
+            "name": "Bitget Academy",
+            "url": "https://www.bitget.com/academy/clarity-act-vote-september-2026-senate-cloture-what-to-know"
+          }
+        ],
+        "summary": "參院多數黨領袖Thune排定9/15進行《數位資產市場明確法案》（CLARITY Act）的動議程序表決，這份歷經上百處修改、長達630頁的法案，將針對「名為去中心化實為中心化」的加密協議加強規範，但仍需跨黨派取得60票才能突破杯葛、進入院會實質審議。",
+        "tw_stock_impact": "美國加密貨幣監理框架若能明朗化，有助降低機構資金進場疑慮，間接利多台灣虛擬資產服務業者與加密貨幣交易所生態圈的長期發展環境。",
+        "investment_insight": "表決僅是程序性跨欄而非最終立法，加上目前比特幣ETF資金外流、市場情緒偏弱，建議將9/15表決視為短線波動事件而非長期買進訊號，靜待法案是否真正過關再評估加碼加密貨幣曝險。",
+        "title_idea": "630頁天書法案週二定生死，加密貨幣監理大限倒數中",
+        "local_angle": "台灣不少投資人透過複委託或海外券商參與美股加密貨幣概念股（如Coinbase、MicroStrategy等），美國監理法案進度將直接牽動這類部位的中長期評價。"
+      }
+    ],
+    "macro_observations": [
+      {
+        "title": "美股週五收復四連跌、台積電ADR勁揚，台指期夜盤大漲401點重返46500點之上",
+        "sources": [
+          {
+            "name": "放言Fount Media",
+            "url": "https://www.fountmedia.io/article/423672"
+          }
+        ],
+        "summary": "受惠國際油價從高點回落、美股9/11四大指數全面收紅（費半指數漲逾1.8%），台積電ADR收在433.24美元、上漲1.22%，帶動台指期夜盤同步大漲401點、收復46,500點關卡，一舉扭轉台股現貨當日重挫755點的悲觀氣氛，市場解讀週一（9/14）開盤有望迎來技術性反彈。",
+        "tw_stock_impact": "夜盤大漲僅代表短線恐慌情緒降溫，台股週一是否延續反彈，仍須觀察外資是否止賣，以及台積電現貨股價能否重新站回5日線之上。",
+        "investment_insight": "在連兩個交易日重挫逾1300點後出現的夜盤反彈屬於技術性超跌反彈居多，建議投資人勿貿然重倉搶進，可留意台積電2400元整數關卡及外資買賣超轉向作為進場觀察指標。",
+        "title_idea": "台股才崩750點，夜盤竟然狂彈401點？週一要噴了嗎",
+        "local_angle": "台指期夜盤走勢是台灣投資人研判週一現貨開盤氣氛的重要領先指標，尤其對存股族與ETF（0050、006208）投資人而言，週末的夜盤數據往往牽動下週初的心理預期。"
+      }
+    ]
+  },
+  {
     "date": "2026-09-11",
     "market_shocks": [
       {
@@ -932,95 +1027,6 @@
         "investment_insight": "建議投資人將週末油價與地緣風險發展，與美股利率期貨隱含的Fed九月升息機率一併追蹤，而非只看單一數據；若兩者同步走高，代表市場正同時計價「輸入性通膨」與「政策緊縮」風險，操作上宜對高估值成長股保持謹慎。",
         "title_idea": "非農行情還沒退燒，中東戰火又來添亂！Fed九月決策難度暴增",
         "local_angle": "台灣投資人習慣只看Fed利率會議本身，但週末的中東油價衝突其實已提前為九月決策增添變數，提醒讀者留意這類非傳統利率新聞如何間接影響台股與新台幣走勢。"
-      }
-    ]
-  },
-  {
-    "date": "2026-09-05",
-    "market_shocks": [
-      {
-        "title": "週末比特幣回落至7.97萬美元、黃金同步走弱 24小時市場提前反映週一風險情緒",
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "url": "https://www.coindesk.com/price/bitcoin"
-          },
-          {
-            "name": "Bitcoin News Digest",
-            "url": "https://bitcoinnewsdigest.substack.com/p/bitcoin-news-digest-september-5-2026"
-          },
-          {
-            "name": "TradingEconomics",
-            "url": "https://tradingeconomics.com/commodity/gold"
-          }
-        ],
-        "summary": "比特幣週六(9/5)一度觸及8萬美元後回落至約7.97萬美元，24小時跌幅近2%；現貨黃金同步從本週高點回落至約4,430～4,480美元區間。由於週五(9/4)公布的8月非農就業報告遠超預期、推升Fed 9月升息機率，加密貨幣與黃金這兩個24小時交易的資產類別，在傳統股市休市的週末持續消化這股鷹派重新定價的壓力。",
-        "tw_stock_impact": "比特幣與黃金週末雙雙走弱，顯示市場對Fed 9月升息的疑慮並未隨週末休市而消退；台股週一開盤若美元指數與美債殖利率延續強勢，資金可能對高本益比的AI概念股與被動元件族群保持觀望，重演本週稍早「美股跌、台股補跌」的劇本。",
-        "investment_insight": "建議投資人以比特幣、黃金等24小時交易資產作為週一台股情緒的領先指標；若比特幣週日夜間仍站不回8萬美元、黃金持續破底，代表市場仍在消化鷹派升息預期，操作上宜對台股開盤後的高檔震盪保持保守，避免追高。",
-        "title_idea": "非農行情燒到週末！比特幣摔破8萬美元、黃金同步破線 週一台股恐提前繃緊神經",
-        "local_angle": "台灣投資人週末容易忽略加密貨幣與黃金的即時價格波動，但這兩個不打烊的資產類別已提前反映Fed升息預期升溫的壓力，提醒讀者週一觀察美元指數與美債殖利率是否延續強勢，作為判斷台股能否延續上週漲勢的重要領先線索。"
-      }
-    ],
-    "investment_opportunities": [
-      {
-        "title": "Anthropic IPO延至10月中旬拚破2兆美元估值 台灣自研晶片供應鏈成受惠焦點",
-        "sources": [
-          {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/09/05/anthropic-ipo-launch-shifts-toward-mid-october-reuters.html"
-          },
-          {
-            "name": "鉅亨網",
-            "url": "https://news.cnyes.com/news/id/6583404"
-          },
-          {
-            "name": "DIGITIMES",
-            "url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000766319_ISY4TVOO0V990YL77ZMIG"
-          }
-        ],
-        "summary": "路透社9/5獨家報導指出，Anthropic的IPO行銷期程從原訂9月延後至10月中旬，目標在美國期中選舉前完成掛牌，募資規模上看逾1,300億美元、估值挑戰2兆美元，可能超越SpaceX成為史上最大IPO。市場人士指出，Anthropic近期成立自研晶片團隊、加上龐大算力需求，台灣半導體代工與先進封裝供應鏈可望間接受惠。",
-        "tw_stock_impact": "IPO時程延後讓市場有更多時間消化Anthropic的獲利能見度與估值合理性，但並未改變其對算力的龐大需求；台積電及其他先進封裝、客製化晶片相關供應鏈廠商，評價仍將持續受惠於Anthropic等AI巨頭的資本支出成長。",
-        "investment_insight": "建議投資人在Anthropic正式送件前，優先關注其自研晶片團隊合作的晶圓代工與先進封裝供應商基本面，而非等待掛牌後追逐初級市場消息；時程延後代表評價修正與布局的時間都拉長，適合分批研究相關概念股，而非一次追高重壓。",
-        "title_idea": "史上最大IPO再延後！Anthropic衝10月中旬掛牌 台灣「隱藏受惠股」搶先卡位",
-        "local_angle": "台灣投資人買不到Anthropic股票，但可透過台積電與先進封裝、矽智財供應鏈間接參與這場上看2兆美元估值的AI盛宴；IPO延後代表布局時間拉長，讀者可趁機檢視相關概念股的基本面，而非只追逐掛牌消息面。"
-      },
-      {
-        "title": "以太幣現貨ETF連12個交易日吸金 機構買盤週末仍未撤出但流入力道降溫",
-        "sources": [
-          {
-            "name": "NewsBTC",
-            "url": "https://www.newsbtc.com/news/ethereum-etfs-positive-inflows-september-trading-opens/"
-          },
-          {
-            "name": "CoinGlass",
-            "url": "https://www.coinglass.com/etf/ethereum"
-          }
-        ],
-        "summary": "美國現貨以太幣ETF截至9月4日已連續12個交易日錄得淨流入，貝萊德旗下ETHA單日再吸金逾5,700萬美元；顯示進入9月後，機構資金並未因8月底鷹派升息預期升溫而大舉撤出以太幣部位，但單日流入金額已較8月高峰明顯降溫，Fidelity旗下FETH同日甚至出現逾4,800萬美元淨流出。",
-        "tw_stock_impact": "機構資金透過ETF管道持續布局以太幣，顯示華爾街對加密貨幣的中長期需求並未因短期利率預期波動而逆轉，對台灣虛擬資產交易所與資產管理相關業者是正面訊號；但流入力道降溫也提醒追高風險正在上升。",
-        "investment_insight": "建議投資人觀察ETF單日流入金額是否持續萎縮，若跌破近期低點恐顯示機構買盤動能見頂；目前連12日正流入的紀錄仍具參考價值，可作為判斷以太幣中期趨勢是否轉弱的觀察指標，而非僅看單日價格漲跌。",
-        "title_idea": "連12天不斷電！以太幣ETF機構買盤週末仍在加碼 但流入速度悄悄踩煞車",
-        "local_angle": "台灣投資人習慣以價格漲跌判斷加密貨幣多空，但機構資金透過ETF的連續流入紀錄，往往比單日價格波動更能反映真實需求；這類週末才公布的次日結算資料，是台灣投資人能提前於週一美股開盤前掌握的領先指標。"
-      }
-    ],
-    "macro_observations": [
-      {
-        "title": "OPEC+週日將拍板10月產量政策 布蘭特原油週漲近9%反映中東緊張未歇",
-        "sources": [
-          {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/09/03/oil-price-today-iran-war-strait-hormuz.html"
-          },
-          {
-            "name": "MarketScreener",
-            "url": "https://uk.marketscreener.com/news/opec-set-to-hold-oil-output-policy-steady-sources-say-ce7d51dbde8bf225"
-          }
-        ],
-        "summary": "因應伊朗持續攻擊科威特、巴林、約旦等美國盟友的油輪與能源設施，布蘭特原油本週大漲近9%、一度衝上96美元關卡，創逾一個月最大單週漲幅。OPEC+核心七國(沙烏地、伊拉克、科威特、阿爾及利亞、哈薩克、俄羅斯、阿曼)將於週日(9/6)召開會議，市場預期在完成年內自願減產回補後，第四季政策可能轉為暫停增產、以消化潛在的供給過剩。",
-        "tw_stock_impact": "油價走高將推升台灣進口能源與原物料成本，對航空、塑化、電力等高度仰賴進口能源的產業構成成本壓力；若中東情勢週末持續升溫，週一台股中下游傳產與航運類股須留意運價與燃料成本波動。",
-        "investment_insight": "建議投資人留意週日OPEC+會議結果與伊朗-波灣衝突是否降溫，若布蘭特原油站穩95美元以上，應留意台灣塑化、航空類股獲利下修風險；反之若地緣風險緩解、OPEC+釋出增產訊號，油價回落將有助降低輸入性通膨壓力。",
-        "title_idea": "中東戰火燒進週末！布蘭特原油週漲近9% OPEC+週日拍板恐左右台股傳產股",
-        "local_angle": "台灣是能源進口依賴度極高的經濟體，中東地緣衝突推升的油價漲幅雖尚未反映在週六的台股報價上，但週日OPEC+會議結果將直接牽動週一開盤時傳產、航空與電力概念股的表現，是台灣讀者不能忽略的假日財經變數。"
       }
     ]
   }

@@ -1,81 +1,74 @@
 {
-  "date": "2026-09-11",
+  "date": "2026-09-12",
   "big_events": [
     {
-      "title": "Anthropic踢爆：中國Moonshot、DeepSeek偷樑換柱，把Claude回應包裝成自家AI輸出",
+      "title": "Anthropic執行長Amodei發表『為前沿踩煞車』宣言，Altman數小時內公開附議跟進",
       "sources": [
-        {"name": "CNBC", "url": "https://www.cnbc.com/2026/09/11/chinese-ai-labs-moonshot-deepseek-alibaba-anthropic.html"},
-        {"name": "South China Morning Post", "url": "https://www.scmp.com/news/us/diplomacy/article/3367112/moonshot-deepseek-secretly-routed-user-requests-claude-anthropic-claims"}
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/12/anthropics-amodei-proposes-plan-to-slow-the-pace-of-advancing-ai-capabilities.html"
+        },
+        {
+          "name": "The Washington Post",
+          "url": "https://www.washingtonpost.com/technology/2026/09/12/anthropic-ceo-dario-amodei-calls-ai-industry-slow-down/"
+        },
+        {
+          "name": "Fortune",
+          "url": "https://fortune.com/2026/09/12/anthropic-ceo-dario-amodei-ai-safety-global-panic/"
+        },
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/news/us-news/anthropic-ceo-dario-amodei-ai-development-rcna597383"
+        }
       ],
-      "summary": "Moonshot、DeepSeek被爆長期把用戶提問轉發給Claude，再包裝成自家模型輸出",
-      "audience": "對AI產業競爭與科技倫理話題有興趣的自媒體創作者、關注中美AI較勁的科技評論者、想搞懂「模型蒸餾」原理的AI效率工具愛好者",
-      "pain_point": "一般上班族只聽過「Kimi、DeepSeek比較便宜好用」，卻不知道這些平價AI背後可能是直接借用別人模型的答案再重新包裝，搞不清楚為什麼這件事會被當成產業醜聞看待",
-      "title_idea": "月之暗面、DeepSeek被抓包？Anthropic爆料：你以為的『國產AI』答案可能來自Claude",
-      "local_angle": "華語圈大量用戶天天在用Kimi、DeepSeek等平價中國AI工具，卻很少人知道這場「模型蒸餾」爭議的來龍去脈，適合做「破解平價AI背後的秘密」科普選題，補上對這場AI產業角力的認知缺口"
+      "summary": "Amodei警告AI遞迴自我改良風險，宣布開放第三方評估者長駐查核，Altman公開附議跟進",
+      "audience": "對AI安全政策與產業高層動向有興趣的科技評論類自媒體、關注「AI是否失控」議題的職場工作者、想幫客戶做AI風險溝通的顧問",
+      "pain_point": "大家看多了「AI又變強」的新聞疲勞轟炸，卻搞不清楚為什麼兩大巨頭執行長會突然公開喊「要踩煞車」，也不知道背後藏著「AI代理人群體攻擊、操控評分系統」這種更嚴重的新型態風險",
+      "title_idea": "連Altman都附議！Anthropic執行長公開喊『AI要踩煞車』，背後藏著什麼你不知道的風險",
+      "local_angle": "華語圈對「AI安全」議題的討論多半停留在「會不會取代工作」的表層焦慮，鮮少深入這種「兩大龍頭執行長聯手喊煞車、還開放外部稽核長駐辦公室」的產業治理新模式，適合做「AI巨頭安全治理最新動向」深度選題，補上國際AI治理討論的資訊差"
     },
     {
-      "title": "OpenAI執行長Sam Altman鬆口：可能主動放慢尖端AI研發腳步，盼同業一起煞車",
+      "title": "Altman鬆口：現在上市『時機不當』，OpenAI證實今年不會掛牌IPO",
       "sources": [
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-09-11/openai-is-open-to-slowing-cutting-edge-ai-ceo-sam-altman-tells-staff"},
-        {"name": "The Star", "url": "https://www.thestar.com.my/tech/tech-news/2026/09/11/openai-is-open-to-slowing-cutting-edge-ai-ceo-sam-altman-tells-staff"}
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/"
+        },
+        {
+          "name": "Fortune",
+          "url": "https://fortune.com/2026/09/12/sam-altman-openai-ipo-delay-ill-advised-moment-safety-concerns/"
+        },
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/09/12/openai-public-ipo-delay-sam-altman"
+        }
       ],
-      "summary": "Altman向員工表示OpenAI考慮放緩前沿AI開發，盼與其他實驗室協調步調",
-      "audience": "關注AI安全與產業走向的科技媒體工作者、對「AI是否失控」議題有興趣的自媒體創作者、想掌握AI大廠戰略轉向的職場工作者",
-      "pain_point": "大家只看到AI模型一直變強、功能一直加速推出，卻不知道連OpenAI內部都出現「要不要踩煞車」的爭論，容易誤以為業界對AI風險毫無警覺",
-      "title_idea": "連Sam Altman都想踩煞車？OpenAI考慮放慢AI研發，這背後在怕什麼",
-      "local_angle": "華語圈媒體多聚焦OpenAI又推出什麼新功能，鮮少報導這種「業界龍頭主動喊煞車」的安全焦慮轉向，適合做「AI大廠內部路線之爭」深度選題，呼應近期AI安全疑慮升溫的國際氛圍"
-    },
-    {
-      "title": "駭客用AI Agent自動化攻擊，48國、395個組織的印表機系統一夕淪陷",
-      "sources": [
-        {"name": "Help Net Security", "url": "https://www.helpnetsecurity.com/2026/09/11/ai-agents-papercut-ng-mf-attack-campaign/"},
-        {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/news/security/ai-powered-attack-exploited-papercut-flaws-to-hack-395-organizations/"},
-        {"name": "Tech Times", "url": "https://www.techtimes.com/articles/327294/20260911/attacker-used-ai-agents-hack-395-organizations-via-papercut-print-flaws.htm"}
-      ],
-      "summary": "攻擊者結合Codex與DeepSeek模型自動化攻擊PaperCut漏洞，395個組織遭入侵",
-      "audience": "需要管理公司IT系統或內部工具的中小企業主、對AI資安風險有興趣的自媒體創作者、想提醒同事注意資安的職場上班族",
-      "pain_point": "大家覺得「用AI Agent自動化工作」很方便，卻不知道同樣的技術也能被駭客拿來自動化攻擊，且快到「26秒攻陷11個組織」，一般企業完全來不及反應",
-      "title_idea": "26秒攻陷11個組織！駭客用AI Agent自動化入侵，395家公司中鏢",
-      "local_angle": "台灣中小企業普遍使用印表機管理系統卻資安意識薄弱，這起「AI自動化駭客攻擊」案例還沒被華語圈廣泛報導，適合做「AI資安風險」警世型選題，強調導入AI工具前要先做好資安盤點"
+      "summary": "Altman坦言「現在上市時機不當」，證實OpenAI今年不會IPO，直指AI安全疑慮是主因",
+      "audience": "關注AI巨頭資本動態與IPO時程的投資型自媒體創作者、對「AI產業泡沫化」議題有興趣的科技評論者、想了解OpenAI商業佈局的職場上班族",
+      "pain_point": "大家常聽到「OpenAI要上市了」的傳言滿天飛，卻搞不清楚這次是真的確定延後、還是又一次沒下文的謠言，也不知道「AI安全疑慮」竟然成了上市時程的真正絆腳石",
+      "title_idea": "OpenAI上市喊卡！Altman親口證實：現在掛牌『時機不當』，安全疑慮才是真正原因",
+      "local_angle": "華語財經媒體先前追蹤過Anthropic上市延後到10月中的消息，這次換成OpenAI自己鬆口「今年不上市」，適合做「兩大AI巨頭IPO時間軸對比」系列，串聯先前選題延伸成連續追蹤內容，滿足投資型觀眾對AI資本市場的好奇心"
     }
   ],
-  "tool_updates": [
-    {
-      "title": "Salesforce一次推出7個「即戰力」AI員工：業務、客服、HR、供應鏈全包",
-      "sources": [
-        {"name": "Salesforce Newsroom", "url": "https://www.salesforce.com/news/stories/agentforce-job-ready-ai-agents/"},
-        {"name": "Unite.AI", "url": "https://www.unite.ai/salesforce-debuts-job-ready-agentforce-agents-and-long-horizon-runtime/"}
-      ],
-      "summary": "Salesforce推出Casey、Paige、Carter等7個可直接上工的Agentforce AI代理人",
-      "audience": "中小企業主、人資／客服／業務部門的職場上班族、想了解企業AI Agent趨勢的AI效率工具愛好者",
-      "pain_point": "很多人聽過「AI Agent」但不知道具體能做什麼工作，也搞不清楚企業導入AI員工到底是取代人力還是輔助日常瑣事，缺乏具體案例參考",
-      "title_idea": "Salesforce一口氣發7個AI員工！從客服到HR全部有它們的工作崗位",
-      "local_angle": "台灣企業對「AI Agent能不能真的接手工作」還在觀望階段，這7個具名AI員工的分工設計提供很具體的企業導入範本，適合做「企業如何導入AI員工」實戰教學選題"
-    },
-    {
-      "title": "Grok 4.7難產？馬斯克坦言新模型還需要「再燉幾天」",
-      "sources": [
-        {"name": "TeslaNorth", "url": "https://teslanorth.com/2026/09/11/grok-4-7-few-more-days/"}
-      ],
-      "summary": "馬斯克證實xAI新一代模型Grok 4.7尚未就緒，發布時程再延後",
-      "audience": "關注AI模型競賽動態的科技自媒體、想追蹤各家旗艦模型上線時程的AI效率工具愛好者",
-      "pain_point": "很多人期待Grok新模型上線想搶先測試評測，卻不知道發布時程一直跳票，容易錯過第一手報導時機",
-      "title_idea": "又跳票！馬斯克親口證實Grok 4.7還沒煮熟，最新進度整理",
-      "local_angle": "華語圈對Grok系列模型的追蹤度不如GPT、Gemini，適合做「四大AI模型軍備競賽進度表」系列更新，搶佔資訊差"
-    }
-  ],
+  "tool_updates": [],
   "trends": [
     {
-      "title": "Kimi開發商月之暗面營收火箭式成長，全年目標挑戰20億美元",
+      "title": "Anthropic安全研究員接連請辭示警：AI巨頭正在拿人類存亡當賭注",
       "sources": [
-        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/"},
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-09-11/china-ai-star-moonshot-eyes-2-billion-annualized-sales-in-2026"}
+        {
+          "name": "Business Standard",
+          "url": "https://www.business-standard.com/technology/tech-news/another-anthropic-researcher-warns-of-ai-race-risks-after-quitting-126091200407_1.html"
+        },
+        {
+          "name": "Free Press Journal",
+          "url": "https://www.freepressjournal.in/world/joe-benton-quits-anthropic-safety-team-warns-ai-race-could-pose-extinction-level-risks"
+        }
       ],
-      "summary": "月之暗面年化營收3個月內從3億衝上10億美元，全年上看20億美元",
-      "audience": "對AI創業／商業模式有興趣的自媒體創作者、關注中國AI平價路線的科技評論者",
-      "pain_point": "大家只知道中國AI「便宜好用」，卻不知道背後的營收成長速度已經快到能挑戰美國同業，容易低估這些平價AI工具的商業後座力",
-      "title_idea": "3個月營收翻3倍！Kimi背後的月之暗面，正在用低價模型悶聲賺大錢",
-      "local_angle": "華語圈創作者多把Kimi、DeepSeek當作「免費好用的AI工具」介紹，鮮少討論其背後的商業模式與營收爆發力，適合做「平價AI如何賺錢」的產業觀察選題"
+      "summary": "前Anthropic安全團隊主管Joe Benton請辭轉戰獨立監督機構，警告AI競賽恐釀滅絕級風險",
+      "audience": "關心AI倫理與人才流動的科技評論自媒體、對「AI安全吹哨人」議題有興趣的職場工作者、想了解AI巨頭內部路線分歧的內容創作者",
+      "pain_point": "大家只看到AI大廠一直搶著發新模型、搶市佔，卻不知道公司內部負責「踩剎車」的安全團隊主管正一個接一個離職，還公開警告「人類可能撐不過這場競賽」，這種內部路線分歧鮮少被媒體放大討論",
+      "title_idea": "他曾是Anthropic安全隊長，離職後說了這句話：人類可能撐不過這場AI競賽",
+      "local_angle": "華語圈對AI人才流動的報導多半聚焦「挖角、加薪」等商業角度，鮮少討論安全研究員「用離職發聲」這種倫理抗議模式，適合做「AI吹哨人現象」系列選題，串聯本週Anthropic執行長公開喊煞車的新聞，做成「AI安全危機總覽」懶人包"
     }
   ]
 }
