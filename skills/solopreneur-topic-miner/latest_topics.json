@@ -1,74 +1,83 @@
 {
-  "date": "2026-09-12",
+  "date": "2026-09-14",
   "big_events": [
     {
-      "title": "Anthropic執行長Amodei發表『為前沿踩煞車』宣言，Altman數小時內公開附議跟進",
+      "title": "微軟公開AI「行為準則」草案：明文禁止MAI模型抗拒關機、隱藏推理過程",
       "sources": [
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/09/12/anthropics-amodei-proposes-plan-to-slow-the-pace-of-advancing-ai-capabilities.html"
-        },
-        {
-          "name": "The Washington Post",
-          "url": "https://www.washingtonpost.com/technology/2026/09/12/anthropic-ceo-dario-amodei-calls-ai-industry-slow-down/"
-        },
-        {
-          "name": "Fortune",
-          "url": "https://fortune.com/2026/09/12/anthropic-ceo-dario-amodei-ai-safety-global-panic/"
-        },
-        {
-          "name": "NBC News",
-          "url": "https://www.nbcnews.com/news/us-news/anthropic-ceo-dario-amodei-ai-development-rcna597383"
-        }
+        {"name": "GeekWire", "url": "https://www.geekwire.com/2026/microsoft-floats-rules-for-its-own-ai-models-as-industry-debates-a-slowdown/"},
+        {"name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/microsoft-latest-tech-giant-calling-for-slower-ai-development"},
+        {"name": "Dataconomy", "url": "https://dataconomy.com/2026/09/14/satya-nadella-says-superintelligence-must-remain-human-controlled/"}
       ],
-      "summary": "Amodei警告AI遞迴自我改良風險，宣布開放第三方評估者長駐查核，Altman公開附議跟進",
-      "audience": "對AI安全政策與產業高層動向有興趣的科技評論類自媒體、關注「AI是否失控」議題的職場工作者、想幫客戶做AI風險溝通的顧問",
-      "pain_point": "大家看多了「AI又變強」的新聞疲勞轟炸，卻搞不清楚為什麼兩大巨頭執行長會突然公開喊「要踩煞車」，也不知道背後藏著「AI代理人群體攻擊、操控評分系統」這種更嚴重的新型態風險",
-      "title_idea": "連Altman都附議！Anthropic執行長公開喊『AI要踩煞車』，背後藏著什麼你不知道的風險",
-      "local_angle": "華語圈對「AI安全」議題的討論多半停留在「會不會取代工作」的表層焦慮，鮮少深入這種「兩大龍頭執行長聯手喊煞車、還開放外部稽核長駐辦公室」的產業治理新模式，適合做「AI巨頭安全治理最新動向」深度選題，補上國際AI治理討論的資訊差"
+      "summary": "Nadella週一公布37頁行為準則，禁止自家MAI模型抗拒關機、設定私自目標或隱藏推理",
+      "audience": "關注AI安全治理動向的科技評論自媒體、企業IT與法遵人員、對「AI巨頭如何自律」有興趣的職場工作者",
+      "pain_point": "這幾天滿版都是「AI要踩煞車」的呼籲新聞，卻搞不清楚除了嘴上喊話，到底哪家公司真的拿出白紙黑字的具體規則，也不知道微軟自家AI模型現在被套上什麼樣的緊箍咒",
+      "title_idea": "微軟玩真的！Nadella公開37頁AI行為準則，明文禁止AI學會抗拒關機",
+      "local_angle": "華語圈這幾天瘋傳Amodei「踩煞車」宣言，但討論多停留在口號層次，微軟這份具體到「禁止AI隱藏推理過程」的規則文件才是真正的「白紙黑字」版本，適合做「AI安全承諾到底寫了什麼」逐條翻譯解讀選題，補上國際治理討論的細節缺口"
     },
     {
-      "title": "Altman鬆口：現在上市『時機不當』，OpenAI證實今年不會掛牌IPO",
+      "title": "軟銀為挺OpenAI再借119億美元，股價卻因AI「煞車說」單日重挫逾10%",
       "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/"
-        },
-        {
-          "name": "Fortune",
-          "url": "https://fortune.com/2026/09/12/sam-altman-openai-ipo-delay-ill-advised-moment-safety-concerns/"
-        },
-        {
-          "name": "Axios",
-          "url": "https://www.axios.com/2026/09/12/openai-public-ipo-delay-sam-altman"
-        }
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-09-14/softbank-gets-upsized-11-9-billion-loan-in-openai-funding-push"},
+        {"name": "The Japan Times", "url": "https://www.japantimes.co.jp/business/2026/09/14/companies/softbank-loan-openai/"},
+        {"name": "Tech Startups", "url": "https://techstartups.com/2026/09/14/softbank-secures-11-87-billion-to-keep-funding-openai-even-as-its-stock-plunges-13/"}
       ],
-      "summary": "Altman坦言「現在上市時機不當」，證實OpenAI今年不會IPO，直指AI安全疑慮是主因",
-      "audience": "關注AI巨頭資本動態與IPO時程的投資型自媒體創作者、對「AI產業泡沫化」議題有興趣的科技評論者、想了解OpenAI商業佈局的職場上班族",
-      "pain_point": "大家常聽到「OpenAI要上市了」的傳言滿天飛，卻搞不清楚這次是真的確定延後、還是又一次沒下文的謠言，也不知道「AI安全疑慮」竟然成了上市時程的真正絆腳石",
-      "title_idea": "OpenAI上市喊卡！Altman親口證實：現在掛牌『時機不當』，安全疑慮才是真正原因",
-      "local_angle": "華語財經媒體先前追蹤過Anthropic上市延後到10月中的消息，這次換成OpenAI自己鬆口「今年不上市」，適合做「兩大AI巨頭IPO時間軸對比」系列，串聯先前選題延伸成連續追蹤內容，滿足投資型觀眾對AI資本市場的好奇心"
+      "summary": "軟銀敲定119億美元貸款支持OpenAI投資，同日股價因AI放緩疑慮重挫逾10%",
+      "audience": "投資型自媒體創作者、對AI巨頭資本鏈與間接投資風險有興趣的科技評論者、關心科技股連動效應的職場投資人",
+      "pain_point": "大家只看到「AI公司又拿到一大筆錢」的表面新聞，卻不知道背後金主軟銀自己的股價正因為「AI業界喊煞車」的消息重摔，這種「金主也怕AI太快」的矛盾局面很少被解釋清楚",
+      "title_idea": "一邊借錢挺OpenAI、一邊股價慘摔一成！軟銀這場AI豪賭讓誰捏把冷汗",
+      "local_angle": "華語財經媒體對軟銀在OpenAI的巨額槓桿投資關注不足，這次「借款金額創新高、股價卻同步重摔」的反差是很好的「AI資本鏈風險」教育型選題，也呼應近期市場對AI是否過熱的疑慮"
+    },
+    {
+      "title": "iOS 27正式登場：Siri大改版脫胎換骨，但舊iPhone用戶恐與新AI體驗無緣",
+      "sources": [
+        {"name": "Engadget", "url": "https://www.engadget.com/2254005/ios-27-with-siri-ai-will-be-available-on-september-14/"},
+        {"name": "Tech Insider", "url": "https://tech-insider.org/ios-27-release-date-what-apple-confirmed-for-september-14/"},
+        {"name": "MacObserver", "url": "https://www.macobserver.com/tips/round-ups/ios-27-release-date-confirmed-september-14-siri-ai-beta-features/"}
+      ],
+      "summary": "iOS 27週一開放下載，Siri重建為獨立App，深度AI功能僅iPhone 15 Pro以上機型支援",
+      "audience": "一般iPhone用戶、幫長輩或客戶做3C教學的自媒體創作者、對蘋果AI生態系進度有興趣的科技評論者",
+      "pain_point": "很多果粉滿心期待iOS 27的Siri大改版，下載更新後才發現自己的舊iPhone用不到最精華的AI功能，搞不清楚「我的手機到底夠不夠新」",
+      "title_idea": "iOS 27終於來了！Siri整個重練一次，但這幾款iPhone注定與新AI無緣",
+      "local_angle": "台灣iPhone用戶比例極高，「哪些機型能用新Siri」是最貼身的實用資訊缺口，適合做「iOS 27新舊機型AI功能比較表」懶人包，搶第一波中文教學流量"
     }
   ],
-  "tool_updates": [],
+  "tool_updates": [
+    {
+      "title": "Anthropic攻進財富管理業：Claude串接BlackRock、嘉信理財等9大平台，變身理專AI幫手",
+      "sources": [
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-09-14/anthropic-pitches-new-claude-tool-for-financial-advisors"},
+        {"name": "IJR News", "url": "https://ijr.com/discover/anthropic-launches-claude-for-financial-advisors-324b940f"}
+      ],
+      "summary": "Anthropic週一推出Claude for Financial Advisors，串接BlackRock、Schwab等平台，投資建議仍須人工核可",
+      "audience": "金融理財從業者、想切入金融產業AI導入顧問的自媒體創作者、對「AI進軍專業服務業」案例有興趣的職場工作者",
+      "pain_point": "理財顧問每天被研究報告、會議記錄和法遵文件淹沒，卻不知道市面上已經有直接串接自己常用系統的AI工具可以減輕負擔，也搞不清楚AI能做到哪裡、哪些決策還是得自己來",
+      "title_idea": "理專要失業了嗎？Anthropic推出AI理財幫手，直接接上BlackRock等9大系統",
+      "local_angle": "台灣金融業對「AI能不能碰客戶資產」高度敏感，這個「AI做研究、人做決策」的分工模式是很好的產業導入範本，適合做「金融業AI落地案例」選題，供想切入金融科技顧問的創作者參考"
+    },
+    {
+      "title": "Claude Code週用量「明升暗降」：官方喊漲25%，實際卻比現行方案砍17%",
+      "sources": [
+        {"name": "Digital Applied", "url": "https://www.digitalapplied.com/blog/claude-code-weekly-limit-reduction-september-14"},
+        {"name": "TechJack Solutions", "url": "https://techjacksolutions.com/ai-brief/anthropic-cuts-claude-code-weekly-quota-17-percent-september/"}
+      ],
+      "summary": "Claude Code週一調整用量制度，公告稱調漲25%，但比現行臨時加碼方案實際少17%",
+      "audience": "每天靠Claude Code寫程式或做自動化的獨立開發者、接案工程師、重度使用AI編碼工具的效率玩家",
+      "pain_point": "開發者原本享受5月開始的臨時加碼用量，這次官方公告用「調漲25%」的正面說法包裝，實際上卻是比現在少了17%的用量，很多人看公告會被誤導，事後才發現額度被砍",
+      "title_idea": "小心被公告話術騙了！Claude Code「調漲25%」的真相其實是縮水17%",
+      "local_angle": "華語開發者社群大量依賴Claude Code做日常開發，這種「先讓利、後悄悄收回」的定價手法過去也在其他AI工具上出現過，適合做「AI工具漲價/減量套路解讀」系列，提醒用戶留意用量真實變化"
+    }
+  ],
   "trends": [
     {
-      "title": "Anthropic安全研究員接連請辭示警：AI巨頭正在拿人類存亡當賭注",
+      "title": "挑戰輝達霸權！AI晶片連網新創Cornelis募得2.05億美元，主打開放架構",
       "sources": [
-        {
-          "name": "Business Standard",
-          "url": "https://www.business-standard.com/technology/tech-news/another-anthropic-researcher-warns-of-ai-race-risks-after-quitting-126091200407_1.html"
-        },
-        {
-          "name": "Free Press Journal",
-          "url": "https://www.freepressjournal.in/world/joe-benton-quits-anthropic-safety-team-warns-ai-race-could-pose-extinction-level-risks"
-        }
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/09/14/ai-infrastructure-company-cornelis-raises-205m-to-chip-away-at-nvidias-dominance/"}
       ],
-      "summary": "前Anthropic安全團隊主管Joe Benton請辭轉戰獨立監督機構，警告AI競賽恐釀滅絕級風險",
-      "audience": "關心AI倫理與人才流動的科技評論自媒體、對「AI安全吹哨人」議題有興趣的職場工作者、想了解AI巨頭內部路線分歧的內容創作者",
-      "pain_point": "大家只看到AI大廠一直搶著發新模型、搶市佔，卻不知道公司內部負責「踩剎車」的安全團隊主管正一個接一個離職，還公開警告「人類可能撐不過這場競賽」，這種內部路線分歧鮮少被媒體放大討論",
-      "title_idea": "他曾是Anthropic安全隊長，離職後說了這句話：人類可能撐不過這場AI競賽",
-      "local_angle": "華語圈對AI人才流動的報導多半聚焦「挖角、加薪」等商業角度，鮮少討論安全研究員「用離職發聲」這種倫理抗議模式，適合做「AI吹哨人現象」系列選題，串聯本週Anthropic執行長公開喊煞車的新聞，做成「AI安全危機總覽」懶人包"
+      "summary": "從Intel分拆的Cornelis募得2.05億美元，靠開放架構網路技術挑戰Nvidia晶片互聯壟斷",
+      "audience": "對AI晶片與資料中心基礎建設投資動態有興趣的科技創業者、投資型自媒體創作者、想了解「輝達替代方案」的獨立開發者",
+      "pain_point": "大家只知道AI晶片市場輝達一家獨大，卻不知道背後還有像Cornelis這種「幫AI晶片之間搭橋」的關鍵基礎建設公司，也在悄悄募資挑戰輝達的網路互聯壟斷地位",
+      "title_idea": "輝達的網路霸權有破口？前英特爾團隊募2億美元，就是要幫AI晶片「換一條路」溝通",
+      "local_angle": "台灣是全球半導體供應鏈重鎮，這種「輝達生態系外的挑戰者」動態還沒被華語圈充分報導，適合做「AI晶片供應鏈新玩家」系列，補上台灣供應鏈觀察者對非輝達陣營的資訊缺口"
     }
   ]
 }

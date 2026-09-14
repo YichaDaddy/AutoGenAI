@@ -1,5 +1,130 @@
 [
   {
+    "date": "2026-09-14",
+    "big_events": [
+      {
+        "title": "微軟公開AI「行為準則」草案：明文禁止MAI模型抗拒關機、隱藏推理過程",
+        "sources": [
+          {
+            "name": "GeekWire",
+            "url": "https://www.geekwire.com/2026/microsoft-floats-rules-for-its-own-ai-models-as-industry-debates-a-slowdown/"
+          },
+          {
+            "name": "PYMNTS",
+            "url": "https://www.pymnts.com/news/artificial-intelligence/2026/microsoft-latest-tech-giant-calling-for-slower-ai-development"
+          },
+          {
+            "name": "Dataconomy",
+            "url": "https://dataconomy.com/2026/09/14/satya-nadella-says-superintelligence-must-remain-human-controlled/"
+          }
+        ],
+        "summary": "Nadella週一公布37頁行為準則，禁止自家MAI模型抗拒關機、設定私自目標或隱藏推理",
+        "audience": "關注AI安全治理動向的科技評論自媒體、企業IT與法遵人員、對「AI巨頭如何自律」有興趣的職場工作者",
+        "pain_point": "這幾天滿版都是「AI要踩煞車」的呼籲新聞，卻搞不清楚除了嘴上喊話，到底哪家公司真的拿出白紙黑字的具體規則，也不知道微軟自家AI模型現在被套上什麼樣的緊箍咒",
+        "title_idea": "微軟玩真的！Nadella公開37頁AI行為準則，明文禁止AI學會抗拒關機",
+        "local_angle": "華語圈這幾天瘋傳Amodei「踩煞車」宣言，但討論多停留在口號層次，微軟這份具體到「禁止AI隱藏推理過程」的規則文件才是真正的「白紙黑字」版本，適合做「AI安全承諾到底寫了什麼」逐條翻譯解讀選題，補上國際治理討論的細節缺口"
+      },
+      {
+        "title": "軟銀為挺OpenAI再借119億美元，股價卻因AI「煞車說」單日重挫逾10%",
+        "sources": [
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-09-14/softbank-gets-upsized-11-9-billion-loan-in-openai-funding-push"
+          },
+          {
+            "name": "The Japan Times",
+            "url": "https://www.japantimes.co.jp/business/2026/09/14/companies/softbank-loan-openai/"
+          },
+          {
+            "name": "Tech Startups",
+            "url": "https://techstartups.com/2026/09/14/softbank-secures-11-87-billion-to-keep-funding-openai-even-as-its-stock-plunges-13/"
+          }
+        ],
+        "summary": "軟銀敲定119億美元貸款支持OpenAI投資，同日股價因AI放緩疑慮重挫逾10%",
+        "audience": "投資型自媒體創作者、對AI巨頭資本鏈與間接投資風險有興趣的科技評論者、關心科技股連動效應的職場投資人",
+        "pain_point": "大家只看到「AI公司又拿到一大筆錢」的表面新聞，卻不知道背後金主軟銀自己的股價正因為「AI業界喊煞車」的消息重摔，這種「金主也怕AI太快」的矛盾局面很少被解釋清楚",
+        "title_idea": "一邊借錢挺OpenAI、一邊股價慘摔一成！軟銀這場AI豪賭讓誰捏把冷汗",
+        "local_angle": "華語財經媒體對軟銀在OpenAI的巨額槓桿投資關注不足，這次「借款金額創新高、股價卻同步重摔」的反差是很好的「AI資本鏈風險」教育型選題，也呼應近期市場對AI是否過熱的疑慮"
+      },
+      {
+        "title": "iOS 27正式登場：Siri大改版脫胎換骨，但舊iPhone用戶恐與新AI體驗無緣",
+        "sources": [
+          {
+            "name": "Engadget",
+            "url": "https://www.engadget.com/2254005/ios-27-with-siri-ai-will-be-available-on-september-14/"
+          },
+          {
+            "name": "Tech Insider",
+            "url": "https://tech-insider.org/ios-27-release-date-what-apple-confirmed-for-september-14/"
+          },
+          {
+            "name": "MacObserver",
+            "url": "https://www.macobserver.com/tips/round-ups/ios-27-release-date-confirmed-september-14-siri-ai-beta-features/"
+          }
+        ],
+        "summary": "iOS 27週一開放下載，Siri重建為獨立App，深度AI功能僅iPhone 15 Pro以上機型支援",
+        "audience": "一般iPhone用戶、幫長輩或客戶做3C教學的自媒體創作者、對蘋果AI生態系進度有興趣的科技評論者",
+        "pain_point": "很多果粉滿心期待iOS 27的Siri大改版，下載更新後才發現自己的舊iPhone用不到最精華的AI功能，搞不清楚「我的手機到底夠不夠新」",
+        "title_idea": "iOS 27終於來了！Siri整個重練一次，但這幾款iPhone注定與新AI無緣",
+        "local_angle": "台灣iPhone用戶比例極高，「哪些機型能用新Siri」是最貼身的實用資訊缺口，適合做「iOS 27新舊機型AI功能比較表」懶人包，搶第一波中文教學流量"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "Anthropic攻進財富管理業：Claude串接BlackRock、嘉信理財等9大平台，變身理專AI幫手",
+        "sources": [
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-09-14/anthropic-pitches-new-claude-tool-for-financial-advisors"
+          },
+          {
+            "name": "IJR News",
+            "url": "https://ijr.com/discover/anthropic-launches-claude-for-financial-advisors-324b940f"
+          }
+        ],
+        "summary": "Anthropic週一推出Claude for Financial Advisors，串接BlackRock、Schwab等平台，投資建議仍須人工核可",
+        "audience": "金融理財從業者、想切入金融產業AI導入顧問的自媒體創作者、對「AI進軍專業服務業」案例有興趣的職場工作者",
+        "pain_point": "理財顧問每天被研究報告、會議記錄和法遵文件淹沒，卻不知道市面上已經有直接串接自己常用系統的AI工具可以減輕負擔，也搞不清楚AI能做到哪裡、哪些決策還是得自己來",
+        "title_idea": "理專要失業了嗎？Anthropic推出AI理財幫手，直接接上BlackRock等9大系統",
+        "local_angle": "台灣金融業對「AI能不能碰客戶資產」高度敏感，這個「AI做研究、人做決策」的分工模式是很好的產業導入範本，適合做「金融業AI落地案例」選題，供想切入金融科技顧問的創作者參考"
+      },
+      {
+        "title": "Claude Code週用量「明升暗降」：官方喊漲25%，實際卻比現行方案砍17%",
+        "sources": [
+          {
+            "name": "Digital Applied",
+            "url": "https://www.digitalapplied.com/blog/claude-code-weekly-limit-reduction-september-14"
+          },
+          {
+            "name": "TechJack Solutions",
+            "url": "https://techjacksolutions.com/ai-brief/anthropic-cuts-claude-code-weekly-quota-17-percent-september/"
+          }
+        ],
+        "summary": "Claude Code週一調整用量制度，公告稱調漲25%，但比現行臨時加碼方案實際少17%",
+        "audience": "每天靠Claude Code寫程式或做自動化的獨立開發者、接案工程師、重度使用AI編碼工具的效率玩家",
+        "pain_point": "開發者原本享受5月開始的臨時加碼用量，這次官方公告用「調漲25%」的正面說法包裝，實際上卻是比現在少了17%的用量，很多人看公告會被誤導，事後才發現額度被砍",
+        "title_idea": "小心被公告話術騙了！Claude Code「調漲25%」的真相其實是縮水17%",
+        "local_angle": "華語開發者社群大量依賴Claude Code做日常開發，這種「先讓利、後悄悄收回」的定價手法過去也在其他AI工具上出現過，適合做「AI工具漲價/減量套路解讀」系列，提醒用戶留意用量真實變化"
+      }
+    ],
+    "trends": [
+      {
+        "title": "挑戰輝達霸權！AI晶片連網新創Cornelis募得2.05億美元，主打開放架構",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/09/14/ai-infrastructure-company-cornelis-raises-205m-to-chip-away-at-nvidias-dominance/"
+          }
+        ],
+        "summary": "從Intel分拆的Cornelis募得2.05億美元，靠開放架構網路技術挑戰Nvidia晶片互聯壟斷",
+        "audience": "對AI晶片與資料中心基礎建設投資動態有興趣的科技創業者、投資型自媒體創作者、想了解「輝達替代方案」的獨立開發者",
+        "pain_point": "大家只知道AI晶片市場輝達一家獨大，卻不知道背後還有像Cornelis這種「幫AI晶片之間搭橋」的關鍵基礎建設公司，也在悄悄募資挑戰輝達的網路互聯壟斷地位",
+        "title_idea": "輝達的網路霸權有破口？前英特爾團隊募2億美元，就是要幫AI晶片「換一條路」溝通",
+        "local_angle": "台灣是全球半導體供應鏈重鎮，這種「輝達生態系外的挑戰者」動態還沒被華語圈充分報導，適合做「AI晶片供應鏈新玩家」系列，補上台灣供應鏈觀察者對非輝達陣營的資訊缺口"
+      }
+    ]
+  },
+  {
     "date": "2026-09-12",
     "big_events": [
       {
@@ -686,58 +811,6 @@
         "pain_point": "大家只聽過Anthropic要上市、估值破兆，卻不知道公司財報首度轉盈的具體數字，也搞不懂「特殊治理結構」到底會不會嚇跑一般投資人",
         "title_idea": "Anthropic上市前秀出首張轉盈成績單，這個「治理結構」可能才是投資人最頭痛的地雷",
         "local_angle": "華語財經媒體對Anthropic IPO的報導多停留在「估值破兆」的驚嘆句，很少人整理季度營收、獲利與治理結構等具體投資評估重點，適合做「Anthropic上市體檢報告」系列，補上財務細節的資訊差"
-      }
-    ]
-  },
-  {
-    "date": "2026-09-06",
-    "big_events": [
-      {
-        "title": "Anthropic 15億美元著作權和解金爆分配羅生門，作者收到通知才發現出版社、經紀人也搶著分一杯羹",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/"
-          },
-          {
-            "name": "The Next Web（引述紐約時報）",
-            "url": "https://thenextweb.com/news/anthropic-settlement-authors-publishers-payout-split"
-          },
-          {
-            "name": "Publishers Lunch",
-            "url": "https://lunch.publishersmarketplace.com/2026/09/widespread-problems-as-authors-receive-anthropic-settlement-notices/"
-          }
-        ],
-        "summary": "作者收到和解金通知才發現出版社、經紀人也對同一筆賠償主張分潤，引發分配爭議",
-        "audience": "經營寫作／出版相關內容的自媒體創作者、獨立作者、關心AI訓練資料版權議題的科技評論者",
-        "pain_point": "很多內容創作者以為官司和解後「作品被拿去訓練AI總算有賠」，卻沒想到真正要領錢時，出版社、經紀人還會跳出來主張分一部分，賠償金到手前還要先打一場分配拉鋸戰",
-        "title_idea": "15億美元和解金沒那麼好領！作者才剛收到通知，出版社、經紀人就搶著分一杯羹",
-        "local_angle": "華語圈對海外AI著作權集體訴訟的討論多半停留在「有沒有判賠」，鮮少深入「賠了之後錢怎麼分」這種實務細節，適合做「AI訓練資料賠償金流向」系列，提醒本地創作者簽約時該留意的版權分潤條款"
-      }
-    ],
-    "tool_updates": [],
-    "trends": [
-      {
-        "title": "共享經濟教父Kalanick新創Atoms傳進軍機器人計程車，嘴上否認卻已挖角Uber、特斯拉、Waymo人才",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/"
-          },
-          {
-            "name": "Yahoo Finance",
-            "url": "https://finance.yahoo.com/technology/articles/travis-kalanick-atoms-might-getting-164500551.html"
-          },
-          {
-            "name": "The Next Web",
-            "url": "https://thenextweb.com/news/atoms-kalanick-levandowski-robotaxi-uber-100m"
-          }
-        ],
-        "summary": "Atoms否認要做機器人計程車，卻被爆已籌備收購、大舉挖角，Uber也已投資1億美元",
-        "audience": "關注自駕／機器人計程車產業動態的科技評論自媒體、投資型創作者、對AI結合硬體新創案例有興趣的獨立開發者",
-        "pain_point": "多數人只看到Tesla Cybercab首發翻車的新聞，卻不知道背後還有像Kalanick這種老玩家悄悄佈局機器人計程車市場，也搞不懂新創公司「嘴巴否認、動作卻很誠實」的資本操作邏輯該怎麼解讀",
-        "title_idea": "Uber創辦人回來搶自駕市場？Atoms嘴上否認做機器人計程車，動作卻很誠實",
-        "local_angle": "華語圈上週才報過Tesla Cybercab首發翻車的新聞，這則報導補上「幕後還有誰在搶進機器人計程車賽道」的資訊差，適合做「自駕計程車卡位戰」系列，串起Kalanick東山再起的創業故事"
       }
     ]
   }
