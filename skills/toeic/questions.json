@@ -1,117 +1,117 @@
 {
-  "date": "2026-09-15",
+  "date": "2026-09-16",
   "p5": [
     {
-      "id": "2026-09-15-p5-0",
-      "tag": "倒裝句（So + 形容詞 + a/an + 名詞 + that，強調程度並倒裝）",
+      "id": "2026-09-16-p5-0",
+      "tag": "倒裝句（Not only...but also，句首倒裝）",
+      "pre": "Not only ",
+      "post": " the vendor fail to meet the delivery deadline, but it also shipped several defective units that had to be returned.",
+      "opts": ["did", "does", "has", "was"],
+      "ans": 0,
+      "zh": "這家供應商「不僅」未能達成交貨期限，還出貨了好幾件必須退回的瑕疵品。",
+      "why": "<b>Not only</b> 置於句首時，主要子句須引發倒裝，並依時態搭配適當助動詞。此處描述的是過去已發生的事實（fail 為原形動詞，須搭配過去式助動詞 did 引導），故選 did。does 為現在式，時態不符；has 須接過去分詞而非原形動詞 fail；was 為 be 動詞，無法與原形動詞 fail 直接搭配。"
+    },
+    {
+      "id": "2026-09-16-p5-1",
+      "tag": "減化關係子句（現在分詞作後置修飾語，主動語態）",
+      "pre": "Employees ",
+      "post": " concerns about the new scheduling system should submit them in writing to their supervisor by Friday.",
+      "opts": ["having", "have", "having had", "to have"],
+      "ans": 0,
+      "zh": "「若有」對新排班系統存有疑慮的員工，應於週五前以書面形式提交予其主管。",
+      "why": "<b>having</b> 為現在分詞，用來減化 who have concerns，作為 Employees 的後置修飾語，表主動語意（員工是主動擁有疑慮的一方）。have 為原形動詞，不可直接作後置修飾語；having had 為完成式分詞，語意上暗示疑慮已經結束，與此處語境不符；to have 為不定詞，不具備後置修飾名詞的關係子句功能。"
+    },
+    {
+      "id": "2026-09-16-p5-2",
+      "tag": "比較結構（far more...than，強調比較級程度）",
+      "pre": "The revised proposal addresses stakeholder concerns ",
+      "post": " comprehensively than the initial draft did.",
+      "opts": ["far more", "much far", "so far", "as far"],
+      "ans": 0,
+      "zh": "這份修訂後的提案，比最初的草案「更加」全面地回應了利害關係人的疑慮。",
+      "why": "<b>far more...than</b> 為固定用法，far 用以加強修飾比較級 more，表示程度上的顯著差異。much far 語序及搭配皆錯誤；so far（到目前為止）為固定片語，語意不符；as far 須接 as 構成 as far as 的片語，不符合此處的比較句構。"
+    },
+    {
+      "id": "2026-09-16-p5-3",
+      "tag": "讓步慣用語（Come what may，＝無論結果如何）",
       "pre": "",
-      "post": " unprecedented a downturn did the industry experience that three major competitors filed for bankruptcy within the same quarter.",
-      "opts": ["So", "Such", "Too", "As"],
+      "post": ", the board has resolved to proceed with the restructuring plan as originally outlined.",
+      "opts": ["Come what may", "Come as it may", "Coming what may", "To come what may"],
       "ans": 0,
-      "zh": "這個產業所經歷的衰退「如此」前所未有，以至於三家主要競爭對手在同一季內相繼申請破產。",
-      "why": "<b>So + 形容詞 + a/an + 名詞 + that</b> 為固定倒裝強調句型，用以強調程度之深。Such 須用於 Such a/an + 形容詞 + 名詞 + that 的語序（Such an unprecedented downturn），與此處 So 倒裝的語序不同；Too 通常搭配 to V，不構成 that 子句的結果句型；As 不具備此類強調倒裝功能。"
+      "zh": "「無論結果如何」，董事會已決議按原訂計畫推動這次組織重整。",
+      "why": "<b>Come what may</b> 為固定讓步慣用語，意為「無論會發生什麼事、不論結果如何」，為古式虛擬語氣保留的慣用表達。Come as it may 並非標準搭配；Coming what may 動詞形式錯誤；To come what may 不定詞形式同樣不符合此固定慣用語結構。"
     },
     {
-      "id": "2026-09-15-p5-1",
-      "tag": "減化副詞子句（Once + 過去分詞，省略主詞與be動詞）",
-      "pre": "",
-      "post": " finalized by both parties, the agreement cannot be unilaterally amended without a formal renegotiation process.",
-      "opts": ["Once", "Once being", "Being once", "Once having"],
+      "id": "2026-09-16-p5-4",
+      "tag": "進階動詞語意辨別（rescind，re-字首形似詞）",
+      "pre": "After discovering the contractual breach, the company opted to ",
+      "post": " the agreement entirely rather than pursue partial remedies.",
+      "opts": ["rescind", "resign", "reside", "resonate"],
       "ans": 0,
-      "zh": "「一旦」經雙方確定簽署，這份協議便不得在未經正式重新協商程序的情況下單方面修改。",
-      "why": "<b>Once + 過去分詞</b>為減化副詞子句，省略了主詞與 be 動詞（= Once it is finalized...），常見於正式書面英文。Once being 語序及用法皆不正確；Being once 語序錯誤；Once having 須接過去分詞形成完成式分詞構句（Once having been finalized），與此處單純被動語態不符。"
-    },
-    {
-      "id": "2026-09-15-p5-2",
-      "tag": "比較結構（no more...than，雙重否定比較，表「兩者程度相同，皆非」）",
-      "pre": "The proposed timeline is ",
-      "post": " realistic than the previous one, given that both fail to account for regulatory review periods.",
-      "opts": ["no more", "no less", "not more", "none more"],
-      "ans": 0,
-      "zh": "這項提議的時程，並不比先前那一版「更加」實際可行，因為兩者皆未將監管審查期納入考量。",
-      "why": "<b>no more...than</b> 為雙重否定比較結構，表示「並不比…更…」，暗示兩者程度相同（此處指兩者都不切實際）。no less 語意相反（不亞於，暗示兩者程度同樣高）；not more 雖語意相近但非此固定慣用搭配；none more 為錯誤組合，不成立。"
-    },
-    {
-      "id": "2026-09-15-p5-3",
-      "tag": "讓步慣用語（Try as + 主詞 + might，＝儘管…盡力嘗試）",
-      "pre": "",
-      "post": " the negotiating team might, they could not persuade the union to accept a wage freeze.",
-      "opts": ["Try as", "As try", "Trying as", "To try as"],
-      "ans": 0,
-      "zh": "「儘管」談判團隊竭盡全力，仍無法說服工會接受凍結薪資的方案。",
-      "why": "<b>Try as + 主詞 + might/may</b> 為固定讓步慣用語，意為「儘管…如何努力嘗試」，try 為原形動詞置於句首。As try 語序錯誤；Trying as 動名詞形式不符合此固定慣用語的結構；To try as 不定詞形式同樣不符合此固定用法。"
-    },
-    {
-      "id": "2026-09-15-p5-4",
-      "tag": "進階動詞語意辨別（condone，con-字首形似詞）",
-      "pre": "Company policy does not ",
-      "post": " the use of personal devices to access confidential client databases, even for legitimate business purposes.",
-      "opts": ["condone", "condense", "condescend", "confound"],
-      "ans": 0,
-      "zh": "公司政策並不「容許」使用個人裝置存取機密客戶資料庫，即使基於正當商業目的亦然。",
-      "why": "<b>condone</b>（容許、寬恕不當行為）精準對應此處語境。condense（濃縮、壓縮）語意不符；condescend（屈尊俯就）語意不符；confound（使困惑、混淆）語意不符，四字同為 con- 字首形似詞，屬進階詞彙易混淆辨析。"
+      "zh": "在發現違約情事後，這家公司選擇「撤銷」整份合約，而非尋求部分補救措施。",
+      "why": "<b>rescind</b>（正式撤銷、廢止合約或法令）精準對應此處語境。resign（辭職、放棄職位）語意不符；reside（居住）語意不符；resonate（引起共鳴、產生共振）語意不符，四字型態相似（皆以 res- 開頭）易混淆，屬進階詞彙辨析。"
     }
   ],
   "p6": {
-    "id": "2026-09-15-p6",
-    "title": "MEMORANDUM: Updated Guidelines for Handling Customer Data Deletion Requests",
+    "id": "2026-09-16-p6",
+    "title": "MEMORANDUM: New Escalation Procedure for Suspected Insider Trading Concerns",
     "seg": [
       [
-        "To all customer service staff: Effective immediately, any request from a customer to delete their personal data ",
+        "To all employees: Effective immediately, any suspected instance of a colleague trading company securities based on material non-public information ",
         { "b": 0 },
-        " to the Data Privacy team within forty-eight hours of receipt, regardless of the channel through which the request was submitted."
+        " to the Compliance Officer immediately, regardless of the employee's personal relationship with the individual involved."
       ],
       [
         { "b": 1 },
-        ", certain data may be retained beyond the customer's request if the company is subject to a legal obligation to preserve it, such as an ongoing audit or litigation hold."
+        ", employees are not expected to conduct their own investigation or confront the individual directly; doing so may compromise a subsequent formal inquiry."
       ],
       [
-        "Customer service representatives should never attempt to ",
+        "The Compliance Officer will conduct a preliminary review to ",
         { "b": 2 },
-        " a deletion request on their own initiative without first confirming the customer's identity through the standard verification process."
+        " whether the concern warrants further investigation by outside counsel."
       ],
       [
         { "b": 3 },
-        " A step-by-step verification checklist is available on the Customer Service intranet page."
+        " Employees who report in good faith will be protected from retaliation under the company's whistleblower policy."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["must be escalated", "escalates", "has escalated", "is escalating"],
+        "opts": ["must be reported", "reports", "has reported", "is reporting"],
         "ans": 0,
-        "zh": "致所有客服同仁：自即日起，任何客戶提出刪除其個人資料的請求，無論透過何種管道提交，皆「須於」收到後48小時內呈報予資料隱私團隊。",
-        "why": "請求是被呈報的對象，此句表達即刻生效的強制性規定，須用被動情態動詞 <b>must be escalated</b>。escalates 為主動現在式，不符被動需求；has escalated 為現在完成式主動語態，語意錯誤；is escalating 為現在進行式主動語態，同樣不符合規定語氣。"
+        "zh": "致所有員工：自即日起，任何懷疑同事根據重大非公開資訊買賣公司證券的情事，皆「須立即通報」法遵長，無論員工與涉事人員之間的私人關係為何。",
+        "why": "情事是被通報的對象，此句表達強制性規定，須用被動情態動詞 <b>must be reported</b>。reports 為主動現在式，不符被動需求；has reported 為現在完成式主動語態，語意錯誤；is reporting 為現在進行式主動語態，同樣不符合規定語氣。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["That said", "As a result", "In turn", "Similarly"],
+        "opts": ["Importantly", "Consequently", "For example", "In turn"],
         "ans": 0,
-        "zh": "「話雖如此」，若公司因法律義務須保留特定資料（例如正在進行的稽核或訴訟保全），則該資料可能在客戶請求之外仍被保留。",
-        "why": "<b>That said</b>（話雖如此）用以在陳述客戶刪除請求規定後，引出因法律義務而保留資料的例外情況，構成轉折銜接。As a result（因此）表因果；In turn（依次）表順序；Similarly（同樣地）表類比延續，皆不符合此處的轉折例外語意。"
+        "zh": "「重要的是」，員工不應自行展開調查或直接與涉事人員對質；這麼做可能會妨礙後續的正式調查。",
+        "why": "<b>Importantly</b>（重要的是）用以強調緊接的關鍵提醒事項，承接前句的通報規定。Consequently（因此）表因果；For example（例如）表舉例；In turn（依次）表順序，皆不符合此處強調關鍵提醒的語意。"
       },
       {
-        "tag": "詞彙語意（動詞辨析，pro-字首形似詞）",
+        "tag": "進階動詞語意辨別（ascertain，as-字首形似詞）",
         "col1": true,
-        "opts": ["process", "possess", "proceed", "profess"],
+        "opts": ["ascertain", "assert", "ascribe", "assimilate"],
         "ans": 0,
-        "zh": "客服代表絕不應在未先透過標準身分驗證程序確認客戶身分的情況下，自行主動「處理」刪除請求。",
-        "why": "<b>process</b>（處理、辦理）精準對應此處語境。possess（擁有、持有）語意不符；proceed（繼續進行，通常不接直接受詞）語意不符；profess（聲稱、公開表明）語意不符，四字型態相似（皆以 pro- 開頭）易混淆，屬進階詞彙辨析。"
+        "zh": "法遵長將進行初步審查，以「確定」該項疑慮是否須進一步交由外部律師調查。",
+        "why": "<b>ascertain</b>（確定、查明）精準對應此處語境。assert（斷言、堅稱）語意不符；ascribe（歸因於）語意不符；assimilate（同化、吸收）語意不符，四字同為 as- 字首形似詞，屬進階詞彙易混淆辨析。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Representatives who are uncertain whether a request meets the verification threshold should escalate the matter to a team lead before proceeding.",
-          "The customer service department will be hosting a holiday potluck next month.",
-          "All representatives must complete their annual certification exam by the end of the quarter.",
-          "The call center's new headset equipment will be distributed next week."
+          "All reports submitted under this procedure will be treated with the strictest confidentiality throughout the review process.",
+          "The company's annual compliance training will be updated to include new case studies.",
+          "Employees may request a copy of their personal trading records at any time.",
+          "The Compliance Officer's office hours have been extended during earnings season."
         ],
         "ans": 0,
-        "zh": "「若客服代表不確定某項請求是否符合驗證門檻，應先呈報團隊主管，再繼續處理。」逐步驗證檢核清單已發布於客服部門的內部網路頁面。",
-        "why": "段落主題為「客戶資料刪除請求處理準則更新」，此句提醒代表若有疑慮應先呈報主管，與下一句「檢核清單已發布」共同構成流程執行與資源支援的完整收尾。其餘選項（假期聚餐活動、年度認證考試、耳機設備發放）皆與客戶資料刪除請求處理準則無關，插入後語意斷裂。"
+        "zh": "「透過本程序提交的所有通報，在整個審查過程中皆將受到最嚴格的保密處理。」秉持善意通報的員工，將依公司吹哨者政策受到保護，不受報復。",
+        "why": "段落主題為「疑似內線交易通報升級程序」，此句強調通報內容將受保密處理，與下一句「善意通報者受吹哨者政策保護」共同構成程序保障措施的完整收尾。其餘選項（年度合規訓練更新、個人交易紀錄申請、法遵長辦公時間延長）皆與內線交易通報程序無關，插入後語意斷裂。"
       }
     ]
   }
