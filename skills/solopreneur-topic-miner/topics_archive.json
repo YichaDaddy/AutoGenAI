@@ -1,5 +1,132 @@
 [
   {
+    "date": "2026-09-15",
+    "big_events": [
+      {
+        "title": "Agility Robotics發表Digit 5：首款「合作安全」人形機器人免用護欄與人類共事",
+        "sources": [
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-09-15/agility-robotics-unveils-humanoid-designed-to-work-safely-alongside-humans"
+          },
+          {
+            "name": "GeekWire",
+            "url": "https://www.geekwire.com/2026/agilitys-new-digit-5-robot-lifts-50-pounds-works-20-hours-a-day-and-operates-alongside-people/"
+          },
+          {
+            "name": "The AI Insider",
+            "url": "https://theaiinsider.tech/2026/09/15/agility-robotics-unveils-digit-5-with-higher-payload-faster-charging-and-new-safety-system/"
+          }
+        ],
+        "summary": "Digit 5週二發表，可搬50磅、9分鐘快充，靠AI感測免用防護欄與人共事",
+        "audience": "對人形機器人與自動化生產線有興趣的科技評論自媒體、關注供應鏈與智慧製造的職場工作者、想切入機器人租賃/導入顧問商機的獨立開發者",
+        "pain_point": "大家對「人形機器人」的想像還停留在展示影片階段，不知道已經有機型真的拿到3億美元訂單、準備量產月產萬台，也搞不清楚「不用圍欄跟人類一起工作」在技術上代表什麼突破",
+        "title_idea": "終於不用關在鐵籠裡工作！人形機器人Digit 5免防護欄與人類並肩，月產能上看萬台",
+        "local_angle": "台灣製造業與電子代工廠對導入協作型機器人高度關注，但目前討論多聚焦傳統機械手臂，這種「AI視覺+人形機器人免圍欄協作」的新一代規格還沒被引進中文語境，適合做「智慧製造新標準」科普選題，給關心供應鏈自動化的觀眾參考"
+      },
+      {
+        "title": "Cloudflare「AI爬蟲防火牆」9/15正式上路：混合型AI爬蟲預設擋在廣告頁面外",
+        "sources": [
+          {
+            "name": "fastCRW",
+            "url": "https://fastcrw.com/blog/cloudflare-ai-crawler-block-september-2026"
+          },
+          {
+            "name": "Windows News AI",
+            "url": "https://windowsnews.ai/article/cloudflare-will-block-mixed-use-ai-crawlers-from-ad-supported-sites-by-default-on-september-15-2026.433848"
+          }
+        ],
+        "summary": "Cloudflare週二起預設封鎖「混合型」AI爬蟲，逼AI公司區分搜尋與訓練用途",
+        "audience": "經營部落格、自媒體網站或內容平台的創作者、需要處理網站流量與SEO的職場工作者、對「AI公司該不該付費用你的內容」議題有興趣的科技評論者",
+        "pain_point": "很多內容創作者不知道自己網站流量正被AI公司的爬蟲拿去訓練模型或做即時檢索卻分毫未取，也搞不清楚Cloudflare這次規則到底能不能真的保護自己的內容不被白嫖",
+        "title_idea": "你的內容被AI偷看很久了！Cloudflare今天起預設擋下「混合用途」AI爬蟲，創作者必懂新規則",
+        "local_angle": "華語自媒體與部落格經營者普遍使用Cloudflare卻不清楚這項新規則今天正式生效，適合做「AI爬蟲擋不擋？Cloudflare新設定教學」實用選題，順勢介紹如何檢查自己網站的防護設定"
+      },
+      {
+        "title": "馬斯克團隊72小時直播：只靠Grok Bot代理人「無中生有」開公司",
+        "sources": [
+          {
+            "name": "x.ai（官方）",
+            "url": "https://x.ai/galaxy"
+          },
+          {
+            "name": "TeslaNorth",
+            "url": "https://teslanorth.com/2026/09/10/xai-grok-bot-galaxy-event/"
+          },
+          {
+            "name": "CellCog",
+            "url": "https://cellcog.ai/blog/grok-bot-galaxy/"
+          }
+        ],
+        "summary": "xAI週二起72小時全程直播，用Grok Bot代理人從零打造一間公司的全過程",
+        "audience": "對AI Agent商業應用有興趣的自媒體創作者、想了解「AI代理人能不能真的自主做生意」的獨立開發者、關注xAI/Grok動態的科技評論者",
+        "pain_point": "大家聽過「AI Agent自動完成任務」的說法，卻很少看過有人敢公開72小時直播、讓AI從發想到寫程式、上線通通自己來，不知道現在的AI代理人到底能做到哪一步",
+        "title_idea": "沒有人類插手！馬斯克團隊直播72小時，讓AI代理人自己開公司",
+        "local_angle": "華語圈對「AI Agent創業」多半停留在概念討論，這場公開直播是難得的第一手實測案例，適合做「AI代理人創業實測」直播摘要或事後複盤選題，補上「AI真能自己做生意嗎」的具體證據"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "前Anthropic員工、METR前COO推出「AI代理人稽核」服務，Cursor、Harvey都已是客戶",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/"
+          }
+        ],
+        "summary": "新創AIUC推出5000項測試的AI代理人風險稽核報告，協助企業抓出「暴走」風險",
+        "audience": "導入AI Agent處理客服、業務或內部流程的企業IT與法遵人員、想切入「企業AI風險稽核」顧問商機的獨立開發者、對AI安全新創商業模式有興趣的自媒體創作者",
+        "pain_point": "企業導入AI Agent後常常不知道它會不會被誘導洩漏資料、做出越權操作，市面上也沒有一套標準化的方式檢查「這個AI員工到底靠不靠譜」，出包了才後知後覺",
+        "title_idea": "你的AI員工靠譜嗎？前Anthropic、METR團隊推出「AI代理人體檢報告」，Cursor都已買單",
+        "local_angle": "台灣企業導入AI Agent多半土法煉鋼、沒有標準檢測流程，這套「5000項測試產出百頁風險報告」的做法還沒被引進華語圈，適合做「企業AI Agent上線前必修檢查清單」實用教學，卡位新興的AI風險稽核顧問商機"
+      },
+      {
+        "title": "義大利資安新創Exein募2.7億美元躍升獨角獸，Photon工具專門守護「實體AI」裝置",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/09/15/new-italian-unicorn-exein-rides-the-physical-ai-wave/"
+          }
+        ],
+        "summary": "Exein完成2.7億美元募資、估值17億美元，Photon工具在裝置晶片層防護機器人、無人機等實體AI資安",
+        "audience": "承接工業物聯網/智慧製造專案的技術顧問、對機器人與AI硬體資安有興趣的獨立開發者、關注歐洲AI獨角獸動態的科技評論自媒體",
+        "pain_point": "大家瘋狂討論人形機器人、自駕車等「實體AI」有多酷，卻很少人注意到這些裝置離線運作時也可能被駭客攻陷，也不知道市面上已經有工具能直接在晶片層幫裝置「自我防禦」",
+        "title_idea": "機器人也會被駭！義大利資安獨角獸募2.7億美元，一款工具幫「實體AI」裝上防護罩",
+        "local_angle": "台灣是機器人與工業物聯網硬體重鎮，「實體AI資安工具」是還沒被華語圈充分報導的新興賽道，適合做「AI機器人資安你不知道的隱憂」選題，串聯近期人形機器人熱潮做延伸報導"
+      }
+    ],
+    "trends": [
+      {
+        "title": "開發者用錢投票：OpenAI在OpenRouter平台花費首度超車Anthropic，終結2年半落後",
+        "sources": [
+          {
+            "name": "OfficeChai",
+            "url": "https://officechai.com/ai/openai-surpasses-anthropic-on-openrouter-spend-for-first-time-in-2-5-years/"
+          }
+        ],
+        "summary": "OpenRouter最新數據顯示OpenAI模型單週花費金額首度超越Anthropic，終結2年半落後局面",
+        "audience": "每天在GPT、Claude間切換的獨立開發者與技術顧問、想追蹤兩大AI巨頭市佔消長的科技評論自媒體、對「開發者實際掏錢投票」數據有興趣的AI效率工具愛好者",
+        "pain_point": "大家常常靠「哪個模型比較紅」的印象判斷該學哪家的API，卻沒有實際的花費數據佐證，也不知道原來過去兩年半Anthropic在開發者付費市場一路領先，這次被逆轉的真正原因",
+        "title_idea": "開發者真金白銀投票！OpenAI花費金額終於在這個平台上贏過Anthropic，兩年半來頭一遭",
+        "local_angle": "華語開發者社群常在「該學GPT還是Claude」間猶豫不決，這份「用實際花費金額」而非熱度衡量的數據還沒被引進中文討論，適合做「兩大AI模型市佔數據解讀」選題，給想選邊站或做技術選型顧問的創作者參考"
+      },
+      {
+        "title": "FreshBooks調查：86%美國一人公司主管卡關時「先問AI」而非先僱人",
+        "sources": [
+          {
+            "name": "GlobeNewswire",
+            "url": "https://www.globenewswire.com/news-release/2026/09/15/3362093/0/en/before-they-hire-86-of-solopreneurs-try-ai-first-freshbooks-survey-finds.html"
+          }
+        ],
+        "summary": "FreshBooks最新報告：86%美國一人公司/微型企業主管卡關任務先靠AI，而非先找人手支援",
+        "audience": "想獨立接案、經營一人公司或小型工作室的職場工作者、對「AI取代外包/僱人需求」議題有興趣的自媒體創作者、想切入solopreneur市場做AI工具教學的內容創作者",
+        "pain_point": "很多想轉職接案或開一人公司的上班族還在猶豫「沒有團隊怎麼可能什麼都自己來」，卻不知道美國已有大量調查證實：多數一人公司主現在遇到不會的工作，會先找AI幫忙，而不是急著花錢僱人或外包",
+        "title_idea": "一人公司也能什麼都做？美國調查：86%獨立經營者卡關先問AI、不是先僱人",
+        "local_angle": "華語圈近年吹起「一人公司」「Solo經濟」風潮，但多數討論停留在案例分享，這份美國量化調查數據還沒被引進，適合做「AI如何讓一人公司變全能」數據型選題，搭配「哪些卡關任務最適合先丟給AI試試看」的實用清單"
+      }
+    ]
+  },
+  {
     "date": "2026-09-14",
     "big_events": [
       {
@@ -753,64 +880,6 @@
         "pain_point": "大家只聽過AI晶片、資料中心很燒錢，卻不知道連光纖網路供應鏈都被捲入這波AI軍備競賽，電信商正悄悄押注「AI要用的網路管線」這門生意",
         "title_idea": "AI熱潮燒到光纖業！Verizon砸重金囤貨，只為了餵飽AI資料中心之間的網路頻寬",
         "local_angle": "華語圈討論AI基礎建設多聚焦晶片與電力，「AI專用骨幹網路」這塊還是資訊空白，適合做「AI供應鏈全解析」系列補上電信網路這一塊拼圖，對關注台灣電信與資通訊供應鏈的觀眾特別有吸引力"
-      }
-    ]
-  },
-  {
-    "date": "2026-09-07",
-    "big_events": [
-      {
-        "title": "美國媽媽曬親子對唱影片，Meta AI建議提問曝光全家隱私資料",
-        "sources": [
-          {
-            "name": "LatestLY",
-            "url": "https://www.latestly.com/social-viral/meta-ai-privacy-scare-us-mom-says-ai-revealed-her-childrens-names-photos-and-birth-details-video-7592761.html"
-          },
-          {
-            "name": "Free Press Journal",
-            "url": "https://www.freepressjournal.in/amp/viral/whos-the-child-passenger-mother-raises-alarm-after-meta-ai-links-her-childrens-social-media-data-video"
-          },
-          {
-            "name": "X（Mario Nawfal）",
-            "url": "https://x.com/MarioNawfal/status/2096044391823745290"
-          }
-        ],
-        "summary": "母親貼親子唱歌影片，Meta AI建議問題洩漏孩童姓名、生日、舊照片與住址",
-        "audience": "常在Facebook/IG曬小孩生活的家長型創作者、關注AI隱私與資安議題的職場上班族、經營親子或家庭類自媒體的內容創作者",
-        "pain_point": "很多人不知道自己多年來散落在不同家人帳號上的照片、貼文，AI能一次串連起來變成一份完整的「個人檔案」，連自己都忘記發過或已刪除的內容都會被翻出來",
-        "title_idea": "貼一支親子唱歌影片，Meta AI竟把孩子的身家調查曝光！海外媽媽的隱私震撼教育",
-        "local_angle": "華語圈家長普遍愛在社群曬小孩生活紀錄，但幾乎沒人意識到AI助理有能力「跨貼文、跨帳號」拼湊個資，適合做「AI時代曬娃防雷指南」提醒型選題，教觀眾檢查自己的隱私設定與AI建議提問功能"
-      }
-    ],
-    "tool_updates": [],
-    "trends": [
-      {
-        "title": "TechCrunch出手科普：一次搞懂『不透明循環推理』等最新AI黑話",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/"
-          }
-        ],
-        "summary": "TechCrunch整理AI術語懶人包，解釋Astra『不透明循環推理』等安全爭議詞彙",
-        "audience": "想跟上AI話題卻常聽不懂術語的職場上班族、需要向主管或客戶解釋AI概念的顧問與行銷人員",
-        "pain_point": "AI新聞天天冒出「循環推理」「幻覺」「代理人」等新詞，一般上班族根本查不到白話中文解釋，開會被問到只能裝懂",
-        "title_idea": "『不透明循環推理』是什麼？一次讀懂2026年必知AI黑話懶人包",
-        "local_angle": "華語圈AI教學多半直接翻譯技術文件，鮮少有人做「一般人也看得懂」的AI詞彙科普，適合搶先翻譯這份懶人包，卡位「AI關鍵字教學」系列長期經營SEO"
-      },
-      {
-        "title": "Anthropic上市前夕首見季度轉盈，特殊治理結構恐成公開市場照妖鏡",
-        "sources": [
-          {
-            "name": "Digitimes",
-            "url": "https://www.digitimes.com/news/a20260907VL204/anthropic-governance-ipo-expansion-growth.html"
-          }
-        ],
-        "summary": "Anthropic傳Q2首度轉盈、營收達109億美元，特殊治理結構引發投資人疑慮",
-        "audience": "關注AI巨頭資本動態的投資型自媒體創作者、對Claude生態系有興趣的科技評論者、想了解AI獨角獸財務體質的內容創作者",
-        "pain_point": "大家只聽過Anthropic要上市、估值破兆，卻不知道公司財報首度轉盈的具體數字，也搞不懂「特殊治理結構」到底會不會嚇跑一般投資人",
-        "title_idea": "Anthropic上市前秀出首張轉盈成績單，這個「治理結構」可能才是投資人最頭痛的地雷",
-        "local_angle": "華語財經媒體對Anthropic IPO的報導多停留在「估值破兆」的驚嘆句，很少人整理季度營收、獲利與治理結構等具體投資評估重點，適合做「Anthropic上市體檢報告」系列，補上財務細節的資訊差"
       }
     ]
   }
