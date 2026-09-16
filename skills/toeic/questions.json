@@ -1,117 +1,117 @@
 {
-  "date": "2026-09-16",
+  "date": "2026-09-17",
   "p5": [
     {
-      "id": "2026-09-16-p5-0",
-      "tag": "倒裝句（Not only...but also，句首倒裝）",
-      "pre": "Not only ",
-      "post": " the vendor fail to meet the delivery deadline, but it also shipped several defective units that had to be returned.",
-      "opts": ["did", "does", "has", "was"],
+      "id": "2026-09-17-p5-0",
+      "tag": "倒裝句（At no time + be動詞 + 主詞，否定時間副詞倒裝）",
+      "pre": "At no time ",
+      "post": " the interim manager authorized to approve expenditures exceeding the pre-set departmental budget.",
+      "opts": ["was", "is", "did", "has"],
       "ans": 0,
-      "zh": "這家供應商「不僅」未能達成交貨期限，還出貨了好幾件必須退回的瑕疵品。",
-      "why": "<b>Not only</b> 置於句首時，主要子句須引發倒裝，並依時態搭配適當助動詞。此處描述的是過去已發生的事實（fail 為原形動詞，須搭配過去式助動詞 did 引導），故選 did。does 為現在式，時態不符；has 須接過去分詞而非原形動詞 fail；was 為 be 動詞，無法與原形動詞 fail 直接搭配。"
+      "zh": "這位代理經理「從未在任何時候」被授權可核准超出部門預設預算的支出。",
+      "why": "<b>At no time</b> 為否定意味的時間副詞片語，置於句首須引發倒裝（was the interim manager authorized）。is 為現在式，時態與語境（過去情況）不符；did 須接原形動詞（did authorize），無法直接接過去分詞 authorized 構成正確被動語意；has 須完整搭配 been 才能構成現在完成式被動（has been authorized），單獨使用不完整。"
     },
     {
-      "id": "2026-09-16-p5-1",
-      "tag": "減化關係子句（現在分詞作後置修飾語，主動語態）",
-      "pre": "Employees ",
-      "post": " concerns about the new scheduling system should submit them in writing to their supervisor by Friday.",
-      "opts": ["having", "have", "having had", "to have"],
-      "ans": 0,
-      "zh": "「若有」對新排班系統存有疑慮的員工，應於週五前以書面形式提交予其主管。",
-      "why": "<b>having</b> 為現在分詞，用來減化 who have concerns，作為 Employees 的後置修飾語，表主動語意（員工是主動擁有疑慮的一方）。have 為原形動詞，不可直接作後置修飾語；having had 為完成式分詞，語意上暗示疑慮已經結束，與此處語境不符；to have 為不定詞，不具備後置修飾名詞的關係子句功能。"
-    },
-    {
-      "id": "2026-09-16-p5-2",
-      "tag": "比較結構（far more...than，強調比較級程度）",
-      "pre": "The revised proposal addresses stakeholder concerns ",
-      "post": " comprehensively than the initial draft did.",
-      "opts": ["far more", "much far", "so far", "as far"],
-      "ans": 0,
-      "zh": "這份修訂後的提案，比最初的草案「更加」全面地回應了利害關係人的疑慮。",
-      "why": "<b>far more...than</b> 為固定用法，far 用以加強修飾比較級 more，表示程度上的顯著差異。much far 語序及搭配皆錯誤；so far（到目前為止）為固定片語，語意不符；as far 須接 as 構成 as far as 的片語，不符合此處的比較句構。"
-    },
-    {
-      "id": "2026-09-16-p5-3",
-      "tag": "讓步慣用語（Come what may，＝無論結果如何）",
+      "id": "2026-09-17-p5-1",
+      "tag": "獨立分詞構句（With + 名詞 + 形容詞，表伴隨狀況）",
       "pre": "",
-      "post": ", the board has resolved to proceed with the restructuring plan as originally outlined.",
-      "opts": ["Come what may", "Come as it may", "Coming what may", "To come what may"],
+      "post": " the market volatile and client sentiment fragile, the advisory team recommended postponing the product launch until conditions stabilized.",
+      "opts": ["With", "Because", "Due", "As"],
       "ans": 0,
-      "zh": "「無論結果如何」，董事會已決議按原訂計畫推動這次組織重整。",
-      "why": "<b>Come what may</b> 為固定讓步慣用語，意為「無論會發生什麼事、不論結果如何」，為古式虛擬語氣保留的慣用表達。Come as it may 並非標準搭配；Coming what may 動詞形式錯誤；To come what may 不定詞形式同樣不符合此固定慣用語結構。"
+      "zh": "在「市場波動劇烈、客戶信心脆弱」的情況下，顧問團隊建議延後產品上市，直到情勢穩定。",
+      "why": "<b>With + 名詞 + 形容詞</b>為獨立結構，用以表達伴隨的狀況，形容詞（volatile）直接補述名詞（the market）的狀態。Because 為連接詞，須接「主詞＋動詞」的完整子句；Due 須搭配 to 構成 due to，且後方仍須接名詞而非此獨立結構；As 同樣須接完整子句，不可直接接「名詞＋形容詞」的獨立結構。"
     },
     {
-      "id": "2026-09-16-p5-4",
-      "tag": "進階動詞語意辨別（rescind，re-字首形似詞）",
-      "pre": "After discovering the contractual breach, the company opted to ",
-      "post": " the agreement entirely rather than pursue partial remedies.",
-      "opts": ["rescind", "resign", "reside", "resonate"],
+      "id": "2026-09-17-p5-2",
+      "tag": "慣用語（the lesser of two evils，兩害相權取其輕）",
+      "pre": "Faced with either laying off staff or cutting executive bonuses, the board chose the latter as ",
+      "post": " evils.",
+      "opts": ["the lesser of two", "the less of two", "the least of two", "lesser of the two"],
       "ans": 0,
-      "zh": "在發現違約情事後，這家公司選擇「撤銷」整份合約，而非尋求部分補救措施。",
-      "why": "<b>rescind</b>（正式撤銷、廢止合約或法令）精準對應此處語境。resign（辭職、放棄職位）語意不符；reside（居住）語意不符；resonate（引起共鳴、產生共振）語意不符，四字型態相似（皆以 res- 開頭）易混淆，屬進階詞彙辨析。"
+      "zh": "面對裁員或刪減高層獎金的兩難，董事會選擇了後者，視其為「兩害相權取其輕」的做法。",
+      "why": "<b>the lesser of two evils</b> 為固定慣用語，意為「兩害中較輕的一個」，lesser 為 little 的比較級，須搭配定冠詞 the 及介系詞 of。less 為 little 的另一比較級形式，但不用於此固定慣用語；least 為最高級，與「兩者」的比較語境不符（最高級須用於三者以上）；lesser of the two 語序及冠詞位置錯誤，不成立此固定用法。"
+    },
+    {
+      "id": "2026-09-17-p5-3",
+      "tag": "讓步句型（Be it + 名詞 + or + 名詞，虛擬語氣殘留，＝無論是…或…）",
+      "pre": "",
+      "post": " a formal complaint or a casual remark, any comment regarding a colleague's performance should be documented and forwarded to Human Resources.",
+      "opts": ["Be it", "Is it", "Being it", "It be"],
+      "ans": 0,
+      "zh": "「無論是」正式投訴或隨口一句評論，任何涉及同事表現的言論都應被記錄並轉交人資部門。",
+      "why": "<b>Be it + 名詞 + or + 名詞</b> 為虛擬語氣殘留的固定讓步句型，意為「無論是…或…」（= Whether it be...）。Is it 為疑問句語序，不具備此讓步功能；Being it 動名詞形式不符合此固定用法；It be 語序錯誤，不成立。"
+    },
+    {
+      "id": "2026-09-17-p5-4",
+      "tag": "進階動詞語意辨別（impugn，im-字首形似詞）",
+      "pre": "The defense attorney attempted to ",
+      "post": " the credibility of the prosecution's key witness during cross-examination.",
+      "opts": ["impugn", "impute", "impede", "impinge"],
+      "ans": 0,
+      "zh": "辯護律師在交叉詰問時，試圖「質疑」檢方關鍵證人的可信度。",
+      "why": "<b>impugn</b>（質疑、抨擊某人的誠信或可信度）精準對應此處語境。impute（將…歸咎於，通常接於人或原因）語意不符；impede（阻礙、妨礙進行）語意不符；impinge（侵犯、衝擊，常搭配 on/upon）語意不符，四字同為 im- 字首形似詞，屬進階詞彙易混淆辨析。"
     }
   ],
   "p6": {
-    "id": "2026-09-16-p6",
-    "title": "MEMORANDUM: New Escalation Procedure for Suspected Insider Trading Concerns",
+    "id": "2026-09-17-p6",
+    "title": "MEMORANDUM: New Guidelines for Managing Conflicts of Interest in Procurement Decisions",
     "seg": [
       [
-        "To all employees: Effective immediately, any suspected instance of a colleague trading company securities based on material non-public information ",
+        "To all procurement staff: Effective immediately, any employee involved in a vendor selection decision who has a personal or financial relationship with a bidding vendor ",
         { "b": 0 },
-        " to the Compliance Officer immediately, regardless of the employee's personal relationship with the individual involved."
+        " to recuse themselves from the evaluation process and disclose the relationship in writing."
       ],
       [
         { "b": 1 },
-        ", employees are not expected to conduct their own investigation or confront the individual directly; doing so may compromise a subsequent formal inquiry."
+        ", employees who are uncertain whether a particular relationship rises to the level of a conflict of interest should err on the side of disclosure."
       ],
       [
-        "The Compliance Officer will conduct a preliminary review to ",
+        "Procurement managers should never attempt to ",
         { "b": 2 },
-        " whether the concern warrants further investigation by outside counsel."
+        " the outcome of a bid evaluation to favor a vendor with whom they have an undisclosed relationship."
       ],
       [
         { "b": 3 },
-        " Employees who report in good faith will be protected from retaliation under the company's whistleblower policy."
+        " A conflict-of-interest disclosure form is available on the Procurement intranet page and must be completed annually by all procurement staff."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["must be reported", "reports", "has reported", "is reporting"],
+        "opts": ["is required", "requires", "has required", "was requiring"],
         "ans": 0,
-        "zh": "致所有員工：自即日起，任何懷疑同事根據重大非公開資訊買賣公司證券的情事，皆「須立即通報」法遵長，無論員工與涉事人員之間的私人關係為何。",
-        "why": "情事是被通報的對象，此句表達強制性規定，須用被動情態動詞 <b>must be reported</b>。reports 為主動現在式，不符被動需求；has reported 為現在完成式主動語態，語意錯誤；is reporting 為現在進行式主動語態，同樣不符合規定語氣。"
+        "zh": "致所有採購同仁：自即日起，任何參與供應商選擇決策、且與投標供應商有私人或財務關係的員工，皆「須」迴避評選程序並以書面揭露該關係。",
+        "why": "員工是被要求採取行動的對象，此句表達強制性規定，須用被動語態 <b>is required</b>（依規定必須）。requires 為主動現在式（員工要求某事，語意錯誤）；has required 為現在完成式主動語態，語意不符；was requiring 為過去進行式主動語態，時態與語態皆不符合此處即刻生效的規定語氣。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["Importantly", "Consequently", "For example", "In turn"],
+        "opts": ["In any case", "As a result", "For example", "In turn"],
         "ans": 0,
-        "zh": "「重要的是」，員工不應自行展開調查或直接與涉事人員對質；這麼做可能會妨礙後續的正式調查。",
-        "why": "<b>Importantly</b>（重要的是）用以強調緊接的關鍵提醒事項，承接前句的通報規定。Consequently（因此）表因果；For example（例如）表舉例；In turn（依次）表順序，皆不符合此處強調關鍵提醒的語意。"
+        "zh": "「無論如何」，若員工不確定特定關係是否已構成利益衝突，應優先選擇揭露而非隱瞞。",
+        "why": "<b>In any case</b>（無論如何）用以強調即使情況不明確，仍應採取揭露這項行動，承接前句的迴避規定。As a result（因此）表因果；For example（例如）表舉例；In turn（依次）表順序，皆不符合此處強調「無論如何都應揭露」的語意。"
       },
       {
-        "tag": "進階動詞語意辨別（ascertain，as-字首形似詞）",
+        "tag": "進階動詞語意辨別（manipulate，ma-字首形似詞）",
         "col1": true,
-        "opts": ["ascertain", "assert", "ascribe", "assimilate"],
+        "opts": ["manipulate", "mandate", "manifest", "mediate"],
         "ans": 0,
-        "zh": "法遵長將進行初步審查，以「確定」該項疑慮是否須進一步交由外部律師調查。",
-        "why": "<b>ascertain</b>（確定、查明）精準對應此處語境。assert（斷言、堅稱）語意不符；ascribe（歸因於）語意不符；assimilate（同化、吸收）語意不符，四字同為 as- 字首形似詞，屬進階詞彙易混淆辨析。"
+        "zh": "採購經理絕不應為了圖利與自己有未揭露關係的供應商，「操縱」投標評選結果。",
+        "why": "<b>manipulate</b>（操縱、操弄，尤指不當影響結果）精準對應此處語境。mandate（授權、責成）語意不符；manifest（顯現、表明）語意不符；mediate（居中調解）語意不符，四字同為 ma- 字首形似詞，屬進階詞彙易混淆辨析。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "All reports submitted under this procedure will be treated with the strictest confidentiality throughout the review process.",
-          "The company's annual compliance training will be updated to include new case studies.",
-          "Employees may request a copy of their personal trading records at any time.",
-          "The Compliance Officer's office hours have been extended during earnings season."
+          "Failure to disclose a known conflict of interest may result in disciplinary action and the invalidation of the affected procurement decision.",
+          "The procurement department's office will be relocating to the fourth floor next quarter.",
+          "All vendors must submit updated insurance certificates by the end of the year.",
+          "The company's annual vendor appreciation event has been scheduled for November."
         ],
         "ans": 0,
-        "zh": "「透過本程序提交的所有通報，在整個審查過程中皆將受到最嚴格的保密處理。」秉持善意通報的員工，將依公司吹哨者政策受到保護，不受報復。",
-        "why": "段落主題為「疑似內線交易通報升級程序」，此句強調通報內容將受保密處理，與下一句「善意通報者受吹哨者政策保護」共同構成程序保障措施的完整收尾。其餘選項（年度合規訓練更新、個人交易紀錄申請、法遵長辦公時間延長）皆與內線交易通報程序無關，插入後語意斷裂。"
+        "zh": "「未能揭露已知的利益衝突，可能導致紀律處分，並使受影響的採購決策無效。」利益衝突揭露表已發布於採購部門的內部網路頁面，所有採購同仁須每年填寫一次。",
+        "why": "段落主題為「採購決策中的利益衝突管理準則」，此句強調未揭露的後果，與下一句「揭露表已發布並須每年填寫」共同構成政策執行與資源支援的完整收尾。其餘選項（辦公室搬遷、保險證明提交、供應商感謝活動）皆與利益衝突管理準則無關，插入後語意斷裂。"
       }
     ]
   }

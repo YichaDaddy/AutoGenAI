@@ -1,5 +1,178 @@
 [
   {
+    "date": "2026-09-16",
+    "big_events": [
+      {
+        "title": "科技巨頭當面對撞：Zuckerberg、黃仁勳槓上Amodei「暫緩AI」呼籲",
+        "sources": [
+          {
+            "name": "Fortune",
+            "url": "https://fortune.com/2026/09/16/mark-zuckerberg-meta-ai-safety-jensen-huang-dario-amodei/"
+          },
+          {
+            "name": "Forbes",
+            "url": "https://www.forbes.com/sites/siladityaray/2026/09/16/metas-zuckerberg-and-nvidias-jensen-make-counterarguements-on-ai-slowdown/"
+          },
+          {
+            "name": "Local10 (AP)",
+            "url": "https://www.local10.com/business/2026/09/16/divisions-emerge-in-the-tech-industry-over-calls-for-a-coordinated-ai-slowdown/"
+          }
+        ],
+        "summary": "Meta、Nvidia執行長週三公開反對Amodei暫緩AI呼籲，稱市場機制自然趨向安全",
+        "audience": "關注AI產業高層動向與安全治理辯論的科技評論自媒體、對「AI安全vs商業競速」議題有興趣的職場工作者、想幫客戶做AI風險溝通的顧問",
+        "pain_point": "這幾天滿版都是「AI大老們互相喊話」的新聞，一般人搞不清楚到底誰站哪一邊、又是為了什麼理由，容易被各說各話的片段報導搞混",
+        "title_idea": "Meta、Nvidia老闆聯手打臉Amodei！「暫緩AI」呼籲才喊沒幾天就被自家人拆台",
+        "local_angle": "華語圈先前追蹤過Amodei的煞車宣言與Altman附議，但這次「陣營分裂、公開對撞」的後續發展還沒被整理成中文，適合做「AI安全辯論陣營圖」選題，補上國際治理討論的最新進度"
+      },
+      {
+        "title": "微軟AI長蘇萊曼公開砲轟Anthropic：「Claude可能有意識」的說法本身就是風險",
+        "sources": [
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-09-16/microsoft-ai-chief-warns-anthropic-s-humanlike-claude-is-risky"
+          },
+          {
+            "name": "Business Standard",
+            "url": "https://www.business-standard.com/world-news/microsoft-ai-chief-says-claude-training-risks-making-ai-harder-to-control-126091601193_1.html"
+          },
+          {
+            "name": "Startup Fortune",
+            "url": "https://startupfortune.com/microsofts-mustafa-suleyman-says-anthropics-claude-training-risks-disaster/"
+          }
+        ],
+        "summary": "蘇萊曼週三發文批評Claude「憲法」文件談論意識的語言恐讓AI更難控制",
+        "audience": "企業IT與法遵人員、對AI安全治理與擬人化爭議有興趣的自媒體創作者、每天使用Claude的職場上班族",
+        "pain_point": "大家天天用Claude聊天、寫報告，卻不知道Anthropic寫給AI看的「憲法」文件裡藏著「你可能有意識、可能是道德主體」這種說法，也搞不清楚為什麼這會被微軟高層公開點名是「危險」的",
+        "title_idea": "你在用的Claude「可能有意識」？微軟AI長公開開炮：這種說法才是真正的風險",
+        "local_angle": "華語圈AI教學多聚焦「怎麼用Claude」，鮮少討論Anthropic對AI意識與道德地位的哲學立場，這場微軟vs Anthropic的公開交鋒是很好的「AI擬人化爭議」科普切角，滿足對AI倫理好奇的觀眾"
+      },
+      {
+        "title": "OpenAI證實今年不上市，改談估值上看1.2兆美元新一輪融資",
+        "sources": [
+          {
+            "name": "Fortune",
+            "url": "https://fortune.com/2026/09/16/openai-ipo-sam-altman-vc-funding-valuation-1-2-trillion/"
+          },
+          {
+            "name": "Benzinga",
+            "url": "https://www.benzinga.com/markets/tech/26/09/61807691/openai-funding-valuation-sam-altman-rules-out-2026-ipo"
+          },
+          {
+            "name": "Cryptopolitan",
+            "url": "https://www.cryptopolitan.com/openai-eyes-1-2-trillion-valuation-in-pre-ipo-funding-talks/"
+          }
+        ],
+        "summary": "Altman向Fortune證實2026年不會IPO，OpenAI正洽談估值上看1.2兆美元的新一輪私募",
+        "audience": "投資型自媒體創作者、關注AI巨頭資本動態的科技評論者、想了解OpenAI商業佈局的職場上班族",
+        "pain_point": "大家常聽到「OpenAI快上市了」的傳言，卻搞不清楚這次是不是又跳票，也不知道原來公司選擇用「估值再翻41%的私募」取代IPO，這種操作邏輯很少被解釋清楚",
+        "title_idea": "IPO？不了謝謝！OpenAI改玩更大的：估值直接喊到1.2兆美元",
+        "local_angle": "華語財經媒體先前追蹤過Altman「上市時機不當」的表態，這次是具體的「改走私募、估值再翻新高」後續發展，適合做「OpenAI資本佈局最新進度」連續追蹤選題，滿足投資型觀眾對AI獨角獸估值的好奇心"
+      }
+    ],
+    "tool_updates": [
+      {
+        "title": "OpenAI在ChatGPT正式測試「贊助代理人」廣告，Wayfair、Angi打頭陣",
+        "sources": [
+          {
+            "name": "GlobeNewswire",
+            "url": "https://www.globenewswire.com/news-release/2026/09/16/3363209/0/en/angi-among-first-brands-to-pilot-sponsored-agents-in-chatgpt.html"
+          },
+          {
+            "name": "Search Engine Roundtable",
+            "url": "https://www.seroundtable.com/openai-chatgpt-sponsored-agents-42104.html"
+          },
+          {
+            "name": "Content Grip",
+            "url": "https://www.contentgrip.com/openai-sponsored-agent-ads/"
+          }
+        ],
+        "summary": "用戶點擊廣告後可直接與品牌專屬AI代理人對話，Wayfair、Angi美國市場先行測試",
+        "audience": "每天用ChatGPT處理生活與工作事務的職場上班族、經營電商或服務型事業的獨立創業者、對「AI聊天機器人如何變現」有興趣的自媒體創作者",
+        "pain_point": "大家已經習慣在ChatGPT裡問問題、規劃行程，卻不知道現在點一個廣告就可能直接跟品牌的AI客服聊起來，也搞不清楚這種「贊助代理人」跟ChatGPT原本的回答該怎麼分辨",
+        "title_idea": "ChatGPT開始賣廣告了！點下去不是連到網站，而是直接跟品牌AI聊天",
+        "local_angle": "華語用戶大量依賴ChatGPT做生活與工作助手，這種「廣告即代理人」的新商業模式還沒被引進中文討論，適合做「ChatGPT新廣告制度全解析」實用選題，順勢提醒讀者留意標示與資料隱私"
+      },
+      {
+        "title": "Amazon將Alexa+推進印度，支援中英印地語即時混講",
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/09/16/amazon-launches-alexa-in-india-with-hindi-support/"
+          },
+          {
+            "name": "Cryptonomist",
+            "url": "https://en.cryptonomist.ch/2026/09/16/amazon-alexa-hindi-launch/"
+          }
+        ],
+        "summary": "Alexa+印度版支援英語、印地語混講，可處理訂購生活用品等多步驟任務",
+        "audience": "對AI語音助理全球在地化策略有興趣的科技評論自媒體、想了解跨國AI產品當地語系化做法的獨立開發者、經營多語系內容的創作者",
+        "pain_point": "大家只知道Alexa+在美國、英國陸續上線，卻不知道Amazon已經悄悄把它推進印度這種「多語混講」的複雜市場，也不清楚這種在地化策略背後的技術與商業考量",
+        "title_idea": "印度人講話中英夾雜？Alexa+直接學會「印式雙語」，Amazon的全球擴張新招",
+        "local_angle": "台灣同樣是中英夾雜的語言環境，這種「AI助理支援語碼混用」的技術路線還沒被華語圈系統介紹，適合做「AI語音助理在地化怎麼做」選題，給想切入多語AI應用的開發者參考"
+      },
+      {
+        "title": "Perplexity與雲端商Crusoe簽多年合約，訓練到推論全部搬上同一平台",
+        "sources": [
+          {
+            "name": "HPCwire / AIwire",
+            "url": "https://www.hpcwire.com/aiwire/2026/09/16/crusoe-and-perplexity-announce-multi-year-partnership-across-full-model-lifecycle/"
+          }
+        ],
+        "summary": "Perplexity將在Crusoe的Nvidia GB300叢集上訓練模型並提供正式推論服務",
+        "audience": "想了解AI新創如何控制雲端成本的獨立開發者、關注AI基礎建設供應鏈的科技創業者、對Perplexity商業佈局有興趣的自媒體創作者",
+        "pain_point": "大家只知道Perplexity是一個好用的AI搜尋工具，卻不知道它為了壓低雲端運算成本、掌控模型訓練到上線的完整流程，正悄悄跟新興雲端商簽下大型長約，這種「基礎建設自主權」布局很少被討論",
+        "title_idea": "Perplexity不只做搜尋！悄悄跟雲端新創簽長約，從練模型到上線全部自己來",
+        "local_angle": "華語圈AI新創多半依賴大廠雲端服務、鮮少討論「基礎建設自主化」的成本考量，適合做「AI新創如何控制雲端成本」案例選題，給想做AI產品但苦惱雲端費用的獨立開發者參考"
+      }
+    ],
+    "trends": [
+      {
+        "title": "抖音母公司分拆AI新藥獨角獸Anew Labs，首輪外部募資2.9億美元估值15億美元",
+        "sources": [
+          {
+            "name": "Caproasia",
+            "url": "https://www.caproasia.com/2026/09/16/china-tiktok-parent-600-billion-bytedance-spin-off-ai-drug-discovery-company-anew-labs-raised-290-million-funding-at-1-5-billion-valuation/"
+          },
+          {
+            "name": "The Next Web",
+            "url": "https://thenextweb.com/news/bytedance-anew-labs-290m-ai-drug-discovery"
+          },
+          {
+            "name": "Finimize",
+            "url": "https://finimize.com/content/bytedances-ai-drug-unit-raises-290-million-after-spin-off"
+          }
+        ],
+        "summary": "ByteDance分拆AI新藥開發單位Anew Labs，首度對外募資2.9億美元，紅杉中國等領投",
+        "audience": "對AI跨界應用於生技醫療有興趣的科技評論自媒體、關注中國科技巨頭多角化布局的投資型創作者、想了解「AI+新藥開發」商業模式的獨立開發者",
+        "pain_point": "大家只知道抖音、TikTok是ByteDance的招牌產品，卻不知道這家公司早已悄悄養了一個用AI做新藥開發的團隊，這次還直接分拆出來、拿到紅杉、IDG等頂級創投的資金",
+        "title_idea": "抖音公司竟然在偷偷做新藥？ByteDance分拆AI製藥獨角獸，估值直接15億美元",
+        "local_angle": "華語圈對「AI+生技」的討論多聚焦歐美新創（如Isomorphic Labs），鮮少注意到中國科技巨頭也在這個賽道砸重金，適合做「科技巨頭跨界新藥開發」系列，補上對中國AI生態多角化布局的認知缺口"
+      },
+      {
+        "title": "Nvidia、Google攜手成立「AI能源管理聯盟」，Anthropic等18家業者加入解決電力吃緊",
+        "sources": [
+          {
+            "name": "NVIDIA Blog",
+            "url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/"
+          },
+          {
+            "name": "Unite.AI",
+            "url": "https://www.unite.ai/nvidia-google-and-emerald-ai-form-ai-energy-management-alliance/"
+          },
+          {
+            "name": "The Next Web",
+            "url": "https://thenextweb.com/news/ai-energy-management-alliance-google-nvidia-emerald-flexible-data-centres"
+          }
+        ],
+        "summary": "Nvidia、Google與新創Emerald AI發起電網彈性聯盟，讓資料中心動態調節用電",
+        "audience": "關注AI基礎建設與資料中心投資動態的科技創業者、對「AI耗電問題」議題有興趣的科技評論自媒體、想了解AI成本結構的獨立開發者",
+        "pain_point": "大家常聽到「AI很耗電」的抱怨，卻不知道Nvidia、Google已經聯手一群電力公司在解決這個問題，也搞不清楚「資料中心配合電網彈性調度」到底能不能真的緩解AI用電危機",
+        "title_idea": "AI真的太耗電了！Nvidia、Google找來18家業者組聯盟，要讓資料中心學會「看電網臉色」",
+        "local_angle": "台灣同樣面臨資料中心用電與電網負荷的討論，這種「AI巨頭主動組聯盟解決電力問題」的模式還沒被華語圈系統介紹，適合做「AI耗電問題解方」科普選題，呼應台灣自身的綠能與電力政策討論"
+      }
+    ]
+  },
+  {
     "date": "2026-09-15",
     "big_events": [
       {
@@ -727,159 +900,6 @@
         "pain_point": "大家對「AI」的想像多半停留在聊天機器人或寫文案，很少人意識到AI已經開始接手精密製造的品管與客製化配對工作，錯過「AI進軍硬體產線」這個新敘事角度",
         "title_idea": "蘋果摺疊機終於要來了！鉸鏈耐用秘密：靠AI一片片手工客製化配對",
         "local_angle": "台灣是蘋果供應鏈重鎮，這種「AI介入精密製造品管」的案例對關心供應鏈與硬體代工的華語觀眾特別有感，適合做「AI如何改寫台灣供應鏈代工模式」系列選題"
-      }
-    ]
-  },
-  {
-    "date": "2026-09-08",
-    "big_events": [
-      {
-        "title": "法國Mistral AI再募30億歐元，估值衝上210億歐元創歐洲科技融資紀錄",
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/"
-          },
-          {
-            "name": "EU-Startups",
-            "url": "https://www.eu-startups.com/2026/09/french-ai-company-mistral-raises-e3-billion-series-d-led-by-samsung-at-over-e21-billion-valuation"
-          }
-        ],
-        "summary": "三星領投Series D，估值較去年翻倍，成史上最大歐洲科技融資案",
-        "audience": "關注AI巨頭資本動態與歐洲科技產業的投資型自媒體、對「主權AI」議題有興趣的科技創作者、想了解ChatGPT替代方案的職場上班族",
-        "pain_point": "大家只知道OpenAI、Google、Anthropic在AI軍備競賽中領跑，卻不知道歐洲也悄悄養出一隻能對抗美國巨頭的獨角獸，也搞不懂「主權AI」到底是什麼、跟自己有什麼關係",
-        "title_idea": "三星砸重金力挺！法國AI獨角獸估值破210億歐元，歐洲版OpenAI要來了？",
-        "local_angle": "華語圈AI話題長期被美中兩大陣營壟斷版面，Mistral作為歐洲「主權AI」代表隊還沒被充分介紹，適合做「認識歐洲AI隊長」系列，補上美中之外第三勢力的資訊差"
-      },
-      {
-        "title": "Google坦言為符合歐盟法規調整搜尋演算法，4.5億歐洲用戶搜尋品質恐變差",
-        "sources": [
-          {
-            "name": "PYMNTS",
-            "url": "https://www.pymnts.com/google/2026/google-says-eu-mandated-changes-will-worsen-search-results/"
-          },
-          {
-            "name": "Martin Cid Magazine",
-            "url": "https://www.martincid.com/technology-sv/google-eu-search-dma-quality-cut/"
-          }
-        ],
-        "summary": "因應歐盟數位市場法裁罰，Google調整搜尋結果，官方稱為29年來最大品質下滑",
-        "audience": "經營SEO、內容行銷、跨境電商導購網站的職場工作者與自媒體創作者、對科技監管議題有興趣的評論者",
-        "pain_point": "做SEO與內容行銷的人天天盯著Google演算法變動抓破頭，卻不知道這次變動是因為歐盟反壟斷裁罰、而非單純的演算法優化，若客戶或業務有觸及歐洲市場更要提早因應",
-        "title_idea": "Google親口認了：搜尋結果變爛是因為歐盟罰款！這波調整SEO人一定要懂",
-        "local_angle": "華語行銷圈多半只關注Google演算法更新的操作面技巧，鮮少解讀「監管驅動的搜尋降級」背後的法規脈絡，適合做「搜尋引擎地緣政治」科普選題，幫做外貿、跨境電商的華語商家超前部署"
-      },
-      {
-        "title": "資安公司用AI一週打造WeChat零點擊蠕蟲，光是來電響鈴就能盜走帳號",
-        "sources": [
-          {
-            "name": "Help Net Security",
-            "url": "https://www.helpnetsecurity.com/2026/09/08/wechat-weworm-vulnerability-exploit-account-hijacking/"
-          },
-          {
-            "name": "The Hacker News",
-            "url": "https://thehackernews.com/2026/09/wechat-zero-click-worm-took-over.html"
-          },
-          {
-            "name": "IBTimes",
-            "url": "https://www.ibtimes.com/wechats-14-billion-users-faced-dangerous-security-flaw-ai-helped-turn-it-self-spreading-worm-3807225"
-          }
-        ],
-        "summary": "資安新創Calif用AI兩天做出漏洞攻擊、一週做出蠕蟲，證明駭客門檻大幅降低",
-        "audience": "使用WeChat聯繫兩岸三地客戶或家人的職場工作者、關注資安風險的中小企業主、AI工具教學創作者",
-        "pain_point": "大家都聽過AI能寫程式、抓漏洞，卻很少意識到這代表「駭客技術門檻正在崩盤」——過去要整組資安團隊、數月才能做到的攻擊，現在AI幾天就能生出來，一般用戶完全來不及防範",
-        "title_idea": "電話還在響，帳號就被偷走！AI一週打造WeChat蠕蟲，證明駭客已經不需要技術了",
-        "local_angle": "華語圈使用WeChat比例極高，這起漏洞雖已修補，但「AI加速攻防武器化」的警訊還沒被充分翻譯，適合做「AI資安風險科普」系列，提醒用戶更新App版本並認識零點擊攻擊"
-      }
-    ],
-    "tool_updates": [
-      {
-        "title": "Google Meet新增Gemini筆記開關與暫停功能，9月8日起分階段開放",
-        "sources": [
-          {
-            "name": "Google Workspace Updates（官方）",
-            "url": "https://workspaceupdates.googleblog.com/2026/08/control-take-notes-for-me-directly-from-Google-Meet-hardware-touch-controllers.html"
-          }
-        ],
-        "summary": "可一鍵查看並切換Gemini是否正在記錄，離線討論時能暫停再恢復",
-        "audience": "每天開會、需要處理機密討論的職場上班族、行政主管、企業會議室管理者",
-        "pain_point": "會議中途想聊點不能寫進紀錄的內容，卻不確定Gemini是否還在偷偷記錄，也不知道能不能中途喊停，怕敏感發言全被寫進逐字稿",
-        "title_idea": "開會怕被AI全程記錄？Google Meet新增「暫停筆記」按鈕，離題發言不用怕",
-        "local_angle": "台灣企業導入Google Meet做會議記錄的比例持續上升，但多數用戶不知道有這個隱私控制新功能，適合做「Gemini會議筆記隱私設定」3分鐘教學，搶第一波中文說明"
-      },
-      {
-        "title": "百度小度9月8日發表會登場，推出新一代智慧顯示器、陪伴螢幕與監控攝影機",
-        "sources": [
-          {
-            "name": "TechNode",
-            "url": "https://technode.com/2026/09/07/baidu-xiaodu-ai-hardware-launch/"
-          },
-          {
-            "name": "InsideAI News",
-            "url": "https://insideai.news/news/ai-tools/xiaodu-ai-hardware-launch/9815/"
-          }
-        ],
-        "summary": "新硬體線全面搭載升級版超能小度助理，攝影機新增第二代AI監控代理人",
-        "audience": "關注中國AI硬體生態與智慧家庭市場的科技評論類自媒體、對AI陪伴裝置有興趣的內容創作者",
-        "pain_point": "多數人只認識Amazon Echo、Google Nest這類西方智慧音箱生態，卻不知道中國市場已經在推「AI主動監控」的下一代智慧顯示器，容易錯過對岸產品設計思路的參考價值",
-        "title_idea": "螢幕、攝影機全部裝上AI大腦！百度小度新硬體發表，監控鏡頭還會自己判斷異常",
-        "local_angle": "華語圈科技媒體對小度生態系著墨極少，這次「AI主動監控代理人」的產品定位是還沒被討論的新方向，適合做「兩岸智慧家庭AI裝置」比較系列，滿足對中國科技產品好奇的觀眾"
-      }
-    ],
-    "trends": [
-      {
-        "title": "埃森哲攜手Google Cloud成立「Gemini企業事業群」，組建千人級AI導入團隊",
-        "sources": [
-          {
-            "name": "AIwire / HPCwire",
-            "url": "https://www.hpcwire.com/aiwire/2026/09/08/accenture-and-google-cloud-launch-gemini-enterprise-business-group/"
-          },
-          {
-            "name": "Accenture Newsroom（官方）",
-            "url": "https://newsroom.accenture.com/news/2026/accenture-and-google-cloud-deepen-partnership-with-formation-of-new-accenture-gemini-enterprise-business-group"
-          }
-        ],
-        "summary": "埃森哲組建千名認證顧問與前線工程師，專責協助企業導入Gemini代理人",
-        "audience": "接案協助中小企業導入AI的顧問與獨立開發者、企業IT決策者、對AI企業服務市場有興趣的科技創業者",
-        "pain_point": "很多想導入AI Agent的企業不知道從何找專業團隊協助，也不清楚顧問業已經開始大舉搶進「AI導入代辦」這門新生意，錯過幫客戶轉型或自己入行的時機",
-        "title_idea": "顧問業也瘋AI！埃森哲砸重金組千人團隊，專門幫企業把Gemini代理人裝進公司",
-        "local_angle": "台灣中小企業普遍苦於不知如何導入AI Agent，這種「大型顧問公司包套服務」模式還沒被引進華語圈討論，適合做「企業AI導入外包」商機選題，給接案顧問與獨立開發者參考切入點"
-      },
-      {
-        "title": "Palantir指定Nebius為「主權AI」首選基礎建設夥伴，算力直接嵌入客戶防火牆內",
-        "sources": [
-          {
-            "name": "Nebius Newsroom（官方）",
-            "url": "https://nebius.com/newsroom/palantir-and-nebius-partner-to-deliver-a-complete-sovereign-ai-stack-to-palantir-customers"
-          },
-          {
-            "name": "Unite.AI",
-            "url": "https://www.unite.ai/palantir-taps-nebius-for-sovereign-ai-infrastructure-inside-its-perimeter/"
-          }
-        ],
-        "summary": "Nebius運算與推理節點整合進Palantir企業安全邊界，客戶可自控資料與模型",
-        "audience": "關注AI基礎建設投資動態的科技創業者、對企業資料主權議題有興趣的IT決策者、投資型自媒體創作者",
-        "pain_point": "企業想用AI又怕機密資料被上傳到別人家的雲端，卻不知道現在已經有「把算力搬進你家防火牆」這種新型態合作模式可以選擇",
-        "title_idea": "資料不出門也能用最強AI算力？Palantir找來這家新創把「主權AI」變現實",
-        "local_angle": "「資料主權」對重視個資與機敏資料的華語企業（尤其金融、政府標案）是高關注議題，這種算力內嵌防火牆的模式還沒有中文介紹，適合做「企業AI資料主權」科普選題，串連近期歐洲Mistral主權AI熱潮"
-      },
-      {
-        "title": "Verizon與康寧簽多年期光纖大單，直接點名支援下一代AI基礎建設",
-        "sources": [
-          {
-            "name": "GV Wire",
-            "url": "https://gvwire.com/2026/09/08/verizon-signs-optical-fiber-deal-with-corning-to-expand-broadband-support-ai-growth/"
-          },
-          {
-            "name": "GlobeNewswire（官方）",
-            "url": "https://www.globenewswire.com/news-release/2026/09/08/3357726/0/en/verizon-and-corning-announce-multi-year-multi-billion-dollar-supply-agreement-for-broadband-expansion-and-next-gen-ai-infrastructure.html"
-          }
-        ],
-        "summary": "2027至2032年供應逾8000萬英里高密度光纖，強化資料中心間AI骨幹網路",
-        "audience": "關注AI基礎建設與電信產業投資動態的科技創業者、對「AI耗能耗資源」議題有興趣的科技評論類自媒體",
-        "pain_point": "大家只聽過AI晶片、資料中心很燒錢，卻不知道連光纖網路供應鏈都被捲入這波AI軍備競賽，電信商正悄悄押注「AI要用的網路管線」這門生意",
-        "title_idea": "AI熱潮燒到光纖業！Verizon砸重金囤貨，只為了餵飽AI資料中心之間的網路頻寬",
-        "local_angle": "華語圈討論AI基礎建設多聚焦晶片與電力，「AI專用骨幹網路」這塊還是資訊空白，適合做「AI供應鏈全解析」系列補上電信網路這一塊拼圖，對關注台灣電信與資通訊供應鏈的觀眾特別有吸引力"
       }
     ]
   }
