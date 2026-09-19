@@ -1,5 +1,112 @@
 [
   {
+    "date": "2026-09-19",
+    "market_shocks": [
+      {
+        "title": "Houthi飛彈首度直擊利雅德機場！Aramco證實10月對歐洲祭出「零配額」",
+        "sources": [
+          {
+            "name": "France 24",
+            "url": "https://www.france24.com/en/middle-east/20260919-smoke-flames-seen-near-riyadh-airport-major-flight-disruptions-reported"
+          },
+          {
+            "name": "PBS NewsHour",
+            "url": "https://www.pbs.org/newshour/world/saudi-arabia-confirms-yemens-houthi-rebels-tried-to-attack-its-capital-with-a-ballistic-missile"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/09/19/riyadh-airport-smoke-saudi-arabia.html"
+          },
+          {
+            "name": "Middle East Monitor",
+            "url": "https://www.middleeastmonitor.com/20260919-saudi-aramco-cancels-october-crude-allocations-to-european-refiners-report/"
+          }
+        ],
+        "summary": "沙烏地阿拉伯9/19證實，葉門青年運動（Houthi）發射彈道飛彈企圖攻擊利雅德「敏感目標」，這是開戰以來首度瞄準沙國首都，利雅德國際機場燃油儲存區竄出濃煙火光，機場一度大亂。同一時間彭博與Middle East Monitor證實，Aramco已通知至少兩家歐洲煉油客戶10月長約「零配額」，是這場戰爭爆發以來首次全面取消term合約供油。",
+        "tw_stock_impact": "這則消息直接推翻9/18「沙特管線將修復、油價連3跌」的樂觀劇本——攻擊範圍從邊境管線升級到首都機場，供給缺口從「暫時搶修」升級為「長約合同全面取消」，若週一開盤油價跳空走高，台塑集團（台塑化、南亞）可能重演本週油價上漲時的漲勢，但長榮、陽明等航運股的中東航線保費與燃油成本壓力也會同步升溫，能源、塑化、航運類股週一開盤方向恐出現反轉。",
+        "investment_insight": "市場先前對油價回落的樂觀假設，是建立在「管線數週內可修復」之上，如今首都本身遭飛彈瞄準、加上Aramco對歐洲客戶罕見開出零配額，顯示風險並未如期收斂反而擴大。建議投資人週一密切觀察WTI／Brent開盤跳空方向，不宜在上週五低點追空原油部位，並對台塑集團、貨櫃三雄等避險部位保留彈性籌碼。",
+        "title_idea": "利雅德機場遭飛彈直擊！沙國10月對歐洲祭出「零配額」，油價樂觀劇本一夕生變",
+        "local_angle": "台灣是能源淨進口國、又高度倚賴中東航線與波灣油源，這次攻擊首度瞄準沙國首都本身，加上Aramco對歐洲長約客戶史無前例的「零配額」，等於供給風險從單一設施升級到國家級長約層級，是判斷下週油價、塑化與航運股走勢最新、也最關鍵的變數。"
+      }
+    ],
+    "investment_opportunities": [
+      {
+        "title": "SEC核准代幣化股票「創新豁免」，Uniswap暴漲16%、Hyperliquid續強",
+        "sources": [
+          {
+            "name": "The Market Periodical",
+            "url": "https://themarketperiodical.com/2026/09/19/uniswap-price-jumps-16-after-sec-tokenized-stock-exemption/"
+          },
+          {
+            "name": "TradingKey",
+            "url": "https://www.tradingkey.com/analysis/cryptocurrencies/more/262174235-crypto-sec-defi-dex-uniswap-hype-hyperliquid-tradingkey"
+          },
+          {
+            "name": "CoinDesk",
+            "url": "https://www.coindesk.com/business/2026/09/17/sec-opens-door-to-tokenized-u-s-stock-trading-here-s-who-could-benefit"
+          }
+        ],
+        "summary": "美國證管會（SEC）核准為期5年的「創新豁免」框架，允許代幣化美股透過自動做市商（AMM）在鏈上直接交易，平台（TSV）暫免登記為交易所，但需驗證代幣持有人享有與傳統股票相同的股息與投票權，並遵守OFAC制裁規範。消息帶動DeFi板塊週末持續發燒，Uniswap（UNI）暴漲逾16%逼近8美元，Hyperliquid（HYPE）續強突破86美元。",
+        "tw_stock_impact": "此舉不直接牽動台股個股，但代幣化股票若成熟，長線恐分流部分海外券商、ETF資金流向鏈上平台，對純網銀、證券業的財富管理業務是潛在中長期競爭變數；短線對台股加密貨幣概念股（如與交易所、礦機供應鏈相關個股）情緒面偏正向。",
+        "investment_insight": "這是美國監理機關首次為「傳統股票上鏈交易」開出明確但有限的合法路徑，屬於結構性、非一次性的政策紅利，建議對DeFi龍頭（如具備AMM基礎設施的平台代幣）保留觀察部位，但豁免僅5年且附帶嚴格條件，須留意後續SEC是否進一步放寬或收緊規則，避免將短線暴漲視為長期趨勢確立。",
+        "title_idea": "美股要上鏈了？SEC罕見核准代幣化交易，DeFi雙雄週末噴出16%",
+        "local_angle": "台灣投資人若透過海外帳戶配置美股，未來「代幣化美股」若普及，等於多一種24小時、免時差交易美股的管道，但相關法規、稅務與監理落差仍大，建議純觀察而非貿然重倉，優先留意國內金管會後續是否有對應規範。"
+      },
+      {
+        "title": "比特幣週末衝上8.1萬美元，山寨幣季節指數逼近50、貪婪指數飆78",
+        "sources": [
+          {
+            "name": "Benzinga",
+            "url": "https://www.benzinga.com/crypto/26/09/61884589/altcoin-season-index-nears-50-as-crypto-fear-and-greed-index-jumps"
+          },
+          {
+            "name": "CoinDesk",
+            "url": "https://www.coindesk.com/markets/2026/09/18/bitcoin-weathers-september-storm-as-rate-hikes-and-clarity-act-setback-test-bulls"
+          }
+        ],
+        "summary": "比特幣週末持續在CLARITY法案闖關失敗、Fed升息利空消化後回升，一度衝上約8.13萬美元；山寨幣季節指數跳升至48、逼近「山寨幣季」的50分界，加密貨幣恐懼與貪婪指數同步跳升至78的「貪婪」區間。NEAR、Tezos、Arbitrum、Uniswap、Ethena、Zcash等代幣近7日漲幅普遍超過40%，資金明顯從比特幣轉向中小型山寨幣與RWA（真實世界資產）題材。",
+        "tw_stock_impact": "加密貨幣屬24小時交易市場，週末的資金輪動與情緒指標對台股本身無直接連動，但可作為觀察下週全球風險偏好的領先指標之一——若貪婪情緒持續發燒，通常伴隨風險資產（含台股電子權值股）資金行情延續；反之若指標過熱後急速降溫，也常是短線獲利了結的訊號。",
+        "investment_insight": "貪婪指數達78、山寨幣季節指數逼近轉折點，歷史上是短線過熱訊號而非進場訊號，建議台灣投資人若已持有比特幣或主流山寨幣部位，可考慮分批獲利了結或設定移動停利，避免在情緒最亢奮時重倉追高中小型代幣。",
+        "title_idea": "貪婪指數飆78！比特幣週末衝8.1萬美元，山寨幣季節即將降臨？",
+        "local_angle": "台灣加密貨幣投資人週末仍可交易，這波「Fed升息＋CLARITY法案挫敗」利空出盡後的反彈與山寨幣輪動，適合用來檢視自己的加密貨幣部位是否過度集中在單一熱門代幣，並趁貪婪情緒高點檢視風險曝險。"
+      }
+    ],
+    "macro_observations": [
+      {
+        "title": "伊朗證實透過卡達遞交停戰條件，靜候川普回應",
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/9/19/iran-says-conditions-to-re-engage-in-talks-end-war-sent-to-us-via-qatar"
+          },
+          {
+            "name": "Yahoo News",
+            "url": "https://www.yahoo.com/news/politics/articles/iran-says-war-end-terms-154511223.html"
+          }
+        ],
+        "summary": "伊朗最高國家安全委員會官員雷札伊9/19向半島電視台證實，伊朗已將停戰三大條件——各戰線停火、解凍伊朗海外資產、解除美方海上封鎖——透過中介國卡達轉交美方，目前正等候川普總統回應。雷札伊強調「川普的威脅不會有任何效果」，同時表明伊朗已為長期作戰做好準備。",
+        "tw_stock_impact": "若這輪透過卡達的談判最終促成實質停火，將是近半年來油價、避險情緒最重要的轉折訊號之一，對台股權值股、航運與能源類股的影響方向恰與週六稍早的利雅德機場攻擊消息相反；但目前僅是伊朗單方喊話、川普尚未回應，台灣投資人不宜對戰爭結束預期過早定價。",
+        "investment_insight": "地緣政治談判進展與戰場升級消息同一天並存，反映局勢仍高度不確定，建議投資人在配置能源、航運相關部位時採取「雙向避險」思維而非單邊押注戰爭升溫或降溫，密切留意下週川普是否正式回應，這將是判斷油價中期方向的關鍵事件。",
+        "title_idea": "戰場升溫、談判桌也在動！伊朗喊話卡達轉交停戰條件，就等川普點頭",
+        "local_angle": "台灣以能源進口與海運貿易為經濟命脈，這則停戰談判消息與同日利雅德機場遇襲形成強烈對比，提醒台灣投資人中東局勢「戰與談」同步進行，油價與塑化航運類股波動度短期內難以降溫，追價或殺低都需更謹慎。"
+      },
+      {
+        "title": "四巫日結算後市場多空訊號互打架，週一台美股恐現方向選擇",
+        "sources": [
+          {
+            "name": "Investing.com",
+            "url": "https://www.investing.com/analysis/septembers-triple-witching-62t-options-expire-today--what-to-expect-200687966"
+          }
+        ],
+        "summary": "上週五（9/18）美股史上第二大四巫日結算後，選擇權部位轉為對現貨市場的「緩衝墊」而非放大波動的引信，但歷史統計顯示2000年以來約四分之三的9月三巫╱四巫日過後5個交易日美股偏弱；與此同時週末爆出的利雅德機場攻擊與Aramco零配額消息，等於在原本「結算後恐拉回」的技術性隱憂之外，再疊加一層地緣政治的基本面變數。",
+        "tw_stock_impact": "台股上週五因富時季度調整暴力反彈892點收47,180點，但全周外資仍是淨賣家，若美股週一因結算後賣壓或油價跳空走高而拉回，台股在高檔的權值股、記憶體概念股可能同步承壓，投資人應留意這波急漲是否只是「調整資金行情」而非趨勢確立。",
+        "investment_insight": "技術性的「結算後拉回」統計與基本面的「地緣風險升溫」兩股力道同時指向下週波動放大，建議短線交易者避免在台股、美股高檔追價，可利用選擇權或分批操作管理下週開盤跳空風險，並以全周（而非單日）法人動向作為判斷資金趨勢的依據。",
+        "title_idea": "史上第2大結算＋中東再生變，下週台美股恐迎「雙重震撼」",
+        "local_angle": "台股投資人習慣觀察美股結算後的外溢效應，這次又疊加週末中東地緣政治突發消息，等於原本就偏向拉回的技術面統計，多了一個不確定性更高的基本面觸媒，建議提高對下週開盤跳空的心理準備。"
+      }
+    ]
+  },
+  {
     "date": "2026-09-18",
     "market_shocks": [
       {
@@ -1004,161 +1111,6 @@
         "investment_insight": "在連兩個交易日重挫逾1300點後出現的夜盤反彈屬於技術性超跌反彈居多，建議投資人勿貿然重倉搶進，可留意台積電2400元整數關卡及外資買賣超轉向作為進場觀察指標。",
         "title_idea": "台股才崩750點，夜盤竟然狂彈401點？週一要噴了嗎",
         "local_angle": "台指期夜盤走勢是台灣投資人研判週一現貨開盤氣氛的重要領先指標，尤其對存股族與ETF（0050、006208）投資人而言，週末的夜盤數據往往牽動下週初的心理預期。"
-      }
-    ]
-  },
-  {
-    "date": "2026-09-11",
-    "market_shocks": [
-      {
-        "title": "美8月核心CPI意外升溫至0.3%，Fed升息機率狂飆至85%以上但美股收復四連跌",
-        "sources": [
-          {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html"
-          },
-          {
-            "name": "Yahoo Finance",
-            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-september-11-dow-sp-500-nasdaq-cpi-inflation-082201751.html"
-          }
-        ],
-        "summary": "美國8月CPI年增3.4%符合預期，但核心CPI月增0.3%高於市場預估的0.2%，年增維持2.4%。市場原本擔心通膨數據會壓垮股市，結果S&P 500漲0.96%、道瓊漲1.15%、那斯達克漲0.88%，終結連四日下跌，投資人轉而聚焦油價和公債殖利率同步回落。",
-        "tw_stock_impact": "美股止跌反彈但Fed升息機率已飆破85%，台股電子權值股短線恐續受美債殖利率飆升與外資調節壓力影響，AI供應鏈估值面臨重新定價。",
-        "investment_insight": "9/15-16 FOMC決議前市場已提前反映升息，若真升息1碼但幅度符合預期，可能出現「利空出盡」反彈；建議留意殖利率是否續衝高於前波高點，作為進出場參考。",
-        "title_idea": "通膨爆表、升息機率衝破85%，華爾街竟然還敢噴出？",
-        "local_angle": "台灣投資人多透過ETF（如00646、00757）間接曝險美股，Fed升息機率驟升將牽動新台幣匯率與外資對台股權值股的資金流向。"
-      },
-      {
-        "title": "台股遭外資倒貨1124億重挫755點，跌破46000關卡、台積電失守5日線",
-        "sources": [
-          {
-            "name": "聯合新聞網",
-            "url": "https://udn.com/news/story/7251/9748787"
-          },
-          {
-            "name": "自由財經",
-            "url": "https://ec.ltn.com.tw/article/breakingnews/5570175"
-          }
-        ],
-        "summary": "受美股連四黑、油價衝上4個月高點及升息疑慮夾擊，台股9/11開盤即重挫，盤中一度重挫近千點跌破46000點、下探45942點，終場收斂至跌755.64點，三大法人合計賣超近1124億元，台積電盤中一度下跌1.6%至2410元，失守5日線。",
-        "tw_stock_impact": "接續9/10大跌逾600點跌破47000點之後，台股連兩個交易日重挫超過1300點，週線翻黑，顯示外資資金正加速撤離台灣科技權值股。",
-        "investment_insight": "短線若外資賣壓未見降溫，建議避免搶反彈；可留意「國家隊」是否進場護盤半導體族群，以及台積電是否守住2400元整數關卡作為觀察點。",
-        "title_idea": "外資狂砍1124億！台股兩天蒸發逾1300點，台積電也扛不住了",
-        "local_angle": "台股連兩日重挫直接衝擊一般存股族與定期定額投資人的帳面損益，尤其重壓0050、006208等台股ETF者感受最深。"
-      },
-      {
-        "title": "國際油價四個月高點急轉直下，單日重挫逾2%，傳中東國家醞釀「臨時通行安排」",
-        "sources": [
-          {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/09/11/oil-price-today-iran-brent-wti-trump.html"
-          }
-        ],
-        "summary": "布蘭特原油9/11收跌2.8%至每桶104.61美元，WTI跌2.4%至100.05美元，結束連日飆漲走勢，但週線仍分別大漲8.7%與9.4%。市場消息指出中東多國政府正探討與伊朗達成「臨時安排」以改善荷姆茲海峽通行，加上獲利了結賣壓，成為油價急煞的主因。",
-        "tw_stock_impact": "油價回落有助紓緩台灣進口能源成本與航空、塑化類股成本壓力，但若荷姆茲情勢再度升溫，油價恐迅速反彈，不宜視為戰爭風險真正解除。",
-        "investment_insight": "油價這波急跌屬技術性獲利了結而非基本面轉向，若持有航空、塑化股者可留意反彈契機，但避免過度追價，因地緣風險並未真正解除。",
-        "title_idea": "油價衝上100美元又急殺2%，是戰爭要結束了還是曇花一現？",
-        "local_angle": "台灣99%以上原油仰賴進口，油價劇烈震盪直接牽動中油、台塑化等公司獲利與國內油價，也牽動一般民眾荷包。"
-      },
-      {
-        "title": "Oracle股價強彈逾5%扭轉頹勢，AI雲端訂單積壓衝上6640億美元創新高",
-        "sources": [
-          {
-            "name": "BNN Bloomberg",
-            "url": "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/09/11/oracle-shares-rise-as-ai-cloud-backlog-beats-estimates/"
-          },
-          {
-            "name": "247wallst.com",
-            "url": "https://247wallst.com/investing/2026/09/11/oracle-surges-7-as-ai-cloud-backlog-hits-664b-coreweave-and-nebius-climb-4/"
-          }
-        ],
-        "summary": "繼9/10財報後一度重挫近10%，Oracle股價9/11盤前大漲5.5%，盤中一度漲逾7%，主因公布單季新增逾300億美元AI雲端合約，雲端營收backlog衝上6640億美元、優於市場預期的6399億美元，雲端營收年增62%。市場解讀這化解了外界對其鉅額AI資本支出與債務負擔的疑慮。",
-        "tw_stock_impact": "Oracle積壓訂單創新高意味著超大規模資料中心投資需求依然強勁，對台廠伺服器、散熱與電源供應鏈（如台達電、緯創、廣達）屬正面訊號。",
-        "investment_insight": "AI資本支出雖引發債務疑慮，但只要訂單能見度持續攀升，短線股價劇烈震盪反而可能是分批布局雲端基礎建設供應鏈的機會。",
-        "title_idea": "前一天暴跌10%，隔天狂彈7%！Oracle坐雲霄飛車證明了什麼？",
-        "local_angle": "Oracle加碼AI雲端支出直接牽動台灣伺服器、機殼、散熱供應鏈訂單能見度，是觀察AI資本支出循環是否降溫的重要指標股。"
-      }
-    ],
-    "investment_opportunities": [
-      {
-        "title": "SpaceX簽下每月11億美元神秘AI運算大單，加碼衝刺年底千億美元營收目標",
-        "sources": [
-          {
-            "name": "Benzinga",
-            "url": "https://www.benzinga.com/markets/tech/26/09/61731919/spacex-closes-1-11-billion-a-month-compute-deal-as-cfo-doubles-down-on-100-billion-arr-target"
-          }
-        ],
-        "summary": "SpaceX財務長9/10在高盛研討會上透露，公司已簽下每月11億美元的AI運算合約（客戶未公開），換算年化營收貢獻約130億美元，加上先前與Anthropic（每月12.5億美元）、Google（每月9.2億美元）等合約，公司力拚年底前年化營收達1000億美元。",
-        "tw_stock_impact": "SpaceX轉型為AI運算基礎設施供應商顯示星鏈衛星閒置運算力正被大量貨幣化，對台灣衛星地面設備、電源與散熱供應鏈是潛在新商機。",
-        "investment_insight": "太空運算租賃是AI算力荒下的新變現模式，投資人可留意衛星通訊與電源管理相關台廠是否被納入類似供應鏈，作為AI概念股輪動下一棒。",
-        "title_idea": "馬斯克的衛星也拿來跑AI？SpaceX一張合約年賺130億美元",
-        "local_angle": "台灣不少電子零組件廠已切入SpaceX星鏈供應鏈，此次曝光的AI運算業務擴張，可能帶來電源模組與散熱元件的新訂單想像空間。"
-      },
-      {
-        "title": "黃金逆勢收復失土衝上4370美元，殖利率、美元回落成救援關鍵",
-        "sources": [
-          {
-            "name": "FXStreet",
-            "url": "https://www.fxstreet.com/news/gold-price-dodges-cpi-shock-as-us-yields-hand-bulls-lifeline-202609111731"
-          }
-        ],
-        "summary": "儘管核心CPI數據意外偏熱、Fed升息機率大增，黃金9/11仍逆勢上漲1.2%至約4370美元，一度觸及4400美元，主因美元指數與美債殖利率在數據公布後不升反跌，加上油價回落降低通膨恐慌情緒，帶動黃金收復前一日跌幅。",
-        "tw_stock_impact": "黃金在升息利空下仍展現抗跌韌性，顯示市場對美元資產的長期信心出現裂痕，台灣投資人可留意黃金ETF與貴金屬類股評價是否重新獲得支撐。",
-        "investment_insight": "當「升息利空」無法壓垮金價，往往代表市場開始押注更長期的美元走弱或財政風險敘事；可作為部位避險或分批加碼貴金屬曝險的訊號。",
-        "title_idea": "升息機率飆破85%，黃金竟然不跌反漲？華爾街嗅到了什麼",
-        "local_angle": "台灣民眾偏好買黃金存摺與金飾避險，金價在升息預期升溫下逆勢走揚，是判斷是否加碼貴金屬部位的重要觀察指標。"
-      },
-      {
-        "title": "比特幣CPI公布後劇烈震盪，一度殺破77000後又彈回78000美元上方",
-        "sources": [
-          {
-            "name": "crypto.news",
-            "url": "https://crypto.news/bitcoin-rebounds-above-78k-as-fed-hike-odds-hit-81/"
-          },
-          {
-            "name": "CoinDesk",
-            "url": "https://www.coindesk.com/business/2026/09/11/live-updates-bitcoin-sinks-to-usd77-000-as-cpi-lands-with-hike-odds-near-70"
-          }
-        ],
-        "summary": "CPI公布瞬間比特幣一度下探77000美元，隨後在升息機率飆升至81%的情況下反而回彈站上78000美元，走勢相當劇烈，反映市場對「數據符合預期即已充分反映」的解讀，短線波動加大。",
-        "tw_stock_impact": "比特幣對利率消息的敏感度持續升高，台灣虛擬貨幣投資人與相關受益股（如挖礦機、算力供應鏈）短線波動風險加大，需留意槓桿部位風險。",
-        "investment_insight": "在升息預期急升卻未壓垮幣價的情況下，顯示部分資金可能將比特幣視為對沖法幣貶值的另類資產；短線交易者應留意77000美元是否成為關鍵支撐。",
-        "title_idea": "升息機率衝上81%，比特幣不跌反彈是逼空還是轉勢訊號？",
-        "local_angle": "台灣加密貨幣交易所（如MAX、ACE）活躍用戶多，比特幣劇烈雙向震盪牽動國內散戶的槓桿部位與交易所手續費收入。"
-      }
-    ],
-    "macro_observations": [
-      {
-        "title": "10年期美債殖利率飆破4.95%創2023年10月來新高，市場全面轉向押注Fed升息",
-        "sources": [
-          {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/09/11/us-treasurys-bonds-yields.html"
-          }
-        ],
-        "summary": "受8月核心CPI意外升溫影響，美國10年期公債殖利率單日跳升11個基點，觸及4.954%，創下2023年10月以來新高。市場對9/15-16 FOMC會議升息1碼的預期機率一度衝上85%至91%，扭轉今年稍早市場仍在討論降息的敘事。",
-        "tw_stock_impact": "美債殖利率飆升將推升全球資金成本，對台灣高本益比科技股估值形成壓力，同時可能加劇新台幣兌美元的匯率波動與外資調節壓力。",
-        "investment_insight": "殖利率創逾兩年新高顯示市場結構性轉向「higher for longer」，建議投資人重新檢視高槓桿、高本益比部位的利率敏感度，並留意公債殖利率是否進一步挑戰5%整數關卡。",
-        "title_idea": "殖利率衝破4.95%創兩年新高，降息夢碎、升息時代真的來了？",
-        "local_angle": "美債殖利率走高牽動台灣壽險業海外債券部位評價與新台幣匯率，也是判斷外資資金是否加速撤出台股的重要領先指標。"
-      },
-      {
-        "title": "兩黨AI監管法案內部生變，參院商務委員會為「州法優先權」條款槓上",
-        "sources": [
-          {
-            "name": "93.3 The Drive",
-            "url": "https://www.933thedrive.com/2026/09/11/us-senate-negotiators-consider-requiring-ai-firms-to-mitigate-known-major-risks/"
-          },
-          {
-            "name": "Semafor",
-            "url": "https://www.semafor.com/article/09/10/2026/disagreements-reemerge-in-bipartisan-ai-safety-talks"
-          }
-        ],
-        "summary": "由參議員Klobuchar、Cruz與參院多數黨領袖Thune推動、原訂最快下週提出的兩黨AI安全法案，9/11傳出內部歧見重現：民主黨籍商務委員會資深議員Cantwell反對法案中「聯邦法規優先於各州AI安全法」的條款，法案是否能如期送出出現變數。",
-        "tw_stock_impact": "AI監管立法進度攸關美國AI巨頭資本支出步調的政策能見度，若法案延宕或內容轉趨嚴格，恐間接影響輝達、Oracle等下游對台灣半導體與伺服器供應鏈的訂單展望。",
-        "investment_insight": "監管不確定性升高階段，建議關注個股基本面優於政策題材操作，避免單純因「AI監管利多/利空」消息追高殺低台灣AI概念股。",
-        "title_idea": "AI監管法案還沒生出來就先內鬨，兩黨吵的到底是什麼？",
-        "local_angle": "美國AI監管走向將牽動輝達、微軟等公司對台廠下單的長期政策風險，是台灣AI供應鏈投資人需要持續追蹤的變數之一。"
       }
     ]
   }
