@@ -1,117 +1,117 @@
 {
-  "date": "2026-09-19",
+  "date": "2026-09-20",
   "p5": [
     {
-      "id": "2026-09-19-p5-0",
-      "tag": "倒裝句（Such was + 主詞 + that，強調程度並倒裝）",
+      "id": "2026-09-20-p5-0",
+      "tag": "倒裝句（So + 副詞 + 助動詞 + 主詞 + 原形動詞，強調頻率並倒裝）",
+      "pre": "So rarely ",
+      "post": " the audit committee find discrepancies of this magnitude that an emergency session was convened within hours.",
+      "opts": ["did", "does", "has", "was"],
+      "ans": 0,
+      "zh": "稽核委員會「甚少」發現如此重大規模的差異，以至於數小時內便召開了緊急會議。",
+      "why": "<b>So</b> + 副詞（rarely）置於句首時，主要子句須引發倒裝，並依時態搭配助動詞。此處描述的是過去單一事件（was convened 為過去式），故用過去式助動詞 <b>did</b> 搭配原形動詞 find。does 為現在式，時態不符；has 須接過去分詞而非原形動詞；was 為 be 動詞，無法與原形動詞 find 直接構成正確倒裝句構。"
+    },
+    {
+      "id": "2026-09-20-p5-1",
+      "tag": "獨立分詞構句慣用語（All things considered，＝整體而言、綜合考量）",
       "pre": "",
-      "post": " the public outcry over the data breach that the company's stock fell nearly 15 percent within a single trading session.",
-      "opts": ["Such was", "So was", "Such did", "That was"],
+      "post": ", the quarter's results were respectable despite the unexpected supply chain disruptions.",
+      "opts": ["All things considered", "All things considering", "All being considered", "All to consider"],
       "ans": 0,
-      "zh": "大眾對這起資料外洩事件的憤慨「如此」強烈，以至於該公司股價在單一交易日內重挫近15%。",
-      "why": "<b>Such was + 主詞</b> 為固定倒裝強調句型，用以表示「如此（程度）」，其後常接 that 子句表結果。So was 須搭配形容詞使用（So great was the outcry），不可直接接名詞 outcry 而省略形容詞；Such did 動詞形式錯誤，did 須接原形動詞而非此處名詞主詞倒裝的結構；That was 不具備此類強調倒裝功能。"
+      "zh": "「整體考量之下」，儘管遭遇了意外的供應鏈中斷，本季的業績表現仍屬不錯。",
+      "why": "<b>All things considered</b> 為固定的獨立分詞構句慣用語，considered 為過去分詞表被動語意（所有事情皆已被納入考量），意為「整體而言」。All things considering 誤用現在分詞，語態錯誤（things 不會主動 consider）；All being considered 語序及慣用性皆不符；All to consider 不定詞形式不符合此固定慣用語結構。"
     },
     {
-      "id": "2026-09-19-p5-1",
-      "tag": "獨立結構（名詞 + 過去分詞，省略 with 的簡潔獨立分詞構句）",
+      "id": "2026-09-20-p5-2",
+      "tag": "慣用語（second to none，表「不亞於任何人／物，首屈一指」）",
+      "pre": "In terms of customer service responsiveness, this vendor is ",
+      "post": " in the industry.",
+      "opts": ["second to none", "the second to none", "second to nothing", "seconds to none"],
+      "ans": 0,
+      "zh": "就客服回應速度而言，這家供應商在業界「無人能出其右」。",
+      "why": "<b>second to none</b> 為固定慣用語，意為「不遜於任何人或事物」，不加冠詞 the，也不用複數形式。the second to none 誤加冠詞；second to nothing 誤用 nothing 取代 none；seconds to none 誤用複數形式，皆不成立此固定慣用語。"
+    },
+    {
+      "id": "2026-09-20-p5-3",
+      "tag": "讓步倒裝（形容詞 + as + 主詞 + 動詞，＝although + 主詞 + be + 形容詞）",
       "pre": "",
-      "post": " signed by all parties, the settlement officially took effect, bringing the two-year litigation to a close.",
-      "opts": ["The agreement", "With the agreement", "Being the agreement", "The agreement being"],
+      "post": " the proposal may seem, the board is unwilling to dismiss it without a thorough cost-benefit analysis.",
+      "opts": ["Unconventional as", "As unconventional", "Unconventional though as", "So unconventional as"],
       "ans": 0,
-      "zh": "「協議」經各方簽署後，和解正式生效，為這場長達兩年的訴訟畫下句點。",
-      "why": "<b>名詞 + 過去分詞</b>可直接構成簡潔的獨立結構（= The agreement having been signed by all parties, ...），不須額外加上 with。With the agreement 使句構重複累贅，不符此處已作為獨立主詞的用法；Being the agreement 語序錯誤，being 不可置於名詞之前構成此類獨立結構；The agreement being 語意上偏向「正在簽署中」的進行狀態，與後文「已生效」的既成事實不符。"
+      "zh": "「儘管」這項提案看似不落俗套，董事會仍不願在未經徹底成本效益分析前就將其駁回。",
+      "why": "<b>形容詞 + as + 主詞 + 動詞</b>為讓步倒裝句型，將表語形容詞前移至句首，等同於 Although the proposal may seem unconventional。As unconventional 語序顛倒，不符合此固定倒裝形式（as 須置於形容詞之後）；Unconventional though as 為冗贅重複的錯誤組合；So unconventional as 不成立此讓步倒裝的固定搭配。"
     },
     {
-      "id": "2026-09-19-p5-2",
-      "tag": "比較結構（not so much...as，與其說是…不如說是）",
-      "pre": "The company's recent success is ",
-      "post": " a result of aggressive marketing as a reflection of years of consistent product refinement.",
-      "opts": ["not so much", "not as much", "not much so", "no so much"],
+      "id": "2026-09-20-p5-4",
+      "tag": "進階動詞語意辨別（underpin，under-字首形似詞）",
+      "pre": "The firm's long-term growth strategy is ",
+      "post": " by a disciplined approach to capital allocation and a conservative debt profile.",
+      "opts": ["underpinned", "undermined", "undertaken", "understated"],
       "ans": 0,
-      "zh": "這家公司近期的成功，「與其說是」積極行銷的結果，「不如說是」多年持續產品改良的體現。",
-      "why": "<b>not so much...as</b> 為固定比較句型，意為「與其說是…不如說是…」，強調後者才是更準確的描述。not as much 語序與固定搭配皆不符；not much so 與 no so much 皆非標準英語搭配，不成立。"
-    },
-    {
-      "id": "2026-09-19-p5-3",
-      "tag": "讓步片語（For better or worse，＝無論好壞）",
-      "pre": "",
-      "post": ", the decision to relocate the headquarters overseas has already been finalized and cannot be reversed at this stage.",
-      "opts": ["For better or worse", "For better or for worst", "Better or worse", "To be better or worse"],
-      "ans": 0,
-      "zh": "「無論結果好壞」，將總部遷往海外的決定已經拍板定案，此階段已無法撤回。",
-      "why": "<b>For better or worse</b> 為固定讓步慣用語，意為「無論好壞、不論結果如何」。For better or for worst 誤用最高級 worst，應為比較級 worse；Better or worse 缺少介系詞 For，不成立固定用法；To be better or worse 不定詞形式不符合此慣用語結構。"
-    },
-    {
-      "id": "2026-09-19-p5-4",
-      "tag": "進階動詞語意辨別（disparage，dis-字首形似詞）",
-      "pre": "During the debate, the candidate was careful not to ",
-      "post": " her opponent's record directly, focusing instead on her own policy proposals.",
-      "opts": ["disparage", "dispatch", "dispense", "disperse"],
-      "ans": 0,
-      "zh": "在辯論過程中，這位候選人小心避免直接「貶低」對手的政績，轉而聚焦於自己的政策提案。",
-      "why": "<b>disparage</b>（貶低、輕視）精準對應此處語境。dispatch（派遣、迅速處理）語意不符；dispense（分配、免除，常搭配 with）語意不符；disperse（驅散、使分散）語意不符，四字同為 dis- 字首形似詞，屬進階詞彙易混淆辨析。"
+      "zh": "這家公司的長期成長策略，「以」嚴謹的資本配置方式與保守的負債結構為根基。",
+      "why": "<b>underpin</b>（為…提供根基、支撐）精準對應此處「策略以嚴謹資本配置為根基」的語境。undermine（削弱、暗中破壞）語意相反；undertake（承擔、著手進行）語意不符；understate（輕描淡寫、低估）語意不符，四字同為 under- 字首形似詞，屬進階詞彙易混淆辨析。"
     }
   ],
   "p6": {
-    "id": "2026-09-19-p6",
-    "title": "MEMORANDUM: Revised Protocol for Managing Reduction-in-Force Communications",
+    "id": "2026-09-20-p6",
+    "title": "MEMORANDUM: New Guidelines for Approving Marketing Claims in Advertising Materials",
     "seg": [
       [
-        "To all department heads: Effective immediately, any planned staff reduction affecting five or more employees within a single department ",
+        "To all marketing staff: Effective immediately, any advertising material containing a quantitative performance claim about a company product ",
         { "b": 0 },
-        " to Human Resources and Legal at least thirty days before the intended notification date, in order to ensure compliance with applicable labor regulations."
+        " to the Legal and Compliance team for substantiation review before publication or distribution."
       ],
       [
         { "b": 1 },
-        ", department heads must not disclose the identities of affected employees to anyone outside the approved planning group before Human Resources has finalized the notification schedule."
+        ", general brand messaging that does not reference specific performance metrics may proceed through the standard marketing review process without additional substantiation."
       ],
       [
-        "Human Resources will work closely with department heads to ",
+        "Marketing staff should never attempt to ",
         { "b": 2 },
-        " a communication timeline that treats affected employees with dignity and provides clear information about severance and benefits."
+        " performance data from third-party studies in a way that misrepresents the original findings."
       ],
       [
         { "b": 3 },
-        " Managers who have questions about the process should contact their designated Human Resources business partner directly."
+        " The Legal and Compliance team's typical review turnaround is three business days."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["must be reported", "reports", "has reported", "is reporting"],
+        "opts": ["must be submitted", "submits", "has submitted", "is submitting"],
         "ans": 0,
-        "zh": "致所有部門主管：自即日起，任何影響單一部門五名以上員工的裁員計畫，皆「須於」預定通知日期至少三十天前，向人資與法務部門通報，以確保符合相關勞動法規。",
-        "why": "裁員計畫是被通報的對象，此句表達強制性規定，須用被動情態動詞 <b>must be reported</b>。reports 為主動現在式，不符被動需求；has reported 為現在完成式主動語態，語意錯誤；is reporting 為現在進行式主動語態，同樣不符合規定語氣。"
+        "zh": "致所有行銷同仁：自即日起，任何含有公司產品量化績效聲明的廣告素材，發布或散布前皆「須提交」予法務暨法遵團隊進行佐證審查。",
+        "why": "廣告素材是被提交的對象，此句表達強制性規定，須用被動情態動詞 <b>must be submitted</b>。submits 為主動現在式，不符被動需求；has submitted 為現在完成式主動語態，語意錯誤；is submitting 為現在進行式主動語態，同樣不符合規定語氣。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["Moreover", "As a result", "For instance", "Meanwhile"],
+        "opts": ["By comparison", "Consequently", "For that reason", "Likewise"],
         "ans": 0,
-        "zh": "「此外」，在人資部門確定通知時程之前，部門主管不得向核准的規劃小組以外的任何人透露受影響員工的身分。",
-        "why": "<b>Moreover</b>（此外）表遞進補充，承接前句的通報時程規定，進一步說明額外的保密要求。As a result（因此）表因果；For instance（例如）表舉例；Meanwhile（同時）表時間並行，皆不符合此處的遞進補充語意。"
+        "zh": "「相較之下」，未涉及具體績效指標的一般品牌訊息，可透過標準行銷審查流程處理，無需額外佐證。",
+        "why": "<b>By comparison</b>（相較之下）用以對比前句「量化聲明須額外審查」的規定，說明一般品牌訊息適用較簡化的流程。Consequently（因此）表因果；For that reason（因此、基於該理由）表因果；Likewise（同樣地）表類比延續，皆不符合此處的對比語意。"
       },
       {
-        "tag": "進階動詞語意辨別（devise，de-字首形似詞）",
+        "tag": "進階動詞語意辨別（extrapolate，ex(tr)-字首形似詞）",
         "col1": true,
-        "opts": ["devise", "devote", "deviate", "devour"],
+        "opts": ["extrapolate", "extradite", "extricate", "extort"],
         "ans": 0,
-        "zh": "人資部門將與部門主管密切合作「擬定」溝通時程，以尊嚴對待受影響員工，並提供資遣費與福利的明確資訊。",
-        "why": "<b>devise</b>（設計、擬定計畫或方法）精準對應此處語境。devote（奉獻、投入，通常接於時間或心力）語意不符；deviate（偏離、脫離常軌）語意不符；devour（狼吞虎嚥、吞噬）語意不符，四字同為 de- 字首形似詞，屬進階詞彙易混淆辨析。"
+        "zh": "行銷同仁絕不應以扭曲原始研究結果的方式，「推斷延伸」第三方研究的績效數據。",
+        "why": "<b>extrapolate</b>（推斷、外推，依現有數據推論超出原範圍的結論）精準對應此處「以誤導方式延伸解讀數據」的語境。extradite（引渡）語意不符；extricate（使脫困、解救）語意不符；extort（勒索、敲詐）語意不符，四字同為 ex(tr)- 字首形似詞，屬進階詞彙易混淆辨析。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "A confidential support line has also been established for affected employees to ask questions about their transition.",
-          "The company's annual holiday schedule has been posted on the intranet.",
-          "All department heads must submit their year-end performance reviews by December.",
-          "The office cafeteria will be closed for renovations next month."
+          "Marketing staff should build this review period into their campaign timelines to avoid last-minute publication delays.",
+          "The company's brand style guide will be updated with new color palettes next quarter.",
+          "All marketing staff must complete their expense reports within ten business days.",
+          "The annual marketing awards ceremony has been rescheduled to November."
         ],
         "ans": 0,
-        "zh": "「一條保密支援專線也已設立，供受影響員工詢問過渡期相關問題。」若主管對此流程有任何疑問，應直接聯繫指定的人資業務夥伴。",
-        "why": "段落主題為「裁員溝通程序修訂」，此句說明為受影響員工設立的保密支援專線，與下一句「主管疑問應聯繫人資業務夥伴」共同構成流程執行與資源支援的完整收尾。其餘選項（年度假期行事曆、年終績效考核、員工餐廳整修）皆與裁員溝通程序無關，插入後語意斷裂。"
+        "zh": "「行銷同仁應將此審查期程納入活動時程規劃，以避免最後一刻延誤發布。」法務暨法遵團隊的一般審查作業時間為三個工作天。",
+        "why": "段落主題為「廣告素材行銷聲明審核新規範」，此句提醒同仁應將審查期程納入規劃，與下一句「一般審查作業時間為三個工作天」共同構成流程說明的完整收尾。其餘選項（品牌風格指南更新、報帳期限、行銷獎項頒獎典禮改期）皆與廣告聲明審核規範無關，插入後語意斷裂。"
       }
     ]
   }
