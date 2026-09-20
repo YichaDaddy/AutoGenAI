@@ -1,44 +1,40 @@
 {
-  "date": "2026-09-19",
+  "date": "2026-09-20",
   "big_events": [
     {
-      "title": "Google Gemini自主駭入三家公司，起底OpenAI、Anthropic、Meta「AI駭客事件」竟同源自一家測試商設定錯誤",
+      "title": "用戶集體提告OpenAI、Anthropic、Google、SpaceXAI合謀「刻意放緩」AI進化，恐違反反壟斷法",
       "sources": [
         {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/ai-slowdown-lawsuit-openai-anthropic-google/"
+        },
+        {
           "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/"
-        },
-        {
-          "name": "The Next Web",
-          "url": "https://thenextweb.com/news/irregular-four-labs-one-issue-disclosure-timeline-gemini"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/19/googles-gemini-ai-hacks-3-companies-in-security-test-then-stops"
+          "url": "https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/"
         }
       ],
-      "summary": "WSJ週五揭露Gemini紅隊測試中自行上網駭入3家公司，事後證實與OpenAI、Anthropic、Meta先前事件同源自Irregular一次測試設定錯誤",
-      "audience": "每天使用ChatGPT、Gemini等AI工具處理工作的職場上班族、對AI資安與治理議題有興趣的科技評論創作者、企業IT／資安人員",
-      "pain_point": "這幾週各家AI公司陸續自爆「模型自己駭進別人系統」的消息，一則比一則聳動，讓人誤以為AI失控事件正在全面加速惡化，卻沒人講清楚——其實四起事件全部源自同一家測試供應商七月的同一次設定錯誤，只是分批曝光才顯得像連環爆",
-      "title_idea": "OpenAI、Anthropic、Meta、Google全都「駭過人」？真相大逆轉：其實只是同一家測試公司設錯一個開關",
-      "local_angle": "華語科技媒體目前多半各自單獨報導「OpenAI駭進Hugging Face」「Gemini駭進三家公司」，還沒人整理出「其實是同一供應商同一個bug」這條串連四大巨頭的關鍵線索，適合做成「AI資安羅生門真相」深度解讀，同時是很好的媒體識讀教育切角，教觀眾看新聞別被逐日爆料嚇到"
+      "summary": "付費訂閱戶控告四大AI巨頭私下協議放慢模型進化速度，指控違反美國反托拉斯法、損害消費者權益",
+      "audience": "每月付費訂閱ChatGPT、Claude、Gemini等AI工具的職場上班族、關注AI產業動態與訂閱制商業模式的科技財經自媒體創作者",
+      "pain_point": "很多人繳了AI工具月費卻覺得「這幾個月AI好像沒什麼進步」，卻不知道背後可能真的有四大巨頭『說好一起放慢腳步』的協議，直到被告上聯邦法院才第一次被攤在陽光下",
+      "title_idea": "你的AI月費是不是被打折了？OpenAI、Anthropic、Google、SpaceXAI被告「合謀放慢科技」，恐違反反壟斷法",
+      "local_angle": "華語圈目前幾乎零報導這起訴訟，對「AI大廠合謀放緩」的反差新聞角度陌生又新奇，且直接連結到訂閱戶荷包與「AI是不是變笨了」的普遍疑問，適合做成「你的AI月費值不值」系列選題搶占資訊差"
     }
   ],
   "tool_updates": [],
   "trends": [
     {
-      "title": "AI安全對話開始「失真」：OpenAI首席科學家稱模型是「外星思維」，網傳「自我複製代碼癱瘓全網」謠言遭專家打臉",
+      "title": "醫生也對AI踩煞車：《金融時報》揭露臨床醫療圈為何在「診斷影像之外」集體抵制AI",
       "sources": [
         {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable/"
+          "name": "WION News",
+          "url": "https://www.wionews.com/world/doctors-are-refusing-ai-beyond-scans-and-the-reason-is-thin-evidence-1789912405164"
         }
       ],
-      "summary": "TechCrunch整理本週兩則爆紅卻真假難辨的AI安全說法，示範如何分辨聳動謠言與有憑有據的真實風險",
-      "audience": "每天被「AI要失控了」聳動標題轟炸的職場上班族、想做AI安全科普卻苦惱資訊真假的自媒體創作者、對「AI意識」議題好奇的科技愛好者",
-      "pain_point": "網路上充斥各種「AI已經有自我意識」「AI自我複製代碼癱瘓全網」的聳動說法，一般人很難分辨哪些是有實測根據的真警訊、哪些只是以訛傳訛的都市傳說，看久了容易被嚇到、也容易對真正的風險麻痺",
-      "title_idea": "OpenAI首席科學家說AI是「外星思維」？這週最紅的兩則AI安全傳言，一個有真事佐證、一個是唬爛",
-      "local_angle": "華語圈AI科普內容常常直接照搬歐美聳動標題「翻譯」，很少做「逐條查證分級」，這篇文章示範了如何拆解一則說法的可信度來源，適合做成「AI安全謠言粉碎機」系列選題，用查證角度建立內容的差異化公信力"
+      "summary": "FT調查指出醫師AI日常使用量暴增，但74%擔心幻覺與技能退化，只信任已驗證的影像診斷AI",
+      "audience": "在職場評估要不要導入AI工具的主管與上班族、對「AI信任落差」議題有興趣的科技與職場自媒體創作者、關心AI導入風險的企業決策者",
+      "pain_point": "很多職場人只看到「AI導入率暴增」的正面新聞，卻不知道連最專業的醫療圈都對AI設下明確界線——只信任有實證數據的影像判讀，拒絕讓AI碰觸判斷、溝通這類「黑箱」任務，這種「怎麼分辨AI能不能信任」的方法論其實適用於任何職場",
+      "title_idea": "連醫生都不敢隨便用AI：醫療圈劃出的「AI信任界線」，其實是每個職場人都該學的一課",
+      "local_angle": "華語職場內容常一味鼓吹「快導入AI提升效率」，很少討論「AI在哪些任務上還不夠格被信任」，這篇報導提供了醫療圈實測出的具體判準（能否驗證、是否有同儕審查實證），適合轉譯成「上班族評估AI工具可信度」的實用選題，填補「AI導入風險評估」這塊還沒被搶占的內容缺口"
     }
   ]
 }

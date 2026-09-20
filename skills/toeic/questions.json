@@ -1,117 +1,117 @@
 {
-  "date": "2026-09-20",
+  "date": "2026-09-21",
   "p5": [
     {
-      "id": "2026-09-20-p5-0",
-      "tag": "倒裝句（So + 副詞 + 助動詞 + 主詞 + 原形動詞，強調頻率並倒裝）",
-      "pre": "So rarely ",
-      "post": " the audit committee find discrepancies of this magnitude that an emergency session was convened within hours.",
-      "opts": ["did", "does", "has", "was"],
+      "id": "2026-09-21-p5-0",
+      "tag": "倒裝句（Only by + 動名詞，介系詞後接動名詞，引發主要子句倒裝）",
+      "pre": "Only by ",
+      "post": " a rigorous internal review process can the company hope to prevent similar compliance failures in the future.",
+      "opts": ["implementing", "implement", "having implemented", "to implement"],
       "ans": 0,
-      "zh": "稽核委員會「甚少」發現如此重大規模的差異，以至於數小時內便召開了緊急會議。",
-      "why": "<b>So</b> + 副詞（rarely）置於句首時，主要子句須引發倒裝，並依時態搭配助動詞。此處描述的是過去單一事件（was convened 為過去式），故用過去式助動詞 <b>did</b> 搭配原形動詞 find。does 為現在式，時態不符；has 須接過去分詞而非原形動詞；was 為 be 動詞，無法與原形動詞 find 直接構成正確倒裝句構。"
+      "zh": "「唯有透過」落實嚴謹的內部審查程序，公司才有望防範未來發生類似的合規缺失。",
+      "why": "by 為介系詞，其後須接動名詞（Ving）作受詞，<b>implementing</b> 為正確形式。implement 為原形動詞，介系詞後不可直接接原形動詞；having implemented 為完成式動名詞，此處僅需描述一般方法而非強調先後順序，較不自然；to implement 為不定詞，介系詞 by 後不可接不定詞。此句 Only by 置於句首引發主要子句倒裝（can the company hope），為固定倒裝句型。"
     },
     {
-      "id": "2026-09-20-p5-1",
-      "tag": "獨立分詞構句慣用語（All things considered，＝整體而言、綜合考量）",
+      "id": "2026-09-21-p5-1",
+      "tag": "減化關係子句（the first + 不定詞，作後置修飾語）",
+      "pre": "The company was the first in the industry ",
+      "post": " voluntarily disclose the vulnerability before regulators required it to do so.",
+      "opts": ["to", "for", "that", "in"],
+      "ans": 0,
+      "zh": "該公司是業界「第一個」在監管機關要求之前，便自願揭露此漏洞的企業。",
+      "why": "<b>the first + 不定詞（to V）</b>為固定用法，用來修飾「第一個做某事的人／事物」，屬減化關係子句的一種（= the first that voluntarily disclosed）。for 不具備此功能；that 須接完整子句並將動詞變化為過去式 disclosed，與此處原形動詞 disclose 的句構不符；in 為介系詞，無法連接後方原形動詞。"
+    },
+    {
+      "id": "2026-09-21-p5-2",
+      "tag": "比較結構（more...than any other，以比較級表達最高級意涵）",
+      "pre": "This division generates ",
+      "post": " revenue than any other unit within the conglomerate.",
+      "opts": ["more", "the most", "much more of", "so much"],
+      "ans": 0,
+      "zh": "這個部門所創造的營收，「超過」集團內任何其他單位。",
+      "why": "<b>more...than any other</b> + 單數名詞為固定句型，以比較級表達「勝過所有其他」的最高級意涵。the most 為最高級形式，通常不與 than any other 的比較級句構並用；much more of 用法累贅且不符合此固定搭配；so much 不具備此比較功能，不成立。"
+    },
+    {
+      "id": "2026-09-21-p5-3",
+      "tag": "讓步慣用語（Little as + 主詞 + may/might，＝儘管…甚少）",
       "pre": "",
-      "post": ", the quarter's results were respectable despite the unexpected supply chain disruptions.",
-      "opts": ["All things considered", "All things considering", "All being considered", "All to consider"],
+      "post": " the board may know about the technical details of the merger, they remain fully accountable for its financial outcomes.",
+      "opts": ["Little as", "As little", "So little as", "Little though as"],
       "ans": 0,
-      "zh": "「整體考量之下」，儘管遭遇了意外的供應鏈中斷，本季的業績表現仍屬不錯。",
-      "why": "<b>All things considered</b> 為固定的獨立分詞構句慣用語，considered 為過去分詞表被動語意（所有事情皆已被納入考量），意為「整體而言」。All things considering 誤用現在分詞，語態錯誤（things 不會主動 consider）；All being considered 語序及慣用性皆不符；All to consider 不定詞形式不符合此固定慣用語結構。"
+      "zh": "「儘管」董事會對這樁併購案的技術細節所知甚少，他們仍須為其財務結果負起完全責任。",
+      "why": "<b>Little as + 主詞 + may/might</b> 為讓步慣用句型，意為「儘管…甚少」，little 前移至句首構成倒裝讓步結構。As little 語序顛倒，不符合此固定倒裝形式；So little as 不成立此讓步慣用搭配；Little though as 為冗贅重複的錯誤組合。"
     },
     {
-      "id": "2026-09-20-p5-2",
-      "tag": "慣用語（second to none，表「不亞於任何人／物，首屈一指」）",
-      "pre": "In terms of customer service responsiveness, this vendor is ",
-      "post": " in the industry.",
-      "opts": ["second to none", "the second to none", "second to nothing", "seconds to none"],
+      "id": "2026-09-21-p5-4",
+      "tag": "進階動詞語意辨別（counteract，counter-字首形似詞）",
+      "pre": "The central bank introduced a series of measures to ",
+      "post": " the inflationary pressure caused by the sudden spike in energy prices.",
+      "opts": ["counteract", "counterfeit", "countermand", "counterclaim"],
       "ans": 0,
-      "zh": "就客服回應速度而言，這家供應商在業界「無人能出其右」。",
-      "why": "<b>second to none</b> 為固定慣用語，意為「不遜於任何人或事物」，不加冠詞 the，也不用複數形式。the second to none 誤加冠詞；second to nothing 誤用 nothing 取代 none；seconds to none 誤用複數形式，皆不成立此固定慣用語。"
-    },
-    {
-      "id": "2026-09-20-p5-3",
-      "tag": "讓步倒裝（形容詞 + as + 主詞 + 動詞，＝although + 主詞 + be + 形容詞）",
-      "pre": "",
-      "post": " the proposal may seem, the board is unwilling to dismiss it without a thorough cost-benefit analysis.",
-      "opts": ["Unconventional as", "As unconventional", "Unconventional though as", "So unconventional as"],
-      "ans": 0,
-      "zh": "「儘管」這項提案看似不落俗套，董事會仍不願在未經徹底成本效益分析前就將其駁回。",
-      "why": "<b>形容詞 + as + 主詞 + 動詞</b>為讓步倒裝句型，將表語形容詞前移至句首，等同於 Although the proposal may seem unconventional。As unconventional 語序顛倒，不符合此固定倒裝形式（as 須置於形容詞之後）；Unconventional though as 為冗贅重複的錯誤組合；So unconventional as 不成立此讓步倒裝的固定搭配。"
-    },
-    {
-      "id": "2026-09-20-p5-4",
-      "tag": "進階動詞語意辨別（underpin，under-字首形似詞）",
-      "pre": "The firm's long-term growth strategy is ",
-      "post": " by a disciplined approach to capital allocation and a conservative debt profile.",
-      "opts": ["underpinned", "undermined", "undertaken", "understated"],
-      "ans": 0,
-      "zh": "這家公司的長期成長策略，「以」嚴謹的資本配置方式與保守的負債結構為根基。",
-      "why": "<b>underpin</b>（為…提供根基、支撐）精準對應此處「策略以嚴謹資本配置為根基」的語境。undermine（削弱、暗中破壞）語意相反；undertake（承擔、著手進行）語意不符；understate（輕描淡寫、低估）語意不符，四字同為 under- 字首形似詞，屬進階詞彙易混淆辨析。"
+      "zh": "央行祭出一系列措施，以「抵銷」能源價格驟漲所帶來的通膨壓力。",
+      "why": "<b>counteract</b>（抵銷、抵消，抗衡負面影響）精準對應此處語境。counterfeit（偽造，仿冒貨幣或商品）語意不符；countermand（撤銷命令、取消先前指示）語意不符；counterclaim（提出反訴，法律用語）語意不符，四字同為 counter- 字首形似詞，屬進階詞彙易混淆辨析。"
     }
   ],
   "p6": {
-    "id": "2026-09-20-p6",
-    "title": "MEMORANDUM: New Guidelines for Approving Marketing Claims in Advertising Materials",
+    "id": "2026-09-21-p6",
+    "title": "MEMORANDUM: Updated Protocol for Handling Whistleblower Complaints Received via the Ethics Hotline",
     "seg": [
       [
-        "To all marketing staff: Effective immediately, any advertising material containing a quantitative performance claim about a company product ",
+        "To all Ethics Hotline administrators: Effective immediately, any complaint received through the hotline alleging financial misconduct or safety violations ",
         { "b": 0 },
-        " to the Legal and Compliance team for substantiation review before publication or distribution."
+        " to the Audit Committee chair within twelve hours of receipt, regardless of the anonymity status of the reporting individual."
       ],
       [
         { "b": 1 },
-        ", general brand messaging that does not reference specific performance metrics may proceed through the standard marketing review process without additional substantiation."
+        ", complaints involving routine workplace disagreements or personality conflicts should be redirected to the standard Human Resources grievance process rather than escalated as ethics violations."
       ],
       [
-        "Marketing staff should never attempt to ",
+        "Hotline administrators should never attempt to ",
         { "b": 2 },
-        " performance data from third-party studies in a way that misrepresents the original findings."
+        " the identity of an anonymous reporter, even when internal pressure to do so is significant."
       ],
       [
         { "b": 3 },
-        " The Legal and Compliance team's typical review turnaround is three business days."
+        " A quarterly summary of hotline activity, with all identifying details removed, is provided to the full board for oversight purposes."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["must be submitted", "submits", "has submitted", "is submitting"],
+        "opts": ["must be escalated", "escalates", "has escalated", "is escalating"],
         "ans": 0,
-        "zh": "致所有行銷同仁：自即日起，任何含有公司產品量化績效聲明的廣告素材，發布或散布前皆「須提交」予法務暨法遵團隊進行佐證審查。",
-        "why": "廣告素材是被提交的對象，此句表達強制性規定，須用被動情態動詞 <b>must be submitted</b>。submits 為主動現在式，不符被動需求；has submitted 為現在完成式主動語態，語意錯誤；is submitting 為現在進行式主動語態，同樣不符合規定語氣。"
+        "zh": "致所有倫理專線管理人員：自即日起，任何透過專線收到、指稱財務不當行為或安全違規的投訴，皆「須於」收到後12小時內呈報予稽核委員會主席，無論通報人是否選擇匿名。",
+        "why": "投訴是被呈報的對象，此句表達強制性規定，須用被動情態動詞 <b>must be escalated</b>。escalates 為主動現在式，不符被動需求；has escalated 為現在完成式主動語態，語意錯誤；is escalating 為現在進行式主動語態，同樣不符合規定語氣。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["By comparison", "Consequently", "For that reason", "Likewise"],
+        "opts": ["By contrast", "As a result", "For example", "In turn"],
         "ans": 0,
-        "zh": "「相較之下」，未涉及具體績效指標的一般品牌訊息，可透過標準行銷審查流程處理，無需額外佐證。",
-        "why": "<b>By comparison</b>（相較之下）用以對比前句「量化聲明須額外審查」的規定，說明一般品牌訊息適用較簡化的流程。Consequently（因此）表因果；For that reason（因此、基於該理由）表因果；Likewise（同樣地）表類比延續，皆不符合此處的對比語意。"
+        "zh": "「相較之下」，涉及一般職場意見分歧或人際衝突的投訴，應轉介至標準的人資申訴流程，而非升級為倫理違規案件處理。",
+        "why": "<b>By contrast</b>（相較之下）用以對比前句「財務不當行為或安全違規須立即升級」的規定，說明一般職場糾紛適用不同流程。As a result（因此）表因果；For example（例如）表舉例；In turn（依次）表順序，皆不符合此處的對比語意。"
       },
       {
-        "tag": "進階動詞語意辨別（extrapolate，ex(tr)-字首形似詞）",
+        "tag": "進階動詞語意辨別（ascertain，as-字首形似詞）",
         "col1": true,
-        "opts": ["extrapolate", "extradite", "extricate", "extort"],
+        "opts": ["ascertain", "assert", "ascribe", "assimilate"],
         "ans": 0,
-        "zh": "行銷同仁絕不應以扭曲原始研究結果的方式，「推斷延伸」第三方研究的績效數據。",
-        "why": "<b>extrapolate</b>（推斷、外推，依現有數據推論超出原範圍的結論）精準對應此處「以誤導方式延伸解讀數據」的語境。extradite（引渡）語意不符；extricate（使脫困、解救）語意不符；extort（勒索、敲詐）語意不符，四字同為 ex(tr)- 字首形似詞，屬進階詞彙易混淆辨析。"
+        "zh": "專線管理人員絕不應試圖「查明」匿名通報人的身分，即使承受相當大的內部壓力亦然。",
+        "why": "<b>ascertain</b>（確定、查明）精準對應此處語境。assert（斷言、堅稱）語意不符；ascribe（歸因於）語意不符；assimilate（同化、吸收）語意不符，四字同為 as- 字首形似詞，屬進階詞彙易混淆辨析。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Marketing staff should build this review period into their campaign timelines to avoid last-minute publication delays.",
-          "The company's brand style guide will be updated with new color palettes next quarter.",
-          "All marketing staff must complete their expense reports within ten business days.",
-          "The annual marketing awards ceremony has been rescheduled to November."
+          "All complaint records are stored in a restricted-access system separate from the company's general document management platform.",
+          "The company's annual ethics training will be updated with new interactive modules.",
+          "Employees may nominate colleagues for the annual integrity award through the intranet.",
+          "The Ethics Hotline phone system will undergo maintenance this weekend."
         ],
         "ans": 0,
-        "zh": "「行銷同仁應將此審查期程納入活動時程規劃，以避免最後一刻延誤發布。」法務暨法遵團隊的一般審查作業時間為三個工作天。",
-        "why": "段落主題為「廣告素材行銷聲明審核新規範」，此句提醒同仁應將審查期程納入規劃，與下一句「一般審查作業時間為三個工作天」共同構成流程說明的完整收尾。其餘選項（品牌風格指南更新、報帳期限、行銷獎項頒獎典禮改期）皆與廣告聲明審核規範無關，插入後語意斷裂。"
+        "zh": "「所有投訴紀錄皆儲存於一套與公司一般文件管理平台區隔、且存取權限受限的系統中。」每季度會將專線活動摘要（移除所有可識別身分的細節）提供予董事會全體成員以供監督之用。",
+        "why": "段落主題為「倫理專線吹哨者投訴處理程序更新」，此句說明投訴紀錄的儲存保密機制，與下一句「季度摘要提供董事會監督」共同構成保密措施與治理監督的完整收尾。其餘選項（年度倫理訓練更新、誠信獎提名、專線系統維護）皆與投訴處理程序無關，插入後語意斷裂。"
       }
     ]
   }
