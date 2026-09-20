@@ -1,71 +1,72 @@
 {
-  "date": "2026-09-19",
+  "date": "2026-09-20",
   "market_shocks": [
     {
-      "title": "Houthi飛彈首度直擊利雅德機場！Aramco證實10月對歐洲祭出「零配額」",
+      "title": "胡塞聲稱「雙重攻擊」利雅德與延布煉油廠，但機場9/20已近乎恢復正常",
       "sources": [
-        {"name": "France 24", "url": "https://www.france24.com/en/middle-east/20260919-smoke-flames-seen-near-riyadh-airport-major-flight-disruptions-reported"},
-        {"name": "PBS NewsHour", "url": "https://www.pbs.org/newshour/world/saudi-arabia-confirms-yemens-houthi-rebels-tried-to-attack-its-capital-with-a-ballistic-missile"},
-        {"name": "CNBC", "url": "https://www.cnbc.com/2026/09/19/riyadh-airport-smoke-saudi-arabia.html"},
-        {"name": "Middle East Monitor", "url": "https://www.middleeastmonitor.com/20260919-saudi-aramco-cancels-october-crude-allocations-to-european-refiners-report/"}
+        {"name": "Malay Mail", "url": "https://www.malaymail.com/news/world/2026/09/20/houthi-missile-attack-brings-yemen-war-back-to-riyadhs-doorstep/235822"},
+        {"name": "DAWN.com", "url": "https://www.dawn.com/news/2031137"},
+        {"name": "Middle East Eye", "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-claim-attacks-riyadh-aramco-facilities-yanbu"},
+        {"name": "Misbar", "url": "https://www.misbar.com/en/editorial/2026/09/20/flight-tracking-data-shows-resumption-operations-riyadh-airport"}
       ],
-      "summary": "沙烏地阿拉伯9/19證實，葉門青年運動（Houthi）發射彈道飛彈企圖攻擊利雅德「敏感目標」，這是開戰以來首度瞄準沙國首都，利雅德國際機場燃油儲存區竄出濃煙火光，機場一度大亂。同一時間彭博與Middle East Monitor證實，Aramco已通知至少兩家歐洲煉油客戶10月長約「零配額」，是這場戰爭爆發以來首次全面取消term合約供油。",
-      "tw_stock_impact": "這則消息直接推翻9/18「沙特管線將修復、油價連3跌」的樂觀劇本——攻擊範圍從邊境管線升級到首都機場，供給缺口從「暫時搶修」升級為「長約合同全面取消」，若週一開盤油價跳空走高，台塑集團（台塑化、南亞）可能重演本週油價上漲時的漲勢，但長榮、陽明等航運股的中東航線保費與燃油成本壓力也會同步升溫，能源、塑化、航運類股週一開盤方向恐出現反轉。",
-      "investment_insight": "市場先前對油價回落的樂觀假設，是建立在「管線數週內可修復」之上，如今首都本身遭飛彈瞄準、加上Aramco對歐洲客戶罕見開出零配額，顯示風險並未如期收斂反而擴大。建議投資人週一密切觀察WTI／Brent開盤跳空方向，不宜在上週五低點追空原油部位，並對台塑集團、貨櫃三雄等避險部位保留彈性籌碼。",
-      "title_idea": "利雅德機場遭飛彈直擊！沙國10月對歐洲祭出「零配額」，油價樂觀劇本一夕生變",
-      "local_angle": "台灣是能源淨進口國、又高度倚賴中東航線與波灣油源，這次攻擊首度瞄準沙國首都本身，加上Aramco對歐洲長約客戶史無前例的「零配額」，等於供給風險從單一設施升級到國家級長約層級，是判斷下週油價、塑化與航運股走勢最新、也最關鍵的變數。"
+      "summary": "葉門青年運動（Houthi）發言人薩里9/20宣稱，前一日已對利雅德「敏感目標」與沙烏地阿美延布（Yanbu）煉油設施發動「兩次成功軍事行動」，動用大量彈道飛彈、巡弋飛彈與無人機。但沙國官方僅證實無人員傷亡、設施損害輕微，Flightradar24數據更顯示，利雅德機場的航班擾動指數已從週六的重度中斷，降至9/20僅1.0（約一成航班延誤、僅1%取消），顯示情勢正快速穩定下來。",
+      "tw_stock_impact": "攻擊範圍擴大到延布煉油廠，但實際損害有限、機場迅速恢復運作，等於「威脅聲明擴大、實質衝擊可控」的組合訊號，週一台股塑化、航運類股開盤可能出現「先跳空反應、隨後修正」的雙向震盪，不宜單邊追價或殺低。",
+      "investment_insight": "建議觀察週一亞洲盤WTI、Brent開盤跳空方向，以及延布煉油廠是否有具體產能受損的後續證實消息；若僅是宣傳性質的攻擊聲明而非實質產能損失，油價可能呈現「開高走低」的假突破，操作上應等待具體供給數據，而非單憑攻擊聲明追價原油與塑化部位。",
+      "title_idea": "胡塞喊「雙重攻擊」利雅德+延布煉油廠！機場卻幾乎恢復正常，葫蘆裡賣什麼藥",
+      "local_angle": "台灣航運與塑化類股對中東消息高度敏感，這次「攻擊聲明升級、實際損害有限」的落差，提醒台灣投資人分辨戰爭宣傳與真實供應中斷的差異，避免被單一聲明牽著鼻子走做出過度反應的部位調整。"
+    },
+    {
+      "title": "戰事升溫比特幣不漲反跌！山寨幣跌更兇，「避險資產」說法再度受考驗",
+      "sources": [
+        {"name": "CryptoBriefing", "url": "https://cryptobriefing.com/houthi-attacks-saudi-oil-bitcoin-impact/"},
+        {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/crypto/articles/cryptos-weekend-drop-preview-monday-085931113.html"}
+      ],
+      "summary": "比特幣9/20報約80,354美元，24小時下跌0.9%（惟週漲幅仍有3.9%），Solana重挫4.2%至108.45美元、Zcash重挫5.47%至1,452.20美元，跌幅明顯大於比特幣本身。分析指出，Aramco延布設施遇襲、供應中斷推升的通膨疑慮，反而讓市場升高對利率、公債殖利率走高的擔憂，使風險性資產全面承壓，比特幣「數位黃金避險」的敘事在這次地緣政治危機中再次未獲驗證。",
+      "tw_stock_impact": "加密貨幣週末轉弱、山寨幣跌幅更勝比特幣，顯示全球資金正轉向風險趨避，這通常也是觀察週一台股、美股開盤外資風險偏好的領先指標之一；若這股轉弱氣氛延續，台股高波動題材股與電子權值股週一開盤可能同步承壓。",
+      "investment_insight": "建議已持有比特幣或山寨幣部位的投資人正視「比特幣未必是地緣政治避險工具」這個一再被驗證的事實，操作上應搭配美債殖利率走勢等傳統避險指標一起觀察，而非在戰事升溫時單押加密貨幣會同步走揚。",
+      "title_idea": "戰爭升溫比特幣不漲反跌！「數位黃金」避險神話這次又被打臉",
+      "local_angle": "台灣加密貨幣投資人常誤信「亂世買比特幣」的說法，這次中東情勢升溫比特幣卻應聲下跌，是檢視自己資產配置邏輯、避免把加密貨幣當成戰爭避險工具的重要提醒。"
     }
   ],
   "investment_opportunities": [
     {
-      "title": "SEC核准代幣化股票「創新豁免」，Uniswap暴漲16%、Hyperliquid續強",
+      "title": "以太幣ETF單日進帳1.44億美元創本月次高，技術面緊盯2,672美元關卡",
       "sources": [
-        {"name": "The Market Periodical", "url": "https://themarketperiodical.com/2026/09/19/uniswap-price-jumps-16-after-sec-tokenized-stock-exemption/"},
-        {"name": "TradingKey", "url": "https://www.tradingkey.com/analysis/cryptocurrencies/more/262174235-crypto-sec-defi-dex-uniswap-hype-hyperliquid-tradingkey"},
-        {"name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/09/17/sec-opens-door-to-tokenized-u-s-stock-trading-here-s-who-could-benefit"}
+        {"name": "usethebitcoin.com", "url": "https://usethebitcoin.com/eth/ethereum-price-september-20-2026/"},
+        {"name": "Bloomingbit", "url": "https://en.bloomingbit.io/feed/news/120657"},
+        {"name": "KuCoin", "url": "https://www.kucoin.com/news/flash/ethereum-spot-etfs-see-144m-net-inflow-on-sept-18-blackrock-s-etha-leads-with-114m"}
       ],
-      "summary": "美國證管會（SEC）核准為期5年的「創新豁免」框架，允許代幣化美股透過自動做市商（AMM）在鏈上直接交易，平台（TSV）暫免登記為交易所，但需驗證代幣持有人享有與傳統股票相同的股息與投票權，並遵守OFAC制裁規範。消息帶動DeFi板塊週末持續發燒，Uniswap（UNI）暴漲逾16%逼近8美元，Hyperliquid（HYPE）續強突破86美元。",
-      "tw_stock_impact": "此舉不直接牽動台股個股，但代幣化股票若成熟，長線恐分流部分海外券商、ETF資金流向鏈上平台，對純網銀、證券業的財富管理業務是潛在中長期競爭變數；短線對台股加密貨幣概念股（如與交易所、礦機供應鏈相關個股）情緒面偏正向。",
-      "investment_insight": "這是美國監理機關首次為「傳統股票上鏈交易」開出明確但有限的合法路徑，屬於結構性、非一次性的政策紅利，建議對DeFi龍頭（如具備AMM基礎設施的平台代幣）保留觀察部位，但豁免僅5年且附帶嚴格條件，須留意後續SEC是否進一步放寬或收緊規則，避免將短線暴漲視為長期趨勢確立。",
-      "title_idea": "美股要上鏈了？SEC罕見核准代幣化交易，DeFi雙雄週末噴出16%",
-      "local_angle": "台灣投資人若透過海外帳戶配置美股，未來「代幣化美股」若普及，等於多一種24小時、免時差交易美股的管道，但相關法規、稅務與監理落差仍大，建議純觀察而非貿然重倉，優先留意國內金管會後續是否有對應規範。"
-    },
-    {
-      "title": "比特幣週末衝上8.1萬美元，山寨幣季節指數逼近50、貪婪指數飆78",
-      "sources": [
-        {"name": "Benzinga", "url": "https://www.benzinga.com/crypto/26/09/61884589/altcoin-season-index-nears-50-as-crypto-fear-and-greed-index-jumps"},
-        {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/09/18/bitcoin-weathers-september-storm-as-rate-hikes-and-clarity-act-setback-test-bulls"}
-      ],
-      "summary": "比特幣週末持續在CLARITY法案闖關失敗、Fed升息利空消化後回升，一度衝上約8.13萬美元；山寨幣季節指數跳升至48、逼近「山寨幣季」的50分界，加密貨幣恐懼與貪婪指數同步跳升至78的「貪婪」區間。NEAR、Tezos、Arbitrum、Uniswap、Ethena、Zcash等代幣近7日漲幅普遍超過40%，資金明顯從比特幣轉向中小型山寨幣與RWA（真實世界資產）題材。",
-      "tw_stock_impact": "加密貨幣屬24小時交易市場，週末的資金輪動與情緒指標對台股本身無直接連動，但可作為觀察下週全球風險偏好的領先指標之一——若貪婪情緒持續發燒，通常伴隨風險資產（含台股電子權值股）資金行情延續；反之若指標過熱後急速降溫，也常是短線獲利了結的訊號。",
-      "investment_insight": "貪婪指數達78、山寨幣季節指數逼近轉折點，歷史上是短線過熱訊號而非進場訊號，建議台灣投資人若已持有比特幣或主流山寨幣部位，可考慮分批獲利了結或設定移動停利，避免在情緒最亢奮時重倉追高中小型代幣。",
-      "title_idea": "貪婪指數飆78！比特幣週末衝8.1萬美元，山寨幣季節即將降臨？",
-      "local_angle": "台灣加密貨幣投資人週末仍可交易，這波「Fed升息＋CLARITY法案挫敗」利空出盡後的反彈與山寨幣輪動，適合用來檢視自己的加密貨幣部位是否過度集中在單一熱門代幣，並趁貪婪情緒高點檢視風險曝險。"
+      "summary": "美國現貨以太幣ETF於9/18單日淨流入1.44億美元，創本月次高，一舉終結前三個交易日合計流出約4.05億美元的頹勢，其中貝萊德ETHA單日吸金1.14億美元居冠、富達FETH進帳約2,624萬美元。以太幣9/20報約2,600至2,630美元附近，週末交投清淡，仍守在2,672美元關鍵壓力下方；若能站穩此區，技術面有望進一步挑戰2,800至3,000美元。",
+      "tw_stock_impact": "以太幣ETF資金鬆動回流，對台灣透過複委託佈局美股加密貨幣ETF、或持有虛擬資產交易所、礦機供應鏈相關概念股的投資人是情緒面利多，但目前僅是止穩訊號、尚未站上關鍵壓力關卡，追價前應留意週一美股開盤後資金是否延續回補。",
+      "investment_insight": "建議投資人將2,600至2,616美元視為以太幣短線多空分水嶺，站穩則可考慮分批布局看向2,800美元，跌破則應提高警覺、避免追高；並持續追蹤現貨ETF單日資金流向，作為判斷機構資金是否真正回流的具體指標，而非僅看價格單日漲跌。",
+      "title_idea": "以太幣ETF單日吸金1.44億美元創次高！2,672美元是多空生死線",
+      "local_angle": "台灣投資人若透過複委託或海外券商配置以太幣ETF，這次資金流向由連3日流出轉為單日大幅回補，是判斷後續是否加碼、或僅是技術性反彈的重要參考依據。"
     }
   ],
   "macro_observations": [
     {
-      "title": "伊朗證實透過卡達遞交停戰條件，靜候川普回應",
+      "title": "台股風向球：站回4.7萬點，惟中秋連假前賣壓與外資賣超值得留意",
       "sources": [
-        {"name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/9/19/iran-says-conditions-to-re-engage-in-talks-end-war-sent-to-us-via-qatar"},
-        {"name": "Yahoo News", "url": "https://www.yahoo.com/news/politics/articles/iran-says-war-end-terms-154511223.html"}
+        {"name": "鉅亨網", "url": "https://news.cnyes.com/news/id/6611485"}
       ],
-      "summary": "伊朗最高國家安全委員會官員雷札伊9/19向半島電視台證實，伊朗已將停戰三大條件——各戰線停火、解凍伊朗海外資產、解除美方海上封鎖——透過中介國卡達轉交美方，目前正等候川普總統回應。雷札伊強調「川普的威脅不會有任何效果」，同時表明伊朗已為長期作戰做好準備。",
-      "tw_stock_impact": "若這輪透過卡達的談判最終促成實質停火，將是近半年來油價、避險情緒最重要的轉折訊號之一，對台股權值股、航運與能源類股的影響方向恰與週六稍早的利雅德機場攻擊消息相反；但目前僅是伊朗單方喊話、川普尚未回應，台灣投資人不宜對戰爭結束預期過早定價。",
-      "investment_insight": "地緣政治談判進展與戰場升級消息同一天並存，反映局勢仍高度不確定，建議投資人在配置能源、航運相關部位時採取「雙向避險」思維而非單邊押注戰爭升溫或降溫，密切留意下週川普是否正式回應，這將是判斷油價中期方向的關鍵事件。",
-      "title_idea": "戰場升溫、談判桌也在動！伊朗喊話卡達轉交停戰條件，就等川普點頭",
-      "local_angle": "台灣以能源進口與海運貿易為經濟命脈，這則停戰談判消息與同日利雅德機場遇襲形成強烈對比，提醒台灣投資人中東局勢「戰與談」同步進行，油價與塑化航運類股波動度短期內難以降溫，追價或殺低都需更謹慎。"
+      "summary": "鉅亨網9/20發布的台股週末展望指出，台股上週受惠Fed升息利空出盡大漲995.9點、重新站上47,000點；但外資上週仍淨賣超185億元，同期間投信已連續四週買超，籌碼呈現「一買一賣」分歧格局。報導同時提到瑞銀（UBS）上修全球AI資本支出預測、記憶體現貨價格走強可望嘉惠OTC類股表現，但市場人士提醒中秋節前傳統上容易出現獲利了結賣壓。",
+      "tw_stock_impact": "台股雖已站回月線之上的47,000點關卡，但外資與投信買賣力道分歧，加上中秋連假前季節性賣壓提醒，週一開盤若延續上週五急拉態勢，投資人應留意是否出現「連假前獲利了結」的修正賣壓，尤其是短線漲多的記憶體、塑化族群。",
+      "investment_insight": "建議投資人參考投信「連4週買超」的動向做為中小型類股的觀察指標，同時留意中秋節前傳統賣壓是否提前於本週浮現；操作上可考慮分批減碼漲多個股、保留連假期間的資金彈性，避免全押節前行情。",
+      "title_idea": "台股重返4.7萬點！法人卻示警：中秋連假前，這種賣壓最該提防",
+      "local_angle": "台灣投資人習慣在長假前檢視手中部位，這則週末展望點出的「投信買超、外資賣超」分歧與連假前賣壓慣性，是本週操作前最直接可用的籌碼面與季節性參考。"
     },
     {
-      "title": "四巫日結算後市場多空訊號互打架，週一台美股恐現方向選擇",
+      "title": "美國柴油價格週日飆破6.51美元創新高，國會醞釀出口禁令挑動「資源國家主義」疑慮",
       "sources": [
-        {"name": "Investing.com", "url": "https://www.investing.com/analysis/septembers-triple-witching-62t-options-expire-today--what-to-expect-200687966"}
+        {"name": "Newsweek", "url": "https://www.newsweek.com/chuck-grassley-presses-trump-as-iowa-diesel-prices-hit-record-high-12464839"},
+        {"name": "ZeroHedge", "url": "https://www.zerohedge.com/markets/grassley-urges-diesel-export-ban-global-fuel-crisis-stokes-resource-nationalism-fears"},
+        {"name": "Twitchy", "url": "https://twitchy.com/jacobb/2026/09/20/sen-chuck-grassley-argues-for-a-diesel-embargo-n2432523"}
       ],
-      "summary": "上週五（9/18）美股史上第二大四巫日結算後，選擇權部位轉為對現貨市場的「緩衝墊」而非放大波動的引信，但歷史統計顯示2000年以來約四分之三的9月三巫╱四巫日過後5個交易日美股偏弱；與此同時週末爆出的利雅德機場攻擊與Aramco零配額消息，等於在原本「結算後恐拉回」的技術性隱憂之外，再疊加一層地緣政治的基本面變數。",
-      "tw_stock_impact": "台股上週五因富時季度調整暴力反彈892點收47,180點，但全周外資仍是淨賣家，若美股週一因結算後賣壓或油價跳空走高而拉回，台股在高檔的權值股、記憶體概念股可能同步承壓，投資人應留意這波急漲是否只是「調整資金行情」而非趨勢確立。",
-      "investment_insight": "技術性的「結算後拉回」統計與基本面的「地緣風險升溫」兩股力道同時指向下週波動放大，建議短線交易者避免在台股、美股高檔追價，可利用選擇權或分批操作管理下週開盤跳空風險，並以全周（而非單日）法人動向作為判斷資金趨勢的依據。",
-      "title_idea": "史上第2大結算＋中東再生變，下週台美股恐迎「雙重震撼」",
-      "local_angle": "台股投資人習慣觀察美股結算後的外溢效應，這次又疊加週末中東地緣政治突發消息，等於原本就偏向拉回的技術面統計，多了一個不確定性更高的基本面觸媒，建議提高對下週開盤跳空的心理準備。"
+      "summary": "受伊朗戰爭牽動波灣供應中斷影響，美國全國平均柴油價格9/20（週日）再創歷史新高，來到每加侖6.51美元，較去年同期3.70美元大漲近76%。愛荷華州共和黨參議員葛拉斯利（Chuck Grassley）呼籲川普政府仿效1970年代大豆、小麥出口禁令模式，全面禁止柴油出口以壓低國內農民燃油成本；參議院多數黨領袖圖恩（John Thune）表態「願意考慮」相關措施，但內政部長伯格姆（Doug Burgum）警告出口限制恐招致貿易夥伴報復、且未必能真正壓低消費者物價。",
+      "tw_stock_impact": "美國若真的祭出柴油出口禁令，將直接衝擊全球柴油與中餾分油供給格局，短線恐推升亞洲與台灣的進口能源、航運燃料成本，是繼中東戰事之後，另一個值得台灣能源、航運類股投資人追蹤的政策風險變數。",
+      "investment_insight": "建議投資人密切觀察美國國會本週是否有具體立法動作，柴油出口禁令一旦成真，將是「地緣政治風險」之外另一個推升全球燃料價格結構性上漲的政策變數，能源、航運類股操作應同步納入這個政策面風險，而非僅緊盯戰事本身進展。",
+      "title_idea": "柴油飆破6.5美元創天價！美國會議員喊禁出口，「資源國家主義」山雨欲來",
+      "local_angle": "台灣以能源進口為主，美國若真的實施柴油出口禁令，恐透過全球煉油產品貿易鏈間接推升台灣進口柴油與航運燃料成本，是繼中東地緣政治後，另一個看似遙遠卻可能透過供應鏈傳導到台灣民生與航運成本的政策變數。"
     }
   ]
 }
