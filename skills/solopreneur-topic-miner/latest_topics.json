@@ -1,40 +1,102 @@
 {
-  "date": "2026-09-20",
+  "date": "2026-09-21",
   "big_events": [
     {
-      "title": "用戶集體提告OpenAI、Anthropic、Google、SpaceXAI合謀「刻意放緩」AI進化，恐違反反壟斷法",
+      "title": "OpenAI成立數學顧問團，宣布自家AI已解開100多道數學公開問題",
       "sources": [
-        {
-          "name": "CBS News",
-          "url": "https://www.cbsnews.com/news/ai-slowdown-lawsuit-openai-anthropic-google/"
-        },
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/"
-        }
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/"}
       ],
-      "summary": "付費訂閱戶控告四大AI巨頭私下協議放慢模型進化速度，指控違反美國反托拉斯法、損害消費者權益",
-      "audience": "每月付費訂閱ChatGPT、Claude、Gemini等AI工具的職場上班族、關注AI產業動態與訂閱制商業模式的科技財經自媒體創作者",
-      "pain_point": "很多人繳了AI工具月費卻覺得「這幾個月AI好像沒什麼進步」，卻不知道背後可能真的有四大巨頭『說好一起放慢腳步』的協議，直到被告上聯邦法院才第一次被攤在陽光下",
-      "title_idea": "你的AI月費是不是被打折了？OpenAI、Anthropic、Google、SpaceXAI被告「合謀放慢科技」，恐違反反壟斷法",
-      "local_angle": "華語圈目前幾乎零報導這起訴訟，對「AI大廠合謀放緩」的反差新聞角度陌生又新奇，且直接連結到訂閱戶荷包與「AI是不是變笨了」的普遍疑問，適合做成「你的AI月費值不值」系列選題搶占資訊差"
+      "summary": "OpenAI找9位頂尖數學家組顧問團，同步宣稱模型已解出百餘道數學難題",
+      "audience": "對AI能力邊界好奇的職場上班族、關注AI教育與生產力工具的自媒體創作者、STEM背景的內容創作者",
+      "pain_point": "很多人只把ChatGPT、Claude當成寫信、做簡報的小幫手，不知道同一套底層模型其實已經悄悄解開數十年沒人解出的數學難題，無法直覺理解「AI現在到底多聰明」，也不知道這種推理能力其實已經滲透到職場的複雜分析工作",
+      "title_idea": "AI已經解開100多道數學難題？OpenAI找數學家來監督，你的Excel公式可能小看它了",
+      "local_angle": "華語圈目前多半還在討論「AI會不會幫我寫報告」，鮮少報導AI已經進展到「解決人類數十年攻克不了的數學問題」這個層次，適合做成「AI推理能力進化到哪」系列，搶占尚未被開發的深度科普/職場升級選題"
+    },
+    {
+      "title": "亞馬遜封殺Meta AI代理人Muse，禁止其在Amazon.com上代客購物",
+      "sources": [
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/"},
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-09-21/amazon-blocks-meta-s-muse-ai-agent-from-its-retail-site"}
+      ],
+      "summary": "亞馬遜稱Muse隱藏身分、恐蒐集帳密，直接封鎖其自主購物功能",
+      "audience": "使用AI助理處理日常網購、訂閱比價的職場上班族、關注科技巨頭AI代理人大戰的科技自媒體創作者",
+      "pain_point": "很多人已經開始讓AI助理幫忙比價、下單，卻不知道「AI幫你買東西」背後正在爆發一場零售巨頭的主導權戰爭——你的AI代理人隨時可能被某個網站一夜之間封殺，導致原本設定好的購物流程突然失靈",
+      "title_idea": "你的AI購物助理可能突然失靈！亞馬遜正式封殺Meta的Muse，代理人購物大戰開打",
+      "local_angle": "華語圈的AI購物代理人才剛起步，這起「零售巨頭主動封殺AI代理人」的衝突是搶先讓讀者理解「AI幫你買東西」沒有想像中無縫的絕佳案例，適合轉譯成「善用AI購物助理前你該知道的限制」實用選題"
+    },
+    {
+      "title": "OpenAI公開呼籲美國牽頭訂定全球AI安全標準，聚焦對齊與AI自我改進風險",
+      "sources": [
+        {"name": "CNBC", "url": "https://www.cnbc.com/2026/09/21/open-ai-alignment-rsi.html"},
+        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-09-21/openai-pushes-us-to-lead-effort-to-set-global-standards-for-ai"}
+      ],
+      "summary": "OpenAI發布對齊與AI自我改進風險提案，呼籲各國建立共通前沿AI安全標準",
+      "audience": "關心AI風險與職場AI治理政策的主管與上班族、對AI監理議題有興趣的科技財經自媒體創作者",
+      "pain_point": "職場上使用AI工具的人常常不清楚「這些工具背後的安全把關」到底是誰在做、標準在哪，只能被動相信廠商的說法；這次OpenAI主動提案全球標準，反映業界內部也承認現有的自我規範不夠，值得提醒讀者「AI安全不是廠商說了算」",
+      "title_idea": "連OpenAI都喊話要訂『全球AI安全標準』？這代表現在的AI比你想的更難被看緊",
+      "local_angle": "華語圈的AI報導多聚焦「工具好不好用」，很少討論「AI安全治理」這塊，這篇提案背後牽涉的「AI自我遞歸改進」概念更是幾乎沒人科普過，適合做成「AI安全治理入門」選題搶占資訊差"
     }
   ],
-  "tool_updates": [],
+  "tool_updates": [
+    {
+      "title": "馬斯克xAI發布Grok 4.7，同步登陸Cursor、GitHub Copilot等主流coding工具",
+      "sources": [
+        {"name": "SpaceXAI (x.ai)", "url": "https://x.ai/news/grok-4-7"},
+        {"name": "GitHub Changelog", "url": "https://github.blog/changelog/2026-09-21-grok-4-7-is-now-available-in-github-copilot/"}
+      ],
+      "summary": "Grok 4.7參數暴增至2.1兆，免等待清單，即日起可在多個coding工具直接使用",
+      "audience": "使用AI協作寫程式、做自動化的上班族與獨立開發者、關注AI模型更新的科技自媒體創作者",
+      "pain_point": "很多用GitHub Copilot或Cursor寫程式、寫腳本的人不知道背後可選用的模型又換代了，Grok 4.7同一價格、同一速度但能力更強，等於「免費升級」卻常常被忽略，選錯模型等於白白浪費更好用的功能",
+      "title_idea": "你的coding工具偷偷變強了！Grok 4.7上線Copilot、Cursor，價格不變效能升級",
+      "local_angle": "華語圈教學型自媒體很少即時追蹤「模型上架到哪些工具」這種細節資訊，適合做成「如何在Copilot/Cursor手動切換到Grok 4.7」的實測教學，搶第一手上手心得的流量"
+    },
+    {
+      "title": "Google推出899美元「Googlebook」AI筆電，內建Gemini搶攻換機潮",
+      "sources": [
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/"},
+        {"name": "Google Blog", "url": "https://blog.google/products-and-platforms/devices/googlebook/googlebook-built-in-intelligence/"}
+      ],
+      "summary": "Googlebook主打Gemini深度整合，含AI游標、口述整理等功能，10月開賣",
+      "audience": "考慮換筆電、想找「AI優先」工作機的職場上班族、3C科技自媒體創作者",
+      "pain_point": "很多上班族想換筆電時只會比較CPU、記憶體規格，不知道現在已經出現「專門為AI設計」的筆電——內建可以直接操作畫面、整理口語內容的AI功能，換機決策標準正在被重新定義",
+      "title_idea": "899美元的Google AI筆電來了！這次換筆電要看的不是規格，是Gemini能幫你做什麼",
+      "local_angle": "華語圈3C媒體多半只會做「開箱評測」，很少討論「AI筆電」背後代表的換機邏輯轉變，適合搶先分析「AI優先筆電」這個新品類，切入科技消費選題的資訊差"
+    },
+    {
+      "title": "Google Meet「自動記錄」功能今起對企業版用戶預設開啟，3人以上會議自動存記錄",
+      "sources": [
+        {"name": "Google Workspace 官方說明", "url": "https://knowledge.workspace.google.com/admin/meet/upcoming-changes-to-automatic-note-taking"},
+        {"name": "Google Workspace Updates", "url": "https://workspaceupdates.googleblog.com/2026/07/new-google-meet-take-notes-for-me-settings-for-admins-and-end-users.html"}
+      ],
+      "summary": "Business Standard／Plus用戶會議滿3人即自動啟用AI記錄，需自行手動關閉",
+      "audience": "每天開多場視訊會議的職場上班族、企業IT/行政管理者、辦公室生產力類自媒體創作者",
+      "pain_point": "很多上班族完全不知道公司的Google Workspace方案今天起會「預設幫你錄會議記錄」，可能在還沒告知與會者、還沒設定好隱私偏好的情況下，敏感會議內容就被自動整理存檔，事後才發現措手不及",
+      "title_idea": "今天起你的Google Meet會議可能被自動記錄！上班族必看的3步驟關閉教學",
+      "local_angle": "這是一個「今天生效」但幾乎没有中文媒體報導的功能異動，非常適合做成「即時提醒＋操作教學」型選題，搶在多數上班族還沒發現設定被改變之前，提供實用價值搶佔本地資訊差"
+    }
+  ],
   "trends": [
     {
-      "title": "醫生也對AI踩煞車：《金融時報》揭露臨床醫療圈為何在「診斷影像之外」集體抵制AI",
+      "title": "Meta AI代理人Muse上線12天，下載量、日活雙雙超車當年ChatGPT同期表現",
       "sources": [
-        {
-          "name": "WION News",
-          "url": "https://www.wionews.com/world/doctors-are-refusing-ai-beyond-scans-and-the-reason-is-thin-evidence-1789912405164"
-        }
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/"}
       ],
-      "summary": "FT調查指出醫師AI日常使用量暴增，但74%擔心幻覺與技能退化，只信任已驗證的影像診斷AI",
-      "audience": "在職場評估要不要導入AI工具的主管與上班族、對「AI信任落差」議題有興趣的科技與職場自媒體創作者、關心AI導入風險的企業決策者",
-      "pain_point": "很多職場人只看到「AI導入率暴增」的正面新聞，卻不知道連最專業的醫療圈都對AI設下明確界線——只信任有實證數據的影像判讀，拒絕讓AI碰觸判斷、溝通這類「黑箱」任務，這種「怎麼分辨AI能不能信任」的方法論其實適用於任何職場",
-      "title_idea": "連醫生都不敢隨便用AI：醫療圈劃出的「AI信任界線」，其實是每個職場人都該學的一課",
-      "local_angle": "華語職場內容常一味鼓吹「快導入AI提升效率」，很少討論「AI在哪些任務上還不夠格被信任」，這篇報導提供了醫療圈實測出的具體判準（能否驗證、是否有同儕審查實證），適合轉譯成「上班族評估AI工具可信度」的實用選題，填補「AI導入風險評估」這塊還沒被搶占的內容缺口"
+      "summary": "Muse美加地區12天內狂攬180萬次下載，日活62萬人贏過當年ChatGPT",
+      "audience": "觀察AI App市場趨勢的科技自媒體創作者、想搶先體驗新AI代理人工具的上班族",
+      "pain_point": "很多人還沒聽過Muse這個新的AI代理人App，卻不知道它上線不到兩週的成長速度已經超越當年紅遍全球的ChatGPT，代表「AI代理人幫你辦事」這個新品類可能比想像中更快成為主流",
+      "title_idea": "比當年ChatGPT還猛！Meta新AI代理人Muse用12天證明「AI幫你辦事」時代來了",
+      "local_angle": "華語圈對Muse幾乎零認識，這個「下載量超車ChatGPT」的反差數據本身就是很好的流量切角，可以搶先做「Muse是什麼、能幫你做什麼」的介紹型內容，卡位還沒被開發的新工具教學紅利"
+    },
+    {
+      "title": "AI新創Corridor募資2500萬美元，用「AI做雜務、真人談關係」模式切入中小企業福利顧問市場",
+      "sources": [
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/09/21/corridor-raises-25m-seed-to-build-a-health-benefits-brokerage-for-smbs/"}
+      ],
+      "summary": "Corridor讓AI代理處理繁瑣行政，人類顧問專注關係經營，鎖定大廠忽略的中小企業",
+      "audience": "想用AI提升接案/顧問服務效率的自由工作者與微型企業主、關注AI創業新商業模式的自媒體創作者",
+      "pain_point": "很多想用AI創業或接案的人只想著「完全用AI取代人力」，卻沒想過更聰明的做法其實是「AI包辦繁瑣後台工作、人類專心維繫客戶關係」，Corridor這種模式證明AI創業不必二選一，反而更容易打進大公司懶得做的利基市場",
+      "title_idea": "不是要AI取代你，是要AI幫你打雜：這家新創靠「人機分工」模式從大廠手中搶客戶",
+      "local_angle": "華語圈AI創業內容多半在吵「AI會不會取代工作」，很少介紹這種「AI做後台、人顧關係」的具體商業模式案例，適合轉譯成「獨立顧問／小型工作室如何用AI分工接更多案子」的實戰選題，填補創業實戰內容的空缺"
     }
   ]
 }
