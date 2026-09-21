@@ -1,117 +1,117 @@
 {
-  "date": "2026-09-21",
+  "date": "2026-09-22",
   "p5": [
     {
-      "id": "2026-09-21-p5-0",
-      "tag": "倒裝句（Only by + 動名詞，介系詞後接動名詞，引發主要子句倒裝）",
-      "pre": "Only by ",
-      "post": " a rigorous internal review process can the company hope to prevent similar compliance failures in the future.",
-      "opts": ["implementing", "implement", "having implemented", "to implement"],
-      "ans": 0,
-      "zh": "「唯有透過」落實嚴謹的內部審查程序，公司才有望防範未來發生類似的合規缺失。",
-      "why": "by 為介系詞，其後須接動名詞（Ving）作受詞，<b>implementing</b> 為正確形式。implement 為原形動詞，介系詞後不可直接接原形動詞；having implemented 為完成式動名詞，此處僅需描述一般方法而非強調先後順序，較不自然；to implement 為不定詞，介系詞 by 後不可接不定詞。此句 Only by 置於句首引發主要子句倒裝（can the company hope），為固定倒裝句型。"
-    },
-    {
-      "id": "2026-09-21-p5-1",
-      "tag": "減化關係子句（the first + 不定詞，作後置修飾語）",
-      "pre": "The company was the first in the industry ",
-      "post": " voluntarily disclose the vulnerability before regulators required it to do so.",
-      "opts": ["to", "for", "that", "in"],
-      "ans": 0,
-      "zh": "該公司是業界「第一個」在監管機關要求之前，便自願揭露此漏洞的企業。",
-      "why": "<b>the first + 不定詞（to V）</b>為固定用法，用來修飾「第一個做某事的人／事物」，屬減化關係子句的一種（= the first that voluntarily disclosed）。for 不具備此功能；that 須接完整子句並將動詞變化為過去式 disclosed，與此處原形動詞 disclose 的句構不符；in 為介系詞，無法連接後方原形動詞。"
-    },
-    {
-      "id": "2026-09-21-p5-2",
-      "tag": "比較結構（more...than any other，以比較級表達最高級意涵）",
-      "pre": "This division generates ",
-      "post": " revenue than any other unit within the conglomerate.",
-      "opts": ["more", "the most", "much more of", "so much"],
-      "ans": 0,
-      "zh": "這個部門所創造的營收，「超過」集團內任何其他單位。",
-      "why": "<b>more...than any other</b> + 單數名詞為固定句型，以比較級表達「勝過所有其他」的最高級意涵。the most 為最高級形式，通常不與 than any other 的比較級句構並用；much more of 用法累贅且不符合此固定搭配；so much 不具備此比較功能，不成立。"
-    },
-    {
-      "id": "2026-09-21-p5-3",
-      "tag": "讓步慣用語（Little as + 主詞 + may/might，＝儘管…甚少）",
+      "id": "2026-09-22-p5-0",
+      "tag": "倒裝句（Were it not for，現在式反事實假設倒裝，＝If it were not for）",
       "pre": "",
-      "post": " the board may know about the technical details of the merger, they remain fully accountable for its financial outcomes.",
-      "opts": ["Little as", "As little", "So little as", "Little though as"],
+      "post": " the last-minute intervention of a whistleblower, the fraudulent scheme would likely still be operating undetected today.",
+      "opts": ["Were it not for", "Was it not for", "Being it not for", "Had it not for"],
       "ans": 0,
-      "zh": "「儘管」董事會對這樁併購案的技術細節所知甚少，他們仍須為其財務結果負起完全責任。",
-      "why": "<b>Little as + 主詞 + may/might</b> 為讓步慣用句型，意為「儘管…甚少」，little 前移至句首構成倒裝讓步結構。As little 語序顛倒，不符合此固定倒裝形式；So little as 不成立此讓步慣用搭配；Little though as 為冗贅重複的錯誤組合。"
+      "zh": "「若非」吹哨者在最後一刻挺身而出，這起詐欺案恐怕至今仍未被發現、持續進行中。",
+      "why": "<b>Were it not for</b> 為現在式假設語氣倒裝，等同於 If it were not for，表示「若非（現在或恆常的情況）」。Was it not for 誤用 was（直述語氣過去式），不符合假設語氣須用 were 的規則；Being it not for 動詞形式錯誤；Had it not for 缺少必要的 been，且此處語境為現在式反事實，不應使用 Had（過去式反事實）。"
     },
     {
-      "id": "2026-09-21-p5-4",
-      "tag": "進階動詞語意辨別（counteract，counter-字首形似詞）",
-      "pre": "The central bank introduced a series of measures to ",
-      "post": " the inflationary pressure caused by the sudden spike in energy prices.",
-      "opts": ["counteract", "counterfeit", "countermand", "counterclaim"],
+      "id": "2026-09-22-p5-1",
+      "tag": "減化子句（Unless otherwise + 過去分詞，法律文件常見固定用法）",
+      "pre": "",
+      "post": " specified in the purchase agreement, all deliveries are subject to the buyer's standard inspection procedures upon arrival.",
+      "opts": ["Unless otherwise", "Unless other", "Unless otherwise being", "Unless being otherwise"],
       "ans": 0,
-      "zh": "央行祭出一系列措施，以「抵銷」能源價格驟漲所帶來的通膨壓力。",
-      "why": "<b>counteract</b>（抵銷、抵消，抗衡負面影響）精準對應此處語境。counterfeit（偽造，仿冒貨幣或商品）語意不符；countermand（撤銷命令、取消先前指示）語意不符；counterclaim（提出反訴，法律用語）語意不符，四字同為 counter- 字首形似詞，屬進階詞彙易混淆辨析。"
+      "zh": "「除非」採購合約中另有明文規定，否則所有交貨皆須於到貨時接受買方的標準檢驗程序。",
+      "why": "<b>Unless otherwise + 過去分詞</b>（specified）為法律文件中常見的固定減化子句，等同於 Unless it is otherwise specified。Unless other 語意及文法皆不通；Unless otherwise being 與 Unless being otherwise 皆為錯誤的動詞形式組合，不成立此固定用法。"
+    },
+    {
+      "id": "2026-09-22-p5-2",
+      "tag": "慣用語（the better part of，表「大半、將近整個」）",
+      "pre": "The negotiating team spent ",
+      "post": " a year finalizing the terms of the joint venture agreement.",
+      "opts": ["the better part of", "a better part of", "the better parts of", "better part of"],
+      "ans": 0,
+      "zh": "談判團隊耗費了「將近整整」一年的時間，才敲定這樁合資協議的條款。",
+      "why": "<b>the better part of</b> 為固定慣用語，意為「大半、將近整個」，須搭配定冠詞 the 且用單數 part。a better part of 冠詞錯誤；the better parts of 誤用複數形式；better part of 缺少必要的定冠詞 the，皆不成立此固定用法。"
+    },
+    {
+      "id": "2026-09-22-p5-3",
+      "tag": "情緒副詞片語（Much to the surprise of + 人，＝令某人大感意外的是）",
+      "pre": "",
+      "post": " the board, the acquisition target flatly rejected what had been considered a highly generous offer.",
+      "opts": ["Much to the surprise of", "Much for the surprise of", "Much to surprise of", "Much surprised to"],
+      "ans": 0,
+      "zh": "「令董事會大感意外的是」，收購目標公司竟斷然拒絕了原本被視為極為優渥的收購條件。",
+      "why": "<b>Much to the surprise of</b> + 人為固定慣用句型，用以表達「令某人大感意外的是」，surprise 前須加定冠詞 the。Much for the surprise of 介系詞錯誤（應為 to）；Much to surprise of 缺少必要的定冠詞 the；Much surprised to 詞性與句構皆不符合此固定用法。"
+    },
+    {
+      "id": "2026-09-22-p5-4",
+      "tag": "進階動詞語意辨別（supplant，sup-字首形似詞）",
+      "pre": "Many analysts predict that autonomous negotiation agents will eventually ",
+      "post": " human procurement specialists for routine, low-value contract renewals.",
+      "opts": ["supplant", "supplement", "supplicate", "suppress"],
+      "ans": 0,
+      "zh": "許多分析師預測，自主協商代理人終將在例行、低價值的合約續約作業上「取代」人類採購專員。",
+      "why": "<b>supplant</b>（取代、排擠掉，尤指徹底取而代之）精準對應此處語境。supplement（補充、增添，而非取代）語意相反；supplicate（懇求、哀求）語意不符；suppress（壓制、抑制）語意不符，四字同為 sup- 字首形似詞，屬進階詞彙易混淆辨析。"
     }
   ],
   "p6": {
-    "id": "2026-09-21-p6",
-    "title": "MEMORANDUM: Updated Protocol for Handling Whistleblower Complaints Received via the Ethics Hotline",
+    "id": "2026-09-22-p6",
+    "title": "MEMORANDUM: Revised Policy on Retention and Destruction of Business Records",
     "seg": [
       [
-        "To all Ethics Hotline administrators: Effective immediately, any complaint received through the hotline alleging financial misconduct or safety violations ",
+        "To all department heads: Effective the start of next quarter, any document scheduled for destruction under the retention schedule ",
         { "b": 0 },
-        " to the Audit Committee chair within twelve hours of receipt, regardless of the anonymity status of the reporting individual."
+        " against the litigation hold list maintained by the Legal Department before disposal proceeds."
       ],
       [
         { "b": 1 },
-        ", complaints involving routine workplace disagreements or personality conflicts should be redirected to the standard Human Resources grievance process rather than escalated as ethics violations."
+        ", any document that a department head reasonably believes may become relevant to pending or anticipated litigation must be preserved regardless of its scheduled destruction date."
       ],
       [
-        "Hotline administrators should never attempt to ",
+        "Department heads should never attempt to ",
         { "b": 2 },
-        " the identity of an anonymous reporter, even when internal pressure to do so is significant."
+        " records independently once a litigation hold notice has been issued, even if the records appear unrelated to the matter at hand."
       ],
       [
         { "b": 3 },
-        " A quarterly summary of hotline activity, with all identifying details removed, is provided to the full board for oversight purposes."
+        " The updated retention schedule, organized by document category, is available on the Records Management intranet page."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["must be escalated", "escalates", "has escalated", "is escalating"],
+        "opts": ["must be cross-checked", "cross-checks", "has cross-checked", "is cross-checking"],
         "ans": 0,
-        "zh": "致所有倫理專線管理人員：自即日起，任何透過專線收到、指稱財務不當行為或安全違規的投訴，皆「須於」收到後12小時內呈報予稽核委員會主席，無論通報人是否選擇匿名。",
-        "why": "投訴是被呈報的對象，此句表達強制性規定，須用被動情態動詞 <b>must be escalated</b>。escalates 為主動現在式，不符被動需求；has escalated 為現在完成式主動語態，語意錯誤；is escalating 為現在進行式主動語態，同樣不符合規定語氣。"
+        "zh": "致所有部門主管：自下季度起，任何依保存時程表排定銷毀的文件，在正式銷毀前皆「須與」法務部門維護的訴訟保存清單進行「交叉核對」。",
+        "why": "文件是被交叉核對的對象，此句表達強制性規定，須用被動情態動詞 <b>must be cross-checked</b>。cross-checks 為主動現在式，不符被動需求；has cross-checked 為現在完成式主動語態，語意錯誤；is cross-checking 為現在進行式主動語態，同樣不符合規定語氣。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["By contrast", "As a result", "For example", "In turn"],
+        "opts": ["Without exception", "As a result", "For example", "Meanwhile"],
         "ans": 0,
-        "zh": "「相較之下」，涉及一般職場意見分歧或人際衝突的投訴，應轉介至標準的人資申訴流程，而非升級為倫理違規案件處理。",
-        "why": "<b>By contrast</b>（相較之下）用以對比前句「財務不當行為或安全違規須立即升級」的規定，說明一般職場糾紛適用不同流程。As a result（因此）表因果；For example（例如）表舉例；In turn（依次）表順序，皆不符合此處的對比語意。"
+        "zh": "「無一例外」，任何部門主管合理認為可能與現有或預期訴訟相關的文件，無論其原訂銷毀日期為何，皆須予以保存。",
+        "why": "<b>Without exception</b>（無一例外）用以強調此項保存規定絕對適用，不容許任何例外情況，承接前句的交叉核對規定。As a result（因此）表因果；For example（例如）表舉例；Meanwhile（同時）表時間並行，皆不符合此處強調絕對性的語意。"
       },
       {
-        "tag": "進階動詞語意辨別（ascertain，as-字首形似詞）",
+        "tag": "進階動詞語意辨別（destroy，dis-字首形似詞比對）",
         "col1": true,
-        "opts": ["ascertain", "assert", "ascribe", "assimilate"],
+        "opts": ["destroy", "distort", "disburse", "dismantle"],
         "ans": 0,
-        "zh": "專線管理人員絕不應試圖「查明」匿名通報人的身分，即使承受相當大的內部壓力亦然。",
-        "why": "<b>ascertain</b>（確定、查明）精準對應此處語境。assert（斷言、堅稱）語意不符；ascribe（歸因於）語意不符；assimilate（同化、吸收）語意不符，四字同為 as- 字首形似詞，屬進階詞彙易混淆辨析。"
+        "zh": "一旦發出訴訟保存通知，部門主管絕不應自行「銷毀」任何紀錄，即使該紀錄看似與案件無關。",
+        "why": "<b>destroy</b>（銷毀）精準對應此處語境。distort（扭曲、曲解）語意不符；disburse（支付、撥款）語意不符；dismantle（拆解、拆卸，通常指設備或組織）語意不符，四字型態相似易混淆，屬進階詞彙辨析。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "All complaint records are stored in a restricted-access system separate from the company's general document management platform.",
-          "The company's annual ethics training will be updated with new interactive modules.",
-          "Employees may nominate colleagues for the annual integrity award through the intranet.",
-          "The Ethics Hotline phone system will undergo maintenance this weekend."
+          "Questions about whether a specific document falls under an active litigation hold should be directed to the Legal Department before any action is taken.",
+          "The company's records storage facility will undergo routine pest control next month.",
+          "All department heads must submit their annual budget requests by October.",
+          "The office recycling program has been expanded to include electronic waste."
         ],
         "ans": 0,
-        "zh": "「所有投訴紀錄皆儲存於一套與公司一般文件管理平台區隔、且存取權限受限的系統中。」每季度會將專線活動摘要（移除所有可識別身分的細節）提供予董事會全體成員以供監督之用。",
-        "why": "段落主題為「倫理專線吹哨者投訴處理程序更新」，此句說明投訴紀錄的儲存保密機制，與下一句「季度摘要提供董事會監督」共同構成保密措施與治理監督的完整收尾。其餘選項（年度倫理訓練更新、誠信獎提名、專線系統維護）皆與投訴處理程序無關，插入後語意斷裂。"
+        "zh": "「若對特定文件是否受現行訴訟保存命令規範有疑問，應在採取任何行動前先洽詢法務部門。」按文件類別分類的最新保存時程表，已發布於文件管理部門的內部網路頁面。",
+        "why": "段落主題為「業務紀錄保存與銷毀政策修訂」，此句提醒同仁若有疑問應先洽詢法務部門，與下一句「保存時程表已發布」共同構成流程執行與資源支援的完整收尾。其餘選項（文件儲存設施除蟲、年度預算申請、辦公室回收計畫）皆與紀錄保存銷毀政策無關，插入後語意斷裂。"
       }
     ]
   }
