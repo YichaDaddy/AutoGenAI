@@ -1,117 +1,117 @@
 {
-  "date": "2026-09-22",
+  "date": "2026-09-23",
   "p5": [
     {
-      "id": "2026-09-22-p5-0",
-      "tag": "倒裝句（Were it not for，現在式反事實假設倒裝，＝If it were not for）",
+      "id": "2026-09-23-p5-0",
+      "tag": "倒裝句（Scarcely...when，過去完成式倒裝，表「一…就…」）",
+      "pre": "Scarcely ",
+      "post": " the new policy been announced when employees across several departments filed formal objections.",
+      "opts": ["had", "did", "has", "was"],
+      "ans": 0,
+      "zh": "新政策才剛宣布，多個部門的員工便立即提出正式異議。",
+      "why": "<b>Scarcely</b> 置於句首表示「幾乎不、才剛」，須引發倒裝，並搭配過去完成式 had + 主詞 + 過去分詞（had the policy been announced），後方以 when 引導次要事件。did 須接原形動詞，無法接過去分詞 announced；has 為現在完成式，時態與過去事件不符；was 為 be 動詞，無法與過去分詞疊加構成正確的完成式被動倒裝。"
+    },
+    {
+      "id": "2026-09-23-p5-1",
+      "tag": "獨立結構（Given + 名詞，過去分詞轉化的介系詞，表「鑒於、考量到」）",
       "pre": "",
-      "post": " the last-minute intervention of a whistleblower, the fraudulent scheme would likely still be operating undetected today.",
-      "opts": ["Were it not for", "Was it not for", "Being it not for", "Had it not for"],
+      "post": " the volatility of currency markets in recent months, the treasury team has recommended increasing the company's hedging ratio.",
+      "opts": ["Given", "Giving", "To give", "Gave"],
       "ans": 0,
-      "zh": "「若非」吹哨者在最後一刻挺身而出，這起詐欺案恐怕至今仍未被發現、持續進行中。",
-      "why": "<b>Were it not for</b> 為現在式假設語氣倒裝，等同於 If it were not for，表示「若非（現在或恆常的情況）」。Was it not for 誤用 was（直述語氣過去式），不符合假設語氣須用 were 的規則；Being it not for 動詞形式錯誤；Had it not for 缺少必要的 been，且此處語境為現在式反事實，不應使用 Had（過去式反事實）。"
+      "zh": "「鑒於」近幾個月來貨幣市場的劇烈波動，財務團隊建議提高公司的避險比例。",
+      "why": "<b>Given</b> 為過去分詞轉化而來的介系詞，意為「鑒於、考量到」，可直接接名詞片語。Giving 為現在分詞，語態錯誤（volatility 不會主動 give）；To give 為不定詞，不具備此介系詞功能；Gave 為過去式動詞，無法置於句首引導此類獨立結構。"
     },
     {
-      "id": "2026-09-22-p5-1",
-      "tag": "減化子句（Unless otherwise + 過去分詞，法律文件常見固定用法）",
+      "id": "2026-09-23-p5-2",
+      "tag": "比較結構（nowhere near as...as，表「遠不及、差得遠」）",
+      "pre": "The startup's actual user growth was ",
+      "post": " impressive as the figures presented in its investor pitch deck.",
+      "opts": ["nowhere near as", "nowhere as near", "no near as", "not near so"],
+      "ans": 0,
+      "zh": "這家新創公司實際的用戶成長，「遠不及」其投資人簡報中所呈現的數字那般亮眼。",
+      "why": "<b>nowhere near as...as</b> 為固定比較句型，用以強調程度上的巨大落差，意為「遠不及」。nowhere as near 語序錯誤；no near as 不成立此固定搭配；not near so 雖語意相近但非標準英語慣用搭配，正確應為 nowhere near as。"
+    },
+    {
+      "id": "2026-09-23-p5-3",
+      "tag": "讓步介系詞（Notwithstanding，單獨使用，直接接名詞片語）",
       "pre": "",
-      "post": " specified in the purchase agreement, all deliveries are subject to the buyer's standard inspection procedures upon arrival.",
-      "opts": ["Unless otherwise", "Unless other", "Unless otherwise being", "Unless being otherwise"],
+      "post": " several minor procedural objections, the committee approved the proposal by a wide margin.",
+      "opts": ["Notwithstanding", "Notwithstanding of", "Despite of", "In spite"],
       "ans": 0,
-      "zh": "「除非」採購合約中另有明文規定，否則所有交貨皆須於到貨時接受買方的標準檢驗程序。",
-      "why": "<b>Unless otherwise + 過去分詞</b>（specified）為法律文件中常見的固定減化子句，等同於 Unless it is otherwise specified。Unless other 語意及文法皆不通；Unless otherwise being 與 Unless being otherwise 皆為錯誤的動詞形式組合，不成立此固定用法。"
+      "zh": "「儘管」出現幾項程序上的輕微異議，委員會仍以壓倒性多數通過了這項提案。",
+      "why": "<b>Notwithstanding</b> 為正式讓步介系詞，可直接接名詞片語（several minor procedural objections），意為「儘管」。Notwithstanding of 誤加不必要的 of；Despite of 中 despite 之後不可再接 of；In spite 須搭配 of 才能接名詞（in spite of），單獨使用不成立。"
     },
     {
-      "id": "2026-09-22-p5-2",
-      "tag": "慣用語（the better part of，表「大半、將近整個」）",
-      "pre": "The negotiating team spent ",
-      "post": " a year finalizing the terms of the joint venture agreement.",
-      "opts": ["the better part of", "a better part of", "the better parts of", "better part of"],
+      "id": "2026-09-23-p5-4",
+      "tag": "進階動詞語意辨別（eschew，e-字首形似詞）",
+      "pre": "In drafting the new employee handbook, the committee decided to ",
+      "post": " overly technical legal jargon in favor of plain, accessible language.",
+      "opts": ["eschew", "escort", "eclipse", "elicit"],
       "ans": 0,
-      "zh": "談判團隊耗費了「將近整整」一年的時間，才敲定這樁合資協議的條款。",
-      "why": "<b>the better part of</b> 為固定慣用語，意為「大半、將近整個」，須搭配定冠詞 the 且用單數 part。a better part of 冠詞錯誤；the better parts of 誤用複數形式；better part of 缺少必要的定冠詞 the，皆不成立此固定用法。"
-    },
-    {
-      "id": "2026-09-22-p5-3",
-      "tag": "情緒副詞片語（Much to the surprise of + 人，＝令某人大感意外的是）",
-      "pre": "",
-      "post": " the board, the acquisition target flatly rejected what had been considered a highly generous offer.",
-      "opts": ["Much to the surprise of", "Much for the surprise of", "Much to surprise of", "Much surprised to"],
-      "ans": 0,
-      "zh": "「令董事會大感意外的是」，收購目標公司竟斷然拒絕了原本被視為極為優渥的收購條件。",
-      "why": "<b>Much to the surprise of</b> + 人為固定慣用句型，用以表達「令某人大感意外的是」，surprise 前須加定冠詞 the。Much for the surprise of 介系詞錯誤（應為 to）；Much to surprise of 缺少必要的定冠詞 the；Much surprised to 詞性與句構皆不符合此固定用法。"
-    },
-    {
-      "id": "2026-09-22-p5-4",
-      "tag": "進階動詞語意辨別（supplant，sup-字首形似詞）",
-      "pre": "Many analysts predict that autonomous negotiation agents will eventually ",
-      "post": " human procurement specialists for routine, low-value contract renewals.",
-      "opts": ["supplant", "supplement", "supplicate", "suppress"],
-      "ans": 0,
-      "zh": "許多分析師預測，自主協商代理人終將在例行、低價值的合約續約作業上「取代」人類採購專員。",
-      "why": "<b>supplant</b>（取代、排擠掉，尤指徹底取而代之）精準對應此處語境。supplement（補充、增添，而非取代）語意相反；supplicate（懇求、哀求）語意不符；suppress（壓制、抑制）語意不符，四字同為 sup- 字首形似詞，屬進階詞彙易混淆辨析。"
+      "zh": "在起草新版員工手冊時，委員會決定「避免使用」過於艱澀的法律術語，改採平易近人的用語。",
+      "why": "<b>eschew</b>（刻意避免、迴避）精準對應此處語境。escort（護送、陪同）語意不符；eclipse（使黯然失色、蓋過）語意不符；elicit（引出、誘出，如資訊或反應）語意不符，四字型態相似易混淆，屬進階詞彙辨析。"
     }
   ],
   "p6": {
-    "id": "2026-09-22-p6",
-    "title": "MEMORANDUM: Revised Policy on Retention and Destruction of Business Records",
+    "id": "2026-09-23-p6",
+    "title": "MEMORANDUM: Revised Policy on Employee Use of Corporate Credit Cards for Client Entertainment",
     "seg": [
       [
-        "To all department heads: Effective the start of next quarter, any document scheduled for destruction under the retention schedule ",
+        "To all employees issued a corporate credit card: Effective the first of next month, any client entertainment expense exceeding NT$5,000 per event ",
         { "b": 0 },
-        " against the litigation hold list maintained by the Legal Department before disposal proceeds."
+        " by a direct supervisor before the expense is incurred, rather than approved retroactively during the standard expense-reporting cycle."
       ],
       [
         { "b": 1 },
-        ", any document that a department head reasonably believes may become relevant to pending or anticipated litigation must be preserved regardless of its scheduled destruction date."
+        ", expenses below the NT$5,000 threshold may still be submitted through the standard post-expense approval process, provided that appropriate documentation is attached."
       ],
       [
-        "Department heads should never attempt to ",
+        "Employees should never attempt to ",
         { "b": 2 },
-        " records independently once a litigation hold notice has been issued, even if the records appear unrelated to the matter at hand."
+        " a single large entertainment expense into multiple smaller transactions in order to avoid the pre-approval threshold."
       ],
       [
         { "b": 3 },
-        " The updated retention schedule, organized by document category, is available on the Records Management intranet page."
+        " Supervisors who repeatedly approve expenses that appear to have been deliberately split will themselves be subject to review."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態",
         "col1": true,
-        "opts": ["must be cross-checked", "cross-checks", "has cross-checked", "is cross-checking"],
+        "opts": ["must be pre-approved", "pre-approves", "has pre-approved", "is pre-approving"],
         "ans": 0,
-        "zh": "致所有部門主管：自下季度起，任何依保存時程表排定銷毀的文件，在正式銷毀前皆「須與」法務部門維護的訴訟保存清單進行「交叉核對」。",
-        "why": "文件是被交叉核對的對象，此句表達強制性規定，須用被動情態動詞 <b>must be cross-checked</b>。cross-checks 為主動現在式，不符被動需求；has cross-checked 為現在完成式主動語態，語意錯誤；is cross-checking 為現在進行式主動語態，同樣不符合規定語氣。"
+        "zh": "致所有持有公司信用卡的員工：自下月一日起，任何單場活動超過新台幣5,000元的客戶招待支出，皆「須經」直屬主管事先核准後方可支出，而非在標準報帳週期中事後追認。",
+        "why": "支出是被事先核准的對象，此句表達強制性規定，須用被動情態動詞 <b>must be pre-approved</b>。pre-approves 為主動現在式，不符被動需求；has pre-approved 為現在完成式主動語態，語意錯誤；is pre-approving 為現在進行式主動語態，同樣不符合規定語氣。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["Without exception", "As a result", "For example", "Meanwhile"],
+        "opts": ["As before", "As a result", "For example", "Meanwhile"],
         "ans": 0,
-        "zh": "「無一例外」，任何部門主管合理認為可能與現有或預期訴訟相關的文件，無論其原訂銷毀日期為何，皆須予以保存。",
-        "why": "<b>Without exception</b>（無一例外）用以強調此項保存規定絕對適用，不容許任何例外情況，承接前句的交叉核對規定。As a result（因此）表因果；For example（例如）表舉例；Meanwhile（同時）表時間並行，皆不符合此處強調絕對性的語意。"
+        "zh": "「一如既往」，低於新台幣5,000元門檻的支出，仍可透過標準的事後核准流程提交，惟須附上適當的證明文件。",
+        "why": "<b>As before</b>（一如既往）用以說明此部分規定維持原有做法不變，承接前句「須事先核准」的新規定，構成對比銜接。As a result（因此）表因果；For example（例如）表舉例；Meanwhile（同時）表時間並行，皆不符合此處的語意。"
       },
       {
-        "tag": "進階動詞語意辨別（destroy，dis-字首形似詞比對）",
+        "tag": "進階動詞語意辨別（fragment，fra-字首形似詞）",
         "col1": true,
-        "opts": ["destroy", "distort", "disburse", "dismantle"],
+        "opts": ["fragment", "fragrant", "fraternize", "fracture"],
         "ans": 0,
-        "zh": "一旦發出訴訟保存通知，部門主管絕不應自行「銷毀」任何紀錄，即使該紀錄看似與案件無關。",
-        "why": "<b>destroy</b>（銷毀）精準對應此處語境。distort（扭曲、曲解）語意不符；disburse（支付、撥款）語意不符；dismantle（拆解、拆卸，通常指設備或組織）語意不符，四字型態相似易混淆，屬進階詞彙辨析。"
+        "zh": "員工絕不應為規避事先核准門檻，而將單筆大額招待支出「拆分」成多筆較小額的交易。",
+        "why": "<b>fragment</b>（分割、拆分成小塊）精準對應此處語境。fragrant 為形容詞（芳香的），詞性不符；fraternize（（尤指與敵方或不宜對象）稱兄道弟、私下往來）語意不符；fracture（使斷裂、破裂，通常指骨骼或堅硬物體）語意不符，四字型態相似易混淆，屬進階詞彙辨析。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Questions about whether a specific document falls under an active litigation hold should be directed to the Legal Department before any action is taken.",
-          "The company's records storage facility will undergo routine pest control next month.",
-          "All department heads must submit their annual budget requests by October.",
-          "The office recycling program has been expanded to include electronic waste."
+          "Attempting to circumvent the pre-approval requirement in this manner will be treated as a violation of this policy, regardless of the total amount involved.",
+          "The company's credit card provider will be updating its rewards program next year.",
+          "All employees must activate their new credit cards within thirty days of issuance.",
+          "The finance department will host an optional training session on expense reporting software."
         ],
         "ans": 0,
-        "zh": "「若對特定文件是否受現行訴訟保存命令規範有疑問，應在採取任何行動前先洽詢法務部門。」按文件類別分類的最新保存時程表，已發布於文件管理部門的內部網路頁面。",
-        "why": "段落主題為「業務紀錄保存與銷毀政策修訂」，此句提醒同仁若有疑問應先洽詢法務部門，與下一句「保存時程表已發布」共同構成流程執行與資源支援的完整收尾。其餘選項（文件儲存設施除蟲、年度預算申請、辦公室回收計畫）皆與紀錄保存銷毀政策無關，插入後語意斷裂。"
+        "zh": "「以此方式規避事先核准要求，無論涉及金額多寡，皆將被視為違反本政策。」若主管一再核准疑似刻意拆分的支出，主管本身亦將接受審查。",
+        "why": "段落主題為「員工使用公司信用卡招待客戶政策修訂」，此句強調規避核准要求將被視為違規，與下一句「主管一再核准將受審查」共同構成政策執行與究責機制的完整收尾。其餘選項（信用卡回饋方案更新、新卡啟用期限、報帳軟體訓練課程）皆與招待支出核准政策無關，插入後語意斷裂。"
       }
     ]
   }
