@@ -1,117 +1,117 @@
 {
-  "date": "2026-09-24",
+  "date": "2026-09-25",
   "p5": [
     {
-      "id": "2026-09-24-p5-0",
-      "tag": "分裂句（It was not until...that，強調時間點）",
-      "pre": "It was not until the third round of negotiations ",
-      "post": " the two parties finally reached a binding agreement on royalty distribution.",
-      "opts": ["that", "when", "which", "then"],
+      "id": "2026-09-25-p5-0",
+      "tag": "分詞構句（Having + 過去分詞，表先後動作，主動完成式）",
+      "pre": "",
+      "post": " the quarterly compliance audit, the internal review team identified three material weaknesses in the vendor payment approval process.",
+      "opts": ["Having completed", "Having been completed", "Completing", "To complete"],
       "ans": 0,
-      "zh": "直到第三輪談判，雙方才終於就權利金分配達成具有約束力的協議。",
-      "why": "<b>It was not until...that</b> 為分裂句（cleft sentence）固定句型，用以強調時間點，後方子句須以 that 引導。when 為關係副詞，不可用於此固定句型；which 為關係代名詞，無法連接完整子句；then 為副詞，不具連接功能，皆無法取代 that。"
+      "zh": "在「完成」季度合規稽核之後，內部審查小組於供應商付款核准流程中發現三項重大缺失。",
+      "why": "<b>Having completed</b> 為主動完成式分詞構句，表示動作（完成稽核）發生在主要子句動作（發現缺失）之前，主詞為「審查小組」，與「完成稽核」為主動關係。Having been completed 為被動完成式分詞，主詞應為稽核本身而非審查小組，語意錯誤；Completing 為現在分詞，未能表達先後順序；To complete 為不定詞，不具備分詞構句表先後動作的功能。"
     },
     {
-      "id": "2026-09-24-p5-1",
-      "tag": "非限定關係子句（which 指代前方整句）",
-      "pre": "The board approved the merger without conducting a full due-diligence review, ",
-      "post": " several shareholders later cited as evidence of gross negligence.",
-      "opts": ["which", "that", "what", "it"],
+      "id": "2026-09-25-p5-1",
+      "tag": "名詞子句作主詞（What 引導）",
+      "pre": "",
+      "post": " the committee ultimately decided remains confidential until the formal announcement is made next Monday.",
+      "opts": ["What", "That", "Which", "It"],
       "ans": 0,
-      "zh": "董事會未經完整盡職調查即批准了這起併購案，此舉後來被數名股東引為重大疏失的證據。",
-      "why": "逗號後的<b>非限定關係子句</b>可用 which 指代前方整個子句（未經盡職調查即批准併購案）。that 不可用於逗號隔開的非限定關係子句；what 不可作關係代名詞連接完整獨立子句；it 為單純代名詞，無法引導子句。"
+      "zh": "委員會最終「所決定的內容」，在下週一正式宣布前將維持機密。",
+      "why": "<b>What</b> 引導名詞子句作句子主詞，意為「所…的事物」，符合此處語意（委員會所決定的內容）。That 引導名詞子句需搭配完整敘述句作受詞或同位語，單獨作主詞不合語法；Which 為關係代名詞，須有先行詞；It 為代名詞，無法引導完整子句作主詞。"
     },
     {
-      "id": "2026-09-24-p5-2",
-      "tag": "假設語氣（insist that + 原形動詞，命令式虛擬語氣）",
-      "pre": "The compliance officer insisted that every vendor ",
-      "post": " a signed conflict-of-interest disclosure before the contract renewal proceeds.",
-      "opts": ["submit", "submits", "submitted", "will submit"],
+      "id": "2026-09-25-p5-2",
+      "tag": "否定副詞倒裝（Under no circumstances，表「在任何情況下皆不」）",
+      "pre": "Under no circumstances ",
+      "post": " an employee disclose confidential client information to a third party without prior written authorization.",
+      "opts": ["may", "an employee may", "does an employee", "an employee does"],
       "ans": 0,
-      "zh": "合規主管堅持要求每家供應商，都必須在合約續約前「提交」已簽署的利益衝突揭露書。",
-      "why": "<b>insist that</b> 表達強烈要求時，子句動詞須用假設語氣原形 submit，不受主詞人稱或時態影響。submits 為第三人稱單數直述現在式；submitted 為過去式；will submit 為未來式，三者皆為直述語氣，不符合 insist that 子句應使用的假設語氣原形。"
+      "zh": "「在任何情況下」，員工皆不得在未經事先書面授權的情況下，向第三方揭露機密客戶資訊。",
+      "why": "<b>Under no circumstances</b> 為具否定意味的副詞片語置於句首，須引發主詞助動詞倒裝，正確語序為 may + 主詞 + 原形動詞（may an employee disclose）。an employee may、does an employee、an employee does 皆未正確完成倒裝語序，與後方 an employee disclose 組合後將產生重複主詞或錯誤動詞形式。"
     },
     {
-      "id": "2026-09-24-p5-3",
-      "tag": "相關連接詞（not only...but also，表遞進）",
-      "pre": "The revised procurement policy not only tightens the disclosure threshold ",
-      "post": " mandates quarterly audits of committee members' financial holdings.",
-      "opts": ["but also", "but so", "and also", "or else"],
+      "id": "2026-09-25-p5-3",
+      "tag": "結果子句（so + 形容詞 + that，表「如此…以致於」）",
+      "pre": "The vendor's due-diligence documentation was ",
+      "post": " incomplete that the procurement committee suspended the contract review entirely.",
+      "opts": ["so", "such", "so much", "such a"],
       "ans": 0,
-      "zh": "修訂後的採購政策不僅收緊了揭露門檻，「同時也」強制要求每季稽核委員會成員的金融持股狀況。",
-      "why": "<b>not only...but also</b> 為固定相關連接詞，表「不僅…而且…」的遞進語意。but so、and also、or else 皆非此固定搭配的正確用法，無法與 not only 構成對應結構。"
+      "zh": "該供應商的盡職調查文件「如此」不完整，以致於採購委員會全面暫停了合約審查。",
+      "why": "<b>so...that</b> 句型為「so + 形容詞/副詞 + that」，此處 incomplete 為形容詞，須搭配 so。such 須用於「such + (a/an) + 名詞 + that」句型，後方須接名詞而非形容詞；so much 為副詞片語，不符合修飾形容詞的結構；such a 須接單數可數名詞，同樣不符合此處需求。"
     },
     {
-      "id": "2026-09-24-p5-4",
-      "tag": "進階動詞語意辨別（assuage，as-字首形似詞）",
-      "pre": "Before finalizing the vendor shortlist, the committee sought to ",
-      "post": " any concerns about undisclosed financial ties by requiring notarized affidavits.",
-      "opts": ["assuage", "assail", "assert", "ascertain"],
+      "id": "2026-09-25-p5-4",
+      "tag": "進階動詞語意辨別（mitigate，易與 militate 混淆）",
+      "pre": "To ",
+      "post": " the financial impact of the supply-chain disruption, the company diversified its sourcing across three additional regions.",
+      "opts": ["mitigate", "militate", "migrate", "meditate"],
       "ans": 0,
-      "zh": "在敲定供應商候選名單之前，委員會試圖藉由要求經公證的宣誓書，來「消除」有關未揭露財務關係的疑慮。",
-      "why": "<b>assuage</b>（緩解、消除疑慮或不安）精準對應此處語境。assail（猛烈抨擊、攻擊）語意不符；assert（斷言、主張）語意不符；ascertain（查明、確定某項事實）語意不符，四字型態相似易混淆，屬進階詞彙辨析。"
+      "zh": "為了「減輕」供應鏈中斷所造成的財務衝擊，該公司將採購來源分散至另外三個地區。",
+      "why": "<b>mitigate</b>（減輕、緩和負面影響）為及物動詞，精準對應此處語境。militate（尤與 against 連用，表「對…產生不利作用」）詞性用法不同，不可直接如此及物使用，是最容易與 mitigate 混淆的形似詞；migrate（遷移）語意不符；meditate（沉思、冥想）語意不符。"
     }
   ],
   "p6": {
-    "id": "2026-09-24-p6",
-    "title": "MEMORANDUM: New Protocol for Conflict-of-Interest Disclosure in Vendor Selection",
+    "id": "2026-09-25-p6",
+    "title": "MEMORANDUM: Revised Whistleblower Reporting and Non-Retaliation Procedure",
     "seg": [
       [
-        "To all members of the Vendor Selection Committee: Beginning next quarter, any committee member holding a financial interest exceeding 1% ownership in a prospective vendor ",
+        "To all staff: Effective immediately, any report submitted through the confidential ethics hotline or directly to the Compliance Department ",
         { "b": 0 },
-        " from voting on that vendor's proposal, rather than merely disclosing the interest after the fact."
+        " investigated within ten business days of receipt, regardless of the reporting employee's identity."
       ],
       [
         { "b": 1 },
-        ", committee members who serve on multiple selection panels within the same fiscal year must file a single consolidated disclosure rather than separate forms for each panel."
+        ", retaliation against any employee who reports a suspected violation in good faith is strictly prohibited, even if the underlying allegation is ultimately not substantiated."
       ],
       [
-        "Committee members must never attempt to ",
+        "Supervisors who become aware of a report must not attempt to ",
         { "b": 2 },
-        " a disclosable financial interest by transferring it to a family member's name shortly before a vendor evaluation begins."
+        " the identity of the reporting employee to colleagues or other members of management."
       ],
       [
         { "b": 3 },
-        " Any committee member found to have violated this protocol will be permanently barred from future selection panels, regardless of the dollar value involved."
+        " Employees who knowingly file a false report in bad faith, however, remain subject to disciplinary action under the company's standard code of conduct."
       ]
     ],
     "blanks": [
       {
-        "tag": "時態語態（義務性情態動詞）",
+        "tag": "時態語態（被動未來式）",
         "col1": true,
-        "opts": ["must recuse themselves", "recuses themselves", "has recused themselves", "is recusing themselves"],
+        "opts": ["will be investigated", "investigates", "has investigated", "is investigating"],
         "ans": 0,
-        "zh": "致所有供應商選案委員會成員：自下季度起，任何委員若持有某潛在供應商超過1%股權之財務利益，皆「須」在該供應商提案表決時「迴避」，而非僅在事後補行揭露。",
-        "why": "此句表達強制性規定，須用義務情態動詞 <b>must recuse themselves</b>。recuses themselves 為第三人稱單數直述現在式，不符強制語氣；has recused themselves 為現在完成式，語意錯誤；is recusing themselves 為現在進行式，同樣不符合規定語氣。"
+        "zh": "致全體員工：即日起，透過機密申訴專線或直接向合規部門提交的任何檢舉，「將」在收到後十個工作天內「接受調查」，無論檢舉員工的身分為何。",
+        "why": "檢舉是被調查的對象，須用被動語態，並以 <b>will be investigated</b> 表達明確的未來承諾。investigates 為主動現在式；has investigated 為主動完成式；is investigating 為主動進行式，三者皆為主動語態，與「檢舉被調查」的被動關係不符。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["In addition", "Nevertheless", "For instance", "Otherwise"],
+        "opts": ["Equally important", "As a result", "For example", "In contrast"],
         "ans": 0,
-        "zh": "「此外」，同一會計年度內於多個選案小組任職的委員，須提交單一整合揭露表，而非為每個小組個別填寫表格。",
-        "why": "<b>In addition</b>（此外）用以承接前句規定，補充另一項新規範，構成語意遞進銜接。Nevertheless（然而）表轉折；For instance（例如）表舉例；Otherwise（否則）表條件對立，皆不符合此處純粹補充銜接的語意。"
+        "zh": "「同樣重要的是」，對任何本於善意檢舉疑似違規行為之員工進行報復，一律嚴格禁止，即便該項指控最終未獲證實。",
+        "why": "<b>Equally important</b>（同樣重要的是）用以承接前句，引出另一項同等重要的規定（禁止報復），構成語意並列銜接。As a result（因此）表因果；For example（例如）表舉例；In contrast（相對地）表對比，均不符合此處語意。"
       },
       {
-        "tag": "進階動詞語意辨別（conceal，con-字首形似詞）",
+        "tag": "進階動詞語意辨別（divulge，de-字首形似詞）",
         "col1": true,
-        "opts": ["conceal", "console", "confer", "concede"],
+        "opts": ["divulge", "deviate", "devise", "delegate"],
         "ans": 0,
-        "zh": "委員絕不應為規避揭露義務，而在供應商評選開始前，將應揭露的財務利益「隱匿」轉至家庭成員名下。",
-        "why": "<b>conceal</b>（隱匿、隱藏）精準對應此處語境。console（安慰）語意不符；confer（商討、授予）語意不符；concede（承認、讓步）語意不符，四字字首相同易混淆，屬進階詞彙辨析。"
+        "zh": "主管一旦知悉某項檢舉，絕不應試圖向同事或其他管理層成員「洩漏」檢舉員工的身分。",
+        "why": "<b>divulge</b>（洩漏、透露機密資訊）精準對應此處語境。deviate（偏離、背離）語意不符；devise（設計、想出（計畫等））語意不符；delegate（授權、委派）語意不符，四字字首相同（de-）易混淆，屬進階詞彙辨析。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Failure to disclose a qualifying financial interest, whether intentional or inadvertent, will be treated as a material breach of this policy.",
-          "The procurement department will be transitioning to a new vendor management software platform next spring.",
-          "All committee members are encouraged to attend the annual ethics training session in October.",
-          "The company's travel reimbursement policy was updated earlier this year to reflect current per-diem rates."
+          "This protection extends to employees who report suspected violations to an external regulator or government agency, provided the internal reporting channel was used first whenever practicable.",
+          "The company's annual performance review cycle will begin in November as usual.",
+          "IT will be rolling out a new password-management tool for all internal systems next quarter.",
+          "The cafeteria menu will feature a rotating selection of regional cuisines starting next month."
         ],
         "ans": 0,
-        "zh": "「無論是故意或無心，未能揭露應揭露之財務利益，皆將被視為嚴重違反本政策。」凡經查實違反本規範之委員，無論金額大小，將永久禁止參與未來所有選案小組。",
-        "why": "段落主題為「供應商選案利益衝突揭露新規範」，此句說明未揭露即構成重大違規，與下一句「將永久禁止參與選案小組」共同構成政策執行與究責機制的完整收尾。其餘選項（採購軟體平台轉換、年度倫理訓練、差旅報帳政策更新）皆與利益衝突揭露規範無關，插入後語意斷裂。"
+        "zh": "「此項保護亦延伸至員工向外部主管機關或政府機構檢舉疑似違規行為之情形，惟應儘可能優先使用內部檢舉管道。」然而，惡意提交不實檢舉之員工，仍須依公司標準行為準則接受懲處。",
+        "why": "段落主題為「檢舉與反報復程序修訂」，此句說明保護範圍延伸至外部檢舉管道，與下一句「惡意不實檢舉仍受懲處」形成適用範圍與例外情況的完整收尾，並以 however 銜接構成語意對比。其餘選項（年度績效考核週期、IT密碼管理工具、員工餐廳菜單）皆與檢舉保護程序無關，插入後語意斷裂。"
       }
     ]
   }
