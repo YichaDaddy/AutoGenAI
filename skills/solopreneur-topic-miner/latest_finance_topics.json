@@ -1,117 +1,94 @@
 {
-  "date": "2026-09-24",
+  "date": "2026-09-25",
   "market_shocks": [
     {
-      "title": "全球公債風暴再升級！30年期殖利率飆2004年來新高",
+      "title": "美股週五強彈終結連三週跌勢，道瓊大漲478點",
       "sources": [
-        {"name": "CNBC", "url": "https://www.cnbc.com/2026/09/24/us-treasury-yields-bonds-fed-inflation.html"},
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-09-24/us-30-year-yield-hits-highest-since-2004-as-bond-selloff-deepens"},
-        {"name": "TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-24-2026"}
+        {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-september-25-dow-sp-500-nasdaq-081738529.html"},
+        {"name": "CNBC", "url": "https://www.cnbc.com/2026/09/24/stock-market-today-live-updates.html"},
+        {"name": "TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-25-2026"}
       ],
-      "summary": "美債殖利率風暴在23日「史上第二爛」標售後持續延燒，24日30年期公債殖利率衝上5.501%，創2004年6月以來新高，10年期殖利率同步走高，出現自2025年4月來最大單日跳升，強勁經濟數據、聯準會官員鷹派發言與高油價三重夾擊。這波賣壓還蔓延至全球公債市場，日本10年期公債殖利率創1996年以來新高，英國、德國公債殖利率同步刷新多年高點。美股應聲連兩日下跌，道瓊收跌0.32%、標普500跌0.51%、那斯達克跌0.78%。",
-      "tw_stock_impact": "全球資金成本同步墊高，對台股高本益比AI權值股的評價壓力不會只是美國單一市場的問題，台積電、聯發科等成長股若面臨外資調節，波動恐加劇。",
-      "investment_insight": "這已從單一美債標售事件演變成『全球公債同步重定價』，投資人應留意這是否代表升息循環尚未結束，而非先前市場預期的降息故事；高股息、低負債的防禦型部位可望相對抗跌。",
-      "title_idea": "全球公債集體崩！30年美債殖利率衝回2004年，日德英同步遭殃",
-      "local_angle": "台灣投資人若持有海外債券ETF或美股部位，須留意這波公債賣壓已是全球性事件而非美國獨有，資產配置上可重新評估存續期間風險。"
+      "summary": "美股25日全面上漲，道瓊終場大漲478.64點（+0.93%）收51,828.62點，終結連三週跌勢；標普500上漲0.51%收7,743.41點，那斯達克上漲0.5%收27,068.72點，三大指數同步收出週線正報酬。市場主因布蘭特原油回落與波動率降溫，暫時消化了前一日公債風暴的恐慌情緒。",
+      "tw_stock_impact": "美股週五反彈可緩解台股連假期間的心理壓力，法人研判台積電、聯發科等追蹤美股走勢的權值股，於9/29開紅盤時可望獲得正面支撐。",
+      "investment_insight": "單日反彈不代表風暴解除，投資人應留意10月Fed利率決策前，債券殖利率是否再度走高侵蝕股市評價。",
+      "title_idea": "道瓊噴478點！美股連三黑後強彈，終結跌勢",
+      "local_angle": "台股連休4天，9/25美股反彈是連假期間唯一能觀察的即時體溫計，可作為評估開紅盤方向的參考。"
     },
     {
-      "title": "台股連假前獲利了結！收跌132點守住48K",
+      "title": "比特幣守穩8.4萬美元，單週漲幅近一成",
       "sources": [
-        {"name": "經濟日報", "url": "https://money.udn.com/money/story/5607/9775404"},
-        {"name": "Yahoo奇摩股市", "url": "https://tw.stock.yahoo.com/news/%E4%B8%89%E5%A4%A7%E6%B3%95%E4%BA%BA%E8%B3%A3%E8%B6%85%E5%8F%B0%E8%82%A1438-73%E5%84%84%E5%85%83-070653439.html"}
+        {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-september-25-2026-is-bitcoin-finally-on-a-path-to-250000-113048042.html"},
+        {"name": "Fortune", "url": "https://fortune.com/article/price-of-bitcoin-09-25-2026/"}
       ],
-      "summary": "台股24日開低震盪，終場下跌132.69點，收在48,024.60點，跌幅0.28%，是23日創收盤新高後隨美股拉回、加上中秋連假前資金鎖單的雙重反應。三大法人合計賣超438.72億元，其中外資及陸資賣超338.02億元、投信賣超114.09億元，僅自營商小幅買超；台積電回落至2,475元、跌1%，聯發科則逆勢收漲近2%。",
-      "tw_stock_impact": "台股即將連休4個交易日（9/25至9/28中秋連假），法人在假期前大幅調節部位屬正常防禦操作，但也顯示外資對於美債殖利率風暴仍有戒心。",
-      "investment_insight": "台股在創高後獲利了結尚屬健康回檔，但投資人須留意連假期間美股與國際情勢若有劇烈變化，開紅盤時可能出現補跌或補漲的跳空缺口。",
-      "title_idea": "48,157到48,024！台股連假前先跑一趟，法人狂賣438億",
-      "local_angle": "台灣投資人面臨4天連假的『資訊真空期』，若持有槓桿部位或期貨未平倉，需特別留意海外市場在休市期間可能出現的劇烈波動。"
+      "summary": "比特幣25日開盤報84,378美元，與前一日持平，盤中一度回升至85,199美元；儘管24日才因升息機率飆升重挫至8.4萬美元關卡，本週整體比特幣與以太幣仍雙雙上漲近一成，顯示賣壓未持續擴大。",
+      "tw_stock_impact": "比特幣止穩對台灣加密貨幣概念股及高比特幣曝險投資人情緒有安撫作用，但連假期間台股無法交易，僅能作為情緒指標參考。",
+      "investment_insight": "84,000美元附近可能形成短期支撐，但升息機率仍逾7成，若Fed真的升息，不排除再度測試前低，不宜過度加碼槓桿部位。",
+      "title_idea": "比特幣挺過8.4萬保衛戰！單週還倒賺近一成",
+      "local_angle": "台灣投資人若持有海外交易所比特幣部位，連假期間仍可全球交易，建議留意國際市場對利率決策的反應速度。"
     },
     {
-      "title": "川習會登場：美中關稅休兵延長至明年1月10日",
+      "title": "台股連假前收48,024點，專家示警川習會撞連假的資訊真空風險",
       "sources": [
-        {"name": "CNBC", "url": "https://www.cnbc.com/2026/09/24/us-china-trade-truce-bessent-trump-xi.html"},
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/newsletters/2026-09-24/us-and-china-extend-trade-truce-as-trump-and-xi-meet"}
+        {"name": "SETN三立新聞網", "url": "https://www.setn.com/news/1912406"},
+        {"name": "風傳媒", "url": "https://www.storm.mg/article/11167351"},
+        {"name": "中時新聞網", "url": "https://www.chinatimes.com/realtimenews/20260925001029-260410"}
       ],
-      "summary": "川普與習近平24日在白宮舉行約一天的高峰會，會前財政部長貝森特宣布美中將貿易關稅休兵延長至明年1月10日（原訂11月到期），為互課逾100%關稅的貿易戰按下暫停鍵。分析師普遍認為此次峰會象徵意義大於實質突破，晶片出口管制、關鍵稀土與台灣議題預期不會有具體協議，僅可能觸及AI風險對話與部分關稅調降。",
-      "tw_stock_impact": "關稅休兵延長短期有助降低台灣科技供應鏈的不確定性，但晶片出口管制若無實質鬆綁，台積電、輝達供應鏈仍將維持謹慎樂觀。",
-      "investment_insight": "休兵延長是『避免最壞情況』而非『重大利多』，投資人不宜過度解讀為美中關係實質改善，仍應關注會後聯合聲明是否觸及半導體與稀土等台灣供應鏈核心議題。",
-      "title_idea": "川習會來了！關稅休兵延到明年1月，但晶片管制原封不動",
-      "local_angle": "台灣身處美中科技戰最前線，這次休兵延長雖降低短期關稅風險，但半導體出口管制若未鬆綁，台廠仍須留意夾在中間的長期地緣政治壓力。"
-    },
-    {
-      "title": "荷姆茲海峽傳解封曙光，美股止跌但油價仍衝破106美元",
-      "sources": [
-        {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-september-24-dow-sp-500-nasdaq-080352893.html"},
-        {"name": "TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-24-2026"}
-      ],
-      "summary": "美股24日盤中傳出美國與伊朗談判團隊正洽談分階段協議，若伊朗同意讓船運通過荷姆茲海峽、美方將解除對伊朗的經濟封鎖，消息一度激勵那斯達克由黑翻紅、標普與道瓊跌幅收斂。但布蘭特原油並未因此降溫，反而在避險與供應緊張情緒下一度衝破每桶106美元，延續23日反彈以來的漲勢。",
-      "tw_stock_impact": "若荷姆茲海峽談判最終破局或延宕，油價續漲將牽動台灣航空（華航、長榮航）與石化（台塑四寶）類股成本壓力；反之談判若有進展，能源類股可望降溫。",
-      "investment_insight": "這是市場在『地緣風險降溫預期』與『油價實際仍創高』之間的矛盾訊號，建議投資人不要僅憑消息面追高能源類股，應等待正式協議簽署或破局的明確訊號。",
-      "title_idea": "伊朗鬆口了？荷姆茲海峽談判傳曙光，但油價照樣噴上106美元",
-      "local_angle": "台灣作為能源進口大國，這場談判牽動的不只是股市情緒，也直接影響中油與航空、石化類股的成本結構，投資人宜持續追蹤後續進展。"
+      "summary": "台股在中秋連假前最後交易日收48,024點（跌132點），驚險守住48,000關卡；多家台灣財經媒體於25日（連假首日）刊出分析，提醒投資人連續4天休市期間，川習會後續發展或海外市場劇烈波動時台股將無法即時反應，開紅盤時恐出現補漲或補跌缺口，並提醒對此次川習會「不宜期待過高」，核心僅在建立溝通護欄而非實質解決經貿制裁。",
+      "tw_stock_impact": "三大法人於連假前偏保守操作，反映機構對這段資訊真空期風險的謹慎態度；法人普遍預期年底前台股仍有機會挑戰5萬點，但過程恐波動加大。",
+      "investment_insight": "連假期間持有大量未平倉部位或槓桿商品的投資人，須特別留意連假變盤的歷史經驗，建議提前設定風險控管機制。",
+      "title_idea": "台股連放4天！專家示警：這段時間股民看得到、卻管不到最危險",
+      "local_angle": "投資人部位曝險於美股、原油、比特幣等國際市場整整4天卻無法在台股盤中調整，凸顯連假前避險規劃的重要性。"
     }
   ],
   "investment_opportunities": [
     {
-      "title": "比特幣重挫至8.4萬美元，升息預期成殺手",
+      "title": "荷姆茲海峽談判露曙光，原油回落逾2%",
       "sources": [
-        {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-september-24-2026-crypto-prices-lose-ground-as-rate-hike-expectations-grow-114459916.html"},
-        {"name": "Fortune", "url": "https://fortune.com/article/price-of-bitcoin-09-24-2026/"}
+        {"name": "The National", "url": "https://www.thenationalnews.com/business/energy/2026/09/25/oil-prices-waver-in-face-of-iran-war-truce-and-houthi-attacks/"}
       ],
-      "summary": "比特幣24日開盤即較前一日下跌2.1%至8.437萬美元，盤中一度跌破8.35萬美元，終結23日反彈至8個月高點附近的氣勢。市場解讀主因是聯準會10月升息機率飆升至逾75%，升息預期升溫壓抑高風險資產，加密貨幣首當其衝。",
-      "tw_stock_impact": "比特幣走弱可能連動台灣加密貨幣概念股與相關ETF信心，投資人若持有比特幣現貨ETF部位，需留意升息預期主導的資金風險偏好轉向。",
-      "investment_insight": "這波回檔是典型的『升息預期壓抑風險資產』邏輯，而非比特幣基本面轉壞；若聯準會10月真的升息，短線恐有更深回檔，長線投資人可觀察8萬美元整數關卡的支撐力道。",
-      "title_idea": "才創8個月新高就重摔！比特幣一夕蒸發，升息陰影罩頂",
-      "local_angle": "台灣加密貨幣投資人若在23日的反彈行情追高，24日的急殺是提醒：升息預期主導的市場，波動速度遠比想像中快。"
+      "summary": "受美伊談判團隊洽談分階段解封荷姆茲海峽船運消息激勵，原油25日（週五）回落至92.55美元，跌幅逾2%；卡達官員在聯合國大會場邊斡旋美伊談判，但胡塞武裝仍持續攻擊行動，市場對解封抱持謹慎樂觀。",
+      "tw_stock_impact": "油價回落有助降低台灣航空與石化業成本壓力，若談判持續朝解封方向推進，相關類股連假後可望獲得評價修復空間。",
+      "investment_insight": "油價因單一談判消息大幅波動，顯示地緣政治風險溢價仍高，建議在正式協議簽署前不宜過度追高航空、觀光類股。",
+      "title_idea": "油價鬆口了！荷姆茲海峽談判露曙光，原油單日回落逾2%",
+      "local_angle": "台灣為能源淨進口國，油價走勢直接牽動航空、電力、石化成本，是開紅盤後觀察內需股與運輸股的重要指標。"
     },
     {
-      "title": "散熱三雄逆勢噴出創天價，AI水冷商機正夯",
+      "title": "貝瑞再示警：五大雲端巨頭恐藏3兆美元表外AI負債",
       "sources": [
-        {"name": "經濟日報", "url": "https://money.udn.com/money/story/5710/9774992"},
-        {"name": "Yahoo奇摩股市", "url": "https://tw.stock.yahoo.com/news/%E6%95%A3%E7%86%B1%E9%BD%8A%E9%A3%86%E9%AB%98-%E9%80%99%E6%AA%94-%E9%80%A36%E6%BC%B232-1-%E6%8C%BE%E9%9B%99%E9%B4%BB%E6%BC%B2%E5%81%9C%E5%90%8C%E5%AF%AB%E5%8F%B2%E9%AB%98-081200035.html"}
+        {"name": "Seeking Alpha", "url": "https://seekingalpha.com/news/4646984-burry-warns-of-write-offs-by-hyperscalers-as-ai-spending-surges"},
+        {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/technology/ai/articles/michael-burry-warns-hyperscalers-hiding-024617848.html"}
       ],
-      "summary": "台股24日大盤雖因連假前獲利了結拉回，散熱模組族群卻逆勢走強：雙鴻（3324）攻上漲停、收1,750元創歷史新高，健策（3653）大漲近5%收6,770元同創天價，奇鋐（3017）也上漲逾3%，三檔合計貢獻大盤漲點前五名。市場解讀為AI伺服器功耗持續攀升、水冷散熱方案滲透率加速，帶動類股買氣不受大盤拖累。",
-      "tw_stock_impact": "散熱族群已成為台股AI供應鏈中少數能在大盤回檔時逆勢創高的族群，反映資金對『AI伺服器基礎建設』題材的結構性偏好，短期熱度可望延續至連假後。",
-      "investment_insight": "當大盤因總經因素（美債殖利率、連假鎖單）拉回時，個股仍能創高通常代表基本面驅動而非單純情緒炒作；雙鴻8月營收年增67.2%、健策前8月營收年增42.9%，均創同期新高，值得追蹤連假後財報行情是否延續。",
-      "title_idea": "大盤跌、它們噴！散熱三雄連假前逆勢創天價",
-      "local_angle": "台灣散熱供應鏈是全球AI伺服器不可或缺的一環，這波逆勢表態顯示外資與買盤對台廠在AI基礎建設中的角色仍具信心，是連假前少數的亮點類股。"
-    },
-    {
-      "title": "台積電回檔守2,475元，聯發科逆勢收紅近2%",
-      "sources": [
-        {"name": "經濟日報", "url": "https://money.udn.com/money/story/5607/9775404"}
-      ],
-      "summary": "台股24日電子權值股表現分歧：台積電（2330）收在2,475元，較23日創高的2,500元回落25元、跌約1%；聯發科（2454）則逆勢上漲近2%，收5,285元。兩大權值股在同一交易日走勢背道而馳，反映資金在連假前對不同半導體個股的評價出現分歧。",
-      "tw_stock_impact": "台積電短線在美債殖利率風暴與獲利了結賣壓下承壓，但聯發科逆勢走強顯示部分資金轉向邊緣運算、手機晶片等非純AI伺服器概念的半導體族群尋求分散。",
-      "investment_insight": "當市場出現同族群個股表現分化，往往代表資金正在進行結構性換股，而非全面看空半導體；投資人可留意聯發科這類本益比相對台積電更低、且受惠題材較分散的權值股是否能延續強勢。",
-      "title_idea": "台積電退燒、聯發科逆勢噴！連假前資金悄悄換股",
-      "local_angle": "台灣投資人若習慣把台積電當成台股風向球，這次聯發科逆勢收紅是提醒：連假前的資金布局已不是『一致性看多或看空』，而是有選擇性的換股操作。"
+      "summary": "大賣空原型人物麥克・貝瑞（Michael Burry）示警，微軟、亞馬遜、Alphabet、Meta、甲骨文五大雲端巨頭合計恐有超過3兆美元的表外AI基礎建設負債（含近1.2兆美元未生效租約承諾、逾1.5兆美元採購承諾），並指逾4,000億美元在建工程資產因尚未啟用、暫不列入折舊，恐使財務狀況失真；他將此波AI資本支出熱潮類比為過往資本週期泡沫，預期2028至2029年間恐現大規模資產減記。",
+      "tw_stock_impact": "若貝瑞警告持續發酵，市場情緒可能階段性影響台灣AI供應鏈類股評價，尤其是與美系雲端資本支出連動較高的AI伺服器概念股。",
+      "investment_insight": "貝瑞警告聚焦2028至2029年的長期風險，並非短期崩盤預測，投資人應將此視為評估AI供應鏈長線基本面的參考依據。",
+      "title_idea": "貝瑞驚爆：科技巨頭藏3兆美元AI負債，音樂停止時誰先中鏢？",
+      "local_angle": "台灣AI供應鏈與美系雲端巨頭資本支出高度連動，追捧AI伺服器、散熱等概念股時應同步留意終端客戶財務體質。"
     }
   ],
   "macro_observations": [
     {
-      "title": "Fed升息機率飆破75%，全球公債同步遭殃",
+      "title": "美國9月消費者信心終值降至48.1，創四個月新低",
       "sources": [
-        {"name": "CNBC", "url": "https://www.cnbc.com/2026/09/24/yields-are-at-levels-not-seen-in-decades-what-could-stop-the-rout-in-bonds.html"},
-        {"name": "CNBC", "url": "https://www.cnbc.com/2026/09/24/us-treasury-yields-bonds-fed-inflation.html"}
+        {"name": "Breitbart", "url": "https://www.breitbart.com/economy/2026/09/25/consumer-sentiment-final-sept-2026/"},
+        {"name": "qz.com", "url": "https://qz.com/university-michigan-consumer-sentiment-september-2026-092526"}
       ],
-      "summary": "市場24日將聯準會10月升息的機率上修至逾75%，較前一交易日大幅跳升，主因是強勁的美國經濟數據、聯準會官員鷹派談話與居高不下的油價三重推升通膨疑慮。這波賣壓不僅限於美國，日本10年期公債殖利率同步衝上1996年以來新高，英國公債、德國公債殖利率也雙雙刷新多年高點，形成罕見的『全球公債同步重定價』現象。",
-      "tw_stock_impact": "若全球利率環境持續走高，台灣壽險業海外債券部位評價壓力將擴大，同時也可能影響台灣央行的貨幣政策空間與新台幣匯率走勢。",
-      "investment_insight": "市場敘事已從『何時降息』轉為『是否還要升息』，這是近幾年罕見的轉折，投資人應重新檢視利率敏感資產（成長股、REITs、長天期債券）的配置比重，避免押注過早降息的劇本。",
-      "title_idea": "全世界的公債都在跌！Fed升息機率一夕飆破75%",
-      "local_angle": "台灣的壽險業與退休基金若持有大量海外債券部位，這波全球性殖利率飆升值得密切關注，也提醒一般投資人重新檢視債券ETF部位的利率風險。"
+      "summary": "密西根大學公布9月消費者信心指數終值48.1，較月中初值47.8小幅回升，但仍創四個月來新低，主因通膨疑慮升溫與企業前景轉差；未來一年通膨預期升至4.6%，創6月以來新高，且信心下滑橫跨政治光譜兩端。",
+      "tw_stock_impact": "美國消費信心疲弱可能影響美系消費性電子與零售需求，對以出口美系品牌供應鏈為主的台灣電子代工廠構成中期需求隱憂。",
+      "investment_insight": "股市反彈與消費信心背離，是典型的數據落後、股價領先現象，投資人應留意這是否只是短期技術性反彈而非基本面真正好轉。",
+      "title_idea": "股市在漲，消費者卻在怕！美國信心指數摔落四個月低點",
+      "local_angle": "若美國消費力道持續走弱，台灣電子代工與消費性電子出口鏈在年底旺季可能提前面臨訂單修正風險。"
     },
     {
-      "title": "台股連休4天曝險窗：川習會、公債、荷姆茲談判都未落幕",
+      "title": "VIX恐慌指數週五回落5.24%，但殖利率仍處高檔",
       "sources": [
-        {"name": "經濟日報", "url": "https://money.udn.com/money/story/5710/9774992"},
-        {"name": "經濟日報", "url": "https://money.udn.com/money/story/5607/9775404"}
+        {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-september-25-dow-sp-500-nasdaq-081738529.html"},
+        {"name": "Vistap Global", "url": "https://vistapglobal.com/weekly-market-summary-sept-25-2026-stocks-gain-as-oil-pullback-eases-pressure-while-treasury-yields-stay-elevated-akam-amwl-docs-lpl-meta-modd-msft-nvda-ser-ysg/"}
       ],
-      "summary": "台股將自9月25日起連休4個交易日至9月28日中秋連假，而此刻美中川習會結果、全球公債殖利率風暴、荷姆茲海峽談判進展等多項重大變數都尚未有最終結論。三大法人在24日大幅賣超438億元，被市場解讀為法人在不確定性升高之際選擇連假前先行避險，而非單純看壞台股後市。",
-      "tw_stock_impact": "台股連假期間美股、國際油價與地緣政治情勢若出現劇烈變化，台股開紅盤時可能面臨補漲或補跌的跳空風險，尤以權值股台積電、聯發科為觀察重點。",
-      "investment_insight": "連假前的『資訊真空期』是台灣投資人每年都會面臨的結構性風險，建議在連假前適度降低槓桿部位，或善用選擇權等工具對沖跳空缺口風險，而非單純被動持股過節。",
-      "title_idea": "台股放假4天，全世界卻沒有休息！投資人連假前必知的3大變數",
-      "local_angle": "台灣投資人每年中秋連假都要面對『別人開盤、我們休市』的曝險期，今年更疊加美債殖利率風暴、川習會與荷姆茲海峽談判三大未爆彈，資產配置上宜提前預作準備。"
+      "summary": "VIX恐慌指數25日下跌5.24%，反映市場情緒隨美股反彈與油價回落而降溫；但美債殖利率仍維持在24日公債風暴後的相對高檔，顯示市場對後續利率路徑的疑慮尚未真正解除，僅是短線技術性回穩。",
+      "tw_stock_impact": "美股波動率結構性偏高，意味著台股連假後重新開盤時，仍可能面臨較大的隔夜跳空風險，尤其是高本益比的AI相關權值股。",
+      "investment_insight": "單日反彈與殖利率維持高檔的組合是典型的市場矛盾訊號，建議繼續觀察殖利率是否回落，作為判斷波動是否真正緩解的依據。",
+      "title_idea": "恐慌情緒降溫，但殖利率不降溫：美股反彈背後的隱憂",
+      "local_angle": "台灣投資人連假期間應留意國際波動率與殖利率指標，而非僅看單日指數漲跌。"
     }
   ]
 }
