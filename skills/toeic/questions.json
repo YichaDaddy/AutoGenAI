@@ -1,117 +1,117 @@
 {
-  "date": "2026-09-25",
+  "date": "2026-09-26",
   "p5": [
     {
-      "id": "2026-09-25-p5-0",
-      "tag": "分詞構句（Having + 過去分詞，表先後動作，主動完成式）",
+      "id": "2026-09-26-p5-0",
+      "tag": "簡化關係子句（過去分詞後位修飾，省略 which was）",
+      "pre": "The revised budget proposal ",
+      "post": " by the finance committee last week now awaits final approval from the board of directors.",
+      "opts": ["submitted", "submitting", "having submitted", "to submit"],
+      "ans": 0,
+      "zh": "財務委員會上週「提交」的修訂預算提案，目前正等待董事會最終核准。",
+      "why": "<b>submitted</b> 為過去分詞，構成省略關係代名詞的簡化關係子句（= which was submitted），修飾 proposal，表示提案是被提交的對象（被動關係）。submitting 為現在分詞，表主動進行，語意錯誤；having submitted 為主動完成式分詞，主詞應為提交者而非提案本身；to submit 為不定詞，不具備修飾名詞表被動完成動作的功能。"
+    },
+    {
+      "id": "2026-09-26-p5-1",
+      "tag": "讓步句型（However + 形容詞，表「無論多麼…」）",
       "pre": "",
-      "post": " the quarterly compliance audit, the internal review team identified three material weaknesses in the vendor payment approval process.",
-      "opts": ["Having completed", "Having been completed", "Completing", "To complete"],
+      "post": " persuasive the vendor's cost-saving projections may appear, the procurement team must still verify them against independent market data.",
+      "opts": ["However", "No matter", "Whatever", "Although"],
       "ans": 0,
-      "zh": "在「完成」季度合規稽核之後，內部審查小組於供應商付款核准流程中發現三項重大缺失。",
-      "why": "<b>Having completed</b> 為主動完成式分詞構句，表示動作（完成稽核）發生在主要子句動作（發現缺失）之前，主詞為「審查小組」，與「完成稽核」為主動關係。Having been completed 為被動完成式分詞，主詞應為稽核本身而非審查小組，語意錯誤；Completing 為現在分詞，未能表達先後順序；To complete 為不定詞，不具備分詞構句表先後動作的功能。"
+      "zh": "「無論」供應商的省成本預測看起來多麼有說服力，採購團隊仍必須依據獨立市場數據加以驗證。",
+      "why": "<b>However + 形容詞 + 主詞 + 動詞</b> 為固定讓步句型，表示「無論多麼…」。No matter 須搭配 how 才能構成同義句型（No matter how persuasive），單獨使用不完整；Whatever 為代名詞/限定詞，須接名詞而非直接接形容詞；Although 為連接詞，須接完整子句，不可直接接形容詞置於句首。"
     },
     {
-      "id": "2026-09-25-p5-1",
-      "tag": "名詞子句作主詞（What 引導）",
+      "id": "2026-09-26-p5-2",
+      "tag": "與過去事實相反假設語氣倒裝（Had + 主詞 + 過去分詞）",
       "pre": "",
-      "post": " the committee ultimately decided remains confidential until the formal announcement is made next Monday.",
-      "opts": ["What", "That", "Which", "It"],
+      "post": " the anomaly in the audit trail sooner, the compliance team could have prevented the reporting error entirely.",
+      "opts": ["Had the compliance team detected", "The compliance team had detected", "Did the compliance team detect", "The compliance team detected"],
       "ans": 0,
-      "zh": "委員會最終「所決定的內容」，在下週一正式宣布前將維持機密。",
-      "why": "<b>What</b> 引導名詞子句作句子主詞，意為「所…的事物」，符合此處語意（委員會所決定的內容）。That 引導名詞子句需搭配完整敘述句作受詞或同位語，單獨作主詞不合語法；Which 為關係代名詞，須有先行詞；It 為代名詞，無法引導完整子句作主詞。"
+      "zh": "若合規團隊「能更早」發現稽核軌跡中的異常，原本可以完全避免這起報告錯誤。",
+      "why": "此為與過去事實相反的假設語氣（第三型假設句）省略 if 而倒裝，正確語序為 <b>Had + 主詞 + 過去分詞</b>，後方主要子句搭配 could have + 過去分詞。The compliance team had detected 未倒裝，不成立省略 if 的假設句；Did the compliance team detect 為疑問句語序；The compliance team detected 為單純過去式直述句，皆不具備假設語氣。"
     },
     {
-      "id": "2026-09-25-p5-2",
-      "tag": "否定副詞倒裝（Under no circumstances，表「在任何情況下皆不」）",
-      "pre": "Under no circumstances ",
-      "post": " an employee disclose confidential client information to a third party without prior written authorization.",
-      "opts": ["may", "an employee may", "does an employee", "an employee does"],
+      "id": "2026-09-26-p5-3",
+      "tag": "同位語名詞子句（the fact that）",
+      "pre": "Management remains concerned about ",
+      "post": " several key clients have not yet renewed their contracts for the upcoming fiscal year.",
+      "opts": ["the fact that", "that", "the fact", "which"],
       "ans": 0,
-      "zh": "「在任何情況下」，員工皆不得在未經事先書面授權的情況下，向第三方揭露機密客戶資訊。",
-      "why": "<b>Under no circumstances</b> 為具否定意味的副詞片語置於句首，須引發主詞助動詞倒裝，正確語序為 may + 主詞 + 原形動詞（may an employee disclose）。an employee may、does an employee、an employee does 皆未正確完成倒裝語序，與後方 an employee disclose 組合後將產生重複主詞或錯誤動詞形式。"
+      "zh": "管理層仍對「數家主要客戶尚未續簽下一會計年度合約」此一事實感到憂心。",
+      "why": "<b>the fact that</b> 為固定同位語結構，介系詞 about 後須接名詞 the fact，再以 that 子句說明其具體內容。單獨使用 that 或 which 皆不可直接置於介系詞後方引導完整子句作受詞；the fact 若缺少 that 子句補足說明，語意將不完整。"
     },
     {
-      "id": "2026-09-25-p5-3",
-      "tag": "結果子句（so + 形容詞 + that，表「如此…以致於」）",
-      "pre": "The vendor's due-diligence documentation was ",
-      "post": " incomplete that the procurement committee suspended the contract review entirely.",
-      "opts": ["so", "such", "so much", "such a"],
+      "id": "2026-09-26-p5-4",
+      "tag": "進階動詞語意辨別（preclude，易與 exclude/occlude 混淆）",
+      "pre": "A signed non-compete agreement does not necessarily ",
+      "post": " a former employee from starting a business in a related field, provided the new venture does not use proprietary information.",
+      "opts": ["preclude", "occlude", "exclude", "include"],
       "ans": 0,
-      "zh": "該供應商的盡職調查文件「如此」不完整，以致於採購委員會全面暫停了合約審查。",
-      "why": "<b>so...that</b> 句型為「so + 形容詞/副詞 + that」，此處 incomplete 為形容詞，須搭配 so。such 須用於「such + (a/an) + 名詞 + that」句型，後方須接名詞而非形容詞；so much 為副詞片語，不符合修飾形容詞的結構；such a 須接單數可數名詞，同樣不符合此處需求。"
-    },
-    {
-      "id": "2026-09-25-p5-4",
-      "tag": "進階動詞語意辨別（mitigate，易與 militate 混淆）",
-      "pre": "To ",
-      "post": " the financial impact of the supply-chain disruption, the company diversified its sourcing across three additional regions.",
-      "opts": ["mitigate", "militate", "migrate", "meditate"],
-      "ans": 0,
-      "zh": "為了「減輕」供應鏈中斷所造成的財務衝擊，該公司將採購來源分散至另外三個地區。",
-      "why": "<b>mitigate</b>（減輕、緩和負面影響）為及物動詞，精準對應此處語境。militate（尤與 against 連用，表「對…產生不利作用」）詞性用法不同，不可直接如此及物使用，是最容易與 mitigate 混淆的形似詞；migrate（遷移）語意不符；meditate（沉思、冥想）語意不符。"
+      "zh": "簽署競業禁止協議，並不必然「排除」前員工在相關領域創業的可能性，只要新事業不使用公司專屬資訊即可。",
+      "why": "<b>preclude</b>（預先排除、阻止…的可能性，常搭配 from）精準對應此處語境。occlude（阻塞，多用於醫學/物理層面）語意不符；exclude（將某物排除於群體或範圍之外）語意相近但不如 preclude 精準對應「阻止某行為發生」；include（包含）語意相反，四字均含 -clude 字根易混淆，屬進階詞彙辨析。"
     }
   ],
   "p6": {
-    "id": "2026-09-25-p6",
-    "title": "MEMORANDUM: Revised Whistleblower Reporting and Non-Retaliation Procedure",
+    "id": "2026-09-26-p6",
+    "title": "MEMORANDUM: Revised Guidelines on Use of Generative AI Tools for Client Communications",
     "seg": [
       [
-        "To all staff: Effective immediately, any report submitted through the confidential ethics hotline or directly to the Compliance Department ",
+        "To all client-facing staff: Beginning next month, any client communication drafted with the assistance of a generative AI tool ",
         { "b": 0 },
-        " investigated within ten business days of receipt, regardless of the reporting employee's identity."
+        " personal review and approval from the responsible account manager before it is sent."
       ],
       [
         { "b": 1 },
-        ", retaliation against any employee who reports a suspected violation in good faith is strictly prohibited, even if the underlying allegation is ultimately not substantiated."
+        ", staff are strictly prohibited from inputting any client-identifying information into a public or non-enterprise generative AI tool, even for minor drafting tasks."
       ],
       [
-        "Supervisors who become aware of a report must not attempt to ",
+        "Employees who ",
         { "b": 2 },
-        " the identity of the reporting employee to colleagues or other members of management."
+        " this policy by bypassing the review requirement will be subject to disciplinary action, regardless of whether the resulting communication contained any actual errors."
       ],
       [
         { "b": 3 },
-        " Employees who knowingly file a false report in bad faith, however, remain subject to disciplinary action under the company's standard code of conduct."
+        " The firm's IT department will conduct random audits of AI-tool usage logs to verify compliance with this policy."
       ]
     ],
     "blanks": [
       {
-        "tag": "時態語態（被動未來式）",
+        "tag": "時態語態（未來式主動語態）",
         "col1": true,
-        "opts": ["will be investigated", "investigates", "has investigated", "is investigating"],
+        "opts": ["will require", "requires", "has required", "is requiring"],
         "ans": 0,
-        "zh": "致全體員工：即日起，透過機密申訴專線或直接向合規部門提交的任何檢舉，「將」在收到後十個工作天內「接受調查」，無論檢舉員工的身分為何。",
-        "why": "檢舉是被調查的對象，須用被動語態，並以 <b>will be investigated</b> 表達明確的未來承諾。investigates 為主動現在式；has investigated 為主動完成式；is investigating 為主動進行式，三者皆為主動語態，與「檢舉被調查」的被動關係不符。"
+        "zh": "致所有對外服務客戶之同仁：自下月起，任何借助生成式AI工具草擬之客戶溝通內容，「須」經負責客戶經理親自審閱並核准後，方可寄出。",
+        "why": "此句表達自下月起即將生效的新規定，須用未來式 <b>will require</b>。requires 為現在式直述句，未能表達「即將生效」的時間點；has required 為現在完成式，語意錯誤；is requiring 為現在進行式，同樣不符合此處表達未來新規定的語氣。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["Equally important", "As a result", "For example", "In contrast"],
+        "opts": ["Furthermore", "Consequently", "For example", "Otherwise"],
         "ans": 0,
-        "zh": "「同樣重要的是」，對任何本於善意檢舉疑似違規行為之員工進行報復，一律嚴格禁止，即便該項指控最終未獲證實。",
-        "why": "<b>Equally important</b>（同樣重要的是）用以承接前句，引出另一項同等重要的規定（禁止報復），構成語意並列銜接。As a result（因此）表因果；For example（例如）表舉例；In contrast（相對地）表對比，均不符合此處語意。"
+        "zh": "「此外」，員工絕對禁止將任何可識別客戶身分的資訊，輸入至公開或非企業版的生成式AI工具，即便僅用於次要草擬工作亦然。",
+        "why": "<b>Furthermore</b>（此外）用以承接前句規定，補充另一項獨立且同等重要的禁止事項，構成語意遞進銜接。Consequently（因此）表因果；For example（例如）表舉例；Otherwise（否則）表條件對立，均不符合此處純粹補充銜接的語意。"
       },
       {
-        "tag": "進階動詞語意辨別（divulge，de-字首形似詞）",
+        "tag": "進階動詞語意辨別（contravene，con-字首形似詞）",
         "col1": true,
-        "opts": ["divulge", "deviate", "devise", "delegate"],
+        "opts": ["contravene", "convene", "contrive", "converge"],
         "ans": 0,
-        "zh": "主管一旦知悉某項檢舉，絕不應試圖向同事或其他管理層成員「洩漏」檢舉員工的身分。",
-        "why": "<b>divulge</b>（洩漏、透露機密資訊）精準對應此處語境。deviate（偏離、背離）語意不符；devise（設計、想出（計畫等））語意不符；delegate（授權、委派）語意不符，四字字首相同（de-）易混淆，屬進階詞彙辨析。"
+        "zh": "員工若「違反」本政策、規避審閱要求，無論最終溝通內容是否確實出現錯誤，皆將受到懲處。",
+        "why": "<b>contravene</b>（違反、牴觸規定或法律）精準對應此處語境。convene（召集、召開會議）語意不符；contrive（策劃、設計，通常帶巧妙或狡猾意味）語意不符；converge（匯聚、趨於一致）語意不符，四字字首相同（con-）易混淆，屬進階詞彙辨析。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "This protection extends to employees who report suspected violations to an external regulator or government agency, provided the internal reporting channel was used first whenever practicable.",
-          "The company's annual performance review cycle will begin in November as usual.",
-          "IT will be rolling out a new password-management tool for all internal systems next quarter.",
-          "The cafeteria menu will feature a rotating selection of regional cuisines starting next month."
+          "This policy is intended to safeguard client confidentiality and maintain the firm's professional standards of accuracy, not to discourage the responsible use of AI tools as a drafting aid.",
+          "The firm's holiday party will be held at the downtown conference center this December.",
+          "Employees are reminded to submit expense reports by the fifth of each month.",
+          "The marketing department will unveil a redesigned company website next quarter."
         ],
         "ans": 0,
-        "zh": "「此項保護亦延伸至員工向外部主管機關或政府機構檢舉疑似違規行為之情形，惟應儘可能優先使用內部檢舉管道。」然而，惡意提交不實檢舉之員工，仍須依公司標準行為準則接受懲處。",
-        "why": "段落主題為「檢舉與反報復程序修訂」，此句說明保護範圍延伸至外部檢舉管道，與下一句「惡意不實檢舉仍受懲處」形成適用範圍與例外情況的完整收尾，並以 however 銜接構成語意對比。其餘選項（年度績效考核週期、IT密碼管理工具、員工餐廳菜單）皆與檢舉保護程序無關，插入後語意斷裂。"
+        "zh": "「本政策旨在保障客戶機密並維護本所的專業準確標準，而非阻止同仁負責任地運用AI工具作為草擬輔助。」事務所資訊部門將對AI工具使用紀錄進行隨機稽核，以確認是否符合本政策規定。",
+        "why": "段落主題為「生成式AI工具草擬客戶溝通內容之修訂規範」，此句說明政策目的在於保障機密與專業標準，而非禁止合理使用AI，與下一句「IT部門將隨機稽核」共同構成政策立意與執行機制的完整收尾。其餘選項（尾牙地點、報帳期限、公司網站改版）皆與AI工具使用政策無關，插入後語意斷裂。"
       }
     ]
   }
