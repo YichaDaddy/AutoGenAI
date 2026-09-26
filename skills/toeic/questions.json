@@ -1,117 +1,117 @@
 {
-  "date": "2026-09-26",
+  "date": "2026-09-27",
   "p5": [
     {
-      "id": "2026-09-26-p5-0",
-      "tag": "簡化關係子句（過去分詞後位修飾，省略 which was）",
-      "pre": "The revised budget proposal ",
-      "post": " by the finance committee last week now awaits final approval from the board of directors.",
-      "opts": ["submitted", "submitting", "having submitted", "to submit"],
+      "id": "2026-09-27-p5-0",
+      "tag": "加強語氣助動詞（did + 原形動詞）",
+      "pre": "The auditor did in fact ",
+      "post": " several discrepancies in the vendor's invoicing records, despite the company's initial assurances that everything was in order.",
+      "opts": ["identify", "identified", "identifying", "to identify"],
       "ans": 0,
-      "zh": "財務委員會上週「提交」的修訂預算提案，目前正等待董事會最終核准。",
-      "why": "<b>submitted</b> 為過去分詞，構成省略關係代名詞的簡化關係子句（= which was submitted），修飾 proposal，表示提案是被提交的對象（被動關係）。submitting 為現在分詞，表主動進行，語意錯誤；having submitted 為主動完成式分詞，主詞應為提交者而非提案本身；to submit 為不定詞，不具備修飾名詞表被動完成動作的功能。"
+      "zh": "查核人員「確實」在供應商的請款紀錄中找出幾項出入之處，儘管公司先前一再保證一切無誤。",
+      "why": "<b>did</b> 為加強語氣助動詞，其後動詞須用原形，故填入 identify。identified 為過去式，與助動詞 did 重複表達時態，不合文法；identifying 為現在分詞；to identify 為不定詞，皆不可接在助動詞 did 之後。"
     },
     {
-      "id": "2026-09-26-p5-1",
-      "tag": "讓步句型（However + 形容詞，表「無論多麼…」）",
+      "id": "2026-09-27-p5-1",
+      "tag": "相關連接詞（neither...nor，表「兩者皆非」）",
       "pre": "",
-      "post": " persuasive the vendor's cost-saving projections may appear, the procurement team must still verify them against independent market data.",
-      "opts": ["However", "No matter", "Whatever", "Although"],
+      "post": " the marketing director nor her deputy was aware that the campaign budget had been quietly reallocated to a different product line.",
+      "opts": ["Neither", "Not", "No", "None"],
       "ans": 0,
-      "zh": "「無論」供應商的省成本預測看起來多麼有說服力，採購團隊仍必須依據獨立市場數據加以驗證。",
-      "why": "<b>However + 形容詞 + 主詞 + 動詞</b> 為固定讓步句型，表示「無論多麼…」。No matter 須搭配 how 才能構成同義句型（No matter how persuasive），單獨使用不完整；Whatever 為代名詞/限定詞，須接名詞而非直接接形容詞；Although 為連接詞，須接完整子句，不可直接接形容詞置於句首。"
+      "zh": "「無論是」行銷總監或她的副手，皆不知道行銷活動預算已被悄悄挪用至另一項產品線。",
+      "why": "<b>Neither...nor</b> 為固定相關連接詞，表「兩者皆非」，且此句動詞用單數 was，符合鄰近主詞一致原則。Not 須搭配 either...or 等結構；No 為限定詞，須直接接名詞，不可如此連接兩個名詞片語；None 為代名詞，通常指三者以上或不可數，用法不符。"
     },
     {
-      "id": "2026-09-26-p5-2",
-      "tag": "與過去事實相反假設語氣倒裝（Had + 主詞 + 過去分詞）",
-      "pre": "",
-      "post": " the anomaly in the audit trail sooner, the compliance team could have prevented the reporting error entirely.",
-      "opts": ["Had the compliance team detected", "The compliance team had detected", "Did the compliance team detect", "The compliance team detected"],
+      "id": "2026-09-27-p5-2",
+      "tag": "使役被動結構（have + 受詞 + 過去分詞）",
+      "pre": "Given the sensitivity of the merger talks, the CEO decided to ",
+      "post": " the entire boardroom swept for hidden recording devices before each session.",
+      "opts": ["have", "has", "having", "to have"],
       "ans": 0,
-      "zh": "若合規團隊「能更早」發現稽核軌跡中的異常，原本可以完全避免這起報告錯誤。",
-      "why": "此為與過去事實相反的假設語氣（第三型假設句）省略 if 而倒裝，正確語序為 <b>Had + 主詞 + 過去分詞</b>，後方主要子句搭配 could have + 過去分詞。The compliance team had detected 未倒裝，不成立省略 if 的假設句；Did the compliance team detect 為疑問句語序；The compliance team detected 為單純過去式直述句，皆不具備假設語氣。"
+      "zh": "鑑於併購談判的敏感性，執行長決定「請人」在每次會議前，將整間董事會會議室徹底檢查是否裝設隱藏式錄音設備。",
+      "why": "<b>have + 受詞 + 過去分詞（swept）</b> 為使役被動結構，表示「請他人代為完成某動作」。decided to 後須接原形動詞 have；has 為第三人稱單數現在式，不可接在 to 之後；having 為現在分詞；to have 重複不定詞標記，皆不符合此處 to + 原形動詞的文法需求。"
     },
     {
-      "id": "2026-09-26-p5-3",
-      "tag": "同位語名詞子句（the fact that）",
-      "pre": "Management remains concerned about ",
-      "post": " several key clients have not yet renewed their contracts for the upcoming fiscal year.",
-      "opts": ["the fact that", "that", "the fact", "which"],
+      "id": "2026-09-27-p5-3",
+      "tag": "所有格關係代名詞（whose）",
+      "pre": "The consulting firm ",
+      "post": " recommendations triggered the restructuring has since been dropped from the company's approved vendor list.",
+      "opts": ["whose", "which", "that", "who"],
       "ans": 0,
-      "zh": "管理層仍對「數家主要客戶尚未續簽下一會計年度合約」此一事實感到憂心。",
-      "why": "<b>the fact that</b> 為固定同位語結構，介系詞 about 後須接名詞 the fact，再以 that 子句說明其具體內容。單獨使用 that 或 which 皆不可直接置於介系詞後方引導完整子句作受詞；the fact 若缺少 that 子句補足說明，語意將不完整。"
+      "zh": "「其」建議促成此次組織重組的顧問公司，如今已從公司核准供應商名單中除名。",
+      "why": "<b>whose</b> 為所有格關係代名詞，用以表示「顧問公司的建議」（recommendations 屬於 the consulting firm），修飾先行詞 firm。which、that 為一般關係代名詞，不具備所有格功能；who 雖可指人，但此處先行詞為機構且需表達所有關係，仍須用 whose。"
     },
     {
-      "id": "2026-09-26-p5-4",
-      "tag": "進階動詞語意辨別（preclude，易與 exclude/occlude 混淆）",
-      "pre": "A signed non-compete agreement does not necessarily ",
-      "post": " a former employee from starting a business in a related field, provided the new venture does not use proprietary information.",
-      "opts": ["preclude", "occlude", "exclude", "include"],
+      "id": "2026-09-27-p5-4",
+      "tag": "進階形容詞語意辨別（averse，易與 adverse 混淆）",
+      "pre": "Several board members expressed strong reservations, but none was openly ",
+      "post": " to exploring a strategic partnership with the rival firm.",
+      "opts": ["averse", "adverse", "advert", "avert"],
       "ans": 0,
-      "zh": "簽署競業禁止協議，並不必然「排除」前員工在相關領域創業的可能性，只要新事業不使用公司專屬資訊即可。",
-      "why": "<b>preclude</b>（預先排除、阻止…的可能性，常搭配 from）精準對應此處語境。occlude（阻塞，多用於醫學/物理層面）語意不符；exclude（將某物排除於群體或範圍之外）語意相近但不如 preclude 精準對應「阻止某行為發生」；include（包含）語意相反，四字均含 -clude 字根易混淆，屬進階詞彙辨析。"
+      "zh": "幾位董事會成員表達強烈保留意見，但沒有人公開「反對」探索與競爭對手策略合作的可能性。",
+      "why": "<b>averse</b>（反對的、不願意的，常搭配 to）精準對應此處語境。adverse（不利的、有害的，通常修飾情況或效果而非人的態度）為最容易混淆的形似詞；advert（提及、談到）語意不符；avert（避免、防止（危險或不快事件））語意不符。"
     }
   ],
   "p6": {
-    "id": "2026-09-26-p6",
-    "title": "MEMORANDUM: Revised Guidelines on Use of Generative AI Tools for Client Communications",
+    "id": "2026-09-27-p6",
+    "title": "MEMORANDUM: Revised Data Retention and Destruction Schedule for Client Records",
     "seg": [
       [
-        "To all client-facing staff: Beginning next month, any client communication drafted with the assistance of a generative AI tool ",
+        "To all department heads: Effective the first business day of next quarter, client records that have reached the end of their statutory retention period ",
         { "b": 0 },
-        " personal review and approval from the responsible account manager before it is sent."
+        " destroyed in accordance with the schedule set out in Appendix A, rather than retained indefinitely as has been past practice."
       ],
       [
         { "b": 1 },
-        ", staff are strictly prohibited from inputting any client-identifying information into a public or non-enterprise generative AI tool, even for minor drafting tasks."
+        ", department heads remain responsible for flagging any record subject to a litigation hold, regardless of whether its statutory retention period has expired."
       ],
       [
-        "Employees who ",
+        "Any employee who fails to ",
         { "b": 2 },
-        " this policy by bypassing the review requirement will be subject to disciplinary action, regardless of whether the resulting communication contained any actual errors."
+        " a record known to be subject to a litigation hold, resulting in its premature destruction, may be held personally liable under the firm's document-preservation policy."
       ],
       [
         { "b": 3 },
-        " The firm's IT department will conduct random audits of AI-tool usage logs to verify compliance with this policy."
+        " Questions regarding whether a specific record falls under an active litigation hold should be directed to the Office of General Counsel before any destruction occurs."
       ]
     ],
     "blanks": [
       {
-        "tag": "時態語態（未來式主動語態）",
+        "tag": "時態語態（義務被動語態）",
         "col1": true,
-        "opts": ["will require", "requires", "has required", "is requiring"],
+        "opts": ["must be", "are", "have been", "were"],
         "ans": 0,
-        "zh": "致所有對外服務客戶之同仁：自下月起，任何借助生成式AI工具草擬之客戶溝通內容，「須」經負責客戶經理親自審閱並核准後，方可寄出。",
-        "why": "此句表達自下月起即將生效的新規定，須用未來式 <b>will require</b>。requires 為現在式直述句，未能表達「即將生效」的時間點；has required 為現在完成式，語意錯誤；is requiring 為現在進行式，同樣不符合此處表達未來新規定的語氣。"
+        "zh": "致各部門主管：自下季度第一個工作日起，已屆滿法定保存期限的客戶紀錄「須」依附件A所訂時程「銷毀」，而非如過去慣例無限期保留。",
+        "why": "此句表達強制性新規定，須用義務被動語態 <b>must be</b> destroyed。are 為單純現在式被動，缺乏義務語氣；have been 為現在完成式被動，語意錯誤（尚未發生）；were 為過去式被動，時態不符。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["Furthermore", "Consequently", "For example", "Otherwise"],
+        "opts": ["Nevertheless", "Similarly", "As a result", "For instance"],
         "ans": 0,
-        "zh": "「此外」，員工絕對禁止將任何可識別客戶身分的資訊，輸入至公開或非企業版的生成式AI工具，即便僅用於次要草擬工作亦然。",
-        "why": "<b>Furthermore</b>（此外）用以承接前句規定，補充另一項獨立且同等重要的禁止事項，構成語意遞進銜接。Consequently（因此）表因果；For example（例如）表舉例；Otherwise（否則）表條件對立，均不符合此處純粹補充銜接的語意。"
+        "zh": "「儘管如此」，各部門主管仍須負責標示任何受訴訟保留令拘束之紀錄，無論其法定保存期限是否已屆滿。",
+        "why": "<b>Nevertheless</b>（儘管如此）用以承接前句銷毀規定，引出一項例外情況（訴訟保留令案件不受此限），構成語意轉折銜接。Similarly（同樣地）表類比；As a result（因此）表因果；For instance（例如）表舉例，均不符合此處轉折語意。"
       },
       {
-        "tag": "進階動詞語意辨別（contravene，con-字首形似詞）",
+        "tag": "進階動詞語意辨別（preserve，-serve字尾形似詞）",
         "col1": true,
-        "opts": ["contravene", "convene", "contrive", "converge"],
+        "opts": ["preserve", "reserve", "deserve", "observe"],
         "ans": 0,
-        "zh": "員工若「違反」本政策、規避審閱要求，無論最終溝通內容是否確實出現錯誤，皆將受到懲處。",
-        "why": "<b>contravene</b>（違反、牴觸規定或法律）精準對應此處語境。convene（召集、召開會議）語意不符；contrive（策劃、設計，通常帶巧妙或狡猾意味）語意不符；converge（匯聚、趨於一致）語意不符，四字字首相同（con-）易混淆，屬進階詞彙辨析。"
+        "zh": "任何員工若未能「保存」已知受訴訟保留令拘束之紀錄，導致該紀錄遭提前銷毀，可能須依本所文件保存政策負個人責任。",
+        "why": "<b>preserve</b>（保存、保留使不受破壞）精準對應此處語境。reserve（保留、預訂，通常指資源或位置）語意不符；deserve（應得、值得）語意不符；observe（觀察；遵守（規則））雖接近「遵守政策」語意，但與「保存紀錄」的具體動作不符，四字字尾相同（-serve）易混淆，屬進階詞彙辨析。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "This policy is intended to safeguard client confidentiality and maintain the firm's professional standards of accuracy, not to discourage the responsible use of AI tools as a drafting aid.",
-          "The firm's holiday party will be held at the downtown conference center this December.",
-          "Employees are reminded to submit expense reports by the fifth of each month.",
-          "The marketing department will unveil a redesigned company website next quarter."
+          "This obligation applies even if the relevant department head was not the original custodian of the record in question.",
+          "The firm's annual holiday schedule will be distributed to all staff in early December.",
+          "IT will begin migrating email archives to the new cloud storage platform next month.",
+          "The reception desk will be relocated to the third floor during the upcoming office renovation."
         ],
         "ans": 0,
-        "zh": "「本政策旨在保障客戶機密並維護本所的專業準確標準，而非阻止同仁負責任地運用AI工具作為草擬輔助。」事務所資訊部門將對AI工具使用紀錄進行隨機稽核，以確認是否符合本政策規定。",
-        "why": "段落主題為「生成式AI工具草擬客戶溝通內容之修訂規範」，此句說明政策目的在於保障機密與專業標準，而非禁止合理使用AI，與下一句「IT部門將隨機稽核」共同構成政策立意與執行機制的完整收尾。其餘選項（尾牙地點、報帳期限、公司網站改版）皆與AI工具使用政策無關，插入後語意斷裂。"
+        "zh": "「此項義務即便該部門主管並非該紀錄的原始保管人，亦同樣適用。」如對某筆紀錄是否受現行訴訟保留令拘束有疑問，應在銷毀前洽詢法務長辦公室確認。",
+        "why": "段落主題為「客戶紀錄保存與銷毀時程修訂」，此句說明標示義務不因是否為原始保管人而免除，與下一句「如有疑問應洽法務長辦公室確認」共同構成責任歸屬與執行程序的完整收尾。其餘選項（假期行事曆、電子郵件雲端遷移、櫃檯搬遷）皆與紀錄保存政策無關，插入後語意斷裂。"
       }
     ]
   }
