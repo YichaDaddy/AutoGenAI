@@ -1,117 +1,117 @@
 {
-  "date": "2026-09-27",
+  "date": "2026-09-28",
   "p5": [
     {
-      "id": "2026-09-27-p5-0",
-      "tag": "加強語氣助動詞（did + 原形動詞）",
-      "pre": "The auditor did in fact ",
-      "post": " several discrepancies in the vendor's invoicing records, despite the company's initial assurances that everything was in order.",
-      "opts": ["identify", "identified", "identifying", "to identify"],
+      "id": "2026-09-28-p5-0",
+      "tag": "倒裝句（Only after + 子句，觸發主要子句倒裝）",
+      "pre": "Only after the external auditors had cross-checked every subsidiary ledger ",
+      "post": " the finance team confident enough to certify the consolidated statements.",
+      "opts": ["was", "did", "had", "were"],
       "ans": 0,
-      "zh": "查核人員「確實」在供應商的請款紀錄中找出幾項出入之處，儘管公司先前一再保證一切無誤。",
-      "why": "<b>did</b> 為加強語氣助動詞，其後動詞須用原形，故填入 identify。identified 為過去式，與助動詞 did 重複表達時態，不合文法；identifying 為現在分詞；to identify 為不定詞，皆不可接在助動詞 did 之後。"
+      "zh": "唯有在外部查核人員逐一交叉核對每家子公司帳冊之後，財務團隊才「有足夠信心」出具合併財務報表。",
+      "why": "<b>Only after + 子句</b> 置於句首，須引發主要子句倒裝；因主要動詞為 be 動詞（confident 為表語），故倒裝為 was + 主詞（was the finance team confident）。did 須接原形動詞，不適用於表語結構；had 為完成式助動詞，與此處單純過去式的 be 動詞語意不符；were 為複數動詞，與單數主詞 the finance team 不一致。"
     },
     {
-      "id": "2026-09-27-p5-1",
-      "tag": "相關連接詞（neither...nor，表「兩者皆非」）",
+      "id": "2026-09-28-p5-1",
+      "tag": "動名詞作主詞",
       "pre": "",
-      "post": " the marketing director nor her deputy was aware that the campaign budget had been quietly reallocated to a different product line.",
-      "opts": ["Neither", "Not", "No", "None"],
+      "post": " the same disclosure language across all regional subsidiaries has become the compliance team's top priority this quarter.",
+      "opts": ["Standardizing", "To standardizing", "Standardize", "Standardized"],
       "ans": 0,
-      "zh": "「無論是」行銷總監或她的副手，皆不知道行銷活動預算已被悄悄挪用至另一項產品線。",
-      "why": "<b>Neither...nor</b> 為固定相關連接詞，表「兩者皆非」，且此句動詞用單數 was，符合鄰近主詞一致原則。Not 須搭配 either...or 等結構；No 為限定詞，須直接接名詞，不可如此連接兩個名詞片語；None 為代名詞，通常指三者以上或不可數，用法不符。"
+      "zh": "「統一」所有地區子公司的揭露用語，已成為本季合規團隊的首要任務。",
+      "why": "動名詞 <b>Standardizing</b> 可作句子主詞，表示「統一…」這項動作或概念。To standardizing 為錯誤結構（不定詞不可再加 -ing）；Standardize 為原形動詞，不可直接作主詞；Standardized 為過去分詞/過去式，無法表達「統一」此一持續進行的動作概念作為主詞。"
     },
     {
-      "id": "2026-09-27-p5-2",
-      "tag": "使役被動結構（have + 受詞 + 過去分詞）",
-      "pre": "Given the sensitivity of the merger talks, the CEO decided to ",
-      "post": " the entire boardroom swept for hidden recording devices before each session.",
-      "opts": ["have", "has", "having", "to have"],
+      "id": "2026-09-28-p5-2",
+      "tag": "假設語氣（as though + had + 過去分詞，與過去事實相反）",
+      "pre": "The new hire discussed the merger negotiations as though she ",
+      "post": " personally present in the room, despite having joined the firm only last week.",
+      "opts": ["had been", "was", "has been", "were"],
       "ans": 0,
-      "zh": "鑑於併購談判的敏感性，執行長決定「請人」在每次會議前，將整間董事會會議室徹底檢查是否裝設隱藏式錄音設備。",
-      "why": "<b>have + 受詞 + 過去分詞（swept）</b> 為使役被動結構，表示「請他人代為完成某動作」。decided to 後須接原形動詞 have；has 為第三人稱單數現在式，不可接在 to 之後；having 為現在分詞；to have 重複不定詞標記，皆不符合此處 to + 原形動詞的文法需求。"
+      "zh": "這位新進員工談論併購談判的方式，「彷彿」她當時本人也在場一樣，儘管她上週才剛加入公司。",
+      "why": "<b>as though/as if + had + 過去分詞</b> 表示與過去事實相反的假設語氣，此處她實際上並未在場。was 為單純過去式直述語氣，無法表達假設語氣；has been 為現在完成式，時態邏輯錯誤；were 雖為假設語氣動詞，但通常用於與現在事實相反（如 as if she were there now），與此處過去情境不符。"
     },
     {
-      "id": "2026-09-27-p5-3",
-      "tag": "所有格關係代名詞（whose）",
-      "pre": "The consulting firm ",
-      "post": " recommendations triggered the restructuring has since been dropped from the company's approved vendor list.",
-      "opts": ["whose", "which", "that", "who"],
+      "id": "2026-09-28-p5-3",
+      "tag": "正式關係副詞（whereby，意為「藉此、依循此」）",
+      "pre": "The board adopted a new governance framework ",
+      "post": " any related-party transaction exceeding US$1 million must receive unanimous independent-director approval.",
+      "opts": ["whereby", "therein", "whereupon", "hence"],
       "ans": 0,
-      "zh": "「其」建議促成此次組織重組的顧問公司，如今已從公司核准供應商名單中除名。",
-      "why": "<b>whose</b> 為所有格關係代名詞，用以表示「顧問公司的建議」（recommendations 屬於 the consulting firm），修飾先行詞 firm。which、that 為一般關係代名詞，不具備所有格功能；who 雖可指人，但此處先行詞為機構且需表達所有關係，仍須用 whose。"
+      "zh": "董事會採行一套新的治理架構，「依循該架構」，任何超過100萬美元的關係人交易皆須獲得全體獨立董事一致同意。",
+      "why": "<b>whereby</b>（by which，藉此、依循此）為正式關係副詞，用以說明前述架構作為達成後述規定的機制。therein（在其中）為普通副詞，無法如關係副詞般連接子句修飾先行詞；whereupon（於是、隨即）表示動作先後順序而非機制；hence（因此）為單純表結果的副詞，皆不具備連接子句修飾 framework 的功能。"
     },
     {
-      "id": "2026-09-27-p5-4",
-      "tag": "進階形容詞語意辨別（averse，易與 adverse 混淆）",
-      "pre": "Several board members expressed strong reservations, but none was openly ",
-      "post": " to exploring a strategic partnership with the rival firm.",
-      "opts": ["averse", "adverse", "advert", "avert"],
+      "id": "2026-09-28-p5-4",
+      "tag": "進階形容詞語意辨別（impartial，im-字首形似詞）",
+      "pre": "Under the new arbitration clause, disputes will be resolved by an ",
+      "post": " third-party panel rather than through internal management review.",
+      "opts": ["impartial", "imperious", "impertinent", "partial"],
       "ans": 0,
-      "zh": "幾位董事會成員表達強烈保留意見，但沒有人公開「反對」探索與競爭對手策略合作的可能性。",
-      "why": "<b>averse</b>（反對的、不願意的，常搭配 to）精準對應此處語境。adverse（不利的、有害的，通常修飾情況或效果而非人的態度）為最容易混淆的形似詞；advert（提及、談到）語意不符；avert（避免、防止（危險或不快事件））語意不符。"
+      "zh": "依新版仲裁條款，爭議將交由「公正」的第三方小組裁決，而非透過內部管理階層審查。",
+      "why": "<b>impartial</b>（公正的、不偏袒的）精準對應此處語境。imperious（專橫的、傲慢的）語意不符；impertinent（莽撞無禮的、不得體的）語意不符；partial（偏袒的、不公正的）恰為 impartial 的反義詞，四字字形相近易混淆，屬進階詞彙辨析。"
     }
   ],
   "p6": {
-    "id": "2026-09-27-p6",
-    "title": "MEMORANDUM: Revised Data Retention and Destruction Schedule for Client Records",
+    "id": "2026-09-28-p6",
+    "title": "MEMORANDUM: New Escalation Procedure for Cybersecurity Incident Reporting",
     "seg": [
       [
-        "To all department heads: Effective the first business day of next quarter, client records that have reached the end of their statutory retention period ",
+        "To all IT and security personnel: Effective immediately, any suspected data breach involving client information ",
         { "b": 0 },
-        " destroyed in accordance with the schedule set out in Appendix A, rather than retained indefinitely as has been past practice."
+        " reported to the Chief Information Security Officer within one hour of discovery, rather than at the end of the business day as previously permitted."
       ],
       [
         { "b": 1 },
-        ", department heads remain responsible for flagging any record subject to a litigation hold, regardless of whether its statutory retention period has expired."
+        ", employees are not required to determine the scope or severity of a suspected breach before reporting it — any reasonable suspicion is sufficient to trigger the one-hour notification requirement."
       ],
       [
-        "Any employee who fails to ",
+        "Employees must not attempt to ",
         { "b": 2 },
-        " a record known to be subject to a litigation hold, resulting in its premature destruction, may be held personally liable under the firm's document-preservation policy."
+        " the severity of a suspected breach when reporting it, even if doing so might avoid triggering a broader response from senior management."
       ],
       [
         { "b": 3 },
-        " Questions regarding whether a specific record falls under an active litigation hold should be directed to the Office of General Counsel before any destruction occurs."
+        " Retaliation against any employee for reporting a suspected breach in good faith, even one that turns out to be a false alarm, is strictly prohibited."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態（義務被動語態）",
         "col1": true,
-        "opts": ["must be", "are", "have been", "were"],
+        "opts": ["must be", "is", "has been", "was"],
         "ans": 0,
-        "zh": "致各部門主管：自下季度第一個工作日起，已屆滿法定保存期限的客戶紀錄「須」依附件A所訂時程「銷毀」，而非如過去慣例無限期保留。",
-        "why": "此句表達強制性新規定，須用義務被動語態 <b>must be</b> destroyed。are 為單純現在式被動，缺乏義務語氣；have been 為現在完成式被動，語意錯誤（尚未發生）；were 為過去式被動，時態不符。"
+        "zh": "致全體IT與資安人員：即日起，任何疑似涉及客戶資料的資安外洩事件，「須」在發現後一小時內「通報」資訊安全長，而非如過去慣例於當日下班前通報即可。",
+        "why": "此句表達即刻生效的強制通報規定，須用義務被動語態 <b>must be</b> reported。is 為單純現在式被動，缺乏義務語氣；has been 為現在完成式被動，語意錯誤；was 為過去式被動，時態不符。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["Nevertheless", "Similarly", "As a result", "For instance"],
+        "opts": ["Importantly", "Consequently", "For example", "In contrast"],
         "ans": 0,
-        "zh": "「儘管如此」，各部門主管仍須負責標示任何受訴訟保留令拘束之紀錄，無論其法定保存期限是否已屆滿。",
-        "why": "<b>Nevertheless</b>（儘管如此）用以承接前句銷毀規定，引出一項例外情況（訴訟保留令案件不受此限），構成語意轉折銜接。Similarly（同樣地）表類比；As a result（因此）表因果；For instance（例如）表舉例，均不符合此處轉折語意。"
+        "zh": "「重要的是」，員工在通報前，不需先行判定疑似外洩事件的範圍或嚴重程度——只要有合理懷疑，即足以觸發一小時內通報的要求。",
+        "why": "<b>Importantly</b>（重要的是）用以承接前句通報規定，強調另一項需特別留意的關鍵補充說明。Consequently（因此）表因果；For example（例如）表舉例；In contrast（相對地）表對比，均不符合此處純粹強調補充的語意。"
       },
       {
-        "tag": "進階動詞語意辨別（preserve，-serve字尾形似詞）",
+        "tag": "進階動詞語意辨別（understate，under-字首形似詞）",
         "col1": true,
-        "opts": ["preserve", "reserve", "deserve", "observe"],
+        "opts": ["understate", "underscore", "undertake", "undermine"],
         "ans": 0,
-        "zh": "任何員工若未能「保存」已知受訴訟保留令拘束之紀錄，導致該紀錄遭提前銷毀，可能須依本所文件保存政策負個人責任。",
-        "why": "<b>preserve</b>（保存、保留使不受破壞）精準對應此處語境。reserve（保留、預訂，通常指資源或位置）語意不符；deserve（應得、值得）語意不符；observe（觀察；遵守（規則））雖接近「遵守政策」語意，但與「保存紀錄」的具體動作不符，四字字尾相同（-serve）易混淆，屬進階詞彙辨析。"
+        "zh": "員工在通報時絕不應「淡化」疑似外洩事件的嚴重程度，即便這麼做可能可以避免觸發高階管理層的更大規模應變。",
+        "why": "<b>understate</b>（輕描淡寫、淡化陳述）精準對應此處語境。underscore（強調、加以凸顯，恰與 understate 語意相反）語意不符；undertake（承擔、著手進行）語意不符；undermine（暗中破壞、削弱）語意不符，四字字首相同（under-）易混淆，屬進階詞彙辨析。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "This obligation applies even if the relevant department head was not the original custodian of the record in question.",
-          "The firm's annual holiday schedule will be distributed to all staff in early December.",
-          "IT will begin migrating email archives to the new cloud storage platform next month.",
-          "The reception desk will be relocated to the third floor during the upcoming office renovation."
+          "The company would rather investigate ten false alarms than miss a single genuine breach.",
+          "The IT help desk will be closed for scheduled maintenance this coming weekend.",
+          "All employees are required to complete the annual conflict-of-interest disclosure by year-end.",
+          "The company's password-reset policy was last updated in March of this year."
         ],
         "ans": 0,
-        "zh": "「此項義務即便該部門主管並非該紀錄的原始保管人，亦同樣適用。」如對某筆紀錄是否受現行訴訟保留令拘束有疑問，應在銷毀前洽詢法務長辦公室確認。",
-        "why": "段落主題為「客戶紀錄保存與銷毀時程修訂」，此句說明標示義務不因是否為原始保管人而免除，與下一句「如有疑問應洽法務長辦公室確認」共同構成責任歸屬與執行程序的完整收尾。其餘選項（假期行事曆、電子郵件雲端遷移、櫃檯搬遷）皆與紀錄保存政策無關，插入後語意斷裂。"
+        "zh": "「公司寧可調查十次假警報，也不願錯失一次真正的資安外洩事件。」對任何本於善意通報疑似外洩事件之員工進行報復，即便該通報事後證實為假警報，一律嚴格禁止。",
+        "why": "段落主題為「資安事件通報升級程序」，此句說明公司寧可承受誤報成本也不願錯失真正外洩事件的立場，與下一句「善意通報者不得遭報復」共同構成鼓勵通報文化的完整收尾。其餘選項（IT維護排程、利益衝突揭露期限、密碼重設政策更新）皆與資安通報程序無關，插入後語意斷裂。"
       }
     ]
   }
