@@ -1,117 +1,117 @@
 {
-  "date": "2026-09-28",
+  "date": "2026-09-29",
   "p5": [
     {
-      "id": "2026-09-28-p5-0",
-      "tag": "倒裝句（Only after + 子句，觸發主要子句倒裝）",
-      "pre": "Only after the external auditors had cross-checked every subsidiary ledger ",
-      "post": " the finance team confident enough to certify the consolidated statements.",
-      "opts": ["was", "did", "had", "were"],
+      "id": "2026-09-29-p5-0",
+      "tag": "比較結構（the + 比較級..., the + 比較級...，表「愈…愈…」）",
+      "pre": "The more thoroughly the compliance team documents each exception to the standard procurement process, the ",
+      "post": " it becomes to defend the firm's decisions during a regulatory audit.",
+      "opts": ["easier", "more easy", "easiest", "easily"],
       "ans": 0,
-      "zh": "唯有在外部查核人員逐一交叉核對每家子公司帳冊之後，財務團隊才「有足夠信心」出具合併財務報表。",
-      "why": "<b>Only after + 子句</b> 置於句首，須引發主要子句倒裝；因主要動詞為 be 動詞（confident 為表語），故倒裝為 was + 主詞（was the finance team confident）。did 須接原形動詞，不適用於表語結構；had 為完成式助動詞，與此處單純過去式的 be 動詞語意不符；were 為複數動詞，與單數主詞 the finance team 不一致。"
+      "zh": "合規團隊將每一項偏離標準採購流程的例外情況記錄得「愈」詳盡，日後在法規查核中為公司決策辯護就「愈」容易。",
+      "why": "<b>the + 比較級..., the + 比較級...</b> 為固定句型，表示「愈…就愈…」；easy 為單音節形容詞，比較級須加 -er，故為 easier。more easy 為雙重比較級，用法錯誤；easiest 為最高級，不符此句型；easily 為副詞，此處應修飾主詞補語 it becomes，須用形容詞 easier 而非副詞。"
     },
     {
-      "id": "2026-09-28-p5-1",
-      "tag": "動名詞作主詞",
+      "id": "2026-09-29-p5-1",
+      "tag": "倒裝強調句型（So + 形容詞 + be動詞 + 主詞 + that）",
       "pre": "",
-      "post": " the same disclosure language across all regional subsidiaries has become the compliance team's top priority this quarter.",
-      "opts": ["Standardizing", "To standardizing", "Standardize", "Standardized"],
+      "post": " stringent were the new export-control requirements that several smaller suppliers simply withdrew from the government contracting process altogether.",
+      "opts": ["So", "Such", "Very", "Too"],
       "ans": 0,
-      "zh": "「統一」所有地區子公司的揭露用語，已成為本季合規團隊的首要任務。",
-      "why": "動名詞 <b>Standardizing</b> 可作句子主詞，表示「統一…」這項動作或概念。To standardizing 為錯誤結構（不定詞不可再加 -ing）；Standardize 為原形動詞，不可直接作主詞；Standardized 為過去分詞/過去式，無法表達「統一」此一持續進行的動作概念作為主詞。"
+      "zh": "新版出口管制規定「如此」嚴格，以至於幾家較小型的供應商乾脆完全退出政府採購流程。",
+      "why": "<b>So + 形容詞 + be動詞 + 主詞 + that</b> 為倒裝強調句型，So 置於句首引發倒裝（were the requirements），表示「如此…以致於」。Such 須接「Such + be動詞 + a/an + 名詞 + that」句型，不可直接接形容詞；Very 為單純加強語氣副詞，不引發倒裝也不與 that 子句連用；Too 之後接 to 不接 that 子句。"
     },
     {
-      "id": "2026-09-28-p5-2",
-      "tag": "假設語氣（as though + had + 過去分詞，與過去事實相反）",
-      "pre": "The new hire discussed the merger negotiations as though she ",
-      "post": " personally present in the room, despite having joined the firm only last week.",
-      "opts": ["had been", "was", "has been", "were"],
+      "id": "2026-09-29-p5-2",
+      "tag": "省略比較句型（as did，代替前述動詞片語）",
+      "pre": "The finance director expressed serious concern about the proposed spin-off, as ",
+      "post": " several members of the audit committee.",
+      "opts": ["did", "do", "were", "had"],
       "ans": 0,
-      "zh": "這位新進員工談論併購談判的方式，「彷彿」她當時本人也在場一樣，儘管她上週才剛加入公司。",
-      "why": "<b>as though/as if + had + 過去分詞</b> 表示與過去事實相反的假設語氣，此處她實際上並未在場。was 為單純過去式直述語氣，無法表達假設語氣；has been 為現在完成式，時態邏輯錯誤；were 雖為假設語氣動詞，但通常用於與現在事實相反（如 as if she were there now），與此處過去情境不符。"
+      "zh": "財務長對此次分拆計畫表達嚴重疑慮，稽核委員會的幾位委員「也是如此」。",
+      "why": "<b>as did</b> 用以替代前述動詞片語（expressed serious concern），避免重複，did 對應前句過去式動詞 expressed。do 為現在式，時態不符；were 為 be動詞，與一般動詞 expressed 不搭配；had 隱含完成式，時態邏輯與原句不符。"
     },
     {
-      "id": "2026-09-28-p5-3",
-      "tag": "正式關係副詞（whereby，意為「藉此、依循此」）",
-      "pre": "The board adopted a new governance framework ",
-      "post": " any related-party transaction exceeding US$1 million must receive unanimous independent-director approval.",
-      "opts": ["whereby", "therein", "whereupon", "hence"],
+      "id": "2026-09-29-p5-3",
+      "tag": "不定詞目的用法（so as to + 原形動詞）",
+      "pre": "The committee rescheduled the vote to next Tuesday ",
+      "post": " allow additional time for shareholders to review the amended proposal.",
+      "opts": ["so as to", "so that", "in order that", "for"],
       "ans": 0,
-      "zh": "董事會採行一套新的治理架構，「依循該架構」，任何超過100萬美元的關係人交易皆須獲得全體獨立董事一致同意。",
-      "why": "<b>whereby</b>（by which，藉此、依循此）為正式關係副詞，用以說明前述架構作為達成後述規定的機制。therein（在其中）為普通副詞，無法如關係副詞般連接子句修飾先行詞；whereupon（於是、隨即）表示動作先後順序而非機制；hence（因此）為單純表結果的副詞，皆不具備連接子句修飾 framework 的功能。"
+      "zh": "委員會將表決延後至下週二，「以便」讓股東有更多時間審閱修訂後的提案。",
+      "why": "<b>so as to + 原形動詞</b> 為不定詞目的用法，可直接接原形動詞 allow。so that、in order that 皆須接「主詞+動詞」構成完整子句，不可直接接原形動詞；for 作目的介系詞須接名詞或動名詞，不可直接接原形動詞 allow。"
     },
     {
-      "id": "2026-09-28-p5-4",
-      "tag": "進階形容詞語意辨別（impartial，im-字首形似詞）",
-      "pre": "Under the new arbitration clause, disputes will be resolved by an ",
-      "post": " third-party panel rather than through internal management review.",
-      "opts": ["impartial", "imperious", "impertinent", "partial"],
+      "id": "2026-09-29-p5-4",
+      "tag": "進階形容詞語意辨別（feasible，-ible字尾形似詞）",
+      "pre": "Given the current market conditions, the board concluded that an aggressive expansion strategy was no longer ",
+      "post": ", and opted instead for a more conservative approach.",
+      "opts": ["feasible", "fallible", "flexible", "forcible"],
       "ans": 0,
-      "zh": "依新版仲裁條款，爭議將交由「公正」的第三方小組裁決，而非透過內部管理階層審查。",
-      "why": "<b>impartial</b>（公正的、不偏袒的）精準對應此處語境。imperious（專橫的、傲慢的）語意不符；impertinent（莽撞無禮的、不得體的）語意不符；partial（偏袒的、不公正的）恰為 impartial 的反義詞，四字字形相近易混淆，屬進階詞彙辨析。"
+      "zh": "鑑於當前市場狀況，董事會認定積極擴張策略已不再「可行」，因而轉為採取較為保守的做法。",
+      "why": "<b>feasible</b>（可行的、行得通的）精準對應此處語境。fallible（可能犯錯的、不可靠的，通常形容人或判斷）語意不符；flexible（有彈性的、靈活的）語意不符；forcible（強制的、用武力的）語意不符，四字字尾相同（-ible）易混淆，屬進階詞彙辨析。"
     }
   ],
   "p6": {
-    "id": "2026-09-28-p6",
-    "title": "MEMORANDUM: New Escalation Procedure for Cybersecurity Incident Reporting",
+    "id": "2026-09-29-p6",
+    "title": "MEMORANDUM: Revised Guidelines on Acceptance of Client Gifts and Hospitality",
     "seg": [
       [
-        "To all IT and security personnel: Effective immediately, any suspected data breach involving client information ",
+        "To all client-facing staff: Effective the start of next fiscal year, any gift or hospitality offered by a current or prospective client with a value exceeding NT$3,000 ",
         { "b": 0 },
-        " reported to the Chief Information Security Officer within one hour of discovery, rather than at the end of the business day as previously permitted."
+        " reported to the Compliance Office within five business days of receipt, regardless of whether the item was accepted or declined."
       ],
       [
         { "b": 1 },
-        ", employees are not required to determine the scope or severity of a suspected breach before reporting it — any reasonable suspicion is sufficient to trigger the one-hour notification requirement."
+        ", gifts of nominal value — such as branded promotional items worth less than NT$500 — need not be individually reported, though employees should still exercise discretion regarding frequency."
       ],
       [
-        "Employees must not attempt to ",
+        "Employees must never ",
         { "b": 2 },
-        " the severity of a suspected breach when reporting it, even if doing so might avoid triggering a broader response from senior management."
+        " a client gift's declared value in order to avoid the reporting threshold, even if the actual market value is only marginally above the NT$3,000 limit."
       ],
       [
         { "b": 3 },
-        " Retaliation against any employee for reporting a suspected breach in good faith, even one that turns out to be a false alarm, is strictly prohibited."
+        " Employees with questions about whether a specific offer requires reporting should contact the Compliance Office before accepting it."
       ]
     ],
     "blanks": [
       {
         "tag": "時態語態（義務被動語態）",
         "col1": true,
-        "opts": ["must be", "is", "has been", "was"],
+        "opts": ["must be", "is", "was", "has been"],
         "ans": 0,
-        "zh": "致全體IT與資安人員：即日起，任何疑似涉及客戶資料的資安外洩事件，「須」在發現後一小時內「通報」資訊安全長，而非如過去慣例於當日下班前通報即可。",
-        "why": "此句表達即刻生效的強制通報規定，須用義務被動語態 <b>must be</b> reported。is 為單純現在式被動，缺乏義務語氣；has been 為現在完成式被動，語意錯誤；was 為過去式被動，時態不符。"
+        "zh": "致所有對外服務客戶之同仁：自下個會計年度起，任何現有或潛在客戶所提供、價值超過新台幣3,000元之禮品或款待，「須」於收受後五個工作天內「通報」合規辦公室，無論該項目最終是接受或婉拒。",
+        "why": "此句表達新規定的強制義務，須用義務被動語態 <b>must be</b> reported。is 為單純現在式被動，缺乏義務語氣；was 為過去式被動，時態不符；has been 為現在完成式被動，語意錯誤。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["Importantly", "Consequently", "For example", "In contrast"],
+        "opts": ["By contrast", "Therefore", "In addition", "Namely"],
         "ans": 0,
-        "zh": "「重要的是」，員工在通報前，不需先行判定疑似外洩事件的範圍或嚴重程度——只要有合理懷疑，即足以觸發一小時內通報的要求。",
-        "why": "<b>Importantly</b>（重要的是）用以承接前句通報規定，強調另一項需特別留意的關鍵補充說明。Consequently（因此）表因果；For example（例如）表舉例；In contrast（相對地）表對比，均不符合此處純粹強調補充的語意。"
+        "zh": "「相對地」，象徵性價值的禮品——例如價值低於新台幣500元的品牌宣傳品——則無須個別通報，惟員工仍應留意收受頻率是否合宜。",
+        "why": "<b>By contrast</b>（相對地）用以與前句「超過門檻須通報」的規定形成對比，引出低於門檻的例外情況。Therefore（因此）表因果；In addition（此外）表補充遞進；Namely（亦即）表舉例說明，均不符合此處的對比語意。"
       },
       {
-        "tag": "進階動詞語意辨別（understate，under-字首形似詞）",
+        "tag": "進階動詞語意辨別（misrepresent，mis-字首形似詞）",
         "col1": true,
-        "opts": ["understate", "underscore", "undertake", "undermine"],
+        "opts": ["misrepresent", "misappropriate", "mismanage", "misconstrue"],
         "ans": 0,
-        "zh": "員工在通報時絕不應「淡化」疑似外洩事件的嚴重程度，即便這麼做可能可以避免觸發高階管理層的更大規模應變。",
-        "why": "<b>understate</b>（輕描淡寫、淡化陳述）精準對應此處語境。underscore（強調、加以凸顯，恰與 understate 語意相反）語意不符；undertake（承擔、著手進行）語意不符；undermine（暗中破壞、削弱）語意不符，四字字首相同（under-）易混淆，屬進階詞彙辨析。"
+        "zh": "員工絕不應為規避通報門檻，而「謊報」客戶禮品的申報價值，即便該禮品實際市價僅些微超過新台幣3,000元上限。",
+        "why": "<b>misrepresent</b>（不實陳述、謊報）精準對應此處語境。misappropriate（侵占、盜用，通常指公款或資產）語意不符；mismanage（管理不當）語意不符；misconstrue（誤解、曲解他人言論或意圖）語意不符，四字字首相同（mis-）易混淆，屬進階詞彙辨析。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "The company would rather investigate ten false alarms than miss a single genuine breach.",
-          "The IT help desk will be closed for scheduled maintenance this coming weekend.",
-          "All employees are required to complete the annual conflict-of-interest disclosure by year-end.",
-          "The company's password-reset policy was last updated in March of this year."
+          "This policy applies equally to gifts offered during the ordinary course of business and those extended in connection with holidays, personal milestones, or other special occasions.",
+          "The office's annual charity fundraiser will take place in early November this year.",
+          "The facilities team will replace the lobby furniture during the upcoming renovation.",
+          "Employees are reminded that the office will close early on the last business day of the year."
         ],
         "ans": 0,
-        "zh": "「公司寧可調查十次假警報，也不願錯失一次真正的資安外洩事件。」對任何本於善意通報疑似外洩事件之員工進行報復，即便該通報事後證實為假警報，一律嚴格禁止。",
-        "why": "段落主題為「資安事件通報升級程序」，此句說明公司寧可承受誤報成本也不願錯失真正外洩事件的立場，與下一句「善意通報者不得遭報復」共同構成鼓勵通報文化的完整收尾。其餘選項（IT維護排程、利益衝突揭露期限、密碼重設政策更新）皆與資安通報程序無關，插入後語意斷裂。"
+        "zh": "「本政策同樣適用於日常業務往來中所收受之禮品，以及因節慶、個人紀念日或其他特殊場合而致贈之禮品。」員工若對某項餽贈是否須通報有疑問，應於接受前先洽詢合規辦公室確認。",
+        "why": "段落主題為「客戶禮品與款待接受規範修訂」，此句說明政策適用範圍不因致贈情境（日常業務或節慶場合）而有差異，與下一句「有疑問應先洽合規辦公室」共同構成適用範圍與執行程序的完整收尾。其餘選項（年度慈善募款、大廳家具汰換、年終提早下班）皆與禮品接受規範無關，插入後語意斷裂。"
       }
     ]
   }
