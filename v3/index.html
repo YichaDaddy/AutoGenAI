@@ -322,6 +322,15 @@ a{color:inherit;text-decoration:none}
 /* ─── MARATHON BANNER ─── */
 .m-banner{display:block;width:100%;height:118px;margin:4px 0 16px;border-radius:15px;background-image:url("assets/marathon-banner.png");background-size:cover;background-position:50% 42%;background-color:var(--bg-c)}
 
+.m-races{margin-bottom:12px}
+.m-race-line{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 12px;padding:8px 0;border-bottom:1px solid var(--line);font-size:12px;color:var(--ink-soft)}
+.m-race-line span:last-child{font-family:var(--mono);color:var(--gold-ink)}
+.m-training{padding:12px;border-radius:var(--r-xs);background:var(--card-soft);font-size:12px;line-height:1.7;margin-bottom:12px}
+.mm-plan-note{padding:12px 16px;margin-bottom:16px;border:1px solid var(--line);border-radius:var(--r-sm);background:var(--card-soft);font-size:13px;line-height:1.7;color:var(--ink-soft)}
+.mm-plan-note summary{cursor:pointer;color:var(--ink);font-weight:600}
+.mmc-tag.rest{color:var(--ink-soft);background:var(--card-soft)}
+.mmc-cell.has:focus-visible{outline:2px solid var(--accent-deep);outline-offset:-2px}
+
 /* ─── DETAIL MODAL ─── */
 .modal{position:fixed;inset:0;z-index:90;display:none}
 .modal.open{display:block}
@@ -766,15 +775,17 @@ a{color:inherit;text-decoration:none}
       <section class="card" id="marathon">
         <div class="ck">
           <div><div class="ck-title">馬拉松倒數</div>
-            <div class="ck-sub mono">MARATHON · 08/02 比賽日</div></div>
+            <div class="ck-sub mono" id="m-race-sub">三場全馬 · 計算倒數中</div></div>
           <span class="chip gold" id="m-eta">D-??</span>
         </div>
-        <div class="m-banner" role="img" aria-label="Sunshine Coast Marathon 賽道"></div>
-        <div class="mbig"><span id="m-days">??</span><small>天後開跑</small></div>
-        <div class="msub">2026/04/12 啟程 · <span id="m-day">計算中</span></div>
+        <div class="m-banner" role="img" aria-label="馬拉松訓練賽道示意"></div>
+        <div class="mbig"><span id="m-days">??</span><small id="m-days-label">天後開跑</small></div>
+        <div class="msub">10/12–10/25 課表 · <span id="m-day">計算中</span></div>
+        <div id="m-races" class="m-races"></div>
+        <div id="m-training" class="m-training"></div>
         <div class="mprog">
           <div class="mbar"><div class="mfill" id="m-fill" style="width:0%"></div></div>
-          <div class="mfoot"><span class="mono">訓練進度</span><span class="mono" id="m-pct">0%</span></div>
+          <div class="mfoot"><span class="mono">課表日程（非完成率）</span><span class="mono" id="m-pct">0%</span></div>
         </div>
       </section>
 
@@ -1014,7 +1025,7 @@ a{color:inherit;text-decoration:none}
         </div>
         <div>
           <div class="mh-title">馬拉松 · 課表與跑步分析</div>
-          <div class="mh-sub">陽光海岸馬拉松 08/02 · Strava 串接 · 目標 Sub-4</div>
+          <div class="mh-sub">新竹 12/06 · 台北 12/20 · 渣打 01/10 · 逐日課表</div>
         </div>
         <button class="modal-close" data-close>✕</button>
       </div>
@@ -1727,22 +1738,70 @@ wireModal('modal-overtime','overtime',function(){otFbPull();});
 // ─────────────────────────────────────────────
 //  MARATHON COUNTDOWN
 // ─────────────────────────────────────────────
-(function(){
-  var RACE=new Date(2026,7,2),START=new Date(2026,3,12),DAY=86400000;
-  var now=new Date(),today=new Date(now.getFullYear(),now.getMonth(),now.getDate());
-  var total=Math.round((RACE-START)/DAY);
-  var elapsed=Math.max(0,Math.min(total,Math.round((today-START)/DAY)));
-  var remain=Math.max(0,Math.round((RACE-today)/DAY));
-  var pct=Math.max(0,Math.min(100,Math.round(elapsed/total*100)));
-  var set=function(id,v){var e=document.getElementById(id);if(e)e.textContent=v;};
-  set('m-days',remain);
-  set('m-eta',remain>0?'D-'+remain:'比賽日');
-  set('m-day','第 '+elapsed+' / '+total+' 天');
-  set('m-pct',pct+'%');
-  var f=document.getElementById('m-fill');
-  if(f){f.style.width='0%';requestAnimationFrame(function(){requestAnimationFrame(function(){f.style.width=pct+'%';});});}
+var MarathonTraining=(function(){
+  var DAY=86400000, start='2026-10-12', end='2026-10-25';
+  var races=[
+    {date:'2026-12-06',name:'新竹馬',pace:'6:30/km',goal:'4:34:16',note:'保守完賽；配速依長跑進展與當天狀況調整'},
+    {date:'2026-12-20',name:'台北馬',pace:'6:00/km',goal:'4:13:10',note:'條件式目標；依新竹馬後恢復決定，勿勉強追速'},
+    {date:'2027-01-10',name:'渣打馬',pace:'破四',goal:'快於 4:00:00',note:'挑戰目標；依訓練與前兩場恢復重新評估'}
+  ];
+  function ordinal(key){return Date.parse(key+'T00:00:00Z')/DAY;}
+  function keyAt(n){return new Date(n*DAY).toISOString().slice(0,10);}
+  function todayKey(){
+    var parts=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Taipei',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date()), out={};
+    parts.forEach(function(p){out[p.type]=p.value;});
+    return out.year+'-'+out.month+'-'+out.day;
+  }
+  var plan={};
+  for(var w=0;w<2;w++){
+    [0,10,0,10,8,8,14].forEach(function(km,i){
+      var key=keyAt(ordinal(start)+w*7+i), rest=km===0, long=i===6, recovery=i===5;
+      plan[key]={
+        c:rest?'rest':long?'long':'e', km:km,
+        l:rest?'休息':(long?'長跑':recovery?'恢復':'輕鬆')+' '+km+'K',
+        seg:rest?[['安排','休息；輕鬆走路即可，不補跑漏掉的公里數']]:
+          [['全程',km+' 公里；包含熱身與收操距離'],['強度','能完整說話；主觀用力 2–3/10'],['重點',long?'練習補水補給，不做末段加速':recovery?'本週最輕鬆的一趟，替明天長跑保留體力':'前段慢慢帶開，全程穩定，不加快跑段']],
+        cool:rest?'休息':'參考 6:45–7:20/km，可更慢',
+        hot:rest?'恢復優先':'放慢或縮短，以能舒服交談為準',
+        ev:rest?'有明顯疲勞時繼續休息；漏課不補到隔天。':
+          '本期每週 50K 是計畫量，先不加速度課。若腿沉或疲勞累積，週六改休息、週日縮短至 10–12K；疼痛加重或影響步態就停止當次跑步。跑完記錄用力感與隔日恢復。第二週只在第一週恢復良好時沿用。'
+      };
+    });
+  }
+  races.forEach(function(r){
+    plan[r.date]={c:'race',km:42.195,l:r.name+' 42.2K',seg:[['距離','全馬 42.195 公里'],['目標',r.pace+' · '+r.goal],['決策',r.note]],cool:r.pace+'（目標，非能力預測）',hot:'依天氣與身體狀況下修',ev:r.note+'。全程平均包含補水與停留時間；本期課表結束後須重新安排賽前訓練。'};
+  });
+  function summary(key){
+    var n=ordinal(key), first=ordinal(start), last=ordinal(end), before=n<first, after=n>last;
+    var weekStart=before?first:n-((new Date(n*DAY).getUTCDay()+6)%7);
+    var km=0,runs=0;
+    if(!after){for(var i=0;i<7;i++){var s=plan[keyAt(weekStart+i)];if(s&&s.c!=='race'){km+=s.km;if(s.km>0)runs++;}}}
+    var s=plan[key];
+    return {date:key,before:before,after:after,weekLabel:before?'下週計畫':'本週計畫',weekStart:keyAt(weekStart),weekEnd:keyAt(weekStart+6),km:km,runs:runs,
+      today:before?'課表 10/12 開始':s&&s.c==='race'?s.l:after?'本期已結束，待更新課表':s?s.l:'尚未安排',
+      day:Math.max(0,Math.min(14,n-first+1)),pct:Math.max(0,Math.min(100,Math.round((n-first+1)/14*100)))};
+  }
+  function remaining(r,key){return ordinal(r.date)-ordinal(key);}
+  function raceLabel(r,key){var days=remaining(r,key);return days>0?'D-'+days:days===0?'今天開跑':'已過賽事日期';}
+  return {start:start,end:end,races:races,plan:plan,summary:summary,todayKey:todayKey,remaining:remaining,raceLabel:raceLabel};
 })();
-
+(function(){
+  var key=MarathonTraining.todayKey(), summary=MarathonTraining.summary(key);
+  var next=MarathonTraining.races.find(function(r){return r.date>=key;});
+  var set=function(id,v){var e=document.getElementById(id);if(e)e.textContent=v;};
+  var remain=next?MarathonTraining.remaining(next,key):0;
+  set('m-race-sub',next?next.name+' · '+next.date.replace(/-/g,'/'):'三場全馬 · 賽季已結束');
+  set('m-days',remain);
+  set('m-days-label',next?(remain===0?'今天開跑':'天後開跑'):'賽季已結束');
+  set('m-eta',next?MarathonTraining.raceLabel(next,key):'已結束');
+  set('m-day',summary.before?'尚未開始':summary.after?'本期待更新':'第 '+summary.day+' / 14 天');
+  set('m-pct',summary.pct+'%');
+  document.getElementById('m-races').innerHTML=MarathonTraining.races.map(function(r){
+    return '<div class="m-race-line"><span>'+r.name+' · '+r.date.slice(5).replace('-','/')+'</span><span>'+r.pace+' · '+MarathonTraining.raceLabel(r,key)+'</span></div>';
+  }).join('');
+  document.getElementById('m-training').textContent='今日：'+summary.today+' · '+summary.weekLabel+' '+summary.km+'K / '+summary.runs+' 次';
+  var f=document.getElementById('m-fill');if(f)f.style.width=summary.pct+'%';
+})();
 // ─────────────────────────────────────────────
 //  DAILY QUOTE
 // ─────────────────────────────────────────────
@@ -2154,9 +2213,7 @@ fetch('stocks.json?'+Date.now())
 //  資料：Strava streams（降採樣 30 點）+ Open-Meteo 竹北當日清晨天氣
 // ─────────────────────────────────────────────
 (function(){
-  var RACE=new Date(2026,7,2),DAY=86400000;
-  var nowD=new Date(),today=new Date(nowD.getFullYear(),nowD.getMonth(),nowD.getDate());
-  var dleft=Math.max(0,Math.ceil((RACE-today)/DAY));
+  var today=pk(MarathonTraining.todayKey());
   var ZB=[120,149,164,178], ZCOL=['#E7E1D2','#F3DC9A','#F4C84A','#E8B321','#E0453B'], ZNM=['Z1 恢復','Z2 有氧','Z3 節奏','Z4 閾值','Z5 最大'];
   var WD=['日','一','二','三','四','五','六'];
   function pad(n){return n<10?'0'+n:''+n;}
@@ -2217,47 +2274,7 @@ fetch('stocks.json?'+Date.now())
   var RUNS=normRuns(RUNS_FALLBACK);
   var COACH={};
 
-  // ── 七週課表（逐日）─────────────────────────
-  function S(c,l,seg,cool,hot){return{c:c,l:l,seg:seg,cool:cool,hot:hot};}
-  var weeks=[
-    {mon:'2026-06-15',s:[
-      S('q','節奏 4K',[['暖身','2K 輕鬆 E（6:50/km）帶開'],['主課表','4K 節奏跑 T（5:10–5:20/km，約半馬強度、喘但仍可控）'],['緩和','2K 輕鬆 E 收操'],['總量','約 8K']],'T 5:10–5:20/km','清晨最涼時段；追不到配速就降一檔'),
-      S('e','輕鬆 8K',[['全程','8K 輕鬆 E 6:45–7:05/km，心率壓 150 以下'],['結尾','6×20 秒快步 strides，輕快不是衝刺']],'E 6:45–7:05/km','心率 <150、配速放掉沒關係'),
-      S('long','長跑 22K',[['暖身','2K 慢跑帶開'],['主課表','18K 維持 Easy 6:50–7:00/km，全程能輕鬆對話'],['緩和','2K 放鬆收操'],['補給練習','每約 5K 補水、每 40–45 分鐘補一條能量膠，模擬比賽節奏']],'E 6:50–7:00/km','改跑滿 2:30、看心率不看配速'),
-      S('e','輕鬆 6K',[['全程','6K 很輕鬆 E 6:50–7:10/km'],['目的','在昨天長跑的疲勞腿上恢復跑（背靠背），練抗疲勞']],'E 6:50–7:10/km','跑走交替亦可')]},
-    {mon:'2026-06-22',s:[
-      S('q','節奏 5K',[['暖身','2K E 6:50/km'],['主課表','5K 節奏跑 T 5:10–5:20/km'],['緩和','2K E'],['總量','約 9K']],'T 5:10–5:20/km','清晨；熱到失速就降強度'),
-      S('e','輕鬆 8K',[['全程','8K 輕鬆 E 6:45–7:05/km'],['結尾','5×20 秒快步']],'E 6:45–7:05/km','心率 <150'),
-      S('long','長跑 25K',[['暖身','2K 慢跑'],['前段','17K 輕鬆 E 6:50/km'],['主課表','最後 6K 切馬拉松配速 MP 5:35–5:40/km，體會「累了還要維持比賽速度」'],['緩和','放鬆收操'],['補給','照比賽節奏補水、補膠']],'E 6:50 → MP 5:35–5:40','跑滿 2:50；MP 段留涼天或跑步機'),
-      S('e','輕鬆 7K',[['全程','7K 輕鬆 E 6:50–7:10/km'],['目的','長跑隔天的恢復，慢得理直氣壯']],'E 6:50–7:10/km','看心率、放慢')]},
-    {mon:'2026-06-29',s:[
-      S('q','3×3K @MP',[['暖身','2K E + 3×快步'],['主課表','3 趟 3K @ MP 5:35–5:40/km，每趟間慢跑 800m 恢復'],['緩和','2K E'],['總量','約 13K']],'MP 5:35–5:40/km','清晨或跑步機（涼）'),
-      S('e','輕鬆 9K',[['全程','9K 輕鬆 E 6:45–7:05/km'],['結尾','數趟快步']],'E 6:45–7:05/km','心率 <150'),
-      S('long','長跑 28K',[['暖身','2K 慢跑'],['前段','10K 輕鬆 E 6:50/km'],['主課表','中段 6K @ MP 5:35–5:40/km'],['後段','回到 E 跑回家，撐住疲勞'],['緩和','放鬆'],['補給','每 5K 水、每 40 分鐘膠']],'E 6:50 ｜ MP 5:35–5:40','跑滿 3:10'),
-      S('e','輕鬆 7K',[['全程','7K 輕鬆 E 6:50–7:10/km'],['目的','恢復、累積有氧底']],'E 6:50–7:10/km','看心率')]},
-    {mon:'2026-07-06',s:[
-      S('q','節奏 6K',[['暖身','2K E'],['主課表','6K 節奏跑 T 5:10–5:20/km'],['緩和','2K E'],['總量','約 10K']],'T 5:10–5:20/km','清晨'),
-      S('e','輕鬆 8K',[['全程','8K 輕鬆 E 6:45–7:05/km，純恢復']],'E 6:45–7:05/km','心率 <150'),
-      S('long','🔑 長跑 32K',[['暖身','2K 慢跑'],['主課表','中後段 2 趟 6K @ MP 5:35–5:40/km（間隔 2–3K 輕鬆）'],['其餘','維持 Easy 6:50–7:00/km'],['緩和','放鬆 + 伸展'],['補給','每 20 分鐘補水、每 40 分鐘補膠——這是練補給與撞牆的關鍵一課']],'E 6:50 ｜ MP 5:35–5:40','跑滿 3:35；MP 留涼天'),
-      S('e','輕鬆 6K',[['全程','6K 極輕鬆 E 7:00–7:15/km'],['彈性','昨天 32K 後若很累，改休息完全沒問題']],'E 7:00–7:15/km','可直接休息')]},
-    {mon:'2026-07-13',s:[
-      S('q','8K @MP',[['暖身','2K E'],['主課表','8K 連續 @ MP 5:35–5:40/km，找比賽腳感'],['緩和','2K E'],['總量','約 12K']],'MP 5:35–5:40/km','清晨或跑步機'),
-      S('e','輕鬆 8K',[['全程','8K 輕鬆 E 6:45–7:05/km'],['結尾','數趟快步']],'E 6:45–7:05/km','心率 <150'),
-      S('long','長跑 26K',[['暖身','2K 慢跑'],['前段','16K 輕鬆 E 6:50/km'],['主課表','最後 8K @ MP 5:35–5:40/km，當成迷你模擬賽'],['緩和','放鬆'],['演練','連賽前早餐、裝備、補給流程一起練']],'E 6:50 → MP 5:35–5:40','清晨跑'),
-      S('e','輕鬆 6K',[['全程','6K 輕鬆 E 6:50–7:10/km'],['目的','恢復']],'E 6:50–7:10/km','看心率')]},
-    {mon:'2026-07-20',s:[
-      S('q','節奏 4K',[['暖身','2K E'],['主課表','4K 節奏跑 T 5:10–5:20/km（短而銳、維持鋒利）'],['緩和','2K E'],['總量','約 8K']],'T 5:10–5:20/km','清晨'),
-      S('e','輕鬆 7K',[['全程','7K 輕鬆 E 6:45–7:05/km'],['結尾','數趟快步']],'E 6:45–7:05/km','心率 <150'),
-      S('long','長跑 18K',[['暖身','2K 慢跑'],['前段','8K 輕鬆 E 6:50/km'],['主課表','中段 5K @ MP 5:35–5:40/km'],['後段','回 E 收 + 緩和'],['備註','最後一次中長跑，之後正式收量減量']],'E 6:50 ｜ MP 5:35–5:40','跑滿時間即可'),
-      S('e','輕鬆 5K',[['全程','5K 輕鬆 E 6:50–7:10/km'],['減量','量已開始收，腿要越來越新鮮']],'E 6:50–7:10/km','輕鬆')]},
-    {mon:'2026-07-27',s:[
-      S('e','輕鬆 6K',[['全程','6K 輕鬆 E 6:50–7:05/km'],['結尾','4×20 秒快步，腿要新鮮不要累']],'E 6:50–7:05/km','放鬆、別逞強'),
-      S('q','5K + 3×1K @MP',[['暖身','2K E'],['主課表','3 趟 1K @ MP 5:35–5:40/km，每趟間走/慢跑恢復'],['緩和','收操'],['目的','賽前喚醒腿、找比賽腳感，量很少']],'MP 5:35–5:40/km','短促、點到為止'),
-      S('shake','抖腿 3–4K',[['全程','3–4K 超輕鬆慢跑，或直接休息'],['備註','旅行日以新鮮腿優先；做賽前裝備確認']],'超輕鬆','以休息為優先'),
-      S('race','🏁 比賽 06:00',[['配速','全程 5:35–5:38/km 均速，前半務必壓住別衝'],['補給','每 5K 補水、每 40 分鐘補膠，照訓練演練過的來'],['心法','涼天 11–18°C + 平路是大禮，耐心跑、後段再收割']],'5:35–5:38/km 均速','涼爽 11–18°C，舒服')]}
-  ];
-  var PLAN={};
-  weeks.forEach(function(w){var b=pk(w.mon),off=[1,3,5,6];w.s.forEach(function(ss,i){PLAN[keyOf(new Date(b.getFullYear(),b.getMonth(),b.getDate()+off[i]))]=ss;});});
+  var PLAN=MarathonTraining.plan;
 
   // ── 分析計算 ────────────────────────────────
   function decouple(r){var n=r.d.length,half=r.d[n-1]/2,s1=0,h1=0,c1=0,s2=0,h2=0,c2=0;
@@ -2272,30 +2289,18 @@ fetch('stocks.json?'+Date.now())
     return '<svg class="mm-spk" viewBox="0 0 '+w+' '+h+'" preserveAspectRatio="none">'+ar+'<path d="'+d+'" fill="none" stroke="'+col+'" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/></svg>';}
   function chart(title,rng,svg){return '<div class="mm-ch"><div class="lab"><span>'+title+'</span><span>'+rng+'</span></div>'+svg+'</div>';}
 
-  // ── 完賽推估 趨勢 ───────────────────────────
-  var TP=[['起點',15900,0],['現在',14700,0],['W2',14520,1],['W4',14340,1],['W6',14220,1],['賽前',14160,1]];
-  var GOAL=14400, S0=15900, NOW=14700, BEST=14160;
-  function trendSvg(){var w=330,h=96,pl=8,pr=34,pt=12,pb=20,smin=14080,smax=16000;
-    function X(i){return pl+(w-pl-pr)*i/(TP.length-1);}function Y(s){return pt+(h-pt-pb)*(s-smin)/(smax-smin);}
-    var gy=Y(GOAL),sol='',das='',dots='';
-    for(var i=0;i<TP.length;i++){var x=X(i),y=Y(TP[i][1]);if(i>0){var seg=(TP[i][2]||TP[i-1][2])?'das':'sol',px=X(i-1),py=Y(TP[i-1][1]);if(seg==='sol')sol+='M'+px+' '+py+'L'+x+' '+y;else das+='M'+px+' '+py+'L'+x+' '+y;}
-      dots+='<circle cx="'+x.toFixed(1)+'" cy="'+y.toFixed(1)+'" r="'+(TP[i][2]?2.6:3.4)+'" fill="'+(TP[i][2]?'#fff':'#E8B321')+'" stroke="#E8B321" stroke-width="1.6"/>';
-      dots+='<text x="'+x.toFixed(1)+'" y="'+(h-7)+'" text-anchor="middle" font-size="8.5" fill="#A8A39A" font-family="JetBrains Mono,monospace">'+TP[i][0]+'</text>';}
-    return '<svg viewBox="0 0 '+w+' '+h+'" preserveAspectRatio="none" style="width:100%;height:96px;display:block">'+
-      '<line x1="'+pl+'" y1="'+gy.toFixed(1)+'" x2="'+(w-pr+28)+'" y2="'+gy.toFixed(1)+'" stroke="#1F9D63" stroke-width="1" stroke-dasharray="3 3"/>'+
-      '<text x="'+(w-pr+30)+'" y="'+(gy+3).toFixed(1)+'" font-size="8.5" fill="#1F9D63" font-family="JetBrains Mono,monospace">4:00</text>'+
-      '<path d="'+das+'" fill="none" stroke="#E8B321" stroke-width="1.8" stroke-dasharray="4 3" opacity=".7" stroke-linecap="round"/>'+
-      '<path d="'+sol+'" fill="none" stroke="#E8B321" stroke-width="2.2" stroke-linecap="round"/>'+dots+'</svg>';}
-
   function heroHTML(){
-    var fill=(S0-NOW)/(S0-BEST)*100, gp=(S0-GOAL)/(S0-BEST)*100;
-    return '<div class="mm-hero2"><div class="mm-h2l"><div class="mm-k">目前推估完賽</div>'+
-      '<div class="mm-pred">'+finFmt(NOW)+'<small>初馬</small></div>'+
-      '<div class="mm-goal">目標 <b>Sub-4（破4）</b> — 涼爽賽道 + 平路讓破四成為合理目標，剩下的限制只有耐力續航。</div>'+
-      '<div class="mm-prog"><div class="mm-pbar"><div class="mm-pfill" style="width:'+fill.toFixed(0)+'%"></div><div class="mm-pgoal" style="left:'+gp.toFixed(0)+'%"></div></div>'+
-      '<div class="mm-plab"><span>起點 '+finFmt(S0)+'</span><span style="color:var(--gold-ink);font-weight:700">現在 '+finFmt(NOW)+'</span><span>潛力 '+finFmt(BEST)+'</span></div></div></div>'+
-      '<div class="mm-h2r"><div class="mm-k">完賽推估趨勢 · 依完成課表逐次重估</div>'+trendSvg()+
-      '<div class="mm-trcap">實線＝已完成（起點→現在）；虛線＝完成課表後的推估軌跡 → 理論上越練越快</div></div></div>';
+    var key=MarathonTraining.todayKey(), s=MarathonTraining.summary(key);
+    var races=MarathonTraining.races.map(function(r){
+      return '<div class="m-race-line"><span>'+r.name+' · '+r.date.replace(/-/g,'/')+'</span><span>'+r.pace+' · '+MarathonTraining.raceLabel(r,key)+'</span></div>';
+    }).join('');
+    return '<div class="mm-hero2"><div class="mm-h2l"><div class="mm-k">'+s.weekLabel+' · '+s.weekStart.slice(5).replace('-','/')+'–'+s.weekEnd.slice(5).replace('-','/')+'</div>'+
+      '<div class="mm-pred">'+s.km+'<small>公里 / '+s.runs+' 次</small></div>'+
+      '<div class="mm-goal">今日：<b>'+s.today+'</b><br>本期 10/12–10/25，每週五天、50K，全為輕鬆跑；第二週依恢復調整。</div>'+
+      '<div class="mm-trcap">能完整交談，用力感 2–3/10；參考 6:45–7:20/km，可更慢。漏課不補跑。</div></div>'+
+      '<div class="mm-h2r"><div class="mm-k">三場全馬 · 目標與倒數</div>'+races+
+      '<div class="mm-goal">完賽能力：<b>待訓練後評估</b><br>目標配速不是目前能力預測。兩場間隔 14 天、21 天，依賽後恢復調整。</div></div></div>'+
+      '<details class="mm-plan-note"><summary>恢復檢查與減量條件</summary><p>從近期約 22K/週提高到 50K 是較大的增加。腿沉或疲勞累積時，週六改休息、週日縮短到 10–12K；疼痛加重或影響步態就停止當次跑步。每次記錄用力感與隔日恢復。</p><p>課表只安排到 10/25；之後待討論更新，不會自動增加跑量。</p></details>';
   }
 
   // ── 月曆 ────────────────────────────────────
@@ -2305,8 +2310,8 @@ fetch('stocks.json?'+Date.now())
     '<span><i style="background:rgba(28,27,25,.12)"></i>輕鬆跑</span>'+
     '<span><i style="background:#E8B321"></i>長距離</span>'+
     '<span><i style="background:#1F9D63"></i>比賽</span>'+
-    '<span><i class="dotleg"></i>已完成（實際跑步）</span></div>';}
-  function tagCls(c){return c==='long'?'long':c==='race'?'race':c==='q'?'q':'e';}
+    '<span><i class="dotleg"></i>已完成（實際跑步）</span><span>休息</span></div>';}
+  function tagCls(c){return c==='rest'?'rest':c==='long'?'long':c==='race'?'race':c==='q'?'q':'e';}
   function drawCal(){
     var mlab=document.getElementById('mmc-month'),grid=document.getElementById('mmc-grid');
     var first=new Date(view.y,view.m,1),dim=new Date(view.y,view.m+1,0).getDate(),lead=(first.getDay()+6)%7;
@@ -2317,7 +2322,7 @@ fetch('stocks.json?'+Date.now())
       var dt=new Date(view.y,view.m,d),key=keyOf(dt),pl=PLAN[key],ac=RUNS[key],has=pl||ac;
       var agg=ac?dayAgg(ac):null;
       var cls='mmc-cell'+(has?' has':'')+(ac?' done':'')+(key===keyOf(today)?' today':'')+(pl&&pl.c==='race'?' raceday':'');
-      html+='<div class="'+cls+'"'+(has?' data-date="'+key+'"':'')+'>'+
+      html+='<div class="'+cls+'"'+(has?' data-date="'+key+'" role="button" tabindex="0" aria-label="'+key+' '+(pl?pl.l:'實際跑步')+'"':'')+'>'+
         '<div class="mmc-day">'+d+'</div>'+
         (pl?'<span class="mmc-tag '+tagCls(pl.c)+'">'+pl.l+'</span>':'')+
         (agg?'<div class="mmc-act"><span class="mmc-dot"></span><span class="km">'+agg.km+'K</span>'+(agg.n>1?' <span class="mmc-multi">×'+agg.n+'</span>':'')+(agg.hot?' <span class="hk">🔥</span>':'')+'</div>':'')+
@@ -2368,10 +2373,11 @@ fetch('stocks.json?'+Date.now())
     return out;
   }
   function planPopHTML(key){
-    var s=PLAN[key],cn={q:'品質課',e:'輕鬆跑',long:'長距離',race:'比賽',shake:'抖腿'}[s.c];
+    var s=PLAN[key],cn={q:'品質課',e:'輕鬆跑',long:'長距離',race:'比賽',shake:'抖腿',rest:'休息'}[s.c];
     var seg=s.seg.map(function(x){return '<div class="mm-pseg"><span class="ph">'+x[0]+'</span><span class="tx">'+x[1]+'</span></div>';}).join('');
     var ev;
-    if(s.c==='race')
+    if(s.ev)ev=s.ev;
+    else if(s.c==='race')
       ev='比賽日到了！🏁 記住三件事：① 前半「忍」——全程 5:35–5:38 均速，別被起跑的興奮帶到 5:25，那會讓你 30K 後付出代價；② 補給照訓練演練過的節奏，每 5K 補水、每 40 分鐘補膠；③ 涼爽 11–18°C + 平路賽道是天大的禮物，你在台灣酷暑裡練出來的底子，這一天會全部兌現。你已經做足準備了，享受它、相信過程——破四就在前方，去寫下你的初馬！💛';
     else if(s.c==='long'&&/32K/.test(s.l))
       ev='這是整個課表的王牌一課。跑完 32K，你的身心都會知道「42K，我撐得住」。重點在後段那兩趟 MP——能在疲勞中切回比賽配速，正是破四的關鍵能力。請務必認真補給，這同時是在演練比賽當天的腸胃。跑完，好好肯定自己一次，你已經站在初馬完賽的門口了。🔥（真的熱到不行就改時間制、MP 留涼天，別硬拚受傷——聰明訓練也是實力。）';
@@ -2420,6 +2426,7 @@ fetch('stocks.json?'+Date.now())
     document.getElementById('mmc-prev').onclick=function(){shift(-1);};
     document.getElementById('mmc-next').onclick=function(){shift(1);};
     document.getElementById('mmc-grid').addEventListener('click',function(e){var c=e.target.closest('.mmc-cell.has');if(c)openPop(c);});
+    document.getElementById('mmc-grid').addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){var c=e.target.closest('.mmc-cell.has');if(c){e.preventDefault();openPop(c);}}});
     drawCal();
     if(!wired){
       document.addEventListener('click',function(e){
