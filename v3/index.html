@@ -783,6 +783,7 @@ a{color:inherit;text-decoration:none}
         <div class="msub">10/12–10/25 課表 · <span id="m-day">計算中</span></div>
         <div id="m-races" class="m-races"></div>
         <div id="m-training" class="m-training"></div>
+        <div id="m-garmin" class="m-training" aria-live="polite">Garmin 摘要載入中…</div>
         <div class="mprog">
           <div class="mbar"><div class="mfill" id="m-fill" style="width:0%"></div></div>
           <div class="mfoot"><span class="mono">課表日程（非完成率）</span><span class="mono" id="m-pct">0%</span></div>
@@ -1067,6 +1068,7 @@ a{color:inherit;text-decoration:none}
 
 </div><!-- /wrap -->
 
+<script src="garmin-summary.js"></script>
 <script>
 'use strict';
 
@@ -2222,72 +2224,7 @@ fetch('stocks.json?'+Date.now())
   function paceFmt(s){if(!isFinite(s)||s<=0)return'—';var m=Math.floor(s/60),x=Math.round(s%60);return m+':'+pad(x);}
   function finFmt(s){var h=Math.floor(s/3600),m=Math.round((s-h*3600)/60);return h+':'+pad(m);}
 
-  // ── 真實跑步（含逐秒降採樣 streams）──────────
-  // RUNS_FALLBACK：A 版 marathon.json 抓不到時的內建備援快照，確保頁面永不開天窗
-  var RUNS_FALLBACK={
-    '2026-06-14':{name:'17.7K 長距離',km:17.7,mov:6616,ahr:154,mhr:173,cad:87,elev:52,wx:{t:26.9,rh:71,feel:27.8},badge:['heat','🔥 熱天長跑'],
-      ev:'26.9°C、71% 濕度撐完 17.7K，心率一路從 130 漂到 164 — 台灣夏天的硬仗。換算涼天，這個有氧水準很有料。',
-      hr:[87,134,145,148,147,150,140,128,152,152,153,156,153,158,164,150,155,159,159,161,166,156,160,165,165,162,130,158,163,165],
-      d:[1.7,611,1221,1832,2440,3050,3661,4270,4880,5490,6099,6710,7318,7929,8538,9148,9758,10366,10978,11586,12198,12806,13416,14025,14635,15244,15855,16466,17074,17684],
-      alt:[29,28.6,32.6,37.8,40.2,42.8,42.4,42.4,41.8,36.6,31.2,29.2,30.2,31.6,37.6,39.2,36,30.2,27.6,26.2,26.8,26.4,26.2,26.4,28.6,33.8,33.2,30.6,26.6,24.8],
-      v:[2.6,2.6,2.62,2.76,2.76,3.66,3.12,2.71,2.56,2.84,2.7,2.88,2.58,2.64,3.3,2.66,2.84,2.8,2.76,2.54,2.6,2.7,2.5,2.52,2.66,2.98,2.46,2.56,2.8,2.98]},
-    '2026-06-13':{name:'5K 輕鬆跑',km:5.0,mov:1888,ahr:145,mhr:156,cad:90,elev:14,wx:{t:23.6,rh:96,feel:28.2},badge:['good','✅ 輕鬆達標'],
-      ev:'96% 接近飽和的濕度，還能把心率壓在 145 完成輕鬆跑，恢復目的達成。濕度這麼高心肺還這麼穩。',
-      hr:[84,123,131,135,137,143,141,140,142,144,147,145,146,149,147,144,149,153,146,147,149,151,148,152,153,153,152,154,150,156],
-      d:[0,175,347,522,696,870,1042,1216,1390,1565,1738,1912,2087,2259,2433,2608,2783,2954,3128,3303,3476,3652,3824,3999,4172,4347,4519,4695,4867,5042],
-      alt:[35.2,34.4,34.4,34,33.8,32.8,31.8,29.8,28.4,27.2,26.6,26.8,27,27,25.8,26.4,27.6,28,28.2,29.2,30,31.6,33.2,35,36.6,37.6,38.6,39,39.6,40.4],
-      v:[2.76,2.76,2.6,2.84,2.94,2.68,2.34,2.72,2.58,2.48,2.72,2.44,2.42,3.02,2.58,2.66,2.66,2.66,3,2.62,2.8,2.88,2.64,2.26,2.6,2.58,2.9,2.74,2.62,3.12]},
-    '2026-06-04':{name:'10K 有氧',km:10.0,mov:3769,ahr:149,mhr:163,cad:89,elev:11,wx:{t:27.1,rh:77,feel:30.0},badge:['heat','🔥 體感 30°C'],
-      ev:'體感飆到 30°C，是這週最煎熬的一場，心率漂到 160 屬正常熱反應、不是體能退步。這種天氣請改看「跑滿時間」。',
-      hr:[75,135,137,143,146,144,136,144,145,147,144,150,134,148,147,153,154,156,158,145,151,154,158,156,154,156,158,160,161,162],
-      d:[0,346,692,1036,1382,1729,2074,2420,2765,3112,3457,3803,4149,4495,4841,5187,5532,5879,6225,6571,6915,7261,7607,7952,8299,8645,8989,9336,9682,10027],
-      alt:[35,34.4,34.4,34.4,34.4,34,33.6,35,37,37.8,39,39,40.8,41,39.8,39.2,40,39.8,39.2,38.6,37.6,38,38,38,36.2,37.2,37.2,38,38,38],
-      v:[2.64,2.64,2.7,3.04,2.96,2.68,2.46,2.66,2.74,2.64,2.94,2.62,2.66,2.68,2.88,2.48,2.78,2.94,2.7,2.42,2.6,2.54,2.7,2.5,2.3,2.68,2.4,2.5,2.84,3]},
-    '2026-06-02':{name:'8.9K · 間歇',km:8.9,mov:3200,ahr:147,mhr:170,cad:85,elev:8,wx:{t:23.1,rh:98,feel:27.9},badge:['gold','⚡ 速度課'],
-      ev:'800m 反覆衝刺、最快單公里 4:53、最大心率 170 — 漂亮的速度刺激，正是課表想保留的腿部彈性。',
-      hr:[93,127,131,133,133,138,133,132,152,155,157,160,164,163,144,157,163,165,167,169,167,148,162,137,161,131,144,148,150,152],
-      d:[0,308,614,923,1228,1537,1843,2152,2457,2764,3073,3377,3685,3994,4299,4607,4914,5222,5530,5835,6144,6450,6757,7064,7371,7679,7986,8295,8601,8908],
-      alt:[36,36,36,35.6,35.4,35.2,35.4,35.2,35.8,35.8,36.2,36.2,35.8,35.6,36,35.8,34.8,34.6,34.4,34.4,34,32.2,32.6,32.4,33.2,30,33.2,33.4,34.2,34.4],
-      v:[2.52,2.52,2.48,2.44,2.44,2.24,2.26,4.32,3.58,3.1,3.64,3.42,2.98,3.68,3.44,3.26,3.42,3.6,3.4,3.58,0.78,3.34,3.42,0.18,3.22,1.7,2.48,2.48,2.9,2.64]},
-    '2026-05-31':{name:'10K · 十八尖山',km:10.1,mov:3777,ahr:159,mhr:177,cad:87,elev:201,wx:{t:27.1,rh:57,feel:27.3},badge:['gold','⛰️ 坡度課 +201m'],
-      ev:'爬升 201m、均心率 159、最高 177，等於一場高強度肌力課。坡度練的是馬拉松後段的腿力，對破四很有幫助。',
-      hr:[97,145,149,154,154,160,148,155,151,147,160,175,167,168,171,153,160,162,157,163,168,167,170,172,176,153,161,163,166,165],
-      d:[0,349,697,1045,1392,1739,2088,2435,2783,3131,3479,3828,4176,4523,4872,5219,5568,5915,6263,6611,6960,7307,7654,8004,8352,8700,9049,9396,9744,10092],
-      alt:[92.4,108.4,113,122.4,132.8,148.2,137,129.6,117.6,87,80.8,113.6,127.6,135.2,147,135.2,128.2,117,114.8,101.6,114.4,117.8,124.6,133.4,148.2,135.8,128.2,118.4,115.4,98.8],
-      v:[2.82,2.82,2.66,2.82,3.12,2.54,2.96,2.84,2.66,3.02,2.5,2.3,2.22,2.34,2.22,2.98,2.74,2.46,3.2,3.1,2.36,2.7,2.82,2.34,2.46,2.52,2.96,2.54,2.56,3.12]},
-    '2026-05-30':{name:'15K 長距離',km:15.0,mov:5676,ahr:140,mhr:153,cad:89,elev:41,wx:{t:23.1,rh:85,feel:24.0},badge:['good','⭐ 本月最佳有氧'],
-      ev:'體感 24°C 的涼爽清晨，均心率只有 140 就完成 15K，心率漂移極小（126→150）。這才是你真正的有氧底子。',
-      hr:[91,131,135,134,135,137,138,141,143,141,130,139,139,140,142,143,144,146,144,142,141,142,143,142,147,147,148,151,151,147],
-      d:[1,519,1036,1554,2069,2588,3105,3622,4139,4656,5174,5692,6211,6727,7245,7763,8278,8798,9313,9831,10350,10866,11383,11901,12418,12935,13453,13970,14488,15006],
-      alt:[36.6,34.4,31.2,24,22,20.8,22,25.4,29.8,31.6,32,30.8,27.4,23,22,21.8,22.4,26.8,30.8,31.8,33,32,26.8,23.8,21.2,21.2,23.4,29,32.4,36.2],
-      v:[2.58,2.58,2.58,2.38,2.32,2.5,2.48,3,2.88,2.84,2.46,2.68,2.62,2.6,2.76,2.44,2.58,2.7,2.3,2.66,2.58,2.62,2.76,2.74,3.06,2.6,2.78,2.94,2.7,2.64]},
-    '2026-05-26':{name:'6.7K · 間歇',km:6.7,mov:2752,ahr:149,mhr:176,cad:83,elev:35,wx:{t:27.0,rh:72,feel:27.2},badge:['gold','⚡ 速度課'],
-      ev:'400m 反覆、最快 1:46、最大心率 176。均配速看起來慢是因為含恢復段。高溫下做高強度間歇，補水要特別留意。',
-      hr:[83,129,130,137,137,143,156,162,137,142,159,167,155,141,162,174,170,146,165,172,174,145,166,173,174,137,149,155,158,157],
-      d:[0,232,463,696,927,1159,1391,1622,1855,2087,2317,2549,2781,3015,3243,3477,3708,3940,4171,4405,4634,4869,5101,5331,5561,5794,6026,6258,6489,6721],
-      alt:[37,35.6,35.8,37,35.4,35.2,35.6,35.4,36,35.2,36.2,34.6,36,33.8,34.8,34.2,36.4,33.2,35.2,33.6,35.6,33,35.4,33.8,35.6,34.2,33.6,34.8,33.4,34.6],
-      v:[2.7,2.7,2.54,2.42,2.62,3.46,3.84,3.42,0.72,3.52,3.58,3.68,0.98,3.46,3.56,3.8,0.8,3.56,3.94,3.8,3.58,3.8,3.74,3.28,3.64,2.52,2.66,2.8,2.72,2.62]}
-  };
-  // 一天可能有多筆跑步紀錄；統一正規化成 RUNS[key]=[run,...]（相容舊版單一物件格式）
-  function normRuns(o){var out={};for(var k in o){out[k]=Array.isArray(o[k])?o[k]:[o[k]];}return out;}
-  function dayAgg(list){var km=0,hot=false;for(var i=0;i<list.length;i++){km+=list[i].km;if(list[i].wx&&list[i].wx.feel>=27)hot=true;}return{km:Math.round(km*10)/10,hot:hot,n:list.length};}
-  var RUNS=normRuns(RUNS_FALLBACK);
-  var COACH={};
-
   var PLAN=MarathonTraining.plan;
-
-  // ── 分析計算 ────────────────────────────────
-  function decouple(r){var n=r.d.length,half=r.d[n-1]/2,s1=0,h1=0,c1=0,s2=0,h2=0,c2=0;
-    for(var i=1;i<n;i++){if(r.v[i]<=0.4)continue;if(r.d[i]<=half){s1+=r.v[i];h1+=r.hr[i];c1++;}else{s2+=r.v[i];h2+=r.hr[i];c2++;}}
-    if(!c1||!c2)return null;var r1=(s1/c1)/(h1/c1),r2=(s2/c2)/(h2/c2);return (r1-r2)/r1*100;}
-  function gap(r){var n=r.d.length,eq=0;for(var i=1;i<n;i++){var dd=r.d[i]-r.d[i-1];if(dd<=0)continue;var g=(r.alt[i]-r.alt[i-1])/dd,c=1+3.6*g;if(c<0.78)c=0.78;if(c>1.5)c=1.5;eq+=dd*c;}return eq>0?r.mov/(eq/1000):null;}
-  function zones(hr){var c=[0,0,0,0,0];for(var i=0;i<hr.length;i++){var z=4;for(var k=0;k<4;k++){if(hr[i]<=ZB[k]){z=k;break;}}c[z]++;}return c;}
-  function mnmx(a){var mn=1e9,mx=-1e9;for(var i=0;i<a.length;i++){if(a[i]<mn)mn=a[i];if(a[i]>mx)mx=a[i];}return[mn,mx];}
-  function spark(a,fill,col){var w=300,h=42,p=4,mm=mnmx(a),rg=(mm[1]-mm[0])||1,n=a.length,d='';
-    for(var i=0;i<n;i++){var x=p+(w-2*p)*i/(n-1),y=p+(h-2*p)*(1-(a[i]-mm[0])/rg);d+=(i?'L':'M')+x.toFixed(1)+' '+y.toFixed(1);}
-    var ar=fill?'<path d="'+d+'L'+(w-p)+' '+(h-p)+'L'+p+' '+(h-p)+'Z" fill="'+col+'" opacity=".13"/>':'';
-    return '<svg class="mm-spk" viewBox="0 0 '+w+' '+h+'" preserveAspectRatio="none">'+ar+'<path d="'+d+'" fill="none" stroke="'+col+'" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/></svg>';}
-  function chart(title,rng,svg){return '<div class="mm-ch"><div class="lab"><span>'+title+'</span><span>'+rng+'</span></div>'+svg+'</div>';}
 
   function heroHTML(){
     var key=MarathonTraining.todayKey(), s=MarathonTraining.summary(key);
@@ -2310,7 +2247,7 @@ fetch('stocks.json?'+Date.now())
     '<span><i style="background:rgba(28,27,25,.12)"></i>輕鬆跑</span>'+
     '<span><i style="background:#E8B321"></i>長距離</span>'+
     '<span><i style="background:#1F9D63"></i>比賽</span>'+
-    '<span><i class="dotleg"></i>已完成（實際跑步）</span><span>休息</span></div>';}
+      '<span>休息</span></div>';}
   function tagCls(c){return c==='rest'?'rest':c==='long'?'long':c==='race'?'race':c==='q'?'q':'e';}
   function drawCal(){
     var mlab=document.getElementById('mmc-month'),grid=document.getElementById('mmc-grid');
@@ -2319,13 +2256,11 @@ fetch('stocks.json?'+Date.now())
     var html='';['一','二','三','四','五','六','日'].forEach(function(w){html+='<div class="mmc-dow">'+w+'</div>';});
     for(var i=0;i<lead;i++)html+='<div class="mmc-cell empty"></div>';
     for(var d=1;d<=dim;d++){
-      var dt=new Date(view.y,view.m,d),key=keyOf(dt),pl=PLAN[key],ac=RUNS[key],has=pl||ac;
-      var agg=ac?dayAgg(ac):null;
-      var cls='mmc-cell'+(has?' has':'')+(ac?' done':'')+(key===keyOf(today)?' today':'')+(pl&&pl.c==='race'?' raceday':'');
+      var dt=new Date(view.y,view.m,d),key=keyOf(dt),pl=PLAN[key],has=pl;
+      var cls='mmc-cell'+(has?' has':'')+(key===keyOf(today)?' today':'')+(pl&&pl.c==='race'?' raceday':'');
       html+='<div class="'+cls+'"'+(has?' data-date="'+key+'" role="button" tabindex="0" aria-label="'+key+' '+(pl?pl.l:'實際跑步')+'"':'')+'>'+
         '<div class="mmc-day">'+d+'</div>'+
         (pl?'<span class="mmc-tag '+tagCls(pl.c)+'">'+pl.l+'</span>':'')+
-        (agg?'<div class="mmc-act"><span class="mmc-dot"></span><span class="km">'+agg.km+'K</span>'+(agg.n>1?' <span class="mmc-multi">×'+agg.n+'</span>':'')+(agg.hot?' <span class="hk">🔥</span>':'')+'</div>':'')+
         '</div>';
     }
     grid.innerHTML=html;
@@ -2333,45 +2268,7 @@ fetch('stocks.json?'+Date.now())
   function shift(n){view.m+=n;if(view.m<0){view.m=11;view.y--;}if(view.m>11){view.m=0;view.y++;}hidePop();drawCal();}
 
   // ── Popover ─────────────────────────────────
-  function mc(k,v){return '<div class="mm-mc"><div class="v">'+v+'</div><div class="k">'+k+'</div></div>';}
   function ic(k,v,cls){return '<div class="mm-ic'+(cls?' '+cls:'')+'"><div class="k">'+k+'</div><div class="v">'+v+'</div></div>';}
-  function singleRunHTML(r,key,headLabel){
-    var pace=r.mov/r.km,dc=decouple(r),gp=gap(r),cool=pace/(1+0.005*Math.max(0,r.wx.feel-15)),zc=zones(r.hr),tot=r.hr.length;
-    var dcCls=dc==null?'':(dc<5?'g':dc<8?'a':'r'),dcTxt=dc==null?'—':(dc>=0?'+':'')+dc.toFixed(1)+'%';
-    var hm=mnmx(r.hr),vm=mnmx(r.v),am=mnmx(r.alt),hasAlt=(am[1]-am[0])>12;
-    var zbar='<div class="mm-zbar">';for(var z=0;z<5;z++){var p=zc[z]/tot*100;if(p>0.5)zbar+='<i style="width:'+p.toFixed(1)+'%;background:'+ZCOL[z]+'" title="'+ZNM[z]+'"></i>';}zbar+='</div>';
-    var zleg='';for(var z2=0;z2<5;z2++){if(zc[z2]/tot>0.06)zleg+='<span><i style="background:'+ZCOL[z2]+'"></i>'+ZNM[z2]+' '+Math.round(zc[z2]/tot*100)+'%</span>';}
-    var paceStr=(r.v.filter(function(x){return x>0.4;}).length<r.v.length*0.85)?'含恢復段':'';
-    return '<div class="mm-runblock">'+
-      '<div class="mm-poph"><div><div class="pd">'+headLabel+'</div><div class="pn">'+r.name+'</div></div>'+
-        '<span class="mm-badge '+r.badge[0]+'">'+r.badge[1]+'</span></div>'+
-      '<div class="mm-wx">🌡 <span'+(r.wx.feel>=27?' class="hot"':'')+'>'+r.wx.t+'°C</span> · 濕 '+r.wx.rh+'% · 體感 '+r.wx.feel+'°C</div>'+
-      '<div class="mm-mrow">'+mc('距離',r.km+'<small>km</small>')+mc('均配速',paceFmt(pace))+mc('均心率',r.ahr)+mc('最高心率',r.mhr)+'</div>'+
-      chart('心率 bpm',Math.round(hm[0])+'–'+Math.round(hm[1]),spark(r.hr,false,'#E0453B'))+
-      chart('速度 m/s · 越高越快'+(paceStr?'（'+paceStr+'）':''),vm[0].toFixed(1)+'–'+vm[1].toFixed(1),spark(r.v,true,'#E8B321'))+
-      (hasAlt?chart('海拔 m',Math.round(am[0])+'–'+Math.round(am[1]),spark(r.alt,true,'#6E6A62')):'')+
-      '<div class="mm-zwrap"><div class="lab"><span>心率區間分布</span></div>'+zbar+'<div class="mm-zleg">'+zleg+'</div></div>'+
-      '<div class="mm-irow">'+
-        ic('心率脫鉤（前後半）',dcTxt,dcCls)+
-        ic('坡度校正配速',paceFmt(gp)+'<small>/km</small>')+
-        ic('涼天換算配速',paceFmt(cool)+'<small>/km</small>','c')+
-        ic('總爬升',r.elev+'<small>m</small>')+'</div>'+
-      '<div class="mm-eval">'+r.ev+'</div></div>';
-  }
-  function runPopHTML(key){
-    var list=RUNS[key],dateLab=key.slice(5).replace('-','/')+'（'+WD[pk(key).getDay()]+'）';
-    var out='<button class="mm-px" data-popclose>✕</button>';
-    if(list.length>1){
-      var agg=dayAgg(list);
-      out+='<div class="mm-daysum">'+dateLab+' · 當日 '+list.length+' 筆跑步 · 合計 '+agg.km+'K</div>';
-    }
-    out+=list.map(function(r,i){
-      var lab=list.length>1?((r.time||('第'+(i+1)+'趟'))+' · 實際跑步'):(dateLab+' · 實際跑步');
-      return singleRunHTML(r,key,lab);
-    }).join('');
-    if(COACH[key])out+='<div class="mm-coach"><span class="mc-tag">🏅 教練點評</span>'+COACH[key]+'</div>';
-    return out;
-  }
   function planPopHTML(key){
     var s=PLAN[key],cn={q:'品質課',e:'輕鬆跑',long:'長距離',race:'比賽',shake:'抖腿',rest:'休息'}[s.c];
     var seg=s.seg.map(function(x){return '<div class="mm-pseg"><span class="ph">'+x[0]+'</span><span class="tx">'+x[1]+'</span></div>';}).join('');
@@ -2401,7 +2298,7 @@ fetch('stocks.json?'+Date.now())
   function openPop(cell){
     var key=cell.getAttribute('data-date');if(!key)return;
     pop=document.getElementById('mm-pop');
-    pop.innerHTML=RUNS[key]?runPopHTML(key):planPopHTML(key);
+    pop.innerHTML=planPopHTML(key);
     pop.hidden=false;
     var xb=pop.querySelector('.mm-px');if(xb)xb.addEventListener('click',function(e){e.stopPropagation();hidePop();});
     if(window.innerWidth<=760){pop.classList.add('sheet');pop.style.left='';pop.style.top='';return;}
@@ -2415,11 +2312,12 @@ fetch('stocks.json?'+Date.now())
     pop.style.left=left+'px'; pop.style.top=top+'px';
   }
 
-  var wired=false,dataLoaded=false;
+  var wired=false;
   function draw(){
     var box=document.getElementById('mm-body');if(!box)return;
     box.innerHTML=heroHTML()+
-      '<div class="mm-sec"><span class="vbar"></span>訓練月曆<small>課表＋實際跑步 · 點任一天看分析</small></div>'+
+      '<div id="mm-garmin" class="mm-plan-note" aria-live="polite">'+GarminSummary.html()+'</div>'+
+      '<div class="mm-sec"><span class="vbar"></span>訓練月曆<small>點選日期看課表；實際跑量見 Garmin 摘要</small></div>'+
       '<div class="mmc-bar"><button class="mmc-nav" id="mmc-prev" aria-label="上個月">‹</button><div class="mmc-month" id="mmc-month"></div><button class="mmc-nav" id="mmc-next" aria-label="下個月">›</button></div>'+
       legendHTML()+
       '<div class="mmc-wrap" id="mmc-wrap"><div class="mmc-grid" id="mmc-grid"></div><div class="mm-pop" id="mm-pop" hidden></div></div>';
@@ -2442,18 +2340,13 @@ fetch('stocks.json?'+Date.now())
     }
   }
   function render(){
-    var box=document.getElementById('mm-body');if(!box)return;
-    if(dataLoaded){draw();return;}
-    box.innerHTML='<div class="mm-loading">載入 Strava 跑步資料…</div>';
-    fetch('coach.json?'+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(j){
-      if(j&&j.comments)COACH=j.comments;
-    }).catch(function(){});
-    fetch('marathon.json?'+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(j){
-      if(j&&j.runs&&Object.keys(j.runs).length)RUNS=normRuns(j.runs);
-      dataLoaded=true;draw();
-    }).catch(function(){dataLoaded=true;draw();});
+    draw();
   }
   wireModal('modal-marathon','marathon',render);
+  GarminSummary.load().then(function(){
+    document.getElementById('m-garmin').innerHTML=GarminSummary.html(true);
+    var detail=document.getElementById('mm-garmin');if(detail)detail.innerHTML=GarminSummary.html();
+  });
 })();
 </script>
 </body>
