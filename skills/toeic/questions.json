@@ -1,117 +1,117 @@
 {
-  "date": "2026-07-23",
+  "date": "2026-09-29",
   "p5": [
     {
-      "id": "2026-07-23-p5-0",
-      "tag": "Not until 倒裝",
+      "id": "2026-09-29-p5-0",
+      "tag": "比較結構（the + 比較級..., the + 比較級...，表「愈…愈…」）",
+      "pre": "The more thoroughly the compliance team documents each exception to the standard procurement process, the ",
+      "post": " it becomes to defend the firm's decisions during a regulatory audit.",
+      "opts": ["easier", "more easy", "easiest", "easily"],
+      "ans": 0,
+      "zh": "合規團隊將每一項偏離標準採購流程的例外情況記錄得「愈」詳盡，日後在法規查核中為公司決策辯護就「愈」容易。",
+      "why": "<b>the + 比較級..., the + 比較級...</b> 為固定句型，表示「愈…就愈…」；easy 為單音節形容詞，比較級須加 -er，故為 easier。more easy 為雙重比較級，用法錯誤；easiest 為最高級，不符此句型；easily 為副詞，此處應修飾主詞補語 it becomes，須用形容詞 easier 而非副詞。"
+    },
+    {
+      "id": "2026-09-29-p5-1",
+      "tag": "倒裝強調句型（So + 形容詞 + be動詞 + 主詞 + that）",
       "pre": "",
-      "post": " the forensic accountants traced the offshore transfers did the full scale of the embezzlement scheme become apparent to the audit committee.",
-      "opts": ["Not until", "Only after that", "No sooner than", "Until"],
+      "post": " stringent were the new export-control requirements that several smaller suppliers simply withdrew from the government contracting process altogether.",
+      "opts": ["So", "Such", "Very", "Too"],
       "ans": 0,
-      "zh": "「直到」鑑識會計師追查出這些境外匯款的流向，稽核委員會才驚覺這樁侵占案的完整規模。",
-      "why": "<b>Not until</b> + 子句置於句首時，主句須倒裝（did the full scale... become），為固定強調結構。Only after that 中的 that 使結構破碎（Only after 可直接接子句，不加 that）；No sooner than 語序錯誤（正確為 No sooner had... than）；Until 開頭的直述句不觸發倒裝，與主句的 did 倒裝語序矛盾。"
+      "zh": "新版出口管制規定「如此」嚴格，以至於幾家較小型的供應商乾脆完全退出政府採購流程。",
+      "why": "<b>So + 形容詞 + be動詞 + 主詞 + that</b> 為倒裝強調句型，So 置於句首引發倒裝（were the requirements），表示「如此…以致於」。Such 須接「Such + be動詞 + a/an + 名詞 + that」句型，不可直接接形容詞；Very 為單純加強語氣副詞，不引發倒裝也不與 that 子句連用；Too 之後接 to 不接 that 子句。"
     },
     {
-      "id": "2026-07-23-p5-1",
-      "tag": "however + 形容詞讓步子句",
-      "pre": "",
-      "post": " compelling the revenue projections may appear, the credit committee will not approve the loan without independently audited historical statements.",
-      "opts": ["However", "Whatever", "No matter", "Despite"],
+      "id": "2026-09-29-p5-2",
+      "tag": "省略比較句型（as did，代替前述動詞片語）",
+      "pre": "The finance director expressed serious concern about the proposed spin-off, as ",
+      "post": " several members of the audit committee.",
+      "opts": ["did", "do", "were", "had"],
       "ans": 0,
-      "zh": "無論營收預測看起來多麼吸引人，授信委員會在取得經獨立審計的歷史財報之前，都不會核准這筆貸款。",
-      "why": "<b>However</b> + 形容詞 + 主詞 + 動詞（However compelling the projections may appear）為正式讓步結構，表「無論多麼…」。Whatever 後接名詞而非形容詞；No matter 須寫成 No matter how 才能接形容詞；Despite 為介系詞，後須接名詞片語，不能直接接「形容詞＋子句」結構。"
+      "zh": "財務長對此次分拆計畫表達嚴重疑慮，稽核委員會的幾位委員「也是如此」。",
+      "why": "<b>as did</b> 用以替代前述動詞片語（expressed serious concern），避免重複，did 對應前句過去式動詞 expressed。do 為現在式，時態不符；were 為 be動詞，與一般動詞 expressed 不搭配；had 隱含完成式，時態邏輯與原句不符。"
     },
     {
-      "id": "2026-07-23-p5-2",
-      "tag": "同位語 that 子句＋假設語氣",
-      "pre": "The purchase agreement includes the stipulation that the deposit ",
-      "post": " in escrow until all zoning permits have been secured by the developer.",
-      "opts": ["be held", "is held", "will be held", "has been held"],
+      "id": "2026-09-29-p5-3",
+      "tag": "不定詞目的用法（so as to + 原形動詞）",
+      "pre": "The committee rescheduled the vote to next Tuesday ",
+      "post": " allow additional time for shareholders to review the amended proposal.",
+      "opts": ["so as to", "so that", "in order that", "for"],
       "ans": 0,
-      "zh": "買賣契約中載有一項約定條款：訂金「應予」保管於履約保證專戶，直到開發商取得所有土地使用分區許可為止。",
-      "why": "stipulation（約定條款）、requirement、demand 等名詞之後的同位語 that 子句須用假設語氣原形動詞（= should be held 省略 should），故選 <b>be held</b>，此為契約與正式書面英文的固定用法。is held、will be held、has been held 皆為直述語氣，不符合「規定、要求」類名詞後接假設語氣的文法規則。"
+      "zh": "委員會將表決延後至下週二，「以便」讓股東有更多時間審閱修訂後的提案。",
+      "why": "<b>so as to + 原形動詞</b> 為不定詞目的用法，可直接接原形動詞 allow。so that、in order that 皆須接「主詞+動詞」構成完整子句，不可直接接原形動詞；for 作目的介系詞須接名詞或動名詞，不可直接接原形動詞 allow。"
     },
     {
-      "id": "2026-07-23-p5-3",
-      "tag": "進階動詞語意辨別",
-      "pre": "In light of the system outage, the landlord agreed to ",
-      "post": " the thirty-day notice requirement and allow affected tenants to terminate their leases immediately.",
-      "opts": ["waive", "forfeit", "renounce", "exempt"],
+      "id": "2026-09-29-p5-4",
+      "tag": "進階形容詞語意辨別（feasible，-ible字尾形似詞）",
+      "pre": "Given the current market conditions, the board concluded that an aggressive expansion strategy was no longer ",
+      "post": ", and opted instead for a more conservative approach.",
+      "opts": ["feasible", "fallible", "flexible", "forcible"],
       "ans": 0,
-      "zh": "鑑於系統中斷事故，房東同意「免除」三十天預告期的規定，允許受影響的承租人立即終止租約。",
-      "why": "<b>waive</b>（主動放棄行使、免除規定）精準對應「房東放棄要求三十天預告期」的語境，waive a requirement 為固定搭配。forfeit（因違規而喪失）帶被動懲罰意味；renounce（正式宣告放棄信仰、權位）語域過重；exempt 的結構為 exempt sb from sth（免除某人義務），受詞應為人而非規定本身。"
-    },
-    {
-      "id": "2026-07-23-p5-4",
-      "tag": "no less... than 比較結構",
-      "pre": "The arbitration clause in the side letter is ",
-      "post": " the one in the master agreement, despite its considerably more informal drafting style.",
-      "opts": ["no less binding than", "not binding less than", "no more binding as", "less binding not than"],
-      "ans": 0,
-      "zh": "附函中的仲裁條款，儘管行文風格明顯較為非正式，其法律拘束力「絲毫不亞於」主約中的條款。",
-      "why": "<b>no less + 形容詞 + than</b>（絲毫不亞於）為正式比較結構，強調兩者同樣具有拘束力，與 despite 引導的讓步（行文較不正式）形成語意呼應。not binding less than 與 less binding not than 語序皆錯誤；no more binding as 混用了 as...as 與 more...than 兩種結構，文法不成立。"
+      "zh": "鑑於當前市場狀況，董事會認定積極擴張策略已不再「可行」，因而轉為採取較為保守的做法。",
+      "why": "<b>feasible</b>（可行的、行得通的）精準對應此處語境。fallible（可能犯錯的、不可靠的，通常形容人或判斷）語意不符；flexible（有彈性的、靈活的）語意不符；forcible（強制的、用武力的）語意不符，四字字尾相同（-ible）易混淆，屬進階詞彙辨析。"
     }
   ],
   "p6": {
-    "id": "2026-07-23-p6",
-    "title": "NOTICE: Annual Physical Inventory Count — Warehouse Operations Suspended",
+    "id": "2026-09-29-p6",
+    "title": "MEMORANDUM: Revised Guidelines on Acceptance of Client Gifts and Hospitality",
     "seg": [
       [
-        "To all department heads and warehouse staff: The annual physical inventory count ",
+        "To all client-facing staff: Effective the start of next fiscal year, any gift or hospitality offered by a current or prospective client with a value exceeding NT$3,000 ",
         { "b": 0 },
-        " at all three distribution centers from Friday 28 August through Sunday 30 August, during which time no goods may be received, picked, or shipped."
+        " reported to the Compliance Office within five business days of receipt, regardless of whether the item was accepted or declined."
       ],
       [
         { "b": 1 },
-        ", customer-facing teams should advise clients this week that orders placed after Wednesday 26 August will not leave our facilities until Monday 31 August at the earliest."
+        ", gifts of nominal value — such as branded promotional items worth less than NT$500 — need not be individually reported, though employees should still exercise discretion regarding frequency."
       ],
       [
-        "Count teams will work in pairs, with one member counting and the other independently ",
+        "Employees must never ",
         { "b": 2 },
-        " each tally against the warehouse management system before discrepancies are escalated."
+        " a client gift's declared value in order to avoid the reporting threshold, even if the actual market value is only marginally above the NT$3,000 limit."
       ],
       [
         { "b": 3 },
-        " Final reconciled figures will be submitted to the finance department by 4 September for year-end reporting."
+        " Employees with questions about whether a specific offer requires reporting should contact the Compliance Office before accepting it."
       ]
     ],
     "blanks": [
       {
-        "tag": "時態語態",
+        "tag": "時態語態（義務被動語態）",
         "col1": true,
-        "opts": ["will be conducted", "conducts", "was conducted", "is conducting"],
+        "opts": ["must be", "is", "was", "has been"],
         "ans": 0,
-        "zh": "致各部門主管與倉儲同仁：年度實地盤點「將於」8月28日（週五）至8月30日（週日）在三座配送中心「舉行」，期間不得收貨、揀貨或出貨。",
-        "why": "主詞 the annual physical inventory count 是「被執行」的活動，須用被動語態；8月底才進行，須用未來式，故選 <b>will be conducted</b>。conducts 與 is conducting 為主動語態，盤點不會自行執行；was conducted 為過去式被動，與未來時程矛盾。"
+        "zh": "致所有對外服務客戶之同仁：自下個會計年度起，任何現有或潛在客戶所提供、價值超過新台幣3,000元之禮品或款待，「須」於收受後五個工作天內「通報」合規辦公室，無論該項目最終是接受或婉拒。",
+        "why": "此句表達新規定的強制義務，須用義務被動語態 <b>must be</b> reported。is 為單純現在式被動，缺乏義務語氣；was 為過去式被動，時態不符；has been 為現在完成式被動，語意錯誤。"
       },
       {
         "tag": "語篇連接詞",
         "col1": true,
-        "opts": ["With this in mind", "Be that as it may", "To the contrary", "As luck would have it"],
+        "opts": ["By contrast", "Therefore", "In addition", "Namely"],
         "ans": 0,
-        "zh": "「有鑑於此」，面對客戶的團隊應於本週告知客戶：8月26日（週三）之後成立的訂單，最快須待8月31日（週一）才會出貨。",
-        "why": "前句說明盤點期間暫停出貨，本句要求客服團隊「基於這項安排」預先通知客戶，故選 <b>With this in mind</b>（有鑑於此）。Be that as it may（即便如此）表讓步；To the contrary（恰恰相反）表反駁；As luck would have it（碰巧）表偶然，皆與「依據前述安排採取行動」的邏輯不符。"
+        "zh": "「相對地」，象徵性價值的禮品——例如價值低於新台幣500元的品牌宣傳品——則無須個別通報，惟員工仍應留意收受頻率是否合宜。",
+        "why": "<b>By contrast</b>（相對地）用以與前句「超過門檻須通報」的規定形成對比，引出低於門檻的例外情況。Therefore（因此）表因果；In addition（此外）表補充遞進；Namely（亦即）表舉例說明，均不符合此處的對比語意。"
       },
       {
-        "tag": "詞彙語意（分詞）",
+        "tag": "進階動詞語意辨別（misrepresent，mis-字首形似詞）",
         "col1": true,
-        "opts": ["verifying", "dispatching", "auditing themselves", "estimating"],
+        "opts": ["misrepresent", "misappropriate", "mismanage", "misconstrue"],
         "ans": 0,
-        "zh": "盤點小組將兩人一組作業：一人負責清點，另一人獨立「核對」每筆盤點數字與倉儲管理系統的紀錄，差異數才會往上呈報。",
-        "why": "<b>verifying</b>（核對、驗證）精準描述第二位成員「將盤點結果與系統紀錄交叉核對」的職責，符合雙人互核的內控設計。dispatching（發貨）與盤點期間停止出貨矛盾；auditing themselves 反身用法錯誤且違背獨立核對原則；estimating（估算）與實地盤點要求精確清點的目的相反。"
+        "zh": "員工絕不應為規避通報門檻，而「謊報」客戶禮品的申報價值，即便該禮品實際市價僅些微超過新台幣3,000元上限。",
+        "why": "<b>misrepresent</b>（不實陳述、謊報）精準對應此處語境。misappropriate（侵占、盜用，通常指公款或資產）語意不符；mismanage（管理不當）語意不符；misconstrue（誤解、曲解他人言論或意圖）語意不符，四字字首相同（mis-）易混淆，屬進階詞彙辨析。"
       },
       {
         "tag": "句子插入",
         "col1": true,
         "opts": [
-          "Handheld scanners and pre-printed count sheets will be distributed at each site's briefing session on Thursday 27 August.",
-          "The staff badminton tournament finals have been rescheduled to mid-September.",
-          "Congratulations to the logistics team on achieving one full year without a lost-time incident.",
-          "The employee parking lot will be repaved during the first week of October."
+          "This policy applies equally to gifts offered during the ordinary course of business and those extended in connection with holidays, personal milestones, or other special occasions.",
+          "The office's annual charity fundraiser will take place in early November this year.",
+          "The facilities team will replace the lobby furniture during the upcoming renovation.",
+          "Employees are reminded that the office will close early on the last business day of the year."
         ],
         "ans": 0,
-        "zh": "「手持掃描器與預印盤點表將於8月27日（週四）各據點的行前說明會上發放。」最終核對完成的數字將於9月4日前送交財務部門，供年度結算申報使用。",
-        "why": "段落主題為「年度盤點作業安排」，此句補上盤點工具的發放時間與行前說明會，與前段「雙人盤點流程」及後句「數字送交財務」構成完整的作業時序。其餘選項（羽球賽、工安紀錄、停車場翻修）皆與盤點主題無關，插入後語意斷裂。"
+        "zh": "「本政策同樣適用於日常業務往來中所收受之禮品，以及因節慶、個人紀念日或其他特殊場合而致贈之禮品。」員工若對某項餽贈是否須通報有疑問，應於接受前先洽詢合規辦公室確認。",
+        "why": "段落主題為「客戶禮品與款待接受規範修訂」，此句說明政策適用範圍不因致贈情境（日常業務或節慶場合）而有差異，與下一句「有疑問應先洽合規辦公室」共同構成適用範圍與執行程序的完整收尾。其餘選項（年度慈善募款、大廳家具汰換、年終提早下班）皆與禮品接受規範無關，插入後語意斷裂。"
       }
     ]
   }
