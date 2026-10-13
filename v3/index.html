@@ -1069,6 +1069,8 @@ a{color:inherit;text-decoration:none}
 </div><!-- /wrap -->
 
 <script src="garmin-summary.js"></script>
+<script src="run-reviews.js"></script>
+<link rel="stylesheet" href="run-reviews.css" />
 <script>
 'use strict';
 
@@ -2256,16 +2258,17 @@ fetch('stocks.json?'+Date.now())
     var html='';['一','二','三','四','五','六','日'].forEach(function(w){html+='<div class="mmc-dow">'+w+'</div>';});
     for(var i=0;i<lead;i++)html+='<div class="mmc-cell empty"></div>';
     for(var d=1;d<=dim;d++){
-      var dt=new Date(view.y,view.m,d),key=keyOf(dt),pl=PLAN[key],has=pl;
+      var dt=new Date(view.y,view.m,d),key=keyOf(dt),pl=PLAN[key],actual=RunReviews.hasDate(key),has=pl||actual;
       var cls='mmc-cell'+(has?' has':'')+(key===keyOf(today)?' today':'')+(pl&&pl.c==='race'?' raceday':'');
       html+='<div class="'+cls+'"'+(has?' data-date="'+key+'" role="button" tabindex="0" aria-label="'+key+' '+(pl?pl.l:'實際跑步')+'"':'')+'>'+
         '<div class="mmc-day">'+d+'</div>'+
         (pl?'<span class="mmc-tag '+tagCls(pl.c)+'">'+pl.l+'</span>':'')+
+        (actual?'<span class="mmc-tag e">已同步實跑</span>':'')+
         '</div>';
     }
     grid.innerHTML=html;
   }
-  function shift(n){view.m+=n;if(view.m<0){view.m=11;view.y--;}if(view.m>11){view.m=0;view.y++;}hidePop();drawCal();}
+  function shift(n){view.m+=n;if(view.m<0){view.m=11;view.y--;}if(view.m>11){view.m=0;view.y++;}hidePop();RunReviews.reset();drawCal();}
 
   // ── Popover ─────────────────────────────────
   function ic(k,v,cls){return '<div class="mm-ic'+(cls?' '+cls:'')+'"><div class="k">'+k+'</div><div class="v">'+v+'</div></div>';}
@@ -2297,8 +2300,14 @@ fetch('stocks.json?'+Date.now())
   function hidePop(){var p=document.getElementById('mm-pop');if(p){p.hidden=true;p.classList.remove('sheet');}}
   function openPop(cell){
     var key=cell.getAttribute('data-date');if(!key)return;
+    if(RunReviews.hasDate(key)){
+      hidePop();RunReviews.mount(key);
+      document.getElementById('mm-reviews').scrollIntoView({block:'start'});
+      document.getElementById('rr-back').focus({preventScroll:true});return;
+    }
+    RunReviews.reset();
     pop=document.getElementById('mm-pop');
-    pop.innerHTML=planPopHTML(key);
+    pop.innerHTML=(PLAN[key]?planPopHTML(key):'<button class="mm-px" data-popclose>✕</button><div class="mm-poph">'+key+' · 實際跑步</div>')+RunReviews.dayLink(key);
     pop.hidden=false;
     var xb=pop.querySelector('.mm-px');if(xb)xb.addEventListener('click',function(e){e.stopPropagation();hidePop();});
     if(window.innerWidth<=760){pop.classList.add('sheet');pop.style.left='';pop.style.top='';return;}
@@ -2317,24 +2326,25 @@ fetch('stocks.json?'+Date.now())
     var box=document.getElementById('mm-body');if(!box)return;
     box.innerHTML=heroHTML()+
       '<div id="mm-garmin" class="mm-plan-note" aria-live="polite">'+GarminSummary.html()+'</div>'+
-      '<div class="mm-sec"><span class="vbar"></span>訓練月曆<small>點選日期看課表；實際跑量見 Garmin 摘要</small></div>'+
+      '<div class="mm-sec"><span class="vbar"></span>訓練月曆<small>點選日期看課表與實跑評價</small></div>'+
       '<div class="mmc-bar"><button class="mmc-nav" id="mmc-prev" aria-label="上個月">‹</button><div class="mmc-month" id="mmc-month"></div><button class="mmc-nav" id="mmc-next" aria-label="下個月">›</button></div>'+
       legendHTML()+
-      '<div class="mmc-wrap" id="mmc-wrap"><div class="mmc-grid" id="mmc-grid"></div><div class="mm-pop" id="mm-pop" hidden></div></div>';
+      '<div class="mmc-wrap" id="mmc-wrap"><div class="mmc-grid" id="mmc-grid"></div><div class="mm-pop" id="mm-pop" hidden></div></div>'+
+      '<section id="mm-reviews" aria-label="跑後綜合評價" hidden></section>';
     document.getElementById('mmc-prev').onclick=function(){shift(-1);};
     document.getElementById('mmc-next').onclick=function(){shift(1);};
     document.getElementById('mmc-grid').addEventListener('click',function(e){var c=e.target.closest('.mmc-cell.has');if(c)openPop(c);});
     document.getElementById('mmc-grid').addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){var c=e.target.closest('.mmc-cell.has');if(c){e.preventDefault();openPop(c);}}});
-    drawCal();
+    drawCal();RunReviews.reset();
     if(!wired){
       document.addEventListener('click',function(e){
         var p=document.getElementById('mm-pop');if(!p||p.hidden)return;
+        var reviewLink=e.target.closest('[data-review-date]');
+        if(reviewLink){hidePop();RunReviews.mount(reviewLink.getAttribute('data-review-date'));document.getElementById('mm-reviews').scrollIntoView({block:'start'});return;}
         if(e.target.closest('[data-popclose]')){hidePop();return;}
         if(e.target.closest('#mm-pop')||e.target.closest('.mmc-cell.has'))return;
         hidePop();
       });
-      var mbEl=document.querySelector('#modal-marathon .modal-body');
-      if(mbEl)mbEl.addEventListener('scroll',hidePop);
       window.addEventListener('resize',hidePop);
       wired=true;
     }
@@ -2343,6 +2353,7 @@ fetch('stocks.json?'+Date.now())
     draw();
   }
   wireModal('modal-marathon','marathon',render);
+  RunReviews.load().then(function(){if(document.getElementById('mmc-grid'))drawCal();});
   GarminSummary.load().then(function(){
     document.getElementById('m-garmin').innerHTML=GarminSummary.html(true);
     var detail=document.getElementById('mm-garmin');if(detail)detail.innerHTML=GarminSummary.html();
