@@ -1758,7 +1758,7 @@ var MarathonTraining=(function(){
   }
   var plan={};
   for(var w=0;w<2;w++){
-    [0,10,0,10,8,8,14].forEach(function(km,i){
+    [0,10,10,0,8,8,14].forEach(function(km,i){
       var key=keyAt(ordinal(start)+w*7+i), rest=km===0, long=i===6, recovery=i===5;
       plan[key]={
         c:rest?'rest':long?'long':'e', km:km,
@@ -2235,7 +2235,7 @@ fetch('stocks.json?'+Date.now())
     }).join('');
     return '<div class="mm-hero2"><div class="mm-h2l"><div class="mm-k">'+s.weekLabel+' · '+s.weekStart.slice(5).replace('-','/')+'–'+s.weekEnd.slice(5).replace('-','/')+'</div>'+
       '<div class="mm-pred">'+s.km+'<small>公里 / '+s.runs+' 次</small></div>'+
-      '<div class="mm-goal">今日：<b>'+s.today+'</b><br>本期 10/12–10/25，每週五天、50K，全為輕鬆跑；第二週依恢復調整。</div>'+
+      '<div class="mm-goal">今日：<b>'+s.today+'</b><br>本期 10/12–10/25，每週一、四休息；五天、50K，全為輕鬆跑。第二週依恢復調整。</div>'+
       '<div class="mm-trcap">能完整交談，用力感 2–3/10；參考 6:45–7:20/km，可更慢。漏課不補跑。</div></div>'+
       '<div class="mm-h2r"><div class="mm-k">三場全馬 · 目標與倒數</div>'+races+
       '<div class="mm-goal">完賽能力：<b>待訓練後評估</b><br>目標配速不是目前能力預測。兩場間隔 14 天、21 天，依賽後恢復調整。</div></div></div>'+
