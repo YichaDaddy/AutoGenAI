@@ -38,6 +38,17 @@ test('nonfinite phase values reject the document',()=>{
   const value=fixture();value.runs[0].phases[0].heart_rate=Infinity;
   assert.throws(()=>setup().parse(value));
 });
+test('weather displays Celsius values and humidity without exposing raw Fahrenheit',async()=>{
+  const value=fixture();
+  value.runs[0].weather={temperature_celsius:24.4,apparent_temperature_celsius:26.7,
+    humidity_percent:72,status:'available',source_temperature:76,source_temperature_unit:'F'};
+  const review=setup(value);await review.load();review.mount('2026-10-13');
+  const output=review.html();
+  assert(output.includes('<strong>24.4</strong>'));
+  assert(output.includes('<strong>26.7</strong>'));
+  assert(output.includes('<strong>72</strong>'));
+  assert(!output.includes('<strong>76</strong>'));
+});
 test('missing review file produces a visible error when a date is selected',async()=>{
   const review=setup(fixture(),false);await review.load();review.mount('2026-10-13');
   assert(!review.html().includes('10.01'));assert(review.html().includes('讀取失敗'));
