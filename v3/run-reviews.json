@@ -1,8 +1,78 @@
 {
   "schema_version": 1,
-  "generated_on": "2026-10-17",
+  "generated_on": "2026-10-18",
   "local_preview": false,
   "runs": [
+    {
+      "date": "2026-10-18",
+      "distance_km": 14.01,
+      "duration_seconds": 5723.731018066406,
+      "pace_seconds": 408.6,
+      "average_hr": 142.0,
+      "maximum_hr": 153.0,
+      "cadence": 161.8,
+      "drift_percent": 3.0,
+      "drift_note": "心率/速度比的前後半程比較",
+      "pace_cv_percent": 8.4,
+      "hr_coverage": 1.0,
+      "high_hr_share": 0.026,
+      "phases": [
+        {
+          "label": "前段",
+          "heart_rate": 137.2,
+          "pace_seconds": 408.1,
+          "cadence": 159.0
+        },
+        {
+          "label": "中段",
+          "heart_rate": 145.2,
+          "pace_seconds": 404.1,
+          "cadence": 162.2
+        },
+        {
+          "label": "後段",
+          "heart_rate": 144.6,
+          "pace_seconds": 404.6,
+          "cadence": 163.9
+        }
+      ],
+      "weather": {
+        "temperature_celsius": 25.6,
+        "apparent_temperature_celsius": 25.6,
+        "humidity_percent": 85.0,
+        "status": "available",
+        "source_temperature": 78.0,
+        "source_temperature_unit": "F"
+      },
+      "comparison": {
+        "planned_km": 14.0,
+        "actual_day_km": 14.01,
+        "distance_status": "matched",
+        "intensity_status": "consistent",
+        "explanation": "距離以當天所有跑步合計比對，±10% 作為預覽容許範圍。強度參考既有個人 Z2 上緣 149 bpm；仍需用力感 2–3/10 與交談測試確認。"
+      },
+      "verdict": "距離與心率符合參考，用力感待確認",
+      "observations": [
+        "前段平均心率 137.2、後段 144.6 bpm，差 +7.4 bpm；包含熱身變化，不能直接視為心率漂移。",
+        "後段每公里較前段差 -3.5 秒（正值為變慢）；配合分段心率觀察，仍需考慮停留與路線。",
+        "後段步頻較前段差 +4.9 spm；步頻變化可能伴隨速度改變，不能單獨判斷跑姿好壞。",
+        "平均步頻 162 spm；不套用固定 180 標準，需搭配速度及前後段變化觀察。",
+        "後半段心率/速度比相對前半段變化 +3.0%；不能單憑此值認定疲勞或退步。",
+        "Garmin 活動天氣 25.6°C、濕度 85%。",
+        "溫暖偏濕的環境可能增加散熱負擔，評價以實際心率和配速反應為主。",
+        "在 25.6°C、濕度 85% 的背景下，後段心率較前段差 +7.4 bpm，每公里配速差 -3.5 秒。心率反應值得留意；若當時交談吃力，這趟應視為高於輕鬆強度。",
+        "這是天氣與跑步反應的同時觀察，不能證明因果；起跑熱身、坡度、補水與睡眠也可能影響心率。"
+      ],
+      "next_step": "下一次遇到相近溫濕度，先慢慢起跑，依交談感調整配速並安排補水；若後段心率上升且更吃力，放慢或縮短，不補跑漏掉的公里數。",
+      "limitations": [
+        "未取得主觀用力感、交談測試與隔日疲勞，無法確認完全符合輕鬆跑。",
+        "149 bpm 來自既有個人分區；此版 20% 高心率時間與距離 ±10% 為待確認的比較規則。",
+        "逐點配速由 GPS 推算，轉彎、遮蔽與地形會影響結果；不作精確強度判定。",
+        "未取得 Garmin 爬升摘要；即使配速穩定，坡度仍可能影響心率/速度比。",
+        "整體比較使用心率差 >5 bpm、後段配速放慢 >5% 作提醒，非熱傷害或疲勞診斷。"
+      ],
+      "weather_run_assessment": "rising_effort"
+    },
     {
       "date": "2026-10-14",
       "distance_km": 10.01,
@@ -548,76 +618,6 @@
         "Garmin 活動天氣 25.0°C、濕度 63%。",
         "溫暖偏濕的環境可能增加散熱負擔，評價以實際心率和配速反應為主。",
         "在 25.0°C、濕度 63% 的背景下，後段心率較前段差 +5.5 bpm，每公里配速差 -13.8 秒。心率反應值得留意；若當時交談吃力，這趟應視為高於輕鬆強度。",
-        "這是天氣與跑步反應的同時觀察，不能證明因果；起跑熱身、坡度、補水與睡眠也可能影響心率。"
-      ],
-      "next_step": "下一次遇到相近溫濕度，先慢慢起跑，依交談感調整配速並安排補水；若後段心率上升且更吃力，放慢或縮短，不補跑漏掉的公里數。",
-      "limitations": [
-        "未取得主觀用力感、交談測試與隔日疲勞，無法確認完全符合輕鬆跑。",
-        "149 bpm 來自既有個人分區；此版 20% 高心率時間與距離 ±10% 為待確認的比較規則。",
-        "逐點配速由 GPS 推算，轉彎、遮蔽與地形會影響結果；不作精確強度判定。",
-        "未取得 Garmin 爬升摘要；即使配速穩定，坡度仍可能影響心率/速度比。",
-        "整體比較使用心率差 >5 bpm、後段配速放慢 >5% 作提醒，非熱傷害或疲勞診斷。"
-      ],
-      "weather_run_assessment": "rising_effort"
-    },
-    {
-      "date": "2026-09-19",
-      "distance_km": 9.99,
-      "duration_seconds": 3844.352996826172,
-      "pace_seconds": 384.7,
-      "average_hr": 148.0,
-      "maximum_hr": 161.0,
-      "cadence": 179.2,
-      "drift_percent": 7.59,
-      "drift_note": "心率/速度比的前後半程比較",
-      "pace_cv_percent": 6.3,
-      "hr_coverage": 1.0,
-      "high_hr_share": 0.595,
-      "phases": [
-        {
-          "label": "前段",
-          "heart_rate": 136.4,
-          "pace_seconds": 387.7,
-          "cadence": 179.4
-        },
-        {
-          "label": "中段",
-          "heart_rate": 150.9,
-          "pace_seconds": 389.0,
-          "cadence": 179.1
-        },
-        {
-          "label": "後段",
-          "heart_rate": 155.9,
-          "pace_seconds": 375.2,
-          "cadence": 179.1
-        }
-      ],
-      "weather": {
-        "temperature_celsius": 24.4,
-        "apparent_temperature_celsius": 24.4,
-        "humidity_percent": 80.0,
-        "status": "available",
-        "source_temperature": 76.0,
-        "source_temperature_unit": "F"
-      },
-      "comparison": {
-        "planned_km": null,
-        "actual_day_km": 9.99,
-        "distance_status": "unplanned",
-        "intensity_status": "unknown",
-        "explanation": "這天沒有已確認的課表，僅分析實際跑步。"
-      },
-      "verdict": "沒有當天課表，僅提供跑後分析",
-      "observations": [
-        "前段平均心率 136.4、後段 155.9 bpm，差 +19.5 bpm；包含熱身變化，不能直接視為心率漂移。",
-        "後段每公里較前段差 -12.5 秒（正值為變慢）；配合分段心率觀察，仍需考慮停留與路線。",
-        "後段步頻較前段差 -0.3 spm；步頻變化可能伴隨速度改變，不能單獨判斷跑姿好壞。",
-        "平均步頻 179 spm；不套用固定 180 標準，需搭配速度及前後段變化觀察。",
-        "後半段心率/速度比相對前半段變化 +7.6%；不能單憑此值認定疲勞或退步。",
-        "Garmin 活動天氣 24.4°C、濕度 80%。",
-        "溫暖偏濕的環境可能增加散熱負擔，評價以實際心率和配速反應為主。",
-        "在 24.4°C、濕度 80% 的背景下，後段心率較前段差 +19.5 bpm，每公里配速差 -12.5 秒。心率反應值得留意；若當時交談吃力，這趟應視為高於輕鬆強度。",
         "這是天氣與跑步反應的同時觀察，不能證明因果；起跑熱身、坡度、補水與睡眠也可能影響心率。"
       ],
       "next_step": "下一次遇到相近溫濕度，先慢慢起跑，依交談感調整配速並安排補水；若後段心率上升且更吃力，放慢或縮短，不補跑漏掉的公里數。",
