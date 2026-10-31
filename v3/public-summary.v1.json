@@ -2,12 +2,12 @@
   "coach_summary": "",
   "freshness": {
     "data_through": "2026-10-29",
-    "generated_on": "2026-10-30",
-    "is_stale": false
+    "generated_on": "2026-10-31",
+    "is_stale": true
   },
   "plan_compliance_ratio": null,
   "race": {
-    "days_remaining": 51,
+    "days_remaining": 50,
     "distance_km": 42.195,
     "name": "2026 台北馬拉松",
     "race_date": "2026-12-20"
@@ -23,7 +23,7 @@
   },
   "volume": {
     "activity_count_7_days": 5,
-    "last_28_days_km": 105.07,
+    "last_28_days_km": 92.06,
     "last_7_days_km": 30.03
   }
 }
